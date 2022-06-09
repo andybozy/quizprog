@@ -1,0 +1,39 @@
+{
+	"title": "Example Quiz",
+	"description": "This is QuizProg example JSON data.",
+	"lives": 3,
+	"randomize": true,
+	"showcount": false,
+	"questions": [
+	{
+		"question": "Example Question 1",
+		"a": "Wrong",
+		"b": "Wrong",
+		"c": "Correct",
+		"d": "Wrong",
+		"wrongmsg": {
+			"a": "Wrong",
+			"b": "Wrong",
+			"d": "Wrong"
+		},
+		"correct": "c",
+		"explanation": "Example explanation 1"
+	},
+	{
+		"question": "Example Question 2",
+		"a": "Correct",
+		"b": "Wrong",
+		"c": "Wrong",
+		"d": "Wrong",
+		"wrongmsg": {
+			"b": "Wrong",
+			"c": "Wrong",
+			"d": "Wrong"
+		},
+		"correct": "a",
+		"explanation": "Example explanation 2"
+	}
+	],
+	"fail": "And you fail.",
+	"finish": "Thanks for playing!"
+}
