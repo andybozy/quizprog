@@ -23,7 +23,7 @@ python3 quizprog.py [-h, --help] json_path
 - - `wrongmsg` (`dict`) - Lists incorrect answer messages when a player chooses one.
 - - - In `wrongmsg`:
 - - - `a`, `b`, `c`, `d` (`string`) - Incorrect answer message when choosing an incorrect answer. The message for the correct answer will be ignored and is optional.
-- - `correct` (`string`) - Can be either `a`, `b`, `c` or `d`. Specifies the correct answer.
+- - `correct` (`string`) - Can be either `a`, `b`, `c`, `d` or `all`. Specifies the correct answer. If set to `all`, all answers are correct.
 - - `explanation` (`string`) - An explanation of the question. *(optional)*
 - `fail` (`string`) - Fail message when running out of lives. If specified, must be used with the `lives` variable. If not specified, uses a generic fail message. *(optional)*
 - `finish` (`string`) - Finish message when completing all the quiz questions.
