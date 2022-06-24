@@ -8,6 +8,7 @@ python3 quizprog.py [-h, --help] json_path
 | Parameter | Description |
 |--|--|
 | `json_path` | Path to the JSON file which will be used to load quiz data. |
+| `-d, --disablelog` | Disable logging. |
 | `-h, --help` | Show help. |
 
 # Valid Variables
