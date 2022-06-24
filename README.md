@@ -16,6 +16,7 @@ python3 quizprog.py [-h, --help] json_path
 - `lives` (`int`) - The maximum amount of times a player can get a question incorrect. If not specified, the lives mechanic will be disabled. *(optional)*
 - `randomize` (`bool`) - Set to `true` to randomize the order of questions. If not specified, uses default value. *(optional; default: `false`)*
 - `showcount` (`bool`) - Set to `false` to hide the question count. If not specified, uses default value. *(optional; default: `true`)*
+- `wrongmsg` (`list`) - Lists global incorrect answer messages. If not specified or empty, this feature will be disabled. *(optional)*
 - `questions` (`list`) - The questions of the quiz.
 - - For each question (`dict`) in `questions`:
 - - `question` (`string`) - The question.
