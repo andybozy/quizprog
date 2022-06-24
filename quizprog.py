@@ -244,6 +244,7 @@ def load_quizzes():
 			if print_wrong:
 				if check_question_optional_element('wrongmsg', rangelist[i]) and choice in question_data['wrongmsg']:
 					print(question_data['wrongmsg'][choice] + '\n')
+				elif allow_wrong: print(random.choice(wrongmsg))
 				else:
 					if allow_lives: print('Choice ' + choice.upper() + ' is incorrect! You lost a life!\n')
 					else: print('Choice ' + choice.upper() + ' is incorrect!\n')
