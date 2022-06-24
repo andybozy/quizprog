@@ -4,6 +4,7 @@
 	"lives": 3,
 	"randomize": true,
 	"showcount": false,
+	"wrongmsg": ["Wrong message 1", "Wrong message 2"],
 	"questions": [
 	{
 		"question": "Example Question 1",
