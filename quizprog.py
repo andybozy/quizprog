@@ -10,7 +10,7 @@ import tempfile
 import traceback
 from urllib import parse as urlparse
 
-version = '1.0.0'
+version = '1.0.1'
 
 import argparse
 parser = argparse.ArgumentParser(description = 'Loads a pre-made quiz from a JSON, either from the internet or locally.', epilog = 'QuizProg v{0}\n(c) 2022 GamingWithEvets Inc. All rights reserved.'.format(version), formatter_class = argparse.RawTextHelpFormatter, allow_abbrev = False)
@@ -43,10 +43,10 @@ if is_url:
 			print_tag('expected status code 200 [!]')
 			abort(False)
 			parser.error(str(response.status_code) + ' ' + response.reason)
-	except:
-		print_tag('unable to connect to the internet [!]')
+	except Exception:
+		print_tag('internet connection error occurred [!]')
 		abort(False)
-		parser.error('unable to connect to the internet.\nplease try again when you have an internet connection.')
+		parser.error('error connecting to URL. maybe check your internet connection?')
 	file = tempfile.TemporaryFile(mode = 'w+')
 	file.write(response.text)
 	file.seek(0)
@@ -86,6 +86,11 @@ def check_element(element, jsondata = None, valtype = str):
 			parser.error('element "' + element + '" is required')
 		else: print_tag('checking element "' + element + '": found')
 
+		if not datafile[element]:
+			print_tag('element "' + element + '" is blank/NoneType [!]')
+			abort(False)
+			parser.error('element "' + element + '" cannot be blank or NoneType')
+
 		if type(datafile[element]) is not valtype:
 			print_tag('checking type of element "' + element + '": ' + type(datafile[element]).__name__ + ' [!]')
 			abort(False)
@@ -98,6 +103,11 @@ def check_element(element, jsondata = None, valtype = str):
 			abort(False)
 			parser.error('element "' + element + '" in "' + jsondata + '" is required')
 		else: print_tag('checking element "' + element + '"" in "' + jsondata + '": found')
+
+		if not datafile[jsondata][element]:
+			print_tag('element "' + element + '" in "' + jsondata + '" is blank/NoneType [!]')
+			abort(False)
+			parser.error('element "' + element + '" in "' + jsondata + '" cannot be blank or NoneType')
 
 		if type(datafile[jsondata][element]) is not valtype:
 			print_tag('checking type of element "' + element + '" in "' + jsondata + '": ' + type(datafile[element]).__name__ + ' [!]')
@@ -112,6 +122,11 @@ def check_question_element(element, qid):
 		parser.error('element "' + element + '" in question ' + str(qid + 1) + ' is required')
 	else: print_tag('checking question element "' + element + '" in question ' + str(qid + 1) + ': found')
 
+	if datafile['questions'][qid][element]:
+		print_tag('question element "' + element + '" in question ' + str(qid + 1) + ' is blank/NoneType [!]')
+		abort(False)
+		parser.error('element "' + element + '" in question ' + str(qid + 1) + ' cannot be blank or NoneType')
+
 	if type(datafile['questions'][qid][element]) is not str:
 		print_tag('checking type of question element "' + element + '" in question ' + str(qid + 1) + '": ' + type(datafile['questions'][qid][element]).__name__ + ' [!]')
 		abort(False)
@@ -121,40 +136,47 @@ def check_question_element(element, qid):
 def check_optional_element(element, jsondata = None, valtype = str):
 	test1 = False
 	test2 = False
+	test3 = False
 	if jsondata == None:
 		if element not in datafile:
 			print_tag('checking optional element "' + element + '": not found')
 		else:
 			print_tag('checking optional element "' + element + '": found')
 			test1 = True
-
+			if not datafile[element]: print_tag('element "' + element + '" is blank/NoneType')
+			else: test2 = True
 			print_tag('checking type of optional element "' + element + '": ' + type(datafile[element]).__name__)
-			if type(datafile[element]) is valtype: test2 = True
+			if type(datafile[element]) is valtype: test3 = True
 	else:
 		if element not in datafile[jsondata]:
 			print_tag('checking optional element "' + element + '"" in "' + jsondata + '": not found')
 		else:
 			print_tag('checking optional element "' + element + '"" in "' + jsondata + '": found')
 			test1 = True
+			if not datafile[jsondata][element]: print_tag('element "' + element + '" in "' + jsondata + '" is blank/NoneType')
+			else: test2 = True
 			print_tag('checking type of optional element "' + element + '": ' + type(datafile[element]).__name__)
-			if type(datafile[jsondata][element]) is valtype: test2 = True
+			if type(datafile[jsondata][element]) is valtype: test3 = True
 
-	if test1 and test2: return True
+	if test1 and test2 and test3: return True
 	else: return False
 
 def check_question_optional_element(element, qid, valtype = str):
 	test1 = False
 	test2 = False
+	test3 = False
 
 	if element not in datafile['questions'][qid]:
 		print_tag('checking optional question element "' + element + '" in question ' + str(qid + 1) + ': not found')
 	else:
 		print_tag('checking optional question element "' + element + '" in question ' + str(qid + 1) + ': found')
 		test1 = True
+		if datafile['questions'][qid][element]: print_tag('question element "' + element + '" in question ' + str(qid + 1) + ' is blank/NoneType')
+		else: test2 = True
 		print_tag('checking type of optional question element "' + element + '" in question ' + str(qid + 1) + '": ' + type(datafile['questions'][qid][element]).__name__)
-		if type(datafile['questions'][qid][element]) is valtype: test2 = True
+		if type(datafile['questions'][qid][element]) is valtype: test3 = True
 
-	if test1 and test2: return True
+	if test1 and test2 and test3: return True
 	else: return False
 
 check_element('title')
