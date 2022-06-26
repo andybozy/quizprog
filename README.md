@@ -2,6 +2,8 @@
 
 Make sure to install all the listed modules in `requirements.txt` first, individually or with `pip install -r requirements.txt`.
 
+As the newest version of wxPython, one of the required modules to run the editor, currently doesn't build on Python 3.10, you can use Python 3.9 or [install a snapshot build for Python 3.10](https://wxpython.org/Phoenix/snapshot-builds/). I recommend downloading the `.whl` files then using the command `pip install <wheel filename>` to install.
+
 # Usage
 ```
 python3 quizprog.py [-h, --help] json_path
@@ -10,7 +12,7 @@ python3 quizprog.py [-h, --help] json_path
 | Parameter | Description |
 |--|--|
 | `json_path` | Path to the JSON file which will be used to load quiz data. |
-| `-d, --disablelog` | Disable logging. |
+| `-d, --disablelog` | Disable logging. (not available in editor) |
 | `-h, --help` | Show help. |
 
 # Valid Variables
