@@ -10,7 +10,7 @@ import tempfile
 import traceback
 from urllib import parse as urlparse
 
-version = '1.0.3 - QuizProg v1.0.2_02'
+version = '1.1.0 - QuizProg v1.0.2_03'
 
 app = wx.App(None)
 
@@ -110,8 +110,7 @@ def input_string(name, short, og = '', new = False):
 	global modified
 	clear()
 	if new: print('Type your new ' + name + '. If blank, the ' + short + ' will be discarded.')
-	else:
-		print('Edit your ' + name + '. If blank, the current ' + short + ' will be used.')
+	else: print('Type your revised ' + name + '. If blank, the existing ' + short + ' will be deleted.')
 	print('\nPress Enter to end a line.')
 	print('To stop typing, make sure the current line you\'re on is blank,')
 	if os.name == 'nt': print('then press CTRL+Z then Enter.\n')
@@ -318,6 +317,8 @@ def change_settings():
 	if not check_optional_element('randomize', bool): datafile['randomize'] = False
 	if not check_optional_element('showcount', bool): datafile['showcount'] = True
 	if not check_optional_element('wrongmsg', list): datafile['wrongmsg'] = []
+	if not check_optional_element('fail'): datafile['fail'] = ''
+	if not check_optional_element('finish'): datafile['finish'] = ''
 
 	if datafile['lives'] < 1: datafile['lives'] = 0
 
@@ -337,11 +338,25 @@ def change_settings():
 			if datafile['wrongmsg']:
 				print('[4] Global wrong messages     '  + str(len(datafile['wrongmsg'])) + ' messages')
 			else: print('[4] Global wrong messages     OFF')
-			print('[5] Return')
+			if datafile['lives'] >= 1:
+				if datafile['fail']:
+					fail_lines = datafile['fail'].split('\n')
+					print('[5] Out of lives message      '  + fail_lines[0])
+					if len(fail_lines) >= 1:
+						for i in range(1, len(fail_lines)): print('                              '  + fail_lines[i])
+				else: print('[5] Out of lives message      OFF')
+			else: print('[5] Out of lives message      Requires life setting')
+			if datafile['wrongmsg']:
+				win_lines = datafile['finish'].split('\n')
+				print('[6] Win message               '  + win_lines[0])
+				if len(win_lines) >= 1:
+					for i in range(1, len(win_lines)): print('                              '  + win_lines[i])
+			else: print('[6] Global wrong messages     OFF')
+			print('[7] Return')
 
 			print('\nPress the number keys on your keyboard to change or toggle a setting.')
 			choice = int(msvcrt.getch().decode('utf-8'))
-			if choice == 5: exited_settings = True
+			if choice == 7: exited_settings = True
 			elif choice == 1:
 				clear()
 				print('Enter the amount of lives you want to have.\nThe number of lives must be between 1 and 2147483647 and must not be a decimal number.\nIf 0 or lower, the lives setting will be disabled.\nIf blank or contains non-numeric characters,\nprevious life count will be used.\n')
@@ -356,12 +371,77 @@ def change_settings():
 			elif choice == 2: datafile['randomize'] = not datafile['randomize']; modified = True
 			elif choice == 3: datafile['showcount'] = not datafile['showcount']; modified = True
 			elif choice == 4: wrongmsgs()
+			elif choice == 5:
+				if datafile['fail']: text = input_string('out of lives message', 'message', datafile['fail'])
+				else: text = input_string('out of lives message', 'message', new = True)
+				if text: datafile['fail'] = text
+			elif choice == 6:
+				if datafile['finish']: text = input_string('win message', 'message', datafile['finish'])
+				else: text = input_string('win message', 'message', new = True)
+				if text: datafile['finish'] = text
+
+		except ValueError:
+			pass
+
+def save_menu():
+	global modified, modified_sym, savepath, allow_save, datafile
+	exited_save = False
+	savepath_tmp = ''
+	message = 'Any save-related messages will appear here.'
+	while not exited_save:
+		try:
+			if modified: modified_sym = '*'
+			else: modified_sym = ''
+			if args.path == None and not displayed: display_tut(); displayed = True
+			clear()
+			if savepath or is_url: print(savepath + modified_sym)
+			else: print('Unsaved quiz' + modified_sym)
+			print('\n' + message + '\n')
+			if allow_save: print('[1] Save')
+			print('[2] Save as...')
+			if modified: print('[3] Reload')
+			print('[4] Return')
+			message = ''
+			print('\nPress the number keys on your keyboard to choose.')
+			choice = int(msvcrt.getch().decode('utf-8'))
+			if choice == 4: exited_save = True
+			elif choice == 1:
+				if allow_save:
+					with open(savepath, 'w+') as f: f.write(json.dumps(datafile, indent = 4))
+					message = 'Saved!'
+					modified = False
+			elif choice == 2:
+				clear()
+				dlg = wx.FileDialog(None, 'Where we savin\', boys?', wildcard = 'JSON Files (*.json)|*.json|All Files (*.*)|*.*||', style = wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT)
+				if dlg.ShowModal() == wx.ID_OK: savepath_tmp = dlg.GetPath()
+				if savepath_tmp:
+					savepath = savepath_tmp
+					try:
+						with open(savepath, 'w+') as f: f.write(json.dumps(datafile, indent = 4))
+						message = 'JSON file saved as: ' + savepath
+						modified = False
+						allow_save = True
+						is_url = False
+					except IOError as e:
+						message = 'Can\'t save file: ' + e.strerror
+			elif choice == 3:
+				if modified:
+					while True:
+						clear()
+						print('Are you sure you want to reload your quiz and lose\nyour changes made in the editor?\n(Y: Yes / N: No)')
+						key = msvcrt.getwche()
+						if key == 'y':
+							datafile = dict(datafile_bak)
+							modified = False
+							message = 'Quiz reloaded.'
+							break
+						elif key == 'n':
+							break
 		except ValueError:
 			pass
 
 quitted = False
 error = False
-message = 'Welcome to the QuizProg Editor! Any messages will appear here.'
 modified = False
 modified_sym = ''
 if args.path == None: savepath = ''
@@ -379,22 +459,15 @@ while not quitted:
 		print('\n' + datafile['title'])
 		if check_optional_element('description'): print(datafile['description'])
 		else: print('(no description provided)')
-		print('\n' + message)
 		print('\n[1] Rename your quiz')
-		print('[2] Add/change quiz description')
+		print('[2] Add, change or delete quiz description')
 		print('[3] Change quiz questions')
 		print('[4] Change quiz settings')
-		if allow_save: print('[5] Save')
-		else: print('[5] [UNAVAILABLE]')
-		print('[6] Save as...')
-		if modified: print('[7] Reload')
-		else: print('[7] [UNAVAILABLE]')
-		print('[8] Exit')
-
-		message = ''
+		print('\n[5] Save menu')
+		print('[6] Exit')
 		print('\nPress the number keys on your keyboard to choose.')
 		choice = int(msvcrt.getch().decode('utf-8'))
-		if choice == 8:
+		if choice == 6:
 			if modified:
 				while True:
 					clear()
@@ -412,37 +485,7 @@ while not quitted:
 			if text: datafile['description'] = text
 		elif choice == 3: change_questions()
 		elif choice == 4: change_settings()
-		elif choice == 5:
-			if allow_save:
-				with open(savepath, 'w+') as f: f.write(json.dumps(datafile, indent = 4))
-				message = 'Saved!'
-				modified = False
-		elif choice == 6:
-			clear()
-			dlg = wx.FileDialog(None, 'Where we savin\', boys?', wildcard = 'JSON Files (*.json)|*.json|All Files (*.*)|*.*||', style = wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT)
-			if dlg.ShowModal() == wx.ID_OK: savepath = dlg.GetPath()
-			if savepath:
-				try:
-					with open(savepath, 'w+') as f: f.write(json.dumps(datafile, indent = 4))
-					message = 'JSON file saved as: ' + savepath
-					modified = False
-					allow_save = True
-					is_url = False
-				except IOError as e:
-					message = 'Can\'t save file: ' + e.strerror
-		elif choice == 7:
-			if modified:
-				while True:
-					clear()
-					print('Are you sure you want to reload your quiz and lose\nyour changes made in the editor?\n(Y: Yes / N: No)')
-					key = msvcrt.getwche()
-					if key == 'y':
-						datafile = dict(datafile_bak)
-						modified = False
-						message = 'Quiz reloaded.'
-						break
-					elif key == 'n':
-						break
+		elif choice == 5: save_menu()
 		else: pass
 
 	except ValueError:
