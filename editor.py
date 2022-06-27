@@ -10,7 +10,7 @@ import tempfile
 import traceback
 from urllib import parse as urlparse
 
-version = '1.0.0 - QuizProg v1.0.1'
+version = '1.0.1 - QuizProg v1.0.2'
 
 app = wx.App(None)
 
@@ -54,35 +54,24 @@ def clear():
 		except:
 			pass
 
-def check_element(element, jsondata = None, valtype = str):
-	if jsondata == None:
-		if element not in datafile: parser.error('element "' + element + '" is required')
-		if not datafile[element]: parser.error('element "' + element + '" cannot be blank or NoneType')
-		if type(datafile[element]) is not valtype: parser.error('invalid str value in element "' + element + '"')
-	else:
-		if element not in datafile[jsondata]: parser.error('element "' + element + '" in "' + jsondata + '" is required')
-		if not datafile[jsondata][element]: parser.error('element "' + element + '" in "' + jsondata + '" cannot be blank or NoneType')
-		if type(datafile[jsondata][element]) is not valtype: parser.error('invalid ' + valtype.__name__ + ' value in element "' + element + '" in "' + jsondata + '"')
+def check_element(element, valtype = str):
+	if element not in datafile: parser.error('element "' + element + '" is required')
+	if not datafile[element]: parser.error('element "' + element + '" cannot be blank or NoneType')
+	if type(datafile[element]) is not valtype: parser.error('invalid str value in element "' + element + '"')
 
 def check_question_element(element, qid):
 	if element not in datafile['questions'][qid]: parser.error('element "' + element + '" in question ' + str(qid + 1) + ' is required')
 	if not datafile['questions'][qid][element]: parser.error('element "' + element + '" in question ' + str(qid + 1) + ' cannot be blank or NoneType')
 	if type(datafile['questions'][qid][element]) is not str: parser.error('invalid str value in element "' + element + '" in question ' + str(qid + 1))
 
-def check_optional_element(element, jsondata = None, valtype = str):
+def check_optional_element(element, valtype = str):
 	test1 = False
 	test2 = False
 	test3 = False
-	if jsondata == None:
-		if element in datafile:
-			test1 = True
-			if datafile[element]: test2 = True
-			if type(datafile[element]) is valtype: test3 = True
-	else:
-		if element in datafile[jsondata]:
-			test1 = True
-			if datafile[jsondata][element]: test2 = True
-			if type(datafile[jsondata][element]) is valtype: test3 = True
+	if element in datafile:
+		test1 = True
+		if type(datafile[element]) is not bool and not datafile[element]: test2 = True
+		if type(datafile[element]) is valtype: test3 = True
 
 	if test1 and test2 and test3: return True
 	else: return False
@@ -101,7 +90,7 @@ def check_question_optional_element(element, qid, valtype = str):
 	else: return False
 
 check_element('title')
-check_element('questions', valtype = list)
+check_element('questions', list)
 if len(datafile['questions']) < 1:
 	('question count is too low [!]')
 	parser.error('there must be at least one question in "questions"')
@@ -123,7 +112,10 @@ def input_string(name, short, og = '', new = False):
 	if new: print('Type your new ' + name + '. If blank, the ' + short + ' will be discarded.')
 	else:
 		print('Edit your ' + name + '. If blank, the current ' + short + ' will be used.')
-	print('\nPress Enter to end a line.\nUse CTRL+C to save your typed lines up to the last Enter press.\n')
+	print('\nPress Enter to end a line.')
+	print('To stop typing, make sure the current line you\'re on is blank,')
+	if os.name == 'nt': print('then	press CTRL+Z then Enter.\n')
+	else: print('then press CTRL+D then Enter.\n')
 	if not new and og: print('If you need to copy something from the old ' + short + ', here it is:\n' + og + '\n')
 	textlist = []
 	textlist_checked = []
@@ -131,16 +123,11 @@ def input_string(name, short, og = '', new = False):
 		try:
 			content = input()
 			textlist.append(content)
-		except KeyboardInterrupt:
+		except EOFError:
 			for line in textlist:
 				if line: textlist_checked.append(line)
 			text = '\n'.join(textlist_checked)
 			break
-		except EOFError:
-			if os.name == 'nt': print('Please don\'t use CTRL+Z!')
-			else: print('Please don\'t use CTRL+D!')
-			time.sleep(2)
-			return ''
 	if text != og: modified = True
 	return text
 
@@ -327,10 +314,10 @@ def change_settings():
 				pass
 
 	exited_settings = False
-	if not check_optional_element('lives', valtype = int): datafile['lives'] = 0
-	if not check_optional_element('randomize', valtype = bool): datafile['randomize'] = False
-	if not check_optional_element('showcount', valtype = bool): datafile['showcount'] = True
-	if not check_optional_element('wrongmsg', valtype = list): datafile['wrongmsg'] = []
+	if not check_optional_element('lives', int): datafile['lives'] = 0
+	if not check_optional_element('randomize', bool): datafile['randomize'] = False
+	if not check_optional_element('showcount', bool): datafile['showcount'] = True
+	if not check_optional_element('wrongmsg', list): datafile['wrongmsg'] = []
 
 	if datafile['lives'] < 1: datafile['lives'] = 0
 
@@ -357,7 +344,7 @@ def change_settings():
 			if choice == 5: exited_settings = True
 			elif choice == 1:
 				clear()
-				print('Enter the amount of lives you want to have.\nIf 0 or lower, the lives mechanic will be disabled.\nIf blank or contains non-numeric characters,\nprevious life count will be used.\n')
+				print('Enter the amount of lives you want to have.\nThe number of lives must be between 1 and 2147483647 and must not be a decimal number.\nIf 0 or lower, the lives setting will be disabled.\nIf blank or contains non-numeric characters,\nprevious life count will be used.\n')
 				og = datafile['lives']
 				try:
 					life = int(input())
