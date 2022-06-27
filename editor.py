@@ -10,7 +10,7 @@ import tempfile
 import traceback
 from urllib import parse as urlparse
 
-version = '1.0.2 - QuizProg v1.0.2_01'
+version = '1.0.3 - QuizProg v1.0.2_02'
 
 app = wx.App(None)
 
@@ -70,7 +70,7 @@ def check_optional_element(element, valtype = str):
 	test3 = False
 	if element in datafile:
 		test1 = True
-		if type(datafile[element]) is not bool and not datafile[element]: test2 = True
+		if not (type(datafile[element]) is not bool and not datafile[element]): test2 = True
 		if type(datafile[element]) is valtype: test3 = True
 
 	if test1 and test2 and test3: return True
