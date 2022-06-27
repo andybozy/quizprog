@@ -114,7 +114,7 @@ def input_string(name, short, og = '', new = False):
 		print('Edit your ' + name + '. If blank, the current ' + short + ' will be used.')
 	print('\nPress Enter to end a line.')
 	print('To stop typing, make sure the current line you\'re on is blank,')
-	if os.name == 'nt': print('then	press CTRL+Z then Enter.\n')
+	if os.name == 'nt': print('then press CTRL+Z then Enter.\n')
 	else: print('then press CTRL+D then Enter.\n')
 	if not new and og: print('If you need to copy something from the old ' + short + ', here it is:\n' + og + '\n')
 	textlist = []
