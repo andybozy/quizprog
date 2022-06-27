@@ -10,7 +10,7 @@ import tempfile
 import traceback
 from urllib import parse as urlparse
 
-version = '1.1.0_02 - QuizProg v1.0.2_05'
+version = '1.1.1 - QuizProg v1.0.3'
 
 app = wx.App(None)
 
@@ -106,11 +106,12 @@ datafile_bak = dict(datafile)
 
 displayed = False
 
-def input_string(name, short, og = '', new = False):
+def input_string(name, short, og = '', new = False, allow_blank = False):
 	global modified
 	clear()
 	if new: print('Type your new ' + name + '. If blank, the ' + short + ' will be discarded.')
-	else: print('Type your revised ' + name + '. If blank, the existing ' + short + ' will be deleted.')
+	elif allow_blank: print('Type your revised ' + name + '. If blank, the existing ' + short + ' will be deleted.')
+	else: print('Type your revised ' + name + '. If blank, the existing ' + short + ' will be kept.')
 	print('\nPress Enter to end a line.')
 	print('To stop typing, make sure the current line you\'re on is blank,')
 	if os.name == 'nt': print('then press CTRL+Z then Enter.\n')
@@ -194,9 +195,12 @@ def change_questions():
 					elif question_data['correct'] == 'c': question_data['correct'] = 'd'
 					elif question_data['correct'] == 'd': question_data['correct'] = 'a'
 				elif choice == 7:
-					if check_question_optional_element('explanation', n): text = input_string('question explanation', 'explanation', question_data['explanation'])
-					else: text = input_string('question explanation', 'explanation', new = True)
-					if text: question_data['explanation'] = text
+					if check_question_optional_element('explanation', n):
+						text = input_string('question explanation', 'explanation', question_data['explanation'], allow_blank = True)
+						question_data['explanation'] = text
+					else:
+						text = input_string('question explanation', 'explanation', new = True)
+						if text: question_data['explanation'] = text
 			except ValueError:
 				pass
 
@@ -270,7 +274,7 @@ def change_settings():
 				if savepath or is_url: print(savepath + modified_sym + '\n')
 				else: print('Unsaved quiz' + modified_sym + '\n')
 				if len(datafile['wrongmsg']) < 1:
-					print('No global wrong messages!\n\n[3] New        [6] Return')
+					print('No global wrong messages!\n\n[3] New        [7] Return')
 				else:
 					if n >= len(datafile['wrongmsg']): n = len(datafile['wrongmsg']) - 1
 					print(str(n + 1) + ' / ' + str(len(datafile['wrongmsg'])))
@@ -280,10 +284,11 @@ def change_settings():
 						elif n + 1 == len(datafile['wrongmsg']): print('[1] Previous')
 						else: print('[1] Previous   [2] Next')
 					print('[3] New        [4] Edit')
-					print('[5] Remove     [6] Return')
+					print('[5] Move       [6] Remove')
+					print('[7] Return')
 				print('\nPress the number keys on your keyboard to choose.')
 				choice = int(msvcrt.getch().decode('utf-8'))
-				if choice == 6: exited_wrongmsgs = True
+				if choice == 7: exited_wrongmsgs = True
 				elif choice == 3:
 					text = input_string('global wrong message', 'message', new = True) 
 					if text:
@@ -299,6 +304,18 @@ def change_settings():
 						text = input_string('global wrong message', 'message', datafile['wrongmsg'][n])
 						if text: datafile['wrongmsg'][n] = text
 					elif choice == 5:
+						clear()
+						print('Input the global wrong message\'s new slot number.\nThe slot number must be between 1 and ' + str(len(datafile['wrongmsg'])) + '\nand must not be ' + str(n + 1) + '.\nOr else, the move operation will be cancelled.\nIf blank or contains non-numeric characters,\nprevious slot number will be used.\n')
+						og = datafile['wrongmsg'][n]
+						try:
+							slot = int(input())
+							if slot >= 1 and slot <= len(datafile['wrongmsg']) and slot != n + 1:
+								datafile['wrongmsg'].insert(slot - 1, datafile['wrongmsg'].pop(n))
+								if slot != n + 1: modified = True
+								n = slot - 1
+						except ValueError:
+							pass
+					elif choice == 6:
 						while True:
 							clear()
 							print('Are you sure you want to remove this global wrong message?\n(Y: Yes / N: No)')
@@ -372,13 +389,19 @@ def change_settings():
 			elif choice == 3: datafile['showcount'] = not datafile['showcount']; modified = True
 			elif choice == 4: wrongmsgs()
 			elif choice == 5:
-				if datafile['fail']: text = input_string('out of lives message', 'message', datafile['fail'])
-				else: text = input_string('out of lives message', 'message', new = True)
-				if text: datafile['fail'] = text
+				if datafile['fail']:
+					text = input_string('out of lives message', 'message', datafile['fail'], allow_blank = True)
+					datafile['fail'] = text
+				else:
+					text = input_string('out of lives message', 'message', new = True)
+					if text: datafile['fail'] = text
 			elif choice == 6:
-				if datafile['finish']: text = input_string('win message', 'message', datafile['finish'])
-				else: text = input_string('win message', 'message', new = True)
-				if text: datafile['finish'] = text
+				if datafile['finish']:
+					text = input_string('win message', 'message', datafile['finish'], allow_blank = True)
+					if text: datafile['finish'] = text
+				else:
+					text = input_string('win message', 'message', new = True)
+					if text: datafile['finish'] = text
 
 		except ValueError:
 			pass
@@ -479,9 +502,12 @@ while not quitted:
 			text = input_string('quiz name', 'name', datafile['title'])
 			if text: datafile['title'] = text
 		elif choice == 2:
-			if check_optional_element('description'): text = input_string('quiz description', 'description', datafile['description'])
-			else: text = input_string('quiz description', 'description', new = True)
-			if text: datafile['description'] = text
+			if check_optional_element('description'):
+				text = input_string('quiz description', 'description', datafile['description'], allow_blank = True)
+				datafile['description'] = text
+			else:
+				text = input_string('quiz description', 'description', new = True)
+				if text: datafile['description'] = text
 		elif choice == 3: change_questions()
 		elif choice == 4: change_settings()
 		elif choice == 5: save_menu()
