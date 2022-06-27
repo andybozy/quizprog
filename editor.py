@@ -10,7 +10,7 @@ import tempfile
 import traceback
 from urllib import parse as urlparse
 
-version = '1.0.1 - QuizProg v1.0.2'
+version = '1.0.1 - QuizProg v1.0.2_01'
 
 app = wx.App(None)
 
