@@ -10,7 +10,7 @@ import tempfile
 import traceback
 from urllib import parse as urlparse
 
-version = '1.1.0_01 - QuizProg v1.0.2_04'
+version = '1.1.0_04 - QuizProg v1.0.2_05'
 
 app = wx.App(None)
 
@@ -384,7 +384,7 @@ def change_settings():
 			pass
 
 def save_menu():
-	global modified, modified_sym, savepath, allow_save, datafile
+	global modified, modified_sym, savepath, allow_save, datafile, is_url
 	exited_save = False
 	savepath_tmp = ''
 	message = 'Any save-related messages will appear here.'
