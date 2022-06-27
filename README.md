@@ -3,7 +3,7 @@ QuizProg also comes with an editor that you can use if you're not tech-savvy eno
 
 Make sure to install all the listed modules in `requirements.txt` first, individually or with `pip install -r requirements.txt`.
 
-As the newest version of wxPython, one of the required modules to run the editor, currently doesn't build on Python 3.10, you can use Python 3.9 or [install a snapshot build for Python 3.10](https://wxpython.org/Phoenix/snapshot-builds/). I recommend downloading the `.whl` files then using the command `pip install <wheel filename>` to install.
+As the newest version of wxPython, one of the required modules to run the editor, currently doesn't build on Python 3.10, you can use Python 3.9 or [install a snapshot build for Python 3.10](https://wxpython.org/Phoenix/snapshot-builds/wxPython-4.1.2a1.dev5434+7d45ee6a-cp310-cp310-win_amd64.whl). Then use `pip install <wheel filename>` to install.
 
 # Usage
 ```
