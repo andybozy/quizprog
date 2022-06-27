@@ -10,7 +10,7 @@ import tempfile
 import traceback
 from urllib import parse as urlparse
 
-version = '1.1.0 - QuizProg v1.0.2_03'
+version = '1.1.0_01 - QuizProg v1.0.2_04'
 
 app = wx.App(None)
 
@@ -392,7 +392,6 @@ def save_menu():
 		try:
 			if modified: modified_sym = '*'
 			else: modified_sym = ''
-			if args.path == None and not displayed: display_tut(); displayed = True
 			clear()
 			if savepath or is_url: print(savepath + modified_sym)
 			else: print('Unsaved quiz' + modified_sym)
