@@ -1,5 +1,6 @@
 import os
 import wx
+import copy
 import json
 import time
 if os.name == 'nt': import msvcrt
@@ -10,7 +11,7 @@ import tempfile
 import traceback
 from urllib import parse as urlparse
 
-version = '1.1.1 - QuizProg v1.0.3'
+version = '1.1.2 - QuizProg v1.0.4'
 
 app = wx.App(None)
 
@@ -102,7 +103,12 @@ for i in range(len(datafile['questions'])):
 	check_question_element('d', i)
 	check_question_element('correct', i)
 
-datafile_bak = dict(datafile)
+def create_backup():
+	global datafile, datafile_bak
+	datafile_bak = datafile.copy()
+	datafile_bak['questions'] = copy.deepcopy(datafile['questions'])
+
+create_backup()
 
 displayed = False
 
@@ -229,11 +235,13 @@ def change_questions():
 				elif n + 1 == len(datafile['questions']): print('[1] Previous')
 				else: print('[1] Previous   [2] Next')
 			print('[3] New        [4] Edit')
-			if len(datafile['questions']) > 1: print('[5] Remove     [6] Return')
-			else: print('[6] Return')
+			if len(datafile['questions']) > 1:
+				print('[5] Move       [6] Remove')
+				print('[7] Return')
+			else: print('[5] Move       [7] Return')
 			print('\nPress the number keys on your keyboard to choose.')
 			choice = int(msvcrt.getch().decode('utf-8'))
-			if choice == 6: exited_questions = True
+			if choice == 7: exited_questions = True
 			elif choice == 1:
 				if n != 0: n -= 1
 			elif choice == 2:
@@ -244,6 +252,17 @@ def change_questions():
 				n = len(datafile['questions']) - 1
 			elif choice == 4: change_question()
 			elif choice == 5:
+				clear()
+				print('Input the question\'s new slot number.\nThe slot number must be between 1 and ' + str(len(datafile['questions'])) + '\nand must not be ' + str(n + 1) + '.\nOr else, the move operation will be cancelled.\nIf blank or contains non-numeric characters,\nprevious slot number will be used.\n')
+				try:
+					slot = int(input())
+					if slot >= 1 and slot <= len(datafile['questions']) and slot != n + 1:
+						datafile['questions'].insert(slot - 1, datafile['questions'].pop(n))
+						if slot != n + 1: modified = True
+						n = slot - 1
+				except ValueError:
+					pass
+			elif choice == 6:
 				if len(datafile['questions']) > 1:
 					while True:
 						clear()
@@ -306,7 +325,6 @@ def change_settings():
 					elif choice == 5:
 						clear()
 						print('Input the global wrong message\'s new slot number.\nThe slot number must be between 1 and ' + str(len(datafile['wrongmsg'])) + '\nand must not be ' + str(n + 1) + '.\nOr else, the move operation will be cancelled.\nIf blank or contains non-numeric characters,\nprevious slot number will be used.\n')
-						og = datafile['wrongmsg'][n]
 						try:
 							slot = int(input())
 							if slot >= 1 and slot <= len(datafile['wrongmsg']) and slot != n + 1:
@@ -453,7 +471,8 @@ def save_menu():
 						print('Are you sure you want to reload your quiz and lose\nyour changes made in the editor?\n(Y: Yes / N: No)')
 						key = msvcrt.getwche()
 						if key == 'y':
-							datafile = dict(datafile_bak)
+							datafile = datafile_bak.copy()
+							create_backup()
 							modified = False
 							message = 'Quiz reloaded.'
 							break

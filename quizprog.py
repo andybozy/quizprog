@@ -10,25 +10,26 @@ import tempfile
 import traceback
 from urllib import parse as urlparse
 
-version = '1.0.3'
+version = '1.0.4'
 
 import argparse
 parser = argparse.ArgumentParser(description = 'Loads a pre-made quiz from a JSON, either from the internet or locally.', epilog = 'QuizProg v{0}\n(c) 2022 GamingWithEvets Inc. All rights reserved.'.format(version), formatter_class = argparse.RawTextHelpFormatter, allow_abbrev = False)
 parser.add_argument('path', metavar = 'json_path', help = 'path/URL to your JSON file')
-parser.add_argument('-d', '--disablelog', action = 'store_true', help = 'disable logging')
+parser.add_argument('-d', '--disable-log', action = 'store_true', help = 'disable logging')
 args = parser.parse_args()
 
-if not args.disablelog: logfile = open('quizprog.log', 'a', encoding = 'utf-8') 
+if not args.disable_log: logfile = open('quizprog.log', 'a', encoding = 'utf-8') 
 
-def print_tag(string: str):
-	if not args.disablelog: logfile.write('\nquizprog: ' + string)
+def print_tag(string: str, function = 'main', error = False):
+	if not args.disable_log:
+		if error: logfile.write('\n' + function + ': ' + string + ' [!]')
+		else: logfile.write('\n' + function + ': ' + string)
 
-def abort(exit = True):
+def abort():
 	print_tag('aborting.\n\n')
-	if exit: sys.exit()
 
-if not args.disablelog: logfile.write('quizprog: starting up')
-print_tag('version: ' + version)
+if not args.disable_log: logfile.write('main: starting')
+print_tag('quizprog v' + version)
 
 is_url = urlparse.urlparse(args.path).scheme != ''
 
@@ -41,11 +42,11 @@ if is_url:
 		print_tag('got response: ' + str(response.status_code) + ' ' + response.reason)
 		if response.status_code != 200:
 			print_tag('expected status code 200 [!]')
-			abort(False)
+			abort()
 			parser.error(str(response.status_code) + ' ' + response.reason)
 	except Exception:
 		print_tag('internet connection error occurred [!]')
-		abort(False)
+		abort()
 		parser.error('error connecting to URL. maybe check your internet connection?')
 	file = tempfile.TemporaryFile(mode = 'w+')
 	file.write(response.text)
@@ -54,7 +55,7 @@ else:
 	print_tag('detected: local file')
 	if not os.path.exists(args.path):
 		print_tag('finding file "' + os.path.abspath(args.path) + '": not found [!]')
-		abort(False)
+		abort()
 		parser.error('invalid file path')
 	else:
 		print_tag('finding file "' + os.path.abspath(args.path) + '": found')
@@ -65,7 +66,7 @@ try:
 	else: datafile = json.load(open(path, 'r', encoding = 'utf-8'))
 except:
 	print_tag('invalid JSON data [!]\n' + traceback.format_exc())
-	abort(False)
+	abort()
 	parser.error('invalid JSON data')
 
 def clear():
@@ -79,72 +80,89 @@ def clear():
 			pass
 
 def check_element(element, valtype = str):
+	function = 'check_element'
 	if element not in datafile:
-		print_tag('check_element: checking element "' + element + '": not found [!]')
-		abort(False)
+		print_tag('checking element "' + element + '": not found', function, True)
+		abort()
 		parser.error('element "' + element + '" is required')
-	else: print_tag('check_element: checking element "' + element + '": found')
+	else: print_tag('checking element "' + element + '": found', function)
 
 	if not datafile[element]:
-		print_tag('check_element: element "' + element + '" is blank/NoneType [!]')
-		abort(False)
+		print_tag('element "' + element + '" is blank/NoneType', function, True)
+		abort()
 		parser.error('element "' + element + '" cannot be blank or NoneType')
 
 	if type(datafile[element]) is not valtype:
-		print_tag('check_element: checking type of element "' + element + '": ' + type(datafile[element]).__name__ + ' [!]')
-		abort(False)
+		print_tag('checking type of element "' + element + '": ' + type(datafile[element]).__name__, function, True)
+		abort()
 		parser.error('invalid str value in element "' + element + '"')
-	else: print_tag('check_element: checking type of element "' + element + '": ' + type(datafile[element]).__name__)
+	else: print_tag('checking type of element "' + element + '": ' + type(datafile[element]).__name__, function)
 
 def check_question_element(element, qid):
+	function = 'check_question_element'
 	if element not in datafile['questions'][qid]:
-		print_tag('check_question_element: checking question element "' + element + '" in question ' + str(qid + 1) + ': not found [!]')
-		abort(False)
+		print_tag('checking question element "' + element + '" in question ' + str(qid + 1) + ': not found', function, True)
+		abort()
 		parser.error('element "' + element + '" in question ' + str(qid + 1) + ' is required')
-	else: print_tag('check_question_element: checking question element "' + element + '" in question ' + str(qid + 1) + ': found')
+	else: print_tag('checking question element "' + element + '" in question ' + str(qid + 1) + ': found', function)
 
 	if not datafile['questions'][qid][element]:
-		print_tag('check_question_element: question element "' + element + '" in question ' + str(qid + 1) + ' is blank/NoneType [!]')
-		abort(False)
-		parser.error('element "' + element + '" in question ' + str(qid + 1) + ' cannot be blank or NoneType')
+		print_tag('question element "' + element + '" in question ' + str(qid + 1) + ' is blank/NoneType', function, True)
+		abort()
+		parser.error('element "' + element + '" in question ' + str(qid + 1) + ' cannot be blank or NoneType', function)
 
 	if type(datafile['questions'][qid][element]) is not str:
-		print_tag('check_question_element: checking type of question element "' + element + '" in question ' + str(qid + 1) + '": ' + type(datafile['questions'][qid][element]).__name__ + ' [!]')
-		abort(False)
+		print_tag('checking type of question element "' + element + '" in question ' + str(qid + 1) + '": ' + type(datafile['questions'][qid][element]).__name__, function, True)
+		abort()
 		parser.error('invalid str value in element "' + element + '" in question ' + str(qid + 1))
-	else: print_tag('check_question_element: checking type of question element "' + element + '" in question ' + str(qid + 1) + '": ' + type(datafile['questions'][qid][element]).__name__)
+	else: print_tag('checking type of question element "' + element + '" in question ' + str(qid + 1) + '": ' + type(datafile['questions'][qid][element]).__name__, function)
 
 def check_optional_element(element, valtype = str):
+	function = 'check_optional_element'
+
 	test1 = False
 	test2 = False
 	test3 = False
 	if element not in datafile:
-		print_tag('check_optional_element: checking optional element "' + element + '": not found')
+		print_tag('(test 1 failure) checking optional element "' + element + '": not found', function)
 	else:
-		print_tag('check_optional_element: checking optional element "' + element + '": found')
+		print_tag('(test 1 success) checking optional element "' + element + '": found', function)
 		test1 = True
-		if type(datafile[element]) is not bool and not datafile[element]: print_tag('check_optional_element: element "' + element + '" is blank/NoneType')
-		else: test2 = True
-		print_tag('check_optional_element: checking type of optional element "' + element + '": ' + type(datafile[element]).__name__)
-		if type(datafile[element]) is valtype: test3 = True
+		if type(datafile[element]) is not bool and not datafile[element]: print_tag('(test 2 failure) element "' + element + '" is blank/NoneType', function)
+		elif type(datafile[element]) is bool:
+			print_tag('test 2 skipped', function)
+			test2 = True
+		else:
+			print_tag('(test 2 success) element "' + element + '" is not blank and not NoneType', function)
+			test2 = True
+		if type(datafile[element]) is valtype:
+			print_tag('(test 3 success) checking type of optional element "' + element + '": ' + type(datafile[element]).__name__, function)
+			test3 = True
+		else: print_tag('(test 3 failure) checking type of optional element "' + element + '": ' + type(datafile[element]).__name__, function)
 
 	if test1 and test2 and test3: return True
 	else: return False
 
 def check_question_optional_element(element, qid, valtype = str):
+	function = 'check_question_optional_element'
+	
 	test1 = False
 	test2 = False
 	test3 = False
 
 	if element not in datafile['questions'][qid]:
-		print_tag('check_question_optional_element: checking optional question element "' + element + '" in question ' + str(qid + 1) + ': not found')
+		print_tag('(test 1 failure) checking optional question element "' + element + '" in question ' + str(qid + 1) + ': not found', function)
 	else:
-		print_tag('check_question_optional_element: checking optional question element "' + element + '" in question ' + str(qid + 1) + ': found')
+		print_tag('(test 1 success) checking optional question element "' + element + '" in question ' + str(qid + 1) + ': found', function)
 		test1 = True
-		if not datafile['questions'][qid][element]: print_tag('check_question_optional_element: question element "' + element + '" in question ' + str(qid + 1) + ' is blank/NoneType')
-		else: test2 = True
-		print_tag('check_question_optional_element: checking type of optional question element "' + element + '" in question ' + str(qid + 1) + '": ' + type(datafile['questions'][qid][element]).__name__)
-		if type(datafile['questions'][qid][element]) is valtype: test3 = True
+		if not datafile['questions'][qid][element]: print_tag('(test 2 failure) question element "' + element + '" in question ' + str(qid + 1) + ' is blank/NoneType', function)
+		else:
+			print_tag('(test 2 success) question element "' + element + '" in question ' + str(qid + 1) + ' is not blank and not NoneType', function)
+			test2 = True
+		if type(datafile['questions'][qid][element]) is valtype:
+			print_tag('(test 3 success) checking type of optional question element "' + element + '" in question ' + str(qid + 1) + '": ' + type(datafile['questions'][qid][element]).__name__, function)
+			test3 = True
+		else: print_tag('(test 3 failure) checking type of optional question element "' + element + '" in question ' + str(qid + 1) + '": ' + type(datafile['questions'][qid][element]).__name__, function)
 
 	if test1 and test2 and test3: return True
 	else: return False
@@ -154,7 +172,7 @@ check_element('questions', list)
 print_tag('got ' + str(len(datafile['questions'])) + ' questions')
 if len(datafile['questions']) < 1:
 	print_tag('question count is too low [!]')
-	abort(False)
+	abort()
 	parser.error('there must be at least one question in "questions"')
 for i in range(len(datafile['questions'])):
 	check_question_element('question', i)
@@ -165,31 +183,33 @@ for i in range(len(datafile['questions'])):
 	check_question_element('correct', i)
 
 def load_quizzes():
-	print_tag('load_quizzes: initializing lives')
+	function = 'load_quizzes'
+
+	print_tag('initializing lives', function)
 	allow_lives = False
 	lives = 0
 	if check_optional_element('lives', int):
 		lives = datafile['lives']
-		print_tag(f'load_quizzes: got {lives} lives')
+		print_tag(f'got {lives} lives', function)
 		if lives >= 1: allow_lives = True
-		else: print_tag('load_quizzes: disabling lives')
-	else: print_tag('load_quizzes: disabling lives')
+		else: print_tag('disabling lives', function)
+	else: print_tag('disabling lives', function)
 
-	print_tag('load_quizzes: initializing global wrong messages')
+	print_tag('initializing global wrong messages', function)
 	allow_wrong = False
 	wrongmsg = []
 	if check_optional_element('wrongmsg', list):
 		wrongmsg = datafile['wrongmsg']
-		print_tag(f'load_quizzes: got {len(wrongmsg)} global wrong messages')
+		print_tag(f'got {len(wrongmsg)} global wrong messages', function)
 		if len(wrongmsg) >= 1: allow_wrong = True
-		else: print_tag('load_quizzes: disabling global wrong messages')
-	else: print_tag('load_quizzes: disabling global wrong messages')
+		else: print_tag('disabling global wrong messages', function)
+	else: print_tag('disabling global wrong messages', function)
 
 	showcount = True
 	if check_optional_element('showcount', bool):
 		showcount = datafile['showcount']
-		if not showcount: print_tag('load_quizzes: question count will be hidden')
-	else: print_tag('load_quizzes: question count will be shown')
+		if not showcount: print_tag('question count will be hidden', function)
+	else: print_tag('question count will be shown', function)
 
 	rangelist = {}
 	for i in range(len(datafile['questions'])):
@@ -198,19 +218,19 @@ def load_quizzes():
 	randomize = False
 	if check_optional_element('randomize', bool): randomize = datafile['randomize']
 	if randomize:
-		print_tag('load_quizzes: shuffling question order')
+		print_tag('shuffling question order', function)
 		templist = list(rangelist.values())
 		random.shuffle(templist)
 		rangelist = dict(zip(rangelist, templist))
 
 	for i in rangelist:
-		if randomize: print_tag('load_quizzes: initializing data for question {0} ({1})'.format(i + 1, rangelist[i] + 1))
-		else: print_tag(f'load_quizzes: initializing data for question {i + 1}')
+		if randomize: print_tag('initializing data for question {0} ({1})'.format(i + 1, rangelist[i] + 1), function)
+		else: print_tag(f'initializing data for question {i + 1}', function)
 		question_data = datafile['questions'][rangelist[i]]
 		print_wrong = False
 		answered = False
 
-		print_tag('load_quizzes: displaying question')
+		print_tag('displaying question', function)
 		while not answered:
 			clear()
 			if allow_lives:
@@ -222,10 +242,10 @@ def load_quizzes():
 					print('Press any key to return.')
 					keyboard.wait('\n')
 					input()
-					print_tag('load_quizzes: quiz exited (out of lives)'); return
-				else: print('LIVES: {0}/{1}'.format(lives, datafile['lives']))
-			if showcount: print('QUESTION {0}\n'.format(i + 1))
-			else: print('QUESTION {0}/{1}\n'.format(i + 1, len(datafile['questions'])))
+					print_tag('quiz exited (out of lives)', function); return
+				else: print('LIVES: {0}'.format(lives))
+			if showcount: print('QUESTION {0}/{1}\n'.format(i + 1, len(datafile['questions'])))
+			else: print('QUESTION {0}\n'.format(i + 1))
 			print(question_data['question'] + '\n')
 			print('[A] ' + question_data['a'])
 			print('[B] ' + question_data['b'])
@@ -243,14 +263,16 @@ def load_quizzes():
 			print('Press A, B, C, D or E on your keyboard to choose.')
 			choice = msvcrt.getch().decode('utf-8')
 			if choice in ['a', 'b', 'c', 'd']:
-				print_tag('load_quizzes: user chose ' + choice.upper())
+				print_tag('user chose ' + choice.upper(), function)
 				if question_data['correct'] == 'all': answered = True
-				elif choice == question_data['correct']: answered = True
+				elif choice == question_data['correct']:
+					print_tag('' + choice.upper() + ' is a correct answer', function)
+					answered = True
 				else:
-					print_tag('load_quizzes: ' + choice.upper() + ' is an incorrect answer')
+					print_tag('' + choice.upper() + ' is an incorrect answer', function)
 					if allow_lives:
 						lives -= 1
-						print_tag('load_quizzes: user lost 1 life. lives left: ' + str(lives))
+						print_tag('user lost 1 life. lives left: ' + str(lives), function)
 					print_wrong = True
 			elif choice == 'e':
 				while True:
@@ -261,11 +283,12 @@ def load_quizzes():
 					print('[Y] Yes / [N] No\n')
 					print('Press Y or N on your keyboard to choose.')
 					inputt = msvcrt.getch().decode('utf-8')
-					if inputt == 'y': print_tag('load_quizzes: quiz exited (manual)'); return
+					if inputt == 'y': print_tag('quiz exited (manual)', function); return
 					elif inputt == 'n': break
 					else: pass
 		clear()
-		if allow_lives: print('LIVES: {0}/{1}'.format(lives, datafile['lives']))
+		print_tag('displaying correct answer screen', function)
+		if allow_lives: print('LIVES: {0}'.format(lives))
 		print('CORRECT!\n')
 		if check_question_optional_element('explanation', i): print(question_data['explanation'] + '\n')
 		print('Press Enter to continue.')
@@ -277,7 +300,7 @@ def load_quizzes():
 	print('Press Enter to return.')
 	keyboard.wait('\n')
 	input()
-	print_tag('load_quizzes: quiz exited (finished)')
+	print_tag('quiz exited (finished)', function)
 
 print_tag('initializing quiz menu')
 quitted = False
@@ -314,9 +337,10 @@ while not quitted:
 		quitted = True
 
 
-print_tag('user has quitted')
+if error: print_tag('')
+else: print_tag('user has quitted')
 if is_url: print_tag('closing temporary downloaded file'); file.close()
 if not error: clear()
-abort(False)
-if not args.disablelog: logfile.close()
+abort()
+if not args.disable_log: logfile.close()
 exit()
