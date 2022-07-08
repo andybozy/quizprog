@@ -11,7 +11,7 @@ import tempfile
 import traceback
 from urllib import parse as urlparse
 
-version = '1.1.2 - QuizProg v1.0.4'
+version = '1.2.0 - QuizProg v1.0.5'
 
 app = wx.App(None)
 
@@ -38,7 +38,7 @@ if args.path != None:
 
 	try:
 		if is_url: datafile = json.load(file)
-		else: datafile = json.load(open(path, 'r', encoding = 'utf-8'))
+		else: datafile = json.load(open(path, encoding = 'utf-8'))
 	except:
 		parser.error('invalid JSON data')
 else:
@@ -92,9 +92,7 @@ def check_question_optional_element(element, qid, valtype = str):
 
 check_element('title')
 check_element('questions', list)
-if len(datafile['questions']) < 1:
-	('question count is too low [!]')
-	parser.error('there must be at least one question in "questions"')
+if len(datafile['questions']) < 1: parser.error('there must be at least one question in "questions"')
 for i in range(len(datafile['questions'])):
 	check_question_element('question', i)
 	check_question_element('a', i)
@@ -109,8 +107,6 @@ def create_backup():
 	datafile_bak['questions'] = copy.deepcopy(datafile['questions'])
 
 create_backup()
-
-displayed = False
 
 def input_string(name, short, og = '', new = False, allow_blank = False):
 	global modified
@@ -137,22 +133,6 @@ def input_string(name, short, og = '', new = False, allow_blank = False):
 	if text != og: modified = True
 	return text
 
-def display_tut():
-	clear()
-	print(f'''WELCOME TO THE QUIZPROG EDITOR!
-
-This editor helps you create QuizProg quizzes easier than ever.
-As QuizProg uses JSON data, its creator, ME, has decided to make
-an easy-to-use tool for creating these quizzes! No need to learn
-JSON at all.
-
-QuizProg Editor v{version}
-(c) 2022 GamingWithEvets Inc.
-		''')
-	print('Press Enter to start creating your quiz.')
-	keyboard.wait('\n')
-	input()
-
 def change_questions():
 	global modified, modified_sym, savepath
 	n = 0
@@ -178,7 +158,7 @@ def change_questions():
 				else: print('[7] Explanation      None')
 				print('[8] Return')
 				print('\nPress the number keys on your keyboard to change or toggle a setting.')
-				choice = int(msvcrt.getch().decode('utf-8'))
+				choice = int(msvcrt.getwch())
 				if choice == 8: exited_question = True
 				elif choice == 1:
 					text = input_string('question', 'question', question_data['question'])
@@ -240,7 +220,7 @@ def change_questions():
 				print('[7] Return')
 			else: print('[5] Move       [7] Return')
 			print('\nPress the number keys on your keyboard to choose.')
-			choice = int(msvcrt.getch().decode('utf-8'))
+			choice = int(msvcrt.getwch())
 			if choice == 7: exited_questions = True
 			elif choice == 1:
 				if n != 0: n -= 1
@@ -306,7 +286,7 @@ def change_settings():
 					print('[5] Move       [6] Remove')
 					print('[7] Return')
 				print('\nPress the number keys on your keyboard to choose.')
-				choice = int(msvcrt.getch().decode('utf-8'))
+				choice = int(msvcrt.getwch())
 				if choice == 7: exited_wrongmsgs = True
 				elif choice == 3:
 					text = input_string('global wrong message', 'message', new = True) 
@@ -390,7 +370,7 @@ def change_settings():
 			print('[7] Return')
 
 			print('\nPress the number keys on your keyboard to change or toggle a setting.')
-			choice = int(msvcrt.getch().decode('utf-8'))
+			choice = int(msvcrt.getwch())
 			if choice == 7: exited_settings = True
 			elif choice == 1:
 				clear()
@@ -425,10 +405,63 @@ def change_settings():
 			pass
 
 def save_menu():
-	global modified, modified_sym, savepath, allow_save, datafile, is_url
+	def save_confirm():
+		global savepath
+		while True:
+			clear()
+			print('Save changes first? (Y: Yes / N: No / C: Cancel)')
+			key = msvcrt.getwche()
+			if key == 'y': return True
+			elif key == 'n': return False
+			elif key == 'c': return None
+	def save():
+		global savepath, savepath_tmp, message, modified, allow_save, is_url
+		clear()
+		dlg = wx.FileDialog(None, 'Where we savin\', boys?', wildcard = 'JSON Files (*.json)|*.json|All Files (*.*)|*.*||', style = wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT)
+		if dlg.ShowModal() == wx.ID_OK: savepath_tmp = dlg.GetPath()
+		if savepath_tmp:
+			savepath = savepath_tmp
+			try:
+				with open(savepath, 'w+') as f: f.write(json.dumps(datafile, indent = 4))
+				message = 'JSON file saved as: ' + savepath
+				modified = False
+				allow_save = True
+				is_url = False
+				return True
+			except IOError as e:
+				message = 'Can\'t save file: ' + e.strerror
+				return False
+	def openf():
+		global savepath, savepath_tmp, message, datafile
+		clear()
+		dlg = wx.FileDialog(None, 'JSON file please!', wildcard = 'JSON Files (*.json)|*.json|All Files (*.*)|*.*||', style = wx.FD_OPEN | wx.FD_FILE_MUST_EXIST)
+		if dlg.ShowModal() == wx.ID_OK: savepath_tmp = dlg.GetPath()
+		if savepath_tmp:
+			old_path = savepath
+			savepath = savepath_tmp
+			try:
+				for i in range(1):
+					try: datafile = json.load(open(savepath))
+					except Exception as e: message = 'Invalid JSON data!'; savepath = old_path; break
+					if not check_optional_element('title'): message = 'String variable "title" not found!'; savepath = old_path; break
+					if not check_optional_element('questions', list): message = 'String variable "questions" not found!'; savepath = old_path; break
+					if len(datafile['questions']) < 1: message = 'There must be at least one question in the "questions" list!'; savepath = old_path; break
+					for i in range(len(datafile['questions'])):
+						if not check_question_optional_element('question', i): message = 'String variable "question" not found in question ' + str(i+1) + '!'; savepath = old_path; break
+						if not check_question_optional_element('a', i): message = 'String variable "a" not found in question ' + str(i+1) + '!'; savepath = old_path; break
+						if not check_question_optional_element('b', i): message = 'String variable "b" not found in question ' + str(i+1) + '!'; savepath = old_path; break
+						if not check_question_optional_element('c', i): message = 'String variable "c" not found in question ' + str(i+1) + '!'; savepath = old_path; break
+						if not check_question_optional_element('d', i): message = 'String variable "d" not found in question ' + str(i+1) + '!'; savepath = old_path; break
+						if not check_question_optional_element('correct', i): message = 'String variable "correct" not found in question ' + str(i+1) + '!'; savepath = old_path; break
+					create_backup()
+					message = 'Opened JSON file: ' + savepath
+					modified = False
+					allow_save = True
+					is_url = False
+			except IOError as e:
+				message = 'Can\'t open file: ' + e.strerror
+	global modified, modified_sym, savepath, savepath_tmp, allow_save, datafile, is_url, message
 	exited_save = False
-	savepath_tmp = ''
-	message = 'Any save-related messages will appear here.'
 	while not exited_save:
 		try:
 			if modified: modified_sym = '*'
@@ -437,34 +470,42 @@ def save_menu():
 			if savepath or is_url: print(savepath + modified_sym)
 			else: print('Unsaved quiz' + modified_sym)
 			print('\n' + message + '\n')
-			if allow_save: print('[1] Save')
-			print('[2] Save as...')
-			if modified: print('[3] Reload')
-			print('[4] Return')
+			print('[1] New')
+			print('[2] Open...')
+			if allow_save: print('[3] Save')
+			print('[4] Save as...')
+			if modified: print('[5] Reload')
+			print('[6] Return')
 			message = ''
 			print('\nPress the number keys on your keyboard to choose.')
-			choice = int(msvcrt.getch().decode('utf-8'))
-			if choice == 4: exited_save = True
+			choice = int(msvcrt.getwch())
+			if choice == 6: exited_save = True
 			elif choice == 1:
-				if allow_save:
-					with open(savepath, 'w+') as f: f.write(json.dumps(datafile, indent = 4))
-					message = 'Saved!'
-					modified = False
+				if modified:
+					confirm = save_confirm()
+					if confirm != None:
+						if (confirm and save()) or not confirm:
+							savepath = ''
+							datafile = {'title': 'My Quiz', 'questions': [{'question': 'Question', 'a': 'Answer A', 'b': 'Answer B', 'c': 'Answer C', 'd': 'Answer D', 'correct': 'a'}]}
+				else:
+					savepath = ''
+					datafile = {'title': 'My Quiz', 'questions': [{'question': 'Question', 'a': 'Answer A', 'b': 'Answer B', 'c': 'Answer C', 'd': 'Answer D', 'correct': 'a'}]}
 			elif choice == 2:
-				clear()
-				dlg = wx.FileDialog(None, 'Where we savin\', boys?', wildcard = 'JSON Files (*.json)|*.json|All Files (*.*)|*.*||', style = wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT)
-				if dlg.ShowModal() == wx.ID_OK: savepath_tmp = dlg.GetPath()
-				if savepath_tmp:
-					savepath = savepath_tmp
+				if modified:
+					confirm = save_confirm()
+					if confirm != None:
+						if (confirm and save()) or not confirm: openf()
+				else:
+					openf()
+			elif choice == 3:
+				if allow_save:
 					try:
 						with open(savepath, 'w+') as f: f.write(json.dumps(datafile, indent = 4))
-						message = 'JSON file saved as: ' + savepath
+						message = 'Saved!'
 						modified = False
-						allow_save = True
-						is_url = False
-					except IOError as e:
-						message = 'Can\'t save file: ' + e.strerror
-			elif choice == 3:
+					except IOError as e: message = 'Can\'t save file: ' + e.strerror
+			elif choice == 4: save()
+			elif choice == 5:
 				if modified:
 					while True:
 						clear()
@@ -485,15 +526,16 @@ quitted = False
 error = False
 modified = False
 modified_sym = ''
+message = 'Any save-related messages will appear here.'
 if args.path == None: savepath = ''
 elif is_url: savepath = args.path
 else: savepath = os.path.realpath(args.path)
+savepath_tmp = ''
 allow_save = args.path != None and not is_url
 while not quitted:
 	try:
 		if modified: modified_sym = '*'
 		else: modified_sym = ''
-		if args.path == None and not displayed: display_tut(); displayed = True
 		clear()
 		if savepath or is_url: print(savepath + modified_sym)
 		else: print('Unsaved quiz' + modified_sym)
@@ -507,7 +549,7 @@ while not quitted:
 		print('\n[5] Save menu')
 		print('[6] Exit')
 		print('\nPress the number keys on your keyboard to choose.')
-		choice = int(msvcrt.getch().decode('utf-8'))
+		choice = int(msvcrt.getwch())
 		if choice == 6:
 			if modified:
 				while True:

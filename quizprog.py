@@ -10,7 +10,7 @@ import tempfile
 import traceback
 from urllib import parse as urlparse
 
-version = '1.0.4'
+version = '1.0.5'
 
 import argparse
 parser = argparse.ArgumentParser(description = 'Loads a pre-made quiz from a JSON, either from the internet or locally.', epilog = 'QuizProg v{0}\n(c) 2022 GamingWithEvets Inc. All rights reserved.'.format(version), formatter_class = argparse.RawTextHelpFormatter, allow_abbrev = False)
@@ -63,7 +63,7 @@ else:
 
 try:
 	if is_url: datafile = json.load(file)
-	else: datafile = json.load(open(path, 'r', encoding = 'utf-8'))
+	else: datafile = json.load(open(path, encoding = 'utf-8'))
 except:
 	print_tag('invalid JSON data [!]\n' + traceback.format_exc())
 	abort()
@@ -261,7 +261,7 @@ def load_quizzes():
 					else: print('Choice ' + choice.upper() + ' is incorrect!\n')
 
 			print('Press A, B, C, D or E on your keyboard to choose.')
-			choice = msvcrt.getch().decode('utf-8')
+			choice = msvcrt.getwch()
 			if choice in ['a', 'b', 'c', 'd']:
 				print_tag('user chose ' + choice.upper(), function)
 				if question_data['correct'] == 'all': answered = True
@@ -282,7 +282,7 @@ def load_quizzes():
 					print('You will lose all your progress.\n')
 					print('[Y] Yes / [N] No\n')
 					print('Press Y or N on your keyboard to choose.')
-					inputt = msvcrt.getch().decode('utf-8')
+					inputt = msvcrt.getwch()
 					if inputt == 'y': print_tag('quiz exited (manual)', function); return
 					elif inputt == 'n': break
 					else: pass
@@ -316,7 +316,7 @@ while not quitted:
 		print('[2] Quit\n')
 
 		print('Press 1 or 2 on your keyboard to choose.')
-		choice = int(msvcrt.getch().decode('utf-8'))
+		choice = int(msvcrt.getwch())
 		if choice == 2: quitted = True
 		elif choice == 1: print_tag('user has selected start'); load_quizzes(); print_tag('displaying quiz menu')
 		else: pass
