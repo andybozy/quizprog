@@ -589,4 +589,4 @@ while not quitted:
 
 if is_url: file.close()
 if not error: clear()
-exit()
+sys.exit()
