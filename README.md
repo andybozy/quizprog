@@ -6,9 +6,9 @@ Make sure to install all the listed modules in `requirements.txt` first, individ
 As the newest version of wxPython, one of the required modules to run the editor, currently doesn't build on Python 3.10, you can use Python 3.9 or [install a snapshot build for Python 3.10](https://wxpython.org/Phoenix/snapshot-builds/wxPython-4.1.2a1.dev5434+7d45ee6a-cp310-cp310-win_amd64.whl). Then use `pip install <wheel filename>` to install.
 
 # Usage
-```
-python3 quizprog.py [-h, --help] json_path
-```
+QuizProg: `python3 quizprog.py [-h, --help] [-d, --disable-log] json_path`  
+Editor: `python3 editor.py [-h, --help] [json_path]`
+
 ## Parameters
 | Parameter | Description |
 |--|--|
