@@ -1,5 +1,6 @@
 import os
 import wx
+import sys
 import copy
 import json
 import time
@@ -11,12 +12,12 @@ import tempfile
 import traceback
 from urllib import parse as urlparse
 
-version = '1.2.0 - QuizProg v1.0.5'
+version = '1.3.0 - QuizProg v1.0.6'
 
 app = wx.App(None)
 
 import argparse
-parser = argparse.ArgumentParser(description = 'QuizProg quiz editor.', epilog = 'QuizProg Editor v{0}\n(c) 2022 GamingWithEvets Inc. All rights reserved.'.format(version), formatter_class = argparse.RawTextHelpFormatter, allow_abbrev = False)
+parser = argparse.ArgumentParser(description = 'QuizProg quiz editor.', epilog = 'QuizProg Editor v{}\n(c) 2022 GamingWithEvets Inc. All rights reserved.'.format(version), formatter_class = argparse.RawTextHelpFormatter, allow_abbrev = False)
 parser.add_argument('path', metavar = 'json_path', nargs = '?', help = 'path/URL to your JSON file (if you want to make changes to it)')
 args = parser.parse_args()
 
@@ -130,7 +131,9 @@ def input_string(name, short, og = '', new = False, allow_blank = False):
 				if line: textlist_checked.append(line)
 			text = '\n'.join(textlist_checked)
 			break
-	if text != og: modified = True
+	if text:
+		if allow_blank: modified = True
+		if text != og: modified = True
 	return text
 
 def change_questions():
@@ -139,6 +142,128 @@ def change_questions():
 
 	def change_question():
 		global modified, modified_sym, savepath
+
+		def change_wrongmsg():
+			global modified, modified_sym, savepath
+			exited_wrongmsg = False
+			if not check_question_optional_element('wrongmsg', n, dict): question_data['wrongmsg'] = {}
+			m = 'a'
+			while not exited_wrongmsg:
+				try:
+					if modified: modified_sym = '*'
+					else: modified_sym = ''
+					clear()
+					if savepath or is_url: print(savepath + modified_sym + '\n')
+					else: print('Unsaved quiz' + modified_sym + '\n')
+					available_choices = ['a', 'b', 'c', 'd']
+					for choice in question_data['wrongmsg']:
+						if choice in available_choices: available_choices.remove(choice)
+					if len(question_data['wrongmsg']) < 1:
+						print('No wrong messages!\n\n[3] New        [7] Return')
+					else:
+						while True:
+							if m in question_data['wrongmsg']: break
+							else:
+								if m == 'a': m = 'b'
+								elif m == 'b': m = 'c'
+								elif m == 'c': m = 'd'
+						print('CHOICE {} ({}/4 choice letters used)'.format(m.upper(), len(question_data['wrongmsg'])))
+						print('\n' + question_data['wrongmsg'][m] + '\n')
+						if len(question_data['wrongmsg']) != 1:
+							if (m == 'c' and 'b' not in question_data['wrongmsg'] and 'a' not in question_data['wrongmsg']) \
+or (n == 'b' and 'a' not in question_data['wrongmsg']) or m == 'a': print('               [2] Next')
+							elif (m == 'b' and 'c' not in question_data['wrongmsg'] and 'd' not in question_data['wrongmsg']) \
+or (n == 'c' and 'd' not in question_data['wrongmsg']) or m == 'd': print('[1] Previous')
+							else: print('[1] Previous   [2] Next')
+						if len(question_data['wrongmsg']) == 4:
+							print('[4] Edit       [5] Move')
+							print('[6] Remove     [7] Return')
+						else:
+							print('[3] New        [4] Edit')
+							print('[5] Move       [6] Remove')
+							print('[7] Return')
+					print('\nPress the number keys on your keyboard to choose.')
+					choice = int(msvcrt.getwch())
+					if choice == 7:
+						if len(question_data['wrongmsg']) < 1: del question_data['wrongmsg']
+						exited_wrongmsg = True
+					elif choice == 3:
+						if len(question_data['wrongmsg']) < 4:
+							l = len(available_choices)
+							if l > 0:
+								if l > 1:
+									while True:
+										clear()
+										print('Which choice do you want this wrong message for?')
+										if l == 4: print('(A / B / C / D)')
+										elif l == 3: print('({} / {} / {})'.format(available_choices[0].upper(), available_choices[1].upper(), available_choices[2].upper()))
+										elif l == 2: print('({} / {})'.format(available_choices[0].upper(), available_choices[1].upper()))
+										key = msvcrt.getwch().lower()
+										if key in available_choices:
+											choice = key
+											break
+								else: choice = available_choices[0]
+								text = input_string('wrong message for choice ' + choice.upper(), 'message', new = True)
+								if text:
+									question_data['wrongmsg'][choice] = text
+									modified = True
+									m = choice
+					if len(question_data['wrongmsg']) > 1:
+						if choice == 1:
+							if m == 'b' and 'a' in question_data['wrongmsg']: m = 'a'
+							elif m == 'c':
+								if 'b' not in question_data['wrongmsg']: m = 'a'
+								else: m = 'b'
+							elif m == 'd':
+								if 'c' not in question_data['wrongmsg']:
+									if 'b' not in question_data['wrongmsg']: m = 'a'
+									else: m = 'b'
+								else: m = 'c'
+						elif choice == 2:
+							if m == 'a':
+								if 'b' not in question_data['wrongmsg']:
+									if 'c' not in question_data['wrongmsg']: m = 'd'
+									else: m = 'c'
+								else: m = 'b'
+							elif m == 'b':
+								if 'c' not in question_data['wrongmsg']: m = 'd'
+								else: m = 'c'
+							elif m == 'c' and 'd' in question_data['wrongmsg']: m = 'd'
+					elif choice == 4:
+						text = input_string('wrong message for choice ' + m, 'message', question_data['wrongmsg'][m])
+						if text: datafile['wrongmsg'][m] = text
+					elif choice == 5:
+						while True:
+							clear()
+							if m == 'a': print('What\'ll be the wrong message\'s new choice letter?\n(B / C / D - E: Cancel)')
+							elif m == 'b': print('What\'ll be the wrong message\'s new choice letter?\n(A / C / D - E: Cancel)')
+							elif m == 'c': print('What\'ll be the wrong message\'s new choice letter?\n(A / B / D - E: Cancel)')
+							elif m == 'd': print('What\'ll be the wrong message\'s new choice letter?\n(A / B / C - E: Cancel)')
+							choice = msvcrt.getwch().lower()
+							if choice != m:
+								if choice in ['a', 'b', 'c', 'd']:
+									old_m = ''
+									if choice in question_data['wrongmsg']: old_m = question_data['wrongmsg'][n]
+									question_data['wrongmsg'][choice] = question_data['wrongmsg'].pop(n)
+									if old_m: question_data['wrongmsg'][m] = old_m
+									modified = True
+									m = choice
+									break
+								elif choice == 'e': break
+					elif choice == 6:
+						while True:
+							clear()
+							print('Are you sure you want to remove this wrong message?\n(Y: Yes / N: No)')
+							key = msvcrt.getwch().lower()
+							if key == 'y':
+								del question_data['wrongmsg'][m]
+								modified = True
+								break
+							elif key == 'n':
+								break
+				except ValueError:
+					pass
+
 		exited_question = False
 		while not exited_question:
 			try:
@@ -153,13 +278,15 @@ def change_questions():
 				print('[3] Answer B         ' + question_data['b'])
 				print('[4] Answer C         ' + question_data['c'])
 				print('[5] Answer D         ' + question_data['d'])
-				print('[6] Correct answer   ' + question_data['correct'].upper())
-				if check_question_optional_element('explanation', n): print('\n[7] Explanation      ' + question_data['explanation'])
-				else: print('[7] Explanation      None')
-				print('[8] Return')
+				print('[6] Wrong messages')
+				if question_data['correct'] == 'all': print('[7] Correct answer   All')
+				else: print('[7] Correct answer   ' + question_data['correct'].upper())
+				if check_question_optional_element('explanation', n): print('\n[8] Explanation      ' + question_data['explanation'])
+				else: print('[8] Explanation      None')
+				print('[9] Return')
 				print('\nPress the number keys on your keyboard to change or toggle a setting.')
 				choice = int(msvcrt.getwch())
-				if choice == 8: exited_question = True
+				if choice == 9: exited_question = True
 				elif choice == 1:
 					text = input_string('question', 'question', question_data['question'])
 					if text: question_data['question'] = text
@@ -175,12 +302,14 @@ def change_questions():
 				elif choice == 5:
 					text = input_string('answer to choice D', 'answer', question_data['d'])
 					if text: question_data['d'] = text
-				elif choice == 6:
+				elif choice == 6: change_wrongmsg()
+				elif choice == 7:
 					if question_data['correct'] == 'a': question_data['correct'] = 'b'
 					elif question_data['correct'] == 'b': question_data['correct'] = 'c'
 					elif question_data['correct'] == 'c': question_data['correct'] = 'd'
-					elif question_data['correct'] == 'd': question_data['correct'] = 'a'
-				elif choice == 7:
+					elif question_data['correct'] == 'd': question_data['correct'] = 'all'
+					elif question_data['correct'] == 'all': question_data['correct'] = 'a'
+				elif choice == 8:
 					if check_question_optional_element('explanation', n):
 						text = input_string('question explanation', 'explanation', question_data['explanation'], allow_blank = True)
 						question_data['explanation'] = text
@@ -202,13 +331,13 @@ def change_questions():
 			print(str(n + 1) + ' / ' + str(len(datafile['questions'])))
 			question_data = datafile['questions'][n]
 			print('\n' + question_data['question'] + '\n')
-			if question_data['correct'] == 'a': print('[A] ' + question_data['a'] + ' (correct)')
+			if question_data['correct'] == 'a' or question_data['correct'] == 'all': print('[A] ' + question_data['a'] + ' (correct)')
 			else: print('[A] ' + question_data['a'])
-			if question_data['correct'] == 'b': print('[B] ' + question_data['b'] + ' (correct)')
+			if question_data['correct'] == 'b' or question_data['correct'] == 'all': print('[B] ' + question_data['b'] + ' (correct)')
 			else: print('[B] ' + question_data['b'])
-			if question_data['correct'] == 'c': print('[C] ' + question_data['c'] + ' (correct)')
+			if question_data['correct'] == 'c' or question_data['correct'] == 'all': print('[C] ' + question_data['c'] + ' (correct)')
 			else: print('[C] ' + question_data['c'])
-			if question_data['correct'] == 'd': print('[D] ' + question_data['d'] + ' (correct)\n')
+			if question_data['correct'] == 'd' or question_data['correct'] == 'all': print('[D] ' + question_data['d'] + ' (correct)\n')
 			else: print('[D] ' + question_data['d'] + '\n')
 			if len(datafile['questions']) != 1:
 				if n == 0: print('               [2] Next')
@@ -247,7 +376,7 @@ def change_questions():
 					while True:
 						clear()
 						print('Are you sure you want to remove this question?\n(Y: Yes / N: No)')
-						key = msvcrt.getwche()
+						key = msvcrt.getwch().lower()
 						if key == 'y':
 							del datafile['questions'][n]
 							modified = True
@@ -287,14 +416,16 @@ def change_settings():
 					print('[7] Return')
 				print('\nPress the number keys on your keyboard to choose.')
 				choice = int(msvcrt.getwch())
-				if choice == 7: exited_wrongmsgs = True
+				if choice == 7:
+					if len(datafile['wrongmsg']) < 1: del datafile['wrongmsg']
+					exited_wrongmsgs = True
 				elif choice == 3:
 					text = input_string('global wrong message', 'message', new = True) 
 					if text:
 						datafile['wrongmsg'].append(text)
 						modified = True
 						n = len(datafile['wrongmsg']) - 1
-				if len(datafile['wrongmsg']) >= 1:
+				if len(datafile['wrongmsg']) > 1:
 					if choice == 1:
 						if n != 0: n -= 1
 					elif choice == 2:
@@ -304,7 +435,7 @@ def change_settings():
 						if text: datafile['wrongmsg'][n] = text
 					elif choice == 5:
 						clear()
-						print('Input the global wrong message\'s new slot number.\nThe slot number must be between 1 and ' + str(len(datafile['wrongmsg'])) + '\nand must not be ' + str(n + 1) + '.\nOr else, the move operation will be cancelled.\nIf blank or contains non-numeric characters,\nprevious slot number will be used.\n')
+						print('Input the global wrong message\'s new slot number.\nThe slot number must be between 1 and ' + str(len(datafile['wrongmsg'])) + '\nand must not be ' + str(n + 1) + '.\nOr else, the move operation will be cancelled.\nIf blank or contains non-numeric characters,\nthe move operation will also be cancelled.\n')
 						try:
 							slot = int(input())
 							if slot >= 1 and slot <= len(datafile['wrongmsg']) and slot != n + 1:
@@ -317,7 +448,7 @@ def change_settings():
 						while True:
 							clear()
 							print('Are you sure you want to remove this global wrong message?\n(Y: Yes / N: No)')
-							key = msvcrt.getwche()
+							key = msvcrt.getwch().lower()
 							if key == 'y':
 								del datafile['wrongmsg'][n]
 								modified = True
@@ -371,7 +502,13 @@ def change_settings():
 
 			print('\nPress the number keys on your keyboard to change or toggle a setting.')
 			choice = int(msvcrt.getwch())
-			if choice == 7: exited_settings = True
+			if choice == 7:
+				if datafile['lives'] < 1: del datafile['lives']
+				if not datafile['randomize']: del datafile['randomize']
+				if datafile['showcount']: del datafile['showcount']
+				if len(datafile['fail']) < 1: del datafile['fail']
+				if len(datafile['finish']) < 1: del datafile['finish']
+				exited_settings = True
 			elif choice == 1:
 				clear()
 				print('Enter the amount of lives you want to have.\nThe number of lives must be between 1 and 2147483647 and must not be a decimal number.\nIf 0 or lower, the lives setting will be disabled.\nIf blank or contains non-numeric characters,\nprevious life count will be used.\n')
@@ -410,7 +547,7 @@ def save_menu():
 		while True:
 			clear()
 			print('Save changes first? (Y: Yes / N: No / C: Cancel)')
-			key = msvcrt.getwche()
+			key = msvcrt.getwch().lower()
 			if key == 'y': return True
 			elif key == 'n': return False
 			elif key == 'c': return None
@@ -509,8 +646,8 @@ def save_menu():
 				if modified:
 					while True:
 						clear()
-						print('Are you sure you want to reload your quiz and lose\nyour changes made in the editor?\n(Y: Yes / N: No)')
-						key = msvcrt.getwche()
+						print('Are you sure you want to reload the current quiz\nand lose your changes made in the editor?\n(Y: Yes / N: No)')
+						key = msvcrt.getwch().lower()
 						if key == 'y':
 							datafile = datafile_bak.copy()
 							create_backup()
@@ -555,7 +692,7 @@ while not quitted:
 				while True:
 					clear()
 					print('Exit without saving? (Y: Yes / N: No)')
-					key = msvcrt.getwche()
+					key = msvcrt.getwch().lower()
 					if key == 'y': quitted = True; break
 					elif key == 'n': break
 			else: quitted = True

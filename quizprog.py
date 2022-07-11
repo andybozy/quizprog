@@ -10,10 +10,10 @@ import tempfile
 import traceback
 from urllib import parse as urlparse
 
-version = '1.0.5'
+version = '1.0.6'
 
 import argparse
-parser = argparse.ArgumentParser(description = 'Loads a pre-made quiz from a JSON, either from the internet or locally.', epilog = 'QuizProg v{0}\n(c) 2022 GamingWithEvets Inc. All rights reserved.'.format(version), formatter_class = argparse.RawTextHelpFormatter, allow_abbrev = False)
+parser = argparse.ArgumentParser(description = 'Loads a pre-made quiz from a JSON, either from the internet or locally.', epilog = 'QuizProg v{}\n(c) 2022 GamingWithEvets Inc. All rights reserved.'.format(version), formatter_class = argparse.RawTextHelpFormatter, allow_abbrev = False)
 parser.add_argument('path', metavar = 'json_path', help = 'path/URL to your JSON file')
 parser.add_argument('-d', '--disable-log', action = 'store_true', help = 'disable logging')
 args = parser.parse_args()
@@ -224,7 +224,7 @@ def load_quizzes():
 		rangelist = dict(zip(rangelist, templist))
 
 	for i in rangelist:
-		if randomize: print_tag('initializing data for question {0} ({1})'.format(i + 1, rangelist[i] + 1), function)
+		if randomize: print_tag('initializing data for question {} ({})'.format(i + 1, rangelist[i] + 1), function)
 		else: print_tag(f'initializing data for question {i + 1}', function)
 		question_data = datafile['questions'][rangelist[i]]
 		print_wrong = False
@@ -235,17 +235,15 @@ def load_quizzes():
 			clear()
 			if allow_lives:
 				if lives < 1:
-					print('OUT OF LIVES!\n')
+					print('GAME OVER!\n')
 					if check_optional_element('fail'): print(datafile['fail'] + '\n')
-					else: print('Uh oh! You ran out of lives. But don\'t worry!\nJust be better next time. ;)')
-					print('CORRECT ANSWER: [{0}] {1}\n'.format(question_data['correct'].upper(), question_data[question_data['correct']]))
 					print('Press any key to return.')
 					keyboard.wait('\n')
 					input()
-					print_tag('quiz exited (out of lives)', function); return
-				else: print('LIVES: {0}'.format(lives))
-			if showcount: print('QUESTION {0}/{1}\n'.format(i + 1, len(datafile['questions'])))
-			else: print('QUESTION {0}\n'.format(i + 1))
+					print_tag('quiz exited (game over)', function); return
+				else: print('LIVES: {}'.format(lives))
+			if showcount: print('QUESTION {}/{}\n'.format(i + 1, len(datafile['questions'])))
+			else: print(f'QUESTION {i + 1}\n')
 			print(question_data['question'] + '\n')
 			print('[A] ' + question_data['a'])
 			print('[B] ' + question_data['b'])
@@ -261,7 +259,7 @@ def load_quizzes():
 					else: print('Choice ' + choice.upper() + ' is incorrect!\n')
 
 			print('Press A, B, C, D or E on your keyboard to choose.')
-			choice = msvcrt.getwch()
+			choice = msvcrt.getwch().lower()
 			if choice in ['a', 'b', 'c', 'd']:
 				print_tag('user chose ' + choice.upper(), function)
 				if question_data['correct'] == 'all': answered = True
@@ -282,18 +280,20 @@ def load_quizzes():
 					print('You will lose all your progress.\n')
 					print('[Y] Yes / [N] No\n')
 					print('Press Y or N on your keyboard to choose.')
-					inputt = msvcrt.getwch()
+					inputt = msvcrt.getwch().lower()
 					if inputt == 'y': print_tag('quiz exited (manual)', function); return
 					elif inputt == 'n': break
 					else: pass
-		clear()
-		print_tag('displaying correct answer screen', function)
-		if allow_lives: print('LIVES: {0}'.format(lives))
-		print('CORRECT!\n')
-		if check_question_optional_element('explanation', i): print(question_data['explanation'] + '\n')
-		print('Press Enter to continue.')
-		keyboard.wait('\n')
-		input()
+		if check_question_optional_element('explanation', i):
+			clear()
+			print_tag('displaying correct answer screen', function)
+			if allow_lives: print(f'LIVES: {lives}')
+			print('CORRECT!\n')
+			print(question_data['explanation'] + '\n')
+			print('Press Enter to continue.')
+			keyboard.wait('\n')
+			input()
+		else: print_tag('skipping correct answer screen', function)
 	clear()
 	print('IT\'S THE END OF THE QUIZ!\n')
 	if check_optional_element('finish'): print(datafile['finish'] + '\n')
