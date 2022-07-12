@@ -12,7 +12,7 @@ import tempfile
 import traceback
 from urllib import parse as urlparse
 
-version = '1.3.0 - QuizProg v1.0.6'
+version = '1.3.1 - QuizProg v1.0.7'
 
 app = wx.App(None)
 
@@ -159,7 +159,7 @@ def change_questions():
 					for choice in question_data['wrongmsg']:
 						if choice in available_choices: available_choices.remove(choice)
 					if len(question_data['wrongmsg']) < 1:
-						print('No wrong messages!\n\n[3] New        [7] Return')
+						print('No wrong messages! - 4/4 available choice letters\n\n[3] New        [7] Return')
 					else:
 						while True:
 							if m in question_data['wrongmsg']: break
@@ -167,7 +167,7 @@ def change_questions():
 								if m == 'a': m = 'b'
 								elif m == 'b': m = 'c'
 								elif m == 'c': m = 'd'
-						print('CHOICE {} ({}/4 choice letters used)'.format(m.upper(), len(question_data['wrongmsg'])))
+						print('CHOICE {} - {}/4 available choice letters'.format(m.upper(), len(available_choices)))
 						print('\n' + question_data['wrongmsg'][m] + '\n')
 						if len(question_data['wrongmsg']) != 1:
 							if (m == 'c' and 'b' not in question_data['wrongmsg'] and 'a' not in question_data['wrongmsg']) \
@@ -184,9 +184,7 @@ or (n == 'c' and 'd' not in question_data['wrongmsg']) or m == 'd': print('[1] P
 							print('[7] Return')
 					print('\nPress the number keys on your keyboard to choose.')
 					choice = int(msvcrt.getwch())
-					if choice == 7:
-						if len(question_data['wrongmsg']) < 1: del question_data['wrongmsg']
-						exited_wrongmsg = True
+					if choice == 7: exited_wrongmsg = True
 					elif choice == 3:
 						if len(question_data['wrongmsg']) < 4:
 							l = len(available_choices)
@@ -263,6 +261,7 @@ or (n == 'c' and 'd' not in question_data['wrongmsg']) or m == 'd': print('[1] P
 								break
 				except ValueError:
 					pass
+			if len(question_data['wrongmsg']) < 1: del question_data['wrongmsg']
 
 		exited_question = False
 		while not exited_question:
@@ -416,9 +415,7 @@ def change_settings():
 					print('[7] Return')
 				print('\nPress the number keys on your keyboard to choose.')
 				choice = int(msvcrt.getwch())
-				if choice == 7:
-					if len(datafile['wrongmsg']) < 1: del datafile['wrongmsg']
-					exited_wrongmsgs = True
+				if choice == 7: exited_wrongmsgs = True
 				elif choice == 3:
 					text = input_string('global wrong message', 'message', new = True) 
 					if text:
@@ -502,13 +499,7 @@ def change_settings():
 
 			print('\nPress the number keys on your keyboard to change or toggle a setting.')
 			choice = int(msvcrt.getwch())
-			if choice == 7:
-				if datafile['lives'] < 1: del datafile['lives']
-				if not datafile['randomize']: del datafile['randomize']
-				if datafile['showcount']: del datafile['showcount']
-				if len(datafile['fail']) < 1: del datafile['fail']
-				if len(datafile['finish']) < 1: del datafile['finish']
-				exited_settings = True
+			if choice == 7: exited_settings = True
 			elif choice == 1:
 				clear()
 				print('Enter the amount of lives you want to have.\nThe number of lives must be between 1 and 2147483647 and must not be a decimal number.\nIf 0 or lower, the lives setting will be disabled.\nIf blank or contains non-numeric characters,\nprevious life count will be used.\n')
@@ -540,6 +531,12 @@ def change_settings():
 
 		except ValueError:
 			pass
+	if datafile['lives'] < 1: del datafile['lives']
+	if not datafile['randomize']: del datafile['randomize']
+	if datafile['showcount']: del datafile['showcount']
+	if len(datafile['wrongmsg']) < 1: del datafile['wrongmsg']
+	if len(datafile['fail']) < 1: del datafile['fail']
+	if len(datafile['finish']) < 1: del datafile['finish']
 
 def save_menu():
 	def save_confirm():
@@ -659,6 +656,16 @@ def save_menu():
 		except ValueError:
 			pass
 
+def about():
+	clear()
+	print(f'''QUIZPROG EDITOR
+v{version}
+
+(c) 2022 GamingWithEvets Inc. All rights reserved.''')
+	print('\nPress Enter to return.')
+	keyboard.wait('\n')
+	input()
+
 quitted = False
 error = False
 modified = False
@@ -684,10 +691,11 @@ while not quitted:
 		print('[3] Change quiz questions')
 		print('[4] Change quiz settings')
 		print('\n[5] Save menu')
-		print('[6] Exit')
+		print('[6] About QuizProg Editor')
+		print('[7] Exit')
 		print('\nPress the number keys on your keyboard to choose.')
 		choice = int(msvcrt.getwch())
-		if choice == 6:
+		if choice == 7:
 			if modified:
 				while True:
 					clear()
@@ -709,6 +717,7 @@ while not quitted:
 		elif choice == 3: change_questions()
 		elif choice == 4: change_settings()
 		elif choice == 5: save_menu()
+		elif choice == 6: about()
 		else: pass
 
 	except ValueError:

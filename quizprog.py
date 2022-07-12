@@ -10,7 +10,7 @@ import tempfile
 import traceback
 from urllib import parse as urlparse
 
-version = '1.0.6'
+version = '1.0.7'
 
 import argparse
 parser = argparse.ArgumentParser(description = 'Loads a pre-made quiz from a JSON, either from the internet or locally.', epilog = 'QuizProg v{}\n(c) 2022 GamingWithEvets Inc. All rights reserved.'.format(version), formatter_class = argparse.RawTextHelpFormatter, allow_abbrev = False)
@@ -295,7 +295,7 @@ def load_quizzes():
 			input()
 		else: print_tag('skipping correct answer screen', function)
 	clear()
-	print('IT\'S THE END OF THE QUIZ!\n')
+	print('CONGRATULATIONS!\n')
 	if check_optional_element('finish'): print(datafile['finish'] + '\n')
 	print('Press Enter to return.')
 	keyboard.wait('\n')
