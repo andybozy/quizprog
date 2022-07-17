@@ -13,7 +13,7 @@ Editor: `python3 editor.py [-h, --help] [json_path]`
 | Parameter | Description |
 |--|--|
 | `json_path` | Path to the JSON file which will be used to load quiz data. |
-| `-d, --enable-log` | Enable logging. Used for debugging. (not available in editor) |
+| `-e, --enable-log` | Enable logging. Used for debugging. (not available in editor) |
 | `-h, --help` | Show help. |
 
 # Valid Variables
