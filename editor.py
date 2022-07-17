@@ -1,4 +1,5 @@
 import os
+import re
 import wx
 import sys
 import copy
@@ -10,9 +11,8 @@ import keyboard
 import requests
 import tempfile
 import traceback
-from urllib import parse as urlparse
 
-version = '1.3.1 - QuizProg v1.0.7'
+version = '1.3.2 - QuizProg v1.1.0'
 
 app = wx.App(None)
 
@@ -22,7 +22,7 @@ parser.add_argument('path', metavar = 'json_path', nargs = '?', help = 'path/URL
 args = parser.parse_args()
 
 if args.path != None:
-	is_url = urlparse.urlparse(args.path).scheme != ''
+	is_url = bool(re.search('(?P<url>https?://[^\s]+)', args.path))
 
 	if is_url:
 		try:
@@ -128,7 +128,7 @@ def input_string(name, short, og = '', new = False, allow_blank = False):
 			textlist.append(content)
 		except EOFError:
 			for line in textlist:
-				if line: textlist_checked.append(line)
+				if line and not line.isspace(): textlist_checked.append(line)
 			text = '\n'.join(textlist_checked)
 			break
 	if text:
@@ -268,19 +268,42 @@ or (n == 'c' and 'd' not in question_data['wrongmsg']) or m == 'd': print('[1] P
 			try:
 				if modified: modified_sym = '*'
 				else: modified_sym = ''
+
+				if not check_question_optional_element('explanation', n): question_data['explanation'] = ''
+
+				question_split = question_data['question'].split('\n')
+				a_split = question_data['a'].split('\n')
+				b_split = question_data['b'].split('\n')
+				c_split = question_data['c'].split('\n')
+				d_split = question_data['d'].split('\n')
+				explanation_split = question_data['explanation'].split('\n')
+
 				clear()
 				if savepath or is_url: print(savepath + modified_sym + '\n')
 				else: print('Unsaved quiz' + modified_sym + '\n')
 				print(str(n + 1) + ' / ' + str(len(datafile['questions'])))
-				print('\n[1] Question         ' + question_data['question'])
-				print('[2] Answer A         ' + question_data['a'])
-				print('[3] Answer B         ' + question_data['b'])
-				print('[4] Answer C         ' + question_data['c'])
-				print('[5] Answer D         ' + question_data['d'])
+				print('\n[1] Question         ' + question_split[0])
+				if len(question_split) > 1:
+					for line in range(1, len(question_split)): print('                     ' + question_split[line])
+				print('[2] Answer A         ' + a_split[0])
+				if len(a_split) > 1:
+					for line in range(1, len(a_split)): print('                     ' + a_split[line])
+				print('[3] Answer B         ' + b_split[0])
+				if len(b_split) > 1:
+					for line in range(1, len(b_split)): print('                     ' + b_split[line])
+				print('[4] Answer C         ' + c_split[0])
+				if len(c_split) > 1:
+					for line in range(1, len(c_split)): print('                     ' + c_split[line])
+				print('[5] Answer D         ' + d_split[0])
+				if len(d_split) > 1:
+					for line in range(1, len(d_split)): print('                     ' + d_split[line])
 				print('[6] Wrong messages')
 				if question_data['correct'] == 'all': print('[7] Correct answer   All')
 				else: print('[7] Correct answer   ' + question_data['correct'].upper())
-				if check_question_optional_element('explanation', n): print('\n[8] Explanation      ' + question_data['explanation'])
+				if check_question_optional_element('explanation', n):
+					print('\n[8] Explanation      ' + explanation_split[0])
+					if len(explanation_split) > 1:
+						for line in range(1, len(explanation_split)): print('                     ' + explanation_split[line])
 				else: print('[8] Explanation      None')
 				print('[9] Return')
 				print('\nPress the number keys on your keyboard to change or toggle a setting.')
@@ -317,27 +340,71 @@ or (n == 'c' and 'd' not in question_data['wrongmsg']) or m == 'd': print('[1] P
 						if text: question_data['explanation'] = text
 			except ValueError:
 				pass
+		if len(question_data['explanation']) < 1: del question_data['explanation']
 
 	exited_questions = False
 	while not exited_questions:
 		try:
 			if modified: modified_sym = '*'
 			else: modified_sym = ''
+
+			question_data = datafile['questions'][n]
+			a_split = question_data['a'].split('\n')
+			b_split = question_data['b'].split('\n')
+			c_split = question_data['c'].split('\n')
+			d_split = question_data['d'].split('\n')
+
 			clear()
 			if savepath or is_url: print(savepath + modified_sym + '\n')
 			else: print('Unsaved quiz' + modified_sym + '\n')
 			if n >= len(datafile['questions']): n = len(datafile['questions']) - 1
 			print(str(n + 1) + ' / ' + str(len(datafile['questions'])))
-			question_data = datafile['questions'][n]
 			print('\n' + question_data['question'] + '\n')
-			if question_data['correct'] == 'a' or question_data['correct'] == 'all': print('[A] ' + question_data['a'] + ' (correct)')
-			else: print('[A] ' + question_data['a'])
-			if question_data['correct'] == 'b' or question_data['correct'] == 'all': print('[B] ' + question_data['b'] + ' (correct)')
-			else: print('[B] ' + question_data['b'])
-			if question_data['correct'] == 'c' or question_data['correct'] == 'all': print('[C] ' + question_data['c'] + ' (correct)')
-			else: print('[C] ' + question_data['c'])
-			if question_data['correct'] == 'd' or question_data['correct'] == 'all': print('[D] ' + question_data['d'] + ' (correct)\n')
-			else: print('[D] ' + question_data['d'] + '\n')
+			if question_data['correct'] == 'a' or question_data['correct'] == 'all':
+				if len(a_split) > 1:
+					print('[A] ' + a_split[0])
+					for line in range(1, len(a_split) - 1): print('    ' + a_split[line])
+					print('    ' + a_split[-1] + ' (correct)')
+				else: print('[A] ' + question_data['a'] + ' (correct)')
+			else:
+				if len(a_split) > 1:
+					print('[A] ' + a_split[0])
+					for line in range(1, len(a_split)): print('    ' + a_split[line])
+				else: print('[A] ' + question_data['a'])
+			if question_data['correct'] == 'b' or question_data['correct'] == 'all':
+				if len(b_split) > 1:
+					print('[B] ' + b_split[0])
+					for line in range(1, len(b_split) - 1): print('    ' + b_split[line])
+					print('    ' + b_split[-1] + ' (correct)')
+				else: print('[B] ' + question_data['b'] + ' (correct)')
+			else:
+				if len(b_split) > 1:
+					print('[B] ' + b_split[0])
+					for line in range(1, len(b_split)): print('    ' + b_split[line])
+				else: print('[B] ' + question_data['b'])
+			if question_data['correct'] == 'c' or question_data['correct'] == 'all':
+				if len(c_split) > 1:
+					print('[C] ' + c_split[0])
+					for line in range(1, len(c_split) - 1): print('    ' + c_split[line])
+					print('    ' + c_split[-1] + ' (correct)')
+				else: print('[C] ' + question_data['c'] + ' (correct)')
+			else:
+				if len(c_split) > 1:
+					print('[C] ' + c_split[0])
+					for line in range(1, len(c_split)): print('    ' + c_split[line])
+				else: print('[C] ' + question_data['c'])
+			if question_data['correct'] == 'd' or question_data['correct'] == 'all':
+				if len(d_split) > 1:
+					print('[D] ' + d_split[0])
+					for line in range(1, len(d_split) - 1): print('    ' + d_split[line])
+					print('    ' + d_split[-1] + ' (correct)\n')
+				else: print('[D] ' + question_data['d'] + ' (correct)\n')
+			else:
+				if len(d_split) > 1:
+					print('[D] ' + d_split[0])
+					for line in range(1, len(d_split) - 1): print('    ' + d_split[line])
+					print('    ' + d_split[-1] + '\n')
+				else: print('[D] ' + question_data['d'] + '\n')
 			if len(datafile['questions']) != 1:
 				if n == 0: print('               [2] Next')
 				elif n + 1 == len(datafile['questions']): print('[1] Previous')
@@ -574,6 +641,7 @@ def save_menu():
 			old_path = savepath
 			savepath = savepath_tmp
 			try:
+				success = False
 				for i in range(1):
 					try: datafile = json.load(open(savepath))
 					except Exception as e: message = 'Invalid JSON data!'; savepath = old_path; break
@@ -587,11 +655,16 @@ def save_menu():
 						if not check_question_optional_element('c', i): message = 'String variable "c" not found in question ' + str(i+1) + '!'; savepath = old_path; break
 						if not check_question_optional_element('d', i): message = 'String variable "d" not found in question ' + str(i+1) + '!'; savepath = old_path; break
 						if not check_question_optional_element('correct', i): message = 'String variable "correct" not found in question ' + str(i+1) + '!'; savepath = old_path; break
+						success = True
+					if not success: break
 					create_backup()
 					message = 'Opened JSON file: ' + savepath
 					modified = False
 					allow_save = True
 					is_url = False
+				if not success:
+					datafile = datafile_bak.copy()
+					create_backup()
 			except IOError as e:
 				message = 'Can\'t open file: ' + e.strerror
 	global modified, modified_sym, savepath, savepath_tmp, allow_save, datafile, is_url, message
@@ -629,8 +702,7 @@ def save_menu():
 					confirm = save_confirm()
 					if confirm != None:
 						if (confirm and save()) or not confirm: openf()
-				else:
-					openf()
+				else: openf()
 			elif choice == 3:
 				if allow_save:
 					try:

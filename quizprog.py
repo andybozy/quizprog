@@ -1,4 +1,6 @@
 import os
+import re
+import wx
 import sys
 import json
 if os.name == 'nt': import msvcrt
@@ -8,66 +10,73 @@ import keyboard
 import requests
 import tempfile
 import traceback
-from urllib import parse as urlparse
+from datetime import datetime
 
-version = '1.0.7'
+version = '1.1.0'
+
+app = wx.App(None)
 
 import argparse
 parser = argparse.ArgumentParser(description = 'Loads a pre-made quiz from a JSON, either from the internet or locally.', epilog = 'QuizProg v{}\n(c) 2022 GamingWithEvets Inc. All rights reserved.'.format(version), formatter_class = argparse.RawTextHelpFormatter, allow_abbrev = False)
-parser.add_argument('path', metavar = 'json_path', help = 'path/URL to your JSON file')
-parser.add_argument('-d', '--disable-log', action = 'store_true', help = 'disable logging')
+parser.add_argument('path', metavar = 'json_path', nargs = '?', help = 'path/URL to your JSON file (skips the main menu)')
+parser.add_argument('-e', '--enable-log', action = 'store_true', help = 'enable logging (for debugging)')
 args = parser.parse_args()
 
-if not args.disable_log: logfile = open('quizprog.log', 'a', encoding = 'utf-8') 
+if args.enable_log: logfile = open('quizprog.log', 'a', encoding = 'utf-8') 
 
 def print_tag(string: str, function = 'main', error = False):
-	if not args.disable_log:
-		if error: logfile.write('\n' + function + ': ' + string + ' [!]')
-		else: logfile.write('\n' + function + ': ' + string)
+	if args.enable_log:
+		if error: logfile.write('\n[' + datetime.now().strftime("%d/%m/%Y %H:%M:%S") + '] ' + function + ': ' + string + ' [!]')
+		else: logfile.write('\n[' + datetime.now().strftime("%d/%m/%Y %H:%M:%S") + '] ' + function + ': ' + string)
 
 def abort():
 	print_tag('aborting.\n\n')
 
-if not args.disable_log: logfile.write('main: starting')
+if args.enable_log: logfile.write('[' + datetime.now().strftime("%d/%m/%Y %H:%M:%S") + '] main: starting')
 print_tag('quizprog v' + version)
 
-is_url = urlparse.urlparse(args.path).scheme != ''
+if args.path != None:
+	is_url = bool(re.search('(?P<url>https?://[^\s]+)', args.path))
 
-
-if is_url:
-	print_tag('detected: URL')
-	try:
-		print_tag('downloading from: ' + args.path)
-		response = requests.get(args.path)
-		print_tag('got response: ' + str(response.status_code) + ' ' + response.reason)
-		if response.status_code != 200:
-			print_tag('expected status code 200 [!]')
+	if is_url:
+		print_tag('detected: URL')
+		try:
+			print_tag('downloading from: ' + args.path)
+			response = requests.get(args.path)
+			print_tag('got response: ' + str(response.status_code) + ' ' + response.reason)
+			if response.status_code != 200:
+				print_tag('expected status code 200 [!]')
+				abort()
+				parser.error(str(response.status_code) + ' ' + response.reason)
+		except Exception:
+			print_tag('internet connection error occurred [!]')
 			abort()
-			parser.error(str(response.status_code) + ' ' + response.reason)
-	except Exception:
-		print_tag('internet connection error occurred [!]')
-		abort()
-		parser.error('error connecting to URL. maybe check your internet connection?')
-	file = tempfile.TemporaryFile(mode = 'w+')
-	file.write(response.text)
-	file.seek(0)
-else:
-	print_tag('detected: local file')
-	if not os.path.exists(args.path):
-		print_tag('finding file "' + os.path.abspath(args.path) + '": not found [!]')
-		abort()
-		parser.error('invalid file path')
+			parser.error('error connecting to URL. maybe check your internet connection?')
+		file = tempfile.TemporaryFile(mode = 'w+')
+		file.write(response.text)
+		file.seek(0)
 	else:
-		print_tag('finding file "' + os.path.abspath(args.path) + '": found')
-		path = args.path
+		print_tag('detected: local file')
+		if not os.path.exists(args.path):
+			print_tag('finding file "' + os.path.abspath(args.path) + '": not found [!]')
+			abort()
+			parser.error('invalid file path')
+		else:
+			print_tag('finding file "' + os.path.abspath(args.path) + '": found')
+			path = args.path
 
-try:
-	if is_url: datafile = json.load(file)
-	else: datafile = json.load(open(path, encoding = 'utf-8'))
-except:
-	print_tag('invalid JSON data [!]\n' + traceback.format_exc())
-	abort()
-	parser.error('invalid JSON data')
+	try:
+		if is_url: datafile = json.load(file)
+		else: datafile = json.load(open(path, encoding = 'utf-8'))
+		loaded_quiz = True
+	except:
+		print_tag('invalid JSON data [!]\n' + traceback.format_exc())
+		abort()
+		parser.error('invalid JSON data')
+else:
+	is_url = False
+	loaded_quiz = False
+	datafile = {}
 
 def clear():
 	done = False
@@ -167,20 +176,22 @@ def check_question_optional_element(element, qid, valtype = str):
 	if test1 and test2 and test3: return True
 	else: return False
 
-check_element('title')
-check_element('questions', list)
-print_tag('got ' + str(len(datafile['questions'])) + ' questions')
-if len(datafile['questions']) < 1:
-	print_tag('question count is too low [!]')
-	abort()
-	parser.error('there must be at least one question in "questions"')
-for i in range(len(datafile['questions'])):
-	check_question_element('question', i)
-	check_question_element('a', i)
-	check_question_element('b', i)
-	check_question_element('c', i)
-	check_question_element('d', i)
-	check_question_element('correct', i)
+if loaded_quiz:
+	check_element('title')
+	check_element('questions', list)
+	print_tag('got ' + str(len(datafile['questions'])) + ' questions')
+	if len(datafile['questions']) < 1:
+		print_tag('question count is too low [!]')
+		abort()
+		parser.error('there must be at least one question in "questions"')
+	for i in range(len(datafile['questions'])):
+		check_question_element('question', i)
+		check_question_element('a', i)
+		check_question_element('b', i)
+		check_question_element('c', i)
+		check_question_element('d', i)
+		check_question_element('correct', i)
+else: print_tag('quiz not loaded, skipping element checks')
 
 def load_quizzes():
 	function = 'load_quizzes'
@@ -302,24 +313,120 @@ def load_quizzes():
 	input()
 	print_tag('quiz exited (finished)', function)
 
-print_tag('initializing quiz menu')
+def about():
+	print_tag('user has selected about menu')
+	print_tag('displaying about menu')
+	clear()
+	print(f'''QUIZPROG - VERSION {version}
+
+(c) 2022 GamingWithEvets Inc. All rights reserved.''')
+	print('\nPress Enter to return.')
+	keyboard.wait('\n')
+	input()
+
+def quit_quiz():
+	function = 'quit_quiz'
+
+	global is_url, loaded_quiz
+	if is_url: print_tag('closing temporary downloaded file', function); file.close()
+	print_tag('setting variables', function)
+	is_url = False
+	loaded_quiz = False
+	print_tag('clearing old quiz data', function)
+	datafile = {}
+
+def openf():
+	function = 'openf'
+
+	global message, datafile, loaded_quiz
+	path = ''
+
+	clear()
+	dlg = wx.FileDialog(None, 'JSON file please!', wildcard = 'JSON Files (*.json)|*.json|All Files (*.*)|*.*||', style = wx.FD_OPEN | wx.FD_FILE_MUST_EXIST)
+	if dlg.ShowModal() == wx.ID_OK: path = dlg.GetPath()
+	if path:
+		print_tag('opening file "' + os.path.abspath(path) + '"', function)
+		try:
+			for i in range(1):
+				try: datafile = json.load(open(path))
+				except Exception as e:
+					print_tag('invalid JSON data\n' + traceback.format_exc(), function)
+					message = 'Invalid JSON data!'; break
+				if not check_optional_element('title'): message = 'String variable "title" not found!'; break
+				if not check_optional_element('questions', list): message = 'String variable "questions" not found!'; break
+				if len(datafile['questions']) < 1: message = 'There must be at least one question in the "questions" list!'; break
+				success = False
+				for i in range(len(datafile['questions'])):
+					if not check_question_optional_element('question', i): message = 'String variable "question" not found in question ' + str(i+1) + '!'; break
+					if not check_question_optional_element('a', i): message = 'String variable "a" not found in question ' + str(i+1) + '!'; break
+					if not check_question_optional_element('b', i): message = 'String variable "b" not found in question ' + str(i+1) + '!'; break
+					if not check_question_optional_element('c', i): message = 'String variable "c" not found in question ' + str(i+1) + '!'; break
+					if not check_question_optional_element('d', i): message = 'String variable "d" not found in question ' + str(i+1) + '!'; break
+					if not check_question_optional_element('correct', i): message = 'String variable "correct" not found in question ' + str(i+1) + '!'; break
+					success = True
+				if not success: break
+				message = ''
+				loaded_quiz = True
+				is_url = False
+			if not success: print_tag('quiz loading cancelled', function)
+		except IOError as e:
+			message = 'Can\'t open file: ' + e.strerror
+			print_tag('IOError occurred: ' + e.strerror, function)
+	else: print_tag('quiz opening cancelled', function)
+
+print_tag('initializing variables')
 quitted = False
 error = False
-print_tag('displaying quiz menu')
+message = 'Welcome to QuizProg! Any errors while opening a quiz will be displayed here.'
 while not quitted:
 	try:
 		clear()
-		print(datafile['title'].upper())
-		print('\nPowered by QuizProg v' + version + '\n')
-		if check_optional_element('description'): print(datafile['description'])
-		print('\n[1] Start')
-		print('[2] Quit\n')
+		if loaded_quiz:
+			print_tag('displaying quiz menu')
+			print(datafile['title'].upper())
+			print('\nPowered by QuizProg v' + version + '\n')
+			if check_optional_element('description'): print(datafile['description'])
+			print('\n[1] Start quiz\n')
+			print('[2] Open another quiz')
+			print('[3] Quit quiz\n')
+			print('[4] About QuizProg')
+			print('[5] Quit QuizProg\n')
 
-		print('Press 1 or 2 on your keyboard to choose.')
-		choice = int(msvcrt.getwch())
-		if choice == 2: quitted = True
-		elif choice == 1: print_tag('user has selected start'); load_quizzes(); print_tag('displaying quiz menu')
-		else: pass
+			print('Press the number keys on your keyboard to choose.')
+			choice = int(msvcrt.getwch())
+			if choice == 5: quitted = True
+			elif choice == 1: print_tag('user has selected start'); load_quizzes(); print_tag('displaying quiz menu')
+			elif choice == 2:
+				while True:
+					clear()
+					print('To open another quiz, the current quiz must be quitted first.\nDo you want to continue? (Y: Yes / N: No)')
+					key = msvcrt.getwch().lower()
+					if key == 'y': print_tag('user has selected "open quiz"'); quit_quiz(); openf(); break
+					elif key == 'n': break
+			elif choice == 3:
+				while True:
+					clear()
+					print('Are you sure you want to quit this quiz?\n(Y: Yes / N: No)')
+					key = msvcrt.getwch().lower()
+					if key == 'y': print_tag('user has quitted quiz'); quit_quiz()
+					elif key == 'n': break
+			elif choice == 4: about()
+			else: pass
+		else:
+			print_tag('displaying quizprog menu')
+			print('QUIZPROG LOADER\n')
+			print(message + '\n')
+			print('[1] Open quiz')
+			print('[2] About QuizProg')
+			print('[3] Quit\n')
+
+			message = ''
+			print('Press the number keys on your keyboard to choose.')
+			choice = int(msvcrt.getwch())
+			if choice == 3: quitted = True
+			elif choice == 1: print_tag('user has selected "open quiz"'); openf()
+			elif choice == 2: about()
+			else: pass
 
 	except ValueError:
 		pass
@@ -338,9 +445,9 @@ while not quitted:
 
 
 if error: print_tag('')
-else: print_tag('user has quitted')
+else: print_tag('user has quitted quizprog')
 if is_url: print_tag('closing temporary downloaded file'); file.close()
 if not error: clear()
 abort()
-if not args.disable_log: logfile.close()
+if args.enable_log: logfile.close()
 sys.exit()
