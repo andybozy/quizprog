@@ -16,7 +16,9 @@ Editor: `python3 editor.py [-h, --help] [json_path]`
 | `-e, --enable-log` | Enable logging. Used for debugging. (not available in editor) |
 | `-h, --help` | Show help. |
 
-# Valid Variables
+# JSON Structure
+The JSON data must be a dictionary containing these variables (except for optional ones, as they are... well, optional).  
+The variables and their types are as follows:
 - `title` (`string`) - The title of your quiz.
 - `description` (`string`) - A description of your quiz. Will not show if not specified. *(optional)*
 - `lives` (`int`) - The maximum amount of times a player can get a question incorrect. If not specified, the lives mechanic will be disabled. *(optional)*
@@ -27,10 +29,10 @@ Editor: `python3 editor.py [-h, --help] [json_path]`
 - - For each question (`dict`) in `questions`:
 - - `question` (`string`) - The question.
 - - `a`, `b`, `c`, `d` (`string`) - The 4 choices (A, B, C, D).
-- - `wrongmsg` (`dict`) - Lists incorrect answer messages when a player chooses one.
+- - `wrongmsg` (`dict`) - Lists incorrect answer messages when a player chooses one (not to be confused with the global `wrongmsg` dictionary). If not specified or empty, this feature will be disabled. *(optional)*
 - - - In `wrongmsg`:
-- - - `a`, `b`, `c`, `d` (`string`) - Incorrect answer message when choosing an incorrect answer. The message for the correct answer will be ignored and is optional.
-- - `correct` (`string`) - Can be either `a`, `b`, `c`, `d` or `all`. Specifies the correct answer. If set to `all`, all answers are correct.
-- - `explanation` (`string`) - An explanation of the question. *(optional)*
-- `fail` (`string`) - Fail message when running out of lives. If specified, must be used with the `lives` variable. If not specified, uses a generic fail message. *(optional)*
+- - - `a`, `b`, `c`, `d` (`string`) - Incorrect answer message when choosing an incorrect choice. *(optional)*
+- - `correct` (`string`) - Can be either `a`, `b`, `c`, `d` or `all`. Specifies the correct choice. If set to `all`, all choices are correct.
+- - `explanation` (`string`) - An explanation of the question. If not specified, the correct answer screen will be skipped. *(optional)*
+- `fail` (`string`) - Fail message when running out of lives. Must be used with the `lives` variable. *(optional)*
 - `finish` (`string`) - Finish message when completing all the quiz questions.
