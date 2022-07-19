@@ -12,7 +12,7 @@ import requests
 import tempfile
 import traceback
 
-version = '1.3.2 - QuizProg v1.1.0'
+version = '1.3.3 - QuizProg v1.1.1'
 
 app = wx.App(None)
 
@@ -618,7 +618,7 @@ def save_menu():
 	def save():
 		global savepath, savepath_tmp, message, modified, allow_save, is_url
 		clear()
-		dlg = wx.FileDialog(None, 'Where we savin\', boys?', wildcard = 'JSON Files (*.json)|*.json|All Files (*.*)|*.*||', style = wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT)
+		dlg = wx.FileDialog(None, 'Where we savin\', boys?', wildcard = 'JSON Files (*.json)|*.json|All Files (*.*)|*.*', style = wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT)
 		if dlg.ShowModal() == wx.ID_OK: savepath_tmp = dlg.GetPath()
 		if savepath_tmp:
 			savepath = savepath_tmp
@@ -635,7 +635,7 @@ def save_menu():
 	def openf():
 		global savepath, savepath_tmp, message, datafile
 		clear()
-		dlg = wx.FileDialog(None, 'JSON file please!', wildcard = 'JSON Files (*.json)|*.json|All Files (*.*)|*.*||', style = wx.FD_OPEN | wx.FD_FILE_MUST_EXIST)
+		dlg = wx.FileDialog(None, 'JSON file please!', wildcard = 'JSON Files (*.json)|*.json|All Files (*.*)|*.*', style = wx.FD_OPEN | wx.FD_FILE_MUST_EXIST)
 		if dlg.ShowModal() == wx.ID_OK: savepath_tmp = dlg.GetPath()
 		if savepath_tmp:
 			old_path = savepath
@@ -645,16 +645,15 @@ def save_menu():
 				for i in range(1):
 					try: datafile = json.load(open(savepath))
 					except Exception as e: message = 'Invalid JSON data!'; savepath = old_path; break
-					if not check_optional_element('title'): message = 'String variable "title" not found!'; savepath = old_path; break
-					if not check_optional_element('questions', list): message = 'String variable "questions" not found!'; savepath = old_path; break
-					if len(datafile['questions']) < 1: message = 'There must be at least one question in the "questions" list!'; savepath = old_path; break
+					if not check_optional_element('title'): message = 'String variable "title" not found or empty!'; savepath = old_path; break
+					if not check_optional_element('questions', list): message = 'String variable "questions" not found or empty!'; savepath = old_path; break
 					for i in range(len(datafile['questions'])):
-						if not check_question_optional_element('question', i): message = 'String variable "question" not found in question ' + str(i+1) + '!'; savepath = old_path; break
-						if not check_question_optional_element('a', i): message = 'String variable "a" not found in question ' + str(i+1) + '!'; savepath = old_path; break
-						if not check_question_optional_element('b', i): message = 'String variable "b" not found in question ' + str(i+1) + '!'; savepath = old_path; break
-						if not check_question_optional_element('c', i): message = 'String variable "c" not found in question ' + str(i+1) + '!'; savepath = old_path; break
-						if not check_question_optional_element('d', i): message = 'String variable "d" not found in question ' + str(i+1) + '!'; savepath = old_path; break
-						if not check_question_optional_element('correct', i): message = 'String variable "correct" not found in question ' + str(i+1) + '!'; savepath = old_path; break
+						if not check_question_optional_element('question', i): message = 'String variable "question" not found or empty in question ' + str(i+1) + '!'; savepath = old_path; break
+						if not check_question_optional_element('a', i): message = 'String variable "a" not found or empty in question ' + str(i+1) + '!'; savepath = old_path; break
+						if not check_question_optional_element('b', i): message = 'String variable "b" not found or empty in question ' + str(i+1) + '!'; savepath = old_path; break
+						if not check_question_optional_element('c', i): message = 'String variable "c" not found or empty in question ' + str(i+1) + '!'; savepath = old_path; break
+						if not check_question_optional_element('d', i): message = 'String variable "d" not found or empty in question ' + str(i+1) + '!'; savepath = old_path; break
+						if not check_question_optional_element('correct', i): message = 'String variable "correct" not found or empty in question ' + str(i+1) + '!'; savepath = old_path; break
 						success = True
 					if not success: break
 					create_backup()

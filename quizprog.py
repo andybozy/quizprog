@@ -12,7 +12,7 @@ import tempfile
 import traceback
 from datetime import datetime
 
-version = '1.1.0'
+version = '1.1.1'
 
 app = wx.App(None)
 
@@ -342,27 +342,26 @@ def openf():
 	path = ''
 
 	clear()
-	dlg = wx.FileDialog(None, 'JSON file please!', wildcard = 'JSON Files (*.json)|*.json|All Files (*.*)|*.*||', style = wx.FD_OPEN | wx.FD_FILE_MUST_EXIST)
+	dlg = wx.FileDialog(None, 'JSON file please!', wildcard = 'JSON Files (*.json)|*.json|All Files (*.*)|*.*', style = wx.FD_OPEN | wx.FD_FILE_MUST_EXIST)
 	if dlg.ShowModal() == wx.ID_OK: path = dlg.GetPath()
 	if path:
 		print_tag('opening file "' + os.path.abspath(path) + '"', function)
 		try:
+			success = False
 			for i in range(1):
 				try: datafile = json.load(open(path))
 				except Exception as e:
 					print_tag('invalid JSON data\n' + traceback.format_exc(), function)
 					message = 'Invalid JSON data!'; break
-				if not check_optional_element('title'): message = 'String variable "title" not found!'; break
-				if not check_optional_element('questions', list): message = 'String variable "questions" not found!'; break
-				if len(datafile['questions']) < 1: message = 'There must be at least one question in the "questions" list!'; break
-				success = False
+				if not check_optional_element('title'): message = 'String variable "title" not found or empty!'; break
+				if not check_optional_element('questions', list): message = 'String variable "questions" not found or empty!'; break
 				for i in range(len(datafile['questions'])):
-					if not check_question_optional_element('question', i): message = 'String variable "question" not found in question ' + str(i+1) + '!'; break
-					if not check_question_optional_element('a', i): message = 'String variable "a" not found in question ' + str(i+1) + '!'; break
-					if not check_question_optional_element('b', i): message = 'String variable "b" not found in question ' + str(i+1) + '!'; break
-					if not check_question_optional_element('c', i): message = 'String variable "c" not found in question ' + str(i+1) + '!'; break
-					if not check_question_optional_element('d', i): message = 'String variable "d" not found in question ' + str(i+1) + '!'; break
-					if not check_question_optional_element('correct', i): message = 'String variable "correct" not found in question ' + str(i+1) + '!'; break
+					if not check_question_optional_element('question', i): message = 'String variable "question" not found or empty in question ' + str(i+1) + '!'; break
+					if not check_question_optional_element('a', i): message = 'String variable "a" not found or empty in question ' + str(i+1) + '!'; break
+					if not check_question_optional_element('b', i): message = 'String variable "b" not found or empty in question ' + str(i+1) + '!'; break
+					if not check_question_optional_element('c', i): message = 'String variable "c" not found or empty in question ' + str(i+1) + '!'; break
+					if not check_question_optional_element('d', i): message = 'String variable "d" not found or empty in question ' + str(i+1) + '!'; break
+					if not check_question_optional_element('correct', i): message = 'String variable "correct" not found or empty in question ' + str(i+1) + '!'; break
 					success = True
 				if not success: break
 				message = ''
