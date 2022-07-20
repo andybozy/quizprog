@@ -5,6 +5,7 @@ import sys
 import json
 if os.name == 'nt': import msvcrt
 else: import getch as msvcrt
+import ctypes
 import random
 import keyboard
 import requests
@@ -12,7 +13,7 @@ import tempfile
 import traceback
 from datetime import datetime
 
-version = '1.1.1'
+version = '1.1.2'
 
 app = wx.App(None)
 
@@ -373,12 +374,22 @@ def openf():
 			print_tag('IOError occurred: ' + e.strerror, function)
 	else: print_tag('quiz opening cancelled', function)
 
+def set_title():
+	print_tag('setting title', 'set_title')
+	if args.path:
+		if is_url: title = 'QuizProg Loader - ' + datafile['title'] + ' - ' + args.path
+		else: title = 'QuizProg Loader - ' + datafile['title'] + os.path.realpath(args.path)
+	else: title = 'QuizProg Loader'
+	if os.name == 'nt': ctypes.windll.kernel32.SetConsoleTitleW(title)
+	else: sys.stdout.write('\x1b]2;' + title + '\x07')
+
 print_tag('initializing variables')
 quitted = False
 error = False
 message = 'Welcome to QuizProg! Any errors while opening a quiz will be displayed here.'
 while not quitted:
 	try:
+		set_title()
 		clear()
 		if loaded_quiz:
 			print_tag('displaying quiz menu')
@@ -407,7 +418,7 @@ while not quitted:
 					clear()
 					print('Are you sure you want to quit this quiz?\n(Y: Yes / N: No)')
 					key = msvcrt.getwch().lower()
-					if key == 'y': print_tag('user has quitted quiz'); quit_quiz()
+					if key == 'y': print_tag('user has quitted quiz'); quit_quiz(); break
 					elif key == 'n': break
 			elif choice == 4: about()
 			else: pass
