@@ -1,22 +1,27 @@
 import os
 import re
-import wx
 import sys
 import copy
 import json
 import time
 import ctypes
-if os.name == 'nt': import msvcrt
-else: import getch as msvcrt
-import keyboard
-import requests
 import tempfile
 import traceback
 
-version = '1.3.4'
-quizprog_version = '1.1.2'
+try: from tkinter.filedialog import askopenfilename, asksaveasfile
+except: print('Please install Tkinter!'); sys.exit()
+if os.name == 'nt': import msvcrt
+else:
+	try: import getch as msvcrt
+	except: print('Please install the "getch" module!'); sys.exit()
+try: import keyboard
+except: print('Please install the "keyboard" module!'); sys.exit()
+try: import requests
+except: print('Please install the "requests" module!'); sys.exit()
 
-app = wx.App(None)
+version = '1.3.5'
+quizprog_version = '1.1.3'
+
 
 import argparse
 parser = argparse.ArgumentParser(description = 'QuizProg quiz editor.', epilog = 'QuizProg Editor v{} - QuizProg v{}\n(c) 2022 GamingWithEvets Inc. All rights reserved.'.format(version, quizprog_version), formatter_class = argparse.RawTextHelpFormatter, allow_abbrev = False)
@@ -195,7 +200,7 @@ or (n == 'c' and 'd' not in question_data['wrongmsg']) or m == 'd': print('[1] P
 								if l > 1:
 									while True:
 										clear()
-										print('QUIZPROG EDITOR\nWhich choice do you want this wrong message for?')
+										print('QUIZPROG EDITOR\n\nWhich choice do you want this wrong message for?')
 										if l == 4: print('(A / B / C / D - E: Cancel)')
 										elif l == 3: print('({} / {} / {} - E: Cancel)'.format(available_choices[0].upper(), available_choices[1].upper(), available_choices[2].upper()))
 										elif l == 2: print('({} / {} - E: Cancel)'.format(available_choices[0].upper(), available_choices[1].upper()))
@@ -238,7 +243,7 @@ or (n == 'c' and 'd' not in question_data['wrongmsg']) or m == 'd': print('[1] P
 					elif choice == 5:
 						while True:
 							clear()
-							print('QUIZPROG EDITOR\nWhat\'ll be the wrong message\'s new choice letter?')
+							print('QUIZPROG EDITOR\n\nWhat\'ll be the wrong message\'s new choice letter?')
 							if m == 'a': print('(B / C / D - E: Cancel)')
 							elif m == 'b': print('(A / C / D - E: Cancel)')
 							elif m == 'c': print('(A / B / D - E: Cancel)')
@@ -257,7 +262,7 @@ or (n == 'c' and 'd' not in question_data['wrongmsg']) or m == 'd': print('[1] P
 					elif choice == 6:
 						while True:
 							clear()
-							print('QUIZPROG EDITOR\nAre you sure you want to remove this wrong message?\n(Y: Yes / N: No)')
+							print('QUIZPROG EDITOR\n\nAre you sure you want to remove this wrong message?\n(Y: Yes / N: No)')
 							key = msvcrt.getwch().lower()
 							if key == 'y':
 								del question_data['wrongmsg'][m]
@@ -307,7 +312,7 @@ or (n == 'c' and 'd' not in question_data['wrongmsg']) or m == 'd': print('[1] P
 				if question_data['correct'] == 'all': print('[7] Correct answer   All')
 				else: print('[7] Correct answer   ' + question_data['correct'].upper())
 				if check_question_optional_element('explanation', n):
-					print('\n[8] Explanation      ' + explanation_split[0])
+					print('[8] Explanation      ' + explanation_split[0])
 					if len(explanation_split) > 1:
 						for line in range(1, len(explanation_split)): print('                     ' + explanation_split[line])
 				else: print('[8] Explanation      None')
@@ -434,7 +439,7 @@ or (n == 'c' and 'd' not in question_data['wrongmsg']) or m == 'd': print('[1] P
 			elif choice == 4: change_question()
 			elif choice == 5:
 				clear()
-				print('QUIZPROG EDITOR\nInput the question\'s new slot number.\nThe slot number must be between 1 and ' + str(len(datafile['questions'])) + '\nand must not be ' + str(n + 1) + '.\nOr else, the move operation will be cancelled.\nIf blank or contains non-numeric characters,\nprevious slot number will be used.\n')
+				print('QUIZPROG EDITOR\n\nInput the question\'s new slot number.\nThe slot number must be between 1 and ' + str(len(datafile['questions'])) + '\nand must not be ' + str(n + 1) + '.\nOr else, the move operation will be cancelled.\nIf blank or contains non-numeric characters,\nprevious slot number will be used.\n')
 				try:
 					slot = int(input())
 					if slot >= 1 and slot <= len(datafile['questions']) and slot != n + 1:
@@ -447,7 +452,7 @@ or (n == 'c' and 'd' not in question_data['wrongmsg']) or m == 'd': print('[1] P
 				if len(datafile['questions']) > 1:
 					while True:
 						clear()
-						print('QUIZPROG EDITOR\nAre you sure you want to remove this question?\n(Y: Yes / N: No)')
+						print('QUIZPROG EDITOR\n\nAre you sure you want to remove this question?\n(Y: Yes / N: No)')
 						key = msvcrt.getwch().lower()
 						if key == 'y':
 							del datafile['questions'][n]
@@ -505,7 +510,7 @@ def change_settings():
 						if text: datafile['wrongmsg'][n] = text
 					elif choice == 5:
 						clear()
-						print('QUIZPROG EDITOR\nInput the global wrong message\'s new slot number.\nThe slot number must be between 1 and ' + str(len(datafile['wrongmsg'])) + '\nand must not be ' + str(n + 1) + '.\nOr else, the move operation will be cancelled.\nIf blank or contains non-numeric characters,\nthe move operation will also be cancelled.\n')
+						print('QUIZPROG EDITOR\n\nInput the global wrong message\'s new slot number.\nThe slot number must be between 1 and ' + str(len(datafile['wrongmsg'])) + '\nand must not be ' + str(n + 1) + '.\nOr else, the move operation will be cancelled.\nIf blank or contains non-numeric characters,\nthe move operation will also be cancelled.\n')
 						try:
 							slot = int(input())
 							if slot >= 1 and slot <= len(datafile['wrongmsg']) and slot != n + 1:
@@ -517,7 +522,7 @@ def change_settings():
 					elif choice == 6:
 						while True:
 							clear()
-							print('QUIZPROG EDITOR\nAre you sure you want to remove this global wrong message?\n(Y: Yes / N: No)')
+							print('QUIZPROG EDITOR\n\nAre you sure you want to remove this global wrong message?\n(Y: Yes / N: No)')
 							key = msvcrt.getwch().lower()
 							if key == 'y':
 								del datafile['wrongmsg'][n]
@@ -562,12 +567,12 @@ def change_settings():
 						for i in range(1, len(fail_lines)): print('                              '  + fail_lines[i])
 				else: print('[5] Out of lives message      OFF')
 			else: print('[5] Out of lives message      Requires life setting')
-			if datafile['wrongmsg']:
+			if datafile['finish']:
 				win_lines = datafile['finish'].split('\n')
 				print('[6] Win message               '  + win_lines[0])
 				if len(win_lines) >= 1:
 					for i in range(1, len(win_lines)): print('                              '  + win_lines[i])
-			else: print('[6] Global wrong messages     OFF')
+			else: print('[6] Win message               None')
 			print('[7] Return')
 
 			print('\nPress the number keys on your keyboard to change or toggle a setting.')
@@ -575,7 +580,7 @@ def change_settings():
 			if choice == 7: exited_settings = True
 			elif choice == 1:
 				clear()
-				print('QUIZPROG EDITOR\nEnter the amount of lives you want to have.\nThe number of lives must be between 1 and 2147483647 and must not be a decimal number.\nIf 0 or lower, the lives setting will be disabled.\nIf blank or contains non-numeric characters,\nprevious life count will be used.\n')
+				print('QUIZPROG EDITOR\n\nEnter the amount of lives you want to have.\nThe number of lives must be between 1 and 2147483647 and must not be a decimal number.\nIf 0 or lower, the lives setting will be disabled.\nIf blank or contains non-numeric characters,\nprevious life count will be used.\n')
 				og = datafile['lives']
 				try:
 					life = int(input())
@@ -616,16 +621,16 @@ def save_menu():
 		global savepath
 		while True:
 			clear()
-			print('QUIZPROG EDITOR\nSave changes first? (Y: Yes / N: No / C: Cancel)')
+			print('QUIZPROG EDITOR\n\nSave changes first? (Y: Yes / N: No / C: Cancel)')
 			key = msvcrt.getwch().lower()
 			if key == 'y': return True
 			elif key == 'n': return False
 			elif key == 'c': return None
 	def save():
 		global savepath, savepath_tmp, message, modified, allow_save, is_url
+		savepath_tmp = ''
 		clear()
-		dlg = wx.FileDialog(None, 'Where we savin\', boys?', wildcard = 'JSON Files (*.json)|*.json|All Files (*.*)|*.*', style = wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT)
-		if dlg.ShowModal() == wx.ID_OK: savepath_tmp = dlg.GetPath()
+		savepath_tmp = asksaveasfile(title = 'Where we savin\', boys?', initialdir = os.getcwd(), initialfile = datafile['title'] + '.json', filetypes = [('JSON Files', '*.json'), ('All Files', '*.*')], defaultextension = '.json')
 		if savepath_tmp:
 			savepath = savepath_tmp
 			try:
@@ -640,9 +645,9 @@ def save_menu():
 				return False
 	def openf():
 		global savepath, savepath_tmp, message, datafile
+		savepath_tmp = ''
 		clear()
-		dlg = wx.FileDialog(None, 'JSON file please!', wildcard = 'JSON Files (*.json)|*.json|All Files (*.*)|*.*', style = wx.FD_OPEN | wx.FD_FILE_MUST_EXIST)
-		if dlg.ShowModal() == wx.ID_OK: savepath_tmp = dlg.GetPath()
+		savepath_tmp = askopenfilename(title = 'JSON file please!', initialdir = os.getcwd(), filetypes = [('JSON Files', '*.json'), ('All Files', '*.*')], defaultextension = '.json')
 		if savepath_tmp:
 			old_path = savepath
 			savepath = savepath_tmp
@@ -784,7 +789,7 @@ while not quitted:
 			if modified:
 				while True:
 					clear()
-					print('QUIZPROG EDITOR\nExit without saving? (Y: Yes / N: No)')
+					print('QUIZPROG EDITOR\n\nExit without saving? (Y: Yes / N: No)')
 					key = msvcrt.getwch().lower()
 					if key == 'y': quitted = True; break
 					elif key == 'n': break

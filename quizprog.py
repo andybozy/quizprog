@@ -1,19 +1,27 @@
 import os
 import re
-import wx
 import sys
 import json
 if os.name == 'nt': import msvcrt
 else: import getch as msvcrt
 import ctypes
 import random
-import keyboard
-import requests
 import tempfile
 import traceback
 from datetime import datetime
 
-version = '1.1.2'
+try: from tkinter.filedialog import askopenfilename, asksaveasfile
+except: print('Please install Tkinter!'); sys.exit()
+if os.name == 'nt': import msvcrt
+else:
+	try: import getch as msvcrt
+	except: print('Please install the "getch" module!'); sys.exit()
+try: import keyboard
+except: print('Please install the "keyboard" module!'); sys.exit()
+try: import requests
+except: print('Please install the "requests" module!'); sys.exit()
+
+version = '1.1.3'
 
 app = wx.App(None)
 
@@ -343,8 +351,7 @@ def openf():
 	path = ''
 
 	clear()
-	dlg = wx.FileDialog(None, 'JSON file please!', wildcard = 'JSON Files (*.json)|*.json|All Files (*.*)|*.*', style = wx.FD_OPEN | wx.FD_FILE_MUST_EXIST)
-	if dlg.ShowModal() == wx.ID_OK: path = dlg.GetPath()
+	path = askopenfilename(title = 'JSON file please!', initialdir = os.getcwd(), filetypes = [('JSON Files', '*.json'), ('All Files', '*.*')], defaultextension = '.json')
 	if path:
 		print_tag('opening file "' + os.path.abspath(path) + '"', function)
 		try:
