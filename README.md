@@ -5,7 +5,7 @@ Make sure to install all the listed modules in `requirements.txt` first, individ
 
 <details>
 <summary><b>For QuizProg v1.1.2 and under</b></summary><br>
-QuizProg v1.1.2 and under uses a module called <a href="https://www.wxpython.org/">wxPython</a> to display the Open and Save file dialog. As the newest version of wxPython, one of the required modules to run the editor, currently doesn't build on Python 3.10, you can use Python 3.9 or <a href="https://wxpython.org/Phoenix/snapshot-builds/wxPython-4.1.2a1.dev5434+7d45ee6a-cp310-cp310-win_amd64.whl">install a snapshot build for Python 3.10</a>. Then use <code>pip install &lt;wheel filename&gt;</code> to install.
+QuizProg v1.1.2 and under uses a module called <a href="https://www.wxpython.org/">wxPython</a> to display the Open and Save file dialog. As the newest version of wxPython currently doesn't build on Python 3.10, you can use Python 3.9 or <a href="https://wxpython.org/Phoenix/snapshot-builds/wxPython-4.1.2a1.dev5434+7d45ee6a-cp310-cp310-win_amd64.whl">install a snapshot build for Python 3.10</a>. Then use <code>pip install &lt;wheel filename&gt;</code> to install.
 </details>
 
 # Usage
