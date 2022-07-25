@@ -20,11 +20,14 @@ Editor: `python3 editor.py [-h, --help] [json_path]`
 | `-h, --help` | Show help. |
 
 # JSON Structure
+The **QuizProg Editor** can automatically create a working QuizProg JSON file if you're not tech-savvy and/or you don't know anything about JSON.  
+If you're willing to ditch the editor and just write your own JSON file, you can use this as a guide.
+
 The JSON data must be a dictionary containing these variables (except for optional ones, as they are... well, optional).  
 The variables and their types are as follows:
 - `title` (`string`) - The title of your quiz.
-- `description` (`string`) - A description of your quiz. Will not show if not specified. *(optional)*
-- `lives` (`int`) - The maximum amount of times a player can get a question incorrect. If not specified, the lives mechanic will be disabled. *(optional)*
+- `description` (`string`) - A description of your quiz. Will not show if not specified or empty. *(optional)*
+- `lives` (`int`) - The maximum amount of times a player can get a question incorrect. If not specified or below 1, the lives mechanic will be disabled. *(optional)*
 - `randomize` (`bool`) - Set to `true` to randomize the order of questions. If not specified, uses default value. *(optional; default: `false`)*
 - `showcount` (`bool`) - Set to `false` to hide the question count. If not specified, uses default value. *(optional; default: `true`)*
 - `wrongmsg` (`list`) - Lists global incorrect answer messages (not to be confused with the `wrongmsg` dictionary for each individual question). If not specified or empty, this feature will be disabled. *(optional)*
@@ -38,4 +41,4 @@ The variables and their types are as follows:
 - - `correct` (`string`) - Can be either `a`, `b`, `c`, `d` or `all`. Specifies the correct choice. If set to `all`, all choices are correct.
 - - `explanation` (`string`) - An explanation of the question. If not specified, the correct answer screen will be skipped. *(optional)*
 - `fail` (`string`) - Fail message when running out of lives. Must be used with the `lives` variable. *(optional)*
-- `finish` (`string`) - Finish message when completing all the quiz questions.
+- `finish` (`string`) - Finish message when completing all the quiz questions. *(optional)*
