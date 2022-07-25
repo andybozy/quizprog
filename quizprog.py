@@ -11,19 +11,21 @@ import traceback
 from datetime import datetime
 
 try: from tkinter.filedialog import askopenfilename, asksaveasfile
-except: print('Please install Tkinter!'); sys.exit()
+except ImportError: print('Please install Tkinter!'); sys.exit()
 if os.name == 'nt': import msvcrt
 else:
-	try: import getch as msvcrt
-	except: print('Please install the "getch" module!'); sys.exit()
+	try:
+		import getch
+		class fake_getwch(object):
+			def __init__(self, func): self.getwch = func
+		msvcrt = fake_getwch(getch.getch)
+	except ImportError: print('Please install the "getch" module!'); sys.exit()
 try: import keyboard
-except: print('Please install the "keyboard" module!'); sys.exit()
+except ImportError: print('Please install the "keyboard" module!'); sys.exit()
 try: import requests
-except: print('Please install the "requests" module!'); sys.exit()
+except ImportError: print('Please install the "requests" module!'); sys.exit()
 
-version = '1.1.3'
-
-app = wx.App(None)
+version = '1.1.4'
 
 import argparse
 parser = argparse.ArgumentParser(description = 'Loads a pre-made quiz from a JSON, either from the internet or locally.', epilog = 'QuizProg v{}\n(c) 2022 GamingWithEvets Inc. All rights reserved.'.format(version), formatter_class = argparse.RawTextHelpFormatter, allow_abbrev = False)
@@ -326,10 +328,9 @@ def about():
 	print_tag('user has selected about menu')
 	print_tag('displaying about menu')
 	clear()
-	print(f'''QUIZPROG - VERSION {version}
-
-(c) 2022 GamingWithEvets Inc. All rights reserved.''')
-	print('\nPress Enter to return.')
+	print(f'QUIZPROG - VERSION {version}')
+	if os.name != 'nt': print('UNIX EDITION')
+	print('\n(c) 2022 GamingWithEvets Inc. All rights reserved.\nPress Enter to return.')
 	keyboard.wait('\n')
 	input()
 

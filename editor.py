@@ -9,18 +9,22 @@ import tempfile
 import traceback
 
 try: from tkinter.filedialog import askopenfilename, asksaveasfile
-except: print('Please install Tkinter!'); sys.exit()
+except ImportError: print('Please install Tkinter!'); sys.exit()
 if os.name == 'nt': import msvcrt
 else:
-	try: import getch as msvcrt
-	except: print('Please install the "getch" module!'); sys.exit()
+	try:
+		import getch
+		class fake_getwch(object):
+			def __init__(self, func): self.getwch = func
+		msvcrt = fake_getwch(getch.getch)
+	except ImportError: print('Please install the "getch" module!'); sys.exit()
 try: import keyboard
-except: print('Please install the "keyboard" module!'); sys.exit()
+except ImportError: print('Please install the "keyboard" module!'); sys.exit()
 try: import requests
-except: print('Please install the "requests" module!'); sys.exit()
+except ImportError: print('Please install the "requests" module!'); sys.exit()
 
-version = '1.3.5'
-quizprog_version = '1.1.3'
+version = '1.3.6'
+quizprog_version = '1.1.4'
 
 
 import argparse
@@ -739,12 +743,13 @@ def save_menu():
 			pass
 
 def about():
+
 	clear()
 	print(f'''QUIZPROG EDITOR - VERSION {version}
-QUIZPROG VERSION {quizprog_version}
+QUIZPROG VERSION {quizprog_version}''')
+	if os.name != 'nt': print('UNIX EDITION')
 
-(c) 2022 GamingWithEvets Inc. All rights reserved.''')
-	print('\nPress Enter to return.')
+	print('\n(c) 2022 GamingWithEvets Inc. All rights reserved.\nPress Enter to return.')
 	keyboard.wait('\n')
 	input()
 
