@@ -10,7 +10,9 @@ import tempfile
 import traceback
 from datetime import datetime
 
-try: from tkinter.filedialog import askopenfilename, asksaveasfile
+try:
+	from tkinter import Tk
+	from tkinter.filedialog import askopenfilename, asksaveasfile
 except ImportError: print('Please install Tkinter!'); sys.exit()
 if os.name == 'nt': import msvcrt
 else:
@@ -25,7 +27,10 @@ except ImportError: print('Please install the "keyboard" module!'); sys.exit()
 try: import requests
 except ImportError: print('Please install the "requests" module!'); sys.exit()
 
-version = '1.1.4'
+tk = Tk()
+tk.withdraw()
+
+version = '1.1.5'
 
 import argparse
 parser = argparse.ArgumentParser(description = 'Loads a pre-made quiz from a JSON, either from the internet or locally.', epilog = 'QuizProg v{}\n(c) 2022 GamingWithEvets Inc. All rights reserved.'.format(version), formatter_class = argparse.RawTextHelpFormatter, allow_abbrev = False)
@@ -280,16 +285,17 @@ def load_quizzes():
 					if allow_lives: print('Choice ' + choice.upper() + ' is incorrect! You lost a life!\n')
 					else: print('Choice ' + choice.upper() + ' is incorrect!\n')
 
+			print_wrong = False
 			print('Press A, B, C, D or E on your keyboard to choose.')
 			choice = msvcrt.getwch().lower()
 			if choice in ['a', 'b', 'c', 'd']:
 				print_tag('user chose ' + choice.upper(), function)
 				if question_data['correct'] == 'all': answered = True
 				elif choice == question_data['correct']:
-					print_tag('' + choice.upper() + ' is a correct answer', function)
+					print_tag(choice.upper() + ' is a correct answer', function)
 					answered = True
 				else:
-					print_tag('' + choice.upper() + ' is an incorrect answer', function)
+					print_tag(choice.upper() + ' is an incorrect answer', function)
 					if allow_lives:
 						lives -= 1
 						print_tag('user lost 1 life. lives left: ' + str(lives), function)
@@ -386,7 +392,7 @@ def set_title():
 	print_tag('setting title', 'set_title')
 	if args.path:
 		if is_url: title = 'QuizProg Loader - ' + datafile['title'] + ' - ' + args.path
-		else: title = 'QuizProg Loader - ' + datafile['title'] + os.path.realpath(args.path)
+		else: title = 'QuizProg Loader - ' + datafile['title'] + ' - ' + os.path.realpath(args.path)
 	else: title = 'QuizProg Loader'
 	if os.name == 'nt': ctypes.windll.kernel32.SetConsoleTitleW(title)
 	else: sys.stdout.write('\x1b]2;' + title + '\x07')
