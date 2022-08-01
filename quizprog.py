@@ -10,10 +10,25 @@ import tempfile
 import traceback
 from datetime import datetime
 
-try:
-	from tkinter import Tk
-	from tkinter.filedialog import askopenfilename, asksaveasfile
-except ImportError: print('Please install Tkinter!'); sys.exit()
+version = '1.1.6'
+
+import argparse
+parser = argparse.ArgumentParser(description = 'Loads a pre-made quiz from a JSON, either from the internet or locally.', epilog = 'QuizProg v{}\n(c) 2022 GamingWithEvets Inc. All rights reserved.'.format(version), formatter_class = argparse.RawTextHelpFormatter, allow_abbrev = False)
+parser.add_argument('path', metavar = 'json_path', nargs = '?', help = 'path/URL to your JSON file (skips the main menu)')
+parser.add_argument('-e', '--enable-log', action = 'store_true', help = 'enable logging (for debugging)')
+parser.add_argument('-n', '--no-tk', action = 'store_true', help = 'don\'t use Tkinter')
+args = parser.parse_args()
+
+if args.enable_log: logfile = open('quizprog.log', 'a', encoding = 'utf-8') 
+
+if not args.no_tk:
+	try:
+		from tkinter import Tk
+		from tkinter.filedialog import askopenfilename
+	except ImportError: parser.error('"tkinter" module not found.\nto use QuizProg w/o Tkinter, use the -n / --no-tk option.'); sys.exit()
+	tk = Tk()
+	tk.withdraw()
+
 if os.name == 'nt': import msvcrt
 else:
 	try:
@@ -21,32 +36,25 @@ else:
 		class fake_getwch(object):
 			def __init__(self, func): self.getwch = func
 		msvcrt = fake_getwch(getch.getch)
-	except ImportError: print('Please install the "getch" module!'); sys.exit()
+	except ImportError: parser.error('"getch" module not found'); sys.exit()
 try: import keyboard
-except ImportError: print('Please install the "keyboard" module!'); sys.exit()
+except ImportError:
+	if args.no_tk: parser.error('"keyboard" module not found\nplease run w/o the -n / --no-tk option\nif you don\'t want to install this module.'); sys.exit()
+try:
+	keyboard.press_and_release('esc')
+	keyboard.write('\n')
+	input()
+except Exception:
+	if args.no_tk: parser.error('"keyboard" module test failed\nplease run w/o the -n / --no-tk option!'); sys.exit()
 try: import requests
-except ImportError: print('Please install the "requests" module!'); sys.exit()
-
-tk = Tk()
-tk.withdraw()
-
-version = '1.1.5'
-
-import argparse
-parser = argparse.ArgumentParser(description = 'Loads a pre-made quiz from a JSON, either from the internet or locally.', epilog = 'QuizProg v{}\n(c) 2022 GamingWithEvets Inc. All rights reserved.'.format(version), formatter_class = argparse.RawTextHelpFormatter, allow_abbrev = False)
-parser.add_argument('path', metavar = 'json_path', nargs = '?', help = 'path/URL to your JSON file (skips the main menu)')
-parser.add_argument('-e', '--enable-log', action = 'store_true', help = 'enable logging (for debugging)')
-args = parser.parse_args()
-
-if args.enable_log: logfile = open('quizprog.log', 'a', encoding = 'utf-8') 
+except ImportError: print('"requests" module not found'); sys.exit()
 
 def print_tag(string: str, function = 'main', error = False):
 	if args.enable_log:
 		if error: logfile.write('\n[' + datetime.now().strftime("%d/%m/%Y %H:%M:%S") + '] ' + function + ': ' + string + ' [!]')
 		else: logfile.write('\n[' + datetime.now().strftime("%d/%m/%Y %H:%M:%S") + '] ' + function + ': ' + string)
 
-def abort():
-	print_tag('aborting.\n\n')
+def abort(): print_tag('aborting.\n\n')
 
 if args.enable_log: logfile.write('[' + datetime.now().strftime("%d/%m/%Y %H:%M:%S") + '] main: starting')
 print_tag('quizprog v' + version)
@@ -265,8 +273,7 @@ def load_quizzes():
 					print('GAME OVER!\n')
 					if check_optional_element('fail'): print(datafile['fail'] + '\n')
 					print('Press any key to return.')
-					keyboard.wait('\n')
-					input()
+					msvcrt.getwch()
 					print_tag('quiz exited (game over)', function); return
 				else: print('LIVES: {}'.format(lives))
 			if showcount: print('QUESTION {}/{}\n'.format(i + 1, len(datafile['questions'])))
@@ -318,16 +325,14 @@ def load_quizzes():
 			if allow_lives: print(f'LIVES: {lives}')
 			print('CORRECT!\n')
 			print(question_data['explanation'] + '\n')
-			print('Press Enter to continue.')
-			keyboard.wait('\n')
-			input()
+			print('Press any key to continue.')
+			msvcrt.getwch()
 		else: print_tag('skipping correct answer screen', function)
 	clear()
 	print('CONGRATULATIONS!\n')
 	if check_optional_element('finish'): print(datafile['finish'] + '\n')
-	print('Press Enter to return.')
-	keyboard.wait('\n')
-	input()
+	print('Press any key to return.')
+	msvcrt.getwch()
 	print_tag('quiz exited (finished)', function)
 
 def about():
@@ -336,9 +341,8 @@ def about():
 	clear()
 	print(f'QUIZPROG - VERSION {version}')
 	if os.name != 'nt': print('UNIX EDITION')
-	print('\n(c) 2022 GamingWithEvets Inc. All rights reserved.\nPress Enter to return.')
-	keyboard.wait('\n')
-	input()
+	print('\n(c) 2022 GamingWithEvets Inc. All rights reserved.\nPress any key to return.')
+	msvcrt.getwch()
 
 def quit_quiz():
 	function = 'quit_quiz'
@@ -356,37 +360,79 @@ def openf():
 
 	global message, datafile, loaded_quiz
 	path = ''
-
-	clear()
-	path = askopenfilename(title = 'JSON file please!', initialdir = os.getcwd(), filetypes = [('JSON Files', '*.json'), ('All Files', '*.*')], defaultextension = '.json')
-	if path:
-		print_tag('opening file "' + os.path.abspath(path) + '"', function)
-		try:
-			success = False
-			for i in range(1):
-				try: datafile = json.load(open(path))
-				except Exception as e:
-					print_tag('invalid JSON data\n' + traceback.format_exc(), function)
-					message = 'Invalid JSON data!'; break
-				if not check_optional_element('title'): message = 'String variable "title" not found or empty!'; break
-				if not check_optional_element('questions', list): message = 'String variable "questions" not found or empty!'; break
-				for i in range(len(datafile['questions'])):
-					if not check_question_optional_element('question', i): message = 'String variable "question" not found or empty in question ' + str(i+1) + '!'; break
-					if not check_question_optional_element('a', i): message = 'String variable "a" not found or empty in question ' + str(i+1) + '!'; break
-					if not check_question_optional_element('b', i): message = 'String variable "b" not found or empty in question ' + str(i+1) + '!'; break
-					if not check_question_optional_element('c', i): message = 'String variable "c" not found or empty in question ' + str(i+1) + '!'; break
-					if not check_question_optional_element('d', i): message = 'String variable "d" not found or empty in question ' + str(i+1) + '!'; break
-					if not check_question_optional_element('correct', i): message = 'String variable "correct" not found or empty in question ' + str(i+1) + '!'; break
-					success = True
-				if not success: break
-				message = ''
-				loaded_quiz = True
-				is_url = False
-			if not success: print_tag('quiz loading cancelled', function)
-		except IOError as e:
-			message = 'Can\'t open file: ' + e.strerror
-			print_tag('IOError occurred: ' + e.strerror, function)
-	else: print_tag('quiz opening cancelled', function)
+	if args.no_tk:
+		tempmsg = 'Is this correct?'
+		while True:
+			clear()
+			print('Type the file path to your quiz JSON file.\n')
+			keyboard.write(os.getcwd() + os.sep)
+			path = input()
+			while True:
+				if not path: break
+				clear()
+				print(tempmsg + '\n\n' + path + '\n\n[ENTER] Confirm | [1] Edit | [2] Cancel')
+				tempmsg = ''
+				choice = msvcrt.getwch()
+				if (os.name == 'nt' and choice == '\r') or choice == '\n':
+					if os.name == 'nt': path.replace('/', '\\')
+					print_tag('opening file "' + os.path.abspath(path) + '"', function)
+					try:
+						success = False
+						for i in range(1):
+							try: datafile = json.load(open(path, encoding = 'utf-8'))
+							except (json.decoder.JSONDecodeError, UnicodeDecodeError): tempmsg = 'Invalid JSON data!'
+							if not check_optional_element('title'): tempmsg = 'String variable "title" not found or empty!'
+							if not check_optional_element('questions', list): tempmsg = 'String variable "questions" not found or empty!'
+							for i in range(len(datafile['questions'])):
+								if not check_question_optional_element('question', i): tempmsg = 'String variable "question" not found or empty in question ' + str(i+1) + '!'
+								if not check_question_optional_element('a', i): tempmsg = 'String variable "a" not found or empty in question ' + str(i+1) + '!'
+								if not check_question_optional_element('b', i): tempmsg = 'String variable "b" not found or empty in question ' + str(i+1) + '!'
+								if not check_question_optional_element('c', i): tempmsg = 'String variable "c" not found or empty in question ' + str(i+1) + '!'
+								if not check_question_optional_element('d', i): tempmsg = 'String variable "d" not found or empty in question ' + str(i+1) + '!'
+								if not check_question_optional_element('correct', i): tempmsg = 'String variable "correct" not found or empty in question ' + str(i+1) + '!'
+								success = True
+							if not success: break
+							message = ''
+							loaded_quiz = True
+							is_url = False
+							return
+					except IOError as e:
+						tempmsg = 'ERROR: ' + e.strerror
+						print_tag('IOError occurred: ' + e.strerror, function)
+				elif choice == '1': break
+				elif choice == '2': return
+	else:
+		clear()
+		path = askopenfilename(title = 'JSON file please!', initialdir = os.getcwd(), filetypes = [('JSON Files', '*.json'), ('All Files', '*.*')], defaultextension = '.json')
+		if os.name == 'nt': path.replace('/', '\\')
+		if path:
+			print_tag('opening file "' + os.path.abspath(path) + '"', function)
+			try:
+				success = False
+				for i in range(1):
+					try: datafile = json.load(open(path))
+					except (json.decoder.JSONDecodeError, UnicodeDecodeError):
+						print_tag('invalid JSON data\n' + traceback.format_exc(), function)
+						message = 'Invalid JSON data!'; break
+					if not check_optional_element('title'): message = 'String variable "title" not found or empty!'; break
+					if not check_optional_element('questions', list): message = 'String variable "questions" not found or empty!'; break
+					for i in range(len(datafile['questions'])):
+						if not check_question_optional_element('question', i): message = 'String variable "question" not found or empty in question ' + str(i+1) + '!'; break
+						if not check_question_optional_element('a', i): message = 'String variable "a" not found or empty in question ' + str(i+1) + '!'; break
+						if not check_question_optional_element('b', i): message = 'String variable "b" not found or empty in question ' + str(i+1) + '!'; break
+						if not check_question_optional_element('c', i): message = 'String variable "c" not found or empty in question ' + str(i+1) + '!'; break
+						if not check_question_optional_element('d', i): message = 'String variable "d" not found or empty in question ' + str(i+1) + '!'; break
+						if not check_question_optional_element('correct', i): message = 'String variable "correct" not found or empty in question ' + str(i+1) + '!'; break
+						success = True
+					if not success: break
+					message = ''
+					loaded_quiz = True
+					is_url = False
+				if not success: print_tag('quiz loading cancelled', function)
+			except IOError as e:
+				message = 'Can\'t open file: ' + e.strerror
+				print_tag('IOError occurred: ' + e.strerror, function)
+		else: print_tag('quiz opening cancelled', function)
 
 def set_title():
 	print_tag('setting title', 'set_title')
@@ -406,6 +452,7 @@ while not quitted:
 		set_title()
 		clear()
 		if loaded_quiz:
+			message = ''
 			print_tag('displaying quiz menu')
 			print(datafile['title'].upper())
 			print('\nPowered by QuizProg v' + version + '\n')
@@ -443,7 +490,6 @@ while not quitted:
 			print('[1] Open quiz')
 			print('[2] About QuizProg')
 			print('[3] Quit\n')
-
 			message = ''
 			print('Press the number keys on your keyboard to choose.')
 			choice = int(msvcrt.getwch())

@@ -8,10 +8,24 @@ import ctypes
 import tempfile
 import traceback
 
-try:
-	from tkinter import Tk
-	from tkinter.filedialog import askopenfilename, asksaveasfile
-except ImportError: print('Please install Tkinter!'); sys.exit()
+version = '1.4.1'
+quizprog_version = '1.1.6'
+
+
+import argparse
+parser = argparse.ArgumentParser(description = 'QuizProg quiz editor.', epilog = 'QuizProg Editor v{} - QuizProg v{}\n(c) 2022 GamingWithEvets Inc. All rights reserved.'.format(version, quizprog_version), formatter_class = argparse.RawTextHelpFormatter, allow_abbrev = False)
+parser.add_argument('path', metavar = 'json_path', nargs = '?', help = 'path/URL to your JSON file (if you want to make changes to it)')
+parser.add_argument('-n', '--no-tk', action = 'store_true', help = 'don\'t use Tkinter')
+args = parser.parse_args()
+
+if not args.no_tk:
+	try:
+		from tkinter import Tk
+		from tkinter.filedialog import askopenfilename, asksaveasfile
+	except ImportError: parser.error('"tkinter" module not found.\nto use QuizProg w/o Tkinter, use the -n / --no-tk option.'); sys.exit()
+	tk = Tk()
+	tk.withdraw()
+
 if os.name == 'nt': import msvcrt
 else:
 	try:
@@ -19,23 +33,18 @@ else:
 		class fake_getwch(object):
 			def __init__(self, func): self.getwch = func
 		msvcrt = fake_getwch(getch.getch)
-	except ImportError: print('Please install the "getch" module!'); sys.exit()
+	except ImportError: parser.error('"getch" module not found'); sys.exit()
 try: import keyboard
-except ImportError: print('Please install the "keyboard" module!'); sys.exit()
+except ImportError:
+	if args.no_tk: parser.error('"keyboard" module not found\nplease run w/o the -n / --no-tk option\nif you don\'t want to install this module.'); sys.exit()
+try:
+	keyboard.press_and_release('esc')
+	keyboard.write('\n')
+	input()
+except Exception:
+	if args.no_tk: parser.error('"keyboard" module test failed\nplease run w/o the -n / --no-tk option!'); sys.exit()
 try: import requests
-except ImportError: print('Please install the "requests" module!'); sys.exit()
-
-tk = Tk()
-tk.withdraw()
-
-version = '1.4.0'
-quizprog_version = '1.1.5'
-
-
-import argparse
-parser = argparse.ArgumentParser(description = 'QuizProg quiz editor.', epilog = 'QuizProg Editor v{} - QuizProg v{}\n(c) 2022 GamingWithEvets Inc. All rights reserved.'.format(version, quizprog_version), formatter_class = argparse.RawTextHelpFormatter, allow_abbrev = False)
-parser.add_argument('path', metavar = 'json_path', nargs = '?', help = 'path/URL to your JSON file (if you want to make changes to it)')
-args = parser.parse_args()
+except ImportError: parser.error('"requests" module not found'); sys.exit()
 
 if args.path != None:
 	is_url = bool(re.search('(?P<url>https?://[^\s]+)', args.path))
@@ -680,55 +689,132 @@ def save_menu():
 			elif key == 'c': return None
 	def save():
 		global savepath, savepath_tmp, message, modified, allow_save, is_url
-		savepath_tmp = ''
-		clear()
-		savepath_tmp = asksaveasfile(title = 'Where we savin\', boys?', initialdir = os.getcwd(), initialfile = datafile['title'] + '.json', filetypes = [('JSON Files', '*.json'), ('All Files', '*.*')], defaultextension = '.json')
-		if savepath_tmp:
-			savepath = savepath_tmp
-			try:
-				with open(savepath, 'w+') as f: f.write(json.dumps(datafile, indent = 4))
-				message = 'JSON file saved as: ' + savepath
-				modified = False
-				allow_save = True
-				is_url = False
-				return True
-			except IOError as e:
-				message = 'Can\'t save file: ' + e.strerror
-				return False
-	def openf():
-		global savepath, savepath_tmp, message, datafile
-		savepath_tmp = ''
-		clear()
-		savepath_tmp = askopenfilename(title = 'JSON file please!', initialdir = os.getcwd(), filetypes = [('JSON Files', '*.json'), ('All Files', '*.*')], defaultextension = '.json')
-		if savepath_tmp:
-			old_path = savepath
-			savepath = savepath_tmp
-			try:
-				success = False
-				for i in range(1):
-					try: datafile = json.load(open(savepath))
-					except Exception as e: message = 'Invalid JSON data!'; savepath = old_path; break
-					if not check_optional_element('title'): message = 'String variable "title" not found or empty!'; savepath = old_path; break
-					if not check_optional_element('questions', list): message = 'String variable "questions" not found or empty!'; savepath = old_path; break
-					for i in range(len(datafile['questions'])):
-						if not check_question_optional_element('question', i): message = 'String variable "question" not found or empty in question ' + str(i+1) + '!'; savepath = old_path; break
-						if not check_question_optional_element('a', i): message = 'String variable "a" not found or empty in question ' + str(i+1) + '!'; savepath = old_path; break
-						if not check_question_optional_element('b', i): message = 'String variable "b" not found or empty in question ' + str(i+1) + '!'; savepath = old_path; break
-						if not check_question_optional_element('c', i): message = 'String variable "c" not found or empty in question ' + str(i+1) + '!'; savepath = old_path; break
-						if not check_question_optional_element('d', i): message = 'String variable "d" not found or empty in question ' + str(i+1) + '!'; savepath = old_path; break
-						if not check_question_optional_element('correct', i): message = 'String variable "correct" not found or empty in question ' + str(i+1) + '!'; savepath = old_path; break
-						success = True
-					if not success: break
-					create_backup()
-					message = 'Opened JSON file: ' + savepath
+		if args.no_tk:
+			path = ''
+			tempmsg = 'Is this correct?'
+			while True:
+				clear()
+				print('Type your destination file path.\n')
+				if path: keyboard.write(path)
+				else: keyboard.write(os.getcwd() + os.sep + datafile['title'] + '.json')
+				path = input()
+				while True:
+					if not path: break
+					clear()
+					print(tempmsg + '\n\n' + path + '\n\n[ENTER] Confirm | [1] Edit | [2] Cancel')
+					tempmsg = ''
+					print(tempmsg)
+					choice = msvcrt.getwch()
+					if (os.name == 'nt' and choice == '\r') or choice == '\n':
+						savepath = path
+						if os.name == 'nt': savepath.replace('/', '\\')
+						if not os.path.exists(os.path.dirname(path)): os.makedirs(os.path.dirname(path))
+						try:
+							with open(savepath, 'w+') as f: f.write(json.dumps(datafile, indent = 4))
+							message = 'JSON file saved as: ' + savepath
+							modified = False
+							allow_save = True
+							is_url = False
+							return True
+						except IOError as e: tempmsg = 'ERROR: ' + e.strerror
+					elif choice == '1': break
+					elif choice == '2': return
+		else:
+			savepath_tmp = ''
+			clear()
+			savepath_tmp = asksaveasfile(title = 'Where we savin\', boys?', initialdir = os.getcwd(), initialfile = datafile['title'] + '.json', filetypes = [('JSON Files', '*.json'), ('All Files', '*.*')], defaultextension = '.json')
+			if savepath_tmp:
+				savepath = savepath_tmp
+				if os.name == 'nt': savepath.replace('/', '\\')
+				try:
+					with open(savepath, 'w+') as f: f.write(json.dumps(datafile, indent = 4))
+					message = 'JSON file saved as: ' + savepath
 					modified = False
 					allow_save = True
 					is_url = False
-				if not success:
-					datafile = datafile_bak.copy()
-					create_backup()
-			except IOError as e:
-				message = 'Can\'t open file: ' + e.strerror
+					return True
+				except IOError as e:
+					message = 'Can\'t save file: ' + e.strerror
+					return False
+	def openf():
+		global savepath, savepath_tmp, message, datafile
+		if args.no_tk:
+			path = ''
+			tempmsg = 'Is this correct?'
+			while True:
+				clear()
+				print('Type the file path to your quiz JSON file.\n')
+				if path: keyboard.write(path)
+				else: keyboard.write(os.getcwd() + os.sep)
+				path = input()
+				while True:
+					if not path: break
+					clear()
+					print(tempmsg + '\n\n' + path + '\n\n[ENTER] Confirm | [1] Edit | [2] Cancel')
+					tempmsg = ''
+					choice = msvcrt.getwch()
+					if (os.name == 'nt' and choice == '\r') or choice == '\n':
+						old_path = savepath
+						savepath = path
+						if os.name == 'nt': savepath.replace('/', '\\')
+						try:
+							success = False
+							for i in range(1):
+								try: datafile = json.load(open(savepath, encoding = 'utf-8'))
+								except (json.decoder.JSONDecodeError, UnicodeDecodeError): tempmsg = 'Invalid JSON data!'; savepath = old_path
+								if not check_optional_element('title'): tempmsg = 'String variable "title" not found or empty!'; savepath = old_path
+								if not check_optional_element('questions', list): tempmsg = 'String variable "questions" not found or empty!'; savepath = old_path
+								for i in range(len(datafile['questions'])):
+									if not check_question_optional_element('question', i): tempmsg = 'String variable "question" not found or empty in question ' + str(i+1) + '!'; savepath = old_path
+									if not check_question_optional_element('a', i): tempmsg = 'String variable "a" not found or empty in question ' + str(i+1) + '!'; savepath = old_path
+									if not check_question_optional_element('b', i): tempmsg = 'String variable "b" not found or empty in question ' + str(i+1) + '!'; savepath = old_path
+									if not check_question_optional_element('c', i): tempmsg = 'String variable "c" not found or empty in question ' + str(i+1) + '!'; savepath = old_path
+									if not check_question_optional_element('d', i): tempmsg = 'String variable "d" not found or empty in question ' + str(i+1) + '!'; savepath = old_path
+									if not check_question_optional_element('correct', i): tempmsg = 'String variable "correct" not found or empty in question ' + str(i+1) + '!'; savepath = old_path
+									success = True
+								if not success: break
+								create_backup()
+								message = 'Opened JSON file: ' + savepath
+								modified = False
+								allow_save = True
+								is_url = False
+								return
+						except IOError as e: tempmsg = 'ERROR: ' + e.strerror
+					elif choice == '1': break
+					elif choice == '2': return
+		else:
+			savepath_tmp = ''
+			clear()
+			savepath_tmp = askopenfilename(title = 'JSON file please!', initialdir = os.getcwd(), filetypes = [('JSON Files', '*.json'), ('All Files', '*.*')], defaultextension = '.json')
+			if savepath_tmp:
+				old_path = savepath
+				savepath = savepath_tmp
+				if os.name == 'nt': savepath.replace('/', '\\')
+				try:
+					success = False
+					for i in range(1):
+						try: datafile = json.load(open(savepath, encoding = 'utf-8'))
+						except (json.decoder.JSONDecodeError, UnicodeDecodeError): message = 'Invalid JSON data!'; savepath = old_path; break
+						if not check_optional_element('title'): message = 'String variable "title" not found or empty!'; savepath = old_path; break
+						if not check_optional_element('questions', list): message = 'String variable "questions" not found or empty!'; savepath = old_path; break
+						for i in range(len(datafile['questions'])):
+							if not check_question_optional_element('question', i): message = 'String variable "question" not found or empty in question ' + str(i+1) + '!'; savepath = old_path; break
+							if not check_question_optional_element('a', i): message = 'String variable "a" not found or empty in question ' + str(i+1) + '!'; savepath = old_path; break
+							if not check_question_optional_element('b', i): message = 'String variable "b" not found or empty in question ' + str(i+1) + '!'; savepath = old_path; break
+							if not check_question_optional_element('c', i): message = 'String variable "c" not found or empty in question ' + str(i+1) + '!'; savepath = old_path; break
+							if not check_question_optional_element('d', i): message = 'String variable "d" not found or empty in question ' + str(i+1) + '!'; savepath = old_path; break
+							if not check_question_optional_element('correct', i): message = 'String variable "correct" not found or empty in question ' + str(i+1) + '!'; savepath = old_path; break
+							success = True
+						if not success: break
+						create_backup()
+						message = 'Opened JSON file: ' + savepath
+						modified = False
+						allow_save = True
+						is_url = False
+					if not success:
+						datafile = datafile_bak.copy()
+						create_backup()
+				except IOError as e: message = 'Can\'t open file: ' + e.strerror
 	global modified, modified_sym, savepath, savepath_tmp, allow_save, datafile, is_url, message
 	exited_save = False
 	while not exited_save:
@@ -799,9 +885,8 @@ def about():
 QUIZPROG VERSION {quizprog_version}''')
 	if os.name != 'nt': print('UNIX EDITION')
 
-	print('\n(c) 2022 GamingWithEvets Inc. All rights reserved.\nPress Enter to return.')
-	keyboard.wait('\n')
-	input()
+	print('\n(c) 2022 GamingWithEvets Inc. All rights reserved.\nPress any key to return.')
+	msvcrt.getwch()
 
 def set_title(title = None):
 	global header
