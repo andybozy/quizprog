@@ -9,14 +9,15 @@ QuizProg v1.1.2 and under uses a module called <a href="https://www.wxpython.org
 </details>
 
 # Usage
-QuizProg: `python3 quizprog.py [-h, --help] [-e, --enable-log] [json_path]`  
-Editor: `python3 editor.py [-h, --help] [json_path]`
+QuizProg: `python3 quizprog.py [-h, --help] [-e, --enable-log] [-n, --no-tk] [json_path]`  
+Editor: `python3 editor.py [-h, --help] [-n, --no-tk] [json_path]`
 
 ## Parameters
 | Parameter | Description |
 |--|--|
 | `json_path` | Path to the JSON file which will be used to load quiz data. |
 | `-e, --enable-log` | Enable logging. Used for debugging. (not available in editor) |
+| `-n, --no-tk` | Disable Tkinter for the Open and Save prompts. Uses the `keyboard` module instead. |
 | `-h, --help` | Show help. |
 
 # JSON Structure
