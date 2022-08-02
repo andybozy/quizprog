@@ -8,8 +8,8 @@ import ctypes
 import tempfile
 import traceback
 
-version = '1.4.1'
-quizprog_version = '1.1.6'
+version = '1.4.2'
+quizprog_version = '1.1.7'
 
 
 import argparse
@@ -263,7 +263,7 @@ or (n == 'c' and 'd' not in question_data['wrongmsg']) or m == 'd': print('[1] P
 					if len(question_data['wrongmsg']) >= 1:
 						if choice == 4:
 							text = input_string('wrong message for choice ' + m, 'message', question_data['wrongmsg'][m])
-							if text: datafile['wrongmsg'][m] = text
+							if text: question_data['wrongmsg'][m] = text
 						elif choice == 5:
 							if len(question_data['wrongmsg']) < 4:
 								l = len(available_choices)

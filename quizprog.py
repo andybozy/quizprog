@@ -10,7 +10,7 @@ import tempfile
 import traceback
 from datetime import datetime
 
-version = '1.1.6'
+version = '1.1.7'
 
 import argparse
 parser = argparse.ArgumentParser(description = 'Loads a pre-made quiz from a JSON, either from the internet or locally.', epilog = 'QuizProg v{}\n(c) 2022 GamingWithEvets Inc. All rights reserved.'.format(version), formatter_class = argparse.RawTextHelpFormatter, allow_abbrev = False)
@@ -19,7 +19,7 @@ parser.add_argument('-e', '--enable-log', action = 'store_true', help = 'enable 
 parser.add_argument('-n', '--no-tk', action = 'store_true', help = 'don\'t use Tkinter')
 args = parser.parse_args()
 
-if args.enable_log: logfile = open('quizprog.log', 'a', encoding = 'utf-8') 
+if args.enable_log: logfile = open('quizprog.log', 'a', encoding = 'utf-8')
 
 if not args.no_tk:
 	try:
@@ -60,6 +60,7 @@ if args.enable_log: logfile.write('[' + datetime.now().strftime("%d/%m/%Y %H:%M:
 print_tag('quizprog v' + version)
 
 if args.path != None:
+	path = args.path
 	is_url = bool(re.search('(?P<url>https?://[^\s]+)', args.path))
 
 	if is_url:
@@ -98,6 +99,7 @@ if args.path != None:
 		abort()
 		parser.error('invalid JSON data')
 else:
+	path = ''
 	is_url = False
 	loaded_quiz = False
 	datafile = {}
@@ -358,7 +360,7 @@ def quit_quiz():
 def openf():
 	function = 'openf'
 
-	global message, datafile, loaded_quiz
+	global message, datafile, loaded_quiz, path
 	path = ''
 	if args.no_tk:
 		tempmsg = 'Is this correct?'
@@ -436,9 +438,9 @@ def openf():
 
 def set_title():
 	print_tag('setting title', 'set_title')
-	if args.path:
-		if is_url: title = 'QuizProg Loader - ' + datafile['title'] + ' - ' + args.path
-		else: title = 'QuizProg Loader - ' + datafile['title'] + ' - ' + os.path.realpath(args.path)
+	if loaded_quiz:
+		if is_url: title = 'QuizProg Loader - ' + datafile['title'] + ' - ' + path
+		else: title = 'QuizProg Loader - ' + datafile['title'] + ' - ' + os.path.realpath(path)
 	else: title = 'QuizProg Loader'
 	if os.name == 'nt': ctypes.windll.kernel32.SetConsoleTitleW(title)
 	else: sys.stdout.write('\x1b]2;' + title + '\x07')
@@ -449,14 +451,13 @@ error = False
 message = 'Welcome to QuizProg! Any errors while opening a quiz will be displayed here.'
 while not quitted:
 	try:
-		set_title()
 		clear()
 		if loaded_quiz:
+			set_title()
 			message = ''
 			print_tag('displaying quiz menu')
-			print(datafile['title'].upper())
-			print('\nPowered by QuizProg v' + version + '\n')
-			if check_optional_element('description'): print(datafile['description'])
+			print(datafile['title'] + '\nPowered by QuizProg')
+			if check_optional_element('description'): print('\n' + datafile['description'])
 			print('\n[1] Start quiz\n')
 			print('[2] Open another quiz')
 			print('[3] Quit quiz\n')
@@ -484,6 +485,7 @@ while not quitted:
 			elif choice == 4: about()
 			else: pass
 		else:
+			set_title()
 			print_tag('displaying quizprog menu')
 			print('QUIZPROG LOADER\n')
 			print(message + '\n')
