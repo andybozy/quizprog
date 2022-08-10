@@ -9,7 +9,7 @@ import tempfile
 import traceback
 
 version = '1.4.2'
-quizprog_version = '1.1.7'
+quizprog_version = '1.1.7_01'
 
 
 import argparse

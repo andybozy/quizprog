@@ -10,7 +10,7 @@ import tempfile
 import traceback
 from datetime import datetime
 
-version = '1.1.7'
+version = '1.1.7_01'
 
 import argparse
 parser = argparse.ArgumentParser(description = 'Loads a pre-made quiz from a JSON, either from the internet or locally.', epilog = 'QuizProg v{}\n(c) 2022 GamingWithEvets Inc. All rights reserved.'.format(version), formatter_class = argparse.RawTextHelpFormatter, allow_abbrev = False)
@@ -289,7 +289,7 @@ def load_quizzes():
 			if print_wrong:
 				if check_question_optional_element('wrongmsg', rangelist[i], dict) and choice in question_data['wrongmsg']:
 					print(question_data['wrongmsg'][choice] + '\n')
-				elif allow_wrong: print(random.choice(wrongmsg))
+				elif allow_wrong: print(random.choice(wrongmsg) + '\n')
 				else:
 					if allow_lives: print('Choice ' + choice.upper() + ' is incorrect! You lost a life!\n')
 					else: print('Choice ' + choice.upper() + ' is incorrect!\n')
