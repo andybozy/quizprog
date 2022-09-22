@@ -8,8 +8,8 @@ import ctypes
 import tempfile
 import traceback
 
-version = '1.4.2'
-quizprog_version = '1.1.7_01'
+version = '1.4.3'
+quizprog_version = '1.1.8'
 
 
 import argparse
@@ -134,33 +134,38 @@ def create_backup():
 
 create_backup()
 
-def input_string(name, short, og = '', new = False, allow_blank = False):
+def input_string(name, short, og = '', new = False, allow_blank = False, newline = True):
 	global modified
 	clear()
 	print(header)
 	if new: print('Type your new ' + name + '. If blank, the ' + short + ' will be discarded.')
 	elif allow_blank: print('Type your revised ' + name + '. If blank, the existing ' + short + ' will be deleted.')
 	else: print('Type your revised ' + name + '. If blank, the existing ' + short + ' will be kept.')
-	print('\nPress Enter to end a line.')
-	print('To stop typing, make sure the current line you\'re on is blank,')
-	if os.name == 'nt': print('then press CTRL+Z then Enter.\n')
-	else: print('then press CTRL+D then Enter.\n')
+	if newline:
+		print('\nPress Enter to end a line.\nTo stop typing, make sure the current line you\'re on is blank,')
+		if os.name == 'nt': print('then press CTRL+Z then Enter.\n')
+		else: print('then press CTRL+D then Enter.\n')
+	else: print('Press Enter to stop typing.\n')
 	if not new and og: print('If you need to copy something from the old ' + short + ', here it is:\n' + og + '\n')
-	print('-----')
+	print('-----\n')
 	textlist = []
 	textlist_checked = []
-	while True:
+	if newline:
+		while True:
+			try:
+				content = input()
+				textlist.append(content)
+			except EOFError:
+				for line in textlist:
+					if line and not line.isspace(): textlist_checked.append(line)
+				text = '\n'.join(textlist_checked)
+				break
+	else:
 		try:
-			content = input()
-			textlist.append(content)
-		except EOFError:
-			for line in textlist:
-				if line and not line.isspace(): textlist_checked.append(line)
-			text = '\n'.join(textlist_checked)
-			break
-	if text:
-		if allow_blank: modified = True
-		if text != og: modified = True
+			text = input()
+		except EOFError: return og
+	if text and text != og: modified = True
+	elif allow_blank: modified = True
 	return text
 
 def change_questions():
@@ -495,7 +500,7 @@ or (n == 'c' and 'd' not in question_data['wrongmsg']) or m == 'd': print('[1] P
 				clear()
 				print(f'{header}\nInput the question\'s new slot number.\nThe slot number must be between 1 and ' + str(len(datafile['questions'])) + '\nand must not be ' + str(n + 1) + '.\nOr else, the move operation will be cancelled.\nIf blank or contains non-numeric characters,\nprevious slot number will be used.\n')
 				try:
-					slot = int(input('-----\nNew slot number:'))
+					slot = int(input('-----\n\nNew slot number:'))
 					if slot >= 1 and slot <= len(datafile['questions']) and slot != n + 1:
 						datafile['questions'].insert(slot - 1, datafile['questions'].pop(n))
 						if slot != n + 1: modified = True
@@ -573,7 +578,7 @@ def change_settings():
 						clear()
 						print(f'{header}\nInput the global wrong message\'s new slot number.\nThe slot number must be between 1 and ' + str(len(datafile['wrongmsg'])) + '\nand must not be ' + str(n + 1) + '.\nIt also must not be blank and must not contain non-numeric characters.\nIf above conditions are not met, the move operation will be cancelled.\n')
 						try:
-							slot = int(input('------\nNew slot number:'))
+							slot = int(input('-----\n\nNew slot number:'))
 							if slot >= 1 and slot <= len(datafile['wrongmsg']) and slot != n + 1:
 								datafile['wrongmsg'].insert(slot - 1, datafile['wrongmsg'].pop(n))
 								if slot != n + 1: modified = True
@@ -644,7 +649,7 @@ def change_settings():
 				print(f'{header}\nEnter the amount of lives you want to have.\nThe number of lives must be between 1 and 2147483647 and must not be a decimal number.\nIf 0 or lower, the lives setting will be disabled.\nIf blank or contains non-numeric characters,\nprevious life count will be used.\n')
 				og = datafile['lives']
 				try:
-					life = int(input('-----\nLives: '))
+					life = int(input('-----\n\nLives: '))
 					if life < 1: datafile['lives'] = 0
 					else: datafile['lives'] = life
 					if datafile['lives'] != og: modified = True
@@ -941,7 +946,7 @@ while not quitted:
 					elif key == 'n': break
 			else: quitted = True
 		elif choice == 1:
-			text = input_string('quiz name', 'name', datafile['title'])
+			text = input_string('quiz name', 'name', datafile['title'], newline = False)
 			if text: datafile['title'] = text
 		elif choice == 2:
 			if check_optional_element('description'):
