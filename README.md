@@ -1,5 +1,6 @@
 **QuizProg** is a simple quiz program written in Python. It loads data from a pre-made JSON file.  
-QuizProg also comes with an editor that you can use if you're not tech-savvy enough to know about JSON.
+QuizProg also comes with an editor that you can use if you're not tech-savvy enough to know about JSON.  
+[GUI version (beta)](../../../quizprog-gui)
 
 Make sure to install all the listed modules in `requirements.txt` first, individually or with `pip install -r requirements.txt`.
 
