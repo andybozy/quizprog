@@ -6,7 +6,7 @@ import traceback
 
 QUIZ_DATA_FOLDER = "quiz_data"
 PERFORMANCE_FILE = "quiz_performance.json"
-VERSION = "2.1.1"
+VERSION = "2.1.2"
 
 def clear():
     try:
@@ -142,24 +142,27 @@ def print_scoreboard(questions, perf_data):
 
 def preguntar(qid, question_data, perf_data):
     """
-    Muestra una pregunta, con respuestas en orden aleatorio (randomizado).
+    Muestra una pregunta con respuestas barajadas (opcional).
     Retorna:
       True  -> correcto
       False -> incorrecto
-      None  -> el usuario decidió salir
-    Actualiza perf_data para marcar wrong/unanswered.
+      None  -> salir
+
+    Ahora: la 'explanation' (si existe) se muestra tanto en correctas como en erróneas.
     """
     if str(qid) not in perf_data:
         perf_data[str(qid)] = {"wrong": False, "unanswered": True}
 
     clear()
+
     question_text = question_data["question"]
 
-    # Creamos una copia de la lista original de answers y la barajamos.
+    # Barajar respuestas si se desea:
     answers_original = question_data["answers"]
-    answers_shuffled = answers_original[:]  # copia superficial
+    answers_shuffled = answers_original[:]
     random.shuffle(answers_shuffled)
 
+    # Tomamos la explicación (razón) de la pregunta
     explanation = question_data.get("explanation", "")
     wrongmsg = question_data.get("wrongmsg", "")
 
@@ -168,7 +171,7 @@ def preguntar(qid, question_data, perf_data):
     if archivo_origen:
         print(f"(Pregunta de: {archivo_origen})\n")
 
-    # Identificar los índices correctos en la lista barajada:
+    # Hallar los índices correctos
     correct_indices = [
         i for i, ans in enumerate(answers_shuffled)
         if ans.get("correct", False)
@@ -181,13 +184,12 @@ def preguntar(qid, question_data, perf_data):
     multi_correct = (len(correct_indices) > 1)
 
     print(f"Pregunta {qid}:\n{question_text}\n")
-    # Imprimir la lista barajada
     for i, ans in enumerate(answers_shuffled):
         print(f"[{i+1}] {ans['text']}")
     print("\n[0] Salir de la sesión\n")
 
     if multi_correct:
-        print("Puede haber varias respuestas correctas (por ej. '1,3').")
+        print("Puede haber varias respuestas correctas (ej. '1,3').")
 
     opcion = input("Tu respuesta: ").strip()
     if opcion == "0":
@@ -199,17 +201,13 @@ def preguntar(qid, question_data, perf_data):
     except ValueError:
         seleccion = [-1]
 
-    # Lógica de correct/incorrect con la lista barajada
+    # Revisar si es correcto o no
     if not multi_correct:
         if len(seleccion) == 1 and seleccion[0] in correct_indices:
             perf_data[str(qid)]["unanswered"] = False
             perf_data[str(qid)]["wrong"] = False
-            if explanation:
-                clear()
-                print("¡CORRECTO!\n")
-                print(f"EXPLICACIÓN:\n{explanation}\n")
-                press_any_key()
-            return True
+            clear()
+            print("¡CORRECTO!\n")
         else:
             perf_data[str(qid)]["unanswered"] = False
             perf_data[str(qid)]["wrong"] = True
@@ -217,20 +215,15 @@ def preguntar(qid, question_data, perf_data):
             print("¡INCORRECTO!\n")
             if isinstance(wrongmsg, str) and wrongmsg:
                 print(f"{wrongmsg}\n")
-            press_any_key()
-            return False
     else:
+        # Varias respuestas correctas
         correct_set = set(correct_indices)
         user_set = set(seleccion)
         if user_set == correct_set:
             perf_data[str(qid)]["unanswered"] = False
             perf_data[str(qid)]["wrong"] = False
-            if explanation:
-                clear()
-                print("¡CORRECTO!\n")
-                print(f"EXPLICACIÓN:\n{explanation}\n")
-                press_any_key()
-            return True
+            clear()
+            print("¡CORRECTO!\n")
         else:
             perf_data[str(qid)]["unanswered"] = False
             perf_data[str(qid)]["wrong"] = True
@@ -238,8 +231,15 @@ def preguntar(qid, question_data, perf_data):
             print("¡INCORRECTO!\n")
             if isinstance(wrongmsg, str) and wrongmsg:
                 print(f"{wrongmsg}\n")
-            press_any_key()
-            return False
+
+    # Muestra la explicación, aunque sea errónea la respuesta
+    if explanation:
+        print("EXPLICACIÓN:\n" + explanation + "\n")
+
+    press_any_key()
+
+    # Retornamos True o False (correcto / incorrecto)
+    return not perf_data[str(qid)]["wrong"]
 
 def play_quiz(full_questions, perf_data, filter_mode="all", file_filter=None):
     """

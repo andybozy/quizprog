@@ -1,78 +1,673 @@
 {
-    "file_number": 10,
-    "file_name": "Test Administrativo II 1 parcial AGGIORNATO AL 28 02 25.docx",
-    "questions": [
+  "file_number": 1,
+  "file_name": "Test Administrativo II 1 parcial AGGIORNATO AL 28 02 25.docx",
+  "questions": [
+    {
+      "question": "1. Están capacitados para obrar ante las administraciones públicas\n\na) los que tengan capacidad de acuerdo con la normativa civil\nb) los que no tengan intereses legítimos individuales o colectivos afectados por la resolución\nc) los menores de edad cuya actuación esté permitido por el ordenamiento jurídico administrativo\nd) a y c son correctas",
+      "answers": [
         {
-            "question": "¿Quiénes están capacitados para obrar ante las administraciones públicas?",
-            "answers": [
-                {
-                    "text": "Los que tengan capacidad de acuerdo con la normativa civil.",
-                    "correct": true
-                },
-                {
-                    "text": "Los menores de edad cuya actuación esté permitida por el ordenamiento jurídico administrativo.",
-                    "correct": true
-                },
-                {
-                    "text": "Los que no tengan intereses legítimos individuales o colectivos afectados por la resolución.",
-                    "correct": false
-                },
-                {
-                    "text": "Solo las personas jurídicas.",
-                    "correct": false
-                }
-            ],
-            "explanation": "Según la Ley 39/2015, están capacitados para obrar ante las administraciones públicas aquellas personas que tienen capacidad de obrar conforme a la normativa civil y los menores en ciertos casos.",
-            "legal_reference": "Ley 39/2015, del Procedimiento Administrativo Común de las Administraciones Públicas.",
-            "source": "Test Administrativo II 1 parcial AGGIORNATO AL 28 02 25.docx"
+          "text": "los que tengan capacidad de acuerdo con la normativa civil",
+          "correct": false
         },
         {
-            "question": "¿Qué sucede si en una solicitud figuran múltiples interesados?",
-            "answers": [
-                {
-                    "text": "Las actuaciones se realizarán con el representante o el interesado expresamente señalado.",
-                    "correct": true
-                },
-                {
-                    "text": "Las actuaciones solo se realizarán con el primer interesado de la lista.",
-                    "correct": false
-                },
-                {
-                    "text": "No se pueden presentar solicitudes con múltiples interesados.",
-                    "correct": false
-                },
-                {
-                    "text": "Las actuaciones deben hacerse con todos los interesados de manera individual.",
-                    "correct": false
-                }
-            ],
-            "explanation": "Cuando hay múltiples interesados en una solicitud, se debe proceder con el representante designado o con el primero de la lista si no hay representante.",
-            "legal_reference": "Ley 39/2015, del Procedimiento Administrativo Común de las Administraciones Públicas.",
-            "source": "Test Administrativo II 1 parcial AGGIORNATO AL 28 02 25.docx"
+          "text": "los que no tengan intereses legítimos individuales o colectivos afectados por la resolución",
+          "correct": false
         },
         {
-            "question": "¿Cómo se tramitan los contratos administrativos en España?",
-            "answers": [
-                {
-                    "text": "Por la Ley de Contratos del Sector Público y sus disposiciones de desarrollo.",
-                    "correct": true
-                },
-                {
-                    "text": "Exclusivamente por el Código Civil.",
-                    "correct": false
-                },
-                {
-                    "text": "Por la Ley de Sociedades Mercantiles.",
-                    "correct": false
-                },
-                {
-                    "text": "A discreción de cada administración pública sin normativa aplicable.",
-                    "correct": false
-                }
-            ],
-            "explanation": "Los contratos administrativos en España se regulan mediante la Ley de Contratos del Sector Público y sus normas de desarrollo.",
-            "legal_reference": "Ley 9/2017, de Contratos del Sector Público.",
-            "source": "Test Administrativo II 1 parcial AGGIORNATO AL 28 02 25.docx"
+          "text": "los menores de edad cuya actuación esté permitido por el ordenamiento jurídico administrativo",
+          "correct": false
+        },
+        {
+          "text": "a y c son correctas",
+          "correct": true
         }
-    ]
+      ],
+      "explanation": "Según la interpretación del texto, tienen capacidad de obrar quienes la ostenten de acuerdo con la normativa civil (mayoría de edad con plena capacidad) y, en determinados casos, los menores si la legislación administrativa lo permite. Por ello, son válidas tanto la opción a) como la c).",
+      "legal_reference": "Arts. 3 y 4, Ley 39/2015"
+    },
+    {
+      "question": "2. Ante la capacidad de obrar se exceptúa el supuesto de los menores incapacitados\n\na) Todas las siguiente respuestas son correctas\nb) cuando la extensión de la incapacidad afecte al ejercicio y defensa de los derechos o intereses de que se trate\nc) a y c son correctas\nd) Ninguna de las respuestas anteriores es correcta",
+      "answers": [
+        {
+          "text": "Todas las siguiente respuestas son correctas",
+          "correct": true
+        },
+        {
+          "text": "cuando la extensión de la incapacidad afecte al ejercicio y defensa de los derechos o intereses de que se trate",
+          "correct": false
+        },
+        {
+          "text": "a y c son correctas",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las respuestas anteriores es correcta",
+          "correct": false
+        }
+      ],
+      "explanation": "Se entiende que la opción (a) cubre las excepciones relacionadas con los menores incapacitados. Es una cuestión de interpretación: si es 'todas las siguientes' (b, c, d) convergen, se considera que la a) prevalece en este test.",
+      "legal_reference": "Art. 3, Ley 39/2015"
+    },
+    {
+      "question": "3. Los interesados en un procedimiento administrativo son:\n\na) los titulares de derechos intereses legítimos individuales o colectivos afectados por el procedimiento\nb) los titulares y representantes de derechos o intereses individuales o colectivo\nc) todas son incorrectas\nd) todas son correctas legítimos",
+      "answers": [
+        {
+          "text": "los titulares de derechos intereses legítimos individuales o colectivos afectados por el procedimiento",
+          "correct": true
+        },
+        {
+          "text": "los titulares y representantes de derechos o intereses individuales o colectivo",
+          "correct": false
+        },
+        {
+          "text": "todas son incorrectas",
+          "correct": false
+        },
+        {
+          "text": "todas son correctas legítimos",
+          "correct": false
+        }
+      ],
+      "explanation": "Se elige la (a) como respuesta: son interesados quienes ostentan derechos o intereses legítimos individuales o colectivos en el procedimiento.",
+      "legal_reference": "Art. 4, Ley 39/2015"
+    },
+    {
+      "question": "4. Cuando en una solicitud figuran múltiples interesados\n\na) las actuaciones se realizarán por representante señalado al efecto\nb) las actuaciones se harán con el interesado expresamente señalado para ello\nc) las actuaciones a que den lugar se efectuarán con el representante o interesado anteriormente mencionados\nd) Todos las respuestas anteriores son correctos",
+      "answers": [
+        {
+          "text": "las actuaciones se realizarán por representante señalado al efecto",
+          "correct": false
+        },
+        {
+          "text": "las actuaciones se harán con el interesado expresamente señalado para ello",
+          "correct": false
+        },
+        {
+          "text": "las actuaciones a que den lugar se efectuarán con el representante o interesado anteriormente mencionados",
+          "correct": false
+        },
+        {
+          "text": "Todos las respuestas anteriores son correctos",
+          "correct": true
+        }
+      ],
+      "explanation": "En caso de pluralidad de interesados, la Administración actuará con el representante designado o con el primer interesado de la lista, en su defecto. Todas las respuestas son compatibles, de ahí que se seleccione (d).",
+      "legal_reference": "Art. 5, Ley 39/2015"
+    },
+    {
+      "question": "5. Si concurrieran varios interesados en el procedimiento y existiera discrepancia en cuanto a la lengua el procedimiento se tramitará en\n\na) La lengua elegida por el mismo\nb) En catalán, gallego o Vasco\nc) castellano\nd) Todos las respuestas anteriores son correctos",
+      "answers": [
+        {
+          "text": "La lengua elegida por el mismo",
+          "correct": false
+        },
+        {
+          "text": "En catalán, gallego o Vasco",
+          "correct": false
+        },
+        {
+          "text": "castellano",
+          "correct": true
+        },
+        {
+          "text": "Todos las respuestas anteriores son correctos",
+          "correct": false
+        }
+      ],
+      "explanation": "La regla general (ante discrepancia) es el uso del castellano, sin perjuicio de la cooficialidad de otras lenguas cuando no haya conflicto.",
+      "legal_reference": "Art. 15, Ley 39/2015"
+    },
+    {
+      "question": "6. El acceso a los archivos y registros públicos\n\na) pueden hacerse de manera genérica\nb) se deben especificar los documentos a los que se pretende acceder\nc) se puede tener acceso a los archivos directamente a investigadores por motivos de interés histórico científico o cultural y que garanticen la intimidad de las personas\nd) b y c son correctas",
+      "answers": [
+        {
+          "text": "pueden hacerse de manera genérica",
+          "correct": false
+        },
+        {
+          "text": "se deben especificar los documentos a los que se pretende acceder",
+          "correct": false
+        },
+        {
+          "text": "se puede tener acceso a los archivos directamente a investigadores por motivos de interés histórico científico o cultural y que garanticen la intimidad de las personas",
+          "correct": false
+        },
+        {
+          "text": "b y c son correctas",
+          "correct": true
+        }
+      ],
+      "explanation": "No cabe acceso puramente genérico: se deben concretar los documentos (b) y son posibles accesos de investigación (c).",
+      "legal_reference": "Ley 19/2013, de Transparencia; Art. 105 CE"
+    },
+    {
+      "question": "7. La revisión de oficio de actos nulos:\n\na) solo procede por motivos de nulidad de pleno derecho arti. 47\nb) Sólo procede por motivos de anulabilidad art. 48\nc) procede tanto por motivos de nulidad como de anulabilidad\nd) se basa en criterios de oportunidad de la administración",
+      "answers": [
+        {
+          "text": "solo procede por motivos de nulidad de pleno derecho arti. 47",
+          "correct": true
+        },
+        {
+          "text": "Sólo procede por motivos de anulabilidad art. 48",
+          "correct": false
+        },
+        {
+          "text": "procede tanto por motivos de nulidad como de anulabilidad",
+          "correct": false
+        },
+        {
+          "text": "se basa en criterios de oportunidad de la administración",
+          "correct": false
+        }
+      ],
+      "explanation": "La revisión de oficio se limita a actos nulos de pleno derecho; para los actos meramente anulables, se siguen otros cauces (recursos).",
+      "legal_reference": "Art. 47 y 106, Ley 39/2015"
+    },
+    {
+      "question": "8. Contra una desestimación presunta por silencio se interpone recursos de alzada que no es resuelto en el plazo establecido por lo que la falta de resolución del recurso de alzada:\n\na) es silencio negativo conforme a la regla general de los recursos\nb) el silencio es positivo como sanción ante la falta de actividad de la administración\nc) se debe esperar a la resolución expresa por parte de la administración\nd) ninguna es correcta",
+      "answers": [
+        {
+          "text": "es silencio negativo conforme a la regla general de los recursos",
+          "correct": false
+        },
+        {
+          "text": "el silencio es positivo como sanción ante la falta de actividad de la administración",
+          "correct": true
+        },
+        {
+          "text": "se debe esperar a la resolución expresa por parte de la administración",
+          "correct": false
+        },
+        {
+          "text": "ninguna es correcta",
+          "correct": false
+        }
+      ],
+      "explanation": "De acuerdo con esta clave de respuestas, se considera que el silencio sería estimatorio (positivo) a modo de sanción por la inactividad, aunque en la práctica habitual el silencio suele ser negativo. Aquí seguimos la corrección indicada.",
+      "legal_reference": "Art. 24, Ley 39/2015 (interpretación en este test)"
+    },
+    {
+      "question": "9. Un acto administrativo se notifica una sanción en cuyo pie consta que dicha resolución agota la vía administrativa pudiendo interponerse bien recurso de reposición en el plazo de un mes cuando realmente contra la misma cabe recurso de alzada\n\na) la indicación errónea del recurso no puede perjudicar a antonio debiendo a la administración dar el trámite correspondiente\nb) debe regir el principio antiformalista\nc) la administración debe archivar el recurso ya que antonio tiene que saber el recurso que cabe realmente contra la sanción\nd) a y b son correctas",
+      "answers": [
+        {
+          "text": "la indicación errónea del recurso no puede perjudicar a antonio debiendo a la administración dar el trámite correspondiente",
+          "correct": false
+        },
+        {
+          "text": "debe regir el principio antiformalista",
+          "correct": false
+        },
+        {
+          "text": "la administración debe archivar el recurso ya que antonio tiene que saber el recurso que cabe realmente contra la sanción",
+          "correct": false
+        },
+        {
+          "text": "a y b son correctas",
+          "correct": true
+        }
+      ],
+      "explanation": "El ciudadano no puede verse perjudicado por un error en la notificación de la propia Administración, rigiendo el principio antiformalista. Se elige la opción (d).",
+      "legal_reference": "Arts. 58 y 61, Ley 39/2015"
+    },
+    {
+      "question": "10. El recurso de reposición:\n\na) se interpone contra actos que no ponen fin a la vía administrativa\nb) se interpone contra actos que ponen fin a la vía administrativa\nc) se resuelve por el superior jerárquico de aquel que dictó la resolución\nd) ninguna es correcta",
+      "answers": [
+        {
+          "text": "se interpone contra actos que no ponen fin a la vía administrativa",
+          "correct": false
+        },
+        {
+          "text": "se interpone contra actos que ponen fin a la vía administrativa",
+          "correct": true
+        },
+        {
+          "text": "se resuelve por el superior jerárquico de aquel que dictó la resolución",
+          "correct": false
+        },
+        {
+          "text": "ninguna es correcta",
+          "correct": false
+        }
+      ],
+      "explanation": "El recurso de reposición procede contra los actos que agotan la vía administrativa y se resuelve por el mismo órgano que dictó el acto.",
+      "legal_reference": "Art. 123, Ley 39/2015"
+    },
+    {
+      "question": "11. El recurso extraordinario de revisión\n\na) procede contra los actos de trámite del expediente\nb) procede contra actos firmes que tengan vicio de nulidad\nc) procede contra actos firmes que tenga un vicio de anulabilidad\nd) procede contra actos firmes por alguno de los motivos tasados en el art.125 de la LPC",
+      "answers": [
+        {
+          "text": "procede contra los actos de trámite del expediente",
+          "correct": false
+        },
+        {
+          "text": "procede contra actos firmes que tengan vicio de nulidad",
+          "correct": false
+        },
+        {
+          "text": "procede contra actos firmes que tenga un vicio de anulabilidad",
+          "correct": false
+        },
+        {
+          "text": "procede contra actos firmes por alguno de los motivos tasados en el art.125 de la LPC",
+          "correct": true
+        }
+      ],
+      "explanation": "El recurso extraordinario de revisión sólo procede por motivos muy concretos (p. ej. error de hecho, aparición de documentos, etc.) una vez que el acto sea firme.",
+      "legal_reference": "Art. 125, Ley 39/2015"
+    },
+    {
+      "question": "12. En la resolución de un recurso\n\na) se deben resolver solo las cuestiones planteadas en el recurso\nb) se deben resolver las cuestiones planteadas en el recurso y aquellas que surjan del expediente previo trámite de audiencia\nc) se puede producir la reformatio in peius directamente por la autoridad que lo resuelve\nd) ninguna es correcta",
+      "answers": [
+        {
+          "text": "se deben resolver solo las cuestiones planteadas en el recurso",
+          "correct": false
+        },
+        {
+          "text": "se deben resolver las cuestiones planteadas en el recurso y aquellas que surjan del expediente previo trámite de audiencia",
+          "correct": true
+        },
+        {
+          "text": "se puede producir la reformatio in peius directamente por la autoridad que lo resuelve",
+          "correct": false
+        },
+        {
+          "text": "ninguna es correcta",
+          "correct": false
+        }
+      ],
+      "explanation": "Al resolver un recurso, la Administración resuelve las cuestiones del recurso y, si procede, las que se deriven del expediente, siempre que se dé trámite de audiencia.",
+      "legal_reference": "Arts. 121-122, Ley 39/2015"
+    },
+    {
+      "question": "13. Los contratos administrativos se rigen:\n\na) exclusivamente por la ley de contratos\nb) por la ley de contratos y por disposiciones correspondientes de derecho privado\nc) por las normas especiales que se dicten para su ejecución\nd) por la ley de contratos y sus disposiciones de desarrollo",
+      "answers": [
+        {
+          "text": "exclusivamente por la ley de contratos",
+          "correct": false
+        },
+        {
+          "text": "por la ley de contratos y por disposiciones correspondientes de derecho privado",
+          "correct": false
+        },
+        {
+          "text": "por las normas especiales que se dicten para su ejecución",
+          "correct": false
+        },
+        {
+          "text": "por la ley de contratos y sus disposiciones de desarrollo",
+          "correct": true
+        }
+      ],
+      "explanation": "La ley de contratos del sector público (y sus normas de desarrollo) constituyen la regulación principal. En forma supletoria se aplican otras normas de derecho administrativo y, en defecto, el derecho privado.",
+      "legal_reference": "Ley 9/2017, de Contratos del Sector Público"
+    },
+    {
+      "question": "14. En cuanto al contenido de los contratos:\n\na) rige la libertad de pacto entre las partes sin ningún tipo de límite\nb) de regirse en su contenido exclusivamente por lo dispuesto en la ley de contratos\nc) pueden incluirse cualesquiera pactos, cláusulas y condiciones siempre que no sean contrarios al interés público al ordenamiento jurídico y a los principios de buena administración\nd) c es correcta",
+      "answers": [
+        {
+          "text": "rige la libertad de pacto entre las partes sin ningún tipo de límite",
+          "correct": false
+        },
+        {
+          "text": "de regirse en su contenido exclusivamente por lo dispuesto en la ley de contratos",
+          "correct": false
+        },
+        {
+          "text": "pueden incluirse cualesquiera pactos, cláusulas y condiciones siempre que no sean contrarios al interés público al ordenamiento jurídico y a los principios de buena administración",
+          "correct": false
+        },
+        {
+          "text": "c es correcta",
+          "correct": true
+        }
+      ],
+      "explanation": "Según esta clave de respuestas, se selecciona la (d), que confirma la validez de la opción (c).",
+      "legal_reference": "Art. 34 y ss., Ley 9/2017"
+    },
+    {
+      "question": "15. Se consideran poderes adjudicadores:\n\na) la administraciones públicas\nb) las mutuas colaboradoras con la seguridad social\nc) las organización sindicales\nd) a y b son correctas",
+      "answers": [
+        {
+          "text": "la administraciones públicas",
+          "correct": false
+        },
+        {
+          "text": "las mutuas colaboradoras con la seguridad social",
+          "correct": false
+        },
+        {
+          "text": "las organización sindicales",
+          "correct": false
+        },
+        {
+          "text": "a y b son correctas",
+          "correct": true
+        }
+      ],
+      "explanation": "Son poderes adjudicadores tanto las administraciones públicas como ciertos entes con funciones de interés general (por ejemplo, mutuas de SS).",
+      "legal_reference": "Art. 3, Ley 9/2017"
+    },
+    {
+      "question": "16. Son contratos típicos:\n\na) el contrato de obra\nb) el contrato de concesión de obra pública\nc) el contrato de concesión de servicios\nd) todas son correctas",
+      "answers": [
+        {
+          "text": "el contrato de obra",
+          "correct": false
+        },
+        {
+          "text": "el contrato de concesión de obra pública",
+          "correct": false
+        },
+        {
+          "text": "el contrato de concesión de servicios",
+          "correct": false
+        },
+        {
+          "text": "todas son correctas",
+          "correct": true
+        }
+      ],
+      "explanation": "La legislación contempla obras, concesión de obras, concesión de servicios, etc. Como contratos típicos, las tres opciones se consideran correctas, de ahí la (d).",
+      "legal_reference": "Art. 12 y ss., Ley 9/2017"
+    },
+    {
+      "question": "17. El procedimiento negociado sin publicidad se puede utilizar:\n\na) para cualquier tipo de contrato\nb) queda a criterio de la administración el utilizar ese sistema de adjudicación\nc) se utiliza en el caso de contratos declarados secretos\nd) no está reconocido por nuestra legislación",
+      "answers": [
+        {
+          "text": "para cualquier tipo de contrato",
+          "correct": false
+        },
+        {
+          "text": "queda a criterio de la administración el utilizar ese sistema de adjudicación",
+          "correct": false
+        },
+        {
+          "text": "se utiliza en el caso de contratos declarados secretos",
+          "correct": true
+        },
+        {
+          "text": "no está reconocido por nuestra legislación",
+          "correct": false
+        }
+      ],
+      "explanation": "El procedimiento negociado sin publicidad aplica a supuestos tasados, como contratos secretos o que afecten a seguridad/defensa.",
+      "legal_reference": "Art. 168, Ley 9/2017"
+    },
+    {
+      "question": "18. La administración tiene reconocidas las siguientes prerrogativas en relación a los contratos:\n\na) le corresponde la interpretación del contrato\nb) tiene reconocido el poder de intervención en la ejecución del mismo\nc) puede modificar en determinadas circunstancias el contenido del contrato\nd) todas son correctas",
+      "answers": [
+        {
+          "text": "le corresponde la interpretación del contrato",
+          "correct": false
+        },
+        {
+          "text": "tiene reconocido el poder de intervención en la ejecución del mismo",
+          "correct": false
+        },
+        {
+          "text": "puede modificar en determinadas circunstancias el contenido del contrato",
+          "correct": false
+        },
+        {
+          "text": "todas son correctas",
+          "correct": true
+        }
+      ],
+      "explanation": "La administración, en los contratos públicos, cuenta con potestades unilaterales de interpretación, intervención y modificación, dentro de los límites legales.",
+      "legal_reference": "Arts. 190-192, Ley 9/2017"
+    },
+    {
+      "question": "19. Las Uniones Temporales de Empresas:\n\na) no puede participar en la adjudicación de contratos administrativos\nb) se han de constituir necesariamente en escritura pública para poder participar en el proceso de adjudicación\nc) se han de formalizar en escritura pública en el caso de resultar adjudicatarias del contrato\nd) basta con que se recoja en documento privado las empresas que forman parte de la misma",
+      "answers": [
+        {
+          "text": "no puede participar en la adjudicación de contratos administrativos",
+          "correct": false
+        },
+        {
+          "text": "se han de constituir necesariamente en escritura pública para poder participar en el proceso de adjudicación",
+          "correct": false
+        },
+        {
+          "text": "se han de formalizar en escritura pública en el caso de resultar adjudicatarias del contrato",
+          "correct": true
+        },
+        {
+          "text": "basta con que se recoja en documento privado las empresas que forman parte de la misma",
+          "correct": false
+        }
+      ],
+      "explanation": "Las UTE pueden presentarse a la licitación. Si ganan, deben formalizar la unión en escritura pública.",
+      "legal_reference": "Art. 69, Ley 9/2017"
+    },
+    {
+      "question": "20. El importe de la fianza definitiva:\n\na) es el 3% del precio adjudicación\nb) es el 5% del precio adjudicación\nc) puede llegar al 10% a través de la fianza complementaria\nd) b y c son correctas",
+      "answers": [
+        {
+          "text": "es el 3% del precio adjudicación",
+          "correct": false
+        },
+        {
+          "text": "es el 5% del precio adjudicación",
+          "correct": false
+        },
+        {
+          "text": "puede llegar al 10% a través de la fianza complementaria",
+          "correct": false
+        },
+        {
+          "text": "b y c son correctas",
+          "correct": true
+        }
+      ],
+      "explanation": "Normalmente la garantía definitiva es el 5% y puede ampliarse hasta el 10% en determinados supuestos, por fianza complementaria.",
+      "legal_reference": "Art. 107, Ley 9/2017"
+    },
+    {
+      "question": "21. La cesión de los contratos administrativos exige:\n\na) estar prevista en los pliegos\nb) autorización del órgano contratante\nc) no puede suponer alteración sustancial de las características técnicas o personales exigidas al contratista\nd) todas son correctas",
+      "answers": [
+        {
+          "text": "estar prevista en los pliegos",
+          "correct": false
+        },
+        {
+          "text": "autorización del órgano contratante",
+          "correct": false
+        },
+        {
+          "text": "no puede suponer alteración sustancial de las características técnicas o personales exigidas al contratista",
+          "correct": false
+        },
+        {
+          "text": "todas son correctas",
+          "correct": true
+        }
+      ],
+      "explanation": "La cesión está condicionada a que se prevea en los pliegos, la autorice el órgano de contratación y no afecte a elementos esenciales.",
+      "legal_reference": "Art. 214, Ley 9/2017"
+    },
+    {
+      "question": "22. La fuerza mayor en los contratos administrativos:\n\na) no está reconocida en materia de contratación\nb) la ley regula el caso fortuito\nc) solo procede en supuestos tasados previstos en la LCSP\nd) se reconoce aunque exista imprudencia por parte del contratista",
+      "answers": [
+        {
+          "text": "no está reconocida en materia de contratación",
+          "correct": false
+        },
+        {
+          "text": "la ley regula el caso fortuito",
+          "correct": false
+        },
+        {
+          "text": "solo procede en supuestos tasados previstos en la LCSP",
+          "correct": true
+        },
+        {
+          "text": "se reconoce aunque exista imprudencia por parte del contratista",
+          "correct": false
+        }
+      ],
+      "explanation": "La fuerza mayor se reconoce en casos tasados y no aplica si hay negligencia o imprudencia del contratista.",
+      "legal_reference": "Arts. 239-242, Ley 9/2017"
+    },
+    {
+      "question": "23. En la resolución del contrato por causa imputable al contratista\n\na) se incauta la fianza definitiva\nb) obligado a indemnizar los daños y perjuicios causados cualquiera que sea su importe y aunque supere al de la fianza\nc) no tiene derecho al pago de la obra que se haya ejecutado\nd) a y b son correctas",
+      "answers": [
+        {
+          "text": "se incauta la fianza definitiva",
+          "correct": false
+        },
+        {
+          "text": "obligado a indemnizar los daños y perjuicios causados cualquiera que sea su importe y aunque supere al de la fianza",
+          "correct": false
+        },
+        {
+          "text": "no tiene derecho al pago de la obra que se haya ejecutado",
+          "correct": false
+        },
+        {
+          "text": "a y b son correctas",
+          "correct": true
+        }
+      ],
+      "explanation": "Si la causa de resolución se imputa al contratista, la administración incauta la fianza y el contratista responde de todos los daños.",
+      "legal_reference": "Art. 211, Ley 9/2017"
+    },
+    {
+      "question": "24. La responsabilidad patrimonial de la administración:\n\na) es subsidiaria respecto de sus autoridades funcionarios o agentes\nb) es una responsabilidad directa\nc) es necesaria la identificación del funcionario o agente responsable para que responda la administración\nd) excluye el derecho de repetición de la administración contra la autoridad funcionario o agente responsable",
+      "answers": [
+        {
+          "text": "es subsidiaria respecto de sus autoridades funcionarios o agentes",
+          "correct": false
+        },
+        {
+          "text": "es una responsabilidad directa",
+          "correct": true
+        },
+        {
+          "text": "es necesaria la identificación del funcionario o agente responsable para que responda la administración",
+          "correct": false
+        },
+        {
+          "text": "excluye el derecho de repetición de la administración contra la autoridad funcionario o agente responsable",
+          "correct": false
+        }
+      ],
+      "explanation": "La administración responde de manera directa frente al ciudadano y, posteriormente, puede ejercer la acción de repetición contra el agente responsable.",
+      "legal_reference": "Art. 32, Ley 40/2015"
+    },
+    {
+      "question": "25. Los presupuesto y requisitos de la responsabilidad patrimonial de la administración son:\n\na) el daño ha de ser consecuencia del funcionamiento anormal de los servicios públicos\nb) la lesión resarcible ha de ser antijurídica efectiva evaluable económicamente e individualizada respecto a una persona o grupo de personas determinadas\nc) no es necesaria la existencia de nexo causal entre el daño y la acción u omisión de la administración a la que se imputa el daño\nd) concurre incluso en los supuesto de fuerza mayor",
+      "answers": [
+        {
+          "text": "el daño ha de ser consecuencia del funcionamiento anormal de los servicios públicos",
+          "correct": false
+        },
+        {
+          "text": "la lesión resarcible ha de ser antijurídica efectiva evaluable económicamente e individualizada respecto a una persona o grupo de personas determinadas",
+          "correct": true
+        },
+        {
+          "text": "no es necesaria la existencia de nexo causal entre el daño y la acción u omisión de la administración a la que se imputa el daño",
+          "correct": false
+        },
+        {
+          "text": "concurre incluso en los supuesto de fuerza mayor",
+          "correct": false
+        }
+      ],
+      "explanation": "La ley exige un daño efectivo, antijurídico y evaluable; además debe existir nexo causal con la actuación administrativa.",
+      "legal_reference": "Art. 32 y 34, Ley 40/2015"
+    },
+    {
+      "question": "26. La interrupción del plazo de prescripción de la acción de responsabilidad patrimonial se produce:\n\na) por cualquier reclamación que se dirija solicitando la indemnización de los daños aunque no se realice directa o indirectamente contra la administración\nb) por cualquier reclamación incluidas las acciones civiles y penales encaminadas a exigir la responsabilidad a la administración\nc) por el inicio de cualquier actuación penal o de cualquier otra índole relacionada con los hechos de los que derivan el daño aunque no se dirija contra Administración\nd) solo se puede interrumpir por la reclamación de responsabilidad patrimonial ante la administración",
+      "answers": [
+        {
+          "text": "por cualquier reclamación que se dirija solicitando la indemnización de los daños aunque no se realice directa o indirectamente contra la administración",
+          "correct": false
+        },
+        {
+          "text": "por cualquier reclamación incluidas las acciones civiles y penales encaminadas a exigir la responsabilidad a la administración",
+          "correct": true
+        },
+        {
+          "text": "por el inicio de cualquier actuación penal o de cualquier otra índole relacionada con los hechos de los que derivan el daño aunque no se dirija contra Administración",
+          "correct": false
+        },
+        {
+          "text": "solo se puede interrumpir por la reclamación de responsabilidad patrimonial ante la administración",
+          "correct": false
+        }
+      ],
+      "explanation": "Se considera que cualquier reclamación, incluso civil o penal, dirigida a exigir responsabilidad a la Administración, interrumpe el plazo.",
+      "legal_reference": "Arts. 67, Ley 39/2015; 35, Ley 40/2015"
+    },
+    {
+      "question": "27. La reparación del daño en responsabilidad patrimonial:\n\na) ha de ser integral incluyendo la totalidad del perjuicio causado tanto daño emergente como lucro cesante y daño moral\nb) excluye el daño moral al no tener un parámetro objetivo para su cuantificación\nc) ha de ser objeto de pago íntegro sin que pueda ser sustituida por compensaciones en especie ni por pagos periódicos\nd) se establece por referencia al día en que se produjo el daño sin que sea objeto de actualización alguna",
+      "answers": [
+        {
+          "text": "ha de ser integral incluyendo la totalidad del perjuicio causado tanto daño emergente como lucro cesante y daño moral",
+          "correct": false
+        },
+        {
+          "text": "excluye el daño moral al no tener un parámetro objetivo para su cuantificación",
+          "correct": true
+        },
+        {
+          "text": "ha de ser objeto de pago íntegro sin que pueda ser sustituida por compensaciones en especie ni por pagos periódicos",
+          "correct": false
+        },
+        {
+          "text": "se establece por referencia al día en que se produjo el daño sin que sea objeto de actualización alguna",
+          "correct": false
+        }
+      ],
+      "explanation": "En esta clave, se ha optado por la respuesta (b), interpretando que el daño moral no se incluye. (En la realidad, la ley sí admite resarcir el daño moral, pero seguimos la corrección indicada.)",
+      "legal_reference": "Art. 34, Ley 40/2015 (interpretación restrictiva en este test)"
+    },
+    {
+      "question": "28. En la tramitación del expediente de responsabilidad patrimonial:\n\na) es preceptivo el dictamen del consejo de estado u órgano consultivo autonómico en todo caso\nb) es preceptivo el dictamen del consejo de estado u órgano consultivo autonómico cuando la cuantía reclamada sea igual o superior a 30.000 euros\nc) es preceptivo el dictamen del consejo de estado u órgano consultivo autonómico cuando la cuantía reclamada sea igual o superior a 50.000 euros\nd) no es necesario el dictamen del consejo de estado u órgano consultivo autonómico",
+      "answers": [
+        {
+          "text": "es preceptivo el dictamen del consejo de estado u órgano consultivo autonómico en todo caso",
+          "correct": false
+        },
+        {
+          "text": "es preceptivo el dictamen del consejo de estado u órgano consultivo autonómico cuando la cuantía reclamada sea igual o superior a 30.000 euros",
+          "correct": false
+        },
+        {
+          "text": "es preceptivo el dictamen del consejo de estado u órgano consultivo autonómico cuando la cuantía reclamada sea igual o superior a 50.000 euros",
+          "correct": true
+        },
+        {
+          "text": "no es necesario el dictamen del consejo de estado u órgano consultivo autonómico",
+          "correct": false
+        }
+      ],
+      "explanation": "Actualmente se exige dictamen cuando la cuantía reclamada es igual o superior a 50.000 €.",
+      "legal_reference": "Art. 81, Ley 39/2015"
+    },
+    {
+      "question": "29. La fuerza mayor:\n\na) excluye la responsabilidad patrimonial de la administración\nb) no excluye la responsabilidad patrimonial de la administración\nc) se entiende por tal la causa imprevisible e irresistible ajena a la conducta racional o previsión de toda persona u organización conforme a los conocimientos y estado de la técnica en el momento de producirse\nd) a y c son correctas",
+      "answers": [
+        {
+          "text": "excluye la responsabilidad patrimonial de la administración",
+          "correct": false
+        },
+        {
+          "text": "no excluye la responsabilidad patrimonial de la administración",
+          "correct": false
+        },
+        {
+          "text": "se entiende por tal la causa imprevisible e irresistible ajena a la conducta racional o previsión de toda persona u organización conforme a los conocimientos y estado de la técnica en el momento de producirse",
+          "correct": false
+        },
+        {
+          "text": "a y c son correctas",
+          "correct": true
+        }
+      ],
+      "explanation": "La fuerza mayor (hecho imprevisible e irresistible) excluye la responsabilidad de la administración. Por eso se da validez a la a) y la c).",
+      "legal_reference": "Art. 32, Ley 40/2015"
+    }
+  ]
 }
