@@ -6,24 +6,21 @@ import traceback
 
 QUIZ_DATA_FOLDER = "quiz_data"
 PERFORMANCE_FILE = "quiz_performance.json"
-VERSION = "2.2.1"
+VERSION = "2.4.0"
 
 def clear():
-    """Limpia la pantalla."""
+    """Limpia la pantalla (Windows/Unix)."""
     try:
         os.system("cls" if os.name == "nt" else "clear")
     except:
         pass
 
 def press_any_key():
-    """Pausa: espera al usuario."""
+    """Pausa hasta que el usuario presione Enter."""
     input("\nPresiona Enter para continuar...")
 
-# ---------------------------------------------------------------------------
-# CARGA Y ESTRUCTURA DE ARCHIVOS
-# ---------------------------------------------------------------------------
 def load_json_file(filepath):
-    """Carga JSON de un archivo, o None si falla."""
+    """Carga un archivo JSON, o None si falla."""
     try:
         with open(filepath, encoding="utf-8") as f:
             return json.load(f)
@@ -32,7 +29,7 @@ def load_json_file(filepath):
         return None
 
 def descubrir_quiz_files(folder):
-    """Encuentra todos los .json en la carpeta recursivamente."""
+    """Encuentra recursivamente todos los .json en la carpeta dada."""
     quiz_files = []
     for root, dirs, files in os.walk(folder):
         for f in files:
@@ -42,23 +39,11 @@ def descubrir_quiz_files(folder):
 
 def load_all_quizzes():
     """
-    Carga todos los .json bajo QUIZ_DATA_FOLDER.
-    Devuelve:
-      - combined_questions: lista global de todas las preguntas
-      - cursos_dict: info para imprimir resumen
-      - cursos_archivos: estructura para elegir curso/archivo
-
-    cursos_archivos => {
-      "administrativo2": {
-         "rutaCompleta1.json": {
-            "filename": "...",
-            "questions": [...],
-            "question_count": N
-         },
-         "rutaCompleta2.json": ...
-      },
-      "otrocurso": ...
-    }
+    1) Carga todos los .json en QUIZ_DATA_FOLDER.
+    2) Retorna:
+       - combined_questions: lista con TODAS las preguntas
+       - cursos_dict: para el resumen
+       - cursos_archivos: para elegir curso/archivo
     """
     all_files = descubrir_quiz_files(QUIZ_DATA_FOLDER)
     if not all_files:
@@ -77,7 +62,7 @@ def load_all_quizzes():
         questions_list = data["questions"]
         file_question_count = len(questions_list)
 
-        # Determinar "curso" => la primera carpeta
+        # Determinar el curso por la primera subcarpeta
         rel_path = os.path.relpath(filepath, QUIZ_DATA_FOLDER)
         parts = rel_path.split(os.sep)
         curso = parts[0]
@@ -89,32 +74,29 @@ def load_all_quizzes():
 
         filename_only = os.path.basename(filepath)
 
-        # Para el resumen (cursos_dict):
         cursos_dict[curso].append({
             "filename": filename_only,
             "filepath": filepath,
             "question_count": file_question_count
         })
 
-        # Para la estructura de curso->archivo
         cursos_archivos[curso][filepath] = {
             "filename": filename_only,
             "questions": [],
             "question_count": file_question_count
         }
 
-        # Añadir a la lista global
+        # Agregar a combined_questions y al dict curso->archivo
         for q in questions_list:
             if "question" in q and "answers" in q:
                 q["_quiz_source"] = filepath
                 combined_questions.append(q)
-                # También lo guardamos en cursos_archivos
                 cursos_archivos[curso][filepath]["questions"].append(q)
 
     return combined_questions, cursos_dict, cursos_archivos
 
 def print_cursos_summary(cursos_dict):
-    """Imprime cuántos archivos y cuántas preguntas hay por curso."""
+    """Muestra cuántos archivos y preguntas hay por cada curso."""
     print("=== RESUMEN DE CURSOS ===\n")
     total_archivos = 0
     total_preguntas = 0
@@ -133,11 +115,8 @@ def print_cursos_summary(cursos_dict):
     print(f"** Total: {total_archivos} archivos, {total_preguntas} preguntas en total **\n")
     press_any_key()
 
-# ---------------------------------------------------------------------------
-# GUARDAR/CARGAR DESEMPEÑO GLOBAL
-# ---------------------------------------------------------------------------
 def load_performance_data():
-    """Carga datos de desempeño (wrong/unanswered)."""
+    """Carga (o crea) el archivo PERFORMANCE_FILE con info global de desempeño."""
     if not os.path.exists(PERFORMANCE_FILE):
         return {}
     try:
@@ -147,25 +126,20 @@ def load_performance_data():
         return {}
 
 def save_performance_data(perf_data):
-    """Guarda datos de desempeño en JSON."""
+    """Guarda datos de desempeño en PERFORMANCE_FILE."""
     try:
         with open(PERFORMANCE_FILE, "w", encoding="utf-8") as f:
             json.dump(perf_data, f, indent=2, ensure_ascii=False)
     except Exception as ex:
         print(f"[!] Error guardando desempeño: {ex}")
 
-# ---------------------------------------------------------------------------
-# MOSTRAR ESTADÍSTICAS GLOBALES SI SE DESEA
-# ---------------------------------------------------------------------------
-def print_scoreboard(questions, perf_data):
-    """
-    Estadísticas globales: cuántas correctas, erróneas, sin responder, total.
-    (No se confunde con la "sesión local" de la run actual.)
-    """
+def print_scoreboard_global(questions, perf_data):
+    """Muestra estadísticas globales (correct, wrong, unanswered, total)."""
     total = len(questions)
     correct = 0
     wrong = 0
     unanswered = 0
+
     for i in range(total):
         pd = perf_data.get(str(i))
         if not pd:
@@ -181,12 +155,9 @@ def print_scoreboard(questions, perf_data):
     print(f"\n** Estadísticas globales: Correctas: {correct}, Erróneas: {wrong}, "
           f"Sin responder: {unanswered}, Total: {total} **\n")
 
-# ---------------------------------------------------------------------------
-# MOSTRAR RESUMEN LOCAL DE SESIÓN
-# ---------------------------------------------------------------------------
 def print_local_summary(session_counts):
     """
-    Muestra un resumen de la sesión actual (correct/wrong/unanswered).
+    Resume la sesión actual: correct, wrong, unanswered.
     """
     c = session_counts["correct"]
     w = session_counts["wrong"]
@@ -196,23 +167,23 @@ def print_local_summary(session_counts):
     print("\n=== Resumen de esta sesión ===")
     print(f"Correctas: {c}")
     print(f"Incorrectas: {w}")
-    print(f"No respondidas (saltadas o confirmadas con 0): {u}")
+    print(f"No respondidas (o saltadas): {u}")
     print(f"Total en esta sesión: {total}\n")
     press_any_key()
 
 # ---------------------------------------------------------------------------
-# PREGUNTAR: UNA SOLA PREGUNTA
+# PREGUNTAR: UNA SOLA PREGUNTA, RESPUESTAS BARAJADAS, LABELS CON LETRAS
 # ---------------------------------------------------------------------------
 def preguntar(qid, question_data, perf_data, session_counts):
     """
-    Muestra UNA pregunta, randomiza las respuestas,
-    y actualiza tanto perf_data como session_counts.
-    Retorna:
-      True  -> contada como "correcta"
-      False -> contada como "incorrecta" (o "skip")
-      None  -> usuario confirmó que quiere salir de la sesión
+    Muestra una pregunta:
+      - Shuffle answers
+      - Label answers with letters [A], [B], [C], etc.
+      - Devuelve True/False/None
+        True  => correcto
+        False => incorrecto
+        None  => usuario confirmó "salir"
     """
-    # Marca en perf_data si no existe
     if str(qid) not in perf_data:
         perf_data[str(qid)] = {"wrong": False, "unanswered": True}
 
@@ -221,63 +192,70 @@ def preguntar(qid, question_data, perf_data, session_counts):
     question_text = question_data["question"]
     answers_original = question_data["answers"]
     answers_shuffled = answers_original[:]
-    random.shuffle(answers_shuffled)  # randomiza la lista de respuestas
+    random.shuffle(answers_shuffled)
 
     explanation = question_data.get("explanation", "")
     wrongmsg = question_data.get("wrongmsg", "")
 
-    # Muestra origen (archivo)
+    # Origen del archivo
     source_path = question_data.get("_quiz_source", "")
     archivo_origen = os.path.basename(source_path) if source_path else ""
     if archivo_origen:
         print(f"(Pregunta de: {archivo_origen})\n")
 
-    # Hallar posiciones correctas en la lista barajada
-    correct_indices = [
-        i for i, ans in enumerate(answers_shuffled)
-        if ans.get("correct", False)
-    ]
+    # Identificar índices correctos
+    correct_indices = [i for i, ans in enumerate(answers_shuffled) if ans.get("correct", False)]
     if not correct_indices:
         print(f"[!] Pregunta {qid} sin respuestas correctas; se omite...\n")
         perf_data[str(qid)]["unanswered"] = False
-        # La contamos como "correcta" para no complicar,
-        # o podrías manejarlo de otra forma
-        session_counts["correct"] += 1
+        session_counts["correct"] += 1  # o ajusta la lógica a tu gusto
         return True
 
     multi_correct = (len(correct_indices) > 1)
 
     print(f"Pregunta {qid}:\n{question_text}\n")
+
+    # Label letters: A, B, C, D, ...
+    LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     for i, ans in enumerate(answers_shuffled):
-        print(f"[{i+1}] {ans['text']}")
+        label = LETTERS[i]  # e.g. 'A', 'B', 'C' ...
+        print(f"[{label}] {ans['text']}")
+
     print("\n[0] Salir de la sesión\n")
-
     if multi_correct:
-        print("Puede haber varias respuestas correctas (ej. '1,3').")
+        print("Puede haber varias respuestas correctas. Ejemplo: 'A,C'")
 
-    opcion = input("Tu respuesta: ").strip()
+    # Esperar la respuesta
+    opcion = input("Tu respuesta: ").strip().upper()
     if opcion == "0":
-        # Confirmar que realmente quiere salir
+        # Confirmar salida
         clear()
         print("¿Seguro que deseas salir de esta sesión y volver al sub-menú? (s/n)")
         confirm = input("> ").lower()
         if confirm == "s":
-            # Salir de la sesión => None
             return None
         else:
-            # “No” => no salir, podemos considerarlo “unanswered”
             session_counts["unanswered"] += 1
             return False
 
+    # Procesar la entrada. Puede ser 'A' o 'A,C'
+    # Conviértelo a índices: 'A' => 0, 'B' => 1, etc.
+    user_positions = []
     try:
-        seleccion = [int(x) - 1 for x in opcion.split(",")]
+        parts = opcion.split(",")
+        for p in parts:
+            p = p.strip()
+            if not p:
+                continue
+            idx = ord(p) - ord('A')  # 'A' -> 0, 'B' -> 1, ...
+            user_positions.append(idx)
     except ValueError:
-        seleccion = [-1]
+        user_positions = [-1]
 
     # Verificar correct/incorrect
     if not multi_correct:
-        # 1 sola respuesta correcta
-        if len(seleccion) == 1 and seleccion[0] in correct_indices:
+        # caso 1 sola respuesta
+        if len(user_positions) == 1 and user_positions[0] in correct_indices:
             # Correcto
             perf_data[str(qid)]["unanswered"] = False
             perf_data[str(qid)]["wrong"] = False
@@ -297,18 +275,17 @@ def preguntar(qid, question_data, perf_data, session_counts):
 
             clear()
             print("¡INCORRECTO!\n")
-            if isinstance(wrongmsg, str) and wrongmsg:
+            if wrongmsg:
                 print(f"{wrongmsg}\n")
             if explanation:
                 print(f"EXPLICACIÓN:\n{explanation}\n")
             press_any_key()
             return False
     else:
-        # Caso de respuestas múltiples
+        # varias correctas
         correct_set = set(correct_indices)
-        user_set = set(seleccion)
+        user_set = set(user_positions)
         if user_set == correct_set:
-            # Correcto
             perf_data[str(qid)]["unanswered"] = False
             perf_data[str(qid)]["wrong"] = False
             session_counts["correct"] += 1
@@ -320,14 +297,13 @@ def preguntar(qid, question_data, perf_data, session_counts):
             press_any_key()
             return True
         else:
-            # Incorrecto
             perf_data[str(qid)]["unanswered"] = False
             perf_data[str(qid)]["wrong"] = True
             session_counts["wrong"] += 1
 
             clear()
             print("¡INCORRECTO!\n")
-            if isinstance(wrongmsg, str) and wrongmsg:
+            if wrongmsg:
                 print(f"{wrongmsg}\n")
             if explanation:
                 print(f"EXPLICACIÓN:\n{explanation}\n")
@@ -335,28 +311,21 @@ def preguntar(qid, question_data, perf_data, session_counts):
             return False
 
 # ---------------------------------------------------------------------------
-# FUNCION PRINCIPAL PARA JUGAR UN QUIZ
+# BUCLE DE PREGUNTAS / SESIÓN
 # ---------------------------------------------------------------------------
 def play_quiz(full_questions, perf_data, filter_mode="all", file_filter=None):
     """
-    - filter_mode: "all", "unanswered", "wrong"
-    - file_filter: None => todas, o un path => solo preguntas de ese archivo
-
-    Después de terminar (o salir con 0->confirm),
-    se imprime un RESUMEN LOCAL de la sesión. No volvemos al main menu,
-    sino que regresamos a la función que llamó a play_quiz (e.g. sub-menú).
+    filter_mode: "all", "unanswered", "wrong"
+    file_filter: si no es None => solo preguntas con _quiz_source == file_filter
     """
-    # Construir subset
     all_pairs = [(i, q) for i, q in enumerate(full_questions)]
     if file_filter is not None:
         all_pairs = [(i, q) for (i, q) in all_pairs if q.get("_quiz_source") == file_filter]
 
     if filter_mode == "wrong":
-        subset = [(i, q) for (i, q) in all_pairs
-                  if str(i) in perf_data and perf_data[str(i)]["wrong"]]
+        subset = [(i, q) for (i, q) in all_pairs if str(i) in perf_data and perf_data[str(i)]["wrong"]]
     elif filter_mode == "unanswered":
-        subset = [(i, q) for (i, q) in all_pairs
-                  if str(i) not in perf_data or perf_data[str(i)]["unanswered"]]
+        subset = [(i, q) for (i, q) in all_pairs if str(i) not in perf_data or perf_data[str(i)]["unanswered"]]
     else:
         subset = all_pairs  # "all"
 
@@ -365,9 +334,9 @@ def play_quiz(full_questions, perf_data, filter_mode="all", file_filter=None):
         press_any_key()
         return
 
-    # random.shuffle(subset)  # Descomentar si deseas barajar el orden de las preguntas
+    # random.shuffle(subset)  # Descomenta si deseas barajar el orden de las preguntas
 
-    # Contadores para esta SESIÓN local
+    # Contadores LOCALES para la sesión actual
     session_counts = {
         "correct": 0,
         "wrong": 0,
@@ -376,24 +345,21 @@ def play_quiz(full_questions, perf_data, filter_mode="all", file_filter=None):
 
     idx = 0
     while idx < len(subset):
-        (qid, qdata) = subset[idx]
+        qid, qdata = subset[idx]
         resultado = preguntar(qid, qdata, perf_data, session_counts)
         if resultado is None:
-            # Usuario decidió salir y confirmó => romper
+            # Usuario decidió salir => romper
             break
 
         save_performance_data(perf_data)
-        # Si deseas mostrar scoreboard global en cada pregunta:
-        # print_scoreboard(full_questions, perf_data)
-
         idx += 1
 
-    # Muestra resumen local de esta sesión
+    # Al terminar, mostrar resumen local
     clear()
     print_local_summary(session_counts)
 
 # ---------------------------------------------------------------------------
-# COMANDOS PRINCIPALES
+# MENÚS / COMANDOS
 # ---------------------------------------------------------------------------
 def comando_quiz_todos(questions, perf_data):
     play_quiz(questions, perf_data, filter_mode="all", file_filter=None)
@@ -417,7 +383,7 @@ def comando_salir():
     sys.exit(0)
 
 # ---------------------------------------------------------------------------
-# ELEGIR UN ARCHIVO ESPECIFICO
+# ELEGIR CURSO/ARCHIVO
 # ---------------------------------------------------------------------------
 def comando_elegir_archivo(questions, perf_data, cursos_archivos):
     curso_list = sorted(cursos_archivos.keys())
@@ -454,14 +420,14 @@ def comando_elegir_archivo(questions, perf_data, cursos_archivos):
         while True:
             clear()
             print(f"ARCHIVOS EN CURSO: {chosen_curso}\n")
-            for idx, fp in enumerate(archivo_list, start=1):
+            for i, fp in enumerate(archivo_list, start=1):
                 info = archivos_dict[fp]
-                print(f"[{idx}] {info['filename']} ({info['question_count']} preguntas)")
+                print(f"[{i}] {info['filename']} ({info['question_count']} preguntas)")
             print("\n[0] Volver al listado de cursos\n")
 
             opcion_archivo = input("Elige un archivo: ").strip()
             if opcion_archivo == "0":
-                # Volver a elegir curso
+                # volver a elegir curso
                 break
 
             try:
@@ -475,7 +441,6 @@ def comando_elegir_archivo(questions, perf_data, cursos_archivos):
 
             while True:
                 clear()
-                # Sub-menú para elegir modo
                 print(f"Has elegido el curso '{chosen_curso}' / archivo '{archivos_dict[chosen_file]['filename']}'\n")
                 print("[1] Todas las preguntas de este archivo")
                 print("[2] Solo no respondidas de este archivo")
@@ -492,14 +457,14 @@ def comando_elegir_archivo(questions, perf_data, cursos_archivos):
                 elif mode_choice == "3":
                     play_quiz(questions, perf_data, filter_mode="wrong", file_filter=chosen_file)
                 else:
-                    continue
+                    pass
 
 # ---------------------------------------------------------------------------
 # MAIN
 # ---------------------------------------------------------------------------
 def main():
     clear()
-    print(f"QuizProg v{VERSION} - Todas las funcionalidades integradas\n")
+    print(f"QuizProg v{VERSION} - Respuestas barajadas con letras\n")
 
     questions, cursos_dict, cursos_archivos = load_all_quizzes()
     print_cursos_summary(cursos_dict)
@@ -509,7 +474,7 @@ def main():
     while True:
         clear()
         print(f"=== QUIZPROG v{VERSION} ===\n")
-        print("1) Todas las preguntas (modo global)")
+        print("1) Todas las preguntas (global)")
         print("2) Solo preguntas no respondidas (global)")
         print("3) Solo preguntas erróneas (global)")
         print("4) Elegir un curso y archivo específico")
@@ -532,9 +497,6 @@ def main():
         else:
             pass
 
-# ---------------------------------------------------------------------------
-# EJECUCION
-# ---------------------------------------------------------------------------
 if __name__ == "__main__":
     try:
         main()
