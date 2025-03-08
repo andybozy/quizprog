@@ -3,10 +3,11 @@ import json
 import random
 import sys
 import traceback
+import re
 
 QUIZ_DATA_FOLDER = "quiz_data"
 PERFORMANCE_FILE = "quiz_performance.json"
-VERSION = "2.4.0"
+VERSION = "2.4.1"
 
 def clear():
     """Limpia la pantalla (Windows/Unix)."""
@@ -172,11 +173,32 @@ def print_local_summary(session_counts):
     press_any_key()
 
 # ---------------------------------------------------------------------------
+# FUNCIÓN PARA ELIMINAR LÍNEAS EMBEBIDAS TIPO "a) b) c) d)"
+# ---------------------------------------------------------------------------
+def sanitize_question_text(text):
+    """
+    Quita las líneas que comienzan con 'a)', 'b)', 'c)', 'd)', '(a)', '(b)', etc.
+    para no duplicar respuestas en el enunciado.
+    """
+    lines = text.splitlines()
+    new_lines = []
+    # Regex: ^\s*(?:\(?[abcd]\)|[abcd]\))(\s|$) => detecta 'a)', '(a)', 'b)', etc. al inicio
+    pattern = re.compile(r"^\s*(?:\(?[abcd]\)|[abcd]\))(\s|$)", re.IGNORECASE)
+
+    for line in lines:
+        if pattern.match(line.strip()):
+            # Omitimos esta línea
+            continue
+        new_lines.append(line)
+    return "\n".join(new_lines).strip()
+
+# ---------------------------------------------------------------------------
 # PREGUNTAR: UNA SOLA PREGUNTA, RESPUESTAS BARAJADAS, LABELS CON LETRAS
 # ---------------------------------------------------------------------------
 def preguntar(qid, question_data, perf_data, session_counts):
     """
     Muestra una pregunta:
+      - Limpia el texto para quitar 'a) ... b) ...'
       - Shuffle answers
       - Label answers with letters [A], [B], [C], etc.
       - Devuelve True/False/None
@@ -189,7 +211,10 @@ def preguntar(qid, question_data, perf_data, session_counts):
 
     clear()
 
-    question_text = question_data["question"]
+    # Primero, sanitizamos el 'question' para quitar líneas embebidas
+    original_text = question_data["question"]
+    question_text = sanitize_question_text(original_text)
+
     answers_original = question_data["answers"]
     answers_shuffled = answers_original[:]
     random.shuffle(answers_shuffled)
@@ -218,7 +243,7 @@ def preguntar(qid, question_data, perf_data, session_counts):
     # Label letters: A, B, C, D, ...
     LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     for i, ans in enumerate(answers_shuffled):
-        label = LETTERS[i]  # e.g. 'A', 'B', 'C' ...
+        label = LETTERS[i]
         print(f"[{label}] {ans['text']}")
 
     print("\n[0] Salir de la sesión\n")
@@ -238,8 +263,7 @@ def preguntar(qid, question_data, perf_data, session_counts):
             session_counts["unanswered"] += 1
             return False
 
-    # Procesar la entrada. Puede ser 'A' o 'A,C'
-    # Conviértelo a índices: 'A' => 0, 'B' => 1, etc.
+    # Parsear letras, e.g. 'A' o 'A,C'
     user_positions = []
     try:
         parts = opcion.split(",")
@@ -254,7 +278,7 @@ def preguntar(qid, question_data, perf_data, session_counts):
 
     # Verificar correct/incorrect
     if not multi_correct:
-        # caso 1 sola respuesta
+        # 1 sola respuesta
         if len(user_positions) == 1 and user_positions[0] in correct_indices:
             # Correcto
             perf_data[str(qid)]["unanswered"] = False
@@ -282,7 +306,7 @@ def preguntar(qid, question_data, perf_data, session_counts):
             press_any_key()
             return False
     else:
-        # varias correctas
+        # Múltiples correctas
         correct_set = set(correct_indices)
         user_set = set(user_positions)
         if user_set == correct_set:
@@ -310,9 +334,6 @@ def preguntar(qid, question_data, perf_data, session_counts):
             press_any_key()
             return False
 
-# ---------------------------------------------------------------------------
-# BUCLE DE PREGUNTAS / SESIÓN
-# ---------------------------------------------------------------------------
 def play_quiz(full_questions, perf_data, filter_mode="all", file_filter=None):
     """
     filter_mode: "all", "unanswered", "wrong"
@@ -327,40 +348,29 @@ def play_quiz(full_questions, perf_data, filter_mode="all", file_filter=None):
     elif filter_mode == "unanswered":
         subset = [(i, q) for (i, q) in all_pairs if str(i) not in perf_data or perf_data[str(i)]["unanswered"]]
     else:
-        subset = all_pairs  # "all"
+        subset = all_pairs
 
     if not subset:
         print("\n[No hay preguntas para este filtro. Volviendo...]\n")
         press_any_key()
         return
 
-    # random.shuffle(subset)  # Descomenta si deseas barajar el orden de las preguntas
+    # random.shuffle(subset)  # Descomenta si quieres barajar orden de preguntas
 
-    # Contadores LOCALES para la sesión actual
-    session_counts = {
-        "correct": 0,
-        "wrong": 0,
-        "unanswered": 0
-    }
+    session_counts = {"correct": 0, "wrong": 0, "unanswered": 0}
 
     idx = 0
     while idx < len(subset):
         qid, qdata = subset[idx]
         resultado = preguntar(qid, qdata, perf_data, session_counts)
         if resultado is None:
-            # Usuario decidió salir => romper
             break
-
         save_performance_data(perf_data)
         idx += 1
 
-    # Al terminar, mostrar resumen local
     clear()
     print_local_summary(session_counts)
 
-# ---------------------------------------------------------------------------
-# MENÚS / COMANDOS
-# ---------------------------------------------------------------------------
 def comando_quiz_todos(questions, perf_data):
     play_quiz(questions, perf_data, filter_mode="all", file_filter=None)
 
@@ -382,9 +392,6 @@ def comando_salir():
     print("¡Hasta luego!")
     sys.exit(0)
 
-# ---------------------------------------------------------------------------
-# ELEGIR CURSO/ARCHIVO
-# ---------------------------------------------------------------------------
 def comando_elegir_archivo(questions, perf_data, cursos_archivos):
     curso_list = sorted(cursos_archivos.keys())
     if not curso_list:
@@ -427,7 +434,6 @@ def comando_elegir_archivo(questions, perf_data, cursos_archivos):
 
             opcion_archivo = input("Elige un archivo: ").strip()
             if opcion_archivo == "0":
-                # volver a elegir curso
                 break
 
             try:
@@ -459,12 +465,9 @@ def comando_elegir_archivo(questions, perf_data, cursos_archivos):
                 else:
                     pass
 
-# ---------------------------------------------------------------------------
-# MAIN
-# ---------------------------------------------------------------------------
 def main():
     clear()
-    print(f"QuizProg v{VERSION} - Respuestas barajadas con letras\n")
+    print(f"QuizProg v{VERSION} - Respuestas barajadas con letras, sin duplicados\n")
 
     questions, cursos_dict, cursos_archivos = load_all_quizzes()
     print_cursos_summary(cursos_dict)
