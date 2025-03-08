@@ -1,0 +1,78 @@
+{
+    "file_number": 5,
+    "file_name": "autoevaluacion tema 7 administrativo II.pdf",
+    "questions": [
+        {
+            "question": "¿Qué establece el principio de responsabilidad en la potestad sancionadora de la Administración?",
+            "answers": [
+                {
+                    "text": "Las sanciones solo pueden imponerse cuando se haya probado la responsabilidad del infractor.",
+                    "correct": true
+                },
+                {
+                    "text": "Las sanciones pueden imponerse de manera discrecional por la Administración.",
+                    "correct": false
+                },
+                {
+                    "text": "No es necesario seguir un procedimiento para imponer sanciones administrativas.",
+                    "correct": false
+                },
+                {
+                    "text": "El principio de responsabilidad no aplica en sanciones administrativas.",
+                    "correct": false
+                }
+            ],
+            "explanation": "El principio de responsabilidad en la potestad sancionadora exige que las sanciones solo se impongan cuando se haya determinado la responsabilidad del infractor, conforme a la Ley 39/2015.",
+            "legal_reference": "Ley 39/2015, del Procedimiento Administrativo Común de las Administraciones Públicas.",
+            "source": "autoevaluacion tema 7 administrativo II.pdf"
+        },
+        {
+            "question": "¿Cuándo se interrumpe la prescripción de las infracciones y sanciones?",
+            "answers": [
+                {
+                    "text": "Cuando se inicia el procedimiento sancionador.",
+                    "correct": true
+                },
+                {
+                    "text": "Cuando la Administración decide revisar el expediente después de seis meses de inactividad.",
+                    "correct": false
+                },
+                {
+                    "text": "Cuando el infractor presenta alegaciones.",
+                    "correct": false
+                },
+                {
+                    "text": "Cuando la Administración dicta la resolución sancionadora.",
+                    "correct": false
+                }
+            ],
+            "explanation": "La prescripción de infracciones y sanciones se interrumpe con la iniciación del procedimiento sancionador, según lo regulado en la Ley 39/2015 y la Ley 40/2015.",
+            "legal_reference": "Ley 39/2015 y Ley 40/2015, del Régimen Jurídico del Sector Público.",
+            "source": "autoevaluacion tema 7 administrativo II.pdf"
+        },
+        {
+            "question": "¿En qué consiste el principio de legalidad en la potestad sancionadora de la Administración?",
+            "answers": [
+                {
+                    "text": "Las sanciones solo pueden imponerse si están previstas en una norma con rango de ley.",
+                    "correct": true
+                },
+                {
+                    "text": "Las sanciones pueden imponerse libremente sin necesidad de respaldo normativo.",
+                    "correct": false
+                },
+                {
+                    "text": "El principio de legalidad solo aplica en el ámbito penal.",
+                    "correct": false
+                },
+                {
+                    "text": "El principio de legalidad permite que la Administración cree nuevas sanciones en el procedimiento.",
+                    "correct": false
+                }
+            ],
+            "explanation": "El principio de legalidad en la potestad sancionadora establece que toda sanción debe estar prevista en una norma legal y debe seguir un procedimiento legalmente establecido.",
+            "legal_reference": "Ley 39/2015, del Procedimiento Administrativo Común de las Administraciones Públicas.",
+            "source": "autoevaluacion tema 7 administrativo II.pdf"
+        }
+    ]
+}

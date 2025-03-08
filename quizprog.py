@@ -1,526 +1,342 @@
 import os
-import re
-import sys
 import json
-if os.name == 'nt': import msvcrt
-else: import getch as msvcrt
-import ctypes
 import random
-import tempfile
+import sys
 import traceback
 from datetime import datetime
 
-version = '1.1.8'
+# ---------------------------------------------------------------------------
+# CONFIG / CONSTANTS
+# ---------------------------------------------------------------------------
+QUIZ_DATA_FOLDER = "quiz_data"
+PERFORMANCE_FILE = "quiz_performance.json"
+VERSION = "2.0.0"
 
-import argparse
-parser = argparse.ArgumentParser(description = 'Loads a pre-made quiz from a JSON, either from the internet or locally.', epilog = 'QuizProg v{}\n(c) 2022 GamingWithEvets Inc. All rights reserved.'.format(version), formatter_class = argparse.RawTextHelpFormatter, allow_abbrev = False)
-parser.add_argument('path', metavar = 'json_path', nargs = '?', help = 'path/URL to your JSON file (skips the main menu)')
-parser.add_argument('-e', '--enable-log', action = 'store_true', help = 'enable logging (for debugging)')
-parser.add_argument('-n', '--no-tk', action = 'store_true', help = 'don\'t use Tkinter')
-args = parser.parse_args()
-
-if args.enable_log: logfile = open('quizprog.log', 'a', encoding = 'utf-8')
-
-if not args.no_tk:
-	try:
-		from tkinter import Tk
-		from tkinter.filedialog import askopenfilename
-	except ImportError: parser.error('"tkinter" module not found.\nto use QuizProg w/o Tkinter, use the -n / --no-tk option.'); sys.exit()
-	tk = Tk()
-	tk.withdraw()
-
-if os.name == 'nt': import msvcrt
-else:
-	try:
-		import getch
-		class fake_getwch(object):
-			def __init__(self, func): self.getwch = func
-		msvcrt = fake_getwch(getch.getch)
-	except ImportError: parser.error('"getch" module not found'); sys.exit()
-try: import keyboard
-except ImportError:
-	if args.no_tk: parser.error('"keyboard" module not found\nplease run w/o the -n / --no-tk option\nif you don\'t want to install this module.'); sys.exit()
-try:
-	keyboard.press_and_release('esc')
-	keyboard.write('\n')
-	input()
-except Exception:
-	if args.no_tk: parser.error('"keyboard" module test failed\nplease run w/o the -n / --no-tk option!'); sys.exit()
-try: import requests
-except ImportError: print('"requests" module not found'); sys.exit()
-
-def print_tag(string: str, function = 'main', error = False):
-	if args.enable_log:
-		if error: logfile.write('\n[' + datetime.now().strftime("%d/%m/%Y %H:%M:%S") + '] ' + function + ': ' + string + ' [!]')
-		else: logfile.write('\n[' + datetime.now().strftime("%d/%m/%Y %H:%M:%S") + '] ' + function + ': ' + string)
-
-def abort(): print_tag('aborting.\n\n')
-
-if args.enable_log: logfile.write('[' + datetime.now().strftime("%d/%m/%Y %H:%M:%S") + '] main: starting')
-print_tag('quizprog v' + version)
-
-if args.path != None:
-	path = args.path
-	is_url = bool(re.search('(?P<url>https?://[^\s]+)', args.path))
-
-	if is_url:
-		print_tag('detected: URL')
-		try:
-			print_tag('downloading from: ' + args.path)
-			response = requests.get(args.path)
-			print_tag('got response: ' + str(response.status_code) + ' ' + response.reason)
-			if response.status_code != 200:
-				print_tag('expected status code 200 [!]')
-				abort()
-				parser.error(str(response.status_code) + ' ' + response.reason)
-		except Exception:
-			print_tag('internet connection error occurred [!]')
-			abort()
-			parser.error('error connecting to URL. maybe check your internet connection?')
-		file = tempfile.TemporaryFile(mode = 'w+')
-		file.write(response.text)
-		file.seek(0)
-	else:
-		print_tag('detected: local file')
-		if not os.path.exists(args.path):
-			print_tag('finding file "' + os.path.abspath(args.path) + '": not found [!]')
-			abort()
-			parser.error('invalid file path')
-		else:
-			print_tag('finding file "' + os.path.abspath(args.path) + '": found')
-			path = args.path
-
-	try:
-		if is_url: datafile = json.load(file)
-		else: datafile = json.load(open(path, encoding = 'utf-8'))
-		loaded_quiz = True
-	except:
-		print_tag('invalid JSON data [!]\n' + traceback.format_exc())
-		abort()
-		parser.error('invalid JSON data')
-else:
-	path = ''
-	is_url = False
-	loaded_quiz = False
-	datafile = {}
+# ---------------------------------------------------------------------------
+# UTILITY FUNCTIONS
+# ---------------------------------------------------------------------------
 
 def clear():
-	done = False
-	while not done:
-		try:
-			if os.name == 'nt': os.system('cls')
-			else: os.system('clear')
-			done = True
-		except:
-			pass
+    """Cross-platform clear screen."""
+    try:
+        os.system("cls" if os.name == "nt" else "clear")
+    except:
+        pass
 
-def check_element(element, valtype = str):
-	function = 'check_element'
-	if element not in datafile:
-		print_tag('checking element "' + element + '": not found', function, True)
-		abort()
-		parser.error('element "' + element + '" is required')
-	else: print_tag('checking element "' + element + '": found', function)
+def press_any_key():
+    """Wait for user input to continue."""
+    input("\nPress Enter to continue...")
 
-	if not datafile[element]:
-		print_tag('element "' + element + '" is blank/NoneType', function, True)
-		abort()
-		parser.error('element "' + element + '" cannot be blank or NoneType')
+def load_json_file(filepath):
+    """Safely load JSON data from a file, returning None on failure."""
+    try:
+        with open(filepath, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as ex:
+        print(f"[!] Failed to load '{filepath}': {ex}")
+        return None
 
-	if type(datafile[element]) is not valtype:
-		print_tag('checking type of element "' + element + '": ' + type(datafile[element]).__name__, function, True)
-		abort()
-		parser.error('invalid str value in element "' + element + '"')
-	else: print_tag('checking type of element "' + element + '": ' + type(datafile[element]).__name__, function)
+# ---------------------------------------------------------------------------
+# PERFORMANCE TRACKING
+# ---------------------------------------------------------------------------
+def load_performance_data():
+    """
+    Loads or initializes performance data from PERFORMANCE_FILE.
+    The data structure is a dict with question_id as key and a dict of flags:
+      { "wrong": bool, "unanswered": bool }.
+    """
+    if not os.path.exists(PERFORMANCE_FILE):
+        return {}
+    try:
+        with open(PERFORMANCE_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except:
+        return {}
 
-def check_question_element(element, qid):
-	function = 'check_question_element'
-	if element not in datafile['questions'][qid]:
-		print_tag('checking question element "' + element + '" in question ' + str(qid + 1) + ': not found', function, True)
-		abort()
-		parser.error('element "' + element + '" in question ' + str(qid + 1) + ' is required')
-	else: print_tag('checking question element "' + element + '" in question ' + str(qid + 1) + ': found', function)
+def save_performance_data(perf_data):
+    """Persists the performance data to PERFORMANCE_FILE as JSON."""
+    try:
+        with open(PERFORMANCE_FILE, "w", encoding="utf-8") as f:
+            json.dump(perf_data, f, indent=2, ensure_ascii=False)
+    except Exception as ex:
+        print(f"[!] Error saving performance data: {ex}")
 
-	if not datafile['questions'][qid][element]:
-		print_tag('question element "' + element + '" in question ' + str(qid + 1) + ' is blank/NoneType', function, True)
-		abort()
-		parser.error('element "' + element + '" in question ' + str(qid + 1) + ' cannot be blank or NoneType', function)
+# ---------------------------------------------------------------------------
+# DATA LOADING: DISCOVER ALL JSON QUIZ FILES
+# ---------------------------------------------------------------------------
+def discover_quiz_files(folder):
+    """
+    Recursively walk `folder` (quiz_data/) to find all .json files.
+    Returns a list of absolute paths.
+    """
+    quiz_files = []
+    for root, dirs, files in os.walk(folder):
+        for f in files:
+            if f.lower().endswith(".json"):
+                quiz_files.append(os.path.join(root, f))
+    return quiz_files
 
-	if type(datafile['questions'][qid][element]) is not str:
-		print_tag('checking type of question element "' + element + '" in question ' + str(qid + 1) + '": ' + type(datafile['questions'][qid][element]).__name__, function, True)
-		abort()
-		parser.error('invalid str value in element "' + element + '" in question ' + str(qid + 1))
-	else: print_tag('checking type of question element "' + element + '" in question ' + str(qid + 1) + '": ' + type(datafile['questions'][qid][element]).__name__, function)
+def load_all_quizzes():
+    """
+    Loads and merges all quizzes from quiz_data into a single list of questions.
+    The structure each question expects:
+       {
+         "question": str,
+         "answers": [ { "text": str, "correct": bool }, ... ],
+         "explanation": str (optional),
+         "wrongmsg": str (optional, or it could be an object/dict),
+         ...
+         # you may add: "source", "legal_reference", etc.
+       }
+    Returns:
+      quiz_questions: list of dicts (the combined questions)
+      quiz_count: total question count
+    """
+    all_files = discover_quiz_files(QUIZ_DATA_FOLDER)
+    if not all_files:
+        print(f"No quiz JSON files found in '{QUIZ_DATA_FOLDER}'!")
+        sys.exit(1)
 
-def check_optional_element(element, valtype = str):
-	function = 'check_optional_element'
+    all_questions = []
+    for filepath in all_files:
+        data = load_json_file(filepath)
+        if not data or "questions" not in data:
+            continue
 
-	test1 = False
-	test2 = False
-	test3 = False
-	if element not in datafile:
-		print_tag('(test 1 failure) checking optional element "' + element + '": not found', function)
-	else:
-		print_tag('(test 1 success) checking optional element "' + element + '": found', function)
-		test1 = True
-		if type(datafile[element]) is not bool and not datafile[element]: print_tag('(test 2 failure) element "' + element + '" is blank/NoneType', function)
-		elif type(datafile[element]) is bool:
-			print_tag('test 2 skipped', function)
-			test2 = True
-		else:
-			print_tag('(test 2 success) element "' + element + '" is not blank and not NoneType', function)
-			test2 = True
-		if type(datafile[element]) is valtype:
-			print_tag('(test 3 success) checking type of optional element "' + element + '": ' + type(datafile[element]).__name__, function)
-			test3 = True
-		else: print_tag('(test 3 failure) checking type of optional element "' + element + '": ' + type(datafile[element]).__name__, function)
+        # Some user-supplied JSONs have top-level "questions"
+        # matching the new structure: question, answers = [...], etc.
+        # We'll merge them into a single structure below:
+        questions_list = data["questions"]
+        for q in questions_list:
+            # Validate minimal fields:
+            if "question" not in q or "answers" not in q:
+                continue  # skip if not well-formed
+            # Store reference to which file it came from (optional):
+            q["_quiz_source"] = filepath
+            all_questions.append(q)
 
-	if test1 and test2 and test3: return True
-	else: return False
+    return all_questions, len(all_questions)
 
-def check_question_optional_element(element, qid, valtype = str):
-	function = 'check_question_optional_element'
-	
-	test1 = False
-	test2 = False
-	test3 = False
+# ---------------------------------------------------------------------------
+# QUIZ LOGIC
+# ---------------------------------------------------------------------------
+def ask_question(qid, question_data, perf_data):
+    """
+    Presents one question to the user. Returns True if answered correctly,
+    False if answered incorrectly, and None if not answered (e.g. user quit).
+    Also updates perf_data with 'wrong' or 'unanswered' as needed.
+    """
 
-	if element not in datafile['questions'][qid]:
-		print_tag('(test 1 failure) checking optional question element "' + element + '" in question ' + str(qid + 1) + ': not found', function)
-	else:
-		print_tag('(test 1 success) checking optional question element "' + element + '" in question ' + str(qid + 1) + ': found', function)
-		test1 = True
-		if not datafile['questions'][qid][element]: print_tag('(test 2 failure) question element "' + element + '" in question ' + str(qid + 1) + ' is blank/NoneType', function)
-		else:
-			print_tag('(test 2 success) question element "' + element + '" in question ' + str(qid + 1) + ' is not blank and not NoneType', function)
-			test2 = True
-		if type(datafile['questions'][qid][element]) is valtype:
-			print_tag('(test 3 success) checking type of optional question element "' + element + '" in question ' + str(qid + 1) + '": ' + type(datafile['questions'][qid][element]).__name__, function)
-			test3 = True
-		else: print_tag('(test 3 failure) checking type of optional question element "' + element + '" in question ' + str(qid + 1) + '": ' + type(datafile['questions'][qid][element]).__name__, function)
+    # Mark as unanswered by default:
+    if str(qid) not in perf_data:
+        perf_data[str(qid)] = {"wrong": False, "unanswered": True}
+    else:
+        # If previously flagged 'wrong' or 'unanswered',
+        # we keep it as is until we see if the user gets it right now.
+        pass
 
-	if test1 and test2 and test3: return True
-	else: return False
+    clear()
 
-if loaded_quiz:
-	check_element('title')
-	check_element('questions', list)
-	print_tag('got ' + str(len(datafile['questions'])) + ' questions')
-	if len(datafile['questions']) < 1:
-		print_tag('question count is too low [!]')
-		abort()
-		parser.error('there must be at least one question in "questions"')
-	for i in range(len(datafile['questions'])):
-		check_question_element('question', i)
-		check_question_element('a', i)
-		check_question_element('b', i)
-		check_question_element('c', i)
-		check_question_element('d', i)
-		check_question_element('correct', i)
-else: print_tag('quiz not loaded, skipping element checks')
+    question_text = question_data["question"]
+    answers = question_data["answers"]  # list of { text, correct }
+    explanation = question_data.get("explanation", "")
+    # wrongmsg can be a string or something else, adapt as needed:
+    wrongmsg = question_data.get("wrongmsg", "")
 
-def load_quizzes():
-	function = 'load_quizzes'
+    # Collect indices of correct answers:
+    correct_indices = [idx for idx, ans in enumerate(answers) if ans.get("correct")]
 
-	print_tag('initializing lives', function)
-	allow_lives = False
-	lives = 0
-	if check_optional_element('lives', int):
-		lives = datafile['lives']
-		print_tag(f'got {lives} lives', function)
-		if lives >= 1: allow_lives = True
-		else: print_tag('disabling lives', function)
-	else: print_tag('disabling lives', function)
+    # If none are correct or question is malformed, we skip.
+    if not correct_indices:
+        print(f"[!] This question has no correct answers? Skipping...\n")
+        perf_data[str(qid)]["unanswered"] = False
+        return True  # treat as correct skip
 
-	print_tag('initializing global wrong messages', function)
-	allow_wrong = False
-	wrongmsg = []
-	if check_optional_element('wrongmsg', list):
-		wrongmsg = datafile['wrongmsg']
-		print_tag(f'got {len(wrongmsg)} global wrong messages', function)
-		if len(wrongmsg) >= 1: allow_wrong = True
-		else: print_tag('disabling global wrong messages', function)
-	else: print_tag('disabling global wrong messages', function)
+    # Single or multi-correct?
+    multi_correct = (len(correct_indices) > 1)
 
-	showcount = True
-	if check_optional_element('showcount', bool):
-		showcount = datafile['showcount']
-		if not showcount: print_tag('question count will be hidden', function)
-	else: print_tag('question count will be shown', function)
+    print(f"Q{qid}: {question_text}\n")
+    for i, ans in enumerate(answers):
+        print(f"[{i+1}] {ans['text']}")
+    print("\n[0] Quit this quiz session\n")
 
-	rangelist = {}
-	for i in range(len(datafile['questions'])):
-		rangelist[i] = i
+    if multi_correct:
+        print("NOTE: This question may have multiple correct answers.\n"
+              "Enter each correct number separated by commas (e.g. '1,3')")
 
-	randomize = False
-	if check_optional_element('randomize', bool): randomize = datafile['randomize']
-	if randomize:
-		print_tag('shuffling question order', function)
-		templist = list(rangelist.values())
-		random.shuffle(templist)
-		rangelist = dict(zip(rangelist, templist))
+    user_input = input("Your answer: ").strip()
+    if user_input == "0":
+        # Mark question as unanswered if the user quits right away:
+        perf_data[str(qid)]["unanswered"] = True
+        return None  # user quit
 
-	for i in rangelist:
-		if randomize: print_tag('initializing data for question {} ({})'.format(i + 1, rangelist[i] + 1), function)
-		else: print_tag(f'initializing data for question {i + 1}', function)
-		question_data = datafile['questions'][rangelist[i]]
-		print_wrong = False
-		answered = False
+    # Attempt to parse user input into integer(s)
+    try:
+        # e.g. '1,2' => [1,2]
+        selected_indices = [int(x) - 1 for x in user_input.split(",")]
+    except ValueError:
+        # Invalid input => consider it a wrong attempt
+        selected_indices = [-1]
 
-		print_tag('displaying question', function)
-		while not answered:
-			clear()
-			if allow_lives:
-				if lives < 1:
-					print('GAME OVER!\n')
-					if check_optional_element('fail'): print(datafile['fail'] + '\n')
-					print('Press any key to return.')
-					msvcrt.getwch()
-					print_tag('quiz exited (game over)', function); return
-				else: print('LIVES: {}'.format(lives))
-			if showcount: print('QUESTION {}/{}\n'.format(i + 1, len(datafile['questions'])))
-			else: print(f'QUESTION {i + 1}\n')
-			print(question_data['question'] + '\n')
-			print('[A] ' + question_data['a'])
-			print('[B] ' + question_data['b'])
-			print('[C] ' + question_data['c'])
-			print('[D] ' + question_data['d'] + '\n')
-			print('[E] Quit\n')
-			if print_wrong:
-				if check_question_optional_element('wrongmsg', rangelist[i], dict) and choice in question_data['wrongmsg']:
-					print(question_data['wrongmsg'][choice] + '\n')
-				elif allow_wrong: print(random.choice(wrongmsg) + '\n')
-				else:
-					if allow_lives: print('Choice ' + choice.upper() + ' is incorrect! You lost a life!\n')
-					else: print('Choice ' + choice.upper() + ' is incorrect!\n')
-			else: print('\n')
+    # Check correctness:
+    # If single correct, we only allow one index:
+    if not multi_correct:
+        if len(selected_indices) == 1 and selected_indices[0] in correct_indices:
+            # correct
+            perf_data[str(qid)]["unanswered"] = False
+            perf_data[str(qid)]["wrong"] = False
+            # Show explanation if present:
+            if explanation:
+                clear()
+                print("Correct!\n")
+                print(f"Explanation:\n{explanation}\n")
+                press_any_key()
+            return True
+        else:
+            # wrong
+            perf_data[str(qid)]["unanswered"] = False
+            perf_data[str(qid)]["wrong"] = True
+            clear()
+            print("Incorrect.\n")
+            # Show question-level wrongmsg if present:
+            if isinstance(wrongmsg, str) and wrongmsg:
+                print(f"{wrongmsg}\n")
+            press_any_key()
+            return False
+    else:
+        # multi-correct
+        correct_set = set(correct_indices)
+        user_set = set(selected_indices)
 
-			print_wrong = False
-			print('Press A, B, C, D or E on your keyboard to choose.')
-			choice = msvcrt.getwch().lower()
-			if choice in ['a', 'b', 'c', 'd']:
-				print_tag('user chose ' + choice.upper(), function)
-				if question_data['correct'] == 'all': answered = True
-				elif choice == question_data['correct']:
-					print_tag(choice.upper() + ' is a correct answer', function)
-					answered = True
-				else:
-					print_tag(choice.upper() + ' is an incorrect answer', function)
-					if allow_lives:
-						lives -= 1
-						print_tag('user lost 1 life. lives left: ' + str(lives), function)
-					print_wrong = True
-			elif choice == 'e':
-				while True:
-					clear()
-					print('ARE YOU SURE?\n')
-					print('Are you sure you want to quit the quiz?')
-					print('You will lose all your progress.\n')
-					print('[Y] Yes / [N] No\n')
-					print('Press Y or N on your keyboard to choose.')
-					inputt = msvcrt.getwch().lower()
-					if inputt == 'y': print_tag('quiz exited (manual)', function); return
-					elif inputt == 'n': break
-					else: pass
-		if check_question_optional_element('explanation', i):
-			clear()
-			print_tag('displaying correct answer screen', function)
-			if allow_lives: print(f'LIVES: {lives}')
-			print('CORRECT!\n')
-			print(question_data['explanation'] + '\n')
-			print('Press any key to continue.')
-			msvcrt.getwch()
-		else: print_tag('skipping correct answer screen', function)
-	clear()
-	print('CONGRATULATIONS!\n')
-	if check_optional_element('finish'): print(datafile['finish'] + '\n')
-	print('Press any key to return.')
-	msvcrt.getwch()
-	print_tag('quiz exited (finished)', function)
+        if user_set == correct_set:  # must match exactly
+            perf_data[str(qid)]["unanswered"] = False
+            perf_data[str(qid)]["wrong"] = False
+            if explanation:
+                clear()
+                print("Correct!\n")
+                print(f"Explanation:\n{explanation}\n")
+                press_any_key()
+            return True
+        else:
+            perf_data[str(qid)]["unanswered"] = False
+            perf_data[str(qid)]["wrong"] = True
+            clear()
+            print("Incorrect.\n")
+            if isinstance(wrongmsg, str) and wrongmsg:
+                print(f"{wrongmsg}\n")
+            press_any_key()
+            return False
 
-def about():
-	print_tag('user has selected about menu')
-	print_tag('displaying about menu')
-	clear()
-	print(f'QUIZPROG - VERSION {version}')
-	if os.name != 'nt': print('UNIX EDITION')
-	print('\n(c) 2022 GamingWithEvets Inc. All rights reserved.\nPress any key to return.')
-	msvcrt.getwch()
+# ---------------------------------------------------------------------------
+# MAIN QUIZ PLAY
+# ---------------------------------------------------------------------------
+def play_quiz(questions, perf_data, filter_mode="all"):
+    """
+    filter_mode can be:
+      - "all": ask all questions
+      - "wrong": only ask those flagged as 'wrong'
+      - "unanswered": only ask those flagged as 'unanswered'
+    Returns once user completes or quits.
+    """
 
-def quit_quiz():
-	function = 'quit_quiz'
+    # Filter questions:
+    if filter_mode == "wrong":
+        playable = []
+        for i, q in enumerate(questions):
+            # If question has an entry in perf_data with wrong=True, include it
+            if str(i) in perf_data and perf_data[str(i)]["wrong"]:
+                playable.append((i, q))
+    elif filter_mode == "unanswered":
+        playable = []
+        for i, q in enumerate(questions):
+            # If question not in perf_data or unanswered=True, include it
+            if str(i) not in perf_data or perf_data[str(i)]["unanswered"]:
+                playable.append((i, q))
+    else:
+        # "all" or fallback
+        playable = [(i, q) for i, q in enumerate(questions)]
 
-	global is_url, loaded_quiz
-	if is_url: print_tag('closing temporary downloaded file', function); file.close()
-	print_tag('setting variables', function)
-	is_url = False
-	loaded_quiz = False
-	print_tag('clearing old quiz data', function)
-	datafile = {}
+    if not playable:
+        print("\n[No questions match the chosen filter. Returning to menu...]\n")
+        press_any_key()
+        return
 
-def openf():
-	function = 'openf'
+    # Shuffle if desired:
+    # random.shuffle(playable)  # If you want random order, uncomment
 
-	global message, datafile, loaded_quiz, path
-	path = ''
-	if args.no_tk:
-		tempmsg = 'Is this correct?'
-		while True:
-			clear()
-			print('Type the file path to your quiz JSON file.\n')
-			keyboard.write(os.getcwd() + os.sep)
-			path = input()
-			while True:
-				if not path: break
-				clear()
-				print(tempmsg + '\n\n' + path + '\n\n[ENTER] Confirm | [1] Edit | [2] Cancel')
-				tempmsg = ''
-				choice = msvcrt.getwch()
-				if (os.name == 'nt' and choice == '\r') or choice == '\n':
-					if os.name == 'nt': path.replace('/', '\\')
-					print_tag('opening file "' + os.path.abspath(path) + '"', function)
-					try:
-						success = False
-						for i in range(1):
-							try: datafile = json.load(open(path, encoding = 'utf-8'))
-							except (json.decoder.JSONDecodeError, UnicodeDecodeError): tempmsg = 'Invalid JSON data!'
-							if not check_optional_element('title'): tempmsg = 'String variable "title" not found or empty!'
-							if not check_optional_element('questions', list): tempmsg = 'String variable "questions" not found or empty!'
-							for i in range(len(datafile['questions'])):
-								if not check_question_optional_element('question', i): tempmsg = 'String variable "question" not found or empty in question ' + str(i+1) + '!'
-								if not check_question_optional_element('a', i): tempmsg = 'String variable "a" not found or empty in question ' + str(i+1) + '!'
-								if not check_question_optional_element('b', i): tempmsg = 'String variable "b" not found or empty in question ' + str(i+1) + '!'
-								if not check_question_optional_element('c', i): tempmsg = 'String variable "c" not found or empty in question ' + str(i+1) + '!'
-								if not check_question_optional_element('d', i): tempmsg = 'String variable "d" not found or empty in question ' + str(i+1) + '!'
-								if not check_question_optional_element('correct', i): tempmsg = 'String variable "correct" not found or empty in question ' + str(i+1) + '!'
-								success = True
-							if not success: break
-							message = ''
-							loaded_quiz = True
-							is_url = False
-							return
-					except IOError as e:
-						tempmsg = 'ERROR: ' + e.strerror
-						print_tag('IOError occurred: ' + e.strerror, function)
-				elif choice == '1': break
-				elif choice == '2': return
-	else:
-		clear()
-		path = askopenfilename(title = 'JSON file please!', initialdir = os.getcwd(), filetypes = [('JSON Files', '*.json'), ('All Files', '*.*')], defaultextension = '.json')
-		if os.name == 'nt': path.replace('/', '\\')
-		if path:
-			print_tag('opening file "' + os.path.abspath(path) + '"', function)
-			try:
-				success = False
-				for i in range(1):
-					try: datafile = json.load(open(path))
-					except (json.decoder.JSONDecodeError, UnicodeDecodeError):
-						print_tag('invalid JSON data\n' + traceback.format_exc(), function)
-						message = 'Invalid JSON data!'; break
-					if not check_optional_element('title'): message = 'String variable "title" not found or empty!'; break
-					if not check_optional_element('questions', list): message = 'String variable "questions" not found or empty!'; break
-					for i in range(len(datafile['questions'])):
-						if not check_question_optional_element('question', i): message = 'String variable "question" not found or empty in question ' + str(i+1) + '!'; break
-						if not check_question_optional_element('a', i): message = 'String variable "a" not found or empty in question ' + str(i+1) + '!'; break
-						if not check_question_optional_element('b', i): message = 'String variable "b" not found or empty in question ' + str(i+1) + '!'; break
-						if not check_question_optional_element('c', i): message = 'String variable "c" not found or empty in question ' + str(i+1) + '!'; break
-						if not check_question_optional_element('d', i): message = 'String variable "d" not found or empty in question ' + str(i+1) + '!'; break
-						if not check_question_optional_element('correct', i): message = 'String variable "correct" not found or empty in question ' + str(i+1) + '!'; break
-						success = True
-					if not success: break
-					message = ''
-					loaded_quiz = True
-					is_url = False
-				if not success: print_tag('quiz loading cancelled', function)
-			except IOError as e:
-				message = 'Can\'t open file: ' + e.strerror
-				print_tag('IOError occurred: ' + e.strerror, function)
-		else: print_tag('quiz opening cancelled', function)
+    idx = 0
+    while idx < len(playable):
+        qid, qdata = playable[idx]
+        result = ask_question(qid, qdata, perf_data)
+        save_performance_data(perf_data)  # save after each question
+        if result is None:
+            # user decided to quit the quiz
+            break
+        # proceed to next
+        idx += 1
 
-def set_title():
-	print_tag('setting title', 'set_title')
-	if loaded_quiz:
-		if is_url: title = 'QuizProg Loader - ' + datafile['title'] + ' - ' + path
-		else: title = 'QuizProg Loader - ' + datafile['title'] + ' - ' + os.path.realpath(path)
-	else: title = 'QuizProg Loader'
-	if os.name == 'nt': ctypes.windll.kernel32.SetConsoleTitleW(title)
-	else: sys.stdout.write('\x1b]2;' + title + '\x07')
+    clear()
+    print("Quiz session ended.\n")
+    press_any_key()
 
-print_tag('initializing variables')
-quitted = False
-error = False
-message = 'Welcome to QuizProg! Any errors while opening a quiz will be displayed here.'
-while not quitted:
-	try:
-		clear()
-		if loaded_quiz:
-			set_title()
-			message = ''
-			print_tag('displaying quiz menu')
-			print(datafile['title'] + '\nPowered by QuizProg')
-			if check_optional_element('description'): print('\n' + datafile['description'])
-			print('\n[1] Start quiz\n')
-			print('[2] Open another quiz')
-			print('[3] Quit quiz\n')
-			print('[4] About QuizProg')
-			print('[5] Quit QuizProg\n')
+# ---------------------------------------------------------------------------
+# MAIN MENU
+# ---------------------------------------------------------------------------
+def main():
+    clear()
+    print(f"QuizProg v{VERSION} - Merged Auto Quiz Loader\n")
 
-			print('Press the number keys on your keyboard to choose.')
-			choice = int(msvcrt.getwch())
-			if choice == 5: quitted = True
-			elif choice == 1: print_tag('user has selected start'); load_quizzes(); print_tag('displaying quiz menu')
-			elif choice == 2:
-				while True:
-					clear()
-					print('To open another quiz, the current quiz must be quitted first.\nDo you want to continue? (Y: Yes / N: No)')
-					key = msvcrt.getwch().lower()
-					if key == 'y': print_tag('user has selected "open quiz"'); quit_quiz(); openf(); break
-					elif key == 'n': break
-			elif choice == 3:
-				while True:
-					clear()
-					print('Are you sure you want to quit this quiz?\n(Y: Yes / N: No)')
-					key = msvcrt.getwch().lower()
-					if key == 'y': print_tag('user has quitted quiz'); quit_quiz(); break
-					elif key == 'n': break
-			elif choice == 4: about()
-			else: pass
-		else:
-			set_title()
-			print_tag('displaying quizprog menu')
-			print('QUIZPROG LOADER\n')
-			print(message + '\n')
-			print('[1] Open quiz')
-			print('[2] About QuizProg')
-			print('[3] Quit\n')
-			message = ''
-			print('Press the number keys on your keyboard to choose.')
-			choice = int(msvcrt.getwch())
-			if choice == 3: quitted = True
-			elif choice == 1: print_tag('user has selected "open quiz"'); openf()
-			elif choice == 2: about()
-			else: pass
+    # 1) Load all quizzes:
+    print("[1] Loading quizzes from 'quiz_data' folder...")
+    questions, qcount = load_all_quizzes()
 
-	except ValueError:
-		pass
-	except KeyboardInterrupt:
-		clear()
-		print('Detected Ctrl+C hotkey.\n' + traceback.format_exc())
-		print_tag('detected CTRL+C hotkey\n' + traceback.format_exc())
-		error = True
-		quitted = True
-	except:
-		clear()
-		print('An error has occurred.\n' + traceback.format_exc())
-		print_tag('an error occurred [!]\n' + traceback.format_exc())
-		error = True
-		quitted = True
+    # 2) Load or init performance data:
+    perf_data = load_performance_data()
 
+    # 3) Main loop:
+    while True:
+        clear()
+        print(f"=== QUIZPROG v{VERSION} ===\n")
+        print(f"Loaded {qcount} total questions from the 'quiz_data' folder.")
+        print("Performance data is tracked across sessions.\n")
 
-if error: print_tag('')
-else: print_tag('user has quitted quizprog')
-if is_url: print_tag('closing temporary downloaded file'); file.close()
-if not error: clear()
-abort()
-if args.enable_log: logfile.close()
-sys.exit()
+        print("[1] Take entire quiz (all questions)")
+        print("[2] Review only unanswered questions")
+        print("[3] Review only those got wrong before")
+        print("[4] Reset performance data")
+        print("[5] Exit\n")
+
+        choice = input("Choose an option: ").strip()
+        if choice == "1":
+            play_quiz(questions, perf_data, filter_mode="all")
+        elif choice == "2":
+            play_quiz(questions, perf_data, filter_mode="unanswered")
+        elif choice == "3":
+            play_quiz(questions, perf_data, filter_mode="wrong")
+        elif choice == "4":
+            # Confirm reset:
+            clear()
+            confirm = input("Reset all performance data? (y/n) ").lower()
+            if confirm == "y":
+                perf_data.clear()
+                save_performance_data(perf_data)
+                print("Performance data has been reset.\n")
+                press_any_key()
+        elif choice == "5":
+            print("Goodbye!")
+            sys.exit(0)
+        else:
+            pass
+
+if __name__ == "__main__":
+    try:
+        main()
+    except KeyboardInterrupt:
+        clear()
+        print("\n[!] Exiting due to KeyboardInterrupt...")
+        sys.exit(0)
+    except Exception as e:
+        clear()
+        print("[!] Unhandled exception:")
+        traceback.print_exc()
+        sys.exit(1)

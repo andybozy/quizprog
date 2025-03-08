@@ -1,0 +1,78 @@
+{
+    "file_number": 1,
+    "file_name": "autoevaluacion tema 6 administrativo II .pdf",
+    "questions": [
+        {
+            "question": "¿Cuáles son los requisitos de las actas de inspección y su validez?",
+            "answers": [
+                {
+                    "text": "Deben contener lugar, fecha, hora y la identificación de los inspectores y la entidad inspeccionada.",
+                    "correct": true
+                },
+                {
+                    "text": "No requieren ser firmadas por los intervinientes para ser válidas.",
+                    "correct": false
+                },
+                {
+                    "text": "Deben incluir la relación detallada de hechos observados y pruebas recabadas.",
+                    "correct": true
+                },
+                {
+                    "text": "No es necesario que se identifiquen a las personas responsables de infracciones.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Las actas de inspección deben cumplir con los requisitos establecidos en la Ley 39/2015, incluyendo la identificación de hechos observados, responsables y pruebas recabadas. Su validez es presunta hasta prueba en contrario.",
+            "legal_reference": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.",
+            "source": "autoevaluacion tema 6 administrativo II .pdf"
+        },
+        {
+            "question": "¿Cuáles son los principios fundamentales de la actividad de policía?",
+            "answers": [
+                {
+                    "text": "Principio de legalidad",
+                    "correct": true
+                },
+                {
+                    "text": "Principio de necesidad",
+                    "correct": true
+                },
+                {
+                    "text": "Principio de subjetividad",
+                    "correct": false
+                },
+                {
+                    "text": "Principio de imparcialidad",
+                    "correct": true
+                }
+            ],
+            "explanation": "La actividad policial debe regirse por los principios de legalidad, necesidad, proporcionalidad, imparcialidad y eficacia, conforme a la normativa vigente.",
+            "legal_reference": "Ley 39/2015 del Procedimiento Administrativo Común de las Administraciones Públicas.",
+            "source": "autoevaluacion tema 6 administrativo II .pdf"
+        },
+        {
+            "question": "¿Qué es una declaración y comunicación responsable?",
+            "answers": [
+                {
+                    "text": "Es un documento en el que un interesado declara cumplir los requisitos normativos para ejercer un derecho o actividad.",
+                    "correct": true
+                },
+                {
+                    "text": "Implica la obligación de presentar documentación previa a la Administración antes de realizar la actividad.",
+                    "correct": false
+                },
+                {
+                    "text": "Permite el reconocimiento o ejercicio de un derecho desde su presentación, sujeto a comprobaciones posteriores.",
+                    "correct": true
+                },
+                {
+                    "text": "No tiene respaldo en la legislación administrativa española.",
+                    "correct": false
+                }
+            ],
+            "explanation": "La declaración responsable permite el inicio de actividades sin autorización previa, garantizando que el interesado cumple los requisitos legales, regulado en la Ley 39/2015 y la Ley 40/2015.",
+            "legal_reference": "Ley 39/2015, artículo 69 y Ley 40/2015, de Régimen Jurídico del Sector Público.",
+            "source": "autoevaluacion tema 6 administrativo II .pdf"
+        }
+    ]
+}

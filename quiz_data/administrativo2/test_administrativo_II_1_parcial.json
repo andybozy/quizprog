@@ -1,0 +1,78 @@
+{
+    "file_number": 10,
+    "file_name": "Test Administrativo II 1 parcial AGGIORNATO AL 28 02 25.docx",
+    "questions": [
+        {
+            "question": "¿Quiénes están capacitados para obrar ante las administraciones públicas?",
+            "answers": [
+                {
+                    "text": "Los que tengan capacidad de acuerdo con la normativa civil.",
+                    "correct": true
+                },
+                {
+                    "text": "Los menores de edad cuya actuación esté permitida por el ordenamiento jurídico administrativo.",
+                    "correct": true
+                },
+                {
+                    "text": "Los que no tengan intereses legítimos individuales o colectivos afectados por la resolución.",
+                    "correct": false
+                },
+                {
+                    "text": "Solo las personas jurídicas.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Según la Ley 39/2015, están capacitados para obrar ante las administraciones públicas aquellas personas que tienen capacidad de obrar conforme a la normativa civil y los menores en ciertos casos.",
+            "legal_reference": "Ley 39/2015, del Procedimiento Administrativo Común de las Administraciones Públicas.",
+            "source": "Test Administrativo II 1 parcial AGGIORNATO AL 28 02 25.docx"
+        },
+        {
+            "question": "¿Qué sucede si en una solicitud figuran múltiples interesados?",
+            "answers": [
+                {
+                    "text": "Las actuaciones se realizarán con el representante o el interesado expresamente señalado.",
+                    "correct": true
+                },
+                {
+                    "text": "Las actuaciones solo se realizarán con el primer interesado de la lista.",
+                    "correct": false
+                },
+                {
+                    "text": "No se pueden presentar solicitudes con múltiples interesados.",
+                    "correct": false
+                },
+                {
+                    "text": "Las actuaciones deben hacerse con todos los interesados de manera individual.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Cuando hay múltiples interesados en una solicitud, se debe proceder con el representante designado o con el primero de la lista si no hay representante.",
+            "legal_reference": "Ley 39/2015, del Procedimiento Administrativo Común de las Administraciones Públicas.",
+            "source": "Test Administrativo II 1 parcial AGGIORNATO AL 28 02 25.docx"
+        },
+        {
+            "question": "¿Cómo se tramitan los contratos administrativos en España?",
+            "answers": [
+                {
+                    "text": "Por la Ley de Contratos del Sector Público y sus disposiciones de desarrollo.",
+                    "correct": true
+                },
+                {
+                    "text": "Exclusivamente por el Código Civil.",
+                    "correct": false
+                },
+                {
+                    "text": "Por la Ley de Sociedades Mercantiles.",
+                    "correct": false
+                },
+                {
+                    "text": "A discreción de cada administración pública sin normativa aplicable.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Los contratos administrativos en España se regulan mediante la Ley de Contratos del Sector Público y sus normas de desarrollo.",
+            "legal_reference": "Ley 9/2017, de Contratos del Sector Público.",
+            "source": "Test Administrativo II 1 parcial AGGIORNATO AL 28 02 25.docx"
+        }
+    ]
+}

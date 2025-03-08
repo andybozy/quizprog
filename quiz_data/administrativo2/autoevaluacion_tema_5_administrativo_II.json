@@ -1,0 +1,78 @@
+{
+    "file_number": 3,
+    "file_name": "autoevaluacion tema 5 administrativo II .pdf",
+    "questions": [
+        {
+            "question": "¿Cuáles son los caracteres de la responsabilidad patrimonial de la Administración?",
+            "answers": [
+                {
+                    "text": "Es una responsabilidad subjetiva basada en la culpa.",
+                    "correct": false
+                },
+                {
+                    "text": "Es una responsabilidad objetiva, sin necesidad de culpa.",
+                    "correct": true
+                },
+                {
+                    "text": "Requiere la demostración de negligencia administrativa.",
+                    "correct": false
+                },
+                {
+                    "text": "No es exigible a la Administración Pública.",
+                    "correct": false
+                }
+            ],
+            "explanation": "La responsabilidad patrimonial de la Administración es objetiva, es decir, no requiere demostrar culpa o negligencia, sino solo la relación causal entre la actuación administrativa y el daño causado.",
+            "legal_reference": "Artículo 106.2 de la Constitución Española y Ley 39/2015.",
+            "source": "autoevaluacion tema 5 administrativo II .pdf"
+        },
+        {
+            "question": "¿Cuáles son los requisitos para que proceda la responsabilidad patrimonial de la Administración?",
+            "answers": [
+                {
+                    "text": "La existencia de un daño efectivo, evaluable económicamente.",
+                    "correct": true
+                },
+                {
+                    "text": "Que el daño haya sido causado por un tercero.",
+                    "correct": false
+                },
+                {
+                    "text": "Que el daño derive del funcionamiento normal o anormal de los servicios públicos.",
+                    "correct": true
+                },
+                {
+                    "text": "Que haya transcurrido más de 10 años desde el hecho causante.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Para que proceda la responsabilidad patrimonial de la Administración, el daño debe ser efectivo, evaluable económicamente, derivado de un servicio público y sin causa de fuerza mayor.",
+            "legal_reference": "Ley 39/2015 y Ley 40/2015.",
+            "source": "autoevaluacion tema 5 administrativo II .pdf"
+        },
+        {
+            "question": "¿Cuál es el plazo para ejercer la acción de responsabilidad patrimonial?",
+            "answers": [
+                {
+                    "text": "Un mes desde que se produce el daño.",
+                    "correct": false
+                },
+                {
+                    "text": "Seis meses desde que se tuvo conocimiento del daño.",
+                    "correct": false
+                },
+                {
+                    "text": "Un año desde que se produjo el daño o se determinó su alcance.",
+                    "correct": true
+                },
+                {
+                    "text": "Cinco años desde la producción del daño.",
+                    "correct": false
+                }
+            ],
+            "explanation": "El derecho a reclamar por responsabilidad patrimonial prescribe en un año desde la producción del daño o desde que se determina su alcance.",
+            "legal_reference": "Artículo 67 de la Ley 39/2015.",
+            "source": "autoevaluacion tema 5 administrativo II .pdf"
+        }
+    ]
+}

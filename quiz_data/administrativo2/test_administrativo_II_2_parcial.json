@@ -1,0 +1,78 @@
+{
+    "file_number": 11,
+    "file_name": "Test Administrativo II 2 parcial AGGIORNATO 18 2 25.docx",
+    "questions": [
+        {
+            "question": "¿Qué presunción tienen las actas de inspección?",
+            "answers": [
+                {
+                    "text": "Presunción de veracidad y certeza de los hechos constatados por el inspector.",
+                    "correct": true
+                },
+                {
+                    "text": "Presunción iuris et de iure, sin posibilidad de prueba en contrario.",
+                    "correct": false
+                },
+                {
+                    "text": "No tienen ninguna presunción legal.",
+                    "correct": false
+                },
+                {
+                    "text": "Deben ser validadas por un juez para ser efectivas.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Las actas de inspección gozan de presunción de veracidad sobre los hechos constatados directamente por el inspector.",
+            "legal_reference": "Ley 39/2015, del Procedimiento Administrativo Común de las Administraciones Públicas.",
+            "source": "Test Administrativo II 2 parcial AGGIORNATO 18 2 25.docx"
+        },
+        {
+            "question": "¿Cuál es el principio que rige la potestad sancionadora de la Administración?",
+            "answers": [
+                {
+                    "text": "Principio de responsabilidad, solo pueden sancionarse a personas responsables de una infracción.",
+                    "correct": true
+                },
+                {
+                    "text": "Principio de arbitrariedad, la Administración puede sancionar libremente.",
+                    "correct": false
+                },
+                {
+                    "text": "Principio de presunción de culpabilidad.",
+                    "correct": false
+                },
+                {
+                    "text": "No existen principios que regulen la potestad sancionadora.",
+                    "correct": false
+                }
+            ],
+            "explanation": "La potestad sancionadora de la Administración está limitada por el principio de responsabilidad, lo que significa que solo pueden sancionarse personas responsables de infracciones.",
+            "legal_reference": "Ley 39/2015, del Procedimiento Administrativo Común de las Administraciones Públicas.",
+            "source": "Test Administrativo II 2 parcial AGGIORNATO 18 2 25.docx"
+        },
+        {
+            "question": "¿Qué sucede cuando un acto administrativo es anulado en vía contencioso-administrativa?",
+            "answers": [
+                {
+                    "text": "Puede generar el derecho a indemnización por responsabilidad patrimonial.",
+                    "correct": true
+                },
+                {
+                    "text": "No tiene ninguna consecuencia para la Administración.",
+                    "correct": false
+                },
+                {
+                    "text": "Debe ser reformado automáticamente por la Administración.",
+                    "correct": false
+                },
+                {
+                    "text": "Debe ser sometido a referéndum.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Cuando un acto administrativo es anulado en vía contencioso-administrativa, puede surgir el derecho a indemnización por responsabilidad patrimonial.",
+            "legal_reference": "Ley 39/2015 y Ley 40/2015, de Régimen Jurídico del Sector Público.",
+            "source": "Test Administrativo II 2 parcial AGGIORNATO 18 2 25.docx"
+        }
+    ]
+}

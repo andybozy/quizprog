@@ -1,0 +1,78 @@
+{
+    "file_number": 9,
+    "file_name": "autoevaluacion tema 8 administrativo II.pdf",
+    "questions": [
+        {
+            "question": "¿Qué es la publicatio en los servicios públicos?",
+            "answers": [
+                {
+                    "text": "Es la reserva expresa que hace el ordenamiento jurídico a la Administración sobre una actividad o bien.",
+                    "correct": true
+                },
+                {
+                    "text": "Es un acto administrativo de concesión de licencias.",
+                    "correct": false
+                },
+                {
+                    "text": "Es la privatización de un servicio público.",
+                    "correct": false
+                },
+                {
+                    "text": "Es la eliminación de un servicio público del control estatal.",
+                    "correct": false
+                }
+            ],
+            "explanation": "La publicatio es el acto mediante el cual el ordenamiento jurídico asigna a la Administración la titularidad de una actividad o bien para su gestión como servicio público.",
+            "legal_reference": "Ley 39/2015, del Procedimiento Administrativo Común de las Administraciones Públicas.",
+            "source": "autoevaluacion tema 8 administrativo II.pdf"
+        },
+        {
+            "question": "¿Cuáles son las potestades de la Administración titular de un servicio público?",
+            "answers": [
+                {
+                    "text": "Potestad de planificación y organización.",
+                    "correct": true
+                },
+                {
+                    "text": "Potestad expropiatoria y sancionadora.",
+                    "correct": true
+                },
+                {
+                    "text": "Potestad normativa y de control.",
+                    "correct": true
+                },
+                {
+                    "text": "Ninguna de las anteriores.",
+                    "correct": false
+                }
+            ],
+            "explanation": "La Administración tiene potestades sobre los servicios públicos como la planificación, organización, control, sanción y normativa para garantizar su correcto funcionamiento.",
+            "legal_reference": "Ley 39/2015 y Ley 40/2015, de Régimen Jurídico del Sector Público.",
+            "source": "autoevaluacion tema 8 administrativo II.pdf"
+        },
+        {
+            "question": "¿Qué se considera un servicio de interés general?",
+            "answers": [
+                {
+                    "text": "Servicios esenciales para la sociedad garantizados por el Estado.",
+                    "correct": true
+                },
+                {
+                    "text": "Cualquier actividad económica realizada por la Administración.",
+                    "correct": false
+                },
+                {
+                    "text": "Servicios que dependen exclusivamente de la financiación privada.",
+                    "correct": false
+                },
+                {
+                    "text": "Actividades que no tienen relación con el bienestar social.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Los servicios de interés general incluyen actividades esenciales como educación, sanidad y transporte público, que deben ser garantizadas por el Estado.",
+            "legal_reference": "Ley 40/2015, de Régimen Jurídico del Sector Público.",
+            "source": "autoevaluacion tema 8 administrativo II.pdf"
+        }
+    ]
+}

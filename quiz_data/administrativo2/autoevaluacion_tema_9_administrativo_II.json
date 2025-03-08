@@ -1,0 +1,78 @@
+{
+    "file_number": 6,
+    "file_name": "autoevaluacion tema 9 administrativo II.pdf",
+    "questions": [
+        {
+            "question": "¿Quiénes pueden ser beneficiarios de una subvención según la legislación española?",
+            "answers": [
+                {
+                    "text": "Solo las personas jurídicas.",
+                    "correct": false
+                },
+                {
+                    "text": "Personas físicas, jurídicas y agrupaciones sin personalidad jurídica.",
+                    "correct": true
+                },
+                {
+                    "text": "Únicamente las entidades públicas.",
+                    "correct": false
+                },
+                {
+                    "text": "Solo quienes estén exentos de obligaciones tributarias.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Según la Ley 38/2003, pueden ser beneficiarios de subvenciones tanto personas físicas como jurídicas, e incluso agrupaciones sin personalidad jurídica en ciertos casos.",
+            "legal_reference": "Ley 38/2003, de 17 de noviembre, General de Subvenciones.",
+            "source": "autoevaluacion tema 9 administrativo II.pdf"
+        },
+        {
+            "question": "¿Qué debe incluir obligatoriamente la convocatoria de una subvención?",
+            "answers": [
+                {
+                    "text": "Objeto y finalidad de la subvención.",
+                    "correct": true
+                },
+                {
+                    "text": "El nombre de todos los solicitantes.",
+                    "correct": false
+                },
+                {
+                    "text": "Requisitos de los beneficiarios y criterios de valoración.",
+                    "correct": true
+                },
+                {
+                    "text": "Solo la cuantía total disponible sin detalles del reparto.",
+                    "correct": false
+                }
+            ],
+            "explanation": "La convocatoria de una subvención debe incluir el objeto, finalidad, requisitos, criterios de selección y obligaciones de los beneficiarios, conforme a la Ley 38/2003.",
+            "legal_reference": "Ley 38/2003, General de Subvenciones.",
+            "source": "autoevaluacion tema 9 administrativo II.pdf"
+        },
+        {
+            "question": "¿En qué casos procede el reintegro de una subvención?",
+            "answers": [
+                {
+                    "text": "Si el beneficiario incumple la finalidad para la que fue otorgada.",
+                    "correct": true
+                },
+                {
+                    "text": "Si se obtiene la subvención sin cumplir los requisitos exigidos.",
+                    "correct": true
+                },
+                {
+                    "text": "Si la subvención se utiliza para actividades no relacionadas con la convocatoria.",
+                    "correct": true
+                },
+                {
+                    "text": "Nunca se debe devolver una subvención otorgada.",
+                    "correct": false
+                }
+            ],
+            "explanation": "El reintegro de una subvención procede en casos de incumplimiento de objetivos, obtención indebida o uso indebido de los fondos, según el artículo 37 de la Ley 38/2003.",
+            "legal_reference": "Artículo 37 de la Ley 38/2003, General de Subvenciones.",
+            "source": "autoevaluacion tema 9 administrativo II.pdf"
+        }
+    ]
+}

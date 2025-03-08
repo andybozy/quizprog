@@ -1,0 +1,78 @@
+{
+    "file_number": 8,
+    "file_name": "autoevaluacion tema 3 Y 4 administrativo II .pdf",
+    "questions": [
+        {
+            "question": "¿Qué norma regula los contratos administrativos en España?",
+            "answers": [
+                {
+                    "text": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público.",
+                    "correct": true
+                },
+                {
+                    "text": "Ley 39/2015, del Procedimiento Administrativo Común.",
+                    "correct": false
+                },
+                {
+                    "text": "Código Penal.",
+                    "correct": false
+                },
+                {
+                    "text": "Ley 40/2015, de Régimen Jurídico del Sector Público.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Los contratos administrativos en España están regulados por la Ley 9/2017, que establece el marco legal para la contratación del sector público.",
+            "legal_reference": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público.",
+            "source": "autoevaluacion tema 3 Y 4 administrativo II .pdf"
+        },
+        {
+            "question": "¿Cuáles son las prerrogativas de la Administración en materia de contratos?",
+            "answers": [
+                {
+                    "text": "Facultad de resolver el contrato en casos de incumplimiento.",
+                    "correct": true
+                },
+                {
+                    "text": "Facultad de modificar unilateralmente el contrato en determinados casos.",
+                    "correct": true
+                },
+                {
+                    "text": "Derecho a imponer sanciones al contratista.",
+                    "correct": true
+                },
+                {
+                    "text": "Ninguna de las anteriores.",
+                    "correct": false
+                }
+            ],
+            "explanation": "La Administración tiene prerrogativas en la contratación pública, como la resolución, modificación y sanción en caso de incumplimiento del contrato.",
+            "legal_reference": "Ley 9/2017, de Contratos del Sector Público.",
+            "source": "autoevaluacion tema 3 Y 4 administrativo II .pdf"
+        },
+        {
+            "question": "¿Qué requisitos deben cumplir las empresas extranjeras para contratar con la Administración en España?",
+            "answers": [
+                {
+                    "text": "Estar legalmente constituidas en su país de origen.",
+                    "correct": true
+                },
+                {
+                    "text": "Tener domicilio fiscal en España obligatoriamente.",
+                    "correct": false
+                },
+                {
+                    "text": "No estar incursas en prohibiciones para contratar.",
+                    "correct": true
+                },
+                {
+                    "text": "No necesitan acreditar solvencia técnica y financiera.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Las empresas extranjeras pueden contratar en España si están legalmente constituidas, cumplen con los requisitos de solvencia y no tienen prohibiciones.",
+            "legal_reference": "Ley 9/2017, de Contratos del Sector Público.",
+            "source": "autoevaluacion tema 3 Y 4 administrativo II .pdf"
+        }
+    ]
+}
