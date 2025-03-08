@@ -6,17 +6,15 @@ import traceback
 
 QUIZ_DATA_FOLDER = "quiz_data"
 PERFORMANCE_FILE = "quiz_performance.json"
-VERSION = "2.0.3"
+VERSION = "2.0.4"
 
 def clear():
-    """Limpia la pantalla."""
     try:
         os.system("cls" if os.name == "nt" else "clear")
     except:
         pass
 
 def press_any_key():
-    """Pausa hasta que el usuario presione Enter."""
     input("\nPresiona Enter para continuar...")
 
 def load_json_file(filepath):
@@ -28,7 +26,6 @@ def load_json_file(filepath):
         return None
 
 def descubrir_quiz_files(folder):
-    """Obtiene la lista de archivos .json en la carpeta (recursivo)."""
     quiz_files = []
     for root, dirs, files in os.walk(folder):
         for f in files:
@@ -37,10 +34,6 @@ def descubrir_quiz_files(folder):
     return quiz_files
 
 def load_all_quizzes():
-    """
-    Carga todos los .json y los agrupa por “curso” (la primera subcarpeta).
-    Además, genera una lista global de preguntas unificadas.
-    """
     all_files = descubrir_quiz_files(QUIZ_DATA_FOLDER)
     if not all_files:
         print(f"No se encontraron archivos JSON en '{QUIZ_DATA_FOLDER}'!")
@@ -52,12 +45,12 @@ def load_all_quizzes():
     for filepath in all_files:
         data = load_json_file(filepath)
         if not data or "questions" not in data:
-            continue  # ignora archivos sin 'questions'
+            continue
 
         questions_list = data["questions"]
         file_question_count = len(questions_list)
 
-        # Curso = primer subcarpeta en la ruta relativa
+        # Deducir "curso" = subcarpeta
         rel_path = os.path.relpath(filepath, QUIZ_DATA_FOLDER)
         parts = rel_path.split(os.sep)
         curso = parts[0]
@@ -73,18 +66,16 @@ def load_all_quizzes():
             "question_count": file_question_count
         })
 
-        # Unir preguntas a la lista global
+        # Marcar origen de cada pregunta
         for q in questions_list:
             if "question" in q and "answers" in q:
-                q["_quiz_source"] = filepath  # opcional
+                # Guardamos la ruta en _quiz_source
+                q["_quiz_source"] = filepath
                 combined_questions.append(q)
 
     return combined_questions, cursos_dict
 
 def print_cursos_summary(cursos_dict):
-    """
-    Imprime cuántos archivos y preguntas tiene cada curso.
-    """
     print("=== RESUMEN DE CURSOS ===\n")
     total_archivos = 0
     total_preguntas = 0
@@ -104,7 +95,6 @@ def print_cursos_summary(cursos_dict):
     press_any_key()
 
 def load_performance_data():
-    """Carga el archivo local con flags de respuestas (correcto/erróneo/sin contestar)."""
     if not os.path.exists(PERFORMANCE_FILE):
         return {}
     try:
@@ -114,21 +104,33 @@ def load_performance_data():
         return {}
 
 def save_performance_data(perf_data):
-    """Guarda los datos de desempeño en disco."""
     try:
         with open(PERFORMANCE_FILE, "w", encoding="utf-8") as f:
             json.dump(perf_data, f, indent=2, ensure_ascii=False)
     except Exception as ex:
         print(f"[!] Error guardando desempeño: {ex}")
 
+def print_scoreboard(questions, perf_data):
+    total = len(questions)
+    correct = 0
+    wrong = 0
+    unanswered = 0
+    for i in range(total):
+        pd = perf_data.get(str(i))
+        if not pd:
+            unanswered += 1
+        else:
+            if pd["unanswered"]:
+                unanswered += 1
+            elif pd["wrong"]:
+                wrong += 1
+            else:
+                correct += 1
+
+    print(f"\n** Estadísticas: Correctas: {correct}, Erróneas: {wrong}, "
+          f"Sin responder: {unanswered}, Total: {total} **\n")
+
 def preguntar(qid, question_data, perf_data):
-    """
-    Muestra una pregunta. Retorna:
-      True  -> correcto
-      False -> erróneo
-      None  -> usuario salió
-    Actualiza perf_data.
-    """
     if str(qid) not in perf_data:
         perf_data[str(qid)] = {"wrong": False, "unanswered": True}
 
@@ -139,11 +141,17 @@ def preguntar(qid, question_data, perf_data):
     explanation = question_data.get("explanation", "")
     wrongmsg = question_data.get("wrongmsg", "")
 
+    # Mostrar nombre de archivo de origen (si está guardado en _quiz_source)
+    source_path = question_data.get("_quiz_source", "")
+    archivo_origen = os.path.basename(source_path) if source_path else ""
+    if archivo_origen:
+        print(f"(Esta pregunta proviene de: {archivo_origen})\n")
+
     correct_indices = [i for i, ans in enumerate(answers) if ans.get("correct")]
     if not correct_indices:
         print(f"[!] Pregunta {qid} sin respuestas correctas, se omite...\n")
         perf_data[str(qid)]["unanswered"] = False
-        return True  # la tratamos como “no-problema”
+        return True
 
     multi_correct = (len(correct_indices) > 1)
 
@@ -153,8 +161,7 @@ def preguntar(qid, question_data, perf_data):
     print("\n[0] Salir de la sesión\n")
 
     if multi_correct:
-        print("Puede haber varias respuestas correctas.\n"
-              "Ingresa los números separados por comas (ej. '1,3').\n")
+        print("Puede haber varias respuestas correctas (ej. '1,3').")
 
     opcion = input("Tu respuesta: ").strip()
     if opcion == "0":
@@ -167,7 +174,6 @@ def preguntar(qid, question_data, perf_data):
         seleccion = [-1]
 
     if not multi_correct:
-        # 1 sola respuesta
         if len(seleccion) == 1 and seleccion[0] in correct_indices:
             perf_data[str(qid)]["unanswered"] = False
             perf_data[str(qid)]["wrong"] = False
@@ -187,7 +193,6 @@ def preguntar(qid, question_data, perf_data):
             press_any_key()
             return False
     else:
-        # Varias respuestas correctas
         correct_set = set(correct_indices)
         user_set = set(seleccion)
         if user_set == correct_set:
@@ -209,35 +214,7 @@ def preguntar(qid, question_data, perf_data):
             press_any_key()
             return False
 
-def print_scoreboard(questions, perf_data):
-    """
-    Muestra la cuenta de correctas, erróneas, sin responder, y total.
-    """
-    total = len(questions)
-    correct = 0
-    wrong = 0
-    unanswered = 0
-
-    for i in range(total):
-        pd = perf_data.get(str(i))
-        if not pd:
-            unanswered += 1
-        else:
-            if pd["unanswered"]:
-                unanswered += 1
-            elif pd["wrong"]:
-                wrong += 1
-            else:
-                correct += 1
-
-    print(f"\n** Estadísticas: Correctas: {correct}, Erróneas: {wrong}, "
-          f"Sin responder: {unanswered}, Total: {total} **\n")
-
-
 def play_quiz(questions, perf_data, filter_mode="all"):
-    """
-    filter_mode: "all", "unanswered" o "wrong".
-    """
     if filter_mode == "wrong":
         subset = [(i, q) for i, q in enumerate(questions)
                   if str(i) in perf_data and perf_data[str(i)]["wrong"]]
@@ -252,18 +229,16 @@ def play_quiz(questions, perf_data, filter_mode="all"):
         press_any_key()
         return
 
-    # random.shuffle(subset)  # Descomenta si deseas barajar
+    # random.shuffle(subset)  # Descomenta para barajar el orden
 
     idx = 0
     while idx < len(subset):
         qid, qdata = subset[idx]
         resultado = preguntar(qid, qdata, perf_data)
         save_performance_data(perf_data)
-        # Mostrar estadísticas después de cada pregunta
         print_scoreboard(questions, perf_data)
 
         if resultado is None:
-            # usuario salió
             break
         idx += 1
 
@@ -294,7 +269,7 @@ def comando_salir():
 
 def main():
     clear()
-    print(f"QuizProg v{VERSION} - Seguimiento continuo de estadísticas\n")
+    print(f"QuizProg v{VERSION} - Mostrar archivo de origen en cada pregunta\n")
 
     questions, cursos_dict = load_all_quizzes()
     print_cursos_summary(cursos_dict)
