@@ -3,48 +3,142 @@ import json
 import random
 import sys
 import traceback
-from datetime import datetime
 
-# ---------------------------------------------------------------------------
-# CONFIG / CONSTANTS
-# ---------------------------------------------------------------------------
 QUIZ_DATA_FOLDER = "quiz_data"
 PERFORMANCE_FILE = "quiz_performance.json"
-VERSION = "2.0.0"
+VERSION = "2.0.2"
 
 # ---------------------------------------------------------------------------
-# UTILITY FUNCTIONS
+# LIMPIEZA DE PANTALLA Y ENTRADA
 # ---------------------------------------------------------------------------
-
 def clear():
-    """Cross-platform clear screen."""
+    """Limpia la pantalla, independientemente del sistema operativo."""
     try:
         os.system("cls" if os.name == "nt" else "clear")
     except:
         pass
 
 def press_any_key():
-    """Wait for user input to continue."""
-    input("\nPress Enter to continue...")
+    """Pausa: espera que el usuario presione Enter."""
+    input("\nPresiona Enter para continuar...")
 
+# ---------------------------------------------------------------------------
+# FUNCIONES PARA CARGAR DATOS
+# ---------------------------------------------------------------------------
 def load_json_file(filepath):
-    """Safely load JSON data from a file, returning None on failure."""
+    """Carga y devuelve el contenido de un archivo JSON, o None si falla."""
     try:
         with open(filepath, encoding="utf-8") as f:
             return json.load(f)
     except Exception as ex:
-        print(f"[!] Failed to load '{filepath}': {ex}")
+        print(f"[!] Error al cargar '{filepath}': {ex}")
         return None
 
+def descubrir_quiz_files(folder):
+    """
+    Recorre recursivamente la carpeta `folder` (quiz_data) para encontrar
+    todos los archivos .json. Devuelve una lista de rutas completas (paths).
+    """
+    quiz_files = []
+    for root, dirs, files in os.walk(folder):
+        for f in files:
+            if f.lower().endswith(".json"):
+                quiz_files.append(os.path.join(root, f))
+    return quiz_files
+
 # ---------------------------------------------------------------------------
-# PERFORMANCE TRACKING
+# AGRUPAR POR CURSOS
+# ---------------------------------------------------------------------------
+def load_all_quizzes():
+    """
+    Carga y une todos los archivos JSON encontrados en QUIZ_DATA_FOLDER.
+    A la vez, agrupa cada archivo en un diccionario por "curso" (subcarpeta).
+
+    Devuelve:
+      - combined_questions: lista total de todas las preguntas (dicts)
+      - cursos_dict: p.ej.
+        {
+          "administrativo2": [
+            {"filename": "...", "filepath": "...", "question_count": N}, ...
+          ],
+          "otrocurso": [...],
+          ...
+        }
+    """
+    all_files = descubrir_quiz_files(QUIZ_DATA_FOLDER)
+    if not all_files:
+        print(f"No se encontraron archivos JSON en '{QUIZ_DATA_FOLDER}'!")
+        sys.exit(1)
+
+    cursos_dict = {}
+    combined_questions = []
+
+    for filepath in all_files:
+        data = load_json_file(filepath)
+        if not data or "questions" not in data:
+            # Omite archivos que no tengan estructura "questions"
+            continue
+
+        questions_list = data["questions"]
+        file_question_count = len(questions_list)
+
+        # Determinar el "curso" a partir de la subcarpeta
+        rel_path = os.path.relpath(filepath, QUIZ_DATA_FOLDER)
+        # Por ejemplo: "administrativo2\test.json" → partes = ["administrativo2", "test.json"]
+        parts = rel_path.split(os.sep)
+        curso = parts[0]  # El primer segmento se toma como el nombre del curso
+
+        if curso not in cursos_dict:
+            cursos_dict[curso] = []
+
+        filename_only = os.path.basename(filepath)
+
+        cursos_dict[curso].append({
+            "filename": filename_only,
+            "filepath": filepath,
+            "question_count": file_question_count
+        })
+
+        # Combinar estas preguntas a la lista global
+        for q in questions_list:
+            # Verificar que tenga la estructura "question" y "answers"
+            if "question" in q and "answers" in q:
+                # Guardar referencia opcional (origen)
+                q["_quiz_source"] = filepath
+                combined_questions.append(q)
+
+    return combined_questions, cursos_dict
+
+def print_cursos_summary(cursos_dict):
+    """
+    Muestra un resumen en pantalla indicando cuántos archivos y preguntas
+    hay por cada 'curso'.
+    """
+    print("=== RESUMEN DE CURSOS ===\n")
+    total_archivos = 0
+    total_preguntas = 0
+
+    for curso, files_info in cursos_dict.items():
+        count_archivos = len(files_info)
+        count_preguntas = sum(fi["question_count"] for fi in files_info)
+        total_archivos += count_archivos
+        total_preguntas += count_preguntas
+
+        print(f"- Curso: {curso} → {count_archivos} archivos, {count_preguntas} preguntas totales")
+
+        # Si deseas mostrar cada archivo dentro del curso:
+        for info in files_info:
+            print(f"   • {info['filename']} ({info['question_count']} preguntas)")
+        print()  # línea en blanco
+
+    print(f"** Total: {total_archivos} archivos, {total_preguntas} preguntas en total **\n")
+    press_any_key()
+
+# ---------------------------------------------------------------------------
+# GUARDAR / CARGAR DATOS DE DESEMPEÑO
 # ---------------------------------------------------------------------------
 def load_performance_data():
-    """
-    Loads or initializes performance data from PERFORMANCE_FILE.
-    The data structure is a dict with question_id as key and a dict of flags:
-      { "wrong": bool, "unanswered": bool }.
-    """
+    """Carga (o inicializa) el archivo PERFORMANCE_FILE para marcar errores / sin responder."""
     if not os.path.exists(PERFORMANCE_FILE):
         return {}
     try:
@@ -54,289 +148,230 @@ def load_performance_data():
         return {}
 
 def save_performance_data(perf_data):
-    """Persists the performance data to PERFORMANCE_FILE as JSON."""
+    """Guarda los datos de desempeño en PERFORMANCE_FILE."""
     try:
         with open(PERFORMANCE_FILE, "w", encoding="utf-8") as f:
             json.dump(perf_data, f, indent=2, ensure_ascii=False)
     except Exception as ex:
-        print(f"[!] Error saving performance data: {ex}")
+        print(f"[!] Error guardando desempeño: {ex}")
 
 # ---------------------------------------------------------------------------
-# DATA LOADING: DISCOVER ALL JSON QUIZ FILES
+# LÓGICA PARA PREGUNTAR
 # ---------------------------------------------------------------------------
-def discover_quiz_files(folder):
+def preguntar(qid, question_data, perf_data):
     """
-    Recursively walk `folder` (quiz_data/) to find all .json files.
-    Returns a list of absolute paths.
+    Muestra una pregunta y retorna:
+      True  -> respondida correctamente
+      False -> respondida incorrectamente
+      None  -> el usuario decide salir
+    Actualiza perf_data con flags ("wrong", "unanswered").
     """
-    quiz_files = []
-    for root, dirs, files in os.walk(folder):
-        for f in files:
-            if f.lower().endswith(".json"):
-                quiz_files.append(os.path.join(root, f))
-    return quiz_files
-
-def load_all_quizzes():
-    """
-    Loads and merges all quizzes from quiz_data into a single list of questions.
-    The structure each question expects:
-       {
-         "question": str,
-         "answers": [ { "text": str, "correct": bool }, ... ],
-         "explanation": str (optional),
-         "wrongmsg": str (optional, or it could be an object/dict),
-         ...
-         # you may add: "source", "legal_reference", etc.
-       }
-    Returns:
-      quiz_questions: list of dicts (the combined questions)
-      quiz_count: total question count
-    """
-    all_files = discover_quiz_files(QUIZ_DATA_FOLDER)
-    if not all_files:
-        print(f"No quiz JSON files found in '{QUIZ_DATA_FOLDER}'!")
-        sys.exit(1)
-
-    all_questions = []
-    for filepath in all_files:
-        data = load_json_file(filepath)
-        if not data or "questions" not in data:
-            continue
-
-        # Some user-supplied JSONs have top-level "questions"
-        # matching the new structure: question, answers = [...], etc.
-        # We'll merge them into a single structure below:
-        questions_list = data["questions"]
-        for q in questions_list:
-            # Validate minimal fields:
-            if "question" not in q or "answers" not in q:
-                continue  # skip if not well-formed
-            # Store reference to which file it came from (optional):
-            q["_quiz_source"] = filepath
-            all_questions.append(q)
-
-    return all_questions, len(all_questions)
-
-# ---------------------------------------------------------------------------
-# QUIZ LOGIC
-# ---------------------------------------------------------------------------
-def ask_question(qid, question_data, perf_data):
-    """
-    Presents one question to the user. Returns True if answered correctly,
-    False if answered incorrectly, and None if not answered (e.g. user quit).
-    Also updates perf_data with 'wrong' or 'unanswered' as needed.
-    """
-
-    # Mark as unanswered by default:
+    # Marcamos la pregunta como sin responder por defecto:
     if str(qid) not in perf_data:
         perf_data[str(qid)] = {"wrong": False, "unanswered": True}
-    else:
-        # If previously flagged 'wrong' or 'unanswered',
-        # we keep it as is until we see if the user gets it right now.
-        pass
 
     clear()
 
     question_text = question_data["question"]
-    answers = question_data["answers"]  # list of { text, correct }
+    answers = question_data["answers"]  # lista de { "text": str, "correct": bool }
     explanation = question_data.get("explanation", "")
-    # wrongmsg can be a string or something else, adapt as needed:
     wrongmsg = question_data.get("wrongmsg", "")
 
-    # Collect indices of correct answers:
-    correct_indices = [idx for idx, ans in enumerate(answers) if ans.get("correct")]
-
-    # If none are correct or question is malformed, we skip.
+    # Indicar los índices de las respuestas correctas:
+    correct_indices = [i for i, ans in enumerate(answers) if ans.get("correct")]
     if not correct_indices:
-        print(f"[!] This question has no correct answers? Skipping...\n")
+        # Si no hay respuestas correctas, omitir
+        print(f"[!] La pregunta {qid} no tiene respuestas correctas. Se omite...\n")
         perf_data[str(qid)]["unanswered"] = False
-        return True  # treat as correct skip
+        return True
 
-    # Single or multi-correct?
     multi_correct = (len(correct_indices) > 1)
 
-    print(f"Q{qid}: {question_text}\n")
+    print(f"Pregunta {qid}:\n{question_text}\n")
     for i, ans in enumerate(answers):
         print(f"[{i+1}] {ans['text']}")
-    print("\n[0] Quit this quiz session\n")
+    print("\n[0] Salir de la sesión de quiz\n")
 
     if multi_correct:
-        print("NOTE: This question may have multiple correct answers.\n"
-              "Enter each correct number separated by commas (e.g. '1,3')")
+        print("Atención: Puede haber varias respuestas correctas.\n"
+              "Escribe todos los números correctos separados por coma (ej. '1,3').\n")
 
-    user_input = input("Your answer: ").strip()
-    if user_input == "0":
-        # Mark question as unanswered if the user quits right away:
+    opcion = input("Tu respuesta: ").strip()
+    if opcion == "0":
         perf_data[str(qid)]["unanswered"] = True
-        return None  # user quit
+        return None  # usuario sale
 
-    # Attempt to parse user input into integer(s)
     try:
-        # e.g. '1,2' => [1,2]
-        selected_indices = [int(x) - 1 for x in user_input.split(",")]
+        seleccion = [int(x) - 1 for x in opcion.split(",")]
     except ValueError:
-        # Invalid input => consider it a wrong attempt
-        selected_indices = [-1]
+        seleccion = [-1]  # forzar respuesta incorrecta
 
-    # Check correctness:
-    # If single correct, we only allow one index:
     if not multi_correct:
-        if len(selected_indices) == 1 and selected_indices[0] in correct_indices:
-            # correct
+        # Caso de una sola respuesta correcta
+        if len(seleccion) == 1 and seleccion[0] in correct_indices:
             perf_data[str(qid)]["unanswered"] = False
             perf_data[str(qid)]["wrong"] = False
-            # Show explanation if present:
             if explanation:
                 clear()
-                print("Correct!\n")
-                print(f"Explanation:\n{explanation}\n")
+                print("¡CORRECTO!\n")
+                print(f"EXPLICACIÓN:\n{explanation}\n")
                 press_any_key()
             return True
         else:
-            # wrong
             perf_data[str(qid)]["unanswered"] = False
             perf_data[str(qid)]["wrong"] = True
             clear()
-            print("Incorrect.\n")
-            # Show question-level wrongmsg if present:
+            print("¡INCORRECTO!\n")
             if isinstance(wrongmsg, str) and wrongmsg:
                 print(f"{wrongmsg}\n")
             press_any_key()
             return False
     else:
-        # multi-correct
+        # Caso de respuestas múltiples
         correct_set = set(correct_indices)
-        user_set = set(selected_indices)
-
-        if user_set == correct_set:  # must match exactly
+        user_set = set(seleccion)
+        if user_set == correct_set:
             perf_data[str(qid)]["unanswered"] = False
             perf_data[str(qid)]["wrong"] = False
             if explanation:
                 clear()
-                print("Correct!\n")
-                print(f"Explanation:\n{explanation}\n")
+                print("¡CORRECTO!\n")
+                print(f"EXPLICACIÓN:\n{explanation}\n")
                 press_any_key()
             return True
         else:
             perf_data[str(qid)]["unanswered"] = False
             perf_data[str(qid)]["wrong"] = True
             clear()
-            print("Incorrect.\n")
+            print("¡INCORRECTO!\n")
             if isinstance(wrongmsg, str) and wrongmsg:
                 print(f"{wrongmsg}\n")
             press_any_key()
             return False
 
 # ---------------------------------------------------------------------------
-# MAIN QUIZ PLAY
+# FUNCIONES / COMANDOS DEL MENÚ PRINCIPAL
+# ---------------------------------------------------------------------------
+def comando_quiz_todos(questions, perf_data):
+    """Jugar con todas las preguntas."""
+    play_quiz(questions, perf_data, filter_mode="all")
+
+def comando_quiz_sin_responder(questions, perf_data):
+    """Jugar sólo con preguntas no respondidas aún."""
+    play_quiz(questions, perf_data, filter_mode="unanswered")
+
+def comando_quiz_erroneos(questions, perf_data):
+    """Jugar sólo con las preguntas contestadas mal."""
+    play_quiz(questions, perf_data, filter_mode="wrong")
+
+def comando_reseteo(perf_data):
+    """Reiniciar todo el progreso de desempeño."""
+    confirm = input("¿Seguro que deseas resetear el progreso? (s/n) ").lower()
+    if confirm == "s":
+        perf_data.clear()
+        save_performance_data(perf_data)
+        print("Progreso reseteado con éxito.\n")
+        press_any_key()
+
+def comando_salir():
+    """Salir del programa."""
+    print("¡Hasta la próxima!")
+    sys.exit(0)
+
+# ---------------------------------------------------------------------------
+# LÓGICA GENERAL DE LA SESIÓN
 # ---------------------------------------------------------------------------
 def play_quiz(questions, perf_data, filter_mode="all"):
     """
-    filter_mode can be:
-      - "all": ask all questions
-      - "wrong": only ask those flagged as 'wrong'
-      - "unanswered": only ask those flagged as 'unanswered'
-    Returns once user completes or quits.
+    filter_mode:
+      - "all": todas las preguntas
+      - "unanswered": sólo no respondidas
+      - "wrong": sólo las respondidas mal
     """
-
-    # Filter questions:
     if filter_mode == "wrong":
-        playable = []
-        for i, q in enumerate(questions):
-            # If question has an entry in perf_data with wrong=True, include it
-            if str(i) in perf_data and perf_data[str(i)]["wrong"]:
-                playable.append((i, q))
+        subset = [(i, q) for i, q in enumerate(questions)
+                  if str(i) in perf_data and perf_data[str(i)]["wrong"]]
     elif filter_mode == "unanswered":
-        playable = []
-        for i, q in enumerate(questions):
-            # If question not in perf_data or unanswered=True, include it
-            if str(i) not in perf_data or perf_data[str(i)]["unanswered"]:
-                playable.append((i, q))
+        subset = [(i, q) for i, q in enumerate(questions)
+                  if str(i) not in perf_data or perf_data[str(i)]["unanswered"]]
     else:
-        # "all" or fallback
-        playable = [(i, q) for i, q in enumerate(questions)]
+        # "all"
+        subset = [(i, q) for i, q in enumerate(questions)]
 
-    if not playable:
-        print("\n[No questions match the chosen filter. Returning to menu...]\n")
+    if not subset:
+        print("\n[No hay preguntas para este filtro. Regresando al menú...]\n")
         press_any_key()
         return
 
-    # Shuffle if desired:
-    # random.shuffle(playable)  # If you want random order, uncomment
+    # Si deseas barajar el orden de las preguntas, descomenta:
+    # random.shuffle(subset)
 
     idx = 0
-    while idx < len(playable):
-        qid, qdata = playable[idx]
-        result = ask_question(qid, qdata, perf_data)
-        save_performance_data(perf_data)  # save after each question
-        if result is None:
-            # user decided to quit the quiz
+    while idx < len(subset):
+        qid, qdata = subset[idx]
+        resultado = preguntar(qid, qdata, perf_data)
+        save_performance_data(perf_data)  # guarda tras cada pregunta
+        if resultado is None:
+            # usuario salió
             break
-        # proceed to next
         idx += 1
 
     clear()
-    print("Quiz session ended.\n")
+    print("La sesión de preguntas ha terminado.\n")
     press_any_key()
 
 # ---------------------------------------------------------------------------
-# MAIN MENU
+# FUNCIÓN PRINCIPAL
 # ---------------------------------------------------------------------------
 def main():
     clear()
-    print(f"QuizProg v{VERSION} - Merged Auto Quiz Loader\n")
+    print(f"QuizProg v{VERSION} - Carga automática de quizzes\n")
 
-    # 1) Load all quizzes:
-    print("[1] Loading quizzes from 'quiz_data' folder...")
-    questions, qcount = load_all_quizzes()
+    # 1) Cargar todos los quizzes y agrupar por 'curso'
+    questions, cursos_dict = load_all_quizzes()
 
-    # 2) Load or init performance data:
+    # 2) Mostrar resumen de cursos (carpetas) y sus archivos/preguntas
+    print_cursos_summary(cursos_dict)
+
+    # 3) Cargar/crear datos de desempeño
     perf_data = load_performance_data()
 
-    # 3) Main loop:
+    # 4) Menú principal
     while True:
         clear()
         print(f"=== QUIZPROG v{VERSION} ===\n")
-        print(f"Loaded {qcount} total questions from the 'quiz_data' folder.")
-        print("Performance data is tracked across sessions.\n")
+        print("[1] Todas las preguntas")
+        print("[2] Solo preguntas no respondidas")
+        print("[3] Solo preguntas con errores previos")
+        print("[4] Resetear progreso")
+        print("[5] Salir\n")
 
-        print("[1] Take entire quiz (all questions)")
-        print("[2] Review only unanswered questions")
-        print("[3] Review only those got wrong before")
-        print("[4] Reset performance data")
-        print("[5] Exit\n")
-
-        choice = input("Choose an option: ").strip()
+        choice = input("Selecciona una opción: ").strip()
         if choice == "1":
-            play_quiz(questions, perf_data, filter_mode="all")
+            comando_quiz_todos(questions, perf_data)
         elif choice == "2":
-            play_quiz(questions, perf_data, filter_mode="unanswered")
+            comando_quiz_sin_responder(questions, perf_data)
         elif choice == "3":
-            play_quiz(questions, perf_data, filter_mode="wrong")
+            comando_quiz_erroneos(questions, perf_data)
         elif choice == "4":
-            # Confirm reset:
-            clear()
-            confirm = input("Reset all performance data? (y/n) ").lower()
-            if confirm == "y":
-                perf_data.clear()
-                save_performance_data(perf_data)
-                print("Performance data has been reset.\n")
-                press_any_key()
+            comando_reseteo(perf_data)
         elif choice == "5":
-            print("Goodbye!")
-            sys.exit(0)
+            comando_salir()
         else:
             pass
 
+# ---------------------------------------------------------------------------
+# PUNTO DE ENTRADA
+# ---------------------------------------------------------------------------
 if __name__ == "__main__":
     try:
         main()
     except KeyboardInterrupt:
         clear()
-        print("\n[!] Exiting due to KeyboardInterrupt...")
+        print("\n[!] Saliendo por interrupción con Ctrl+C...")
         sys.exit(0)
     except Exception as e:
         clear()
-        print("[!] Unhandled exception:")
+        print("[!] Excepción no manejada:")
         traceback.print_exc()
         sys.exit(1)
