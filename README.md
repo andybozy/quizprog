@@ -34,13 +34,13 @@ The variables and their types are as follows:
 - `showcount` (`bool`) - Set to `false` to hide the question count. If not specified, uses default value. *(optional; default: `true`)*
 - `wrongmsg` (`list`) - Lists global incorrect answer messages (not to be confused with the `wrongmsg` dictionary for each individual question). If not specified or empty, this feature will be disabled. *(optional)*
 - `questions` (`list`) - The questions of the quiz.
-- - For each question (`dict`) in `questions`:
-- - `question` (`string`) - The question.
-- - `a`, `b`, `c`, `d` (`string`) - The 4 choices (A, B, C, D).
-- - `wrongmsg` (`dict`) - Lists incorrect answer messages when a player chooses one (not to be confused with the global `wrongmsg` dictionary). If not specified or empty, this feature will be disabled. *(optional)*
-- - - In `wrongmsg`:
-- - - `a`, `b`, `c`, `d` (`string`) - Incorrect answer message when choosing an incorrect choice. *(optional)*
-- - `correct` (`string`) - Can be either `a`, `b`, `c`, `d` or `all`. Specifies the correct choice. If set to `all`, all choices are correct.
-- - `explanation` (`string`) - An explanation of the question. If not specified, the correct answer screen will be skipped. *(optional)*
+  - For each question (`dict`) in `questions`:
+    - `question` (`string`) - The question.
+    - `a`, `b`, `c`, `d` (`string`) - The 4 choices (A, B, C, D).
+    - `wrongmsg` (`dict`) - Lists incorrect answer messages when a player chooses one (not to be confused with the global `wrongmsg` dictionary). If not specified or empty, this feature will be disabled. *(optional)*
+      - In `wrongmsg`:
+        - `a`, `b`, `c`, `d` (`string`) - Incorrect answer message when choosing an incorrect choice. *(optional)*
+    - `correct` (`string`) - Can be either `a`, `b`, `c`, `d` or `all`. Specifies the correct choice. If set to `all`, all choices are correct.
+    - `explanation` (`string`) - An explanation of the question. If not specified, the correct answer screen will be skipped. *(optional)*
 - `fail` (`string`) - Fail message when running out of lives. Must be used with the `lives` variable. *(optional)*
 - `finish` (`string`) - Finish message when completing all the quiz questions. *(optional)*

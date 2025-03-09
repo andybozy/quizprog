@@ -2,21 +2,10 @@
 
 import os
 import random
-import sys
 import re
 
 from .performance import save_performance_data
-
-def press_any_key():
-    """Wait for Enter. If you prefer to do this in CLI only, remove from here."""
-    input("\nPresiona Enter para continuar...")
-
-def clear_screen():
-    """Cross-platform screen clear."""
-    try:
-        os.system("cls" if os.name == "nt" else "clear")
-    except:
-        pass
+from .utils import clear_screen, press_any_key
 
 def sanitize_question_text(text):
     """
@@ -191,7 +180,6 @@ def play_quiz(full_questions, perf_data, filter_mode="all", file_filter=None):
         idx += 1
 
     clear_screen()
-    # We'll replicate the "print_local_summary" logic here or we can do a helper
     c = session_counts["correct"]
     w = session_counts["wrong"]
     u = session_counts["unanswered"]

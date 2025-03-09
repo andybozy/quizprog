@@ -2,7 +2,7 @@
 
 import os
 import pytest
-from quizlib.loader import descubrir_quiz_files, load_json_file, load_all_quizzes
+from quizlib.loader import discover_quiz_files, load_json_file, load_all_quizzes
 
 def test_discover_quiz_files(tmp_path):
     # make dummy structure
@@ -11,7 +11,7 @@ def test_discover_quiz_files(tmp_path):
     (data_dir / "file1.json").write_text('{"questions":[]}', encoding="utf-8")
     (data_dir / "file2.txt").write_text("Not a JSON quiz", encoding="utf-8")
 
-    result = descubrir_quiz_files(str(data_dir))
+    result = discover_quiz_files(str(data_dir))
     assert len(result) == 1
     assert result[0].endswith("file1.json")
 

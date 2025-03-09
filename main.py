@@ -2,7 +2,6 @@
 
 import sys
 from quizlib.loader import load_all_quizzes, QUIZ_DATA_FOLDER
-import print as loader_print  # Not recommended to import 'print' here. Just an example
 from quizlib.performance import load_performance_data, save_performance_data
 from quizlib.engine import play_quiz, clear_screen, press_any_key
 
@@ -33,12 +32,8 @@ def main():
     clear_screen()
     print(f"QuizProg v{VERSION}")
 
-    # 1) load all quizzes
-    questions, cursos_dict, cursos_archivos = load_all_quizzes(QUIZ_DATA_FOLDER)
-
-    # 2) show summary
-    # if you want, you can keep a function to print a summary
-    # or do it inline
+    # Load quizzes -> now returning (questions, cursos_dict, quiz_files_info)
+    questions, cursos_dict, quiz_files_info = load_all_quizzes(QUIZ_DATA_FOLDER)
 
     perf_data = load_performance_data()
 
