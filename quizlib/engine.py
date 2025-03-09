@@ -218,4 +218,5 @@ def play_quiz(full_questions, perf_data, filter_mode="all", file_filter=None):
     print(f"Incorrectas: {w}")
     print(f"No respondidas (o saltadas): {u}")
     print(f"Total en esta sesión: {total}\n")
+    print(f'Punteggio: {( c * 0.333 - w * 0.111 ) / total * 30} /10 sufficienza 5')
     press_any_key()

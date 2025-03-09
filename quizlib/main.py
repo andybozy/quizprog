@@ -1,4 +1,4 @@
-#quizlib/main.py
+# quizlib/main.py
 
 import sys
 import os
@@ -36,17 +36,48 @@ def comando_quiz_wrong(questions, perf_data):
     """Quiz only previously missed (wrong) questions."""
     play_quiz(questions, perf_data, filter_mode="wrong", file_filter=None)
 
+def print_submenu_archivo():
+    """
+    Print the sub-menu that appears after selecting a file.
+    Lets the user choose which filter they'd like for that specific file.
+    """
+    print("\n=== Filtro para el archivo seleccionado ===")
+    print("1) Realizar quiz con TODAS las preguntas (de este archivo)")
+    print("2) Realizar quiz con preguntas NO respondidas (de este archivo)")
+    print("3) Realizar quiz con preguntas FALLADAS (de este archivo)")
+    print("4) Volver al menú principal")
+
 def comando_quiz_file(questions, perf_data, cursos_dict):
     """
     Let the user pick a specific JSON file from the menu,
-    then quiz only the questions from that file.
+    then show a sub-menu to choose which filter to use for that file:
+      - all
+      - unanswered
+      - wrong
     """
     chosen_filepath = pick_a_file_menu(cursos_dict)
     if not chosen_filepath:
-        return  # canceled
-    play_quiz(questions, perf_data, filter_mode="all", file_filter=chosen_filepath)
+        return  # user canceled file selection
 
-def print_menu():
+    # Sub-loop to pick the filter mode for the chosen file
+    while True:
+        clear_screen()
+        print_submenu_archivo()
+        choice = input("\nSelecciona una opción: ").strip()
+        if choice == "1":
+            play_quiz(questions, perf_data, filter_mode="all", file_filter=chosen_filepath)
+        elif choice == "2":
+            play_quiz(questions, perf_data, filter_mode="unanswered", file_filter=chosen_filepath)
+        elif choice == "3":
+            play_quiz(questions, perf_data, filter_mode="wrong", file_filter=chosen_filepath)
+        elif choice == "4":
+            # Return to main menu
+            break
+        else:
+            print("Opción no válida.")
+            press_any_key()
+
+def print_menu_principal():
     """Print the main menu options."""
     print("\n=== QuizProg Main Menu ===")
     print("1) Realizar quiz con TODAS las preguntas")
@@ -73,14 +104,14 @@ def main():
     # Load all quiz questions
     questions, cursos_dict, quiz_files_info = load_all_quizzes(QUIZ_DATA_FOLDER)
 
-    # Add the line so the test_main.py expects "Archivos de Quiz Cargados"
+    # Matches the test expectation "Archivos de Quiz Cargados"
     print("Archivos de Quiz Cargados")
 
     perf_data = load_performance_data()
 
     while True:
         clear_screen()
-        print_menu()
+        print_menu_principal()
         choice = input("\nSelecciona una opción: ").strip()
         if choice == "1":
             comando_quiz_todos(questions, perf_data)
