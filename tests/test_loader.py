@@ -1,34 +1,32 @@
-# quizprog/tests/test_loader.py
+# tests/test_loader.py
 
-import os
 import pytest
 from quizlib.loader import discover_quiz_files, load_json_file, load_all_quizzes
+import os
 
 def test_discover_quiz_files(tmp_path):
-    # make dummy structure
-    data_dir = tmp_path / "dummy_quiz"
+    data_dir = tmp_path / "quizzes"
     data_dir.mkdir()
-    (data_dir / "file1.json").write_text('{"questions":[]}', encoding="utf-8")
-    (data_dir / "file2.txt").write_text("Not a JSON quiz", encoding="utf-8")
+    (data_dir / "quiz1.json").write_text('{"questions":[{"question":"Q1","answers":[]}]}', encoding="utf-8")
+    (data_dir / "notes.txt").write_text("Not a JSON quiz", encoding="utf-8")
 
-    result = discover_quiz_files(str(data_dir))
-    assert len(result) == 1
-    assert result[0].endswith("file1.json")
+    found = discover_quiz_files(str(data_dir))
+    assert len(found) == 1
+    assert found[0].endswith("quiz1.json")
 
 def test_load_json_file(tmp_path):
-    f = tmp_path / "sample.json"
-    f.write_text('{"questions":[{"question": "Test", "answers": []}]}', encoding="utf-8")
+    f = tmp_path / "quiz.json"
+    f.write_text('{"questions":[{"question":"Sample?","answers":[]}]}', encoding="utf-8")
     data = load_json_file(str(f))
     assert "questions" in data
     assert len(data["questions"]) == 1
 
 def test_load_all_quizzes(tmp_path):
-    data_dir = tmp_path / "folder"
-    data_dir.mkdir()
-    # Note: use "question" key, not "q"
-    (data_dir / "quiz.json").write_text('{"questions":[{"question": "Q1", "answers": []}]}', encoding="utf-8")
+    d = tmp_path / "some_quizzes"
+    d.mkdir()
+    (d / "test.json").write_text('{"questions":[{"question":"OK?","answers":[]}]}', encoding="utf-8")
 
-    combined, cursos_dict, cursos_archivos = load_all_quizzes(str(data_dir))
+    combined, cursos, info = load_all_quizzes(str(d))
     assert len(combined) == 1
-    assert len(cursos_dict) == 1
-    assert len(cursos_archivos) == 1
+    assert len(cursos) == 1
+    assert len(info) == 1

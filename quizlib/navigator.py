@@ -4,17 +4,16 @@ import os
 
 def pick_a_file_menu(cursos_dict):
     """
-    Interactively lets the user pick:
+    Interactively pick:
       1) A course
-      2) A section (if any, auto–selecting if only a single "non–folder" section exists)
+      2) A section
       3) A file
-    Returns the full file path (string) or None if canceled or no valid choice.
+    Returns filepath or None if canceled.
     """
     if not cursos_dict:
         print("No hay cursos disponibles.")
         return None
 
-    # Step 1: Choose Course.
     course_names = sorted(cursos_dict.keys())
     while True:
         print("\n=== Lista de Cursos ===")
@@ -33,15 +32,14 @@ def pick_a_file_menu(cursos_dict):
             pass
         print("Opción no válida, intenta de nuevo.")
 
-    # Step 2: Choose Section.
     course_data = cursos_dict[chosen_course]
     section_names = sorted(course_data["sections"].keys())
-    # If there's only one section and it is the pseudo–section "(No subfolder)", auto–select it.
+    # If there's only one section and it's "(No subfolder)", skip
     if len(section_names) == 1 and section_names[0] == "(No subfolder)":
         chosen_section = section_names[0]
     else:
         if not section_names:
-            print("No hay secciones disponibles en este curso.")
+            print("No hay secciones en este curso.")
             return None
         while True:
             print(f"\n=== Secciones de '{chosen_course}' ===")
@@ -60,15 +58,13 @@ def pick_a_file_menu(cursos_dict):
                 pass
             print("Opción no válida, intenta de nuevo.")
 
-    # Step 3: Pick the file.
     return _pick_file_from_section(chosen_course, chosen_section, course_data["sections"])
 
 def _pick_file_from_section(chosen_course, chosen_section, sections_dict):
-    """Helper to list files in the chosen section, letting the user pick one."""
+    """List files in the chosen section, let user pick one."""
     if chosen_section not in sections_dict:
         print("No existe la sección seleccionada.")
         return None
-
     file_list = sections_dict[chosen_section]["files"]
     if not file_list:
         print("No hay archivos en esta sección.")
@@ -77,7 +73,7 @@ def _pick_file_from_section(chosen_course, chosen_section, sections_dict):
     while True:
         print(f"\n=== Archivos en '{chosen_section}' ({chosen_course}) ===")
         for i, fobj in enumerate(file_list, start=1):
-            print(f"{i}) {fobj['filename']}  ({fobj['question_count']} preguntas)")
+            print(f"{i}) {fobj['filename']} ({fobj['question_count']} preguntas)")
         print("0) Cancelar\n")
         choice = input("Selecciona un archivo: ").strip()
         if choice == "0":
@@ -95,13 +91,11 @@ def get_file_question_count(questions, filepath):
     return sum(1 for q in questions if q.get("_quiz_source") == filepath)
 
 def print_quiz_files_summary(quiz_files_info):
-    """
-    Prints a summary of all loaded quiz files, displaying each file's name and question count.
-    """
+    """Show all loaded quiz files by name and question count."""
     print("=== Archivos de Quiz Cargados ===")
     if not quiz_files_info:
         print("No se encontraron archivos de quiz.")
     else:
-        for file_info in quiz_files_info:
-            print(f"{file_info['filename']} - {file_info['question_count']} preguntas")
+        for finfo in quiz_files_info:
+            print(f"{finfo['filename']} - {finfo['question_count']} preguntas")
     print()
