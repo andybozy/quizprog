@@ -1,10 +1,11 @@
-# quizprog/tests/test_main.py
+# tests/test_main.py
 
 import pytest
 import pexpect
 import os
 import tempfile
 import json
+
 
 @pytest.mark.skipif(os.name == "nt", reason="pexpect more complex on Windows")
 def test_main_startup():
@@ -34,12 +35,12 @@ def test_main_startup():
         # Set environment variable so that the loader uses our temporary folder.
         os.environ["QUIZ_DATA_FOLDER"] = temp_quiz_folder
 
-        # Spawn main.py
+        # Spawn main.py.
         child = pexpect.spawn("python main.py", encoding="utf-8", timeout=10)
 
         # Expect that main.py prints the version or menu text.
         child.expect("QuizProg v", timeout=5)
-        # Now send a command to exit (e.g., "4" for Salir in our main menu)
-        child.sendline("4")
+        # Now send a command to exit (option "5" for Salir in our updated menu).
+        child.sendline("5")
         child.expect("¡Hasta luego!", timeout=5)
         child.expect(pexpect.EOF, timeout=5)
