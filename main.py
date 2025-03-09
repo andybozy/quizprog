@@ -5,9 +5,20 @@ import os
 from quizlib.loader import load_all_quizzes, QUIZ_DATA_FOLDER
 from quizlib.performance import load_performance_data, save_performance_data
 from quizlib.engine import play_quiz, clear_screen, press_any_key
-from quizlib.navigator import pick_a_file_menu, get_file_question_count
+from quizlib.navigator import (
+    pick_a_file_menu,
+    get_file_question_count,
+    print_quiz_files_summary
+)
 
 VERSION = "2.4.1"
+
+def set_title(title):
+    if os.name == 'nt':
+        import ctypes
+        ctypes.windll.kernel32.SetConsoleTitleW(title)
+    else:
+        sys.stdout.write('\x1b]2;' + title + '\x07')
 
 def comando_quiz_todos(questions, perf_data):
     play_quiz(questions, perf_data, filter_mode="all", file_filter=None)
@@ -40,12 +51,17 @@ def comando_salir():
 
 def main():
     clear_screen()
-    print(f"QuizProg v{VERSION}")
+    set_title(f"QuizProg v{VERSION}")
+    print(f"QuizProg v{VERSION}\n")
 
     # 1) Load all quiz data.
     questions, cursos_dict, quiz_files_info = load_all_quizzes(QUIZ_DATA_FOLDER)
 
-    # 2) Load performance data.
+    # 2) Display summary of loaded quiz files.
+    print_quiz_files_summary(quiz_files_info)
+    press_any_key()
+
+    # 3) Load performance data.
     perf_data = load_performance_data()
 
     while True:
