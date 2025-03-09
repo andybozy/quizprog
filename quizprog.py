@@ -7,21 +7,18 @@ import re
 
 QUIZ_DATA_FOLDER = "quiz_data"
 PERFORMANCE_FILE = "quiz_performance.json"
-VERSION = "2.5.0"
+VERSION = "3.0.0"
 
 def clear():
-    """Limpia la pantalla."""
     try:
         os.system("cls" if os.name == "nt" else "clear")
     except:
         pass
 
 def press_any_key():
-    """Pausa hasta que el usuario presione Enter."""
     input("\nPresiona Enter para continuar...")
 
 def load_json_file(filepath):
-    """Carga JSON, retorna None si falla."""
     try:
         with open(filepath, encoding="utf-8") as f:
             return json.load(f)
@@ -30,7 +27,6 @@ def load_json_file(filepath):
         return None
 
 def descubrir_quiz_files(folder):
-    """Encuentra recursivamente .json en la carpeta dada."""
     quiz_files = []
     for root, dirs, files in os.walk(folder):
         for f in files:
@@ -40,11 +36,10 @@ def descubrir_quiz_files(folder):
 
 def load_all_quizzes():
     """
-    Carga todos los JSON en QUIZ_DATA_FOLDER.
-    Devuelve: 
-      - combined_questions: todas las preguntas
-      - cursos_dict: para resumen
-      - cursos_archivos: para menú de curso/archivo
+    Returns:
+      - combined_questions
+      - cursos_dict (for summary)
+      - cursos_archivos
     """
     all_files = descubrir_quiz_files(QUIZ_DATA_FOLDER)
     if not all_files:
@@ -63,7 +58,7 @@ def load_all_quizzes():
         questions_list = data["questions"]
         file_question_count = len(questions_list)
 
-        # Determine "curso" by the first subfolder
+        # Identify "curso"
         rel_path = os.path.relpath(filepath, QUIZ_DATA_FOLDER)
         parts = rel_path.split(os.sep)
         curso = parts[0]
@@ -86,7 +81,6 @@ def load_all_quizzes():
             "question_count": file_question_count
         }
 
-        # Add to combined list
         for q in questions_list:
             if "question" in q and "answers" in q:
                 q["_quiz_source"] = filepath
@@ -96,7 +90,6 @@ def load_all_quizzes():
     return combined_questions, cursos_dict, cursos_archivos
 
 def print_cursos_summary(cursos_dict):
-    """Imprime cuántos archivos y preguntas hay por cada curso."""
     print("=== RESUMEN DE CURSOS ===\n")
     total_archivos = 0
     total_preguntas = 0
@@ -131,33 +124,11 @@ def save_performance_data(perf_data):
     except Exception as ex:
         print(f"[!] Error guardando desempeño: {ex}")
 
-# GLOBAL scoreboard is optional
-def print_scoreboard_global(questions, perf_data):
-    total = len(questions)
-    correct = 0
-    wrong = 0
-    unanswered = 0
-    for i in range(total):
-        pd = perf_data.get(str(i))
-        if not pd:
-            unanswered += 1
-        else:
-            if pd["unanswered"]:
-                unanswered += 1
-            elif pd["wrong"]:
-                wrong += 1
-            else:
-                correct += 1
-
-    print(f"\n** Estadísticas globales: Correctas: {correct}, Erróneas: {wrong}, "
-          f"Sin responder: {unanswered}, Total: {total} **\n")
-
 def print_local_summary(session_counts):
     c = session_counts["correct"]
     w = session_counts["wrong"]
     u = session_counts["unanswered"]
     total = c + w + u
-
     print("\n=== Resumen de esta sesión ===")
     print(f"Correctas: {c}")
     print(f"Incorrectas: {w}")
@@ -165,124 +136,177 @@ def print_local_summary(session_counts):
     print(f"Total en esta sesión: {total}\n")
     press_any_key()
 
-# ---------------------------------------------------------------------------
-# 1) Label original answers as 'a','b','c'... so we can parse references.
-# 2) After shuffle, rewrite references in text, e.g. "a y c" => new letters.
-# ---------------------------------------------------------------------------
+LETTERS = "abcdefghijklmnopqrstuvwxyz"
 
-LETTERS = "abcdefghijklmnopqrstuvwxyz"  # up to 26
+def label_original_answers(q):
+    """
+    For each question, we label answers with 'original_label' = a,b,c,d...
+    Also parse if the answer references something like "a y c" to store that in a 'refs' set.
+    Then we'll see if that referencing answer is actually correct if those references are correct.
+    """
+    # If we already labeled, skip
+    if "_labeled" in q:
+        return
+    answers = q["answers"]
 
-def label_original_answers(answers):
-    """
-    Assign 'a','b','c', etc. to each answer in the original order.
-    Store it in 'original_label' for reference rewriting.
-    """
     for i, ans in enumerate(answers):
+        # label original
         if i < len(LETTERS):
-            ans["original_label"] = LETTERS[i]
+            ans["original_label"] = LETTERS[i]  # 'a','b','c'...
         else:
-            # if more than 26 answers, we do something else or just skip
-            ans["original_label"] = f'({i})'  # fallback
+            ans["original_label"] = f"({i})"
 
-def rewrite_references(text, remap):
+        # parse references
+        # e.g. if text is "a y c son correctas"
+        # we find references to single-letter tokens
+        ans["refs"] = set()
+        # We'll look for something like \b[a-d]\b
+        # but let's keep it broad: \b[a-z]\b or \(a\)
+        pattern = re.compile(r"\b[a-z]\b", re.IGNORECASE)
+        found = pattern.findall(ans["text"])
+        # store them in lower
+        ans["refs"] = {f.lower() for f in found if f.lower() in LETTERS}
+
+    q["_labeled"] = True
+
+def is_answer_actually_correct(q, ans):
     """
-    Replaces references in 'text' from original_label => new_label.
-    e.g. if remap={'a':'C','b':'A','c':'B'} and text='a y c son correctas'
-         => 'C y B son correctas'
+    "ans" might have "refs" = { 'a','c',... }.
+    This means "ans" claims those original_label answers are correct.
 
-    We'll do a simple regex to find word-bound references like
-    \b[a-dA-D]\b or a) etc. (some heuristics).
+    We check if all those references are indeed correct in the original data.
+    Then we combine with ans's own "correct" field (maybe it's explicitly correct or false).
+    You can define your own rule. Example:
+      - If 'refs' is not empty, we only treat this as correct if all the referenced answers are truly correct.
+      - If the answer text also has "correct": true, we might combine the logic (like "AND").
+
+    We'll do a logic:
+      final_correct = ans["correct"] OR (all referenced are correct)
+      or
+      final_correct = ans["correct"] OR
+         if 'refs' is not empty => all those references are correct answers in the question
     """
-    # We'll try a simpler approach: we look for separate words or
-    # small tokens of [a-z].
-    # Then we replace them with the new label from remap if found.
+    # We'll read "correct" in the raw JSON:
+    base_correct = ans.get("correct", False)
+    # If no references, return base_correct
+    if not ans["refs"]:
+        return base_correct
 
-    def replacer(match):
-        # matched original letter in group(0)
-        orig = match.group(0).lower()  # e.g. 'a'
-        if orig in remap:
-            return remap[orig]
-        return match.group(0)  # else no change
+    # If refs exist, check if all those references are actually correct answers
+    # in the same question. For that, we see which answers have "correct": True
+    # or do we do a "deep parse"? We'll do a simpler approach: the original "correct" field for that referenced letter is True.
 
-    # We'll try capturing single letters or 'a)', 'b)', '(a)', etc.
-    # This approach might not handle every edge case, but covers typical usage.
-    pattern = re.compile(r"\b[a-z]\b|\([a-z]\)|[a-z]\)|\([a-z]\b", re.IGNORECASE)
-    return pattern.sub(replacer, text)
+    # Build a map label->correct from the question's answers
+    label_map = {}
+    for a in q["answers"]:
+        lbl = a["original_label"]  # 'a','b'...
+        # if a has references too, that might be meta. We won't go fully recursive for now.
+        # We'll just read a["correct"]
+        label_map[lbl] = a.get("correct", False)
 
-def sanitize_question(question_data):
-    """
-    1) Assign original labels (a,b,c...) to each answer in 'answers'.
-    2) If the question or other answers contain references to 'a, b, c, d', we rewrite them AFTER shuffle.
-       We'll handle that in 'preguntar()' after we know the shuffle order.
-    """
-    # We do step 1 here: label each answer in original order
-    # so we know how to parse references.
-    label_original_answers(question_data["answers"])
+    # check if all references are correct in that map
+    all_ref_correct = True
+    for r in ans["refs"]:
+        if not label_map.get(r, False):
+            all_ref_correct = False
+            break
 
-# ---------------------------------------------------------------------------
-# PREGUNTAR
-# ---------------------------------------------------------------------------
+    final_correct = base_correct or all_ref_correct
+    return final_correct
+
+def rewrite_ref_text_to_new_labels(text, label_map):
+    """Replace 'a','b','c' with new uppercase letters based on label_map."""
+    if not text:
+        return text
+
+    def replacer(m):
+        orig = m.group(0).lower()  # e.g. 'a'
+        if orig in label_map:
+            return label_map[orig]
+        return m.group(0)
+
+    pattern = re.compile(r"\b[a-z]\b", re.IGNORECASE)
+    new_text = pattern.sub(replacer, text)
+    return new_text
+
 def preguntar(qid, question_data, perf_data, session_counts):
-    if str(qid) not in perf_data:
-        perf_data[str(qid)] = {"wrong": False, "unanswered": True}
+    # mark question_data with label_original_answers if needed
+    label_original_answers(question_data)
 
-    clear()
+    # We'll shuffle the question's answers. But we also need to see which are "actually correct" at runtime.
+    # So let's build a final list with updated correctness.
+    # 1) We'll build an array of "final_correct" for each answer, derived from the advanced logic:
+    final_answer_data = []
+    for ans in question_data["answers"]:
+        actual_correct = is_answer_actually_correct(question_data, ans)
+        final_answer_data.append({
+            "orig_label": ans["original_label"],
+            "text": ans["text"],
+            "explanation": question_data.get("explanation",""),
+            "wrongmsg": question_data.get("wrongmsg",""),
+            "actual_correct": actual_correct
+        })
 
-    # We'll do the final shuffle here, then build a map from original_label => new label
-    original_answers = question_data["answers"]  # has original_label
-    answers_shuffled = original_answers[:]
+    # 2) shuffle
+    answers_shuffled = final_answer_data[:]
     random.shuffle(answers_shuffled)
 
-    # Now build "new_label_map": original 'a' => new letter 'A', etc.
-    # e.g. if answers_shuffled[0].original_label=='c', that becomes new label 'A'
+    # 3) build a map from original_label -> new label [A],[B], ...
     new_label_map = {}
-    for i, ans in enumerate(answers_shuffled):
-        orig_label = ans["original_label"]  # 'a','b','c', etc
-        # we'll use uppercase for the new label
-        new_label = chr(ord('A') + i)  # 'A','B','C','D'...
-        new_label_map[orig_label] = new_label
+    for i, adata in enumerate(answers_shuffled):
+        new_label = chr(ord('A') + i)
+        new_label_map[adata["orig_label"]] = new_label
 
-    # We'll rewrite references in the question text, explanation, answer texts themselves
-    question_text = rewrite_references(question_data["question"], new_label_map)
+    # We'll rewrite references in the final answer text to reflect the new letters
+    for adata in answers_shuffled:
+        # rewrite any references in the text itself
+        adata["display_text"] = rewrite_ref_text_to_new_labels(adata["text"], new_label_map)
 
-    # We might also want to rewrite references in each answer's text if it references other answers.
-    # e.g. if an answer says "a y c son correctas." We'll fix that too:
-    for ans in answers_shuffled:
-        ans["display_text"] = rewrite_references(ans["text"], new_label_map)
+    # also rewrite references in explanation / wrongmsg if needed
+    explanation = question_data.get("explanation","")
+    explanation = rewrite_ref_text_to_new_labels(explanation, new_label_map)
+    wrongmsg = question_data.get("wrongmsg","")
+    wrongmsg = rewrite_ref_text_to_new_labels(wrongmsg, new_label_map)
 
-    explanation = question_data.get("explanation", "")
-    explanation = rewrite_references(explanation, new_label_map)
-    wrongmsg = question_data.get("wrongmsg", "")
-    wrongmsg = rewrite_references(wrongmsg, new_label_map)
+    # 4) find correct indices in the new shuffled array
+    correct_indices = [i for i, adata in enumerate(answers_shuffled) if adata["actual_correct"]]
+    multi_correct = (len(correct_indices) > 1)
 
-    # Find correct indices
-    correct_indices = [i for i, ans in enumerate(answers_shuffled) if ans.get("correct", False)]
+    # if none are correct, we skip
     if not correct_indices:
-        print(f"[!] Pregunta {qid} sin respuestas correctas; se omite...\n")
+        clear()
+        print(f"[!] Pregunta {qid} sin respuestas correctas (tras advanced parse). Se omite...\n")
+        # Mark performance as not unanswered
+        if str(qid) not in perf_data:
+            perf_data[str(qid)] = {}
         perf_data[str(qid)]["unanswered"] = False
         session_counts["correct"] += 1
         press_any_key()
         return True
 
-    multi_correct = (len(correct_indices) > 1)
+    # show question
+    clear()
+    if str(qid) not in perf_data:
+        perf_data[str(qid)] = {"wrong": False, "unanswered": True}
 
-    # Print source
-    source_path = question_data.get("_quiz_source", "")
-    archivo_origen = os.path.basename(source_path) if source_path else ""
-    if archivo_origen:
-        print(f"(Pregunta de: {archivo_origen})\n")
+    # optional question text
+    question_text = question_data["question"]
+    source = question_data.get("_quiz_source","")
+    if source:
+        print(f"(Pregunta de: {os.path.basename(source)})\n")
 
     print(f"Pregunta {qid}:\n{question_text}\n")
 
-    # Print the shuffled answers with new labels
-    for i, ans in enumerate(answers_shuffled):
+    # print the final answers
+    for i, adata in enumerate(answers_shuffled):
         new_label = chr(ord('A') + i)
-        print(f"[{new_label}] {ans['display_text']}")
+        print(f"[{new_label}] {adata['display_text']}")
 
     print("\n[0] Salir de la sesión\n")
     if multi_correct:
-        print("Puede haber varias respuestas correctas. Ej: 'A,C'")
+        print("Puede haber varias respuestas correctas. Ej. 'A,C'")
 
+    # user input
     opcion = input("Tu respuesta: ").strip().upper()
     if opcion == "0":
         clear()
@@ -294,94 +318,85 @@ def preguntar(qid, question_data, perf_data, session_counts):
             session_counts["unanswered"] += 1
             return False
 
-    # Convert letters to indices
+    # parse letters
     user_positions = []
     try:
-        parts = opcion.split(",")
-        for p in parts:
+        for p in opcion.split(","):
             p = p.strip()
-            if not p:
-                continue
-            idx = ord(p) - ord('A')  # 'A'->0
-            user_positions.append(idx)
-    except ValueError:
+            if p:
+                idx = ord(p) - ord('A')
+                user_positions.append(idx)
+    except:
         user_positions = [-1]
 
-    # Evaluate correctness
-    perf_data_entry = perf_data[str(qid)]
+    # check correctness
     if not multi_correct:
         if len(user_positions) == 1 and user_positions[0] in correct_indices:
             # correct
-            perf_data_entry["unanswered"] = False
-            perf_data_entry["wrong"] = False
+            perf_data[str(qid)]["unanswered"] = False
+            perf_data[str(qid)]["wrong"] = False
             session_counts["correct"] += 1
             clear()
             print("¡CORRECTO!\n")
             if explanation:
-                print("EXPLICACIÓN:\n" + explanation + "\n")
+                print(f"EXPLICACIÓN:\n{explanation}\n")
             press_any_key()
             return True
         else:
             # incorrect
-            perf_data_entry["unanswered"] = False
-            perf_data_entry["wrong"] = True
+            perf_data[str(qid)]["unanswered"] = False
+            perf_data[str(qid)]["wrong"] = True
             session_counts["wrong"] += 1
             clear()
             print("¡INCORRECTO!\n")
             if wrongmsg:
                 print(wrongmsg + "\n")
             if explanation:
-                print("EXPLICACIÓN:\n" + explanation + "\n")
+                print(f"EXPLICACIÓN:\n{explanation}\n")
             press_any_key()
             return False
     else:
         correct_set = set(correct_indices)
         user_set = set(user_positions)
         if user_set == correct_set:
-            perf_data_entry["unanswered"] = False
-            perf_data_entry["wrong"] = False
+            perf_data[str(qid)]["unanswered"] = False
+            perf_data[str(qid)]["wrong"] = False
             session_counts["correct"] += 1
             clear()
             print("¡CORRECTO!\n")
             if explanation:
-                print("EXPLICACIÓN:\n" + explanation + "\n")
+                print(f"EXPLICACIÓN:\n{explanation}\n")
             press_any_key()
             return True
         else:
-            perf_data_entry["unanswered"] = False
-            perf_data_entry["wrong"] = True
+            perf_data[str(qid)]["unanswered"] = False
+            perf_data[str(qid)]["wrong"] = True
             session_counts["wrong"] += 1
             clear()
             print("¡INCORRECTO!\n")
             if wrongmsg:
                 print(wrongmsg + "\n")
             if explanation:
-                print("EXPLICACIÓN:\n" + explanation + "\n")
+                print(f"EXPLICACIÓN:\n{explanation}\n")
             press_any_key()
             return False
 
 def play_quiz(full_questions, perf_data, filter_mode="all", file_filter=None):
-    """
-    filter_mode in ["all","unanswered","wrong"]
-    file_filter: if not None => only questions with _quiz_source == file_filter
-    """
-    # We'll label each question's answers with a,b,c... so we can parse references
-    # This should happen once, so let's do it for each question before we filter:
+    # We'll label them if needed
     for q in full_questions:
-        if not hasattr(q, "_labeled"):  # or use a custom key
-            # "sanitize" or label answers in original order
-            label_original_answers(q["answers"])  # or see sanitize_question approach
-            q["_labeled"] = True
+        label_original_answers(q)
 
-    # Build subset
+    # build subset
     all_pairs = [(i, q) for i, q in enumerate(full_questions)]
-    if file_filter is not None:
+    if file_filter:
         all_pairs = [(i, q) for (i, q) in all_pairs if q.get("_quiz_source") == file_filter]
 
     if filter_mode == "wrong":
-        subset = [(i, q) for (i, q) in all_pairs if str(i) in perf_data and perf_data[str(i)]["wrong"]]
+        subset = [(i, q) for (i, q) in all_pairs
+                  if str(i) in perf_data and perf_data[str(i)]["wrong"]]
     elif filter_mode == "unanswered":
-        subset = [(i, q) for (i, q) in all_pairs if str(i) not in perf_data or perf_data[str(i)]["unanswered"]]
+        subset = [(i, q) for (i, q) in all_pairs
+                  if str(i) not in perf_data or perf_data[str(i)]["unanswered"]]
     else:
         subset = all_pairs
 
@@ -390,14 +405,15 @@ def play_quiz(full_questions, perf_data, filter_mode="all", file_filter=None):
         press_any_key()
         return
 
-    # random.shuffle(subset) # optional if you want to randomize question order
+    # optional shuffle subset to randomize question order
+    # random.shuffle(subset)
 
-    session_counts = {"correct": 0, "wrong": 0, "unanswered": 0}
+    session_counts = {"correct":0,"wrong":0,"unanswered":0}
     idx = 0
     while idx < len(subset):
         qid, qdata = subset[idx]
-        resultado = preguntar(qid, qdata, perf_data, session_counts)
-        if resultado is None:
+        result = preguntar(qid, qdata, perf_data, session_counts)
+        if result is None:
             break
         save_performance_data(perf_data)
         idx += 1
@@ -405,9 +421,6 @@ def play_quiz(full_questions, perf_data, filter_mode="all", file_filter=None):
     clear()
     print_local_summary(session_counts)
 
-# ---------------------------------------------------------------------------
-# COMANDOS
-# ---------------------------------------------------------------------------
 def comando_quiz_todos(questions, perf_data):
     play_quiz(questions, perf_data, "all", None)
 
@@ -418,7 +431,7 @@ def comando_quiz_erroneos(questions, perf_data):
     play_quiz(questions, perf_data, "wrong", None)
 
 def comando_reseteo(perf_data):
-    confirm = input("¿Estás seguro de resetear el progreso? (s/n) ").lower()
+    confirm = input("¿Resetear progreso? (s/n) ").lower()
     if confirm == "s":
         perf_data.clear()
         save_performance_data(perf_data)
@@ -432,7 +445,7 @@ def comando_salir():
 def comando_elegir_archivo(questions, perf_data, cursos_archivos):
     curso_list = sorted(cursos_archivos.keys())
     if not curso_list:
-        print("No hay cursos.")
+        print("No hay cursos disponibles.")
         press_any_key()
         return
 
@@ -482,10 +495,10 @@ def comando_elegir_archivo(questions, perf_data, cursos_archivos):
             chosen_file = archivo_list[archivo_idx]
             while True:
                 clear()
-                print(f"Has elegido: Curso '{chosen_curso}' / Archivo '{archivos_dict[chosen_file]['filename']}'\n")
+                print(f"Has elegido el curso '{chosen_curso}' / archivo '{archivos_dict[chosen_file]['filename']}'\n")
                 print("[1] Todas las preguntas de este archivo")
-                print("[2] Solo no respondidas de este archivo")
-                print("[3] Solo las que estén mal en este archivo")
+                print("[2] Solo no respondidas")
+                print("[3] Solo erróneas")
                 print("[4] Volver a elegir archivo\n")
 
                 mode_choice = input("Elige un modo: ").strip()
@@ -502,7 +515,7 @@ def comando_elegir_archivo(questions, perf_data, cursos_archivos):
 
 def main():
     clear()
-    print(f"QuizProg v{VERSION} - Manteniendo referencias a 'a y c' tras shuffle\n")
+    print(f"QuizProg v{VERSION} - Deep Parsing & Custom Logic\n")
 
     questions, cursos_dict, cursos_archivos = load_all_quizzes()
     print_cursos_summary(cursos_dict)
@@ -513,10 +526,10 @@ def main():
         clear()
         print(f"=== QUIZPROG v{VERSION} ===\n")
         print("1) Todas las preguntas (global)")
-        print("2) Solo preguntas no respondidas (global)")
-        print("3) Solo preguntas erróneas (global)")
+        print("2) Solo no respondidas (global)")
+        print("3) Solo erróneas (global)")
         print("4) Elegir un curso y archivo específico")
-        print("5) Resetear progreso global")
+        print("5) Resetear progreso")
         print("6) Salir\n")
 
         choice = input("Selecciona una opción: ").strip()
@@ -540,7 +553,7 @@ if __name__ == "__main__":
         main()
     except KeyboardInterrupt:
         clear()
-        print("\n[!] Saliendo (Ctrl+C)...")
+        print("\n[!] Saliendo por Ctrl+C...")
         sys.exit(0)
     except Exception as e:
         clear()
