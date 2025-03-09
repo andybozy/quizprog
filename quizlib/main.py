@@ -72,6 +72,7 @@ def main():
 
     # Load all quiz questions
     questions, cursos_dict, quiz_files_info = load_all_quizzes(QUIZ_DATA_FOLDER)
+
     # Add the line so the test_main.py expects "Archivos de Quiz Cargados"
     print("Archivos de Quiz Cargados")
 
