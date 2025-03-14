@@ -1,0 +1,733 @@
+{
+  "file_number": 1,
+  "file_name": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24",
+  "questions": [
+    {
+      "question": "¿Cuántos tipos de bien hay?",
+      "answers": [
+        {
+          "text": "A) biologico, tecnico, moral",
+          "correct": true
+        },
+        {
+          "text": "B) ontológico, instrumental, valor",
+          "correct": false
+        },
+        {
+          "text": "C) solo hay un tipo de bien",
+          "correct": false
+        },
+        {
+          "text": "D) no existe el bien",
+          "correct": false
+        }
+      ],
+      "explanation": "La risposta correct è la A perché, secondo l’impostazione classica discussa nel testo, esistono tre tipologie di bene (biologico, tecnico e morale). Le altre opzioni (B, C, D) sono errate in quanto non rispecchiano la tripartizione riconosciuta dalla tradizione filosofica.",
+      "legal_reference": "Nessun riferimento legislativo specifico presente nel documento; base teorica di etica generale.",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    },
+    {
+      "question": "El bien moral como se establece?",
+      "answers": [
+        {
+          "text": "A) Cómo es su objetivo en función de lo que individuo crea",
+          "correct": false
+        },
+        {
+          "text": "B) El aliada y el mal Morales se establecen en función de lo que conviene o perjudica a un hombre o  a una sociedad en cuanto tales",
+          "correct": true
+        },
+        {
+          "text": "C) Es imposible de establecer",
+          "correct": false
+        },
+        {
+          "text": "D) todas las anteriores son falsas",
+          "correct": false
+        }
+      ],
+      "explanation": "La risposta B è correct poiché il bene morale si fonda su ciò che davvero giova o danneggia l’essere umano e la società, in quanto tali. Le altre opzioni distorcono o negano questa relazione (A e C) o la escludono (D).",
+      "legal_reference": "Nessun riferimento legislativo specifico; si rifà a principi di etica oggettiva nella tradizione classica.",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    },
+    {
+      "question": "¿Cómo definimos moral?",
+      "answers": [
+        {
+          "text": "A) Se corresponde con la definición de relativismo",
+          "correct": false
+        },
+        {
+          "text": "B) Es la ciencia que estudia el comportamiento humano en tanto que humano",
+          "correct": false
+        },
+        {
+          "text": "C) como el conjunto de costumbres consideradas  buenas o malas por un pueblo o un individuo",
+          "correct": false
+        },
+        {
+          "text": "D) Todas las anteriores son verdaderas",
+          "correct": true
+        }
+      ],
+      "explanation": "La risposta D è correct perché la nozione di “moral” può includere sia la dimensione teorica (come scienza del comportamento umano) sia il riferimento a costumi e pratiche culturali, e talvolta viene accostata a posizioni relativistiche. Nel testo si sottolinea che la moralità può essere definita da più prospettive e, dunque, tutte le precedenti affermazioni risultano coerenti.",
+      "legal_reference": "Nessun riferimento legislativo specifico; riflessioni filosofiche generali sulla morale.",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    },
+    {
+      "question": "¿Quiénes eran los sofistas?",
+      "answers": [
+        {
+          "text": "A) un conjunto de filósofos pensadores educadores de la Grecia del siglo V a.c. que abandonando la investigación de la naturaleza centraron su mirada en el mundo humano.",
+          "correct": true
+        },
+        {
+          "text": "B) Fueron los primeros en reflexionar acerca de la naturaleza de las cosas",
+          "correct": false
+        },
+        {
+          "text": "C) Era un mosasa sabios ósea aquellos que poseían un saber práctico",
+          "correct": false
+        },
+        {
+          "text": "D) Todas las anteriores y son falsas",
+          "correct": false
+        }
+      ],
+      "explanation": "La risposta A è correct: i sofisti erano maestri ed educatori greci del V secolo a.C., noti per aver spostato l’attenzione dallo studio della natura allo studio dell’uomo e della retorica. Le altre opzioni o descrivono altri gruppi o negano la specificità dei sofisti.",
+      "legal_reference": "Nessun riferimento legislativo specifico; riferimenti storici alla Grecia antica.",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    },
+    {
+      "question": "¿Cuál es la voluntad?",
+      "answers": [
+        {
+          "text": "A) La capacidad de poner en práctica los dictados de la razón",
+          "correct": true
+        },
+        {
+          "text": "B) la capacidad de conoscimento de la realidad",
+          "correct": false
+        },
+        {
+          "text": "C) la acción misma",
+          "correct": false
+        },
+        {
+          "text": "D) el fin de la acción",
+          "correct": false
+        }
+      ],
+      "explanation": "La volontà, secondo una visione classica, è la facoltà di realizzare concretamente ciò che la ragione riconosce come bene o come scopo. Pertanto, la risposta A è correct. Le altre answers confondono la volontà con la conoscenza (B), l’azione (C) o lo scopo ultimo (D).",
+      "legal_reference": "Nessun riferimento legislativo; concetti filosofici tradizionali (Aristotele, Tommaso d’Aquino).",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    },
+    {
+      "question": "¿Qué es la libertad?",
+      "answers": [
+        {
+          "text": "A) La capacidad de producir nuestros actos de modo consciente y voluntaria",
+          "correct": true
+        },
+        {
+          "text": "B) blanca capacidad de la acción",
+          "correct": false
+        },
+        {
+          "text": "C) Una proceso fisiológico",
+          "correct": false
+        },
+        {
+          "text": "D) dios",
+          "correct": false
+        }
+      ],
+      "explanation": "La libertà è la capacità di agire consapevolmente e volontariamente. Pertanto la risposta correct è la A. Le restanti opzioni sono estranee o riduttive rispetto al concetto di libertà come atto volontario e cosciente.",
+      "legal_reference": "Nessun riferimento legislativo; concetto etico e filosofico generale.",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    },
+    {
+      "question": "¿Cuál es el temperamento?",
+      "answers": [
+        {
+          "text": "A) La articulación de los hábitos De cada individuo resultado de sus acciones",
+          "correct": false
+        },
+        {
+          "text": "B) la articulación De nuestras tendencias biológicas y psicológicas",
+          "correct": true
+        },
+        {
+          "text": "C) La libertad de acciones",
+          "correct": false
+        },
+        {
+          "text": "D) La temperatura corporea",
+          "correct": false
+        }
+      ],
+      "explanation": "Il temperamento si riferisce in genere all’insieme di inclinazioni biologiche e psicologiche innate di un individuo. Quindi la B è correct. L’opzione A descrive piuttosto il ‘carattere’ (risultato delle abitudini e delle azioni), mentre C e D non corrispondono al concetto di temperamento nel senso proprio.",
+      "legal_reference": "Nessun riferimento legislativo; nozioni di psicologia e antropologia filosofica.",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    },
+    {
+      "question": "Cual es la propuesta socrática frente a la sofística?",
+      "answers": [
+        {
+          "text": "A) Hay que abstenerse de hacer juicios acerca de las otras culturas",
+          "correct": false
+        },
+        {
+          "text": "B) que todas las culturas son buenos",
+          "correct": false
+        },
+        {
+          "text": "C) que hay que pensar que esa el bien y el mal para el ser humano, al margen De las costumbres de cada pueblo o nación",
+          "correct": true
+        },
+        {
+          "text": "D) todas las anteriores son falsas",
+          "correct": false
+        }
+      ],
+      "explanation": "La proposta di Socrate, in contrapposizione ai sofisti, è quella di cercare definizioni universali di bene e male per l’essere umano, indipendentemente dalle convenzioni culturali. Quindi la C è la risposta esatta. A e B non rispecchiano il pensiero socratico, e D risulta superflua.",
+      "legal_reference": "Nessun riferimento legislativo; rimando alle opere di Platone in cui si riflette il pensiero di Socrate.",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    },
+    {
+      "question": "¿En cuántas partes se divide la filosofía?",
+      "answers": [
+        {
+          "text": "A) en la filosofía teórica",
+          "correct": false
+        },
+        {
+          "text": "B) en la filosofía  práctica",
+          "correct": false
+        },
+        {
+          "text": "C) Todas las son anteriores verdaderas",
+          "correct": true
+        },
+        {
+          "text": "D) Todas las anteriores son falsas",
+          "correct": false
+        }
+      ],
+      "explanation": "La risposta correct è la C perché la filosofia si suddivide generalmente in un ambito teoretico e uno pratico, quindi entrambe le prime due opzioni (A e B) sono vere; di conseguenza la loro unione è correct. D è erronea.",
+      "legal_reference": "Nessun riferimento legislativo; tradizionale suddivisione della filosofia in teoretica e pratica (Aristotele).",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    },
+    {
+      "question": "¿En cuántas partes se divide la filosofía prácticas?",
+      "answers": [
+        {
+          "text": "A) En ética y política",
+          "correct": true
+        },
+        {
+          "text": "B) en ética y filosofía",
+          "correct": false
+        },
+        {
+          "text": "C) en política y etnología",
+          "correct": false
+        },
+        {
+          "text": "D) Derecho y política",
+          "correct": false
+        }
+      ],
+      "explanation": "Nella tradizione classica, la ‘filosofía práctica’ si suddivide in etica (orientata al comportamento individuale) e politica (orientata alla vita sociale). Quindi la risposta A è correct.",
+      "legal_reference": "Nessun riferimento legislativo; deriva dalla tradizione aristotelica.",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    },
+    {
+      "question": "¿Qué es el carácter?",
+      "answers": [
+        {
+          "text": "A) La articulación de los hábitos de cada individuo resultado de su acciones",
+          "correct": true
+        },
+        {
+          "text": "B) Aquello que heredamos de nuestros padres",
+          "correct": false
+        },
+        {
+          "text": "C) La articulación de nuestras tendencias biológicas",
+          "correct": false
+        },
+        {
+          "text": "D) En  temperamento",
+          "correct": false
+        }
+      ],
+      "explanation": "Il carattere è dato dalla sedimentazione delle abitudini e delle azioni di un individuo, dunque la A è correct. Le opzioni B e C confondono il carattere con l’ereditarietà o le inclinazioni biologiche, mentre D confonde carattere e temperamento.",
+      "legal_reference": "Nessun riferimento legislativo; concetti di antropologia filosofica.",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    },
+    {
+      "question": "¿De dónde proviene terminó bien ?",
+      "answers": [
+        {
+          "text": "A) del grigo agathon",
+          "correct": true
+        },
+        {
+          "text": "B) del griego kanon",
+          "correct": false
+        },
+        {
+          "text": "C) del griego aletheia",
+          "correct": false
+        },
+        {
+          "text": "D) todas las anteriore son falsas",
+          "correct": false
+        }
+      ],
+      "explanation": "La parola ‘bene’ nella tradizione filosofica greca è spesso collegata al termine ἀγαθόν (agathón), che significa ‘buono’, ‘bene’. Le altre opzioni (kanon ‘regola’ e aletheia ‘verità’) non corrispondono al termine ‘bene’.",
+      "legal_reference": "Nessun riferimento legislativo; etimologia dal greco classico.",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    },
+    {
+      "question": "¿Quien introdujo el término valor como sustituto de las nociones de bien y mal en el siglo XX?",
+      "answers": [
+        {
+          "text": "A) Hume",
+          "correct": false
+        },
+        {
+          "text": "B) Scheler",
+          "correct": true
+        },
+        {
+          "text": "C) Descartes",
+          "correct": false
+        },
+        {
+          "text": "D) Husserl",
+          "correct": false
+        }
+      ],
+      "explanation": "Max Scheler (filosofo tedesco) è noto per aver teorizzato il concetto di ‘valore’ come categoria centrale in etica, distinguendo vari livelli di valori. Perciò la B è correct.",
+      "legal_reference": "Nessun riferimento legislativo; riferimento storico-filosofico (Scheler, prima metà del XX secolo).",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    },
+    {
+      "question": "Se dice que los animales tienen:",
+      "answers": [
+        {
+          "text": "A) mundo",
+          "correct": false
+        },
+        {
+          "text": "B) perimundo",
+          "correct": true
+        },
+        {
+          "text": "C) libertad",
+          "correct": false
+        },
+        {
+          "text": "D) conciencia",
+          "correct": false
+        }
+      ],
+      "explanation": "In alcune correnti di filosofia e zoologia si afferma che gli animali abbiano un ‘perimundo’ (o ‘umwelt’), cioè un ambiente circoscritto alle loro capacità percettive. Non si attribuisce loro, in senso stretto, ‘mundo’ come esperienza globale di tipo umano, né libertà e coscienza in senso pieno.",
+      "legal_reference": "Nessun riferimento legislativo; rimando a teorie di etologia e filosofia della mente (Jakob von Uexküll).",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    },
+    {
+      "question": "De la afirmación aristotélica “todos los hombres desean por naturaleza saber” hay que deducir:",
+      "answers": [
+        {
+          "text": "A) Que él deseó de saber es una tendencia que poseemos por nacimiento antes de toda elección o circunstancia",
+          "correct": true
+        },
+        {
+          "text": "B) Que todos poseemos ya todo  el conocimiento necesario para vivir y desarrollar",
+          "correct": false
+        },
+        {
+          "text": "C) que todos los hombres pueden estudiar en la universidad",
+          "correct": false
+        },
+        {
+          "text": "D) Todas las anteriores son falsas",
+          "correct": false
+        }
+      ],
+      "explanation": "Per Aristotele, l’essere umano è naturalmente incline a ricercare la conoscenza. Ciò non implica che tutti possiedano già il sapere (B) o che necessariamente studino in università (C). Pertanto la A è correct.",
+      "legal_reference": "Nessun riferimento legislativo; citazione dalla ‘Metafisica’ di Aristotele (I, 1).",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    },
+    {
+      "question": "¿Qué son las emociones?",
+      "answers": [
+        {
+          "text": "A) estados de ánimo estables actitudes emocionales hacia determinadas realidades o personas",
+          "correct": false
+        },
+        {
+          "text": "B) reacciones psicofisiológicas determinados acontecimientos que nos son relevantes",
+          "correct": true
+        },
+        {
+          "text": "C) aquello que es el principio intrínseco de nuestras acciones",
+          "correct": false
+        },
+        {
+          "text": "D) todas las anteriores son falsas",
+          "correct": false
+        }
+      ],
+      "explanation": "Le emozioni sono reazioni psicofisiche immediate a stimoli o situazioni rilevanti per l’individuo (opzione B). Non sono stati d’animo stabili né il principio intrinseco di tutte le azioni.",
+      "legal_reference": "Nessun riferimento legislativo; concetti di psicologia classica.",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    },
+    {
+      "question": "¿Qué son los sentimientos?",
+      "answers": [
+        {
+          "text": "A) Estados de ánimos estables actitudes emocionales hacia determinadas realidades o personas",
+          "correct": true
+        },
+        {
+          "text": "B) reacciones psicofisiológicas ante determinados acontecimientos que nos son relevantes",
+          "correct": false
+        },
+        {
+          "text": "C) aquellos que es el principio intrínseco de nuestras acciones",
+          "correct": false
+        },
+        {
+          "text": "D) todas la anterior son falsas",
+          "correct": false
+        }
+      ],
+      "explanation": "I sentimenti sono generalmente stati affettivi più stabili rispetto alle semplici emozioni e definiscono atteggiamenti continuativi verso persone o realtà. Quindi A è correct. B descrive più propriamente le emozioni.",
+      "legal_reference": "Nessun riferimento legislativo; distinzione in psicologia tra ‘emozioni’ e ‘sentimenti’.",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    },
+    {
+      "question": "¿Qué es el placer?",
+      "answers": [
+        {
+          "text": "A) estados de ánimo actitudes emocionales Hacía determinadas realidades o personas",
+          "correct": false
+        },
+        {
+          "text": "B) reacción psicofisiológicas ante determinados acontecimientos que nos son relevantes",
+          "correct": false
+        },
+        {
+          "text": "C) aquellos que es el principio intrínseco de nuestras acciones",
+          "correct": false
+        },
+        {
+          "text": "D) Todas las anteriores son una falsa",
+          "correct": true
+        }
+      ],
+      "explanation": "In senso stretto, nessuna delle prime tre answers definisce compiutamente il ‘piacere’ in ambito filosofico o psicologico. La D risulta dunque vera poiché afferma che le precedenti non ne danno la definizione correct. Il piacere è un’esperienza soggettiva di gratificazione che può accompagnare sia stati fisici sia psicologici, ma non si riduce semplicemente a stati d’animo, né a mere reazioni, né al principio di ogni azione.",
+      "legal_reference": "Nessun riferimento legislativo; concetti di etica classica (Aristotele, Epicuro).",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    },
+    {
+      "question": "¿Puede una actividad intercultural ser placentera?",
+      "answers": [
+        {
+          "text": "A) No",
+          "correct": false
+        },
+        {
+          "text": "B) si",
+          "correct": true
+        },
+        {
+          "text": "C) aún no se ha descubierto",
+          "correct": false
+        },
+        {
+          "text": "D) Todas las anteriores son verdaderas",
+          "correct": false
+        }
+      ],
+      "explanation": "Un’attività interculturale può chiaramente essere piacevole e arricchente, quindi la risposta B è correct. Dire che ‘no’ o che ‘non si è scoperto’ non è veritiero e l’opzione D è contraddittoria.",
+      "legal_reference": "Nessun riferimento legislativo; considerazioni di fatto e buon senso sulle interazioni culturali.",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    },
+    {
+      "question": "¿En qué siglo puede decirse que nació la ética?",
+      "answers": [
+        {
+          "text": "A) V a.c.",
+          "correct": true
+        },
+        {
+          "text": "B) VI a.c.",
+          "correct": false
+        },
+        {
+          "text": "C) VIII a.c.",
+          "correct": false
+        },
+        {
+          "text": "D) IV a.c.",
+          "correct": false
+        }
+      ],
+      "explanation": "La nascita dell’etica come disciplina filosofica è spesso fatta coincidere con il V secolo a.C. in Grecia, periodo in cui i sofisti e Socrate iniziano a riflettere sistematicamente sulla morale.",
+      "legal_reference": "Nessun riferimento legislativo; riferimento storico alla nascita della riflessione etica nell’antica Grecia.",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    },
+    {
+      "question": "¿Es importante conocer nuestro temperamento?",
+      "answers": [
+        {
+          "text": "A) no este está asociado del carácter y no puede ser transformado",
+          "correct": false
+        },
+        {
+          "text": "B) si dada la relación existente entre temperamento y carácter hemos de conocerlo para poder modularlo",
+          "correct": true
+        },
+        {
+          "text": "C) todas son correctas",
+          "correct": false
+        },
+        {
+          "text": "D) todas son falsas",
+          "correct": false
+        }
+      ],
+      "explanation": "La risposta B è correct: comprendere il proprio temperamento aiuta a modulare il proprio carattere. A è errata perché il temperamento, pur essendo in parte innato, può essere orientato mediante l’educazione e l’esperienza. Le opzioni C e D non rispecchiano la realtà del testo.",
+      "legal_reference": "Nessun riferimento legislativo; si tratta di nozioni di psicologia e antropologia etica.",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    },
+    {
+      "question": "Según la tradición aristotélica puede un hombre desarrollarse plenamente fuera de la sociedad?",
+      "answers": [
+        {
+          "text": "A) si de hecho la sociedad supone un impedimento para el desarrollo pleno de nuestra personalidad",
+          "correct": false
+        },
+        {
+          "text": "B) no necesitamos de los demás para que podamos disfrutar los unos de los otros",
+          "correct": false
+        },
+        {
+          "text": "C) si lo mejor para la vida es vivir en una isla desierta",
+          "correct": false
+        },
+        {
+          "text": "D) no necesitamos vivir en una sociedad civil en la que le grupo humano no sólo desea vivir sino vivir bien",
+          "correct": true
+        }
+      ],
+      "explanation": "Secondo Aristotele, l’uomo è ‘zoon politikon’, un animale sociale; il suo pieno sviluppo si realizza nella polis. Perciò la risposta D, che sottolinea l’importanza di vivere in una società civile per poter ‘vivere bene’, è quella correct.",
+      "legal_reference": "Nessun riferimento legislativo; riferimento alla ‘Politica’ di Aristotele.",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    },
+    {
+      "question": "¿Cuál es el término latino para sociedad civil?",
+      "answers": [
+        {
+          "text": "A) civitas",
+          "correct": true
+        },
+        {
+          "text": "B) res publica",
+          "correct": false
+        },
+        {
+          "text": "C) officia",
+          "correct": false
+        },
+        {
+          "text": "D) cives",
+          "correct": false
+        }
+      ],
+      "explanation": "Nel latino classico, ‘civitas’ si riferisce alla comunità di cittadini (società civile), mentre ‘res publica’ si riferisce all’insieme delle cose pubbliche/istituzioni statali. ‘Officia’ sono i doveri e ‘cives’ sono i cittadini. Dunque la A è correct.",
+      "legal_reference": "Nessun riferimento legislativo; terminologia latina di base (Cicerone).",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    },
+    {
+      "question": "¿Cuáles parecen ser los orígenes del término persona?",
+      "answers": [
+        {
+          "text": "A) el sujeto de derecho y deberes",
+          "correct": false
+        },
+        {
+          "text": "B) la trinidad",
+          "correct": false
+        },
+        {
+          "text": "C) las máscaras que usaban los actores en el teatro",
+          "correct": true
+        },
+        {
+          "text": "D) el concepto se crea en el siglo XVIII",
+          "correct": false
+        }
+      ],
+      "explanation": "L’etimologia di ‘persona’ deriva dal teatro latino (maschere teatrali). A e B sono accezioni successive (giuridica e teologica), mentre l’opzione D è storicamente falsa. Quindi C è correct.",
+      "legal_reference": "Nessun riferimento legislativo; informazioni di storia del linguaggio e del diritto romano.",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    },
+    {
+      "question": "Según Cicerón el término persona tiene muchos significados ¿Cual de estos no en uno de ellos?",
+      "answers": [
+        {
+          "text": "A) la función social que desempeña un ciudadano",
+          "correct": false
+        },
+        {
+          "text": "B) el sujeto de derechos y deberes",
+          "correct": true
+        },
+        {
+          "text": "C) lo que en la divinidad son tres",
+          "correct": false
+        },
+        {
+          "text": "D) todas son falsas",
+          "correct": false
+        }
+      ],
+      "explanation": "Nel pensiero di Cicerone, la nozione di persona comprende anche la funzione sociale del cittadino e perfino aspetti di natura divina (le ‘persone’ della Trinità, che poi sarà un uso teologico sviluppato). L’idea di persona come ‘soggetto di diritti e doveri’ (B) si consoliderà nel diritto successivo, ma non è presentata da Cicerone con quella espressione in modo centrale. Per come è posta la domanda, risulta che B non rientra tra i significati ciceroniani originari (o non è il significato proprio).",
+      "legal_reference": "Nessun riferimento legislativo; si tratta di interpretazioni storiche del pensiero di Cicerone.",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    },
+    {
+      "question": "Los estoicos romanos para que usaron el término persona?",
+      "answers": [
+        {
+          "text": "A) para expresar el papel que desempeña cada ciudadano en este mundo",
+          "correct": false
+        },
+        {
+          "text": "B) para establecer una diferencia entre el hombre animal y cosas",
+          "correct": false
+        },
+        {
+          "text": "C) para indicar la igualdad de todo el género humano",
+          "correct": false
+        },
+        {
+          "text": "D) todas son correctas",
+          "correct": true
+        }
+      ],
+      "explanation": "Gli stoici romani impiegano ‘persona’ con vari significati: il ruolo di ciascun uomo nella società, la dignità umana distinta da animali e oggetti, e anche l’idea dell’uguaglianza tra gli uomini in quanto ‘persone’. Perciò la risposta correct è D, tutte le precedenti.",
+      "legal_reference": "Nessun riferimento legislativo; cenni storici allo stoicismo romano (Seneca, Marco Aurelio).",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    },
+    {
+      "question": "Cuál es la célebre definición boeciana de persona:",
+      "answers": [
+        {
+          "text": "A) naturaleza racional de substancia individual",
+          "correct": false
+        },
+        {
+          "text": "B) substancia individual de naturaleza racional",
+          "correct": true
+        },
+        {
+          "text": "C) substancia natural del individuo racional",
+          "correct": false
+        },
+        {
+          "text": "D) todas son falsas",
+          "correct": false
+        }
+      ],
+      "explanation": "Secondo Boezio (filosofo e teologo tardo-antico), la persona è definita come ‘sostanza individuale di natura razionale’ (subsistentia individua rationalis naturae). La B è quindi la formulazione classica correct.",
+      "legal_reference": "Nessun riferimento legislativo; definizione di Boezio (De persona et duabus naturis).",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    },
+    {
+      "question": "¿En qué obra introduce Kant su célebre definición de la dignidad de la persona?",
+      "answers": [
+        {
+          "text": "A) en la metafísica de las costumbres",
+          "correct": true
+        },
+        {
+          "text": "B) en la crítica de la razón pura",
+          "correct": false
+        },
+        {
+          "text": "C) en la crítica de la razón práctica",
+          "correct": false
+        },
+        {
+          "text": "D) en la crítica del juicio",
+          "correct": false
+        }
+      ],
+      "explanation": "La nozione di dignità della persona, intesa come valore intrinseco e incondizionato, è esplicitata da Kant soprattutto nella ‘Metafísica de las costumbres’ (in tedesco Metaphysik der Sitten).",
+      "legal_reference": "Nessun riferimento legislativo; riferimento all’opera di Immanuel Kant (1797).",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    },
+    {
+      "question": "¿Cuáles son los sujetos de nuestras célebres deudas?",
+      "answers": [
+        {
+          "text": "A) los padres los educadores y la sociedad",
+          "correct": true
+        },
+        {
+          "text": "B) con los políticos con los médicos y con la hacienda",
+          "correct": false
+        },
+        {
+          "text": "C) los ministerios la iglesia y la universidad",
+          "correct": false
+        },
+        {
+          "text": "D) todas son correctas",
+          "correct": false
+        }
+      ],
+      "explanation": "Nel contesto etico-filosofico, spesso si fa riferimento ai genitori, ai maestri/educatori e alla comunità come coloro verso i quali si nutre un debito di riconoscenza e di dovere morale. Pertanto la A è correct.",
+      "legal_reference": "Nessun riferimento legislativo; concetti di etica tradizionale (filosofi antichi, Confucio, ecc.).",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    },
+    {
+      "question": "¿En qué se diferencia la sociedad civil del resto de sociedades naturales?",
+      "answers": [
+        {
+          "text": "A) en el tamaño",
+          "correct": false
+        },
+        {
+          "text": "B) en la complejidad",
+          "correct": false
+        },
+        {
+          "text": "C) en que ella se atiende no solo al vivir sono al vivir bien",
+          "correct": true
+        },
+        {
+          "text": "D) no hay diferencia",
+          "correct": false
+        }
+      ],
+      "explanation": "Nella concezione aristotelica, la società civile (o polis) non mira solo alla pura sopravvivenza (‘vivir’), ma al ‘vivir bene’. Quindi la C è esatta, mentre dimensioni e complessità non esauriscono la differenza, e la D è palesemente sbagliata.",
+      "legal_reference": "Nessun riferimento legislativo; Aristotele, ‘Politica’.",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    },
+    {
+      "question": "Comenta brevemente este texto. Indica su contenido y lo relaciona con la aparición del movimiento sofista en la antigua Grecia y el surgimiento con Sócrates de la ética.\n\n“Los macedonios consideran bello que las muchachas, antes de casarse amen a un hombre y tengan relaciones con él, pero les parece feo que una vez casadas tengan un amante; para los griegos, sin embargo, ambas cosas son feas. Para los tracios el tatuaje en las muchachas se considera un adorno; para todos los demás el tatuaje es castigo; la marca reservada a los delincuentes. Los persas consideran bello que los hombres se maquillan igual que las mujeres y que se unan con la hija, la madre o la hermana; en cambio, los griegos consideran feas e inmorales tales acciones.”",
+      "answers": [],
+      "explanation": "Questa domanda è aperta e non prevede una risposta a scelta multipla. Il testo mette in evidenza la varietà di costumi e valori in diverse culture antiche (macedoni, traci, persiani, greci) e invita a riflettere su come i sofisti, nel V secolo a.C., abbiano enfatizzato il relativismo morale e la convenzionalità dei valori culturali. Con Socrate e, in seguito, Platone, emergerà la ricerca di principi universali del bene e del male, inaugurando un approccio filosofico all’etica che cerca fondamenta razionali al di là del puro costume locale. L’osservazione del testo mostra dunque la contrapposizione fra relativismo culturale (caro ai sofisti) e la prospettiva universalistica di Socrate.",
+      "legal_reference": "Nessun riferimento legislativo; richiamo alla storia della filosofia greca (sofisti, Socrate).",
+      "original_file": "Test Etica Fundamental 1 parcial AGGIORNATO 23 4 24.docx"
+    }
+  ]
+}

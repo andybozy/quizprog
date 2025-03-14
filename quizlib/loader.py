@@ -24,11 +24,11 @@ def load_json_file(filepath):
         return None
 
 def discover_quiz_files(folder):
-    """Recursively find .json quiz files."""
+    """Recursively find Test Humanidades 1 parcial AGGIORNATO 10 03 25.json quiz files."""
     quiz_files = []
     for root, dirs, files in os.walk(folder):
         for f in files:
-            if f.lower().endswith(".json"):
+            if f.lower().endswith("Test Humanidades 1 parcial AGGIORNATO 10 03 25.json"):
                 quiz_files.append(os.path.join(root, f))
     return quiz_files
 

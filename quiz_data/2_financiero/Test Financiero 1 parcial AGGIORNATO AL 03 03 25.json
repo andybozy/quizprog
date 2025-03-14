@@ -1,0 +1,727 @@
+{
+  "file_number": 1,
+  "file_name": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25",
+  "questions": [
+    {
+      "question": "¿Cómo se determina la base liquidable para el cálculo de la deuda tributaria?",
+      "answers": [
+        {
+          "text": "Sumando las reducciones al resultado de la base imponible.",
+          "correct": false
+        },
+        {
+          "text": "Restando las deducciones aplicables a la base imponible.",
+          "correct": true
+        },
+        {
+          "text": "Multiplicando la base imponible por el tipo de gravamen.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores es correcta.",
+          "correct": false
+        }
+      ],
+      "explanation": "La base liquidable se obtiene de la base imponible después de aplicar las reducciones establecidas en la normativa tributaria. El artículo 54 de la LGT la define como “la magnitud resultante de practicar, en su caso, en la base imponible las reducciones establecidas en la ley”. De este modo, la respuesta correcta es restar dichas reducciones a la base imponible, no sumarlas ni multiplicarlas.",
+      "normative_references": "Artículo 54 de la LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "¿Cuál de los siguientes es un ejemplo de cuota tributaria?",
+      "answers": [
+        {
+          "text": "El resultado de sumar la base liquidable y los recargos ejecutivos.",
+          "correct": false
+        },
+        {
+          "text": "El resultado tras aplicar un porcentaje fijo sobre una base imponible no monetaria.",
+          "correct": false
+        },
+        {
+          "text": "El resultado de aplicar el tipo de gravamen a la base liquidable.",
+          "correct": true
+        },
+        {
+          "text": "Los intereses de demora aplicados sobre las deudas tributarias pendientes.",
+          "correct": false
+        }
+      ],
+      "explanation": "La cuota tributaria resulta de aplicar el tipo de gravamen a la base liquidable. El artículo 56 de la LGT señala que se distingue entre cuota íntegra, cuota líquida y cuota diferencial, pero en todo caso la base es la aplicación del tipo a la base liquidable.",
+      "normative_references": "Artículo 56 de la LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "La Administración podrá declarar la existencia de simulación:",
+      "answers": [
+        {
+          "text": "Por sí misma (en el acto de liquidación) y sin necesidad de tramitar ningún procedimiento administrativo especial.",
+          "correct": false
+        },
+        {
+          "text": "Por sí misma (en el acto de liquidación) pero previa la tramitación de un procedimiento administrativo especial.",
+          "correct": true
+        },
+        {
+          "text": "Por sí misma (en el acto de liquidación) pero sólo cuando medie una previa declaración judicial en el mismo sentido.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las respuestas anteriores es correcta.",
+          "correct": false
+        }
+      ],
+      "explanation": "Según el artículo 16 de la LGT, la simulación en materia tributaria se declara en el acto de liquidación por la Administración, pero requiere tramitar un procedimiento especial que garantice el derecho de defensa del contribuyente. No es suficiente la mera actuación unilateral sin seguir el procedimiento.",
+      "normative_references": "Artículo 16 de la LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "¿Cuál de los siguientes ingresos públicos no es un tributo?",
+      "answers": [
+        {
+          "text": "Los impuestos.",
+          "correct": false
+        },
+        {
+          "text": "Las sanciones tributarias.",
+          "correct": true
+        },
+        {
+          "text": "Las tasas.",
+          "correct": false
+        },
+        {
+          "text": "Las contribuciones especiales.",
+          "correct": false
+        }
+      ],
+      "explanation": "Los tributos se clasifican en impuestos, tasas y contribuciones especiales. Las sanciones tributarias no tienen naturaleza de tributo sino que son medidas correctivas o punitivas impuestas por la Administración ante incumplimientos.",
+      "normative_references": "Artículos 2 y 58 y siguientes de la LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "Las normas tributarias:",
+      "answers": [
+        {
+          "text": "Pueden tener alcance retroactivo, salvo que dicho alcance retroactivo vulnere algún principio o valor consagrado en la CE y salvo, también, en el caso de las normas sancionadoras o restrictivas de derechos no favorables.",
+          "correct": true
+        },
+        {
+          "text": "En ningún caso pueden tener alcance retroactivo.",
+          "correct": false
+        },
+        {
+          "text": "Pueden tener alcance retroactivo en cualquier caso.",
+          "correct": false
+        },
+        {
+          "text": "No pueden tener alcance retroactivo en cualquier caso, salvo en el caso de las normas sancionadoras o restrictivas de derechos no favorables.",
+          "correct": false
+        }
+      ],
+      "explanation": "El artículo 10 de la LGT recoge que las normas tributarias no tienen efectos retroactivos salvo que se disponga lo contrario. Sin embargo, las normas sancionadoras o restrictivas de derechos no favorables no pueden aplicarse con carácter retroactivo. En cambio, sí puede haber retroactividad en otras normas tributarias siempre que no vulnere la Constitución.",
+      "normative_references": "Artículo 10 de la LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "El objeto de la obligación tributaria principal está constituido:",
+      "answers": [
+        {
+          "text": "Por la deuda tributaria.",
+          "correct": true
+        },
+        {
+          "text": "Únicamente por la cuota tributaria.",
+          "correct": false
+        },
+        {
+          "text": "Por la cuota tributaria incrementada en los correspondientes intereses de demora.",
+          "correct": false
+        },
+        {
+          "text": "Por la cuota tributaria y por las obligaciones tributarias de carácter formal.",
+          "correct": false
+        }
+      ],
+      "explanation": "La obligación tributaria principal consiste en el pago de la deuda tributaria, que incluye la cuota tributaria y, en su caso, los recargos e intereses correspondientes. La ley general tributaria contempla que esta obligación principal se identifique con la deuda tributaria.",
+      "normative_references": "Artículos 19 y 58 de la LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "Los tributos que utilizan la residencia habitual en territorio español como criterio de sujeción, gravan:",
+      "answers": [
+        {
+          "text": "Únicamente los hechos imponibles realizados dentro del territorio de aplicación de la norma tributaria.",
+          "correct": false
+        },
+        {
+          "text": "Los hechos imponibles realizados por nacionales españoles en cualquier lugar del mundo.",
+          "correct": false
+        },
+        {
+          "text": "Los hechos imponibles realizados en cualquier lugar del mundo por residentes en territorio español.",
+          "correct": true
+        },
+        {
+          "text": "Únicamente los hechos imponibles realizados en territorio español por los residentes en dicho territorio.",
+          "correct": false
+        }
+      ],
+      "explanation": "El principio de residencia habitual implica que quienes residan habitualmente en España tributan por la totalidad de su renta mundial, independientemente de dónde se obtenga. Un ejemplo claro es el IRPF.",
+      "normative_references": "Artículos 8 y 9 de la Ley del IRPF",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "El Impuesto sobre la Renta de las Personas Fisicas es un impuesto:",
+      "answers": [
+        {
+          "text": "Directo, personal, subjetivo, periódico, estatal cedido parcialmente a las Comunidades Autónomas de régimen común.",
+          "correct": true
+        },
+        {
+          "text": "Indirecto, personal, subjetivo, periódico, estatal cedido a las Comunidades Autónomas de régimen común.",
+          "correct": false
+        },
+        {
+          "text": "Indirecto, real, subjetivo, periódico, estatal cedido a las Comunidades Autónomas de régimen común.",
+          "correct": false
+        },
+        {
+          "text": "Directo, personal, objetivo, instantáneo, estatal cedido parcialmente a las Comunidades Autónomas de régimen común.",
+          "correct": false
+        }
+      ],
+      "explanation": "El IRPF es un impuesto directo y personal que grava la renta de las personas físicas según su capacidad económica, con cesión parcial a las Comunidades Autónomas de régimen común. Es periódico y de carácter subjetivo.",
+      "normative_references": "Artículos 1 y 2 de la Ley del IRPF",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "Los elementos de la obligación tributaria principal:",
+      "answers": [
+        {
+          "text": "Pueden alterarse por actos o convenios entre particulares.",
+          "correct": false
+        },
+        {
+          "text": "Pueden alterarse por actos o convenios entre particulares, pero sólo en el caso de que lo autorice expresamente la Administración.",
+          "correct": false
+        },
+        {
+          "text": "Pueden alterarse por acuerdo expreso de la Administración.",
+          "correct": false
+        },
+        {
+          "text": "No pueden alterarse ni por actos o convenios entre particulares, ni tampoco por acuerdo de la Administración.",
+          "correct": true
+        }
+      ],
+      "explanation": "El artículo 17.5 de la LGT establece que los elementos de la obligación tributaria no pueden modificarse por acuerdos de partes ni por convenios privados, ni siquiera con la Administración, salvo supuestos autorizados expresamente por la ley (por ejemplo, aplazamientos que no alteran la base, sino solo el plazo de pago).",
+      "normative_references": "Artículo 17.5 de la LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "Las exenciones tributarias implican:",
+      "answers": [
+        {
+          "text": "La no realización del hecho imponible.",
+          "correct": false
+        },
+        {
+          "text": "Una reducción parcial de la obligación tributaria principal.",
+          "correct": false
+        },
+        {
+          "text": "Que no obstante la realización del hecho imponible, la obligación tributaria principal no llega a nacer.",
+          "correct": true
+        },
+        {
+          "text": "Ninguna de las respuestas anteriores es correcta.",
+          "correct": false
+        }
+      ],
+      "explanation": "Las exenciones se dan cuando el hecho imponible se realiza, pero la ley dispone que no nazca la obligación tributaria o que no se exija la deuda. La LGT establece que, a pesar de cumplirse el presupuesto de hecho, no surge la obligación de pagar en virtud de la exención.",
+      "normative_references": "Artículos 20 y 21 de la LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "La instalación de mesas y sillas de un bar en una plaza pública conlleva la realización del hecho imponible de:",
+      "answers": [
+        {
+          "text": "Una contribución especial.",
+          "correct": false
+        },
+        {
+          "text": "Un impuesto.",
+          "correct": false
+        },
+        {
+          "text": "Una tasa.",
+          "correct": true
+        },
+        {
+          "text": "Un precio público.",
+          "correct": false
+        }
+      ],
+      "explanation": "La instalación de mesas y sillas en la vía pública constituye un aprovechamiento especial del dominio público, hecho imponible de una tasa por ocupación o uso privativo del dominio público (Artículo 20 de la LRHL).",
+      "normative_references": "Artículo 2.2.a) de la LGT y Artículo 20 de la LRHL",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "El principio de reserva de ley significa que se debe regular por ley",
+      "answers": [
+        {
+          "text": "La creación ex novo de un tributo, sus elementos configuradores y todo beneficio fiscal.",
+          "correct": true
+        },
+        {
+          "text": "La creación ex novo de un impuesto y sus elementos configuradores.",
+          "correct": false
+        },
+        {
+          "text": "La creación ex novo de un tributo.",
+          "correct": false
+        },
+        {
+          "text": "La creación ex novo de un impuesto.",
+          "correct": false
+        }
+      ],
+      "explanation": "El principio de reserva de ley exige que la creación de los tributos, sus elementos esenciales y los beneficios fiscales se regulen mediante ley, no pudiendo establecerse válidamente por normas de rango inferior. Así lo dispone el artículo 8 de la LGT, en relación con el artículo 31.3 de la CE.",
+      "normative_references": "Artículo 8 de la LGT, Artículo 31.3 de la CE",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "El hecho imponible cumple:",
+      "answers": [
+        {
+          "text": "Únicamente la función de generar la obligación tributaria principal.",
+          "correct": false
+        },
+        {
+          "text": "La función de generar la obligación tributaria principal así como la de configurar cada tributo en particular.",
+          "correct": false
+        },
+        {
+          "text": "La función de generar la obligación tributaria principal, la de configurar cada tributo en particular y la de legitimar la exigencia del tributo.",
+          "correct": true
+        },
+        {
+          "text": "Ninguna de las respuestas anteriores es correcta.",
+          "correct": false
+        }
+      ],
+      "explanation": "Según el artículo 20 de la LGT, el hecho imponible es el presupuesto de hecho que origina la obligación tributaria principal, define cada tributo y legitima su exigencia. No se limita a una sola función, sino que cumple varias a la vez.",
+      "normative_references": "Artículo 20 de la LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "Los supuestos de «no sujeción» tributaria implican:",
+      "answers": [
+        {
+          "text": "La no realización del hecho imponible.",
+          "correct": true
+        },
+        {
+          "text": "Que no obstante la realización del hecho imponible, la obligación tributaria principal no llega a nacer.",
+          "correct": false
+        },
+        {
+          "text": "Una reducción parcial de la obligación tributaria principal.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las respuestas anteriores es correcta.",
+          "correct": false
+        }
+      ],
+      "explanation": "La no sujeción supone que el hecho imponible, tal como lo define la ley, no llega a producirse. Por tanto, no nace la obligación tributaria. Se diferencia de la exención, en la que sí se realiza el hecho imponible pero la ley dispensa el pago.",
+      "normative_references": "Artículo 20.2 de la LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "Los recargos por declaración extemporánea y espontánea:",
+      "answers": [
+        {
+          "text": "Nunca son compatibles con los intereses de demora dado que los sustituyen como indemnización por retraso en el cumplimiento.",
+          "correct": false
+        },
+        {
+          "text": "No son en ningún caso compatibles con los recargos del periodo ejecutivo.",
+          "correct": false
+        },
+        {
+          "text": "Son compatibles en cualquier caso con los intereses de demora pues tienen naturaleza tributaria y no indemnizatoria. Debido a ello ambas cuantías deberán sumarse.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las otras respuestas describe correctamente a esta prestación patrimonial accesoria.",
+          "correct": true
+        }
+      ],
+      "explanation": "Según el artículo 27 de la LGT, el recargo por declaración extemporánea depende del tiempo transcurrido y excluye sanciones. La norma especifica cuándo procede añadir intereses de demora y en qué supuestos no. Las opciones dadas no describen con precisión completa la compatibilidad o incompatibilidad en todos sus matices, por lo que la respuesta correcta es “Ninguna de las anteriores describe correctamente”.",
+      "normative_references": "Artículo 27 de la LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "El aspecto material del elemento objetivo del hecho imponible se identifica en todo caso con:",
+      "answers": [
+        {
+          "text": "La manifestación de riqueza gravada por el tributo.",
+          "correct": false
+        },
+        {
+          "text": "El hecho, situación, acto o negocio, en sí mismo considerado, que la ley define como gravado.",
+          "correct": true
+        },
+        {
+          "text": "El territorio en que ha de realizarse el hecho, situación, acto o negocio que la ley define como gravado.",
+          "correct": false
+        },
+        {
+          "text": "La duración del hecho, situación, acto o negocio que la ley define como gravado.",
+          "correct": false
+        }
+      ],
+      "explanation": "El aspecto material del hecho imponible es, precisamente, el acto o situación que la ley recoge como generador de la obligación, sin referirse a otros aspectos como su localización o duración. Es la esencia del hecho gravado.",
+      "normative_references": "Artículo 20 de la LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "¿Qué ocurre con los recargos cuando se paga la deuda tributaria después de iniciar el periodo ejecutivo, y después de haber incumplido el plazo de pago del artículo 65.2 LGT?",
+      "answers": [
+        {
+          "text": "No se aplican recargos.",
+          "correct": false
+        },
+        {
+          "text": "La deuda aumenta en un 10% sin intereses.",
+          "correct": false
+        },
+        {
+          "text": "Se aplica un recargo ejecutivo del 5% sin intereses.",
+          "correct": false
+        },
+        {
+          "text": "Se aplica un recargo del 20% más intereses de demora.",
+          "correct": true
+        }
+      ],
+      "explanation": "El artículo 28 de la LGT establece los tipos de recargos ejecutivos: 5%, 10% o 20% según el momento de pago en el periodo ejecutivo. Tras incumplir el plazo de pago voluntario y ya iniciada la vía ejecutiva, si no se abona en los primeros plazos de reducción, se impone un recargo del 20% más los intereses de demora.",
+      "normative_references": "Artículo 28 de la LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "¿Quiénes están obligados a soportar los pagos a cuenta en el caso del IRPF por rendimientos del trabajo?",
+      "answers": [
+        {
+          "text": "Todos los trabajadores por cuenta ajena.",
+          "correct": false
+        },
+        {
+          "text": "Los trabajadores que superen un umbral de ingresos establecido anualmente.",
+          "correct": false
+        },
+        {
+          "text": "Los empleadores en nombre de sus empleados.",
+          "correct": true
+        },
+        {
+          "text": "Únicamente los trabajadores autónomos.",
+          "correct": false
+        }
+      ],
+      "explanation": "Los pagos a cuenta del IRPF (retenciones e ingresos a cuenta) se efectúan por parte del pagador de los rendimientos del trabajo, es decir, el empleador, quien está obligado a ingresar las retenciones correspondientes en la Administración Tributaria.",
+      "normative_references": "Artículo 23 de la LGT (concepto general); artículos de la Ley del IRPF sobre retenciones",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "El principio de generalidad obliga al legislador, entre otros aspectos, a:",
+      "answers": [
+        {
+          "text": "Exigir el deber de contribuir únicamente a las personas con nacionalidad española.",
+          "correct": false
+        },
+        {
+          "text": "Gravar solamente algunos de los actos indicativos de capacidad económica.",
+          "correct": false
+        },
+        {
+          "text": "Evitar la existencia de beneficios fiscales o exenciones carentes de justificación.",
+          "correct": true
+        },
+        {
+          "text": "Todas son incorrectas.",
+          "correct": false
+        }
+      ],
+      "explanation": "El principio de generalidad, consagrado en el artículo 31.1 de la CE, exige que todos contribuyan según su capacidad económica y que no se introduzcan privilegios o tratos desiguales injustificados a favor de ciertos contribuyentes.",
+      "normative_references": "Artículo 31.1 de la CE",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "El devengo del tributo hace referencia:",
+      "answers": [
+        {
+          "text": "Al momento en que la Administración puede exigir el pago de la obligación tributaria principal.",
+          "correct": false
+        },
+        {
+          "text": "Al momento en que el sujeto pasivo debe hacer frente al pago de la obligación tributaria principal.",
+          "correct": false
+        },
+        {
+          "text": "Al momento en que nace la obligación tributaria principal.",
+          "correct": true
+        },
+        {
+          "text": "Al momento en que el sujeto pasivo debe presentar la correspondiente autoliquidación tributaria.",
+          "correct": false
+        }
+      ],
+      "explanation": "El devengo determina el momento en que se entiende realizado el hecho imponible y, por tanto, nace la obligación tributaria principal. Así lo dispone el artículo 21 de la LGT. No necesariamente coincide con la fecha de pago o de presentación de la declaración.",
+      "normative_references": "Artículo 21 de la LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "Un contribuyente ha ocultado ingresos en su declaración de la renta que han supuesto que se ahorrara 3.000 euros de impuesto. ¿Inicialmente, qué tipo de infracción ha cometido según la LGT?",
+      "answers": [
+        {
+          "text": "Infracción leve.",
+          "correct": false
+        },
+        {
+          "text": "Infracción grave.",
+          "correct": true
+        },
+        {
+          "answer_label": "e",
+          "text": "Infracción muy grave.",
+          "correct": false
+        },
+        {
+          "text": "No ha cometido ninguna infracción.",
+          "correct": false
+        }
+      ],
+      "explanation": "Según el artículo 191 de la LGT, ocultar ingresos puede considerarse infracción grave. El importe defraudado de 3.000 euros, unido a la ocultación, normalmente se encuadra en infracción grave si se dan los supuestos establecidos en la ley (por ejemplo, uso de facturas falsas, contabilidad doble, etc.).",
+      "normative_references": "Artículo 191 de la LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "¿Cuál de los siguientes es un presupuesto agravante de las infracciones tributarias según la LGT?",
+      "answers": [
+        {
+          "text": "El cumplimiento espontáneo de las obligaciones tributarias posteriores a la infracción.",
+          "correct": false
+        },
+        {
+          "text": "La cantidad de veces que el infractor ha consultado sobre normativa tributaria.",
+          "correct": false
+        },
+        {
+          "text": "El volumen de declaraciones presentadas correctamente en el pasado.",
+          "correct": false
+        },
+        {
+          "text": "La utilización de personas o entidades interpuestas para ocultar la identidad del obligado tributario.",
+          "correct": true
+        }
+      ],
+      "explanation": "Conforme al artículo 187 de la LGT, se considera agravante la utilización de medios fraudulentos, como la intervención de terceros o interpuestas para esconder la identidad del contribuyente, lo que evidencia una mayor intencionalidad de defraudación.",
+      "normative_references": "Artículo 187 de la LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "El incumplimiento de los deberes de facturación:",
+      "answers": [
+        {
+          "text": "Puede ser un medio de graduación de las infracciones tributarias.",
+          "correct": false
+        },
+        {
+          "text": "Puede ser un medio de graduación de las infracciones y de las sanciones tributarias.",
+          "correct": false
+        },
+        {
+          "text": "Este incumplimiento no tiene impacto ni en las infracciones ni en las sanciones.",
+          "correct": false
+        },
+        {
+          "text": "Puede ser un medio de graduación de las sanciones tributarias.",
+          "correct": true
+        }
+      ],
+      "explanation": "Según el artículo 191.3 de la LGT y artículos concordantes, el incumplimiento de la obligación de facturar, emitir recibos o documentos análogos puede agravar la sanción, dependiendo de la relevancia de la ocultación y la intencionalidad.",
+      "normative_references": "Artículo 191.3 de la LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "¿Qué es una liquidación definitiva según la LGT?",
+      "answers": [
+        {
+          "text": "La que se practica en un procedimiento inspector previa comprobación de la totalidad de los elementos de la obligación tributaria y su cuantificación.",
+          "correct": true
+        },
+        {
+          "text": "La que se practica en un procedimiento inspector previa comprobación de algunos de los elementos de la obligación tributaria y su cuantificación.",
+          "correct": false
+        },
+        {
+          "text": "La que se practica en un procedimiento inspector previa comprobación de la mayoría de los elementos de la obligación tributaria y su cuantificación.",
+          "correct": false
+        },
+        {
+          "text": "La que se practica en un procedimiento de gestión previa comprobación de algunos de los elementos de la obligación tributaria y su cuantificación.",
+          "correct": false
+        }
+      ],
+      "explanation": "La liquidación definitiva supone la conclusión de un procedimiento de inspección en el que se han revisado todos los elementos determinantes de la obligación tributaria, fijando así la cuantía final que se adeuda (o que en su caso procede devolver).",
+      "normative_references": "Artículo 101 de la LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "La Administración Tributaria puede imponer sanciones tributarias en caso de infracciones tributarias",
+      "answers": [
+        {
+          "text": "Sólo multas pecuniarias.",
+          "correct": false
+        },
+        {
+          "text": "Sanciones pecuniarias, sanciones accesorias y penas privativas de libertad.",
+          "correct": false
+        },
+        {
+          "text": "Sanciones pecuniarias y sanciones accesorias, nunca privativas de libertad.",
+          "correct": true
+        },
+        {
+          "text": "La Administración Tributaria no tiene potestad para imponer sanciones.",
+          "correct": false
+        }
+      ],
+      "explanation": "La Administración tiene potestad sancionadora en materia tributaria, pudiendo imponer sanciones económicas (multas) y otras accesorias (p. ej. prohibición de subvenciones), pero las penas privativas de libertad corresponden en exclusiva a la jurisdicción penal.",
+      "normative_references": "Artículo 178 de la LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "¿Qué es el trámite de audiencia según la LGT?",
+      "answers": [
+        {
+          "text": "Es un trámite que se lleva a cabo exclusivamente a través de los recursos de reposición o reclamación económico-administrativa.",
+          "correct": false
+        },
+        {
+          "text": "Es un trámite que se lleva a cabo a través de la presentación de alegaciones y concluye con una resolución que podría ser recurrida en reposición o reclamación económico-administrativa.",
+          "correct": false
+        },
+        {
+          "text": "Es un trámite que se lleva a cabo a través de la presentación de alegaciones y concluye con una resolución que podría ser recurrida ante el mismo órgano o ante el Tribunal Económico-Administrativo de la Comunidad Autónoma.",
+          "correct": false
+        },
+        {
+          "text": "Tanto la b) como la c) son correctas y se complementan.",
+          "correct": true
+        }
+      ],
+      "explanation": "El trámite de audiencia permite al obligado tributario presentar alegaciones antes de la resolución. Puede desembocar en una resolución administrativa que, a su vez, es susceptible de recurso de reposición o reclamación económico-administrativa, según corresponda. Así, tanto la descripción de la b) como la de la c) se consideran correctas y complementarias.",
+      "normative_references": "Artículo 99 de la LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "En un procedimiento de inspección, ¿qué documento finaliza formalmente el proceso?",
+      "answers": [
+        {
+          "text": "La declaración del contribuyente.",
+          "correct": false
+        },
+        {
+          "text": "El informe final de inspección.",
+          "correct": false
+        },
+        {
+          "text": "El acta de inspección.",
+          "correct": true
+        },
+        {
+          "text": "El recibo de pago.",
+          "correct": false
+        }
+      ],
+      "explanation": "El procedimiento de inspección concluye con la extensión de un acta de inspección, documento en el que se reflejan los hechos comprobados, la regularización propuesta y, en su caso, las sanciones. El informe final es un documento interno, mientras que el acta es el que formalmente finaliza la actuación de inspección.",
+      "normative_references": "Artículo 156 de la LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "Un contribuyente no incluye en su declaración trimestral del IVA 25 de las 100 facturas que ha emitido ese trimestre. ¿Se puede aplicar algún criterio de graduación de sanciones?",
+      "answers": [
+        {
+          "text": "Sí, porque no alcanza el 50% de incidencia.",
+          "correct": false
+        },
+        {
+          "text": "Sí, porque siempre que hay ocultación se aplica un criterio agravante.",
+          "correct": false
+        },
+        {
+          "text": "Sí, se agrava en un 100% al haber ocultado más del 20% de su facturación.",
+          "correct": true
+        },
+        {
+          "text": "Sí, porque al alcanzar el 20% de incidencia se aplica un criterio atenuante.",
+          "correct": false
+        }
+      ],
+      "explanation": "El artículo 187 de la LGT recoge que la ocultación de más del 20% de la base o de la facturación puede constituir un criterio agravante, incrementando la sanción. Aquí se han omitido 25 de 100 facturas, lo cual equivale al 25%, superando el 20%.",
+      "normative_references": "Artículo 187 de la LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "Señala, de las siguientes afirmaciones, cuál es VERDADERA:",
+      "answers": [
+        {
+          "text": "A través de una providencia tributaria pueden ejercitarse, solicitar o renunciar a las diferentes opciones previstas por la normativa tributaria.",
+          "correct": false
+        },
+        {
+          "text": "La declaración tributaria es una manifestación que acredita haber realizado el pago de un impuesto en plazo voluntario.",
+          "correct": false
+        },
+        {
+          "text": "A través de una declaración tributaria se facilita la información necesaria para que el contribuyente pueda practicar una liquidación.",
+          "correct": true
+        },
+        {
+          "text": "Todas las anteriores son falsas.",
+          "correct": false
+        }
+      ],
+      "explanation": "La declaración tributaria sirve para aportar a la Administración información relevante sobre hechos imponibles y bases de tributación, posibilitando que el obligado tributario o la propia Administración practique la liquidación. De ahí que la respuesta verdadera sea la c).",
+      "normative_references": "Artículo 119 de la LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "La reclamación económico-administrativa presentada ante un Tribunal Económico-Administrativo:",
+      "answers": [
+        {
+          "text": "Tiene naturaleza administrativa.",
+          "correct": true
+        },
+        {
+          "text": "Tiene naturaleza mixta.",
+          "correct": false
+        },
+        {
+          "text": "No tiene naturaleza administrativa.",
+          "correct": false
+        },
+        {
+          "text": "Tiene naturaleza judicial.",
+          "correct": false
+        }
+      ],
+      "explanation": "Las reclamaciones económico-administrativas son recursos de naturaleza administrativa. Se interponen ante los Tribunales Económico-Administrativos, que forman parte de la vía administrativa previa a la judicial.",
+      "normative_references": "Artículo 229 de la LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    }
+  ]
+}
