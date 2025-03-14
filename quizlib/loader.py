@@ -28,7 +28,7 @@ def discover_quiz_files(folder):
     quiz_files = []
     for root, dirs, files in os.walk(folder):
         for f in files:
-            if f.lower().endswith("Test Humanidades 1 parcial AGGIORNATO 10 03 25.json"):
+            if f.lower().endswith(".json"):
                 quiz_files.append(os.path.join(root, f))
     return quiz_files
 
