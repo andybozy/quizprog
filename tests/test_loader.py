@@ -3,6 +3,7 @@
 import pytest
 from quizlib.loader import discover_quiz_files, load_json_file, load_all_quizzes
 import os
+import json
 
 def test_discover_quiz_files(tmp_path):
     data_dir = tmp_path / "quizzes"
@@ -24,7 +25,8 @@ def test_load_json_file(tmp_path):
 def test_load_all_quizzes(tmp_path):
     d = tmp_path / "some_quizzes"
     d.mkdir()
-    (d / "test.json").write_text('{"questions":[{"question":"OK?","answers":[]}]}', encoding="utf-8")
+    qf = d / "test.json"
+    qf.write_text('{"questions":[{"question":"OK?","answers":[]}]}', encoding="utf-8")
 
     combined, cursos, info = load_all_quizzes(str(d))
     assert len(combined) == 1

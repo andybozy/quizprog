@@ -4,11 +4,8 @@ import os
 
 def pick_a_file_menu(cursos_dict):
     """
-    Interactively pick:
-      1) A course
-      2) A section
-      3) A file
-    Returns filepath or None if canceled.
+    Menù interattivo: prima mostra i corsi, poi le sezioni, poi i file.
+    Ritorna il filepath selezionato o None se annullato.
     """
     if not cursos_dict:
         print("No hay cursos disponibles.")
@@ -34,7 +31,8 @@ def pick_a_file_menu(cursos_dict):
 
     course_data = cursos_dict[chosen_course]
     section_names = sorted(course_data["sections"].keys())
-    # If there's only one section and it's "(No subfolder)", skip
+
+    # Se c'è solo una sezione e si chiama "(No subfolder)", andiamo diretti
     if len(section_names) == 1 and section_names[0] == "(No subfolder)":
         chosen_section = section_names[0]
     else:
@@ -53,6 +51,7 @@ def pick_a_file_menu(cursos_dict):
                 idx = int(choice) - 1
                 if 0 <= idx < len(section_names):
                     chosen_section = section_names[idx]
+                    chosen_section = section_names[chosen_section]
                     break
             except ValueError:
                 pass
@@ -61,7 +60,6 @@ def pick_a_file_menu(cursos_dict):
     return _pick_file_from_section(chosen_course, chosen_section, course_data["sections"])
 
 def _pick_file_from_section(chosen_course, chosen_section, sections_dict):
-    """List files in the chosen section, let user pick one."""
     if chosen_section not in sections_dict:
         print("No existe la sección seleccionada.")
         return None
@@ -87,11 +85,9 @@ def _pick_file_from_section(chosen_course, chosen_section, sections_dict):
         print("Opción no válida, intenta de nuevo.")
 
 def get_file_question_count(questions, filepath):
-    """Return how many questions come from a specific file."""
     return sum(1 for q in questions if q.get("_quiz_source") == filepath)
 
 def print_quiz_files_summary(quiz_files_info):
-    """Show all loaded quiz files by name and question count."""
     print("=== Archivos de Quiz Cargados ===")
     if not quiz_files_info:
         print("No se encontraron archivos de quiz.")

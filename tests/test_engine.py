@@ -8,7 +8,7 @@ from quizlib.utils import clear_screen, press_any_key
 
 @pytest.fixture
 def monkeypatch_engine(monkeypatch):
-    # Disable screen clearing & waiting for input in tests.
+    # Evitiamo di pulire lo schermo e chiedere input in test.
     monkeypatch.setattr("quizlib.engine.clear_screen", lambda: None)
     monkeypatch.setattr("quizlib.engine.press_any_key", lambda: None)
     return monkeypatch
@@ -23,7 +23,6 @@ c) Option C
 Hello
 """
     result = clean_embedded_answers(text)
-    # should remove lines starting with [a-d)] plus space
     assert "Option A" not in result
     assert "Option B" not in result
     assert "Option C" not in result
@@ -31,37 +30,30 @@ Hello
     assert "Hello" in result
 
 def test_remap_answer_references():
-    # Suppose after shuffle mapping: a->1, b->0, c->2, d->3
     mapping = {0: 1, 1: 0, 2: 2, 3: 3}
     text = "a y b y c"
     remapped = remap_answer_references(text, mapping)
-    # a->B, b->A, c->C => "B y A y C" => sorted => "A y B y C"
+    # a->B, b->A, c->C => "B y A y C" => sort => "A y B y C"
     assert remapped == "A y B y C"
 
 def test_preguntar_multiple_correct(monkeypatch_engine, monkeypatch):
-    """
-    Test that for a question with two correct answers, if we disable shuffle,
-    the correct answers are indexes 0 and 1 => final letters A and B => input "A,B" should pass.
-    """
     question_data = {
         "question": "Pregunta con a) y b) correctas",
         "answers": [
-            {"text": "Opción A", "correct": True},  # index=0 => letter A
-            {"text": "Opción B", "correct": True},  # index=1 => letter B
-            {"text": "Opción C", "correct": False}, # index=2 => letter C
-            {"text": "Opción D", "correct": False}, # index=3 => letter D
+            {"text": "Opción A", "correct": True},  # index=0 => A
+            {"text": "Opción B", "correct": True},  # index=1 => B
+            {"text": "Opción C", "correct": False}, # index=2 => C
+            {"text": "Opción D", "correct": False}, # index=3 => D
         ],
         "explanation": "Porque a y b son correctas."
     }
 
-    user_input = "A,B"  # The test expects multiple correct
+    user_input = "A,B"
     inputs = iter([user_input])
     monkeypatch.setattr("builtins.input", lambda _: next(inputs))
 
     perf_data = {}
     session_counts = {"correct": 0, "wrong": 0, "unanswered": 0}
-
-    # disable_shuffle=True => order is [A,B,C,D] => correct letters => A,B
     result = preguntar(
         qid=0,
         question_data=question_data,
@@ -74,11 +66,6 @@ def test_preguntar_multiple_correct(monkeypatch_engine, monkeypatch):
     assert session_counts["wrong"] == 0
 
 def test_preguntar_multi_delimiters(monkeypatch_engine, monkeypatch):
-    """
-    Ensures that the user can input multiple correct letters using spaces, commas, or semicolons.
-    We'll disable shuffle so the order is stable: [A= X(correct), B=Y(false), C=Z(correct), D=W(false)]
-    => the correct letters are A, C.
-    """
     question_data = {
         "question": "Multi correct test: a) or c) ???",
         "answers": [
@@ -125,22 +112,16 @@ def test_shuffle_preserves_correctness():
     assert correct_after == correct_before
 
 def test_question_not_remapped_but_explanation_is_remapped(monkeypatch_engine, monkeypatch):
-    """
-    Verifies that the question text remains unchanged, while the explanation text
-    (and answer texts) are subjected to letter remapping.
-    """
     question_data = {
         "question": "In this question, we mention a) or c) explicitly (DO NOT CHANGE).",
         "answers": [
-            {"text": "References to a in answer text", "correct": True},   # index=0 => A
-            {"text": "References to b in answer text", "correct": False},  # index=1 => B
+            {"text": "References to a in answer text", "correct": True},
+            {"text": "References to b in answer text", "correct": False},
         ],
         "explanation": "Explanation referencing a and b - these should get mapped."
     }
 
-    # We'll disable shuffle so the first answer is A (correct), second is B
-    # => 'a' -> 'A', 'b' -> 'B' in the explanation
-    inputs = iter(["A"])  # user picks answer A -> correct
+    inputs = iter(["A"])
     monkeypatch.setattr("builtins.input", lambda _: next(inputs))
 
     perf_data = {}
@@ -163,23 +144,11 @@ def test_question_not_remapped_but_explanation_is_remapped(monkeypatch_engine, m
     assert result is True
     assert session_counts["correct"] == 1
 
-    # Now let's see how it was displayed in 'printed_lines'
     joined_output = "\n".join(printed_lines)
-
-    # 1) The question text must remain unchanged
-    assert "we mention a) or c) explicitly (DO NOT CHANGE)." in joined_output, \
-        "Question text was unexpectedly modified!"
-
-    # 2) The explanation references 'a' and 'b' => expected to be remapped to 'A' and 'B'
-    # (because 'a' is the correct answer => index=0 => letter A,
-    #  'b' is the second => index=1 => letter B)
-    assert "Explanation referencing A and B" in joined_output, \
-        "Explanation was not remapped correctly (did not change 'a' and 'b' to 'A' and 'B')."
-
-    # 3) The answer texts themselves also get remapped references if they had them
-    #    Check "References to a in answer text" => we expect 'a' -> 'A'
-    #    and "References to b in answer text" => 'b' -> 'B'
-    assert "References to A in answer text" in joined_output, \
-        "Answer text referencing 'a' did not get remapped to 'A'."
-    assert "References to B in answer text" in joined_output, \
-        "Answer text referencing 'b' did not get remapped to 'B'."
+    # The question text must remain unchanged
+    assert "mention a) or c) explicitly (DO NOT CHANGE)" in joined_output
+    # The explanation references 'a' and 'b' => expected to be mapped to 'A' and 'B'
+    assert "Explanation referencing A and B" in joined_output
+    # The answer text references 'a' => 'A', 'b' => 'B'
+    assert "References to A in answer text" in joined_output
+    assert "References to B in answer text" in joined_output

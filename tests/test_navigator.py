@@ -14,24 +14,22 @@ def test_get_file_question_count():
     assert get_file_question_count(questions, "f3.json") == 0
 
 def test_pick_a_file_menu(monkeypatch):
-    # We'll define a minimal courses dict
     cursos = {
         "Curso1": {
             "sections": {
                 "(No subfolder)": {
                     "files": [
-                        {"filename":"quizA.json","filepath":"/path/to/quizA.json","question_count":10}
+                        {"filename":"quizA.json","filepath":"/path/quizA.json","question_count":5}
                     ],
-                    "section_questions":10
+                    "section_questions":5
                 }
             },
             "total_files":1,
-            "total_questions":10
+            "total_questions":5
         }
     }
-    # The user picks "1" => first course, then no section prompt => single file => picks "1" => we get the path
     inputs = iter(["1","1"])
     monkeypatch.setattr("builtins.input", lambda _: next(inputs))
 
     chosen = pick_a_file_menu(cursos)
-    assert chosen == "/path/to/quizA.json"
+    assert chosen == "/path/quizA.json"
