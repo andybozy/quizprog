@@ -6,19 +6,19 @@
       "question": "Relativo a la cotización de un Trabajador a la Seguridad Social señale la respuesta correcta:",
       "answers": [
         {
-          "testo": "El empresario es el único sujeto de la relación laboral obligado a cotizar a la seguridad social por los trabajadores que trabajan bajo su dependencia, a través de ingreso mensual en la cuenta personal.",
+          "text": "El empresario es el único sujeto de la relación laboral obligado a cotizar a la seguridad social por los trabajadores que trabajan bajo su dependencia, a través de ingreso mensual en la cuenta personal.",
           "correct": false
         },
         {
-          "testo": "La cotización del trabajador se realiza con respecto a diversas contingencias, cada una de las cuales cotiza con un tipo/porcentaje distinto, según lo establecido anualmente por la ley de Presupuestos Generales del Estado.",
+          "text": "La cotización del trabajador se realiza con respecto a diversas contingencias, cada una de las cuales cotiza con un tipo/porcentaje distinto, según lo establecido anualmente por la ley de Presupuestos Generales del Estado.",
           "correct": true
         },
         {
-          "testo": "La cotización es única para toda la vida, válida en todo el territorio nacional y vitalicia.",
+          "text": "La cotización es única para toda la vida, válida en todo el territorio nacional y vitalicia.",
           "correct": false
         },
         {
-          "testo": "B) y C) son ciertas.",
+          "text": "B) y C) son ciertas.",
           "correct": false
         }
       ],
@@ -30,19 +30,19 @@
       "question": "El empresario que en el momento de hacer efectivas las retribuciones mensuales a sus trabajadores no descontará la cantidad correspondiente a la cuota obrera...",
       "answers": [
         {
-          "testo": "Podrá descontarlas en el mes posterior.",
+          "text": "Podrá descontarlas en el mes posterior.",
           "correct": false
         },
         {
-          "testo": "El empresario no podrá descontarlas con posterioridad, quedando obligado a ingresar la totalidad de las cuotas a su exclusivo cargo.",
+          "text": "El empresario no podrá descontarlas con posterioridad, quedando obligado a ingresar la totalidad de las cuotas a su exclusivo cargo.",
           "correct": true
         },
         {
-          "testo": "Depende de lo estipulado en el contrato.",
+          "text": "Depende de lo estipulado en el contrato.",
           "correct": false
         },
         {
-          "testo": "El trabajador deberá hacer el ingreso de la cuota obrera ante la TGSS a lo largo del mes siguiente.",
+          "text": "El trabajador deberá hacer el ingreso de la cuota obrera ante la TGSS a lo largo del mes siguiente.",
           "correct": false
         }
       ],
@@ -131,11 +131,11 @@
         },
         {
           "text": "Trabajador por cuenta propia o autónomo.",
-          "correct": "corretta (parte de la combinación B/C)"
+          "correct": true
         },
         {
           "text": "Empleado del hogar.",
-          "correct": "corretta (parte de la combinación B/C)"
+          "correct": true
         },
         {
           "text": "Ninguna es correcta.",
@@ -803,11 +803,11 @@
         },
         {
           "text": "Trabajadores por cuenta propia o autónomo.",
-          "correct": "corretta (parte del B/C)"
+          "correct": true
         },
         {
           "text": "Empleada del hogar.",
-          "correct": "corretta (parte del B/C)"
+          "correct": true
         },
         {
           "text": "Ninguna es correcta.",
