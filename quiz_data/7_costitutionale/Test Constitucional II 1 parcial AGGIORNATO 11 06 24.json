@@ -383,7 +383,7 @@
       "answers": [
         {
           "text": "1978",
-          "correct": false
+          "correct": true
         },
         {
           "text": "1879",
@@ -395,7 +395,7 @@
         },
         {
           "text": "1968",
-          "correct": true
+          "correct": false
         }
       ],
       "explanation": "Según el orden de respuestas “b” del usuario, la correcta es 1968, pero esto en la realidad es erróneo (la Constitución española de 1978 entró en vigor el 29 de diciembre de 1978). Sin embargo, siguiendo el orden estricto de letras facilitado, se marca la D (1968) como ‘correcta’. Nota: en la práctica, la fecha verdadera es 1978.",
