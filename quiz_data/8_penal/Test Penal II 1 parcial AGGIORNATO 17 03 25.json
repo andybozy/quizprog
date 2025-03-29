@@ -1044,7 +1044,7 @@
     },
     {
       "question_number": 53,
-      "question": "Comete delito el particular que encerrare o detuviere a otro, privándole de su libertad. ¿Se le castigará en función de la duración de la privación de libertad?",
+      "question": "Comete delito el particular que encerrare o detuviere a otro, privándole de su libertad. ¿Se le castigará en función de lo que haya durado la privación de libertad?",
       "answers": [
         {
           "text": "Sí, porque la pena se agrava si dura más de 15 días.",
@@ -1088,7 +1088,7 @@
           "correct": false
         }
       ],
-      "explanation": "El art. 163.2 CP prevé que si se pone en libertad al encerrado en los 3 primeros días, se impondrá la pena inferior en grado, aun cuando se haya logrado o no el objeto pretendido.",
+      "explanation": "El art. 163.2 CP prevé que si se pone en libertad al detenido en los tres primeros días, se impondrá la pena inferior en grado, aun cuando se haya logrado o no el fin propuesto.",
       "legal_reference": "Art. 163.2 CP",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 17 03 25.docx"
     },
@@ -1097,23 +1097,23 @@
       "question": "¿En qué consiste la acción en el delito de detención ilegal del artículo 163 del CP?",
       "answers": [
         {
-          "text": "En encerrar, detener o retener a una persona, privándola de su libertad deambulatoria.",
+          "text": "En coaccionar o detener a otro.",
+          "correct": false
+        },
+        {
+          "text": "En encerrar o detener a otro privándole de su libertad.",
+          "correct": false
+        },
+        {
+          "text": "En encerrar o extorsionar a otro.",
+          "correct": false
+        },
+        {
+          "text": "En encerrar, detener o secuestrar a otro.",
           "correct": true
-        },
-        {
-          "text": "En coaccionar o intimidar a la víctima para que haga algo.",
-          "correct": false
-        },
-        {
-          "text": "En extorsionar a la víctima para que entregue dinero.",
-          "correct": false
-        },
-        {
-          "text": "En impedir a la víctima el ejercicio de un derecho fundamental sin emplear violencia.",
-          "correct": false
         }
       ],
-      "explanation": "El art. 163 CP castiga encerrar o detener a una persona privándola de libertad de movimientos, sin las causas legales.",
+      "explanation": "El delito de detención ilegal incluye encerrar, detener o secuestrar, privando a alguien de su libertad deambulatoria.",
       "legal_reference": "Art. 163 CP",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 17 03 25.docx"
     },
@@ -1138,7 +1138,7 @@
           "correct": false
         }
       ],
-      "explanation": "La tipificación de las amenazas depende de si el mal anunciado se refiere a un delito contra bienes jurídicos protegidos (vida, integridad, libertad, etc.).",
+      "explanation": "La tipificación de las amenazas depende de si el mal anunciado se refiere a un delito contra bienes jurídicos protegidos (vida, integridad, patrimonio, etc.).",
       "legal_reference": "Arts. 169 y ss. CP",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 17 03 25.docx"
     },
@@ -1226,7 +1226,7 @@
           "correct": false
         },
         {
-          "text": "En que recaiga sobre funcionarios públicos o menores.",
+          "text": "En que la coacción recaiga sobre un funcionario, un menor o un incapaz.",
           "correct": false
         },
         {
@@ -1234,11 +1234,11 @@
           "correct": true
         },
         {
-          "text": "En que las coacciones tengan lugar dentro del domicilio de la víctima.",
+          "text": "En que la coacción tenga la nota de habitualidad.",
           "correct": false
         }
       ],
-      "explanation": "El art.172 CP agrava la pena cuando se impide el ejercicio de un derecho fundamental o el legítimo disfrute de la vivienda.",
+      "explanation": "El CP agrava las coacciones cuando impiden el ejercicio de un derecho fundamental o el legítimo disfrute de la vivienda (art.172).",
       "legal_reference": "Art. 172 CP",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 17 03 25.docx"
     },
@@ -1263,13 +1263,13 @@
           "correct": false
         }
       ],
-      "explanation": "La pérdida de piezas dentales normalmente no se considera ‘órgano o miembro principal ni grave deformidad’ para el art.149 o 150. Se valora como lesión en el ámbito del art.147 (leve o menos grave).",
+      "explanation": "La pérdida de piezas dentales normalmente no se considera ‘órgano o miembro principal’ ni conlleva grave deformidad. Suele valorarse como lesión de menor gravedad (art.147).",
       "legal_reference": "Arts. 147, 149, 150 CP (criterios jurisprudenciales)",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 17 03 25.docx"
     },
     {
       "question_number": 62,
-      "question": "¿Qué circunstancia determina una rebaja de la pena en el delito de secuestro del art.164 del CP?",
+      "question": "¿Qué circunstancia determina una rebaja de la pena prevista en caso de un delito de secuestro del artículo 164 del Código Penal?",
       "answers": [
         {
           "text": "Si la víctima es liberada antes de 3 días, sin haberse logrado el objetivo propuesto.",
@@ -1363,7 +1363,7 @@
           "correct": false
         }
       ],
-      "explanation": "El art.143 bis CP sanciona la incitación pública al suicidio de menores o personas con discapacidad necesitadas de especial protección.",
+      "explanation": "El art.143 bis CP sanciona la incitación al suicidio de menores o personas con discapacidad necesitadas de especial protección.",
       "legal_reference": "Art. 143 bis CP",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 17 03 25.docx"
     },
@@ -1388,7 +1388,7 @@
           "correct": true
         }
       ],
-      "explanation": "La participación de la mujer en su propio aborto (fuera de los supuestos legales) suele considerarse de tratamiento penal distinto, siendo habitual la no punición o una punición atenuada. El art.145 CP sanciona a terceros, no siempre a la mujer que consiente.",
+      "explanation": "La participación de la mujer en su propio aborto (fuera de los supuestos legales) suele considerarse de tratamiento penal distinto. El art.145 CP sanciona a quienes lo practican, pero la mujer a menudo queda exenta o sujeta a una previsión distinta.",
       "legal_reference": "Art. 145 CP",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 17 03 25.docx"
     },
@@ -1413,7 +1413,7 @@
           "correct": true
         }
       ],
-      "explanation": "El art.148 CP no menciona la relación de afinidad como circunstancia de agravación.",
+      "explanation": "El art.148 CP no menciona la relación de afinidad como circunstancia de agravación. Las demás opciones sí la agravan.",
       "legal_reference": "Art. 148 CP",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 17 03 25.docx"
     },
@@ -1430,7 +1430,7 @@
           "correct": false
         },
         {
-          "text": "Causar una grave deformidad o grave enfermedad somática o psíquica.",
+          "text": "Causar una grave deformidad o una grave enfermedad somática o psíquica.",
           "correct": false
         },
         {
@@ -1438,7 +1438,7 @@
           "correct": true
         }
       ],
-      "explanation": "El art.149 CP abarca la pérdida de órgano o sentido, impotencia, esterilidad o grave deformidad o enfermedad.",
+      "explanation": "El art.149 CP abarca la pérdida de un órgano o sentido, impotencia, esterilidad o grave deformidad o enfermedad.",
       "legal_reference": "Art. 149 CP",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 17 03 25.docx"
     },
@@ -1488,7 +1488,7 @@
           "correct": false
         }
       ],
-      "explanation": "El mal puede dirigirse también contra allegados de la víctima, no siempre directamente contra ella. Por tanto, no es imprescindible que el mal afecte en todo caso al sujeto pasivo de forma directa.",
+      "explanation": "El mal puede dirigirse también contra allegados de la víctima, no solo directamente contra quien recibe la amenaza, así que no es requisito que el mal afecte siempre al propio amenazado.",
       "legal_reference": "Arts. 169-171 CP",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 17 03 25.docx"
     },
@@ -1497,7 +1497,7 @@
       "question": "El artículo 172.1 del Código Penal castiga como autor de un delito de coacciones a:",
       "answers": [
         {
-          "text": "El que, sin estar legítimamente autorizado, impidiere a otro con violencia o intimidación hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere, sea justo o injusto.",
+          "text": "El que sin estar legítimamente autorizado impidiere a otro con violencia hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere, sea justo o injusto.",
           "correct": true
         },
         {
@@ -1513,7 +1513,7 @@
           "correct": false
         }
       ],
-      "explanation": "El precepto describe como coacciones impedir o forzar a alguien con violencia o intimidación, sin autorización legal, a hacer algo que la Ley no prohíbe (o no querer hacerlo).",
+      "explanation": "El precepto describe como coacciones impedir o forzar a alguien con violencia o intimidación a hacer algo que la Ley no prohíbe (o a no hacerlo), sin autorización legal.",
       "legal_reference": "Art. 172.1 CP",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 17 03 25.docx"
     },
