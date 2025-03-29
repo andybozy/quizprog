@@ -439,14 +439,14 @@
         },
         {
           "text": "Liberal y conservadora",
-          "correct": false
+          "correct": true
         },
         {
           "text": "Progresista y demócrata",
           "correct": false
         }
       ],
-      "explanation": "Siguiendo el orden de respuestas (a), la marcada ‘correcta’ es la A. Sin embargo, hay un error histórico: el llamado ‘Estatuto de Bayona’ real data de 1808, no 1834. De hecho, se considera un texto otorgado con ciertos rasgos liberales, pero muy limitado. La pregunta misma reconoce el error de fecha. Con la secuencia dada, asignamos la A como verdadera.",
+      "explanation": "Lo Statuto Reale del 1834 (comunemente chiamato Estatuto Reale e non di Bayona, attenzione che il “Estatuto de Bayona” è del 1808; il testo del 1834 è lo “Estatuto Real”), introdotto dalla regina reggente Maria Cristina durante la minorità di Isabella II, fu un documento costituzionale che cercò un compromesso politico tra idee liberali e conservatrici",
       "legal_reference": "Estatuto de Bayona (1808) promulgado por José Bonaparte",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24.docx"
     },
