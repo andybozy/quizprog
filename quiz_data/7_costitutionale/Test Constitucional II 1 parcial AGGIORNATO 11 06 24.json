@@ -927,11 +927,11 @@
         },
         {
           "text": "1215",
-          "correct": false
+          "correct": true
         },
         {
           "text": "Todas son incorrectas",
-          "correct": true
+          "correct": false
         }
       ],
       "explanation": "Históricamente fue 1215. Sin embargo, la secuencia nos señala la ‘a’ como respuesta y se fuerza la D como la ‘correcta’. Nuevamente, hay disparidad con la realidad histórica.",
