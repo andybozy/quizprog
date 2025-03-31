@@ -127,9 +127,9 @@
         { "text": "La pareja mujer si no ha convivido con el autor.", "correct": false },
         {
           "text": "Persona amparada en cualquier otra relación por la que se encuentre integrada en el núcleo de su convivencia familiar.",
-          "correct": false
+          "correct": true
         },
-        { "text": "La persona especialmente vulnerable si convive con el autor.", "correct": true }
+        { "text": "La persona especialmente vulnerable si convive con el autor.", "correct": false }
       ],
       "explanation": "El art. 153 CP menciona a la esposa, mujeres con análoga relación de afectividad y personas vulnerables que convivan con el autor, pero no menciona a la mujer que jamás convivió ni tiene vínculo análogo. Esa última no entra en el 153.",
       "legal_reference": "Art. 153 CP",
