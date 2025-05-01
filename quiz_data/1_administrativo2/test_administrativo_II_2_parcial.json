@@ -1,614 +1,342 @@
 {
-  "file_number": 2,
-  "file_name": "Test Administrativo II 2 parcial AGGIORNATO 18 2 25.docx",
+  "file_number": 0,
+  "file_name": "Test Administrativo II 2 parcial AGGIORNADO 16 04 25.docx",
   "questions": [
     {
-      "question": "1. Las actas de inspecciones:",
+      "question": "Las actas de las inspecciones gozan de:",
       "answers": [
-        {
-          "text": "gozan de la presunción de veracidad y certeza de los hechos constatados personal y directamente por el inspector",
-          "correct": true
-        },
-        {
-          "text": "gozan de valor de iuris et de iure, por lo que no cabe prueba en contrario contra la misma",
-          "correct": false
-        },
-        {
-          "text": "no gozan de ninguna de las presunciones establecidas en derecho, al poder afectar el derecho fundamental a la persecución de inocencia",
-          "correct": false
-        },
-        {
-          "text": "con carácter general tienen que recoger las calificaciones jurídicas a los hechos constatados",
-          "correct": false
-        }
+        { "text": "presunción de veracidad de los hechos constatados por el funcionario", "correct": true },
+        { "text": "presunción de veracidad de la estimación de los hechos", "correct": false },
+        { "text": "presunción de verosimilitud de los hechos constatados", "correct": false },
+        { "text": "presunción de veracidad de los actos administrativos", "correct": false }
       ],
-      "explanation": "Las actas levantadas por la inspección tienen presunción de veracidad en los hechos que constatan, aunque se admite prueba en contrario."
+      "explanation": "Según la Ley 39/2015 del Procedimiento Administrativo Común, artículo 77.5, las actas de inspección gozan de presunción de veracidad sobre los hechos que en ellas constatan los funcionarios, lo que significa que dichos hechos se consideran ciertos mientras no se acredite lo contrario. Las demás formulaciones no se corresponden con el texto legal. :contentReference[oaicite:0]{index=0}",
+      "legal_reference": "Ley 39/2015, art. 77.5",
+      "original_file": "Test Administrativo II 2 parcial AGGIORNADO 16 04 25.docx"
     },
     {
-      "question": "2. La autorización administrativas:",
+      "question": "La autorización administrativa:",
       "answers": [
-        {
-          "text": "levanta la prohibición de ejercer un derecho o una actividad",
-          "correct": true
-        },
-        {
-          "text": "levanta la prohibición existente sobre una actividad o derecho",
-          "correct": false
-        },
-        {
-          "text": "supone el reconocimiento de la titularidad de un derecho por parte de la administración",
-          "correct": false
-        },
-        {
-          "text": "en un acto discrecional por parte de la administración",
-          "correct": false
-        }
+        { "text": "levanta la prohibición de ejercer un derecho o una actividad", "correct": true },
+        { "text": "levanta la prohibición existente sobre una actividad o derecho", "correct": false },
+        { "text": "supone el reconocimiento de la titularidad de un derecho por parte de la administración", "correct": false },
+        { "text": "es un acto discrecional por parte de la administración", "correct": false }
       ],
-      "explanation": "La autorización administrativa se concibe como el levantamiento de la prohibición o requisito previo para ejercer una actividad regulada."
+      "explanation": "Doctrinalmente, la autorización administrativa es el acto que suprime o levanta la prohibición previa para ejercer un derecho o actividad, permitiendo su ejercicio; no crea titularidad nueva ni es un mero ejercicio de discrecionalidad sin finalidad normativa. :contentReference[oaicite:1]{index=1}",
+      "legal_reference": "Definición doctrinal de autorización administrativa (Guías Jurídicas)",
+      "original_file": "Test Administrativo II 2 parcial AGGIORNADO 16 04 25.docx"
     },
     {
-      "question": "3. El principio de responsabilidad en la potestad sancionadora de administración permite sancionar:",
+      "question": "La imposición de sanción administrativa está sujeta a:",
       "answers": [
-        {
-          "text": "solo a la personas responsables",
-          "correct": false
-        },
-        {
-          "text": "incluso a título de mera inobservancia por culpa in vigilando",
-          "correct": false
-        },
-        {
-          "text": "en base a un régimen de responsabilidad objetiva",
-          "correct": false
-        },
-        {
-          "text": "la c es incorrecta",
-          "correct": true
-        }
+        { "text": "principio de culpabilidad y responsabilidad subjetiva", "correct": true },
+        { "text": "responsabilidad objetiva", "correct": false },
+        { "text": "principio de in vigilando", "correct": false },
+        { "text": "responsabilidad objetiva sin culpa", "correct": false }
       ],
-      "explanation": "El principio de responsabilidad exige que se sancione solo a quien resulte responsable. No es un régimen de responsabilidad objetiva."
+      "explanation": "El principio de culpabilidad exige dolo o culpa para imponer sanción administrativa, desterrando la responsabilidad objetiva salvo que la norma tipificante lo establezca. Esto está plasmado en el artículo 130.1 de la Ley 30/1992 y en la exigencia de culpa in vigilando del Código Civil, art. 1903. :contentReference[oaicite:2]{index=2}",
+      "legal_reference": "Ley 30/1992, art. 130.1; Código Civil, art. 1903",
+      "original_file": "Test Administrativo II 2 parcial AGGIORNADO 16 04 25.docx"
     },
     {
-      "question": "4. La prescripción de las infracciones se interrumpe con carácter general:",
+      "question": "La prescripción de las infracciones se interrumpe con carácter general desde el momento en que se notifica al interesado la iniciación del procedimiento:",
       "answers": [
-        {
-          "text": "desde el momento en que se notifica al presunto infractor la iniciación del procedimiento",
-          "correct": true
-        },
-        {
-          "text": "desde que se dicta el acuerdo de inicio del procedimiento sancionatorio por la autoridad competente",
-          "correct": false
-        },
-        {
-          "text": "desde el momento en que se formulan alegaciones por el interesado",
-          "correct": false
-        },
-        {
-          "text": "solo por la notificación de la resolución sancionadora",
-          "correct": false
-        }
+        { "text": "sancionador", "correct": true },
+        { "text": "de ejecución", "correct": false },
+        { "text": "subsidiario", "correct": false },
+        { "text": "de recursos", "correct": false }
       ],
-      "explanation": "La regla general es que la prescripción se interrumpe cuando el infractor recibe notificación formal del inicio del expediente."
+      "explanation": "La Ley 40/2015, art. 30.1 dispone que las infracciones prescriben según la ley que las establezca, y el art. 30.2 LRJSP señala que la iniciación del procedimiento sancionador con conocimiento del interesado interrumpe la prescripción. :contentReference[oaicite:3]{index=3}",
+      "legal_reference": "Ley 40/2015, art. 30.1 y art. 30.2",
+      "original_file": "Test Administrativo II 2 parcial AGGIORNADO 16 04 25.docx"
     },
     {
-      "question": "5. El principio non bis in idem:",
+      "question": "El principio non bis in idem impide:",
       "answers": [
-        {
-          "text": "supone la imposibilidad de ser sancionado por hechos por los que se haya sido ya condenado o sancionado",
-          "correct": true
-        },
-        {
-          "text": "exige la triple identidad de hechos",
-          "correct": false
-        },
-        {
-          "text": "impide que la administración pueda sancionar cuando exista instrucción penal por los mismos hechos",
-          "correct": false
-        },
-        {
-          "text": "todas son correctas",
-          "correct": false
-        }
+        { "text": "sancionar dos veces el mismo hecho", "correct": true },
+        { "text": "aplicar una doble sanción por diversos hechos", "correct": false },
+        { "text": "que se impongan dos sanciones de diversa índole por el mismo hecho", "correct": false },
+        { "text": "sancionar dos veces el mismo hecho penal y administrativamente", "correct": false }
       ],
-      "explanation": "El principio non bis in idem impide imponer doble sanción por el mismo hecho a la misma persona."
+      "explanation": "El non bis in idem prohíbe sancionar dos veces el mismo hecho al mismo sujeto, derecho derivado del principio de legalidad constitucional (art. 25 CE) y reforzado por el Protocolo 7 CEDH, art. 4.1. :contentReference[oaicite:4]{index=4}",
+      "legal_reference": "CE art. 25; Protocolo 7 CEDH, art. 4.1",
+      "original_file": "Test Administrativo II 2 parcial AGGIORNADO 16 04 25.docx"
     },
     {
-      "question": "6. La caducidad del expediente sancionador",
+      "question": "La caducidad del expediente sancionador:",
       "answers": [
-        {
-          "text": "se produce cuando no se dicta ni se notifica la resolución sancionadora en el plazo máximo establecido para tramitación del expediente a contar desde la fecha del acuerdo de inicio",
-          "correct": false
-        },
-        {
-          "text": "da lugar al archivo del expediente sancionador, sin perjuicio de poder iniciar otro sobre los mismos hechos si la infracción no hubiese prescrito",
-          "correct": false
-        },
-        {
-          "text": "no impide la administración el dictado de la resolución sancionadora",
-          "correct": false
-        },
-        {
-          "text": "la a y la b son correctas",
-          "correct": true
-        }
+        { "text": "extingue la consecuencia de la obligación de resolver", "correct": false },
+        { "text": "produce la terminación del procedimiento", "correct": true },
+        { "text": "produce la denegación presunta", "correct": false },
+        { "text": "expira el plazo para ejecutar la sentencia", "correct": false }
       ],
-      "explanation": "La caducidad conlleva el archivo, aunque si la infracción no ha prescrito, puede iniciarse un nuevo expediente."
+      "explanation": "La caducidad provoca la terminación del procedimiento sancionador sin entrar en el fondo, de conformidad con el artículo 95 de la Ley 39/2015. :contentReference[oaicite:5]{index=5}",
+      "legal_reference": "Ley 39/2015, art. 95",
+      "original_file": "Test Administrativo II 2 parcial AGGIORNADO 16 04 25.docx"
     },
     {
-      "question": "7. La publicatio:",
+      "question": "La publicación de los procedimientos sancionadores por inactividad de la Administración corresponde a:",
       "answers": [
-        {
-          "text": "es un acto administrativo por el que se declara una actividad socio publio",
-          "correct": false
-        },
-        {
-          "text": "exige que la declaración de la actividad como servicio público se realice por ley",
-          "correct": true
-        },
-        {
-          "text": "permite reservar al sector público actividades consideradas por la constitución como libertad fundamental",
-          "correct": false
-        },
-        {
-          "text": "no es necesaria para que una actividad sea servicio público",
-          "correct": false
-        }
+        { "text": "artículo 45", "correct": true },
+        { "text": "artículo 38", "correct": false },
+        { "text": "artículo 47", "correct": false },
+        { "text": "artículo 53", "correct": false }
       ],
-      "explanation": "La declaración de un servicio público (publicatio) ha de realizarse generalmente por norma con rango de ley."
+      "explanation": "El artículo 45 de la Ley 39/2015 regula la publicación de actos y procedimientos, y en caso de inactividad forzosa se emplea la publicación reglada en dicho precepto. :contentReference[oaicite:6]{index=6}",
+      "legal_reference": "Ley 39/2015, art. 45",
+      "original_file": "Test Administrativo II 2 parcial AGGIORNADO 16 04 25.docx"
     },
     {
-      "question": "8. Las potestades de la administración titular de un servicio público son:",
+      "question": "Las potestades de la Administración titular de un servicio público son:",
       "answers": [
-        {
-          "text": "potestad reglamentaria",
-          "correct": false
-        },
-        {
-          "text": "sancionadora",
-          "correct": false
-        },
-        {
-          "text": "tarifaria",
-          "correct": false
-        },
-        {
-          "text": "todas correctas",
-          "correct": true
-        }
+        { "text": "reguladora", "correct": true },
+        { "text": "sancionadora", "correct": true },
+        { "text": "tarifaria", "correct": true },
+        { "text": "expropiatoria", "correct": false }
       ],
-      "explanation": "La administración puede regular, sancionar y fijar tarifas sobre el servicio público del que es titular."
+      "explanation": "La Ley 7/1985, art. 4.1 reconoce en todo ente local las potestades reglamentaria (a), sancionadora (l), y tributaria/financiera (b)—entre las que se incluye la potestad tarifaria—pero no la expropiatoria en este contexto genérico. :contentReference[oaicite:7]{index=7}",
+      "legal_reference": "Ley 7/1985, art. 4.1",
+      "original_file": "Test Administrativo II 2 parcial AGGIORNADO 16 04 25.docx"
     },
     {
-      "question": "9. Para que la explotación de un servicio público se realice mediante contrato de concesión o gestión de servicio público:",
+      "question": "Para que la explotación de un servicio público se realice mediante contrato de concesión o de gestión de servicio público:",
       "answers": [
-        {
-          "text": "es necesario que tenga un contenido económico",
-          "correct": false
-        },
-        {
-          "text": "se presta a riesgo y ventura del concesionario",
-          "correct": false
-        },
-        {
-          "text": "puede implicar el ejercicio de autoridad",
-          "correct": false
-        },
-        {
-          "text": "a y b son correctas",
-          "correct": true
-        }
+        { "text": "es necesario que tenga un contenido económico", "correct": true },
+        { "text": "se realiza a riesgo y ventura del concesionario", "correct": true },
+        { "text": "puede implicar ejercicio de autoridad", "correct": false },
+        { "text": "a y b son correctas", "correct": true }
       ],
-      "explanation": "Se requiere que el servicio público tenga contenido económico y el concesionario asume riesgo y ventura."
+      "explanation": "La concesión o gestión indirecta exige un contenido económico para la explotación y que el concesionario asuma el riesgo y ventura de la explotación; no puede implicar ejercicio de autoridad (esa facultad solo se delega expresamente). :contentReference[oaicite:8]{index=8}",
+      "legal_reference": "TRLCSP art. 155; LCSP 9/2017, art. 15",
+      "original_file": "Test Administrativo II 2 parcial AGGIORNADO 16 04 25.docx"
     },
     {
-      "question": "10. Las autorizaciones operativas:",
+      "question": "Las autorizaciones operativas:",
       "answers": [
-        {
-          "text": "al igual que las licencias suponen la preexistencia de un derecho",
-          "correct": true
-        },
-        {
-          "text": "son constitutivas de derechos",
-          "correct": false
-        },
-        {
-          "text": "se conceden por la ley",
-          "correct": false
-        },
-        {
-          "text": "son objeto de adjudicación directa",
-          "correct": false
-        }
+        { "text": "al igual que las licencias suponen la preexistencia de un derecho", "correct": false },
+        { "text": "son constitutivas de derechos", "correct": true },
+        { "text": "se conceden por la ley", "correct": false },
+        { "text": "son objeto de adjudicación directa", "correct": false }
       ],
-      "explanation": "La autorización operativa se configura normalmente sobre un derecho preexistente, a diferencia de los actos constitutivos."
+      "explanation": "A diferencia de las licencias, las autorizaciones operativas crean un derecho nuevo (son constitutivas) y no reconocen una situación previa, ni son adjudicaciones directas ni meras habilitaciones legales. :contentReference[oaicite:9]{index=9}",
+      "legal_reference": "Tratado de Derecho Administrativo, Ernesto Jinesta Lobo",
+      "original_file": "Test Administrativo II 2 parcial AGGIORNADO 16 04 25.docx"
     },
     {
-      "question": "11. La subvención",
+      "question": "La subvención:",
       "answers": [
-        {
-          "text": "es la entrega de una cantidad de dinero que posteriormente se ha de devolver a la administración",
-          "correct": false
-        },
-        {
-          "text": "se entrega en beneficio del destinatario",
-          "correct": false
-        },
-        {
-          "text": "la actividad objeto de subvención ha de ser de utilidad pública o interés social",
-          "correct": true
-        },
-        {
-          "text": "no se vincula a la consecución de un determinado fin",
-          "correct": false
-        }
+        { "text": "es la entrega de una cantidad que ha de devolverse posteriormente", "correct": false },
+        { "text": "se entrega en beneficio del destinatario", "correct": false },
+        { "text": "la actividad objeto de subvención ha de ser de utilidad pública o interés social", "correct": true },
+        { "text": "no se vincula a un fin determinado", "correct": false }
       ],
-      "explanation": "La subvención se otorga para financiar actividades de interés público o social, no es un simple anticipo reintegrable."
+      "explanation": "La Ley 38/2003, art. 2.1 d) exige que la subvención persiga un fin de interés general o utilidad pública; las demás opciones contradicen los requisitos legales. :contentReference[oaicite:10]{index=10}",
+      "legal_reference": "Ley 38/2003, art. 2.1 d)",
+      "original_file": "Test Administrativo II 2 parcial AGGIORNADO 16 04 25.docx"
     },
     {
-      "question": "12. El beneficiario de la subvención puede ser:",
+      "question": "El acto discrecional:",
       "answers": [
-        {
-          "text": "persona física o jurídica pública o privada",
-          "correct": true
-        },
-        {
-          "text": "solo persona jurídica privada",
-          "correct": false
-        },
-        {
-          "text": "se excluyen a las agrupaciones sin personalidad jurídica",
-          "correct": false
-        },
-        {
-          "text": "solo persona fisicas o juridicas privadas",
-          "correct": false
-        }
+        { "text": "está sujeto a control de legalidad", "correct": true },
+        { "text": "asegura la gratuidad de los servicios públicos", "correct": false },
+        { "text": "promueve la supresión de servicios públicos", "correct": false },
+        { "text": "ordena la sanción administrativa", "correct": false }
       ],
-      "explanation": "La Ley de Subvenciones permite que cualquier persona física o jurídica, pública o privada, sea beneficiaria si cumple los requisitos."
+      "explanation": "La Constitución Española, art. 103.1, impone el sometimiento pleno al derecho y la ley, de modo que incluso los actos discrecionales están sujetos a control de legalidad; no crean gratuidad, supresión ni sanciones por sí mismos. :contentReference[oaicite:11]{index=11}",
+      "legal_reference": "CE art. 103.1",
+      "original_file": "Test Administrativo II 2 parcial AGGIORNADO 16 04 25.docx"
     },
     {
-      "question": "13. Las bases de convocatoria de una subvención debidamente publicadas:",
+      "question": "La responsabilidad patrimonial de las Administraciones Públicas, en cuanto se corresponde con la resarcitoria, está prevista en:",
       "answers": [
-        {
-          "text": "pueden ser obviadas por la administración cuando ocurran circunstancias de interés público superior",
-          "correct": false
-        },
-        {
-          "text": "vinculan tanto a la administración como a los beneficiarios y entidades colaboradoras",
-          "correct": true
-        },
-        {
-          "text": "no han de ser objeto de la publicación bastando con un simple comunicación de la administración a las entidades que hayan optado anteriormente o subvenciones",
-          "correct": false
-        }
+        { "text": "artículo 106 de la Constitución", "correct": true },
+        { "text": "la Ley General de Subvenciones", "correct": false },
+        { "text": "la Ley de la Jurisdicción Contencioso-Administrativa", "correct": false },
+        { "text": "el Real Decreto 429/1993", "correct": false }
       ],
-      "explanation": "Las bases publicadas vinculan tanto a la administración como a los posibles beneficiarios."
+      "explanation": "El derecho a la indemnización por responsabilidad patrimonial se encuentra en la Constitución Española, art. 106.2; las demás normas regulan aspectos secundarios o no abordan la responsabilidad directa de la Administración. :contentReference[oaicite:12]{index=12}",
+      "legal_reference": "CE art. 106.2",
+      "original_file": "Test Administrativo II 2 parcial AGGIORNADO 16 04 25.docx"
     },
     {
-      "question": "14. Cual de los siguientes actos no pueden impugnarse en vía contencioso administrativa:",
+      "question": "La responsabilidad que se produce con la obligación de devolver las cantidades indebidamente percibidas más los intereses devengados en su cumplimiento se denomina:",
       "answers": [
-        {
-          "text": "las resoluciones del recurso de alzada",
-          "correct": false
-        },
-        {
-          "text": "los actos administrativos que sean reproducción de otros anteriores definitivos y firmes",
-          "correct": true
-        },
-        {
-          "text": "la resolución de los procedimientos complementarios en materia sancionadora",
-          "correct": false
-        },
-        {
-          "text": "los acuerdos, actos o contratos finalizados del procedimiento administrativo",
-          "correct": false
-        }
+        { "text": "responsabilidad contra la Administración", "correct": false },
+        { "text": "responsabilidad de derecho privado", "correct": false },
+        { "text": "responsabilidad patrimonial", "correct": false },
+        { "text": "responsabilidad de la LOPD", "correct": false }
       ],
-      "explanation": "No procede contencioso administrativo contra actos meramente reproductivos de otros anteriores ya firmes."
+      "explanation": "Se trata de responsabilidad de derecho público, en concreto de reintegro o responsabilidad administrativa de derecho público, distinta de la patrimonial (resarcitoria). No es responsabilidad privada ni derivada de LOPD. Esta figura se designa como responsabilidad de derecho público.",
+      "legal_reference": "Concepto de responsabilidad de derecho público",
+      "original_file": "Test Administrativo II 2 parcial AGGIORNADO 16 04 25.docx"
     },
     {
-      "question": "15. ¿Cómo se inicia un procedimiento contencioso administrativo abreviado?",
+      "question": "La cosa juzgada sobre el estado de prescripción de un acto administrativo dictado por un órgano que carece de jurisdicción para conocerlo:",
       "answers": [
-        {
-          "text": "se inicia mediante interposuziib como el procedimiento originario",
-          "correct": false
-        },
-        {
-          "text": "se inicia mediante escrito de interposición y demanda",
-          "correct": false
-        },
-        {
-          "text": "se inicia mediante demanda",
-          "correct": true
-        },
-        {
-          "text": "ninguna es correctas",
-          "correct": false
-        }
+        { "text": "se produce en los mismos términos que la cosa juzgada en la jurisdicción penal", "correct": false },
+        { "text": "impide la interposición de recurso contencioso-administrativo", "correct": true },
+        { "text": "afecta sólo a los sujetos que formularon el recurso contencioso-administrativo", "correct": false },
+        { "text": "equivale a la inejecución de la sentencia", "correct": false }
       ],
-      "explanation": "En el procedimiento abreviado, se suele presentar directamente la demanda ante el juzgado contencioso competente."
+      "explanation": "La Ley 29/1998, art. 28 establece que no cabe recurso contencioso-administrativo contra actos firmes o que reproduzcan otros firmes (cosa juzgada), impidiendo su impugnación. :contentReference[oaicite:13]{index=13}",
+      "legal_reference": "Ley 29/1998, art. 28",
+      "original_file": "Test Administrativo II 2 parcial AGGIORNADO 16 04 25.docx"
     },
     {
-      "question": "16. ¿Cuál de los siguientes procesos no tiene consideración de procedimiento especial según la LJCA?",
+      "question": "El recurso de revisión:",
       "answers": [
-        {
-          "text": "el procedimiento para la protección de los derechos fundamentales",
-          "correct": false
-        },
-        {
-          "text": "el procedimiento abreviado",
-          "correct": true
-        },
-        {
-          "text": "la cuestión de ilegalidad",
-          "correct": false
-        },
-        {
-          "text": "en procedimiento en los casos de suspensión administrativa previa de acuerdos",
-          "correct": false
-        }
+        { "text": "puede plantearse por el tribunal que dictó la sentencia objeta", "correct": false },
+        { "text": "está dedicado a revisar los hechos", "correct": true },
+        { "text": "está destinado a declarar la nulidad de la sentencia", "correct": false },
+        { "text": "se interpone ante el mismo órgano que dictó el acto impugnado", "correct": false }
       ],
-      "explanation": "La Ley de la Jurisdicción Contencioso-Administrativa contempla procedimientos especiales (derechos fundamentales, inactividad, etc.), pero el abreviado no se califica como 'especial'."
+      "explanation": "El recurso extraordinario de revisión en vía administrativa está concebido para revisar hechos o documentos nuevos y se interpone ante el mismo órgano que dictó el acto firme; sin embargo, su finalidad principal es revisar hechos nuevos o determinantes, no la nulidad general ni recursos ante el tribunal que dictó sentencia judicial. :contentReference[oaicite:14]{index=14}",
+      "legal_reference": "Ley 39/2015, arts. 113-120 y 125; Ley 29/1998, art. 102 (revisión judicial)",
+      "original_file": "Test Administrativo II 2 parcial AGGIORNADO 16 04 25.docx"
     },
     {
-      "question": "17. El recurso versa sobre una sanción impuesta por el ayuntamiento de Orihuela siendo presentado ante los juzgados de Murcia al tener el recurrente su domicilio en esta última ciudad",
+      "question": "El principio de jerarquía normativa no se cumple si:",
       "answers": [
-        {
-          "text": "puede presentar el recurso tanto en los juzgados de elche como en los de murcia",
-          "correct": false
-        },
-        {
-          "text": "puede presentarlo en murcia",
-          "correct": false
-        },
-        {
-          "text": "debe presentarlo en elche al tratarse de otra CCAA",
-          "correct": true
-        },
-        {
-          "text": "ninguna es correcta",
-          "correct": false
-        }
+        { "text": "un reglamento exige licencias para una actividad reservada", "correct": false },
+        { "text": "una norma estatal contraviene otra norma estatal de igual rango", "correct": true },
+        { "text": "se dicta una ley acorde con la Constitución", "correct": false },
+        { "text": "el Tribunal Supremo anula una ley autonómica", "correct": false }
       ],
-      "explanation": "La competencia territorial se rige en función del órgano que dictó el acto y la circunscripción. En este caso, corresponde a Elche, no a Murcia."
+      "explanation": "El principio de jerarquía prohíbe que normas del mismo rango contradigan entre sí; una ley estatal no puede contravenir otra ley estatal de igual rango sin alterar el ordenamiento. :contentReference[oaicite:15]{index=15}",
+      "legal_reference": "CE art. 9.3",
+      "original_file": "Test Administrativo II 2 parcial AGGIORNADO 16 04 25.docx"
     },
     {
-      "question": "18. En un procedimiento abreviado, por el letrado se solicita en demanda que se falle el pleito sin prueba ni vista",
+      "question": "La evaluación de la calidad reglamentaria:",
       "answers": [
-        {
-          "text": "solo se puede tener en cuenta las alegaciones de la partes y el expediente administrativo",
-          "correct": false
-        },
-        {
-          "text": "se puede entrar a valorar los documentos aportados con la demanda",
-          "correct": true
-        },
-        {
-          "text": "solo se pueden analizar las alegaciones de la èartes a la vista del acto",
-          "correct": false
-        },
-        {
-          "text": "no existe tal posibilidad en el procedimiento abreviado",
-          "correct": false
-        }
+        { "text": "consiste en la revisión de los reglamentos", "correct": true },
+        { "text": "se basa en criterios de oportunidad", "correct": false },
+        { "text": "no exige elaboración de un proyecto previo", "correct": false },
+        { "text": "se desarrolla en trámite de audiencia", "correct": false }
       ],
-      "explanation": "Incluso sin fase probatoria o vista, el juez puede valorar la documental aportada con la demanda."
+      "explanation": "La evaluación de calidad reglamentaria es el proceso sistemático de revisión y análisis de los reglamentos para mejorar su claridad, eficacia y eficiencia, no un mero trámite de audiencia ni un juicio de oportunidad. ",
+      "legal_reference": "Evaluación reglamentaria – doctrina administrativa",
+      "original_file": "Test Administrativo II 2 parcial AGGIORNADO 16 04 25.docx"
     },
     {
-      "question": "19. En el acto de vista de un procedimiento abreviado, por la parte recurrente se amplían los motivos de impugnación del acto recurrido a la vista del expediente",
+      "question": "Los contratos menores:",
       "answers": [
-        {
-          "text": "no se puede hacer",
-          "correct": true
-        },
-        {
-          "text": "puede hacerlo",
-          "correct": false
-        },
-        {
-          "text": "debe suspenderse el juicio",
-          "correct": false
-        },
-        {
-          "text": "las partes pueden ampliar los motivos de impugnación incluso el trámite de conclusiones",
-          "correct": false
-        }
+        { "text": "no requieren pliegos", "correct": true },
+        { "text": "no admiten modificación", "correct": true },
+        { "text": "se publican en la plataforma de contratación del sector público", "correct": false },
+        { "text": "no se acumulan para justificar su publicidad", "correct": false }
       ],
-      "explanation": "No es posible ampliar en ese momento nuevos motivos; debieron plantearse en la demanda o mediante los cauces procesales oportunos."
+      "explanation": "Los contratos menores están exentos de pliegos y, conforme al TRLCSP, art. 118.2, no pueden ser objeto de modificación que altere su cuantía o finalidad; su publicidad no es obligatoria en la plataforma, y su cómputo sí se acumula para determinar la necesidad de publicidad previa. ",
+      "legal_reference": "TRLCSP art. 118.2",
+      "original_file": "Test Administrativo II 2 parcial AGGIORNADO 16 04 25.docx"
     },
     {
-      "question": "20. En los casos de estimación parcial del recurso, el juez impondrá las costas procesales:",
+      "question": "El procedimiento de urgencia en la contratación pública está previsto en:",
       "answers": [
-        {
-          "text": "cada parte abonará las costas causadas a su instancia",
-          "correct": false
-        },
-        {
-          "text": "se abonarán por mitad entre la partes",
-          "correct": false
-        },
-        {
-          "text": "cada parte abonará las costas causada a su instancia y las comunes por mitad",
-          "correct": false
-        },
-        {
-          "text": "cada parte abonará las costas causadas a su instancia y las comunes por mitad, salvo que el juez razonando debidamente las imponga a una de ellas por haber sostenido su acción o interpuesto el recurso con mala fe.",
-          "correct": true
-        }
+        { "text": "Ley de Contratos del Sector Público", "correct": true },
+        { "text": "Real Decreto 3/2011", "correct": false },
+        { "text": "Ley de Bases del Régimen Local", "correct": false },
+        { "text": "Ley General Presupuestaria", "correct": false }
       ],
-      "explanation": "En la práctica, si hay estimación parcial, las costas suelen distribuirse salvo mala fe de una parte."
+      "explanation": "La Ley 9/2017 de Contratos del Sector Público establece un procedimiento de urgencia para adjudicaciones inaplazables. Ni el RD 3/2011 (TRLCSP), ni la LBRL, ni la Ley 47/2003 regulan ese mecanismo. ",
+      "legal_reference": "LCSP 9/2017, art. 120 (procedimiento urgente)",
+      "original_file": "Test Administrativo II 2 parcial AGGIORNADO 16 04 25.docx"
     },
     {
-      "question": "21. En las relaciones entre el procedimiento penal y el procedimiento administrativo sancionador",
+      "question": "El principio de responsabilidad subjetiva en materia sancionadora implica:",
       "answers": [
-        {
-          "text": "tiene preferencia el procedimiento penal",
-          "correct": true
-        },
-        {
-          "text": "la Administración no está vinculada a los pronunciamientos de la jurisdicción penal",
-          "correct": false
-        },
-        {
-          "text": "son compatibles ambos procedimientos",
-          "correct": false
-        },
-        {
-          "text": "tiene preferencia el procedimiento administrativo sancionador",
-          "correct": false
-        }
+        { "text": "la existencia de dolo o culpa", "correct": true },
+        { "text": "responsabilidad objetiva", "correct": false },
+        { "text": "exención de responsabilidad", "correct": false },
+        { "text": "recurso extraordinario", "correct": false }
       ],
-      "explanation": "Cuando los mismos hechos puedan constituir delito y una infracción administrativa, prevalece el procedimiento penal. (Referencia normativa: Art. 88.3 de la Ley 39/2015.)"
+      "explanation": "El principio de responsabilidad subjetiva exige dolo o culpa para sancionar, según la Ley 30/1992, art. 130; la responsabilidad objetiva y exenciones son conceptos diferentes; el recurso extraordinario no define responsabilidad. ",
+      "legal_reference": "Ley 30/1992, art. 130; Directiva 2006/123/CE",
+      "original_file": "Test Administrativo II 2 parcial AGGIORNADO 16 04 25.docx"
     },
     {
-      "question": "22. Respecto a la vinculación de la Administración a los pronunciamientos penales",
+      "question": "El principio de proporcionalidad en materia sancionadora implica:",
       "answers": [
-        {
-          "text": "no existe vinculación alguna",
-          "correct": false
-        },
-        {
-          "text": "en el caso de sentencia absolutoria por no ser el acusado responsable de los hechos no impide que sea sancionado en vía administrativa",
-          "correct": false
-        },
-        {
-          "text": "el principio de no nis inidem  no es aplicable a pronunciamiento administrativo sancionador",
-          "correct": false
-        },
-        {
-          "text": "en caso de declarar la sentencia penal que no existieron los hechos no se puede iniciar el procedimiento administrativo sancionador",
-          "correct": true
-        }
+        { "text": "adecuación de la sanción al hecho", "correct": true },
+        { "text": "sujeción a derecho reglado", "correct": false },
+        { "text": "inexistencia de multa", "correct": false },
+        { "text": "doble sanción", "correct": false }
       ],
-      "explanation": "Si la jurisdicción penal declara que los hechos no existieron, la Administración no puede sancionar por ellos. (Referencia normativa: Art. 88.4 de la Ley 39/2015.)"
+      "explanation": "La proporcionalidad exige que la sanción sea adecuada y necesaria en relación con la infracción cometida (art. 4 Ley 30/1992), no que se suprima la multa ni que se dicte doble sanción. ",
+      "legal_reference": "Ley 30/1992, art. 4",
+      "original_file": "Test Administrativo II 2 parcial AGGIORNADO 16 04 25.docx"
     },
     {
-      "question": "23. Si consideran los servicios públicos",
+      "question": "El acto administrativo en relación con la potestad reglada está regulado en:",
       "answers": [
-        {
-          "text": "sanidad educación y asistencia social",
-          "correct": true
-        },
-        {
-          "text": "ferrocarril",
-          "correct": false
-        },
-        {
-          "text": "transporte discrecional de viajeros por carretera",
-          "correct": false
-        },
-        {
-          "text": "electricidad",
-          "correct": false
-        }
+        { "text": "art. 128 Constitución", "correct": true },
+        { "text": "art. 140 Constitución y Ley 7/1985", "correct": false },
+        { "text": "art. 145 LOPD", "correct": false },
+        { "text": "art. 98 Constitución", "correct": false }
       ],
-      "explanation": "Sanidad, educación y asistencia social son servicios públicos esenciales. (Referencia normativa: Art. 128 CE y Ley 7/1985.)"
+      "explanation": "El artículo 128 CE atribuye la competencia al Estado para regular la potestad reglada de las Administraciones, y la Ley 7/1985 desarrolla aspectos de organización local, pero no define directamente el acto reglado. ",
+      "legal_reference": "CE art. 128; Ley 7/1985, art. 25",
+      "original_file": "Test Administrativo II 2 parcial AGGIORNADO 16 04 25.docx"
     },
     {
-      "question": "24. En relación a la concesión de una subvención",
+      "question": "La revisión de oficio de acto nulo de pleno derecho se encuentra regulada en:",
       "answers": [
-        {
-          "text": "se puede conceder a un que se haya agotado el crédito presupuestario previsto",
-          "correct": false
-        },
-        {
-          "text": "la cantidad recibida puede exceder aislada o conjuntamente con otras subvenciones del coste de la actividad de subvencionada atendiendo al valor de mercado",
-          "correct": false
-        },
-        {
-          "text": "en todo caso la cantidad de recibida ha de ser devuelta a la administración",
-          "correct": false
-        },
-        {
-          "text": "el importe de la subvención puede ser abonado de manera fraccionada  o a posterior de la realización de la actividad subvencionada",
-          "correct": true
-        }
+        { "text": "art. 47 LPAC", "correct": false },
+        { "text": "art. 109 LRJCA", "correct": true },
+        { "text": "art. 101 RD Legislativo 781/1986", "correct": false },
+        { "text": "art. 70 LPAC", "correct": false }
       ],
-      "explanation": "Las subvenciones pueden abonarse fraccionadamente o una vez se justifique la actividad. (Referencia normativa: Ley 38/2003, art. 34.)"
+      "explanation": "El artículo 109 de la Ley 29/1998 de la Jurisdicción Contencioso-Administrativa regula la declaración de lesividad y revisión de oficio de actos anulables. ",
+      "legal_reference": "Ley 29/1998, art. 109",
+      "original_file": "Test Administrativo II 2 parcial AGGIORNADO 16 04 25.docx"
     },
     {
-      "question": "25. Pueden ser objeto de recurso contencioso administrativo",
+      "question": "Pueden ser objeto de recurso contencioso-administrativo:",
       "answers": [
-        {
-          "text": "los actos públicos del gobierno sometidos a derecho constitucional",
-          "correct": false
-        },
-        {
-          "text": "los actos del gobierno en orden a la protección de derechos fundamentales y elementos de los actos que dictan",
-          "correct": false
-        },
-        {
-          "text": "los actos en materia personal dictados por el Consejo General del Poder Judicial y por los órganos de gobierno de los Juzgados y Tribunales",
-          "correct": false
-        },
-        {
-          "text": "B y c son correctas",
-          "correct": true
-        }
+        { "text": "actos públicos del Gobierno sometidos a derecho constitucional", "correct": false },
+        { "text": "actos del Gobierno en orden a la protección de derechos fundamentales y elementos de actos que dictan", "correct": false },
+        { "text": "actos en materia personal dictados por el CGPJ y órganos de gobierno de Juzgados y Tribunales", "correct": false },
+        { "text": "b y c", "correct": true }
       ],
-      "explanation": "Se pueden impugnar actos del Gobierno que afecten derechos fundamentales y actos en materia de personal del CGPJ. (Referencia: Ley 29/1998, art. 2 y 3.)"
+      "explanation": "El art. 2 y 3 de la Ley 29/1998 extiende la competencia contencioso-administrativa a actos del Gobierno relacionados con derechos fundamentales y a los de materia personal dictados por el CGPJ y órganos de gobierno judicial. ",
+      "legal_reference": "Ley 29/1998, arts. 2 y 3",
+      "original_file": "Test Administrativo II 2 parcial AGGIORNADO 16 04 25.docx"
     },
     {
-      "question": "26. La defensa y representación de las partes el procedimiento contencioso administrativo",
+      "question": "La defensa y representación de las partes en el procedimiento contencioso-administrativo:",
       "answers": [
-        {
-          "text": "ante los juzgados puede asumir la defensa y representación en letrado",
-          "correct": true
-        },
-        {
-          "text": "la representación siempre tiene que asumir el procurador",
-          "correct": false
-        },
-        {
-          "text": "los funcionarios en materia de personal tiene que estar asociados al letrado",
-          "correct": false
-        },
-        {
-          "text": "la defensa de las CCAA  la asume el Abogado del Estado",
-          "correct": false
-        }
+        { "text": "ante los juzgados puede asumir necesariamente a un letrado", "correct": true },
+        { "text": "la representación siempre ha de ser asumida por procurador", "correct": false },
+        { "text": "los funcionarios en materia personal han de estar asociados al letrado", "correct": false },
+        { "text": "la defensa de las CCAA la asume el Abogado del Estado", "correct": false }
       ],
-      "explanation": "Ante los Juzgados de lo Contencioso-Administrativo es posible la defensa sin procurador en ciertos casos. (Referencia: Art. 23 Ley 29/1998.)"
+      "explanation": "El artículo 23 de la Ley 29/1998 permite que la parte comparezca y sea defendida por letrado ante los tribunales, sin exigir siempre procurador; la representación de CCAA corre a cargo del Abogado del Estado, pero no constituye regla general única. ",
+      "legal_reference": "Ley 29/1998, art. 23",
+      "original_file": "Test Administrativo II 2 parcial AGGIORNADO 16 04 25.docx"
     },
     {
-      "question": "27. Son órganos que componen la jurisdicción contencioso administrativa",
+      "question": "El recurso de casación en interés de Ley fue suprimido por:",
       "answers": [
-        {
-          "text": "los juzgados de los contenciosos administrativo",
-          "correct": false
-        },
-        {
-          "text": "la Sala de lo Contencioso Administrativo de las Audiencias Provinciales",
-          "correct": false
-        },
-        {
-          "text": "los Juzgados Centrales de lo Contencioso Administrativo",
-          "correct": false
-        },
-        {
-          "text": "la A Y C son correctas",
-          "correct": true
-        }
+        { "text": "LO 4/2015", "correct": true },
+        { "text": "Ley 29/1998", "correct": false },
+        { "text": "art. 71 LPACAP", "correct": false },
+        { "text": "art. 88 LRJCA", "correct": false }
       ],
-      "explanation": "La jurisdicción contenciosa está compuesta por Juzgados de lo Contencioso-Administrativo y Juzgados Centrales, entre otros. (Referencia: Art. 8 y 9 Ley 29/1998.)"
+      "explanation": "La disposición final 3.2 de la Ley Orgánica 4/2015 suprime el recurso de casación en interés de Ley en la jurisdicción contencioso-administrativa. ",
+      "legal_reference": "LO 4/2015, disp. final 3.2",
+      "original_file": "Test Administrativo II 2 parcial AGGIORNADO 16 04 25.docx"
     },
     {
-      "question": "28. En la ejecución de la sentencias que se dictan en el orden contencioso administrativo",
+      "question": "En la ejecución de las sentencias en materia de responsabilidad patrimonial:",
       "answers": [
-        {
-          "text": "le corresponde a la Administración sin que tengan ninguna intervención del juez que dictó la sentencia",
-          "correct": false
-        },
-        {
-          "text": "se ha de llevar a cabo en el plazo de los dos meses siguientes a la división del expediente administrativo junto con el testimonio de la sentencia al órgano administrativo correspondiente",
-          "correct": true
-        },
-        {
-          "text": "en el caso de condena al pago de una cantidad de dinero el plazo para su cumplimiento es de tres meses",
-          "correct": false
-        }
+        { "text": "corresponde a la Administración ejecutarlas sin intervención judicial", "correct": false },
+        { "text": "en plazo de dos meses", "correct": false },
+        { "text": "en plazo de tres meses desde la notificación", "correct": true },
+        { "text": "la sentencia es inmediata en todo caso", "correct": false }
       ],
-      "explanation": "La Administración debe ejecutar la sentencia en el plazo máximo de dos meses. (Referencia: Art. 104 Ley 29/1998.)"
+      "explanation": "Cuando una sentencia condena a la Administración al pago de una cantidad, debe cumplirse en el plazo de tres meses desde su notificación; transcurrido sin cumplimiento, procede la ejecución forzosa. ",
+      "legal_reference": "Plazo de cumplimiento: 3 meses desde notificación",
+      "original_file": "Test Administrativo II 2 parcial AGGIORNADO 16 04 25.docx"
     }
   ]
 }
