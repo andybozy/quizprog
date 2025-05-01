@@ -1,0 +1,702 @@
+{
+  "file_number": 0,
+  "file_name": "Test Financiero I 2 parcial AGGIORNATO 18 04 25",
+  "questions": [
+    {
+      "question": "¿Qué es el procedimiento de verificación de datos según la LGT?",
+      "answers": [
+        { "text": "Es un procedimiento para verificar la identidad del contribuyente", "correct": false },
+        { "text": "Es un procedimiento para verificar la exactitud de los datos presentados por el contribuyente", "correct": true },
+        { "text": "Es un procedimiento para verificar la solvencia del contribuyente", "correct": false },
+        { "text": "Es un procedimiento para verificar la residencia fiscal del contribuyente", "correct": false }
+      ],
+      "explanation": "La opción B es correcta porque el art. 101.1 LGT define el procedimiento de verificación de datos como aquel destinado a comprobar la consistencia y exactitud de la información facilitada por el contribuyente. Las opciones A, C y D se refieren a otras materias (identidad, solvencia o residencia fiscal), que no son objeto de este procedimiento.",
+      "legal_reference": "Art. 101.1 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "¿Cuál de los siguientes factores es considerado para graduar las sanciones en infracciones tributarias según la LGT?",
+      "answers": [
+        { "text": "La cantidad de dinero que el infractor tiene en su cuenta bancaria al momento de la infracción", "correct": false },
+        { "text": "El número de años que el infractor ha estado pagando impuestos", "correct": false },
+        { "text": "La opinión pública sobre el infractor", "correct": false },
+        { "text": "La reincidencia por comisión en el término de un año de más infracciones de la misma naturaleza", "correct": true }
+      ],
+      "explanation": "El art. 187.1.f LGT incluye la reincidencia en un plazo de un año como criterio de agravación de sanciones. Las opciones A, B y C no están recogidas como factores de graduación en la Ley.",
+      "legal_reference": "Art. 187.1.f LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "¿Qué es una autoliquidación en el contexto de la obligación tributaria?",
+      "answers": [
+        { "text": "Es una liquidación realizada por la Administración Tributaria", "correct": false },
+        { "text": "Es una liquidación realizada por el contribuyente", "correct": true },
+        { "text": "Es una liquidación realizada por un asesor fiscal", "correct": false },
+        { "text": "Es una liquidación realizada por un tribunal", "correct": false }
+      ],
+      "explanation": "Según el art. 35.1 LGT, la autoliquidación es la determinación de la deuda tributaria llevada a cabo por el sujeto pasivo (contribuyente), no por la Administración, asesores o tribunales.",
+      "legal_reference": "Art. 35.1 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "¿Qué es una liquidación provisional según la LGT?",
+      "answers": [
+        { "text": "Es la determinación administrativa de la obligación tributaria, efectuada por los órganos de gestión, mayoritariamente", "correct": true },
+        { "text": "Es la determinación administrativa de la obligación tributaria, efectuada por los órganos de Inspección, únicamente", "correct": false },
+        { "text": "Es la determinación administrativa de la obligación tributaria, efectuada por los órganos de recaudación, mayoritariamente", "correct": false },
+        { "text": "Es la determinación administrativa de las obligaciones formales, efectuada por los órganos de Inspección, únicamente", "correct": false }
+      ],
+      "explanation": "El art. 107.1 LGT define la liquidación provisional como la determinación de la deuda realizada por los órganos de gestión. Las demás opciones atribuyen dicha competencia a otros órganos o a obligaciones formales.",
+      "legal_reference": "Art. 107.1 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "¿Qué es el procedimiento de devolución iniciado mediante autoliquidación?",
+      "answers": [
+        { "text": "Es un procedimiento para solicitar la devolución de impuestos pagados en exceso", "correct": true },
+        { "text": "Es un procedimiento para solicitar la devolución de impuestos no pagados", "correct": false },
+        { "text": "Es un procedimiento para solicitar la devolución de sanciones tributarias", "correct": false },
+        { "text": "Es un procedimiento para solicitar la devolución de recargos tributarios", "correct": false }
+      ],
+      "explanation": "El art. 39.1 LGT establece que las devoluciones iniciadas mediante autoliquidación sirven para recuperar pagos indebidos o en exceso. No sirven para impuestos no satisfechos, sanciones o recargos.",
+      "legal_reference": "Art. 39.1 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "¿Qué es el procedimiento iniciado mediante declaración tributaria?",
+      "answers": [
+        { "text": "Es un procedimiento que se inicia con la presentación de una declaración de la renta", "correct": false },
+        { "text": "Es un procedimiento que se inicia con la presentación de una declaración de IVA", "correct": false },
+        { "text": "Es un procedimiento que se inicia con la presentación de una declaración de bienes inmuebles", "correct": false },
+        { "text": "Es un procedimiento que se inicia con la presentación de una declaración de la realización de un hecho imponible", "correct": true }
+      ],
+      "explanation": "Según el art. 27.2 LGT, este procedimiento arranca con la presentación de una declaración genérica relativa a un hecho imponible, no a un impuesto concreto.",
+      "legal_reference": "Art. 27.2 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "¿Quién es competente para resolver las reclamaciones económico-administrativas?",
+      "answers": [
+        { "text": "El Tribunal Económico-Administrativo Central", "correct": false },
+        { "text": "El Tribunal Supremo", "correct": false },
+        { "text": "Los Tribunales Económico-Administrativos Regionales", "correct": false },
+        { "text": "Tanto la a) como la c) son correctas, dependiendo de la cuantía de la reclamación", "correct": true }
+      ],
+      "explanation": "El art. 227.2 LGT establece que, según la cuantía, resuelven los Tribunales Económico-Administrativos Regionales o el Tribunal Económico-Administrativo Central. El Tribunal Supremo no interviene.",
+      "legal_reference": "Art. 227.2 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "¿Qué es un acta de inspección en el contexto de la obligación tributaria?",
+      "answers": [
+        { "text": "Es un documento que registra el resultado de una inspección tributaria", "correct": true },
+        { "text": "Es un documento que registra el inicio de una inspección tributaria", "correct": false },
+        { "text": "Es un documento que registra el proceso de una inspección tributaria", "correct": false },
+        { "text": "Es un documento que registra la finalización de una inspección tributaria", "correct": false }
+      ],
+      "explanation": "El art. 190.1 LGT define el acta de inspección como el documento donde constan las actuaciones y conclusiones tras la inspección, no solo su inicio o finalización.",
+      "legal_reference": "Art. 190.1 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "¿Qué es una liquidación provisional según la LGT?",
+      "answers": [
+        { "text": "Es una liquidación que se realiza antes de la presentación de la declaración tributaria", "correct": false },
+        { "text": "Es una liquidación que se realiza después de la presentación de la declaración tributaria", "correct": false },
+        { "text": "Es una liquidación que se realiza antes de la finalización del procedimiento de inspección", "correct": true },
+        { "text": "Es una liquidación que se realiza después de la finalización del procedimiento de inspección", "correct": false }
+      ],
+      "explanation": "El art. 107.2 LGT señala que la liquidación provisional se notifica antes de concluir el procedimiento de inspección, descartando las demás opciones.",
+      "legal_reference": "Art. 107.2 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "¿Qué documento formaliza el inicio del procedimiento forzoso de recaudación?",
+      "answers": [
+        { "text": "Notificación de la deuda", "correct": false },
+        { "text": "Providencia de apremio", "correct": true },
+        { "text": "Liquidación provisional", "correct": false },
+        { "text": "Providencia de adeudo", "correct": false }
+      ],
+      "explanation": "El art. 62.1 LGT establece que la providencia de apremio inicia el procedimiento ejecutivo de recaudación. Las demás no tienen ese efecto.",
+      "legal_reference": "Art. 62.1 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "¿Qué es el recurso de reposición según la LGT?",
+      "answers": [
+        { "text": "Es un recurso de alzada que se interpone ante un órgano superior al que dictó el acto impugnado", "correct": false },
+        { "text": "Es un recurso que se interpone ante un órgano inferior al que dictó el acto impugnado", "correct": false },
+        { "text": "Es un recurso que se interpone ante el Tribunal Superior de Justicia de la Comunidad Autónoma donde resida el obligado tributario", "correct": false },
+        { "text": "Es un recurso que se interpone ante el mismo órgano que dictó el acto impugnado", "correct": true }
+      ],
+      "explanation": "Según el art. 123.1 LGT, el recurso de reposición se formula ante el mismo órgano que dictó el acto impugnado, sin elevarlo.",
+      "legal_reference": "Art. 123.1 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "Un contribuyente recibe una liquidación del IBI basada en un valor que considera excesivo. ¿Qué debería hacer?",
+      "answers": [
+        { "text": "Pagar la liquidación y aceptar el valor", "correct": false },
+        { "text": "Solicitar una revisión del valor catastral", "correct": false },
+        { "text": "Solicitar una tasación pericial contradictoria", "correct": true },
+        { "text": "Presentar una reclamación económico-administrativa", "correct": false }
+      ],
+      "explanation": "El art. 103 LGT contempla la tasación pericial contradictoria para discutir el valor catastral cuando el contribuyente no está conforme con la valoración administrativa.",
+      "legal_reference": "Art. 103 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "¿Qué plazo máximo para resolver y notificar la resolución del recurso de reposición?",
+      "answers": [
+        { "text": "Un mes", "correct": false },
+        { "text": "Tres meses", "correct": true },
+        { "text": "Seis meses", "correct": false },
+        { "text": "Hasta el 31 de diciembre", "correct": false }
+      ],
+      "explanation": "El art. 124.2 LGT fija un plazo de tres meses para resolver expresamente el recurso de reposición, tras el cual operaría el silencio administrativo.",
+      "legal_reference": "Art. 124.2 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "¿Qué sucede si transcurre el plazo y la Administración no dicta resolución expresa en procedimientos iniciados a instancia de parte cuyo resultado podría favorecerle?",
+      "answers": [
+        { "text": "Los obligados tributarios podrán entender estimadas sus solicitudes por silencio administrativo", "correct": true },
+        { "text": "Se considera prescrito el procedimiento", "correct": false },
+        { "text": "Los obligados tributarios podrán entender desestimadas sus solicitudes por silencio administrativo", "correct": false },
+        { "text": "Se considera caduco el procedimiento", "correct": false }
+      ],
+      "explanation": "El art. 43.1 LGT establece que, en procedimientos iniciados a instancia del interesado y favorables, opera el silencio administrativo positivo (estimatorio).",
+      "legal_reference": "Art. 43.1 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "¿Qué criterio se utiliza para determinar el importe de una sanción proporcional en infracciones tributarias?",
+      "answers": [
+        { "text": "El volumen de negocios de la empresa", "correct": false },
+        { "text": "La gravedad de la infracción", "correct": true },
+        { "text": "La gravedad de la sanción", "correct": false },
+        { "text": "La situación económica del infractor", "correct": false }
+      ],
+      "explanation": "El art. 187.1 LGT establece la gravedad de la infracción como criterio para calcular sanciones proporcionales; los demás factores no se emplean para este fin.",
+      "legal_reference": "Art. 187.1 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "¿Cuál es el periodo de duración máxima del procedimiento de inspección siempre que no se trate de empresas que deban ser auditadas?",
+      "answers": [
+        { "text": "18 meses", "correct": true },
+        { "text": "24 meses", "correct": false },
+        { "text": "27 meses", "correct": false },
+        { "text": "30 meses", "correct": false }
+      ],
+      "explanation": "El art. 150.1 LGT establece un plazo máximo de 18 meses para la inspección general de contribuyentes no sujetos a auditoría.",
+      "legal_reference": "Art. 150.1 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "Un sujeto actúa con negligencia al incluir datos en su declaración trimestral IVA, aunque no tiene conducta típicamente dolosa, ¿puede ser sancionado si resulta una infracción tributaria?",
+      "answers": [
+        { "text": "Sí, porque las infracciones tributarias se pueden sancionar incluso a título de simple negligencia siempre que exista dolo o culpa", "correct": true },
+        { "text": "Sí, porque las infracciones tributarias se sancionan de manera objetiva", "correct": false },
+        { "text": "No, porque solo se sanciona si existe dolo", "correct": false },
+        { "text": "No, porque nada dice la LGT al respecto de que la conducta debe ser culpable", "correct": false }
+      ],
+      "explanation": "El art. 191 LGT contempla sanciones por dolo o culpa (incluida la negligencia), por lo que la conducta negligente es sancionable. Las demás afirmaciones son incorrectas.",
+      "legal_reference": "Art. 191 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "Señala cuál de los siguientes NO es un procedimiento de gestión: procedimiento de comprobación censal; procedimiento de comprobación del domicilio fiscal; procedimiento de apremio; procedimiento de comprobación de valores.",
+      "answers": [
+        { "text": "Procedimiento de comprobación censal", "correct": false },
+        { "text": "Procedimiento de comprobación del domicilio fiscal", "correct": false },
+        { "text": "Procedimiento de apremio", "correct": true },
+        { "text": "Procedimiento de comprobación de valores", "correct": false }
+      ],
+      "explanation": "El art. 100 LGT clasifica el apremio como procedimiento de recaudación, no de gestión. Los demás sí son de gestión según la Ley.",
+      "legal_reference": "Art. 100 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "Señala de las siguientes afirmaciones cuál es FALSA: a) a través de una declaración tributaria puede ejercitar, solicitar o renunciar a las diferentes opciones previstas por la normativa; b) la declaración tributaria es una manifestación del hecho imponible; c) a través de una declaración se facilita la información necesaria para que la administración practique una liquidación; d) la declaración tributaria tiene como objeto complementar o sustituir una autoliquidación.",
+      "answers": [
+        { "text": "A través de una declaración tributaria puede ejercitar, solicitar o renunciar a opciones", "correct": false },
+        { "text": "La declaración tributaria es una manifestación del hecho imponible", "correct": false },
+        { "text": "A través de una declaración tributaria se facilita la información para practicar una liquidación", "correct": false },
+        { "text": "La declaración tributaria tiene como objeto complementar o sustituir una autoliquidación", "correct": true }
+      ],
+      "explanation": "Las opciones A, B y C recogen funciones reales de la declaración (arts. 27 y 35 LGT). La D es falsa: la declaración no complementa ni sustituye la autoliquidación.",
+      "legal_reference": "Arts. 27 y 35 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "El recurso de reposición debe resolverse en el plazo de: dos meses desde su presentación; un mes desde su presentación; un mes desde la notificación; entre 10 y 15 días hábiles.",
+      "answers": [
+        { "text": "Dos meses", "correct": false },
+        { "text": "Un mes desde su presentación", "correct": true },
+        { "text": "Un mes desde la notificación del acto impugnado", "correct": false },
+        { "text": "Entre 10 y 15 días hábiles", "correct": false }
+      ],
+      "explanation": "El art. 124.2 LGT fija un mes desde la presentación como plazo máximo para resolver el recurso de reposición.",
+      "legal_reference": "Art. 124.2 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "La interposición del recurso de reposición: puede suponer la suspensión automática si lo solicita sin garantías; implica la suspensión automática si aporta garantías; implica la suspensión automática sin más; ninguna es correcta.",
+      "answers": [
+        { "text": "Puede suponer suspensión automática sin más garantías", "correct": false },
+        { "text": "Implica la suspensión automática si aporta las garantías previstas", "correct": true },
+        { "text": "Implica la suspensión automática sin garantías", "correct": false },
+        { "text": "Ninguna es correcta", "correct": false }
+      ],
+      "explanation": "Según el art. 224.1 LGT, la suspensión del acto impugnado requiere solicitud del interesado y constitución de garantía. Sin garantía no se suspende, salvo sanciones.",
+      "legal_reference": "Art. 224.1 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "El periodo ejecutivo para las deudas determinadas mediante la autoliquidación del contribuyente comienza: acepta la autoliquidación con recargo 10%; no acepta por presentación fuera de plazo; acepta con recargo 15% sin intereses; ninguna es correcta.",
+      "answers": [
+        { "text": "Acepta la autoliquidación y el pago pero impone recargo del 10%", "correct": false },
+        { "text": "No acepta la autoliquidación y el pago pues es fuera de plazo", "correct": false },
+        { "text": "Acepta la autoliquidación con un recargo del 15% sin aplicar intereses", "correct": false },
+        { "text": "Ninguna es correcta", "correct": true }
+      ],
+      "explanation": "El art. 61 LGT establece que el periodo ejecutivo se inicia al vencimiento del voluntario si no se paga; no depende de recargos automáticos.",
+      "legal_reference": "Art. 61 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "Un sujeto deja de incluir en su declaración trimestral IVA el 5% de sus ingresos. ¿Se puede aplicar el criterio de utilización de medios fraudulentos?",
+      "answers": [
+        { "text": "Sí, porque no alcanza el 50% de incidencia", "correct": false },
+        { "text": "Sí, porque siempre que se oculta algo se aplica este criterio", "correct": false },
+        { "text": "No, porque no alcanza el 10% de la base de la sanción", "correct": true },
+        { "text": "No, porque no alcanza el 50% de la base de sanción", "correct": false }
+      ],
+      "explanation": "El art. 191 LGT exige un ocultamiento que suponga al menos el 10% de la base para emplear medios fraudulentos como agravante; con 5% no se cumple.",
+      "legal_reference": "Art. 191 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "Indica cuál de las siguientes NO es función de los órganos de gestión tributaria: informar y asistir; recaudar voluntario y ejecutivo; sancionar infracciones; ninguna de las anteriores.",
+      "answers": [
+        { "text": "Informar y asistir", "correct": false },
+        { "text": "Recaudar tanto en periodo voluntario como en periodo ejecutivo", "correct": true },
+        { "text": "Sancionar las infracciones tributarias", "correct": false },
+        { "text": "Ninguna de las anteriores", "correct": false }
+      ],
+      "explanation": "El art. 13.2 LGT reserva la recaudación ejecutiva a órganos de recaudación; los de gestión solo recaudan en periodo voluntario.",
+      "legal_reference": "Art. 13.2 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "El recurso de reposición se configura como: recurso previo y obligatorio; recurso previo y potestativo; recurso dentro de la vía económico-administrativa; ninguna.",
+      "answers": [
+        { "text": "Obligatorio", "correct": false },
+        { "text": "Potestativo", "correct": true },
+        { "text": "Dentro de la vía económico-administrativa", "correct": false },
+        { "text": "Ninguna", "correct": false }
+      ],
+      "explanation": "El art. 124.1 LGT establece que el recurso de reposición es potestativo, no obligatorio, y no forma parte de otra vía.",
+      "legal_reference": "Art. 124.1 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "Benito es comprobado y quedan gastos incorrectos de 400 €, dejando un perjuicio de 2.000 €. ¿Qué tipo de infracción es?",
+      "answers": [
+        { "text": "Será leve inicialmente", "correct": true },
+        { "text": "Será grave inicialmente", "correct": false },
+        { "text": "Será grave definitivamente si hubo ocultación", "correct": false },
+        { "text": "Tanto A como C son correctas", "correct": false }
+      ],
+      "explanation": "El art. 191 LGT califica como leve la infracción si el perjuicio no supera 3.000 €, aunque exista ocultación.",
+      "legal_reference": "Art. 191 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "A Anselmo le descubren 2.000 € no ingresados por ventas y 13.000 € por exceso de amortizaciones. ¿Cuál es la base de sanción?",
+      "answers": [
+        { "text": "2.000 €", "correct": false },
+        { "text": "13.000 €", "correct": false },
+        { "text": "15.000 €", "correct": true },
+        { "text": "No habrá base si paga al solicitarlo", "correct": false }
+      ],
+      "explanation": "La base de sanción comprende la totalidad del perjuicio económico (15.000 €), según el art. 191 LGT.",
+      "legal_reference": "Art. 191 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "Con la providencia de apremio se: abre el procedimiento y devenga intereses; abre y embarga bienes; abre requiriendo pago según art. 62.5; abre requiriendo pago según art. 62.2.",
+      "answers": [
+        { "text": "Abre y devenga intereses de demora", "correct": false },
+        { "text": "Abre y embarga bienes inmediatamente", "correct": false },
+        { "text": "Abre requiriendo el pago de la deuda según art. 62.5", "correct": true },
+        { "text": "Abre requiriendo el pago según art. 62.2", "correct": false }
+      ],
+      "explanation": "El art. 62.5 LGT regula que la providencia de apremio debe contener el requerimiento de pago de la deuda, recargos e intereses.",
+      "legal_reference": "Art. 62.5 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "Cuando sea necesario rectificar una autoliquidación ya presentada y de ello derive una devolución, se debe presentar:",
+      "answers": [
+        { "text": "Una autoliquidación complementaria", "correct": false },
+        { "text": "No pueden corregirse por el contribuyente", "correct": false },
+        { "text": "Una autoliquidación sustitutiva", "correct": true },
+        { "text": "Una solicitud de rectificación de la autoliquidación", "correct": false }
+      ],
+      "explanation": "El art. 42.2 LGT establece que si tras la presentación de una autoliquidación se genera una devolución, debe presentarse una autoliquidación sustitutiva.",
+      "legal_reference": "Art. 42.2 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "La reclamación económico-administrativa:",
+      "answers": [
+        { "text": "Tiene naturaleza administrativa", "correct": true },
+        { "text": "Tiene naturaleza mixta", "correct": false },
+        { "text": "No tiene naturaleza administrativa", "correct": false },
+        { "text": "Tiene naturaleza jurídica exclusivamente", "correct": false }
+      ],
+      "explanation": "La reclamación eco-adm es un acto de naturaleza estrictamente administrativa, según el RD 520/2004.",
+      "legal_reference": "RD 520/2004 Art. 4",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "¿Cuál de los siguientes tributos NO se gestiona mediante el sistema de autoliquidación? AJD de cuota fija; Impuesto sobre Sociedades; IRPF; IVA.",
+      "answers": [
+        { "text": "El impuesto sobre Actos Jurídicos Documentados de cuota fija", "correct": true },
+        { "text": "El impuesto sobre Sociedades", "correct": false },
+        { "text": "El impuesto sobre la Renta de las Personas Físicas", "correct": false },
+        { "text": "El impuesto sobre el Valor Añadido", "correct": false }
+      ],
+      "explanation": "El AJD de cuota fija se ingresa mediante liquidación directa o autoliquidación simplificada según art. 42 LGT; los demás tributos usan autoliquidación ordinaria.",
+      "legal_reference": "Art. 42 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "La administración tributaria puede imponer en caso de infracciones tributarias:",
+      "answers": [
+        { "text": "Solo multas pecuniarias", "correct": false },
+        { "text": "Sanciones pecuniarias, accesorias y penas privadas de libertad", "correct": false },
+        { "text": "Sanciones pecuniarias, accesorias pero no penas privadas de libertad", "correct": true },
+        { "text": "No tiene potestad para imponer sanciones", "correct": false }
+      ],
+      "explanation": "El art. 6 LGT permite imponer sanciones pecuniarias y accesorias, pero no penas de prisión, que corresponden al orden penal.",
+      "legal_reference": "Art. 6 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "La gestión tributaria puede iniciarse (incorrecta): mediante declaración; autoliquidación; denuncias públicas; ninguna.",
+      "answers": [
+        { "text": "Mediante declaración", "correct": false },
+        { "text": "Mediante autoliquidación", "correct": false },
+        { "text": "Mediante denuncias públicas", "correct": true },
+        { "text": "Ninguna de las anteriores", "correct": false }
+      ],
+      "explanation": "Según el art. 27.2 LGT, los procedimientos de gestión se inician por declaración o autoliquidación, no por denuncias públicas.",
+      "legal_reference": "Art. 27.2 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "El incumplimiento de los deberes de facturación:",
+      "answers": [
+        { "text": "Puede ser medio de graduación de las infracciones tributarias solamente", "correct": false },
+        { "text": "Puede ser medio de graduación de las infracciones y de las sanciones tributarias", "correct": true },
+        { "text": "No tiene impacto ni en las infracciones ni en las sanciones", "correct": false },
+        { "text": "Puede ser medio de graduación de la sanción tributaria solamente", "correct": false }
+      ],
+      "explanation": "El art. 188 LGT considera el incumplimiento de deberes formales como criterio de graduación de sanciones y, en ocasiones, de infracciones.",
+      "legal_reference": "Art. 188 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "La tasación pericial contradictoria:",
+      "answers": [
+        { "text": "Es un modo de recurrir/corregir una comprobación de valores", "correct": true },
+        { "text": "Es un modo de recurrir la liquidación derivada de una comprobación de valores", "correct": false },
+        { "text": "La inicia la administración tributaria", "correct": false },
+        { "text": "Es un modo de recurrir las alegaciones de la administración", "correct": false }
+      ],
+      "explanation": "El art. 103 LGT regula la tasación pericial contradictoria como vía para impugnar la comprobación de valores catastrales promovida por el contribuyente.",
+      "legal_reference": "Art. 103 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "¿Cuál de las siguientes actuaciones NO puede realizarse en un procedimiento de comprobación limitada? Examen de contabilidad mercantil; examen de registros y documentos; examen de datos consignados en las declaraciones; todas las anteriores.",
+      "answers": [
+        { "text": "Examen de contabilidad mercantil", "correct": true },
+        { "text": "Examen de registros y documentos", "correct": false },
+        { "text": "Examen de datos consignados en las declaraciones", "correct": false },
+        { "text": "Todas las anteriores pueden realizarse", "correct": false }
+      ],
+      "explanation": "El art. 144 LGT limita la comprobación limitada a datos y documentos, excluyendo el examen de la contabilidad mercantil.",
+      "legal_reference": "Art. 144 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "¿Quién es competente para resolver las reclamaciones administrativas?",
+      "answers": [
+        { "text": "El Tribunal Económico-Administrativo Central", "correct": false },
+        { "text": "El Tribunal Supremo", "correct": false },
+        { "text": "Los Tribunales Económico-Administrativos regionales", "correct": false },
+        { "text": "Tanto la a) como la c) son correctas", "correct": true }
+      ],
+      "explanation": "El art. 227.2 LGT establece que, según cuantías, resuelven los TEAR o el TEAC, no el Tribunal Supremo.",
+      "legal_reference": "Art. 227.2 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "Un contribuyente ha realizado su declaración de renta 2022 y tras presentarla con resultado a devolver de 375 € no incluyó 2.500 € de gastos deducibles. ¿Qué debe hacer para subsanar?",
+      "answers": [
+        { "text": "Presentar una solicitud de devolución de ingreso indebido", "correct": false },
+        { "text": "Presentar una autoliquidación complementaria", "correct": false },
+        { "text": "Presentar una autoliquidación rectificativa", "correct": true },
+        { "text": "Presentar una solicitud de devolución de ingresos debidos", "correct": false }
+      ],
+      "explanation": "Según el art. 43.3 LGT, para expandir una devolución existente se utiliza la autoliquidación rectificativa.",
+      "legal_reference": "Art. 43.3 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "¿Cuál de los siguientes factores es considerado para graduar las sanciones en infracciones tributarias según la LGT?",
+      "answers": [
+        { "text": "La reincidencia por comisión en un año de infracciones de la misma naturaleza", "correct": true },
+        { "text": "La cantidad de dinero que el infractor tiene en su cuenta bancaria", "correct": false },
+        { "text": "El número de años que el infractor ha estado pagando impuestos", "correct": false },
+        { "text": "La opinión pública sobre el infractor", "correct": false }
+      ],
+      "explanation": "Como en preguntas anteriores, el art. 187.1.f LGT recoge la reincidencia como criterio de agravación.",
+      "legal_reference": "Art. 187.1.f LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "¿Qué es una tasación pericial contradictoria en el contexto de la LGT?",
+      "answers": [
+        { "text": "Un procedimiento para resolver discrepancias entre dos peritos designados por las partes", "correct": false },
+        { "text": "Un método para determinar el valor real de los bienes inmuebles", "correct": false },
+        { "text": "Un procedimiento para corregir los errores en las declaraciones de impuestos", "correct": false },
+        { "text": "Un procedimiento que permite al contribuyente solicitar la valoración de un perito tercero cuando no esté conforme con la valoración administrativa", "correct": true }
+      ],
+      "explanation": "El art. 103 LGT regula este procedimiento como vía para que el contribuyente contraponga a la valoración administrativa un perito de su elección.",
+      "legal_reference": "Art. 103 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "¿Cuál es el porcentaje máximo de la base de la sanción en el caso de infracciones tributarias muy graves?",
+      "answers": [
+        { "text": "50%", "correct": false },
+        { "text": "100%", "correct": false },
+        { "text": "150%", "correct": false },
+        { "text": "200%", "correct": true }
+      ],
+      "explanation": "El art. 188.1 LGT fija el límite del 200% de la base para las sanciones muy graves.",
+      "legal_reference": "Art. 188.1 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "¿Cuál es el periodo de duración máxima del procedimiento de inspección cuando se trata de grandes empresas que deben ser auditadas?",
+      "answers": [
+        { "text": "18 meses", "correct": false },
+        { "text": "24 meses", "correct": false },
+        { "text": "27 meses", "correct": true },
+        { "text": "30 meses", "correct": false }
+      ],
+      "explanation": "El art. 150.2 LGT extiende el plazo hasta 27 meses para sujetos obligados a auditoría de cuentas.",
+      "legal_reference": "Art. 150.2 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "Un contribuyente recibe una liquidación basada en un valor catastral que considera excesivo. ¿Qué debería hacer?",
+      "answers": [
+        { "text": "Pagar la liquidación y aceptar el valor", "correct": false },
+        { "text": "Solicitar una revisión del valor catastral", "correct": false },
+        { "text": "Solicitar una tasación pericial contradictoria", "correct": true },
+        { "text": "Presentar una reclamación económico-administrativa", "correct": false }
+      ],
+      "explanation": "Repite la pregunta anterior: según el art. 103 LGT, la vía es la tasación pericial contradictoria.",
+      "legal_reference": "Art. 103 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "¿Qué plazo tiene el contribuyente para interponer un recurso de reposición ante actos de gestión tributaria?",
+      "answers": [
+        { "text": "15 días hábiles", "correct": false },
+        { "text": "1 mes", "correct": false },
+        { "text": "3 meses", "correct": true },
+        { "text": "6 meses", "correct": false }
+      ],
+      "explanation": "Aunque la LGT general fija un mes, en algunos actos de gestión se aplica un plazo de tres meses (art. 124.2 LGT).",
+      "legal_reference": "Art. 124.2 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "¿Qué ocurre si se supera el plazo máximo sin notificar resolución en un procedimiento de gestión tributaria?",
+      "answers": [
+        { "text": "Se entiende que la declaración es correcta y se archiva", "correct": false },
+        { "text": "Se produce la caducidad del procedimiento", "correct": true },
+        { "text": "Se sanciona a la administración", "correct": false },
+        { "text": "El procedimiento continúa normalmente sin consecuencias", "correct": false }
+      ],
+      "explanation": "Por analogía con art. 66.6 LGT en recaudación y normas de gestión, el exceso de plazo determina la caducidad del procedimiento.",
+      "legal_reference": "Art. 66.6 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "¿Qué circunstancia NO es considerada como un criterio de graduación de las sanciones según la LGT?",
+      "answers": [
+        { "text": "El importe de la deuda tributaria", "correct": false },
+        { "text": "El carácter periódico del tributo", "correct": false },
+        { "text": "El nivel económico del infractor", "correct": true },
+        { "text": "La existencia de ocultación", "correct": false }
+      ],
+      "explanation": "El art. 187 LGT recoge importe, periodicidad y ocultación, pero no el nivel económico del infractor.",
+      "legal_reference": "Art. 187 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "En el procedimiento de comprobación limitada, ¿qué puede revisar la Administración?",
+      "answers": [
+        { "text": "Solo algunos elementos de la declaración", "correct": true },
+        { "text": "Todo el contenido de la declaración", "correct": false },
+        { "text": "Exclusivamente las deducciones aplicadas", "correct": false },
+        { "text": "Los datos del contribuyente", "correct": false }
+      ],
+      "explanation": "El art. 144 LGT limita la comprobación limitada a determinados datos y documentos, no al contenido completo ni solo deducciones.",
+      "legal_reference": "Art. 144 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "Según la LGT, ¿qué se considera un criterio de minoración de la sanción en una infracción tributaria?",
+      "answers": [
+        { "text": "La utilización de medios fraudulentos", "correct": false },
+        { "text": "La presentación de una declaración parcialmente inexacta", "correct": false },
+        { "text": "La colaboración activa con la Administración fuera de los plazos establecidos", "correct": false },
+        { "text": "El reconocimiento voluntario e implícito de la infracción al no recurrir la sanción", "correct": true }
+      ],
+      "explanation": "El art. 188 LGT contempla el reconocimiento voluntario (no recurrir) como atenuante. Los demás son agravantes o no aplicables.",
+      "legal_reference": "Art. 188 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "¿Qué tipo de procedimiento tributario puede corregir errores aritméticos o materiales?",
+      "answers": [
+        { "text": "Procedimiento de gestión", "correct": true },
+        { "text": "Procedimiento de inspección", "correct": false },
+        { "text": "Procedimiento sancionador", "correct": false },
+        { "text": "Procedimiento de recaudación", "correct": false }
+      ],
+      "explanation": "Los errores aritméticos o materiales se corrigen en gestión según el art. 103 LGT, no en inspección, sancionador o recaudación.",
+      "legal_reference": "Art. 103 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "Si un contribuyente descubre un error en su declaración del año anterior que resulta en un mayor impuesto, ¿cuál es el procedimiento adecuado para corregirlo?",
+      "answers": [
+        { "text": "Presentar una nueva declaración complementaria", "correct": true },
+        { "text": "Esperar a ser notificado por la Administración", "correct": false },
+        { "text": "Informar del error en la próxima declaración", "correct": false },
+        { "text": "No necesita realizar acción alguna", "correct": false }
+      ],
+      "explanation": "Para errores que incrementan la deuda, el art. 43.1 LGT exige presentar una autoliquidación complementaria.",
+      "legal_reference": "Art. 43.1 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "En un procedimiento de Inspección, ¿qué documento finaliza formalmente el proceso?",
+      "answers": [
+        { "text": "La declaración del contribuyente", "correct": false },
+        { "text": "El informe final de inspección", "correct": false },
+        { "text": "Un acta de inspección", "correct": true },
+        { "text": "Un recibo de pago", "correct": false }
+      ],
+      "explanation": "El art. 190.1 LGT establece que el acta de inspección recoge el resultado final y cierra formalmente el procedimiento.",
+      "legal_reference": "Art. 190.1 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "Indica cuál de las siguientes NO es una función asignada a los órganos de gestión tributaria: informar y asistir; recaudar tanto en periodo voluntario como en periodo ejecutivo; sancionar infracciones tributarias; ninguna de las anteriores.",
+      "answers": [
+        { "text": "Informar y asistir", "correct": false },
+        { "text": "Recaudar tanto en periodo voluntario como en periodo ejecutivo", "correct": true },
+        { "text": "Sancionar las infracciones tributarias", "correct": false },
+        { "text": "Ninguna de las anteriores", "correct": false }
+      ],
+      "explanation": "Según el art. 13.2 LGT, los órganos de gestión solo recaudan en periodo voluntario; la recaudación ejecutiva corresponde a órganos de recaudación.",
+      "legal_reference": "Art. 13.2 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "¿Qué criterio sí utiliza para determinar el importe de una sanción proporcional en infracciones tributarias?",
+      "answers": [
+        { "text": "El volumen de negocios de la empresa", "correct": false },
+        { "text": "La gravedad de la infracción", "correct": true },
+        { "text": "La antigüedad de la empresa", "correct": false },
+        { "text": "La situación económica del infractor", "correct": false }
+      ],
+      "explanation": "El art. 187.1 LGT establece la gravedad de la infracción como criterio para sanciones proporcionales; los demás criterios no se emplean.",
+      "legal_reference": "Art. 187.1 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "Un contribuyente ha recibido la liquidación del IBI 2023 por importe de 1 000 €, el 16 de octubre de 2022. ¿Hasta cuándo tiene plazo de pago de conformidad con el art. 62.2 LGT?",
+      "answers": [
+        { "text": "5 de diciembre", "correct": true },
+        { "text": "5 de noviembre", "correct": false },
+        { "text": "20 de noviembre", "correct": false },
+        { "text": "20 de octubre", "correct": false }
+      ],
+      "explanation": "El art. 62.2 LGT dispone que, notificadas entre el 16 y fin de mes, el plazo concluye el quinto día del tercer mes siguiente (16 oct → 5 dic).",
+      "legal_reference": "Art. 62.2 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "¿Qué tipo de recurso de revisión se puede interponer directamente ante el Tribunal Económico-Administrativo?",
+      "answers": [
+        { "text": "Recurso de reposición", "correct": false },
+        { "text": "Recurso económico-administrativo", "correct": false },
+        { "text": "Recurso de alzada", "correct": false },
+        { "text": "Reclamación económico-administrativa", "correct": true }
+      ],
+      "explanation": "La reclamación económico-administrativa es el recurso que se interpone directamente ante TEAR o TEAC, según RD 520/2004.",
+      "legal_reference": "RD 520/2004 Art. 14",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "¿Qué documento formaliza el inicio del procedimiento forzoso de recaudación?",
+      "answers": [
+        { "text": "Notificación de la deuda", "correct": false },
+        { "text": "Providencia de apremio", "correct": true },
+        { "text": "Liquidación provisional", "correct": false },
+        { "text": "Acta de inspección", "correct": false }
+      ],
+      "explanation": "De nuevo, el art. 62.1 LGT estipula que la providencia de apremio inicia el procedimiento de recaudación ejecutiva.",
+      "legal_reference": "Art. 62.1 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "¿Qué criterio sí utiliza para determinar el importe de una sanción proporcional en infracciones tributarias?",
+      "answers": [
+        { "text": "El volumen de negocios de la empresa", "correct": false },
+        { "text": "La gravedad de la infracción", "correct": true },
+        { "text": "La antigüedad de la empresa", "correct": false },
+        { "text": "La situación económica del infractor", "correct": false }
+      ],
+      "explanation": "Reiterando: el art. 187.1 LGT impone la gravedad de la infracción como criterio principal para sanciones proporcionales.",
+      "legal_reference": "Art. 187.1 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    },
+    {
+      "question": "¿Cuál de la siguiente opciones es un criterio de agravación de la sanción según la LGT?",
+      "answers": [
+        { "text": "La utilización de personas o entidades interpuestas para ocultar la identidad del obligado tributario", "correct": true },
+        { "text": "El cumplimiento espontáneo de obligaciones posteriores a la infracción", "correct": false },
+        { "text": "La cantidad de veces que el infractor ha consultado sobre normativa tributaria", "correct": false },
+        { "text": "El volumen de declaraciones presentadas correctamente en el pasado", "correct": false }
+      ],
+      "explanation": "El art. 187 LGT recoge el uso de terceros para ocultar identidad como circunstancia agravante. Las demás no están contempladas.",
+      "legal_reference": "Art. 187.1 LGT",
+      "original_file": "Test Financiero I 2 parcial AGGIORNATO 18 04 25"
+    }
+  ]
+}
