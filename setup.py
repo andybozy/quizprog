@@ -6,7 +6,7 @@ setup(
     packages=find_packages(include=["quizlib", "quizlib.*"]),
     entry_points={
         "console_scripts": [
-            "quizprog=main:main"
+            "quizprog=quizlib.main:main"
         ]
     }
 )
