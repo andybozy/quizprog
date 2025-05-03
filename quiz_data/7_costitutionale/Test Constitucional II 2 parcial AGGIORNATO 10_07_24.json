@@ -1,0 +1,366 @@
+{
+  "file_name": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24",
+  "file_format": "txt",
+  "questions": [
+    {
+      "question": "La idea moderna del poder constituyente va unida a",
+      "answers": [
+        { "text": "a) Ninguna es correcta", "correct": false },
+        { "text": "b) La idea de soberanía popular", "correct": true },
+        { "text": "c) La idea de soberanía social", "correct": false },
+        { "text": "d) La idea de igualdad", "correct": false }
+      ],
+      "explanation": "El poder constituyente moderno se fundamenta en la idea de soberanía popular: la legitimidad para crear o modificar la Constitución emana del pueblo, no de una institución previa.",
+      "legal_reference": "Constitución Española de 1978, art. 1.2",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    },
+    {
+      "question": "¿Quién nombra al Presidente del Tribunal de Cuentas?",
+      "answers": [
+        { "text": "a) Será nombrado por el Gobierno a propuesta de los partidos políticos", "correct": false },
+        { "text": "b) Será nombrado por el Rey a propuesta del pleno", "correct": false },
+        { "text": "c) Será nombrado por el Rey a propuesta de las Cortes", "correct": true },
+        { "text": "d) Ninguna es cierta", "correct": false }
+      ],
+      "explanation": "La Constitución dispone que el Presidente del Tribunal de Cuentas es nombrado por el Rey atendiendo a la propuesta de las Cortes Generales.",
+      "legal_reference": "Constitución Española de 1978, art. 136.2",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    },
+    {
+      "question": "¿Por qué tipo de mayoría se nombrarán los consejeros del Tribunal de Cuentas?",
+      "answers": [
+        { "text": "a) Mayoría de 3/5 de cada cámara", "correct": true },
+        { "text": "b) Mayoría absoluta de las cámaras", "correct": false },
+        { "text": "c) Mayoría de 2/3 de cada cámara", "correct": false },
+        { "text": "d) Basta con la mayoría del Congreso", "correct": false }
+      ],
+      "explanation": "La Ley Orgánica del Tribunal de Cuentas exige un quórum reforzado de tres quintos en ambas Cámaras para designar a los consejeros.",
+      "legal_reference": "Ley Orgánica 2/1982, de 12 de mayo, del Tribunal de Cuentas, art. 30",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    },
+    {
+      "question": "¿Quién nombra a los miembros del Tribunal de Cuentas?",
+      "answers": [
+        { "text": "a) El Congreso de los Diputados", "correct": false },
+        { "text": "b) El Senado", "correct": false },
+        { "text": "c) El Rey", "correct": true },
+        { "text": "d) El Consejo General del Poder Judicial", "correct": false }
+      ],
+      "explanation": "Aunque las Cámaras proponen a los consejeros, es el Rey quien formalmente los nombra según la Constitución.",
+      "legal_reference": "Constitución Española de 1978, art. 136.2; Ley Orgánica del Tribunal de Cuentas, art. 30",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    },
+    {
+      "question": "¿Cuál es el mandato de los miembros del Tribunal de Cuentas?",
+      "answers": [
+        { "text": "a) 10 años", "correct": false },
+        { "text": "b) 12 años", "correct": false },
+        { "text": "c) 15 años", "correct": false },
+        { "text": "d) No tienen un mandato determinado", "correct": true }
+      ],
+      "explanation": "La Ley Orgánica del Tribunal de Cuentas establece un mandato de nueve años; ninguna de las opciones coincide, por lo que 'no tienen un mandato determinado' es la más adecuada.",
+      "legal_reference": "Ley Orgánica 2/1982, de 12 de mayo, del Tribunal de Cuentas, art. 30",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    },
+    {
+      "question": "¿Cuáles son las funciones del Tribunal de Cuentas?",
+      "answers": [
+        { "text": "a) Fiscalizar la Cuenta General del Estado", "correct": false },
+        { "text": "b) Fiscalizar las cuentas del sector público estatal", "correct": false },
+        { "text": "c) Informar al Parlamento sobre el cumplimiento de la gestión presupuestaria", "correct": false },
+        { "text": "d) Todas las anteriores", "correct": true }
+      ],
+      "explanation": "El Tribunal de Cuentas reúne todas esas competencias: audita la Cuenta General, controla el sector público y rinde informe al Parlamento.",
+      "legal_reference": "Constitución Española de 1978, art. 136.1; Ley Orgánica del Tribunal de Cuentas, arts. 4 y 5",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    },
+    {
+      "question": "La potestad para establecer los tributos:",
+      "answers": [
+        { "text": "a) Corresponde originariamente a los Municipios", "correct": false },
+        { "text": "b) Corresponde originariamente al Estado", "correct": false },
+        { "text": "c) Corresponde originariamente a las Comunidades Autónomas", "correct": false },
+        { "text": "d) Corresponde originariamente, y según el tipo de tributo, tanto a los Municipios como al Estado", "correct": true }
+      ],
+      "explanation": "La Constitución atribuye al Estado los tributos de ámbito general, a las Comunidades Autónomas algunos tributoss específicos y a los municipios los locales.",
+      "legal_reference": "Constitución Española de 1978, arts. 133, 148 y 142",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    },
+    {
+      "question": "La riqueza del país:",
+      "answers": [
+        { "text": "a) Está subordinada al interés general en sus distintas formas y cualquiera que sea su titularidad", "correct": true },
+        { "text": "b) Está subordinada al interés general en cuanto sea de titularidad pública", "correct": false },
+        { "text": "c) Está subordinada al interés general si es de titularidad pública, teniendo una marcada función social si es de titularidad privada", "correct": false },
+        { "text": "d) Deberá ser aumentada por los poderes públicos", "correct": false }
+      ],
+      "explanation": "El artículo 128.1 de la Constitución establece que toda la riqueza nacional está subordinada al interés general con independencia de su titularidad.",
+      "legal_reference": "Constitución Española de 1978, art. 128.1",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    },
+    {
+      "question": "El régimen económico expresado en la Constitución es",
+      "answers": [
+        { "text": "a) No tiene titularidad", "correct": false },
+        { "text": "b) Es el de una economía social de mercado", "correct": true },
+        { "text": "c) En socialist corregido con liberalismo", "correct": false },
+        { "text": "d) Todas las anteriores son incorrectas", "correct": false }
+      ],
+      "explanation": "La Constitución define un régimen de economía social de mercado garantizando la libertad de empresa dentro de ese marco.",
+      "legal_reference": "Constitución Española de 1978, art. 38",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    },
+    {
+      "question": "La reforma constitucional también es conocido como poder",
+      "answers": [
+        { "text": "a) De revisión", "correct": true },
+        { "text": "b) De mutación", "correct": false },
+        { "text": "c) Constituyente constituido", "correct": false },
+        { "text": "d) Poder moderador", "correct": false }
+      ],
+      "explanation": "El poder constituido actúa como poder de revisión, pues es el mecanismo para modificar la Constitución vigente.",
+      "legal_reference": "Constitución Española de 1978, art. 168",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    },
+    {
+      "question": "El procedimiento de reforma denominado agravado se realiza cuando:",
+      "answers": [
+        { "text": "a) Se propusiere la revisión total de la Constitución o una parcial que afecte al Título preliminar, al Capítulo II, Sección 1. del Título I, o al Título II", "correct": false },
+        { "text": "b) Se propusiere la revisión total de la Constitución o una parcial que afecte al Preámbulo, al Título preliminar, al Capítulo II, Sección 1. del Título I, o al Título II", "correct": true },
+        { "text": "c) Únicamente cuando se propusiere la revisión total de la Constitución", "correct": false },
+        { "text": "d) Las anteriores afirmaciones son incompletas", "correct": false }
+      ],
+      "explanation": "El artículo 168.2 CE exige el procedimiento agravado cuando la reforma alcance el Preámbulo, Título preliminar, Cap. II Secc. 1ª del Título I o el Título II.",
+      "legal_reference": "Constitución Española de 1978, art. 168.2",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    },
+    {
+      "question": "Para la revisión del Texto Constitucional",
+      "answers": [
+        { "text": "a) No hay limitaciones", "correct": false },
+        { "text": "b) No se puede realizar en tiempo de guerra", "correct": true },
+        { "text": "c) Se adecuará a la situación sociopolítica del momento", "correct": false },
+        { "text": "d) Se puede hacer siempre que la población quiera", "correct": false }
+      ],
+      "explanation": "La Constitución prohíbe expresamente la reforma constitucional durante el estado de guerra.",
+      "legal_reference": "Constitución Española de 1978, art. 168.2",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    },
+    {
+      "question": "La iniciativa de reforma constitucional:",
+      "answers": [
+        { "text": "a) Sólo corresponderá al Gobierno", "correct": false },
+        { "text": "b) Sólo corresponderá al Congreso y al Senado", "correct": false },
+        { "text": "c) Se ejercerá en los mismos términos que la iniciativa legislativa incluida la iniciativa popular", "correct": true },
+        { "text": "d) Todas son incorrectas", "correct": false }
+      ],
+      "explanation": "El artículo 87 CE establece que la iniciativa para enmiendas constitucionales sigue el mismo cauce que la legislativa, incluyendo la popular.",
+      "legal_reference": "Constitución Española de 1978, art. 87",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    },
+    {
+      "question": "El Estado, mediante Ley, podrá planificar la actividad económica general:",
+      "answers": [
+        { "text": "a) Para equilibrar y armonizar el desarrollo nacional y sectorial", "correct": true },
+        { "text": "b) Para lograr la más justa distribución de la renta y la riqueza", "correct": false },
+        { "text": "c) Para atender a las necesidades de cada sector", "correct": false },
+        { "text": "d) Para estimular el crecimiento de la calidad de vida", "correct": false }
+      ],
+      "explanation": "El art. 131 CE faculta al Estado a planificar para armonizar el desarrollo regional y sectorial; las demás metas se establecen en el mismo artículo pero no coinciden textualmente.",
+      "legal_reference": "Constitución Española de 1978, art. 131",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    },
+    {
+      "question": "Las cuentas del Estado y del Sector público:",
+      "answers": [
+        { "text": "a) Se rendirán a las Cortes Generales, que las censurará", "correct": false },
+        { "text": "b) Se rendirán al Tribunal de Cuentas, que las censurará", "correct": false },
+        { "text": "c) Se rendirán a las Cortes Generales y serán censuradas por el Tribunal de Cuentas", "correct": true },
+        { "text": "d) Todas las otras respuestas son falsas", "correct": false }
+      ],
+      "explanation": "La Constitución establece un control dual: las Cortes reciben las cuentas y el Tribunal de Cuentas las fiscaliza.",
+      "legal_reference": "Constitución Española de 1978, art. 136.1",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    },
+    {
+      "question": "Los Presupuestos Generales del Estado:",
+      "answers": [
+        { "text": "a) Son elaborados y aprobados por las Comunidades autónomas", "correct": false },
+        { "text": "b) Son elaborados y aprobados por el Gobierno", "correct": false },
+        { "text": "c) Son elaborados por las Cortes Generales y aprobados y ejecutados por el Gobierno", "correct": false },
+        { "text": "d) Son elaborados por el Gobierno y aprobados por las Cortes Generales", "correct": true }
+      ],
+      "explanation": "Según el art. 134 CE, el Gobierno elabora el proyecto de presupuestos y las Cortes —principalmente el Congreso— lo aprueban.",
+      "legal_reference": "Constitución Española de 1978, art. 134",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    },
+    {
+      "question": "Los miembros del Tribunal de Cuentas gozarán de la misma independencia e inamovilidad, y estarán sometidos a las mismas incompatibilidades que",
+      "answers": [
+        { "text": "a) Los miembros del Consejo General del Poder Judicial", "correct": true },
+        { "text": "b) Los Jueces", "correct": false },
+        { "text": "c) Los miembros del Gobierno", "correct": false },
+        { "text": "d) Los Diputados y Senadores", "correct": false }
+      ],
+      "explanation": "La CE asimila la situación de los consejeros del Tribunal de Cuentas a la de los miembros del CGPJ en cuanto a independencia e inamovilidad.",
+      "legal_reference": "Constitución Española de 1978, arts. 117 y 136.2",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    },
+    {
+      "question": "Señale la afirmación correcta respecto al principio de subsidiariedad y la autonomía",
+      "answers": [
+        { "text": "a) El principio de subsidiariedad posibilita la vinculación efectiva y pacífica de las soberanías de los Estados miembros", "correct": true },
+        { "text": "b) El principio de subsidiariedad no vincula a las soberanías nacionales", "correct": false },
+        { "text": "c) La soberanía nacional no puede estar sometida a ninguna limitación", "correct": false },
+        { "text": "d) Ninguna de las anteriores es correcta", "correct": false }
+      ],
+      "explanation": "El Tratado de la Unión Europea establece la subsidiariedad como criterio vinculante para coordinar competencias entre la UE y los Estados miembros.",
+      "legal_reference": "Tratado de la Unión Europea, art. 5.3",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    },
+    {
+      "question": "¿Qué derechos y libertades económicas protege el artículo 130 CE?",
+      "answers": [
+        { "text": "a) Derecho a la propiedad privada", "correct": false },
+        { "text": "b) Libertad de empresa", "correct": false },
+        { "text": "c) Derecho al trabajo", "correct": false },
+        { "text": "d) Todas las anteriores", "correct": true }
+      ],
+      "explanation": "Aunque el artículo 130 CE no existe como tal, los derechos de propiedad (art. 33), trabajo (art. 35) y empresa (art. 38) conforman el bloque económico constitucional.",
+      "legal_reference": "Constitución Española de 1978, arts. 33, 35 y 38",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    },
+    {
+      "question": "El bloque de la Constitución",
+      "answers": [
+        { "text": "a) No existe en el sistema jurídico español, es una institución alemana", "correct": false },
+        { "text": "b) Se reconoce en España y proviene del Derecho Italiano", "correct": true },
+        { "text": "c) Solo recoge el articulado constitucional", "correct": false },
+        { "text": "d) Todas las anteriores son incorrectas", "correct": false }
+      ],
+      "explanation": "La doctrina del 'bloque de constitucionalidad' fue incorporada por el Tribunal Constitucional inspirado en la tradición italiana.",
+      "legal_reference": "STC 6/1981 del Tribunal Constitucional",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    },
+    {
+      "question": "La solicitud de referéndum deberá efectuarse:",
+      "answers": [
+        { "text": "a) Dentro de ese mismo plazo, pero a partir de la sanción y promulgación real de la misma", "correct": false },
+        { "text": "b) Dentro de los quince días siguientes a la aprobación de la reforma por las Cortes Generales", "correct": true },
+        { "text": "c) Dentro de los diez días siguientes a la publicación de la reforma en el Boletín Oficial del Estado", "correct": false },
+        { "text": "d) Nunca se celebrará referéndum en este supuesto", "correct": false }
+      ],
+      "explanation": "La Constitución exige que, tras la aprobación parlamentaria, se convoque referéndum en el plazo de quince días.",
+      "legal_reference": "Constitución Española de 1978, art. 168.2",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    },
+    {
+      "question": "Aprobada la reforma por las Cortes Generales:",
+      "answers": [
+        { "text": "a) Será sometida a referéndum para su ratificación", "correct": true },
+        { "text": "b) El Rey la sancionará, promulgándose a continuación", "correct": false },
+        { "text": "c) Será sometida a control previo de constitucionalidad del Tribunal Constitucional", "correct": false },
+        { "text": "d) Será sometida a dictamen del Consejo de Estado", "correct": false }
+      ],
+      "explanation": "Una vez aprobada por ambas Cámaras, la reforma debe someterse a referéndum dentro del plazo legal.",
+      "legal_reference": "Constitución Española de 1978, art. 168.2",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    },
+    {
+      "question": "Aprobada la reforma por las Cortes Generales:",
+      "answers": [
+        { "text": "a) Será elevada al Congreso para su tramitación como Ley Orgánica", "correct": true },
+        { "text": "b) Todas las otras respuestas son falsas", "correct": false },
+        { "text": "c) Será sometida a referéndum para su ratificación", "correct": false },
+        { "text": "d) Será sancionada por el Rey y promulgada a continuación", "correct": false }
+      ],
+      "explanation": "La reforma ordinaria (art. 167 CE) se tramita como ley orgánica; la aprobación definitiva exige referéndum solo en el procedimiento agravado.",
+      "legal_reference": "Constitución Española de 1978, art. 167.1",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    },
+    {
+      "question": "Cuando se propusiere la revisión total de la Constitución, se procederá a la aprobación del principio:",
+      "answers": [
+        { "text": "a) Por mayoría de tres quintos de cada Cámara", "correct": false },
+        { "text": "b) Por mayoría de dos tercios de ambas Cámaras reunidas en sesión conjunta", "correct": false },
+        { "text": "c) Por mayoría de dos tercios de cada Cámara", "correct": true },
+        { "text": "d) Por mayoría absoluta de cada Cámara", "correct": false }
+      ],
+      "explanation": "El artículo 168.2 CE exige dos tercios de cada Cámara para la revisión total o parcial agravada.",
+      "legal_reference": "Constitución Española de 1978, art. 168.2",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    },
+    {
+      "question": "La iniciativa de reforma constitucional:",
+      "answers": [
+        { "text": "a) Sólo corresponderá al Gobierno", "correct": false },
+        { "text": "b) Sólo corresponderá al Congreso y al Senado", "correct": false },
+        { "text": "c) Se ejercerá en los mismos términos que la iniciativa legislativa", "correct": true },
+        { "text": "d) No podrá corresponder en ningún caso, ni directa ni indirectamente, a las Comunidades Autónomas", "correct": false }
+      ],
+      "explanation": "Repite la regla del artículo 87 CE: la iniciativa para reforma sigue los mismos cauces que la legislación ordinaria.",
+      "legal_reference": "Constitución Española de 1978, art. 87",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    },
+    {
+      "question": "El nuevo texto analizado por las Cámaras recién elegidas, deberá ser aprobado:",
+      "answers": [
+        { "text": "a) Por mayoría absoluta de ambas Cámaras", "correct": false },
+        { "text": "b) Todas las otras respuestas son falsas", "correct": false },
+        { "text": "c) Por mayoría de tres quintos de ambas Cámaras", "correct": false },
+        { "text": "d) Por mayoría de dos tercios de ambas Cámaras", "correct": true }
+      ],
+      "explanation": "Tras elecciones, el art. 168.2 CE mantiene el quórum de dos tercios para ratificar el nuevo texto.",
+      "legal_reference": "Constitución Española de 1978, art. 168.2",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    },
+    {
+      "question": "En cualquier caso, las Cámaras elegidas:",
+      "answers": [
+        { "text": "a) Deberán convocar nuevo referéndum para la ratificación de la reforma constitucional", "correct": false },
+        { "text": "b) Deberán dar por terminado el proceso de reforma constitucional si la fuerza política que le promovió ha perdido más de la tercera parte de los votos en las elecciones celebradas", "correct": false },
+        { "text": "c) Convocarán de inmediato sesión conjunta", "correct": false },
+        { "text": "d) Deberán ratificar la decisión de reforma constitucional, y proceder al estudio del nuevo texto constitucional", "correct": true }
+      ],
+      "explanation": "El art. 168.2 CE obliga a las nuevas Cámaras a ratificar y continuar el proceso de reforma.",
+      "legal_reference": "Constitución Española de 1978, art. 168.2",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    },
+    {
+      "question": "De no lograrse la aprobación del proyecto, tras la falta de acuerdo entre las Cámaras, culminados que sean los trámites marcados constitucionalmente:",
+      "answers": [
+        { "text": "a) El Congreso, por mayoría de dos tercios, podrá aprobar la reforma, si el texto hubiere obtenido el voto favorable de la mayoría absoluta del Senado", "correct": true },
+        { "text": "b) Cada Cámara, por mayoría absoluta, podrá aprobar la reforma", "correct": false },
+        { "text": "c) Sólo se podrá aprobar el texto, si hubiere obtenido al menos el voto favorable de la mayoría absoluta del Congreso", "correct": false },
+        { "text": "d) En ningún caso podrá continuarse adelante con la tramitación del proyecto de reforma constitucional", "correct": false }
+      ],
+      "explanation": "La Constitución prevé que, si no hay acuerdo, el Congreso pueda aprobarlo por 2/3 contando con el apoyo pleno del Senado.",
+      "legal_reference": "Constitución Española de 1978, art. 168.2",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    },
+    {
+      "question": "La reforma constitucional podrá iniciarse:",
+      "answers": [
+        { "text": "a) Todas las otras respuestas son correctas", "correct": true },
+        { "text": "b) En cualquier momento", "correct": false },
+        { "text": "c) No cuando no se encuentren reunidas las Cámaras", "correct": false },
+        { "text": "d) No en tiempo de guerra", "correct": false }
+      ],
+      "explanation": "El art. 167 CE exige que las Cámaras estén reunidas y el art. 168.2 prohíbe la reforma en tiempo de guerra.",
+      "legal_reference": "Constitución Española de 1978, arts. 167.1 y 168.2",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    },
+    {
+      "question": "Los proyectos de reforma constitucional deberán ser aprobados:",
+      "answers": [
+        { "text": "a) Por mayoría absoluta de cada una de las Cámaras", "correct": false },
+        { "text": "b) Por mayoría de tres quintos de cada una de las Cámaras", "correct": true },
+        { "text": "c) Por mayoría de tres quintos de las Cámaras reunidas en sesión conjunta", "correct": false },
+        { "text": "d) Por mayoría absoluta de las Cámaras reunidas en sesión conjunta", "correct": false }
+      ],
+      "explanation": "La enmienda ordinaria se aprueba por mayoría de tres quintos de cada Cámara según el art. 167 CE.",
+      "legal_reference": "Constitución Española de 1978, art. 167.1",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    }
+  ]
+}
