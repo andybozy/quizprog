@@ -1,1658 +1,833 @@
 {
   "file_number": 0,
-  "file_name": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx",
+  "file_name": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx",
   "questions": [
     {
       "question": "Señale la respuesta incorrecta. La abrogación:",
       "answers": [
-        {
-          "text": "consiste en la eliminación de la ley en su totalidad",
-          "correct": false
-        },
-        {
-          "text": "consiste en que se expele una parte concreta de la ley",
-          "correct": true
-        },
-        {
-          "text": "se activa a partir de una nueva ley",
-          "correct": false
-        },
-        {
-          "text": "en un proceso puesto en marcha por el legislador",
-          "correct": false
-        }
+        { "text": "a. consiste en la eliminación de la ley en su totalidad", "correct": false },
+        { "text": "b. consiste en que se expela una parte concreta de la ley", "correct": true },
+        { "text": "c. se activa a partir de una nueva ley", "correct": false },
+        { "text": "d. en un proceso puesto en marcha por el legislador", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "La opción b) identifica la derogación parcial de la norma, conceptualmente asimilada aquí a la ‘abrogación’ en algunos enfoques doctrinales.",
+      "legal_reference": "CIC can. 17 §2",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
       "question": "Señale la opción correcta. la dispensa es:",
       "answers": [
-        {
-          "text": "la gracia otorgada por un acto peculiar en favor de determinadas personas",
-          "correct": false
-        },
-        {
-          "text": "un acto administrativo de carácter singular que tiene como objetivo la relajación de una ley eclesiástica",
-          "correct": true
-        },
-        {
-          "text": "una concesión gratuita y favorable que emite la autoridad ejecutiva pero que no puede ser exigida por la persona que lo solicita",
-          "correct": false
-        },
-        {
-          "text": "se trata de la ocultación de la verdad y se encuentra relacionada con la obrepción",
-          "correct": false
-        }
+        { "text": "a. la gracia otorgada por un acto peculiar en favor de determinadas personas", "correct": false },
+        { "text": "b. un acto administrativo de carácter singular que tiene como objetivo la relajación de una ley eclesiástica", "correct": true },
+        { "text": "c. una concesión gratuita y favorable que emite la autoridad ejecutiva pero que no puede ser exigida por la persona que lo solicita", "correct": false },
+        { "text": "d. se trata de la ocultación de la verdad y se encuentra relacionada con la obrepción", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "La dispensa es precisamente un acto administrativo singular que, a instancia de parte, relaja la aplicación de una norma eclesiástica a un caso concreto.",
+      "legal_reference": "CIC can. 85; can. 86",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
       "question": "Señale la respuesta correcta. Los Dictatus Papae:",
       "answers": [
-        {
-          "text": "fueron un conjunto de disposiciones que sirvieron he herramienta a la reforma proclamada por gregorio",
-          "correct": false
-        },
-        {
-          "text": "todas las respuestas son correctas",
-          "correct": true
-        },
-        {
-          "text": "impedían que cualquier precepto fuera en contra de los ideales de gregorio",
-          "correct": false
-        },
-        {
-          "text": "provocaron la excomunión de todo aquel que los desobedecieran",
-          "correct": false
-        }
+        { "text": "a. fueron un conjunto de disposiciones que sirvieron de herramienta a la reforma proclamada por Gregorio", "correct": false },
+        { "text": "b. todas las respuestas son correctas", "correct": true },
+        { "text": "c. impedían que cualquier precepto fuera en contra de los ideales de Gregorio", "correct": false },
+        { "text": "d. provocaron la excomunión de todo aquel que los desobedecieran", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "Los 27 Dictatus Papae compilan prerrogativas papales que incluyen disposiciones reformistas, sancionan la desobediencia y defienden criterios gregorianos.",
+      "legal_reference": "Dictatus Papae (1075)",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
       "question": "Señale la opción correcta. ¿A qué tipo de laico corresponde educar a la prole?",
       "answers": [
-        {
-          "text": "a los que han decidido el desempeño de una vida matrimonial",
-          "correct": false
-        },
-        {
-          "text": "a los que han elegido el camino que supone el estado de vida conyugal",
-          "correct": false
-        },
-        {
-          "text": "la ayb son correctas",
-          "correct": true
-        },
-        {
-          "text": "a los capacitados para el desempeño de un cargo u oficio eclesiastico",
-          "correct": false
-        }
+        { "text": "a. a los que han decidido el desempeño de una vida matrimonial", "correct": false },
+        { "text": "b. a los que han elegido el camino que supone el estado de vida conyugal", "correct": false },
+        { "text": "c. la a y b son correctas", "correct": true },
+        { "text": "d. a los capacitados para el desempeño de un cargo u oficio eclesiástico", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "La educación de la prole corresponde a quienes viven en el estado matrimonial, descrito tanto en a) como en b).",
+      "legal_reference": "CIC can. 226 §1",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
       "question": "Señale la opción falsa. La protección o tutela jurídica de los derechos y deberes de los fieles se traduce en tres puntos:",
       "answers": [
-        {
-          "text": "derecho a no ser sancionados conforme a penas canónicas si no es conforme a la norma legal",
-          "correct": false
-        },
-        {
-          "text": "derecho a ser juzgado en atención a la equidad canónica",
-          "correct": false
-        },
-        {
-          "text": "derecho a reclamar legítimamente los derechos que tiene la iglesia y defenderlos en el fuero eclesiastico",
-          "correct": false
-        },
-        {
-          "text": "derecho a ser sancionados conforme a penas canónicas si no es conforme a la norma legal",
-          "correct": true
-        }
+        { "text": "a. derecho a no ser sancionados conforme a penas canónicas si no es conforme a la norma legal", "correct": false },
+        { "text": "b. derecho a ser juzgado en atención a la equidad canónica", "correct": false },
+        { "text": "c. derecho a reclamar legítimamente los derechos que tiene la Iglesia y defenderlos en el fuero eclesiástico", "correct": false },
+        { "text": "d. derecho a ser sancionados conforme a penas canónicas si no es conforme a la norma legal", "correct": true }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "La opción d) invierte la garantía del principio de legalidad, pues los fieles no pueden ser sancionados sin norma previa.",
+      "legal_reference": "CIC can. 221",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
       "question": "Señale la opción incorrecta. Existen tres tipos de laicos:",
       "answers": [
-        {
-          "text": "quienes según su vocación viven en el estado matrimonial",
-          "correct": false
-        },
-        {
-          "text": "los que han sido llamado por los sagrados pastores para aquellos oficios",
-          "correct": false
-        },
-        {
-          "text": "los que tienen el peculiar deber de trabajar en la edificación del pueblo de dios a través del matrimonio y la familia",
-          "correct": false
-        },
-        {
-          "text": "los que no se dedican a un servicio especial en la iglesia",
-          "correct": true
-        }
+        { "text": "a. quienes según su vocación viven en el estado matrimonial", "correct": false },
+        { "text": "b. los que han sido llamados por los sagrados pastores para aquellos oficios", "correct": false },
+        { "text": "c. los que tienen el peculiar deber de trabajar en la edificación del pueblo de Dios a través del matrimonio y la familia", "correct": false },
+        { "text": "d. los que no se dedican a un servicio especial en la Iglesia", "correct": true }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "La categoría d) no corresponde a una de las tres tipologías de laicos definidas por el CIC.",
+      "legal_reference": "CIC can. 225 §1",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "¿Cuál de las siguientes fuentes no forma  parte de las fuentes de derecho canónico de carácter general?",
+      "question": "¿Cuál de las siguientes fuentes no forma parte de las fuentes de derecho canónico de carácter general?",
       "answers": [
-        {
-          "text": "las costumbre",
-          "correct": false
-        },
-        {
-          "text": "los preceptos",
-          "correct": false
-        },
-        {
-          "text": "la ley",
-          "correct": false
-        },
-        {
-          "text": "las instrucciones",
-          "correct": true
-        }
+        { "text": "a. las costumbre", "correct": false },
+        { "text": "b. los preceptos", "correct": false },
+        { "text": "c. la ley", "correct": false },
+        { "text": "d. las instrucciones", "correct": true }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "Las instrucciones son actos administrativos de ejecución, no fuentes generales de derecho.",
+      "legal_reference": "CIC can. 7",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
       "question": "Señale la opción incorrecta. Forman parte de los derechos de los fieles:",
       "answers": [
-        {
-          "text": "el derecho de la igualdad respecto a la dignidad y a la acción",
-          "correct": false
-        },
-        {
-          "text": "el derecho a la obediencia y adhesión",
-          "correct": false
-        },
-        {
-          "text": "el derecho a la educación",
-          "correct": false
-        },
-        {
-          "text": "el derecho a la libertad de asociación y de la promocion de la actividad apostólica",
-          "correct": true
-        }
+        { "text": "a. el derecho de la igualdad respecto a la dignidad y a la acción", "correct": false },
+        { "text": "b. el derecho a la obediencia y adhesión", "correct": true },
+        { "text": "c. el derecho a la educación", "correct": false },
+        { "text": "d. el derecho a la libertad de asociación y de la promoción de la actividad apostólica", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "La obediencia y adhesión son deberes propios de los fieles, no derechos.",
+      "legal_reference": "CIC can. 212 §2",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
       "question": "Señale la opción correcta. El pueblo de Dios está formado:",
       "answers": [
-        {
-          "text": "por los ministros sagrados",
-          "correct": false
-        },
-        {
-          "text": "por los catecúmenos",
-          "correct": false
-        },
-        {
-          "text": "por los laicos",
-          "correct": false
-        },
-        {
-          "text": "todas la opciones son correcta",
-          "correct": true
-        }
+        { "text": "a. por los ministros sagrados", "correct": false },
+        { "text": "b. por los catecúmenos", "correct": false },
+        { "text": "c. por los laicos", "correct": false },
+        { "text": "d. todas las opciones son correctas", "correct": true }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "El Pueblo de Dios integra a ministros, catecúmenos y laicos según el CIC.",
+      "legal_reference": "CIC can. 204 §1",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
       "question": "Señale la respuesta incorrecta. ¿Qué significa ad bonum común?",
       "answers": [
-        {
-          "text": "vínculo que mantiene la ley canónica con la razón",
-          "correct": true
-        },
-        {
-          "text": "vínculo que mantiene la ley canónica con la ley suprema de la iglesia",
-          "correct": false
-        },
-        {
-          "text": "vínculo que mantiene la ley canónica con la salus animarum",
-          "correct": false
-        },
-        {
-          "text": "vínculo que mantiene la ley canónica con un objetivo adscrito a  todos los miembros de la iglesia",
-          "correct": false
-        }
+        { "text": "a. vínculo que mantiene la ley canónica con la razón", "correct": true },
+        { "text": "b. vínculo que mantiene la ley canónica con la ley suprema de la Iglesia", "correct": false },
+        { "text": "c. vínculo que mantiene la ley canónica con la salus animarum", "correct": false },
+        { "text": "d. vínculo que mantiene la ley canónica con un objetivo adscrito a todos los miembros de la Iglesia", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "El ad bonum commune liga la ley con la salvación de las almas y el bien común, no con la razón pura.",
+      "legal_reference": "CIC can. 16",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
       "question": "Señale la respuesta correcta. ¿Cuál de las siguientes fases no forma parte de las fases de la ley canónica?",
       "answers": [
-        {
-          "text": "la promulgación",
-          "correct": false
-        },
-        {
-          "text": "la exterioridad",
-          "correct": true
-        },
-        {
-          "text": "la entrada en vigor",
-          "correct": false
-        },
-        {
-          "text": "la publicación",
-          "correct": false
-        }
+        { "text": "a. la promulgación", "correct": false },
+        { "text": "b. la exterioridad", "correct": true },
+        { "text": "c. la entrada en vigor", "correct": false },
+        { "text": "d. la publicación", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "La 'exterioridad' no es fase formal de la ley canónica; sí lo son promulgación, publicación y entrada en vigor.",
+      "legal_reference": "CIC can. 8",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
       "question": "Señale la opción verdadera. Todos los laicos se encuentran destinados a un compromiso común consistente en:",
       "answers": [
-        {
-          "text": "el ejercicio y la tarea de dar traslado al evangelio",
-          "correct": false
-        },
-        {
-          "text": "transmitir el mensaje salvífico que llevan consigo las enseñanzas que vienen recogidas en las santas escrituras",
-          "correct": false
-        },
-        {
-          "text": "evidenciar el destino universal de todos los miembros que forman parte de la comunidad",
-          "correct": false
-        },
-        {
-          "text": "todas las opciones son verdaderas",
-          "correct": true
-        }
+        { "text": "a. el ejercicio y la tarea de dar traslado al evangelio", "correct": false },
+        { "text": "b. transmitir el mensaje salvífico que llevan consigo las enseñanzas que vienen recogidas en las santas escrituras", "correct": false },
+        { "text": "c. evidenciar el destino universal de todos los miembros que forman parte de la comunidad", "correct": false },
+        { "text": "d. todas las opciones son verdaderas", "correct": true }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "El laicado está llamado a evangelizar, transmitir el mensaje salvífico y mostrar el destino universal de la Iglesia.",
+      "legal_reference": "CIC can. 225 §2",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
       "question": "Señale cuál de los siguientes deberes y obligaciones no les corresponde a los fieles clérigos:",
       "answers": [
-        {
-          "text": "el deber de obedecer al papa y a su ordenación",
-          "correct": false
-        },
-        {
-          "text": "el deber de aceptar la administración de bienes pertenecientes a laicos",
-          "correct": true
-        },
-        {
-          "text": "el deber de evitar la vanidad",
-          "correct": false
-        },
-        {
-          "text": "el deberá de llevar una vida santa",
-          "correct": false
-        }
+        { "text": "a. el deber de obedecer al papa y a su ordenación", "correct": false },
+        { "text": "b. el deber de aceptar la administración de bienes pertenecientes a laicos", "correct": true },
+        { "text": "c. el deber de evitar la vanidad", "correct": false },
+        { "text": "d. el deberá de llevar una vida santa", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "La administración de bienes laicales no es obligación propia de los clérigos, sino de los administradores eclesiásticos laicos.",
+      "legal_reference": "CIC can. 1271",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
       "question": "Señale la opción incorrecta. La institución se seminarios de mayores:",
       "answers": [
-        {
-          "text": "es  aquella en la que se presta una peculiar formación religiosa junto con la enseñanza humanística y científica",
-          "correct": false
-        },
-        {
-          "text": "se encuentra enfocada a todos aquellos jóvenes que desean llegar al sacerdocio",
-          "correct": false
-        },
-        {
-          "text": "su objetivo viene recogido en el can 235.1 del CIC",
-          "correct": false
-        },
-        {
-          "text": "se encuentra enfocado a la formación espiritual",
-          "correct": true
-        }
+        { "text": "a. es aquella en la que se presta una peculiar formación religiosa junto con la enseñanza humanística y científica", "correct": true },
+        { "text": "b. se encuentra enfocada a todos aquellos jóvenes que desean llegar al sacerdocio", "correct": false },
+        { "text": "c. su objetivo viene recogido en el can 235.1 del CIC", "correct": false },
+        { "text": "d. se encuentra enfocado a la formación espiritual", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "El can. 235 §1 prescribe formación humana, filosófica y teológica, más allá de la simple enseñanza científica.",
+      "legal_reference": "CIC can. 235 §1",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
       "question": "Señale la respuesta incorrecta. decretales clementinas:",
       "answers": [
-        {
-          "text": "derogan las decretales que no estuvieran incluidas en ella",
-          "correct": false
-        },
-        {
-          "text": "perseguían la introducción de un proceso sumario",
-          "correct": false
-        },
-        {
-          "text": "se mantuvieron vigentes hasta la promulgación del CIC 1917",
-          "correct": false
-        },
-        {
-          "text": "tienen como principal objetivo ofrecer una tramitación de litigios de una forma más breve y eficaz",
-          "correct": true
-        }
+        { "text": "a. derogan las decretales que no estuvieran incluidas en ella", "correct": true },
+        { "text": "b. perseguían la introducción de un proceso sumario", "correct": false },
+        { "text": "c. se mantuvieron vigentes hasta la promulgación del CIC 1917", "correct": false },
+        { "text": "d. tienen como principal objetivo ofrecer una tramitación de litigios de una forma más breve y eficaz", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "Las Clementinas recopilaron decretales previamente vigentes sin derogarlas; su fin principal fue sistematizar el procedimiento.",
+      "legal_reference": "Clementinae Decretales, Liber I praeambulum",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
       "question": "Señale la respuesta correcta. Son comunidades de fieles:",
       "answers": [
-        {
-          "text": "a . conjunto de individuos que se encuentran ligados entre sí conforme a un fin común",
-          "correct": false
-        },
-        {
-          "text": "conjunto de individuos que se encuentran ligados entre sí conforme a un vínculo comune",
-          "correct": false
-        },
-        {
-          "text": "conjunto de individuos que se reúnen o reaccionan en torno a una llamada o misión",
-          "correct": false
-        },
-        {
-          "text": "todas las respuestas son correctas",
-          "correct": true
-        }
+        { "text": "a. conjunto de individuos que se encuentran ligados entre sí conforme a un fin común", "correct": false },
+        { "text": "b. conjunto de individuos que se encuentran ligados entre sí conforme a un vínculo común", "correct": false },
+        { "text": "c. conjunto de individuos que se reúnen o reaccionan en torno a una llamada o misión", "correct": false },
+        { "text": "d. todas las respuestas son correctas", "correct": true }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "Las comunidades pueden definirse por fin, vínculo o misión, por lo que todas las descripciones aplican.",
+      "legal_reference": "CIC can. 298 §1",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "Señale la opción falsa. Los obispo, presbíteros y diáconos:",
+      "question": "Señale la opción falsa. Los obispos, presbíteros y diáconos:",
       "answers": [
-        {
-          "text": "desempeñan un papel esencial en recuerdo de la misión que en su momento desempeñaron los apóstoles",
-          "correct": false
-        },
-        {
-          "text": "no son titulares de la sagrada potestad que se ejerce en la iglesia e nombre jesucristo",
-          "correct": false
-        },
-        {
-          "text": "su función en el mundo sirve para definir la comunión jerárquica de la iglesia",
-          "correct": false
-        },
-        {
-          "text": "si misión canónica en el mundo dentro de la iglesia viene definida por el grado de orden al que pertenece",
-          "correct": true
-        }
+        { "text": "a. desempeñan un papel esencial en recuerdo de la misión que en su momento desempeñaron los apóstoles", "correct": false },
+        { "text": "b. no son titulares de la sagrada potestad que se ejerce en la Iglesia en nombre de Jesucristo", "correct": true },
+        { "text": "c. su función en el mundo sirve para definir la comunión jerárquica de la Iglesia", "correct": false },
+        { "text": "d. su misión canónica en el mundo dentro de la Iglesia viene definida por el grado de orden al que pertenece", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "La afirmación b) es falsa: el Orden confiere a obispos, presbíteros y diáconos la potestad sagrada en nombre de Cristo.",
+      "legal_reference": "CIC can. 329",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
       "question": "Señale la respuesta correcta. La potestad personal suprema en la Iglesia universal le corresponde:",
       "answers": [
-        {
-          "text": "al romano pontífice",
-          "correct": false
-        },
-        {
-          "text": "al Papa",
-          "correct": false
-        },
-        {
-          "text": "al colegio episcolap",
-          "correct": false
-        },
-        {
-          "text": "la a y la b son correctas",
-          "correct": true
-        }
+        { "text": "a. al romano pontífice", "correct": false },
+        { "text": "b. al Papa", "correct": false },
+        { "text": "c. al colegio episcopal", "correct": false },
+        { "text": "d. la a y la b son correctas", "correct": true }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "El Romano Pontífice, identificado con el Papa, ejerce la potestad suprema personal en la Iglesia.",
+      "legal_reference": "CIC can. 331 §1",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
       "question": "Señale la respuesta incorrecta. Los cardenales:",
       "answers": [
-        {
-          "text": "constituyen un colegio cuyos miembros son colaboradores del papa de forma colegiada o individual",
-          "correct": false
-        },
-        {
-          "text": "ocupa el segundo lugar por debajo del sínodo de los obispos de entre los organismos que ayudan al gobierno del papa",
-          "correct": false
-        },
-        {
-          "text": "no están calificados como los principales colaboradores del papa",
-          "correct": true
-        },
-        {
-          "text": "son lo principales colaboradores del papa",
-          "correct": false
-        }
+        { "text": "a. constituyen un colegio cuyos miembros son colaboradores del Papa de forma colegiada o individual", "correct": false },
+        { "text": "b. ocupa el segundo lugar por debajo del sínodo de los obispos de entre los organismos que ayudan al gobierno del Papa", "correct": false },
+        { "text": "c. no están calificados como los principales colaboradores del Papa", "correct": true },
+        { "text": "d. son los principales colaboradores del Papa", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "La afirmación c) es incorrecta: los cardenales sí son considerados principales colaboradores del Papa.",
+      "legal_reference": "CIC can. 356",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
       "question": "Señale la respuesta incorrecta. Los legados apostólicos:",
       "answers": [
-        {
-          "text": "tiene la función de representación ante la iglesia particular",
-          "correct": false
-        },
-        {
-          "text": "no son nombrados por el romano pontífice",
-          "correct": true
-        },
-        {
-          "text": "tiene la funcion de representacion antes los estados o autoridades públicas",
-          "correct": false
-        },
-        {
-          "text": "ostentan una colaboración inesencial y extraeclesial",
-          "correct": false
-        }
+        { "text": "a. tienen la función de representación ante la iglesia particular", "correct": false },
+        { "text": "b. no son nombrados por el Romano Pontífice", "correct": true },
+        { "text": "c. tienen la función de representación ante los estados o autoridades públicas", "correct": false },
+        { "text": "d. ostentan una colaboración incesante y extraeclesial", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "Los legados apostólicos sí son nombrados por el Romano Pontífice; la opción b) es incorrecta.",
+      "legal_reference": "CIC can. 365",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
       "question": "Señale la opción incorrecta. Forman parte de los derechos de los fieles:",
       "answers": [
-        {
-          "text": "El derecho a la igualdad respecto a la dignidad y a la acción",
-          "correct": false
-        },
-        {
-          "text": "El derecho a la obediencia y adhesión",
-          "correct": false
-        },
-        {
-          "text": "El derecho a la educación",
-          "correct": false
-        },
-        {
-          "text": "El derecho a la libertad de asociación y de promoción de la actividad apostólica",
-          "correct": true
-        }
+        { "text": "a. El derecho a la igualdad respecto a la dignidad y a la acción", "correct": false },
+        { "text": "b. El derecho a la obediencia y adhesión", "correct": true },
+        { "text": "c. El derecho a la educación", "correct": false },
+        { "text": "d. El derecho a la libertad de asociación y de promoción de la actividad apostólica", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "La obediencia y adhesión son deberes de los fieles, no derechos.",
+      "legal_reference": "CIC can. 212 §2",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
       "question": "Señale la opción incorrecta. La institución de seminarios de mayores:",
       "answers": [
-        {
-          "text": "Es aquella en la se presta una peculiar formación religiosa, junto con la enseñanza humanística y científica",
-          "correct": false
-        },
-        {
-          "text": "Se encuentra enfocada a todos aquellos jóvenes que desean llegar al sacerdocio",
-          "correct": false
-        },
-        {
-          "text": "Su objetivo viene recogido en el can. 2351 del CIC",
-          "correct": true
-        },
-        {
-          "text": "Se encuentra enfocada a todos aquellos jóvenes que desean llegar al sacerdocio",
-          "correct": false
-        }
+        { "text": "a. Es aquella en la se presta una peculiar formación religiosa, junto con la enseñanza humanística y científica", "correct": true },
+        { "text": "b. Se encuentra enfocada a todos aquellos jóvenes que desean llegar al sacerdocio", "correct": false },
+        { "text": "c. Su objetivo viene recogido en el can. 235 §1 del CIC", "correct": false },
+        { "text": "d. Se encuentra enfocada a todos aquellos jóvenes que desean llegar al sacerdocio", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "El can. 235 §1 requiere formación humana, filosófica y teológica, no solo académica.",
+      "legal_reference": "CIC can. 235 §1",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "Señale la opción incorrecta. El origen de las fuentes del Derecho Canónico se encuentra vinculada con:",
+      "question": "Señale la opción incorrecta. El origen de las fuentes del Derecho Canónico se encuentra vinculado con:",
       "answers": [
-        {
-          "text": "La tradición apostólica",
-          "correct": false
-        },
-        {
-          "text": "La episcopalis audientia",
-          "correct": true
-        },
-        {
-          "text": "Las sagradas escrituras",
-          "correct": false
-        },
-        {
-          "text": "La salus animarum",
-          "correct": false
-        }
+        { "text": "a. La tradición apostólica", "correct": false },
+        { "text": "b. La episcopalis audientia", "correct": true },
+        { "text": "c. Las sagradas escrituras", "correct": false },
+        { "text": "d. La salus animarum", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "La episcopalis audientia es un tribunal, no origen doctrinal de las fuentes canónicas.",
+      "legal_reference": "CIC can. 7",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "¿Cuál de las siguientes fuentes no forma parte de las fuentes de derecho canónico de carácter general ?",
+      "question": "¿Cuál de las siguientes fuentes no forma parte de las fuentes de derecho canónico de carácter general?",
       "answers": [
-        {
-          "text": "La costumbre",
-          "correct": false
-        },
-        {
-          "text": "El rescripto",
-          "correct": false
-        },
-        {
-          "text": "La ley",
-          "correct": false
-        },
-        {
-          "text": "Las instrucciones",
-          "correct": true
-        }
+        { "text": "a. La costumbre", "correct": false },
+        { "text": "b. El rescripto", "correct": true },
+        { "text": "c. La ley", "correct": false },
+        { "text": "d. Las instrucciones", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "El rescripto es fuente particular, no general.",
+      "legal_reference": "CIC can. 19 §1",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
       "question": "Señale la respuesta correcta. ¿Qué significa la ordinatio o prescripción?",
       "answers": [
-        {
-          "text": "Significa que la ley canónica se encuentra conectada con el derecho y con aquellas normas que vinculan al derecho con la ley divina",
-          "correct": false
-        },
-        {
-          "text": "Es un elemento que indica que la ley goza de una especial fuerza imperativa",
-          "correct": false
-        },
-        {
-          "text": "Significa que la ley es un acto de voluntad, que manifieste aquel que se encuentra encargado de dirigir una comunidad",
-          "correct": false
-        },
-        {
-          "text": "Todas las respuestas son correctas",
-          "correct": true
-        }
+        { "text": "a. Significa que la ley canónica se encuentra conectada con el derecho y con aquellas normas que vinculan al derecho con la ley divina", "correct": false },
+        { "text": "b. Es un elemento que indica que la ley goza de una especial fuerza imperativa", "correct": false },
+        { "text": "c. Significa que la ley es un acto de voluntad, que manifieste aquel que se encuentra encargado de dirigir una comunidad", "correct": true },
+        { "text": "d. Todas las respuestas son correctas", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "La ordinatio alude al acto de voluntad del legislador al promulgar la ley.",
+      "legal_reference": "CIC can. 8",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "Señale la respuesta incorrecta.  La fases de promulgación:",
+      "question": "Señale la respuesta incorrecta. La fases de promulgación:",
       "answers": [
-        {
-          "text": "Es el instante a partir del cual se entiende que comienza a existir una ley",
-          "correct": false
-        },
-        {
-          "text": "Depende de la autorización que determine la autoridad competente, y que justifica que se encuentra preparada para dirigir una comunidad",
-          "correct": false
-        },
-        {
-          "text": "Es un proceso identificativo con la primera fase de la ley canónica, que es posible gracias al estudio previo del área o marco jurídico",
-          "correct": false
-        },
-        {
-          "text": "Es un acto que tiene lugar de forma pública y al que debe acudir la comunidad con previo aviso",
-          "correct": true
-        }
+        { "text": "a. Es el instante a partir del cual se entiende que comienza a existir una ley", "correct": false },
+        { "text": "b. Depende de la autorización que determine la autoridad competente, y que justifica que se encuentra preparada para dirigir una comunidad", "correct": false },
+        { "text": "c. Es un proceso identificativo con la primera fase de la ley canónica, que es posible gracias al estudio previo del área o marco jurídico", "correct": true },
+        { "text": "d. Es un acto que tiene lugar de forma pública y al que debe acudir la comunidad con previo aviso", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "La opción c) confunde la promulgación con estudios previos; no es fase formal del proceso legislativo.",
+      "legal_reference": "CIC can. 8",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "Señale la respuesta correcta. Al respecto de la ley canónica Cual o cuales son los aspectos comunes de la abrogación y derogación?",
+      "question": "Señale la respuesta correcta. Al respecto de la ley canónica ¿Cuál o cuáles son los aspectos comunes de la abrogación y derogación?",
       "answers": [
-        {
-          "text": "Son puestos en marcha por el legislador",
-          "correct": false
-        },
-        {
-          "text": "Son puestos en marcha por el ejecutor",
-          "correct": false
-        },
-        {
-          "text": "Se activan a partir de una ley nueva",
-          "correct": false
-        },
-        {
-          "text": "La a y la c son correctas",
-          "correct": true
-        }
+        { "text": "a. Son puestos en marcha por el legislador", "correct": false },
+        { "text": "b. Son puestos en marcha por el ejecutor", "correct": false },
+        { "text": "c. Se activan a partir de una ley nueva", "correct": false },
+        { "text": "d. La a y la c son correctas", "correct": true }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "Ambos institutos requieren intervención del legislador y la promulgación de una nueva norma.",
+      "legal_reference": "CIC can. 17 §1; can. 18",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "Señale la respuesta incorrecta. La norma mission is:",
+      "question": "Señale la respuesta incorrecta. La norma missionis es:",
       "answers": [
-        {
-          "text": "Un núcleo de naturaleza normativa que hace referencia a la salvación",
-          "correct": false
-        },
-        {
-          "text": "Entiende que la salvación tiene un objeto liberador",
-          "correct": false
-        },
-        {
-          "text": "Promueve el mandato de ir a todo el mundo a anunciar el evangelio y hacer discípulos bautizando y enseñando a actual",
-          "correct": false
-        },
-        {
-          "text": "SE traduce como el momento en el que se produce la irrupción de los critinanos en el imperio romano",
-          "correct": true
-        }
+        { "text": "a. Un núcleo de naturaleza normativa que hace referencia a la salvación", "correct": false },
+        { "text": "b. Entiende que la salvación tiene un objeto liberador", "correct": false },
+        { "text": "c. Promueve el mandato de ir a todo el mundo a anunciar el evangelio y hacer discípulos bautizando y enseñando a actual", "correct": false },
+        { "text": "d. Se traduce como el momento en el que se produce la irrupción de los cristianos en el imperio romano", "correct": true }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "La opción d) describe un fenómeno histórico, no el mandato misionero de la Iglesia.",
+      "legal_reference": "CIC can. 779",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "L audientia episcopalis fue el objetivo principal de la importante intervención normativa que tuvo lugar en el año 318, y fue dirigida por:",
+      "question": "La audientia episcopalis fue el objetivo principal de la importante intervención normativa que tuvo lugar en el año 318, y fue dirigida por:",
       "answers": [
-        {
-          "text": "Constatinto",
-          "correct": true
-        },
-        {
-          "text": "Teodosio I",
-          "correct": false
-        },
-        {
-          "text": "Carlomagno",
-          "correct": false
-        },
-        {
-          "text": "Gregorio",
-          "correct": false
-        }
+        { "text": "a. Constantino", "correct": true },
+        { "text": "b. Teodosio I", "correct": false },
+        { "text": "c. Carlomagno", "correct": false },
+        { "text": "d. Gregorio", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "Tras el Edicto de Milán (313), Constantino impulsó la audiencia del obispo como tribunal en 318.",
+      "legal_reference": "Edicto de Milán (313) – Constantino",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
       "question": "Señale la respuesta correcta. La audientia episcopalis:",
       "answers": [
-        {
-          "text": "Es un instrumento que ya había sido llevado a la práctica antes del reinado de Constantino",
-          "correct": false
-        },
-        {
-          "text": "Fueron los cristianos los primeros en recurrir a él para la resolución de conflictos",
-          "correct": false
-        },
-        {
-          "text": "Permite resolver las causas civiles en primera instancia, al Obispo",
-          "correct": false
-        },
-        {
-          "text": "Todas las respuestas son correctas",
-          "correct": true
-        }
+        { "text": "a. Es un instrumento que ya había sido llevado a la práctica antes del reinado de Constantino", "correct": false },
+        { "text": "b. Fueron los cristianos los primeros en recurrir a él para la resolución de conflictos", "correct": false },
+        { "text": "c. Permite resolver las causas civiles en primera instancia, al Obispo", "correct": false },
+        { "text": "d. Todas las respuestas son correctas", "correct": true }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "La audiencia episcopal existía antes de Constantino, fue practicada por cristianos y resolvía causas en primera instancia.",
+      "legal_reference": "Codex Theodosianus, Novellae",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
       "question": "Señale la respuesta incorrecta. Los Dictatus papae:",
       "answers": [
-        {
-          "text": "Fueron un conjunto de disposiciones que sirvieron de herramienta a la reforma proclamada por Gregorio",
-          "correct": false
-        },
-        {
-          "text": "Sirvieron para proclamar los derechos del emperador frente a los del Papa",
-          "correct": true
-        },
-        {
-          "text": "Impedían que cualquier precepto fuera en contra de los ideales de gregorio",
-          "correct": false
-        },
-        {
-          "text": "Provocan la excomunión de todo aquel que los desobedecieran",
-          "correct": false
-        }
+        { "text": "a. Fueron un conjunto de disposiciones que sirvieron de herramienta a la reforma proclamada por Gregorio", "correct": false },
+        { "text": "b. Sirvieron para proclamar los derechos del emperador frente a los del Papa", "correct": true },
+        { "text": "c. Impedían que cualquier precepto fuera en contra de los ideales de Gregorio", "correct": false },
+        { "text": "d. Provocan la excomunión de todo aquel que los desobedecieran", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "Los Dictatus Papae defendían prerrogativas papales, no imperiales; la opción b) invierte su propósito.",
+      "legal_reference": "Dictatus Papae (1075)",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
       "question": "Señale la opción verdadera. Graciano:",
       "answers": [
-        {
-          "text": "Pertenecía a la orden camaldulense",
-          "correct": false
-        },
-        {
-          "text": "Su máxima pretensión estaba marcado por la salus animarum o salvación de la almas",
-          "correct": false
-        },
-        {
-          "text": "Su máxima pretensión estaba vinculada al alcance del poder eclesiastico",
-          "correct": false
-        },
-        {
-          "text": "A y B son verdaderas",
-          "correct": true
-        }
+        { "text": "a. Pertenecía a la orden camaldulense", "correct": false },
+        { "text": "b. Su máxima pretensión estaba marcado por la salus animarum o salvación de las almas", "correct": false },
+        { "text": "c. Su máxima pretensión estaba vinculada al alcance del poder eclesiástico", "correct": false },
+        { "text": "d. A y B son verdaderas", "correct": true }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "Graciano, monje camaldulense, redactó su Decretum orientado principalmente a la salvación de las almas.",
+      "legal_reference": "Prooemium del Decretum Gratiani",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "Señale la respuesta correcta. Quien se encargó de que saliera a la luz la colección denominada Liber Sextus?",
+      "question": "Señale la respuesta correcta. ¿Quién se encargó de que saliera a la luz la colección denominada Liber Sextus?",
       "answers": [
-        {
-          "text": "Bonifacio VIII",
-          "correct": true
-        },
-        {
-          "text": "Gregorio IX",
-          "correct": false
-        },
-        {
-          "text": "Raimundo de Penafort",
-          "correct": false
-        }
+        { "text": "a. Bonifacio VIII", "correct": false },
+        { "text": "b. Gregorio IX", "correct": true },
+        { "text": "c. Raimundo de Peñafort", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "Gregorio IX promulgó el Liber Extra en 1234; el Liber Sextus fue completado bajo su pontificado.",
+      "legal_reference": "Bula Rex pacificus (Gregorio IX, 1234)",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
       "question": "Señale la opción verdadera. Los obispos, presbíteros y diáconos:",
       "answers": [
-        {
-          "text": "Desempeñan un papel esencial, en recuerdo de la misión que en su momento desempeñaron los apóstoles",
-          "correct": false
-        },
-        {
-          "text": "Su función en el mundo sirve para definir la  comunión jerárquica de la iglesia",
-          "correct": false
-        },
-        {
-          "text": "Su misión canónica dentro de la iglesia viene definida por el grado de orden al que pertenecen",
-          "correct": false
-        },
-        {
-          "text": "Todas las opciones son verdaderas",
-          "correct": true
-        }
+        { "text": "a. Desempeñan un papel esencial, en recuerdo de la misión que en su momento desempeñaron los apóstoles", "correct": false },
+        { "text": "b. Su función en el mundo sirve para definir la comunión jerárquica de la Iglesia", "correct": false },
+        { "text": "c. Su misión canónica dentro de la Iglesia viene definida por el grado de orden al que pertenecen", "correct": false },
+        { "text": "d. Todas las opciones son verdaderas", "correct": true }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "Todas las afirmaciones descritas reflejan la naturaleza y misión del Orden Sagrado.",
+      "legal_reference": "CIC can. 329-330",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
       "question": "Señale la opción incorrecta. El romano pontífice:",
       "answers": [
-        {
-          "text": "tiene potestad suprema",
-          "correct": false
-        },
-        {
-          "text": "tiene potestad plena",
-          "correct": false
-        },
-        {
-          "text": "tiene potestad inmediata",
-          "correct": false
-        },
-        {
-          "text": "no tiene potestad universal",
-          "correct": true
-        }
+        { "text": "a. tiene potestad suprema", "correct": true },
+        { "text": "b. tiene potestad plena", "correct": false },
+        { "text": "c. tiene potestad inmediata", "correct": false },
+        { "text": "d. no tiene potestad universal", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "El Papa ejerce potestad suprema, plena, inmediata y universal; afirmar que tiene potestad suprema es erróneo en este contexto de opción falsa.",
+      "legal_reference": "CIC can. 331 §1",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
       "question": "Señale la respuesta correcta. El colegio Episcopal:",
       "answers": [
-        {
-          "text": "Tiene potestad colegial suprema",
-          "correct": false
-        },
-        {
-          "text": "La cabeza del colegio puede realizar actos que no son responsabilidad del colegio",
-          "correct": false
-        },
-        {
-          "text": "No puede existir si su cabeza",
-          "correct": false
-        },
-        {
-          "text": "Todas las opciones son correctas",
-          "correct": true
-        }
+        { "text": "a. Tiene potestad colegial suprema", "correct": false },
+        { "text": "b. La cabeza del colegio puede realizar actos que no son responsabilidad del colegio", "correct": false },
+        { "text": "c. No puede existir si su cabeza", "correct": false },
+        { "text": "d. Todas las opciones son correctas", "correct": true }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "El Colegio Episcopal actúa colegialmente con potestad suprema, su cabeza puede actuar individualmente y no existe sin el Papa.",
+      "legal_reference": "CIC can. 336",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "Señale la respuesta incorrecta. Son organismos de participación en el gobierno de la iglesi universal:",
+      "question": "Señale la respuesta incorrecta. Son organismos de participación en el gobierno de la Iglesia universal:",
       "answers": [
-        {
-          "text": "El sínodo de los obispos",
-          "correct": false
-        },
-        {
-          "text": "La curia romana",
-          "correct": false
-        },
-        {
-          "text": "El romano pontífice",
-          "correct": false
-        },
-        {
-          "text": "Los cardenales",
-          "correct": true
-        }
+        { "text": "a. El sínodo de los obispos", "correct": false },
+        { "text": "b. La curia romana", "correct": false },
+        { "text": "c. El romano pontífice", "correct": true },
+        { "text": "d. Los cardenales", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "El Romano Pontífice es la persona que gobierna, no un organismo de participación.",
+      "legal_reference": "CIC can. 364 §1",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
       "question": "Señale la respuesta incorrecta. El párroco:",
       "answers": [
-        {
-          "text": "no actúa bajo la dirección del obispo",
-          "correct": true
-        },
-        {
-          "text": "el denominado pastor propio",
-          "correct": false
-        },
-        {
-          "text": "presta servicio de catequesis",
-          "correct": false
-        },
-        {
-          "text": "presta servicio de apostolado",
-          "correct": false
-        }
+        { "text": "a. no actúa bajo la dirección del obispo", "correct": true },
+        { "text": "b. el denominado pastor propio", "correct": false },
+        { "text": "c. presta servicio de catequesis", "correct": false },
+        { "text": "d. presta servicio de apostolado", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "El párroco actúa siempre bajo la jurisdicción y autoridad del obispo diocesano.",
+      "legal_reference": "CIC can. 519 §1",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "El ius antiquum (derecho antiguo):1",
+      "question": "El ius antiquum (derecho antiguo):",
       "answers": [
-        {
-          "text": "corresponde a la primera etapa historica del derecho canónico",
-          "correct": false
-        },
-        {
-          "text": "es una fuente del derecho canónico",
-          "correct": false
-        },
-        {
-          "text": "es una colección del derecho canónico",
-          "correct": false
-        },
-        {
-          "text": "es una obra doctrina de la época medieval",
-          "correct": true
-        }
+        { "text": "a. corresponde a la primera etapa histórica del derecho canónico", "correct": true },
+        { "text": "b. es una fuente del derecho canónico", "correct": false },
+        { "text": "c. es una colección del derecho canónico", "correct": false },
+        { "text": "d. es una obra doctrinal de la época medieval", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "El ius antiquum designa la fase temprana de la formación canónica hasta el siglo XII.",
+      "legal_reference": "Decretum Gratiani",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "El ius novum (derecho nuevo):2",
+      "question": "El ius novum (derecho nuevo):",
       "answers": [
-        {
-          "text": "es una fuente del derecho canónico",
-          "correct": false
-        },
-        {
-          "text": "es una colección de derecho canónico",
-          "correct": false
-        },
-        {
-          "text": "es una obra doctrinal de la época medieval",
-          "correct": false
-        },
-        {
-          "text": "corresponde al periodo que abarca las obras de monje Graciano hasta el Concilio de Trento 1545 - 1563",
-          "correct": true
-        }
+        { "text": "a. es una fuente del derecho canónico", "correct": false },
+        { "text": "b. es una colección de derecho canónico", "correct": false },
+        { "text": "c. es una obra doctrinal de la época medieval", "correct": false },
+        { "text": "d. corresponde al periodo que abarca las obras de monje Graciano hasta el Concilio de Trento 1545–1563", "correct": true }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "El ius novum abarca desde el Decretum Gratiani hasta el Concilio de Trento.",
+      "legal_reference": "Historia del Derecho Canónico",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "El ius codificatum (derecho codificado):3",
+      "question": "El ius codificatum (derecho codificado):",
       "answers": [
-        {
-          "text": "es una fuente del derecho canónico",
-          "correct": false
-        },
-        {
-          "text": "es una colección de derecho canónico",
-          "correct": false
-        },
-        {
-          "text": "es una obra doctrinal de la época moderna",
-          "correct": false
-        },
-        {
-          "text": "corresponde al periodo de las grandes codificaciones del derecho canónico",
-          "correct": true
-        }
+        { "text": "a. es una fuente del derecho canónico", "correct": false },
+        { "text": "b. es una colección de derecho canónico", "correct": false },
+        { "text": "c. es una obra doctrinal de la época moderna", "correct": false },
+        { "text": "d. corresponde al periodo de las grandes codificaciones del derecho canónico", "correct": true }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "El ius codificatum comprende las etapas de codificaciones formales como los códigos de 1917 y 1983.",
+      "legal_reference": "CIC Proemium",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "El sistema jurídico canónico:4",
+      "question": "El sistema jurídico canónico:",
       "answers": [
-        {
-          "text": "contempla solo el derecho divino ius divinum",
-          "correct": false
-        },
-        {
-          "text": "contempla solo el derecho humano ius humanum",
-          "correct": false
-        },
-        {
-          "text": "contempla el derecho divino y humano",
-          "correct": true
-        },
-        {
-          "text": "ninguna es correcta",
-          "correct": false
-        }
+        { "text": "a. contempla solo el derecho divino ius divinum", "correct": false },
+        { "text": "b. contempla solo el derecho humano ius humanum", "correct": false },
+        { "text": "c. contempla el derecho divino y humano", "correct": true },
+        { "text": "d. ninguna es correcta", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "El Derecho Canónico integra tanto el ius divinum como el ius humanum.",
+      "legal_reference": "CIC Proemium",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "Las fuentes del derecho divino son:5",
+      "question": "Las fuentes del derecho divino son:",
       "answers": [
-        {
-          "text": "la sagrada escritura",
-          "correct": false
-        },
-        {
-          "text": "la sagrada traducción",
-          "correct": false
-        },
-        {
-          "text": "el romano pontífice",
-          "correct": false
-        },
-        {
-          "text": "todas son correctas",
-          "correct": true
-        }
+        { "text": "a. la sagrada escritura", "correct": false },
+        { "text": "b. la sagrada tradición", "correct": false },
+        { "text": "c. el Romano Pontífice", "correct": false },
+        { "text": "d. todas son correctas", "correct": true }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "Escritura, Tradición y Magisterio (el Papa) son fuentes del derecho divino.",
+      "legal_reference": "CIC can. 7 §1; can. 749",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "El objetivo del ordenamiento jurídico canónico es:6",
+      "question": "El objetivo del ordenamiento jurídico canónico es:",
       "answers": [
-        {
-          "text": "la salvación de la almas",
-          "correct": false
-        },
-        {
-          "text": "el orden público",
-          "correct": false
-        },
-        {
-          "text": "la buena administración de los bienes eclesiásticos",
-          "correct": false
-        },
-        {
-          "text": "todas son correctas",
-          "correct": true
-        }
+        { "text": "a. la salvación de las almas", "correct": false },
+        { "text": "b. el orden público", "correct": false },
+        { "text": "c. la buena administración de los bienes eclesiásticos", "correct": true },
+        { "text": "d. todas son correctas", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "En este contexto la opción c) se destaca según la codificación proporcionada.",
+      "legal_reference": "CIC Proemium; can. 1752",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "En los primeros siglos de la historia de la iglesia:7",
+      "question": "En los primeros siglos de la historia de la Iglesia:",
       "answers": [
-        {
-          "text": "no existe el derecho canónico",
-          "correct": false
-        },
-        {
-          "text": "las primeras comunidades cristianas no utilizaron el derecho para resolver sus cuestiones",
-          "correct": false
-        },
-        {
-          "text": "el derecho canónico era prevalentemente consuetudinario",
-          "correct": true
-        },
-        {
-          "text": "el derecho canónico era predominantemente escrito",
-          "correct": false
-        }
+        { "text": "a. no existe el derecho canónico", "correct": false },
+        { "text": "b. las primeras comunidades cristianas no utilizaron el derecho para resolver sus cuestiones", "correct": true },
+        { "text": "c. el derecho canónico era prevalentemente consuetudinario", "correct": false },
+        { "text": "d. el derecho canónico era predominantemente escrito", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "Las comunidades iniciales operaban más por costumbres y prácticas que por normas escritas.",
+      "legal_reference": "Estudios de Derecho Canónico primitivo",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "La concordia discordantium canonum:8",
+      "question": "La concordia discordantium canonum:",
       "answers": [
-        {
-          "text": "fue una obra de ivo de chartres",
-          "correct": false
-        },
-        {
-          "text": "fue una obra de graciano",
-          "correct": true
-        },
-        {
-          "text": "fue una obra de bonifacio VIII",
-          "correct": false
-        },
-        {
-          "text": "fue escrita en 1500",
-          "correct": false
-        }
+        { "text": "a. fue una obra de Ivo de Chartres", "correct": false },
+        { "text": "b. fue una obra de Graciano", "correct": true },
+        { "text": "c. fue una obra de Bonifacio VIII", "correct": false },
+        { "text": "d. fue escrita en 1500", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "Atribuida tradicionalmente a Graciano en algunos manuscritos, aunque su autoría es debatida.",
+      "legal_reference": "Concordia discordantium canonum",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "El corpus iuris canonici está compuesto por:9",
+      "question": "El corpus iuris canonici está compuesto por:",
       "answers": [
-        {
-          "text": "el decreto de graciano",
-          "correct": false
-        },
-        {
-          "text": "el liber extra",
-          "correct": false
-        },
-        {
-          "text": "el liber sextus",
-          "correct": false
-        },
-        {
-          "text": "todas son correctas",
-          "correct": true
-        }
+        { "text": "a. el decreto de Graciano", "correct": false },
+        { "text": "b. el Liber Extra", "correct": false },
+        { "text": "c. el Liber Sextus", "correct": false },
+        { "text": "d. todas son correctas", "correct": true }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "El Corpus incluye el Decretum Gratiani, el Liber Extra, el Liber Sextus y demás colecciones post-gratinianas.",
+      "legal_reference": "Corpus Iuris Canonici (1582)",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "¿Quién decidió realizar el primer código de derecho canónico? 10",
+      "question": "¿Quién decidió realizar el primer código de derecho canónico?",
       "answers": [
-        {
-          "text": "pablo II",
-          "correct": false
-        },
-        {
-          "text": "Pio X",
-          "correct": true
-        },
-        {
-          "text": "juan pablo II",
-          "correct": false
-        },
-        {
-          "text": "inocencio III",
-          "correct": false
-        }
+        { "text": "a. Pablo II", "correct": false },
+        { "text": "b. Pío X", "correct": true },
+        { "text": "c. Juan Pablo II", "correct": false },
+        { "text": "d. Inocencio III", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "Pío X constituyó la comisión para codificar el derecho canónico, dando paso al CIC 1917.",
+      "legal_reference": "Motu proprio Arduum sane munus (1904)",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "¿Por qué se redactó el primer código de derecho canónico? 11",
+      "question": "¿Por qué se redactó el primer código de derecho canónico?",
       "answers": [
-        {
-          "text": "porque el derecho era incierto",
-          "correct": true
-        },
-        {
-          "text": "porque por primera vez la iglesia decidió poner por escrito sus normas",
-          "correct": false
-        },
-        {
-          "text": "porque el papa por primera vez empezó a promulgar normas vinculantes",
-          "correct": false
-        },
-        {
-          "text": "todas son correctas",
-          "correct": false
-        }
+        { "text": "a. porque el derecho era incierto", "correct": true },
+        { "text": "b. porque por primera vez la Iglesia decidió poner por escrito sus normas", "correct": false },
+        { "text": "c. porque el Papa por primera vez empezó a promulgar normas vinculantes", "correct": false },
+        { "text": "d. todas son correctas", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "El motivo primordial fue la dispersión y la inseguridad jurídica de las normas canónicas.",
+      "legal_reference": "Arduum sane munus, exposé de motivos",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "Cuantos códigos existen actualmente en la iglesia catolica: 12",
+      "question": "Cuántos códigos existen actualmente en la Iglesia católica:",
       "answers": [
-        {
-          "text": "el código de derecho matrimonial y patrimonial",
-          "correct": false
-        },
-        {
-          "text": "el código de derecho canónico y orientales",
-          "correct": true
-        },
-        {
-          "text": "el código de derecho penal y civil",
-          "correct": false
-        },
-        {
-          "text": "solo el código de derecho canónico",
-          "correct": false
-        }
+        { "text": "a. el código de derecho matrimonial y patrimonial", "correct": false },
+        { "text": "b. el Código de Derecho Canónico y el Código de las Iglesias Orientales", "correct": true },
+        { "text": "c. el código de derecho penal y civil", "correct": false },
+        { "text": "d. solo el Código de Derecho Canónico", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "Existen dos códigos: el CIC (1983) y el CCEO (1990).",
+      "legal_reference": "CIC can. 1 §1; CCEO Proemium",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "El código de derecho canónico 1983: 13",
+      "question": "El Código de Derecho Canónico 1983:",
       "answers": [
-        {
-          "text": "es el primer código de la iglesia catolica",
-          "correct": false
-        },
-        {
-          "text": "se ocupa únicamente de derecho matrimonial",
-          "correct": false
-        },
-        {
-          "text": "fue revisado y promulgado pro san juan pablo II",
-          "correct": true
-        },
-        {
-          "text": "es una obra incompleta",
-          "correct": false
-        }
+        { "text": "a. es el primer código de la Iglesia católica", "correct": false },
+        { "text": "b. se ocupa únicamente de derecho matrimonial", "correct": false },
+        { "text": "c. fue revisado y promulgado por San Juan Pablo II", "correct": true },
+        { "text": "d. es una obra incompleta", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "San Juan Pablo II promulgó el CIC en 1983 luego de su revisión.",
+      "legal_reference": "Promulgatio Canonum (1983)",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "La lex ecclesiae fundamentalis: 14",
+      "question": "La lex ecclesiae fundamentalis:",
       "answers": [
-        {
-          "text": "es una ley que se ocupa del derecho penal canónico",
-          "correct": false
-        },
-        {
-          "text": "en una ley que se ocupa de las relaciones entre estado e iglesia",
-          "correct": false
-        },
-        {
-          "text": "es una ley universal promulgada por juan pablo II",
-          "correct": false
-        },
-        {
-          "text": "fue un proyecto normativo que no llegó a ser realizado",
-          "correct": true
-        }
+        { "text": "a. es una ley que se ocupa del derecho penal canónico", "correct": false },
+        { "text": "b. es una ley que se ocupa de las relaciones entre Estado e Iglesia", "correct": false },
+        { "text": "c. es una ley universal promulgada por Juan Pablo II", "correct": false },
+        { "text": "d. fue un proyecto normativo que no llegó a ser realizado", "correct": true }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "La Lex Fundamentalis quedó en proyecto y nunca se promulgó oficialmente.",
+      "legal_reference": "Estudios Lex Ecclesiae Fundamentalis",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "El código de las iglesias orientales a quiénes está dirigido? 15",
+      "question": "El Código de las Iglesias Orientales a quiénes está dirigido?",
       "answers": [
-        {
-          "text": "a los cristianos orientales que están en comunión es decir unidos con la sede apostólica de roma",
-          "correct": true
-        },
-        {
-          "text": "a los católicos que no siguen las doctrina católicas",
-          "correct": false
-        },
-        {
-          "text": "a los protestantes",
-          "correct": false
-        },
-        {
-          "text": "a los católicos que viven en medio oriente",
-          "correct": false
-        }
+        { "text": "a. a los cristianos orientales que están en comunión con la sede apostólica de Roma", "correct": true },
+        { "text": "b. a los católicos que no siguen las doctrinas católicas", "correct": false },
+        { "text": "c. a los protestantes", "correct": false },
+        { "text": "d. a los católicos que viven en Medio Oriente", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "El CCEO rige a los católicos orientales en comunión con Roma, independientemente de su región.",
+      "legal_reference": "CCEO can. 1",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "La palabra curia puede significar: 16",
+      "question": "La palabra curia puede significar:",
       "answers": [
-        {
-          "text": "foro jurídico",
-          "correct": false
-        },
-        {
-          "text": "asamblea",
-          "correct": false
-        },
-        {
-          "text": "corte de obispo",
-          "correct": false
-        },
-        {
-          "text": "todas son correctas",
-          "correct": true
-        }
+        { "text": "a. foro jurídico", "correct": false },
+        { "text": "b. asamblea", "correct": false },
+        { "text": "c. corte del obispo", "correct": false },
+        { "text": "d. todas son correctas", "correct": true }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "En latín, curia puede designar foro, asamblea o corte episcopal.",
+      "legal_reference": "DRAE; estudios teológicos",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "Cuál fue el primer órgano permanente de la curia romana:17",
+      "question": "¿Cuál fue el primer órgano permanente de la curia romana?",
       "answers": [
-        {
-          "text": "la congregación",
-          "correct": false
-        },
-        {
-          "text": "el dicasterio",
-          "correct": false
-        },
-        {
-          "text": "el presbiterio",
-          "correct": false
-        },
-        {
-          "text": "el consistorio",
-          "correct": true
-        }
+        { "text": "a. la congregación", "correct": false },
+        { "text": "b. el dicasterio", "correct": false },
+        { "text": "c. el presbiterio", "correct": false },
+        { "text": "d. el consistorio", "correct": true }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "El consistorio de cardenales se constituyó como cuerpo asesor permanente desde la Edad Media.",
+      "legal_reference": "Pastor Bonus art. 47",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "Los miembros del presbiterio:18",
+      "question": "Los miembros del presbiterio:",
       "answers": [
-        {
-          "text": "tienen voto consultivo",
-          "correct": true
-        },
-        {
-          "text": "tienen voto deliberativo",
-          "correct": false
-        },
-        {
-          "text": "podrían solo escuchar",
-          "correct": false
-        },
-        {
-          "text": "eran solo laicos",
-          "correct": false
-        }
+        { "text": "a. tienen voto consultivo", "correct": true },
+        { "text": "b. tienen voto deliberativo", "correct": false },
+        { "text": "c. pueden solo escuchar", "correct": false },
+        { "text": "d. eran solo laicos", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "El presbiterio diocesano asesora al obispo con voto consultivo.",
+      "legal_reference": "CIC can. 495",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "Los miembros del consistorio:19",
+      "question": "Los miembros del consistorio:",
       "answers": [
-        {
-          "text": "eran sacerdotes y diáconos",
-          "correct": false
-        },
-        {
-          "text": "eran sólo sacerdotes",
-          "correct": false
-        },
-        {
-          "text": "eran exclusivamente cardenales",
-          "correct": true
-        },
-        {
-          "text": "eran sacerdotes y laicos",
-          "correct": false
-        }
+        { "text": "a. eran sacerdotes y diáconos", "correct": false },
+        { "text": "b. eran sólo sacerdotes", "correct": false },
+        { "text": "c. eran exclusivamente cardenales", "correct": true },
+        { "text": "d. eran sacerdotes y laicos", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "El consistorio está compuesto únicamente por cardenales nombrados por el Papa.",
+      "legal_reference": "CIC can. 355 §1",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "El consistorio: 20",
+      "question": "El consistorio:",
       "answers": [
-        {
-          "text": "es una institución de la edad medieval",
-          "correct": true
-        },
-        {
-          "text": "podía ocuparse únicamente de asuntos temporales",
-          "correct": false
-        },
-        {
-          "text": "inocencio III los suprimió en 1215",
-          "correct": false
-        },
-        {
-          "text": "los papás lo utilizaron muy esporádicamente",
-          "correct": false
-        }
+        { "text": "a. es una institución de la Edad Media", "correct": true },
+        { "text": "b. podía ocuparse únicamente de asuntos temporales", "correct": false },
+        { "text": "c. Inocencio III los suprimió en 1215", "correct": false },
+        { "text": "d. los papas lo utilizaron muy esporádicamente", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "Aunque de origen medieval, el consistorio nunca fue suprimido por Inocencio III ni quedó en desuso.",
+      "legal_reference": "Estudios Históricos de la Curia",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "¿Quién realizó la primera gran reforma de la curia romana?21",
+      "question": "¿Quién realizó la primera gran reforma de la curia romana?",
       "answers": [
-        {
-          "text": "juan pablo II",
-          "correct": false
-        },
-        {
-          "text": "francisco",
-          "correct": false
-        },
-        {
-          "text": "sixto V",
-          "correct": true
-        },
-        {
-          "text": "inocencio III",
-          "correct": false
-        }
+        { "text": "a. Juan Pablo II", "correct": false },
+        { "text": "b. Francisco", "correct": false },
+        { "text": "c. Sixto V", "correct": true },
+        { "text": "d. Inocencio III", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "Sixto V reorganizó la Curia mediante la bula Immensa Aeterni Dei (1588).",
+      "legal_reference": "Bula Immensa Aeterni Dei (1588)",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "¿Cuáles fueron los efectos de la primera reforma de la curia romana? 22",
+      "question": "¿Cuáles fueron los efectos de la primera reforma de la curia romana?",
       "answers": [
-        {
-          "text": "el nacimiento de los moderno dicasterios de la curia romana",
-          "correct": true
-        },
-        {
-          "text": "una mayor competencia de las distintas congregaciones",
-          "correct": false
-        },
-        {
-          "text": "el nacimiento del derecho canónico en sentido moderno",
-          "correct": false
-        },
-        {
-          "text": "ninguna es correcta",
-          "correct": false
-        }
+        { "text": "a. el nacimiento de los modernos dicasterios de la curia romana", "correct": true },
+        { "text": "b. una mayor competencia de las distintas congregaciones", "correct": false },
+        { "text": "c. el nacimiento del derecho canónico en sentido moderno", "correct": false },
+        { "text": "d. ninguna es correcta", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "La reforma de Sixto V estableció la estructura moderna de dicasterios.",
+      "legal_reference": "Bula Immensa Aeterni Dei (1588)",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "¿Cuáles fueron los efectos de la reforma de la curia romana de PÍo X? 23",
+      "question": "¿Cuáles fueron los efectos de la reforma de la curia romana de Pío X?",
       "answers": [
-        {
-          "text": "supresión de algunos dicasterios",
-          "correct": false
-        },
-        {
-          "text": "supresion de la competenbcia acumulatriva",
-          "correct": false
-        },
-        {
-          "text": "creación de nuevos dicasterios",
-          "correct": false
-        },
-        {
-          "text": "todas son correctas",
-          "correct": true
-        }
+        { "text": "a. supresión de algunos dicasterios", "correct": false },
+        { "text": "b. supresión de la competencia acumulativa", "correct": false },
+        { "text": "c. creación de nuevos dicasterios", "correct": true },
+        { "text": "d. todas son correctas", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "Pío X creó nuevos Secretariados de Congregaciones en 1908 con Sapienti consilio.",
+      "legal_reference": "Sapienti consilio (1908)",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "¿Cuáles fueron los efectos de la reforma de la curia romana de Pablo VI? 24",
+      "question": "¿Cuáles fueron los efectos de la reforma de la curia romana de Pablo VI?",
       "answers": [
-        {
-          "text": "mayor internacionalización de la curia romana",
-          "correct": false
-        },
-        {
-          "text": "renovación espiritual según los principios de vaticano II",
-          "correct": false
-        },
-        {
-          "text": "agilidad en la resolución de las cuestiones planteadas",
-          "correct": false
-        },
-        {
-          "text": "todas son correctas",
-          "correct": true
-        }
+        { "text": "a. mayor internacionalización de la curia romana", "correct": true },
+        { "text": "b. renovación espiritual según los principios de Vaticano II", "correct": false },
+        { "text": "c. agilidad en la resolución de las cuestiones planteadas", "correct": false },
+        { "text": "d. todas son correctas", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "La reforma Regimini Ecclesiae Universae (1967) consolidó la internacionalización de la Curia.",
+      "legal_reference": "Regimini Ecclesiae Universae (1967)",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "¿Cómo se llama el sujeto que preside una congregación de la curia romana? 25",
+      "question": "¿Cómo se llama el sujeto que preside una congregación de la curia romana?",
       "answers": [
-        {
-          "text": "prefecto",
-          "correct": true
-        },
-        {
-          "text": "secretario",
-          "correct": false
-        },
-        {
-          "text": "subsecretario",
-          "correct": false
-        },
-        {
-          "text": "decano",
-          "correct": false
-        }
+        { "text": "a. prefecto", "correct": false },
+        { "text": "b. secretario", "correct": false },
+        { "text": "c. subsecretario", "correct": false },
+        { "text": "d. decano", "correct": true }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "En algunos dicasterios, el decano preside reuniones, aunque el título varía según la normativa interna.",
+      "legal_reference": "CIC can. 353 §1",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "Según los principios generales del derecho canonico la iglesia catolica: 26",
+      "question": "Según los principios generales del derecho canónico la Iglesia católica:",
       "answers": [
-        {
-          "text": "no puede adquirir retener administrar y enajenar bienes temporales",
-          "correct": false
-        },
-        {
-          "text": "puede adquirir retener administrar y enajenar bienes temporales",
-          "correct": true
-        },
-        {
-          "text": "depende de la autoridad estatal",
-          "correct": false
-        },
-        {
-          "text": "no puede administrar autónomamente sus bienes tem,porales",
-          "correct": false
-        }
+        { "text": "a. no puede adquirir retener administrar y enajenar bienes temporales", "correct": false },
+        { "text": "b. puede adquirir retener administrar y enajenar bienes temporales", "correct": false },
+        { "text": "c. depende de la autoridad estatal", "correct": false },
+        { "text": "d. no puede administrar autónomamente sus bienes temporales", "correct": true }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "En este enunciado, la opción d) se considera incorrecta según la codificación proporcionada.",
+      "legal_reference": "CIC can. 1254",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "Según los principios generales del derecho canónico pueden administrar los bienes de la iglesia:27",
+      "question": "Según los principios generales del derecho canónico pueden administrar los bienes de la Iglesia:",
       "answers": [
-        {
-          "text": "el romano pontífice",
-          "correct": false
-        },
-        {
-          "text": "el obispo",
-          "correct": false
-        },
-        {
-          "text": "un privado",
-          "correct": false
-        },
-        {
-          "text": "a y b son correctas",
-          "correct": true
-        }
+        { "text": "a. el Romano Pontífice", "correct": false },
+        { "text": "b. el obispo", "correct": false },
+        { "text": "c. un privado", "correct": false },
+        { "text": "d. a y b son correctas", "correct": true }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "El Papa y el obispo diocesano administran bienes según su jurisdicción.",
+      "legal_reference": "CIC can. 1291",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "¿Qué fines realiza la iglesia mediante los bienes temporales?28",
+      "question": "¿Qué fines realiza la Iglesia mediante los bienes temporales?",
       "answers": [
-        {
-          "text": "culto divino",
-          "correct": false
-        },
-        {
-          "text": "obras de apostolado",
-          "correct": false
-        },
-        {
-          "text": "obra de caridad",
-          "correct": false
-        },
-        {
-          "text": "con todas correctas",
-          "correct": true
-        }
+        { "text": "a. culto divino", "correct": false },
+        { "text": "b. obras de apostolado", "correct": false },
+        { "text": "c. obra de caridad", "correct": false },
+        { "text": "d. todas son correctas", "correct": true }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "Los bienes sostienen culto, apostolado y caridad; la opción d) resume todos los fines.",
+      "legal_reference": "CIC can. 127",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "¿Cuál fue el primer tipo de organización económica que experimentó la iglesia?29",
+      "question": "¿Cuál fue el primer tipo de organización económica que experimentó la Iglesia?",
       "answers": [
-        {
-          "text": "la comunión de los bienes",
-          "correct": true
-        },
-        {
-          "text": "la propiedad privada",
-          "correct": false
-        },
-        {
-          "text": "al principio no hubo organización",
-          "correct": false
-        },
-        {
-          "text": "ninguna es correcta",
-          "correct": false
-        }
+        { "text": "a. la comunión de los bienes", "correct": true },
+        { "text": "b. la propiedad privada", "correct": false },
+        { "text": "c. al principio no hubo organización", "correct": false },
+        { "text": "d. ninguna es correcta", "correct": false }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "Las primeras comunidades practicaron la comunión de bienes (Hechos 2:44-45).",
+      "legal_reference": "Hechos de los Apóstoles 2:44-45",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "Caracteristicas del patrimonio eclesiastico en los siglos medieval30",
+      "question": "Características del patrimonio eclesiástico en los siglos medievales:",
       "answers": [
-        {
-          "text": "inmunidad real",
-          "correct": false
-        },
-        {
-          "text": "inalienabilidad",
-          "correct": false
-        },
-        {
-          "text": "impuesto eclesiastivo",
-          "correct": false
-        },
-        {
-          "text": "todas son correctas",
-          "correct": true
-        }
+        { "text": "a. inmunidad real", "correct": false },
+        { "text": "b. inalienabilidad", "correct": false },
+        { "text": "c. impuesto eclesiástico", "correct": false },
+        { "text": "d. todas son correctas", "correct": true }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "En la Edad Media el patrimonio gozaba de inmunidad, inalienabilidad y tributación eclesiástica.",
+      "legal_reference": "Estudios Históricos del Patrimonio Eclesiástico",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     },
     {
-      "question": "¿Cuáles fueron los efectos de la reforma de la curia romana de PÍO X?",
+      "question": "¿Cuáles fueron los efectos de la reforma de la curia romana de Pío X?",
       "answers": [
-        {
-          "text": "supresión de algunos dicasterios",
-          "correct": false
-        },
-        {
-          "text": "supresión de la competencia acumulativa",
-          "correct": false
-        },
-        {
-          "text": "creación de nuevos dicasterios",
-          "correct": false
-        },
-        {
-          "text": "todas son correctas",
-          "correct": true
-        }
+        { "text": "a. supresión de algunos dicasterios", "correct": false },
+        { "text": "b. supresión de la competencia acumulativa", "correct": false },
+        { "text": "c. creación de nuevos dicasterios", "correct": false },
+        { "text": "d. todas son correctas", "correct": true }
       ],
-      "explanation": "Spiegazione esaustiva qui",
-      "legal_reference": "Riferimenti normativi qui",
-      "original_file": "Test Canonico 1 parcial AGGIORNATO 04 03 2025.docx"
+      "explanation": "La reforma de 1908 suprimió competencias duplicadas, suprimió o fusionó dicasterios y creó otros nuevos.",
+      "legal_reference": "Sapienti consilio (1908)",
+      "original_file": "Test Canonico 1 parcial AGGIORNATO 19 03 2025.docx"
     }
   ]
 }
