@@ -10,8 +10,8 @@
         { "text": "Puede ser beneficiario de la prestación de incapacidad temporal a través de la emisión del parte de baja emitido por el facultativo de la mutua de accidentes de trabajo enfermedades profesionales de la seguridad social.", "correct": false },
         { "text": "Puede ser beneficiario de la prestación de incapacidad temporal a través de la emisión del parte de baja emitido por un facultativo ya sea del servicio público de salud o de una mutua de accidentes de trabajo y enfermedad profesional de la seguridad social.", "correct": false }
       ],
-      "explanation": "Al tratarse de un accidente no laboral (sucedido de camino al supermercado), la contingencia es común, para la cual se exige un período de carencia de 180 días cotizados en los últimos 5 años. Con solo 120 días cotizados, no cumple este requisito y por tanto no tiene derecho al subsidio económico de IT, aunque sí a la baja médica.",
-      "legal_reference": "TRLGSS artículo 165.1 (períodos de carencia), artículo 169 (definición de IT)",
+      "explanation": "Explicación (ES): Al tratarse de un accidente no laboral (sucedido de camino al supermercado), la contingencia es común, para la cual se exige un período de carencia de 180 días cotizados en los últimos 5 años. Con solo 120 días cotizados, no cumple este requisito y por tanto no tiene derecho al subsidio económico de IT, aunque sí a la baja médica. Explicazione (IT): Poiché si tratta di un infortunio non professionale (avvenuto durante il tragitto al supermercato), la casistica è quella di malattia comune, per la quale è richiesto un periodo di carenza di 180 giorni di contribuzione negli ultimi 5 anni. Avendo solo 120 giorni, non soddisfa questo requisito e quindi non ha diritto al sussidio economico di IT, sebbene abbia diritto al certificato medico di malattia.",
+      "legal_reference": "TRLGSS artículo 165.1; artículo 169",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -22,8 +22,8 @@
         { "text": "18 meses prorrogables hasta 36", "correct": false },
         { "text": "12 meses prorrogables hasta 30", "correct": false }
       ],
-      "explanation": "El artículo 169 TRLGSS establece que la situación de incapacidad temporal tiene una duración máxima de 365 días (aprox. 12 meses), prorrogables por otros 180 días (6 meses) si se prevé alta médica en ese plazo, alcanzando un límite de 18 meses en total.",
-      "legal_reference": "TRLGSS artículo 169.1 (duración y prórroga de IT)",
+      "explanation": "Explicación (ES): El artículo 169 TRLGSS establece que la situación de incapacidad temporal tiene una duración máxima de 365 días (aprox. 12 meses), prorrogables por otros 180 días (6 meses) si se prevé alta médica en ese plazo, alcanzando un límite de 18 meses en total. Explicazione (IT): L'articolo 169 del TRLGSS stabilisce che la situazione di incapacità temporanea ha una durata massima di 365 giorni (circa 12 mesi), prorogabili di ulteriori 180 giorni (6 mesi) se è prevista la guarigione medica entro tale periodo, raggiungendo un limite massimo di 18 mesi complessivi.",
+      "legal_reference": "TRLGSS artículo 169.1",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -34,8 +34,8 @@
         { "text": "El abono de la prestación por contingencia laboral comienza desde el día siguiente al de la baja.", "correct": true },
         { "text": "—", "correct": false }
       ],
-      "explanation": "Para contingencias profesionales (accidente de trabajo o enfermedad profesional), el subsidio se abona desde el día siguiente al de la baja, con una cuantía del 75% de la base reguladora. En cambio, para contingencias comunes existe un período de carencia de tres días sin abono y el subsidio comienza en el día cuarto si no hay complemento empresarial.",
-      "legal_reference": "TRLGSS artículo 172; SEPE “Pago de la prestación de IT”",
+      "explanation": "Explicación (ES): Para contingencias profesionales (accidente de trabajo o enfermedad profesional), el subsidio se abona desde el día siguiente al de la baja, con una cuantía del 75% de la base reguladora. En cambio, para contingencias comunes existe un período de carencia de tres días sin abono y el subsidio comienza en el día cuarto si no hay complemento empresarial. Explicazione (IT): Per le contingenze professionali (infortunio sul lavoro o malattia professionale), il sussidio viene corrisposto dal giorno successivo a quello del certificato di malattia, con un’importo pari al 75% della base di calcolo. Invece, per le contingenze comuni è previsto un periodo di carenza di tre giorni senza indennità, e il sussidio inizia dal quarto giorno in assenza di integrazioni aziendali.",
+      "legal_reference": "TRLGSS artículo 172",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -46,8 +46,8 @@
         { "text": "El cálculo de la prestación por enfermedad común se realiza sobre la base de cotización por contingencias comunes de los tres meses naturales inmediatamente anteriores a la contingencia.", "correct": false },
         { "text": "Ninguna es correcta.", "correct": true }
       ],
-      "explanation": "La carencia exigida para enfermedad común es de 180 días en los últimos 5 años (no 100), el porcentaje del 75% solo se aplica a partir del día 21 de baja (antes es 60%), y la base reguladora se calcula sobre las bases de cotización de los 12 meses anteriores (no 3 meses).",
-      "legal_reference": "TRLGSS artículo 165.1 (carencia); artículo 171 (porcentajes); artículo 172 (cálculo base reguladora)",
+      "explanation": "Explicación (ES): La carencia exigida para enfermedad común es de 180 días en los últimos 5 años (no 100), el porcentaje del 75% solo se aplica a partir del día 21 de baja (antes es 60%), y la base reguladora se calcula sobre las bases de cotización de los 12 meses anteriores (no 3 meses). Explicazione (IT): Il periodo di carenza richiesto per malattia comune è di 180 giorni nei 5 anni precedenti (non 100), la percentuale del 75% si applica solo a partire dal ventunesimo giorno di malattia (i primi 20 giorni al 60%), e la base di calcolo si determina sulle basi contributive dei 12 mesi precedenti (non 3 mesi).",
+      "legal_reference": "TRLGSS artículos 165.1, 171, 172",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -58,8 +58,8 @@
         { "text": "Inhabilita al trabajador para toda profesión u oficio.", "correct": false },
         { "text": "El trabajador incapacitado permanente necesita la asistencia de otra persona para los actos más esenciales de la vida.", "correct": false }
       ],
-      "explanation": "La incapacidad permanente total inhabilita al trabajador para su profesión habitual pero le permite desempeñar otras actividades diferentes. La reducción del rendimiento (≥33%) es una de sus características, pero la definición jurídica se centra en la incapacidad para la profesión habitual.",
-      "legal_reference": "TRLGSS artículo 138 (grado de incapacidad permanente total)",
+      "explanation": "Explicación (ES): La incapacidad permanente total inhabilita al trabajador para su profesión habitual pero le permite desempeñar otras actividades diferentes. La reducción del rendimiento (≥33%) es una de sus características, pero la definición jurídica se centra en la incapacidad para la profesión habitual. Explicazione (IT): L’incapacità permanente totale inabilita il lavoratore alla propria professione abituale, ma gli consente di svolgere altre attività differenti. La riduzione di rendimento (≥33%) è una delle sue caratteristiche, ma la definizione giuridica si basa sull’inabilità alla professione abituale.",
+      "legal_reference": "TRLGSS artículo 138",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -70,8 +70,8 @@
         { "text": "No puede acogerse a ningún tipo de jubilación ya que el órgano gestor competente para el reconocimiento de dicha prestación no es el INSS.", "correct": false },
         { "text": "Ninguna es correcta.", "correct": true }
       ],
-      "explanation": "Para la jubilación ordinaria se exige alcanzar la edad legal (65–67 años según años cotizados), por lo que a los 55 años no cumple el requisito de edad, y no existe ninguna excepción ligada a hijos a su cargo.",
-      "legal_reference": "TRLGSS artículo 202 (requisitos de edad y cotización para jubilación)",
+      "explanation": "Explicación (ES): Para la jubilación ordinaria se exige alcanzar la edad legal (65–67 años según años cotizados), por lo que a los 55 años no cumple el requisito de edad, y no existe ninguna excepción ligada a hijos a su cargo. Explicazione (IT): Per la pensione di vecchiaia ordinaria è richiesto il raggiungimento dell’età legale (65–67 anni in base agli anni di contribuzione), quindi a 55 anni non soddisfa il requisito anagrafico, e non esistono eccezioni legate ai figli a carico.",
+      "legal_reference": "TRLGSS artículo 202",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -82,8 +82,8 @@
         { "text": "Tiene nacionalidad española.", "correct": false },
         { "text": "Haber cumplido 60 años.", "correct": false }
       ],
-      "explanation": "La jubilación no contributiva exige residencia legal de 10 años desde los 16, con al menos 2 años inmediatamente anteriores, y la edad mínima es 65 años, no 60.",
-      "legal_reference": "Ley 26/1996 artículo 4 (requisitos de residencia y edad)",
+      "explanation": "Explicación (ES): La jubilación no contributiva exige residencia legal de 10 años desde los 16, con al menos 2 años inmediatamente anteriores, y la edad mínima es de 65 años, no 60. Explicazione (IT): La pensione non contributiva richiede una residenza legale di 10 anni a partire dai 16 anni di età, con almeno 2 anni immediatamente precedenti alla domanda, e l’età minima è di 65 anni, non 60.",
+      "legal_reference": "Ley 26/1996 artículo 4",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -94,8 +94,8 @@
         { "text": "A y B son correctas.", "correct": false },
         { "text": "Ninguna es correcta.", "correct": true }
       ],
-      "explanation": "La gestión corresponde al SEPE (no al INSS) y existen prestaciones tanto por desempleo total como parcial (trabajo a tiempo reducido), por lo que ninguna de las afirmaciones A o B es cierta.",
-      "legal_reference": "TRLGSS artículos 262–267 (gestión y requisitos del desempleo contributivo)",
+      "explanation": "Explicación (ES): La gestión corresponde al SEPE (no al INSS) y existen prestaciones tanto por desempleo total como parcial (trabajo a tiempo reducido), por lo que ninguna de las afirmaciones A o B es cierta. Explicazione (IT): La gestione è a carico del SEPE (non dell’INSS) e sono previste prestazioni per disoccupazione sia totale sia parziale (lavoro a orario ridotto), quindi nessuna delle affermazioni A o B è corretta.",
+      "legal_reference": "TRLGSS artículos 262–267",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -106,8 +106,8 @@
         { "text": "Empleada del hogar.", "correct": false },
         { "text": "Ninguna es correcta.", "correct": false }
       ],
-      "explanation": "El Régimen Especial de Trabajadores Autónomos (RETA) es el régimen específico para los trabajadores por cuenta propia. Aunque la empleada del hogar cuenta con un sistema propio, no forma parte del RETA sino de su propio régimen especial.",
-      "legal_reference": "TRLGSS artículo 297 (CREACIÓN DEL RÉGIMEN ESPECIAL DE AUTÓNOMOS)",
+      "explanation": "Explicación (ES): El Régimen Especial de Trabajadores Autónomos (RETA) es el régimen específico para los trabajadores por cuenta propia. Aunque la empleada del hogar cuenta con un sistema propio, no forma parte del RETA sino de su propio régimen especial. Explicazione (IT): Il Regime Speciale dei Lavoratori Autonomi (RETA) è il regime specifico per i lavoratori autonomi. Sebbene la lavoratrice domestica abbia un suo sistema separato, non fa parte del RETA ma di un suo specifico regime speciale.",
+      "legal_reference": "TRLGSS artículo 297",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -118,8 +118,8 @@
         { "text": "El alta solo puede gestionarse el mismo día en que se inicia la actividad.", "correct": false },
         { "text": "Ninguna es correcta.", "correct": false }
       ],
-      "explanation": "El alta retroactiva puede tener efectos hasta 6 días naturales antes de la fecha de solicitud, pero en todo caso surte efecto desde el día en que el trabajador inicia su actividad.",
-      "legal_reference": "TRLGSS artículo 16 (efectos del alta)",
+      "explanation": "Explicación (ES): El alta retroactiva puede tener efectos hasta 6 días naturales antes de la fecha de solicitud, pero en todo caso surte efecto desde el día en que el trabajador inicia su actividad. Explicazione (IT): L’iscrizione retroattiva può avere effetti fino a 6 giorni naturali prima della data di presentazione della domanda, ma in ogni caso produce effetti a partire dal giorno in cui il lavoratore inizia l’attività.",
+      "legal_reference": "TRLGSS artículo 16",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -130,8 +130,8 @@
         { "text": "Vacaciones anuales retribuidas y no disfrutadas.", "correct": true },
         { "text": "Todas son correctas.", "correct": true }
       ],
-      "explanation": "El artículo 136 TRLGSS reconoce como asimiladas al alta el convenio especial, los traslados fuera de España y el período correspondiente a las vacaciones no disfrutadas.",
-      "legal_reference": "TRLGSS artículo 136 (situaciones asimiladas al alta)",
+      "explanation": "Explicación (ES): El artículo 136 TRLGSS reconoce como asimiladas al alta el convenio especial, los traslados fuera de España y el período correspondiente a las vacaciones no disfrutadas. Explicazione (IT): L’articolo 136 del TRLGSS riconosce come equiparate all’iscrizione a pieno titolo il convenzione speciale, i trasferimenti all’estero e il periodo relativo alle ferie non godute.",
+      "legal_reference": "TRLGSS artículo 136",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -142,8 +142,8 @@
         { "text": "Mutuas colaboradoras con la Seguridad Social.", "correct": false },
         { "text": "Ninguna es correcta.", "correct": false }
       ],
-      "explanation": "La TGSS se encarga de la afiliación, altas, bajas y variaciones de datos, mientras que el INSS gestiona prestaciones económicas.",
-      "legal_reference": "TRLGSS artículo 9 (gestión de afiliación y altas)",
+      "explanation": "Explicación (ES): La TGSS se encarga de la afiliación, altas, bajas y variaciones de datos, mientras que el INSS gestiona prestaciones económicas. Explicazione (IT): La TGSS si occupa dell’affiliazione, iscrizioni, cancellazioni e variazioni dei dati, mentre l’INSS gestisce le prestazioni economiche.",
+      "legal_reference": "TRLGSS artículo 9",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -154,8 +154,8 @@
         { "text": "No existe exclusiones expresas del régimen general de SS.", "correct": false },
         { "text": "Ninguna es correcta.", "correct": false }
       ],
-      "explanation": "El artículo 4 TRLGSS excluye expresamente del RG los servicios amistosos benévolos y de buena vecindad. Las relaciones especiales tienen su propio régimen, pero no se excluyen por el mismo precepto.",
-      "legal_reference": "TRLGSS artículo 4 (exclusiones del régimen general)",
+      "explanation": "Explicación (ES): El artículo 4 TRLGSS excluye expresamente del RG los servicios amistosos benévolos y de buena vecindad. Las relaciones especiales tienen su propio régimen, pero no se excluyen por el mismo precepto. Explicazione (IT): L’articolo 4 del TRLGSS esclude espressamente dal Regime Generale i servizi amichevoli di benevolenza e di buon vicinato. Le relazioni speciali hanno un loro proprio regime, ma non sono escluse dallo stesso articolo.",
+      "legal_reference": "TRLGSS artículo 4",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -166,8 +166,8 @@
         { "text": "Trabajador ferroviario.", "correct": true },
         { "text": "Todas son correctas.", "correct": true }
       ],
-      "explanation": "El TRLGSS regula sistemas especiales para artistas, trabajadores agrarios, ferroviarios, empleados del hogar, entre otros.",
-      "legal_reference": "TRLGSS artículo 3 (sistemas especiales)",
+      "explanation": "Explicación (ES): El TRLGSS regula sistemas especiales para artistas, trabajadores agrarios, ferroviarios, empleados del hogar, entre otros. Explicazione (IT): Il TRLGSS disciplina sistemi speciali per artisti, lavoratori agricoli, ferrovieri, addetti alle pulizie domestiche, tra gli altri.",
+      "legal_reference": "TRLGSS artículo 3",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -178,8 +178,8 @@
         { "text": "El contenido de la prestación incluye una prestación económica y el abono de las cotizaciones a la SS por parte de la entidad gestora.", "correct": true },
         { "text": "Ninguna es correcta.", "correct": false }
       ],
-      "explanation": "El desempleo contributivo comprende un subsidio económico y la cotización a la Seguridad Social a cargo del SEPE durante el período de percepción.",
-      "legal_reference": "TRLGSS artículos 268–269 (contenido de la prestación)",
+      "explanation": "Explicación (ES): El desempleo contributivo comprende un subsidio económico y la cotización a la Seguridad Social a cargo del SEPE durante el período de percepción. Explicazione (IT): La disoccupazione contributiva comprende un’indennità economica e la contribuzione alla Sicurezza Sociale a carico del SEPE durante il periodo di percezione.",
+      "legal_reference": "TRLGSS artículos 268–269",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -190,8 +190,8 @@
         { "text": "Liberado de prisión.", "correct": true },
         { "text": "Todas son correctas.", "correct": true }
       ],
-      "explanation": "El TRLGSS contempla como causas de desempleo contributivo tanto el cese total como parcial (reducción de jornada), fin de contrato por modificación sustancial y liberación de prisión bajo ciertas condiciones.",
-      "legal_reference": "TRLGSS artículo 259 (causas de desempleo contributivo)",
+      "explanation": "Explicación (ES): El TRLGSS contempla como causas de desempleo contributivo tanto el cese total como parcial (reducción de jornada), fin de contrato por modificación sustancial y liberación de prisión bajo ciertas condiciones. Explicazione (IT): Il TRLGSS contempla come cause di disoccupazione contributiva sia la cessazione totale sia quella parziale (riduzione dell’orario), il termine del contratto per modifica sostanziale e il rilascio dal carcere a certe condizioni.",
+      "legal_reference": "TRLGSS artículo 259",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -202,8 +202,8 @@
         { "text": "Una vez conocida no puede ser suspendida.", "correct": false },
         { "text": "A y B son ciertas.", "correct": true }
       ],
-      "explanation": "El artículo 271 TRLGSS permite suspender sin perder la prestación el empleo de duración inferior a 12 meses o el traslado al extranjero inferior a 15 meses.",
-      "legal_reference": "TRLGSS artículo 271 (suspensión del desempleo)",
+      "explanation": "Explicación (ES): El artículo 271 TRLGSS permite suspender sin perder la prestación el empleo de duración inferior a 12 meses o el traslado al extranjero inferior a 15 meses. Explicazione (IT): L’articolo 271 del TRLGSS permette la sospensione della prestazione senza perderne il diritto in caso di lavoro di durata inferiore a 12 mesi o trasferimento all’estero inferiore a 15 mesi.",
+      "legal_reference": "TRLGSS artículo 271",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -214,8 +214,8 @@
         { "text": "No existe período de carencia.", "correct": false },
         { "text": "360 días.", "correct": true }
       ],
-      "explanation": "El artículo 267 TRLGSS exige 360 días cotizados en los últimos 6 años para acceder al desempleo contributivo.",
-      "legal_reference": "TRLGSS artículo 267 (cotización exigible)",
+      "explanation": "Explicación (ES): El artículo 267 TRLGSS exige 360 días cotizados en los últimos 6 años para acceder al desempleo contributivo. Explicazione (IT): L’articolo 267 del TRLGSS richiede 360 giorni di contribuzione negli ultimi 6 anni per accedere alla disoccupazione contributiva.",
+      "legal_reference": "TRLGSS artículo 267",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -226,8 +226,8 @@
         { "text": "20 años.", "correct": false },
         { "text": "No hay una edad máxima.", "correct": false }
       ],
-      "explanation": "Según el artículo 198 TRLGSS, en orfandad simple los beneficiarios reciben pensión hasta los 21 años, ampliable hasta los 25 si no trabajan o sus ingresos son inferiores al SMI.",
-      "legal_reference": "TRLGSS artículo 198 (orfandad simple)",
+      "explanation": "Explicación (ES): Según el artículo 198 TRLGSS, en orfandad simple los beneficiarios reciben pensión hasta los 21 años, ampliable hasta los 25 si no trabajan o sus ingresos son inferiores al SMI. Explicazione (IT): Secondo l’articolo 198 del TRLGSS, nell’orfandà semplice i beneficiari percepiscono la pensione fino a 21 anni, estendibile fino a 25 anni se non lavorano o se i loro redditi sono inferiori al salario minimo interprofessionale.",
+      "legal_reference": "TRLGSS artículo 198",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -238,8 +238,8 @@
         { "text": "Cuando entre dos procesos IT no ha transcurrido un periodo de actividad laboral superior a 180 días aun tratándose de distinta enfermedad o patología.", "correct": false },
         { "text": "Cuando un trabajador cae enfermo de una enfermedad o patología que ya se le había diagnosticada antes con independencia del tiempo transcurrido.", "correct": false }
       ],
-      "explanation": "El artículo 169 TRLGSS define la recaída como nueva baja por la misma o similar patología dentro de los 180 días naturales siguientes al alta.",
-      "legal_reference": "TRLGSS artículo 169 (recaída)",
+      "explanation": "Explicación (ES): El artículo 169 TRLGSS define la recaída como nueva baja por la misma o similar patología dentro de los 180 días naturales siguientes al alta. Explicazione (IT): L’articolo 169 del TRLGSS definisce la recidiva come una nuova malattia per la stessa o simile patologia entro 180 giorni naturali dalla fine del precedente periodo di malattia.",
+      "legal_reference": "TRLGSS artículo 169",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -250,8 +250,8 @@
         { "text": "Se tiene en cuenta la edad del solicitante y si previamente ha disfrutado ya de alguna presentación de desempleo anterior.", "correct": false },
         { "text": "Ninguna es correcta.", "correct": false }
       ],
-      "explanation": "El artículo 273 TRLGSS establece que la base reguladora del desempleo se calcula sumando las bases de cotización por desempleo de los 180 días anteriores, excluyendo las horas extras.",
-      "legal_reference": "TRLGSS artículo 273 (cálculo de la base reguladora)",
+      "explanation": "Explicación (ES): El artículo 273 TRLGSS establece que la base reguladora del desempleo se calcula sumando las bases de cotización por desempleo de los 180 días anteriores, excluyendo las horas extras. Explicazione (IT): L’articolo 273 del TRLGSS stabilisce che la base di calcolo per la disoccupazione si calcola sommando le basi contributive per disoccupazione dei 180 giorni precedenti, escludendo le ore straordinarie.",
+      "legal_reference": "TRLGSS artículo 273",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -262,8 +262,8 @@
         { "text": "Al demostrarse que el trabajador desaparecido en un accidente y al que se consideró fallecido realmente no falleció.", "correct": true },
         { "text": "Todas son correctas.", "correct": true }
       ],
-      "explanation": "El artículo 191 TRLGSS señala que la pensión de viudedad se extingue por fallecimiento del beneficiario, contraer nuevas nupcias o si se prueba que el causante no falleció.",
-      "legal_reference": "TRLGSS artículo 191 (extinción de viudedad)",
+      "explanation": "Explicación (ES): El artículo 191 TRLGSS señala que la pensión de viudedad se extingue por fallecimiento del beneficiario, contraer nuevas nupcias o si se prueba que el causante no falleció. Explicazione (IT): L’articolo 191 del TRLGSS indica che la pensione di reversibilità si estingue per la morte del beneficiario, il nuovo matrimonio o se si dimostra che il soggetto da cui derivava il diritto non è deceduto.",
+      "legal_reference": "TRLGSS artículo 191",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -274,8 +274,8 @@
         { "text": "La madre puede disponer de dicha duración pudiendo renunciar a la prestación o incorporarse a trabajar desde la semana siguiente al parto.", "correct": false },
         { "text": "A y C son correctas.", "correct": false }
       ],
-      "explanation": "El artículo 48 bis TRLGSS establece una duración de 16 semanas de permiso de maternidad, de las cuales las primeras 6 son de descanso obligatorio tras el parto.",
-      "legal_reference": "TRLGSS artículo 48 bis (permiso por nacimiento y cuidado de menor)",
+      "explanation": "Explicación (ES): El artículo 48 bis TRLGSS establece una duración de 16 semanas de permiso de maternidad, de las cuales las primeras 6 son de descanso obligatorio tras el parto. Explicazione (IT): L’articolo 48 bis del TRLGSS prevede una durata di 16 settimane per il congedo di maternità, di cui le prime 6 sono obbligatorie immediatamente dopo il parto.",
+      "legal_reference": "TRLGSS artículo 48 bis",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -286,8 +286,8 @@
         { "text": "20 semanas.", "correct": false },
         { "text": "22 semanas.", "correct": false }
       ],
-      "explanation": "Por parto múltiple se añaden 2 semanas adicionales (1 por cada hijo a partir del segundo), totalizando 16 + 2 = 18 semanas.",
-      "legal_reference": "TRLGSS artículo 48 bis.1 (múltiples nacimientos)",
+      "explanation": "Explicación (ES): Por parto múltiple se añaden 2 semanas adicionales (1 por cada hijo a partir del segundo), totalizando 16 + 2 = 18 semanas. Explicazione (IT): In caso di parto multiplo si aggiungono 2 settimane supplementari (1 per ogni figlio a partire dal secondo), per un totale di 16 + 2 = 18 settimane.",
+      "legal_reference": "TRLGSS artículo 48 bis.1",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -298,8 +298,8 @@
         { "text": "Es una prestación cuya finalidad es proteger a la madre trabajadora y al hijo de los riesgos que puedan influir negativamente en la salud de ambos estén o no relacionados con la actividad laboral.", "correct": false },
         { "text": "Es una prestación que permite a la madre ausentarse del trabajo durante un determinado periodo de tiempo de la jornada laboral para realizar la lactancia.", "correct": false }
       ],
-      "explanation": "El artículo 26 bis TRLGSS exige que no sea posible la readaptación del puesto antes de acceder a esta prestación; el plazo de 11 meses no existe y no se trata de un permiso de lactancia.",
-      "legal_reference": "TRLGSS artículo 26 bis (riesgo durante lactancia)",
+      "explanation": "Explicación (ES): El artículo 26 bis TRLGSS exige que no sea posible la readaptación del puesto antes de acceder a esta prestación; el plazo de 11 meses no existe y no se trata de un permiso de lactancia. Explicazione (IT): L’articolo 26 bis del TRLGSS richiede l’impossibilità di riadattamento del posto di lavoro prima di accedere a questa prestazione; il termine di 11 mesi non esiste e non si tratta di un permesso per l’allattamento.",
+      "legal_reference": "TRLGSS artículo 26 bis",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -310,8 +310,8 @@
         { "text": "El fallecimiento de la beneficiaria.", "correct": true },
         { "text": "Todas son correctas.", "correct": true }
       ],
-      "explanation": "La prestación de riesgo de embarazo finaliza al iniciarse el permiso de maternidad, con la extinción del contrato o con el fallecimiento de la trabajadora.",
-      "legal_reference": "TRLGSS artículo 26 bis.2 (extinción de riesgo embarazo)",
+      "explanation": "Explicación (ES): La prestación de riesgo de embarazo finaliza al iniciarse el permiso de maternidad, con la extinción del contrato o con el fallecimiento de la trabajadora. Explicazione (IT): La prestazione per rischio in gravidanza termina con l’inizio del congedo di maternità, con l’estinzione del contratto o con la morte della lavoratrice.",
+      "legal_reference": "TRLGSS artículo 26 bis.2",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -322,8 +322,8 @@
         { "text": "Encuadramiento múltiple.", "correct": false },
         { "text": "Situación asimilada de alta.", "correct": false }
       ],
-      "explanation": "La pluriactividad se da cuando un trabajador simultanea empleo por cuenta ajena y por cuenta propia, cotizando en dos regímenes a la vez.",
-      "legal_reference": "TRLGSS artículo 7 (pluriactividad)",
+      "explanation": "Explicación (ES): La pluriactividad se da cuando un trabajador simultanea empleo por cuenta ajena y por cuenta propia, cotizando en dos regímenes a la vez. Explicazione (IT): La pluriactività si verifica quando un lavoratore svolge contemporaneamente attività dipendente e autonoma, contribuendo in due regimi diversi.",
+      "legal_reference": "TRLGSS artículo 7",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -334,8 +334,8 @@
         { "text": "Reconocimiento a favor del beneficiario del derecho al percibo de la pensión de jubilación.", "correct": true },
         { "text": "Todas las anteriores son correctas.", "correct": true }
       ],
-      "explanation": "El artículo 173 TRLGSS enumera como causas de extinción el fin del plazo máximo, el alta médica y el reconocimiento de jubilación.",
-      "legal_reference": "TRLGSS artículo 173 (extinción de la IT)",
+      "explanation": "Explicación (ES): El artículo 173 TRLGSS enumera como causas de extinción el fin del plazo máximo, el alta médica y el reconocimiento de jubilación. Explicazione (IT): L’articolo 173 del TRLGSS elenca come cause di estinzione il termine del periodo massimo, il certificato di guarigione e il riconoscimento della pensione di vecchiaia.",
+      "legal_reference": "TRLGSS artículo 173",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -346,8 +346,8 @@
         { "text": "A y B son ciertas.", "correct": false },
         { "text": "Ninguna de las anteriores es cierta.", "correct": false }
       ],
-      "explanation": "La pensión de jubilación ordinaria se financia con las cotizaciones sociales (contributiva), a diferencia de las no contributivas que se sostienen con impuestos generales.",
-      "legal_reference": "TRLGSS artículo 151 (naturaleza de la jubilación contributiva)",
+      "explanation": "Explicación (ES): La pensión de jubilación ordinaria se financia con las cotizaciones sociales (contributiva), a diferencia de las no contributivas que se sostienen con impuestos generales. Explicazione (IT): La pensione di vecchiaia ordinaria è finanziata dai contributi sociali (contributiva), a differenza di quelle non contributive che sono finanziate con le imposte generali.",
+      "legal_reference": "TRLGSS artículo 151",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -358,8 +358,8 @@
         { "text": "Durante los primeros 180 días el porcentaje a aplicar sobre la base reguladora para calcular la cuantía de la prestación es de un 70%.", "correct": true },
         { "text": "B y C son ciertas.", "correct": true }
       ],
-      "explanation": "Los artículos 274 TRLGSS establecen un 70% de la base reguladora durante los primeros 180 días y un 50% a partir del día 181.",
-      "legal_reference": "TRLGSS artículo 274 (porcentajes de desempleo)",
+      "explanation": "Explicación (ES): Los artículos 274 TRLGSS establecen un 70% de la base reguladora durante los primeros 180 días y un 50% a partir del día 181. Explicazione (IT): L’articolo 274 del TRLGSS prevede il 70% della base di calcolo per i primi 180 giorni e il 50% dal giorno 181 in poi.",
+      "legal_reference": "TRLGSS artículo 274",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -370,8 +370,8 @@
         { "text": "Las enfermedades contraídas a consecuencia del trabajo, siempre que estén expresamente incluidas en una lista cerrada aprobada por Real Decreto.", "correct": false },
         { "text": "Ninguna de las anteriores es cierta.", "correct": false }
       ],
-      "explanation": "El artículo 115 TRLGSS incluye como accidente de trabajo las agravaciones de enfermedades previas y las complicaciones de patologías iniciadas por un accidente en misión, pero las enfermedades profesionales se regulan aparte.",
-      "legal_reference": "TRLGSS artículo 115 (definición de accidente de trabajo)",
+      "explanation": "Explicación (ES): El artículo 115 TRLGSS incluye como accidente de trabajo las agravaciones de enfermedades previas y las complicaciones de patologías iniciadas por un accidente en misión, pero las enfermedades profesionales se regulan aparte. Explicazione (IT): L’articolo 115 del TRLGSS include come infortunio sul lavoro l’aggravamento di malattie pregresse e le complicazioni di patologie insorte a seguito di un infortunio in missione, mentre le malattie professionali sono regolate separatamente.",
+      "legal_reference": "TRLGSS artículo 115",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -382,8 +382,8 @@
         { "text": "No, ya que no es accidente de trabajo el sufrido mientras un trabajador se traslada al centro de trabajo.", "correct": false },
         { "text": "Sí, ya es un accidente producido a un centro de trabajo.", "correct": false }
       ],
-      "explanation": "Sin relación laboral previa (no existe alta o compromiso formal), el desplazamiento a una entrevista no se considera accidente de trabajo in itinere.",
-      "legal_reference": "TRLGSS artículo 115.b (in itinere requiere relación laboral)",
+      "explanation": "Explicación (ES): Sin relación laboral previa (no existe alta o compromiso formal), el desplazamiento a una entrevista no se considera accidente de trabajo in itinere. Explicazione (IT): In assenza di un rapporto di lavoro preesistente (non vi è iscrizione o impegno formale), lo spostamento per un colloquio di lavoro non è considerato infortunio in itinere.",
+      "legal_reference": "TRLGSS artículo 115.b",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -394,8 +394,8 @@
         { "text": "Tendrá la consideración de accidente de trabajo.", "correct": true },
         { "text": "Tendrá la consideración de accidente no laboral.", "correct": false }
       ],
-      "explanation": "Si una patología no está tipificada como enfermedad profesional, pero deriva de la actividad, se la considera accidente de trabajo según artículo 156 TRLGSS.",
-      "legal_reference": "TRLGSS artículo 156 (enfermedad profesional y accidente)",
+      "explanation": "Explicación (ES): Si una patología no está tipificada como enfermedad profesional, pero deriva de la actividad, se la considera accidente de trabajo según artículo 156 TRLGSS. Explicazione (IT): Se una patologia non è elencata come malattia professionale, ma deriva dall’attività lavorativa, viene considerata infortunio sul lavoro secondo l’articolo 156 del TRLGSS.",
+      "legal_reference": "TRLGSS artículo 156",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -406,8 +406,8 @@
         { "text": "Es de configuración legal, según lo estipulado en una lista cerrada aprobada por Real Decreto.", "correct": false },
         { "text": "A y C son ciertas.", "correct": false }
       ],
-      "explanation": "Por definición (artículo 163 TRLGSS), enfermedad común es cualquier contingencia de salud que no encaja en accidente de trabajo o enfermedad profesional.",
-      "legal_reference": "TRLGSS artículo 163 (definición de enfermedad común)",
+      "explanation": "Explicación (ES): Por definición (artículo 163 TRLGSS), enfermedad común es cualquier contingencia de salud que no encaja en accidente de trabajo o enfermedad profesional. Explicazione (IT): Per definizione (articolo 163 del TRLGSS), malattia comune è qualsiasi condizione di salute che non rientra nell’infortunio sul lavoro o nella malattia professionale.",
+      "legal_reference": "TRLGSS artículo 163",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -418,8 +418,8 @@
         { "text": "A y B son ciertas.", "correct": false },
         { "text": "Es el que sufre el trabajador en el desplazamiento producido durante la jornada de trabajo.", "correct": false }
       ],
-      "explanation": "El artículo 115 TRLGSS establece que el accidente in itinere requiere relación laboral y reunir criterios teleológico (desplazamiento), cronológico (horario), geográfico (ruta habitual) y de idoneidad del medio.",
-      "legal_reference": "TRLGSS artículo 115.b (criterios del accidente in itinere)",
+      "explanation": "Explicación (ES): El artículo 115 TRLGSS establece que el accidente in itinere requiere relación laboral y reunir criterios teleológico (desplazamiento), cronológico (horario), geográfico (ruta habitual) y de idoneidad del medio. Explicazione (IT): L’articolo 115 del TRLGSS stabilisce che l’infortunio in itinere richiede un rapporto di lavoro e il rispetto di criteri teleologici (spostamento), cronologici (orario), geografici (percorso abituale) e di idoneità del mezzo.",
+      "legal_reference": "TRLGSS artículo 115.b",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -430,8 +430,8 @@
         { "text": "Accidente común.", "correct": false },
         { "text": "Enfermedad profesional.", "correct": false }
       ],
-      "explanation": "Según jurisprudencia y el artículo 115 TRLGSS, el infarto súbito en el centro de trabajo se presume accidente de trabajo salvo prueba en contrario.",
-      "legal_reference": "TRLGSS artículo 115 (accidente de trabajo); STSJ sobre presunción",
+      "explanation": "Explicación (ES): Según jurisprudencia y el artículo 115 TRLGSS, el infarto súbito en el centro de trabajo se presume accidente de trabajo salvo prueba en contrario. Explicazione (IT): Secondo la giurisprudenza e l’articolo 115 del TRLGSS, l’infarto improvviso sul luogo di lavoro è presunto infortunio sul lavoro salvo prova contraria.",
+      "legal_reference": "TRLGSS artículo 115",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -442,8 +442,8 @@
         { "text": "Es una prestación cuya finalidad es proteger a la madre de las posibles complicaciones propias y esperadas de un embarazo, con independencia de la actividad laboral.", "correct": false },
         { "text": "A y B son ciertas.", "correct": false }
       ],
-      "explanation": "El artículo 26 TRLGSS establece que la prestación de riesgo en embarazo exige que no sea posible la readaptación a otro puesto; no se considera contingencia común sino derivada de las condiciones de trabajo.",
-      "legal_reference": "TRLGSS artículo 26 (riesgo durante embarazo)",
+      "explanation": "Explicación (ES): El artículo 26 TRLGSS establece que la prestación de riesgo en embarazo exige que no sea posible la readaptación a otro puesto; no se considera contingencia común sino derivada de las condiciones de trabajo. Explicazione (IT): L’articolo 26 del TRLGSS stabilisce che la prestazione per rischio in gravidanza richiede l’impossibilità di riadattamento a un altro posto di lavoro; non è considerata contingenza comune ma derivata dalle condizioni di lavoro.",
+      "legal_reference": "TRLGSS artículo 26",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -454,8 +454,8 @@
         { "text": "Sólo durante el tiempo que el hijo pudo vivir tras el parto.", "correct": false },
         { "text": "Depende de la causa de la muerte de recién nacido.", "correct": false }
       ],
-      "explanation": "Aunque el hijo fallezca, el permiso de maternidad conserva su duración completa de 16 semanas según artículo 48 bis TRLGSS.",
-      "legal_reference": "TRLGSS artículo 48 bis.4 (muerte perinatal)",
+      "explanation": "Explicación (ES): Aunque el hijo fallezca, el permiso de maternidad conserva su duración completa de 16 semanas según artículo 48 bis TRLGSS. Explicazione (IT): Anche se il bambino muore, il congedo di maternità mantiene la durata completa di 16 settimane secondo l’articolo 48 bis del TRLGSS.",
+      "legal_reference": "TRLGSS artículo 48 bis.4",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -466,8 +466,8 @@
         { "text": "La prestación de riesgo durante el embarazo es gestionada por el Servicio Público de Salud.", "correct": false },
         { "text": "Todas las anteriores son ciertas.", "correct": false }
       ],
-      "explanation": "El artículo 48 bis TRLGSS obliga al empresario a mantener alta y cotización durante el permiso de maternidad; las demás afirmaciones son incorrectas en plazos y gestión.",
-      "legal_reference": "TRLGSS artículos 48 bis y 26 (gestión y duración)",
+      "explanation": "Explicación (ES): El artículo 48 bis TRLGSS obliga al empresario a mantener alta y cotización durante el permiso de maternidad; las demás afirmaciones son incorrectas en plazos y gestión. Explicazione (IT): L’articolo 48 bis del TRLGSS obbliga il datore di lavoro a mantenere l’iscrizione e la contribuzione durante il congedo di maternità; le altre affermazioni sono errate nei termini e nella gestione.",
+      "legal_reference": "TRLGSS artículos 48 bis, 26",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -478,8 +478,8 @@
         { "text": "Depende de si el empresario suscribió o no un convenio de asociación con una Mutua de Accidentes de Trabajo y Enfermedad Profesional para la protección de dicha cobertura.", "correct": false },
         { "text": "No existe cobertura económica del sistema de Seguridad Social durante esos tres primeros días, salvo mejora por Convenio Colectivo o contrato de trabajo.", "correct": true }
       ],
-      "explanation": "Para enfermedad común, los tres primeros días de baja no generan subsidio económico, salvo que el convenio colectivo o contrato mejore esta situación.",
-      "legal_reference": "TRLGSS artículo 173 (período de carencia en IT común)",
+      "explanation": "Explicación (ES): Para enfermedad común, los tres primeros días de baja no generan subsidio económico, salvo que el convenio colectivo o contrato mejore esta situación. Explicazione (IT): Per la malattia comune, i primi tre giorni di assenza non generano indennità economica, salvo che il contratto collettivo o individuale preveda un miglioramento.",
+      "legal_reference": "TRLGSS artículo 173",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
@@ -490,8 +490,8 @@
         { "text": "Inhabilita al trabajador para toda profesión u oficio.", "correct": false },
         { "text": "El trabajador incapacitado permanente necesita la asistencia de otra persona para los actos más esenciales de la vida.", "correct": false }
       ],
-      "explanation": "Repetición de la definición: la IP total inhabilita para la profesión habitual pero permite otras actividades.",
-      "legal_reference": "TRLGSS artículo 138 (grado de incapacidad permanente total)",
+      "explanation": "Explicación (ES): Repetición de la definición: la IP total inhabilita para la profesión habitual pero permite otras actividades. Explicazione (IT): Ripetizione della definizione: l’incapacità permanente totale inabilita alla professione abituale ma consente altre attività.",
+      "legal_reference": "TRLGSS artículo 138",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
     {
