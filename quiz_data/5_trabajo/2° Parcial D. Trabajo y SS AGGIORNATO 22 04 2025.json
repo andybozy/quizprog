@@ -10,7 +10,7 @@
         {"text": "Puede ser beneficiario de la prestación de incapacidad temporal a través de la emisión del parte de baja emitido por el facultativo de la mutua de accidentes de trabajo y enfermedades profesionales de la seguridad social", "correct": false},
         {"text": "Puede ser beneficiario de la prestación de incapacidad temporal a través de la emisión del parte de baja emitido por un facultativo ya sea del servicio público de salud o de una mutua de accidentes de trabajo y enfermedad profesional de la seguridad social", "correct": false}
       ],
-      "explanation": "Según la clave de respuestas proporcionada, la opción B se considera correcta al entenderse que no cumple el periodo mínimo de carencia exigido para contingencias comunes. Las demás opciones se descartan por no ajustarse al criterio de dicha clave.",
+      "explanation": "Según la clave de respuestas proporcionada, la opción B se considera correcta al entenderse que no cumple el periodo mínimo de carencia exigido para contingencias comunes. Las demás opciones se descartan por no ajustarse al criterio de dicha clave.\n\nIT: Secondo la chiave di risposta fornita, l'opzione B è corretta perché non soddisfa il periodo minimo di contribuzione richiesto per le contingenze comuni. Le altre opzioni sono escluse perché non corrispondono ai criteri previsti.",
       "legal_reference": "TRLGSS art.169",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -22,7 +22,7 @@
         {"text": "18 meses prorrogables hasta 36", "correct": false},
         {"text": "12 meses prorrogables hasta 30", "correct": false}
       ],
-      "explanation": "El artículo 195 del TRLGSS establece que la duración máxima es de 12 meses, prorrogables hasta 18 en casos debidamente justificados.",
+      "explanation": "El artículo 195 del TRLGSS establece que la duración máxima es de 12 meses, prorrogables hasta 18 en casos debidamente justificados.\n\nIT: L'articolo 195 del TRLGSS stabilisce che la durata massima è di 12 mesi, prorogabili fino a 18 nei casi debitamente giustificati.",
       "legal_reference": "TRLGSS art.195",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -34,7 +34,7 @@
         {"text": "El abono de la prestación por contingencia laboral comienza desde el día siguiente al de la baja", "correct": true},
         {"text": "", "correct": false}
       ],
-      "explanation": "Para accidentes de trabajo o enfermedades profesionales (contingencias laborales) el abono se inicia al día siguiente de la baja, según el artículo 179.",
+      "explanation": "Para accidentes de trabajo o enfermedades profesionales (contingencias laborales) el abono se inicia al día siguiente de la baja, según el artículo 179 del TRLGSS.\n\nIT: Per gli infortuni sul lavoro o le malattie professionali (contingenze lavorative) il pagamento inizia il giorno successivo alla cessazione, secondo l'articolo 179 del TRLGSS.",
       "legal_reference": "TRLGSS art.179",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -46,7 +46,7 @@
         {"text": "El cálculo de la prestación por enfermedad común se realiza sobre la base de cotización por contingencias comunes de los tres meses naturales inmediatamente anteriores a la contingencia", "correct": false},
         {"text": "Ninguna es correcta", "correct": true}
       ],
-      "explanation": "Según la clave, ninguna de las afirmaciones se ajusta al criterio del examen: la carencia es de 180 días, el porcentaje inicial es del 60% y la base se calcula sobre los seis meses anteriores.",
+      "explanation": "Según la clave, ninguna de las afirmaciones se ajusta: la carencia es de 180 días, el porcentaje inicial es del 60% y la base se calcula sobre los seis meses anteriores.\n\nIT: Secondo la chiave di risposta, nessuna delle affermazioni è corretta: il periodo di contribuzione richiesto è di 180 giorni, la percentuale iniziale è del 60% e la base si calcola sui sei mesi precedenti.",
       "legal_reference": "TRLGSS art.169",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -58,7 +58,7 @@
         {"text": "Inhabilita al trabajador para toda profesión u oficio", "correct": false},
         {"text": "El trabajador incapacitado permanente necesita la asistencia de otra persona para los actos más esenciales de la vida", "correct": false}
       ],
-      "explanation": "La prestación por incapacidad permanente total se reconoce cuando el trabajador queda inhabilitado para su profesión habitual, pero puede realizar otras actividades.",
+      "explanation": "La IPT se reconoce cuando el trabajador queda inhabilitado para su profesión habitual, pero puede realizar otras actividades, según el artículo 136.\n\nIT: L'IPT si riconosce quando il lavoratore è inabilitato alla professione abituale, ma può svolgere altre attività, secondo l'articolo 136.",
       "legal_reference": "TRLGSS art.136",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -70,7 +70,7 @@
         {"text": "No puede acogerse a ningún tipo de jubilación ya que el órgano gestor competente para el reconocimiento de dicha prestación no es el INSS", "correct": false},
         {"text": "Ninguna es correcta", "correct": true}
       ],
-      "explanation": "La edad mínima para jubilación ordinaria es 65 años; no corresponde ninguna de las figuras mencionadas.",
+      "explanation": "La edad mínima para jubilación ordinaria es 65 años; por tanto, no cumple requisitos. Ninguna de las anteriores es correcta.\n\nIT: L'età minima per la pensione di vecchiaia è 65 anni; quindi non soddisfa i requisiti. Nessuna delle precedenti è corretta.",
       "legal_reference": "TRLGSS art.205",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -82,7 +82,7 @@
         {"text": "Tiene nacionalidad española", "correct": false},
         {"text": "Haber cumplido 60 años", "correct": false}
       ],
-      "explanation": "Se exige residencia legal de 10 años, con 2 años al menos inmediatamente anteriores a la solicitud; no es necesario carencia de cotización ni nacionalidad.",
+      "explanation": "Se exige residencia legal de 10 años, con al menos 2 años inmediatamente anteriores; no se pide cotización ni nacionalidad.\n\nIT: È richiesta la residenza legale di 10 anni, con almeno 2 anni immediatamente precedenti; non è richiesta contribuzione né cittadinanza.",
       "legal_reference": "R.D. 357/1994 art.9",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -94,7 +94,7 @@
         {"text": "A y B son correctas", "correct": false},
         {"text": "Ninguna es correcta", "correct": true}
       ],
-      "explanation": "La gestión corresponde al SEPE y sólo exige suspensión total de la actividad en régimen general, pero la clave marca ninguna.",
+      "explanation": "La gestión corresponde al SEPE y aunque exige cese total, según la clave la respuesta es ninguna.\n\nIT: La gestione spetta al SEPE e anche se richiede cessazione totale, secondo la chiave la risposta è nessuna.",
       "legal_reference": "TRLGSS art.264",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -106,7 +106,7 @@
         {"text": "Empleada del hogar", "correct": false},
         {"text": "Ninguna es correcta", "correct": false}
       ],
-      "explanation": "El régimen especial de trabajadores autónomos incluye a los por cuenta propia.",
+      "explanation": "El régimen especial de autónomos incluye a los trabajadores por cuenta propia.\n\nIT: Il regime speciale degli autonomi include i lavoratori autonomi.",
       "legal_reference": "TRLGSS art.306",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -118,7 +118,7 @@
         {"text": "El alta solo puede gestionarse el mismo día en que se inicia la actividad", "correct": false},
         {"text": "Ninguna es correcta", "correct": false}
       ],
-      "explanation": "El alta se retrotrae hasta la fecha de inicio de la actividad, según el artículo 15 del TRLGSS.",
+      "explanation": "El alta se retrotrae hasta la fecha de inicio de la actividad, según el artículo 15.\n\nIT: L'iscrizione è retroattiva alla data di inizio attività, secondo l'articolo 15.",
       "legal_reference": "TRLGSS art.15",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -130,7 +130,7 @@
         {"text": "Vacaciones anuales retribuidas y no disfrutadas", "correct": false},
         {"text": "Todas son correctas", "correct": true}
       ],
-      "explanation": "Según el artículo 12 del TRLGSS, todas esas situaciones se asimilan al alta.",
+      "explanation": "El artículo 12 del TRLGSS incluye todas esas situaciones como asimiladas al alta.\n\nIT: L'articolo 12 del TRLGSS include tutte queste situazioni come assimilate all'iscrizione.",
       "legal_reference": "TRLGSS art.12",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -142,7 +142,7 @@
         {"text": "Mutuas colaboradoras con SS", "correct": false},
         {"text": "Ninguna es correcta", "correct": false}
       ],
-      "explanation": "La TGSS es la encargada de gestionar altas y bajas de trabajadores.",
+      "explanation": "La TGSS es la encargada de gestionar las altas y bajas de trabajadores.\n\nIT: La TGSS è incaricata di gestire le iscrizioni e le cancellazioni dei lavoratori.",
       "legal_reference": "TRLGSS art.14",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -154,7 +154,7 @@
         {"text": "No existe exclusiones expresas del régimen general de SS", "correct": false},
         {"text": "Ninguna es correcta", "correct": false}
       ],
-      "explanation": "El TRLGSS excluye expresamente los servicios amistosos benévolos del régimen general.",
+      "explanation": "El TRLGSS excluye expresamente los servicios amistosos benévolos del régimen general.\n\nIT: Il TRLGSS esclude espressamente i servizi di buona volontà dal regime generale.",
       "legal_reference": "TRLGSS art.2",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -166,7 +166,7 @@
         {"text": "Trabajador ferroviario", "correct": false},
         {"text": "Todas son correctas", "correct": true}
       ],
-      "explanation": "Los sistemas especiales abarcan artistas, agrarios, ferroviarios y otros colectivos específicos.",
+      "explanation": "Los sistemas especiales incluyen artistas, agrarios, ferroviarios y otros colectivos.\n\nIT: I sistemi speciali includono artisti, agrari, ferroviari e altri gruppi.",
       "legal_reference": "TRLGSS art.306",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -178,7 +178,7 @@
         {"text": "El contenido de la prestación incluye una prestación económica y el abono de las cotizaciones a la SS por parte de la entidad gestora", "correct": true},
         {"text": "Ninguna es correcta", "correct": false}
       ],
-      "explanation": "La prestación contributiva cubre la ayuda económica y el pago de cotizaciones por desempleo.",
+      "explanation": "La prestación incluye la ayuda económica y el pago de cotizaciones durante su percepción.\n\nIT: La prestazione include l'aiuto economico e il pagamento dei contributi durante il suo godimento.",
       "legal_reference": "TRLGSS art.270",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -190,7 +190,7 @@
         {"text": "Liberado de prisión", "correct": false},
         {"text": "Todas son correctas", "correct": true}
       ],
-      "explanation": "El artículo 267 del TRLGSS incluye todas esas causas como generadoras de desempleo contributivo.",
+      "explanation": "El artículo 267 del TRLGSS incluye todas esas causas como generadoras de derecho al desempleo.\n\nIT: L'articolo 267 del TRLGSS include tutte queste cause come generatrici del diritto alla disoccupazione.",
       "legal_reference": "TRLGSS art.267",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -202,7 +202,7 @@
         {"text": "Una vez conocida no puede ser suspendida", "correct": false},
         {"text": "A y B son ciertas", "correct": true}
       ],
-      "explanation": "El TRLGSS artículo 271 permite suspender la prestación por esas dos causas simultáneamente.",
+      "explanation": "El artículo 271 permite suspender la prestación por ambas causas simultáneamente.\n\nIT: L'articolo 271 consente la sospensione della prestazione per entrambe le cause contemporaneamente.",
       "legal_reference": "TRLGSS art.271",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -214,7 +214,7 @@
         {"text": "No existe periodo de carencia", "correct": false},
         {"text": "360 días", "correct": true}
       ],
-      "explanation": "Se exige un mínimo de 360 días de cotización en los seis años previos, según el artículo 265.",
+      "explanation": "Se exigen 360 días de cotización en los seis años previos, según el artículo 265.\n\nIT: Sono richiesti 360 giorni di contribuzione nei sei anni precedenti, secondo l'articolo 265.",
       "legal_reference": "TRLGSS art.265",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -226,7 +226,7 @@
         {"text": "20 años", "correct": false},
         {"text": "No hay una edad máxima", "correct": false}
       ],
-      "explanation": "El TRLGSS fija en 25 años la edad límite para orfandad simple con insuficiencia de recursos.",
+      "explanation": "El TRLGSS fija en 25 años la edad límite en orfandad simple con insuficiencia de recursos.\n\nIT: Il TRLGSS stabilisce a 25 anni il limite anagrafico per l'orfanità semplice con insufficienza di risorse.",
       "legal_reference": "TRLGSS art.190",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -238,7 +238,7 @@
         {"text": "Cuando entre dos procesos de IT no ha transcurrido un periodo de actividad laboral superior a 180 días aun tratándose de distinta enfermedad o patología", "correct": false},
         {"text": "Cuando un trabajador cae enfermo de una enfermedad o patología que ya se le había diagnosticado antes con independencia del tiempo transcurrido", "correct": false}
       ],
-      "explanation": "El artículo 177 define recaída cuando no pasan más de 180 días entre procesos de la misma patología.",
+      "explanation": "El artículo 177 define recaída cuando no pasan más de 180 días entre procesos de la misma patología.\n\nIT: L'articolo 177 definisce recidiva quando non trascorrono più di 180 giorni tra processi della stessa patologia.",
       "legal_reference": "TRLGSS art.177",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -250,7 +250,7 @@
         {"text": "Se tiene en cuenta la edad del solicitante y si previamente ha disfrutado ya de alguna prestación de desempleo anterior", "correct": false},
         {"text": "Ninguna es correcta", "correct": false}
       ],
-      "explanation": "El cálculo se realiza sobre la suma de bases de los últimos 180 días, excluyendo horas extras.",
+      "explanation": "El cálculo se realiza sobre la suma de bases de los últimos 180 días, excluyendo horas extras, según el artículo 269.\n\nIT: Il calcolo si effettua sulla somma delle basi degli ultimi 180 giorni, escluse le ore straordinarie, secondo l'articolo 269.",
       "legal_reference": "TRLGSS art.269",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -262,7 +262,7 @@
         {"text": "Al demostrarse que el trabajador desaparecido en un accidente y al que se consideró fallecido realmente no falleció", "correct": false},
         {"text": "Todas son correctas", "correct": true}
       ],
-      "explanation": "El artículo 193 recoge todas esas causas de extinción de la pensión de viudedad.",
+      "explanation": "El artículo 193 recoge todas esas causas de extinción de la pensión de viudedad.\n\nIT: L'articolo 193 include tutte queste cause di estinzione della pensione di reversibilità.",
       "legal_reference": "TRLGSS art.193",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -274,7 +274,7 @@
         {"text": "La madre puede disponer de dicha duración pudiendo renunciar a la prestación o incorporarse a trabajar desde la semana siguiente al parto", "correct": false},
         {"text": "A y C son correctas", "correct": false}
       ],
-      "explanation": "El artículo 179 exige 6 semanas obligatorias tras el parto dentro del total de 16 semanas.",
+      "explanation": "El artículo 179 exige 6 semanas obligatorias tras el parto dentro de las 16 totales.\n\nIT: L'articolo 179 prevede 6 settimane obbligatorie dopo il parto all'interno delle 16 totali.",
       "legal_reference": "TRLGSS art.179",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -286,7 +286,7 @@
         {"text": "20 semanas", "correct": false},
         {"text": "22 semanas", "correct": true}
       ],
-      "explanation": "Según la clave del examen, por cada hijo adicional (2 hijos más) se añaden 3 semanas al permiso base de 16 semanas.",
+      "explanation": "Por cada hijo adicional a partir del segundo se añaden 3 semanas a las 16 base, total 22 semanas según la clave del examen.\n\nIT: Per ogni figlio aggiuntivo dal secondo si aggiungono 3 settimane alle 16 base, per un totale di 22 settimane secondo la chiave d'esame.",
       "legal_reference": "TRLGSS art.179",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -298,7 +298,7 @@
         {"text": "Es una prestación cuya finalidad es proteger a la madre trabajadora y al hijo de los riesgos que puedan influir negativamente en la salud de ambos estén o no relacionados con la actividad laboral", "correct": false},
         {"text": "Es una prestación que permite a la madre ausentarse del trabajo durante un determinado periodo de tiempo de la jornada laboral para realizar la lactancia", "correct": false}
       ],
-      "explanation": "El artículo 179 establece que solo procede cuando no sea posible adaptar el puesto de trabajo a las condiciones de riesgo.",
+      "explanation": "Según el artículo 179, solo procede cuando no sea posible adaptar el puesto a condiciones de riesgo.\n\nIT: Secondo l'articolo 179, procede solo quando non è possibile adattare il posto a condizioni di rischio.",
       "legal_reference": "TRLGSS art.179",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -310,7 +310,7 @@
         {"text": "El fallecimiento de la beneficiaria", "correct": false},
         {"text": "Todas son correctas", "correct": true}
       ],
-      "explanation": "El artículo 172 recoge estas tres causas de extinción de la prestación por riesgo en el embarazo.",
+      "explanation": "El artículo 172 recoge estas tres causas de extinción de la prestación por riesgo en el embarazo.\n\nIT: L'articolo 172 include queste tre cause di estinzione della prestazione per rischio in gravidanza.",
       "legal_reference": "TRLGSS art.172",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -322,7 +322,7 @@
         {"text": "Encuadramiento múltiple", "correct": false},
         {"text": "Situación asimilada de alta", "correct": false}
       ],
-      "explanation": "La simultaneidad de alta en el régimen general y en el de autónomos se denomina pluriactividad.",
+      "explanation": "La simultaneidad en el régimen general y en el de autónomos se denomina pluriactividad, según art.12.2.\n\nIT: La simultaneità nel regime generale e in quello degli autonomi si chiama pluriactività, secondo art.12.2.",
       "legal_reference": "TRLGSS art.12.2",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -334,7 +334,7 @@
         {"text": "Reconocimiento a favor del beneficiario del derecho al percibo de la pensión de jubilación", "correct": false},
         {"text": "Todas las anteriores son correctas", "correct": true}
       ],
-      "explanation": "El artículo 178 recoge todas esas causas de extinción del subsidio por incapacidad temporal.",
+      "explanation": "El artículo 178 recoge todas esas causas de extinción del subsidio por incapacidad temporal.\n\nIT: L'articolo 178 include tutte queste cause di estinzione del sussidio per incapacità temporanea.",
       "legal_reference": "TRLGSS art.178",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -346,7 +346,7 @@
         {"text": "A y B son ciertas", "correct": false},
         {"text": "Ninguna de las anteriores es cierta", "correct": false}
       ],
-      "explanation": "La pensión de jubilación es de carácter contributivo al financiarse con las cotizaciones previas del trabajador.",
+      "explanation": "La pensión de jubilación es contributiva, financiada con cotizaciones previas del trabajador.\n\nIT: La pensione di vecchiaia è contributiva, finanziata con i contributi versati dal lavoratore.",
       "legal_reference": "TRLGSS art.194",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -358,7 +358,7 @@
         {"text": "Durante los primeros 180 días el porcentaje a aplicar sobre la base reguladora para calcular la cuantía de la prestación es de un 70%", "correct": true},
         {"text": "B y C son ciertas", "correct": true}
       ],
-      "explanation": "Durante los primeros 180 días se aplica un 70% y luego un 60% de la base reguladora; por tanto, B y C son ciertas.",
+      "explanation": "Durante los primeros 180 días se aplica un 70% y luego un 60% de la base reguladora; por tanto, B y C son ciertas según art.275.\n\nIT: Nei primi 180 giorni si applica il 70% e poi il 60% della base di calcolo; pertanto, B e C sono corrette secondo l'art.275.",
       "legal_reference": "TRLGSS art.275",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -370,7 +370,7 @@
         {"text": "Las enfermedades contraídas a consecuencia del trabajo, siempre que estén expresamente incluidas en una lista cerrada aprobada por Real Decreto", "correct": false},
         {"text": "Ninguna de las anteriores es cierta", "correct": false}
       ],
-      "explanation": "El artículo 156 reconoce como accidente de trabajo la agravación de enfermedades previas por motivos laborales.",
+      "explanation": "El artículo 156 reconoce como accidente de trabajo la agravación de enfermedades previas por motivos laborales.\n\nIT: L'articolo 156 riconosce come infortunio sul lavoro l'aggravamento di malattie pregresse per motivi lavorativi.",
       "legal_reference": "TRLGSS art.156",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -382,7 +382,7 @@
         {"text": "No, ya que no es accidente de trabajo el sufrido mientras un trabajador se traslada al centro de trabajo", "correct": false},
         {"text": "Sí, ya es un accidente producido a un centro de trabajo", "correct": false}
       ],
-      "explanation": "Al no existir una relación laboral vigente, no se considera accidente de trabajo.",
+      "explanation": "Al no existir relación laboral vigente, no se considera accidente de trabajo según art.156.\n\nIT: Non essendoci rapporto di lavoro in essere, non è considerato infortunio sul lavoro secondo l'art.156.",
       "legal_reference": "TRLGSS art.156",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -394,7 +394,7 @@
         {"text": "Tendrá la consideración de accidente de trabajo", "correct": true},
         {"text": "Tendrá la consideración de accidente no laboral", "correct": false}
       ],
-      "explanation": "Si no está en el cuadro de enfermedades profesionales, se asimila a accidente de trabajo según art.157.",
+      "explanation": "Si no está en el cuadro de enfermedades profesionales, se asimila a accidente de trabajo según art.157.\n\nIT: Se non è nel quadro delle malattie professionali, è assimilata a infortunio sul lavoro secondo l'art.157.",
       "legal_reference": "TRLGSS art.157",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -406,7 +406,7 @@
         {"text": "Es de configuración legal, según lo estipulado en una lista cerrada aprobada por Real Decreto", "correct": false},
         {"text": "A y C son ciertas", "correct": false}
       ],
-      "explanation": "La definición legal de enfermedad común excluye accidentes de trabajo y enfermedades profesionales.",
+      "explanation": "La definición legal de enfermedad común excluye accidentes de trabajo y enfermedades profesionales.\n\nIT: La definizione legale di malattia comune esclude infortuni sul lavoro e malattie professionali.",
       "legal_reference": "TRLGSS art.155",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -418,7 +418,7 @@
         {"text": "A y B son ciertas", "correct": false},
         {"text": "Es el que sufre el trabajador en el desplazamiento producido durante la jornada de trabajo", "correct": false}
       ],
-      "explanation": "El art.156 define el accidente in itinere exigiendo esos cuatro requisitos.",
+      "explanation": "El art.156 define el accidente in itinere exigiendo esos cuatro requisitos.\n\nIT: L'art.156 definisce l'infortunio in itinere richiedendo quei quattro requisiti.",
       "legal_reference": "TRLGSS art.156",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -430,7 +430,7 @@
         {"text": "Accidente común", "correct": false},
         {"text": "Enfermedad profesional", "correct": false}
       ],
-      "explanation": "La presunción del art.157 considera accidente de trabajo el infarto en el puesto de trabajo.",
+      "explanation": "La presunción del art.157 considera accidente de trabajo el infarto en el puesto de trabajo.\n\nIT: La presunzione dell'art.157 considera infortunio sul lavoro l'infarto in sede lavorativa.",
       "legal_reference": "TRLGSS art.157",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -442,7 +442,7 @@
         {"text": "Es una prestación cuya finalidad es proteger a la madre de las posibles complicaciones propias y esperadas de un embarazo, con independencia de la actividad laboral", "correct": false},
         {"text": "A y B son ciertas", "correct": false}
       ],
-      "explanation": "El art.173 exige imposibilidad de readaptación para autorizar la prestación por riesgo en embarazo.",
+      "explanation": "El art.173 exige imposibilidad de readaptación para autorizar la prestación por riesgo en embarazo.\n\nIT: L'art.173 richiede l'impossibilità di adattare il posto per autorizzare la prestazione per rischio in gravidanza.",
       "legal_reference": "TRLGSS art.173",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -454,7 +454,7 @@
         {"text": "Solo durante el tiempo que el hijo pudo vivir tras el parto", "correct": false},
         {"text": "Depende de la causa de la muerte del recién nacido", "correct": false}
       ],
-      "explanation": "Según la clave, se mantiene el permiso de 16 semanas independientemente del fallecimiento postnatal.",
+      "explanation": "Se mantiene el permiso de 16 semanas independientemente del fallecimiento postnatal, según la clave.\n\nIT: Si mantiene il congedo di 16 settimane indipendentemente dal decesso postnatale, secondo la chiave.",
       "legal_reference": "TRLGSS art.179",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -466,7 +466,7 @@
         {"text": "La prestación de riesgo durante el embarazo es gestionada por el Servicio Público de Salud", "correct": false},
         {"text": "Todas las anteriores son ciertas", "correct": false}
       ],
-      "explanation": "El art.179 impone la conservación del puesto y cotización durante el permiso de nacimiento y cuidado de menor.",
+      "explanation": "El art.179 impone la conservación del puesto y cotización durante el permiso de nacimiento y cuidado de menor.\n\nIT: L'art.179 impone la conservazione del posto e dei contributi durante il congedo di nascita e cura del minore.",
       "legal_reference": "TRLGSS art.179",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -478,7 +478,7 @@
         {"text": "Depende de si el empresario suscribió o no un convenio de asociación con una Mutua de Accidentes de Trabajo y Enfermedad Profesional para la protección de dicha cobertura", "correct": false},
         {"text": "No existe cobertura económica del sistema de Seguridad Social durante esos tres primeros días, salvo mejora por Convenio Colectivo o contrato de trabajo", "correct": true}
       ],
-      "explanation": "El art.174 establece que los días 1 a 3 no generan prestación económica, salvo mejora voluntaria.",
+      "explanation": "El art.174 establece que los días 1 a 3 no generan prestación económica, salvo mejora voluntaria.\n\nIT: L'art.174 stabilisce che i giorni 1–3 non danno diritto a prestazione economica, salvo miglioramenti contrattuali.",
       "legal_reference": "TRLGSS art.174",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -490,7 +490,7 @@
         {"text": "Inhabilita al trabajador para toda profesión u oficio", "correct": false},
         {"text": "El trabajador incapacitado permanente necesita la asistencia de otra persona para los actos más esenciales de la vida", "correct": false}
       ],
-      "explanation": "Repite la cuestión 5: la IPT inhabilita para la profesión habitual pero permite otras actividades.",
+      "explanation": "Repite la cuestión 5: la IPT inhabilita para la profesión habitual pero permite otras actividades.\n\nIT: Ripete la questione 5: l'IPT inabilita alla professione abituale ma consente altre attività.",
       "legal_reference": "TRLGSS art.136",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -502,7 +502,7 @@
         {"text": "El órgano competente es el Sistema Nacional de Salud", "correct": false},
         {"text": "Ninguna de las anteriores es cierta", "correct": false}
       ],
-      "explanation": "El INSS es el órgano gestor de la calificación y revisión de incapacidades permanentes.",
+      "explanation": "El INSS es el órgano gestor de la calificación y revisión de incapacidades permanentes.\n\nIT: L'INSS è l'organo gestore della qualificazione e revisione delle invalidità permanenti.",
       "legal_reference": "TRLGSS art.141",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -514,7 +514,7 @@
         {"text": "No puede acogerse a ningún tipo de jubilación ya que el órgano gestor competente para el reconocimiento de dicha prestación no es el INSS", "correct": false},
         {"text": "Ninguna de las anteriores es cierta", "correct": true}
       ],
-      "explanation": "Repite la cuestión 6: no cumple los requisitos de edad mínima para jubilación voluntaria.",
+      "explanation": "Repite la cuestión 6: no cumple los requisitos de edad mínima para jubilación voluntaria.\n\nIT: Ripete la questione 6: non soddisfa i requisiti di età minima per la pensione volontaria.",
       "legal_reference": "TRLGSS art.205",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     },
@@ -526,7 +526,7 @@
         {"text": "A y B son ciertas", "correct": false},
         {"text": "Ninguna de las anteriores es cierta", "correct": true}
       ],
-      "explanation": "Repite la cuestión 8: la gestión corresponde al SEPE y la clave marca ninguna como correcta.",
+      "explanation": "Repite la cuestión 8: la gestión corresponde al SEPE y la clave marca ninguna como correcta.\n\nIT: Ripete la questione 8: la gestione spetta al SEPE e la chiave indica nessuna come corretta.",
       "legal_reference": "TRLGSS art.264",
       "original_file": "2° Parcial D. Trabajo y SS AGGIORNATO 22 04 2025.pdf"
     }
