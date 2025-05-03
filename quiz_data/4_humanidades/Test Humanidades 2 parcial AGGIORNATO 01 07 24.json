@@ -1,726 +1,606 @@
 {
-  "file_number": 0,
-  "file_name": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx",
+  "file_number": 1,
+  "file_name": "Test Humanidades 2 parcial AGGIORNATO 22 04 25",
   "questions": [
     {
       "question": "1. Respecto al desarrollo cultural de la Edad Media",
       "answers": [
-        {
-          "text": "a) supuso una ruptura con el mundo clásico",
-          "correct": "errata"
-        },
-        {
-          "text": "b) es un período de oscuridad intelectual marcado por un fervor religioso exultante",
-          "correct": "errata"
-        },
-        {
-          "text": "c) el desarrollo cultural fue escaso y casi nulo debido a las guerras y epidemias",
-          "correct": "errata"
-        },
-        {
-          "text": "d) Ninguna es cierta",
-          "correct": "corretta"
-        }
+        { "text": "a) supuso una ruptura con el mundo clásico", "correct": false },
+        { "text": "b) es un período de oscuridad intelectual marcado por una exultante fervor religioso", "correct": false },
+        { "text": "c) el desarrollo cultural fue escaso y casi nulo debido a las guerras y epidemias", "correct": false },
+        { "text": "d) Ninguna es cierta", "correct": true }
       ],
-      "explanation": "Le prime tre opzioni presentano valutazioni troppo semplificate o scorrette sul Medioevo. L’idea di un Medioevo totalmente oscuro o di un improvviso distacco dal mondo classico è una visione storiograficamente superata. Pertanto, ‘Ninguna es cierta’ è la risposta corretta.",
-      "legal_reference": "Nessun riferimento normativo specifico: si tratta di valutazioni storiche.",
-      "original_file": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx"
+      "explanation": "Aunque la Edad Media vivió crisis como guerras y epidemias, su producción cultural fue significativa y mantuvo continuidad con el legado clásico a través de monasterios, laboriosidad intelectual y mecenazgo eclesiástico; por ello, ninguna de las primeras tres afirmaciones es correcta.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
     },
     {
-      "question": "2. Según el planteamiento de Le Goff “seguimos viviendo en la Edad Media” porque",
+      "question": "2. Según el planteamiento de Le Goff “seguimos pidiendo en la Edad Media” porque",
       "answers": [
-        {
-          "text": "a) el centro de la filosofía moderna sigue siendo las obras de Averroes y Avicena",
-          "correct": "errata"
-        },
-        {
-          "text": "b) hemos heredado la ciudad, las universidades y nuestro sistema de pensamiento",
-          "correct": "corretta"
-        },
-        {
-          "text": "c) la influencia del cristianismo sigue siendo igual de importante que en esa época",
-          "correct": "errata"
-        },
-        {
-          "text": "d) el arte contemporáneo sigue vinculado a la religión",
-          "correct": "errata"
-        }
+        { "text": "a) el centro de la filosofía moderna sigue siendo las obras Averroes y Avicena", "correct": false },
+        { "text": "b) hemos heredado la ciudad, las universidades y nuestro sistema de pensamiento", "correct": true },
+        { "text": "c) La influencia del cristianismo sigue siendo igual de importante que en esta época", "correct": false },
+        { "text": "d) el arte contemporáneo sigue vinculado a la religión", "correct": false }
       ],
-      "explanation": "Secondo Le Goff, molti elementi centrali della civiltà europea (città, università, sistemi di pensiero) si sviluppano proprio nel Medioevo e ne conserviamo ancora l’impronta. Per questo la risposta corretta è la b).",
-      "legal_reference": "Nessun riferimento normativo specifico: si tratta di considerazioni storiografiche (Le Goff).",
-      "original_file": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx"
+      "explanation": "Jacques Le Goff señala que muchas de nuestras instituciones y modos de pensamiento (las ciudades como centros políticos, las universidades como centros de saber) proceden directamente de la Edad Media.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
     },
     {
       "question": "3. El oscurantismo intelectual que se atribuyó al Medioevo proviene de",
       "answers": [
-        {
-          "text": "a) del mundo clásico, en el que primó la laicidad frente a la religiosidad medieval",
-          "correct": "errata"
-        },
-        {
-          "text": "b) del Quattrocento italiano para validar el renacimiento de la cultura de una época árida culturalmente",
-          "correct": "corretta"
-        },
-        {
-          "text": "c) del siglo XX, en una sociedad que ya no reconoce la validez intelectual de esa época",
-          "correct": "errata"
-        },
-        {
-          "text": "d) todas son falsas",
-          "correct": "errata"
-        }
+        { "text": "a) del mundo clásico en el que primó la laicidad frente a la religiosidad medieval", "correct": false },
+        { "text": "b) del Quattrocento italiano para validar el renacimiento de la cultura de una época árida culturalmente", "correct": true },
+        { "text": "c) del siglo XX en una sociedad que ya no reconoce la validez intelectual de esa época", "correct": false },
+        { "text": "d) todas son falsas", "correct": false }
       ],
-      "explanation": "La visione dell’oscurantismo medievale fu in larga parte alimentata dai pensatori e artisti del Rinascimento (specialmente in Italia), che volevano presentare il Medioevo come un’epoca culturalmente povera, contrapposta alla ‘rinascita’ dell’antico. Da qui, l’opzione b) risulta corretta.",
-      "legal_reference": "Nessun riferimento normativo: si tratta di questioni di storia culturale e storiografia.",
-      "original_file": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx"
+      "explanation": "Los humanistas del Quattrocento empezaron a denostar la Baja Edad Media como época de ‘oscuridad’ para ensalzar su propio renacer cultural, dando origen al mito del oscurantismo medieval.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
     },
     {
       "question": "4. Se conocen como incunables a",
       "answers": [
-        {
-          "text": "a) los libros escritos a mano antes de la invención de la imprenta",
-          "correct": "errata"
-        },
-        {
-          "text": "b) los filósofos medievales estudiosos del mundo clásico",
-          "correct": "errata"
-        },
-        {
-          "text": "c) los artistas que iluminaban y diseñaban los libros religiosos",
-          "correct": "errata"
-        },
-        {
-          "text": "d) los primeros libros editados con la imprenta del siglo XV",
-          "correct": "corretta"
-        }
+        { "text": "a) los libros escritos a mano anteriores a la invención de la imprenta", "correct": false },
+        { "text": "b) los filósofos medievales estudiosos del mundo clásico", "correct": false },
+        { "text": "c) los artistas que iluminaban y diseñaban los libros religiosos", "correct": false },
+        { "text": "d) los primeros libros editados con la imprenta del siglo quince", "correct": true }
       ],
-      "explanation": "I veri “incunaboli” sono i primissimi libri stampati (metà del XV secolo fino a inizio XVI) dopo l’invenzione della stampa a caratteri mobili. Per questo la d) è la risposta corretta.",
-      "legal_reference": "Nessun riferimento normativo: definizione storica del termine 'incunaboli'.",
-      "original_file": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx"
+      "explanation": "Los incunables son los libros impresos antes de 1501, es decir, los primeros ejemplares editados tras la invención de la imprenta de tipos móviles.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
     },
     {
-      "question": "5. Señale el falso tópico que aún se estudia sobre el Medioevo",
+      "question": "5. Señale el falso tópico que aún se estudia sobre el medioevo",
       "answers": [
-        {
-          "text": "a) fue una época en la que la mujer cobró protagonismo",
-          "correct": "corretta"
-        },
-        {
-          "text": "b) pensar que fue una época de constantes conflictos bélicos",
-          "correct": "errata"
-        },
-        {
-          "text": "c) el desarrollo de las ciudades debido a la intensificación del comercio",
-          "correct": "errata"
-        },
-        {
-          "text": "d) ninguna es falsa",
-          "correct": "errata"
-        }
+        { "text": "a) fue una época en la que la mujer cobró protagonismo", "correct": true },
+        { "text": "b) pensar que fue una época de constantes conflictos bélicos", "correct": false },
+        { "text": "c) el desarrollo de las ciudades debido a la intensificación del comercio", "correct": false },
+        { "text": "d) ninguna es falsa", "correct": false }
       ],
-      "explanation": "Tra i luoghi comuni sul Medioevo, uno ritenuto “falso” è che la donna avesse effettivamente un ruolo paritario o preminente rispetto a quello dell’uomo. In realtà, nella gran parte della società medievale, tale protagonismo era assai limitato. Le altre opzioni descrivono fenomeni storici reali, quindi la a) è il “falso tópico”.",
-      "legal_reference": "Nessun riferimento normativo: si tratta di una questione storico-sociale.",
-      "original_file": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx"
+      "explanation": "Es un falso tópico pensar que la mujer cobró un protagonismo significativo en la Edad Media; en cambio, sí hubo conflictos bélicos continuos y crecimiento urbano gracias al comercio.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
     },
     {
       "question": "6. Las universidades medievales se caracterizan por",
       "answers": [
-        {
-          "text": "a) fueron concebidas como un gremio, una Asociación de Profesores y Alumnos",
-          "correct": "errata"
-        },
-        {
-          "text": "b) tuvieron gran libertad de actuación, sus propias leyes y programas de estudios",
-          "correct": "errata"
-        },
-        {
-          "text": "c) el prestigio de sus programas de estudio y de la reputación de su profesorado",
-          "correct": "errata"
-        },
-        {
-          "text": "d) todas son características que distinguieron a la universidad medieval",
-          "correct": "corretta"
-        }
+        { "text": "a) fueron concebidas como un gremio, una Asociación de Profesores y Alumnos", "correct": false },
+        { "text": "b) tuvieron gran libertad de actuación: sus propias leyes y programas de estudios", "correct": false },
+        { "text": "c) el prestigio de sus programas de estudio y de la reputación de su profesorado", "correct": false },
+        { "text": "d) todas son características que distinguieron a la universidad medieval", "correct": true }
       ],
-      "explanation": "Le università medievali si distingueva(va)no per essere corporazioni (Universitas) di professori e studenti, per la relativa autonomia normativa e per la reputazione del corpo docente. Pertanto, tutte le opzioni precedenti sono vere, e la d) è la risposta corretta.",
-      "legal_reference": "Nessun riferimento normativo: caratteristica storica del sistema universitario medievale.",
-      "original_file": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx"
+      "explanation": "Las universidades surgieron como corporaciones (gremios) de maestros y estudiantes, con estatutos propios, programas específicos y alto prestigio académico.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
     },
     {
       "question": "7. Señale las consecuencias de la apertura de nuevas vías de comercio en el medioevo",
       "answers": [
-        {
-          "text": "a) el nacimiento y revitalización de las ciudades",
-          "correct": "errata"
-        },
-        {
-          "text": "b) la aparición de nuevos productos como la sal, especias, perfumes, etc.",
-          "correct": "errata"
-        },
-        {
-          "text": "c) circuló una importante cantidad de dinero",
-          "correct": "errata"
-        },
-        {
-          "text": "d) todas son ciertas",
-          "correct": "corretta"
-        }
+        { "text": "a) el nacimiento y revitalización de las ciudades", "correct": false },
+        { "text": "b) la aparición de nuevos productos como la sal, especias, perfumes, etc.", "correct": false },
+        { "text": "c) circuló una importante cantidad de dinero", "correct": false },
+        { "text": "d) todas son ciertas", "correct": true }
       ],
-      "explanation": "L’apertura di nuove rotte commerciali favorì la rinascita delle città, l’introduzione di nuovi prodotti e una maggiore circolazione monetaria. Di conseguenza, tutte le opzioni sono vere e la d) è corretta.",
-      "legal_reference": "Nessun riferimento normativo: fenomeno storico-economico.",
-      "original_file": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx"
+      "explanation": "La expansión de rutas comerciales medievales impulsó el crecimiento urbano, la llegada de mercancías exóticas y el desarrollo de sistemas monetarios complejos.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
     },
     {
       "question": "8. Indique la alternativa incorrecta sobre la función del arte en la Edad Media",
       "answers": [
-        {
-          "text": "a) al igual que en el mundo clásico fue concebido para transmitir belleza",
-          "correct": "corretta"
-        },
-        {
-          "text": "b) se concibió para dar ofrenda a Dios, a los santos y a los difuntos",
-          "correct": "errata"
-        },
-        {
-          "text": "c) tenía una función pedagógica: enseñar con la imagen",
-          "correct": "errata"
-        },
-        {
-          "text": "d) era una afirmación de poder religioso o político",
-          "correct": "errata"
-        }
+        { "text": "a) al igual que en el mundo clásico fue concebido para transmitir belleza", "correct": true },
+        { "text": "b) se creó para dar ofrenda a Dios, a los santos y a los difuntos", "correct": false },
+        { "text": "c) tenía una función pedagógica: enseñar con la imagen", "correct": false },
+        { "text": "d) era una afirmación de poder religioso o político", "correct": false }
       ],
-      "explanation": "Rispetto all’arte medievale, l’idea di ‘trasmettere bellezza’ in senso classico non era la sua funzione principale: si privilegiava la funzione religiosa, devozionale o pedagogica. Dunque la a) è l’affermazione scorretta (la ‘alternativa incorrecta’).",
-      "legal_reference": "Nessun riferimento normativo: questioni storico-artistiche.",
-      "original_file": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx"
+      "explanation": "A diferencia de la Antigüedad clásica, el arte medieval no buscaba ante todo la belleza estética, sino la didaxis religiosa y la legitimación del poder eclesiástico o señorial.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
     },
     {
       "question": "9. Identifique las características del arte románico",
       "answers": [
-        {
-          "text": "a) fue un arte vinculado a las órdenes religiosas",
-          "correct": "errata"
-        },
-        {
-          "text": "b) son construcciones de grandes dimensiones con pocas y reducidas ventanas para protegerse del frío",
-          "correct": "errata"
-        },
-        {
-          "text": "c) se utilizaron arcos de medio punto y bóvedas de cañón",
-          "correct": "errata"
-        },
-        {
-          "text": "d) todas son características verdaderas",
-          "correct": "corretta"
-        }
+        { "text": "a) fue un arte vinculado a las órdenes religiosas", "correct": false },
+        { "text": "b) son construcciones de grandes dimensiones con pocas y reducidas ventanas para protegerse del frío", "correct": false },
+        { "text": "c) se utilizaron arcos de medio punto y bóvedas de cañón", "correct": false },
+        { "text": "d) todas son características verdaderas", "correct": true }
       ],
-      "explanation": "L’architettura romanica è caratterizzata da forte legame con la religione (abbazie, monasteri), grandi strutture, muri spessi, finestre ridotte, uso dell’arco a tutto sesto e volte a botte. Tutte le opzioni sono vere, quindi la d) è la risposta corretta.",
-      "legal_reference": "Nessun riferimento normativo: descrizione storico-artistica.",
-      "original_file": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx"
+      "explanation": "El románico, promovido por clérigos y órdenes monásticas, se caracteriza por el arco de medio punto, la bóveda de cañón y muros macizos con pequeñas ventanas.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
     },
     {
       "question": "10. El elemento arquitectónico característico de la Edad Media fue",
       "answers": [
-        {
-          "text": "a) la escuela",
-          "correct": "errata"
-        },
-        {
-          "text": "b) la universidad",
-          "correct": "errata"
-        },
-        {
-          "text": "c) la catedral",
-          "correct": "corretta"
-        },
-        {
-          "text": "d) la ciudad",
-          "correct": "errata"
-        }
+        { "text": "a) la escuela", "correct": false },
+        { "text": "b) la universidad", "correct": false },
+        { "text": "c) la catedral", "correct": true },
+        { "text": "d) la ciudad", "correct": false }
       ],
-      "explanation": "La cattedrale è considerata l’emblema architettonico per eccellenza del Medioevo europeo, specialmente nel periodo romanico e gotico. Perciò la c) è corretta.",
-      "legal_reference": "Nessun riferimento normativo: caratteristica storico-artistica.",
-      "original_file": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx"
+      "explanation": "La catedral, con su dimensión simbólica, técnica estructural y función litúrgica, se erige como el emblema de la arquitectura medieval europea.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
     },
     {
-      "question": "11. Durante los siglos XI al XIII Europa se petrificó debido a",
+      "question": "11. Durante los siglos XI al XIII Europa «se petrificó» debido a",
       "answers": [
-        {
-          "text": "a) que se vació de población por las constantes guerras religiosas",
-          "correct": "errata"
-        },
-        {
-          "text": "b) por un gran movimiento de la población del campo a la ciudad",
-          "correct": "errata"
-        },
-        {
-          "text": "c) al movimiento de construcción de edificaciones (iglesias, catedrales, castillos…)",
-          "correct": "errata"
-        },
-        {
-          "text": "d) todas son ciertas",
-          "correct": "corretta"
-        }
+        { "text": "a) que se vació de población por las constantes guerras religiosas", "correct": false },
+        { "text": "b) por un gran movimiento de la población del campo a la ciudad", "correct": false },
+        { "text": "c) al movimiento de construcción de edificaciones (iglesias, catedrales, castillos…)", "correct": true },
+        { "text": "d) todas son ciertas", "correct": false }
       ],
-      "explanation": "L’espressione “Europa se petrificó” fa riferimento al grande fervore edilizio (cattedrali, chiese, castelli) e anche ai cambiamenti demografici. Nel contesto di questa domanda, l’opzione d) afferma che tutte le precedenti sono vere, ed è quella corretta.",
-      "legal_reference": "Nessun riferimento normativo: contesto storico.",
-      "original_file": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx"
+      "explanation": "El término «petrificación» alude a la masiva erección de estructuras de piedra, sobre todo iglesias y castillos, durante ese periodo.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
     },
     {
       "question": "12. Identifique la/s consecuencia/s de la construcción de catedrales en el medioevo",
       "answers": [
-        {
-          "text": "a) el nacimiento y crecimiento de las ciudades, muchas de ellas amuralladas",
-          "correct": "errata"
-        },
-        {
-          "text": "b) la aparición de escuelas inicialmente bajo el auspicio de las órdenes religiosas",
-          "correct": "errata"
-        },
-        {
-          "text": "c) la diversificación de los oficios: canteros, escultores, pintores",
-          "correct": "errata"
-        },
-        {
-          "text": "d) todas son correctas",
-          "correct": "corretta"
-        }
+        { "text": "a) el nacimiento y crecimiento de las ciudades, muchas de ellas amuralladas", "correct": false },
+        { "text": "b) la aparición de escuelas inicialmente bajo el amparo de las órdenes religiosas", "correct": false },
+        { "text": "c) la diversificación de los oficios: canteros, escultores, pintores", "correct": false },
+        { "text": "d) todas son correctas", "correct": true }
       ],
-      "explanation": "La costruzione di cattedrali portò alla crescita dei centri urbani, alla creazione di scuole e alla diversificazione dei mestieri legati all’edilizia e all’arte. Quindi, tutte le opzioni sono corrette e la d) è la risposta esatta.",
-      "legal_reference": "Nessun riferimento normativo: fenomeno storico-sociale e artistico.",
-      "original_file": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx"
+      "explanation": "La construcción catedralicia fomentó el desarrollo urbano, la enseñanza eclesiástica y amplió la gama de oficios especializados en la piedra y la decoración.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
     },
     {
       "question": "13. Son elementos característicos del arte gótico",
       "answers": [
-        {
-          "text": "a) la bóveda de crucería y rosetón",
-          "correct": "errata"
-        },
-        {
-          "text": "b) ventanales con vidrieras de colores",
-          "correct": "errata"
-        },
-        {
-          "text": "c) arco apuntado u ojival",
-          "correct": "errata"
-        },
-        {
-          "text": "d) todas son correctas",
-          "correct": "corretta"
-        }
+        { "text": "a) la bóveda de crucería y rosetón", "correct": false },
+        { "text": "b) ventanales con vidrieras de colores", "correct": false },
+        { "text": "c) arco apuntado ojival", "correct": false },
+        { "text": "d) todas son correctas", "correct": true }
       ],
-      "explanation": "L’architettura gotica si riconosce per la volta a crociera, l’arco ogivale e le vetrate colorate (rosetoni, ampie finestre). Di conseguenza, tutte le opzioni precedenti sono vere. La d) è la corretta.",
-      "legal_reference": "Nessun riferimento normativo: questione storico-artistica.",
-      "original_file": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx"
+      "explanation": "El gótico introdujo bóvedas de crucería, rosetones, amplias vidrieras y el arco apuntado para lograr interiores más luminosos y esbeltos.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
     },
     {
       "question": "14. Señale la alternativa correcta sobre la Europa que nació entre los siglos XIII y XV",
       "answers": [
-        {
-          "text": "a) fue una época de constantes guerras religiosas",
-          "correct": "errata"
-        },
-        {
-          "text": "b) es la Europa de las universidades y de las catedrales góticas",
-          "correct": "corretta"
-        },
-        {
-          "text": "c) es la época del feudalismo, del trabajo de la tierra y de los campesinos",
-          "correct": "errata"
-        },
-        {
-          "text": "d) fue época de escaso desarrollo espiritual y cultural",
-          "correct": "errata"
-        }
+        { "text": "a) fue una época de constantes guerras religiosas", "correct": false },
+        { "text": "b) es la Europa de las universidades y de las catedrales góticas", "correct": true },
+        { "text": "c) es la época del feudalismo, del trabajo de la tierra y de los campesinos", "correct": false },
+        { "text": "d) fue época de escaso desarrollo cultural y ritual", "correct": false }
       ],
-      "explanation": "Tra XIII e XV se consolidano molte università e si innalzarono le cattedrali gotiche. Pertanto, l’opzione b) descrive correttamente la fisionomia di quell’Europa, mentre le altre generalizzano o semplificano erroneamente.",
-      "legal_reference": "Nessun riferimento normativo: contesto storico.",
-      "original_file": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx"
+      "explanation": "Entre los siglos XIII y XV emergen las primeras universidades y florece el estilo gótico, configurando una Europa más urbana y académica.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
     },
     {
       "question": "15. Italia se convirtió en la cuna del Renacimiento por",
       "answers": [
-        {
-          "text": "a) el legado de la antigua cultura romana que facilitó la asimilación de la cultura clásica",
-          "correct": "errata"
-        },
-        {
-          "text": "b) el desarrollo económico de las ciudades que propició la aparición de los mecenas",
-          "correct": "errata"
-        },
-        {
-          "text": "c) la constante referencia de la literatura italiana a la antigüedad clásica",
-          "correct": "errata"
-        },
-        {
-          "text": "d) ninguna es falsa",
-          "correct": "corretta"
-        }
+        { "text": "a) el legado de la antigua cultura romana que facilitó la asimilación de la cultura clásica", "correct": false },
+        { "text": "b) el desarrollo económico de las ciudades que propició la aparición de los mecenas", "correct": false },
+        { "text": "c) la constante referencia de la literatura italiana a la antigüedad clásica", "correct": false },
+        { "text": "d) ninguna es falsa", "correct": true }
       ],
-      "explanation": "Tutte e tre le prime opzioni (a, b, c) rappresentano ragioni veritiere per spiegare perché l’Italia sia stata la culla del Rinascimento. Quindi non ve n’è nessuna falsa; la risposta corretta è la d).",
-      "legal_reference": "Nessun riferimento normativo: spiegazione storico-culturale.",
-      "original_file": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx"
+      "explanation": "La conjunción de herencia romana, prosperidad urbana y mecenazgo impulsó el Renacimiento italiano; todas las afirmaciones ayudan a explicarlo, de modo que ninguna puede descartarse.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
     },
     {
       "question": "16. Nombre que se dio a los intelectuales que defendieron la paz en el siglo XVI",
       "answers": [
-        {
-          "text": "a) los escolásticos",
-          "correct": "errata"
-        },
-        {
-          "text": "b) los irenistas",
-          "correct": "corretta"
-        },
-        {
-          "text": "c) católicos",
-          "correct": "errata"
-        },
-        {
-          "text": "d) los humanistas",
-          "correct": "errata"
-        }
+        { "text": "a) los escolásticos", "correct": false },
+        { "text": "b) los irenistas", "correct": true },
+        { "text": "c) católicos", "correct": false },
+        { "text": "d) los humanistas", "correct": false }
       ],
-      "explanation": "Il termine ‘irenisti’ (dal greco ‘eirene’, pace) venne attribuito a coloro che perseguivano l’ideale di pace e conciliazione in un’epoca di conflitti religiosi. Quindi b) è corretta.",
-      "legal_reference": "Nessun riferimento normativo: definizione storica.",
-      "original_file": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx"
+      "explanation": "Los irenistas fueron pensadores del siglo XVI que abogaron por la reconciliación religiosa y por atenuar los conflictos surgidos de la Reforma.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
     },
     {
       "question": "17. Son rasgos característicos del renovado concepto de arte en el Renacimiento",
       "answers": [
-        {
-          "text": "a) Reaparecen los conceptos de belleza y arte",
-          "correct": "errata"
-        },
-        {
-          "text": "b) se vuelve a poner de manifiesto el canon de belleza griego",
-          "correct": "errata"
-        },
-        {
-          "text": "c) las formas adquieren movimiento a través de las posturas o las vestimentas",
-          "correct": "errata"
-        },
-        {
-          "text": "d) todas son verdaderas",
-          "correct": "corretta"
-        }
+        { "text": "a) reaparecen los conceptos de belleza y arte", "correct": false },
+        { "text": "b) se vuelve a poner de manifiesto el canon de belleza griego", "correct": false },
+        { "text": "c) las formas adquieren movimiento a través de las posturas o las vestimentas", "correct": false },
+        { "text": "d) todas son verdaderas", "correct": true }
       ],
-      "explanation": "Nel Rinascimento si recuperano gli ideali di bellezza classica, si studia l’anatomia e si dà movimento e naturalezza alle forme. Tutte le alternative sono vere: la d) è la risposta corretta.",
-      "legal_reference": "Nessun riferimento normativo: questioni storico-artistiche.",
-      "original_file": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx"
+      "explanation": "El Renacimiento recupera la idea de belleza clásica, enfatiza el canon griego y aporta dinamismo a las figuras humanas mediante poses y drapeados.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
     },
     {
       "question": "18. Indique las innovaciones que se produjeron en la pintura del Renacimiento",
       "answers": [
-        {
-          "text": "a) nuevas técnicas en el tratamiento de la luz y de las sombras",
-          "correct": "errata"
-        },
-        {
-          "text": "b) se popularizó el uso del óleo que permitió una gran variedad de colores",
-          "correct": "errata"
-        },
-        {
-          "text": "c) se concedió gran importancia a la moda, especialmente a los tejidos",
-          "correct": "errata"
-        },
-        {
-          "text": "d) ninguna es falsa",
-          "correct": "corretta"
-        }
+        { "text": "a) nuevas técnicas en el tratamiento de la luz y de las sombras", "correct": false },
+        { "text": "b) se popularizó el uso del óleo que permitió una gran variedad de colores", "correct": false },
+        { "text": "c) se logró gran importancia a la moda, especialmente a los tejidos", "correct": false },
+        { "text": "d) ninguna es falsa", "correct": true }
       ],
-      "explanation": "Nel Rinascimento si svilupparono notevolmente lo studio della prospettiva, l’uso dell’olio, l’attenzione alla luce e all’ombra, oltre a una resa dettagliata dei tessuti. Dunque nessuna delle opzioni è falsa: la d) è corretta.",
-      "legal_reference": "Nessun riferimento normativo: questione storico-artistica.",
-      "original_file": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx"
+      "explanation": "La pintura renacentista innovó en el claroscuro, progresó el óleo y prestó atención al detalle de ropajes y modas; todas las afirmaciones describen avances reales.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
     },
     {
-      "question": "19. El renacimiento artístico tuvo su punto final",
+      "question": "19. El Renacimiento artístico tuvo su punto final",
       "answers": [
-        {
-          "text": "a) el impresionismo",
-          "correct": "errata"
-        },
-        {
-          "text": "b) el manierismo",
-          "correct": "corretta"
-        },
-        {
-          "text": "c) la ilustración",
-          "correct": "errata"
-        },
-        {
-          "text": "d) ninguna es correcta",
-          "correct": "errata"
-        }
+        { "text": "a) el impresionismo", "correct": false },
+        { "text": "b) el manierismo", "correct": true },
+        { "text": "c) la Ilustración", "correct": false },
+        { "text": "d) ninguna es correcta", "correct": false }
       ],
-      "explanation": "Il manierismo è considerato la fase finale del Rinascimento (XVI secolo), uno stile che segnò la transizione verso nuove forme artistiche. Per questo la b) è corretta.",
-      "legal_reference": "Nessun riferimento normativo: evoluzione storico-artistica.",
-      "original_file": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx"
+      "explanation": "El Manierismo, con su distorsión consciente de proporciones y su ruptura con los cánones renacentistas, marca la transición hacia nuevas estéticas.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
     },
     {
-      "question": "20. Señale las características atribuidas al hombre humanista renacentista",
+      "question": "20. Señale las características atribuidas al hombre humanista o renacentista",
       "answers": [
-        {
-          "text": "a) poseen una curiosidad infinita que los lleva a estudiar una variedad de temas",
-          "correct": "errata"
-        },
-        {
-          "text": "b) tiene un claro afán pedagógico: conocer y divulgar el pensamiento humanista",
-          "correct": "errata"
-        },
-        {
-          "text": "c) tienen una destacada participación en los asuntos políticos de la ciudad",
-          "correct": "errata"
-        },
-        {
-          "text": "d) todas son características correctas",
-          "correct": "corretta"
-        }
+        { "text": "a) posee una curiosidad infinita que lo lleva a estudiar una variedad de temas", "correct": false },
+        { "text": "b) tiene un claro afán pedagógico: conocer y divulgar el pensamiento humanista", "correct": false },
+        { "text": "c) tiene destacada participación en los asuntos políticos de la ciudad", "correct": false },
+        { "text": "d) todas son características correctas", "correct": true }
       ],
-      "explanation": "L’uomo rinascimentale (umanista) era curioso, poliedrico, partecipe nella vita pubblica e con vocazione pedagogica. Quindi la d) è la risposta corretta.",
-      "legal_reference": "Nessun riferimento normativo: concetto storico-culturale.",
-      "original_file": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx"
+      "explanation": "El humanista rentrescentista mostraba interés enciclopédico, vocación divulgativa y a menudo implicación cívica, integrando saberes y acción política.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
     },
     {
       "question": "21. Nombre con el que se conoce a la filosofía medieval",
       "answers": [
-        {
-          "text": "a) filosofía clásica",
-          "correct": "errata"
-        },
-        {
-          "text": "b) la escolástica",
-          "correct": "corretta"
-        },
-        {
-          "text": "c) es el racionalismo",
-          "correct": "errata"
-        },
-        {
-          "text": "d) la paideia",
-          "correct": "errata"
-        }
+        { "text": "a) filosofía clásica", "correct": false },
+        { "text": "b) la escolástica", "correct": true },
+        { "text": "c) el racionalismo", "correct": false },
+        { "text": "d) la paideia", "correct": false }
       ],
-      "explanation": "La filosofia medievale per eccellenza è la ‘Scolastica’, che cerca di conciliare la teologia cristiana con la tradizione filosofica greco-romana. Dunque la b) è corretta.",
-      "legal_reference": "Nessun riferimento normativo: definizione storico-filosofica.",
-      "original_file": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx"
+      "explanation": "La tradición filosófica medieval se denomina escolástica, pues integró el pensamiento cristiano con la lógica y metafísica heredada de Aristóteles.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
     },
     {
       "question": "22. Señale la característica correcta sobre la técnica del esfumato",
       "answers": [
-        {
-          "text": "a) se trata del uso artístico de los claros/ oscuros",
-          "correct": "corretta"
-        },
-        {
-          "text": "b) es el uso de la perspectiva para situar los objetos en el espacio",
-          "correct": "errata"
-        },
-        {
-          "text": "c) hace referencia a las temáticas religiosas",
-          "correct": "errata"
-        },
-        {
-          "text": "d) es el uso del óleo como nueva técnica artística",
-          "correct": "errata"
-        }
+        { "text": "a) se trata del uso artístico de los claroscuros", "correct": true },
+        { "text": "b) es el uso de la perspectiva para situar los objetos en el espacio", "correct": false },
+        { "text": "c) hace referencia a las temáticas religiosas", "correct": false },
+        { "text": "d) es el uso del óleo como nueva técnica artística", "correct": false }
       ],
-      "explanation": "Lo ‘sfumato’, utilizzato in particolare da Leonardo da Vinci, consiste in transizioni morbide tra luci e ombre, creando contorni sfumati. In modo semplificato, si può dire che riguarda un uso artistico dei chiaro-scuri. Quindi la a) è corretta.",
-      "legal_reference": "Nessun riferimento normativo: tecnica pittorica storica.",
-      "original_file": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx"
+      "explanation": "El esfumato, empleado por Leonardo, suaviza las transiciones entre luz y sombra para lograr efectos atmosféricos, sin líneas definidas ni contornos abruptos.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
     },
     {
       "question": "23. Indique el legado del Renacimiento en el campo económico",
       "answers": [
-        {
-          "text": "a) los negocios se realizaron con las recién creadas letras de cambio",
-          "correct": "errata"
-        },
-        {
-          "text": "b) una variedad de palabras relacionadas con el mundo de la banca",
-          "correct": "errata"
-        },
-        {
-          "text": "c) se popularizó la figura del agente comercial que representaba los intereses de las familias adineradas",
-          "correct": "errata"
-        },
-        {
-          "text": "d) todos son legados que nos han llegado hasta la actualidad",
-          "correct": "corretta"
-        }
+        { "text": "a) los negocios se realizaron con las recién creadas letras de cambio", "correct": false },
+        { "text": "b) una variedad de palabras relacionadas con el mundo de la banca", "correct": false },
+        { "text": "c) se popularizó la figura de los agentes comerciales que representaban los intereses de familias adineradas", "correct": false },
+        { "text": "d) todos son legados que nos han llegado hasta la actualidad", "correct": true }
       ],
-      "explanation": "Il Rinascimento vide l’affermazione di nuovi strumenti finanziari (lettere di cambio, banche) e di agenti commerciali. Tutti questi aspetti costituiscono un’eredità economica tuttora in uso. Pertanto, la d) è corretta.",
-      "legal_reference": "Nessun riferimento normativo: ambito economico-storico.",
-      "original_file": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx"
+      "explanation": "El Renacimiento introdujo las letras de cambio, amplió el léxico bancario y consolidó el agente comercial como mediador financiero, prácticas vigentes hoy día.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
     },
     {
       "question": "24. Marque la afirmación correcta sobre el arte de vanguardias",
       "answers": [
-        {
-          "text": "a) movimiento que se centró solo en la pintura dejando de lado el resto de las artes",
-          "correct": "errata"
-        },
-        {
-          "text": "b) es una nueva forma de entender el arte alejada del conocido canon de belleza",
-          "correct": "corretta"
-        },
-        {
-          "text": "c) prima la abstracción y aun cuenta que el espectador entienda la obra de arte",
-          "correct": "errata"
-        },
-        {
-          "text": "d) la temática y el título de la obra guardan una estrecha relación",
-          "correct": "errata"
-        }
+        { "text": "a) movimiento que se centró solo en la pintura dejando de lado el resto de las artes", "correct": false },
+        { "text": "b) es una nueva forma de entender el arte alejada del conocido canon de belleza", "correct": true },
+        { "text": "c) prima la abstracción aun así interesa que el espectador entienda la obra de arte", "correct": false },
+        { "text": "d) la temática y el título de la obra guardan una estrecha relación", "correct": false }
       ],
-      "explanation": "Le avanguardie artistiche si sono distaccate dai canoni tradizionali di bellezza e forma, sperimentando nuove modalità d’espressione. La b) descrive questa natura “nuova e lontana dal canon classico”.",
-      "legal_reference": "Nessun riferimento normativo: considerazioni storico-artistiche.",
-      "original_file": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx"
+      "explanation": "Las vanguardias rompieron con los cánones de belleza tradicionales, explorando formas y materiales nuevos para cuestionar la función del arte.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
     },
     {
       "question": "25. A finales del siglo XIX irrumpió el impresionismo que planteaba",
       "answers": [
-        {
-          "text": "a) alejarse de las temáticas mitológicas y de corte pastoril",
-          "correct": "errata"
-        },
-        {
-          "text": "b) convirtieron la ciudad, el paisaje y la vida cotidiana en temáticas de sus obras",
-          "correct": "errata"
-        },
-        {
-          "text": "c) establecieron como punto esencial el estudio de la luz y el color",
-          "correct": "errata"
-        },
-        {
-          "text": "d) todas son verdaderas",
-          "correct": "corretta"
-        }
+        { "text": "a) alejarse de las temáticas mitológicas y de corte pastoril", "correct": false },
+        { "text": "b) convertir la ciudad, el paisaje y la vida cotidiana en temáticas de sus obras", "correct": false },
+        { "text": "c) establecer como punto esencial el estudio de la luz y el color", "correct": false },
+        { "text": "d) todas son verdaderas", "correct": true }
       ],
-      "explanation": "Gli impressionisti rivoluzionarono la pittura, abbandonando tematiche mitologiche/classiche, ritraendo spesso la vita urbana o scorci naturali, con grande attenzione a luce e colore. Pertanto, tutte le affermazioni sono vere: la d) è corretta.",
-      "legal_reference": "Nessun riferimento normativo: descrizione storico-artistica.",
-      "original_file": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx"
+      "explanation": "El impresionismo abandonó leyendas mitológicas para centrarse en lo cotidiano y desarrolló un enfoque innovador sobre luz y color al aire libre.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
     },
     {
       "question": "26. Todas las alternativas sobre Monet son correctas excepto una que es falsa",
       "answers": [
-        {
-          "text": "a) se centró en las formas y el detalle de los dibujos más que en el color y la luz",
-          "correct": "corretta"
-        },
-        {
-          "text": "b) planteó que el artista debía transmitir la impresión que la realidad le transmitía",
-          "correct": "errata"
-        },
-        {
-          "text": "c) promovió la pintura al aire libre",
-          "correct": "errata"
-        },
-        {
-          "text": "d) se especializó en pintar paisajes, algunos en diferentes momentos del día",
-          "correct": "errata"
-        }
+        { "text": "a) se centró en las formas y el detalle de los dibujos más que en el color y la luz", "correct": true },
+        { "text": "b) planteó que el artista debía transmitir la impresión que la realidad le transmitía", "correct": false },
+        { "text": "c) promovió la pintura al aire libre", "correct": false },
+        { "text": "d) se especializó en pintar paisajes, algunos en diferentes momentos del día", "correct": false }
       ],
-      "explanation": "La pittura di Monet si concentra soprattutto su luce, colore e impressione fugace, non sul disegno dettagliato. Quindi la a) è la dichiarazione falsa e perciò è quella esatta da segnare come “falsa”.",
-      "legal_reference": "Nessun riferimento normativo: considerazione storico-artistica.",
-      "original_file": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx"
+      "explanation": "Monet priorizaba la luz y el color sobre el detalle formal; la afirmación de que se centró en la forma más que en la luz es falsa.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
     },
     {
       "question": "27. La obra del pintor ruso Kandinski destaca por",
       "answers": [
-        {
-          "text": "a) su teoría del color concediéndole un papel protagonista en la obra de arte",
-          "correct": "corretta"
-        },
-        {
-          "text": "b) sus obras destacan por el movimiento errado y la naturalidad de los cuerpos",
-          "correct": "errata"
-        },
-        {
-          "text": "c) sus obras captan el instante y el momento irrepetible",
-          "correct": "errata"
-        },
-        {
-          "text": "d) le interesan las escenas que pasan desapercibidas a los espectadores",
-          "correct": "errata"
-        }
+        { "text": "a) su teoría del color concediéndole un papel protagonista en la obra de arte", "correct": false },
+        { "text": "b) sus obras destacan por el movimiento y la naturalidad de los cuerpos", "correct": false },
+        { "text": "c) sus obras captan el instante en el momento irrepetible", "correct": false },
+        { "text": "d) le interesan las escenas que pasan desapercibidas a los espectadores", "correct": true }
       ],
-      "explanation": "Kandinskij è noto soprattutto per la sua teoria del colore e per essere uno dei pionieri dell’astrattismo: nella sua pittura, il colore ricopre un ruolo fondamentale. Pertanto, la a) è corretta.",
-      "legal_reference": "Nessun riferimento normativo: questione storico-artistica.",
-      "original_file": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx"
+      "explanation": "Kandinski centró su reflexión en la abstracción y el color, buscando reflejar emociones y elementos invisibles más que la representación corporal realista.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
     },
     {
       "question": "28. Indique la alternativa incorrecta sobre los pintores del impresionismo",
       "answers": [
-        {
-          "text": "a) utilizan pinceladas directas con trazos gruesos",
-          "correct": "errata"
-        },
-        {
-          "text": "b) usan la superposición de puntos (puntillismo) para crear masas con volumen",
-          "correct": "errata"
-        },
-        {
-          "text": "c) la técnica usada es similar a la del renacimiento incidiendo en los claroscuros",
-          "correct": "corretta"
-        },
-        {
-          "text": "d) los colores preferidos son los colores con tonalidades suaves",
-          "correct": "errata"
-        }
+        { "text": "a) utilizan pinceladas directas con trazos gruesos", "correct": false },
+        { "text": "b) usan la superposición de puntos (puntillismo) para crear masas con volumen", "correct": true },
+        { "text": "c) la técnica usada es similar a la del Renacimiento, incidiendo en los claroscuros", "correct": false },
+        { "text": "d) los colores preferidos son los colores con tonalidades suaves", "correct": false }
       ],
-      "explanation": "Gli impressionisti NON utilizzano tecniche rinascimentali basate sui chiaro-scuri tradizionali. Piuttosto sperimentano la luce naturale, pennellate veloci, colore in tocchi puri. Quindi l’affermazione c) risulta scorretta (la “incorrecta”).",
-      "legal_reference": "Nessun riferimento normativo: questioni storico-artistiche.",
-      "original_file": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx"
+      "explanation": "El puntillismo surge tras el impresionismo, con Seurat y Signac; los impresionistas trabajaron con pinceladas sueltas y estudio de la luz, no con puntillismo.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
     },
     {
-      "question": "29. Señale la alternativa incorrecta sobre los sistemas políticos actuales",
+      "question": "29. Señales la alternativa incorrecta sobre los sistemas políticos actuales",
       "answers": [
-        {
-          "text": "a) la monarquía parlamentaria es uno de los sistemas políticos que aún predominan en Europa pero el rey no tiene poder",
-          "correct": "errata"
-        },
-        {
-          "text": "b) en la monarquía parlamentaria en España no se elige al rey sino que es una sucesión dinástica",
-          "correct": "errata"
-        },
-        {
-          "text": "c) existe un único modelo de República similar al modelo político del mundo clásico",
-          "correct": "corretta"
-        },
-        {
-          "text": "d) todas son correctas",
-          "correct": "errata"
-        }
+        { "text": "a) la monarquía parlamentaria es uno de los sistemas políticos que aún predominan en Europa pero los reyes no tienen poder", "correct": false },
+        { "text": "b) en la monarquía parlamentaria en España no se elige al rey sino que es una sucesión dinástica", "correct": false },
+        { "text": "c) existe un único modelo de República similar al modelo político del mundo clásico", "correct": true },
+        { "text": "d) todas son correctas", "correct": false }
       ],
-      "explanation": "Oggi esistono molteplici forme di repubblica (presidenziale, parlamentare, semipresidenziale). Non c’è un unico modello uguale a quello dell’antichità. Dunque la c) è l’affermazione sbagliata (incorrecta).",
-      "legal_reference": "Possibili riferimenti: Costituzioni nazionali, ma non esiste un unico modello di Repubblica. (Contesto politico-attuale).",
-      "original_file": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx"
+      "explanation": "Las repúblicas actuales son muy diversas y ninguna reproduce exactamente el sistema clásico, por lo que la afirmación de un único modelo similar es falsa.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
     },
     {
       "question": "30. En los países de Iberoamérica el modelo de República predominante es",
       "answers": [
-        {
-          "text": "a) república presidencialista",
-          "correct": "corretta"
-        },
-        {
-          "text": "b) república semi-presidencialista con vinculación estrecha al Parlamento",
-          "correct": "errata"
-        },
-        {
-          "text": "c) república parlamentaria",
-          "correct": "errata"
-        },
-        {
-          "text": "d) república unipartidista",
-          "correct": "errata"
-        }
+        { "text": "a) república presidencialista", "correct": true },
+        { "text": "b) república semipresidencialista con vinculación estrecha al Parlamento", "correct": false },
+        { "text": "c) república parlamentaria", "correct": false },
+        { "text": "d) república unipartidista", "correct": false }
       ],
-      "explanation": "Nei Paesi dell’America Latina si è soliti trovare repubbliche presidenzialiste, dove il presidente esercita il potere esecutivo in modo prominente. Quindi la a) è corretta.",
-      "legal_reference": "Costituzioni dei singoli Paesi iberoamericani (ad es. Constitución de la República Federativa del Brasil, Constitución de la República Argentina, ecc.).",
-      "original_file": "Test Humanidades 2 parcial AGGIORNATO 01 07 24.docx"
+      "explanation": "La mayoría de las repúblicas iberoamericanas adoptan un sistema presidencialista con jefe de Estado elegido directamente.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
+    },
+    {
+      "question": "1. ¿Qué le sugiere el nombre de Lascaux, Altamira o Tito Bustillo?",
+      "answers": [
+        { "text": "a) Yacimiento arqueológico de época romana", "correct": false },
+        { "text": "b) Restos de ruinas romanas existentes en la antigua Hispania", "correct": false },
+        { "text": "c) Conjunto de pinturas rupestres", "correct": true },
+        { "text": "d) Ninguna de las anteriores", "correct": false }
+      ],
+      "explanation": "Lascaux (Francia), Altamira (España) y Tito Bustillo (España) son célebres por sus pinturas rupestres del Paleolítico Superior.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
+    },
+    {
+      "question": "2. ¿Qué es un menhir?",
+      "answers": [
+        { "text": "a) piedra vertical que sujeta una losa horizontal", "correct": false },
+        { "text": "b) piedra alargada colocada en vertical", "correct": true },
+        { "text": "c) conjunto de piedras en círculo", "correct": false },
+        { "text": "d) ninguna de las anteriores", "correct": false }
+      ],
+      "explanation": "Un menhir es un único monolito de piedra clavado verticalmente en el suelo, típico de la Prehistoria megalítica.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
+    },
+    {
+      "question": "3. ¿Qué es un zigurat?",
+      "answers": [
+        { "text": "a) templo egipcio en donde residían los sacerdotes", "correct": false },
+        { "text": "b) monumento funerario enclavado en la antigua Grecia", "correct": false },
+        { "text": "c) edificio junto al río Nilo donde se enterraban a los altos dignatarios", "correct": false },
+        { "text": "d) ninguna de las anteriores", "correct": true }
+      ],
+      "explanation": "Un zigurat es una torre escalonada mesopotámica con función religiosa, no griega ni egipcia, por lo que ninguna descripción dada coincide.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
+    },
+    {
+      "question": "4. ¿Qué edificio albergaba en la antigua Roma las luchas de gladiadores?",
+      "answers": [
+        { "text": "a) Circo Máximo", "correct": false },
+        { "text": "b) Teatro de Marcelo", "correct": false },
+        { "text": "c) Coliseo", "correct": true },
+        { "text": "d) Ninguna de las anteriores", "correct": false }
+      ],
+      "explanation": "El Coliseo o Anfiteatro Flavio era el espacio principal donde tenían lugar los espectáculos de gladiadores en Roma.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
+    },
+    {
+      "question": "5. En qué estilo artístico predominaba el arco de medio punto?",
+      "answers": [
+        { "text": "a) románico", "correct": true },
+        { "text": "b) gótico", "correct": false },
+        { "text": "c) barroco", "correct": false },
+        { "text": "d) ninguna de las anteriores", "correct": false }
+      ],
+      "explanation": "El arco de medio punto es característico del románico; el gótico introdujo el arco apuntado.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
+    },
+    {
+      "question": "6. Señala dos elementos básicos del arte gótico",
+      "answers": [
+        { "text": "a) arco apuntado y horizontal", "correct": false },
+        { "text": "b) vidrieras y contrafuertes", "correct": true },
+        { "text": "c) rosetones y arco apuntado", "correct": false },
+        { "text": "d) ninguna de las anteriores", "correct": false }
+      ],
+      "explanation": "Entre los avances estructurales y decorativos góticos destacan los contrafuertes (y arbotantes) para soportar bóvedas y las vidrieras que llenan de luz los interiores.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
+    },
+    {
+      "question": "7. ¿Qué artista practicó la arquitectura, escultura y pintura?",
+      "answers": [
+        { "text": "a) Leonardo da Vinci", "correct": false },
+        { "text": "b) Miguel Ángel", "correct": true },
+        { "text": "c) Bernini", "correct": false },
+        { "text": "d) Rafael Sanzio", "correct": false }
+      ],
+      "explanation": "Miguel Ángel trabajó como escultor (David), pintor (capilla Sixtina) y arquitecto (Laurentian), siendo uno de los grandes polímatas del Renacimiento.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
+    },
+    {
+      "question": "8. ¿Cómo se denomina la pintura de Caravaggio?",
+      "answers": [
+        { "text": "a) Oculista", "correct": false },
+        { "text": "b) Tenebrista", "correct": true },
+        { "text": "c) Sfumato", "correct": false },
+        { "text": "d) Estilista", "correct": false }
+      ],
+      "explanation": "Caravaggio es el máximo exponente del tenebrismo, caracterizado por fuertes contrastes de luz y sombra.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
+    },
+    {
+      "question": "9. Señala tres pintores barrocos españoles",
+      "answers": [
+        { "text": "a) Ribera, Ribalta y Zurbarán", "correct": true },
+        { "text": "b) Goya, Velázquez y Fernández", "correct": false },
+        { "text": "c) Murillo, Valdés Leal y Beruete", "correct": false },
+        { "text": "d) Ninguna de las anteriores", "correct": false }
+      ],
+      "explanation": "Ribera, Ribalta y Zurbarán fueron figuras clave del barroco español; Goya es romántico, Valdés Leal es barroco pero su trío propuesto incluye a Beruete (siglo XIX).",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
+    },
+    {
+      "question": "10. ¿Cómo se cataloga al pintor Delacroix?",
+      "answers": [
+        { "text": "a) Barroco", "correct": false },
+        { "text": "b) Neoclásico", "correct": false },
+        { "text": "c) Realista", "correct": false },
+        { "text": "d) Ninguna de las anteriores", "correct": true }
+      ],
+      "explanation": "Eugène Delacroix es el máximo exponente del Romanticismo francés, no encaja en Barroco, Neoclasicismo ni Realismo.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
+    },
+    {
+      "question": "11. Señala tres pintores impresionistas",
+      "answers": [
+        { "text": "a) Gauguin, Renoir y Kandinsky", "correct": false },
+        { "text": "b) Monet, Manet y Degas", "correct": true },
+        { "text": "c) Toulouse, Pissarro y Vignola", "correct": false },
+        { "text": "d) Van Gogh, Sisley y Matisse", "correct": false }
+      ],
+      "explanation": "Claude Monet, Édouard Manet y Edgar Degas fueron figuras centrales del impresionismo temprano.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
+    },
+    {
+      "question": "12. ¿Qué autor griego escribió la comedia Lisístrata?",
+      "answers": [
+        { "text": "a) Homero", "correct": false },
+        { "text": "b) Tucídides", "correct": false },
+        { "text": "c) Aristófanes", "correct": true },
+        { "text": "d) Heráclito", "correct": false }
+      ],
+      "explanation": "Aristófanes es el dramaturgo clásico responsable de la comedia Lisístrata.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
+    },
+    {
+      "question": "13. ¿Quién escribió la novela “En busca del tiempo perdido”?",
+      "answers": [
+        { "text": "a) Gala", "correct": false },
+        { "text": "b) Marcel Proust", "correct": true },
+        { "text": "c) Oscar Wilde", "correct": false },
+        { "text": "d) Gabriel García Márquez", "correct": false }
+      ],
+      "explanation": "Marcel Proust es el autor de la extensa obra En busca del tiempo perdido.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
+    },
+    {
+      "question": "14. ¿Cuántas partes tiene la novela El Quijote?",
+      "answers": [
+        { "text": "a) una", "correct": false },
+        { "text": "b) dos", "correct": true },
+        { "text": "c) tres", "correct": false },
+        { "text": "d) cuatro", "correct": false }
+      ],
+      "explanation": "Don Quijote de la Mancha se publicó en dos partes: 1605 y 1615.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
+    },
+    {
+      "question": "15. ¿Qué autor escribió más de 3000 sonetos?",
+      "answers": [
+        { "text": "a) Góngora", "correct": false },
+        { "text": "b) Quevedo", "correct": false },
+        { "text": "c) Lope de Vega", "correct": true },
+        { "text": "d) Tirso de Molina", "correct": false }
+      ],
+      "explanation": "Lope de Vega compuso una inmensa producción poética que supera los tres mil sonetos.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
+    },
+    {
+      "question": "16. ¿Qué es la bipedestación?",
+      "answers": [
+        { "text": "a) proceso de adaptación al medio terrestre", "correct": false },
+        { "text": "b) poder andar solo con las extremidades inferiores", "correct": true },
+        { "text": "c) adquisición de un lenguaje coherente", "correct": false },
+        { "text": "d) ninguna de las anteriores", "correct": false }
+      ],
+      "explanation": "La bipedestación es la capacidad de mantenerse y desplazarse erguido sobre las dos extremidades inferiores.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
+    },
+    {
+      "question": "17. ¿En qué se basa la economía de mercado?",
+      "answers": [
+        { "text": "a) la oferta y la demanda", "correct": true },
+        { "text": "b) la planificación estatal de la economía", "correct": false },
+        { "text": "c) la venta de productos sin aduanas en las fronteras", "correct": false },
+        { "text": "d) ninguna de las anteriores", "correct": false }
+      ],
+      "explanation": "La economía de mercado distribuye recursos y fija precios según las interacciones de oferta y demanda sin intervención estatal directa.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
+    },
+    {
+      "question": "18. ¿Qué ciencia estudia la organización del espacio?",
+      "answers": [
+        { "text": "a) Economía", "correct": false },
+        { "text": "b) Sociología", "correct": false },
+        { "text": "c) Antropología", "correct": false },
+        { "text": "d) Geografía", "correct": true }
+      ],
+      "explanation": "La Geografía analiza la distribución y organización del espacio físico y humano en la Tierra.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
+    },
+    {
+      "question": "19. ¿Qué autor escribió la obra “Utopía”?",
+      "answers": [
+        { "text": "a) Moro", "correct": true },
+        { "text": "b) Rotterdam", "correct": false },
+        { "text": "c) Owen", "correct": false },
+        { "text": "d) ninguna de las anteriores", "correct": false }
+      ],
+      "explanation": "Tomás Moro es el autor de Utopía, publicada en 1516.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
+    },
+    {
+      "question": "20. Señala el país más vulnerable económicamente de Europa en la actualidad de los siguientes",
+      "answers": [
+        { "text": "a) España", "correct": false },
+        { "text": "b) Portugal", "correct": false },
+        { "text": "c) Rumania", "correct": true },
+        { "text": "d) Polonia", "correct": false }
+      ],
+      "explanation": "Rumania presenta el PIB per cápita más bajo de la UE y mayores desafíos fiscales, lo que la hace más vulnerable en el contexto europeo.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre (BOE nº 3, 4 enero 2015), Anexo II: Materias de Bachillerato – Historia y Ciencias Sociales",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25"
     }
   ]
 }
