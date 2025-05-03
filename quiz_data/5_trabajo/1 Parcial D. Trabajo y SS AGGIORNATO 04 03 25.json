@@ -1,1062 +1,870 @@
 {
   "file_number": 1,
-  "file_name": "1 Parcial D. Trabajo y SS AGGIORNATO 04 03 25",
+  "file_name": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25.docx",
   "questions": [
     {
-      "question": "Relativo a la cotización de un Trabajador a la Seguridad Social señale la respuesta correcta:",
+      "question": "Relativo a la cotización de un Trabajador a la Seguridad social señale la respuesta correcta:",
       "answers": [
         {
-          "text": "El empresario es el único sujeto de la relación laboral obligado a cotizar a la seguridad social por los trabajadores que trabajan bajo su dependencia, a través de ingreso mensual en la cuenta personal.",
+          "text": "a) el empresario es el único sujeto de la relación laboral obligado a cotizar a la seguridad social por los trabajadores que trabajan bajo su dependencia a través de ingreso mensual de la cuenta personal",
           "correct": false
         },
         {
-          "text": "La cotización del trabajador se realiza con respecto a diversas contingencias, cada una de las cuales cotiza con un tipo/porcentaje distinto, según lo establecido anualmente por la ley de Presupuestos Generales del Estado.",
+          "text": "b) la cotización del trabajador se realiza con respecto a diversas contingencias cada una de las cuales cotiza con un tipo/porcentaje distinto, según lo establecido anualmente por la ley de presupuestos generales del Estado",
           "correct": true
         },
         {
-          "text": "La cotización es única para toda la vida, válida en todo el territorio nacional y vitalicia.",
+          "text": "c) la cotización es única para toda la vida, validada todo el territorio nacional y vitalicia",
           "correct": false
         },
         {
-          "text": "B) y C) son ciertas.",
+          "text": "d) B) y C) son ciertas",
           "correct": false
         }
       ],
-      "explanation": "La respuesta correcta es B porque, efectivamente, la Ley de Presupuestos Generales del Estado regula anualmente los tipos de cotización y determina qué porcentajes corresponden a cada contingencia (contingencias comunes, desempleo, formación profesional, etc.). La opción A es incorrecta porque la obligación de cotizar no recae únicamente en el empresario; el trabajador también contribuye mediante la cuota obrera. La opción C es errónea porque la cotización no es 'vitalicia e invariable', sino que varía según la normativa y las bases y tipos se pueden modificar cada año. D no es correcta porque no pueden ser verdaderas simultáneamente las afirmaciones B y C, dado que C es falsa.",
-      "legal_reference": "Artículos 11, 15 y siguientes del Texto Refundido de la Ley General de la Seguridad Social (TRLGSS); Ley de Presupuestos Generales del Estado.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
+      "explanation": "La cotización a la Seguridad Social se estructura en diferentes contingencias (comunes, profesionales, desempleo, formación, FOGASA y horas extraordinarias), cada una con un tipo distinto que se actualiza anualmente en la Ley de Presupuestos Generales del Estado. La opción a) es falsa porque el trabajador también contribuye mediante la cuota obrera. La opción c) es errónea porque las bases y tipos varían con el tiempo. Por tanto, solo b) es correcta.",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 109.1; Ley 27/2011, disposición adicional 7ª",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
     },
     {
-      "question": "El empresario que en el momento de hacer efectivas las retribuciones mensuales a sus trabajadores no descontará la cantidad correspondiente a la cuota obrera...",
+      "question": "El empresario que en el momento de hacer efectivas las retribuciones mensuales a sus trabajadores no descontará la cantidad correspondiente a la cuota obrera",
       "answers": [
         {
-          "text": "Podrá descontarlas en el mes posterior.",
+          "text": "a) Podrá descontarlas en el mes posterior",
           "correct": false
         },
         {
-          "text": "El empresario no podrá descontarlas con posterioridad, quedando obligado a ingresar la totalidad de las cuotas a su exclusivo cargo.",
+          "text": "b) El empresario no podrá descontarlas con posterioridad quedando obligado a ingresar la totalidad de las cuotas a su exclusivo cargo",
           "correct": true
         },
         {
-          "text": "Depende de lo estipulado en el contrato.",
+          "text": "c) Depende lo estipulado en el contrato",
           "correct": false
         },
         {
-          "text": "El trabajador deberá hacer el ingreso de la cuota obrera ante la TGSS a lo largo del mes siguiente.",
+          "text": "d) El trabajador deberá hacer el ingreso de la cuota obrera ante el TGSS a lo largo del mes siguiente",
           "correct": false
         }
       ],
-      "explanation": "La respuesta correcta es B porque, según la normativa, si el empresario no descuenta la cuota obrera en el momento de abonar el salario, no puede descontarla con posterioridad y queda obligado a asumir el importe total de las cotizaciones (tanto la parte empresarial como la parte obrera). La opción A es errónea: no se permite un descuento tardío sin más. La opción C no es correcta porque no depende del contrato, sino de las normas de la Seguridad Social. La D es errónea porque el trabajador no es el obligado a ingresar esa cuota si el empresario ha omitido el descuento; la obligación recae en el empleador.",
-      "legal_reference": "Artículos 102 y 104 del TRLGSS, y normativa sobre recaudación de cuotas (Reglamento General de Recaudación de la Seguridad Social).",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
+      "explanation": "El empresario actúa como recaudador de las cuotas obreras en el momento de pago de la nómina; si no las descuenta, no puede reclamarlas después y debe asumirlas él mismo, de acuerdo con la obligación de ingresar íntegramente las cuotas (TRLGSS art. 28.1).",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 28.1",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
     },
     {
-      "question": "Relativo a la base de cotización por contingencias profesionales:",
+      "question": "Relativo a la base de cotización por contingencias profesionales",
       "answers": [
         {
-          "text": "Es igual a la base de cotización por contingencias comunes, adicionando en un caso, la remuneración correspondiente a la prórroga de los pagos extraordinarios.",
+          "text": "a) Es igual a la base de cotización por contingencias comunes, adicionando en un caso, la remuneración correspondiente la prórroga de los pagos extraordinarios",
           "correct": false
         },
         {
-          "text": "Es igual a la base de cotización por contingencias comunes, adicionando en su caso la remuneración correspondiente a las horas extras.",
+          "text": "b) Es igual a la base de cotización por contingencias comunes, adicionando en su caso la remuneración correspondiente a las horas extras",
           "correct": true
         },
         {
-          "text": "Siempre es igual a la base de cotización por contingencias comunes.",
+          "text": "c) Siempre es igual a la base de cotización por contingencias comunes",
           "correct": false
         },
         {
-          "text": "No se incluyen en ella los complementos salariales.",
+          "text": "d) No se incluyen en ella los complementos salariales",
           "correct": false
         }
       ],
-      "explanation": "La respuesta correcta es B. Para el cálculo de la base de cotización por contingencias profesionales se toma como referencia la base de contingencias comunes y se añaden, entre otros posibles conceptos, las horas extraordinarias y ciertos elementos retributivos específicos. La opción A se refiere erróneamente a 'prórroga de pagos extraordinarios', que no constituye la base común para contingencias profesionales de manera general. La C es incorrecta porque no siempre coincide estrictamente con la base de contingencias comunes: las horas extras y otras retribuciones pueden modificarla. La D es errónea porque sí pueden incluirse complementos que formen parte de la remuneración computable para dichas contingencias.",
-      "legal_reference": "Artículo 147 TRLGSS y disposiciones reglamentarias sobre bases de cotización.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
+      "explanation": "La base de cotización por contingencias profesionales parte de la base por contingencias comunes y, además de pagas extras prorrateadas, incluye el importe de las horas extraordinarias según TRLGSS art. 22.1.a.2. Las opciones a), c) y d) son incorrectas porque no contemplan las horas extras o establecen una exclusión errónea.",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 22.1.a.2",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
     },
     {
-      "question": "Señale la opción correcta:",
+      "question": "Señale la opción correcta respecto a las prestaciones:",
       "answers": [
         {
-          "text": "El beneficiario de una prestación de la seguridad social puede disponer libremente de la misma para transmitir su titularidad a un tercero a través de cualquier negocio jurídico.",
+          "text": "a) El beneficiario de una prestación de la seguridad social puede disponer libremente de la misma para tramitar su titularidad a un tercero a través de cualquier negocio jurídico",
           "correct": false
         },
         {
-          "text": "Todas las prestaciones de la Seguridad social son compatibles entre sí.",
+          "text": "b) Todas las prestaciones de la Seguridad social son compatibles entre sí",
           "correct": false
         },
         {
-          "text": "Las prestaciones económicas derivadas de la acción protectora de la Seguridad Social están sujetas a tributación.",
+          "text": "c) Las prestaciones económicas derivadas de la acción protectora de la Seguridad Social están sujetas a tributación",
           "correct": true
         },
         {
-          "text": "Ninguna de las anteriores es cierta.",
+          "text": "d) Ninguna de las anteriores es cierta",
           "correct": false
         }
       ],
-      "explanation": "La opción C es la correcta porque, en términos generales, las prestaciones económicas de la Seguridad Social (como pensiones, subsidios, etc.) pueden estar sujetas a tributación (por ejemplo, el IRPF), dependiendo de su naturaleza y del importe. A no es correcta porque la titularidad de una prestación no puede simplemente transmitirse libremente a terceros. B es errónea dado que existen prestaciones incompatibles entre sí (por ejemplo, ciertas pensiones y subsidios). D queda descartada al ser C verdadera.",
-      "legal_reference": "Artículos 45 y siguientes del TRLGSS; Ley del IRPF en cuanto a tributación de prestaciones.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
+      "explanation": "Las prestaciones no son transmisibles ni embargables en la práctica y no todas son compatibles entre sí (descartando a) y b)). Sin embargo, las prestaciones contributivas tributan como rendimiento del trabajo según la Ley del IRPF.",
+      "legal_reference": "Ley 35/2006 del IRPF, art. 17.1; TRLGSS art. 151",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
     },
     {
-      "question": "Señale la respuesta correcta:",
+      "question": "Señale la respuesta correcta sobre la financiación de la Seguridad Social:",
       "answers": [
         {
-          "text": "La principal fuente de financiación de la Seguridad Social son los presupuestos generales.",
+          "text": "a) La principal fuente de financiación de la seguridad social son los presupuestos generales",
           "correct": false
         },
         {
-          "text": "La Seguridad Social solamente se financia mediante cotizaciones derivadas de la actividad laboral de cada trabajador.",
+          "text": "b) La seguridad social solamente se financia mediante cotizaciones derivadas de la actividad laboral de cada trabajador",
           "correct": false
         },
         {
-          "text": "La financiación de las prestaciones contributivas de la Seguridad Social se forma a través de la llamada cuota patronal y cuota obrera derivadas de la actividad de cada trabajador.",
+          "text": "c) La financiación de las prestaciones contributivas de la seguridad social se forma a través de llamadas cuota patronal y cuota obrera derivadas de la actividad de cada trabajador",
           "correct": true
         },
         {
-          "text": "B) y C) son ciertas.",
+          "text": "d) B) y C) son ciertas",
           "correct": false
         }
       ],
-      "explanation": "La respuesta correcta es la C porque la financiación de las prestaciones contributivas procede fundamentalmente de las cotizaciones (cuota empresarial y cuota obrera). La A no es totalmente cierta, pues si bien los Presupuestos Generales del Estado también pueden aportar financiación, la principal fuente para las prestaciones contributivas son las cotizaciones. La B es incorrecta porque la SS también se nutre de otras vías (aportaciones del Estado, etc.), no solo de cotizaciones. La D no puede ser correcta porque la opción B es falsa.",
-      "legal_reference": "Art. 103 y siguientes TRLGSS y Ley de Presupuestos Generales del Estado.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
+      "explanation": "Las prestaciones contributivas se financian mediante las cuotas a cargo de empresario y trabajador. Si bien existen transferencias estatales para déficit, no son la fuente principal; por tanto, solo c) es exacta.",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 109.1",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
     },
     {
-      "question": "Identifique los sujetos en el régimen especial de la Seguridad Social: a) personal estatutario de las administraciones públicas, b) trabajador por cuenta propia o autónoma, c) empleado del hogar, d) ninguna es correcta.",
+      "question": "Identifique los sujetos en el régimen especial de la seguridad social:",
       "answers": [
         {
-          "text": "Personal estatutario de las administraciones públicas.",
+          "text": "a) personal estatutario de las administraciones públicas",
           "correct": false
         },
         {
-          "text": "Trabajador por cuenta propia o autónomo.",
+          "text": "b) trabajador por cuenta propia o autónoma",
           "correct": true
         },
         {
-          "text": "Empleado del hogar.",
+          "text": "c) empleado del hogar",
           "correct": true
         },
         {
-          "text": "Ninguna es correcta.",
+          "text": "d) ninguna es correcta",
           "correct": false
         }
       ],
-      "explanation": "La respuesta es B/C, es decir, tanto los trabajadores autónomos (por cuenta propia) como los empleados del hogar se incluyen en regímenes especiales o sistemas especiales de la Seguridad Social (con sus propias particularidades). El personal estatutario de las administraciones públicas suele encuadrarse en un régimen distinto (MUFACE u otros sistemas de funcionarios si se trata de ciertos colectivos), por lo que la opción A no es la respuesta correcta para el régimen especial comúnmente denominado RETA (autónomos) o el régimen especial de empleados del hogar.",
-      "legal_reference": "Artículos 10, 11 y siguientes del TRLGSS; normativa específica de los regímenes especiales (autónomos y empleados del hogar).",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
+      "explanation": "El régimen especial incluye trabajadores por cuenta propia y del hogar. El personal estatutario está en un régimen propio (MUFACE, etc.), no en este régimen especial.",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 12.1",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
     },
     {
       "question": "Francisco comenzó a trabajar en la empresa Y TEX el pasado día 20 de febrero, habiendo gestionado su alta el día 10 de febrero. ¿Desde cuándo surte efecto dicha alta?",
       "answers": [
         {
-          "text": "A partir del día de inicio de la actividad.",
+          "text": "a) a partir del día inicio de la actividad",
           "correct": true
         },
         {
-          "text": "Surte efectos inmediatos desde el momento en que se gestiona.",
+          "text": "b) surte efectos inmediatos desde el momento en que se gestiona",
           "correct": false
         },
         {
-          "text": "El alta solo puede gestionarse el mismo día en que se inicia la actividad.",
+          "text": "c) el alta solo puede gestionarse el mismo día en que se inicia la actividad",
           "correct": false
         },
         {
-          "text": "Ninguna es correcta.",
+          "text": "d) ninguna es correcta",
           "correct": false
         }
       ],
-      "explanation": "La respuesta A es correcta porque, aunque la empresa haya tramitado el alta el día 10, la fecha efectiva de alta para el trabajador es la del inicio real de la actividad, que fue el día 20. El alta puede gestionarse con antelación, pero sus efectos comienzan cuando el trabajador inicia efectivamente la prestación de servicios.",
-      "legal_reference": "Artículos 17, 28 y siguientes del TRLGSS sobre afiliación, altas y efectos.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
+      "explanation": "El alta debe surtir efecto el primer día de la relación laboral (día de inicio de actividad), aunque se presente antes. La gestión previa no adelanta más el alta.",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 70.1",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
     },
     {
       "question": "Son situaciones asimiladas al alta:",
       "answers": [
         {
-          "text": "Convenio especial con la Seguridad Social.",
+          "text": "a) convenio especial con la seguridad social",
           "correct": false
         },
         {
-          "text": "Trabajadores trasladados por la empresa fuera de España.",
+          "text": "b) trabajador traslado por la empresa fuera de España",
           "correct": false
         },
         {
-          "text": "Vacaciones anuales retribuidas o no disfrutadas.",
+          "text": "c) vacaciones anuales retribuidas o no disfrutadas",
           "correct": false
         },
         {
-          "text": "Todas son correctas.",
+          "text": "d) todas son correctas",
           "correct": true
         }
       ],
-      "explanation": "La opción D es la correcta porque todas las situaciones mencionadas (convenio especial, trabajadores desplazados al extranjero, vacaciones anuales retribuidas no disfrutadas al finalizar contrato, etc.) están contempladas como supuestos de 'situación asimilada al alta'.",
-      "legal_reference": "Artículo 166 TRLGSS, que regula las situaciones asimiladas al alta.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
+      "explanation": "El TRLGSS enumera diversas situaciones asimiladas (vacaciones no disfrutadas, convenio especial, traslado al extranjero, huelga, desempleo total) en su art. 166.",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 166",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
     },
     {
       "question": "La entidad competente en materia de gestión del alta de un trabajador:",
       "answers": [
         {
-          "text": "Tesorería General de la Seguridad Social (TGSS).",
+          "text": "a) Tesorería General de la Seguridad Social (TGSS)",
           "correct": true
         },
         {
-          "text": "Instituto Nacional de la Seguridad Social (INSS).",
+          "text": "b) Instituto Nacional de la Seguridad Social (INSS)",
           "correct": false
         },
         {
-          "text": "Mutuas colaboradoras con la Seguridad Social.",
+          "text": "c) Mutuas colaboradoras con la seguridad social",
           "correct": false
         },
         {
-          "text": "Ninguna es correcta.",
+          "text": "d) ninguna es correcta",
           "correct": false
         }
       ],
-      "explanation": "La TGSS es el órgano encargado de la afiliación, altas, bajas y variaciones de datos de los trabajadores en la Seguridad Social. El INSS se ocupa principalmente de la gestión y reconocimiento de prestaciones. Las mutuas colaboran en contingencias profesionales, no en la gestión de altas propiamente dicha.",
-      "legal_reference": "Artículos 14, 16 y 17 TRLGSS; Funciones de la TGSS recogidas en el Reglamento General de Cotización y Recaudación.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "Identifique los supuestos expresamente excluidos del régimen general de la Seguridad Social:",
-      "answers": [
-        {
-          "text": "Los servicios amistosos, benévolos o de buena vecindad.",
-          "correct": true
-        },
-        {
-          "text": "Las relaciones laborales de carácter especial.",
-          "correct": false
-        },
-        {
-          "text": "No existen exclusiones expresas del régimen general de la seguridad social.",
-          "correct": false
-        },
-        {
-          "text": "Ninguna es correcta.",
-          "correct": false
-        }
-      ],
-      "explanation": "La respuesta A es la correcta, porque estos servicios, al no implicar una verdadera relación laboral retribuida, están excluidos del ámbito de aplicación del Régimen General de la Seguridad Social. Las relaciones laborales de carácter especial (opción B) sí están incluidas, si bien con particularidades. La C es errónea porque sí existen exclusiones expresas.",
-      "legal_reference": "Art. 7 TRLGSS y normativa que define los supuestos de no inclusión en el Régimen General.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "Identifique los sujetos incluidos en los llamados sistemas especiales de la Seguridad Social:",
-      "answers": [
-        {
-          "text": "Artistas.",
-          "correct": false
-        },
-        {
-          "text": "Trabajadores por cuenta ajena agrario.",
-          "correct": false
-        },
-        {
-          "text": "Trabajador ferroviario.",
-          "correct": false
-        },
-        {
-          "text": "Todas son correctas.",
-          "correct": true
-        }
-      ],
-      "explanation": "La opción D es la correcta porque tanto los artistas en espectáculos públicos como los trabajadores por cuenta ajena agrarios y los ferroviarios (integrados con ciertas particularidades) se enmarcan en sistemas especiales dentro del Régimen General, cada uno con su normativa específica.",
-      "legal_reference": "Artículos 11, 136 y 137 TRLGSS; normas específicas de integración de artistas, agrarios y otros colectivos en sistemas especiales.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "Con respecto a los regímenes de la Seguridad Social:",
-      "answers": [
-        {
-          "text": "Los sistemas especiales se encuadran dentro del Régimen General.",
-          "correct": true
-        },
-        {
-          "text": "Todos los trabajadores que realizan su actividad por cuenta ajena se encuadran en los llamados sistemas especiales.",
-          "correct": false
-        },
-        {
-          "text": "Los sistemas especiales se encuadran dentro del Régimen Especial debido a la peculiaridad de las actividades profesionales.",
-          "correct": false
-        },
-        {
-          "text": "Existen tres regímenes: Régimen General, Especial y régimen de sistemas especiales.",
-          "correct": false
-        }
-      ],
-      "explanation": "La opción A es la correcta: los sistemas especiales forman parte del Régimen General, con normas de cotización y protección específicas para determinados colectivos. Las demás opciones no se ajustan a la estructura real del sistema de la Seguridad Social.",
-      "legal_reference": "Artículos 11, 136 y 137 TRLGSS.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "Las personas que prestan servicios en entidades o instituciones de carácter benéfico-social...",
-      "answers": [
-        {
-          "text": "No se incluyen en el Régimen General por ser de naturaleza benéfico-social.",
-          "correct": false
-        },
-        {
-          "text": "Se incluyen en el Régimen General si prestan servicios retribuidos mediante un salario.",
-          "correct": true
-        },
-        {
-          "text": "Se incluyen en el Régimen Especial.",
-          "correct": false
-        },
-        {
-          "text": "Ninguna de las respuestas es correcta.",
-          "correct": false
-        }
-      ],
-      "explanation": "La B es la opción correcta: siempre que exista una relación laboral con salario, el trabajador entra en el ámbito del Régimen General, independientemente de que la entidad sea benéfico-social. La naturaleza benéfica de la institución no excluye la protección si hay relación laboral retribuida. A no es correcta, C tampoco (no se trata de un régimen especial), y la D se descarta.",
-      "legal_reference": "Art. 7 TRLGSS y normativa sobre inclusión en el Régimen General.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "Ana B, 32 años, trabaja desde hace cinco años como auxiliar administrativo a media jornada en la empresa de su primo (desde el 1 de abril de 2017) y compagina dicha actividad con otro trabajo como dependienta, también a media jornada, en una tienda de discos. Señale lo correcto con respecto a su situación de alta y cotización en la Seguridad Social:",
-      "answers": [
-        {
-          "text": "Ana está dada de alta y cotizando en el régimen especial.",
-          "correct": false
-        },
-        {
-          "text": "Ana se encuentra en una situación de pluriempleo.",
-          "correct": true
-        },
-        {
-          "text": "Ana se encuentra en una situación de pluriactividad.",
-          "correct": false
-        },
-        {
-          "text": "Cotiza en el régimen especial de pluri y pluriafiliación.",
-          "correct": false
-        }
-      ],
-      "explanation": "La opción B es la correcta porque Ana trabaja por cuenta ajena para dos empresas distintas, lo que se llama pluriempleo dentro del Régimen General. La pluriactividad (C) se da cuando una persona cotiza simultáneamente en dos regímenes distintos (p.e., Régimen General y Régimen de Autónomos).",
-      "legal_reference": "Art. 7 TRLGSS y normativa sobre pluriempleo (Reglamento General de Cotización).",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "Andrés trabaja, por las mañanas, a tiempo parcial como asalariado en una asesoría. Con permiso de su empresa, se ha dado de alta como autónomo para compaginar esa actividad con la de hacer declaraciones de renta. Andrés está en una situación de:",
-      "answers": [
-        {
-          "text": "Pluriempleo.",
-          "correct": false
-        },
-        {
-          "text": "Pluriactividad.",
-          "correct": true
-        },
-        {
-          "text": "Encuadramiento múltiple.",
-          "correct": false
-        },
-        {
-          "text": "Situación asimilada al alta.",
-          "correct": false
-        }
-      ],
-      "explanation": "La respuesta correcta es la B, pluriactividad, puesto que Andrés está dado de alta simultáneamente en el Régimen General (asalariado) y en el Régimen Especial de Trabajadores Autónomos. La pluriempleo ocurriría si trabajase en dos empleos por cuenta ajena.",
-      "legal_reference": "Art. 7, 9 TRLGSS y normativa específica sobre pluriactividad.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "Con respecto a los actos de encuadramiento relativos al inicio del trabajo de Ana en la tienda de discos señale la opción correcta:",
-      "answers": [
-        {
-          "text": "El empresario está obligado a realizar el alta de Ana a la Seguridad Social con carácter previo al inicio de la actividad.",
-          "correct": false
-        },
-        {
-          "text": "Con independencia de si la gestión de dichos actos de encuadramiento es realizada con carácter previo al inicio de la actividad, los efectos de alta y cotización se producirán a partir del día en que se inicie la actividad profesional.",
-          "correct": false
-        },
-        {
-          "text": "Ana es el sujeto responsable de la gestión de los actos de encuadramiento, pudiendo realizarlos desde el momento en que inicie la actividad y hasta un máximo de tres días.",
-          "correct": false
-        },
-        {
-          "text": "A y B son ciertas.",
-          "correct": true
-        }
-      ],
-      "explanation": "La opción D es la correcta porque tanto la obligación del empresario de dar de alta antes del inicio de la actividad (A) como el hecho de que los efectos de alta y cotización se retrotraen al día real de inicio del trabajo (B) son ciertas. C es errónea, pues la responsabilidad principal del alta recae en el empresario, no en el trabajador.",
-      "legal_reference": "Art. 16 y 28 TRLGSS sobre la obligación empresarial de alta y sus efectos.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "Juana, español, trabajador por cuenta ajena de una empresa española, ha sido trasladado por dicha empresa para realizar su actividad laboral en Bélgica durante seis meses. Señale la correcta con respecto a su situación en el Sistema de Seguridad Social Español:",
-      "answers": [
-        {
-          "text": "Alta especial.",
-          "correct": false
-        },
-        {
-          "text": "Alta real.",
-          "correct": false
-        },
-        {
-          "text": "Alta asimilada.",
-          "correct": true
-        },
-        {
-          "text": "Alta presunta.",
-          "correct": false
-        }
-      ],
-      "explanation": "La opción C es la correcta porque el trabajador desplazado al extranjero por su empresa normalmente mantiene una situación asimilada al alta (cuando se cumplen los requisitos legales y existe desplazamiento temporal). No se considera alta real en el territorio español, ni es un tipo de 'alta especial' ni 'alta presunta'.",
-      "legal_reference": "Art. 166 TRLGSS y normativa sobre trabajadores desplazados en la Unión Europea.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "En relación al alta del trabajador, identifique las situaciones que son consideradas asimiladas al alta:",
-      "answers": [
-        {
-          "text": "Todas aquellas situaciones en las que el trabajador no se encuentra en situación de alta real como consecuencia de un incumplimiento del empresario.",
-          "correct": false
-        },
-        {
-          "text": "Vacaciones anuales retribuidas y no disfrutadas, situación de desempleo total.",
-          "correct": false
-        },
-        {
-          "text": "Suscripción de un convenio con la Seguridad Social, situación de huelga y cierre patronal.",
-          "correct": false
-        },
-        {
-          "text": "Todas las anteriores son ciertas.",
-          "correct": true
-        }
-      ],
-      "explanation": "La opción D es la correcta porque todos los supuestos enumerados (incumplimiento del empresario, vacaciones retribuidas y no disfrutadas, desempleo total con cotización, convenio especial, huelga y cierre patronal) son situaciones asimiladas al alta para la protección de determinadas prestaciones.",
-      "legal_reference": "Artículo 166 TRLGSS; se enumeran en la normativa esos casos específicos de asimilación al alta.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "El convenio especial derivado de un acuerdo entre la Seguridad Social y el trabajador, por el que este se compromete a abonar las cotizaciones a su exclusivo cargo para mantener el derecho a determinadas prestaciones...",
-      "answers": [
-        {
-          "text": "Es una situación de alta real.",
-          "correct": false
-        },
-        {
-          "text": "Es una situación de alta asimilada.",
-          "correct": true
-        },
-        {
-          "text": "Es un supuesto de alta de pleno derecho.",
-          "correct": false
-        },
-        {
-          "text": "El trabajador se encuentra en situación de baja con respecto al sistema de Seguridad Social.",
-          "correct": false
-        }
-      ],
-      "explanation": "La correcta es B: la suscripción de un convenio especial implica una situación asimilada al alta, puesto que no es un alta real (no hay trabajo efectivo), pero sí mantiene determinados derechos de protección social mediante el pago directo de cotizaciones.",
-      "legal_reference": "Art. 166 TRLGSS y normativa que regula el convenio especial (Orden TAS/2865/2003).",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "Señale la opción correcta:",
-      "answers": [
-        {
-          "text": "El sistema de seguridad social español atiende todas las necesidades de todos los ciudadanos sin límites.",
-          "correct": false
-        },
-        {
-          "text": "El requisito de residir de forma legal y efectiva en España es un requisito para el acceso a prestaciones de la seguridad social de naturaleza no contributiva.",
-          "correct": true
-        },
-        {
-          "text": "El sistema de la seguridad social es principalmente de tipo no contributivo y residualmente de tipo contributivo.",
-          "correct": false
-        },
-        {
-          "text": "El principal requisito para acceder a las prestaciones de la seguridad social en su modalidad no contributiva es la filiación y alta en la seguridad social a través de la actividad laboral.",
-          "correct": false
-        }
-      ],
-      "explanation": "La opción B es correcta porque, en las prestaciones no contributivas, uno de los requisitos esenciales es la residencia legal y efectiva en España, junto con los límites de rentas. A es errónea: el sistema no atiende sin límites. C es falso: el sistema español es predominantemente contributivo, complementado con prestaciones no contributivas. D es errónea: para la no contributiva no hace falta la alta laboral, sino cumplir los requisitos de residencia y carencia de recursos.",
-      "legal_reference": "Art. 7, 363 y ss. TRLGSS (pensiones no contributivas); requisitos de residencia en España.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "Relativo a las mutuas colaboradoras con la seguridad social, señale la opción correcta:",
-      "answers": [
-        {
-          "text": "Son entidades gestoras de la seguridad social.",
-          "correct": false
-        },
-        {
-          "text": "Son asociaciones de empresarios que reparten sus beneficios según lo estipulado anualmente por el ministerio.",
-          "correct": false
-        },
-        {
-          "text": "Gestionan las prestaciones de la seguridad social mediante el pago delegado.",
-          "correct": true
-        },
-        {
-          "text": "Ninguna es cierta.",
-          "correct": false
-        }
-      ],
-      "explanation": "La opción C es la correcta. Las mutuas no son entidades gestoras públicas sino entidades colaboradoras sin ánimo de lucro constituidas por empresarios para gestionar contingencias profesionales (y ciertas contingencias comunes) a través de mecanismos como el pago delegado. A es incorrecta, B describe erróneamente su naturaleza y D se descarta al ser C verdadera.",
-      "legal_reference": "Art. 80 y siguientes del TRLGSS, referentes a las Mutuas Colaboradoras con la SS.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "María es titular de una prestación de viudedad por importe de 700 euros mensuales desde 2015. Desde el 12 de julio de 2023 no la ha recibido. ¿Qué opciones tiene María?",
-      "answers": [
-        {
-          "text": "Puede reclamar la totalidad de las cuantías dejadas de percibir pues el plazo de prescripción para ello es de 5 años.",
-          "correct": true
-        },
-        {
-          "text": "Puede reclamar la totalidad de las cuantías dejadas de percibir pues el plazo de prescripción es imprescriptible.",
-          "correct": false
-        },
-        {
-          "text": "Puede reclamar la totalidad de las cuantías dejadas de percibir ya que la prestación de viudedad es imprescriptible.",
-          "correct": false
-        },
-        {
-          "text": "Ninguna es cierta.",
-          "correct": false
-        }
-      ],
-      "explanation": "La respuesta correcta es A. Existen plazos de prescripción para reclamar prestaciones no percibidas en su momento; en el caso de la Seguridad Social, el plazo general para reclamar atrasos suele ser de 5 años (salvo excepciones concretas). Por tanto, no es imprescriptible (B y C erróneas).",
-      "legal_reference": "Artículos 53 y 55 de la Ley de Procedimiento Administrativo Común; Art. 53 TRLGSS (prescripción de derechos).",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "Señale la opción correcta:",
-      "answers": [
-        {
-          "text": "El sistema de seguridad social español es de naturaleza principalmente contributiva y residualmente no contributiva.",
-          "correct": true
-        },
-        {
-          "text": "Solo existen prestaciones de naturaleza contributiva.",
-          "correct": false
-        },
-        {
-          "text": "A y B son correctas.",
-          "correct": false
-        },
-        {
-          "text": "Ninguna es correcta.",
-          "correct": false
-        }
-      ],
-      "explanation": "La respuesta A es la correcta, pues la mayoría de las prestaciones se basan en las cotizaciones (contributivas) y, de modo complementario, existen prestaciones no contributivas. B es errónea porque sí existen las no contributivas.",
-      "legal_reference": "Artículos 2, 42 y 363 TRLGSS.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "Identifique los sujetos incluidos en el campo de aplicación del Régimen General:",
-      "answers": [
-        {
-          "text": "Funcionarios de la administración local con fecha de ingreso 7 de marzo de 2005; trabajador/socio de una cooperativa con funciones de dirección y control efectivo sobre la sociedad.",
-          "correct": false
-        },
-        {
-          "text": "Trabajador del hogar, agrario, manipulado y empaquetado de tomate fresco; trabajadores de manipulado, empaquetado, envasado y comercialización del plátano.",
-          "correct": true
-        },
-        {
-          "text": "Actividad de voluntariado y sin retribución; trabajadores del mar.",
-          "correct": false
-        },
-        {
-          "text": "Trabajadores por cuenta ajena, autónomo, personal de investigación.",
-          "correct": false
-        }
-      ],
-      "explanation": "La opción B se considera la adecuada por tratarse de trabajadores por cuenta ajena en actividades que normalmente se encuadran en el Régimen General o en sistemas especiales dentro del propio Régimen General (p.e., empleadas del hogar, agrarios). A no es correcta porque los funcionarios de administración local pueden estar en un régimen distinto (clases pasivas, si su ingreso es anterior a cierta fecha, o Régimen General si es más reciente, pero el enunciado es impreciso). C mezcla voluntariado sin retribución (que no genera relación laboral). D confunde la figura del autónomo (Régimen Especial) con el Régimen General.",
-      "legal_reference": "Art. 7 TRLGSS y normativa sobre campo de aplicación del Régimen General y sistemas especiales.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "Señale la opción correcta:",
-      "answers": [
-        {
-          "text": "La afiliación y alta a la seguridad social son obligatorias y únicas para todo el territorio nacional y vitalicias.",
-          "correct": false
-        },
-        {
-          "text": "El alta a la seguridad social es un acto de encuadramiento obligatorio, pero no vitalicio.",
-          "correct": true
-        },
-        {
-          "text": "El alta a la seguridad social constituye un título jurídico necesario para el acceso a las prestaciones tanto contributivas como no contributivas.",
-          "correct": false
-        },
-        {
-          "text": "La obligación de cotizar a la seguridad social se inicia desde que el trabajador es afiliado a la seguridad social y se mantiene para toda la vida, con independencia del alta.",
-          "correct": false
-        }
-      ],
-      "explanation": "La opción B es la correcta. La afiliación es única y vitalicia, pero el alta es un acto obligatorio y relativo a cada relación laboral, no es 'para siempre'. La A confunde afiliación con alta. La C es errónea porque para prestaciones no contributivas no se requiere alta laboral. La D también es incorrecta, ya que la obligación de cotizar se vincula al período de alta efectiva.",
-      "legal_reference": "Art. 15 y 16 TRLGSS sobre afiliación y alta.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "Señale en cuál de las siguientes entidades de la seguridad social se unifican todos los recursos financieros, teniendo a su cargo la custodia de fondos, valores y créditos y los servicios de recaudación de las obligaciones de cotización:",
-      "answers": [
-        {
-          "text": "Tesorería General de la Seguridad Social (TGSS).",
-          "correct": true
-        },
-        {
-          "text": "Instituto Nacional de la Seguridad Social (INSS).",
-          "correct": false
-        },
-        {
-          "text": "Mutuas colaboradoras con la Seguridad Social.",
-          "correct": false
-        },
-        {
-          "text": "Ninguna de las anteriores.",
-          "correct": false
-        }
-      ],
-      "explanation": "La TGSS es la entidad encargada de la recaudación, custodia y gestión de los recursos financieros de la Seguridad Social. El INSS se ocupa de la gestión y reconocimiento de prestaciones, y las Mutuas colaboran en contingencias profesionales, pero no centralizan todos los recursos del Sistema.",
-      "riferimientos_normativi": "Art. 3 y ss. del Real Decreto 1314/1984 y TRLGSS sobre funciones de la TGSS.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "La situación de huelga y cierre patronal se considera:",
-      "answers": [
-        {
-          "text": "Alta especial.",
-          "correct": false
-        },
-        {
-          "text": "Alta real.",
-          "correct": false
-        },
-        {
-          "text": "Alta asimilada.",
-          "correct": true
-        },
-        {
-          "text": "Alta presunta.",
-          "correct": false
-        }
-      ],
-      "explanation": "La opción C es la correcta, ya que la legislación considera la huelga legal y el cierre patronal como situaciones asimiladas al alta, garantizando la protección de determinados derechos mientras dure la suspensión del contrato.",
-      "riferimientos_normativi": "Art. 166 TRLGSS y Estatuto de los Trabajadores.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "Los trabajadores españoles trasladados por su empresa al extranjero se encuentran, a efectos de la seguridad social...",
-      "answers": [
-        {
-          "text": "En situación de alta real.",
-          "correct": false
-        },
-        {
-          "text": "En situación de alta asimilada.",
-          "correct": true
-        },
-        {
-          "text": "Únicamente podrán estar vinculados al sistema de seguridad social del país en el que ejerzan la actividad.",
-          "correct": false
-        },
-        {
-          "text": "No tienen ningún derecho a la protección de la seguridad social española porque no residen en España.",
-          "correct": false
-        }
-      ],
-      "explanation": "La respuesta correcta es la B: durante el tiempo de desplazamiento, se les considera en situación asimilada al alta en España, siempre que se cumplan las reglas de desplazamiento y los convenios internacionales o comunitarios, evitando la pérdida de protección.",
-      "riferimientos_normativi": "Art. 166 TRLGSS; Reglamentos comunitarios sobre coordinación de sistemas de Seguridad Social.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "En la empresa Obras de construcción S.L., uno de sus trabajadores ha sufrido un accidente laboral porque no contaba con los EPI que el empresario debía facilitar. Ante esta situación, son susceptibles de aplicación los siguientes principios:",
-      "answers": [
-        {
-          "text": "Principio de automaticidad.",
-          "correct": false
-        },
-        {
-          "text": "Recargo de las prestaciones.",
-          "correct": false
-        },
-        {
-          "text": "Reintegro de las prestaciones indebidas.",
-          "correct": false
-        },
-        {
-          "text": "A) y B) son correctas.",
-          "correct": true
-        }
-      ],
-      "explanation": "La opción D es la correcta: se aplica el principio de automaticidad de las prestaciones (el trabajador recibe la prestación) y, además, puede haber un recargo de prestaciones por falta de medidas de seguridad del empresario. El reintegro de prestaciones indebidas (C) no es el caso típico aquí, sino el recargo de prestaciones al empresario culpable de la falta de medidas de seguridad.",
-      "legal_reference": "Art. 164 TRLGSS (recargo de prestaciones por falta de medidas de seguridad).",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "Señale la opción correcta:",
-      "answers": [
-        {
-          "text": "El sistema de seguridad social español atiende todas las necesidades de todos los ciudadanos sin límites.",
-          "correct": false
-        },
-        {
-          "text": "El requisito de residir de forma legal y efectiva en España es un requisito para el acceso a las prestaciones de la seguridad social de naturaleza no contributiva.",
-          "correct": false
-        },
-        {
-          "text": "El sistema de la seguridad social es principalmente de tipo no contributivo y residualmente de tipo contributivo.",
-          "correct": false
-        },
-        {
-          "text": "El principal requisito para acceder a las prestaciones de la seguridad social en su modalidad no contributiva es la afiliación y alta a la seguridad social a través de la actividad laboral.",
-          "correct": true
-        }
-      ],
-      "explanation": "Aquí la respuesta señalada como correcta según el orden es la D. Sin embargo, hay cierta discordancia con la formulación (pues normalmente la no contributiva exige residencia y escasez de recursos, no alta en la SS). Siguiendo estrictamente la clave dada (respuesta B en la pregunta 20, y ahora la clave indica que la 30 es la D), se traslada que la D 'es la correcta en este test'. No obstante, conceptualmente podría contradecir la lógica habitual. Dado el orden oficial suministrado, se marca D como ‘correcta’ en el contexto de este cuestionario.",
-      "riferimientos_normativi": "Cuestionario interno. Nota: En la normativa real, para las no contributivas se exige residencia y falta de recursos, no la afiliación. Se sigue la clave oficial dada.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "Francisco comenzó a trabajar en la empresa YTEX el pasado día 20 de febrero, habiendo gestionado su alta el día 10 de febrero. ¿Desde cuándo surte efecto dicha alta?",
-      "answers": [
-        {
-          "text": "A partir del día de inicio de la actividad.",
-          "correct": true
-        },
-        {
-          "text": "Surte efectos inmediatos desde el momento en que se gestiona.",
-          "correct": false
-        },
-        {
-          "text": "El alta solo puede gestionarse el mismo día en que se inicia la actividad.",
-          "correct": false
-        },
-        {
-          "text": "Ninguna de las anteriores es correcta.",
-          "correct": false
-        }
-      ],
-      "explanation": "Es la misma pregunta que la n.º 7 con formulación similar. La respuesta correcta es la A: surte efectos desde el día en que el trabajador inicia realmente su prestación de servicios, aunque se hubiera tramitado antes.",
-      "legal_reference": "Art. 16 y 28 TRLGSS.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "Son situaciones asimiladas al alta:",
-      "answers": [
-        {
-          "text": "Convenio especial con la seguridad social.",
-          "correct": false
-        },
-        {
-          "text": "Trabajadores trasladados por la empresa fuera de España.",
-          "correct": false
-        },
-        {
-          "text": "Vacaciones anuales retribuidas y no disfrutadas.",
-          "correct": false
-        },
-        {
-          "text": "Todas son correctas.",
-          "correct": true
-        }
-      ],
-      "explanation": "Igual que la pregunta n.º 8. Todas esas situaciones —convenio especial, desplazados fuera de España, vacaciones retribuidas no disfrutadas— se consideran asimiladas al alta. Por ello la D es la correcta.",
-      "legal_reference": "Art. 166 TRLGSS.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "La entidad competente en materia de gestión de alta de un trabajador:",
-      "answers": [
-        {
-          "text": "Tesorería General de la Seguridad Social (TGSS).",
-          "correct": true
-        },
-        {
-          "text": "Instituto Nacional de la Seguridad Social (INSS).",
-          "correct": false
-        },
-        {
-          "text": "Mutuas colaboradoras con la Seguridad Social.",
-          "correct": false
-        },
-        {
-          "text": "Ninguna es correcta.",
-          "correct": false
-        }
-      ],
-      "explanation": "Repetición de la misma cuestión que la n.º 9. La TGSS es la competente para tramitar el alta. Por tanto, la opción A es la correcta.",
-      "legal_reference": "Art. 14 y 16 TRLGSS.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "Identifique los sujetos incluidos en el régimen especial de la seguridad social: a) personal estatutario de las administraciones públicas, b) trabajadores por cuenta propia o autónomo, c) empleada del hogar, d) ninguna es correcta.",
-      "answers": [
-        {
-          "text": "Personal estatutario de las administraciones públicas.",
-          "correct": false
-        },
-        {
-          "text": "Trabajadores por cuenta propia o autónomo.",
-          "correct": true
-        },
-        {
-          "text": "Empleada del hogar.",
-          "correct": true
-        },
-        {
-          "text": "Ninguna es correcta.",
-          "correct": false
-        }
-      ],
-      "explanation": "Se repite en esencia lo tratado en la n.º 6. La respuesta combinada B/C es la válida. El autónomo y el hogar tienen regímenes especiales (RETA y Sistema Especial para Empleados de Hogar). El personal estatutario suele ir a Mutualidades de funcionarios o al Régimen General con particularidades.",
-      "legal_reference": "Artículos 10 y 11 TRLGSS.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
+      "explanation": "La TGSS es la administración encargada de la afiliación e inscripción de empresas y trabajadores (actos de encuadramiento) según TRLGSS art. 61.",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 61",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
     },
     {
       "question": "Identifique los supuestos expresamente excluidos del régimen general de la seguridad social:",
       "answers": [
         {
-          "text": "Los servicios amistosos benévolos o de buena vecindad.",
+          "text": "a) los servicios amistosos benévolos o buena vecindad",
           "correct": true
         },
         {
-          "text": "Las relaciones laborales de carácter especial.",
+          "text": "b) las relaciones laborales de carácter especial",
           "correct": false
         },
         {
-          "text": "No existen exclusiones expresas del régimen general.",
+          "text": "c) no existen exclusiones expresas del régimen general de la seguridad social",
           "correct": false
         },
         {
-          "text": "Ninguna es correcta.",
+          "text": "d) ninguna es correcta",
           "correct": false
         }
       ],
-      "explanation": "Es básicamente la misma pregunta que la n.º 10. Los servicios amistosos o de buena vecindad están fuera del Régimen General. Por ello, la A es la opción acertada.",
-      "legal_reference": "Art. 7 TRLGSS.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
+      "explanation": "El TRLGSS excluye expresamente los servicios amistosos de beneficencia (art. 3), mientras que las relaciones especiales tienen su régimen propio.",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 3",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
+    },
+    {
+      "question": "Identifique los sujetos incluidos en los llamados sistemas especiales de la seguridad social:",
+      "answers": [
+        {
+          "text": "a) artistas",
+          "correct": false
+        },
+        {
+          "text": "b) trabajadores por cuenta ajena agrario",
+          "correct": false
+        },
+        {
+          "text": "c) trabajador ferroviario",
+          "correct": false
+        },
+        {
+          "text": "d) todas son correctas",
+          "correct": true
+        }
+      ],
+      "explanation": "Los sistemas especiales (Art. 11 TRLGSS) incluyen artistas, agrarios, ferroviarios y otros colectivos con normas específicas dentro del régimen general.",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 11",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
+    },
+    {
+      "question": "Con respecto a los regímenes de la Seguridad social:",
+      "answers": [
+        {
+          "text": "a) Los sistemas especiales Se encuadran dentro del régimen Especial debido a la peculiaridad de las actividades profesionales que integra",
+          "correct": false
+        },
+        {
+          "text": "b) Todos los trabajadores que realizan su actividad por cuenta ajena sí encuadran en los llamados sistemas especiales",
+          "correct": false
+        },
+        {
+          "text": "c) los sistemas especiales se encuadran dentro del régimen general",
+          "correct": true
+        },
+        {
+          "text": "d) existen tres regímenes: régimen general, especial y régimen de sistemas especiales",
+          "correct": false
+        }
+      ],
+      "explanation": "Los sistemas especiales no constituyen un régimen independiente, sino una parte del régimen general con normas específicas (TRLGSS art. 11).",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 11",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
+    },
+    {
+      "question": "Las personas que prestan servicios en entidades o instituciones de carácter benéfico-social",
+      "answers": [
+        {
+          "text": "a) no se incluyen en el régimen general por ser de naturaleza benéfico-social",
+          "correct": false
+        },
+        {
+          "text": "b) se incluyen en el Régimen General si prestan servicios retribuidos mediante un salario",
+          "correct": true
+        },
+        {
+          "text": "c) se incluyen en el régimen especial",
+          "correct": false
+        },
+        {
+          "text": "d) ninguna de las respuestas es correcta",
+          "correct": false
+        }
+      ],
+      "explanation": "Si el servicio es retribuido, el trabajador se encuadra en el régimen general (TRLGSS art. 1.1.a).",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 1.1.a",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
+    },
+    {
+      "question": "Ana B, 32 años, trabaja desde hace cinco años como auxiliar administrativo a media jornada en la empresa de su primo y compagina dicha actividad con otro trabajo a media jornada en una tienda de discos. Señale lo correcto con respecto a su situación de alta y cotización en la Seguridad Social:",
+      "answers": [
+        {
+          "text": "a) Ana está dada de alta y cotizando en el régimen especial",
+          "correct": false
+        },
+        {
+          "text": "b) Ana se encuentra en una situación de pluriempleo",
+          "correct": false
+        },
+        {
+          "text": "c) Ana se encuentra en una situación de pluriactividad",
+          "correct": true
+        },
+        {
+          "text": "d) cotiza en el régimen especial de pluri y pluri afiliación",
+          "correct": false
+        }
+      ],
+      "explanation": "La concurrencia de dos empleos por cuenta ajena simultáneos genera pluriactividad, no pluriempleo (único empleo) ni régimen especial.",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 6",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
+    },
+    {
+      "question": "Andrés trabaja por las mañanas a tiempo parcial como asalariado y se da de alta como autónomo para compaginar ambas actividades. Andrés está en situación de:",
+      "answers": [
+        {
+          "text": "a) pluriempleo",
+          "correct": false
+        },
+        {
+          "text": "b) pluriactividad",
+          "correct": true
+        },
+        {
+          "text": "c) encuadramiento múltiple",
+          "correct": false
+        },
+        {
+          "text": "d) situación asimilada al alta",
+          "correct": false
+        }
+      ],
+      "explanation": "Tratándose de trabajo por cuenta ajena y por cuenta propia simultáneos, hablamos de pluriactividad (TRLGSS art. 6).",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 6",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
+    },
+    {
+      "question": "Con respecto a los actos de encuadramiento relativos al inicio del trabajo de Ana en la tienda de discos señale la opción correcta:",
+      "answers": [
+        {
+          "text": "a) el empresario está obligado a realizar el alta de Ana a la Seguridad Social con carácter previo al inicio de la actividad",
+          "correct": true
+        },
+        {
+          "text": "b) con independencia de si la gestión es previa o en plazo, los efectos del alta y cotización se producirán a partir del día en que se inicie la actividad profesional",
+          "correct": true
+        },
+        {
+          "text": "c) Ana es responsable de la gestión de los actos de encuadramiento",
+          "correct": false
+        },
+        {
+          "text": "d) A y B son ciertas",
+          "correct": true
+        }
+      ],
+      "explanation": "El empresario debe dar de alta antes del inicio y, aunque gestione con retraso, el alta y cotización surten efecto el día de inicio (TRLGSS art. 70).",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 70",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
+    },
+    {
+      "question": "Juana, trabajador por cuenta ajena español, trasladado a Bélgica por seis meses. Señala su situación en el Sistema de Seguridad Social Español:",
+      "answers": [
+        {
+          "text": "a) alta especial",
+          "correct": false
+        },
+        {
+          "text": "b) alta real",
+          "correct": false
+        },
+        {
+          "text": "c) alta asimilada",
+          "correct": true
+        },
+        {
+          "text": "d) alta presunta",
+          "correct": false
+        }
+      ],
+      "explanation": "El traslado al extranjero genera una situación asimilada al alta (TRLGSS art. 166 y art. 164).",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), arts. 164 y 166",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
+    },
+    {
+      "question": "En relación a la alta del trabajador, identifique las situaciones que son consideradas asimiladas al alta:",
+      "answers": [
+        {
+          "text": "a) incumplimiento del empresario en actos de encuadramiento",
+          "correct": false
+        },
+        {
+          "text": "b) vacaciones anuales retribuidas y no disfrutadas; desempleo total",
+          "correct": false
+        },
+        {
+          "text": "c) suscripción de convenio especial; huelga y cierre patronal",
+          "correct": false
+        },
+        {
+          "text": "d) todas las anteriores son ciertas",
+          "correct": true
+        }
+      ],
+      "explanation": "El artículo 166 TRLGSS enumera todas estas situaciones como asimiladas al alta.",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 166",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
+    },
+    {
+      "question": "El convenio especial derivado de un acuerdo con la Seguridad Social, por el que el trabajador abona las cotizaciones a su cargo para mantener derecho a prestaciones, es:",
+      "answers": [
+        {
+          "text": "a) una situación de alta real",
+          "correct": false
+        },
+        {
+          "text": "b) una situación de alta asimilada",
+          "correct": true
+        },
+        {
+          "text": "c) un supuesto de alta de pleno derecho",
+          "correct": false
+        },
+        {
+          "text": "d) el trabajador se encuentra en situación de baja",
+          "correct": false
+        }
+      ],
+      "explanation": "El convenio especial se considera asimilado al alta, no alta real, según TRLGSS art. 166.1.b.",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 166.1.b",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
+    },
+    {
+      "question": "Señale la opción correcta sobre el acceso a prestaciones no contributivas:",
+      "answers": [
+        {
+          "text": "a) el sistema atiende todas las necesidades sin límites",
+          "correct": false
+        },
+        {
+          "text": "b) residir legal y efectivamente en España es requisito para las prestaciones no contributivas",
+          "correct": true
+        },
+        {
+          "text": "c) el sistema es principalmente no contributivo",
+          "correct": false
+        },
+        {
+          "text": "d) el principal requisito es estar afiliado y dado de alta",
+          "correct": false
+        }
+      ],
+      "explanation": "Para prestaciones no contributivas se exige residencia legal y efectiva en España (TRLGSS art. 4.1).",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 4.1",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
+    },
+    {
+      "question": "Relativo a las mutuas colaboradoras con la seguridad social señale la opción correcta:",
+      "answers": [
+        {
+          "text": "a) son entidades gestoras de la seguridad social",
+          "correct": false
+        },
+        {
+          "text": "b) son asociaciones de empresarios que reparten beneficios",
+          "correct": false
+        },
+        {
+          "text": "c) gestionan las prestaciones mediante el pago delegado",
+          "correct": true
+        },
+        {
+          "text": "d) ninguna es cierta",
+          "correct": false
+        }
+      ],
+      "explanation": "Las mutuas colaboran gestionando prestaciones de accidentes de trabajo y enfermedades profesionales mediante pago delegado (TRLGSS art. 83).",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 83",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
+    },
+    {
+      "question": "María, titular de viudedad de 700 € mensuales, no ha cobrado desde el 12 de julio de 2023. ¿Qué puede hacer?",
+      "answers": [
+        {
+          "text": "a) reclamar la totalidad pues el plazo de prescripción es de 5 años",
+          "correct": true
+        },
+        {
+          "text": "b) reclamar la totalidad pues el plazo de prescripción para ello",
+          "correct": false
+        },
+        {
+          "text": "c) reclamar pues la viudedad es imprescriptible",
+          "correct": false
+        },
+        {
+          "text": "d) ninguna es cierta",
+          "correct": false
+        }
+      ],
+      "explanation": "Las prestaciones prescríbense a los cinco años (TRLGSS art. 93.2), por lo que María puede reclamar las cantidades no percibidas desde julio de 2018 en adelante.",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 93.2",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
+    },
+    {
+      "question": "Señale la opción correcta sobre la naturaleza de las prestaciones:",
+      "answers": [
+        {
+          "text": "a) el sistema es principalmente contributivo y residualmente no contributivo",
+          "correct": true
+        },
+        {
+          "text": "b) solo existen prestaciones de naturaleza contributiva",
+          "correct": false
+        },
+        {
+          "text": "c) a y b son correctas",
+          "correct": false
+        },
+        {
+          "text": "d) ninguna es correcta",
+          "correct": false
+        }
+      ],
+      "explanation": "El sistema español se basa principalmente en cotizaciones (contributivo) y, de forma subsidiaria, en transferencias estatales para prestaciones no contributivas.",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 109.1",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
+    },
+    {
+      "question": "Identifique los sujetos incluidos en el campo de aplicación del régimen general:",
+      "answers": [
+        {
+          "text": "a) funcionarios de la administración local con fecha de ingreso 7 de marzo de 2005; trabajador/socio de una cooperativa con funciones de dirección y control efectivo",
+          "correct": false
+        },
+        {
+          "text": "b) trabajador del hogar; agrario de manipulado y empaquetado de tomate; trabajadores de comercialización del plátano",
+          "correct": false
+        },
+        {
+          "text": "c) actividad de voluntariado sin retribución; trabajadores del mar",
+          "correct": false
+        },
+        {
+          "text": "d) ninguna de las anteriores es cierta",
+          "correct": true
+        }
+      ],
+      "explanation": "Ni los funcionarios locales ni las actividades voluntarias sin retribución ni el personal marítimo ni cooperativistas de dirección se encuadran automáticamente en el régimen general (TRLGSS arts. 1 y 9).",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), arts. 1 y 9",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
+    },
+    {
+      "question": "Señale la opción correcta sobre afiliación y alta:",
+      "answers": [
+        {
+          "text": "a) la afiliación y alta son obligatorias, únicas y vitalicias",
+          "correct": false
+        },
+        {
+          "text": "b) el alta es un acto obligatorio no vitalicio",
+          "correct": false
+        },
+        {
+          "text": "c) el alta constituye título jurídico necesario para acceder a prestaciones",
+          "correct": true
+        },
+        {
+          "text": "d) la obligación de cotizar se inicia con la afiliación y es vitalicia",
+          "correct": false
+        }
+      ],
+      "explanation": "El alta es requisito legal para acceder a prestaciones contributivas y no contributivas (TRLGSS art. 5). No es vitalicia.",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 5",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
+    },
+    {
+      "question": "Señale en cuál entidad se unifican los recursos financieros y la recaudación de cotizaciones:",
+      "answers": [
+        {
+          "text": "a) Tesorería General de la Seguridad Social (TGSS)",
+          "correct": true
+        },
+        {
+          "text": "b) Instituto Nacional de la Seguridad Social (INSS)",
+          "correct": false
+        },
+        {
+          "text": "c) Mutuas colaboradoras con la seguridad social",
+          "correct": false
+        },
+        {
+          "text": "d) ninguna de las anteriores",
+          "correct": false
+        }
+      ],
+      "explanation": "La TGSS custodia fondos, valores y créditos y gestiona la recaudación de las cotizaciones (TRLGSS art. 60).",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 60",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
+    },
+    {
+      "question": "La situación de huelga y cierre patronal se considera:",
+      "answers": [
+        {
+          "text": "a) alta especial",
+          "correct": false
+        },
+        {
+          "text": "b) alta real",
+          "correct": false
+        },
+        {
+          "text": "c) alta asimilada",
+          "correct": true
+        },
+        {
+          "text": "d) alta presunta",
+          "correct": false
+        }
+      ],
+      "explanation": "La huelga y el cierre patronal figuran como situaciones asimiladas al alta (TRLGSS art. 166).",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 166",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
+    },
+    {
+      "question": "Los trabajadores españoles trasladados al extranjero por su empresa se encuentran a efectos de la SS:",
+      "answers": [
+        {
+          "text": "a) en situación de alta real",
+          "correct": false
+        },
+        {
+          "text": "b) en situación de alta asimilada",
+          "correct": true
+        },
+        {
+          "text": "c) únicamente vinculados al sistema del país donde trabajan",
+          "correct": false
+        },
+        {
+          "text": "d) sin derecho a protección por no ser residentes",
+          "correct": false
+        }
+      ],
+      "explanation": "El traslado al extranjero se considera asimilado al alta (TRLGSS art. 164 y art. 166).",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), arts. 164 y 166",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
+    },
+    {
+      "question": "En un accidente laboral por falta de EPI, son susceptibles de aplicación los siguientes principios:",
+      "answers": [
+        {
+          "text": "a) principio de automaticidad",
+          "correct": true
+        },
+        {
+          "text": "b) recargo de las prestaciones",
+          "correct": true
+        },
+        {
+          "text": "c) reintegro de prestaciones indebidas",
+          "correct": false
+        },
+        {
+          "text": "d) a y b son correctas",
+          "correct": true
+        }
+      ],
+      "explanation": "Ante incumplimiento empresarial, se aplica el principio de automaticidad (pago sin prueba de culpa) y recargo de prestaciones al empresario (TRLGSS art. 76).",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 76",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
+    },
+    {
+      "question": "Francisco comenzó a trabajar en Y TEX el 20 de febrero, con alta gestionada el 10 de febrero. ¿Desde cuándo surte efecto?",
+      "answers": [
+        {
+          "text": "a) a partir del día de inicio de la actividad",
+          "correct": true
+        },
+        {
+          "text": "b) surte efectos inmediatos desde la gestión",
+          "correct": false
+        },
+        {
+          "text": "c) solo puede gestionarse el mismo día de inicio",
+          "correct": false
+        },
+        {
+          "text": "d) ninguna es correcta",
+          "correct": false
+        }
+      ],
+      "explanation": "El alta surte efecto el primer día de la relación laboral, aunque se tramite antes (TRLGSS art. 70).",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 70",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
+    },
+    {
+      "question": "Son situaciones asimiladas al alta:",
+      "answers": [
+        {
+          "text": "a) convenio especial con la seguridad social",
+          "correct": false
+        },
+        {
+          "text": "b) trabajadores trasladados al extranjero",
+          "correct": false
+        },
+        {
+          "text": "c) vacaciones anuales retribuidas y no disfrutadas",
+          "correct": false
+        },
+        {
+          "text": "d) todas son correctas",
+          "correct": true
+        }
+      ],
+      "explanation": "Según art. 166 TRLGSS, incluye convenio especial, traslado al extranjero, vacaciones no disfrutadas, huelga y desempleo total.",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 166",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
+    },
+    {
+      "question": "La entidad competente en materia de gestión de alta de un trabajador:",
+      "answers": [
+        {
+          "text": "a) Tesorería General de la SS (TGSS)",
+          "correct": true
+        },
+        {
+          "text": "b) Instituto Nacional de SS (INSS)",
+          "correct": false
+        },
+        {
+          "text": "c) Mutuas colaboradoras con SS",
+          "correct": false
+        },
+        {
+          "text": "d) ninguna es correcta",
+          "correct": false
+        }
+      ],
+      "explanation": "La TGSS gestiona la afiliación y alta de trabajadores y empresas (TRLGSS art. 61).",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 61",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
+    },
+    {
+      "question": "Identifique los sujetos incluidos en el régimen especial de la seguridad social:",
+      "answers": [
+        {
+          "text": "a) personal estatutario de las administraciones públicas",
+          "correct": false
+        },
+        {
+          "text": "b) trabajadores por cuenta propia o autónomo",
+          "correct": true
+        },
+        {
+          "text": "c) empleada del hogar",
+          "correct": true
+        },
+        {
+          "text": "d) ninguna es correcta",
+          "correct": false
+        }
+      ],
+      "explanation": "El régimen especial abarca autónomos y empleados del hogar (TRLGSS art. 12), no al personal estatutario.",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 12",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
+    },
+    {
+      "question": "Identifique los supuestos expresamente excluidos del régimen general de la seguridad social:",
+      "answers": [
+        {
+          "text": "a) los servicios amistosos benévolos o de buena vecindad",
+          "correct": true
+        },
+        {
+          "text": "b) las relaciones laborales de carácter especial",
+          "correct": false
+        },
+        {
+          "text": "c) no existen exclusiones expresas del régimen general",
+          "correct": false
+        },
+        {
+          "text": "d) ninguna es correcta",
+          "correct": false
+        }
+      ],
+      "explanation": "El art. 3 TRLGSS excluye estas actividades benéficas; las relaciones especiales tienen su propio régimen.",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 3",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
     },
     {
       "question": "Identifique los sujetos incluidos en los llamados sistemas especiales de la SS:",
       "answers": [
         {
-          "text": "Artistas",
+          "text": "a) artistas",
           "correct": false
         },
         {
-          "text": "Trabajador por cuenta ajena agrario",
+          "text": "b) trabajador por cuenta ajena agrario",
           "correct": false
         },
         {
-          "text": "Trabajador ferroviario",
+          "text": "c) trabajador ferroviario",
           "correct": false
         },
         {
-          "text": "Todas son correctas.",
+          "text": "d) todas son correctas",
           "correct": true
         }
       ],
-      "explanation": "Igual que la pregunta n.º 11. Todas son colectivos incluidos en sistemas especiales (artistas, agrarios, ferroviarios). Por ello, la respuesta correcta es la D.",
-      "legal_reference": "Artículos 11, 136 y 137 TRLGSS.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
+      "explanation": "Los sistemas especiales (art. 11 TRLGSS) incluyen artistas, agrarios, ferroviarios y otros colectivos.",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 11",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
     },
     {
-      "question": "Juan, español, trabajador por cuenta ajena de una empresa española, ha sido trasladado por dicha empresa para realizar la actividad laboral en Bélgica durante 6 meses. Señala la correcta con respecto a su situación con el sistema de Seguridad Social español:",
+      "question": "Juan, trabajador español traslado a Bélgica por seis meses. Señala su situación en el sistema español:",
       "answers": [
         {
-          "text": "Alta especial.",
+          "text": "a) Alta especial",
           "correct": false
         },
         {
-          "text": "Alta real.",
+          "text": "b) Alta real",
           "correct": false
         },
         {
-          "text": "Alta asimilada.",
+          "text": "c) Alta asimilada",
           "correct": true
         },
         {
-          "text": "Alta presunta.",
+          "text": "d) Alta presunta",
           "correct": false
         }
       ],
-      "explanation": "Es la misma situación de trabajador desplazado. La correcta es la C: se considera alta asimilada mientras dura el desplazamiento temporal.",
-      "legal_reference": "Art. 166 TRLGSS; Reglamentos UE de coordinación.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "En relación con el alta del trabajador, identifique las situaciones que son consideradas asimiladas al alta:",
-      "answers": [
-        {
-          "text": "Todas aquellas situaciones en las que el trabajador no se encuentra en alta real por incumplimiento del empresario.",
-          "correct": false
-        },
-        {
-          "text": "Vacaciones anuales retribuidas y no disfrutadas, desempleo total.",
-          "correct": false
-        },
-        {
-          "text": "Suscripción de un convenio especial con la Seguridad Social, huelga y cierre patronal.",
-          "correct": false
-        },
-        {
-          "text": "Todas las anteriores son ciertas.",
-          "correct": true
-        }
-      ],
-      "explanation": "Idéntica pregunta a la n.º 18. Se consideran todas esas situaciones asimiladas al alta. Por ello, la respuesta D es la correcta.",
-      "legal_reference": "Art. 166 TRLGSS.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "Señale la opción correcta:",
-      "answers": [
-        {
-          "text": "La principal fuente de financiación de la Seguridad Social son los impuestos y presupuestos generales.",
-          "correct": false
-        },
-        {
-          "text": "La Seguridad Social solamente se financia mediante cuotas/cotizaciones derivadas de la actividad laboral de cada trabajador.",
-          "correct": false
-        },
-        {
-          "text": "La financiación de las prestaciones contributivas de la Seguridad Social se realiza a través de las cuotas patronal y obrera derivadas de la actividad laboral.",
-          "correct": true
-        },
-        {
-          "text": "B) y C) son ciertas.",
-          "correct": false
-        }
-      ],
-      "explanation": "Es básicamente una repetición de la temática de la pregunta n.º 5 o 23. Lo correcto es que la financiación contributiva depende de las cuotas empresariales y obreras, por ello la C es la adecuada. Ni se financia exclusivamente de los impuestos ni exclusivamente de cotizaciones.",
-      "legal_reference": "Art. 103 y ss. TRLGSS; Ley de Presupuestos Generales.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "A efectos de Seguridad Social, los trabajadores españoles trasladados por su empresa al extranjero durante un período de tiempo se encuentran:",
-      "answers": [
-        {
-          "text": "En situación de alta real.",
-          "correct": false
-        },
-        {
-          "text": "En situación de alta asimilada.",
-          "correct": false
-        },
-        {
-          "text": "Únicamente podrán estar vinculados al sistema de la seguridad social del país en el que ejerzan la actividad.",
-          "correct": false
-        },
-        {
-          "text": "No tienen ningún derecho a la protección de la Seguridad Social española porque no residen en España.",
-          "correct": true
-        }
-      ],
-      "explanation": "Según la clave oficial, aquí se marca D como respuesta correcta, si bien la lógica general indicaría 'alta asimilada' (opción B). De nuevo, se sigue la clave proporcionada: se marca la D como 'acertada' en este test, aunque normativamente no es lo habitual (pues sí tienen protección como desplazados).",
-      "legal_reference": "Se reitera que según la normativa real, lo habitual es la asimilación al alta (Art. 166 TRLGSS). Aquí se sigue la clave dada en el enunciado.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "En la empresa “Obras de construcción S.L.”, uno de sus trabajadores ha sufrido un accidente laboral al no contar con los EPIs obligatorios. Ante esta situación, son susceptibles de aplicación los siguientes principios:",
-      "answers": [
-        {
-          "text": "Principio de automaticidad.",
-          "correct": false
-        },
-        {
-          "text": "Recargo de las prestaciones.",
-          "correct": false
-        },
-        {
-          "text": "Reintegro de las prestaciones indebidas.",
-          "correct": false
-        },
-        {
-          "text": "A) y B) son correctas.",
-          "correct": true
-        }
-      ],
-      "explanation": "Repetición de la pregunta n.º 29. La correcta es la D: se aplica el principio de automaticidad y puede haber un recargo de prestaciones por falta de medidas de seguridad.",
-      "legal_reference": "Art. 164 TRLGSS.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "Francisco comenzó a trabajar en la empresa “YTEX” el pasado día 20 de febrero, habiendo la empresa gestionado su alta el día 10 de febrero. ¿Desde cuándo surte efecto dicha alta?",
-      "answers": [
-        {
-          "text": "A partir del día de inicio de la actividad.",
-          "correct": true
-        },
-        {
-          "text": "Surte efectos inmediatos desde el momento en que se gestiona.",
-          "correct": false
-        },
-        {
-          "text": "El alta solo puede gestionarse el mismo día en que se inicia la actividad.",
-          "correct": false
-        },
-        {
-          "text": "Ninguna de las anteriores es correcta.",
-          "correct": false
-        }
-      ],
-      "explanation": "Repetición de la pregunta n.º 7 y 31. La respuesta correcta es la A: el alta produce efectos desde el día real de inicio de trabajo.",
-      "legal_reference": "Art. 16 y 28 TRLGSS.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "Identifique los sujetos incluidos en el campo de aplicación del Régimen General:",
-      "answers": [
-        {
-          "text": "Funcionarios de la Administración local con fecha de ingreso 7 de marzo de 2005, trabajador/socio de una cooperativa con funciones de dirección y control efectivo de la sociedad.",
-          "correct": false
-        },
-        {
-          "text": "Trabajador del hogar, agrario, manipulado y empaquetado de tomate fresco, trabajadores de manipulado, envasado y comercialización del plátano.",
-          "correct": true
-        },
-        {
-          "text": "Actividad de voluntariado y sin retribución, trabajadores del mar.",
-          "correct": false
-        },
-        {
-          "text": "Ninguna de las anteriores es cierta.",
-          "correct": false
-        }
-      ],
-      "explanation": "Es similar a la n.º 24. La correcta es la B, que representa colectivos encuadrados en el Régimen General o en sus sistemas especiales (hogar, agrario).",
-      "legal_reference": "Art. 7 TRLGSS.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
-    },
-    {
-      "question": "Las personas que prestan servicios en entidades o instituciones de carácter benéfico-social...",
-      "answers": [
-        {
-          "text": "No se incluyen en el Régimen General por ser de naturaleza benéfico-social.",
-          "correct": false
-        },
-        {
-          "text": "Se incluyen en el Régimen General si prestan servicios retribuidos mediante un salario.",
-          "correct": true
-        },
-        {
-          "text": "Se incluyen en el Régimen Especial.",
-          "correct": false
-        },
-        {
-          "text": "Ninguna de las respuestas es correcta.",
-          "correct": false
-        }
-      ],
-      "explanation": "Repetición de la pregunta n.º 13. La respuesta correcta es la B: si existe verdadera relación laboral con salario, se encuadra en el Régimen General, independientemente del carácter benéfico-social de la entidad.",
-      "legal_reference": "Art. 7 TRLGSS.",
-      "original_file": "1° Parcial D. Trabajo y SS AGGIORNATO 04 03 25.docx"
+      "explanation": "El traslado al extranjero se asimila al alta (TRLGSS arts. 164 y 166).",
+      "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), arts. 164, 166",
+      "original_file": "1 Parcial D. Trabajo y SS AGGIORNATO 19 03 25"
     }
   ]
 }
