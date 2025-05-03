@@ -24,7 +24,7 @@ def load_json_file(filepath):
         return None
 
 def discover_quiz_files(folder):
-    """Recursively find Test Humanidades 1 parcial AGGIORNATO 10 03 25.json quiz files."""
+    """Recursively find 6.4_Test Humanidades 1 parcial AGGIORNATO 10 03 25.json quiz files."""
     quiz_files = []
     for root, dirs, files in os.walk(folder):
         for f in files:
