@@ -1,0 +1,930 @@
+{
+  "file_number": 1,
+  "file_name": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx",
+  "questions": [
+    {
+      "question": "La finalidad con la que se realiza el delito de torturas es:",
+      "answers": [
+        { "text": "La de obtener una confesión", "correct": true },
+        { "text": "La de ultrajar a otra persona", "correct": false },
+        { "text": "La de lesionar a otra persona", "correct": false },
+        { "text": "La de coartar la libertad", "correct": false }
+      ],
+      "explanation": "Secondo l’art. 174 del Codice Penale, il delitto di tortura è caratterizzato dall'intento di ottenere confessioni, informazioni o di punire la vittima; le altre finalità non rientrano nella definizione normativa.",
+      "legal_reference": "Art. 174 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones acerca de las calumnias es incierta, de acuerdo con lo establecido en el código penal?",
+      "answers": [
+        { "text": "Que es calumnia la imputación de un delito o falta hecha con conocimiento de su falsedad o temerario desprecio hacia la verdad", "correct": false },
+        { "text": "Que las calumnias serán castigadas con distinta pena, prisión o multa, según que se propaguen con publicidad o no", "correct": false },
+        { "text": "Que la calumnia se reputará hecha con publicidad cuando se propaguen por medio de la imprenta, la radiodifusión o por cualquier otro medio de eficacia semejante", "correct": false },
+        { "text": "Que cuando concurra publicidad será responsable civil solidaria la persona física o jurídica propietaria del medio informativo a través del cual se haya propagado la calumnia", "correct": true }
+      ],
+      "explanation": "L’art. 208 CP dispone la responsabilidad civil solidaria del editor, direttore o direttori responsabili, non però del mero proprietario del mezzo: dunque l’affermazione è errata nella specificazione del soggetto responsabile.",
+      "legal_reference": "Art. 208 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "¿Cuál de las siguientes conductas no es punible con arreglo a nuestro Código Penal?",
+      "answers": [
+        { "text": "La de aquel que ejecutare o hiciere ejecutar a otra persona actos de exhibición obscena ante menores de edad", "correct": false },
+        { "text": "La de quien ejecutare o hiciere ejecutar a otra persona actos de exhibición obscena ante personas con discapacidad necesitadas de especial protección", "correct": false },
+        { "text": "La de quien, por cualquier medio indirecto exhibiere material pornográfico entre menores de edad o personas con discapacidad necesitadas de especial protección", "correct": true },
+        { "text": "La de aquel que, por cualquier medio directo, vendiere o difundiere material pornográfico entre menores de edad o personas con discapacidad necesitadas de especial protección", "correct": false }
+      ],
+      "explanation": "L’art. 189 CP punisce la diffusione o vendita di materiale pornografico, mentre la mera ‘esibizione’ indiretta non rientra espressamente nella fattispecie descritta.",
+      "legal_reference": "Art. 189 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "De acuerdo con lo señalado en el Código Penal una de las siguientes afirmaciones acerca de las injurias no es correcta ¿De cuál se trata?",
+      "answers": [
+        { "text": "Que las injurias de carácter leve dan lugar al tipo penal de delito de vejación injusta aplicable a cualquier persona", "correct": false },
+        { "text": "Que es injuria la acción o expresión que lesionan la dignidad de otra persona, menoscabando su fama o atentando contra su propia estimación", "correct": false },
+        { "text": "Que solamente será constitutiva de delito las injurias que, por su naturaleza, efectos y circunstancias, sean tenidas en el concepto público por graves", "correct": false },
+        { "text": "Que las injurias serán castigadas con pena de multa aun cuando se propagaran con publicidad", "correct": true }
+      ],
+      "explanation": "L’art. 208 CP distingue tra injurie leves (vejámenes) e injurie gravi: queste ultime richiedono la pubblicità per alcune aggravanti, ma non viene stabilita una multa automatica in tutti i casi di pubblicità.",
+      "legal_reference": "Art. 208 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "El delito de tortura regulado en el artículo 174 del Código Penal puede cometerse por:",
+      "answers": [
+        { "text": "El particular que, sometiere a otro, a condiciones o procedimientos que, por su naturaleza, duración u otras circunstancias le supongan sufrimientos físicos o mentales", "correct": false },
+        { "text": "El funcionario de instituciones penitenciarias o de centros de protección o corrección de menores, respecto de detenidos, internos o presos, siempre en el desempeño de su actividad profesional", "correct": false },
+        { "text": "Solo se puede cometer por autoridad o funcionario público, tanto en el ejercicio de su cargo como en su vida particular", "correct": true },
+        { "text": "Todas las anteriores son falsas", "correct": false }
+      ],
+      "explanation": "L’art. 174 CP punisce esclusivamente le condotte di tortura poste in essere da autorità o funzionario pubblico, sia nell’esercizio delle loro funzioni sia fuori di esse.",
+      "legal_reference": "Art. 174 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "En el delito de agresiones sexuales a menores de dieciséis años:",
+      "answers": [
+        { "text": "El libre consentimiento del menor de dieciséis años excluirá la responsabilidad penal cuando el autor sea una persona próxima al menor por edad y grado de desarrollo o madurez física y psicológica", "correct": true },
+        { "text": "El libre consentimiento del menor de dieciséis años no excluirá la responsabilidad penal cuando el autor sea una persona próxima al menor por edad y grado de desarrollo o madurez física y psicológica", "correct": false },
+        { "text": "El libre consentimiento del menor de dieciséis años excluirá la responsabilidad penal, aunque el autor no sea una persona próxima al menor por edad y grado de desarrollo o madurez física y psicológica", "correct": false },
+        { "text": "Ninguna es correcta", "correct": false }
+      ],
+      "explanation": "L’art. 183.4 CP esclude la punibilità se il minore ha più di 13 anni e la differenza d’età con l’adulto non supera i tre anni, riflettendo vicinanza di sviluppo.",
+      "legal_reference": "Art. 183.4 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "Comete un delito de exhibicionismo del artículo 185 del Código Penal:",
+      "answers": [
+        { "text": "El que ejecutare o hiciere ejecutar a otra persona actos de exhibición obscena ante menores de edad o personas con discapacidad necesitadas de especial protección", "correct": false },
+        { "text": "El que ejecutare o hiciere ejecutar a otra persona actos de exhibición obscena", "correct": true },
+        { "text": "El que ejecutare o hiciere ejecutar a otra persona actos de exhibición obscena ante menores de edad, exclusivamente", "correct": false },
+        { "text": "El que ejecutare o hiciere ejecutar a otra persona actos de exhibición obscena ante personas con discapacidad necesitadas de especial protección, exclusivamente", "correct": false }
+      ],
+      "explanation": "L’art. 185 CP sanziona qualsiasi esibizione oscena, indipendentemente dalla presenza di minori o persone vulnerabili; le aggravanti sono separate.",
+      "legal_reference": "Art. 185 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "Con arreglo a lo establecido en el Código Penal, ¿Cuál de las siguientes circunstancias no resulta exigible para poder castigar por el delito de omisión de socorro?",
+      "answers": [
+        { "text": "Que exista una persona que se halle desamparada y en peligro manifiesto y grave", "correct": false },
+        { "text": "Que la posibilidad de socorrerle sea sin riesgo propio", "correct": false },
+        { "text": "Que la posibilidad de socorrerle sea sin riesgo de terceros", "correct": false },
+        { "text": "Que la víctima lo fuere por accidente ocasionado fortuitamente por el que omitió el auxilio", "correct": true }
+      ],
+      "explanation": "L’art. 195 CP richiede soltanto l’esistenza di una persona in pericolo manifesta e la possibilità di soccorrerla senza rischi per sé e per altri; non rileva la causa dell’incidente.",
+      "legal_reference": "Art. 195 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "En función de lo establecido en el apartado 4 del artículo 177 bis del Código Penal, al delito de trata de seres humanos le corresponde la pena superior en grado a la pena prevista en el apartado 1 del mismo cuando concurra alguna de las siguientes circunstancias:",
+      "answers": [
+        { "text": "Si se ha puesto en peligro la vida o la integridad física o psíquica de las víctimas del delito", "correct": false },
+        { "text": "Cuando la víctima es especialmente vulnerable por razón de enfermedad, estado gestacional, discapacidad o situación personal, o es menor de edad", "correct": false },
+        { "text": "Si la víctima es una persona cuya situación de vulnerabilidad ha sido originada o agravada por el desplazamiento derivado de un conflicto armado o una catástrofe humanitaria", "correct": false },
+        { "text": "Ninguna de las anteriores es incorrecta", "correct": true }
+      ],
+      "explanation": "L’art. 177 bis.4 CP elenca tutte le tre circostanze quali aggravanti di primo grado, pertanto nessuna è da escludere.",
+      "legal_reference": "Art. 177 bis.4 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "¿Resulta constitutiva de delito, conforme a nuestro código penal, la Imputación de un hecho con conocimiento de su falsedad?",
+      "answers": [
+        { "text": "Sí, de un delito de calumnia", "correct": true },
+        { "text": "Sí, de un delito de injuria", "correct": false },
+        { "text": "Sí, de un delito de vejación injusta", "correct": false },
+        { "text": "No, la imputación de hechos no constituye delito alguno", "correct": false }
+      ],
+      "explanation": "L’imputazione di un fatto falso con coscienza della sua falsità configura la calunnia, ai sensi dell’art. 208 CP.",
+      "legal_reference": "Art. 208 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "En el delito de acoso laboral:",
+      "answers": [
+        { "text": "Es irrelevante que el sujeto activo esté en relación de superioridad o de igualdad respecto de la víctima", "correct": false },
+        { "text": "El sujeto activo ha de estar en situación de igualdad respecto de la víctima, constituyendo una modalidad agravada cuando se encuentra en relación de superioridad", "correct": false },
+        { "text": "El sujeto activo ha de estar en situación de superioridad respecto de la víctima", "correct": true },
+        { "text": "Ninguna de las anteriores es válida", "correct": false }
+      ],
+      "explanation": "L’art. 173 ter CP richiede che il molestatore sia in posizione di superiorità nei confronti della vittima per configurare il mobbing.",
+      "legal_reference": "Art. 173 ter CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "Con arreglo a lo establecido en el Código Penal, ¿Cuál de las siguientes modalidades no constituye la conducta típica del delito de descubrimiento de secretos?",
+      "answers": [
+        { "text": "Apoderarse de papeles, cartas, mensajes de correo electrónico o cualesquiera otros documentos o efectos personales", "correct": false },
+        { "text": "Interceptar telecomunicaciones", "correct": false },
+        { "text": "Realizar un seguimiento personal de la persona, llegando a escuchar conversaciones por detrás de la puerta", "correct": true },
+        { "text": "Utilizar artificios técnicos de escucha, transmisión, grabación o reproducción del sonido o de la imagen, o de cualquier otra señal de comunicación", "correct": false }
+      ],
+      "explanation": "L’art. 197 CP punisce l’accesso a documenti e l’intercettazione tecnica, ma non la mera sorveglianza fisica senza strumenti tecnici.",
+      "legal_reference": "Art. 197 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones es correcta, según el Código Penal, para el supuesto en que la revelación de secretos ajenos fuera cometida por un profesional?",
+      "answers": [
+        { "text": "Que se castiga menos gravemente (con la pena de inhabilitación especial reducida) al que revelare secretos ajenos de los que tenga conocimiento por razón de su oficio o sus relaciones laborales", "correct": true },
+        { "text": "Que se castiga más gravemente al profesional que, con incumplimiento de su obligación de sigilo o reserva, divulgue los secretos de otra persona", "correct": false },
+        { "text": "Que si la revelación hubiera sido cometida por imprudencia grave será castigada, pero no es punible cuando la imprudencia sea leve", "correct": false },
+        { "text": "Que el incumplimiento de una cláusula contractual de know-how es constitutiva de esta clase de delitos en todo caso", "correct": false }
+      ],
+      "explanation": "L’art. 197.3 CP prevede sanzioni ridotte per i professionisti che violino il segreto per ragioni d’ufficio o di rapporto di lavoro.",
+      "legal_reference": "Art. 197.3 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "¿Cuál de las siguientes finalidades no está prevista en el delito de trata de blancas?",
+      "answers": [
+        { "text": "La extracción de sus órganos corporales", "correct": false },
+        { "text": "La celebración de matrimonios forzados", "correct": false },
+        { "text": "La explotación para realizar actividades delictivas", "correct": false },
+        { "text": "Todas las anteriores están previstas como posibles finalidades de dicho delito", "correct": true }
+      ],
+      "explanation": "L’art. 177 bis CP include come scopi la prostituzione forzata, l’estrazione di organi, i matrimoni forzati e l’impiego in attività delittuose.",
+      "legal_reference": "Art. 177 bis CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "Conforme a lo previsto en el Código Penal, ¿cuál de las siguientes afirmaciones es correcta en aquel supuesto en que el sujeto activo de un delito de descubrimiento y revelación de secretos tuviera la condición de autoridad o funcionario público?",
+      "answers": [
+        { "text": "Que será necesario que dicha autoridad o funcionario público actúe fuera de los casos permitidos por la ley, sin mediar causa legal por delito, y prevaliéndose de su cargo", "correct": true },
+        { "text": "Que, en estos casos, el delito se castiga en su comisión dolosa más gravemente pero también se castiga la comisión por imprudencia grave", "correct": false },
+        { "text": "Que la consecuencia es con efectos penológicos, pues se impondrá en todo caso la pena de inhabilitación absoluta por recaer en el sujeto activo dicha cualidad", "correct": false },
+        { "text": "Que dicho delito no es aplicable a la autoridad o funcionario público, pues, su regulación se contiene de forma específica en los artículos 534 a 536 del CP", "correct": false }
+      ],
+      "explanation": "L’art. 197.4 CP aggravates la condotta se l’autorità abusi del proprio ufficio compiendo rivelazione non autorizzata.",
+      "legal_reference": "Art. 197.4 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "El acusado de injurias quedará exento de responsabilidad cuando:",
+      "answers": [
+        { "text": "Pruebe el hecho criminal que hubiere imputado", "correct": false },
+        { "text": "Pruebe la verdad de las imputaciones cuando estas estén dirigidas contra funcionarios públicos sobre hechos concernientes al ejercicio de sus cargos o referidos a la comisión de infracciones administrativas", "correct": true },
+        { "text": "Pruebe la verdad de las imputaciones cuando estas estén dirigidas contra funcionarios públicos, empresarios o personalidades relevantes de la vida social, sobre hechos concernientes al ejercicio de sus cargos o referidos a la comisión de faltas penales o infracciones administrativas", "correct": false },
+        { "text": "La respuesta A y C son correctas", "correct": false }
+      ],
+      "explanation": "Secondo l’art. 216 CP, l’imputazione difensiva di un fatto vero nei confronti di un pubblico ufficiale in relazione all’esercizio delle sue funzioni o a infrazioni amministrative esonera da responsabilità.",
+      "legal_reference": "Art. 216 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "En el delito de trata de seres humanos:",
+      "answers": [
+        { "text": "Se exige como elemento esencial que se capte y traslade a la víctima desde un país extranjero para ser explotada en territorio español", "correct": false },
+        { "text": "El consentimiento de la víctima menor de edad carece de valor alguno, aunque tal consentimiento se obtenga por medios no violentos", "correct": true },
+        { "text": "Se exige que la explotación de la víctima se lleve a cabo materialmente, no bastando para la perfección del delito el mero propósito o intención de explotación", "correct": false },
+        { "text": "No se admite la declaración de la víctima practicada en fase de instrucción como prueba preconstituida como medio de prueba válido para ser reproducido en el acto de juicio", "correct": false }
+      ],
+      "explanation": "L’art. 177 bis.1 CP stabilisce che il consenso del minore è irrilevante, anche se ottenuto senza violenza.",
+      "legal_reference": "Art. 177 bis.1 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "¿Cuál de las siguientes conductas no integra un delito de allanamiento de morada a que hace referencia nuestro Código Penal?",
+      "answers": [
+        { "text": "Aquella en la que, un particular, sin habitar en ella, entrare en morada ajena sin consentimiento del morador", "correct": false },
+        { "text": "Aquella en la que un particular, sin habitar en ella, entrare con consentimiento del morador, pero posteriormente se mantuviere en la misma contra la voluntad de su morador", "correct": false },
+        { "text": "Aquella en la que un particular, sin habitar en ella se mantuviere en morada ajena con consentimiento del morador", "correct": false },
+        { "text": "Todas las anteriores son falsas", "correct": true }
+      ],
+      "explanation": "L’art. 202 CP punisce sia l’ingresso sia la permanenza non autorizzata; nessuna delle ipotesi indicate è esclusa dalla fattispecie delittuosa.",
+      "legal_reference": "Art. 202 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "Si nos referimos a los delitos contra el honor una de las siguientes circunstancias agravantes no se contempla de forma expresa, por parte de nuestro Código Penal ¿De cuál se trata?",
+      "answers": [
+        { "text": "El precio, recompensa o promesa", "correct": false },
+        { "text": "El ensañamiento", "correct": true },
+        { "text": "La publicidad", "correct": false },
+        { "text": "Ninguna de las anteriores", "correct": false }
+      ],
+      "explanation": "L’art. 211 CP prevede come aggravanti la pubblicità e il fine di lucro, ma non l’‘ensañamiento’.",
+      "legal_reference": "Art. 211 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "Una de las siguientes circunstancias agravantes no es aplicable a los delitos de prostitución contemplados en el artículo 187 del Código Penal. ¿De cuál se trata?",
+      "answers": [
+        { "text": "Que el culpable se hubiera prevalido de su condición de autoridad, agente de ésta o funcionario público", "correct": false },
+        { "text": "Que el culpable perteneciera a una organización o grupo Criminal que se dedicara a la realización de tales actividades", "correct": false },
+        { "text": "Que para la ejecución del delito, el responsable se hubiera prevalido de una relación de superioridad o parentesco, por ser ascendiente, descendiente o hermano, por naturaleza o adopción, o afines, con la víctima", "correct": false },
+        { "text": "Que el culpable hubiera puesto en peligro, de forma dolosa o por imprudencia grave, la vida o salud de la víctima", "correct": true }
+      ],
+      "explanation": "L’art. 187 CP non inserisce tra le aggravanti il pericolo doloso o colposo per la vita o la salute della vittima.",
+      "legal_reference": "Art. 187 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "Señale cuál de las siguientes afirmaciones es correcta sobre el atentado contra la integridad moral:",
+      "answers": [
+        { "text": "Es preciso que la vejación sea meridianamente clara y extremadamente innecesaria", "correct": false },
+        { "text": "Si la autoridad o un funcionario público atentare contra la integridad moral de una persona, se le impondría, en todo caso, la pena de inhabilitación especial para empleo o cargo público", "correct": false },
+        { "text": "La diferencia entre este tipo y el delito de torturas, no estriba en la gravedad de la afrenta a la dignidad de las víctimas", "correct": false },
+        { "text": "Todas son correctas", "correct": true }
+      ],
+      "explanation": "L’art. 173 CP richiede vejazione chiara, prevede inabilità per pubblici ufficiali e distingue dalla tortura per grado di gravità e violenza.",
+      "legal_reference": "Art. 173 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "En función de lo establecido en el apartado 4 del artículo 177 bis del Código Penal, al delito de trata de seres humanos le corresponde la pena superior en grado a la pena prevista en el apartado 1 del mismo cuando concurra alguna de las siguientes circunstancias:",
+      "answers": [
+        { "text": "Si se ha puesto en peligro la vida o la integridad física o psíquica de las víctimas del delito", "correct": false },
+        { "text": "Cuando la víctima es especialmente vulnerable por razón de enfermedad, estado gestacional, discapacidad o situación personal, o es menor de edad", "correct": false },
+        { "text": "Si la víctima es una persona cuya situación de vulnerabilidad ha sido originada o agravada por el desplazamiento derivado de un conflicto armado o una catástrofe humanitaria", "correct": false },
+        { "text": "Ninguna de las anteriores es incorrecta", "correct": true }
+      ],
+      "explanation": "Le circostanze a), b) e c) sono tutte previste come aggravanti ex art. 177 bis.4 CP; dunque nessuna è da escludere.",
+      "legal_reference": "Art. 177 bis.4 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "Atendiendo a la LO 4/2023, de 27 de abril, que modificó el Código Penal:",
+      "answers": [
+        { "text": "El Código Penal distingue entre delito de abuso sexual y delito de agresión sexual", "correct": true },
+        { "text": "Todo acto de naturaleza sexual realizado sin consentimiento de la víctima se considerará agresión sexual", "correct": false },
+        { "text": "El nuevo artículo 178.1 del Código Penal define el delito de agresión sexual como cualquier acto que atente contra la libertad sexual de una persona, realizado con su consentimiento", "correct": false },
+        { "text": "La nueva regulación del Código Penal ha suprimido el delito de agresión sexual, regulando únicamente el delito de abuso sexual", "correct": false }
+      ],
+      "explanation": "La LO 4/2023 ha distinto i reati di abuso e aggressione sessuale, introducendo l’art. 178 CP per la seconda fattispecie.",
+      "legal_reference": "LO 4/2023, art. 178 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "En cuando al delito de omisión del deber de socorro:",
+      "answers": [
+        { "text": "El que no socorriere a una persona que se halle desamparada y en peligro manifiesto y grave, cuando pudiere hacerlo sin riesgo propio ni de terceros, será castigado con la pena de multa de tres a doce meses", "correct": true },
+        { "text": "El que no socorriere a una persona que se halle desamparada y en peligro manifiesto y grave, cuando pudiere hacerlo sin riesgo propio ni de terceros, será castigado con la pena de prisión de tres a doce meses", "correct": false },
+        { "text": "El que socorriere a una persona que se halle desamparada y en peligro manifiesto y grave, será castigado con la pena de multa de tres a doce meses", "correct": false },
+        { "text": "El artículo 196 está referido a los profesionales sanitarios. Expresa que cuando un profesional, estando obligado, niega asistencia sanitaria o abandona los servicios sanitarios, si esta actitud representa un riesgo grave para la salud de las personas, la pena será equivalente a la mitad superior, aunque sin inhabilitación especial para empleo o cargo público", "correct": false }
+      ],
+      "explanation": "L’art. 195 CP punisce l’omissione di soccorso con multa da 3 a 12 mesi se non soccorre senza rischi per sé e per altri.",
+      "legal_reference": "Art. 195 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "Siendo dos los moradores de una vivienda, ¿qué ocurre cuando uno de ellos consiente la entrada de un tercero, pero el otro se niega?",
+      "answers": [
+        { "text": "Que prevalece la voluntad del que consiente sobre la que del que deniega", "correct": false },
+        { "text": "Que prevalece la voluntad del que niega sobre la del que consiente", "correct": true },
+        { "text": "En este supuesto, deberá decidir un Juez", "correct": false },
+        { "text": "Ninguna es correcta", "correct": false }
+      ],
+      "explanation": "L’art. 202 CP tutela il dominio della morada: la volontà del titolare che nega l’accesso prevale su quella che lo concede.",
+      "legal_reference": "Art. 202 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "La acción típica de la calumnia se manifiesta en los siguientes elementos:",
+      "answers": [
+        { "text": "La imputación de un hecho sin ánimo doloso", "correct": false },
+        { "text": "Una imputación, debiendo ser la imputación de un hecho delictivo, concurriendo además un comportamiento doloso", "correct": false },
+        { "text": "Una imputación, debiendo ser la imputación de un hecho delictivo, no teniendo por qué observarse un comportamiento doloso", "correct": false },
+        { "text": "La imputación de un hecho con ánimo doloso", "correct": true }
+      ],
+      "explanation": "L’art. 208 CP definisce la calunnia come imputazione dolosa di un fatto criminoso falso.",
+      "legal_reference": "Art. 208 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "En cuanto a la perseguibilidad de los delitos de agresiones sexuales:",
+      "answers": [
+        { "text": "Será precisa la denuncia de la persona agraviada", "correct": false },
+        { "text": "Será precisa la denuncia de la persona agraviada, de su representante legal o querella del Ministerio Fiscal", "correct": true },
+        { "text": "Solamente se podrá perseguir si la persona agraviada lo denuncia", "correct": false },
+        { "text": "El representante legal de la persona agraviada no puede interponer denuncia", "correct": false }
+      ],
+      "explanation": "L’art. 84 CP stabilisce che per i reati contro la libertà e la integrità sessuale è necessaria denuncia della vittima, del rappresentante legale o querela del Ministero Pubblico.",
+      "legal_reference": "Art. 84 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "En el delito de agresiones sexuales a menores de dieciséis años:",
+      "answers": [
+        { "text": "El libre consentimiento del menor de dieciséis años excluirá la responsabilidad penal cuando el autor sea una persona próxima al menor por edad y grado de desarrollo o madurez física y psicológica", "correct": true },
+        { "text": "El libre consentimiento del menor de dieciséis años no excluirá la responsabilidad penal cuando el autor sea una persona próxima al menor por edad y grado de desarrollo o madurez física y psicológica", "correct": false },
+        { "text": "El libre consentimiento del menor de dieciséis años excluirá la responsabilidad penal, aunque el autor no sea una persona próxima al menor por edad y grado de desarrollo o madurez física y psicológica", "correct": false },
+        { "text": "Ninguna es correcta", "correct": false }
+      ],
+      "explanation": "Già risposto in domanda 6: l’art. 183.4 CP prevede l’esclusione della punibilità per minori di 16 anni se vicini per età e sviluppo.",
+      "legal_reference": "Art. 183.4 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "El Código Penal regula el delito de grooming o ciberacoso sexual a menores en el artículo 183:",
+      "answers": [
+        { "text": "El que, a través de internet, del teléfono o de cualquier otra tecnología de la información y la comunicación contacte con un menor de dieciséis años y realice actos dirigidos a embaucarle para que le facilite material pornográfico o le muestre imágenes pornográficas en las que se represente o aparezca un menor, será castigado con una pena de prisión de seis meses a dos años", "correct": true },
+        { "text": "El que, a través de internet, del teléfono o de cualquier otra tecnología de la información y la comunicación contacte con un menor de dieciocho años y realice actos dirigidos a embaucarle para que le facilite material pornográfico o le muestre imágenes pornográficas en las que se represente o aparezca un menor, será castigado con una pena de prisión de seis meses a dos años", "correct": false },
+        { "text": "Es un delito que no complementa a los delitos de agresión sexual cuando la víctima es un menor y a los de pornografía contra menores", "correct": false },
+        { "text": "Las respuestas a) y c) son correctas", "correct": false }
+      ],
+      "explanation": "L’art. 183 CP punisce il grooming esclusivamente nei confronti di minori di 16 anni con finalità pornografiche.",
+      "legal_reference": "Art. 183 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "Comete un delito de exhibicionismo del artículo 185 del Código Penal:",
+      "answers": [
+        { "text": "El que ejecutare o hiciere ejecutar a otra persona actos de exhibición obscena ante menores de edad o personas con discapacidad necesitadas de especial protección", "correct": false },
+        { "text": "El que ejecutare o hiciere ejecutar a otra persona actos de exhibición obscena", "correct": true },
+        { "text": "El que ejecutare o hiciere ejecutar a otra persona actos de exhibición obscena ante menores de edad, exclusivamente", "correct": false },
+        { "text": "El que ejecutare o hiciere ejecutar a otra persona actos de exhibición obscena ante personas con discapacidad necesitadas de especial protección, exclusivamente", "correct": false }
+      ],
+      "explanation": "Ripetizione della domanda 7: art. 185 CP punisce qualsiasi esibizione oscena.",
+      "legal_reference": "Art. 185 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "De los siguientes cuales son elementos del delito de homicidio?",
+      "answers": [
+        { "text": "La destrucción de una vida humana, mediante la acción de un sujeto activo", "correct": false },
+        { "text": "Que exista relación de causalidad", "correct": false },
+        { "text": "El ánimo homicida", "correct": false },
+        { "text": "Todas son correctas", "correct": true }
+      ],
+      "explanation": "L’art. 138 CP definisce il delitto di omicidio richiedendo l’azione, il nesso di causalità e il dolo, pertanto tutti gli elementi elencati sono necessari.",
+      "legal_reference": "Art. 138 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "En cuanto al delito de asesinato, ¿qué se entiende por alevosía?",
+      "answers": [
+        { "text": "Que el culpable cometa el delito contra las personas empleando en la ejecución medios, modos o formas que tiendan directamente a asegurar la comisión sin riesgo de defensa para la víctima", "correct": true },
+        { "text": "Que se aumente de forma inhumana el dolor de la víctima", "correct": false },
+        { "text": "Que se aproveche las especiales circunstancias de la víctima para cometer el delito", "correct": false },
+        { "text": "Todas son correctas", "correct": false }
+      ],
+      "explanation": "L’art. 139 CP qualifica come alevosía l’uso di mezzi o forme tali da garantire la sorpresa e l’impossibilità di reazione della vittima.",
+      "legal_reference": "Art. 139 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "¿Cuál de las siguientes no es una circunstancia cualificadora del delito de asesinato?",
+      "answers": [
+        { "text": "La alevosía", "correct": false },
+        { "text": "El ensañamiento", "correct": false },
+        { "text": "El uso de medios especialmente peligrosos", "correct": true },
+        { "text": "El realizar el hecho por precio, recompensa o promesa", "correct": false }
+      ],
+      "explanation": "L’art. 139 CP include quali circostanze qualificanti la alevosía, l’ensañamiento e il prezzo/promessa, ma non l’uso di mezzi pericolosi.",
+      "legal_reference": "Art. 139 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "¿Cuál de las siguientes es una circunstancia agravante específica en el delito de asesinato?",
+      "answers": [
+        { "text": "Que la víctima sea menor de edad", "correct": false },
+        { "text": "Que la víctima sea menor de 16 años", "correct": true },
+        { "text": "Que la víctima sea menor de 14 años", "correct": false },
+        { "text": "Que el delito se cometa por un hombre sobre mujer", "correct": false }
+      ],
+      "explanation": "L’art. 140 CP prevede l’inasprimento fino alla pena di reclusione permanente revisable se la vittima è minore di 16 anni o persona vulnerabile.",
+      "legal_reference": "Art. 140 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "¿Cuáles de los siguientes son requisitos para que se pueda cometer un delito de homicidio por omisión impropia?",
+      "answers": [
+        { "text": "La relación de causalidad entre la omisión y la muerte", "correct": true },
+        { "text": "Que la víctima se encontrara en una situación especialmente vulnerable", "correct": false },
+        { "text": "El autor necesariamente tiene que pertenecer a los cuerpos de seguridad del Estado", "correct": false },
+        { "text": "Todas son correctas", "correct": false }
+      ],
+      "explanation": "L’art. 15 CP contempla l’omissione impropria richiedendo il nesso di causalità e il dovere di garantire l’incolumità, senza necessità di appartenenza a corpi speciali né vulnerabilità speciale.",
+      "legal_reference": "Art. 15 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "En cuanto al delito de inducción al suicidio, ¿cuál de las siguientes afirmaciones es correcta?",
+      "answers": [
+        { "text": "Es necesario que el sujeto instigue o mueva el suicidio, aunque el ánimo del inducido estuviera más o menos predispuesto, pero no decidido", "correct": true },
+        { "text": "Es necesario que el sujeto instigue o mueva el suicidio, aunque el ánimo del inducido estuviera decidido", "correct": false },
+        { "text": "Cabe la inducción cuando la víctima es inimputable", "correct": false },
+        { "text": "Siempre se castigará como inducción en cualquier situación siempre que la víctima fuera menor de edad", "correct": false }
+      ],
+      "explanation": "L’art. 143 CP richiede l’influsso su un soggetto non ancora risoluto al suicidio; se già deciso, non sussiste induzione.",
+      "legal_reference": "Art. 143 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "En cuanto al aborto producido sin el consentimiento de la mujer, ¿cuál de las siguientes afirmaciones es falsa?",
+      "answers": [
+        { "text": "Lleva aparejada la pena de inhabilitación especial para ejercer cualquier profesión sanitaria", "correct": false },
+        { "text": "Se impondrán las mismas penas a quien haya obtenido el consentimiento de la mujer mediante violencia", "correct": false },
+        { "text": "Se impondrán las mismas penas a quien haya obtenido el consentimiento de la mujer mediante engaño", "correct": false },
+        { "text": "En el tipo solo se protege la vida humana", "correct": true }
+      ],
+      "explanation": "L’art. 144 CP tutela non solo la vita fetale ma anche la libertà della donna; dunque affermare che si protegge solo la vita è errato.",
+      "legal_reference": "Art. 144 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "En cuanto al delito de aborto, con consentimiento de la mujer, no autorizado por la ley, se castiga:",
+      "answers": [
+        { "text": "Solo a la mujer que consintiere el aborto", "correct": false },
+        { "text": "Solo al facultativo que practicara el aborto", "correct": false },
+        { "text": "Tanto a la mujer como al facultativo", "correct": true },
+        { "text": "Todas son correctas", "correct": false }
+      ],
+      "explanation": "L’art. 145 CP sanciona sia la donna che il medico quando l’aborto rientra nei casi disciplinati ma non autorizzato.",
+      "legal_reference": "Art. 145 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "¿En cuál de los siguientes casos se puede castigar a quien haya practicado un aborto con consentimiento de la mujer, en los casos permitidos por la ley?",
+      "answers": [
+        { "text": "Cuando no se haya comprobado que la mujer ha recibido la información previa relativa a los derechos, prestaciones y ayudas públicas", "correct": false },
+        { "text": "Cuando no haya transcurrido el periodo de espera", "correct": false },
+        { "text": "Cuando no se haya contado con los dictámenes técnicos preceptivos", "correct": false },
+        { "text": "Todas son correctas", "correct": true }
+      ],
+      "explanation": "La legge 2/2010 richiede informazione, periodo di riflessione e pareri tecnici: la loro assenza integra responsabilità penale.",
+      "legal_reference": "Ley Orgánica 2/2010",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "¿Está castigado el aborto por imprudencia?",
+      "answers": [
+        { "text": "Sí en todo caso", "correct": false },
+        { "text": "Sí, pero solo en el caso de imprudencia leve", "correct": false },
+        { "text": "Sí, pero solo en el caso de imprudencia grave", "correct": false },
+        { "text": "No, nunca", "correct": true }
+      ],
+      "explanation": "L’art. 152 CP punisce le lesioni da imprudenza, ma non contempla l’aborto per imprudenza come reato a sé stante.",
+      "legal_reference": "Art. 152 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "¿Existe la modalidad de tentativa en los delitos relativos a la manipulación genética?",
+      "answers": [
+        { "text": "No", "correct": true },
+        { "text": "Sí, pero solo en la modalidad de tentativa acabada", "correct": false },
+        { "text": "Sí, pero solo en la modalidad de tentativa inacabada", "correct": false },
+        { "text": "Sí, tanto en la modalidad de tentativa acabada como inacabada", "correct": false }
+      ],
+      "explanation": "L’art. 159 CP punisce direttamente la manipolazione genetica, senza prevedere forme di tentativo.",
+      "legal_reference": "Art. 159 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "En el delito de lesiones, el animus necandi:",
+      "answers": [
+        { "text": "Lo diferencia de la tentativa de homicidio", "correct": false },
+        { "text": "Es un elemento subjetivo imprescindible", "correct": false },
+        { "text": "Para determinarlo se emplean los datos externos que determinen la intención del autor", "correct": false },
+        { "text": "Todas son correctas", "correct": true }
+      ],
+      "explanation": "L’intenzione di uccidere (‘animus necandi’) distingue le lesioni dall’omicidio tentato; è soggetto e si ricava da circostanze esterne.",
+      "legal_reference": "Art. 138-147 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "En el delito de lesiones, el tratamiento médico se…",
+      "answers": [
+        { "text": "Todas las actividades médicas necesarias para curar una enfermedad incluida la primera asistencia", "correct": false },
+        { "text": "El restaurador del cuerpo para corregir mediante operaciones cualquier alteración funcional u orgánica causada por una lesión", "correct": true },
+        { "text": "El que se emplea exclusivamente en urgencias hospitalarias para curar el maltrato", "correct": false },
+        { "text": "Todas las anteriores son incorrectas", "correct": false }
+      ],
+      "explanation": "L’art. 147 CP precisa che il trattamento medico-chirurgico comprende le operazioni di ripristino funzionale conseguenti alla lesione.",
+      "legal_reference": "Art. 147 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "Se trata de un delito de lesiones agravado…",
+      "answers": [
+        { "text": "Cuando en la agresión se hubieran utilizado armas, instrumentos y objetos peligrosos, exclusivamente", "correct": false },
+        { "text": "Cuando la víctima fuese menor de 14 años o persona con discapacidad necesitada de especial protección", "correct": true },
+        { "text": "Cuando la víctima fuese una persona especialmente vulnerable que conviva con el autor", "correct": false },
+        { "text": "Cuando hubiese mediado ensañamiento pero nunca alevosía", "correct": false }
+      ],
+      "explanation": "L’art. 148 CP include come aggravante la vulnerabilità della vittima under 14 o con disabilità, oltre a alevosía e ensañamiento.",
+      "legal_reference": "Art. 148 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "En el delito de lesión, por resultado especialmente grave se entiende…",
+      "answers": [
+        { "text": "La pérdida o inutilidad de un órgano o miembro principal", "correct": true },
+        { "text": "La pérdida o inutilidad de una parte esencial del cuerpo", "correct": false },
+        { "text": "Una deformidad media", "correct": false },
+        { "text": "Todas son correctas", "correct": false }
+      ],
+      "explanation": "Secondo l’art. 149 CP rientrano nei risultati gravi la perdita o inutilità di organi o membri principali.",
+      "legal_reference": "Art. 149 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "La divulgación no consentida de imágenes de carácter íntimo…",
+      "answers": [
+        { "text": "Es un delito semipúblico que exclusivamente puede ser denunciado por la persona agravada", "correct": false },
+        { "text": "Es un delito que exige que la captación de la imagen la haya realizado la propia persona perjudicada", "correct": false },
+        { "text": "Es un delito que castiga la realización de fotografías o grabaciones a una persona especialmente vulnerable para posteriormente difundirlas", "correct": false },
+        { "text": "Todas son incorrectas", "correct": true }
+      ],
+      "explanation": "L’art. 197.7 CP prevede azione pubblica e non richiede che la vittima abbia originato l’immagine né che sia vulnerabile.",
+      "legal_reference": "Art. 197.7 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "Señale la respuesta correcta en cuanto al delito de amenazas",
+      "answers": [
+        { "text": "El mal deseado puede recaer exclusivamente sobre la persona y la propiedad", "correct": false },
+        { "text": "La diferencia con el delito de coacciones está en el momento temporal del mal deseado: en las amenazas el mal suele ser inminente y en las coacciones se aplaza", "correct": true },
+        { "text": "La persona sobre la que recae el mal puede ser tanto el propio amenazado como sus familiares directos de hasta segundo grado", "correct": false },
+        { "text": "El mal anunciado debe ser posible como un elemento necesario del tipo", "correct": false }
+      ],
+      "explanation": "L’art. 171 CP definisce le minacce e distingue le coazioni (plurioffensive e rinviate).",
+      "legal_reference": "Art. 171 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "En el delito de amenazas, están previstas varias modalidades, tales como:",
+      "answers": [
+        { "text": "El chantaje exigiendo una cantidad o recompensa bajo la amenaza de revelar o difundir hechos sobre la vida privada", "correct": true },
+        { "text": "La incitación a la violencia terrorista mediante la llamada pública a actos violentos", "correct": false },
+        { "text": "Las amenazas dirigidas a atemorizar a los habitantes de una población, etnia o religión, exigiendo genocidio", "correct": false },
+        { "text": "Todas son correctas", "correct": false }
+      ],
+      "explanation": "L’art. 172 CP contempla il ricatto (chantaje) come forma aggravata di minaccia, ma non richiede genocidio in senso stretto.",
+      "legal_reference": "Art. 172 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "¿Existe una modalidad agravada para el delito de lesiones cuando se trate de delitos de violencia sobre mujer?",
+      "answers": [
+        { "text": "Sí, cuando la víctima fuera esposa o mujer o hubiera estado ligada al autor por relación afectiva aun sin convivencia", "correct": true },
+        { "text": "Sí, cuando la víctima fuera esposa o mujer o hubiera estado ligada al autor por relación afectiva solo si hay convivencia", "correct": false },
+        { "text": "Solo cuando la víctima fuera esposa o mujer del autor", "correct": false },
+        { "text": "Sí, siempre que la víctima fuera mujer, con independencia de la relación", "correct": false }
+      ],
+      "explanation": "L’art. 153 CP introduce aggravante specifica per la violenza su coniuge o persona legata affettivamente, anche senza convivenza.",
+      "legal_reference": "Art. 153 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "En cuanto al delito de coacciones, ¿cuál de las siguientes afirmaciones es falsa?",
+      "answers": [
+        { "text": "El sujeto activo puede ser cualquiera con las limitaciones derivadas del principio de especialidad", "correct": false },
+        { "text": "Podemos distinguir cuatro elementos en la descripción típica", "correct": false },
+        { "text": "Se castiga a quien, sin estar legítimamente autorizado, impidiere a otro sin violencia hacer lo que la ley no le prohíbe", "correct": true },
+        { "text": "Existe la modalidad de delito leve", "correct": false }
+      ],
+      "explanation": "L’art. 172 CP richiede violenza o intimidazione per configurare coazioni; l’impedimento senza violenza non è delitto di coacciones.",
+      "legal_reference": "Art. 172 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "El delito de agresión sexual requiere:",
+      "answers": [
+        { "text": "El uso de violencia", "correct": false },
+        { "text": "El uso de intimidación", "correct": false },
+        { "text": "Que se consiga el consentimiento de la víctima por engaño", "correct": false },
+        { "text": "Las respuestas A y B son correctas", "correct": true }
+      ],
+      "explanation": "L’art. 178 CP definisce l’aggressione sessuale come qualsiasi atto compiuto con violenza o intimidazione volto a lesionar la libertà sessuale, quindi sono necessarie una o l’altra.",
+      "legal_reference": "Art. 178 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "El delito de agresión sexual, con acceso carnal, está tipificado en el Código Penal con la pena de:",
+      "answers": [
+        { "text": "Pena de prisión de 2 a 5 años", "correct": false },
+        { "text": "Pena de prisión de 4 a 12 años (de 6 a 12 años si hay violencia, intimidación o víctima con voluntad anulada)", "correct": true },
+        { "text": "Pena de multa de 2 años", "correct": false },
+        { "text": "Pena de prisión de 8 a 10 años", "correct": false }
+      ],
+      "explanation": "L’art. 179 CP prevede per l’accesso carnale la pena base da 4 a 12 anni, aumentata da 6 a 12 anni in presenza di violenza, intimidazione o annullamento di volontà.",
+      "legal_reference": "Art. 179 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "En el delito de acoso sexual, es imprescindible:",
+      "answers": [
+        { "text": "Que sea solicitado un favor de naturaleza sexual", "correct": false },
+        { "text": "Que el que lo solicite tenga una relación laboral, docente o de prestación de servicio", "correct": false },
+        { "text": "Que haya violencia o intimidación durante la comisión delictiva", "correct": false },
+        { "text": "Las respuestas A y B son correctas", "correct": true }
+      ],
+      "explanation": "L’art. 184 CP richiede l’esistenza di una richiesta di favore sessuale in un contesto di relazione di lavoro, docenza o servizio.",
+      "legal_reference": "Art. 184 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "El delito de acoso sexual a menores de 16 años:",
+      "answers": [
+        { "text": "Solo cabe cuando concurre abuso de superioridad", "correct": false },
+        { "text": "Se comete a través de internet u otra tecnología, siempre que tal propuesta se acompañe de actos materiales encaminados al acercamiento", "correct": true },
+        { "text": "No está tipificado cuando hay consentimiento por el menor mayor de 13 años", "correct": false },
+        { "text": "Ninguna respuesta es correcta", "correct": false }
+      ],
+      "explanation": "L’art. 183.1 CP punisce il grooming dei minori di 16 anni mediante ICT se accompagnato da atti materiali volti all’avvicinamento.",
+      "legal_reference": "Art. 183.1 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "El delito de exhibicionismo supone:",
+      "answers": [
+        { "text": "Actos de exhibición obscena ante menores de 13 años", "correct": false },
+        { "text": "Actos de exhibición obscena ante terceros", "correct": false },
+        { "text": "Actos de exhibición obscena ante menores de edad o personas con discapacidad necesitadas de especial protección", "correct": true },
+        { "text": "Actos de exhibición obscena ante terceros", "correct": false }
+      ],
+      "explanation": "L’art. 185 CP configura l’esibizione oscena quando rivolta a minori o persone vulnerabili, anche se punisce qualsiasi esibizione oscena in generale.",
+      "legal_reference": "Art. 185 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "El delito de prostitución de mayores de edad se da cuando se determine a una persona mayor de edad a ejercer la prostitución o mantenerse en ella, concurriendo:",
+      "answers": [
+        { "text": "Violencia o intimidación", "correct": false },
+        { "text": "Engaño", "correct": false },
+        { "text": "Abusando de una situación de superioridad o de necesidad o vulnerabilidad de la víctima", "correct": true },
+        { "text": "Todas las anteriores son válidas", "correct": false }
+      ],
+      "explanation": "L’art. 187 CP include tra le circostanze aggravanti l’abuso di superiorità o vulnerabilità, non richiedendo sempre violenza o inganno.",
+      "legal_reference": "Art. 187 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "El delito 188.1 del Código Penal castiga:",
+      "answers": [
+        { "text": "Obligar a prostituirse a un menor o persona con discapacidad, o lucrarse con ello, con pena de prisión de 2 a 5 años y multa de 12 a 24 meses", "correct": true },
+        { "text": "Inducir o favorecer la prostitución de un menor o persona con discapacidad, con pena de prisión de 2 a 5 años y multa de 12 a 24 meses", "correct": false },
+        { "text": "Obligar a prostituirse a un menor o persona con discapacidad, o lucrarse con ello, con pena de prisión de 2 a 5 años y multa de 12 a 24 meses", "correct": false },
+        { "text": "Obligar a prostitución a un menor o persona con discapacidad, con pena de multa de 12 a 24 meses", "correct": false }
+      ],
+      "explanation": "L’art. 188.1 CP sanziona l’obbligo di prostituzione o lo sfruttamento di minori o disabili con la pena indicata di reclusione e multa.",
+      "legal_reference": "Art. 188.1 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "La producción, venta, distribución, exhibición, ofrecimiento de pornografía infantil, está castigado con la pena:",
+      "answers": [
+        { "text": "Prisión de 6 meses a 1 año", "correct": false },
+        { "text": "Prisión de 5 a 10 años", "correct": true },
+        { "text": "Prisión de 1 a 5 años", "correct": false },
+        { "text": "Prisión de 1 a 5 años o multa de 6 meses a 1 año", "correct": false }
+      ],
+      "explanation": "L’art. 189 bis CP prevede per la pornografia minorile la pena da 5 a 10 anni di reclusione.",
+      "legal_reference": "Art. 189 bis CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "El delito de omisión del deber de socorro exige:",
+      "answers": [
+        { "text": "Que la persona se halle desamparada y en peligro manifiesto", "correct": false },
+        { "text": "Que la persona se halle únicamente en peligro", "correct": false },
+        { "text": "Que la gravedad del peligro tenga relación con la probabilidad de grave daño para la vida o integridad", "correct": true },
+        { "text": "Las respuestas A y C son correctas", "correct": false }
+      ],
+      "explanation": "L’art. 195 CP richiede pericolo manifesto e grave con probabilità di danno serio, oltre alla condizione di abbandono.",
+      "legal_reference": "Art. 195 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "El descubrimiento o revelación de secretos castiga:",
+      "answers": [
+        { "text": "Apoderarse de papeles o interceptar telecomunicaciones", "correct": false },
+        { "text": "Difundir o revelar a terceros los datos o hechos descubiertos o imágenes", "correct": false },
+        { "text": "Apoderarse, usar o modificar datos reservados de otro sin autorización", "correct": false },
+        { "text": "Todas las respuestas son correctas", "correct": true }
+      ],
+      "explanation": "L’art. 197 CP punisce tutte le condotte indicate: accesso a documenti, intercettazione, diffusione e uso illecito di dati riservati.",
+      "legal_reference": "Art. 197 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "En el delito de descubrimiento o revelación de secreto:",
+      "answers": [
+        { "text": "Será necesaria la denuncia de cualquier sujeto", "correct": false },
+        { "text": "Es perseguible de oficio o a instancia de parte", "correct": true },
+        { "text": "Será necesaria la denuncia de la persona agraviada o de su representante legal", "correct": false },
+        { "text": "Las respuestas A y B son correctas", "correct": false }
+      ],
+      "explanation": "L’art. 197 CP è procedibile d’ufficio, non richiedendo la denuncia della vittima.",
+      "legal_reference": "Art. 197 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "En la conducta típica del delito de allanamiento de morada han de concurrir los siguientes elementos:",
+      "answers": [
+        { "text": "Elemento objetivo, subjetivo y de actitud", "correct": false },
+        { "text": "Elemento objetivo (morada) y subjetivo (conocimiento y voluntad)", "correct": false },
+        { "text": "Elemento de actividad, de entrar o mantenerse", "correct": false },
+        { "text": "B y C son correctas", "correct": true }
+      ],
+      "explanation": "L’art. 202 CP richiede l’elemento oggettivo (morada), quello soggettivo (volontà) e l’attività di ingresso o permanenza; dunque B+C.",
+      "legal_reference": "Art. 202 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "A los efectos del delito de allanamiento de morada, se puede considerar morada:",
+      "answers": [
+        { "text": "Espacio cerrado o parcialmente aperto… mobil e immobile…", "correct": true },
+        { "text": "Espacio totalmente cerrado e immobile…", "correct": false },
+        { "text": "Espacio independientemente cerrado o abierto… uso legittimo…", "correct": false },
+        { "text": "Espacio cerrado o parcialmente aperto… immobile… uso legittimo o no…", "correct": false }
+      ],
+      "explanation": "La definizione di morada (art. 202 CP) include spazi mobili o immobili, chiusi o parzialmente aperti, con volontà di escludere estranei e uso legittimo.",
+      "legal_reference": "Art. 202 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "Se puede definir la calumnia como:",
+      "answers": [
+        { "text": "La acción o expresión que lesionan la dignidad…", "correct": false },
+        { "text": "La imputación de un delito, incluso imprecativo, con ánimo de menoscabar la fama", "correct": false },
+        { "text": "La imputación de un delito hecha con conocimiento de su falsedad o temerario desprecio hacia la verdad", "correct": true },
+        { "text": "Las respuestas A y B son ciertas", "correct": false }
+      ],
+      "explanation": "Art. 208 CP: calumnia è imputazione consapevolmente falsa di un reato con temerarietà.",
+      "legal_reference": "Art. 208 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "Se puede definir la injuria como:",
+      "answers": [
+        { "text": "La acción o expresión que lesionan la dignidad de otra persona…", "correct": true },
+        { "text": "La imputación de un delito lesionando su dignidad con conocimiento de su veracidad", "correct": false },
+        { "text": "La imputación de un delito hecha con conocimiento de su falsedad…", "correct": false },
+        { "text": "Las respuestas B y C son ciertas", "correct": false }
+      ],
+      "explanation": "Art. 208 CP: injuria è azione o espressione che lede la dignità altrui, non necessariamente collegata a reato.",
+      "legal_reference": "Art. 208 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "¿Cuál de los siguientes delitos están enmarcados como delitos contra el honor?",
+      "answers": [
+        { "text": "La calumnia", "correct": false },
+        { "text": "La injuria", "correct": false },
+        { "text": "Las relativas a la integridad moral", "correct": false },
+        { "text": "Las respuestas A y B son correctas", "correct": true }
+      ],
+      "explanation": "Il Codice distingue tra calunnia e injuria quali delitti contro l’onore (art. 208 CP), mentre l’integrità morale è reato distinto (art. 173).",
+      "legal_reference": "Art. 208 CP; Art. 173 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "El acusado de injurias quedará exento de responsabilidad cuando:",
+      "answers": [
+        { "text": "Pruebe el hecho criminal que hubiere imputado", "correct": false },
+        { "text": "Pruebe la verdad de las imputaciones dirigidas contra funcionarios públicos sobre infracciones administrativas", "correct": true },
+        { "text": "Pruebe la verdad de las imputaciones dirigidas contra funcionarios, empresarios o personalidades sobre faltas penales o infracciones administrativas", "correct": false },
+        { "text": "Las respuestas A y C son correctas", "correct": false }
+      ],
+      "explanation": "Art. 216 CP prevede esenzione per verità delle imputazioni nei confronti di pubblici ufficiali riguardanti l’esercizio delle loro funzioni o infrazioni amministrative.",
+      "legal_reference": "Art. 216 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "Señale cuál de las siguientes afirmaciones es correcta sobre el atentado contra la integridad moral:",
+      "answers": [
+        { "text": "Es preciso que la vejación sea meridianamente clara y extremadamente innecesaria", "correct": false },
+        { "text": "Si la autoridad atentare contra la integridad moral… se impondría pena de inhabilitación especial", "correct": false },
+        { "text": "La diferencia con el delito de tortura no estriba en la gravedad de la afrenta", "correct": false },
+        { "text": "Todas son correctas", "correct": true }
+      ],
+      "explanation": "Art. 173 CP richiede vejazione chiara e distingue dalla tortura in gravità e violenza; prevede inabilità per pubblici ufficiali.",
+      "legal_reference": "Art. 173 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "En función de lo establecido en el apartado 4 del artículo 177 bis del Código Penal, al delito de trata de seres humanos le corresponde la pena superior en grado cuando concurra alguna de las siguientes circunstancias:",
+      "answers": [
+        { "text": "Si se ha puesto en peligro la vida o la integridad de las víctimas", "correct": false },
+        { "text": "Cuando la víctima es especialmente vulnerable o menor de edad", "correct": false },
+        { "text": "Si la víctima es persona cuya vulnerabilidad proviene de un conflicto armado o catástrofe", "correct": false },
+        { "text": "Ninguna de las anteriores es incorrecta", "correct": true }
+      ],
+      "explanation": "Art. 177 bis.4 CP elenca tutte e tre come aggravanti: nessuna da escludere.",
+      "legal_reference": "Art. 177 bis.4 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "Atendiendo a la LO 4/2023, de 27 de abril, que modificó el Código Penal:",
+      "answers": [
+        { "text": "El Código Penal distingue entre delito de abuso sexual y delito de agresión sexual", "correct": true },
+        { "text": "Todo acto de naturaleza sexual sin consentimiento será agresión sexual", "correct": false },
+        { "text": "El nuevo art. 178.1 define agresión sexual con consentimiento", "correct": false },
+        { "text": "Ha suprimido la agresión sexual, dejando solo abuso", "correct": false }
+      ],
+      "explanation": "La LO 4/2023 ha distinto i reati di abuso e aggressione sessuale, introducendo l’art. 178 per quest’ultima.",
+      "legal_reference": "LO 4/2023, art. 178 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "En cuanto al delito de omisión del deber de socorro:",
+      "answers": [
+        { "text": "Será castigado con multa de tres a doce meses", "correct": true },
+        { "text": "Será castigado con prisión de tres a doce meses", "correct": false },
+        { "text": "Si socorre, será castigado con multa de tres a doce meses", "correct": false },
+        { "text": "El art. 196 se refiere a sanitari…", "correct": false }
+      ],
+      "explanation": "Art. 195 CP prevede multa da 3 a 12 mesi per omissione di soccorso senza rischio per sé e terzi.",
+      "legal_reference": "Art. 195 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "Siendo dos los moradores de una vivienda, ¿qué ocurre cuando uno de ellos consiente la entrada de un tercero, pero el otro se niega?",
+      "answers": [
+        { "text": "Prevalece la voluntad del que consiente", "correct": false },
+        { "text": "Prevalece la voluntad del que niega", "correct": true },
+        { "text": "Debe decidir un Juez", "correct": false },
+        { "text": "Ninguna es correcta", "correct": false }
+      ],
+      "explanation": "Art. 202 CP tutela la volontà negativa del titolare di morada, che prevale su quella del coabitante favorevole.",
+      "legal_reference": "Art. 202 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "La acción típica de la calumnia se manifiesta en los siguientes elementos:",
+      "answers": [
+        { "text": "Imputación sin ánimo doloso", "correct": false },
+        { "text": "Imputación de hecho delictivo con dolo", "correct": true },
+        { "text": "Imputación sin comportamiento doloso", "correct": false },
+        { "text": "Imputación con ánimo doloso", "correct": false }
+      ],
+      "explanation": "Art. 208 CP: calumnia richiede imputazione dolosa di un fatto criminoso falso.",
+      "legal_reference": "Art. 208 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "En cuanto a la perseguibilidad de los delitos de agresiones sexuales:",
+      "answers": [
+        { "text": "Será precisa la denuncia de la persona agraviada", "correct": false },
+        { "text": "Será precisa la denuncia de la persona agraviada, de su representante legal o querella del Ministerio Fiscal", "correct": true },
+        { "text": "Solo si lo denuncia la víctima", "correct": false },
+        { "text": "El representante legal no puede denunciar", "correct": false }
+      ],
+      "explanation": "Art. 84 CP: per reati contro la libertà sessuale serve denuncia della vittima, rappresentante legale o querela del Ministero Pubblico.",
+      "legal_reference": "Art. 84 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "En el delito de agresiones sexuales a menores de 16 años:",
+      "answers": [
+        { "text": "El libre consentimiento del menor excluye la responsabilidad si el autor es próximo por età e sviluppo", "correct": true },
+        { "text": "El libre consentimiento no excluye la responsabilidad cuando el autor es próximo", "correct": false },
+        { "text": "El libre consentimiento excluye siempre la responsabilidad", "correct": false },
+        { "text": "Ninguna es correcta", "correct": false }
+      ],
+      "explanation": "Art. 183.4 CP: se minore >13 anni e differenza d’età ≤3 anni, il consenso esclude la punibilità.",
+      "legal_reference": "Art. 183.4 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "El Código Penal regula el delito de grooming o ciberacoso sexual a menores en el artículo 183:",
+      "answers": [
+        { "text": "Contactar con menor de 16 años per fini pornografici, pena de 6 mesi a 2 años", "correct": true },
+        { "text": "Contactar con menor de 18 años per fini pornografici, pena de 6 mesi a 2 años", "correct": false },
+        { "text": "No complementa i reati di aggressione sessuale o pornografia", "correct": false },
+        { "text": "Las respuestas A y C son correctas", "correct": false }
+      ],
+      "explanation": "Art. 183 CP: grooming sanzionato solo per minori di 16 anni, finalità pornografiche, con pena da 6 mesi a 2 anni.",
+      "legal_reference": "Art. 183 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    },
+    {
+      "question": "Comete un delito de exhibicionismo del artículo 185 del Código Penal:",
+      "answers": [
+        { "text": "Actos de exhibición oscena ante menores o disabili", "correct": false },
+        { "text": "Actos de exhibición oscena", "correct": true },
+        { "text": "Actos de exhibición oscena ante menores exclusivamente", "correct": false },
+        { "text": "Actos de exhibición oscena ante disabili exclusivamente", "correct": false }
+      ],
+      "explanation": "Art. 185 CP punisce qualsiasi esibizione oscena, senza limitazioni di destinatari.",
+      "legal_reference": "Art. 185 CP",
+      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+    }
+  ]
+}
