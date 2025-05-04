@@ -77,10 +77,8 @@ def colorize_answers(question_text, shuffled_answers, shuffle_mapping,
         ans_text = remap_answer_references(ans["text"], shuffle_mapping)
 
         if label in correct_letters_set:
-            # verde
             color_code = GREEN
         elif label in user_letters_set:
-            # rosso
             color_code = RED
         else:
             color_code = RESET
@@ -92,13 +90,16 @@ def colorize_answers(question_text, shuffled_answers, shuffle_mapping,
 def preguntar(qid, question_data, perf_data, session_counts, disable_shuffle=False):
     """
     Presenta una singola domanda, gestisce la risposta, aggiorna i contatori
-    e i dati di performance. Ritorna:
+    e i dati di performance con storicizzazione, e mostra statistiche.
+    Ritorna:
       True => risposta corretta
       False => risposta errata
       None => l'utente ha scelto di uscire dalla sessione
     """
-    if str(qid) not in perf_data:
-        perf_data[str(qid)] = {"wrong": False, "unanswered": True}
+    qid_str = str(qid)
+    # Inizializza lo storico della domanda se non presente
+    if qid_str not in perf_data or "history" not in perf_data[qid_str]:
+        perf_data[qid_str] = {"history": []}
 
     clear_screen()
 
@@ -144,10 +145,12 @@ def preguntar(qid, question_data, perf_data, session_counts, disable_shuffle=Fal
         print("¿Seguro que deseas salir de esta sesión y volver al sub-menú? (s/n)")
         confirm = input("> ").strip().lower()
         if confirm == "s":
+            # Registra skip come non risposta
+            perf_data[qid_str]["history"].append("unanswered")
             session_counts["unanswered"] += 1
             return None
-        # Se l'utente dice di NO, contiamola come sbagliata e passiamo oltre
-        perf_data[str(qid)]["wrong"] = True
+        # In caso di 'no', consideriamo come errata
+        perf_data[qid_str]["history"].append("wrong")
         session_counts["wrong"] += 1
         return False
 
@@ -158,10 +161,12 @@ def preguntar(qid, question_data, perf_data, session_counts, disable_shuffle=Fal
     user_letters_set = set(user_letters)
     correct_set = set(correct_letters)
 
-    is_correct = (user_letters_set == correct_set and len(user_letters_set) == len(correct_letters))
+    is_correct = (user_letters_set == correct_set and
+                  len(user_letters_set) == len(correct_letters))
 
-    perf_data[str(qid)]["unanswered"] = False
-    perf_data[str(qid)]["wrong"] = not is_correct
+    # Registra risultato
+    result_str = "correct" if is_correct else "wrong"
+    perf_data[qid_str]["history"].append(result_str)
 
     if is_correct:
         session_counts["correct"] += 1
@@ -170,9 +175,10 @@ def preguntar(qid, question_data, perf_data, session_counts, disable_shuffle=Fal
 
     # Adesso rispulciamo la domanda con i colori
     clear_screen()
-    colored_view = colorize_answers(question_text, shuffled_answers,
-                                    shuffle_mapping, user_letters_set,
-                                    correct_set)
+    colored_view = colorize_answers(
+        question_text, shuffled_answers,
+        shuffle_mapping, user_letters_set, correct_set
+    )
     print(colored_view)
     print()
 
@@ -186,26 +192,50 @@ def preguntar(qid, question_data, perf_data, session_counts, disable_shuffle=Fal
         explanation = remap_answer_references(explanation, shuffle_mapping)
         print(f"EXPLICACIÓN:\n{explanation}\n")
 
+    # Mostra statistiche storico
+    history = perf_data[qid_str]["history"]
+    total = len(history)
+    correct_count = history.count("correct")
+    wrong_count = history.count("wrong")
+    unanswered_count = history.count("unanswered")
+    print(f"Historial de esta pregunta: intentos={total}, correctas={correct_count}, "
+          f"incorrectas={wrong_count}, sin responder={unanswered_count}\n")
+
     press_any_key()
     return is_correct
 
 def play_quiz(full_questions, perf_data, filter_mode="all", file_filter=None):
     """
     Esegue una sessione di quiz. Opzioni:
-      - filter_mode: "all", "unanswered", "wrong"
+      - filter_mode: "all", "unanswered", "wrong", "wrong_unanswered"
       - file_filter: se non None, filtra le domande provenienti da un determinato file
+    L'ordine per i filtri 'wrong' e 'wrong_unanswered' prioritizza le domande
+    con più errori storici.
     """
     # Costruiamo la lista con (indice, question_data)
     all_pairs = [(i, q) for i, q in enumerate(full_questions)]
     if file_filter is not None:
-        all_pairs = [(i, q) for (i, q) in all_pairs if q.get("_quiz_source") == file_filter]
+        all_pairs = [(i, q) for (i, q) in all_pairs
+                     if q.get("_quiz_source") == file_filter]
 
     if filter_mode == "wrong":
-        subset = [(i, q) for (i, q) in all_pairs
-                  if str(i) in perf_data and perf_data[str(i)]["wrong"]]
+        subset = [
+            (i, q) for (i, q) in all_pairs
+            if perf_data.get(str(i), {}).get("history", []) and
+               perf_data[str(i)]["history"][-1] == "wrong"
+        ]
     elif filter_mode == "unanswered":
-        subset = [(i, q) for (i, q) in all_pairs
-                  if str(i) not in perf_data or perf_data[str(i)]["unanswered"]]
+        subset = [
+            (i, q) for (i, q) in all_pairs
+            if not perf_data.get(str(i), {}).get("history", []) or
+               perf_data[str(i)]["history"][-1] == "unanswered"
+        ]
+    elif filter_mode == "wrong_unanswered":
+        subset = [
+            (i, q) for (i, q) in all_pairs
+            if not perf_data.get(str(i), {}).get("history", []) or
+               perf_data[str(i)]["history"][-1] == "wrong"
+        ]
     else:
         subset = all_pairs
 
@@ -214,8 +244,15 @@ def play_quiz(full_questions, perf_data, filter_mode="all", file_filter=None):
         press_any_key()
         return
 
-    session_counts = {"correct": 0, "wrong": 0, "unanswered": 0}
+    # Ordiniamo per numero di errori decrescente se opportuno
+    if filter_mode in ("wrong", "wrong_unanswered"):
+        subset.sort(
+            key=lambda pair: perf_data.get(str(pair[0]), {})
+                                    .get("history", []).count("wrong"),
+            reverse=True
+        )
 
+    session_counts = {"correct": 0, "wrong": 0, "unanswered": 0}
     idx = 0
     total_q = len(subset)
     while idx < total_q:

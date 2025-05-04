@@ -5,9 +5,9 @@ import os
 import logging
 
 from quizlib.loader import load_all_quizzes, QUIZ_DATA_FOLDER
-from quizlib.performance import load_performance_data, save_performance_data
+from quizlib.performance import load_performance_data
 from quizlib.engine import play_quiz, clear_screen, press_any_key
-from quizlib.navigator import pick_a_file_menu, get_file_question_count, print_quiz_files_summary
+from quizlib.navigator import pick_a_file_menu, print_quiz_files_summary
 
 VERSION = "2.5.0"
 
@@ -25,41 +25,37 @@ def set_title(title):
         sys.stdout.write('\x1b]2;' + title + '\x07')
 
 def comando_quiz_todos(questions, perf_data):
-    """Take all questions, ignoring performance data filters."""
+    """Quiz con TUTTE le domande."""
     play_quiz(questions, perf_data, filter_mode="all", file_filter=None)
 
 def comando_quiz_unanswered(questions, perf_data):
-    """Quiz only unanswered questions."""
+    """Quiz solo domande NON risposte."""
     play_quiz(questions, perf_data, filter_mode="unanswered", file_filter=None)
 
 def comando_quiz_wrong(questions, perf_data):
-    """Quiz only previously missed (wrong) questions."""
+    """Quiz solo domande SBAGLIATE."""
     play_quiz(questions, perf_data, filter_mode="wrong", file_filter=None)
+
+def comando_quiz_wrong_unanswered(questions, perf_data):
+    """Quiz domande SBAGLIATE o NON risposte."""
+    play_quiz(questions, perf_data, filter_mode="wrong_unanswered", file_filter=None)
 
 def print_submenu_archivo():
     """
-    Print the sub-menu that appears after selecting a file.
-    Lets the user choose which filter they'd like for that specific file.
+    Sub-menu dopo selezione file:
+    permette di scegliere il filtro specifico per quell'archivio.
     """
-    print("\n=== Filtro para el archivo seleccionado ===")
+    print("\n=== Filtro per il file selezionato ===")
     print("1) Realizar quiz con TODAS las preguntas (de este archivo)")
     print("2) Realizar quiz con preguntas NO respondidas (de este archivo)")
     print("3) Realizar quiz con preguntas FALLADAS (de este archivo)")
-    print("4) Volver al menú principal")
+    print("4) Realizar quiz con preguntas FALLADAS o NO respondidas (de este archivo)")
+    print("5) Volver al menú principal")
 
 def comando_quiz_file(questions, perf_data, cursos_dict):
-    """
-    Let the user pick a specific JSON file from the menu,
-    then show a sub-menu to choose which filter to use for that file:
-      - all
-      - unanswered
-      - wrong
-    """
     chosen_filepath = pick_a_file_menu(cursos_dict)
     if not chosen_filepath:
-        return  # user canceled file selection
-
-    # Sub-loop to pick the filter mode for the chosen file
+        return
     while True:
         clear_screen()
         print_submenu_archivo()
@@ -71,24 +67,25 @@ def comando_quiz_file(questions, perf_data, cursos_dict):
         elif choice == "3":
             play_quiz(questions, perf_data, filter_mode="wrong", file_filter=chosen_filepath)
         elif choice == "4":
-            # Return to main menu
+            play_quiz(questions, perf_data, filter_mode="wrong_unanswered", file_filter=chosen_filepath)
+        elif choice == "5":
             break
         else:
             print("Opción no válida.")
             press_any_key()
 
 def print_menu_principal():
-    """Print the main menu options."""
+    """Stampa il menu principale."""
     print("\n=== QuizProg Main Menu ===")
     print("1) Realizar quiz con TODAS las preguntas")
     print("2) Realizar quiz con preguntas NO respondidas")
     print("3) Realizar quiz con preguntas FALLADAS (anteriores)")
     print("4) Seleccionar un archivo específico y realizar su quiz")
     print("5) Ver resumen de archivos cargados")
-    print("6) Salir")
+    print("6) Realizar quiz con preguntas FALLADAS o NO respondidas")
+    print("7) Salir")
 
 def main():
-    # Basic logging config
     logging.basicConfig(
         level=logging.WARNING,
         format="%(levelname)s:%(name)s:%(message)s"
@@ -101,10 +98,8 @@ def main():
     print(f"Usando carpeta de quizzes: '{QUIZ_DATA_FOLDER}'")
     press_any_key()
 
-    # Load all quiz questions
     questions, cursos_dict, quiz_files_info = load_all_quizzes(QUIZ_DATA_FOLDER)
 
-    # Matches the test expectation "Archivos de Quiz Cargados"
     print("Archivos de Quiz Cargados")
 
     perf_data = load_performance_data()
@@ -126,6 +121,8 @@ def main():
             print_quiz_files_summary(quiz_files_info)
             press_any_key()
         elif choice == "6":
+            comando_quiz_wrong_unanswered(questions, perf_data)
+        elif choice == "7":
             clear_screen()
             print("¡Hasta luego!")
             sys.exit(0)
