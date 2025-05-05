@@ -159,8 +159,11 @@ def preguntar(qid, question_data, perf_data, session_counts,
     # Cap interval by exam_dates if provided
     if exam_dates:
         source = question_data.get("_quiz_source", "")
-        rel = os.path.relpath(source, QUIZ_DATA_FOLDER)
-        curso = rel.split(os.sep)[0] if rel else None
+        curso = None
+        if isinstance(source, str):
+            parts = os.path.normpath(source).split(os.sep)
+            if len(parts) >= 2:
+                curso = parts[-2]
         fecha_ex = exam_dates.get(curso)
         if fecha_ex:
             try:
@@ -203,7 +206,6 @@ def play_quiz(full_questions, perf_data, filter_mode="all",
     """
     pairs = []
     for idx, q in enumerate(full_questions):
-        # fallback to index if loader didn't inject a _quiz_id
         qid = q.get("_quiz_id", idx)
         pairs.append((qid, q))
 
@@ -220,13 +222,21 @@ def play_quiz(full_questions, perf_data, filter_mode="all",
                or datetime.fromisoformat(perf_data[str(qid)]["next_review"]).date() <= today
         ]
     elif filter_mode == "unanswered":
-        subset = [(qid, q) for qid, q in pairs if not perf_data.get(str(qid), {}).get("history")]
+        subset = [
+            (qid, q) for qid, q in pairs
+            if not perf_data.get(str(qid), {}).get("history")
+        ]
     elif filter_mode == "wrong":
-        subset = [(qid, q) for qid, q in pairs
-                  if perf_data.get(str(qid), {}).get("history", [])[-1] == "wrong"]
+        subset = [
+            (qid, q) for qid, q in pairs
+            if perf_data.get(str(qid), {}).get("history", []) and perf_data[str(qid)]["history"][-1] == "wrong"
+        ]
     elif filter_mode == "wrong_unanswered":
-        subset = [(qid, q) for qid, q in pairs
-                  if perf_data.get(str(qid), {}).get("history", [])[-1] in ("wrong", "skipped")]
+        subset = [
+            (qid, q) for qid, q in pairs
+            if perf_data.get(str(qid), {}).get("history", []) and
+               perf_data[str(qid)]["history"][-1] in ("wrong", "skipped")
+        ]
         subset.sort(
             key=lambda x: perf_data[str(x[0])]["history"].count("wrong"),
             reverse=True

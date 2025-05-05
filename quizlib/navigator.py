@@ -32,7 +32,7 @@ def pick_a_file_menu(cursos_dict):
     course_data = cursos_dict[chosen_course]
     section_names = sorted(course_data["sections"].keys())
 
-    # Se c'è solo una sezione e si chiama "(No subfolder)", andiamo diretti
+    # Si solo hay una sección y se llama "(No subfolder)", vamos directo
     if len(section_names) == 1 and section_names[0] == "(No subfolder)":
         chosen_section = section_names[0]
     else:
@@ -51,13 +51,13 @@ def pick_a_file_menu(cursos_dict):
                 idx = int(choice) - 1
                 if 0 <= idx < len(section_names):
                     chosen_section = section_names[idx]
-                    chosen_section = section_names[chosen_section]
                     break
             except ValueError:
                 pass
             print("Opción no válida, intenta de nuevo.")
 
     return _pick_file_from_section(chosen_course, chosen_section, course_data["sections"])
+
 
 def _pick_file_from_section(chosen_course, chosen_section, sections_dict):
     if chosen_section not in sections_dict:
@@ -84,8 +84,10 @@ def _pick_file_from_section(chosen_course, chosen_section, sections_dict):
             pass
         print("Opción no válida, intenta de nuevo.")
 
+
 def get_file_question_count(questions, filepath):
     return sum(1 for q in questions if q.get("_quiz_source") == filepath)
+
 
 def print_quiz_files_summary(quiz_files_info):
     print("=== Archivos de Quiz Cargados ===")
