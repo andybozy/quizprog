@@ -12,10 +12,12 @@ from .loader import QUIZ_DATA_FOLDER
 
 LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
+
 def clean_embedded_answers(question_text):
     pattern = re.compile(r'^[a-dA-D]\)\s')
     lines = question_text.split('\n')
     return '\n'.join(line for line in lines if not pattern.match(line.strip())).strip()
+
 
 def remap_answer_references(text, shuffle_mapping):
     """
@@ -27,24 +29,21 @@ def remap_answer_references(text, shuffle_mapping):
         new_idx = shuffle_mapping.get(old_idx, old_idx)
         return LETTERS[new_idx]
 
-    # 1) Sostituisci singole lettere a-d
     text = re.sub(r'\b[a-dA-D]\b', replace_letter, text)
-
-    # 2) Riordina frasi multiple, ma esci se già ordinate
     pattern = re.compile(r'\b([A-D])(\s+y\s+[A-D])+\b')
     while True:
         match = pattern.search(text)
         if not match:
             break
-        full_match = match.group(0)
-        letters_found = re.findall(r'[A-D]', full_match)
-        sorted_letters = sorted(letters_found)
+        full = match.group(0)
+        letters = re.findall(r'[A-D]', full)
+        sorted_letters = sorted(letters)
         new_phrase = ' y '.join(sorted_letters)
-        if new_phrase == full_match:
+        if new_phrase == full:
             break
-        text = text.replace(full_match, new_phrase, 1)
-
+        text = text.replace(full, new_phrase, 1)
     return text
+
 
 def colorize_answers(question_text, shuffled_answers, shuffle_mapping,
                      user_letters_set, correct_letters_set):
@@ -62,19 +61,20 @@ def colorize_answers(question_text, shuffled_answers, shuffle_mapping,
         lines.append(f"[{color}{label}{RESET}] {color}{ans_text}{RESET}")
     return "\n".join(lines)
 
+
 def preguntar(qid, question_data, perf_data, session_counts,
               disable_shuffle=False, exam_dates=None,
               position=None, total=None):
     """
-    Presenta una pregunta con avanzamento, aggiorna SM-2 tarato e mostra
-    statistiche in spagnolo. Gestisce correttamente '0' + conferma uscita.
+    Presenta una pregunta con avanzamento, SM-2 tarato y estadísticas en español.
+    Ahora usa 'qid' como clave de performance_data.
     """
     qid_str = str(qid)
     if qid_str not in perf_data:
         perf_data[qid_str] = {"history": []}
     pd = perf_data[qid_str]
 
-    # Inizializza SM-2
+    # Initialize SM-2 fields if missing
     if "ease" not in pd:
         pd.update({
             "ease": 2.5,
@@ -84,45 +84,42 @@ def preguntar(qid, question_data, perf_data, session_counts,
         })
 
     clear_screen()
-    question_text = clean_embedded_answers(question_data["question"])
-    original_answers = question_data["answers"]
+    text = clean_embedded_answers(question_data["question"])
+    orig = question_data["answers"]
 
-    # Header con contatore sessione
+    # Header with progress
     if position is not None and total is not None:
-        print(f"Pregunta {qid}   {position}/{total}\n{question_text}\n")
+        print(f"Pregunta {qid}   {position}/{total}\n{text}\n")
     else:
-        print(f"Pregunta {qid}:\n{question_text}\n")
+        print(f"Pregunta {qid}:\n{text}\n")
 
-    # Shuffle risposte
+    # Shuffle answers
     if not disable_shuffle:
-        shuffled_answers = copy.deepcopy(original_answers)
-        random.shuffle(shuffled_answers)
+        shuffled = copy.deepcopy(orig)
+        random.shuffle(shuffled)
     else:
-        shuffled_answers = original_answers[:]
+        shuffled = orig[:]
 
-    shuffle_mapping = {i: shuffled_answers.index(ans)
-                       for i, ans in enumerate(original_answers)}
+    shuffle_map = {i: shuffled.index(ans) for i, ans in enumerate(orig)}
 
-    # Stampa opzioni
-    for idx, ans in enumerate(shuffled_answers):
-        print(f"[{LETTERS[idx]}] {remap_answer_references(ans['text'], shuffle_mapping)}")
+    for idx, ans in enumerate(shuffled):
+        print(f"[{LETTERS[idx]}] {remap_answer_references(ans['text'], shuffle_map)}")
     print("\n[0] Salir\n")
 
-    # Determina corrette
     correct_letters = [
-        LETTERS[shuffle_mapping[i]]
-        for i, ans in enumerate(original_answers) if ans.get("correct", False)
+        LETTERS[shuffle_map[i]]
+        for i, ans in enumerate(orig) if ans.get("correct", False)
     ]
     if len(correct_letters) > 1:
         print("Puede haber varias respuestas correctas, p.ej. 'A,C'")
 
-    # Input utente
-    user_input = input("Tu respuesta: ").strip().upper()
-    if user_input == "0":
+    # User input
+    ui = input("Tu respuesta: ").strip().upper()
+    if ui == "0":
         clear_screen()
         print("¿Confirmas salir? (s/n)")
-        confirm = input("> ").strip().lower()
-        if confirm == "s":
+        conf = input("> ").strip().lower()
+        if conf == "s":
             pd["history"].append("skipped")
             session_counts["unanswered"] += 1
             save_performance_data(perf_data)
@@ -132,18 +129,19 @@ def preguntar(qid, question_data, perf_data, session_counts,
             session_counts["wrong"] += 1
             quality = 0
     else:
-        parts = re.split(r'[,\s;]+', user_input)
+        parts = re.split(r'[,\s;]+', ui)
         user_set = set(filter(None, parts))
         correct_set = set(correct_letters)
         is_correct = user_set == correct_set and len(user_set) == len(correct_letters)
         pd["history"].append("correct" if is_correct else "wrong")
         if is_correct:
             session_counts["correct"] += 1
+            quality = 5
         else:
             session_counts["wrong"] += 1
-        quality = 5 if is_correct else 0
+            quality = 0
 
-    # SM-2 update
+    # SM-2 scheduling
     if quality >= 3:
         pd["repetition"] += 1
         if pd["repetition"] == 1:
@@ -158,7 +156,7 @@ def preguntar(qid, question_data, perf_data, session_counts,
         pd["interval"] = 1
         pd["ease"] = max(1.3, pd["ease"] + (0.1 - (5-quality)*(0.08+(5-quality)*0.02)))
 
-    # Cap intervallo in base a data d'esame del corso
+    # Cap interval by exam_dates if provided
     if exam_dates:
         source = question_data.get("_quiz_source", "")
         rel = os.path.relpath(source, QUIZ_DATA_FOLDER)
@@ -166,63 +164,69 @@ def preguntar(qid, question_data, perf_data, session_counts,
         fecha_ex = exam_dates.get(curso)
         if fecha_ex:
             try:
-                exam_date = date.fromisoformat(fecha_ex)
-                dias_left = (exam_date - date.today()).days
-                if dias_left < 1:
-                    dias_left = 1
-                pd["interval"] = min(pd["interval"], dias_left)
+                ex_date = date.fromisoformat(fecha_ex)
+                days_left = (ex_date - date.today()).days
+                days_left = max(days_left, 1)
+                pd["interval"] = min(pd["interval"], days_left)
             except ValueError:
                 pass
 
     pd["next_review"] = (date.today() + timedelta(days=pd["interval"])).isoformat()
 
-    # Feedback e statistiche
+    # Feedback
     clear_screen()
     print(colorize_answers(
-        question_text, shuffled_answers, shuffle_mapping,
-        set(re.split(r'[,\s;]+', user_input)) if user_input != "0" else set(),
+        text, shuffled, shuffle_map,
+        set(user_set) if ui != "0" else set(),
         set(correct_letters)
     ))
     print("\n¡CORRECTO!\n" if quality == 5 else "\n¡INCORRECTO!\n")
     if question_data.get("explanation"):
-        print("EXPLICACIÓN:\n" +
-              remap_answer_references(question_data["explanation"], shuffle_mapping) + "\n")
+        expl = remap_answer_references(question_data["explanation"], shuffle_map)
+        print("EXPLICACIÓN:\n" + expl + "\n")
 
-    h = pd["history"]
-    print(f"Historial: intentos={len(h)}, correctas={h.count('correct')}, "
-          f"incorrectas={h.count('wrong')}, saltadas={h.count('skipped')}\n")
+    hist = pd["history"]
+    print(f"Historial: intentos={len(hist)}, correctas={hist.count('correct')}, "
+          f"incorrectas={hist.count('wrong')}, saltadas={hist.count('skipped')}\n")
 
     press_any_key()
     save_performance_data(perf_data)
     return quality == 5
 
+
 def play_quiz(full_questions, perf_data, filter_mode="all",
               file_filter=None, tag_filter=None, exam_dates=None):
-    pairs = [(i, q) for i, q in enumerate(full_questions)]
+    """
+    Now pairs = [(qid, question_dict), …] keyed by:
+     - the question’s `_quiz_id` (if present), or
+     - its list‐index (for old‐style tests/code).
+    """
+    pairs = []
+    for idx, q in enumerate(full_questions):
+        # fallback to index if loader didn't inject a _quiz_id
+        qid = q.get("_quiz_id", idx)
+        pairs.append((qid, q))
+
     if file_filter:
-        pairs = [(i, q) for i, q in pairs if q.get("_quiz_source") == file_filter]
+        pairs = [(qid, q) for qid, q in pairs if q.get("_quiz_source") == file_filter]
     if tag_filter:
-        pairs = [(i, q) for i, q in pairs if tag_filter in q.get("tags", [])]
+        pairs = [(qid, q) for qid, q in pairs if tag_filter in q.get("tags", [])]
 
     today = date.today()
     if filter_mode == "due":
         subset = [
-            (i, q) for i, q in pairs
-            if not perf_data.get(str(i), {}).get("next_review")
-               or datetime.fromisoformat(perf_data[str(i)]["next_review"]).date() <= today
+            (qid, q) for qid, q in pairs
+            if not perf_data.get(str(qid), {}).get("next_review")
+               or datetime.fromisoformat(perf_data[str(qid)]["next_review"]).date() <= today
         ]
     elif filter_mode == "unanswered":
-        subset = [(i, q) for i, q in pairs if not perf_data.get(str(i), {}).get("history")]
+        subset = [(qid, q) for qid, q in pairs if not perf_data.get(str(qid), {}).get("history")]
     elif filter_mode == "wrong":
-        subset = [
-            (i, q) for i, q in pairs
-            if perf_data.get(str(i), {}).get("history", [])[-1] == "wrong"
-        ]
+        subset = [(qid, q) for qid, q in pairs
+                  if perf_data.get(str(qid), {}).get("history", [])[-1] == "wrong"]
     elif filter_mode == "wrong_unanswered":
-        subset = [
-            (i, q) for i, q in pairs
-            if perf_data.get(str(i), {}).get("history", [])[-1] in ("wrong", "skipped")
-        ]
+        subset = [(qid, q) for qid, q in pairs
+                  if perf_data.get(str(qid), {}).get("history", [])[-1] in ("wrong", "skipped")]
         subset.sort(
             key=lambda x: perf_data[str(x[0])]["history"].count("wrong"),
             reverse=True
@@ -238,12 +242,12 @@ def play_quiz(full_questions, perf_data, filter_mode="all",
 
     counts = {"correct": 0, "wrong": 0, "unanswered": 0}
     total_q = len(subset)
-    for idx, (qid, qdata) in enumerate(subset, start=1):
+    for position, (qid, qdata) in enumerate(subset, start=1):
         res = preguntar(
             qid, qdata, perf_data, counts,
             disable_shuffle=False,
             exam_dates=exam_dates,
-            position=idx,
+            position=position,
             total=total_q
         )
         if res is None:
@@ -257,4 +261,4 @@ def play_quiz(full_questions, perf_data, filter_mode="all",
     if total:
         score = (c*0.333 - w*0.111)/total*30
         print(f"Puntuación: {score:.2f}/10\n")
-    # rimosso press_any_key() per evitare blocking nei test
+    # (no final press_any_key to keep tests non-blocking)

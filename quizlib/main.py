@@ -11,7 +11,7 @@ from quizlib.performance import load_performance_data
 from quizlib.engine import play_quiz, clear_screen, press_any_key
 from quizlib.navigator import pick_a_file_menu, print_quiz_files_summary
 
-VERSION = "2.5.0"
+VERSION = "2.6.0"
 logger = logging.getLogger(__name__)
 
 def _sigint_handler(signum, frame):
