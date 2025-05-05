@@ -83,7 +83,93 @@ def print_menu_principal():
     print("4) Seleccionar un archivo específico y realizar su quiz")
     print("5) Ver resumen de archivos cargados")
     print("6) Realizar quiz con preguntas FALLADAS o NO respondidas")
-    print("7) Salir")
+    print("7) Ver estadísticas")
+    print("8) Salir")
+
+def comando_statistics(questions, perf_data, cursos_dict, quiz_files_info):
+    """
+    Mostra statistiche globali di domande: mai tentate, saltate, sbagliate, corrette.
+    Permette di filtrare per libreria, corso (cartella) o file.
+    """
+    def compute_and_show(qids, label):
+        never = skipped = wrong = correct = 0
+        for qid in qids:
+            hist = perf_data.get(str(qid), {}).get("history", [])
+            if not hist:
+                never += 1
+            else:
+                last = hist[-1]
+                if last == "skipped":
+                    skipped += 1
+                elif last == "wrong":
+                    wrong += 1
+                elif last == "correct":
+                    correct += 1
+        total = len(qids)
+        clear_screen()
+        print(f"\n=== Estadísticas para {label} ===")
+        print(f"Total preguntas: {total}")
+        print(f"Sin intentar: {never}")
+        print(f"Saltadas: {skipped}")
+        print(f"Incorrectas: {wrong}")
+        print(f"Correctas: {correct}\n")
+        press_any_key()
+
+    while True:
+        clear_screen()
+        print("\n=== Estadísticas ===")
+        print("1) Librería completa")
+        print("2) Carpeta (curso)")
+        print("3) Archivo")
+        print("4) Volver")
+        choice = input("Selecciona una opción: ").strip()
+
+        if choice == "1":
+            qids = list(range(len(questions)))
+            compute_and_show(qids, "Librería completa")
+
+        elif choice == "2":
+            course_names = sorted(cursos_dict.keys())
+            while True:
+                clear_screen()
+                print("\n=== Cursos disponibles ===")
+                for idx, cname in enumerate(course_names, start=1):
+                    print(f"{idx}) {cname}")
+                print("0) Volver")
+                sel = input("Selecciona un curso: ").strip()
+                if sel == "0":
+                    break
+                try:
+                    ci = int(sel) - 1
+                    if 0 <= ci < len(course_names):
+                        chosen_course = course_names[ci]
+                        # raccogli qids per corso
+                        qids = [
+                            i for i, q in enumerate(questions)
+                            if os.path.relpath(q.get("_quiz_source", ""),
+                                               QUIZ_DATA_FOLDER
+                            ).split(os.sep)[0] == chosen_course
+                        ]
+                        compute_and_show(qids, f"Curso '{chosen_course}'")
+                        break
+                except ValueError:
+                    pass
+
+        elif choice == "3":
+            filepath = pick_a_file_menu(cursos_dict)
+            if not filepath:
+                continue
+            qids = [
+                i for i, q in enumerate(questions)
+                if q.get("_quiz_source") == filepath
+            ]
+            compute_and_show(qids, f"Archivo '{os.path.basename(filepath)}'")
+
+        elif choice == "4":
+            return
+
+        else:
+            continue
 
 def main():
     logging.basicConfig(
@@ -123,6 +209,8 @@ def main():
         elif choice == "6":
             comando_quiz_wrong_unanswered(questions, perf_data)
         elif choice == "7":
+            comando_statistics(questions, perf_data, cursos_dict, quiz_files_info)
+        elif choice == "8":
             clear_screen()
             print("¡Hasta luego!")
             sys.exit(0)
