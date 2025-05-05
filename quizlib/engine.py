@@ -257,4 +257,4 @@ def play_quiz(full_questions, perf_data, filter_mode="all",
     if total:
         score = (c*0.333 - w*0.111)/total*30
         print(f"Puntuación: {score:.2f}/10\n")
-    press_any_key()
+    # rimosso press_any_key() per evitare blocking nei test
