@@ -8,14 +8,14 @@ from datetime import date, datetime, timedelta
 
 from .performance import save_performance_data
 from .utils import clear_screen, press_any_key
+from .loader import QUIZ_DATA_FOLDER
 
 LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 def clean_embedded_answers(question_text):
     pattern = re.compile(r'^[a-dA-D]\)\s')
     lines = question_text.split('\n')
-    cleaned = [line for line in lines if not pattern.match(line.strip())]
-    return '\n'.join(cleaned).strip()
+    return '\n'.join(line for line in lines if not pattern.match(line.strip())).strip()
 
 def remap_answer_references(text, shuffle_mapping):
     def replace_letter(m):
@@ -48,61 +48,66 @@ def colorize_answers(question_text, shuffled_answers, shuffle_mapping,
         lines.append(f"[{color}{label}{RESET}] {color}{ans_text}{RESET}")
     return "\n".join(lines)
 
-def preguntar(qid, question_data, perf_data, session_counts, disable_shuffle=False):
+def preguntar(qid, question_data, perf_data, session_counts,
+              disable_shuffle=False, exam_dates=None):
+    """
+    Presenta una pregunta, aggiorna SM-2 con cap basato sulla data d'esame del corso,
+    e mostra statistiche in spagnolo.
+    """
     qid_str = str(qid)
     if qid_str not in perf_data:
         perf_data[qid_str] = {"history": []}
     pd = perf_data[qid_str]
-    # initialize SM-2 fields
+
+    # Inizializza campi SM-2
     if "ease" not in pd:
-        pd["ease"] = 2.5
-        pd["interval"] = 0
-        pd["repetition"] = 0
-        pd["next_review"] = date.today().isoformat()
+        pd.update({
+            "ease": 2.5,
+            "interval": 0,
+            "repetition": 0,
+            "next_review": date.today().isoformat()
+        })
 
     clear_screen()
     question_text = clean_embedded_answers(question_data["question"])
     original_answers = question_data["answers"]
 
+    # shuffle se non disabilitato
     if not disable_shuffle:
         shuffled_answers = copy.deepcopy(original_answers)
         random.shuffle(shuffled_answers)
     else:
         shuffled_answers = original_answers[:]
 
-    shuffle_mapping = {orig_idx: shuffled_answers.index(ans)
-                       for orig_idx, ans in enumerate(original_answers)}
+    shuffle_mapping = {i: shuffled_answers.index(ans)
+                       for i, ans in enumerate(original_answers)}
 
+    # Mostra domanda e risposte
     print(f"Pregunta {qid}:\n{question_text}\n")
     for idx, ans in enumerate(shuffled_answers):
-        label = LETTERS[idx]
-        print(f"[{label}] {remap_answer_references(ans['text'], shuffle_mapping)}")
-    print("\n[0] Salir de la sesión\n")
+        print(f"[{LETTERS[idx]}] {remap_answer_references(ans['text'], shuffle_mapping)}")
+    print("\n[0] Salir\n")
 
+    # Trova risposte corrette
     correct_letters = [
-        LETTERS[shuffle_mapping[orig_idx]]
-        for orig_idx, ans in enumerate(original_answers) if ans.get("correct", False)
+        LETTERS[shuffle_mapping[i]]
+        for i, ans in enumerate(original_answers) if ans.get("correct", False)
     ]
     if len(correct_letters) > 1:
-        print("Puede haber varias respuestas correctas. Ejemplo: 'A,C'")
+        print("Puede haber varias respuestas correctas, p.ej. 'A,C'")
 
     user_input = input("Tu respuesta: ").strip().upper()
     if user_input == "0":
         clear_screen()
-        print("¿Seguro que deseas salir de esta sesión y volver al sub-menú? (s/n)")
+        print("¿Confirmas salir? (s/n)")
         if input("> ").strip().lower() == "s":
             pd["history"].append("skipped")
             session_counts["unanswered"] += 1
-            # schedule next review tomorrow
-            pd["repetition"] = 0
-            pd["interval"] = 1
-            pd["ease"] = max(1.3, pd["ease"] + (0.1 - (5-0)*(0.08+(5-0)*0.02)))
-            pd["next_review"] = (date.today() + timedelta(days=1)).isoformat()
-            return None
-        pd["history"].append("wrong")
-        session_counts["wrong"] += 1
-        quality = 0
-
+            quality = 0
+        else:
+            pd["history"].append("wrong")
+            session_counts["wrong"] += 1
+            quality = 0
     else:
         parts = re.split(r'[,\s;]+', user_input)
         user_set = set(filter(None, parts))
@@ -112,13 +117,13 @@ def preguntar(qid, question_data, perf_data, session_counts, disable_shuffle=Fal
         session_counts["correct" if is_correct else "wrong"] += 1
         quality = 5 if is_correct else 0
 
-    # SM-2 update
+    # SM-2: calcola nuovo interval e ease
     if quality >= 3:
         pd["repetition"] += 1
         if pd["repetition"] == 1:
             pd["interval"] = 1
         elif pd["repetition"] == 2:
-            pd["interval"] = 6
+            pd["interval"] = 3   # tarato per esami a breve termine
         else:
             pd["interval"] = round(pd["interval"] * pd["ease"])
         pd["ease"] = max(1.3, pd["ease"] + (0.1 - (5-quality)*(0.08+(5-quality)*0.02)))
@@ -126,8 +131,26 @@ def preguntar(qid, question_data, perf_data, session_counts, disable_shuffle=Fal
         pd["repetition"] = 0
         pd["interval"] = 1
         pd["ease"] = max(1.3, pd["ease"] + (0.1 - (5-quality)*(0.08+(5-quality)*0.02)))
+
+    # Cap dell'intervallo in base all'esame del corso
+    if exam_dates:
+        source = question_data.get("_quiz_source", "")
+        rel = os.path.relpath(source, QUIZ_DATA_FOLDER)
+        curso = rel.split(os.sep)[0] if rel else None
+        fecha_ex = exam_dates.get(curso)
+        if fecha_ex:
+            try:
+                exam_date = date.fromisoformat(fecha_ex)
+                dias_restantes = (exam_date - date.today()).days
+                if dias_restantes < 1:
+                    dias_restantes = 1
+                pd["interval"] = min(pd["interval"], dias_restantes)
+            except ValueError:
+                pass
+
     pd["next_review"] = (date.today() + timedelta(days=pd["interval"])).isoformat()
 
+    # Mostra feedback e statistiche
     clear_screen()
     print(colorize_answers(
         question_text, shuffled_answers, shuffle_mapping,
@@ -139,61 +162,68 @@ def preguntar(qid, question_data, perf_data, session_counts, disable_shuffle=Fal
         print("EXPLICACIÓN:\n" +
               remap_answer_references(question_data["explanation"], shuffle_mapping) + "\n")
 
-    hist = pd["history"]
-    print(f"Historial: intentos={len(hist)}, correctas={hist.count('correct')}, "
-          f"incorrectas={hist.count('wrong')}, saltadas={hist.count('skipped')}\n")
+    h = pd["history"]
+    print(f"Historial: intentos={len(h)}, correctas={h.count('correct')}, "
+          f"incorrectas={h.count('wrong')}, saltadas={h.count('skipped')}\n")
     press_any_key()
     save_performance_data(perf_data)
     return quality == 5
 
 def play_quiz(full_questions, perf_data, filter_mode="all",
-              file_filter=None, tag_filter=None):
-    all_pairs = [(i, q) for i, q in enumerate(full_questions)]
+              file_filter=None, tag_filter=None, exam_dates=None):
+    """
+    filter_mode:
+      - "due": programadas para hoy
+      - "all": todas
+      - "unanswered": no respondidas
+      - "wrong": falladas última vez
+      - "wrong_unanswered": falladas o saltadas
+    Siempre prioriza cap SM-2 con date examen por curso.
+    """
+    pairs = [(i, q) for i, q in enumerate(full_questions)]
     if file_filter:
-        all_pairs = [(i, q) for i, q in all_pairs
-                     if q.get("_quiz_source") == file_filter]
+        pairs = [(i, q) for i, q in pairs if q.get("_quiz_source") == file_filter]
     if tag_filter:
-        all_pairs = [(i, q) for i, q in all_pairs
-                     if tag_filter in q.get("tags", [])]
+        pairs = [(i, q) for i, q in pairs if tag_filter in q.get("tags", [])]
 
     today = date.today()
     if filter_mode == "due":
         subset = []
-        for i, q in all_pairs:
+        for i, q in pairs:
             nr = perf_data.get(str(i), {}).get("next_review")
-            if not nr or datetime.strptime(nr, "%Y-%m-%d").date() <= today:
+            if not nr or datetime.fromisoformat(nr).date() <= today:
                 subset.append((i, q))
     elif filter_mode == "unanswered":
-        subset = [(i, q) for (i, q) in all_pairs
-                  if not perf_data.get(str(i), {}).get("history")]
+        subset = [(i, q) for i, q in pairs if not perf_data.get(str(i), {}).get("history")]
     elif filter_mode == "wrong":
-        subset = [(i, q) for (i, q) in all_pairs
+        subset = [(i, q) for i, q in pairs
                   if perf_data.get(str(i), {}).get("history", [])[-1] == "wrong"]
     elif filter_mode == "wrong_unanswered":
-        subset = [(i, q) for (i, q) in all_pairs
+        subset = [(i, q) for i, q in pairs
                   if perf_data.get(str(i), {}).get("history", [])[-1] in ("wrong", "skipped")]
-        subset.sort(key=lambda pair: perf_data[str(pair[0])]["history"].count("wrong"),
-                    reverse=True)
+        subset.sort(key=lambda x: perf_data[str(x[0])]["history"].count("wrong"), reverse=True)
     else:
-        subset = all_pairs
+        subset = pairs
 
     if not subset:
         clear_screen()
-        print("\n[No questions for this filter. Returning...]\n")
+        print("\n[No hay preguntas para este filtro]\n")
         press_any_key()
         return
 
-    session_counts = {"correct": 0, "wrong": 0, "unanswered": 0}
+    counts = {"correct": 0, "wrong": 0, "unanswered": 0}
     for qid, qdata in subset:
-        res = preguntar(qid, qdata, perf_data, session_counts, disable_shuffle=False)
+        res = preguntar(qid, qdata, perf_data, counts,
+                        disable_shuffle=False, exam_dates=exam_dates)
         if res is None:
             break
+
     clear_screen()
-    c, w, u = session_counts["correct"], session_counts["wrong"], session_counts["unanswered"]
+    c, w, u = counts["correct"], counts["wrong"], counts["unanswered"]
     total = c + w + u
-    print("=== Session Summary ===")
-    print(f"Correct: {c}, Wrong: {w}, Skipped: {u}, Total: {total}")
+    print("=== Resumen de sesión ===")
+    print(f"Correctas: {c}, Incorrectas: {w}, Saltadas: {u}, Total: {total}")
     if total:
         score = (c*0.333 - w*0.111)/total*30
-        print(f"Score: {score:.2f}/10\n")
+        print(f"Puntuación: {score:.2f}/10\n")
     press_any_key()
