@@ -14,12 +14,10 @@ VERSION = "2.5.0"
 logger = logging.getLogger(__name__)
 
 def _sigint_handler(signum, frame):
-    """Handler per Ctrl-C: esce ordinatamente."""
     clear_screen()
     print("\n¡Hasta luego!")
     sys.exit(0)
 
-# Registriamo il handler non appena importiamo il modulo
 signal.signal(signal.SIGINT, _sigint_handler)
 
 def set_title(title):
@@ -33,81 +31,80 @@ def set_title(title):
     else:
         sys.stdout.write('\x1b]2;' + title + '\x07')
 
-def comando_quiz_todos(questions, perf_data):
-    """Quiz con TUTTE le domande."""
-    play_quiz(questions, perf_data, filter_mode="all", file_filter=None)
+def comando_quiz_due(questions, perf_data, **kwargs):
+    play_quiz(questions, perf_data, filter_mode="due", **kwargs)
 
-def comando_quiz_unanswered(questions, perf_data):
-    """Quiz solo domande NON risposte."""
-    play_quiz(questions, perf_data, filter_mode="unanswered", file_filter=None)
+def comando_quiz_todos(questions, perf_data, **kwargs):
+    play_quiz(questions, perf_data, filter_mode="all", **kwargs)
 
-def comando_quiz_wrong(questions, perf_data):
-    """Quiz solo domande SBAGLIATE."""
-    play_quiz(questions, perf_data, filter_mode="wrong", file_filter=None)
+def comando_quiz_unanswered(questions, perf_data, **kwargs):
+    play_quiz(questions, perf_data, filter_mode="unanswered", **kwargs)
 
-def comando_quiz_wrong_unanswered(questions, perf_data):
-    """Quiz domande SBAGLIATE o NON risposte."""
-    play_quiz(questions, perf_data, filter_mode="wrong_unanswered", file_filter=None)
+def comando_quiz_wrong(questions, perf_data, **kwargs):
+    play_quiz(questions, perf_data, filter_mode="wrong", **kwargs)
 
-def print_submenu_archivo():
-    """
-    Sub-menu dopo selezione file:
-    permette di scegliere il filtro specifico per quell'archivio.
-    """
-    print("\n=== Filtro per il file selezionato ===")
-    print("1) Realizar quiz con TODAS las preguntas (de este archivo)")
-    print("2) Realizar quiz con preguntas NO respondidas (de este archivo)")
-    print("3) Realizar quiz con preguntas FALLADAS (de este archivo)")
-    print("4) Realizar quiz con preguntas FALLADAS o NO respondidas (de este archivo)")
-    print("5) Volver al menú principal")
+def comando_quiz_wrong_unanswered(questions, perf_data, **kwargs):
+    play_quiz(questions, perf_data, filter_mode="wrong_unanswered", **kwargs)
 
 def comando_quiz_file(questions, perf_data, cursos_dict):
-    chosen_filepath = pick_a_file_menu(cursos_dict)
-    if not chosen_filepath:
+    fp = pick_a_file_menu(cursos_dict)
+    if not fp:
         return
     while True:
         clear_screen()
-        print_submenu_archivo()
-        choice = input("\nSelecciona una opción: ").strip()
+        print("\n=== File Filter ===")
+        print("1) Tutte")
+        print("2) Non risposte")
+        print("3) Sbagliate")
+        print("4) Sbagliate o saltate")
+        print("5) Programmato per oggi")
+        print("6) Torna indietro")
+        choice = input("Scelta: ").strip()
         if choice == "1":
-            play_quiz(questions, perf_data, filter_mode="all", file_filter=chosen_filepath)
+            comando_quiz_todos(questions, perf_data, file_filter=fp)
         elif choice == "2":
-            play_quiz(questions, perf_data, filter_mode="unanswered", file_filter=chosen_filepath)
+            comando_quiz_unanswered(questions, perf_data, file_filter=fp)
         elif choice == "3":
-            play_quiz(questions, perf_data, filter_mode="wrong", file_filter=chosen_filepath)
+            comando_quiz_wrong(questions, perf_data, file_filter=fp)
         elif choice == "4":
-            play_quiz(questions, perf_data, filter_mode="wrong_unanswered", file_filter=chosen_filepath)
+            comando_quiz_wrong_unanswered(questions, perf_data, file_filter=fp)
         elif choice == "5":
+            comando_quiz_due(questions, perf_data, file_filter=fp)
+        elif choice == "6":
             break
-        else:
-            print("Opción no válida.")
-            press_any_key()
 
-def print_menu_principal():
-    """Stampa il menu principale."""
-    print("\n=== QuizProg Main Menu ===")
-    print("1) Realizar quiz con TODAS las preguntas")
-    print("2) Realizar quiz con preguntas NO respondidas")
-    print("3) Realizar quiz con preguntas FALLADAS (anteriores)")
-    print("4) Seleccionar un archivo específico y realizar su quiz")
-    print("5) Ver resumen de archivos cargados")
-    print("6) Realizar quiz con preguntas FALLADAS o NO respondidas")
-    print("7) Ver estadísticas")
-    print("8) Salir")
+def comando_quiz_tag(questions, perf_data, tags_list):
+    if not tags_list:
+        clear_screen()
+        print("[No tags available]")
+        press_any_key()
+        return
+    while True:
+        clear_screen()
+        print("\n=== Tags disponibili ===")
+        for i, t in enumerate(tags_list, 1):
+            print(f"{i}) {t}")
+        print("0) Torna indietro")
+        sel = input("Seleziona tag: ").strip()
+        if sel == "0":
+            return
+        try:
+            idx = int(sel) - 1
+            if 0 <= idx < len(tags_list):
+                comando_quiz_due(questions, perf_data, tag_filter=tags_list[idx])
+                return
+        except ValueError:
+            pass
 
 def comando_statistics(questions, perf_data, cursos_dict, quiz_files_info):
-    """
-    Mostra statistiche globali di domande: mai tentate, saltate, sbagliate, corrette.
-    Permette di filtrare per libreria, corso (cartella) o file.
-    """
-    def compute_and_show(qids, label):
+    def compute(qids, label):
         never = skipped = wrong = correct = 0
-        for qid in qids:
-            hist = perf_data.get(str(qid), {}).get("history", [])
-            if not hist:
+        for i in qids:
+            h = perf_data.get(str(i), {}).get("history", [])
+            if not h:
                 never += 1
             else:
-                last = hist[-1]
+                last = h[-1]
                 if last == "skipped":
                     skipped += 1
                 elif last == "wrong":
@@ -116,115 +113,113 @@ def comando_statistics(questions, perf_data, cursos_dict, quiz_files_info):
                     correct += 1
         total = len(qids)
         clear_screen()
-        print(f"\n=== Estadísticas para {label} ===")
-        print(f"Total preguntas: {total}")
-        print(f"Sin intentar: {never}")
-        print(f"Saltadas: {skipped}")
-        print(f"Incorrectas: {wrong}")
-        print(f"Correctas: {correct}\n")
+        print(f"\n=== Statistiche {label} ===")
+        print(f"Totale: {total}")
+        print(f"Mai tentate: {never}")
+        print(f"Saltate: {skipped}")
+        print(f"Sbagliate: {wrong}")
+        print(f"Corrette: {correct}\n")
         press_any_key()
 
     while True:
         clear_screen()
-        print("\n=== Estadísticas ===")
-        print("1) Librería completa")
-        print("2) Carpeta (curso)")
-        print("3) Archivo")
-        print("4) Volver")
-        choice = input("Selecciona una opción: ").strip()
-
+        print("\n=== Statistiche ===")
+        print("1) Libreria completa")
+        print("2) Corso (cartella)")
+        print("3) File")
+        print("4) Torna indietro")
+        choice = input("Scelta: ").strip()
         if choice == "1":
-            qids = list(range(len(questions)))
-            compute_and_show(qids, "Librería completa")
-
+            compute(list(range(len(questions))), "Libreria completa")
         elif choice == "2":
-            course_names = sorted(cursos_dict.keys())
+            courses = sorted(cursos_dict.keys())
             while True:
                 clear_screen()
-                print("\n=== Cursos disponibles ===")
-                for idx, cname in enumerate(course_names, start=1):
-                    print(f"{idx}) {cname}")
-                print("0) Volver")
-                sel = input("Selecciona un curso: ").strip()
+                print("\n=== Corsi ===")
+                for i, c in enumerate(courses, 1):
+                    print(f"{i}) {c}")
+                print("0) Torna indietro")
+                sel = input("Scelta: ").strip()
                 if sel == "0":
                     break
                 try:
                     ci = int(sel) - 1
-                    if 0 <= ci < len(course_names):
-                        chosen_course = course_names[ci]
+                    if 0 <= ci < len(courses):
+                        course = courses[ci]
                         qids = [
                             i for i, q in enumerate(questions)
-                            if os.path.relpath(q.get("_quiz_source", ""),
-                                               QUIZ_DATA_FOLDER
-                            ).split(os.sep)[0] == chosen_course
+                            if os.path.relpath(q["_quiz_source"], QUIZ_DATA_FOLDER)
+                               .split(os.sep)[0] == course
                         ]
-                        compute_and_show(qids, f"Curso '{chosen_course}'")
+                        compute(qids, f"Corso {course}")
                         break
                 except ValueError:
                     pass
-
         elif choice == "3":
-            filepath = pick_a_file_menu(cursos_dict)
-            if not filepath:
+            fp = pick_a_file_menu(cursos_dict)
+            if not fp:
                 continue
-            qids = [
-                i for i, q in enumerate(questions)
-                if q.get("_quiz_source") == filepath
-            ]
-            compute_and_show(qids, f"Archivo '{os.path.basename(filepath)}'")
-
+            qids = [i for i, q in enumerate(questions) if q["_quiz_source"] == fp]
+            compute(qids, f"File {os.path.basename(fp)}")
         elif choice == "4":
             return
 
-        else:
-            continue
-
-def main():
-    logging.basicConfig(
-        level=logging.WARNING,
-        format="%(levelname)s:%(name)s:%(message)s"
-    )
-
-    set_title(f"QuizProg v{VERSION}")
-
+def print_menu():
     clear_screen()
     print(f"QuizProg v{VERSION}")
-    print(f"Usando carpeta de quizzes: '{QUIZ_DATA_FOLDER}'")
+    print(f"Folder quiz: '{QUIZ_DATA_FOLDER}'\n")
+    print("1) Ripasso programmato (oggi)")
+    print("2) Tutte le domande")
+    print("3) Non risposte")
+    print("4) Sbagliate")
+    print("5) Sbagliate o saltate")
+    print("6) Per file")
+    print("7) Per tag")
+    print("8) Sommario file")
+    print("9) Statistiche")
+    print("0) Esci")
+
+def main():
+    logging.basicConfig(level=logging.WARNING,
+                        format="%(levelname)s:%(name)s:%(message)s")
+    set_title(f"QuizProg v{VERSION}")
+    clear_screen()
     press_any_key()
 
     questions, cursos_dict, quiz_files_info = load_all_quizzes(QUIZ_DATA_FOLDER)
-
-    print("Archivos de Quiz Cargados")
-
     perf_data = load_performance_data()
+    # raccolta tags
+    tags = sorted({t for q in questions for t in q.get("tags", [])})
 
     while True:
-        clear_screen()
-        print_menu_principal()
-        choice = input("\nSelecciona una opción: ").strip()
+        print_menu()
+        choice = input("Scelta: ").strip()
         if choice == "1":
-            comando_quiz_todos(questions, perf_data)
+            comando_quiz_due(questions, perf_data)
         elif choice == "2":
-            comando_quiz_unanswered(questions, perf_data)
+            comando_quiz_todos(questions, perf_data)
         elif choice == "3":
-            comando_quiz_wrong(questions, perf_data)
+            comando_quiz_unanswered(questions, perf_data)
         elif choice == "4":
-            comando_quiz_file(questions, perf_data, cursos_dict)
+            comando_quiz_wrong(questions, perf_data)
         elif choice == "5":
+            comando_quiz_wrong_unanswered(questions, perf_data)
+        elif choice == "6":
+            comando_quiz_file(questions, perf_data, cursos_dict)
+        elif choice == "7":
+            comando_quiz_tag(questions, perf_data, tags)
+        elif choice == "8":
             clear_screen()
             print_quiz_files_summary(quiz_files_info)
             press_any_key()
-        elif choice == "6":
-            comando_quiz_wrong_unanswered(questions, perf_data)
-        elif choice == "7":
+        elif choice == "9":
             comando_statistics(questions, perf_data, cursos_dict, quiz_files_info)
-        elif choice == "8":
+        elif choice == "0":
             clear_screen()
             print("¡Hasta luego!")
             sys.exit(0)
         else:
-            print("Opción no válida.")
-            press_any_key()
+            continue
 
 if __name__ == "__main__":
     main()
