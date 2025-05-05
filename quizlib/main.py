@@ -8,9 +8,7 @@ import json
 
 from quizlib.loader import load_all_quizzes, QUIZ_DATA_FOLDER
 from quizlib.performance import load_performance_data
-from quizlib.engine import (
-    play_quiz, clear_screen, press_any_key
-)
+from quizlib.engine import play_quiz, clear_screen, press_any_key
 from quizlib.navigator import pick_a_file_menu, print_quiz_files_summary
 
 VERSION = "2.5.0"
@@ -35,15 +33,15 @@ def set_title(title):
         sys.stdout.write('\x1b]2;' + title + '\x07')
 
 def cargar_fechas_examen():
-    rutas = {}
+    exam_dates = {}
     fichero = os.path.join(QUIZ_DATA_FOLDER, "exam_dates.json")
     if os.path.exists(fichero):
         try:
             with open(fichero, encoding="utf-8") as f:
-                rutas = json.load(f)
-        except Exception:
+                exam_dates = json.load(f)
+        except:
             pass
-    return rutas
+    return exam_dates
 
 def comando_quiz_programado(questions, perf_data, exam_dates, **kwargs):
     play_quiz(questions, perf_data, filter_mode="due", exam_dates=exam_dates, **kwargs)

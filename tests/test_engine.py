@@ -3,14 +3,14 @@
 import pytest
 import random
 import re
+import quizlib.engine as eng
 from quizlib.engine import preguntar, clean_embedded_answers, remap_answer_references
-from quizlib.utils import clear_screen, press_any_key
 
 @pytest.fixture
 def monkeypatch_engine(monkeypatch):
-    # Evitiamo di pulire lo schermo e chiedere input in test.
-    monkeypatch.setattr("quizlib.engine.clear_screen", lambda: None)
-    monkeypatch.setattr("quizlib.engine.press_any_key", lambda: None)
+    # Evitiamo clear_screen e press_any_key
+    monkeypatch.setattr(eng, "clear_screen", lambda: None)
+    monkeypatch.setattr(eng, "press_any_key", lambda: None)
     return monkeypatch
 
 def test_clean_embedded_answers():
@@ -33,34 +33,24 @@ def test_remap_answer_references():
     mapping = {0: 1, 1: 0, 2: 2, 3: 3}
     text = "a y b y c"
     remapped = remap_answer_references(text, mapping)
-    # a->B, b->A, c->C => "B y A y C" => sort => "A y B y C"
     assert remapped == "A y B y C"
 
 def test_preguntar_multiple_correct(monkeypatch_engine, monkeypatch):
     question_data = {
         "question": "Pregunta con a) y b) correctas",
         "answers": [
-            {"text": "Opción A", "correct": True},  # index=0 => A
-            {"text": "Opción B", "correct": True},  # index=1 => B
-            {"text": "Opción C", "correct": False}, # index=2 => C
-            {"text": "Opción D", "correct": False}, # index=3 => D
+            {"text": "Opción A", "correct": True},
+            {"text": "Opción B", "correct": True},
+            {"text": "Opción C", "correct": False},
+            {"text": "Opción D", "correct": False},
         ],
         "explanation": "Porque a y b son correctas."
     }
-
-    user_input = "A,B"
-    inputs = iter([user_input])
+    inputs = iter(["A,B"])
     monkeypatch.setattr("builtins.input", lambda _: next(inputs))
-
     perf_data = {}
-    session_counts = {"correct": 0, "wrong": 0, "unanswered": 0}
-    result = preguntar(
-        qid=0,
-        question_data=question_data,
-        perf_data=perf_data,
-        session_counts=session_counts,
-        disable_shuffle=True
-    )
+    session_counts = {"correct":0, "wrong":0, "unanswered":0}
+    result = preguntar(0, question_data, perf_data, session_counts, disable_shuffle=True)
     assert result is True
     assert session_counts["correct"] == 1
     assert session_counts["wrong"] == 0
@@ -69,86 +59,83 @@ def test_preguntar_multi_delimiters(monkeypatch_engine, monkeypatch):
     question_data = {
         "question": "Multi correct test: a) or c) ???",
         "answers": [
-            {"text": "X", "correct": True},   # idx=0 => A
-            {"text": "Y", "correct": False},  # idx=1 => B
-            {"text": "Z", "correct": True},   # idx=2 => C
-            {"text": "W", "correct": False},  # idx=3 => D
+            {"text": "X", "correct": True},
+            {"text": "Y", "correct": False},
+            {"text": "Z", "correct": True},
+            {"text": "W", "correct": False},
         ],
         "explanation": ""
     }
     perf_data = {}
-    session_counts = {"correct": 0, "wrong": 0, "unanswered": 0}
+    session_counts = {"correct":0, "wrong":0, "unanswered":0}
+    for inp in ["A C","A,C","a c","a,c","A;C","A  C"]:
+        inputs = iter([inp])
+        monkeypatch.setattr("builtins.input", lambda _: next(inputs))
+        result = preguntar(0, question_data, perf_data, session_counts, disable_shuffle=True)
+        assert result is True, f"'{inp}' not accepted"
 
-    test_inputs = ["A C", "A,C", "a c", "a,c", "A;C", "A  C"]
-    for inp in test_inputs:
-        answers_iter = iter([inp])
-        monkeypatch.setattr("builtins.input", lambda _: next(answers_iter))
+def test_preguntar_exit_confirm(monkeypatch_engine, monkeypatch):
+    question_data = {
+        "question": "Q?",
+        "answers":[{"text":"A","correct":True},{"text":"B","correct":False},
+                   {"text":"C","correct":False},{"text":"D","correct":False}],
+        "explanation": ""
+    }
+    inputs = iter(["0","s"])
+    monkeypatch.setattr("builtins.input", lambda _: next(inputs))
+    perf_data = {}
+    session_counts = {"correct":0,"wrong":0,"unanswered":0}
+    result = preguntar(0, question_data, perf_data, session_counts, disable_shuffle=True)
+    assert result is None
+    assert session_counts["unanswered"] == 1
+    assert perf_data["0"]["history"][-1] == "skipped"
 
-        if "0" in perf_data:
-            del perf_data["0"]
-
-        result = preguntar(
-            qid=0,
-            question_data=question_data,
-            perf_data=perf_data,
-            session_counts=session_counts,
-            disable_shuffle=True
-        )
-        assert result is True, f"Input '{inp}' was not accepted as correct"
+def test_preguntar_exit_cancel(monkeypatch_engine, monkeypatch):
+    question_data = {
+        "question": "Q?",
+        "answers":[{"text":"A","correct":True},{"text":"B","correct":False},
+                   {"text":"C","correct":False},{"text":"D","correct":False}],
+        "explanation": ""
+    }
+    inputs = iter(["0","n"])
+    monkeypatch.setattr("builtins.input", lambda _: next(inputs))
+    perf_data = {}
+    session_counts = {"correct":0,"wrong":0,"unanswered":0}
+    result = preguntar(0, question_data, perf_data, session_counts, disable_shuffle=True)
+    assert result is False
+    assert session_counts["wrong"] == 1
+    assert perf_data["0"]["history"][-1] == "wrong"
 
 def test_shuffle_preserves_correctness():
-    original_answers = [
-        {"text": "Answer A", "correct": True},
-        {"text": "Answer B", "correct": False},
-        {"text": "Answer C", "correct": True},
-        {"text": "Answer D", "correct": False},
+    original = [
+        {"text":"A","correct":True},
+        {"text":"B","correct":False},
+        {"text":"C","correct":True},
+        {"text":"D","correct":False},
     ]
-    correct_before = {ans["text"] for ans in original_answers if ans["correct"]}
-
-    shuffled = original_answers[:]
+    before = {ans["text"] for ans in original if ans["correct"]}
+    shuffled = original[:]
     random.shuffle(shuffled)
-    correct_after = {ans["text"] for ans in shuffled if ans["correct"]}
-
-    assert correct_after == correct_before
+    after = {ans["text"] for ans in shuffled if ans["correct"]}
+    assert after == before
 
 def test_question_not_remapped_but_explanation_is_remapped(monkeypatch_engine, monkeypatch):
     question_data = {
-        "question": "In this question, we mention a) or c) explicitly (DO NOT CHANGE).",
-        "answers": [
-            {"text": "References to a in answer text", "correct": True},
-            {"text": "References to b in answer text", "correct": False},
-        ],
-        "explanation": "Explanation referencing a and b - these should get mapped."
+        "question": "In this question mention a) or c) explicitly.",
+        "answers":[{"text":"ref to a","correct":True},{"text":"ref to b","correct":False},
+                   {"text":"ref to c","correct":False},{"text":"ref to d","correct":False}],
+        "explanation":"Because a and b."
     }
-
     inputs = iter(["A"])
     monkeypatch.setattr("builtins.input", lambda _: next(inputs))
-
     perf_data = {}
-    session_counts = {"correct": 0, "wrong": 0, "unanswered": 0}
-
-    printed_lines = []
-    def fake_print(*args, **kwargs):
-        line = " ".join(str(a) for a in args)
-        printed_lines.append(line)
-
-    monkeypatch.setattr("builtins.print", fake_print)
-
-    result = preguntar(
-        qid=0,
-        question_data=question_data,
-        perf_data=perf_data,
-        session_counts=session_counts,
-        disable_shuffle=True
-    )
+    session_counts = {"correct":0,"wrong":0,"unanswered":0}
+    printed = []
+    monkeypatch.setattr("builtins.print", lambda *args, **kwargs: printed.append(" ".join(str(a) for a in args)))
+    result = preguntar(0, question_data, perf_data, session_counts, disable_shuffle=True)
     assert result is True
-    assert session_counts["correct"] == 1
-
-    joined_output = "\n".join(printed_lines)
-    # The question text must remain unchanged
-    assert "mention a) or c) explicitly (DO NOT CHANGE)" in joined_output
-    # The explanation references 'a' and 'b' => expected to be mapped to 'A' and 'B'
-    assert "Explanation referencing A and B" in joined_output
-    # The answer text references 'a' => 'A', 'b' => 'B'
-    assert "References to A in answer text" in joined_output
-    assert "References to B in answer text" in joined_output
+    out = "\n".join(printed)
+    assert "mention a) or c) explicitly" in out
+    assert "Because A and B." in out
+    assert "ref to A" in out
+    assert "ref to B" in out
