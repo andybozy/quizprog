@@ -3,6 +3,7 @@
 import sys
 import os
 import logging
+import signal
 
 from quizlib.loader import load_all_quizzes, QUIZ_DATA_FOLDER
 from quizlib.performance import load_performance_data
@@ -10,11 +11,19 @@ from quizlib.engine import play_quiz, clear_screen, press_any_key
 from quizlib.navigator import pick_a_file_menu, print_quiz_files_summary
 
 VERSION = "2.5.0"
-
 logger = logging.getLogger(__name__)
 
+def _sigint_handler(signum, frame):
+    """Handler per Ctrl-C: esce ordinatamente."""
+    clear_screen()
+    print("\n¡Hasta luego!")
+    sys.exit(0)
+
+# Registriamo il handler non appena importiamo il modulo
+signal.signal(signal.SIGINT, _sigint_handler)
+
 def set_title(title):
-    """Set the console title for Windows or via ANSI for other OS."""
+    """Set the console title for Windows or via ANSI per altri OS."""
     if os.name == 'nt':
         import ctypes
         try:
@@ -143,7 +152,6 @@ def comando_statistics(questions, perf_data, cursos_dict, quiz_files_info):
                     ci = int(sel) - 1
                     if 0 <= ci < len(course_names):
                         chosen_course = course_names[ci]
-                        # raccogli qids per corso
                         qids = [
                             i for i, q in enumerate(questions)
                             if os.path.relpath(q.get("_quiz_source", ""),
