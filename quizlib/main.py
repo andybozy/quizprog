@@ -11,18 +11,21 @@ from quizlib.performance import load_performance_data
 from quizlib.engine import play_quiz, clear_screen, press_any_key
 from quizlib.navigator import pick_a_file_menu, print_quiz_files_summary
 
-VERSION = "2.6.1"
+VERSION = "2.6.2"
 logger = logging.getLogger(__name__)
+
 
 def _sigint_handler(signum, frame):
     clear_screen()
     print("\n¡Hasta luego!")
     sys.exit(0)
 
+
 signal.signal(signal.SIGINT, _sigint_handler)
 
+
 def set_title(title):
-    """Set the console title for Windows or via ANSI per altri OS."""
+    """Set the console title for Windows or via ANSI on other OS."""
     if os.name == 'nt':
         import ctypes
         try:
@@ -31,6 +34,7 @@ def set_title(title):
             pass
     else:
         sys.stdout.write('\x1b]2;' + title + '\x07')
+
 
 def cargar_fechas_examen():
     exam_dates = {}
@@ -43,20 +47,26 @@ def cargar_fechas_examen():
             pass
     return exam_dates
 
+
 def comando_quiz_programado(questions, perf_data, exam_dates, **kwargs):
     play_quiz(questions, perf_data, filter_mode="due", exam_dates=exam_dates, **kwargs)
+
 
 def comando_quiz_todas(questions, perf_data, exam_dates, **kwargs):
     play_quiz(questions, perf_data, filter_mode="all", exam_dates=exam_dates, **kwargs)
 
+
 def comando_quiz_no_respondidas(questions, perf_data, exam_dates, **kwargs):
     play_quiz(questions, perf_data, filter_mode="unanswered", exam_dates=exam_dates, **kwargs)
+
 
 def comando_quiz_falladas(questions, perf_data, exam_dates, **kwargs):
     play_quiz(questions, perf_data, filter_mode="wrong", exam_dates=exam_dates, **kwargs)
 
+
 def comando_quiz_falladas_o_saltadas(questions, perf_data, exam_dates, **kwargs):
     play_quiz(questions, perf_data, filter_mode="wrong_unanswered", exam_dates=exam_dates, **kwargs)
+
 
 def comando_quiz_por_archivo(questions, perf_data, cursos_dict, exam_dates):
     fichero = pick_a_file_menu(cursos_dict)
@@ -88,6 +98,7 @@ def comando_quiz_por_archivo(questions, perf_data, cursos_dict, exam_dates):
             print("Opción no válida.")
             press_any_key()
 
+
 def comando_quiz_por_etiqueta(questions, perf_data, exam_dates, tags):
     if not tags:
         clear_screen()
@@ -112,6 +123,7 @@ def comando_quiz_por_etiqueta(questions, perf_data, exam_dates, tags):
                 return
         except ValueError:
             pass
+
 
 def comando_estadisticas(questions, perf_data, cursos_dict):
     def mostrar(qids, titulo):
@@ -181,6 +193,65 @@ def comando_estadisticas(questions, perf_data, cursos_dict):
         elif op == "4":
             break
 
+
+def comando_resumen_archivos(questions, perf_data, cursos_dict, quiz_files_info):
+    clear_screen()
+    print("=== Resumen de Archivos ===")
+    for finfo in quiz_files_info:
+        filepath = finfo["filepath"]
+        filename = finfo["filename"]
+        # gather all qids in this file
+        qids = [q["_quiz_id"] for q in questions if q["_quiz_source"] == filepath]
+        total = len(qids)
+        never = skipped = wrong = correct = 0
+        for qid in qids:
+            history = perf_data.get(str(qid), {}).get("history", [])
+            if not history:
+                never += 1
+            else:
+                last = history[-1]
+                if last == "skipped":
+                    skipped += 1
+                elif last == "wrong":
+                    wrong += 1
+                elif last == "correct":
+                    correct += 1
+        def pct(x): return f"{(x/total*100):.1f}%" if total > 0 else "N/A"
+        print(
+            f"{filename}: total={total}, no-int={never} ({pct(never)}), "
+            f"saltadas={skipped} ({pct(skipped)}), wrong={wrong} ({pct(wrong)}), "
+            f"correct={correct} ({pct(correct)})"
+        )
+
+    print("\n=== Resumen de Cursos ===")
+    for curso, data in cursos_dict.items():
+        total = data["total_questions"]
+        never = skipped = wrong = correct = 0
+        for q in questions:
+            rel = os.path.relpath(q["_quiz_source"], QUIZ_DATA_FOLDER)
+            if rel.split(os.sep)[0] == curso:
+                qid = q["_quiz_id"]
+                history = perf_data.get(str(qid), {}).get("history", [])
+                if not history:
+                    never += 1
+                else:
+                    last = history[-1]
+                    if last == "skipped":
+                        skipped += 1
+                    elif last == "wrong":
+                        wrong += 1
+                    elif last == "correct":
+                        correct += 1
+        def pct2(x): return f"{(x/total*100):.1f}%" if total > 0 else "N/A"
+        print(
+            f"{curso}: total={total}, no-int={never} ({pct2(never)}), "
+            f"saltadas={skipped} ({pct2(skipped)}), wrong={wrong} ({pct2(wrong)}), "
+            f"correct={correct} ({pct2(correct)})"
+        )
+
+    press_any_key()
+
+
 def mostrar_menu():
     clear_screen()
     print(f"QuizProg v{VERSION}")
@@ -195,6 +266,7 @@ def mostrar_menu():
     print("8) Resumen de archivos")
     print("9) Estadísticas")
     print("0) Salir")
+
 
 def main():
     logging.basicConfig(level=logging.WARNING,
@@ -226,15 +298,14 @@ def main():
         elif choice == "7":
             comando_quiz_por_etiqueta(questions, perf_data, exam_dates, tags)
         elif choice == "8":
-            clear_screen()
-            print_quiz_files_summary(quiz_files_info)
-            press_any_key()
+            comando_resumen_archivos(questions, perf_data, cursos_dict, quiz_files_info)
         elif choice == "9":
             comando_estadisticas(questions, perf_data, cursos_dict)
         elif choice == "0":
             clear_screen()
             print("¡Hasta luego!")
             sys.exit(0)
+
 
 if __name__ == "__main__":
     main()
