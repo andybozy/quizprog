@@ -4,13 +4,25 @@ import os
 import re
 import random
 import copy
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, time, timedelta
 
 from .performance import save_performance_data
 from .utils import clear_screen, press_any_key
 from .loader import QUIZ_DATA_FOLDER
 
 LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+
+def effective_today():
+    """
+    Return the 'current learning date', rolling over at 05:30 AM local time.
+    If now < 05:30, treat it as the previous day.
+    """
+    now = datetime.now()
+    cutoff = time(5, 30)
+    if now.time() < cutoff:
+        return (now - timedelta(days=1)).date()
+    return now.date()
 
 
 def clean_embedded_answers(question_text):
@@ -67,7 +79,7 @@ def preguntar(qid, question_data, perf_data, session_counts,
               position=None, total=None):
     """
     Presenta una pregunta con avanzamento, SM-2 tarato y estadísticas en español.
-    Ahora usa 'qid' como clave de performance_data.
+    Usa 'effective_today()' para todas las decisiones de día.
     """
     qid_str = str(qid)
     if qid_str not in perf_data:
@@ -76,11 +88,12 @@ def preguntar(qid, question_data, perf_data, session_counts,
 
     # Initialize SM-2 fields if missing
     if "ease" not in pd:
+        today = effective_today()
         pd.update({
             "ease": 2.5,
             "interval": 0,
             "repetition": 0,
-            "next_review": date.today().isoformat()
+            "next_review": today.isoformat()
         })
 
     clear_screen()
@@ -128,6 +141,12 @@ def preguntar(qid, question_data, perf_data, session_counts,
             pd["history"].append("wrong")
             session_counts["wrong"] += 1
             quality = 0
+
+    elif ui == "":
+        # User just pressed Enter → skip this question
+        pd["history"].append("skipped")
+        session_counts["unanswered"] += 1
+        quality = 0
     else:
         parts = re.split(r'[,\s;]+', ui)
         user_set = set(filter(None, parts))
@@ -168,13 +187,16 @@ def preguntar(qid, question_data, perf_data, session_counts,
         if fecha_ex:
             try:
                 ex_date = date.fromisoformat(fecha_ex)
-                days_left = (ex_date - date.today()).days
+                today = effective_today()
+                days_left = (ex_date - today).days
                 days_left = max(days_left, 1)
                 pd["interval"] = min(pd["interval"], days_left)
             except ValueError:
                 pass
 
-    pd["next_review"] = (date.today() + timedelta(days=pd["interval"])).isoformat()
+    # Compute next review date from effective_today()
+    next_day = effective_today() + timedelta(days=pd["interval"])
+    pd["next_review"] = next_day.isoformat()
 
     # Feedback
     clear_screen()
@@ -200,9 +222,7 @@ def preguntar(qid, question_data, perf_data, session_counts,
 def play_quiz(full_questions, perf_data, filter_mode="all",
               file_filter=None, tag_filter=None, exam_dates=None):
     """
-    Now pairs = [(qid, question_dict), …] keyed by:
-     - the question’s `_quiz_id` (if present), or
-     - its list‐index (for old‐style tests/code).
+    Ahora usa effective_today() para filtrar 'due'.
     """
     pairs = []
     for idx, q in enumerate(full_questions):
@@ -214,7 +234,7 @@ def play_quiz(full_questions, perf_data, filter_mode="all",
     if tag_filter:
         pairs = [(qid, q) for qid, q in pairs if tag_filter in q.get("tags", [])]
 
-    today = date.today()
+    today = effective_today()
     if filter_mode == "due":
         subset = [
             (qid, q) for qid, q in pairs
@@ -222,14 +242,12 @@ def play_quiz(full_questions, perf_data, filter_mode="all",
                or datetime.fromisoformat(perf_data[str(qid)]["next_review"]).date() <= today
         ]
     elif filter_mode == "unanswered":
-        subset = [
-            (qid, q) for qid, q in pairs
-            if not perf_data.get(str(qid), {}).get("history")
-        ]
+        subset = [(qid, q) for qid, q in pairs if not perf_data.get(str(qid), {}).get("history")]
     elif filter_mode == "wrong":
         subset = [
             (qid, q) for qid, q in pairs
-            if perf_data.get(str(qid), {}).get("history", []) and perf_data[str(qid)]["history"][-1] == "wrong"
+            if perf_data.get(str(qid), {}).get("history", []) and
+               perf_data[str(qid)]["history"][-1] == "wrong"
         ]
     elif filter_mode == "wrong_unanswered":
         subset = [
@@ -271,4 +289,4 @@ def play_quiz(full_questions, perf_data, filter_mode="all",
     if total:
         score = (c*0.333 - w*0.111)/total*30
         print(f"Puntuación: {score:.2f}/10\n")
-    # (no final press_any_key to keep tests non-blocking)
+    # no final press_any_key to keep tests non-blocking
