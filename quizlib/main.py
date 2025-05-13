@@ -9,9 +9,9 @@ import json
 from quizlib.loader import load_all_quizzes, QUIZ_DATA_FOLDER
 from quizlib.performance import load_performance_data
 from quizlib.engine import play_quiz, clear_screen, press_any_key
-from quizlib.navigator import pick_a_file_menu, print_quiz_files_summary
+from quizlib.navigator import pick_a_file_menu
 
-VERSION = "2.6.2"
+VERSION = "2.6.3"
 logger = logging.getLogger(__name__)
 
 
@@ -46,6 +46,111 @@ def cargar_fechas_examen():
         except:
             pass
     return exam_dates
+
+
+def comando_resumen_archivos(questions, perf_data, cursos_dict, quiz_files_info):
+    while True:
+        clear_screen()
+        print("=== Resumen de Archivos ===\n")
+
+        # 1) Overall per-file summary
+        for idx, finfo in enumerate(quiz_files_info, start=1):
+            filepath = finfo["filepath"]
+            filename = finfo["filename"]
+            # gather all qids in this file
+            qids = [q["_quiz_id"] for q in questions if q["_quiz_source"] == filepath]
+            total = len(qids)
+            never = skipped = wrong = correct = 0
+            for qid in qids:
+                history = perf_data.get(str(qid), {}).get("history", [])
+                if not history:
+                    never += 1
+                else:
+                    last = history[-1]
+                    if last == "skipped":
+                        skipped += 1
+                    elif last == "wrong":
+                        wrong += 1
+                    elif last == "correct":
+                        correct += 1
+            def pct(x): return f"{(x/total*100):.1f}%" if total else "N/A"
+            print(
+                f"{idx}) {filename}: total={total}, "
+                f"no-int={never} ({pct(never)}), saltadas={skipped} ({pct(skipped)}), "
+                f"wrong={wrong} ({pct(wrong)}), correct={correct} ({pct(correct)})"
+            )
+
+        print("\n---\n")
+
+        # 2) Per-course summary
+        print("=== Resumen de Cursos ===\n")
+        for curso, data in cursos_dict.items():
+            total = data["total_questions"]
+            never = skipped = wrong = correct = 0
+            for q in questions:
+                rel = os.path.relpath(q["_quiz_source"], QUIZ_DATA_FOLDER)
+                if rel.split(os.sep)[0] == curso:
+                    qid = q["_quiz_id"]
+                    history = perf_data.get(str(qid), {}).get("history", [])
+                    if not history:
+                        never += 1
+                    else:
+                        last = history[-1]
+                        if last == "skipped":
+                            skipped += 1
+                        elif last == "wrong":
+                            wrong += 1
+                        elif last == "correct":
+                            correct += 1
+            def pct2(x): return f"{(x/total*100):.1f}%" if total else "N/A"
+            print(
+                f"{curso}: total={total}, "
+                f"no-int={never} ({pct2(never)}), saltadas={skipped} ({pct2(skipped)}), "
+                f"wrong={wrong} ({pct2(wrong)}), correct={correct} ({pct2(correct)})"
+            )
+
+        print("\n---\n")
+        print("0) Volver")
+        print("Seleccione un archivo (número) para ver sus estadísticas individuales, o 0 para volver.")
+
+        choice = input("Elige opción: ").strip()
+        if choice == "0":
+            break
+
+        try:
+            sel = int(choice) - 1
+            if 0 <= sel < len(quiz_files_info):
+                finfo = quiz_files_info[sel]
+                filepath = finfo["filepath"]
+                filename = finfo["filename"]
+                # compute detailed stats for this single file
+                qids = [q["_quiz_id"] for q in questions if q["_quiz_source"] == filepath]
+                total = len(qids)
+                never = skipped = wrong = correct = 0
+                for qid in qids:
+                    history = perf_data.get(str(qid), {}).get("history", [])
+                    if not history:
+                        never += 1
+                    else:
+                        last = history[-1]
+                        if last == "skipped":
+                            skipped += 1
+                        elif last == "wrong":
+                            wrong += 1
+                        elif last == "correct":
+                            correct += 1
+                def pct3(x): return f"{(x/total*100):.1f}%" if total else "N/A"
+
+                clear_screen()
+                print(f"=== Estadísticas detalladas: {filename} ===\n")
+                print(f"Total preguntas        : {total}")
+                print(f"Sin intentar           : {never} ({pct3(never)})")
+                print(f"Saltadas               : {skipped} ({pct3(skipped)})")
+                print(f"Incorrectas            : {wrong} ({pct3(wrong)})")
+                print(f"Correctas              : {correct} ({pct3(correct)})\n")
+                press_any_key()
+        except ValueError:
+            continue
 
 
 def comando_quiz_programado(questions, perf_data, exam_dates, **kwargs):
@@ -192,64 +297,6 @@ def comando_estadisticas(questions, perf_data, cursos_dict):
             mostrar(qids, f"Archivo {os.path.basename(f)}")
         elif op == "4":
             break
-
-
-def comando_resumen_archivos(questions, perf_data, cursos_dict, quiz_files_info):
-    clear_screen()
-    print("=== Resumen de Archivos ===")
-    for finfo in quiz_files_info:
-        filepath = finfo["filepath"]
-        filename = finfo["filename"]
-        # gather all qids in this file
-        qids = [q["_quiz_id"] for q in questions if q["_quiz_source"] == filepath]
-        total = len(qids)
-        never = skipped = wrong = correct = 0
-        for qid in qids:
-            history = perf_data.get(str(qid), {}).get("history", [])
-            if not history:
-                never += 1
-            else:
-                last = history[-1]
-                if last == "skipped":
-                    skipped += 1
-                elif last == "wrong":
-                    wrong += 1
-                elif last == "correct":
-                    correct += 1
-        def pct(x): return f"{(x/total*100):.1f}%" if total > 0 else "N/A"
-        print(
-            f"{filename}: total={total}, no-int={never} ({pct(never)}), "
-            f"saltadas={skipped} ({pct(skipped)}), wrong={wrong} ({pct(wrong)}), "
-            f"correct={correct} ({pct(correct)})"
-        )
-
-    print("\n=== Resumen de Cursos ===")
-    for curso, data in cursos_dict.items():
-        total = data["total_questions"]
-        never = skipped = wrong = correct = 0
-        for q in questions:
-            rel = os.path.relpath(q["_quiz_source"], QUIZ_DATA_FOLDER)
-            if rel.split(os.sep)[0] == curso:
-                qid = q["_quiz_id"]
-                history = perf_data.get(str(qid), {}).get("history", [])
-                if not history:
-                    never += 1
-                else:
-                    last = history[-1]
-                    if last == "skipped":
-                        skipped += 1
-                    elif last == "wrong":
-                        wrong += 1
-                    elif last == "correct":
-                        correct += 1
-        def pct2(x): return f"{(x/total*100):.1f}%" if total > 0 else "N/A"
-        print(
-            f"{curso}: total={total}, no-int={never} ({pct2(never)}), "
-            f"saltadas={skipped} ({pct2(skipped)}), wrong={wrong} ({pct2(wrong)}), "
-            f"correct={correct} ({pct2(correct)})"
-        )
-
-    press_any_key()
 
 
 def mostrar_menu():
