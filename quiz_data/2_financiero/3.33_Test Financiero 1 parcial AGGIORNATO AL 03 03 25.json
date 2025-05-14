@@ -375,6 +375,18 @@
       "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
     },
     {
+      "question": "Los recargos por declaración extemporánea y espontánea:",
+      "answers": [
+        { "text": "No son en ningún caso compatibles con los intereses de demora dado que lo sustituyen como indemnización por retraso en el cumplimiento.", "correct": false },
+        { "text": "Son compatibles en cualquier caso con los intereses de demora pues tienen naturaleza tributaria y no indemnizatoria.", "correct": false },
+        { "text": "Ninguna de las otras respuestas describe correctamente a esta prestación patrimonial accesoria.", "correct": true },
+        { "text": "No son en ningún caso compatibles con los recargos del periodo ejecutivo.", "correct": false }
+      ],
+      "explanation": "ES: Art. 27 LGT: los recargos extemporáneos solo son incompatibles con sanciones y recargos ejecutivos; ninguna afirmación anterior refleja esto por completo, por lo que la 3 es la única opción válida.\nIT: Art. 27 LGT: i recari extemporanei sono incompatibili solo con sanzioni e maggiorazioni esecutive; nessuna delle dichiarazioni precedenti lo descrive appieno, dunque l’opzione 3 è corretta.",
+      "legal_reference": "Artículo 27 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
       "question": "Un impuesto es:",
       "answers": [
         { "text": "Un ingreso público.", "correct": false },
@@ -454,8 +466,438 @@
         { "text": "Siempre realizan un pago a cuenta de una obligación tributaria principal que en futuro se repercutirá a un tercero.", "correct": false },
         { "text": "Todas son correctas.", "correct": true }
       ],
-      "explanation": "ES: Art. 38 LGT: los pagos a cuenta son obligaciones accesorias, independientes y permiten adelantar el pago de una futura deuda. La opción D agrupa todas las características. Las opciones A, B y C son parciales.\nIT: Art. 38 LGT: i versamenti a titolo di acconto sono obblighi accessori, autonomi, e anticipano il pagamento di un debito futuro. L’opzione D include tutte le caratteristiche. Le opzioni A, B e C sono parziali.",
+      "explanation": "ES: Art. 38 LGT: los pagos a cuenta son obligaciones accesorias, independientes y permiten adelantar el pago de una futura deuda. La 4 agrupa todas las características. Las demás son parciales.\nIT: Art. 38 LGT: i versamenti a titolo di acconto sono obblighi accessori, autonomi, e anticipano il pagamento di un debito futuro. L’opzione 4 include tutte le caratteristiche. Le altre sono parziali.",
       "legal_reference": "Artículo 38 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "Imágenes que el estado decide exigir un nuevo ingreso público consistente en una aportación anual de 200 euros obligatoria y sin contraprestación de las personas con renta anual superior a 60.000 euros para crear un fondo de ayuda a los inmigrantes a dicha aportación se le denomina contribución solidaria; la calificación jurídica y económica que debe darse a esta aportación es:",
+      "answers": [
+        { "text": "Tasa.", "correct": false },
+        { "text": "Donación.", "correct": false },
+        { "text": "Contribución especial.", "correct": false },
+        { "text": "Impuesto.", "correct": true }
+      ],
+      "explanation": "ES: Al ser una obligación general, sin contraprestación específica y con finalidad de gasto público, se califica como impuesto (Art. 2 LGT). La tasa exige un servicio; la donación es voluntaria; la contribución especial beneficia grupos concretos.\nIT: Essendo un obbligo generale senza controprestazione specifica e finalizzato alla spesa pubblica, si definisce imposta (Art. 2 LGT). La tassa richiede servizio; la donazione è volontaria; il contributo speciale riguarda benefici specifici.",
+      "legal_reference": "Artículo 2 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "Según la LGT la relación jurídica que deriva del tributo es:",
+      "answers": [
+        { "text": "Un conjunto de obligaciones entre las que está el pago del tributo.", "correct": true },
+        { "text": "Una relación que hace referencia a los deberes formales.", "correct": false },
+        { "text": "Una obligación cuyo objeto es la entrega de una cantidad de dinero.", "correct": false },
+        { "text": "Todas son correctas.", "correct": false }
+      ],
+      "explanation": "ES: Art. 33 LGT define la relación jurídico-tributaria como el conjunto de derechos y obligaciones (materiales y formales). La 1 describe correctamente esta pluralidad. La 2 y 3 se quedan en un solo aspecto; la 4 es falsa.\nIT: Art. 33 LGT definisce il rapporto giuridico-tributario come insieme di diritti e obblighi (materiali e formali). L’opzione 1 corrisponde a questa visione. L’opzione 2 e 3 si limitano a un aspetto; l’opzione 4 è errata.",
+      "legal_reference": "Artículo 33 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "De los siguientes conceptos no es un tributo el siguiente:",
+      "answers": [
+        { "text": "La contribución al proyecto de pavimentación del ayuntamiento.", "correct": false },
+        { "text": "La contribución al colegio profesional.", "correct": true },
+        { "text": "La contribución por el aprovechamiento especial del dominio público.", "correct": false },
+        { "text": "La contribución al sostenimiento de gasto público sin contraprestación.", "correct": false }
+      ],
+      "explanation": "ES: Art. 2 LGT: la contribución al colegio profesional es una cuota de asociación, no tributo. La 2 es correcta. Las demás son tasas o contribuciones especiales/impuestos.\nIT: Art. 2 LGT: il contributo al collegio professionale è quota associativa, non tributo. L’opzione 2 è corretta. Le altre sono tasse o contributi/imposte.",
+      "legal_reference": "Artículo 2 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "Los obligados tributarios:",
+      "answers": [
+        { "text": "En ningún caso se encuentran obligados frente a la Hacienda Pública.", "correct": false },
+        { "text": "Pueden estar obligados únicamente al cumplimiento de deberes formales.", "correct": false },
+        { "text": "Son siempre sujetos con personalidad jurídica.", "correct": false },
+        { "text": "En todo caso se encuentran obligados frente a la Hacienda Pública.", "correct": true }
+      ],
+      "explanation": "ES: Art. 35 LGT: los obligados tributarios incluyen personas físicas, jurídicas y entidades sin personalidad, que deben cumplir obligaciones formales y materiales. La 4 recoge esta generalidad. La 1, 2 y 3 son afirmaciones parciales o incorrectas.\nIT: Art. 35 LGT: i soggetti passivi comprendono persone fisiche, giuridiche ed enti senza personalità, obbligati a doveri formali e materiali. L’opzione 4 è corretta. Le opzioni 1, 2 e 3 sono parziali o errate.",
+      "legal_reference": "Artículo 35 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "El principio de generalidad exige que:",
+      "answers": [
+        { "text": "el sistema impositivo trate igual a todas las personas que tengan la misma renta", "correct": true },
+        { "text": "se aplique el impuesto a todas las personas que realicen el hecho imponible de los impuestos", "correct": false },
+        { "text": "solo se apliquen impuestos que afecten por igual a todas las personas", "correct": false },
+        { "text": "todas las personas paguen tributos sin más precisión", "correct": false }
+      ],
+      "explanation": "ES: El principio de generalidad, según el Art. 31.1 CE, exige que quienes estén en iguales condiciones económicas reciban el mismo tratamiento impositivo, lo que coincide con la primera afirmación. Las restantes opciones o restringen indebidamente la aplicación o añaden condiciones no previstas.\nIT: Il principio di generalità, ex Art. 31.1 CE, richiede che soggetti in identiche condizioni economiche ricevano lo stesso trattamento tributario, quanto espresso dalla prima opzione. Le opzioni rimanenti impongono limitazioni o condizioni non previste.",
+      "legal_reference": "Artículo 31.1 CE",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "En los supuestos de no sujeción:",
+      "answers": [
+        { "text": "el hecho imponible nace pero no nace la obligación tributaria ni se produce el devengo del tributo", "correct": false },
+        { "text": "el hecho imponible nace pero queda exento de tributación", "correct": false },
+        { "text": "el hecho imponible no se realiza y en consecuencia no nace la obligación tributaria", "correct": true },
+        { "text": "ninguna es correcta", "correct": false }
+      ],
+      "explanation": "ES: Según el Art. 20.2 LGT, los supuestos de no sujeción implican que el hecho imponible no se ha producido, por lo que no nace obligación tributaria ni devengo. Las demás opciones describen exención o situaciones distintas.\nIT: In base all’Art. 20.2 LGT, la non soggezione implica che il fatto imponibile non si verifica e quindi non nasce obbligazione né decorso. Le altre opzioni descrivono esenzioni o situazioni diverse.",
+      "legal_reference": "Artículo 20.2 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "La retención, el pago fraccionado y el ingreso a cuenta:",
+      "answers": [
+        { "text": "se realizan al tiempo que se devenga el hecho imponible del tributo principal debido a la dependencia de la obligación accesoria con respecto de la principal", "correct": false },
+        { "text": "suponen ingresos por adelanto para el pago de un tributo futuro de cuya cuota líquida habrán de descontarse", "correct": true },
+        { "text": "se aplican sólo a los tributos de carácter instantáneo", "correct": false },
+        { "text": "ninguna es correcta", "correct": false }
+      ],
+      "explanation": "ES: Art. 38 LGT: las retenciones, pagos fraccionados e ingresos a cuenta constituyen anticipos de un tributo futuro, que se deducen de la cuota líquida. Las demás definiciones no reflejan correctamente su naturaleza.\nIT: Art. 38 LGT: le ritenute, i pagamenti frazionati e i versamenti a titolo di acconto sono anticipi su un tributo futuro, detraibili dalla quota liquida. Le altre definizioni non descrivono correttamente la loro natura.",
+      "legal_reference": "Artículo 38 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "La capacidad económica gravada por un tributo se mide a través de:",
+      "answers": [
+        { "text": "la deuda tributaria", "correct": false },
+        { "text": "la cuota íntegra", "correct": false },
+        { "text": "el tipo de gravamen", "correct": false },
+        { "text": "la base imponible", "correct": true }
+      ],
+      "explanation": "ES: La base imponible refleja la valoración económica del hecho imponible y sirve de medida para la capacidad gravada. Las otras magnitudes (deuda, cuota, tipo) son resultados o coeficientes, no medidas iniciales.\nIT: La base imponibile rappresenta la valutazione economica del fatto imponibile e serve da misura della capacità tassata. Le altre grandezze (debito, quota, aliquota) sono risultati o coefficienti, non misure iniziali.",
+      "legal_reference": "Artículo 37 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "el contribuyente:",
+      "answers": [
+        { "text": "no está obligado al cumplimiento de deberes formales de la obligación tributaria", "correct": false },
+        { "text": "tiene acción de regreso contra otras obligados tributarios", "correct": false },
+        { "text": "siempre realiza el hecho imponible aunque puede no soportar la carga tributaria", "correct": true },
+        { "text": "sustituye en el pago la obligación tributaria al sujeto pasivo", "correct": false }
+      ],
+      "explanation": "ES: Art. 17 LGT define al contribuyente como quien realiza el hecho imponible. Puede no ser sujeto pasivo material, pero siempre es autor del presupuesto de hecho. Las otras opciones confunden roles o atribuciones.\nIT: Art. 17 LGT definisce il contribuente come colui che realizza il fatto imponibile. Può non essere soggetto passivo materiale, ma è sempre autore del presupposto di fatto. Le altre opzioni confondono ruoli o attribuzioni.",
+      "legal_reference": "Artículo 17 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "La base imponible puede determinarse conforme a los siguientes métodos:",
+      "answers": [
+        { "text": "indirecto y directo", "correct": true },
+        { "text": "directo objetivo e indirecto", "correct": false },
+        { "text": "directo subjetivo e indirecto", "correct": false },
+        { "text": "directo y objetivo", "correct": false }
+      ],
+      "explanation": "ES: Art. 37 LGT: los métodos de cálculo de la base imponible son directo (con datos reales) e indirecto (estimación). Las demás combinaciones no corresponden a la clasificación legal.\nIT: Art. 37 LGT: i metodi di calcolo della base imponibile sono diretto (con dati reali) e indiretto (stima). Le altre combinazioni non corrispondono alla classificazione normativa.",
+      "legal_reference": "Artículo 37 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "La base liquidable es:",
+      "answers": [
+        { "text": "el resultado de pactar reducciones sobre la cuota íntegra", "correct": false },
+        { "text": "una magnitud anterior a la base imponible", "correct": false },
+        { "text": "siempre igual que la base imponible", "correct": false },
+        { "text": "una magnitud posterior a la base imponible", "correct": true }
+      ],
+      "explanation": "ES: Art. 54 LGT: la base liquidable se obtiene de la base imponible tras aplicar las reducciones legales, por lo que es posterior. Ni es previa, ni igual, ni parte de la cuota.\nIT: Art. 54 LGT: la base liquidabile si ottiene dalla base imponibile applicando le riduzioni di legge, quindi è successiva. Non è precedente, uguale né relativa alla quota.",
+      "legal_reference": "Artículo 54 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "La obligación tributaria principal:",
+      "answers": [
+        { "text": "es identificada por la ley con la relación jurídico tributaria y se equipara con la tasa de contribución especial o el impuesto", "correct": false },
+        { "text": "no forma parte de la relación jurídico tributaria sino que se trata de una obligación independiente", "correct": false },
+        { "text": "forma parte de la relación jurídico tributaria y su objeto es el pago de la cuota tributaria pudiendo estar acompañada de otras prestaciones materiales y formales tal y como dispone la LGT", "correct": true },
+        { "text": "forma parte de la relación jurídico tributaria aunque se trata de una obligación independiente", "correct": false }
+      ],
+      "explanation": "ES: Art. 31 LGT: la obligación tributaria principal está integrada en la relación jurídico-tributaria y consiste en el pago de la cuota, pudiendo incluir recargos, intereses y obligaciones formales.\nIT: Art. 31 LGT: l’obbligazione tributaria principale è parte del rapporto giuridico-tributario e consiste nel pagamento della quota, potendo includere maggiorazioni, interessi e obblighi formali.",
+      "legal_reference": "Artículo 31 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "El hecho imponible del tributo:",
+      "answers": [
+        { "text": "solo se da en los impuestos ya que tanto tasas y contribuciones especiales se basan en la voluntad de sujeto pasivo y la actividad de la administración", "correct": false },
+        { "text": "configura cada tributo pudiendo diferenciarse entre impuestos, tasas, precios públicos y recargos. así mismo es causa de las sanciones tributarias", "correct": false },
+        { "text": "configura cada tributo pudiendo diferenciarse impuestos tasas y contribución especiales", "correct": true },
+        { "text": "b y c son correctas", "correct": false }
+      ],
+      "explanation": "ES: Art. 20 LGT: el hecho imponible define y distingue cada tipo de tributo (impuestos, tasas, contribuciones especiales). La explicación de sanciones corresponde a otra institución.\nIT: Art. 20 LGT: il fatto imponibile definisce e distingue ogni tipo di tributo (imposte, tasse, contributi speciali). La menzione delle sanzioni appartiene ad altra fattispecie.",
+      "legal_reference": "Artículo 20 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "Un contribuyente de un impuesto debe satisfacer 4 euros cada litro de alcohol que fabrica. Este impuesto contempla:",
+      "answers": [
+        { "text": "una base no dineraria y un tipo de gravamen específico", "correct": true },
+        { "text": "un tipo de gravamen específico y una base imponible dineraria", "correct": false },
+        { "text": "un tipo de gravamen porcentual y una base imponible no dineraria", "correct": false },
+        { "text": "una cuota fija", "correct": false }
+      ],
+      "explanation": "ES: Se trata de un impuesto con tipo específico (cantidad fija por unidad) y base no dineraria (volumen en litros). Las demás combinaciones no describen este modelo.\nIT: Si tratta di un’imposta con aliquota specifica (importo fisso per unità) e base non monetaria (litri). Le altre combinazioni non corrispondono a questo modello.",
+      "legal_reference": "Artículo 2 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "La administración tributaria:",
+      "answers": [
+        { "text": "ostenta la posición de sujeto activo de la relación jurídica tributaria lo que también supone la realización de deberes de devolución de cuotas indebidas y de pago de intereses establecidos en la ley", "correct": true },
+        { "text": "ostenta la posición de sujeto activo de la relación jurídica tributaria lo que también supone la realización de pagos a cuenta y de pago de intereses establecidos en la ley siendo susceptible de sanción tributaria por impago", "correct": false },
+        { "text": "ostenta la posición de sujeto activo de la relación jurídica tributaria lo que también supone la realización de deberes de devolución de cuotas indebidas aunque el retraso en el cumplimiento no conlleva ninguna consecuencia", "correct": false },
+        { "text": "ninguna es correcta", "correct": false }
+      ],
+      "explanation": "ES: La AT es sujeto activo y debe devolver ingresos indebidos y pagar intereses (Art. 58 LGT). La imputación de sanciones o la exclusión de consecuencias no se ajusta a la norma.\nIT: L’AT è soggetto attivo e deve restituire i versamenti indebiti e corrispondere interessi (Art. 58 LGT). L’imposizione di sanzioni o l’esclusione di conseguenze non corrispondono alla norma.",
+      "legal_reference": "Artículo 58 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "El principio de indisponibilidad del crédito tributario implica:",
+      "answers": [
+        { "text": "que la administración y los particulares no pueden disponer sobre aspectos del crédito tributario en ningún caso", "correct": false },
+        { "text": "que la administración y los particulares no puedan disponer del crédito tributario salvo que la ley establezca otra cosa", "correct": true },
+        { "text": "que los particulares puedan convenir sobre aspectos del crédito tributario relativos a su exigibilidad como por ejemplo el plazo de pago vinculando con ello a la administración si se recoge en una escritura pública", "correct": false },
+        { "text": "b y c son correctas", "correct": false }
+      ],
+      "explanation": "ES: Art. 42 LGT: el crédito tributario es indisponible salvo disposición legal expresa. No cabe convenio privado sin base legal.\nIT: Art. 42 LGT: il credito tributario è indisponibile salvo espressa disposizione di legge. Non è previsto accordo privato senza fondamento normativo.",
+      "legal_reference": "Artículo 42 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "Los recargos ejecutivos:",
+      "answers": [
+        { "text": "se trata de una modalidad de recargos que se establecen por el cumplimiento espontáneo y temporal de las deudas tributarias", "correct": false },
+        { "text": "completa el régimen sancionador puesto que se impondrá en los casos de impago por parte del particular en el tiempo debido lo que equivale a una infracción tributaria", "correct": false },
+        { "text": "son recargos que se devengan con el inicio del periodo ejecutivo siendo del 5% del 10% y del 20% el primero y el segundo con incompatibles con los intereses de demora exigibles desde el inicio del periodo ejecutivo no así el ordinario", "correct": false },
+        { "text": "b y c son correctas", "correct": true }
+      ],
+      "explanation": "ES: Art. 28 LGT: los recargos ejecutivos (5%, 10%, 20%) se devengan al iniciarse el periodo ejecutivo y son incompatibles con intereses en esa etapa; y forman parte del régimen sancionador en sentido amplio.\nIT: Art. 28 LGT: le maggiorazioni esecutive (5%, 10%, 20%) maturano con l’avvio del periodo esecutivo e sono incompatibili con gli interessi in tale fase; costituiscono componente del regime sanzionatorio.",
+      "legal_reference": "Artículo 28 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "La deuda tributaria es la cantidad a pagar en concepto de un tributo:",
+      "answers": [
+        { "text": "incorrecto pues es la cantidad a devolver por ingresos indebidos", "correct": false },
+        { "text": "correcto y está integrada siempre por la cuota íntegra y los intereses de demora", "correct": false },
+        { "text": "correcto y está integrada exclusivamente por la cuota íntegra", "correct": false },
+        { "text": "correcto y está integrada por la cuota íntegra y otras prestaciones accesorias", "correct": true }
+      ],
+      "explanation": "ES: Art. 31 LGT: la deuda tributaria incluye la cuota íntegra y, en su caso, recargos, intereses y demás prestaciones accesorias. No se limita solo a la cuota ni es devolución.\nIT: Art. 31 LGT: il debito tributario comprende la quota integrale e, se del caso, maggiorazioni, interessi e altre prestazioni accessorie. Non si limita alla sola quota né riguarda restituzioni.",
+      "legal_reference": "Artículo 31 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "El resultado de practicar sobre la cuota líquida las deducciones establecidas por la ley de cada impuesto es la cuota:",
+      "answers": [
+        { "text": "diferencial", "correct": true },
+        { "text": "íntegra", "correct": false },
+        { "text": "mínima", "correct": false },
+        { "text": "bonificada", "correct": false }
+      ],
+      "explanation": "ES: Art. 56 LGT: la cuota diferencial resulta de aplicar las deducciones a la cuota íntegra. Las otras denominaciones tienen distinto significado.\nIT: Art. 56 LGT: la quota differenziale risulta applicando le deduzioni alla quota integrale. Le altre denominazioni hanno significato diverso.",
+      "legal_reference": "Artículo 56 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "El aspecto temporal del tributo:",
+      "answers": [
+        { "text": "comprende la ley aplicable y el devengo del tributo solo para el caso de los tributos periódicos que carecen de momento de exigibilidad", "correct": false },
+        { "text": "comprende el devengo y la exigibilidad del tributo donde el primero fija las circunstancias de tributo y el segundo el momento de cobro según disponga la ley", "correct": true },
+        { "text": "comprende la exigibilidad y la ley aplicable al tributo solo para el caso de los tributos instantáneos que carecen de momento devengo", "correct": false },
+        { "text": "comprende solo la exigibilidad del tributo según dispongan la ley", "correct": false }
+      ],
+      "explanation": "ES: Art. 21 y 22 LGT: el aspecto temporal engloba devengo (nacimiento de la obligación) y exigibilidad (momento de cobro). Las demás opciones limitan o mezclan incorrectamente los conceptos.\nIT: Art. 21 e 22 LGT: l’aspetto temporale include decorso (nascita dell’obbligazione) ed esigibilità (momento di pagamento). Le altre opzioni limitano o confondono i concetti.",
+      "legal_reference": "Artículos 21 y 22 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "El principio de la capacidad económica establece que los individuos deben contribuir al sostenimiento de los gastos públicos:",
+      "answers": [
+        { "text": "según los beneficios que reciban de los servicios públicos", "correct": false },
+        { "text": "conforme al nivel de renta y riqueza del contribuyente", "correct": true },
+        { "text": "según los beneficios recibidos de los servicios públicos y de las prestaciones sociales", "correct": false },
+        { "text": "en atención al nivel de progresividad que se le aplique al contribuyente", "correct": false }
+      ],
+      "explanation": "ES: Art. 31.1 CE: la tributación debe atender a la capacidad económica, medida por renta y riqueza. No se vincula a servicios recibidos ni a meramente aspectos de progresividad.\nIT: Art. 31.1 CE: la tassazione deve tener conto della capacità economica, misurata da reddito e patrimonio. Non si collega ai servizi fruiti né a soli aspetti di progressività.",
+      "legal_reference": "Artículo 31.1 CE",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "¿Qué ocurre si un contribuyente paga su deuda tributaria después de la fecha de vencimiento pero antes de cualquier acción de recaudación por parte de la Administración?",
+      "answers": [
+        { "text": "Pagará intereses de demora", "correct": true },
+        { "text": "Pagará un recargo extemporáneo del 5%", "correct": false },
+        { "text": "Pagará un recargo de apremio reducido del 10%", "correct": false },
+        { "text": "Ninguna de las anteriores es correcta.", "correct": false }
+      ],
+      "explanation": "ES: Art. 26 LGT: el pago fuera de plazo genera intereses de demora, salvo requerimiento o periodo ejecutivo. No se aplican recargos extemporáneos sin requerimiento previo.\nIT: Art. 26 LGT: il pagamento fuori termine genera interessi di mora, salvo richiesta o periodo esecutivo. Non si applicano maggiorazioni extemporanee senza preavviso.",
+      "legal_reference": "Artículo 26 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "¿Cuándo entra en vigor una norma tributaria según la LGT si no se especifica fecha?",
+      "answers": [
+        { "text": "A los 10 días naturales de publicarse en el boletín oficial correspondiente.", "correct": false },
+        { "text": "A los 20 días naturales de publicarse en el boletín oficial correspondiente.", "correct": true },
+        { "text": "A los 15 días naturales de publicarse en el boletín oficial correspondiente.", "correct": false },
+        { "text": "A los 20 días hábiles de publicarse en el boletín oficial correspondiente.", "correct": false }
+      ],
+      "explanation": "ES: Art. 10 LGT: salvo disposición en contrario, las normas tributarias entran en vigor a los 20 días naturales de su publicación en el BOE o boletín correspondiente.\nIT: Art. 10 LGT: salvo diversa disposizione, le norme tributarie entrano in vigore dopo venti giorni naturali dalla pubblicazione nel BOE o bollettino pertinente.",
+      "legal_reference": "Artículo 10 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "¿Qué es la analogía en el contexto de la interpretación de las normas tributarias?",
+      "answers": [
+        { "text": "Aplicar una norma a situaciones no previstas expresamente en ellas.", "correct": true },
+        { "text": "Interpretar literalmente la ley.", "correct": false },
+        { "text": "Usar comparaciones para resolver disputas.", "correct": false },
+        { "text": "Una técnica prohibida en materia tributaria.", "correct": false }
+      ],
+      "explanation": "ES: La analogía consiste en extender el alcance de una norma a supuestos no previstos expresamente. No implica interpretación literal ni comparación; el uso de analogía está prohibido para agravar hechos imponibles o reducir exenciones (Art. 14 LGT).\nIT: L’analogia consiste nell’estendere una norma a casi non previsti espressamente. Non riguarda interpretazione letterale né comparazioni; l’uso dell’analogia è vietato per ampliare il fatto imponibile o ridurre esenzioni (Art. 14 LGT).",
+      "legal_reference": "Artículo 14 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "Según la LGT, ¿qué caracteriza principalmente a una tasa?",
+      "answers": [
+        { "text": "Se paga a cambio de un servicio público específico y divisible.", "correct": true },
+        { "text": "Grava el consumo de bienes.", "correct": false },
+        { "text": "Se destina a financiar el gasto público sin contraprestación directa.", "correct": false },
+        { "text": "Se aplica a la propiedad del suelo", "correct": false }
+      ],
+      "explanation": "ES: Art. 2 LGT: las tasas se cobran por la prestación de un servicio público concreto o aprovechamiento especial del dominio público, divisible y medible. Las demás descripciones corresponden a impuestos o precios.\nIT: Art. 2 LGT: le tasse si pagano per la prestazione di un servizio pubblico specifico o per l’uso speciale del dominio pubblico, divisibile e misurabile. Le altre descrizioni si riferiscono a imposte o a prezzi.",
+      "legal_reference": "Artículo 2 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "¿Qué se requiere para que un tributo sea considerado una contribución especial según la LGT?",
+      "answers": [
+        { "text": "Que sea pagado por los beneficiarios directos de obras públicas o de servicios públicos.", "correct": true },
+        { "text": "Que grave el patrimonio de las personas físicas y jurídicas.", "correct": false },
+        { "text": "Que se destine a la financiación de actividades generales del Estado.", "correct": false },
+        { "text": "Que sea gestionado exclusivamente por entidades locales.", "correct": false }
+      ],
+      "explanation": "ES: Art. 23 LGT: las contribuciones especiales gravan el coste de obras o servicios que benefician de modo particular a determinados sujetos pasivos. No dependen de patrimonio, ni tienen carácter general ni gestión exclusiva local.\nIT: Art. 23 LGT: i contributi speciali tassano il costo di opere o servizi che beneficiano in modo particolare specifici soggetti passivi. Non dipendono dal patrimonio, non sono generali né gestiti esclusivamente da enti locali.",
+      "legal_reference": "Artículo 23 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "¿Cuál de las siguientes definiciones describe mejor un 'tributo' según la LGT?",
+      "answers": [
+        { "text": "Cualquier pago obligatorio a entidades privadas esté regulado por la ley.", "correct": false },
+        { "text": "Una sanción económica derivada del incumplimiento de normas fiscales.", "correct": false },
+        { "text": "Prestación pecuniaria obligatoria que exige la Administración en ejercicio de su potestad tributaria.", "correct": true },
+        { "text": "Un acuerdo voluntario de pago entre el ciudadano y el Estado", "correct": false }
+      ],
+      "explanation": "ES: Art. 1 LGT: el tributo es una prestación pecuniaria obligatoria exigida por la Administración en ejercicio de su potestad tributaria. No incluye sanciones, ni pagos a entidades privadas ni acuerdos voluntarios.\nIT: Art. 1 LGT: il tributo è una prestazione pecuniaria obbligatoria richiesta dall’Amministrazione nell’esercizio della sua potestà tributaria. Non comprende sanzioni, pagamenti a enti privati o accordi volontari.",
+      "legal_reference": "Artículo 1 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "Según la LGT, ¿cuál es la principal diferencia entre una tasa y un impuesto?",
+      "answers": [
+        { "text": "Las tasas son voluntarias por la prestación de un servicio, mientras que los impuestos son obligatorios.", "correct": false },
+        { "text": "Las tasas se pagan por la prestación de un servicio o la realización de una actividad administrativa, mientras que los impuestos se exigen sin contraprestación directa.", "correct": true }
+      ],
+      "explanation": "ES: Art. 2 LGT: las tasas se abonan por la prestación de un servicio público o aprovechamiento del dominio público, mientras que los impuestos se exigen sin contraprestación directa.\nIT: Art. 2 LGT: le tasse si pagano per la prestazione di un servizio pubblico o per l’uso del dominio pubblico, mentre le imposte si richiedono senza controprestazione diretta.",
+      "legal_reference": "Artículo 2 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "¿Quién es considerado el sujeto activo en la relación jurídico-tributaria?",
+      "answers": [
+        { "text": "El contribuyente que debe cumplir con la obligación tributaria", "correct": false },
+        { "text": "La entidad financiera que administra los pagos tributarios.", "correct": false },
+        { "text": "La administración tributaria que tiene derecho a exigir el cumplimiento de la obligación tributaria.", "correct": true },
+        { "text": "El asesor fiscal que representa al contribuyente", "correct": false }
+      ],
+      "explanation": "ES: Art. 33 LGT: el sujeto activo es la Administración tributaria, quien tiene el derecho de exigir el cumplimiento de las obligaciones tributarias.\nIT: Art. 33 LGT: il soggetto attivo è l’Amministrazione tributaria, titolare del diritto di esigere l’adempimento degli obblighi tributari.",
+      "legal_reference": "Artículo 33 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "De acuerdo con la Constitución española, ¿cuál principio establece que los tributos deben ser progresivos, asegurando que quienes tienen mayor capacidad económica contribuyan en una mayor proporción?",
+      "answers": [
+        { "text": "Principio de capacidad económica", "correct": true },
+        { "text": "Principio de equidad", "correct": false },
+        { "text": "Principio de progresividad", "correct": false },
+        { "text": "Principio de generalidad", "correct": false }
+      ],
+      "explanation": "ES: Art. 31.1 CE: la progresividad se deriva del principio de capacidad económica, que exige que quienes poseen mayor renta o patrimonio contribuyan más.\nIT: Art. 31.1 CE: la progressività deriva dal principio della capacità economica, che richiede una maggiore contribuzione a chi ha reddito o patrimonio superiori.",
+      "legal_reference": "Artículo 31.1 CE",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "¿Qué figura corresponde al sujeto pasivo en el contexto tributario?",
+      "answers": [
+        { "text": "La persona o entidad que realiza una gestión tributaria.", "correct": false },
+        { "text": "La persona o entidad sobre la que recae la obligación principal de cumplir con el pago del tributo.", "correct": true },
+        { "text": "La administración que recibe los pagos de los tributos.", "correct": false },
+        { "text": "El mediador en un proceso de inspección fiscal.", "correct": false }
+      ],
+      "explanation": "ES: Art. 33 LGT: el sujeto pasivo es quien asume la obligación principal de pago del tributo. No se trata de gestores, mediadores ni de la Administración.\nIT: Art. 33 LGT: il soggetto passivo è colui che assume l’obbligazione principale di pagamento del tributo. Non si tratta di gestori, mediatori né dell’Amministrazione.",
+      "legal_reference": "Artículo 33 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "¿Cómo se determina quién es el sujeto pasivo en el impuesto sobre el valor añadido (IVA)?",
+      "answers": [
+        { "text": "El consumidor final que paga el impuesto en la compra de bienes y servicios.", "correct": false },
+        { "text": "El empresario o profesional que realiza la entrega de bienes o prestación de servicios.", "correct": true },
+        { "text": "La administración que regula el mercado de bienes y servicios.", "correct": false },
+        { "text": "El proveedor de los bienes antes de llegar al consumidor final.", "correct": false }
+      ],
+      "explanation": "ES: LIVA (Art. 84) y Art. 9 LGT: en el IVA, el sujeto pasivo es el empresario o profesional que realiza entregas de bienes o prestaciones de servicios.\nIT: LIVA (Art. 84) e Art. 9 LGT: nell’IVA il soggetto passivo è l’imprenditore o professionista che effettua cessioni di beni o prestazioni di servizi.",
+      "legal_reference": "Artículo 84 LIVA; Artículo 9 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "¿Qué ocurre con los recargos cuando se paga la deuda tributaria después de iniciar el periodo ejecutivo pero antes de la notificación de la providencia de apremio?",
+      "answers": [
+        { "text": "No se aplican recargos.", "correct": false },
+        { "text": "Se aplica un recargo del 20%.", "correct": false },
+        { "text": "La deuda aumenta en un 10%.", "correct": false },
+        { "text": "Se aplica un recargo ejecutivo del 5%.", "correct": true }
+      ],
+      "explanation": "ES: Art. 28 LGT: si se paga dentro del periodo ejecutivo (antes de providencia de apremio), corresponde el recargo ejecutivo del 5%, sin intereses adicionales.\nIT: Art. 28 LGT: se si paga nel periodo esecutivo (prima della provvedimento di esecuzione), è dovuta la maggiorazione esecutiva del 5%, senza interessi aggiuntivi.",
+      "legal_reference": "Artículo 28 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "¿Qué principio garantiza que los tributos solo se establezcan por ley al igual que todos sus elementos esenciales para su aplicación?",
+      "answers": [
+        { "text": "Principio de certeza", "correct": false },
+        { "text": "Principio de legalidad", "correct": false },
+        { "text": "Principio de reserva de ley", "correct": true },
+        { "text": "Principio de irretroactividad", "correct": false }
+      ],
+      "explanation": "ES: Art. 8 LGT y Art. 31.3 CE: el principio de reserva de ley exige que los tributos y sus elementos esenciales se regulen únicamente por ley.\nIT: Art. 8 LGT e Art. 31.3 CE: il principio di riserva di legge richiede che tributi e loro elementi essenziali siano disciplinati esclusivamente per legge.",
+      "legal_reference": "Artículo 8 LGT; Artículo 31.3 CE",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "¿Quiénes están obligados a practicar y realizar pagos a cuenta en el caso del IRPF por rendimientos del trabajo?",
+      "answers": [
+        { "text": "Todos los trabajadores por cuenta ajena", "correct": false },
+        { "text": "Los trabajadores que superen un umbral de ingresos establecido anualmente.", "correct": false },
+        { "text": "Los empleadores en nombre de sus empleados.", "correct": true },
+        { "text": "Únicamente los trabajadores autónomos", "correct": false }
+      ],
+      "explanation": "ES: Art. 23 LGT y Art. 101 LIRPF: las retenciones y pagos a cuenta sobre rendimientos del trabajo los practica y soporta el pagador, que es el empleador.\nIT: Art. 23 LGT e Art. 101 LIRPF: le ritenute e i versamenti a titolo di acconto su redditi da lavoro sono effettuati e sopportati dal sostituto d’imposta, ossia il datore di lavoro.",
+      "legal_reference": "Artículo 23 LGT; Artículo 101 LIRPF",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "¿Cómo se determina la base liquidable para el cálculo de la deuda tributaria?",
+      "answers": [
+        { "text": "Sumando las reducciones al resultado de la base imponible.", "correct": false },
+        { "text": "Restando las deducciones aplicables a la base imponible.", "correct": true },
+        { "text": "Multiplicando la base imponible por el tipo de gravamen.", "correct": false },
+        { "text": "Ninguna de las anteriores es correcta.", "correct": false }
+      ],
+      "explanation": "ES: Art. 54 LGT: la base liquidable se obtiene al restar las reducciones a la base imponible, no sumándolas ni multiplicándolas.\nIT: Art. 54 LGT: la base liquidabile si ottiene sottraendo le riduzioni dalla base imponibile, non sommando né moltiplicando.",
+      "legal_reference": "Artículo 54 LGT",
       "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
     },
     {
@@ -480,6 +922,18 @@
       ],
       "explanation": "ES: Art. 20 LGT: el hecho imponible es el presupuesto de hecho que origina la obligación tributaria principal. La opción A es correcta. Las opciones B, C y D no describen el hecho imponible.\nIT: Art. 20 LGT: il fatto imponibile è il presupposto di fatto che dà origine all’obbligazione tributaria principale. L’opzione A è corretta. Le opzioni B, C e D non descrivono il fatto imponibile.",
       "legal_reference": "Artículo 20 LGT",
+      "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
+    },
+    {
+      "question": "¿Cuál de los siguientes es un ejemplo de cuota tributaria?",
+      "answers": [
+        { "text": "La suma de la base liquidable más los recargos.", "correct": false },
+        { "text": "La aplicación de un porcentaje fijo sobre una base imponible no monetaria.", "correct": false },
+        { "text": "El resultado de aplicar el tipo de gravamen a la base liquidable.", "correct": true },
+        { "text": "Los intereses de demora aplicados sobre las deudas tributarias pendientes.", "correct": false }
+      ],
+      "explanation": "ES: Art. 56 LGT: la cuota tributaria se obtiene aplicando el tipo de gravamen a la base liquidable. Las otras respuestas describen recargos o intereses, no cuota.\nIT: Art. 56 LGT: la quota tributaria si ottiene applicando l’aliquota alla base liquidabile. Le altre risposte descrivono maggiorazioni o interessi, non quota.",
+      "legal_reference": "Artículo 56 LGT",
       "original_file": "Test Financiero 1 parcial AGGIORNATO AL 03 03 25.docx"
     },
     {
