@@ -20,9 +20,10 @@ def effective_today():
     """
     now = datetime.now()
     cutoff = time(5, 30)
+    today = date.today()
     if now.time() < cutoff:
-        return (now - timedelta(days=1)).date()
-    return now.date()
+        return today - timedelta(days=1)
+    return today
 
 
 def clean_embedded_answers(question_text):
@@ -128,6 +129,9 @@ def preguntar(qid, question_data, perf_data, session_counts,
 
     # User input
     ui = input("Tu respuesta: ").strip().upper()
+    # ensure user_set always defined
+    user_set = set()
+
     if ui == "0":
         clear_screen()
         print("¿Confirmas salir? (s/n)")
@@ -147,6 +151,7 @@ def preguntar(qid, question_data, perf_data, session_counts,
         pd["history"].append("skipped")
         session_counts["unanswered"] += 1
         quality = 0
+
     else:
         parts = re.split(r'[,\s;]+', ui)
         user_set = set(filter(None, parts))
@@ -202,7 +207,7 @@ def preguntar(qid, question_data, perf_data, session_counts,
     clear_screen()
     print(colorize_answers(
         text, shuffled, shuffle_map,
-        set(user_set) if ui != "0" else set(),
+        user_set,
         set(correct_letters)
     ))
     print("\n¡CORRECTO!\n" if quality == 5 else "\n¡INCORRECTO!\n")

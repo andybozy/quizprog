@@ -8,7 +8,7 @@ from quizlib.engine import preguntar, clean_embedded_answers, remap_answer_refer
 
 @pytest.fixture
 def monkeypatch_engine(monkeypatch):
-    # Evitiamo clear_screen e press_any_key
+    # Avoid screen clears and pauses in tests
     monkeypatch.setattr(eng, "clear_screen", lambda: None)
     monkeypatch.setattr(eng, "press_any_key", lambda: None)
     return monkeypatch
@@ -139,3 +139,24 @@ def test_question_not_remapped_but_explanation_is_remapped(monkeypatch_engine, m
     assert "Because A and B." in out
     assert "ref to A" in out
     assert "ref to B" in out
+
+def test_preguntar_empty_input_skips(monkeypatch_engine, monkeypatch):
+    question_data = {
+        "question": "Skip test question?",
+        "answers": [
+            {"text": "A", "correct": True},
+            {"text": "B", "correct": False},
+            {"text": "C", "correct": False},
+            {"text": "D", "correct": False},
+        ],
+        "explanation": ""
+    }
+    inputs = iter([""])
+    monkeypatch.setattr("builtins.input", lambda _: next(inputs))
+    perf_data = {}
+    session_counts = {"correct": 0, "wrong": 0, "unanswered": 0}
+    result = preguntar(0, question_data, perf_data, session_counts, disable_shuffle=True)
+    # pressing Enter should skip: quality=0 → return False
+    assert result is False
+    assert session_counts["unanswered"] == 1
+    assert perf_data["0"]["history"][-1] == "skipped"
