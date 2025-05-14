@@ -81,6 +81,9 @@ def load_json_file(filepath):
     try:
         with open(filepath, encoding="utf-8") as f:
             data = json.load(f)
+            if data.get("disabled"):
+                # <-- NEW: skip any quiz marked disabled
+                return None
             if "questions" not in data:
                 logger.warning(f"Missing 'questions' in JSON {filepath}; skipping.")
                 return None
@@ -104,6 +107,7 @@ def load_all_quizzes(folder=QUIZ_DATA_FOLDER):
     """
     Returns (combined_questions, cursos_dict, quiz_files_info), but
     now indexing each question with a stable `_quiz_id` and tracking archive.
+    Quizzes with top-level `"disabled": true` are ignored.
     """
     # 1) Load or init the index
     index = load_index(folder)
@@ -138,7 +142,15 @@ def load_all_quizzes(folder=QUIZ_DATA_FOLDER):
         else:
             # New or modified file: (re)compute fingerprints → IDs
             data = load_json_file(filepath)
-            qlist = data.get("questions", []) if data else []
+            if not data:
+                # disabled or invalid → archive any old questions
+                if old_entry:
+                    for e in old_entry.get("questions", []):
+                        if e["id"] not in new_index["archived"]:
+                            new_index["archived"].append(e["id"])
+                continue
+
+            qlist = data.get("questions", [])
             q_entries = []
             for q in qlist:
                 fp = fingerprint_question(q)
@@ -174,8 +186,8 @@ def load_all_quizzes(folder=QUIZ_DATA_FOLDER):
     # 5) Persist index
     save_index(folder, new_index)
 
-    # 6) Build the combined_questions, cursos_dict, quiz_files_info exactly as before,
-    #    but now injecting `_quiz_id` into each question dict.
+    # 6) Build combined_questions, cursos_dict, quiz_files_info,
+    #    skipping any disabled files
     cursos_dict = {}
     combined_questions = []
     quiz_files_info = []
@@ -183,7 +195,7 @@ def load_all_quizzes(folder=QUIZ_DATA_FOLDER):
     for filepath in all_files:
         data = load_json_file(filepath)
         if not data:
-            continue
+            continue  # either disabled or invalid
 
         questions_list = data["questions"]
         count = len(questions_list)
@@ -216,12 +228,11 @@ def load_all_quizzes(folder=QUIZ_DATA_FOLDER):
         })
         sec["section_questions"] += count
 
-        # Merge questions, injecting our new `_quiz_id`
+        # Merge questions, injecting `_quiz_id`
         for q in questions_list:
-            if "question" in q and "answers" in q:
-                fp = fingerprint_question(q)
-                q["_quiz_source"] = filepath
-                q["_quiz_id"] = new_index["fingerprint_to_id"][fp]
-                combined_questions.append(q)
+            fp = fingerprint_question(q)
+            q["_quiz_source"] = filepath
+            q["_quiz_id"] = new_index["fingerprint_to_id"][fp]
+            combined_questions.append(q)
 
     return combined_questions, cursos_dict, quiz_files_info
