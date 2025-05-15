@@ -101,8 +101,8 @@
     {
       "question": "Para que la explotación de un servicio público se realice mediante contrato de concesión o de gestión de servicio público:",
       "answers": [
-        { "text": "es necesario que tenga un contenido económico", "correct": true },
-        { "text": "se realiza a riesgo y ventura del concesionario", "correct": true },
+        { "text": "es necesario que tenga un contenido económico", "correct": false },
+        { "text": "se realiza a riesgo y ventura del concesionario", "correct": false },
         { "text": "puede implicar ejercicio de autoridad", "correct": false },
         { "text": "a y b son correctas", "correct": true }
       ],
