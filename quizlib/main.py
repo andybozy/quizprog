@@ -5,13 +5,19 @@ import os
 import logging
 import signal
 import json
+from datetime import datetime
 
 from quizlib.loader import load_all_quizzes, QUIZ_DATA_FOLDER
 from quizlib.performance import load_performance_data
-from quizlib.engine import play_quiz, clear_screen, press_any_key
+from quizlib.engine import (
+    play_quiz,
+    clear_screen,
+    press_any_key,
+    effective_today,
+)
 from quizlib.navigator import pick_a_file_menu
 
-VERSION = "2.6.3"
+VERSION = "2.7.0"
 logger = logging.getLogger(__name__)
 
 
@@ -53,16 +59,20 @@ def comando_resumen_archivos(questions, perf_data, cursos_dict, quiz_files_info)
         clear_screen()
         print("=== Resumen de Archivos ===\n")
 
+        today = effective_today()
+
         # 1) Overall per-file summary
         for idx, finfo in enumerate(quiz_files_info, start=1):
             filepath = finfo["filepath"]
             filename = finfo["filename"]
-            # gather all qids in this file
             qids = [q["_quiz_id"] for q in questions if q["_quiz_source"] == filepath]
             total = len(qids)
-            never = skipped = wrong = correct = 0
+
+            never = skipped = wrong = correct = due = 0
+
             for qid in qids:
-                history = perf_data.get(str(qid), {}).get("history", [])
+                entry = perf_data.get(str(qid), {})
+                history = entry.get("history", [])
                 if not history:
                     never += 1
                 else:
@@ -73,11 +83,18 @@ def comando_resumen_archivos(questions, perf_data, cursos_dict, quiz_files_info)
                         wrong += 1
                     elif last == "correct":
                         correct += 1
+
+                nr = entry.get("next_review")
+                if not nr or datetime.fromisoformat(nr).date() <= today:
+                    due += 1
+
             def pct(x): return f"{(x/total*100):.1f}%" if total else "N/A"
+
             print(
                 f"{idx}) {filename}: total={total}, "
                 f"no-int={never} ({pct(never)}), saltadas={skipped} ({pct(skipped)}), "
-                f"wrong={wrong} ({pct(wrong)}), correct={correct} ({pct(correct)})"
+                f"wrong={wrong} ({pct(wrong)}), correct={correct} ({pct(correct)}), "
+                f"programadas={due} ({pct(due)})"
             )
 
         print("\n---\n")
@@ -86,27 +103,38 @@ def comando_resumen_archivos(questions, perf_data, cursos_dict, quiz_files_info)
         print("=== Resumen de Cursos ===\n")
         for curso, data in cursos_dict.items():
             total = data["total_questions"]
-            never = skipped = wrong = correct = 0
+            never = skipped = wrong = correct = due = 0
+
             for q in questions:
                 rel = os.path.relpath(q["_quiz_source"], QUIZ_DATA_FOLDER)
-                if rel.split(os.sep)[0] == curso:
-                    qid = q["_quiz_id"]
-                    history = perf_data.get(str(qid), {}).get("history", [])
-                    if not history:
-                        never += 1
-                    else:
-                        last = history[-1]
-                        if last == "skipped":
-                            skipped += 1
-                        elif last == "wrong":
-                            wrong += 1
-                        elif last == "correct":
-                            correct += 1
+                if rel.split(os.sep)[0] != curso:
+                    continue
+                qid = q["_quiz_id"]
+                entry = perf_data.get(str(qid), {})
+                history = entry.get("history", [])
+
+                if not history:
+                    never += 1
+                else:
+                    last = history[-1]
+                    if last == "skipped":
+                        skipped += 1
+                    elif last == "wrong":
+                        wrong += 1
+                    elif last == "correct":
+                        correct += 1
+
+                nr = entry.get("next_review")
+                if not nr or datetime.fromisoformat(nr).date() <= today:
+                    due += 1
+
             def pct2(x): return f"{(x/total*100):.1f}%" if total else "N/A"
+
             print(
                 f"{curso}: total={total}, "
                 f"no-int={never} ({pct2(never)}), saltadas={skipped} ({pct2(skipped)}), "
-                f"wrong={wrong} ({pct2(wrong)}), correct={correct} ({pct2(correct)})"
+                f"wrong={wrong} ({pct2(wrong)}), correct={correct} ({pct2(correct)}), "
+                f"programadas={due} ({pct2(due)})"
             )
 
         print("\n---\n")
@@ -123,12 +151,13 @@ def comando_resumen_archivos(questions, perf_data, cursos_dict, quiz_files_info)
                 finfo = quiz_files_info[sel]
                 filepath = finfo["filepath"]
                 filename = finfo["filename"]
-                # compute detailed stats for this single file
                 qids = [q["_quiz_id"] for q in questions if q["_quiz_source"] == filepath]
                 total = len(qids)
-                never = skipped = wrong = correct = 0
+                never = skipped = wrong = correct = due = 0
+
                 for qid in qids:
-                    history = perf_data.get(str(qid), {}).get("history", [])
+                    entry = perf_data.get(str(qid), {})
+                    history = entry.get("history", [])
                     if not history:
                         never += 1
                     else:
@@ -139,15 +168,21 @@ def comando_resumen_archivos(questions, perf_data, cursos_dict, quiz_files_info)
                             wrong += 1
                         elif last == "correct":
                             correct += 1
+
+                    nr = entry.get("next_review")
+                    if not nr or datetime.fromisoformat(nr).date() <= today:
+                        due += 1
+
                 def pct3(x): return f"{(x/total*100):.1f}%" if total else "N/A"
 
                 clear_screen()
                 print(f"=== Estadísticas detalladas: {filename} ===\n")
-                print(f"Total preguntas        : {total}")
-                print(f"Sin intentar           : {never} ({pct3(never)})")
-                print(f"Saltadas               : {skipped} ({pct3(skipped)})")
-                print(f"Incorrectas            : {wrong} ({pct3(wrong)})")
-                print(f"Correctas              : {correct} ({pct3(correct)})\n")
+                print(f"Total preguntas         : {total}")
+                print(f"Sin intentar            : {never} ({pct3(never)})")
+                print(f"Saltadas                : {skipped} ({pct3(skipped)})")
+                print(f"Incorrectas             : {wrong} ({pct3(wrong)})")
+                print(f"Correctas               : {correct} ({pct3(correct)})")
+                print(f"Programadas para hoy    : {due} ({pct3(due)})\n")
                 press_any_key()
         except ValueError:
             continue
