@@ -222,8 +222,8 @@
       "question": "Los contratos menores:",
       "answers": [
         { "text": "no requieren pliegos", "correct": true },
-        { "text": "no admiten modificación", "correct": false },
-        { "text": "se publican en la plataforma de contratación del sector público", "correct": false },
+        { "text": "no admiten modificación", "correct": true },
+        { "text": "se publican en la plataforma de contratación del sector público", "correct": true },
         { "text": "no se acumulan para justificar su publicidad", "correct": false }
       ],
       "explanation": "IT: No, i contratti minori in Spagna non ammettono modifiche sostanziali dopo la loro stipula. Devono essere eseguiti esattamente come previsti all’atto della firma. La normativa (art. 118 LCSP) prevede che non si possa cambiare oggetto, importo, durata o altre condizioni essenziali dei contratti minori una volta aggiudicati. Eventuali necessità ulteriori devono essere soddisfatte tramite un nuovo contratto minore, non modificando quello già esistente.\nES: No, los contratos menores en España no admiten modificaciones sustanciales tras su formalización. Deben ejecutarse exactamente según las condiciones iniciales. El artículo 118 de la Ley 9/2017 establece que no se puede modificar el objeto, el precio, la duración ni otras condiciones esenciales. Si surge una nueva necesidad, debe tramitarse un nuevo contrato menor, nunca modificar el existente.",
