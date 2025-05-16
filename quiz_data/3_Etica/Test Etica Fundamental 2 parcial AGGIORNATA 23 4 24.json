@@ -137,8 +137,8 @@
     {
       "question": "¿Cuál de estas es una formulación del imperativo categórico kantiano?",
       "answers": [
-        { "text": "Obra de tal modo que trates a la humanidad en tu persona o en la de los demás siempre y al mismo tiempo, como un fin y nunca meramente como un medio", "correct": true },
-        { "text": "Obra de tal modo que pueda al mismo tiempo querer que mi máxima sea ley universal", "correct": true },
+        { "text": "Obra de tal modo que trates a la humanidad en tu persona o en la de los demás siempre y al mismo tiempo, como un fin y nunca meramente como un medio", "correct": false },
+        { "text": "Obra de tal modo que pueda al mismo tiempo querer que mi máxima sea ley universal", "correct": false },
         { "text": "Las dos anteriores son verdaderas", "correct": true },
         { "text": "a y b son falsas", "correct": false }
       ],
