@@ -5,22 +5,10 @@
     {
       "question": "Relativo a la cotización de un Trabajador a la Seguridad social señale la respuesta correcta:",
       "answers": [
-        {
-          "text": "el empresario es el único sujeto de la relación laboral obligado a cotizar a la seguridad social por los trabajadores que trabajan bajo su dependencia a través de ingreso mensual de la cuenta personal",
-          "correct": false
-        },
-        {
-          "text": "la cotización del trabajador se realiza con respecto a diversas contingencias cada una de las cuales cotiza con un tipo/porcentaje distinto, según lo establecido anualmente por la ley de presupuestos generales del Estado",
-          "correct": true
-        },
-        {
-          "text": "la cotización es única para toda la vida, validada todo el territorio nacional y vitalicia",
-          "correct": false
-        },
-        {
-          "text": "B) y C) son ciertas",
-          "correct": false
-        }
+        {"text": "el empresario es el único sujeto de la relación laboral obligado a cotizar a la seguridad social por los trabajadores que trabajan bajo su dependencia a través de ingreso mensual de la cuenta personal", "correct": false},
+        {"text": "la cotización del trabajador se realiza con respecto a diversas contingencias cada una de las cuales cotiza con un tipo/porcentaje distinto, según lo establecido anualmente por la ley de presupuestos generales del Estado", "correct": true},
+        {"text": "la cotización es única para toda la vida, validada todo el territorio nacional y vitalicia", "correct": false},
+        {"text": "B) y C) son ciertas", "correct": false}
       ],
       "explanation": "La cotización a la Seguridad Social se estructura en diferentes contingencias (comunes, profesionales, desempleo, formación, FOGASA y horas extraordinarias), cada una con un tipo distinto que se actualiza anualmente en la Ley de Presupuestos Generales del Estado. La opción a) es falsa porque el trabajador también contribuye mediante la cuota obrera. La opción c) es errónea porque las bases y tipos varían con el tiempo. Por tanto, solo b) es correcta. / Traduzione in italiano: La contribuzione alla Sicurezza Sociale è strutturata in diverse contingenze (comuni, professionali, disoccupazione, formazione, FOGASA e straordinari), ciascuna con una percentuale differente aggiornata ogni anno nella Legge di Bilancio dello Stato. L’opzione a) è falsa perché anche il lavoratore contribuisce con la quota operaia. L’opzione c) è errata perché le basi e le aliquote variano nel tempo. Pertanto, solo b) è corretta.",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 109.1; Ley 27/2011, disposición adicional 7ª",
@@ -29,22 +17,10 @@
     {
       "question": "El empresario que en el momento de hacer efectivas las retribuciones mensuales a sus trabajadores no descontará la cantidad correspondiente a la cuota obrera",
       "answers": [
-        {
-          "text": "Podrá descontarlas en el mes posterior",
-          "correct": false
-        },
-        {
-          "text": "El empresario no podrá descontarlas con posterioridad quedando obligado a ingresar la totalidad de las cuotas a su exclusivo cargo",
-          "correct": true
-        },
-        {
-          "text": "Depende lo estipulado en el contrato",
-          "correct": false
-        },
-        {
-          "text": "El trabajador deberá hacer el ingreso de la cuota obrera ante el TGSS a lo largo del mes siguiente",
-          "correct": false
-        }
+        {"text": "Podrá descontarlas en el mes posterior", "correct": false},
+        {"text": "El empresario no podrá descontarlas con posterioridad quedando obligado a ingresar la totalidad de las cuotas a su exclusivo cargo", "correct": true},
+        {"text": "Depende lo estipulado en el contrato", "correct": false},
+        {"text": "El trabajador deberá hacer el ingreso de la cuota obrera ante el TGSS a lo largo del mes siguiente", "correct": false}
       ],
       "explanation": "El empresario actúa como recaudador de las cuotas obreras en el momento de pago de la nómina; si no las descuenta, no puede reclamarlas después y debe asumirlas él mismo, de acuerdo con la obligación de ingresar íntegramente las cuotas (TRLGSS art. 28.1). / Traduzione in italiano: Il datore di lavoro funge da riscossore delle quote operaie al momento del pagamento della retribuzione; se non le trattiene, non può reclamarle in seguito e deve assumerle integralmente a proprio carico, in conformità all’obbligo di versare per intero le quote (TRLGSS art. 28.1).",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 28.1",
@@ -53,22 +29,10 @@
     {
       "question": "Relativo a la base de cotización por contingencias profesionales",
       "answers": [
-        {
-          "text": "Es igual a la base de cotización por contingencias comunes, adicionando en un caso, la remuneración correspondiente la prórroga de los pagos extraordinarios",
-          "correct": false
-        },
-        {
-          "text": "Es igual a la base de cotización por contingencias comunes, adicionando en su caso la remuneración correspondiente a las horas extras",
-          "correct": true
-        },
-        {
-          "text": "Siempre es igual a la base de cotización por contingencias comunes",
-          "correct": false
-        },
-        {
-          "text": "No se incluyen en ella los complementos salariales",
-          "correct": false
-        }
+        {"text": "Es igual a la base de cotización por contingencias comunes, adicionando en un caso, la remuneración correspondiente la prórroga de los pagos extraordinarios", "correct": false},
+        {"text": "Es igual a la base de cotización por contingencias comunes, adicionando en su caso la remuneración correspondiente a las horas extras", "correct": true},
+        {"text": "Siempre es igual a la base de cotización por contingencias comunes", "correct": false},
+        {"text": "No se incluyen en ella los complementos salariales", "correct": false}
       ],
       "explanation": "La base de cotización por contingencias profesionales parte de la base por contingencias comunes y, además de pagas extras prorrateadas, incluye el importe de las horas extraordinarias según TRLGSS art. 22.1.a.2. Las opciones a), c) y d) son incorrectas porque no contemplan las horas extras o establecen una exclusión errónea. / Traduzione in italiano: La base di calcolo per le contingenze professionali deriva dalla base per le contingenze comuni e, oltre alle mensilità aggiuntive ripartite, include l’importo delle ore straordinarie secondo il TRLGSS art. 22.1.a.2. Le opzioni a), c) e d) sono errate perché non considerano le ore straordinarie o prevedono un’esclusione scorretta.",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 22.1.a.2",
@@ -77,22 +41,10 @@
     {
       "question": "Señale la opción correcta respecto a las prestaciones:",
       "answers": [
-        {
-          "text": "El beneficiario de una prestación de la seguridad social puede disponer libremente de la misma para tramitar su titularidad a un tercero a través de cualquier negocio jurídico",
-          "correct": false
-        },
-        {
-          "text": "Todas las prestaciones de la Seguridad social son compatibles entre sí",
-          "correct": false
-        },
-        {
-          "text": "Las prestaciones económicas derivadas de la acción protectora de la Seguridad Social están sujetas a tributación",
-          "correct": true
-        },
-        {
-          "text": "Ninguna de las anteriores es cierta",
-          "correct": false
-        }
+        {"text": "El beneficiario de una prestación de la seguridad social puede disponer libremente de la misma para tramitar su titularidad a un tercero a través de cualquier negocio jurídico", "correct": false},
+        {"text": "Todas las prestaciones de la Seguridad social son compatibles entre sí", "correct": false},
+        {"text": "Las prestaciones económicas derivadas de la acción protectora de la Seguridad Social están sujetas a tributación", "correct": true},
+        {"text": "Ninguna de las anteriores es cierta", "correct": false}
       ],
       "explanation": "Las prestaciones no son transmisibles ni embargables en la práctica y no todas son compatibles entre sí (descartando a) y b)). Sin embargo, las prestaciones contributivas tributan como rendimiento del trabajo según la Ley del IRPF. / Traduzione in italiano: Le prestazioni non sono trasferibili né pignorabili e non tutte sono compatibili tra loro (escludendo a) e b)). Tuttavia, le prestazioni contributive sono soggette a tassazione come reddito da lavoro secondo la Legge IRPEF.",
       "legal_reference": "Ley 35/2006 del IRPF, art. 17.1; TRLGSS art. 151",
@@ -101,22 +53,10 @@
     {
       "question": "Señale la respuesta correcta sobre la financiación de la Seguridad Social:",
       "answers": [
-        {
-          "text": "La principal fuente de financiación de la seguridad social son los presupuestos generales",
-          "correct": false
-        },
-        {
-          "text": "La seguridad social solamente se financia mediante cotizaciones derivadas de la actividad laboral de cada trabajador",
-          "correct": false
-        },
-        {
-          "text": "La financiación de las prestaciones contributivas de la seguridad social se forma a través de llamadas cuota patronal y cuota obrera derivadas de la actividad de cada trabajador",
-          "correct": true
-        },
-        {
-          "text": "B) y C) son ciertas",
-          "correct": false
-        }
+        {"text": "La principal fuente de financiación de la seguridad social son los presupuestos generales", "correct": false},
+        {"text": "La seguridad social solamente se financia mediante cotizaciones derivadas de la actividad laboral de cada trabajador", "correct": false},
+        {"text": "La financiación de las prestaciones contributivas de la seguridad social se forma a través de llamadas cuota patronal y cuota obrera derivadas de la actividad de cada trabajador", "correct": true},
+        {"text": "B) y C) son ciertas", "correct": false}
       ],
       "explanation": "Las prestaciones contributivas se financian mediante las cuotas a cargo de empresario y trabajador. Si bien existen transferencias estatales para déficit, no son la fuente principal; por tanto, solo c) es exacta. / Traduzione in italiano: Le prestazioni contributive sono finanziate dalle quote a carico del datore di lavoro e del lavoratore. Sebbene esistano trasferimenti statali per il deficit, non rappresentano la fonte principale; pertanto, solo c) è corretta.",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 109.1",
@@ -125,22 +65,10 @@
     {
       "question": "Identifique los sujetos en el régimen especial de la seguridad social:",
       "answers": [
-        {
-          "text": "personal estatutario de las administraciones públicas",
-          "correct": false
-        },
-        {
-          "text": "trabajador por cuenta propia o autónoma",
-          "correct": true
-        },
-        {
-          "text": "empleado del hogar",
-          "correct": true
-        },
-        {
-          "text": "ninguna es correcta",
-          "correct": false
-        }
+        {"text": "personal estatutario de las administraciones públicas", "correct": false},
+        {"text": "trabajador por cuenta propia o autónoma", "correct": true},
+        {"text": "empleado del hogar", "correct": true},
+        {"text": "ninguna es correcta", "correct": false}
       ],
       "explanation": "El régimen especial incluye trabajadores por cuenta propia y del hogar. El personal estatutario está en un régimen propio (MUFACE, etc.), no en este régimen especial. / Traduzione in italiano: Il regime speciale comprende lavoratori autonomi e collaboratori domestici. Il personale statutario è in un regime proprio (MUFACE, ecc.), non in questo regime speciale.",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 12.1",
@@ -149,22 +77,10 @@
     {
       "question": "Francisco comenzó a trabajar en la empresa Y TEX el pasado día 20 de febrero, habiendo gestionado su alta el día 10 de febrero. ¿Desde cuándo surte efecto dicha alta?",
       "answers": [
-        {
-          "text": "a partir del día inicio de la actividad",
-          "correct": true
-        },
-        {
-          "text": "surte efectos inmediatos desde el momento en que se gestiona",
-          "correct": false
-        },
-        {
-          "text": "el alta solo puede gestionarse el mismo día en que se inicia la actividad",
-          "correct": false
-        },
-        {
-          "text": "ninguna es correcta",
-          "correct": false
-        }
+        {"text": "a partir del día inicio de la actividad", "correct": true},
+        {"text": "surte efectos inmediatos desde el momento en que se gestiona", "correct": false},
+        {"text": "el alta solo puede gestionarse el mismo día en que se inicia la actividad", "correct": false},
+        {"text": "ninguna es correcta", "correct": false}
       ],
       "explanation": "El alta debe surtir efecto el primer día de la relación laboral (día de inicio de actividad), aunque se presente antes. La gestión previa no adelanta más el alta. / Traduzione in italiano: L’iscrizione (alta) produce effetto dal primo giorno del rapporto di lavoro (giorno di inizio attività), anche se presentata in anticipo. La richiesta anticipata non posticipa né anticipa l’effetto.",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 70.1",
@@ -173,22 +89,10 @@
     {
       "question": "Son situaciones asimiladas al alta:",
       "answers": [
-        {
-          "text": "convenio especial con la seguridad social",
-          "correct": false
-        },
-        {
-          "text": "trabajador traslado por la empresa fuera de españa",
-          "correct": false
-        },
-        {
-          "text": "vacaciones anuales retribuidas o no disfrutadas",
-          "correct": false
-        },
-        {
-          "text": "todas son correctas",
-          "correct": true
-        }
+        {"text": "convenio especial con la seguridad social", "correct": false},
+        {"text": "trabajador traslado por la empresa fuera de españa", "correct": false},
+        {"text": "vacaciones anuales retribuidas o no disfrutadas", "correct": false},
+        {"text": "todas son correctas", "correct": true}
       ],
       "explanation": "El TRLGSS enumera diversas situaciones asimiladas (vacaciones no disfrutadas, convenio especial, traslado al extranjero, huelga, desempleo total) en su art. 166. / Traduzione in italiano: Il TRLGSS elenca varie situazioni assimilate all’alta (ferie non godute, convenzione speciale, trasferimento all’estero, sciopero, disoccupazione totale) nell’art. 166.",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 166",
@@ -197,22 +101,10 @@
     {
       "question": "La entidad competente en materia de gestión del alta de un trabajadores:",
       "answers": [
-        {
-          "text": "tesorería general de la seguridad social TGSS",
-          "correct": true
-        },
-        {
-          "text": "instituto nacional de la seguridad social INSS",
-          "correct": false
-        },
-        {
-          "text": "mutuas colaboraciones con la seguridad social",
-          "correct": false
-        },
-        {
-          "text": "ninguna es correcta",
-          "correct": false
-        }
+        {"text": "tesorería general de la seguridad social TGSS", "correct": true},
+        {"text": "instituto nacional de la seguridad social INSS", "correct": false},
+        {"text": "mutuas colaboraciones con la seguridad social", "correct": false},
+        {"text": "ninguna es correcta", "correct": false}
       ],
       "explanation": "La TGSS es la administración encargada de la afiliación e inscripción de empresas y trabajadores (actos de encuadramiento) según TRLGSS art. 61. / Traduzione in italiano: La TGSS è l’amministrazione responsabile dell’affiliazione e iscrizione di imprese e lavoratori (atti di inquadramento) secondo il TRLGSS art. 61.",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 61",
@@ -221,22 +113,10 @@
     {
       "question": "Identifique los supuestos expresamente excluidos del régimen general de la seguridad social:",
       "answers": [
-        {
-          "text": "los servicios amistosos benévolos o buena vecindad",
-          "correct": true
-        },
-        {
-          "text": "las relaciones laborales de carácter especial",
-          "correct": false
-        },
-        {
-          "text": "no existen exclusiones expresas del régimen general de la seguridad social",
-          "correct": false
-        },
-        {
-          "text": "ninguna es correcta",
-          "correct": false
-        }
+        {"text": "los servicios amistosos benévolos o buena vecindad", "correct": true},
+        {"text": "las relaciones laborales de carácter especial", "correct": false},
+        {"text": "no existen exclusiones expresas del régimen general de la seguridad social", "correct": false},
+        {"text": "ninguna es correcta", "correct": false}
       ],
       "explanation": "El TRLGSS excluye expresamente los servicios amistosos de beneficencia (art. 3), mientras que las relaciones especiales tienen su propio régimen. / Traduzione in italiano: Il TRLGSS esclude espressamente i servizi amichevoli di beneficenza (art. 3), mentre le relazioni speciali hanno un loro regime specifico.",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 3",
@@ -245,22 +125,10 @@
     {
       "question": "Identifique los sujetos incluidos en los llamados sistemas especiales de la seguridad social:",
       "answers": [
-        {
-          "text": "artistas",
-          "correct": false
-        },
-        {
-          "text": "trabajadores por cuenta ajena agrario",
-          "correct": false
-        },
-        {
-          "text": "trabajador ferroviario",
-          "correct": false
-        },
-        {
-          "text": "todas son correctas",
-          "correct": true
-        }
+        {"text": "artistas", "correct": false},
+        {"text": "trabajadores por cuenta ajena agrario", "correct": false},
+        {"text": "trabajador ferroviario", "correct": false},
+        {"text": "todas son correctas", "correct": true}
       ],
       "explanation": "Los sistemas especiales (Art. 11 TRLGSS) incluyen artistas, agrarios, ferroviarios y otros colectivos con normas específicas dentro del régimen general. / Traduzione in italiano: I sistemi speciali (Art. 11 TRLGSS) comprendono artisti, agricoltori, ferrovieri e altri gruppi con norme specifiche all’interno del regime generale.",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 11",
@@ -269,22 +137,10 @@
     {
       "question": "Con respecto a los regímenes de la Seguridad social:",
       "answers": [
-        {
-          "text": "Los sistemas especiales Se encuadran dentro del régimen Especial debido a la peculiaridad de las actividades profesionales que integra",
-          "correct": false
-        },
-        {
-          "text": "Todos los trabajadores que realizan su actividad por cuenta ajena sí encuadran en los llamados sistemas especiales",
-          "correct": false
-        },
-        {
-          "text": "los sistemas especiales se encuadran dentro del régimen general",
-          "correct": true
-        },
-        {
-          "text": "existen tres regímenes: régimen general, especial y régimen de sistemas especiales",
-          "correct": false
-        }
+        {"text": "Los sistemas especiales Se encuadran dentro del régimen Especial debido a la peculiaridad de las actividades profesionales que integra", "correct": false},
+        {"text": "Todos los trabajadores que realizan su actividad por cuenta ajena sí encuadran en los llamados sistemas especiales", "correct": false},
+        {"text": "los sistemas especiales se encuadran dentro del régimen general", "correct": true},
+        {"text": "existen tres regímenes: régimen general, especial y régimen de sistemas especiales", "correct": false}
       ],
       "explanation": "Los sistemas especiales no constituyen un régimen independiente, sino una parte del régimen general con normas específicas (TRLGSS art. 11). / Traduzione in italiano: I sistemi speciali non costituiscono un regime autonomo, bensì parte del regime generale con norme specifiche (TRLGSS art. 11).",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 11",
@@ -293,22 +149,10 @@
     {
       "question": "Las personas que prestan servicios en entidades o instituciones de carácter benéfico-social",
       "answers": [
-        {
-          "text": "no se incluyen en el régimen general por ser de naturaleza benéfico-social",
-          "correct": false
-        },
-        {
-          "text": "se incluyen en el Régimen General si prestan servicios retribuidos mediante un salario",
-          "correct": true
-        },
-        {
-          "text": "se incluyen en el régimen especial",
-          "correct": false
-        },
-        {
-          "text": "ninguna de las respuestas es correcta",
-          "correct": false
-        }
+        {"text": "no se incluyen en el régimen general por ser de naturaleza benéfico-social", "correct": false},
+        {"text": "se incluyen en el Régimen General si prestan servicios retribuidos mediante un salario", "correct": true},
+        {"text": "se incluyen en el régimen especial", "correct": false},
+        {"text": "ninguna de las respuestas es correcta", "correct": false}
       ],
       "explanation": "Si el servicio es retribuido, el trabajador se encuadra en el régimen general (TRLGSS art. 1.1.a). / Traduzione in italiano: Se il servizio è retribuito, il lavoratore è inquadrato nel regime generale (TRLGSS art. 1.1.a).",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 1.1.a",
@@ -317,22 +161,10 @@
     {
       "question": "Ana B, 32 años, trabaja desde hace cinco años como auxiliar administrativo, a media jornada, en la empresa de su primo y compagina dicha actividad con otro trabajo a media jornada en una tienda de discos. Señale lo correcto con respecto a su situación de alta y cotización en la Seguridad Social",
       "answers": [
-        {
-          "text": "Ana está dada de alta y cotizando en el régimen especial",
-          "correct": false
-        },
-        {
-          "text": "Ana se encuentra en una situación de pluriempleo",
-          "correct": false
-        },
-        {
-          "text": "Ana se encuentra en una situación de pluriactividad",
-          "correct": true
-        },
-        {
-          "text": "cotiza en el régimen especial de pluri y pluri afiliación",
-          "correct": false
-        }
+        {"text": "Ana está dada de alta y cotizando en el régimen especial", "correct": false},
+        {"text": "Ana se encuentra en una situación de pluriempleo", "correct": false},
+        {"text": "Ana se encuentra en una situación de pluriactividad", "correct": true},
+        {"text": "cotiza en el régimen especial de pluri y pluri afiliación", "correct": false}
       ],
       "explanation": "La concurrencia de dos empleos por cuenta ajena simultáneos genera pluriactividad, no pluriempleo (único empleo) ni régimen especial. / Traduzione in italiano: La contemporaneità di due impieghi dipendenti genera pluriactività, non pluriimpiego (unico lavoro) né regime speciale.",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 6",
@@ -341,22 +173,10 @@
     {
       "question": "Andrés trabaja, por las mañanas, a tiempo parcial, como asalariado en una asesoría. Con permiso de su empresa, se ha dado de alta como autónomo para compaginar esa actividad con la de hacer declaraciones sobre la renta a familiares, amigos, y conocidos. Andrés está en una situación de:",
       "answers": [
-        {
-          "text": "pluriempleo",
-          "correct": false
-        },
-        {
-          "text": "pluriactividad",
-          "correct": true
-        },
-        {
-          "text": "encuadramiento múltiple",
-          "correct": false
-        },
-        {
-          "text": "situación asimilada al alta",
-          "correct": false
-        }
+        {"text": "pluriempleo", "correct": false},
+        {"text": "pluriactividad", "correct": true},
+        {"text": "encuadramiento múltiple", "correct": false},
+        {"text": "situación asimilada al alta", "correct": false}
       ],
       "explanation": "Tratándose de trabajo por cuenta ajena y por cuenta propia simultáneos, hablamos de pluriactividad (TRLGSS art. 6). / Traduzione in italiano: Essendo un’attività dipendente e un’attività autonoma contemporanee, si configura pluriactività (TRLGSS art. 6).",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 6",
@@ -365,22 +185,10 @@
     {
       "question": "Con respecto a los actos de encuadramiento relativos al inicio del trabajo de Ana en la tienda de discos señale la opción correcta",
       "answers": [
-        {
-          "text": "el empresario está obligado a realizar el alta de Ana a la Seguridad Social con carácter previo al inicio de la actividad",
-          "correct": true
-        },
-        {
-          "text": "con independencia de si la gestión es previa o en plazo, los efectos del alta y cotización se producirán a partir del día en que se inicie la actividad profesional",
-          "correct": true
-        },
-        {
-          "text": "Ana es el sujeto responsable de la gestión de los pertinentes actos de encuadramiento",
-          "correct": false
-        },
-        {
-          "text": "A y B son ciertas",
-          "correct": true
-        }
+        {"text": "el empresario está obligado a realizar el alta de Ana a la Seguridad Social con carácter previo al inicio de la actividad", "correct": true},
+        {"text": "con independencia de si la gestión es previa o en plazo, los efectos del alta y cotización se producirán a partir del día en que se inicie la actividad profesional", "correct": true},
+        {"text": "Ana es el sujeto responsable de la gestión de los pertinentes actos de encuadramiento", "correct": false},
+        {"text": "A y B son ciertas", "correct": true}
       ],
       "explanation": "El empresario debe dar de alta antes del inicio y, aunque gestione con retraso, el alta y cotización surten efecto el día de inicio (TRLGSS art. 70). / Traduzione in italiano: Il datore di lavoro deve effettuare l’iscrizione prima dell’inizio e, anche in caso di ritardo nella gestione, l’iscrizione e la contribuzione producono effetto dal giorno di inizio (TRLGSS art. 70).",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 70",
@@ -389,22 +197,10 @@
     {
       "question": "Juana, español, trabajador por cuenta ajena de una empresa española, ha sido trasladado por dicha empresa para realizar la actividad laboral en otro centro de trabajo sito en Bélgica durante seis meses. Señala la correcta con respecto a su situación en el Sistema de Seguridad Social Español",
       "answers": [
-        {
-          "text": "alta especial",
-          "correct": false
-        },
-        {
-          "text": "alta real",
-          "correct": false
-        },
-        {
-          "text": "alta asimilada",
-          "correct": true
-        },
-        {
-          "text": "alta presunta",
-          "correct": false
-        }
+        {"text": "alta especial", "correct": false},
+        {"text": "alta real", "correct": false},
+        {"text": "alta asimilada", "correct": true},
+        {"text": "alta presunta", "correct": false}
       ],
       "explanation": "El traslado al extranjero genera una situación asimilada al alta (TRLGSS art. 166 y art. 164). / Traduzione in italiano: Il trasferimento all’estero genera una situazione assimilata all’iscrizione (TRLGSS art. 166 e art. 164).",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), arts. 164 y 166",
@@ -413,22 +209,10 @@
     {
       "question": "En relación a la alta del trabajador, identifique las situaciones que son consideradas asimiladas al alta",
       "answers": [
-        {
-          "text": "todas aquellas situaciones en las que el trabajador no se encuentra en situación de alta real como consecuencia de un incumplimiento del empresario relativo a la formalización de los actos de encuadramiento con el sistema de la Seguridad Social",
-          "correct": false
-        },
-        {
-          "text": "vacaciones anuales retribuidas y no disfrutadas con anterioridad a la finalización de un contrato, situación de desempleo total",
-          "correct": false
-        },
-        {
-          "text": "suscripción de un convenio con la Seguridad Social, situación de huelga y cierre patronal de la empresa",
-          "correct": false
-        },
-        {
-          "text": "todas las anteriores son ciertas",
-          "correct": true
-        }
+        {"text": "todas aquellas situaciones en las que el trabajador no se encuentra en situación de alta real como consecuencia de un incumplimiento del empresario relativo a la formalización de los actos de encuadramiento con el sistema de la Seguridad Social", "correct": false},
+        {"text": "vacaciones anuales retribuidas y no disfrutadas con anterioridad a la finalización de un contrato, situación de desempleo total", "correct": false},
+        {"text": "suscripción de un convenio con la Seguridad Social, situación de huelga y cierre patronal de la empresa", "correct": false},
+        {"text": "todas las anteriores son ciertas", "correct": true}
       ],
       "explanation": "El artículo 166 TRLGSS enumera todas estas situaciones como asimiladas al alta. / Traduzione in italiano: L’articolo 166 del TRLGSS elenca tutte queste situazioni come assimilate all’iscrizione.",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 166",
@@ -437,22 +221,10 @@
     {
       "question": "El convenio especial derivado de un acuerdo entre la Seguridad Social y el trabajador, por el que este se compromete a abonar las cotizaciones a su exclusivo cargo, y con ello, mantener el derecho a determinadas prestaciones",
       "answers": [
-        {
-          "text": "es una situación de alta real",
-          "correct": false
-        },
-        {
-          "text": "es una situación de alta asimilada",
-          "correct": true
-        },
-        {
-          "text": "es un supuesto de alta de pleno derecho",
-          "correct": false
-        },
-        {
-          "text": "el trabajador se encuentra en situación de baja con respecto al sistema de seguridad social",
-          "correct": false
-        }
+        {"text": "es una situación de alta real", "correct": false},
+        {"text": "es una situación de alta asimilada", "correct": true},
+        {"text": "es un supuesto de alta de pleno derecho", "correct": false},
+        {"text": "el trabajador se encuentra en situación de baja con respecto al sistema de seguridad social", "correct": false}
       ],
       "explanation": "El convenio especial se considera asimilado al alta, no alta real, según TRLGSS art. 166.1.b. / Traduzione in italiano: La convenzione speciale è considerata assimilata all’iscrizione, non iscrizione reale, secondo il TRLGSS art. 166.1.b.",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 166.1.b",
@@ -461,22 +233,10 @@
     {
       "question": "Señale la opción correcta sobre el acceso a prestaciones no contributivas",
       "answers": [
-        {
-          "text": "el sistema de seguridad social español atiende todas las necesidades de todos los ciudadanos sin límites",
-          "correct": false
-        },
-        {
-          "text": "el requisito de residir de forma legal y efectiva en españa es un requisito para el acceso a las prestaciones de la seguridad social de naturaleza no contributiva",
-          "correct": true
-        },
-        {
-          "text": "el sistema de la seguridad social es principalmente de tipo no contributivo y residualmente de tipo contributivo",
-          "correct": false
-        },
-        {
-          "text": "el principal requisito para acceder a las prestaciones de la seguridad social en su modalidad no contributiva es la filiación y el alta a la seguridad social a través de la activación laboral",
-          "correct": false
-        }
+        {"text": "el sistema de seguridad social español atiende todas las necesidades de todos los ciudadanos sin límites", "correct": false},
+        {"text": "el requisito de residir de forma legal y efectiva en españa es un requisito para el acceso a las prestaciones de la seguridad social de naturaleza no contributiva", "correct": true},
+        {"text": "el sistema de la seguridad social es principalmente de tipo no contributivo y residualmente de tipo contributivo", "correct": false},
+        {"text": "el principal requisito para acceder a las prestaciones de la seguridad social en su modalidad no contributiva es la filiación y el alta a la seguridad social a través de la activación laboral", "correct": false}
       ],
       "explanation": "Para prestaciones no contributivas se exige residencia legal y efectiva en España (TRLGSS art. 4.1). / Traduzione in italiano: Per le prestazioni non contributive è richiesta la residenza legale e effettiva in Spagna (TRLGSS art. 4.1).",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 4.1",
@@ -485,22 +245,10 @@
     {
       "question": "Relativo a las mutuas colaboradoras con la seguridad social señala la opción correcta:",
       "answers": [
-        {
-          "text": "son entidades gestoras de la seguridad social",
-          "correct": false
-        },
-        {
-          "text": "son asociaciones de empresarios que reparten sus beneficios de lo estipulado anualmente por el ministerio",
-          "correct": false
-        },
-        {
-          "text": "gestionan las prestaciones de la seguridad social mediante el pago delegado",
-          "correct": true
-        },
-        {
-          "text": "ninguna es cierta",
-          "correct": false
-        }
+        {"text": "son entidades gestoras de la seguridad social", "correct": false},
+        {"text": "son asociaciones de empresarios que reparten sus beneficios de lo estipulado anualmente por el ministerio", "correct": false},
+        {"text": "gestionan las prestaciones de la seguridad social mediante el pago delegado", "correct": true},
+        {"text": "ninguna es cierta", "correct": false}
       ],
       "explanation": "Las mutuas colaboran gestionando prestaciones de accidentes de trabajo y enfermedades profesionales mediante pago delegado (TRLGSS art. 83). / Traduzione in italiano: Le mutue collaboratrici gestiscono le prestazioni per infortuni sul lavoro e malattie professionali tramite pagamento delegato (TRLGSS art. 83).",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 83",
@@ -509,22 +257,10 @@
     {
       "question": "Maria es titular de una prestación de viudedad por importe de 700 euros mensuales desde el año 2015 cuya cuantía recibe mensualmente sin embargo María se ha percatado que desde el 12 de julio de 2023 no ha recibido tal ingreso. ¿Qué opciones tiene Maria?",
       "answers": [
-        {
-          "text": "puede reclamar la totalidad de las cuantías dejadas de percibir pues el plazo de prescripción para ello de 5 años",
-          "correct": true
-        },
-        {
-          "text": "puede reclamar la totalidad de las cuantías dejadas de percibir pues el plazo de prescripción para ello",
-          "correct": false
-        },
-        {
-          "text": "puede reclamar la totalidad de las cuantías dejadas de percibir ya que la prestación de viudedad es imprescriptible",
-          "correct": false
-        },
-        {
-          "text": "ninguna es cierta",
-          "correct": false
-        }
+        {"text": "puede reclamar la totalidad de las cuantías dejadas de percibir pues el plazo de prescripción para ello de 5 años", "correct": true},
+        {"text": "puede reclamar la totalidad de las cuantías dejadas de percibir pues el plazo de prescripción para ello", "correct": false},
+        {"text": "puede reclamar la totalidad de las cuantías dejadas de percibir ya que la prestación de viudedad es imprescriptible", "correct": false},
+        {"text": "ninguna es cierta", "correct": false}
       ],
       "explanation": "Las prestaciones prescríbense a los cinco años (TRLGSS art. 93.2), por lo que María puede reclamar las cantidades no percibidas desde julio de 2018 en adelante. / Traduzione in italiano: Le prestazioni si prescrivono in cinque anni (TRLGSS art. 93.2), quindi María può reclamare gli importi non percepiti a partire da luglio 2018.",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 93.2",
@@ -533,22 +269,10 @@
     {
       "question": "Señale la opción correcta sobre la naturaleza de las prestaciones:",
       "answers": [
-        {
-          "text": "el sistema de seguridad social español es de naturaleza principalmente contributiva y residualmente no contributiva",
-          "correct": true
-        },
-        {
-          "text": "solo existen prestaciones de naturaleza contributiva",
-          "correct": false
-        },
-        {
-          "text": "a y b son correctas",
-          "correct": false
-        },
-        {
-          "text": "ninguna es correcta",
-          "correct": false
-        }
+        {"text": "el sistema de seguridad social español es de naturaleza principalmente contributiva y residualmente no contributiva", "correct": true},
+        {"text": "solo existen prestaciones de naturaleza contributiva", "correct": false},
+        {"text": "a y b son correctas", "correct": false},
+        {"text": "ninguna es correcta", "correct": false}
       ],
       "explanation": "El sistema español se basa principalmente en cotizaciones (contributivo) y, de forma subsidiaria, en transferencias estatales para prestaciones no contributivas. / Traduzione in italiano: Il sistema spagnolo si basa principalmente su contributi (contributivo) e, in via sussidiaria, su trasferimenti statali per prestazioni non contributive.",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 109.1",
@@ -557,22 +281,10 @@
     {
       "question": "Identifique los sujetos incluidos en el campo de aplicacion del regimen general:",
       "answers": [
-        {
-          "text": "funcionarios de la administración local con fecha de ingreso a 7 de marzo de 2005 trabajador/socio de una cooperativa con funciones de dirección y control efectivo sobre la sociedad",
-          "correct": false
-        },
-        {
-          "text": "trabajador del hogar agrario manipulado y empaquetado de tomate fresco trabajadores de manipulado empaquetado envasado y comercialización del plátano",
-          "correct": false
-        },
-        {
-          "text": "actividad de voluntariado y sin retribución trabajadores del mar",
-          "correct": false
-        },
-        {
-          "text": "trabajadores por cuenta ajena autónomo personal de investigación",
-          "correct": true
-        }
+        {"text": "funcionarios de la administración local con fecha de ingreso a 7 de marzo de 2005 trabajador/socio de una cooperativa con funciones de dirección y control efectivo sobre la sociedad", "correct": false},
+        {"text": "trabajador del hogar agrario manipulado y empaquetado de tomate fresco trabajadores de manipulado empaquetado envasado y comercialización del plátano", "correct": false},
+        {"text": "actividad de voluntariado y sin retribución trabajadores del mar", "correct": false},
+        {"text": "trabajadores por cuenta ajena autónomo personal de investigación", "correct": true}
       ],
       "explanation": "Los trabajadores por cuenta ajena, autónomos e investigadores retribuidos se incluyen en el régimen general; los demás colectivos tienen regímenes específicos o no están cubiertos (TRLGSS arts. 1 y 9). / Traduzione in italiano: I lavoratori dipendenti, autonomi e il personale di ricerca retribuito sono inclusi nel regime generale; gli altri gruppi hanno regimi specifici o non sono coperti (TRLGSS arts. 1 e 9).",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), arts. 1 y 9",
@@ -581,22 +293,10 @@
     {
       "question": "Señale la opción correcta:",
       "answers": [
-        {
-          "text": "la afiliación y alta a la seguridad social son obligatorias para los sujetos incluidos en el campo de aplicación del régimen de la seguridad social siendo también únicas para todo el territorio nacional y vitalicias",
-          "correct": false
-        },
-        {
-          "text": "el alta a la seguridad social en un acto de encuadramiento obligatorio no vitalicio",
-          "correct": false
-        },
-        {
-          "text": "la alta de la seguridad social constituye un título jurídico necesario para el acceso a las prestaciones de la seguridad social tanto de naturaleza contributiva como no",
-          "correct": true
-        },
-        {
-          "text": "la obligación de cotizar a la seguridad social se inicia desde el momento en que el trabajador es afiliado a la seguridad social y se mantiene para toda la vida con independencia del alta",
-          "correct": false
-        }
+        {"text": "la afiliación y alta a la seguridad social son obligatorias para los sujetos incluidos en el campo de aplicación del régimen de la seguridad social siendo también únicas para todo el territorio nacional y vitalicias", "correct": false},
+        {"text": "el alta a la seguridad social en un acto de encuadramiento obligatorio no vitalicio", "correct": false},
+        {"text": "la alta de la seguridad social constituye un título jurídico necesario para el acceso a las prestaciones de la seguridad social tanto de naturaleza contributiva como no", "correct": true},
+        {"text": "la obligación de cotizar a la seguridad social se inicia desde el momento en que el trabajador es afiliado a la seguridad social y se mantiene para toda la vida con independencia del alta", "correct": false}
       ],
       "explanation": "El alta es requisito legal para acceder a prestaciones contributivas y no contributivas (TRLGSS art. 5). No es vitalicia. / Traduzione in italiano: L’iscrizione (alta) è titolo giuridico necessario per accedere a prestazioni contributive e non contributive (TRLGSS art. 5). Non è vita natural durante.",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 5",
@@ -605,22 +305,10 @@
     {
       "question": "En cuál de las siguientes entidades de la seguridad social se unifican todos los recursos financieros y la recaudación de cotizaciones:",
       "answers": [
-        {
-          "text": "tesorería general de la seguridad social TGSS",
-          "correct": true
-        },
-        {
-          "text": "instituto nacional de la seguridad social INSS",
-          "correct": false
-        },
-        {
-          "text": "mutuas colaboradoras con la seguridad social",
-          "correct": false
-        },
-        {
-          "text": "ninguna de las anteriores",
-          "correct": false
-        }
+        {"text": "tesorería general de la seguridad social TGSS", "correct": true},
+        {"text": "instituto nacional de la seguridad social INSS", "correct": false},
+        {"text": "mutuas colaboradoras con la seguridad social", "correct": false},
+        {"text": "ninguna de las anteriores", "correct": false}
       ],
       "explanation": "La TGSS custodia los fondos, valores y créditos y gestiona la recaudación de las cotizaciones (TRLGSS art. 60). / Traduzione in italiano: La TGSS custodisce i fondi, valori e crediti e gestisce la riscossione dei contributi (TRLGSS art. 60).",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 60",
@@ -629,22 +317,10 @@
     {
       "question": "La situación de huelga y cierre patronal se considera:",
       "answers": [
-        {
-          "text": "alta especial",
-          "correct": false
-        },
-        {
-          "text": "alta real",
-          "correct": false
-        },
-        {
-          "text": "alta asimilada",
-          "correct": true
-        },
-        {
-          "text": "alta presunta",
-          "correct": false
-        }
+        {"text": "alta especial", "correct": false},
+        {"text": "alta real", "correct": false},
+        {"text": "alta asimilada", "correct": true},
+        {"text": "alta presunta", "correct": false}
       ],
       "explanation": "La huelga y el cierre patronal figuran como situaciones asimiladas al alta (TRLGSS art. 166). / Traduzione in italiano: Lo sciopero e la chiusura padronale sono considerati situazioni assimilate all’iscrizione (TRLGSS art. 166).",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 166",
@@ -653,22 +329,10 @@
     {
       "question": "Los trabajadores españoles trasladados por su empresa al extranjero se encuentran a los efectos de la seguridad social:",
       "answers": [
-        {
-          "text": "en situación de alta real",
-          "correct": false
-        },
-        {
-          "text": "en situación de alta asimilada",
-          "correct": true
-        },
-        {
-          "text": "únicamente podrán estar vinculados al sistema de la seguridad social del país en el que ejerzan la actividad laboral",
-          "correct": false
-        },
-        {
-          "text": "no tienen ningún derecho a la protección de la seguridad social española puesto que no son residentes en españa",
-          "correct": false
-        }
+        {"text": "en situación de alta real", "correct": false},
+        {"text": "en situación de alta asimilada", "correct": true},
+        {"text": "únicamente podrán estar vinculados al sistema de la seguridad social del país en el que ejerzan la actividad laboral", "correct": false},
+        {"text": "no tienen ningún derecho a la protección de la seguridad social española puesto que no son residentes en españa", "correct": false}
       ],
       "explanation": "El traslado al extranjero se considera asimilado al alta (TRLGSS art. 164 y art. 166). / Traduzione in italiano: Il trasferimento all’estero è considerato assimilato all’iscrizione (TRLGSS art. 164 e art. 166).",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), arts. 164 y 166",
@@ -677,22 +341,10 @@
     {
       "question": "En la empresa Obras de construccion sl uno de sus trabajadores ha sufrido un accidente laboral debido a que no contaba con los equipos de protección individual que el empresario está obligado a facilitar ante esta situación son susceptibles de aplicación los siguiente principios:",
       "answers": [
-        {
-          "text": "principio de automaticidad",
-          "correct": true
-        },
-        {
-          "text": "recargo de las prestaciones",
-          "correct": true
-        },
-        {
-          "text": "reintegro de sus prestaciones indebidas",
-          "correct": false
-        },
-        {
-          "text": "a y b son correctas",
-          "correct": true
-        }
+        {"text": "principio de automaticidad", "correct": true},
+        {"text": "recargo de las prestaciones", "correct": true},
+        {"text": "reintegro de sus prestaciones indebidas", "correct": false},
+        {"text": "a y b son correctas", "correct": true}
       ],
       "explanation": "Ante incumplimiento empresarial, se aplica el principio de automaticidad (pago sin prueba de culpa) y recargo de prestaciones al empresario (TRLGSS art. 76). / Traduzione in italiano: In caso di inadempimento del datore di lavoro, si applica il principio di automaticità (pagamento senza prova di colpa) e il supplemento delle prestazioni a carico del datore di lavoro (TRLGSS art. 76).",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 76",
@@ -701,22 +353,10 @@
     {
       "question": "Francisco comenzó a trabajar en la empresa Y TEX el pasado día 20 de febrero, habiendo la empresa gestionado su alta el día 10 de febrero. Desde cuando surte efecto dicha alta?",
       "answers": [
-        {
-          "text": "a partir del día de inicio de la actividad",
-          "correct": true
-        },
-        {
-          "text": "surte efectos inmediatos desde el momento en que se gestiona",
-          "correct": false
-        },
-        {
-          "text": "el alta solo puede gestionarse el mismo día en que se inicia la actividad",
-          "correct": false
-        },
-        {
-          "text": "ninguna es correcta",
-          "correct": false
-        }
+        {"text": "a partir del día de inicio de la actividad", "correct": true},
+        {"text": "surte efectos inmediatos desde el momento en que se gestiona", "correct": false},
+        {"text": "el alta solo puede gestionarse el mismo día en que se inicia la actividad", "correct": false},
+        {"text": "ninguna es correcta", "correct": false}
       ],
       "explanation": "El alta surte efecto el primer día de la relación laboral, aunque se tramite antes (TRLGSS art. 70). / Traduzione in italiano: L’iscrizione produce effetto dal primo giorno del rapporto di lavoro, anche se presentata in anticipo (TRLGSS art. 70).",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 70",
@@ -725,22 +365,10 @@
     {
       "question": "Son situaciones asimiladas al alta:",
       "answers": [
-        {
-          "text": "convenio especial con la seguridad social",
-          "correct": false
-        },
-        {
-          "text": "trabajadores traslado por la empresa fuera de españa",
-          "correct": false
-        },
-        {
-          "text": "vacaciones anuales retribuidas y no disfrutadas",
-          "correct": false
-        },
-        {
-          "text": "todas son correctas",
-          "correct": true
-        }
+        {"text": "convenio especial con la seguridad social", "correct": false},
+        {"text": "trabajadores traslado por la empresa fuera de españa", "correct": false},
+        {"text": "vacaciones anuales retribuidas y no disfrutadas", "correct": false},
+        {"text": "todas son correctas", "correct": true}
       ],
       "explanation": "Según art. 166 TRLGSS, incluye convenio especial, traslado al extranjero, vacaciones no disfrutadas, huelga y desempleo total. / Traduzione in italiano: Secondo l’art. 166 del TRLGSS, comprende convenzione speciale, trasferimento all’estero, ferie non godute, sciopero e disoccupazione totale.",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 166",
@@ -749,22 +377,10 @@
     {
       "question": "La entidad competente en materia de gestión de alta de un trabajador:",
       "answers": [
-        {
-          "text": "tesorería general de la SS (TGSS)",
-          "correct": true
-        },
-        {
-          "text": "instituto nacional de SS (INSS)",
-          "correct": false
-        },
-        {
-          "text": "mutuas colaboradoras con SS",
-          "correct": false
-        },
-        {
-          "text": "ninguna es correcta",
-          "correct": false
-        }
+        {"text": "tesorería general de la SS (TGSS)", "correct": true},
+        {"text": "instituto nacional de SS (INSS)", "correct": false},
+        {"text": "mutuas colaboradoras con SS", "correct": false},
+        {"text": "ninguna es correcta", "correct": false}
       ],
       "explanation": "La TGSS gestiona la afiliación y alta de trabajadores y empresas (TRLGSS art. 61). / Traduzione in italiano: La TGSS gestisce l’affiliazione e l’iscrizione di lavoratori e imprese (TRLGSS art. 61).",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 61",
@@ -773,22 +389,10 @@
     {
       "question": "Identifique los sujetos incluidos en el régimen especial de la seguridad social:",
       "answers": [
-        {
-          "text": "personal estatutario de las administraciones públicas",
-          "correct": false
-        },
-        {
-          "text": "trabajadores por cuenta propia o autónomo",
-          "correct": true
-        },
-        {
-          "text": "empleada del hogar",
-          "correct": true
-        },
-        {
-          "text": "ninguna es correcta",
-          "correct": false
-        }
+        {"text": "personal estatutario de las administraciones públicas", "correct": false},
+        {"text": "trabajadores por cuenta propia o autónomo", "correct": true},
+        {"text": "empleada del hogar", "correct": true},
+        {"text": "ninguna es correcta", "correct": false}
       ],
       "explanation": "El régimen especial abarca autónomos y empleados del hogar (TRLGSS art. 12), no al personal estatutario. / Traduzione in italiano: Il regime speciale comprende autonomi e collaboratori domestici (TRLGSS art. 12), non il personale statutario.",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 12",
@@ -797,22 +401,10 @@
     {
       "question": "Identifique los supuestos expresamente excluidos del régimen general de la seguridad social:",
       "answers": [
-        {
-          "text": "los servicios amistosos benévolos o de buena vecindad",
-          "correct": true
-        },
-        {
-          "text": "las relaciones laborales de carácter especial",
-          "correct": false
-        },
-        {
-          "text": "no exista exclusiones expresas del régimen general de SS",
-          "correct": false
-        },
-        {
-          "text": "ninguna es correcta",
-          "correct": false
-        }
+        {"text": "los servicios amistosos benévolos o de buena vecindad", "correct": true},
+        {"text": "las relaciones laborales de carácter especial", "correct": false},
+        {"text": "no exista exclusiones expresas del régimen general de SS", "correct": false},
+        {"text": "ninguna es correcta", "correct": false}
       ],
       "explanation": "El art. 3 TRLGSS excluye estas actividades benéficas; las relaciones especiales tienen su propio régimen. / Traduzione in italiano: L’art. 3 del TRLGSS esclude queste attività benefiche; le relazioni speciali hanno un loro regime.",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 3",
@@ -821,22 +413,10 @@
     {
       "question": "Identifique los sujetos incluidos en los llamados sistemas especiales de la SS:",
       "answers": [
-        {
-          "text": "artistas",
-          "correct": false
-        },
-        {
-          "text": "trabajador por cuenta ajena agrario",
-          "correct": false
-        },
-        {
-          "text": "trabajador ferroviario",
-          "correct": false
-        },
-        {
-          "text": "todas son correctas",
-          "correct": true
-        }
+        {"text": "artistas", "correct": false},
+        {"text": "trabajador por cuenta ajena agrario", "correct": false},
+        {"text": "trabajador ferroviario", "correct": false},
+        {"text": "todas son correctas", "correct": true}
       ],
       "explanation": "Los sistemas especiales (art. 11 TRLGSS) incluyen artistas, agrarios, ferroviarios y otros colectivos. / Traduzione in italiano: I sistemi speciali (art. 11 TRLGSS) comprendono artisti, agricoltori, ferrovieri e altri gruppi.",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), art. 11",
@@ -845,22 +425,10 @@
     {
       "question": "Juan, español, trabajador por cuenta ajena de una empresa española, ha sido trasladado por dicha empresa para realizar la actividad laboral en otro centro de trabajo sito en Bélgica durante 6 meses. Señala la correcta con respecto a su situación con el sistema de Seguridad Social español:",
       "answers": [
-        {
-          "text": "Alta especial",
-          "correct": false
-        },
-        {
-          "text": "Alta real",
-          "correct": false
-        },
-        {
-          "text": "Alta asimilada",
-          "correct": true
-        },
-        {
-          "text": "Alta presunta",
-          "correct": false
-        }
+        {"text": "Alta especial", "correct": false},
+        {"text": "Alta real", "correct": false},
+        {"text": "Alta asimilada", "correct": true},
+        {"text": "Alta presunta", "correct": false}
       ],
       "explanation": "El traslado al extranjero se asimila al alta (TRLGSS arts. 164 y 166). / Traduzione in italiano: Il trasferimento all’estero è considerato assimilato all’iscrizione (TRLGSS arts. 164 e 166).",
       "legal_reference": "Real Decreto Legislativo 8/2015 (TRLGSS), arts. 164 y 166",
