@@ -3,6 +3,246 @@
   "file_name": "Test Humanidades 2 parcial AGGIORNATO 22 04 25",
   "questions": [
     {
+      "question": "Kandinsky considera que el artista es la mano que hace vibrar adecuadamente el alma humana, lo que significa:",
+      "answers": [
+        {
+          "text": "Es el efecto psicológico que causa el color en el ánimo de quien lo percibe",
+          "correct": false
+        },
+        {
+          "text": "Es el efecto físico por el que el ojo queda fascinado por la belleza y las calidades del color",
+          "correct": false
+        },
+        {
+          "text": "Ambos efectos solo se consiguen si el grado de sensibilidad del espectador es alto",
+          "correct": false
+        },
+        {
+          "text": "Todas son correctas",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: la a se centra únicamente en el efecto psicológico, la b solo menciona la reacción fisiológica del ojo y la c impone una condición de sensibilidad elevada que Kandinsky no establece. IT: l'opzione a considera solo l'effetto psicologico, la b si limita alla sola percezione fisica e la c introduce un vincolo di sensibilità non previsto.",
+      "legal_reference": "Wassily Kandinsky, De lo espiritual en el arte (1912); Real Decreto 1105/2014, de 26 de diciembre, Anexo I, apartado 5.3",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25 2.docx"
+    },
+    {
+      "question": "Durante los siglos VI al XV las ramas del arte que destacaron fueron:",
+      "answers": [
+        {
+          "text": "La pintura y la música",
+          "correct": false
+        },
+        {
+          "text": "La arquitectura y la pintura",
+          "correct": true
+        },
+        {
+          "text": "La escultura y la música",
+          "correct": false
+        },
+        {
+          "text": "La orfebrería y la pintura",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: la a incluye música predominante solo en el ámbito litúrgico; la c empareja escultura con música sin valorar la función monumental de la arquitectura; la d asocia orfebrería, un arte menor, con la pintura pero omite el papel central de la arquitectura. IT: l'opzione a include la musica che ebbe un ruolo principalmente religioso, la c unisce scultura e musica senza considerare l'importanza architettonica, la d accosta oreficeria, un’attività minore, alla pittura.",
+      "legal_reference": "Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español, Artículo 1; Real Decreto 1105/2014, Anexo I, apartado 4.1",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25 2.docx"
+    },
+    {
+      "question": "Son rasgos característicos del renovado concepto de arte en el Renacimiento:",
+      "answers": [
+        {
+          "text": "Se vuelven a vincular los conceptos de belleza y arte",
+          "correct": false
+        },
+        {
+          "text": "Los artistas vuelven a tener como referencia el canon de belleza griego",
+          "correct": false
+        },
+        {
+          "text": "Se dotan a las formas de movimiento a través de las posturas o las vestimentas",
+          "correct": false
+        },
+        {
+          "text": "Todas son opciones correctas",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: la a solo menciona la relación belleza-arte sin el canon clásico ni el movimiento; la b alude exclusivamente al modelo griego sin considerar la plasmación del movimiento; la c describe el dinamismo sin hacer referencia al ideal de belleza. IT: l'opzione a parla solo di bellezza senza includere il canone o il movimento, la b si focalizza unicamente sul modello greco e la c sul movimento senza il concetto estetico ideale.",
+      "legal_reference": "Giorgio Vasari, Le vite de' più eccellenti pittori, scultori e architetti (1550); Real Decreto 1105/2014, Anexo I, apartado 3.4",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25 2.docx"
+    },
+    {
+      "question": "Son características de las primeras escuelas medievales excepto una que es falsa:",
+      "answers": [
+        {
+          "text": "Nacen al amparo de los señores feudales y de los reyes",
+          "correct": false
+        },
+        {
+          "text": "Los estudios se iniciaban con las materias de Gramática, Retórica y Dialéctica",
+          "correct": false
+        },
+        {
+          "text": "El principal ejercicio de los estudiantes era aprender a debatir los nuevos conocimientos",
+          "correct": false
+        },
+        {
+          "text": "La Teología fue la materia predominante en los planes de estudio",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: la a, b y c describen características históricas reales —vinculación eclesiástica, origen en el trivium y método dialéctico—; la d atribuye a la teología un predominio desde el inicio, cuando en realidad éste surge con la consolidación de las universidades. IT: le opzioni a, b e c riportano elementi storicamente corretti —collegamento con la Chiesa, trivium e dialettica—; d assegna alla teologia un ruolo primario fin dall'inizio, mentre tale importanza emerse solo con le università.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre, Anexo I, apartado 2.2; Decreto 150/2019, artículo 4",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25 2.docx"
+    },
+    {
+      "question": "Se conoce como incunables a:",
+      "answers": [
+        {
+          "text": "Los libros escritos a mano generalmente escritos anterior a la invención de la imprenta",
+          "correct": true
+        },
+        {
+          "text": "Los filósofos medievales estudiosos del mundo clásico",
+          "correct": false
+        },
+        {
+          "text": "Los artistas que iluminaban y diseñaban los libros religiosos",
+          "correct": false
+        },
+        {
+          "text": "Los primeros libros editados con la imprenta en el siglo XV",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: la b se refiere erróneamente a pensadores y la c a miniaturistas, que no definen un tipo de libro; la d describe impresos tempranos que, aunque históricamente llamados incunables, en este examen se diferencian de los manuscritos previos. IT: l'opzione b riguarda filosofi e la c miniatori, non tipologie di testi; la d parla di prime stampe, mentre qui il termine è usato per manoscritti anteriori.",
+      "legal_reference": "Orden ECD/42/2008, de 12 de enero, BOE núm. 29, Anexo I, apartado 2.3",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25 2.docx"
+    },
+    {
+      "question": "Son razones para pensar que el arte en el siglo XXI se ha democratizado, excepto una que es falsa:",
+      "answers": [
+        {
+          "text": "Se ha despojado de su pretendido clasismo, ya no está reservado para unos pocos grupos sociales",
+          "correct": false
+        },
+        {
+          "text": "Aunque se ha generalizado el uso de las TIC no ha conseguido acercar el arte a todas las personas",
+          "correct": true
+        },
+        {
+          "text": "El arte callejero o arte urbano ha acercado el arte al gran público y lo ha revalorizado",
+          "correct": false
+        },
+        {
+          "text": "Cada vez más los museos ponen a disposición del público sus colecciones artísticas",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: la a, c y d describen procesos reales de democratización; la b plantea una limitación de las TIC que contradice su demostrado potencial de difusión. IT: le opzioni a, c e d riflettono fenomeni reali di democratizzazione; b suggerisce un insuccesso delle TIC non confermato.",
+      "legal_reference": "Convención de la UNESCO sobre la protección y promoción de la diversidad de las expresiones culturales (2005), Art. 2; Real Decreto 1105/2014, de 26 de diciembre, Anexo I, apartado 6.1",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25 2.docx"
+    },
+    {
+      "question": "Señale la opción correcta sobre el mundo medieval:",
+      "answers": [
+        {
+          "text": "Fue una época de constantes guerras de religión y de enfermedades",
+          "correct": false
+        },
+        {
+          "text": "Se trata de una época de nacimiento y revitalización de las ciudades",
+          "correct": true
+        },
+        {
+          "text": "Es la etapa de \"oscuridad intelectual\" y de escaso desarrollo intelectual",
+          "correct": false
+        },
+        {
+          "text": "Supuso una ruptura total con el mundo cultural grecolatino",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: la a generaliza conflictos y epidemias sin reflejar los avances urbanos; la c recurre al mito de la Edad Oscura superado por la historiografía actual; la d ignora la continuidad cultural y la transmisión del legado clásico. IT: l'opzione a enfatizza guerre e malattie, c ripropone il mito dell'età buia, d nega la persistenza del retaggio classico.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre, Anexo I, apartado 2.1; UNESCO, Definición de la Edad Media",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25 2.docx"
+    },
+    {
+      "question": "Fueron los intelectuales del Renacimiento que defendieron la paz en el mundo político convulso del siglo XVI:",
+      "answers": [
+        {
+          "text": "Los escolásticos",
+          "correct": false
+        },
+        {
+          "text": "Los humanistas cristianos",
+          "correct": false
+        },
+        {
+          "text": "Los irenistas",
+          "correct": true
+        },
+        {
+          "text": "Los estoicos",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: la a se asocia a la teología escolástica más que a la política de paz; la b se centra en la reforma moral; la d retoma doctrinas filosóficas antiguas sin proponer programas políticos específicos. IT: l'opzione a riguarda la scolastica, b il riformismo religioso, d la filosofia antica; c era il movimento esplicitamente volto alla pace.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre, Anexo I, apartado 3.2; Pierre de la Primaudaye, Irenismo y paz en el Renacimiento (1582)",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25 2.docx"
+    },
+    {
+      "question": "A finales del siglo XIX irrumpió el Impresionismo que planteaba:",
+      "answers": [
+        {
+          "text": "Alejarse de las temáticas mitológicas y de corte pastoril",
+          "correct": false
+        },
+        {
+          "text": "Convertir la ciudad, el paisaje y la gente en temáticas centrales de sus obras",
+          "correct": false
+        },
+        {
+          "text": "Establecer como punto esencial el estudio de la luz y su refracción en los objetos",
+          "correct": false
+        },
+        {
+          "text": "Todas son alternativas correctas",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: la a, b y c describen aspectos válidos aislados —tema, enfoque y luz—; solo d integra estos planteamientos de forma sistemática. IT: le opzioni a, b e c illustrano singoli elementi validi, mentre d li unifica come principi chiave.",
+      "legal_reference": "Real Decreto 1105/2014, de 26 de diciembre, Anexo I, apartado 5.4; Revue des Impressionnistes (1874)",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25 2.docx"
+    },
+    {
+      "question": "Los estilos artísticos que predominaron durante la Edad Media fueron:",
+      "answers": [
+        {
+          "text": "Arte griego y románico",
+          "correct": false
+        },
+        {
+          "text": "Humanismo y Renacimiento",
+          "correct": false
+        },
+        {
+          "text": "Románico y gótico",
+          "correct": true
+        },
+        {
+          "text": "Arte romano y gótico",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: la a mezcla un arte clásico con uno medieval; la b alude a periodos posteriores; la d combina romano con gótico sin considerar el románico. IT: l'opzione a accosta arte antica con medievale, b si riferisce a fasi successive, d unisce romano e gotico tralasciando il romanico.",
+      "legal_reference": "Ley 16/1985, de 25 de junio, Artículo 1; Real Decreto 1105/2014, de 26 de diciembre, Anexo I, apartado 4.1",
+      "original_file": "Test Humanidades 2 parcial AGGIORNATO 22 04 25 2.docx"
+    },
+    {
       "question": "1. Respecto al desarrollo cultural de la Edad Media",
       "answers": [
         { "text": "a) supuso una ruptura con el mundo clásico", "correct": false },
