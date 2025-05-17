@@ -18,8 +18,7 @@
           "correct": false
         },
         {
-          "text": "Todas son correctas",
-          "correct": true
+          "text": "Todas son correctas", "correct": true
         }
       ],
       "explanation": "ES: la a se centra únicamente en el efecto psicológico, la b solo menciona la reacción fisiológica del ojo y la c impone una condición de sensibilidad elevada que Kandinsky no establece. IT: l'opzione a considera solo l'effetto psicologico, la b si limita alla sola percezione fisica e la c introduce un vincolo di sensibilità non previsto.",
@@ -103,7 +102,7 @@
       "answers": [
         {
           "text": "Los libros escritos a mano generalmente escritos anterior a la invención de la imprenta",
-          "correct": true
+          "correct": false
         },
         {
           "text": "Los filósofos medievales estudiosos del mundo clásico",
@@ -115,7 +114,7 @@
         },
         {
           "text": "Los primeros libros editados con la imprenta en el siglo XV",
-          "correct": false
+          "correct": true
         }
       ],
       "explanation": "ES: la b se refiere erróneamente a pensadores y la c a miniaturistas, que no definen un tipo de libro; la d describe impresos tempranos que, aunque históricamente llamados incunables, en este examen se diferencian de los manuscritos previos. IT: l'opzione b riguarda filosofi e la c miniatori, non tipologie di testi; la d parla di prime stampe, mentre qui il termine è usato per manoscritti anteriori.",
