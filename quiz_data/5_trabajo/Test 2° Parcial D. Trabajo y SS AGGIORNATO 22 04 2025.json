@@ -354,8 +354,8 @@
       "question": "Relativo a la cuantía de la prestación de desempleo contributiva:",
       "answers": [
         {"text": "Se recibe la misma cuantía durante todo el tiempo que haya sido reconocida la prestación", "correct": false},
-        {"text": "El porcentaje a aplicar sobre la base reguladora es superior en los primeros 180 días de la prestación", "correct": true},
-        {"text": "Durante los primeros 180 días el porcentaje a aplicar sobre la base reguladora para calcular la cuantía de la prestación es de un 70%", "correct": true},
+        {"text": "El porcentaje a aplicar sobre la base reguladora es superior en los primeros 180 días de la prestación", "correct": false},
+        {"text": "Durante los primeros 180 días el porcentaje a aplicar sobre la base reguladora para calcular la cuantía de la prestación es de un 70%", "correct": false},
         {"text": "B y C son ciertas", "correct": true}
       ],
       "explanation": "Según el artículo 275 del TRLGSS:\n\n- **Primeros 180 días**: 70% de la base reguladora.\n- **A partir del día 181**: 60% de la base reguladora.\n\nPor tanto:\n- **B** es cierta: el porcentaje es mayor al inicio.\n- **C** es cierta: ese porcentaje es del 70%.\n- **B y C (D)** son las respuestas correctas.\n\nIT: Secondo l'articolo 275 del TRLGSS:\n\n- **Primi 180 giorni**: 70% della base di calcolo.\n- **Dal 181° giorno**: 60% della base.\n\nQuindi:\n- **B** è corretta.\n- **C** è corretta.\n- **B e C (D)** sono corrette.",
