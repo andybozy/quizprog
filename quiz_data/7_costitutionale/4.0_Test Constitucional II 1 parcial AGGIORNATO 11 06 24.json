@@ -1,6 +1,4 @@
 {
-    "disabled": true,
-
   "file_number": 0,
   "file_name": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24",
   "questions": [
@@ -12,7 +10,7 @@
         { "text": "es suficiente con que exista una parte dogmática", "correct": false },
         { "text": "es suficiente con que exista un aparte dogmática y una orgánica", "correct": true }
       ],
-      "explanation": "Toda constitución clásica se compone de una parte dogmática (derechos fundamentales) y una parte orgánica (organización de los poderes del Estado). Ni la parte orgánica ni la dogmática por sí solas bastan para conformar un texto constitucional completo. Spiegazione in italiano: Ogni costituzione classica si compone di una parte dogmatica (diritti fondamentali) e di una parte organica (organizzazione dei poteri dello Stato). Né la parte organica né quella dogmatica da sole sono sufficienti a costituire un testo costituzionale completo.",
+      "explanation": "ES: A. Omite la parte dogmática de derechos fundamentales; B. Se centra en poderes y reforma pero no incluye derechos; C. Solo menciona derechos sin regular la estructura del Estado; D. Correcta: integra ambas partes esenciales, dogmática y orgánica.\nIT: A. Menziona solo la parte organica senza diritti fondamentali; B. Si concentra su poteri e riforma ma non include diritti; C. Parla solo di diritti senza strutturare lo Stato; D. Corretta: include entrambe le parti essenziali, dogmatica e organica.",
       "legal_reference": "Constitución Española de 1978, Título Preliminar y Títulos I (arts. 10–55) y III–V",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -24,7 +22,7 @@
         { "text": "de gran bretaña donde desde el siglo XVII se proclama la supremacía y superioridad de la constitución", "correct": false },
         { "text": "de los estados unidos donde a principios del siglo XIX el tribunal supremo en la sentencia madison versus marshall declara la constitución como norma suprema del ordenamiento a la que todos los poderes se encuentran sometidos", "correct": true }
       ],
-      "explanation": "En Marbury v. Madison (1803) el Tribunal Supremo de EE. UU. estableció el control judicial de la constitucionalidad, consagrando la Constitución como norma suprema a la que todos los poderes están subordinados. Spiegazione in italiano: In Marbury v. Madison (1803) la Corte Suprema degli Stati Uniti ha istituito il controllo giudiziario di costituzionalità, consacrando la Costituzione come norma suprema a cui tutti i poteri sono subordinati.",
+      "explanation": "ES: A. La CE de 1791 no instituyó control judicial de constitucionalidad; B. Alemania y Austria no desarrollaron este principio en el XIX; C. Gran Bretaña carece de constitución codificada y suprema; D. Correcta: Marbury v. Madison (1803) señaló la supremacía constitucional. \nIT: A. La Costituzione del 1791 non istituì il controllo giudiziario; B. Germania e Austria non svilupparono questo principio nel XIX secolo; C. Gran Bretagna non ha una costituzione codificata e suprema; D. Corretta: Marbury v. Madison (1803) sancì la supremazia costituzionale.",
       "legal_reference": "Marbury v. Madison, 5 U.S. (1 Cranch) 137 (1803)",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -36,7 +34,7 @@
         { "text": "la existencia del tribunal constitucional", "correct": true },
         { "text": "la rigidez", "correct": false }
       ],
-      "explanation": "La existencia de un tribunal constitucional especializado garantiza el control de constitucionalidad y refuerza la supremacía de la constitución frente a las leyes ordinarias. Spiegazione in italiano: L'esistenza di un tribunale costituzionale specializzato garantisce il controllo di costituzionalità e rafforza la supremazia della costituzione rispetto alle leggi ordinarie.",
+      "explanation": "ES: A. Ser escrito no basta para asegurar control; B. Existe una respuesta correcta; C. Correcta: un tribunal constitucional especializado garantiza el control de constitucionalidad; D. La rigidez no implica ejecución práctica del control.\nIT: A. L'essere scritto non garantisce il controllo; B. Esiste una risposta valida; C. Corretta: un tribunale costituzionale assicura il controllo di costituzionalità; D. La rigidità non comporta un controllo effettivo.",
       "legal_reference": "Constitución Española de 1978, arts. 161–165",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -48,8 +46,8 @@
         { "text": "como fundamentos de la organización internacional", "correct": false },
         { "text": "como forma jurídica", "correct": true }
       ],
-      "explanation": "La constitución formal se entiende como una forma jurídica que encarna la limitación del poder del Estado a través de un texto normativo superior. Spiegazione in italiano: La costituzione formale è intesa come una forma giuridica che incarna la limitazione del potere statale attraverso un testo normativo superiore.",
-      "legal_reference": "Hans Kelsen, \"Teoría pura del derecho\", §38",
+      "explanation": "ES: A. Hay respuesta válida; B. Se refiere solo al ámbito territorial; C. Apunta al internacional sin cubrir la forma jurídica; D. Correcta: la Constitución como forma jurídica limita el poder.\nIT: A. Esiste una risposta valida; B. Si riferisce solo alla dimensione territoriale; C. Riguarda l'ambito internazionale senza forma giuridica; D. Corretta: la Costituzione come forma giuridica limita il potere.",
+      "legal_reference": "Hans Kelsen, “Teoría pura del derecho”, §38",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
     {
@@ -60,7 +58,7 @@
         { "text": "recoge normas inmediatamente aplicables", "correct": false },
         { "text": "todas son ciertas", "correct": true }
       ],
-      "explanation": "La parte dogmática incorpora los valores, los principios, los derechos fundamentales y normas de aplicación directa. Spiegazione in italiano: La parte dogmatica incorpora valori, principi, diritti fondamentali e norme di immediata applicazione.",
+      "explanation": "ES: A. Solo menciona valores y principios; B. Omite valores y aplicación directa; C. No abarca principios ni valores; D. Correcta: incluye valores, principios, derechos y normas de aplicación inmediata.\nIT: A. Menziona solo valori e principi; B. Ommette valori e applicazione diretta; C. Non copre principi né valori; D. Corretta: include valori, principi, diritti e norme di immediata applicazione.",
       "legal_reference": "Constitución Española de 1978, Título I (arts. 10–55)",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -72,7 +70,7 @@
         { "text": "que solo el pueblo español que se considera espanol es el soberano", "correct": true },
         { "text": "todas son incorrectas", "correct": false }
       ],
-      "explanation": "El art. 1.2 CE establece claramente que la soberanía reside exclusivamente en el pueblo español, no en entidades parciales o “naciones” internas. Spiegazione in italiano: L'art. 1.2 della CE stabilisce chiaramente che la sovranità risiede esclusivamente nel popolo spagnolo, non in entità parziali o 'nazioni' interne.",
+      "explanation": "ES: A. Implica soberanía compartida, no es lo que dice el art. 1.2; B. Otorga soberanía a entidades subestatales, erróneo; C. Correcta: el art. 1.2 establece soberanía exclusivamente en el pueblo español; D. Existe respuesta válida.\nIT: A. Implica sovranità condivisa, non è quanto afferma l’art. 1.2; B. Attribuisce sovranità a entità substatali, errato; C. Corretta: l’art. 1.2 stabilisce sovranità esclusiva del popolo spagnolo; D. Esiste una risposta valida.",
       "legal_reference": "Constitución Española de 1978, art. 1.2",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -84,8 +82,8 @@
         { "text": "constituciones originales y derivada y factoriales", "correct": false },
         { "text": "ninguna es correcta", "correct": true }
       ],
-      "explanation": "La clasificación tradicional distingue constituciones flexibles/rígidas, escritas/no escritas, etc., pero no las categorías propuestas en A–C. Spiegazione in italiano: La classificazione tradizionale distingue costituzioni flessibili/rigide, scritte/non scritte, ecc., ma non le categorie proposte in A–C.",
-      "legal_reference": "J. Pérez Royo, \"Introducción al Derecho Constitucional\", cap. 2",
+      "explanation": "ES: A. No figura en la clasificación clásica; B. Términos no usados doctrinalmente; C. Combinación no reconocida; D. Correcta: ninguna coincide con categorías aceptadas.\nIT: A. Non figura nella classificazione classica; B. Termini non utilizzati dottrinalmente; C. Combinazione non riconosciuta; D. Corretta: nessuna coincide con categorie accettate.",
+      "legal_reference": "J. Pérez Royo, “Introducción al Derecho Constitucional”, cap. 2",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
     {
@@ -96,8 +94,8 @@
         { "text": "todas son correctas", "correct": false },
         { "text": "ninguna es correcta", "correct": true }
       ],
-      "explanation": "Ninguno de los autores mencionados formula la teoría del contrato social; los principales contratualistas son Hobbes, Locke y Rousseau. Spiegazione in italiano: Nessuno degli autori menzionati elabora la teoria del contratto sociale; i principali contrattualisti sono Hobbes, Locke e Rousseau.",
-      "legal_reference": "John Locke, \"Segundo tratado sobre el gobierno civil\", cap. II",
+      "explanation": "ES: A. Maquiavelo no teoriza el contrato social; B. Luhmann no es parte de la tradición contratuallista; C. Ninguna de las tres propone esa teoría; D. Correcta: los principales contratualistas son Hobbes, Locke y Rousseau.\nIT: A. Machiavelli non teorizzò il contratto sociale; B. Luhmann non fa parte della tradizione contrattualista; C. Nessuno dei tre propone tale teoria; D. Corretta: i principali contrattualisti sono Hobbes, Locke e Rousseau.",
+      "legal_reference": "John Locke, “Segundo tratado sobre el gobierno civil”, cap. II",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
     {
@@ -108,31 +106,19 @@
         { "text": "necio en la revolución inglesa 1787", "correct": false },
         { "text": "ninguna es correcta", "correct": true }
       ],
-      "explanation": "El liberalismo como corriente política se gestó antes de 1787 y no se circunscribe a la Revolución Francesa; se extiende desde el siglo XVII en Inglaterra. Spiegazione in italiano: Il liberalismo come corrente politica si sviluppò prima del 1787 e non si limita alla Rivoluzione francese; si estende dal XVII secolo in Inghilterra.",
+      "explanation": "ES: A. Surgió antes de 1789; B. Se desarrolla desde el siglo XVII, no solo en 1688; C. 1787 corresponde a la Constitución estadounidense; D. Correcta: se gestó gradualmente antes de esas fechas.\nIT: A. Emersero prima del 1789; B. Si sviluppò dal XVII secolo, non solo nel 1688; C. Il 1787 è relativo alla Costituzione USA; D. Corretta: si sviluppò gradualmente prima di tali date.",
       "legal_reference": "Bill of Rights 1689 (Reino Unido)",
-      "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
-    },
-    {
-      "question": "Las principales características del liberalismo son:",
-      "answers": [
-        { "text": "socialismo, libertad y estado laico con tolerancia religiosa", "correct": false },
-        { "text": "desigualdad y derecho a la propiedad privada", "correct": false },
-        { "text": "todas son correctas", "correct": false },
-        { "text": "todas son incorrectas", "correct": true }
-      ],
-      "explanation": "El liberalismo defiende la igualdad ante la ley, la libertad individual y el derecho de propiedad; no el socialismo ni la desigualdad. Spiegazione in italiano: Il liberalismo difende l'eguaglianza davanti alla legge, la libertà individuale e il diritto di proprietà; non il socialismo né la disuguaglianza.",
-      "legal_reference": "John Stuart Mill, \"Sobre la libertad\", cap. I",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
     {
       "question": "Estado social y Estado democratico son:",
       "answers": [
-        { "text": "fases contrarias en el proceso de transformación de estado", "correct": false },
-        { "text": "fases paralelas en el proceso de transformación del estado", "correct": true },
-        { "text": "todas son incorrectas", "correct": false },
-        { "text": "fases sucesivas en el proceso de transformación del estado moderno", "correct": false }
+        { "text": "Fases contrarias en el proceso de transformación de estado", "correct": false },
+        { "text": "Fases paralelas en el proceso de transformación del estado", "correct": true },
+        { "text": "Todas son incorrectas", "correct": false },
+        { "text": "Fases sucesivas en el proceso de transformación del estado moderno", "correct": false }
       ],
-      "explanation": "En el modelo español ambos conceptos coexisten y se alimentan mutuamente, configurando un Estado social y democrático de Derecho. Spiegazione in italiano: Nel modello spagnolo entrambi i concetti coesistono e si alimentano a vicenda, configurando uno Stato sociale e democratico di diritto.",
+      "explanation": "ES: A. Incorrecta porque no son contrarias; B. Correcta: coexisten paralelamente en el modelo español; C. Falsa pues hay respuesta válida; D. Equivocada porque no son fases sucesivas.  \nIT: A. Errata perché non sono contrarie; B. Corretta: coesistono parallelamente nel modello spagnolo; C. Errata: esiste una risposta valida; D. Errata: non sono fasi successive.",
       "legal_reference": "Constitución Española de 1978, art. 1.1",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -143,7 +129,7 @@
         { "text": "Constitucionalismo social", "correct": true },
         { "text": "Ninguna de las anteriores", "correct": false }
       ],
-      "explanation": "La Constitución de 1931 introdujo derechos sociales avanzados, pionera en el constitucionalismo social en España. Spiegazione in italiano: La Costituzione del 1931 introdusse diritti sociali avanzati, pioniere nel costituzionalismo sociale in Spagna.",
+      "explanation": "ES: A. Falsa porque instauró la República; B. Correcta: introdujo derechos sociales avanzados; C. Incorrecta porque existe respuesta válida.  \nIT: A. Errata perché istituì la Repubblica; B. Corretta: introdusse diritti sociali avanzati; C. Errata: esiste una risposta valida.",
       "legal_reference": "Constitución Española de 1931, Título Preliminar y art. 26",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -155,7 +141,7 @@
         { "text": "1845", "correct": false },
         { "text": "1931", "correct": false }
       ],
-      "explanation": "La Constitución de Cádiz de 1812 proclamó por primera vez la soberanía nacional en las Cortes, no en el monarca. Spiegazione in italiano: La Costituzione di Cadice del 1812 proclamò per la prima volta la sovranità nazionale nelle Corti, non nel monarca.",
+      "explanation": "ES: A. Correcta: la Constitución de Cádiz de 1812 proclamó soberanía nacional en las Cortes; B,C,D. Falsas por no ser la primera.  \nIT: A. Corretta: la Costituzione di Cadice del 1812 proclamò sovranità nazionale nelle Corti; B,C,D. Errate perché non furono le prime.",
       "legal_reference": "Constitución de Cádiz (1812), art. 7",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -167,7 +153,7 @@
         { "text": "Cierto desde la constitución de 1931", "correct": false },
         { "text": "Cierto desde la vigente constitución", "correct": true }
       ],
-      "explanation": "El adjetivo “social” se incorpora explícitamente por primera vez en el art. 1.1 de la CE de 1978. Spiegazione in italiano: L'aggettivo 'sociale' è incorporato esplicitamente per la prima volta nell'art. 1.1 della CE del 1978.",
+      "explanation": "ES: A,B,C. Falsas porque el adjetivo “social” aparece solo en 1978; D. Correcta: la CE de 1978 incluye “social”.  \nIT: A,B,C. Errate perché l’aggettivo “sociale” compare solo nel 1978; D. Corretta: la CE del 1978 include “sociale”.",
       "legal_reference": "Constitución Española de 1978, art. 1.1",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -176,10 +162,11 @@
       "answers": [
         { "text": "Fases contrarias en el proceso de transformación del Estado.", "correct": false },
         { "text": "Fases paralelas en el proceso de transformación del Estado.", "correct": false },
-        { "text": "Fases sucesivas en el proceso de transformación del Estado.", "correct": true }
+        { "text": "Fases sucesivas en el proceso de transformación del Estado moderno", "correct": true },
+        { "text": "Todas son incorrectas", "correct": false }
       ],
-      "explanation": "Históricamente el Estado democrático antecede conceptualmente al Estado social, que añade funciones redistributivas. Spiegazione in italiano: Storicamente lo Stato democratico precede concettualmente lo Stato sociale, che aggiunge funzioni redistributive.",
-      "legal_reference": "C. Muñoz, \"El Estado del Bienestar\", cap. 1",
+      "explanation": "ES: A,B. Falsas pues no son opuestas ni paralelas; C. Correcta: el Estado democrático conceptual precede al social; D. Falsa porque existe respuesta válida.  \nIT: A,B. Errate perché non sono opposte né parallele; C. Corretta: lo Stato democratico precede concettualmente lo Stato sociale; D. Errata: esiste una risposta valida.",
+      "legal_reference": "C. Muñoz, “El Estado del Bienestar”, cap. 1",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
     {
@@ -190,7 +177,7 @@
         { "text": "Están reconocidos todos los Derechos Humanos en su Título II, de la jefatura del Estado", "correct": false },
         { "text": "Todas son incorrectas", "correct": true }
       ],
-      "explanation": "La CE de 1978 incluye tanto la organización de poderes, la territorial como un amplio catálogo de derechos, por lo que ninguna de las tres afirmaciones aisladas es correcta. Spiegazione in italiano: La CE del 1978 include sia l'organizzazione dei poteri, sia quella territoriale, sia un ampio catalogo di diritti, quindi nessuna delle tre affermazioni isolate è corretta.",
+      "explanation": "ES: A,B,C. Cada una omite parte del contenido amplio; D. Correcta: ninguna por separado describe la CE completa.  \nIT: A,B,C. Ognuna omette parti del contenuto; D. Corretta: nessuna descrive la CE integralmente.",
       "legal_reference": "Constitución Española de 1978, arts. 1–10, Títulos I–X",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -202,7 +189,7 @@
         { "text": "1980", "correct": false },
         { "text": "1968", "correct": false }
       ],
-      "explanation": "La Ley Orgánica 3/1979 fijó la entrada en vigor el 29 de diciembre de 1978. Spiegazione in italiano: La Ley Orgánica 3/1979 stabilì l'entrata in vigore il 29 dicembre 1978.",
+      "explanation": "ES: A. Correcta: la LO 3/1979 fijó el 29 diciembre 1978; B,C,D. Falsas por fechas erróneas.  \nIT: A. Corretta: la LO 3/1979 stabilì il 29 dicembre 1978; B,C,D. Errate per date sbagliate.",
       "legal_reference": "Ley Orgánica 3/1979, Disposición derogatoria única",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -214,7 +201,7 @@
         { "text": "Se establece el Derecho a la propiedad privada.", "correct": false },
         { "text": "Se establecen múltiples principios como el Principio de igualdad.", "correct": false }
       ],
-      "explanation": "La CE de 1978 es extensa (169 artículos + disposiciones), luego no es un texto reducido. Spiegazione in italiano: La CE del 1978 è estesa (169 articoli + disposizioni), quindi non è un testo ridotto.",
+      "explanation": "ES: A. Correcta: la CE de 1978 es extensa; B,C,D. Falsas: todas esas características sí figuran.  \nIT: A. Corretta: la CE del 1978 è estesa; B,C,D. Errate: tutte quelle caratteristiche sono presenti.",
       "legal_reference": "Constitución Española de 1978, Estructura completa",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -226,7 +213,7 @@
         { "text": "Liberal y conservadora", "correct": false },
         { "text": "Progresista y demócrata", "correct": false }
       ],
-      "explanation": "El Estatuto de Bayona de 1808 (error tipográfico habitual como '1834') fue un texto de raigambre liberal otorgado por José Bonaparte. Spiegazione in italiano: Lo Statuto di Bayona del 1808 (errore tipografico spesso indicato come '1834') fu un testo di matrice liberale conferito da Giuseppe Bonaparte.",
+      "explanation": "ES: A. Correcta: fue de matriz liberal; B,C,D. Falsas por no ajustarse al texto otorgado por José I.  \nIT: A. Corretta: fu di matrice liberale; B,C,D. Errate perché non rispecchiano il testo di Giuseppe I.",
       "legal_reference": "Estatuto de Bayona (1808), Título I",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -238,7 +225,7 @@
         { "text": "El Constitucionalismo liberal.", "correct": false },
         { "text": "Todas son incorrectas.", "correct": false }
       ],
-      "explanation": "El constitucionalismo social se caracteriza por garantizar derechos económicos, sociales y culturales como prestaciones del Estado. Spiegazione in italiano: Il costituzionalismo sociale si caratterizza per garantire diritti economici, sociali e culturali come prestazioni dello Stato.",
+      "explanation": "ES: A. Correcta: garantiza derechos sociales y económicos; B,C,D. Falsas porque no se centran en prestaciones.  \nIT: A. Corretta: garantisce diritti sociali ed economici; B,C,D. Errate perché non riguardano prestazioni.",
       "legal_reference": "Constitución Española de 1931, arts. 25–47",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -250,8 +237,8 @@
         { "text": "Solamente de la teoría del Estado.", "correct": false },
         { "text": "Todas son incorrectas.", "correct": false }
       ],
-      "explanation": "Maquiavelo es considerado el fundador de la ciencia política moderna por su obra \"El Príncipe\" y su concepción del Estado. Spiegazione in italiano: Machiavelli è considerato il fondatore della scienza politica moderna per la sua opera 'Il Principe' e la sua concezione dello Stato.",
-      "legal_reference": "Nicolás Maquiavelo, \"El Príncipe\", capítulo I",
+      "explanation": "ES: A. Falsa; B. Correcta: es fundador de la ciencia política moderna; C. Parcial, no solo teoría del Estado; D. Falsa pues hay respuesta adecuada.  \nIT: A. Errata; B. Corretta: è fondatore della scienza politica moderna; C. Parziale, non solo teoria dello Stato; D. Errata perché esiste risposta valida.",
+      "legal_reference": "Nicolás Maquiavelo, “El Príncipe”, capítulo I",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
     {
@@ -262,8 +249,8 @@
         { "text": "A y B son correctas.", "correct": false },
         { "text": "El origen y el propósito del Estado y de los Derechos Humanos.", "correct": true }
       ],
-      "explanation": "El contrato social describe el nacimiento y finalidad del Estado y legitima derechos humanos como emanación de la voluntad colectiva. Spiegazione in italiano: Il contratto sociale descrive la nascita e lo scopo dello Stato e legittima i diritti umani come emanazione della volontà collettiva.",
-      "legal_reference": "Jean-Jacques Rousseau, \"El contrato social\", libro I, cap. 1",
+      "explanation": "ES: A,B,C. Parciales o incorrectas; D. Correcta: describe nacimiento y finalidad del Estado y legitima DH.  \nIT: A,B,C. Parziali o errate; D. Corretta: descrive nascita e scopo dello Stato e legittima i diritti umani.",
+      "legal_reference": "Jean-Jacques Rousseau, “El contrato social”, libro I, cap. 1",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
     {
@@ -274,8 +261,8 @@
         { "text": "Todas son incorrectas.", "correct": false },
         { "text": "De Grecia.", "correct": true }
       ],
-      "explanation": "En su obra \"Política\", Aristóteles analiza y compara las constituciones de las polis griegas. Spiegazione in italiano: Nella sua opera 'Politica', Aristotele analizza e confronta le costituzioni delle polis greche.",
-      "legal_reference": "Aristóteles, \"Política\", libro III",
+      "explanation": "ES: A,B,C. Incorrectas; D. Correcta: en “Política” estudió las constituciones de las polis griegas.  \nIT: A,B,C. Errate; D. Corretta: in “Politica” analizzò le costituzioni delle polis greche.",
+      "legal_reference": "Aristóteles, “Política”, libro III",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
     {
@@ -286,7 +273,7 @@
         { "text": "El Estatuto de Bayona de 1808.", "correct": true },
         { "text": "Todas son incorrectas.", "correct": false }
       ],
-      "explanation": "El Estatuto de Bayona de 1808, si bien no fue técnicamente constitución, tuvo gran amplitud doctrinal pero corta vigencia (1808–1813). Spiegazione in italiano: Lo Statuto di Bayona del 1808, sebbene non fosse tecnicamente una costituzione, ebbe grande ampiezza dottrinale ma breve durata (1808–1813).",
+      "explanation": "ES: A,B. No existieron esas; C. Correcta: amplio pero breve (1808–1813); D. Falsa pues hay respuesta válida.  \nIT: A,B. Non esistevano; C. Corretta: ampio ma breve vigenza (1808–1813); D. Errata perché esiste risposta valida.",
       "legal_reference": "Estatuto de Bayona (1808), texto completo",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -298,7 +285,7 @@
         { "text": "Una Carta otorgada.", "correct": true },
         { "text": "Un proyecto de Constitución.", "correct": false }
       ],
-      "explanation": "El Estatuto de Bayona es una carta otorgada por José I que regulaba el régimen político, pero no fruto de un proceso colegiado. Spiegazione in italiano: Lo Statuto di Bayona è una carta concessa da Giuseppe I che regolava il regime politico, ma non frutto di un processo collegiale.",
+      "explanation": "ES: A. No fue producto colegiado; B. No es privado; C. Correcta: es carta otorgada por José I; D. No quedó solo en proyecto.  \nIT: A. Non fu frutto collegiale; B. Non è documento privato; C. Corretta: è carta concessa da Giuseppe I; D. Non rimase solo progetto.",
       "legal_reference": "Estatuto de Bayona (1808), Título Preliminar",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -310,8 +297,8 @@
         { "text": "Individualismo, libertad, principio de igualdad, derecho a la propiedad privada y Estado confesional.", "correct": false },
         { "text": "Todas son incorrectas.", "correct": false }
       ],
-      "explanation": "El constitucionalismo liberal subraya la libertad individual, la igualdad jurídica y la protección de la propiedad privada. Spiegazione in italiano: Il liberalismo sottolinea la libertà individuale, l'uguaglianza giuridica e la protezione della proprietà privata.",
-      "legal_reference": "Constitución de los EE. UU. (1787), Declaración de Derechos (1er y 2º enmiendas)",
+      "explanation": "ES: A. Omite propiedad; B. Correcta: subraya libertad, igualdad y propiedad; C. Incluye Estado confesional, que no es liberal; D. Falsa pues hay respuesta válida.  \nIT: A. Ommette proprietà; B. Corretta: enfatizza libertà, uguaglianza e proprietà; C. Include Stato confessionale, non liberal; D. Errata perché esiste risposta valida.",
+      "legal_reference": "Constitución de los EE. UU. (1787), Declaración de Derechos (1ª y 2ª enmiendas)",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
     {
@@ -322,19 +309,19 @@
         { "text": "La Revolución Industrial.", "correct": false },
         { "text": "Las Guerras Médicas.", "correct": false }
       ],
-      "explanation": "Tras la II Guerra Mundial se consolidó el concepto de Estado que combina la democracia con el imperio de la ley. Spiegazione in italiano: Dopo la II Guerra mondiale si consolidò il concetto di Stato che combina la democrazia con lo stato di diritto.",
+      "explanation": "ES: A. Correcta: tras la II GM se consolidó el concepto; B,C,D. Falsas por no corresponder al origen del término.  \nIT: A. Corretta: dopo la II GM si consolidò il concetto; B,C,D. Errate perché non corrispondono all’origine del termine.",
       "legal_reference": "Carta de las Naciones Unidas (1945), art. 1",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
     {
-      "question": "Las estipulaciones estamentales de la Edad Media consistentes en pactos entre estamentos y el príncipe conllevaron a la promulgación en Inglaterra de Ia Carta Magna en el año:",
+      "question": "Las estipulaciones estamentales de la Edad Media consistentes en pactos entre estamentos y el príncipe conllevaron a la promulgación en Inglaterra de la Carta Magna en el año:",
       "answers": [
         { "text": "1316.", "correct": false },
         { "text": "1200.", "correct": false },
         { "text": "1230.", "correct": false },
         { "text": "1215", "correct": true }
       ],
-      "explanation": "La Gran Carta de 1215 limitó por primera vez el poder real en Inglaterra mediante pactos con la nobleza. Spiegazione in italiano: La Magna Carta del 1215 limitò per la prima volta il potere reale in Inghilterra mediante patti con la nobiltà.",
+      "explanation": "ES: A,B,C. Fechas incorrectas; D. Correcta: la Magna Carta se firmó en 1215.  \nIT: A,B,C. Date errate; D. Corretta: la Magna Carta fu firmata nel 1215.",
       "legal_reference": "Magna Carta (1215), cláusula 1",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -346,7 +333,7 @@
         { "text": "En la Constitución estadounidense.", "correct": false },
         { "text": "En el Código Civil.", "correct": false }
       ],
-      "explanation": "La CE de 1978 incorpora el concepto de Estado Social de Derecho en su art. 1.1. Spiegazione in italiano: La CE del 1978 incorpora il concetto di Stato sociale di diritto nel suo art. 1.1.",
+      "explanation": "ES: A,C,D. Falsas; B. Correcta: CE de 1978 incorpora el concepto en art. 1.1.  \nIT: A,C,D. Errate; B. Corretta: la CE del 1978 incorpora il concetto in art. 1.1.",
       "legal_reference": "Constitución Española de 1978, art. 1.1",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -358,7 +345,7 @@
         { "text": "1931.", "correct": true },
         { "text": "1876.", "correct": false }
       ],
-      "explanation": "La Constitución de 1931 estableció el sufragio femenino y el derecho a la eligibilidad. Spiegazione in italiano: La Costituzione del 1931 istituì il suffragio femminile e il diritto all'eleggibilità.",
+      "explanation": "ES: A,B,D. Falsas; C. Correcta: art. 36 CE 1931 estableció sufragio femenino y elegibilidad.  \nIT: A,B,D. Errate; C. Corretta: art. 36 CE 1931 introdusse suffragio femminile e eleggibilità.",
       "legal_reference": "Constitución Española de 1931, art. 36",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -370,7 +357,7 @@
         { "text": "1931.", "correct": false },
         { "text": "1978.", "correct": true }
       ],
-      "explanation": "Solo la CE de 1978 regula el actual Congreso de los Diputados y Senado vigentes. Spiegazione in italiano: Solo la CE del 1978 regola l'attuale Congresso dei Deputati e Senato vigenti.",
+      "explanation": "ES: A,B,C. Distintas cámaras; D. Correcta: CE 1978 regula el actual Congreso y Senado.  \nIT: A,B,C. Camere differenti; D. Corretta: la CE 1978 regol a l’attuale Congresso e Senato.",
       "legal_reference": "Constitución Española de 1978, Título III",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -382,7 +369,7 @@
         { "text": "La Constitución de 1845.", "correct": false },
         { "text": "La Pepa.", "correct": false }
       ],
-      "explanation": "La Constitución de 1812 (La Pepa o Cádiz) es anterior a cualquier otro texto citado. Spiegazione in italiano: La Costituzione di Cadice (1812), nota come 'La Pepa', è la più antica tra quelle citate.",
+      "explanation": "ES: A. Correcta: 1812 es la más antigua; B,C,D. Falsas o repetidas.  \nIT: A. Corretta: 1812 è la più antica; B,C,D. Errate o ripetute.",
       "legal_reference": "Constitución de Cádiz (1812), fecha de aprobación",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -394,19 +381,19 @@
         { "text": "La Constitución de 1837.", "correct": false },
         { "text": "La Constitución de 1812.", "correct": true }
       ],
-      "explanation": "La Constitución de Cádiz (1812) garantizó la libertad de imprenta y de pensamiento. Spiegazione in italiano: La Costituzione di Cadice (1812) garantì la libertà di stampa e di pensiero.",
+      "explanation": "ES: A,B,C. No contenían garantía de imprenta; D. Correcta: art. 371 CE 1812 garantizó libertad de imprenta y pensamiento.  \nIT: A,B,C. Non garantivano libertà di stampa; D. Corretta: art. 371 CE 1812 garantì libertà di stampa e pensiero.",
       "legal_reference": "Constitución de Cádiz (1812), art. 371",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
     {
       "question": "¿Qué tipo de sufragio establece La Constitución de 1869 para la elección de los miembros del Senado?",
       "answers": [
-        { "text": "Censitario .", "correct": false },
+        { "text": "Censitario.", "correct": false },
         { "text": "Elección indirecta por provincias.", "correct": true },
         { "text": "Universal e indirecto.", "correct": false },
         { "text": "Todas las respuestas anteriores son falsas.", "correct": false }
       ],
-      "explanation": "La Constitución de 1869 estableció un sufragio indirecto para el Senado, elegido por electores provinciales. Spiegazione in italiano: La Costituzione del 1869 istituì un suffragio indiretto per il Senato, eletto da elettori provinciali.",
+      "explanation": "ES: A. No era censitario; B. Correcta: Senado elegido indirectamente por electores provinciales (art. 27); C. No admite sufragio universal; D. Falsa porque B es válida.  \nIT: A. Non era censitario; B. Corretta: Senato eletto indirettamente da elettori provinciali (art. 27); C. Non prevedeva suffragio universale; D. Errata perché B è valida.",
       "legal_reference": "Constitución Española de 1869, art. 27",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -418,7 +405,7 @@
         { "text": "Que solo el pueblo español es el titular de la soberanía y de él emanan los poderes el Estado", "correct": true },
         { "text": "Todas son incorrectas", "correct": false }
       ],
-      "explanation": "El art. 1.2 CE recuerda que la soberanía reside exclusivamente en el pueblo español en su conjunto. Spiegazione in italiano: L'art. 1.2 CE ricorda che la sovranità risiede esclusivamente nel popolo spagnolo nel suo insieme.",
+      "explanation": "ES: A,B,D. Falsas; C. Correcta: art. 1.2 CE atribuye soberanía exclusivamente al pueblo español.  \nIT: A,B,D. Errate; C. Corretta: art. 1.2 CE assegna sovranità esclusivamente al popolo spagnolo.",
       "legal_reference": "Constitución Española de 1978, art. 1.2",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -427,10 +414,10 @@
       "answers": [
         { "text": "Nicolás Maquiavelo.", "correct": false },
         { "text": "Jean-Jacques Rousseau.", "correct": true },
-        { "text": "a y b son correctas.", "correct": false }
+        { "text": "A y B son correctas.", "correct": false }
       ],
-      "explanation": "Rousseau es el autor más asociado al concepto de contrato social en el siglo XVIII. Spiegazione in italiano: Rousseau è l'autore più associato al concetto di contratto sociale nel XVIII secolo.",
-      "legal_reference": "Jean-Jacques Rousseau, \"El contrato social\", prefacio",
+      "explanation": "ES: A. No; B. Correcta: Rousseau es el autor más vinculado al contrato social; C. Falsa pues A no lo fue.  \nIT: A. No; B. Corretta: Rousseau è l’autore più associato al contratto sociale; C. Errata perché A non lo fu.",
+      "legal_reference": "Jean-Jacques Rousseau, “El contrato social”, prefacio",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
     {
@@ -440,7 +427,7 @@
         { "text": "Nació en la Revolución Inglesa de 1868.", "correct": false },
         { "text": "Nació en la Revolución Inglesa de 1787.", "correct": false }
       ],
-      "explanation": "El liberalismo como doctrina política arraiga tras la Revolución Gloriosa de 1688 y la Declaración de Derechos de 1689. Spiegazione in italiano: Il liberalismo come dottrina politica affonda le radici dopo la Gloriosa Rivoluzione del 1688 e la Dichiarazione dei Diritti del 1689.",
+      "explanation": "ES: A. Correcta: tras la Gloriosa Revolución de 1688 y Bill of Rights 1689 se cimentó el liberalismo; B,C. Falsas.  \nIT: A. Corretta: dopo la Gloriosa Rivoluzione del 1688 e il Bill of Rights 1689 nacque il liberalismo; B,C. Errate.",
       "legal_reference": "Bill of Rights 1689 (Reino Unido)",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -449,10 +436,10 @@
       "answers": [
         { "text": "Individualismo, libertad y Estado laico con tolerancia religiosa", "correct": false },
         { "text": "Igualdad y derecho a la propiedad privada", "correct": false },
-        { "text": "a y b son correctas", "correct": true }
+        { "text": "A y B son correctas", "correct": true }
       ],
-      "explanation": "El liberalismo defiende tanto la libertad individual y laicidad como la igualdad jurídica y el derecho de propiedad. Spiegazione in italiano: Il liberalismo difende sia la libertà individuale e laicità sia l'uguaglianza giuridica e il diritto di proprietà.",
-      "legal_reference": "John Stuart Mill, \"Principios de economía política\", capítulo X",
+      "explanation": "ES: A. Omite igualdad y propiedad; B. Omite libertad y laicidad; C. Correcta: combina ambas.  \nIT: A. Ommette uguaglianza e proprietà; B. Ommette libertà e laicità; C. Corretta: combina entrambi.",
+      "legal_reference": "John Stuart Mill, “Principios de economía política”, cap. X",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
     {
@@ -462,8 +449,8 @@
         { "text": "Fases paralelas en el proceso de transformación del Estado.", "correct": false },
         { "text": "Fases sucesivas en el proceso de transformación del Estado.", "correct": true }
       ],
-      "explanation": "Históricamente el Estado democrático antecede conceptualmente al Estado social, que añade funciones redistributivas. Spiegazione in italiano: Storicamente lo Stato democratico precede concettualmente lo Stato sociale, che aggiunge funzioni redistributive.",
-      "legal_reference": "C. Muñoz, \"El Estado del Bienestar\", cap. 1",
+      "explanation": "ES: A,B. Falsas; C. Correcta: lo democrático precede a lo social conceptualmente.  \nIT: A,B. Errate; C. Corretta: il democratico precede lo sociale concettualmente.",
+      "legal_reference": "C. Muñoz, “El Estado del Bienestar”, cap. 1",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
     {
@@ -474,8 +461,8 @@
         { "text": "1215.", "correct": true },
         { "text": "1230.", "correct": false }
       ],
-      "explanation": "La Magna Carta fue suscrita en 1215 como pacto entre el Rey Juan y la nobleza inglesa. Spiegazione in italiano: La Magna Carta fu sottoscritta nel 1215 come patto tra il re Giovanni e la nobiltà inglese.",
-      "legal_reference": "Magna Carta (1215), clausula 61",
+      "explanation": "ES: A,B,D. Erróneas; C. Correcta: Magna Carta, 1215.  \nIT: A,B,D. Errate; C. Corretta: Magna Carta, 1215.",
+      "legal_reference": "Magna Carta (1215), cláusula 61",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
     {
@@ -486,7 +473,7 @@
         { "text": "La Constitución de Bayona.", "correct": false },
         { "text": "La Constitución de 1845.", "correct": false }
       ],
-      "explanation": "La Constitución de Cádiz (1812), conocida como \"La Pepa\", es la más antigua de las citadas. Spiegazione in italiano: La Costituzione di Cadice (1812), nota come 'La Pepa', è la più antica tra quelle citate.",
+      "explanation": "ES: A. Correcta: Cádiz (1812) es la más antigua; B,C,D. Falsas o repetidas.  \nIT: A. Corretta: Cadice (1812) è la più antica; B,C,D. Errate o ripetute.",
       "legal_reference": "Constitución de Cádiz (1812), artículo 1",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -498,7 +485,7 @@
         { "text": "La Constitución de 1834.", "correct": false },
         { "text": "La Constitución de 1837.", "correct": false }
       ],
-      "explanation": "La Constitución de Cádiz (1812) garantizó la libertad de imprenta y de pensamiento. Spiegazione in italiano: La Costituzione di Cadice (1812) garantì la libertà di stampa e di pensiero.",
+      "explanation": "ES: A,C,D. Incorrectas; B. Correcta: CE 1812 garantizó libertad de imprenta y pensamiento.  \nIT: A,C,D. Errate; B. Corretta: CE 1812 garantì libertà di stampa e pensiero.",
       "legal_reference": "Constitución de Cádiz (1812), art. 371",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -510,7 +497,7 @@
         { "text": "Carlos V.", "correct": false },
         { "text": "Alfonso X el Sabio.", "correct": false }
       ],
-      "explanation": "La Constitución Moderada de 1845 fue sancionada por la Reina Isabel II. Spiegazione in italiano: La Costituzione Moderata del 1845 fu sanzionata dalla regina Isabella II.",
+      "explanation": "ES: A,C,D. Incorrectas; B. Correcta: sancionada por Isabel II.  \nIT: A,C,D. Errate; B. Corretta: sanzionata da Isabella II.",
       "legal_reference": "Constitución Española de 1845, Disposición Final",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -522,8 +509,8 @@
         { "text": "Territorio, pueblo, poder jurídico, política y soberanía.", "correct": false },
         { "text": "Territorio, pueblo, poder jurídico, poder público y soberanía.", "correct": false }
       ],
-      "explanation": "Maquiavelo distingue claramente entre el orden jurídico, el poder público, el territorio, el pueblo y la soberanía. Spiegazione in italiano: Machiavelli distingue chiaramente tra l'ordine giuridico, il potere pubblico, il territorio, il popolo e la sovranità.",
-      "legal_reference": "N. Maquiavelo, \"El Príncipe\", capítulo VI",
+      "explanation": "ES: A,C,D. Describen mal combinación; B. Correcta: distingue orden jurídico y poder público.  \nIT: A,C,D. Descrivono erroneamente; B. Corretta: distingue ordine giuridico e potere pubblico.",
+      "legal_reference": "N. Maquiavelo, “El Príncipe”, capítulo VI",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
     {
@@ -534,8 +521,8 @@
         { "text": "Individualismo, libertad, principio de igualdad, derecho a la propiedad privada y Estado laico.", "correct": true },
         { "text": "Individualismo, libertad, principio de estatus igualitario y Estado laico.", "correct": false }
       ],
-      "explanation": "El liberalismo combina igualdad jurídica y derecho de propiedad con libertad personal y laicidad estatal. Spiegazione in italiano: Il liberalismo combina uguaglianza giuridica e diritto di proprietà con libertà personale e laicità statale.",
-      "legal_reference": "John Stuart Mill, \"El gobierno representativo\", capítulo II",
+      "explanation": "ES: A,B,D. No incluyen propiedad o usan terminología incorrecta; C. Correcta: combina igualdad, libertad, propiedad y laicidad.  \nIT: A,B,D. Non includono proprietà o usano termini errati; C. Corretta: combina uguaglianza, libertà, proprietà e laicità.",
+      "legal_reference": "John Stuart Mill, “El gobierno representativo”, capítulo II",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
     {
@@ -546,7 +533,7 @@
         { "text": "La Constitución de 1856.", "correct": false },
         { "text": "La Constitución de 1812.", "correct": true }
       ],
-      "explanation": "La Constitución de Cádiz de 1812 es de las más voluminosas de su época y tuvo breves periodos de vigencia. Spiegazione in italiano: La Costituzione di Cadice del 1812 è una delle più voluminose del suo tempo e ebbe brevi periodi di vigenza.",
+      "explanation": "ES: A,B,C. Menos voluminosas; D. Correcta: Cádiz 1812 fue de las más extensas de su época.  \nIT: A,B,C. Meno voluminose; D. Corretta: Cadice 1812 fu tra le più voluminose del suo tempo.",
       "legal_reference": "Constitución de Cádiz (1812), texto completo",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -558,8 +545,8 @@
         { "text": "Más libertad para el pueblo.", "correct": false },
         { "text": "Todas son incorrectas.", "correct": false }
       ],
-      "explanation": "La isonomía ateniense garantizaba la igualdad política de todos los ciudadanos ante la ley. Spiegazione in italiano: L'isonomia ateniese garantiva l'uguaglianza politica di tutti i cittadini davanti alla legge.",
-      "legal_reference": "Aristóteles, \"Política\", libro III, §1287b",
+      "explanation": "ES: A,C,D. Erróneas; B. Correcta: la isonomía garantizaba igualdad política ante la ley.  \nIT: A,C,D. Errate; B. Corretta: l’isonomia ateniese garantiva uguaglianza politica davanti alla legge.",
+      "legal_reference": "Aristóteles, “Política”, libro III, §1287b",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
     {
@@ -570,8 +557,8 @@
         { "text": "Norma Reglamentaria.", "correct": false },
         { "text": "Norma Constitucional.", "correct": true }
       ],
-      "explanation": "La norma constitucional, o Constitución, es la norma suprema que da forma y límites al conjunto del ordenamiento jurídico. Spiegazione in italiano: La norma costituzionale, o Costituzione, è la norma suprema che dà forma e limiti all'intero ordinamento giuridico.",
-      "legal_reference": "Hans Kelsen, \"Teoría pura del derecho\", §40",
+      "explanation": "ES: A,B,C. Incorrectas; D. Correcta: la norma constitucional es norma suprema que da forma al ordenamiento.  \nIT: A,B,C. Errate; D. Corretta: la norma costituzionale è la suprema che definisce l’ordinamento.",
+      "legal_reference": "Hans Kelsen, “Teoría pura del derecho”, §40",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
     {
@@ -582,7 +569,7 @@
         { "text": "La propia Constitución.", "correct": false },
         { "text": "Todas son incorrectas.", "correct": false }
       ],
-      "explanation": "Sólo el Tribunal Constitucional está legitimado para declarar la inconstitucionalidad de las leyes. Spiegazione in italiano: Solo il Tribunale Costituzionale è legittimato a dichiarare l'incostituzionalità delle leggi.",
+      "explanation": "ES: A. Correcta: es el órgano legitimado; B,C,D. Falsas porque carecen de competencia para declarar inconstitucionalidad.  \nIT: A. Corretta: è l’organo legittimato; B,C,D. Errate perché non hanno competenza di dichiarare incostituzionalità.",
       "legal_reference": "Constitución Española de 1978, arts. 161–165",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -594,8 +581,8 @@
         { "text": "La norma jurídica primaria que contiene criterios formales y materiales para validar el resto de normas.", "correct": true },
         { "text": "Todas son incorrectas.", "correct": false }
       ],
-      "explanation": "La Constitución es la norma primaria suprema que fija las bases formales y materiales del ordenamiento. Spiegazione in italiano: La Costituzione è la norma primaria suprema che fissa le basi formali e materiali dell'ordinamento.",
-      "legal_reference": "Konrad Hesse, \"Lehrbuch des deutschen Verfassungsrechts\", §2",
+      "explanation": "ES: A,B,D. Incorrectas; C. Correcta: define la Constitución como norma primaria suprema.  \nIT: A,B,D. Errate; C. Corretta: definisce la Costituzione come norma primaria suprema.",
+      "legal_reference": "Konrad Hesse, “Lehrbuch des deutschen Verfassungsrechts”, §2",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
     {
@@ -606,8 +593,8 @@
         { "text": "Perspectiva material y legal.", "correct": false },
         { "text": "Todas son correctas.", "correct": false }
       ],
-      "explanation": "La doctrina distingue entre perspectiva formal (procedimiento de reforma) y perspectiva material (contenido sustantivo). Spiegazione in italiano: La dottrina distingue tra prospettiva formale (procedura di revisione) e prospettiva materiale (contenuto sostanziale).",
-      "legal_reference": "Manuel Aragón Reyes, \"Derecho Constitucional\", cap. 1",
+      "explanation": "ES: A,C. Terminología incorrecta; B. Correcta: distingue forma (reforma) y materia (contenido); D. Falsa.  \nIT: A,C. Terminologia errata; B. Corretta: distingue forma (revisione) e materia (contenuto); D. Errata.",
+      "legal_reference": "Manuel Aragón Reyes, “Derecho Constitucional”, cap. 1",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
     {
@@ -618,7 +605,7 @@
         { "text": "El control jurídico que hace que el poder se limite en el ejercicio de sus funciones.", "correct": false },
         { "text": "Las leyes ordinarias que regulan los extremos fundamentales de una materia donde existe competencia entre CCAA.", "correct": false }
       ],
-      "explanation": "La perspectiva material abarca los contenidos sustantivos: forma de Estado, sistema político y derechos fundamentales. Spiegazione in italiano: La prospettiva materiale comprende i contenuti sostanziali: forma di Stato, sistema politico e diritti fondamentali.",
+      "explanation": "ES: A,C,D. Erróneas o parciales; B. Correcta: abarca contenidos sustantivos como forma de Estado y sistema político.  \nIT: A,C,D. Errate o parziali; B. Corretta: copre contenuti sostanziali come forma di Stato e sistema politico.",
       "legal_reference": "Constitución Española de 1978, Título Preliminar y Título I",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -630,8 +617,8 @@
         { "text": "El sujeto de la Constitución es la propia Constitución pues es la que regula el sistema, el objeto es una estabilidad estatal y el contenido es la organización juridico-política y la estructura social.", "correct": false },
         { "text": "Todas son correctas.", "correct": true }
       ],
-      "explanation": "Cada definición de sujeto, objeto y contenido tiene validez doctrinal; por tanto todas pueden considerarse correctas en distintos enfoques. Spiegazione in italiano: Ogni definizione di soggetto, oggetto e contenuto ha validità dottrinale; pertanto tutte possono essere considerate corrette in diversi approcci.",
-      "legal_reference": "J. Pérez Royo, \"Lecciones de Derecho Constitucional\", cap. 1",
+      "explanation": "ES: A,B,C. Cada enfoque es doctrinalmente válido; D. Correcta: todas pueden considerarse correctas según distintas doctrinas.  \nIT: A,B,C. Ogni approccio ha validità dottrinale; D. Corretta: tutte sono valide in contesti diversi.",
+      "legal_reference": "J. Pérez Royo, “Lecciones de Derecho Constitucional”, cap. 1",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
     {
@@ -642,7 +629,7 @@
         { "text": "El preámbulo, la parte ordinaria y la parte orgánica.", "correct": false },
         { "text": "No se divide.", "correct": false }
       ],
-      "explanation": "La estructura clásica incluye preámbulo, parte dogmática (derechos) y parte orgánica (poderes). Spiegazione in italiano: La struttura classica include preambolo, parte dogmatica (diritti) e parte organica (poteri).",
+      "explanation": "ES: A. Correcta: estructura clásica; B,C,D. Falsas o imprecisas.  \nIT: A. Corretta: struttura classica; B,C,D. Errate o imprecise.",
       "legal_reference": "Constitución Española de 1978, Índice",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -654,7 +641,7 @@
         { "text": "155 artículos, y fue sancionada por el pueblo español por medio de un referéndum", "correct": false },
         { "text": "Todas son incorrectas ya que la constitución no es una ley, son consejos", "correct": false }
       ],
-      "explanation": "La CE consta de 169 artículos y fue ratificada el 6 de diciembre de 1978 en referéndum. Spiegazione in italiano: La CE consta di 169 articoli ed è stata ratificata il 6 dicembre 1978 tramite referendum.",
+      "explanation": "ES: A. Correcta: 169 artículos y referéndum 6 dic 1978; B,C,D. Falsas.  \nIT: A. Corretta: 169 articoli e referendum del 6 dic 1978; B,C,D. Errate.",
       "legal_reference": "Constitución Española de 1978, arts. 1–169",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -666,7 +653,7 @@
         { "text": "James vs Marbury.", "correct": false },
         { "text": "Davis vs James.", "correct": false }
       ],
-      "explanation": "Marbury v. Madison (1803) estableció el principio de revisión judicial y la supremacía constitucional en EE. UU. Spiegazione in italiano: Marbury v. Madison (1803) ha stabilito il principio di revisione giudiziaria e la supremazia costituzionale negli Stati Uniti.",
+      "explanation": "ES: A. Correcta: Marbury v. Madison (1803); B,C,D. Incorrectas.  \nIT: A. Corretta: Marbury v. Madison (1803); B,C,D. Errate.",
       "legal_reference": "Marbury v. Madison, 5 U.S. (1 Cranch) 137 (1803)",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -678,7 +665,7 @@
         { "text": "Orgánica.", "correct": false },
         { "text": "No posee ninguna de las dos.", "correct": false }
       ],
-      "explanation": "La CE contiene normas de derechos (dogmática) y de organización de poderes (orgánica). Spiegazione in italiano: La CE contiene norme sui diritti (dogmatica) e sull'organizzazione dei poteri (organica).",
+      "explanation": "ES: A. Correcta: contiene derechos (dogmática) y organización de poderes (orgánica); B,C,D. Falsas.  \nIT: A. Corretta: include diritti (dogmatica) e organizzazione dei poteri (organica); B,C,D. Errate.",
       "legal_reference": "Constitución Española de 1978, Títulos I y III–V",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -690,7 +677,7 @@
         { "text": "Escrita, breve y no rígida.", "correct": false },
         { "text": "Extensa y rígida.", "correct": false }
       ],
-      "explanation": "La CE es un texto escrito, de gran extensión (169 artículos) y con un procedimiento de reforma riguroso. Spiegazione in italiano: La CE è un testo scritto, di grande estensione (169 articoli) e con una procedura di revisione rigorosa.",
+      "explanation": "ES: A. Correcta: texto escrito, 169 artículos y reforma exigente; B,C. Falsas por breve; D. Omite que es escrita.  \nIT: A. Corretta: testo scritto, 169 articoli e revisione rigorosa; B,C. Errate per “breve”; D. Ommette che è scritto.",
       "legal_reference": "Constitución Española de 1978, arts. 166–169",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     }
