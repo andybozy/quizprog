@@ -1811,11 +1811,508 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
 
-
+      "question": "51. ¿Cuál de los siguientes delitos lleva aparejada una mayor pena, conforme a lo previsto en nuestro Código Penal?",
+      "answers": [
+        {
+          "text": "La utilización de la ingeniería genética para producir armas biológicas o exterminadoras de la especie humana.",
+          "correct": true
+        },
+        {
+          "text": "Los que, con finalidad distinta a la eliminación o disminución de taras o enfermedades graves, manipules genes humanos de manera que se altere el genotipo.",
+          "correct": false
+        },
+        {
+          "text": "La creación de seres humanos idénticos por clonación u otros procedimientos dirigidos a la selección de la raza.",
+          "correct": false
+        },
+        {
+          "text": "La fecundación de óvulos humanos con cualquier fin distinto a la procreación humana.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES:\nA: Impone la pena más alta (2–6 años) para armas biológicas (CP, art. 160).\nB: Prevé penas menores (1–5 años) para manipulaciones genéticas no terapéuticas (CP, art. 159.2).\nC: Establece penas menores (1–5 años) para clonación humana (CP, art. 159.3).\nD: Sanciona con pena inferior (1–5 años) la fecundación con fines no reproductivos (CP, art. 159.2 bis).\nIT:\nA: Prevede la pena più severa (2–6 anni) per armi biologiche (CP, art. 160).\nB: Pene inferiori (1–5 anni) per manipolazioni genetiche non terapeutiche (CP, art. 159.2).\nC: Pene inferiori (1–5 anni) per clonazione umana (CP, art. 159.3).\nD: Pene inferiori (1–5 anni) per fecondazione non riproduttiva (CP, art. 159.2 bis).",
+      "legal_reference": "Código Penal (España), art. 160; art. 159.2; art. 159.3; art. 159.2 bis",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25"
+    },
+    {
+      "question": "52. Comete delito el particular que encerrare o detuviere a otro, privándole de su libertad. Pero ¿se le castigará en función de lo que haya durado la privación de libertad?",
+      "answers": [
+        {
+          "text": "Sí, ya que la pena es mayor si el encierro o detención ha durado más de quince días.",
+          "correct": false
+        },
+        {
+          "text": "Sí, ya que se impondrá la pena inferior en grado si se diera libertad al detenido en los tres primeros días y no se hubiera conseguido el objeto propuesto.",
+          "correct": true
+        },
+        {
+          "text": "Sí, por las razones expuestas en a) y b), y además es atenuable la pena si la detención busca poner al detenido, fuera de los casos previstos en las leyes, a disposición de la autoridad.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES:\nA: Falsa – el art. 163.3 habla de agravación por más de 15 días, no de pena mayor automática.\nB: Correcta – el art. 163.2 reduce a grado inferior si libera dentro de los primeros 3 días sin lograr el fin (CP, art. 163.2).\nC: Falsa – añade atenuantes no previstos en art. 163.2.\nD: Falsa – sí existe la opción B como correcta.\nIT:\nA: Errata – l’art. 163.3 prevede aggravamento per oltre 15 giorni, non pena maggiore di per sé.\nB: Corretta – l’art. 163.2 riduce la pena se rilascio entro 3 giorni senza raggiungere l’obiettivo (CP, art. 163.2).\nC: Errata – aggiunge attenuanti non presenti nell’art. 163.2.\nD: Errata – esiste l’opzione B corretta.",
+      "legal_reference": "Código Penal (España), art. 163.2; art. 163.3",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25"
+    },
+    {
+      "question": "53. Según el artículo 163.2 CP, tipo privilegiado de detención ilegal, se impondrá la pena inferior en grado al culpable que diera libertad al encerrado o detenido:",
+      "answers": [
+        {
+          "text": "Dentro de los 2 primeros días de su detención, sin haber logrado el objeto que se había propuesto",
+          "correct": false
+        },
+        {
+          "text": "Dentro de los 2 primeros días de su detención, aunque haya logrado el objeto que se había propuesto",
+          "correct": false
+        },
+        {
+          "text": "Dentro de los 3 primeros días de su detención, sin haber logrado el objeto que se había propuesto",
+          "correct": true
+        },
+        {
+          "text": "Dentro de los 3 primeros días de su detención, aunque haya logrado el objeto que se había propuesto",
+          "correct": false
+        }
+      ],
+      "explanation": "ES:\nA: Errónea – el plazo es de 3 días, no 2.\nB: Errónea – exige además “sin lograr el objeto”.\nC: Correcta – coincide con art. 163.2: liberación en 3 días y sin fin conseguido (CP, art. 163.2).\nD: Errónea – no aplica si se logra el objetivo.\nIT:\nA: Errata – il termine è 3 giorni, non 2.\nB: Errata – richiede “senza raggiungere l’obiettivo”.\nC: Corretta – rilascio entro 3 giorni senza obiettivo raggiunto (CP, art. 163.2).\nD: Errata – non vale se obiettivo raggiunto.",
+      "legal_reference": "Código Penal (España), art. 163.2",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25"
+    },
+    {
+      "question": "54. ¿En qué consiste la acción en el delito de detención ilegal del artículo 163 del CP?",
+      "answers": [
+        {
+          "text": "En coaccionar o detener a otro",
+          "correct": false
+        },
+        {
+          "text": "En encerrar o detener a otro privándole de su libertad",
+          "correct": true
+        },
+        {
+          "text": "En encerrar o extorsionar a otro",
+          "correct": false
+        },
+        {
+          "text": "En encerrar, detener o secuestrar a otro",
+          "correct": false
+        }
+      ],
+      "explanation": "ES:\nA: Errónea – coacción no forma parte de este delito.\nB: Correcta – definición literal: “encerrar o detener privando de libertad” (CP, art. 163.1).\nC: Errónea – extorsión es delito distinto.\nD: Errónea – el secuestro es otro tipo (art. 164).\nIT:\nA: Errata – coercizione non prevista.\nB: Corretta – secondo “rinchiudere o detenere privando della libertà” (CP, art. 163.1).\nC: Errata – estorsione reato diverso.\nD: Errata – sequestro è art. 164, non art. 163.",
+      "legal_reference": "Código Penal (España), art. 163.1",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25"
+    },
+    {
+      "question": "55. Ante amenazas de causar un mal constitutivo de delito, con el fin de precisar cuál es el delito referido, hay que ajustarse:",
+      "answers": [
+        {
+          "text": "A una interpretación restrictiva sobre la intención que el sujeto tiene de llevar a cabo, o no, el mal que amenaza.",
+          "correct": false
+        },
+        {
+          "text": "A la enumeración que el mismo delito de amenazas hace de los posibles bienes jurídicos afectados.",
+          "correct": true
+        },
+        {
+          "text": "Al límite legal impuesto por el mismo delito, que los circunscribe a los delitos contra la vida y la integridad física.",
+          "correct": false
+        },
+        {
+          "text": "Al límite legal impuesto por el mismo delito, que los circunscribe a los delitos contra la vida, la integridad física y el patrimonio.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES:\nA: Errónea – no se basa en intención sino en el tipo legal.\nB: Correcta – el art. 169.1 enumera los bienes jurídicos amenazados (vida, integridad, libertad, patrimonio, etc.).\nC: Errónea – no se limita sólo a vida/integridad.\nD: Errónea – incluye más bienes que vida, integridad y patrimonio.\nIT:\nA: Errata – non si basa sull’intenzione ma sul testo legale.\nB: Corretta – l’art. 169.1 elenca i beni giuridici minacciati.\nC: Errata – non si limita a vita/integrità.\nD: Errata – include altri beni oltre a vita, integrità e patrimonio.",
+      "legal_reference": "Código Penal (España), art. 169.1",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25"
+    },
+    {
+      "question": "56. En las denominadas amenazas condicionales la pena se hará depender, entre otros criterios:",
+      "answers": [
+        {
+          "text": "De si se ha conseguido o no la condición impuesta",
+          "correct": false
+        },
+        {
+          "text": "De si se ha conseguido o no la condición impuesta, pero sólo cuando el mal con el que se amenaza sea constitutivo de delito.",
+          "correct": true
+        },
+        {
+          "text": "De si se ha conseguido o no, la condición impuesta, pero sólo cuando el mal con el que se amenaza no sea constitutivo de delito.",
+          "correct": false
+        },
+        {
+          "text": "De si ha concurrido engaño o no",
+          "correct": false
+        }
+      ],
+      "explanation": "ES:\nA: Errónea – debe ser delito, no aplica a insultos.\nB: Correcta – art. 169.2 varía pena según condición y solo si mal es delito.\nC: Errónea – no rige cuando mal no constituye delito.\nD: Errónea – engaño no influye.\nIT:\nA: Errata – non si applica a ingiurie.\nB: Corretta – art. 169.2 varia pena se mal minacciato è reato.\nC: Errata – non vale se mal non è reato.\nD: Errata – l’inganno non è criterio.",
+      "legal_reference": "Código Penal (España), art. 169.2",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25"
+    },
+    {
+      "question": "57. La modalidad agravada del delito de amenazas, consistente en ejecutar las amenazas por medio de escrito, por teléfono o por cualquier otro medio de comunicación o de reproducción, o en nombre de entidades o grupos reales o supuestos:",
+      "answers": [
+        {
+          "text": "Sólo puede aplicarse a las amenazas condicionales",
+          "correct": false
+        },
+        {
+          "text": "Sólo puede aplicarse a las amenazas condicionales, cuando el mal amenazado es constitutivo de delito",
+          "correct": true
+        },
+        {
+          "text": "Sólo puede aplicarse a las amenazas condicionales cuando el mal amenazado no es constitutivo de delito.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores es válida",
+          "correct": false
+        }
+      ],
+      "explanation": "ES:\nA: Errónea – no basta que sean condicionales.\nB: Correcta – art. 169.3 exige medio de comunicación y que el mal sea delito.\nC: Errónea – debe ser delito.\nD: Errónea – la B es válida.\nIT:\nA: Errata – non basta che siano condizionali.\nB: Corretta – art. 169.3 prevede aggravante per mezzi comunicazione e mal reato.\nC: Errata – richiede mal configurabile come reato.\nD: Errata – opzione B è valida.",
+      "legal_reference": "Código Penal (España), art. 169.3",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25"
+    },
+    {
+      "question": "58. Cometerá el tipo básico del delito de coacciones, regulado en el artículo 172.1 del Código Penal:",
+      "answers": [
+        {
+          "text": "El que, sin estar legítimamente autorizado, impidiere a otro con violencia hacer lo que la Ley prohíbe, siendo además injusto.",
+          "correct": false
+        },
+        {
+          "text": "El que, estando legítimamente autorizado, impidiere a otro con violencia hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere, sea justo o injusto.",
+          "correct": false
+        },
+        {
+          "text": "El que, sin estar legítimamente autorizado, impidiere a otro con violencia o intimidación hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere y la ley no le obliga, sea justo o injusto.",
+          "correct": true
+        },
+        {
+          "text": "El que exigiere de otro una cantidad o recompensa bajo la amenaza de revelar o difundir hechos referentes a su vida privada o relaciones familiares que no sean públicamente conocidos y puedan afectar a su fama, crédito o interés.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES:\nA: Errónea – menciona prohibición legal, no corresponde al tipo.\nB: Errónea – sitúa autorización, contrario al texto legal.\nC: Correcta – reproduce exactamente la definición (CP, art. 172.1).\nD: Errónea – describe extorsión (art. 243).\nIT:\nA: Errata – parla di illeciti già vietati.\nB: Errata – menziona autorizzazione, contrario.\nC: Corretta – corrisponde a “violenza o intimidazione per impedire ciò che legge non proibisce…” (CP, art. 172.1).\nD: Errata – descrive estorsione (art. 243).",
+      "legal_reference": "Código Penal (España), art. 172.1",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25"
+    },
+    {
+      "question": "59. La única modalidad agravada del delito de coacciones consiste:",
+      "answers": [
+        {
+          "text": "En la concurrencia de violencia o intimidación",
+          "correct": false
+        },
+        {
+          "text": "En que la coacción recaiga sobre un funcionario, un menor o un incapaz",
+          "correct": false
+        },
+        {
+          "text": "En que la coacción tenga por objeto impedir un derecho fundamental o el legítimo disfrute de la vivienda",
+          "correct": true
+        },
+        {
+          "text": "En que la coacción tenga la nota de habitualidad",
+          "correct": false
+        }
+      ],
+      "explanation": "ES:\nA: Errónea – violencia/intimidación es del tipo básico, no agravante.\nB: Errónea – no figura como agravante.\nC: Correcta – art. 172.2 agrava impedir derecho fundamental o vivienda.\nD: Errónea – habitualidad no es agravante.\nIT:\nA: Errata – violenza/intimidazione tipiche del tipo base.\nB: Errata – non prevista.\nC: Corretta – art. 172.2 aggrava se oggetto è impedire diritto fondamentale o abitazione.\nD: Errata – consuetudine non è aggravante.",
+      "legal_reference": "Código Penal (España), art. 172.2",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25"
+    },
+    {
+      "question": "60. Fulgencio sufre una agresión por la cual pierde dos piezas dentarias, dicha acción se castigaría como:",
+      "answers": [
+        {
+          "text": "Un delito de lesiones previsto y penado en el artículo 150 del Código Penal, en todos los casos.",
+          "correct": false
+        },
+        {
+          "text": "Un delito de lesiones previsto y penado en el artículo 149 del Código Penal, por tratarse de lesiones con grave deformidad.",
+          "correct": false
+        },
+        {
+          "text": "Un delito de lesiones del artículo 147.2 del Código Penal.",
+          "correct": true
+        },
+        {
+          "text": "Todas las anteriores son incorrectas.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES:\nA: Errónea – art. 150 sanciona deformidad grave, no simple pérdida de piezas.\nB: Errónea – art. 149 es tipo hiperagravado, no se aplica.\nC: Correcta – art. 147.2 tipifica lesiones menos graves como pérdida dentaria.\nD: Errónea – existe respuesta adecuada (C).\nIT:\nA: Errata – art. 150 riguarda deformità grave.\nB: Errata – art. 149 reato iperaggravato.\nC: Corretta – art. 147.2 include perdita dentale.\nD: Errata – risposta C corretta.",
+      "legal_reference": "Código Penal (España), art. 147.2; art. 150; art. 149",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25"
+    },
+    {
+      "question": "61. ¿Qué circunstancia determina una rebaja de la pena prevista en caso de un delito de secuestro del artículo 164 del Código Penal?",
+      "answers": [
+        {
+          "text": "Si el encierro o detención ha durado menos de 3 días.",
+          "correct": true
+        },
+        {
+          "text": "Si el encierro o detención ha durado menos de 10 días.",
+          "correct": false
+        },
+        {
+          "text": "Si el encierro o detención ha durado menos de 12 días.",
+          "correct": false
+        },
+        {
+          "text": "Si el encierro o detención ha durado menos de 15 días.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES:\nA: Correcta – art. 164.2 rebaja pena si la detención dura menos de 3 días.\nB: Errónea – no existe rebaja a 10 días.\nC: Errónea – 12 días no previsto.\nD: Errónea – 15 días corresponde a detención ilegal agravada (art. 163.3), no secuestro.\nIT:\nA: Corretta – CP art. 164.2 riduce pena se <3 giorni.\nB: Errata – nessun riferimento a 10 giorni.\nC: Errata – 12 giorni non previsto.\nD: Errata – 15 giorni riguarda art. 163.3, non sequestro.",
+      "legal_reference": "Código Penal (España), art. 164.2; art. 163.3",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25"
+    },
+    {
+      "question": "62. ¿Con qué pena castiga el artículo 138.1 del Código Penal (tipo básico) el delito de homicidio?",
+      "answers": [
+        {
+          "text": "Con la pena de prisión de diez a quince años.",
+          "correct": true
+        },
+        {
+          "text": "Con la pena de prisión de quince a veinticinco años.",
+          "correct": false
+        },
+        {
+          "text": "Con la pena de multa de doce a veinticuatro meses.",
+          "correct": false
+        },
+        {
+          "text": "Con la pena de prisión de tres a seis años.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES:\nA: Correcta – art. 138.1 fija 10–15 años para homicidio.\nB: Errónea – 15–25 años corresponde a asesinato con alevosía (art. 139).\nC: Errónea – multa no prevista para homicidio.\nD: Errónea – 3–6 años para homicidio imprudente leve (art. 142.1).\nIT:\nA: Corretta – art. 138.1 prevede 10–15 anni.\nB: Errata – 15–25 anni per omicidio con alevosía (art. 139).\nC: Errata – multa non prevista.\nD: Errata – 3–6 anni per omicidio colposo lieve (art. 142.1).",
+      "legal_reference": "Código Penal (España), art. 138.1; art. 139; art. 142.1",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25"
+    },
+    {
+      "question": "63. En relación con el delito de homicidio por imprudencia, el artículo 142 del Código Penal castiga al que causare la muerte de otro:",
+      "answers": [
+        {
+          "text": "Sólo por imprudencia grave.",
+          "correct": false
+        },
+        {
+          "text": "Por imprudencia grave o menos grave.",
+          "correct": true
+        },
+        {
+          "text": "Por imprudencia grave, menos grave o leve.",
+          "correct": false
+        },
+        {
+          "text": "Sólo por imprudencia leve.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES:\nA: Errónea – también incluye imprudencia menos grave.\nB: Correcta – art. 142 castiga imprudencia grave o menos grave.\nC: Errónea – imprudencia leve no es punible.\nD: Errónea – no es sólo leve.\nIT:\nA: Errata – include anche imprudenza meno grave.\nB: Corretta – art. 142 punisce imprudenza grave o meno grave.\nC: Errata – imprudenza lieve esclusa.\nD: Errata – non solo lieve.",
+      "legal_reference": "Código Penal (España), art. 142",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25"
+    },
+    {
+      "question": "64. El artículo 143 bis del Código Penal castiga la distribución o difusión pública a través de Internet, del teléfono o de cualquier otra tecnología de la información o de la comunicación de contenidos específicamente destinados a promover, fomentar o incitar:",
+      "answers": [
+        {
+          "text": "A cometer conductas delictivas.",
+          "correct": false
+        },
+        {
+          "text": "Al suicidio de personas menores de edad o personas con discapacidad necesitadas de especial protección.",
+          "correct": true
+        },
+        {
+          "text": "Al suicidio de cualquier persona.",
+          "correct": false
+        },
+        {
+          "text": "Al suicidio de personas menores de edad.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES:\nA: Errónea – no se refiere a conductas delictivas.\nB: Correcta – art. 143 bis sanciona incitación al suicidio de menores o discapacitados.\nC: Errónea – exclusivo para menores/discapacitados.\nD: Errónea – falta la referencia a discapacidad.\nIT:\nA: Errata – non riguarda condotte delittuose.\nB: Corretta – art. 143-bis tutela minori e disabili.\nC: Errata – vale solo per minori/disabili.\nD: Errata – manca “disabili”.",
+      "legal_reference": "Código Penal (España), art. 143-bis",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25"
+    },
+    {
+      "question": "65. ¿Qué delito comete la mujer que consintiere que otra persona le cause su aborto, fuera de los casos permitidos por la ley?",
+      "answers": [
+        {
+          "text": "Un delito de homicidio",
+          "correct": false
+        },
+        {
+          "text": "Un delito de asesinato",
+          "correct": false
+        },
+        {
+          "text": "Un delito de aborto",
+          "correct": true
+        },
+        {
+          "text": "No estaría cometiendo delito alguno, tratándose de una conducta impune",
+          "correct": false
+        }
+      ],
+      "explanation": "ES:\nA: Errónea – no es homicidio.\nB: Errónea – no es asesinato.\nC: Correcta – art. 143 tipifica el aborto clandestino como delito propio.\nD: Errónea – conducta es punible.\nIT:\nA: Errata – non è omicidio.\nB: Errata – non è assassinio.\nC: Corretta – art. 143 reato di aborto.\nD: Errata – non è impune.",
+      "legal_reference": "Código Penal (España), art. 143",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25"
+    },
+    {
+      "question": "66. Según el artículo 148 del Código Penal, ¿qué circunstancia NO podría determinar una agravación de la pena prevista para las lesiones del artículo 147.1?",
+      "answers": [
+        {
+          "text": "Si en la agresión se hubieren utilizado armas, instrumentos, objetos, medios, métodos o formas concretamente peligrosas para la vida o salud, física o psíquica, del lesionado.",
+          "correct": false
+        },
+        {
+          "text": "Si hubiere mediado ensañamiento o alevosía.",
+          "correct": false
+        },
+        {
+          "text": "Si la víctima fuere menor de catorce años o persona con discapacidad necesitada de especial protección.",
+          "correct": false
+        },
+        {
+          "text": "Si la víctima tuviere cualquier relación de afinidad con el autor.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES:\nA: Errónea – medio peligroso sí agrava (CP, art. 148.1.a).\nB: Errónea – ensañamiento o alevosía agravan (CP, art. 148.1.b).\nC: Errónea – víctima especial agrava (CP, art. 148.1.c).\nD: Correcta – afinidad no figura en art. 148.\nIT:\nA: Errata – art. 148.1.a prevede aggravante per mezzi pericolosi.\nB: Errata – art. 148.1.b include crudeltà o alevosía.\nC: Errata – art. 148.1.c tutela minori/disabili.\nD: Corretta – parentela non rilevante.",
+      "legal_reference": "Código Penal (España), art. 148",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25"
+    },
+    {
+      "question": "67. Según el artículo 149 del Código Penal, ¿qué circunstancia determina la concurrencia del tipo hiperagravado de lesiones?",
+      "answers": [
+        {
+          "text": "Causar la pérdida o la inutilidad de un órgano o miembro principal o de un sentido.",
+          "correct": false
+        },
+        {
+          "text": "Causar impotencia o esterilidad.",
+          "correct": false
+        },
+        {
+          "text": "Causar una grave deformidad o una grave enfermedad somática o psíquica.",
+          "correct": false
+        },
+        {
+          "text": "Todas las respuestas son correctas.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES:\nA: Errónea – es solo una de las tres agravantes.\nB: Errónea – es otra de las tres agravantes.\nC: Errónea – es otra de las tres agravantes.\nD: Correcta – art. 149 incluye las tres situaciones.\nIT:\nA: Errata – solo una parte.\nB: Errata – solo una parte.\nC: Errata – solo una parte.\nD: Corretta – comprende tutte e tre le ipotesi (CP, art. 149).",
+      "legal_reference": "Código Penal (España), art. 149",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25"
+    },
+    {
+      "question": "68. Señale la respuesta correcta en relación con el delito de lesiones por imprudencia:",
+      "answers": [
+        {
+          "text": "Las lesiones causadas por imprudencia son punibles en todo caso.",
+          "correct": false
+        },
+        {
+          "text": "Sólo resultan punibles las lesiones causadas por imprudencia grave.",
+          "correct": false
+        },
+        {
+          "text": "Las lesiones causadas por imprudencia menos grave sólo serán perseguibles mediante denuncia de la persona agraviada o de su representante legal.",
+          "correct": true
+        },
+        {
+          "text": "Ninguna de las respuestas es correcta.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES:\nA: Errónea – imprudencia leve no siempre punible.\nB: Errónea – imprudencia menos grave es punible con denuncia.\nC: Correcta – art. 152.1 exige denuncia para imprudencia menos grave.\nD: Errónea – existe la opción C.\nIT:\nA: Errata – imprudenza lieve non sempre sanzionata.\nB: Errata – imprudenza meno grave richiede denuncia.\nC: Corretta – CP art. 152.1 denuncia necessaria per imprudenza meno grave.\nD: Errata – risposta C è corretta.",
+      "legal_reference": "Código Penal (España), art. 152.1",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25"
+    },
+    {
+      "question": "69. Según el artículo 157 del Código Penal, será autor de un delito de lesiones al feto el que por cualquier medio o procedimiento, causare en un feto:",
+      "answers": [
+        {
+          "text": "Una lesión.",
+          "correct": false
+        },
+        {
+          "text": "Una enfermedad que perjudique gravemente su normal desarrollo.",
+          "correct": false
+        },
+        {
+          "text": "Su muerte.",
+          "correct": false
+        },
+        {
+          "text": "Las respuestas a) y b) son correctas.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES:\nA: Errónea – solo lesión, pero falta enfermedad.\nB: Errónea – solo enfermedad, pero falta lesión.\nC: Errónea – muerte del feto se califica como aborto (art. 143).\nD: Correcta – art. 157 incluye lesión y enfermedad grave.\nIT:\nA: Errata – include anche malattia grave.\nB: Errata – comprende anche lesione fisica.\nC: Errata – morte feto è aborto (art. 143).\nD: Corretta – art. 157 include lesione e malattia.",
+      "legal_reference": "Código Penal (España), art. 157; art. 143",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25"
+    },
+    {
+      "question": "70. ¿Cuál de las siguientes circunstancias NO se configura como uno de los elementos comunes de las diferentes modalidades del delito de amenazas?",
+      "answers": [
+        {
+          "text": "El anuncio de un mal futuro.",
+          "correct": false
+        },
+        {
+          "text": "La ejecución del mal ha de depender de la voluntad del sujeto activo.",
+          "correct": false
+        },
+        {
+          "text": "Que el mal anunciado afecte, en todo caso, al sujeto pasivo.",
+          "correct": true
+        },
+        {
+          "text": "El mal anunciado ha de ser susceptible de producir intimidación en el sujeto pasivo al revestir carácter de seriedad.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES:\nA: Errónea – anuncio futuro es siempre elemento común.\nB: Errónea – voluntad del autor condiciona el mal.\nC: Correcta – no es necesario que el mal afecte siempre al mismo pasivo.\nD: Errónea – seriedad/intimidación es requisito.\nIT:\nA: Errata – annuncio futuro è requisito comune.\nB: Errata – volontà dell’autore condiziona l’atto.\nC: Corretta – non serve che colpisca sempre il destinatario.\nD: Errata – serietà/intimidazione è elemento comune.",
+      "legal_reference": "Código Penal (España), art. 169.1",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25"
+    },
+    {
+      "question": "71. El artículo 172.1 del Código Penal castiga como autor de un delito de coacciones a:",
+      "answers": [
+        {
+          "text": "El que sin estar legítimamente autorizado impidiere a otro con violencia hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere, sea justo o injusto.",
+          "correct": true
+        },
+        {
+          "text": "El que sin estar legítimamente autorizado impidiere a otro hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere, sea justo o injusto.",
+          "correct": false
+        },
+        {
+          "text": "El que sin estar legítimamente autorizado impidiere a otro hacer lo que quiere.",
+          "correct": false
+        },
+        {
+          "text": "El que sin estar legítimamente autorizado compeliere a otro efectuar lo que no quiere.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES:\nA: Correcta – reproduce el texto literal de art. 172.1 (violencia/intimidación + sin autorización).\nB: Errónea – omite violencia o intimidación.\nC: Errónea – no menciona violencia ni coacción formal.\nD: Errónea – incompleta, falta impedimento de lo no prohibido.\nIT:\nA: Corretta – corrisponde a “senza autorizzazione… violenza o intimidazione…” (CP, art. 172.1).\nB: Errata – manca “violenza o intimidazione”.\nC: Errata – incompleta.\nD: Errata – incompleta.",
+      "legal_reference": "Código Penal (España), art. 172.1",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25"
+    }
   ]
-
 }
-
- b c c c c d c d a c c d c a d c d a c a c a d d c b c c b d c a a b c d b d c d
-a c c a d d d a d a a a c c a ? a a a a a b d d c d d c b d d a d c c a b c d a c c c b a d d d c d
-a b c b b b b c c c a a b b c d d c d c a
