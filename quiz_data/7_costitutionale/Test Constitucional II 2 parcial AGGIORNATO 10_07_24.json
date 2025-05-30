@@ -78,9 +78,9 @@
       "question": "La potestad para establecer los tributos:",
       "answers": [
         { "text": "Corresponde originariamente a los Municipios", "correct": false },
-        { "text": "Corresponde originariamente al Estado", "correct": false },
+        { "text": "Corresponde originariamente al Estado", "correct": true },
         { "text": "Corresponde originariamente a las Comunidades Autónomas", "correct": false },
-        { "text": "Corresponde originariamente, y según el tipo de tributo, tanto a los Municipios como al Estado", "correct": true }
+        { "text": "Corresponde originariamente, y según el tipo de tributo, tanto a los Municipios como al Estado", "correct": false }
       ],
       "explanation": "ES: La Constitución atribuye al Estado los tributos de ámbito general, a las Comunidades Autónomas algunos específicos y a los municipios los locales. \nIT: La Costituzione attribuisce allo Stato le imposte di ambito generale, alle Comunità Autonome alcune specifiche e ai comuni quelle locali.",
       "legal_reference": "Constitución Española de 1978, arts. 133, 148 y 142",
@@ -151,10 +151,10 @@
       "answers": [
         { "text": "Sólo corresponderá al Gobierno", "correct": false },
         { "text": "Sólo corresponderá al Congreso y al Senado", "correct": false },
-        { "text": "Se ejercerá en los mismos términos que la iniciativa legislativa incluida la iniciativa popular", "correct": true },
-        { "text": "Todas son incorrectas", "correct": false }
+        { "text": "Se ejercerá en los mismos términos que la iniciativa legislativa incluida la iniciativa popular", "correct": false },
+        { "text": "Todas son incorrectas", "correct": true }
       ],
-      "explanation": "ES: El artículo 87 CE establece que la iniciativa para enmiendas constitucionales sigue el mismo cauce que la legislativa, incluyendo la popular. \nIT: L’articolo 87 CE stabilisce che l’iniziativa per le modifiche costituzionali segue lo stesso iter di quella legislativa, inclusa l’iniziativa popolare.",
+      "explanation": "ES: El artículo 166 CE dispone que “la iniciativa de reforma constitucional se ejercerá en los términos previstos en los apartados 1 y 2 del artículo 87”, es decir, por el Gobierno, por el Congreso o por el Senado, y con carácter limitado también por las Asambleas de las Comunidades Autónomas, quedando excluida la iniciativa legislativa popular en materia de reforma constitucional \n. Por tanto, no es cierto que corresponda sólo al Gobierno (a), ni sólo a Congreso y Senado (b), ni que incluya la iniciativa popular (c).\nIT: L’articolo 166 della Costituzione stabilisce che “l’iniziativa di riforma costituzionale si esercita nei termini previsti nei commi 1 e 2 dell’articolo 87”, ossia da parte del Governo, del Congresso e del Senato, e in misura limitata anche dalle Assemblee delle Comunità Autonome, escludendo l’iniziativa popolare in tema di riforma costituzionale\n. Dunque le risposte (a), (b) e (c) sono tutte sbagliate.",
       "legal_reference": "Constitución Española de 1978, art. 87",
       "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
     },
@@ -639,14 +639,14 @@
       "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
     },
     {
-      "question": "). Cuál es el mandato de los miembros del Tribunal de Cuentas?",
+      "question": "Cuál es el mandato de los miembros del Tribunal de Cuentas?",
       "answers": [
-        { "text": "10 años.", "correct": false },
+        { "text": "9 años.", "correct": true },
         { "text": "12 años.", "correct": false },
         { "text": "15 años.", "correct": false },
         { "text": "No tienen un mandato determinado", "correct": false }
       ],
-      "explanation": "ES:  A: Incorrecta, mandato es 9 años (LOTC Art. 30). B: Incorrecta, no 12 años. C: Incorrecta, no 15 años. D: Incorrecta, tienen mandato fijo. IT: A: Errata, il mandato è di 9 anni (LOTC Art. 30). B: Errata, non 12 anni. C: Errata, non 15 anni. D: Errata, hanno mandato determinato.",
+      "explanation": "ES:  A: correcta, mandato es 9 años (LOTC Art. 30). B: Incorrecta, no 12 años. C: Incorrecta, no 15 años. D: Incorrecta, tienen mandato fijo. IT: A: Errata, il mandato è di 9 anni (LOTC Art. 30). B: Errata, non 12 anni. C: Errata, non 15 anni. D: Errata, hanno mandato determinato.",
       "legal_reference": "Ley Orgánica del Tribunal de Cuentas, Art. 30",
       "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
     },
