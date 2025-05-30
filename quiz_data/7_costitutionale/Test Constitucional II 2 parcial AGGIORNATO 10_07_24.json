@@ -257,12 +257,12 @@
     {
       "question": "Aprobada la reforma por las Cortes Generales:",
       "answers": [
-        { "text": "Será sometida a referéndum para su ratificación", "correct": true },
-        { "text": "El Rey la sancionará, promulgándose a continuación", "correct": false },
+        { "text": "Será sometida a referéndum para su ratificación", "correct": false },
+        { "text": "El Rey la sancionará, promulgándose a continuación", "correct": true },
         { "text": "Será sometida a control previo de constitucionalidad del Tribunal Constitucional", "correct": false },
         { "text": "Será sometida a dictamen del Consejo de Estado", "correct": false }
       ],
-      "explanation": "ES: Una vez aprobada por ambas Cámaras, la reforma debe someterse a referéndum dentro del plazo legal. \nIT: Una volta approvata da entrambe le Camere, la revisione deve essere sottoposta a referendum entro i termini previsti.",
+      "explanation": "IT: Una volta approvata da entrambe le Camere, la revisione deve essere sottoposta a referendum entro i termini previsti solo se richiesto. se non è richiesto il re la promulga ( B ).",
       "legal_reference": "Constitución Española de 1978, art. 168.2",
       "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
     },
