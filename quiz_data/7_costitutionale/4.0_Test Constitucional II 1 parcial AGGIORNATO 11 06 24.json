@@ -114,9 +114,9 @@
       "question": "Estado social y Estado democratico son:",
       "answers": [
         { "text": "Fases contrarias en el proceso de transformación de estado", "correct": false },
-        { "text": "Fases paralelas en el proceso de transformación del estado", "correct": true },
+        { "text": "Fases paralelas en el proceso de transformación del estado", "correct": false },
         { "text": "Todas son incorrectas", "correct": false },
-        { "text": "Fases sucesivas en el proceso de transformación del estado moderno", "correct": false }
+        { "text": "Fases sucesivas en el proceso de transformación del estado moderno", "correct": true }
       ],
       "explanation": "ES: A. Incorrecta porque no son contrarias; B. Correcta: coexisten paralelamente en el modelo español; C. Falsa pues hay respuesta válida; D. Equivocada porque no son fases sucesivas.  \nIT: A. Errata perché non sono contrarie; B. Corretta: coesistono parallelamente nel modello spagnolo; C. Errata: esiste una risposta valida; D. Errata: non sono fasi successive.",
       "legal_reference": "Constitución Española de 1978, art. 1.1",
@@ -206,7 +206,7 @@
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
     {
-      "question": "¿Qué ideología tiene el Estatuto de Bayona 1834?",
+      "question": "¿Qué ideología tiene el Estatuto de Bayona 1834 (1808??) ?",
       "answers": [
         { "text": "Liberal", "correct": true },
         { "text": "Conservadora", "correct": false },
@@ -328,8 +328,8 @@
     {
       "question": "¿Dónde se constitucionaliza por primera vez el Estado Social de Derecho?",
       "answers": [
-        { "text": "En la Ley Fundamental de Bonn.", "correct": false },
-        { "text": "En la Constitución española.", "correct": true },
+        { "text": "En la Ley Fundamental de Bonn.", "correct": true },
+        { "text": "En la Constitución española.", "correct": false },
         { "text": "En la Constitución estadounidense.", "correct": false },
         { "text": "En el Código Civil.", "correct": false }
       ],
@@ -468,12 +468,12 @@
     {
       "question": "¿Cuál de las siguientes Constituciones es la más antigua?",
       "answers": [
-        { "text": "Constitución de Cádiz.", "correct": true },
+        { "text": "Constitución de Cádiz.", "correct": false },
         { "text": "La Pepa.", "correct": false },
-        { "text": "La Constitución de Bayona.", "correct": false },
+        { "text": "La Constitución de Bayona.", "correct": true },
         { "text": "La Constitución de 1845.", "correct": false }
       ],
-      "explanation": "ES: A. Correcta: Cádiz (1812) es la más antigua; B,C,D. Falsas o repetidas.  \nIT: A. Corretta: Cadice (1812) è la più antica; B,C,D. Errate o ripetute.",
+      "explanation": "Non chiaro quale sia la corrette:\n“La Pepa”) è il soprannome con cui si indica proprio questa Costituzione di Cadice, dunque non è un testo diverso.\nla Costituzione di Bayona (1808), fu imposta da Giuseppe Bonaparte e non ebbe un’effettiva validità nel diritto costituzionale spagnolo.\nES: A. Correcta: Cádiz (1812) es la más antigua; B,C,D. Falsas o repetidas.  \nIT: A. Corretta: Cadice (1812) è la più antica; B,C,D. Errate o ripetute.",
       "legal_reference": "Constitución de Cádiz (1812), artículo 1",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -552,12 +552,12 @@
     {
       "question": "¿Cuál es la norma que organiza, define, estructura y establece los criterios de vida y desarrollo de una sociedad en todas sus dimensiones?",
       "answers": [
-        { "text": "Norma Social.", "correct": false },
+        { "text": "Norma Social.", "correct": true },
         { "text": "Norma Consuetudinaria.", "correct": false },
         { "text": "Norma Reglamentaria.", "correct": false },
         { "text": "Norma Constitucional.", "correct": true }
       ],
-      "explanation": "ES: A,B,C. Incorrectas; D. Correcta: la norma constitucional es norma suprema que da forma al ordenamiento.  \nIT: A,B,C. Errate; D. Corretta: la norma costituzionale è la suprema che definisce l’ordinamento.",
+      "explanation": "Dubbio fra A e D . in termini di legge la costituzione è suprema ma le norme sociali sono importanti\nES: A,B,C. Incorrectas; D. Correcta: la norma constitucional es norma suprema que da forma al ordenamiento.  \nIT: A,B,C. Errate; D. Corretta: la norma costituzionale è la suprema che definisce l’ordinamento.",
       "legal_reference": "Hans Kelsen, “Teoría pura del derecho”, §40",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
