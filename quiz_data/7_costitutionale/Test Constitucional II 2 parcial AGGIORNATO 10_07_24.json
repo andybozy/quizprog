@@ -125,12 +125,12 @@
     {
       "question": "El procedimiento de reforma denominado agravado se realiza cuando:",
       "answers": [
-        { "text": "Se propusiere la revisión total de la Constitución o una parcial que afecte al Título preliminar, al Preámbulo, al Capítulo II, Sección 1. del Título I, o al Título II", "correct": true },
-        { "text": "Se propusiere la revisión total de la Constitución o una parcial que afecte al Título preliminar, al Capítulo II, Sección 1. del Título I, o al Título II", "correct": false },
+        { "text": "Se propusiere la revisión total de la Constitución o una parcial que afecte al Título preliminar, al Preámbulo, al Capítulo II, Sección 1. del Título I, o al Título II", "correct": false },
+        { "text": "Se propusiere la revisión total de la Constitución o una parcial que afecte al Título preliminar, al Capítulo II, Sección 1. del Título I, o al Título II", "correct": true },
         { "text": "Únicamente cuando se propusiere la revisión total de la Constitución", "correct": false },
         { "text": "Las anteriores afirmaciones son incompletas", "correct": false }
       ],
-      "explanation": "ES: El artículo 168.2 CE exige el procedimiento agravado cuando la reforma alcance el Preámbulo, Título preliminar, Cap. II Secc. 1ª del Título I o el Título II. \nIT: L’articolo 168.2 CE richiede la procedura aggravata quando la revisione tocchi il Preambolo, il Titolo preliminare, il Cap. II Sez. 1ª del Titolo I o il Titolo II.",
+      "explanation": "ES: El artículo 168.2 CE exige el procedimiento agravado cuando la reforma alcance el Título preliminar, Cap. II Secc. 1ª del Título I o el Título II. \nIT: L’articolo 168.2 CE richiede la procedura aggravata quando la revisione tocchi il Preambolo, il Titolo preliminare, il Cap. II Sez. 1ª del Titolo I o il Titolo II.\n\nRevisione parziale “blindata”\n– Cioè una modifica anche «parziale» che investa almeno uno di questi tre blocchi fondamentali:\nTitolo Preliminare (principi supremi e valore costituzionale)\nTitolo I, Cap. II, Sez. 1ª (diritti fondamentali e libertà pubbliche)\nTitolo II (la Corona) \nBOE\n.",
       "legal_reference": "Constitución Española de 1978, art. 168.2",
       "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
     },
