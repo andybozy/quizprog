@@ -269,10 +269,10 @@
     {
       "question": "Aprobada la reforma por las Cortes Generales:",
       "answers": [
-        { "text": "Será elevada al Congreso para su tramitación como Ley Orgánica", "correct": true },
+        { "text": "Será elevada al Congreso para su tramitación como Ley Orgánica", "correct": false },
         { "text": "Todas las otras respuestas son falsas", "correct": false },
         { "text": "Será sometida a referéndum para su ratificación", "correct": false },
-        { "text": "Será sancionada por el Rey y promulgada a continuación", "correct": false }
+        { "text": "Será sancionada por el Rey y promulgada a continuación", "correct": true }
       ],
       "explanation": "ES: La reforma ordinaria (art. 167 CE) se tramita como ley orgánica; la aprobación definitiva exige referéndum solo en el procedimiento agravado. \nIT: La revisione ordinaria (art. 167 CE) è trattata come legge organica; l’approvazione definitiva richiede referendum solo nella procedura aggravata.",
       "legal_reference": "Constitución Española de 1978, art. 167.1",
