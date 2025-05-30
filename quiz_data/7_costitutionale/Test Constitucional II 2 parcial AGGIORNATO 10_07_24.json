@@ -603,7 +603,7 @@
       "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
     },
     {
-      "question": "3 La Tributación :",
+      "question": "La Tributación :",
       "answers": [
         { "text": "Es un facultad que pertenece a los Municipios.", "correct": false },
         { "text": "Es un facultad que pertenece originariamente al Estado.", "correct": true },
@@ -627,7 +627,7 @@
       "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
     },
     {
-      "question": "19. Según la Constitución de la Unión Europea",
+      "question": "Según la Constitución de la Unión Europea",
       "answers": [
         { "text": "Prevalecen los dos preceptos constitucionales, los artículos 93 y 10.2", "correct": false },
         { "text": "Prevalecen los artículos 1 y 10.6", "correct": false },
@@ -750,9 +750,9 @@
       "question": "¿Cuáles son los principios que rigen la elaboración de los PGE?",
       "answers": [
         { "text": "Equilibrio presupuestario.", "correct": true },
-        { "text": "Estabilidad económica.", "correct": true },
+        { "text": "Estabilidad económica.", "correct": false },
         { "text": "Eficiencia en el gasto público.", "correct": false },
-        { "text": "Todas las anteriores.", "correct": false }
+        { "text": "Todas las anteriores.", "correct": true }
       ],
       "explanation": "ES:  A: Correcta, CE Art. 135 y LOEPSF exigen equilibrio. B: Correcta, exigen estabilidad. C: Incorrecta, eficiencia no es principio constitucional. D: Incorrecta, C es falsa.\nIT: A: Corretta, CE Art. 135 e LOEPSF richiedono equilibrio. B: Corretta, richiedono stabilità. C: Errata, efficienza non principio costituzionale. D: Errata, C è errata.",
       "legal_reference": "Constitución Española, Art. 135; Ley Orgánica de Estabilidad Presupuestaria",
@@ -771,7 +771,7 @@
       "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
     },
     {
-      "question": " El procedimiento de reforma denominado agravado se realiza cuando se revise :",
+      "question": "El procedimiento de reforma denominado agravado se realiza cuando se revise :",
       "answers": [
         { "text": "La Constitución o el Título preliminar, al Capítulo II, Sección 1.ª, del Título I, o al Título II.", "correct": true },
         { "text": "La totalidad o la que afecte al Preámbulo, al Título preliminar, al Capítulo II, Sección 1.ª, del Título I, o al Título II.", "correct": false },
