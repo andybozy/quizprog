@@ -361,6 +361,451 @@
       "explanation": "La enmienda ordinaria se aprueba por mayoría de tres quintos de cada Cámara según el art. 167 CE. / Spiegazione in italiano: L’emendamento ordinario si approva con maggioranza di tre quinti in ciascuna Camera secondo l’art. 167 CE.",
       "legal_reference": "Constitución Española de 1978, art. 167.1",
       "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
+    },
+    {
+      "question": "El derecho Comunitario:",
+      "answers": [
+        { "text": "es parte del derecho constitucional", "correct": false },
+        { "text": "es parte del derecho público", "correct": true },
+        { "text": "es parte del derecho privado", "correct": false },
+        { "text": "todas son incorrectas", "correct": false }
+      ],
+      "explanation": "ES: A: Incorrecta, porque no forma parte del derecho constitucional interno de los Estados. B: Correcta, el derecho de la UE es supranacional y regula relaciones públicas entre Estados y órganos comunitarios (TFUE, Art. 288). C: Incorrecta, no regula relaciones privadas. D: Incorrecta, porque B es correcta. IT: A: Errata, poiché non è diritto costituzionale interno. B: Corretta, essendo diritto pubblico sovranazionale (TFUE, Art. 288). C: Errata, non disciplina rapporti privati. D: Errata, perché B è corretta.",
+      "legal_reference": "Tratado de Funcionamiento de la UE, Art. 288; SJUE C-6/64 Costa vs ENEL",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "El derecho Comunitario se divide en:",
+      "answers": [
+        { "text": "derecho originario y derivado formado por los convenios originarios", "correct": true },
+        { "text": "reglamentos y directrices comunitarias únicamente", "correct": false },
+        { "text": "parlamento comisión y consejo europeo", "correct": false },
+        { "text": "ninguna de las respuestas anteriores es correcta", "correct": false }
+      ],
+      "explanation": "ES: A: Correcta, distingue Derecho originario (Tratados fundacionales) y derivado (Reglamentos, Directivas, Decisiones) (TFUE, Arts. 288–289). B: Incorrecta, solo alude al derivado. C: Incorrecta, nombra instituciones, no categorías normativas. D: Incorrecta, porque A es correcta. IT: A: Corretta, distingue diritto originario (Trattati) e derivato (Regolamenti, Direttive, Decisioni) (TFUE, Art. 288–289). B: Errata, include solo il diritto derivato. C: Errata, elenca istituzioni, non categorie normative. D: Errata, perché A è corretta.",
+      "legal_reference": "Tratado de Funcionamiento de la UE, Arts. 288–289",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "La potestad para establecer los tributos:",
+      "answers": [
+        { "text": "corresponde originariamente a los municipios", "correct": false },
+        { "text": "corresponde originariamente al estado", "correct": true },
+        { "text": "corresponde originariamente a las comunidades autónomas", "correct": false },
+        { "text": "corresponde originariamente y según el tipo de tributo tanto a los municipios como al estado", "correct": false }
+      ],
+      "explanation": "ES: A: Incorrecta, municipios solo ejercen tributos delegados. B: Correcta, CE Art. 133 otorga la potestad tributaria originaria al Estado. C: Incorrecta, comunidades solo si la ley estatal lo habilita. D: Incorrecta, no existe reparto originario mixto. IT: A: Errata, i comuni hanno tributi delegati. B: Corretta, la CE Art. 133 assegna la potestà tributaria originaria allo Stato. C: Errata, le comunità autonome solo se abilitate da legge statale. D: Errata, non esiste potere tributario originario condiviso.",
+      "legal_reference": "Constitución Española, Art. 133",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "La riqueza del país:",
+      "answers": [
+        { "text": "está subordinada al interés general en sus distintas formas y cualquiera que sea su titularidad", "correct": true },
+        { "text": "está subordinada al interés general en cuanto sea de titularidad pública", "correct": false },
+        { "text": "está subordinada al interés general si es de titularidad pública teniendo una marcada función social si es de titularidad privada", "correct": false },
+        { "text": "deberá ser aumentada por los poderes públicos", "correct": false }
+      ],
+      "explanation": "ES: A: Correcta, Art. 128.1 CE. B: Incorrecta, no limita la subordinación a lo público. C: Incorrecta, aplica función social solo a lo privado. D: Incorrecta, CE no impone obligación de aumento. IT: A: Corretta, CE Art. 128.1 stabilisce subordinazione al interesse generale di tutta la ricchezza. B: Errata, non limita la subordinazione al pubblico. C: Errata, discrimina senza fondamento costituzionale. D: Errata, non c’è obbligo di aumento.",
+      "legal_reference": "Constitución Española, Art. 128.1",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "El régimen económico expresado en la constitución es:",
+      "answers": [
+        { "text": "no tiene titularidad", "correct": false },
+        { "text": "es el de una economía social de mercado", "correct": true },
+        { "text": "es socialista corregido co liberalismo", "correct": false },
+        { "text": "todas son incorrectas", "correct": false }
+      ],
+      "explanation": "ES: A: Incorrecta, sí existe definición. B: Correcta, CE Art. 38 CE define economía social de mercado. C: Incorrecta, no se emplea esa fórmula. D: Incorrecta, porque B es correcta. IT: A: Errata, la definizione esiste. B: Corretta, CE Art. 38 definisce economia sociale di mercato. C: Errata, non è espressione costituzionale. D: Errata, perché B è corretta.",
+      "legal_reference": "Constitución Española, Art. 38",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "En España existe la libertad de empresa de forma que puede comerciarse libremente sin ningún tipo de control o limitación:",
+      "answers": [
+        { "text": "no existe restricción morales", "correct": false },
+        { "text": "cierto", "correct": false },
+        { "text": "no existe restricción económicas", "correct": false },
+        { "text": "falso", "correct": true }
+      ],
+      "explanation": "ES: A: Incorrecta, existen limitaciones de orden público y moral. B: Incorrecta, hay controles legales. C: Incorrecta, legislación económica regula actividades. D: Correcta, libertad sujeta a regulación (CE Art. 38). IT: A: Errata, ci sono limiti di ordine pubblico e morale. B: Errata, sono previsti controlli legali. C: Errata, normative economiche regolano l’attività. D: Corretta, la libertà d’impresa è regolata (CE Art. 38).",
+      "legal_reference": "Constitución Española, Art. 38",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "La misma mayoría exigida para dar principio a una reforma o revisión totale de la constitución se exige para la reforma o revisión:",
+      "answers": [
+        { "text": "cuando afecta a dos o más de sus títulos", "correct": false },
+        { "text": "cuando se refiera al título preliminar al título segundo o a la sección primera del título primero", "correct": true },
+        { "text": "de todos y cada uno de sus títulos", "correct": false },
+        { "text": "cuando verse sobre el título preliminar el título primero y el título segundo", "correct": false }
+      ],
+      "explanation": "ES: A: Incorrecta, no es criterio de títulos múltiples. B: Correcta, Art. 168.2 CE exige mayoría agravada para esas partes. C: Incorrecta, no aplica a cada título por separado. D: Incorrecta, fórmula imprecisa. IT: A: Errata, non è basato su titoli multipli. B: Corretta, CE Art. 168.2 richiede la maggioranza aggravata per quelle parti. C: Errata, non si applica a ciascun titolo. D: Errata, descrizione imprecisa.",
+      "legal_reference": "Constitución Española, Art. 168.2",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "La reforma constitucional también es conocida como poder",
+      "answers": [
+        { "text": "de revisión", "correct": true },
+        { "text": "de mutación", "correct": false },
+        { "text": "constituyente", "correct": false },
+        { "text": "poder moderador", "correct": false }
+      ],
+      "explanation": "ES: A: Correcta, doctrina llama “poder de revisión” al constituyente derivado. B: Incorrecta, no se emplea en doctrina. C: Incorrecta, poder constituyente originario distinto. D: Incorrecta, poder moderador es concepto monárquico. IT: A: Corretta, dottrina definisce «potere di revisione» il costituente derivato. B: Errata, termine non usato. C: Errata, potere costituente originario differente. D: Errata, concetto monarchico non applicabile.",
+      "legal_reference": "García de Enterría y Fernández, Tratado de Derecho Administrativo",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "El procedimiento de reforma denominado agravado se realiza cuando:",
+      "answers": [
+        { "text": "se propusiera revisión total de la constitución o una parcial que afecte al título preliminar al capítulo II sección 1° del título I o al Título II", "correct": true },
+        { "text": "se propusiere la revisión total del a constitución o una parcial que afecte al preámbulo, al título preliminar, al capítulo II, sección 1°, del título I o del título II", "correct": false },
+        { "text": "únicamente cuando se propusiere la revisión total de la constitución", "correct": false },
+        { "text": "son todas incompletas", "correct": false }
+      ],
+      "explanation": "ES: A: Correcta, recoge total o parcial afectando Art. 168.2 CE. B: Incorrecta, incluye preámbulo no previsto. C: Incorrecta, también aplica a parciales. D: Incorrecta, A es completa. IT: A: Corretta, include revisione totale o parziale secondo CE Art. 168.2. B: Errata, menziona il preambolo non previsto. C: Errata, è più ampia. D: Errata, A è completa.",
+      "legal_reference": "Constitución Española, Art. 168.1–2",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "0. Para la iniciativa de reforma constitucional:",
+      "answers": [
+        { "text": "solo corresponde al gobierno", "correct": false },
+        { "text": "solo corresponde al congreso y al senado", "correct": false },
+        { "text": "se ejercerá en los mismos términos que la iniciativa legislativa", "correct": true },
+        { "text": "no podrá corresponder en ningún caso ni directa ni indirecta a las comunidades autónomas", "correct": false }
+      ],
+      "explanation": "ES: A: Incorrecta, también Congreso y Senado tienen iniciativa (Art. 167.1 CE). B: Incorrecta, Gobierno también. C: Correcta, se tramita igual que ley orgánica. D: Incorrecta, ni CE ni ley lo excluyen, aunque no tengan iniciativa propia. IT: A: Errata, anche Congresso e Senato hanno iniziativa (CE Art. 167.1). B: Errata, anche Governo. C: Corretta, stesso iter di legge organica. D: Errata, la CE non lo vieta espressamente.",
+      "legal_reference": "Constitución Española, Art. 167.1",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "Para la revisión del texto constitucional:",
+      "answers": [
+        { "text": "no hay limitación", "correct": false },
+        { "text": "no se puede realizar en tiempo de guerra", "correct": true },
+        { "text": "se aducirá a la situación socio política del momento", "correct": false },
+        { "text": "se puede hacer siempre que la población quiera", "correct": false }
+      ],
+      "explanation": "ES: A: Incorrecta, Art. 169 CE impone limitación. B: Correcta, prohíbe reforma durante estado de sitio/excepción. C: Incorrecta, no condiciona al contexto socio-político. D: Incorrecta, no es plebiscitaria. IT: A: Errata, CE Art. 169 pone limiti. B: Corretta, vietata in stato d’emergenza. C: Errata, non è condizione. D: Errata, non è su volontà popolare diretta.",
+      "legal_reference": "Constitución Española, Art. 169",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "El estado, mediante Ley, podrá planificar la actividad económica general:",
+      "answers": [
+        { "text": "para equilibrar y armonizar el desarrollo nacional y sectorial", "correct": true },
+        { "text": "para lograr la más justa distribución de la renta y la riqueza", "correct": true },
+        { "text": "para atender a las necesidades de cada sector", "correct": false },
+        { "text": "para estimular el crecimiento de la calidad de vida", "correct": false }
+      ],
+      "explanation": "ES: A: Correcta, CE Art. 131.2 prevé equilibrio y armonización. B: Correcta, misma norma menciona distribución justa. C: Incorrecta, atención sectorial es genérico, no mencionado textualmente. D: Incorrecta, cita crecimiento económico, no calidad de vida. IT: A: Corretta, CE Art. 131.2 prevede equilibrio e armonizzazione. B: Corretta, prevede distribuzione equa. C: Errata, non esplicitamente menzionato. D: Errata, riguarda crescita economica, non qualità della vita.",
+      "legal_reference": "Constitución Española, Art. 131.2",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "Las cuentas del estado y del sector público:",
+      "answers": [
+        { "text": "se rendirán a las cortes generales que las censurará", "correct": false },
+        { "text": "se rendirán al tribunal de Cuentas, que la censurará", "correct": false },
+        { "text": "se rendirán a las Cortes Generales y serían censuradas por el Tribunal de Cuentas", "correct": true },
+        { "text": "Todas son falsas", "correct": false }
+      ],
+      "explanation": "ES: A: Incorrecta, Tribunal no censura consejos de cortes. B: Incorrecta, Cortes y TC actúan conjuntamente (Art. 136 CE). C: Correcta, rendición a Cortes y fiscalización por TC. D: Incorrecta, C es correcta. IT: A: Errata, il TC non censura le Corti. B: Errata, entrambe agiscono (CE Art. 136). C: Corretta, rendiconto alle Corti e controllo TC. D: Errata, C è corretta.",
+      "legal_reference": "Constitución Española, Art. 136",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "Los presupuestos generales del estado:",
+      "answers": [
+        { "text": "son elaborados y aprobados por las cortes generales", "correct": false },
+        { "text": "son elaborados y aprobados por el gobierno", "correct": false },
+        { "text": "son elaborados por la cortes generales y aprobados por el gobierno", "correct": false },
+        { "text": "son elaborados por el gobierno y aprobados por las cortes generales", "correct": true }
+      ],
+      "explanation": "ES: A: Incorrecta, no los elabora. B: Incorrecta, Gobierno elabora pero no aprueba. C: Incorrecta, es al revés. D: Correcta, investigación CE Art. 134.1. IT: A: Errata, non li redige. B: Errata, redige ma non approva. C: Errata, ordine invertito. D: Corretta, CE Art. 134.1.",
+      "legal_reference": "Constitución Española, Art. 134.1",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "Los miembros del tribunal de cuentas gozarán de la misma independencia e inamovilidad y estarán sometidos a las mismas incompatibilidad que:",
+      "answers": [
+        { "text": "los miembros del consejo general del poder judicial", "correct": true },
+        { "text": "los jueces", "correct": false },
+        { "text": "los miembros del gobierno", "correct": false },
+        { "text": "los diputados y los senadores", "correct": false }
+      ],
+      "explanation": "ES: A: Correcta, CE Art. 136.3 equipara al CGPJ. B: Incorrecta, no se menciona a jueces genéricos. C: Incorrecta, gobierno distinto estatuto. D: Incorrecta, parlamentarios tienen régimen diferente. IT: A: Corretta, CE Art. 136.3 equipara al CGPJ. B: Errata, non menziona giudici generici. C: Errata, governo ha altro statuto. D: Errata, parlamentari hanno regime differente.",
+      "legal_reference": "Constitución Española, Art. 136.3",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "Señala la afirmación incorrecta en relación con el derecho de la UE.",
+      "answers": [
+        { "text": "los acuerdos internacionales celebrados por la UE se sitúan por debajo del derecho primario", "correct": false },
+        { "text": "el derecho derivado tiene un rango inferior", "correct": false },
+        { "text": "la doctrina de la primacía del derecho de los estados miembros es un pilar fundamental del ordenamiento jurídico de la UE", "correct": true },
+        { "text": "el tribunal insiste siempre ha sido invocado como la máxima autoridad para determinar la relación entre el derecho de la UE y el derecho nacional", "correct": false }
+      ],
+      "explanation": "ES: A: Incorrecta, los tratados internacionales de la UE son derechos primarios. B: Incorrecta, el derivado es jerárquicamente inferior al primario. C: Correcta-falsa, la primacía es del Derecho UE sobre el nacional, no al revés (SJUE C-6/64). D: Incorrecta, el TJUE es autoridad final para primacía. IT: A: Errata, i trattati UE sono diritto primario. B: Errata, diritto derivato inferiore al primario. C: Corretta-falsa, la supremazia è del diritto UE sul nazionale, non viceversa (SJUE C-6/64). D: Errata, il TJUE è autorità finale per la supremazia.",
+      "legal_reference": "SJUE, asunto C-6/64 Costa vs ENEL; TFUE Art. 267",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "En cuanto a la relación del derecho constitucional de los países miembros y el derecho de la unión",
+      "answers": [
+        { "text": "El tribunal de las Naciones Unidas ha desarrollado la doctrina de la primacía del derecho de la unión.", "correct": false },
+        { "text": "el derecho de la unión tiene primacía absoluta sobre el derecho nacional y los tribunales nacionales deben tener en cuenta dicha primacía en sus resoluciones", "correct": true },
+        { "text": "e derecho de la unión no goza de primacía con respecto a los derechos fundamentales garantizan ds en las constituciones nacionales", "correct": false },
+        { "text": "no hay relación cada uno son sistemas independientes", "correct": false }
+      ],
+      "explanation": "ES: A: Incorrecta, ONU no interviene en primacía UE. B: Correcta, doctrina Simmenthal y Art.4.3 TUE obligan primacía y efecto directo. C: Incorrecta, primacía también sobre derechos fundamentales; podrá limitarse por control jurisdiccional. D: Incorrecta, hay estrecha interdependencia. IT: A: Errata, l’ONU non sviluppa questa dottrina. B: Corretta, dottrina Simmenthal e CE Art.4.3 obbligano supremazia ed effetto diretto. C: Errata, la supremazia vale anche sui diritti fondamentali. D: Errata, esiste interdipendenza.",
+      "legal_reference": "SJUE C-106/77 Simmenthal; TUE Art. 4.3",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "Señale la afirmación correcta respecto al principio de subsidiariedad y la autonomía",
+      "answers": [
+        { "text": "el principio de subsidiariedad posibilita la vinculación efectiva y pacífica de la soberanías de los estados miembros", "correct": true },
+        { "text": "el principio de subsidiariedad no vincula a las soberanías nacional", "correct": false },
+        { "text": "la soberanía nacional no puede estar ésta sometida a ningún limitación", "correct": false },
+        { "text": "ninguna de las anteriores son correctas", "correct": false }
+      ],
+      "explanation": "ES: A: Correcta, subsidiariedad coordina competencias UE–Estados sin invadir soberanía (TUE, Art. 5.3). B: Incorrecta, vincula reparto competencial. C: Incorrecta, soberanía limitada por Tratados. D: Incorrecta, A es correcta. IT: A: Corretta, sussidiarietà coordina competenze UE-Stati senza invadere sovranità (TUE Art. 5.3). B: Errata, lega la ripartizione delle competenze. C: Errata, la sovranità è limitata dai Trattati. D: Errata, A è corretta.",
+      "legal_reference": "Tratado de la Unión Europea, Art. 5.3",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "Según ricardo alonso garcía cabría deducir de nuestra pertenencia al club europeo, se encuentra",
+      "answers": [
+        { "text": "en dos preceptos, los artículos 93 y 10.2 de la constitución", "correct": true },
+        { "text": "en dos preceptos, los artículos 1 y 106 de la constitución", "correct": false },
+        { "text": "en dos preceptos, los artículos 9 y 102 de la constitución", "correct": false },
+        { "text": "No hay vinculación", "correct": false }
+      ],
+      "explanation": "ES: A: Correcta, Art. 93 autoriza cesión de competencias y Art. 10.2 integra el Derecho internacional (incluido UE). B: Incorrecta, 1 y 106 tratan principios y Hacienda. C: Incorrecta, 9 y 102 versan sobre principios generales y potestad económica. D: Incorrecta, sí hay vinculación. IT: A: Corretta, CE Art. 93 autorizza cessione competenze e Art. 10.2 integra Diritto internazionale. B: Errata, 1 e 106 trattano principi e finanze. C: Errata, 9 e 102 su principi e potestà economica. D: Errata, esiste vincolo.",
+      "legal_reference": "Constitución Española, Arts. 93 y 10.2",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "0. El bloque de la constitución",
+      "answers": [
+        { "text": "no existe en el sistema jurídico español es una institución alemana", "correct": false },
+        { "text": "se reconoce en enama y proviene del derecho francés", "correct": true },
+        { "text": "solo recoge el articulado constitucional", "correct": false },
+        { "text": "todas son incorrectas", "correct": false }
+      ],
+      "explanation": "ES: A: Incorrecta, TC español adoptó el concepto. B: Correcta, doctrina francesa importada (TC 53/1985). C: Incorrecta, incluye jurisprudencia y tratados. D: Incorrecta, B es correcta. IT: A: Errata, il TC spagnolo ha adottato il concetto. B: Corretta, dottrina francese importata (TC 53/1985). C: Errata, include anche giurisprudenza e trattati. D: Errata, B è corretta.",
+      "legal_reference": "Sentencia TC 53/1985",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "3 La Tributación :",
+      "answers": [
+        { "text": "Es un facultad que pertenece a los Municipios.", "correct": false },
+        { "text": "Es un facultad que pertenece originariamente al Estado.", "correct": true },
+        { "text": "Es un facultad que pertenece a las Comunidades Autónomas.", "correct": false },
+        { "text": "Es un facultad que pertenece a la Unión Europea", "correct": false }
+      ],
+      "explanation": "ES: A: Incorrecta, municipios solo ejercen tributos delegados (CE 133). B: Correcta, potestad originaria del Estado. C: Incorrecta, las autonomías solo si ley estatal. D: Incorrecta, UE no tiene potestad tributaria directa. IT: A: Errata, i comuni hanno tributi delegati (CE 133). B: Corretta, potestà originaria dello Stato. C: Errata, comunità autonome solo se legge statale. D: Errata, UE non ha potestà tributaria diretta.",
+      "legal_reference": "Constitución Española, Art. 133",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "). La Constitución establece que",
+      "answers": [
+        { "text": "El régiemen economico es libre.", "correct": false },
+        { "text": "Es el de una economía social de mercado.", "correct": true },
+        { "text": "Es socialista corregido con liberalismo .", "correct": false },
+        { "text": "Todas las anteriores son incorrectas", "correct": false }
+      ],
+      "explanation": "ES: A: Incorrecta, no dice régimen libre absoluto. B: Correcta, CE Art. 38. C: Incorrecta, no usa esa expresión. D: Incorrecta, B es correcta. IT: A: Errata, non indica regime liberale assoluto. B: Corretta, CE Art. 38. C: Errata, non usa tale formula. D: Errata, B è corretta.",
+      "legal_reference": "Constitución Española, Art. 38",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "). 19. Según la Constitución de la Unión Europea",
+      "answers": [
+        { "text": "Prevalecen los dos preceptos constitucionales, los artículos 93 y 10.2", "correct": false },
+        { "text": "Prevalecen los artículos 1 y 10.6", "correct": false },
+        { "text": "Prevalecen los artículos 9 y 102", "correct": false },
+        { "text": "No hay Constitución Europa", "correct": true }
+      ],
+      "explanation": "ES: A: Incorrecta, no existe Constitución única UE. B: Incorrecta, idem. C: Incorrecta, idem. D: Correcta, el ordenamiento se basa en tratados. IT: A: Errata, non esiste Costituzione UE unica. B: Errata, idem. C: Errata, idem. D: Corretta, UE si fonda su trattati.",
+      "legal_reference": "Tratado de la UE; Tratado de Funcionamiento UE",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "). Cuál es el mandato de los miembros del Tribunal de Cuentas?",
+      "answers": [
+        { "text": "10 años.", "correct": false },
+        { "text": "12 años.", "correct": false },
+        { "text": "15 años.", "correct": false },
+        { "text": "No tienen un mandato determinado", "correct": false }
+      ],
+      "explanation": "ES: A: Incorrecta, mandato es 9 años (LOTC Art. 30). B: Incorrecta, no 12 años. C: Incorrecta, no 15 años. D: Incorrecta, tienen mandato fijo. IT: A: Errata, il mandato è di 9 anni (LOTC Art. 30). B: Errata, non 12 anni. C: Errata, non 15 anni. D: Errata, hanno mandato determinato.",
+      "legal_reference": "Ley Orgánica del Tribunal de Cuentas, Art. 30",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "¿Cuáles son las funciones del Tribunal de Cuentas?",
+      "answers": [
+        { "text": "Fiscalizar la Cuenta General del Estado.", "correct": false },
+        { "text": "Fiscalizar las cuentas del sector público estatal.", "correct": false },
+        { "text": "Informar al Parlamento sobre el cumplimiento de la gestión presupuestaria.", "correct": false },
+        { "text": "Todas las anteriores.", "correct": true }
+      ],
+      "explanation": "ES: A: Parcial, solo parte de sus funciones. B: Parcial, parte de sus funciones. C: Parcial, parte de sus funciones. D: Correcta, engloba todas (CE Art. 136; LOTC Arts. 30–32). IT: A: Parziale, solo una funzione. B: Parziale, solo una funzione. C: Parziale, solo uno scopo. D: Corretta, include tutte (CE Art. 136; LOTC Arts. 30–32).",
+      "legal_reference": "Constitución Española, Art. 136; Ley Orgánica del Tribunal de Cuentas, Arts. 30–32",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "). ¿Cómo se aprueban los Presupuestos Generales del Estado?",
+      "answers": [
+        { "text": "Por mayoría absoluta del Congreso de los Diputados.", "correct": true },
+        { "text": "Por mayoría simple del Congreso de los Diputados.", "correct": false },
+        { "text": "Por mayoría absoluta del Senado.", "correct": false },
+        { "text": "Por mayoría simple del Senado.", "correct": false }
+      ],
+      "explanation": "ES: A: Correcta, si el Senado veta el proyecto, el Congreso lo aprueba por mayoría absoluta (CE Art. 134; Reglamento Congreso, Art. 171). B: Incorrecta, puede ser mayoría simple solo tras dos meses. C/D: Incorrectas, Senado no decide definitivamente. IT: A: Corretta, in caso di veto senato il Congresso approva con maggioranza assoluta (CE Art. 134; Reg. Congresso, Art. 171). B: Errata, maggioranza semplice solo dopo due mesi. C/D: Errata, il Senato non decide in via definitiva.",
+      "legal_reference": "Constitución Española, Art. 134; Reglamento del Congreso de los Diputados, Art. 171",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "). ¿Qué es la Constitución económica?",
+      "answers": [
+        { "text": "La parte de la Constitución que establece los principios básicos del sistema económico.", "correct": true },
+        { "text": "La ley que regula la actividad económica del Estado.", "correct": false },
+        { "text": "El conjunto de normas que regulan la propiedad privada.", "correct": false },
+        { "text": "La política económica del gobierno en vigor", "correct": false }
+      ],
+      "explanation": "ES: A: Correcta, se refiere a Arts. 38–43 CE. B: Incorrecta, no es ley sino títulos CE. C: Incorrecta, propiedad privada es un aspecto. D: Incorrecta, política gubernamental varía. IT: A: Corretta, indica articoli CE 38–43. B: Errata, non è legge ma parte CE. C: Errata, disciplina solo proprietà privata. D: Errata, politica economica cambia col governo.",
+      "legal_reference": "Constitución Española, Arts. 38–43",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "). ¿Cuál es el principio que justifica la prevalencia del Derecho de la Unión Europea en determinados casos?",
+      "answers": [
+        { "text": "El principio de supremacía.", "correct": true },
+        { "text": "El principio de subsidiariedad.", "correct": false },
+        { "text": "El principio de proporcionalidad.", "correct": false },
+        { "text": "El principio de reconocimiento mutuo", "correct": false }
+      ],
+      "explanation": "ES: A: Correcta, supremazia (SJUE C-6/64 Cora ma; C-106/77 Simmenthal). B: Incorrecta, regula competencias. C: Incorrecta, limita actuación. D: Incorrecta, facilita reconocimiento de decisiones. IT: A: Corretta, supremazia (SJUE C-6/64; C-106/77). B: Errata, disciplina le competenze. C: Errata, regola proporzionalità. D: Errata, riguarda riconoscimento di atti.",
+      "legal_reference": "SJUE, C-6/64 Costa vs ENEL; C-106/77 Simmenthal",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "). ¿Qué sucede si una reforma constitucional vulnera los límites establecidos en la Constitución?",
+      "answers": [
+        { "text": "La reforma es válida y entra en vigor.", "correct": false },
+        { "text": "La reforma es nula y no tiene efectos.", "correct": true },
+        { "text": "La reforma solo puede ser aplicada en determinados casos.", "correct": false },
+        { "text": "La reforma debe ser interpretada por el Tribunal Constitucional.", "correct": false }
+      ],
+      "explanation": "ES: A: Incorrecta, CE Art. 168.3 declara nulidad. B: Correcta, nulidad sin efectos. C: Incorrecta, no admite aplicación parcial. D: Incorrecta, no da función interpretativa, sino de control de constitucionalidad. IT: A: Errata, CE Art. 168.3 dichiara nullità. B: Corretta, nullità ed effetti nulli. C: Errata, non ammette applicazione limitata. D: Errata, il TC non interpreta una riforma incostituzionale.",
+      "legal_reference": "Constitución Española, Art. 168.3",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "0). ¿Qué es la reforma simple de la Constitución Española?",
+      "answers": [
+        { "text": "Un procedimiento para modificar la Constitución que solo requiere la mayoría absoluta del Congreso de los Diputados.", "correct": true },
+        { "text": "Un procedimiento para modificar la Constitución que requiere la mayoría absoluta del Senado.", "correct": false },
+        { "text": "Un procedimiento para modificar la Constitución que requiere la mayoría absoluta de las Cortes Generales en dos lecturas consecutivas.", "correct": false },
+        { "text": "Un procedimiento para modificar la Constitución que requiere la aprobación de dos tercios de las Cortes Generales en\nuna única votación.", "correct": false }
+      ],
+      "explanation": "ES: A: Correcta, Art. 167 CE exige mayoría absoluta en cada Cámara. B: Incorrecta, Senado no actúa solo. C: Incorrecta, no son dos lecturas consecutivas con mayoría absoluta. D: Incorrecta, esa es reforma agravada (Art. 168). IT: A: Corretta, CE Art. 167 richiede maggioranza assoluta in ciascuna Camera. B: Errata, il Senato non agisce da solo. C: Errata, non sono due letture con maggioranza assoluta. D: Errata, è procedura aggravata (CE Art. 168).",
+      "legal_reference": "Constitución Española, Art. 167",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "). ¿Qué es la reforma agravada de la Constitución Española?",
+      "answers": [
+        { "text": "Un procedimiento para modificar la Constitución que solo requiere la mayoría absoluta del Congreso de los Diputados.", "correct": false },
+        { "text": "Un procedimiento para modificar la Constitución que requiere la mayoría absoluta del Senado.", "correct": false },
+        { "text": "Un procedimiento para modificar la Constitución que requiere la mayoría absoluta de las Cortes Generales en dos lecturas consecutivas, con la aprobación de dos tercios en la primera votación.", "correct": false },
+        { "text": "Un procedimiento para modificar la Constitución que requiere la aprobación de dos tercios de las Cortes Generales en una única votación, con el requisito adicional de que la propuesta sea aprobada en referéndum", "correct": true }
+      ],
+      "explanation": "ES: A/B/C: Incorrectas, no recogen todos los requisitos. D: Correcta, Art. 168 CE exige mayoría de dos tercios en cada Cámara y referéndum. IT: A/B/C: Errate, non comprendono tutti i requisiti. D: Corretta, CE Art. 168 richiede maggioranza due terzi in ciascuna Camera e referendum.",
+      "legal_reference": "Constitución Española, Art. 168",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "). ¿Qué función principal tienen los presupuestos generales del Estado según el artículo 134 de la Constitución Española?",
+      "answers": [
+        { "text": "Regular el gasto público.", "correct": true },
+        { "text": "Controlar la inflación.", "correct": false },
+        { "text": "Impulsar la economía privada.", "correct": false },
+        { "text": "todas son ciertas", "correct": false }
+      ],
+      "explanation": "ES: A: Correcta, CE Art. 134.1 asigna función de regulación del gasto público. B: Incorrecta, no menciona inflación. C: Incorrecta, no es su objetivo. D: Incorrecta, solo A es correcta. IT: A: Corretta, CE Art. 134.1 assegna regolare la spesa pubblica. B: Errata, non riguarda inflazione. C: Errata, non è scopo. D: Errata, solo A è corretta.",
+      "legal_reference": "Constitución Española, Art. 134.1",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "). ¿Cuáles son los principios que rigen la elaboración de los PGE?",
+      "answers": [
+        { "text": "Equilibrio presupuestario.", "correct": true },
+        { "text": "Estabilidad económica.", "correct": true },
+        { "text": "Eficiencia en el gasto público.", "correct": false },
+        { "text": "Todas las anteriores.", "correct": false }
+      ],
+      "explanation": "ES: A: Correcta, CE Art. 135 y LOEPSF exigen equilibrio. B: Correcta, exigen estabilidad. C: Incorrecta, eficiencia no es principio constitucional. D: Incorrecta, C es falsa. IT: A: Corretta, CE Art. 135 e LOEPSF richiedono equilibrio. B: Corretta, richiedono stabilità. C: Errata, efficienza non principio costituzionale. D: Errata, C è errata.",
+      "legal_reference": "Constitución Española, Art. 135; Ley Orgánica de Estabilidad Presupuestaria",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "El derecho de la Unión Europea está compuesto por :",
+      "answers": [
+        { "text": "Derecho Originario y el transformado por los Convenios originarios.", "correct": true },
+        { "text": "Reglamentos y directrices comunitarias únicamente.", "correct": false },
+        { "text": "Parlamento, comisión y Consejo europeo.", "correct": false },
+        { "text": "Todas son falsas", "correct": false }
+      ],
+      "explanation": "ES: A: Correcta, origen y derivado (TFUE, Art. 288). B: Incorrecta, omite Tratados. C: Incorrecta, lista instituciones, no normas. D: Incorrecta, A es correcta. IT: A: Corretta, diritto originario e derivato (TFUE Art. 288). B: Errata, omette i Trattati. C: Errata, elenca istituzioni non norme. D: Errata, A è corretta.",
+      "legal_reference": "Tratado de Funcionamiento de la UE, Art. 288",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": " El procedimiento de reforma denominado agravado se realiza cuando se revise :",
+      "answers": [
+        { "text": "La Constitución o el Título preliminar, al Capítulo II, Sección 1.ª, del Título I, o al Título II.", "correct": true },
+        { "text": "La totalidad o la que afecte al Preámbulo, al Título preliminar, al Capítulo II, Sección 1.ª, del Título I, o al Título II.", "correct": false },
+        { "text": "Únicamente cuando se propusiere la revisión total de la Constitución.", "correct": false },
+        { "text": "Las anteriores afirmaciones son incompletas", "correct": false }
+      ],
+      "explanation": "ES: A: Correcta, coincide con Art. 168.2 CE. B: Incorrecta, incluye preámbulo no previsto. C: Incorrecta, también parciales señaladas. D: Incorrecta, A es completa. IT: A: Corretta, coincide con CE Art. 168.2. B: Errata, menziona preambolo non previsto. C: Errata, include anche revisioni parziali indicate. D: Errata, A è completa.",
+      "legal_reference": "Constitución Española, Art. 168.2",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": "El bloque constitucional",
+      "answers": [
+        { "text": "no existe en el sistema jurídico español , es una institución alemana", "correct": false },
+        { "text": "Se reconoce en España y proviene del Derecho Frances", "correct": true },
+        { "text": "Sólo recoge el articulado constitucional", "correct": false },
+        { "text": "todas las anteriores son incorrectas", "correct": false }
+      ],
+      "explanation": "ES: A: Incorrecta, TC lo reconoce. B: Correcta, doctrina francesa importada (TC 53/1985). C: Incorrecta, incluye jurisprudencia y tratados. D: Incorrecta, B es correcta. IT: A: Errata, il TC lo riconosce. B: Corretta, dottrina francese importata (TC 53/1985). C: Errata, include giurisprudenza e trattati. D: Errata, B è corretta.",
+      "legal_reference": "Sentencia TC 53/1985",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
+    },
+    {
+      "question": ") En España existe la libertad de empresa así que puede comerciarse libremente sin control o limitación",
+      "answers": [
+        { "text": "No pues existen restricciones morales", "correct": false },
+        { "text": "No pues existen restricciones economicas", "correct": false },
+        { "text": "Cierto", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: A: Incorrecta, hay límites de orden público y moral. B: Incorrecta, límites económicos sí existen. C: Incorrecta, no es libre absoluto. D: Correcta, sujeta a regulación (CE Art. 38). IT: A: Errata, ci sono limiti di ordine pubblico e morale. B: Errata, ci sono limiti economici. C: Errata, non è assoluta. D: Corretta, è regolata (CE Art. 38).",
+      "legal_reference": "Constitución Española, Art. 38",
+      "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
     }
   ]
 }
+
