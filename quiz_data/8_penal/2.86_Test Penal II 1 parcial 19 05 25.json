@@ -644,8 +644,8 @@
       "answers": [
         { "text": "Es siempre impune", "correct": false },
         { "text": "Solo se castiga si no ha existido consentimiento de la mujer es cometido por la propia mujer embarazada", "correct": false },
-        { "text": "Sólo se castiga si", "correct": true },
-        { "text": "Es impune si es cometido por la mujer embarazada", "correct": false }
+        { "text": "Sólo se castiga si", "correct": false },
+        { "text": "Es impune si es cometido por la mujer embarazada", "correct": true }
       ],
       "explanation": "ES: A incorrecto porque la imprudencia grave en aborto por la mujer no se sanciona (Art. 146); B incorrecto por mala redacción y porque el consentimiento no aplica aquí; C correcto: Art. 146 CP exime a la mujer que provoca su propio aborto por imprudencia grave; D incorrecto porque la impunidad es solo para la mujer, no para terceros. \nIT: A errato perché imprudenza grave dalla donna è indenne (art. 146); B errato formulazione errata; C corretto secondo art. 146 CP; D errato perché immunità vale solo per la donna.",
       "legal_reference": "Código Penal, Art. 146"
