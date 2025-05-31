@@ -466,10 +466,10 @@
     {
       "question": "Señale la respuesta incorrecta. El consentimiento en las lesiones no es válido si:",
       "answers": [
-        { "text": "Es tácito.", "correct": true },
+        { "text": "Es tácito.", "correct": false },
         { "text": "Es otorgado por un menor de edad.", "correct": false },
         { "text": "Es otorgado por una persona con discapacidad necesitada de especial protección.", "correct": false },
-        { "text": "Es espontáneamente emitido.", "correct": false }
+        { "text": "Es espontáneamente emitido.", "correct": true }
       ],
       "explanation": "ES: A correcto (consentimiento tácito no vale, Art. 147.1 CP); B incorrecto (menor no puede consentir, por lo que el consentimiento sería inválido y la opción no es válida como ‘válido’); C incorrecto (discapacidad que requiera protección invalida consentimiento válido); D incorrecto (el consentimiento debe ser espontáneo y expreso, por tanto esta opción no infringe). \nIT: A corretto (consenso tacito non vale, art. 147.1 CP); B errato (minori non possono dare valido consenso); C errato (disabili protetti non possono dare valido consenso); D errato (il consenso deve essere spontaneo ed espresso).",
       "legal_reference": "Código Penal, Art. 147.1"
