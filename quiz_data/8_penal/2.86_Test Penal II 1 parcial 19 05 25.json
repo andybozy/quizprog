@@ -688,8 +688,8 @@
       "answers": [
         { "text": "Dentro de los 2 primeros días de su detención, sin haber logrado el objeto que se había propuesto", "correct": false },
         { "text": "Dentro de los 2 primeros días de su detención, aunque haya logrado el objeto que se había propuesto", "correct": false },
-        { "text": "Dentro de los primeros días de su detención, sin haber logrado el objeto que se había propuesto", "correct": false },
-        { "text": "Dentro de los 3 primeros días de su detención, aunque haya logrado el objeto que se había propuesto", "correct": true }
+        { "text": "Dentro de los primeros días de su detención, sin haber logrado el objeto que se había propuesto", "correct": true },
+        { "text": "Dentro de los 3 primeros días de su detención, aunque haya logrado el objeto que se había propuesto", "correct": false }
       ],
       "explanation": "ES: A incorrecto (límite 3 días, no 2); B incorrecto por misma razón; C incorrecto por falta de precisión; D correcto según Art. 163.2 CP (“tres primeros días” independientemente de logro). \nIT: A errato perché termine è 3 giorni, non 2; B errato idem; C errato per mancanza di numero; D corretto secondo art. 163.2 CP.",
       "legal_reference": "Código Penal, Art. 163.2"
@@ -713,7 +713,7 @@
         { "text": "Sólo puede aplicarse a las amenazas condicionales cuando el mal amenazado no es constitutivo de delito.", "correct": false },
         { "text": "Ninguna de las anteriores es válida", "correct": true }
       ],
-      "explanation": "ES: A incorrecto porque no se limita a condicionales; B incorrecto idem; C incorrecto idem; D correcto: Art. 169.3 CP agrava las amenazas por escrito o medios, sin restricción a condicionales. \nIT: A errato perché non solo minacce condizionali; B errato idem; C errato idem; D corretto secondo art. 169.3 CP.",
+      "explanation": "non si sa è giusta ma non con miacce condizionali, la domanda è doppia...\n\nES: A incorrecto porque no se limita a condicionales; B incorrecto idem; C incorrecto idem; D correcto: Art. 169.3 CP agrava las amenazas por escrito o medios, sin restricción a condicionales. \nIT: A errato perché non solo minacce condizionali; B errato idem; C errato idem; D corretto secondo art. 169.3 CP.",
       "legal_reference": "Código Penal, Art. 169.3"
     },
     {
@@ -741,8 +741,8 @@
     {
       "question": "¿Con qué pena castiga el artículo 138.1 del Código Penal (tipo básico) el delito de homicidio?",
       "answers": [
-        { "text": "Con la pena de prisión de diez a quince años.", "correct": false },
-        { "text": "Con la pena de prisión de quince a veinticinco años.", "correct": true },
+        { "text": "Con la pena de prisión de diez a quince años.", "correct": true },
+        { "text": "Con la pena de prisión de quince a veinticinco años.", "correct": false },
         { "text": "Con la pena de multa de doce a veinticuatro meses.", "correct": false },
         { "text": "Con la pena de prisión de tres a seis años.", "correct": false }
       ],
