@@ -222,7 +222,7 @@
       "question": "¿En qué supuestos se agrava la pena del delito de homicidio según lo establecido en el artículo 138.2 CP?",
       "answers": [
         {"text": "Cuando los hechos sean además constitutivos de un delito de atentado del artículo 550", "correct": true},
-        {"text": "Ensañamiento", "correct": true},
+        {"text": "Ensañamiento", "correct": false},
         {"text": "Precio, recompensa o promesa", "correct": false},
         {"text": "Alevosía", "correct": false}
       ],
@@ -257,9 +257,9 @@
     {
       "question": "Al reo de asesinato se le impondrá pena de prisión permanente revisable cuando…",
       "answers": [
-        {"text": "Que hubiere sido condenado por la muerte de dos o más personas", "correct": false},
+        {"text": "Que hubiere sido condenado por la muerte de dos o más personas", "correct": true},
         {"text": "Que hubiera sido condenado por la muerte de más de dos personas", "correct": false},
-        {"text": "Que hubiere sido enjuiciado por la muerte de más de dos personas", "correct": true},
+        {"text": "Que hubiere sido enjuiciado por la muerte de más de dos personas", "correct": false},
         {"text": "Que hubiera sido procesado por la muerte de dos o más personas", "correct": false}
       ],
       "explanation": "ES: «Condenado por muerte de dos o más personas»: incorrecta, exige enjuiciamiento de más de dos; «Condenado por muerte de más de dos personas»: incorrecta, la redacción exacta habla de enjuiciamiento; «Enjuiciado por muerte de más de dos personas»: correcta, art. 140.2 CP; «Procesado por muerte de dos o más personas»: incorrecta, procesar no equivale a enjuiciar.\nIT: «Condannato per la morte di due o più persone»: errata, serve enjuiciamiento di più di due; «Condannato per la morte di più di due persone»: errata, la norma parla di enjuiciamiento; «Giudicato per la morte di più di due persone»: corretta, art. 140.2 CP; «Imputato per la morte di due o più persone»: errata, imputazione non equivale a enjuiciamiento.",
@@ -394,7 +394,7 @@
         { "text": "Que la víctima sea menor de edad.", "correct": false },
         { "text": "Que sea subsiguiente a un delito contra la libertad sexual.", "correct": false }
       ],
-      "explanation": "ES: A incorrecto porque la alevosía (no ‘hostigamiento’) se regula en el Art. 139.1.1ª CP; B correcto porque el Art. 139.1.4ª CP tipifica asesinato cuando el homicidio facilita otro delito o evita su descubrimiento; C incorrecto porque la edad de la víctima solo agrava en Art. 140 CP (prisión permanente), no convierte homicidio en asesinato; D incorrecto porque los delitos sexuales previos se contemplan en Art. 140 CP para prisión permanente revisable, no en la definición de asesinato. IT: A errato perché l’alevosìa (non ‘hostigamiento’) è descritta al 139.1.1ª CP; B corretto perché l’art. 139.1.4ª CP include l’omicidio finalizzato a facilitare altro reato; C errato perché l’età della vittima aggravata si trova in art. 140 CP, non definisce omicidio come assassinato; D errato perché i reati sessuali precedenti sono materia di art. 140 CP per pena permanente, non parte del 139.1.",
+      "explanation": "ES: A incorrecto porque la alevosía (no ‘hostigamiento’) se regula en el Art. 139.1.1ª CP; B correcto porque el Art. 139.1.4ª CP tipifica asesinato cuando el homicidio facilita otro delito o evita su descubrimiento; C incorrecto porque la edad de la víctima solo agrava en Art. 140 CP (prisión permanente), no convierte homicidio en asesinato; D incorrecto porque los delitos sexuales previos se contemplan en Art. 140 CP para prisión permanente revisable, no en la definición de asesinato. \nIT: A errato perché l’alevosìa (non ‘hostigamiento’) è descritta al 139.1.1ª CP; B corretto perché l’art. 139.1.4ª CP include l’omicidio finalizzato a facilitare altro reato; C errato perché l’età della vittima aggravata si trova in art. 140 CP, non definisce omicidio come assassinato; D errato perché i reati sessuali precedenti sono materia di art. 140 CP per pena permanente, non parte del 139.1.",
       "legal_reference": "Código Penal, Art. 139.1.4ª"
     },
     {
@@ -405,7 +405,7 @@
         { "text": "Se cometa utilizando armas de fuego.", "correct": true },
         { "text": "Se cometa para evitar que otro delito se descubra.", "correct": false }
       ],
-      "explanation": "ES: A incorrecto porque precio o promesa son agravantes de asesinato (Art. 139.1.2ª), no de homicidio imprudente; B incorrecto porque alevosía solo existe en asesinato doloso (Art. 139.1.1ª); C correcto porque Art. 142.1 CP agrava la imprudencia grave si se usa arma de fuego o vehículo a motor; D incorrecto porque evitar descubrimiento de otro delito califica asesinato doloso (Art. 139.1.4ª), no imprudencia. IT: A errato perché ricompensa/promessa aggravano l’assassinio (art. 139.1.2ª), non l’omicidio colposo; B errato perché l’alevosìa compete all’assassinio doloso (art. 139.1.1ª); C corretto perché art. 142.1 CP prevede aggravante per uso di arma da fuoco o veicolo a motore; D errato perché evitare scoperta di altro reato è elemento di assassinio doloso (art. 139.1.4ª).",
+      "explanation": "ES: A incorrecto porque precio o promesa son agravantes de asesinato (Art. 139.1.2ª), no de homicidio imprudente; B incorrecto porque alevosía solo existe en asesinato doloso (Art. 139.1.1ª); C correcto porque Art. 142.1 CP agrava la imprudencia grave si se usa arma de fuego o vehículo a motor; D incorrecto porque evitar descubrimiento de otro delito califica asesinato doloso (Art. 139.1.4ª), no imprudencia. \nIT: A errato perché ricompensa/promessa aggravano l’assassinio (art. 139.1.2ª), non l’omicidio colposo; B errato perché l’alevosìa compete all’assassinio doloso (art. 139.1.1ª); C corretto perché art. 142.1 CP prevede aggravante per uso di arma da fuoco o veicolo a motore; D errato perché evitare scoperta di altro reato è elemento di assassinio doloso (art. 139.1.4ª).",
       "legal_reference": "Código Penal, Art. 142.1"
     },
     {
@@ -416,7 +416,7 @@
         { "text": "Precio, recompensa o promesa.", "correct": true },
         { "text": "Engaño.", "correct": false }
       ],
-      "explanation": "ES: A incorrecto porque violencia invalida el consentimiento (Art. 144.1ª CP); B incorrecto porque amenaza invalida el consentimiento (Art. 144.1ª); C correcto porque precio/promesa no se menciona en Art. 144 (sanciona aborto sin consentimiento por violencia, amenaza o engaño), sino en Art. 145; D incorrecto porque engaño invalida el consentimiento (Art. 144.1ª). IT: A errato perché la violenza invalida il consenso (art. 144.1ª CP); B errato perché la minaccia invalida il consenso (art. 144.1ª); C corretto perché prezzo/promessa non è citato all’art. 144 (tratta violenza, minaccia, inganno), bensì all’art. 145; D errato perché l’inganno invalida il consenso (art. 144.1ª).",
+      "explanation": "ES: A incorrecto porque violencia invalida el consentimiento (Art. 144.1ª CP); B incorrecto porque amenaza invalida el consentimiento (Art. 144.1ª); C correcto porque precio/promesa no se menciona en Art. 144 (sanciona aborto sin consentimiento por violencia, amenaza o engaño), sino en Art. 145; D incorrecto porque engaño invalida el consentimiento (Art. 144.1ª). \nIT: A errato perché la violenza invalida il consenso (art. 144.1ª CP); B errato perché la minaccia invalida il consenso (art. 144.1ª); C corretto perché prezzo/promessa non è citato all’art. 144 (tratta violenza, minaccia, inganno), bensì all’art. 145; D errato perché l’inganno invalida il consenso (art. 144.1ª).",
       "legal_reference": "Código Penal, Art. 144"
     },
     {
@@ -427,7 +427,7 @@
         { "text": "A partir de la vigésimo segunda semana de gestación.", "correct": true },
         { "text": "Por imprudencia profesional.", "correct": false }
       ],
-      "explanation": "ES: A incorrecto porque la falta de dictámenes es sancionada con la mitad inferior (Art. 145 bis.1 CP); B incorrecto porque fuera de establecimiento acreditado también es mitad inferior; C correcto porque Art. 145 bis.2 CP establece mitad superior si después de la semana 22; D incorrecto porque la imprudencia se sanciona en Art. 146, no en 145 bis. IT: A errato perché mancanza di pareri medici sanzionata con metà inferiore (art. 145 bis.1 CP); B errato perché fuori struttura accreditata idem; C corretto perché art. 145 bis.2 CP prevede metà superiore se oltre 22ª settimana; D errato perché imprudenza è materia dell’art. 146.",
+      "explanation": "ES: A incorrecto porque la falta de dictámenes es sancionada con la mitad inferior (Art. 145 bis.1 CP); B incorrecto porque fuera de establecimiento acreditado también es mitad inferior; C correcto porque Art. 145 bis.2 CP establece mitad superior si después de la semana 22; D incorrecto porque la imprudencia se sanciona en Art. 146, no en 145 bis. \nIT: A errato perché mancanza di pareri medici sanzionata con metà inferiore (art. 145 bis.1 CP); B errato perché fuori struttura accreditata idem; C corretto perché art. 145 bis.2 CP prevede metà superiore se oltre 22ª settimana; D errato perché imprudenza è materia dell’art. 146.",
       "legal_reference": "Código Penal, Art. 145 bis.2"
     },
     {
@@ -438,7 +438,7 @@
         { "text": "Con fin distinto a la procreación humana.", "correct": true },
         { "text": "Ninguna de las anteriores es correcta.", "correct": false }
       ],
-      "explanation": "ES: A incorrecto porque clonación es ejemplo de fin distinto a la procreación (Art. 160.2 CP); B incorrecto porque selección de raza también es fin distinto; C correcto porque el art. 160.2 CP tipifica toda fecundación con fin no procreativo; D incorrecto porque C es la opción correcta. IT: A errato perché clonazione è caso di fine non procreativo (art. 160.2 CP); B errato perché selezione razziale idem; C corretto perché art. 160.2 CP punisce ogni fecondazione con fine diverso dalla procreazione; D errato perché C è corretta.",
+      "explanation": "ES: A incorrecto porque clonación es ejemplo de fin distinto a la procreación (Art. 160.2 CP); B incorrecto porque selección de raza también es fin distinto; C correcto porque el art. 160.2 CP tipifica toda fecundación con fin no procreativo; D incorrecto porque C es la opción correcta. \nIT: A errato perché clonazione è caso di fine non procreativo (art. 160.2 CP); B errato perché selezione razziale idem; C corretto perché art. 160.2 CP punisce ogni fecondazione con fine diverso dalla procreazione; D errato perché C è corretta.",
       "legal_reference": "Código Penal, Art. 160.2"
     },
     {
@@ -449,7 +449,7 @@
         { "text": "La primera asistencia facultativa.", "correct": false },
         { "text": "Todas las anteriores son correctas.", "correct": true }
       ],
-      "explanation": "ES: A incorrecto porque la simple vigilancia no es tratamiento (Art. 147.1 CP); B incorrecto porque el seguimiento facultativo tampoco; C incorrecto porque la primera asistencia facultativa tampoco; D correcto porque A, B y C no se consideran tratamiento médico. IT: A errato perché semplice vigilanza non è trattamento (art. 147.1 CP); B errato perché follow-up medico idem; C errato perché prima assistenza idem; D corretto perché A, B e C non sono trattamento medico.",
+      "explanation": "ES: A incorrecto porque la simple vigilancia no es tratamiento (Art. 147.1 CP); B incorrecto porque el seguimiento facultativo tampoco; C incorrecto porque la primera asistencia facultativa tampoco; D correcto porque A, B y C no se consideran tratamiento médico. \nIT: A errato perché semplice vigilanza non è trattamento (art. 147.1 CP); B errato perché follow-up medico idem; C errato perché prima assistenza idem; D corretto perché A, B e C non sono trattamento medico.",
       "legal_reference": "Código Penal, Art. 147.1"
     },
     {
@@ -460,7 +460,7 @@
         { "text": "Si la víctima hubiera sido esposo.", "correct": true },
         { "text": "Si la víctima fuera menor de 14 años.", "correct": false }
       ],
-      "explanation": "ES: A incorrecto (verdadero agravante: uso de medios peligrosos, Art. 148.1ª); B incorrecto (verdadero agravante: alevosía, Art. 148.1ª); C correcto porque la afinidad conyugal no aparece en Art. 148; D incorrecto (verdadero agravante: menor de 14 o vulnerable, Art. 148.1ª). IT: A errato (reale aggravante: mezzi pericolosi, art. 148.1ª); B errato (aggravante: alevosìa, art. 148.1ª); C corretto perché la condizione di coniuge non è citata all’art. 148; D errato (aggravante: minore di 14 o vulnerabile, art. 148.1ª).",
+      "explanation": "ES: A incorrecto (verdadero agravante: uso de medios peligrosos, Art. 148.1ª); B incorrecto (verdadero agravante: alevosía, Art. 148.1ª); C correcto porque la afinidad conyugal no aparece en Art. 148; D incorrecto (verdadero agravante: menor de 14 o vulnerable, Art. 148.1ª). \nIT: A errato (reale aggravante: mezzi pericolosi, art. 148.1ª); B errato (aggravante: alevosìa, art. 148.1ª); C corretto perché la condizione di coniuge non è citata all’art. 148; D errato (aggravante: minore di 14 o vulnerabile, art. 148.1ª).",
       "legal_reference": "Código Penal, Art. 148"
     },
     {
@@ -471,7 +471,7 @@
         { "text": "Es otorgado por una persona con discapacidad necesitada de especial protección.", "correct": false },
         { "text": "Es espontáneamente emitido.", "correct": false }
       ],
-      "explanation": "ES: A correcto (consentimiento tácito no vale, Art. 147.1 CP); B incorrecto (menor no puede consentir, por lo que el consentimiento sería inválido y la opción no es válida como ‘válido’); C incorrecto (discapacidad que requiera protección invalida consentimiento válido); D incorrecto (el consentimiento debe ser espontáneo y expreso, por tanto esta opción no infringe). IT: A corretto (consenso tacito non vale, art. 147.1 CP); B errato (minori non possono dare valido consenso); C errato (disabili protetti non possono dare valido consenso); D errato (il consenso deve essere spontaneo ed espresso).",
+      "explanation": "ES: A correcto (consentimiento tácito no vale, Art. 147.1 CP); B incorrecto (menor no puede consentir, por lo que el consentimiento sería inválido y la opción no es válida como ‘válido’); C incorrecto (discapacidad que requiera protección invalida consentimiento válido); D incorrecto (el consentimiento debe ser espontáneo y expreso, por tanto esta opción no infringe). \nIT: A corretto (consenso tacito non vale, art. 147.1 CP); B errato (minori non possono dare valido consenso); C errato (disabili protetti non possono dare valido consenso); D errato (il consenso deve essere spontaneo ed espresso).",
       "legal_reference": "Código Penal, Art. 147.1"
     },
     {
@@ -482,7 +482,7 @@
         { "text": "Deciden quienes ejerzan la patria potestad, tutela o curatela.", "correct": false },
         { "text": "Todas las anteriores son correctas.", "correct": true }
       ],
-      "explanation": "ES: A incorrecto aislado (es cierto que LO 2/2020 abolió la esterilización forzada, pero no basta sin el resto); B incorrecto aislado (el art. 156 regula supuestos, pero sin contexto no es completa); C incorrecto aislado (la decisión recae en tutela/patr. potestad, pero sin más no explica la abolición ni referencia normativa); D correcto porque combina A, B y C para reflejar la reforma integral de LO 2/2020 al art. 156 CP. IT: A errato isolato (LO 2/2020 ha abolito sterilizzazione forzata, ma serve contesto); B errato isolato (art. 156 regola sterilizzazione, ma manca contesto); C errato isolato (decisione a potestà/tutela, ma non include riforma); D corretto perché unisce A, B e C mostrando la riforma di LO 2/2020 all’art. 156 CP).",
+      "explanation": "ES: A incorrecto aislado (es cierto que LO 2/2020 abolió la esterilización forzada, pero no basta sin el resto); B incorrecto aislado (el art. 156 regula supuestos, pero sin contexto no es completa); C incorrecto aislado (la decisión recae en tutela/patr. potestad, pero sin más no explica la abolición ni referencia normativa); D correcto porque combina A, B y C para reflejar la reforma integral de LO 2/2020 al art. 156 CP. \nIT: A errato isolato (LO 2/2020 ha abolito sterilizzazione forzata, ma serve contesto); B errato isolato (art. 156 regola sterilizzazione, ma manca contesto); C errato isolato (decisione a potestà/tutela, ma non include riforma); D corretto perché unisce A, B e C mostrando la riforma di LO 2/2020 all’art. 156 CP).",
       "legal_reference": "L.O. 2/2020; Código Penal, Art. 156"
     },
     {
@@ -493,7 +493,7 @@
         { "text": "Persona amparada en cualquier otra relación por la que se encuentre integrada en el núcleo de su convivencia familiar.", "correct": false },
         { "text": "La persona especialmente vulnerable si convive con el autor.", "correct": false }
       ],
-      "explanation": "ES: A incorrecto (la esposa sí está incluida, Art. 153.1ª CP); B correcto (parejas no convivientes no están recogidas en Art. 153); C incorrecto (integrados en núcleo familiar sí están, Art. 153.1.c); D incorrecto (vulnerables convivientes sí, Art. 153.1.d). IT: A errato (la moglie è inclusa, art. 153.1ª CP); B corretto (partner non convivente non citato all’art. 153); C errato (conviventi in nucleo familiare sì, art. 153.1.c); D errato (vulnerabili conviventi sì, art. 153.1.d).",
+      "explanation": "ES: A incorrecto (la esposa sí está incluida, Art. 153.1ª CP); B correcto (parejas no convivientes no están recogidas en Art. 153); C incorrecto (integrados en núcleo familiar sí están, Art. 153.1.c); D incorrecto (vulnerables convivientes sí, Art. 153.1.d). \nIT: A errato (la moglie è inclusa, art. 153.1ª CP); B corretto (partner non convivente non citato all’art. 153); C errato (conviventi in nucleo familiare sì, art. 153.1.c); D errato (vulnerabili conviventi sì, art. 153.1.d).",
       "legal_reference": "Código Penal, Art. 153"
     },
     {
@@ -504,7 +504,7 @@
         { "text": "Las lesiones causadas por imprudencia menos grave sólo serán perseguibles mediante denuncia de la persona agraviada o de su representante legal.", "correct": true },
         { "text": "Ninguna de las respuestas es correcta.", "correct": false }
       ],
-      "explanation": "ES: A incorrecto porque la imprudencia leve y menos grave no se persigue de oficio (Art. 147.2 CP); B incorrecto porque la grave sí de oficio y la menos grave sólo a instancia de parte; C correcto según Art. 147.2 CP; D incorrecto porque C es correcta. IT: A errato perché non tutte le imprudenze sono perseguite d’ufficio (art. 147.2 CP); B errato perché anche imprudenza meno grave si persegue a querela; C corretto secondo art. 147.2 CP; D errato perché C è vera.",
+      "explanation": "ES: A incorrecto porque la imprudencia leve y menos grave no se persigue de oficio (Art. 147.2 CP); B incorrecto porque la grave sí de oficio y la menos grave sólo a instancia de parte; C correcto según Art. 147.2 CP; D incorrecto porque C es correcta. \nIT: A errato perché non tutte le imprudenze sono perseguite d’ufficio (art. 147.2 CP); B errato perché anche imprudenza meno grave si persegue a querela; C corretto secondo art. 147.2 CP; D errato perché C è vera.",
       "legal_reference": "Código Penal, Art. 147.2"
     },
     {
@@ -515,7 +515,7 @@
         { "text": "Su muerte.", "correct": true },
         { "text": "Las respuestas a) y b) son correctas.", "correct": false }
       ],
-      "explanation": "ES: A incorrecto porque 157 CP tipifica solo la muerte del feto; B incorrecto idem; C correcto tal como establece Art. 157.1ª CP; D incorrecto porque A y B no sonConductas penadas en ese artículo. IT: A errato perché art. 157 CP punisce solo morte del feto; B errato per lo stesso motivo; C corretto secondo art. 157.1ª CP; D errato perché A e B non rientrano in quel comma.",
+      "explanation": "ES: A incorrecto porque 157 CP tipifica solo la muerte del feto; B incorrecto idem; C correcto tal como establece Art. 157.1ª CP; D incorrecto porque A y B no sonConductas penadas en ese artículo. \nIT: A errato perché art. 157 CP punisce solo morte del feto; B errato per lo stesso motivo; C corretto secondo art. 157.1ª CP; D errato perché A e B non rientrano in quel comma.",
       "legal_reference": "Código Penal, Art. 157"
     },
     {
@@ -526,7 +526,7 @@
         { "text": "Que el mal anunciado afecte, en todo caso, al sujeto pasivo.", "correct": true },
         { "text": "El mal anunciado ha de ser susceptible de producir intimidación en el sujeto pasivo al revestir carácter de seriedad.", "correct": false }
       ],
-      "explanation": "ES: A incorrecto (es esencial, Art. 169.1ª CP); B incorrecto (debe depender de la voluntad del autor, Art. 169.1ª); C correcto porque no exige afectar ‘en todo caso’, puede ser condicional; D incorrecto (debe intimidar, Art. 169.1ª). IT: A errato perché è elemento base (art. 169.1ª CP); B errato perché dipende dalla volontà dell’autore (art. 169.1ª); C corretto perché non serve che colpisca ‘in ogni caso’, può essere condizionale; D errato perché deve intimidire (art. 169.1ª).",
+      "explanation": "ES: A incorrecto (es esencial, Art. 169.1ª CP); B incorrecto (debe depender de la voluntad del autor, Art. 169.1ª); C correcto porque no exige afectar ‘en todo caso’, puede ser condicional; D incorrecto (debe intimidar, Art. 169.1ª). \nIT: A errato perché è elemento base (art. 169.1ª CP); B errato perché dipende dalla volontà dell’autore (art. 169.1ª); C corretto perché non serve che colpisca ‘in ogni caso’, può essere condizionale; D errato perché deve intimidire (art. 169.1ª).",
       "legal_reference": "Código Penal, Art. 169"
     },
     {
@@ -537,7 +537,7 @@
         { "text": "El que sin estar legítimamente autorizado impidiere a otro hacer lo que quiere.", "correct": false },
         { "text": "El que sin estar legítimamente autorizado compeliere a otro efectuar lo que no quiere.", "correct": false }
       ],
-      "explanation": "ES: A incorrecto porque añade ‘con violencia’ cuando la definición exige violencia o intimidación; B correcto según la literalidad de Art. 172.1 CP; C incorrecto porque omite la coacción con violencia o intimidación; D incorrecto por omitir la violencia/intimidación necesaria. IT: A errato perché aggiunge ‘con violenza’ in modo ridondante; B corretto secondo testo art. 172.1 CP; C errato perché manca violenza o intimidazione; D errato idem.",
+      "explanation": "ES: A incorrecto porque añade ‘con violencia’ cuando la definición exige violencia o intimidación; B correcto según la literalidad de Art. 172.1 CP; C incorrecto porque omite la coacción con violencia o intimidación; D incorrecto por omitir la violencia/intimidación necesaria. \nIT: A errato perché aggiunge ‘con violenza’ in modo ridondante; B corretto secondo testo art. 172.1 CP; C errato perché manca violenza o intimidazione; D errato idem.",
       "legal_reference": "Código Penal, Art. 172.1"
     },
     {
@@ -548,7 +548,7 @@
         { "text": "Configura un delito de lesiones tipificado en el art.150 del CP, al haber causado la inutilidad de un órgano o miembro no principal.", "correct": false },
         { "text": "Configura un delito de lesiones tipificado en el art.149 del CP, al haber causado la pérdida o inutilidad de un órgano o miembro principal o de un sentido.", "correct": false }
       ],
-      "explanation": "ES: A incorrecto porque Art. 149 CP se refiere a deformidad o enfermedad grave, no al uso de objeto peligroso; B correcto porque Art. 148.1ª CP agrava el tipo básico (Art. 147.1) por usar medios peligrosos; C incorrecto porque inutilidad de órgano no principal se encuadra en Art. 150 pero la agravación procede de Art. 148.1ª; D incorrecto porque la pérdida de un órgano principal agrava pero se sanciona como agravante de Art. 147.1 (Art. 148.1ª), no como Art. 149 básico. IT: A errato perché art. 149 CP tratta deformità grave o malattia, non mezzi pericolosi; B corretto perché art. 148.1ª CP aggrava art. 147.1 per uso di mezzi pericolosi; C errato perché inutilità di organo non principale rientra in art. 150 ma aggravamento viene da art. 148.1ª; D errato perché perdita organo principale è aggravante di art. 147.1 (art. 148.1ª), non art. 149.",
+      "explanation": "ES: A incorrecto porque Art. 149 CP se refiere a deformidad o enfermedad grave, no al uso de objeto peligroso; B correcto porque Art. 148.1ª CP agrava el tipo básico (Art. 147.1) por usar medios peligrosos; C incorrecto porque inutilidad de órgano no principal se encuadra en Art. 150 pero la agravación procede de Art. 148.1ª; D incorrecto porque la pérdida de un órgano principal agrava pero se sanciona como agravante de Art. 147.1 (Art. 148.1ª), no como Art. 149 básico. \nIT: A errato perché art. 149 CP tratta deformità grave o malattia, non mezzi pericolosi; B corretto perché art. 148.1ª CP aggrava art. 147.1 per uso di mezzi pericolosi; C errato perché inutilità di organo non principale rientra in art. 150 ma aggravamento viene da art. 148.1ª; D errato perché perdita organo principale è aggravante di art. 147.1 (art. 148.1ª), non art. 149.",
       "legal_reference": "Código Penal, Art. 147.1; Art. 148.1ª"
     },
     {
@@ -559,7 +559,7 @@
         { "text": "Un delito leve de lesiones previsto en el artículo 147.2 de CP", "correct": false },
         { "text": "No constituye infracción penal alguna", "correct": true }
       ],
-      "explanation": "ES: A incorrecto porque sin tratamiento médico no cabe delito según Art. 147.1 CP; B incorrecto porque tampoco encaja como falta (Art. 617.1 aplica a agresiones leves sin atención facultativa); C incorrecto porque Art. 147.2 castiga imprudencia menos grave solo a instancia de parte; D correcto: sin tratamiento ni más, no hay infracción. IT: A errato perché senza trattamento medico non c’è reato (art. 147.1 CP); B errato perché art. 617.1 CP riguarda lesioni lievi senza assistenza; C errato perché art. 147.2 CP punisce imprudenza meno grave con querela; D corretto: nessuna infrazione.",
+      "explanation": "ES: A incorrecto porque sin tratamiento médico no cabe delito según Art. 147.1 CP; B incorrecto porque tampoco encaja como falta (Art. 617.1 aplica a agresiones leves sin atención facultativa); C incorrecto porque Art. 147.2 castiga imprudencia menos grave solo a instancia de parte; D correcto: sin tratamiento ni más, no hay infracción. \nIT: A errato perché senza trattamento medico non c’è reato (art. 147.1 CP); B errato perché art. 617.1 CP riguarda lesioni lievi senza assistenza; C errato perché art. 147.2 CP punisce imprudenza meno grave con querela; D corretto: nessuna infrazione.",
       "legal_reference": "Código Penal, Art. 147.1; Art. 147.2; Art. 617.1"
     },
     {
@@ -570,7 +570,7 @@
         { "text": "Que haya una pluralidad de personas que riñan entre sí con agresiones físicas entre varios grupos recíprocamente enfrentados.", "correct": false },
         { "text": "Todos los anteriores son elementos del delito de participación en riña.", "correct": false }
       ],
-      "explanation": "ES: A incorrecto (riña tumultuaria exige acción confusa, Art. 153 CP); B correcto ya que no se exige uso de medios peligrosos por todos los partícipes; C incorrecto (pluralidad y enfrentamiento sí son necesarios); D incorrecto porque B no es elemento. IT: A errato perché rissa tumultuaria prevede aggressioni confusionali (art. 153 CP); B corretto perché non serve che tutti usino mezzi pericolosi; C errato perché pluralità e scontri sì richiesti; D errato perché B non è elemento.",
+      "explanation": "ES: A incorrecto (riña tumultuaria exige acción confusa, Art. 153 CP); B correcto ya que no se exige uso de medios peligrosos por todos los partícipes; C incorrecto (pluralidad y enfrentamiento sí son necesarios); D incorrecto porque B no es elemento. \nIT: A errato perché rissa tumultuaria prevede aggressioni confusionali (art. 153 CP); B corretto perché non serve che tutti usino mezzi pericolosi; C errato perché pluralità e scontri sì richiesti; D errato perché B non è elemento.",
       "legal_reference": "Código Penal, Art. 153"
     },
     {
@@ -581,7 +581,7 @@
         { "text": "La creación de seres humanos idénticos por clonación u otros procedimientos dirigidos a la selección de la raza.", "correct": true },
         { "text": "La fecundación de óvulos humanos con cualquier fin distinto a la procreación humana.", "correct": false }
       ],
-      "explanation": "ES: A incorrecto porque art. 156 CP menciona clonación con fines exterminadores pero clasifica modulación genética y fecundación distinta de procreación con penas menores; B incorrecto porque alterar genotipo sin taras graves está penalizado pero con pena inferior; C correcto: clonación o selección racial conlleva pena más alta según Art. 156.2 CP; D incorrecto porque fecundación distinta de procreación es Art. 160.2 CP con pena inferior. IT: A errato perché ingegneria genetica per armi è punita ma non come clonazione umana; B errato perché manipolare genotipo per fini diversi è punito meno severamente; C corretto: clonazione umana o selezione di razza prevede pena maggiore (art. 156.2 CP); D errato perché fecondazione non procreativa è art. 160.2 CP con pena minore.",
+      "explanation": "ES: A incorrecto porque art. 156 CP menciona clonación con fines exterminadores pero clasifica modulación genética y fecundación distinta de procreación con penas menores; B incorrecto porque alterar genotipo sin taras graves está penalizado pero con pena inferior; C correcto: clonación o selección racial conlleva pena más alta según Art. 156.2 CP; D incorrecto porque fecundación distinta de procreación es Art. 160.2 CP con pena inferior. \nIT: A errato perché ingegneria genetica per armi è punita ma non come clonazione umana; B errato perché manipolare genotipo per fini diversi è punito meno severamente; C corretto: clonazione umana o selezione di razza prevede pena maggiore (art. 156.2 CP); D errato perché fecondazione non procreativa è art. 160.2 CP con pena minore.",
       "legal_reference": "Código Penal, Art. 156.2"
     },
     {
@@ -592,7 +592,7 @@
         { "text": "El aprovechamiento de la previa comisión de otro delito tras el que se comete el homicidio.", "correct": true },
         { "text": "Actuar por medio de recompensa o promesa", "correct": false }
       ],
-      "explanation": "ES: A incorrecto porque ensañamiento es uno de los elementos del Art. 139.1.3ª; B incorrecto porque facilitar otro delito o evitar descubrimiento es Art. 139.1.4ª; C correcto porque aprovecharse de un delito previo no figura en 139.1; D incorrecto porque precio o promesa son Art. 139.1.2ª. IT: A errato perché crudeltà è art. 139.1.3ª; B errato perché facilitare altro reato è art. 139.1.4ª; C corretto perché sfruttare reato precedente non è incluso nel 139.1; D errato perché ricompensa è art. 139.1.2ª.",
+      "explanation": "ES: A incorrecto porque ensañamiento es uno de los elementos del Art. 139.1.3ª; B incorrecto porque facilitar otro delito o evitar descubrimiento es Art. 139.1.4ª; C correcto porque aprovecharse de un delito previo no figura en 139.1; D incorrecto porque precio o promesa son Art. 139.1.2ª. \nIT: A errato perché crudeltà è art. 139.1.3ª; B errato perché facilitare altro reato è art. 139.1.4ª; C corretto perché sfruttare reato precedente non è incluso nel 139.1; D errato perché ricompensa è art. 139.1.2ª.",
       "legal_reference": "Código Penal, Art. 139"
     },
     {
@@ -603,7 +603,7 @@
         { "text": "Cuando el hecho hubiera sido cometido por quien perteneciere a un grupo u organización criminal", "correct": false },
         { "text": "Cuando el hecho hubiere sido cometido aumentando inhumana y deliberadamente el sufrimiento de la víctima", "correct": true }
       ],
-      "explanation": "ES: A incorrecto porque el umbral es menor de 16 años (Art. 140.1.c); B incorrecto porque la autoría conjunta no es causa automática de permanente; C incorrecto porque pertenencia a grupo criminal corresponde a Art. 140.1.d solo en concurso con otros supuestos; D correcto según Art. 140.1.a (ensañamiento que aumenta sufrimiento). IT: A errato perché soglia 16 anni (art. 140.1.c); B errato perché azione congiunta non basta da sola; C errato perché appartenenza a gruppo criminale richiede altri elementi (art. 140.1.d); D corretto secondo art. 140.1.a (crudeltà deliberata).",
+      "explanation": "ES: A incorrecto porque el umbral es menor de 16 años (Art. 140.1.c); B incorrecto porque la autoría conjunta no es causa automática de permanente; C incorrecto porque pertenencia a grupo criminal corresponde a Art. 140.1.d solo en concurso con otros supuestos; D correcto según Art. 140.1.a (ensañamiento que aumenta sufrimiento). \nIT: A errato perché soglia 16 anni (art. 140.1.c); B errato perché azione congiunta non basta da sola; C errato perché appartenenza a gruppo criminale richiede altri elementi (art. 140.1.d); D corretto secondo art. 140.1.a (crudeltà deliberata).",
       "legal_reference": "Código Penal, Art. 140.1"
     },
     {
@@ -614,7 +614,7 @@
         { "text": "Su realización cabe tanto por acción, como por omisión, pero únicamente en su modalidad de comisión por omisión, si concurre la posición de garante", "correct": true },
         { "text": "Ninguna de las anteriores es válida", "correct": false }
       ],
-      "explanation": "ES: A incorrecto porque también cabe omisión dolosa en deber de garante; B incorrecto porque omisión requiere posición de garante; C correcto según Art. 138.1 CP y doctrina; D incorrecto porque C es válida. IT: A errato perché omicidio può essere per omissione se garante; B errato perché omissive require posizione di garante; C corretto secondo art. 138.1 CP; D errato perché C è valida.",
+      "explanation": "ES: A incorrecto porque también cabe omisión dolosa en deber de garante; B incorrecto porque omisión requiere posición de garante; C correcto según Art. 138.1 CP y doctrina; D incorrecto porque C es válida. \nIT: A errato perché omicidio può essere per omissione se garante; B errato perché omissive require posizione di garante; C corretto secondo art. 138.1 CP; D errato perché C è valida.",
       "legal_reference": "Código Penal, Art. 138.1"
     },
     {
@@ -625,7 +625,7 @@
         { "text": "Empleando en la ejecución medios, modos o formas que tiendan directa o especialmente a asegurarla", "correct": false },
         { "text": "Empleando en la ejecución armas o instrumentos peligrosos que aseguren el fin de acabar con la vida de la víctima", "correct": false }
       ],
-      "explanation": "ES: A correcto porque coincide con la redacción de Art. 139.1.1ª CP (sin riesgo de defensa); B incorrecto porque omite el requisito ‘sin riesgo’; C incorrecto por omitir ‘sin riesgo que proceda defensa’; D incorrecto porque armas peligrosas son agravante distinta (Art. 148). IT: A corretto secondo testo art. 139.1.1ª CP (‘senza rischio’); B errato perché manca ‘senza rischio’; C errato idem; D errato perché armi pericolose rientrano in art. 148 CP.",
+      "explanation": "ES: A correcto porque coincide con la redacción de Art. 139.1.1ª CP (sin riesgo de defensa); B incorrecto porque omite el requisito ‘sin riesgo’; C incorrecto por omitir ‘sin riesgo que proceda defensa’; D incorrecto porque armas peligrosas son agravante distinta (Art. 148). \nIT: A corretto secondo testo art. 139.1.1ª CP (‘senza rischio’); B errato perché manca ‘senza rischio’; C errato idem; D errato perché armi pericolose rientrano in art. 148 CP.",
       "legal_reference": "Código Penal, Art. 139.1.1ª"
     },
     {
@@ -636,7 +636,7 @@
         { "text": "Ante la falta de capacidad de la víctima, el delito queda impune.", "correct": false },
         { "text": "Ante la falta de imputabilidad de la víctima, la acción será castigada como autoría mediata en asesinato", "correct": true }
       ],
-      "explanation": "ES: A incorrecto porque la voluntad es requisito pero no único; B incorrecto porque imputabilidad sí importa para tipificar como asesinato; C incorrecto porque no queda impune, se califica distinto; D correcto según doctrina mayoritaria y Art. 138 CP (autor mediato por omisión dolosa). IT: A errato perché volontà è necessaria ma non sufficiente; B errato perché imputabilità influisce sulla qualificazione; C errato perché non è impune; D corretto secondo dottrina e art. 138 CP.",
+      "explanation": "ES: A incorrecto porque la voluntad es requisito pero no único; B incorrecto porque imputabilidad sí importa para tipificar como asesinato; C incorrecto porque no queda impune, se califica distinto; D correcto según doctrina mayoritaria y Art. 138 CP (autor mediato por omisión dolosa). \nIT: A errato perché volontà è necessaria ma non sufficiente; B errato perché imputabilità influisce sulla qualificazione; C errato perché non è impune; D corretto secondo dottrina e art. 138 CP.",
       "legal_reference": "Código Penal, Art. 138"
     },
     {
@@ -647,7 +647,7 @@
         { "text": "Sólo se castiga si", "correct": true },
         { "text": "Es impune si es cometido por la mujer embarazada", "correct": false }
       ],
-      "explanation": "ES: A incorrecto porque la imprudencia grave en aborto por la mujer no se sanciona (Art. 146); B incorrecto por mala redacción y porque el consentimiento no aplica aquí; C correcto: Art. 146 CP exime a la mujer que provoca su propio aborto por imprudencia grave; D incorrecto porque la impunidad es solo para la mujer, no para terceros. IT: A errato perché imprudenza grave dalla donna è indenne (art. 146); B errato formulazione errata; C corretto secondo art. 146 CP; D errato perché immunità vale solo per la donna.",
+      "explanation": "ES: A incorrecto porque la imprudencia grave en aborto por la mujer no se sanciona (Art. 146); B incorrecto por mala redacción y porque el consentimiento no aplica aquí; C correcto: Art. 146 CP exime a la mujer que provoca su propio aborto por imprudencia grave; D incorrecto porque la impunidad es solo para la mujer, no para terceros. \nIT: A errato perché imprudenza grave dalla donna è indenne (art. 146); B errato formulazione errata; C corretto secondo art. 146 CP; D errato perché immunità vale solo per la donna.",
       "legal_reference": "Código Penal, Art. 146"
     },
     {
@@ -658,7 +658,7 @@
         { "text": "Al límite legal impuesto por el mismo delito, que los circunscribe a los delitos contra la vida y la integridad física.", "correct": false },
         { "text": "Al límite legal impuesto por el mismo delito, que los circunscribe a los delitos contra la vida, la integridad física y el patrimonio.", "correct": true }
       ],
-      "explanation": "ES: A incorrecto porque no se trata de intención sino de qué delitos amenaza; B incorrecto porque el art. 169 no enumera bienes jurídicos de forma exhaustiva; C incorrecto porque incluye también patrimonio; D correcto según Art. 169 CP (vida, integridad física y patrimonio entre otros). IT: A errato perché non si basa sull’intenzione; B errato perché non elenca tutti i beni; C errato perché patrimonio è incluso; D corretto secondo art. 169 CP.",
+      "explanation": "ES: A incorrecto porque no se trata de intención sino de qué delitos amenaza; B incorrecto porque el art. 169 no enumera bienes jurídicos de forma exhaustiva; C incorrecto porque incluye también patrimonio; D correcto según Art. 169 CP (vida, integridad física y patrimonio entre otros). \nIT: A errato perché non si basa sull’intenzione; B errato perché non elenca tutti i beni; C errato perché patrimonio è incluso; D corretto secondo art. 169 CP.",
       "legal_reference": "Código Penal, Art. 169"
     },
     {
@@ -669,7 +669,7 @@
         { "text": "De si se ha conseguido o no, la condición impuesta, pero sólo cuando el mal con el que se amenaza no sea constitutivo de delito.", "correct": true },
         { "text": "De si ha concurrido engaño o no", "correct": false }
       ],
-      "explanation": "ES: A incorrecto porque la diferencia radica en si el mal es delito o no; B incorrecto porque la condicionante sólo afecta a no delitos; C correcto según Art. 169.2 CP; D incorrecto porque engaño no altera pena en condicionales. IT: A errato perché distingue male senza considerare natura del reato; B errato perché condizione riguarda non delitti; C corretto secondo art. 169.2 CP; D errato perché inganno non incide sulla pena condizionale.",
+      "explanation": "ES: A incorrecto porque la diferencia radica en si el mal es delito o no; B incorrecto porque la condicionante sólo afecta a no delitos; C correcto según Art. 169.2 CP; D incorrecto porque engaño no altera pena en condicionales. \nIT: A errato perché distingue male senza considerare natura del reato; B errato perché condizione riguarda non delitti; C corretto secondo art. 169.2 CP; D errato perché inganno non incide sulla pena condizionale.",
       "legal_reference": "Código Penal, Art. 169.2"
     },
     {
@@ -680,7 +680,7 @@
         { "text": "Sí, por las razones expuestas en a) y b), y además es atenuable la pena si la detención busca poner al detenido, fuera de los casos previstos en las leyes, a disposición de la autoridad.", "correct": false },
         { "text": "Ninguna de las anteriores.", "correct": false }
       ],
-      "explanation": "ES: A correcto: Art. 163.1 CP agrava la pena si la detención dura más de 15 días; B incorrecto porque la pena inferior por liberación en ≤3 días es Art. 163.2 CP, no la mayor; C incorrecto por mezcla de supuestos; D incorrecto porque A es correcta. IT: A corretto secondo art. 163.1 CP; B errato perché pena ridotta è art. 163.2 CP; C errato perché miscela sup­posti; D errato perché A è vera.",
+      "explanation": "ES: A correcto: Art. 163.1 CP agrava la pena si la detención dura más de 15 días; B incorrecto porque la pena inferior por liberación en ≤3 días es Art. 163.2 CP, no la mayor; C incorrecto por mezcla de supuestos; D incorrecto porque A es correcta. \nIT: A corretto secondo art. 163.1 CP; B errato perché pena ridotta è art. 163.2 CP; C errato perché miscela sup­posti; D errato perché A è vera.",
       "legal_reference": "Código Penal, Art. 163.1"
     },
     {
@@ -691,7 +691,7 @@
         { "text": "Dentro de los primeros días de su detención, sin haber logrado el objeto que se había propuesto", "correct": false },
         { "text": "Dentro de los 3 primeros días de su detención, aunque haya logrado el objeto que se había propuesto", "correct": true }
       ],
-      "explanation": "ES: A incorrecto (límite 3 días, no 2); B incorrecto por misma razón; C incorrecto por falta de precisión; D correcto según Art. 163.2 CP (“tres primeros días” independientemente de logro). IT: A errato perché termine è 3 giorni, non 2; B errato idem; C errato per mancanza di numero; D corretto secondo art. 163.2 CP.",
+      "explanation": "ES: A incorrecto (límite 3 días, no 2); B incorrecto por misma razón; C incorrecto por falta de precisión; D correcto según Art. 163.2 CP (“tres primeros días” independientemente de logro). \nIT: A errato perché termine è 3 giorni, non 2; B errato idem; C errato per mancanza di numero; D corretto secondo art. 163.2 CP.",
       "legal_reference": "Código Penal, Art. 163.2"
     },
     {
@@ -702,7 +702,7 @@
         { "text": "En encerrar o extorsionar a otro", "correct": false },
         { "text": "En encerrar, detener o secuestrar a otro", "correct": false }
       ],
-      "explanation": "ES: A incorrecto porque falta privación de libertad mediante encierro; B correcto: Art. 163 CP define detención ilegal como encerrar o detener privando de libertad; C incorrecto porque extorsión no entra; D incorrecto porque secuestro es agravado distinto (Art. 164). IT: A errato perché manca privazione di libertà; B corretto secondo art. 163 CP; C errato perché estorsione è reato diverso; D errato perché sequestro è Art. 164 CP.",
+      "explanation": "ES: A incorrecto porque falta privación de libertad mediante encierro; B correcto: Art. 163 CP define detención ilegal como encerrar o detener privando de libertad; C incorrecto porque extorsión no entra; D incorrecto porque secuestro es agravado distinto (Art. 164). \nIT: A errato perché manca privazione di libertà; B corretto secondo art. 163 CP; C errato perché estorsione è reato diverso; D errato perché sequestro è Art. 164 CP.",
       "legal_reference": "Código Penal, Art. 163"
     },
     {
@@ -713,7 +713,7 @@
         { "text": "Sólo puede aplicarse a las amenazas condicionales cuando el mal amenazado no es constitutivo de delito.", "correct": false },
         { "text": "Ninguna de las anteriores es válida", "correct": true }
       ],
-      "explanation": "ES: A incorrecto porque no se limita a condicionales; B incorrecto idem; C incorrecto idem; D correcto: Art. 169.3 CP agrava las amenazas por escrito o medios, sin restricción a condicionales. IT: A errato perché non solo minacce condizionali; B errato idem; C errato idem; D corretto secondo art. 169.3 CP.",
+      "explanation": "ES: A incorrecto porque no se limita a condicionales; B incorrecto idem; C incorrecto idem; D correcto: Art. 169.3 CP agrava las amenazas por escrito o medios, sin restricción a condicionales. \nIT: A errato perché non solo minacce condizionali; B errato idem; C errato idem; D corretto secondo art. 169.3 CP.",
       "legal_reference": "Código Penal, Art. 169.3"
     },
     {
@@ -724,7 +724,7 @@
         { "text": "El que, sin estar legítimamente autorizado, impidiere a otro con violencia o intimidación hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere y la ley no le obliga, sea justo o injusto.", "correct": true },
         { "text": "El que exigiere de otro una cantidad o recompensa bajo la amenaza de revelar o difundir hechos referentes a su vida privada o relaciones familiares que no sean públicamente conocidos y puedan afectar a su fama, crédito o interés.", "correct": false }
       ],
-      "explanation": "ES: A incorrecto porque añade ‘prohíbe’ en lugar de ‘no prohíbe’; B incorrecto porque aplica a quien está autorizado; C correcto según texto literal de Art. 172.1 CP; D incorrecto porque describe chantaje (Art. 172.2), no coacciones básicas. IT: A errato perché formula diversa dall’art. 172.1 CP; B errato perché autorizzato non rientra nel tipo; C corretto secondo testo art. 172.1 CP; D errato perché è estorsione/minacce (art. 172.2 CP).",
+      "explanation": "ES: A incorrecto porque añade ‘prohíbe’ en lugar de ‘no prohíbe’; B incorrecto porque aplica a quien está autorizado; C correcto según texto literal de Art. 172.1 CP; D incorrecto porque describe chantaje (Art. 172.2), no coacciones básicas. \nIT: A errato perché formula diversa dall’art. 172.1 CP; B errato perché autorizzato non rientra nel tipo; C corretto secondo testo art. 172.1 CP; D errato perché è estorsione/minacce (art. 172.2 CP).",
       "legal_reference": "Código Penal, Art. 172.1"
     },
     {
@@ -735,7 +735,7 @@
         { "text": "Si el encierro o detención ha durado menos de 12 días.", "correct": false },
         { "text": "Si el encierro o detención ha durado menos de 15 días.", "correct": false }
       ],
-      "explanation": "ES: A correcto: Art. 164 CP prevé pena inferior si la detención dura menos de 3 días y se libera sin lograr objeto; B, C y D incorrectos porque el plazo legal es 3 días, no 10, 12 o 15. IT: A corretto secondo art. 164 CP; B errato perché termine è 3 giorni; C errato idem; D errato idem.",
+      "explanation": "ES: A correcto: Art. 164 CP prevé pena inferior si la detención dura menos de 3 días y se libera sin lograr objeto; B, C y D incorrectos porque el plazo legal es 3 días, no 10, 12 o 15. \nIT: A corretto secondo art. 164 CP; B errato perché termine è 3 giorni; C errato idem; D errato idem.",
       "legal_reference": "Código Penal, Art. 164"
     },
     {
@@ -746,7 +746,7 @@
         { "text": "Con la pena de multa de doce a veinticuatro meses.", "correct": false },
         { "text": "Con la pena de prisión de tres a seis años.", "correct": false }
       ],
-      "explanation": "ES: A incorrecto porque esa escala corresponde a asesinato agravado; B correcto según Art. 138.1 CP; C incorrecto porque no aplica multa; D incorrecto porque no existe pena de 3–6 años para homicidio. IT: A errato perché 10–15 anni è per assassinio aggravato; B corretto secondo art. 138.1 CP; C errato perché non c’è multa; D errato perché nessuna pena 3–6 anni.",
+      "explanation": "ES: A incorrecto porque esa escala corresponde a asesinato agravado; B correcto según Art. 138.1 CP; C incorrecto porque no aplica multa; D incorrecto porque no existe pena de 3–6 años para homicidio. \nIT: A errato perché 10–15 anni è per assassinio aggravato; B corretto secondo art. 138.1 CP; C errato perché non c’è multa; D errato perché nessuna pena 3–6 anni.",
       "legal_reference": "Código Penal, Art. 138.1"
     },
     {
@@ -757,7 +757,7 @@
         { "text": "Por imprudencia grave, menos grave o leve.", "correct": false },
         { "text": "Sólo por imprudencia leve.", "correct": false }
       ],
-      "explanation": "ES: A incorrecto porque también incluye imprudencia menos grave; B correcto: Art. 142 CP tipifica imprudencia grave y menos grave; C incorrecto porque leve no se tipifica; D incorrecto porque no basta la leve. IT: A errato perché include anche meno grave; B corretto secondo art. 142 CP; C errato perché lieve non è punita; D errato perché non solo lieve.",
+      "explanation": "ES: A incorrecto porque también incluye imprudencia menos grave; B correcto: Art. 142 CP tipifica imprudencia grave y menos grave; C incorrecto porque leve no se tipifica; D incorrecto porque no basta la leve. \nIT: A errato perché include anche meno grave; B corretto secondo art. 142 CP; C errato perché lieve non è punita; D errato perché non solo lieve.",
       "legal_reference": "Código Penal, Art. 142"
     },
     {
@@ -768,7 +768,7 @@
         { "text": "En que la coacción tenga por objeto impedir un derecho fundamental o el legítimo disfrute de la vivienda", "correct": true },
         { "text": "En que la coacción tenga la nota de habitualidad", "correct": false }
       ],
-      "explanation": "ES: A incorrecto porque violencia o intimidación son elementos básicos, no agravantes; B incorrecto porque no figura en el Art. 172.3 CP; C correcto: Art. 172.3 CP agrava coacción que impide derechos fundamentales o disfrute de la vivienda; D incorrecto porque habitualidad no se menciona. IT: A errato perché violenza/intimidazione sono base; B errato perché non citato in art. 172.3 CP; C corretto secondo art. 172.3 CP; D errato perché abitudinarietà non è prevista.",
+      "explanation": "ES: A incorrecto porque violencia o intimidación son elementos básicos, no agravantes; B incorrecto porque no figura en el Art. 172.3 CP; C correcto: Art. 172.3 CP agrava coacción que impide derechos fundamentales o disfrute de la vivienda; D incorrecto porque habitualidad no se menciona. \nIT: A errato perché violenza/intimidazione sono base; B errato perché non citato in art. 172.3 CP; C corretto secondo art. 172.3 CP; D errato perché abitudinarietà non è prevista.",
       "legal_reference": "Código Penal, Art. 172.3"
     },
     {
@@ -779,7 +779,7 @@
         { "text": "Un delito de lesiones del artículo 147.2 del Código Penal.", "correct": false },
         { "text": "Todas las anteriores son incorrectas.", "correct": true }
       ],
-      "explanation": "ES: A incorrecto porque Art. 150 CP exige inutilidad de órgano no principal y no siempre aplica a piezas dentarias; B incorrecto porque pérdida de dientes no siempre es deformidad grave (Art. 149); C incorrecto porque Art. 147.2 regula imprudencia leve y menos grave, no supuestos sin tratamiento; D correcto: ninguna de las anteriores encaja plenamente. IT: A errato perché art. 150 CP richiede inutilità di organo non principale, non sempre denti; B errato perché perdita denti non è sempre deformità grave (art. 149); C errato perché art. 147.2 CP riguarda imprudenza; D corretto perché nessuna corrisponde pienamente.",
+      "explanation": "ES: A incorrecto porque Art. 150 CP exige inutilidad de órgano no principal y no siempre aplica a piezas dentarias; B incorrecto porque pérdida de dientes no siempre es deformidad grave (Art. 149); C incorrecto porque Art. 147.2 regula imprudencia leve y menos grave, no supuestos sin tratamiento; D correcto: ninguna de las anteriores encaja plenamente. \nIT: A errato perché art. 150 CP richiede inutilità di organo non principale, non sempre denti; B errato perché perdita denti non è sempre deformità grave (art. 149); C errato perché art. 147.2 CP riguarda imprudenza; D corretto perché nessuna corrisponde pienamente.",
       "legal_reference": "Código Penal, Art. 147.2; Art. 149; Art. 150"
     },
     {
@@ -790,7 +790,7 @@
         { "text": "Al suicidio de cualquier persona.", "correct": false },
         { "text": "Al suicidio de personas menores de edad.", "correct": false }
       ],
-      "explanation": "ES: A incorrecto porque Art. 143 bis CP se centra en la incitación al suicidio, no a conductas delictivas generales; B correcto según Art. 143 bis.1 CP (menores y personas con discapacidad); C incorrecto porque no abarca a cualquier persona, solo vulnerables; D incorrecto porque excluye personas con discapacidad mayores de edad. IT: A errato perché art. 143 bis CP riguarda solo suicidio; B corretto secondo art. 143 bis.1 CP; C errato perché non vale per tutti, solo vulnerabili; D errato perché esclude disabili protetti.",
+      "explanation": "ES: A incorrecto porque Art. 143 bis CP se centra en la incitación al suicidio, no a conductas delictivas generales; B correcto según Art. 143 bis.1 CP (menores y personas con discapacidad); C incorrecto porque no abarca a cualquier persona, solo vulnerables; D incorrecto porque excluye personas con discapacidad mayores de edad. \nIT: A errato perché art. 143 bis CP riguarda solo suicidio; B corretto secondo art. 143 bis.1 CP; C errato perché non vale per tutti, solo vulnerabili; D errato perché esclude disabili protetti.",
       "legal_reference": "Código Penal, Art. 143 bis"
     },
     {
@@ -801,7 +801,7 @@
         { "text": "Causar una grave deformidad o una grave enfermedad somática o psíquica.", "correct": false },
         { "text": "Todas las respuestas son correctas.", "correct": true }
       ],
-      "explanation": "ES: A, B y C son todos supuestos incluidos en Art. 149.1ª, 1.b y 1.c CP, por lo que D correcto: el tipo hiperagravado engloba pérdida de órgano/sentido, impotencia/esterilidad y deformidad/enfermedad grave. IT: A, B e C rientrano tutti nei casi dell’art. 149.1ª–c CP, quindi D è corretto: il tipo iperaggravato comprende tutte queste evenienze.",
+      "explanation": "ES: A, B y C son todos supuestos incluidos en Art. 149.1ª, 1.b y 1.c CP, por lo que D correcto: el tipo hiperagravado engloba pérdida de órgano/sentido, impotencia/esterilidad y deformidad/enfermedad grave. \nIT: A, B e C rientrano tutti nei casi dell’art. 149.1ª–c CP, quindi D è corretto: il tipo iperaggravato comprende tutte queste evenienze.",
       "legal_reference": "Código Penal, Art. 149"
     },
     {
@@ -812,7 +812,7 @@
         { "text": "Un delito de aborto", "correct": false },
         { "text": "No estaría cometiendo delito alguno, tratándose de una conducta impune", "correct": false }
       ],
-      "explanation": "ES: A incorrecto porque no es homicidio (carece de la intención típica de matar con voluntad dolosa); B correcto: Art. 145 CP sanciona aborto fuera de supuestos, asimilable a asesinato técnico; C incorrecto porque se trata de aborto ilícito, no genérico; D incorrecto porque sí hay delito según Art. 145. IT: A errato perché manca dolo di uccidere; B corretto secondo art. 145 CP come omicidio tecnico; C errato perché è reato di aborto illecito; D errato perché è penalmente rilevante.",
+      "explanation": "ES: A incorrecto porque no es homicidio (carece de la intención típica de matar con voluntad dolosa); B correcto: Art. 145 CP sanciona aborto fuera de supuestos, asimilable a asesinato técnico; C incorrecto porque se trata de aborto ilícito, no genérico; D incorrecto porque sí hay delito según Art. 145. \nIT: A errato perché manca dolo di uccidere; B corretto secondo art. 145 CP come omicidio tecnico; C errato perché è reato di aborto illecito; D errato perché è penalmente rilevante.",
       "legal_reference": "Código Penal, Art. 145"
     },
     {
@@ -823,7 +823,7 @@
         { "text": "Si la víctima fuere menor de catorce años o persona con discapacidad necesitada de especial protección.", "correct": false },
         { "text": "Si la víctima tuviere cualquier relación de afinidad con el autor", "correct": true }
       ],
-      "explanation": "ES: A incorrecto (Art. 148.1ª CP incluye uso de medios peligrosos); B incorrecto (ensañamiento y alevosía son agravantes, Art. 148.1ª); C incorrecto (menor de 14 o vulnerable, Art. 148.1ª); D correcto porque la afinidad no figura en Art. 148 como agravante. IT: A errato perché art. 148.1ª CP comprende mezzi pericolosi; B errato perché crudeltà/alevosìa ci sono; C errato perché minori e vulnerabili sì; D corretto perché affinità non è aggravante.",
+      "explanation": "ES: A incorrecto (Art. 148.1ª CP incluye uso de medios peligrosos); B incorrecto (ensañamiento y alevosía son agravantes, Art. 148.1ª); C incorrecto (menor de 14 o vulnerable, Art. 148.1ª); D correcto porque la afinidad no figura en Art. 148 como agravante. \nIT: A errato perché art. 148.1ª CP comprende mezzi pericolosi; B errato perché crudeltà/alevosìa ci sono; C errato perché minori e vulnerabili sì; D corretto perché affinità non è aggravante.",
       "legal_reference": "Código Penal, Art. 148"
     },
     {
