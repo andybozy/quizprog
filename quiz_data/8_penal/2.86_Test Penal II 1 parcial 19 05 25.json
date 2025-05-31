@@ -576,12 +576,12 @@
     {
       "question": "¿Cuál de los siguientes delitos lleva aparejada una mayor pena, conforme a lo previsto en nuestro Código Penal?",
       "answers": [
-        { "text": "La utilización de la ingeniería genética para producir armas biológicas o exterminadoras de la especie humana.", "correct": false },
+        { "text": "La utilización de la ingeniería genética para producir armas biológicas o exterminadoras de la especie humana.", "correct": true },
         { "text": "Los que, con finalidad distinta a la eliminación o disminución de taras o enfermedades graves, manipules genes humanos de manera que se altere el genotipo.", "correct": false },
-        { "text": "La creación de seres humanos idénticos por clonación u otros procedimientos dirigidos a la selección de la raza.", "correct": true },
+        { "text": "La creación de seres humanos idénticos por clonación u otros procedimientos dirigidos a la selección de la raza.", "correct": false },
         { "text": "La fecundación de óvulos humanos con cualquier fin distinto a la procreación humana.", "correct": false }
       ],
-      "explanation": "ES: A incorrecto porque art. 156 CP menciona clonación con fines exterminadores pero clasifica modulación genética y fecundación distinta de procreación con penas menores; B incorrecto porque alterar genotipo sin taras graves está penalizado pero con pena inferior; C correcto: clonación o selección racial conlleva pena más alta según Art. 156.2 CP; D incorrecto porque fecundación distinta de procreación es Art. 160.2 CP con pena inferior. \nIT: A errato perché ingegneria genetica per armi è punita ma non come clonazione umana; B errato perché manipolare genotipo per fini diversi è punito meno severamente; C corretto: clonazione umana o selezione di razza prevede pena maggiore (art. 156.2 CP); D errato perché fecondazione non procreativa è art. 160.2 CP con pena minore.",
+      "explanation": "ES:\nA incorrecto porque el art. 156 CP menciona la clonación con fines exterminadores, pero clasifica la manipulación genética y la fecundación con fines distintos a la procreación con penas menores;\nB incorrecto porque alterar el genotipo sin finalidad de eliminar taras o enfermedades graves está penalizado, pero con pena inferior;\nC correcto: la clonación o selección racial conlleva una pena más alta según el art. 156.2 CP;\nD incorrecto porque la fecundación con fines distintos a la procreación corresponde al art. 160.2 CP, que establece una pena menor.\nIT:\nA errato perché l’ingegneria genetica per produrre armi è punita ma non con la stessa pena della clonazione umana;\nB errato perché manipolare il genotipo per fini diversi dall’eliminazione di tarli o malattie gravi è punito meno severamente;\nC corretto: la clonazione umana o selezione della razza prevede una pena maggiore (art. 156.2 CP);\nD errato perché la fecondazione con fini non procreativi è disciplinata dall’art. 160.2 CP, che prescrive una pena inferiore.",
       "legal_reference": "Código Penal, Art. 156.2"
     },
     {
