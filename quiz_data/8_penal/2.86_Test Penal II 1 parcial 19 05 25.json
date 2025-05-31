@@ -655,8 +655,8 @@
       "answers": [
         { "text": "A una interpretación restrictiva sobre la intención que el sujeto tiene de llevar a cabo, o no, el mal que amenaza.", "correct": false },
         { "text": "A la enumeración que el mismo delito de amenazas hace de los posibles bienes jurídicos afectados.", "correct": false },
-        { "text": "Al límite legal impuesto por el mismo delito, que los circunscribe a los delitos contra la vida y la integridad física.", "correct": false },
-        { "text": "Al límite legal impuesto por el mismo delito, que los circunscribe a los delitos contra la vida, la integridad física y el patrimonio.", "correct": true }
+        { "text": "Al límite legal impuesto por el mismo delito, que los circunscribe a los delitos contra la vida y la integridad física.", "correct": true },
+        { "text": "Al límite legal impuesto por el mismo delito, que los circunscribe a los delitos contra la vida, la integridad física y el patrimonio.", "correct": false }
       ],
       "explanation": "ES: A incorrecto porque no se trata de intención sino de qué delitos amenaza; B incorrecto porque el art. 169 no enumera bienes jurídicos de forma exhaustiva; C incorrecto porque incluye también patrimonio; D correcto según Art. 169 CP (vida, integridad física y patrimonio entre otros). \nIT: A errato perché non si basa sull’intenzione; B errato perché non elenca tutti i beni; C errato perché patrimonio è incluso; D corretto secondo art. 169 CP.",
       "legal_reference": "Código Penal, Art. 169"
@@ -1478,8 +1478,8 @@
       "question": "55. Ante amenazas de causar un mal constitutivo de delito, con el fin de precisar cuál es el delito referido, hay que ajustarse:",
       "answers": [
         {"text": "A una interpretación restrictiva sobre la intención que el sujeto tiene de llevar a cabo, o no, el mal que amenaza.", "correct": false},
-        {"text": "A la enumeración que el mismo delito de amenazas hace de los posibles bienes jurídicos afectados.", "correct": true},
-        {"text": "Al límite legal impuesto por el mismo delito, que los circunscribe a los delitos contra la vida y la integridad física.", "correct": false},
+        {"text": "A la enumeración que el mismo delito de amenazas hace de los posibles bienes jurídicos afectados.", "correct": false},
+        {"text": "Al límite legal impuesto por el mismo delito, que los circunscribe a los delitos contra la vida y la integridad física.", "correct": true},
         {"text": "Al límite legal impuesto por el mismo delito, que los circunscribe a los delitos contra la vida, la integridad física y el patrimonio.", "correct": false}
       ],
       "explanation": "ES:\nA: Errónea – no se basa en intención sino en el tipo legal.\nB: Correcta – el art. 169.1 enumera los bienes jurídicos amenazados (vida, integridad, libertad, patrimonio, etc.).\nC: Errónea – no se limita sólo a vida/integridad.\nD: Errónea – incluye más bienes que vida, integridad y patrimonio.\nIT:\nA: Errata – non si basa sull’intenzione ma sul testo legale.\nB: Corretta – l’art. 169.1 elenca i beni giuridici minacciati.\nC: Errata – non si limita a vita/integrità.\nD: Errata – include altri beni oltre a vita, integrità e patrimonio.",
