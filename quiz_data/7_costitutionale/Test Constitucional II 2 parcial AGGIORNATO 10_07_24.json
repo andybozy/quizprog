@@ -234,11 +234,11 @@
       "question": "El bloque de la Constitución",
       "answers": [
         { "text": "No existe en el sistema jurídico español, es una institución alemana", "correct": false },
-        { "text": "Se reconoce en España y proviene del Derecho Italiano", "correct": true },
+        { "text": "Se reconoce en España y proviene del Derecho Italiano", "correct": false },
         { "text": "Solo recoge el articulado constitucional", "correct": false },
-        { "text": "Todas las anteriores son incorrectas", "correct": false }
+        { "text": "Todas las anteriores son incorrectas", "correct": true }
       ],
-      "explanation": "ES: La doctrina del 'bloque de constitucionalidad' fue incorporada por el Tribunal Constitucional inspirado en la tradición italiana. \nIT: La dottrina del 'blocco di costituzionalità' è stata incorporata dal Tribunale Costituzionale ispirato alla tradizione italiana.",
+      "explanation": "viene dalla francia non dallitalia noi abbiamo: “norma interposta”, con caratteristiche proprie, e non si deve confondere con il blocco di costituzionalità alla francese. Pertanto, sebbene anche la giurisprudenza italiana abbia sviluppato strumenti per integrare fonti sovraordinate, il modello spagnolo è chiaramente ispirato a quello francese e non a quello italiano.\n\nES: La doctrina del 'bloque de constitucionalidad' fue incorporada por el Tribunal Constitucional inspirado en la tradición italiana. \nIT: La dottrina del 'blocco di costituzionalità' è stata incorporata dal Tribunale Costituzionale ispirato alla tradizione italiana.",
       "legal_reference": "STC 6/1981 del Tribunal Constitucional",
       "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
     },

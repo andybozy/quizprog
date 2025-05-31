@@ -17,12 +17,12 @@
     {
       "question": "La consideración de la constitución como norma jurídica superior a todas las demás normas en constitucional al constitucionalismo",
       "answers": [
-        { "text": "de la francia revolucionaria y en concreto de la constitución de 1791 que declara expresamente su carácter normativos u condición de norma suprema del ordenamiento", "correct": false },
+        { "text": "de la francia revolucionaria y en concreto de la constitución de 1791 que declara expresamente su carácter normativos u condición de norma suprema del ordenamiento", "correct": true },
         { "text": "de alemania y austria en el siglo XIX", "correct": false },
         { "text": "de gran bretaña donde desde el siglo XVII se proclama la supremacía y superioridad de la constitución", "correct": false },
-        { "text": "de los estados unidos donde a principios del siglo XIX el tribunal supremo en la sentencia madison versus marshall declara la constitución como norma suprema del ordenamiento a la que todos los poderes se encuentran sometidos", "correct": true }
+        { "text": "de los estados unidos donde a principios del siglo XIX el tribunal supremo en la sentencia madison versus marshall declara la constitución como norma suprema del ordenamiento a la que todos los poderes se encuentran sometidos", "correct": false }
       ],
-      "explanation": "ES: A. La CE de 1791 no instituyó control judicial de constitucionalidad; B. Alemania y Austria no desarrollaron este principio en el XIX; C. Gran Bretaña carece de constitución codificada y suprema; D. Correcta: Marbury v. Madison (1803) señaló la supremacía constitucional. \nIT: A. La Costituzione del 1791 non istituì il controllo giudiziario; B. Germania e Austria non svilupparono questo principio nel XIX secolo; C. Gran Bretagna non ha una costituzione codificata e suprema; D. Corretta: Marbury v. Madison (1803) sancì la supremazia costituzionale.",
+      "explanation": "Tra le quattro opzioni proposte, la [D] “Francia rivoluzionaria e, in particolare, la Costituzione del 1791” è la risposta corretta. È il primo esempio – in ordine cronologico – di una Costituzione scritta che dichiara espressamente il proprio carattere di norma suprema rispetto a tutte le altre leggi dello Stato.\nLe altre alternative ([A] USA – 1803;\n[B] Germania/Austria – a partire dal 1850/1861;\n[C] Gran Bretagna – XVIII secolo) pongono esempi di soggiacimento al valore costituzionale o di fonte giuridica forte, ma:\n[A] in realtà si riferisce a madison non a merbury??? \n(USA): il Supremacy Clause è parte del testo del 1787, ma la sua applicazione effettiva (Marbury v. Madison) arriva solo nel 1803 e non rappresenta la prima formulazione storica di supremazia costituzionale.\n[B] (Prussia 1850, Austria 1861): nascono dopo la Francia 1791, perciò cronologicamente posteriori e non “prime” nell’affermare la supremazia costituzionale.\n[C] (Gran Bretagna): il sistema è basato sulla sovranità parlamentare e non su una Costituzione formale superiore; non viene proclamata la “supremazia della Costituzione” come norma assoluta.",
       "legal_reference": "Marbury v. Madison, 5 U.S. (1 Cranch) 137 (1803)",
       "original_file": "Test Constitucional II 1 parcial AGGIORNATO 11 06 24"
     },
@@ -614,8 +614,8 @@
       "answers": [
         { "text": "El sujeto de la Constitución son los ciudadanos, el objeto de es la convivencia y el contenido es el conjunto territorial.", "correct": false },
         { "text": "El sujeto de la Constitución es el Estado, el objeto la estructura jurídica para regular una convivencia y el contenido es la división de la Constitución en tres partes.", "correct": false },
-        { "text": "El sujeto de la Constitución es la propia Constitución pues es la que regula el sistema, el objeto es una estabilidad estatal y el contenido es la organización juridico-política y la estructura social.", "correct": false },
-        { "text": "Todas son correctas.", "correct": true }
+        { "text": "El sujeto de la Constitución es la propia Constitución pues es la que regula el sistema, el objeto es una estabilidad estatal y el contenido es la organización juridico-política y la estructura social.", "correct": true },
+        { "text": "Todas son correctas.", "correct": false }
       ],
       "explanation": "ES: A,B,C. Cada enfoque es doctrinalmente válido; D. Correcta: todas pueden considerarse correctas según distintas doctrinas.  \nIT: A,B,C. Ogni approccio ha validità dottrinale; D. Corretta: tutte sono valide in contesti diversi.",
       "legal_reference": "J. Pérez Royo, “Lecciones de Derecho Constitucional”, cap. 1",
