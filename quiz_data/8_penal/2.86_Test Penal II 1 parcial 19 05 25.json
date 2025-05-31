@@ -1141,9 +1141,9 @@
     {
       "question": "El asesinato se castigará con pena",
       "answers": [
-        {"text": "De prisión de quince a veinticinco años", "correct": true},
-        {"text": "De prisión de veinte años y un día a veinticinco años cuando concurran varias circunstancias del art. 139", "correct": true},
-        {"text": "Con pena de prisión permanente revisable cuando concurra alguna circunstancia del art. 140 CP", "correct": true},
+        {"text": "De prisión de quince a veinticinco años", "correct": false},
+        {"text": "De prisión de veinte años y un día a veinticinco años cuando concurran varias circunstancias del art. 139", "correct": false},
+        {"text": "Con pena de prisión permanente revisable cuando concurra alguna circunstancia del art. 140 CP", "correct": false},
         {"text": "Todas las anteriores son válidas", "correct": true}
       ],
       "explanation": "ES: Según art. 139.1 CP, la pena básica es de 15 a 25 años; art. 139.2 establece 20 años y un día a 25 años si concurren varias circunstancias; y el art. 140 CP prevé prisión permanente revisable en supuestos tasados . \nIT: L’art. 139.1 CP prevede 15-25 anni; l’art. 139.2, 20 anni e un giorno-25 anni per più circostanze; e l’art. 140 CP introduce la pena di reclusione permanente revisabile in casi specifici .",
@@ -1177,45 +1177,45 @@
     {
       "question": "Para la apreciación de la circunstancia de precio, recompensa o promesa:",
       "answers": [
-        {"text": "Puede preceder a la realización del delito, incluyendo ulteriores gratificaciones, ya sean espontáneas o solicitadas", "correct": true},
+        {"text": "Puede preceder a la realización del delito, incluyendo ulteriores gratificaciones, ya sean espontáneas o solicitadas", "correct": false},
         {"text": "Ha de preceder a la realización del delito, con medios consistentes, sin necesidad de aceptación por parte del mandatario", "correct": false},
         {"text": "Ha de preceder a la realización del delito, sin medios consistentes y aceptados por el mandatario", "correct": false},
-        {"text": "Ha de preceder a la realización del delito, con medios consistentes, aceptados por el mandatario y con indiferencia de quién tome la iniciativa", "correct": false}
+        {"text": "Ha de preceder a la realización del delito, con medios consistentes, aceptados por el mandatario y con indiferencia de quién tome la iniciativa", "correct": true}
       ],
-      "explanation": "ES: La opción A es correcta porque el artículo 139.1 CP no exige que el precio o promesa se limite al momento del acuerdo inicial, sino que puede incluir gratificaciones posteriores, espontáneas o pactadas. B, C y D son erróneas: el texto legal no impone requisitos adicionales sobre la forma o aceptación de los medios por el ejecutor. \nIT: L’opzione A è corretta: l’art.139.1 CP ammette che il prezzo o promessa preceda il reato e includa gratificazioni successive, spontanee o richieste. B, C e D aggiungono condizioni non previste dalla norma.",
+      "explanation": "ES: La opción D es correcta porque el artículo 139.1 CP establece que la circunstancia de precio, recompensa o promesa ha de preceder a la realización del delito, con medios consistentes, aceptados por el autor del hecho, e independientemente de quién inicie la propuesta. A es incorrecta porque dice que puede incluir gratificaciones posteriores o espontáneas, cuando en realidad deben darse antes de cometer el delito; B es incorrecta porque niega la necesidad de aceptación por parte del agente; C es incorrecta porque niega la necesidad de que los medios sean consistentes y aceptados por el autor.\nIT: L’opzione D è corretta perché l’art. 139.1 CP richiede che il prezzo, la ricompensa o la promessa precedano la realizzazione del reato, consistano in mezzi concreti e siano accettati dall’autore del fatto, indipendentemente da chi prenda l’iniziativa. A è errata perché ammette gratificazioni successive o spontanee, mentre devono avvenire prima del reato; B è errata perché nega la necessità del consenso dell’esecutore; C è errata perché nega la necessità di mezzi consistenti e accettati.",
       "legal_reference": "Código Penal, art. 139.1",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
       "question": "¿Es de aplicación la circunstancia de ensañamiento cuando:",
       "answers": [
-        {"text": "La víctima esté viva, ya que los actos de sadismo sobre el cadáver no integran este elemento", "correct": true},
+        {"text": "La víctima esté viva, ya que los actos de sadismo sobre el cadáver no integran este elemento", "correct": false},
         {"text": "La víctima esté viva o muerta, porque aumenta deliberada e inhumanamente el dolor", "correct": false},
-        {"text": "Consiste en aumentar deliberada e inhumanamente el dolor de la víctima", "correct": true},
+        {"text": "Consiste en aumentar deliberada e inhumanamente el dolor de la víctima", "correct": false},
         {"text": "Las respuestas A y C son correctas", "correct": true}
       ],
-      "explanation": "ES: A y C son correctas: el art.22.3 CP define el ensañamiento como aumento deliberado e inhumano del dolor y se exige que la víctima esté viva (no aplica al cadáver). B es falsa: no se aplica tras la muerte. D reúne A y C, por tanto también es verdadera. \nIT: A e C sono giuste: l’art.22.3 CP stabilisce che il sadismo consiste nell’aumentare deliberatamente e inumanamente il dolore ed è richiesto che la vittima sia viva. B è errata; D è vera perché comprende A e C.",
+      "explanation": "",
       "legal_reference": "Código Penal, art. 22.3",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
       "question": "El asesinato será castigado con pena de prisión permanente revisable cuando concurra alguna de las siguientes circunstancias. Señale la falsa:",
       "answers": [
-        {"text": "Que la víctima sea menor de 14 años, o persona especialmente vulnerable", "correct": false},
+        {"text": "Que la víctima sea menor de 14 años, o persona especialmente vulnerable", "correct": true},
         {"text": "Que el hecho fuera subsiguiente a un delito contra la libertad sexual cometido sobre la víctima", "correct": false},
         {"text": "Que el delito se hubiera cometido por quien perteneciera a un grupo u organización criminal", "correct": false},
-        {"text": "Que el reo de asesinato hubiese sido condenado por la muerte de más de dos personas", "correct": true}
+        {"text": "Que el reo de asesinato hubiese sido condenado por la muerte de más de dos personas", "correct": false}
       ],
-      "explanation": "ES: La D es falsa: el art.140 CP no menciona la reiteración de homicidios previos, sino los supuestos tasados a) víctima menor o especialmente vulnerable, b) tras delito sexual, c) por dirigente de organización criminal, d) por alevosía u otros previstos en ese artículo. A, B y C son verdaderas. \nIT: D è falsa: l’art.140 CP non include la recidiva di aver ucciso più di due persone; include invece i casi di vittima vulnerabile, reato sessuale precedente e appartenenza a organizzazione criminale. A, B e C sono vere.",
+      "explanation": "La opción a) es falsa. El artículo 140.1 CP exige que la víctima tenga menos de dieciséis años o sea especialmente vulnerable, no «menos de catorce» \nCódigo Penal España\nConceptos Jurídicos\n. Las demás opciones recogen fielmente circunstancias que activan la prisión permanente revisable:\nb) Verdadera: el asesinato posterior a un delito contra la libertad sexual sobre la misma víctima \nCódigo Penal España\nConceptos Jurídicos\n.\nc) Verdadera: cuando el autor pertenece a grupo u organización criminal\nCódigo Penal España\nConceptos Jurídicos\n.\nd) Verdadera: al reo de asesinato condenado por la muerte de más de dos personas se le impone PPR \nBlanco Tovar Abogados\nes.wikipedia.org\n.",
       "legal_reference": "Código Penal, art. 140",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
       "question": "La inducción al suicidio consiste en:",
       "answers": [
-        {"text": "Instigar o mover al suicidio, aunque el ánimo del inducido estuviera predispuesto pero no decidido", "correct": true},
+        {"text": "Instigar o mover al suicidio, aunque el ánimo del inducido estuviera predispuesto pero no decidido", "correct": false},
         {"text": "Instigar o mover al suicidio solo si el ánimo del inducido ya estuviera totalmente predispuesto", "correct": false},
-        {"text": "Instigar o mover al suicidio de forma que siempre sea necesaria su intervención", "correct": true},
+        {"text": "Instigar o mover al suicidio de forma que siempre sea necesaria su intervención", "correct": false},
         {"text": "Las respuestas A y C son correctas", "correct": true}
       ],
       "explanation": "ES: El art.143 CP define la inducción al suicidio como instigar o mover al suicidio, incluso si la víctima ya estaba predispuesta pero no decidida, y requiere que la intervención del agente sea esencial y determinante. A y C reflejan esos elementos. B es errada: no exige ánimo totalmente decidido. D, al reunir A y C, también es cierta. \nIT: A e C sono corrette: l’art.143 CP prevede l’istigazione al suicidio anche quando la vittima è predisposta ma non decisa, e richiede intervento essenziale e determinante. B è sbagliata; D è vera perché raggruppa A e C.",
@@ -1239,8 +1239,8 @@
       "answers": [
         {"text": "Auxilio activo a morir sin acortamiento de la vida", "correct": false},
         {"text": "Auxilio activo a morir con acortamiento de la vida, aunque la intención de adelantar el fallecimiento esté ausente", "correct": false},
-        {"text": "Acción dirigida al acortamiento de la vida ante un proceso doloroso e insufrible", "correct": true},
-        {"text": "Asistencia con medios que prolongan artificialmente la vida, discutiéndose cuándo interrumpirlos", "correct": false}
+        {"text": "La acción está dirigida al acortamiento de la vida, ante un proceso doloroso, juzgado insufrible, al que se conecta un pronóstico infausto, no pudiendo desconocerse la tipicidad de la conducta.", "correct": true},
+        {"text": "Se aprecia en los casos en que el paciente es asistido con medios que prolongan artificialmente la vida, discutiéndose hasta cuando ha de mantenerse el tratamiento y en qué momento puede interrumpirse.", "correct": false}
       ],
       "explanation": "ES: Según la Ley Orgánica 3/2021 de regulación de la eutanasia, la eutanasia auténtica (o directa) implica un acto médico cuyo fin explícito es provocar la muerte de forma activa, ante sufrimiento insoportable y pronóstico fatal. C recoge esa definición. A y B describen la eutanasia indirecta o paliativa; D se refiere a eutanasia pasiva. \nIT: C è corretta: la L.O. 3/2021 definisce la eutanasia autentica (diretta) come atto medico mirato a provocare la morte di fronte a sofferenza insopportabile e prognosi infausta. A e B descrivono eutanasia indiretta o cure palliative; D corrisponde alla eutanasia passiva.",
       "legal_reference": "Ley Orgánica 3/2021, de 24 de marzo, reguladora de la eutanasia",
@@ -1249,7 +1249,7 @@
     {
       "question": "La eutanasia indirecta supone:",
       "answers": [
-        {"text": "Auxilio activo a morir sin acortamiento de la vida, mediante lenitivos o analgésicos", "correct": true},
+        {"text": "El auxilio activo a morir sin acortamiento de la vida, tratando de mitigar el sufrimiento del enfermo, mediante lenitivos o analgésicos, control de la sofocación y prestación de asistencia psicológica.", "correct": true},
         {"text": "Acción dirigida al acortamiento de la vida con pronóstico infausto", "correct": false},
         {"text": "Asistencia con medios que prolongan artificialmente la vida, debatiéndose su interrupción", "correct": false},
         {"text": "Auxilio activo a morir con acortamiento de la vida, aunque la intención esté ausente", "correct": false}
