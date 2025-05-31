@@ -512,8 +512,8 @@
       "answers": [
         { "text": "Una lesión.", "correct": false },
         { "text": "Una enfermedad que perjudique gravemente su normal desarrollo.", "correct": false },
-        { "text": "Su muerte.", "correct": true },
-        { "text": "Las respuestas a) y b) son correctas.", "correct": false }
+        { "text": "Su muerte.", "correct": false },
+        { "text": "Las respuestas a) y b) son correctas.", "correct": true }
       ],
       "explanation": "ES: A incorrecto porque 157 CP tipifica solo la muerte del feto; B incorrecto idem; C correcto tal como establece Art. 157.1ª CP; D incorrecto porque A y B no sonConductas penadas en ese artículo. \nIT: A errato perché art. 157 CP punisce solo morte del feto; B errato per lo stesso motivo; C corretto secondo art. 157.1ª CP; D errato perché A e B non rientrano in quel comma.",
       "legal_reference": "Código Penal, Art. 157"
