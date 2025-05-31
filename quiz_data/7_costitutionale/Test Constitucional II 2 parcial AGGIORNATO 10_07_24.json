@@ -713,12 +713,12 @@
     {
       "question": "¿Qué es la reforma simple de la Constitución Española?",
       "answers": [
-        { "text": "Un procedimiento para modificar la Constitución que solo requiere la mayoría absoluta del Congreso de los Diputados.", "correct": true },
-        { "text": "Un procedimiento para modificar la Constitución que requiere la mayoría absoluta del Senado.", "correct": false },
+        { "text": "Un procedimiento para modificar la Constitución que solo requiere la mayoría absoluta del Congreso de los Diputados.", "correct": false },
+        { "text": "Un procedimiento para modificar la Constitución que requiere la mayoría absoluta del Senado.", "correct": true },
         { "text": "Un procedimiento para modificar la Constitución que requiere la mayoría absoluta de las Cortes Generales en dos lecturas consecutivas.", "correct": false },
         { "text": "Un procedimiento para modificar la Constitución que requiere la aprobación de dos tercios de las Cortes Generales en\nuna única votación.", "correct": false }
       ],
-      "explanation": "ES:  A: Correcta, Art. 167 CE exige mayoría absoluta en cada Cámara. B: Incorrecta, Senado no actúa solo. C: Incorrecta, no son dos lecturas consecutivas con mayoría absoluta. D: Incorrecta, esa es reforma agravada (Art. 168).\nIT: A: Corretta, CE Art. 167 richiede maggioranza assoluta in ciascuna Camera. B: Errata, il Senato non agisce da solo. C: Errata, non sono due letture con maggioranza assoluta. D: Errata, è procedura aggravata (CE Art. 168).",
+      "explanation": "ES:  A: Correcta, Art. 167 CE exige mayoría 3/5 en cada Cámara. B: Incorrecta, Senado no actúa solo. C: Incorrecta, no son dos lecturas consecutivas con mayoría absoluta. D: Incorrecta, esa es reforma agravada (Art. 168).\nIT: A: Corretta, CE Art. 167 richiede maggioranza assoluta in ciascuna Camera. B: Errata, il Senato non agisce da solo. C: Errata, non sono due letture con maggioranza assoluta. D: Errata, è procedura aggravata (CE Art. 168).",
       "legal_reference": "Constitución Española, Art. 167",
       "original_file": "Test Constitucional II 2 parcial AGGIORNATO 27_05_25.docx"
     },
