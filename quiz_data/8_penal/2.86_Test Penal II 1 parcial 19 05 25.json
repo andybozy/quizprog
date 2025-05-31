@@ -5,7 +5,7 @@
     {
       "question": "¿Cuál de los siguientes no es un requisito del delito de participación en riña del art. 154 CP?",
       "answers": [
-        {"text"  : "Que se cometa por dolo o imprudencia", "correct": true},
+        {"text": "Que se cometa por dolo o imprudencia", "correct": true},
         {"text": "Que el acometimiento sea tumultuario", "correct": false},
         {"text": "Que se utilicen medios que pongan en peligro la vida", "correct": false},
         {"text": "Que se utilicen instrumentos que pongan en peligro la integridad de las personas", "correct": false}
@@ -17,7 +17,7 @@
     {
       "question": "Con respecto al delito de detención ilegal tipificado en el art. 163 del CP, ¿cuándo se impondrá la pena inferior en grado según su apartado segundo?",
       "answers": [
-        {"text"  : "Si el encierro durare menos de quince días", "correct": false},
+        {"text": "Si el encierro durare menos de quince días", "correct": false},
         {"text": "Si se pusiera en libertad al detenido dentro de los tres primeros días", "correct": true},
         {"text": "Si se pusiera a la persona inmediatamente ante la autoridad", "correct": false},
         {"text": "Ninguna de las anteriores es correcta", "correct": false}
@@ -29,7 +29,7 @@
     {
       "question": "El delito de secuestro del artículo 164 del CP exige para su sanción que:",
       "answers": [
-        {"text"  : "Se haya exigido alguna condición para poner en libertad a la persona", "correct": true},
+        {"text": "Se haya exigido alguna condición para poner en libertad a la persona", "correct": true},
         {"text": "Se haya tenido a la persona privada de libertad más de quince días", "correct": false},
         {"text": "Se haya tenido a la persona retenida más de tres días", "correct": false},
         {"text": "Todas las anteriores son correctas", "correct": false}
@@ -41,7 +41,7 @@
     {
       "question": "Según el artículo 169 CP (amenazas), ¿cuál de los siguientes no es uno de los delitos que deben amenazarse para sancionar la conducta?",
       "answers": [
-        {"text"  : "Lesiones", "correct": false},
+        {"text": "Lesiones", "correct": false},
         {"text": "Contra la imagen", "correct": true},
         {"text": "Aborto", "correct": false},
         {"text": "Tortura", "correct": false}
@@ -53,7 +53,7 @@
     {
       "question": "El artículo 172.2 de la LECRIM sanciona al que, de modo leve, coaccione a:",
       "answers": [
-        {"text"  : "A la esposa", "correct": false},
+        {"text": "A la esposa", "correct": false},
         {"text": "A una persona especialmente vulnerable que conviva con el autor", "correct": false},
         {"text": "A la ex esposa", "correct": false},
         {"text": "Todas las anteriores son correctas", "correct": true}
@@ -65,7 +65,7 @@
     {
       "question": "El homicidio cometido por imprudencia menos grave solo será perseguible mediante denuncia de la persona agraviada o de su representante legal, salvo en los casos en que se produzca:",
       "answers": [
-        {"text"  : "Utilizando un arma de fuego", "correct": false},
+        {"text": "Utilizando un arma de fuego", "correct": false},
         {"text": "Utilizando vehículo a motor o ciclomotor", "correct": true},
         {"text": "Cometiendo imprudencia profesional", "correct": false},
         {"text": "Ninguna de las anteriores es correcta", "correct": false}
@@ -75,9 +75,9 @@
       "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
-      "question": "En los supuestos del artículo 143, apartados 2 y 3 (cooperación al suicidio), es preciso que:",
+      "question": "señale la respuesta incorrecta. En los supuestos del artículo 143, apartados 2 y 3 (cooperación al suicidio), es preciso que:",
       "answers": [
-        {"text"  : "Los actos con los que se coopere sean necesarios para el suicidio", "correct": false},
+        {"text": "Los actos con los que se coopere sean necesarios para el suicidio", "correct": false},
         {"text": "La cooperación llegara hasta el punto de ejecutar la muerte", "correct": false},
         {"text": "Anteriormente haya existido una inducción al suicidio", "correct": true},
         {"text": "El sujeto activo y pasivo sea genérico", "correct": false}
@@ -87,9 +87,9 @@
       "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
-      "question": "El artículo 143.4 CP sanciona con pena inferior en uno o dos grados al que coopere activamente con actos necesarios y directos a la muerte de otra persona si esta:",
+      "question": "señale la respuesta incorrecta.  El artículo 143.4 CP sanciona con pena inferior en uno o dos grados al que coopere activamente con actos necesarios y directos a la muerte de otra persona si esta:",
       "answers": [
-        {"text"  : "Tiene un padecimiento grave crónico e imposibilitante", "correct": false},
+        {"text": "Tiene un padecimiento grave crónico e imposibilitante", "correct": false},
         {"text": "Tiene una enfermedad grave e incurable con sufrimientos físicos constantes", "correct": false},
         {"text": "Tiene una enfermedad grave e incurable con sufrimientos psíquicos constantes", "correct": false},
         {"text": "Tiene un padecimiento grave e imposibilitante sea crónico o no", "correct": true}
@@ -99,9 +99,9 @@
       "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
-      "question": "El artículo 143 BIS CP sanciona la incitación al suicidio de:",
+      "question": "señale la respuesta correcta, El artículo 143 BIS CP sanciona la incitación al suicidio de:",
       "answers": [
-        {"text"  : "Solo a personas menores de catorce años de edad", "correct": false},
+        {"text":"Solo a personas menores de catorce años de edad", "correct": false},
         {"text": "Personas con discapacidad necesitadas de especial protección", "correct": true},
         {"text": "Solo de personas menores de dieciséis años", "correct": false},
         {"text": "Solo de personas que padezcan anomalía o alteración psíquica", "correct": false}
@@ -113,7 +113,7 @@
     {
       "question": "Para que el aborto producido con consentimiento de la mujer pueda sancionarse por aplicación del artículo 145 CP, es preciso que se practique:",
       "answers": [
-        {"text"  : "Después de la vigésimo segunda semana de gestación", "correct": false},
+        {"text": "Después de la vigésimo segunda semana de gestación", "correct": false},
         {"text": "Fuera de los casos permitidos por la ley", "correct": true},
         {"text": "Se produzca fuera de un centro o establecimiento público", "correct": false},
         {"text": "Ninguna de las anteriores es correcta", "correct": false}
@@ -125,7 +125,7 @@
     {
       "question": "El artículo 160.1 CP sanciona la utilización de la ingeniería genética para:",
       "answers": [
-        {"text"  : "Fecundar óvulos humanos", "correct": false},
+        {"text": "Fecundar óvulos humanos", "correct": false},
         {"text": "Creación de seres humanos clónicos", "correct": true},
         {"text": "Selección de la raza", "correct": false},
         {"text": "Producir armas biológicas o exterminadoras de la especie humana", "correct": false}
@@ -137,7 +137,7 @@
     {
       "question": "Señale la respuesta incorrecta. El tipo básico de lesiones del artículo 147.1 CP exige como requisito:",
       "answers": [
-        {"text"  : "El menoscabo de la integridad corporal, la salud física o mental", "correct": false},
+        {"text": "El menoscabo de la integridad corporal, la salud física o mental", "correct": false},
         {"text": "Que se causen por cualquier medio o procedimiento", "correct": false},
         {"text": "Que se cometa por dolo o imprudencia", "correct": true},
         {"text": "Que la lesión requiera para su sanidad tratamiento médico o quirúrgico", "correct": false}
@@ -147,9 +147,9 @@
       "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
-      "question": "En el ámbito del delito de lesiones, no se consideran tratamiento médico o quirúrgico:",
+      "question": "señores la respuesta incorrecta. En el ámbito del delito de lesiones, no se consideran tratamiento médico o quirúrgico:",
       "answers": [
-        {"text"  : "La cura de la herida", "correct": false},
+        {"text": "La cura de la herida", "correct": false},
         {"text": "Los puntos de aproximación", "correct": false},
         {"text": "La primera asistencia facultativa", "correct": true},
         {"text": "La simple vigilancia del curso de la lesión", "correct": false}
@@ -161,7 +161,7 @@
     {
       "question": "Señale la respuesta incorrecta. Es condición objetiva de procedibilidad la interposición de denuncia por el afectado o su representante legal en los delitos de:",
       "answers": [
-        {"text"  : "Maltrato de obra", "correct": false},
+        {"text": "Maltrato de obra", "correct": false},
         {"text": "Lesiones leves", "correct": false},
         {"text": "Lesiones por imprudencia grave", "correct": true},
         {"text": "Lesiones por imprudencia menos grave", "correct": false}
@@ -173,7 +173,7 @@
     {
       "question": "¿Cuál de los siguientes no es un tipo agravado de lesiones del artículo 148 CP?",
       "answers": [
-        {"text"  : "Que hubiera mediado ensañamiento", "correct": false},
+        {"text": "Que hubiera mediado ensañamiento", "correct": false},
         {"text": "Que la víctima fuera esposo de la autora", "correct": true},
         {"text": "Que en la agresión se hubieran utilizado armas", "correct": false},
         {"text": "Que la víctima fuera una persona con discapacidad necesitada de especial protección", "correct": false}
@@ -185,7 +185,7 @@
     {
       "question": "Señale la respuesta incorrecta. Según el artículo 172 BIS CP, el delito de matrimonio forzado requiere para su sanción que la conducta se realice con:",
       "answers": [
-        {"text"  : "Intimidación grave", "correct": false},
+        {"text": "Intimidación grave", "correct": false},
         {"text": "Violencia", "correct": false},
         {"text": "Dolorosamente", "correct": true},
         {"text": "Fuerza", "correct": false}
@@ -197,7 +197,7 @@
     {
       "question": "El delito de acoso tipificado en el artículo 172 TER CP exige para su sanción:",
       "answers": [
-        {"text"  : "Que el acoso se lleve a cabo de manera dolosa o imprudente", "correct": false},
+        {"text": "Que el acoso se lleve a cabo de manera dolosa o imprudente", "correct": false},
         {"text": "Que se lleve a cabo de forma insistente o reiterada", "correct": true},
         {"text": "Que la víctima sea una de las personas del artículo 173.2 CP", "correct": false},
         {"text": "Ninguna de las anteriores es correcta", "correct": false}
@@ -209,7 +209,7 @@
     {
       "question": "El artículo 197.7 CP sanciona la divulgación no consentida de imágenes o grabaciones de carácter íntimo. ¿Cuál de los siguientes no es un requisito según el precepto citado?",
       "answers": [
-        {"text"  : "Que no exista autorización ni expresa ni tácita de la persona afectada", "correct": false},
+        {"text": "Que no exista autorización ni expresa ni tácita de la persona afectada", "correct": false},
         {"text": "Que las imágenes se obtuvieran con anuencia de la víctima", "correct": true},
         {"text": "Que las imágenes se obtuvieran en un domicilio o en cualquier otro lugar fuera del alcance de la mirada de terceros", "correct": false},
         {"text": "Que exista ánimo de lucro en la misma", "correct": false}
@@ -221,7 +221,7 @@
     {
       "question": "¿En qué supuestos se agrava la pena del delito de homicidio según lo establecido en el artículo 138.2 CP?",
       "answers": [
-        {"text"  : "Cuando los hechos sean además constitutivos de un delito de atentado del artículo 550", "correct": true},
+        {"text": "Cuando los hechos sean además constitutivos de un delito de atentado del artículo 550", "correct": true},
         {"text": "Ensañamiento", "correct": true},
         {"text": "Precio, recompensa o promesa", "correct": false},
         {"text": "Alevosía", "correct": false}
@@ -233,7 +233,7 @@
     {
       "question": "¿Cuál de los siguientes elementos no convierte el delito de homicidio en asesinato según lo establecido en el artículo 139 CP?",
       "answers": [
-        {"text"  : "Promesa", "correct": false},
+        {"text": "Promesa", "correct": false},
         {"text": "Facilitar la comisión de otro delito", "correct": false},
         {"text": "Evitar que el delito se descubra", "correct": false},
         {"text": "Que la víctima sea menor de edad", "correct": true}
@@ -245,7 +245,7 @@
     {
       "question": "¿En cuál de los siguientes supuestos el delito de asesinato no será castigado con la pena de prisión permanente revisable?",
       "answers": [
-        {"text"  : "Que la víctima sea una persona especialmente vulnerable", "correct": false},
+        {"text": "Que la víctima sea una persona especialmente vulnerable", "correct": false},
         {"text": "Que se hubieran empleado en su ejecución medios, modos o formas que tienen directamente a asegurarla", "correct": true},
         {"text": "Que la víctima sea menor de dieciséis años", "correct": false},
         {"text": "Que el autor perteneciere a una organización criminal", "correct": false}
@@ -257,7 +257,7 @@
     {
       "question": "Al reo de asesinato se le impondrá pena de prisión permanente revisable cuando…",
       "answers": [
-        {"text"  : "Que hubiere sido condenado por la muerte de dos o más personas", "correct": false},
+        {"text": "Que hubiere sido condenado por la muerte de dos o más personas", "correct": false},
         {"text": "Que hubiera sido condenado por la muerte de más de dos personas", "correct": false},
         {"text": "Que hubiere sido enjuiciado por la muerte de más de dos personas", "correct": true},
         {"text": "Que hubiera sido procesado por la muerte de dos o más personas", "correct": false}
@@ -269,7 +269,7 @@
     {
       "question": "¿Qué actos preparatorios no son punibles en los delitos de homicidio y asesinato según el artículo 141 CP?",
       "answers": [
-        {"text"  : "La provocación", "correct": false},
+        {"text": "La provocación", "correct": false},
         {"text": "La conspiración", "correct": false},
         {"text": "La proposición", "correct": false},
         {"text": "La apología", "correct": true}
@@ -281,7 +281,7 @@
     {
       "question": "A efectos de sanción del delito de homicidio por imprudencia grave (art. 142.1 CP), no se reputará que concurra dicha imprudencia cuando…",
       "answers": [
-        {"text"  : "El autor condujere un vehículo a motor o un ciclomotor a velocidad superior en 60 km/h en vía urbana", "correct": false},
+        {"text": "El autor condujere un vehículo a motor o un ciclomotor a velocidad superior en 60 km/h en vía urbana", "correct": false},
         {"text": "El autor condujere a velocidad superior en 80 km/h en vía interurbana a la permitida reglamentariamente", "correct": false},
         {"text": "El autor condujera un vehículo de motor o ciclomotor bajo la influencia de alcohol siempre que la tasa supere en aire espirado los 0,60 mg/l", "correct": false},
         {"text": "El autor condujera un vehículo a motor bajo la influencia de estupefacientes", "correct": true}
@@ -293,7 +293,7 @@
     {
       "question": "El artículo 142.1 CP prevé una pena de inhabilitación especial para el caso de homicidio cometido por imprudencia grave si el mismo se ejecutó:",
       "answers": [
-        {"text"  : "Utilizando un vehículo a motor o ciclomotor", "correct": false},
+        {"text": "Utilizando un vehículo a motor o ciclomotor", "correct": false},
         {"text": "Utilizando armas de fuego", "correct": false},
         {"text": "Por imprudencia profesional", "correct": true},
         {"text": "Ninguna de las anteriores es correcta", "correct": false}
@@ -305,7 +305,7 @@
     {
       "question": "Señale la respuesta incorrecta. El artículo 142 BIS CP permite imponer motivadamente la pena superior en grado si el hecho revistiere notoria gravedad en atención a:",
       "answers": [
-        {"text"  : "La singular entidad de riesgo creado", "correct": false},
+        {"text": "La singular entidad de riesgo creado", "correct": false},
         {"text": "La singular relevancia de riesgo creado", "correct": false},
         {"text": "El deber normativo de cuidado infringido", "correct": false},
         {"text": "El deber normativo de riesgo creado", "correct": true}
@@ -317,7 +317,7 @@
     {
       "question": "El homicidio cometido por imprudencia menos grave (art. 142.2 CP) se reputará como tal en todos los casos cuando…",
       "answers": [
-        {"text"  : "Para la producción del hecho haya sido determinante la comisión de alguna de las infracciones graves de las normas de tráfico", "correct": true},
+        {"text": "Para la producción del hecho haya sido determinante la comisión de alguna de las infracciones graves de las normas de tráfico", "correct": true},
         {"text": "Para la producción del hecho haya sido determinante la comisión de alguna de las infracciones muy graves de las normas de tráfico", "correct": false},
         {"text": "Para la producción del hecho haya sido determinante la comisión de algunas de las infracciones menos graves de las normas de tráfico", "correct": false},
         {"text": "Todas las anteriores son correctas", "correct": false}
@@ -329,7 +329,7 @@
     {
       "question": "Señale la respuesta incorrecta. La sanción del aborto sin formalidades legales (art. 145 BIS CP) exige que el mismo se realice:",
       "answers": [
-        {"text"  : "Fuera de un centro o establecimiento público acreditado", "correct": false},
+        {"text": "Fuera de un centro o establecimiento público acreditado", "correct": false},
         {"text": "Fuera de un centro o establecimiento privado acreditado", "correct": false},
         {"text": "No se cuente con los dictámenes posteriores preceptivos", "correct": true},
         {"text": "No se cuente con los dictámenes previos preceptivos", "correct": false}
@@ -341,7 +341,7 @@
     {
       "question": "El delito de aborto se sanciona cuando el mismo se comete por:",
       "answers": [
-        {"text"  : "Dolo e imprudencia grave", "correct": true},
+        {"text": "Dolo e imprudencia grave", "correct": true},
         {"text": "Dolo, imprudencia grave y menos grave", "correct": false},
         {"text": "Dolo, imprudencia grave, menos grave y leve", "correct": false},
         {"text": "Dolo", "correct": false}
@@ -353,7 +353,7 @@
     {
       "question": "Señale la respuesta incorrecta. El artículo 157 CP sanciona la causación al feto de:",
       "answers": [
-        {"text"  : "Lesiones", "correct": true},
+        {"text": "Lesiones", "correct": true},
         {"text": "Enfermedad que perjudique gravemente su normal desarrollo", "correct": false},
         {"text": "Deformidad", "correct": false},
         {"text": "Una grave tara psíquica o física", "correct": false}
@@ -365,7 +365,7 @@
     {
       "question": "Las lesiones del feto se castigarán con una pena menor cuando hubieran sido cometidas:",
       "answers": [
-        {"text"  : "Sin mediar consentimiento de la gestante", "correct": false},
+        {"text": "Sin mediar consentimiento de la gestante", "correct": false},
         {"text": "En clínicas, establecimientos o consultorios ginecológicos públicos o privados", "correct": false},
         {"text": "Por imprudencia grave", "correct": false},
         {"text": "Cuando medie el consentimiento de la gestante", "correct": true}
@@ -377,7 +377,7 @@
     {
       "question": "Señale la respuesta incorrecta. El artículo 159 CP sanciona como delitos relativos a la manipulación genética a quienes impulsen genes humanos cuando:",
       "answers": [
-        {"text"  : "Se altere el genotipo", "correct": false},
+        {"text": "Se altere el genotipo", "correct": false},
         {"text": "Se altere el fenotipo", "correct": true},
         {"text": "Con finalidad distinta a la eliminación de taras", "correct": false},
         {"text": "Con finalidad distinta a la eliminación de enfermedades graves", "correct": false}
@@ -1429,7 +1429,7 @@
     {
       "question": "51. ¿Cuál de los siguientes delitos lleva aparejada una mayor pena, conforme a lo previsto en nuestro Código Penal?",
       "answers": [
-        {"text"  : "La utilización de la ingeniería genética para producir armas biológicas o exterminadoras de la especie humana.", "correct": true},
+        {"text": "La utilización de la ingeniería genética para producir armas biológicas o exterminadoras de la especie humana.", "correct": true},
         {"text": "Los que, con finalidad distinta a la eliminación o disminución de taras o enfermedades graves, manipules genes humanos de manera que se altere el genotipo.", "correct": false},
         {"text": "La creación de seres humanos idénticos por clonación u otros procedimientos dirigidos a la selección de la raza.", "correct": false},
         {"text": "La fecundación de óvulos humanos con cualquier fin distinto a la procreación humana.", "correct": false}
@@ -1441,7 +1441,7 @@
     {
       "question": "52. Comete delito el particular que encerrare o detuviere a otro, privándole de su libertad. Pero ¿se le castigará en función de lo que haya durado la privación de libertad?",
       "answers": [
-        {"text"  : "Sí, ya que la pena es mayor si el encierro o detención ha durado más de quince días.", "correct": false},
+        {"text": "Sí, ya que la pena es mayor si el encierro o detención ha durado más de quince días.", "correct": false},
         {"text": "Sí, ya que se impondrá la pena inferior en grado si se diera libertad al detenido en los tres primeros días y no se hubiera conseguido el objeto propuesto.", "correct": true},
         {"text": "Sí, por las razones expuestas en a) y b), y además es atenuable la pena si la detención busca poner al detenido, fuera de los casos previstos en las leyes, a disposición de la autoridad.", "correct": false},
         {"text": "Ninguna de las anteriores.", "correct": false}
@@ -1453,7 +1453,7 @@
     {
       "question": "53. Según el artículo 163.2 CP, tipo privilegiado de detención ilegal, se impondrá la pena inferior en grado al culpable que diera libertad al encerrado o detenido:",
       "answers": [
-        {"text"  : "Dentro de los 2 primeros días de su detención, sin haber logrado el objeto que se había propuesto", "correct": false},
+        {"text": "Dentro de los 2 primeros días de su detención, sin haber logrado el objeto que se había propuesto", "correct": false},
         {"text": "Dentro de los 2 primeros días de su detención, aunque haya logrado el objeto que se había propuesto", "correct": false},
         {"text": "Dentro de los 3 primeros días de su detención, sin haber logrado el objeto que se había propuesto", "correct": true},
         {"text": "Dentro de los 3 primeros días de su detención, aunque haya logrado el objeto que se había propuesto", "correct": false}
@@ -1465,7 +1465,7 @@
     {
       "question": "54. ¿En qué consiste la acción en el delito de detención ilegal del artículo 163 del CP?",
       "answers": [
-        {"text"  : "En coaccionar o detener a otro", "correct": false},
+        {"text": "En coaccionar o detener a otro", "correct": false},
         {"text": "En encerrar o detener a otro privándole de su libertad", "correct": true},
         {"text": "En encerrar o extorsionar a otro", "correct": false},
         {"text": "En encerrar, detener o secuestrar a otro", "correct": false}
@@ -1477,7 +1477,7 @@
     {
       "question": "55. Ante amenazas de causar un mal constitutivo de delito, con el fin de precisar cuál es el delito referido, hay que ajustarse:",
       "answers": [
-        {"text"  : "A una interpretación restrictiva sobre la intención que el sujeto tiene de llevar a cabo, o no, el mal que amenaza.", "correct": false},
+        {"text": "A una interpretación restrictiva sobre la intención que el sujeto tiene de llevar a cabo, o no, el mal que amenaza.", "correct": false},
         {"text": "A la enumeración que el mismo delito de amenazas hace de los posibles bienes jurídicos afectados.", "correct": true},
         {"text": "Al límite legal impuesto por el mismo delito, que los circunscribe a los delitos contra la vida y la integridad física.", "correct": false},
         {"text": "Al límite legal impuesto por el mismo delito, que los circunscribe a los delitos contra la vida, la integridad física y el patrimonio.", "correct": false}
@@ -1489,7 +1489,7 @@
     {
       "question": "56. En las denominadas amenazas condicionales la pena se hará depender, entre otros criterios:",
       "answers": [
-        {"text"  : "De si se ha conseguido o no la condición impuesta", "correct": false},
+        {"text": "De si se ha conseguido o no la condición impuesta", "correct": false},
         {"text": "De si se ha conseguido o no la condición impuesta, pero sólo cuando el mal con el que se amenaza sea constitutivo de delito.", "correct": true},
         {"text": "De si se ha conseguido o no, la condición impuesta, pero sólo cuando el mal con el que se amenaza no sea constitutivo de delito.", "correct": false},
         {"text": "De si ha concurrido engaño o no", "correct": false}
@@ -1501,7 +1501,7 @@
     {
       "question": "57. La modalidad agravada del delito de amenazas, consistente en ejecutar las amenazas por medio de escrito, por teléfono o por cualquier otro medio de comunicación o de reproducción, o en nombre de entidades o grupos reales o supuestos:",
       "answers": [
-        {"text"  : "Sólo puede aplicarse a las amenazas condicionales", "correct": false},
+        {"text": "Sólo puede aplicarse a las amenazas condicionales", "correct": false},
         {"text": "Sólo puede aplicarse a las amenazas condicionales, cuando el mal amenazado es constitutivo de delito", "correct": true},
         {"text": "Sólo puede aplicarse a las amenazas condicionales cuando el mal amenazado no es constitutivo de delito.", "correct": false},
         {"text": "Ninguna de las anteriores es válida", "correct": false}
@@ -1513,7 +1513,7 @@
     {
       "question": "58. Cometerá el tipo básico del delito de coacciones, regulado en el artículo 172.1 del Código Penal:",
       "answers": [
-        {"text"  : "El que, sin estar legítimamente autorizado, impidiere a otro con violencia hacer lo que la Ley prohíbe, siendo además injusto.", "correct": false},
+        {"text": "El que, sin estar legítimamente autorizado, impidiere a otro con violencia hacer lo que la Ley prohíbe, siendo además injusto.", "correct": false},
         {"text": "El que, estando legítimamente autorizado, impidiere a otro con violencia hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere, sea justo o injusto.", "correct": false},
         {"text": "El que, sin estar legítimamente autorizado, impidiere a otro con violencia o intimidación hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere y la ley no le obliga, sea justo o injusto.", "correct": true},
         {"text": "El que exigiere de otro una cantidad o recompensa bajo la amenaza de revelar o difundir hechos referentes a su vida privada o relaciones familiares que no sean públicamente conocidos y puedan afectar a su fama, crédito o interés.", "correct": false}
@@ -1525,7 +1525,7 @@
     {
       "question": "59. La única modalidad agravada del delito de coacciones consiste:",
       "answers": [
-        {"text"  : "En la concurrencia de violencia o intimidación", "correct": false},
+        {"text": "En la concurrencia de violencia o intimidación", "correct": false},
         {"text": "En que la coacción recaiga sobre un funcionario, un menor o un incapaz", "correct": false},
         {"text": "En que la coacción tenga por objeto impedir un derecho fundamental o el legítimo disfrute de la vivienda", "correct": true},
         {"text": "En que la coacción tenga la nota de habitualidad", "correct": false}
@@ -1537,7 +1537,7 @@
     {
       "question": "60. Fulgencio sufre una agresión por la cual pierde dos piezas dentarias, dicha acción se castigaría como:",
       "answers": [
-        {"text"  : "Un delito de lesiones previsto y penado en el artículo 150 del Código Penal, en todos los casos.", "correct": false},
+        {"text": "Un delito de lesiones previsto y penado en el artículo 150 del Código Penal, en todos los casos.", "correct": false},
         {"text": "Un delito de lesiones previsto y penado en el artículo 149 del Código Penal, por tratarse de lesiones con grave deformidad.", "correct": false},
         {"text": "Un delito de lesiones del artículo 147.2 del Código Penal.", "correct": true},
         {"text": "Todas las anteriores son incorrectas.", "correct": false}
@@ -1549,7 +1549,7 @@
     {
       "question": "61. ¿Qué circunstancia determina una rebaja de la pena prevista en caso de un delito de secuestro del artículo 164 del Código Penal?",
       "answers": [
-        {"text"  : "Si el encierro o detención ha durado menos de 3 días.", "correct": true},
+        {"text": "Si el encierro o detención ha durado menos de 3 días.", "correct": true},
         {"text": "Si el encierro o detención ha durado menos de 10 días.", "correct": false},
         {"text": "Si el encierro o detención ha durado menos de 12 días.", "correct": false},
         {"text": "Si el encierro o detención ha durado menos de 15 días.", "correct": false}
@@ -1561,7 +1561,7 @@
     {
       "question": "62. ¿Con qué pena castiga el artículo 138.1 del Código Penal (tipo básico) el delito de homicidio?",
       "answers": [
-        {"text"  : "Con la pena de prisión de diez a quince años.", "correct": true},
+        {"text": "Con la pena de prisión de diez a quince años.", "correct": true},
         {"text": "Con la pena de prisión de quince a veinticinco años.", "correct": false},
         {"text": "Con la pena de multa de doce a veinticuatro meses.", "correct": false},
         {"text": "Con la pena de prisión de tres a seis años.", "correct": false}
@@ -1573,7 +1573,7 @@
     {
       "question": "63. En relación con el delito de homicidio por imprudencia, el artículo 142 del Código Penal castiga al que causare la muerte de otro:",
       "answers": [
-        {"text"  : "Sólo por imprudencia grave.", "correct": false},
+        {"text": "Sólo por imprudencia grave.", "correct": false},
         {"text": "Por imprudencia grave o menos grave.", "correct": true},
         {"text": "Por imprudencia grave, menos grave o leve.", "correct": false},
         {"text": "Sólo por imprudencia leve.", "correct": false}
@@ -1585,7 +1585,7 @@
     {
       "question": "64. El artículo 143 bis del Código Penal castiga la distribución o difusión pública a través de Internet, del teléfono o de cualquier otra tecnología de la información o de la comunicación de contenidos específicamente destinados a promover, fomentar o incitar:",
       "answers": [
-        {"text"  : "A cometer conductas delictivas.", "correct": false},
+        {"text": "A cometer conductas delictivas.", "correct": false},
         {"text": "Al suicidio de personas menores de edad o personas con discapacidad necesitadas de especial protección.", "correct": true},
         {"text": "Al suicidio de cualquier persona.", "correct": false},
         {"text": "Al suicidio de personas menores de edad.", "correct": false}
@@ -1597,7 +1597,7 @@
     {
       "question": "65. ¿Qué delito comete la mujer que consintiere que otra persona le cause su aborto, fuera de los casos permitidos por la ley?",
       "answers": [
-        {"text"  : "Un delito de homicidio", "correct": false},
+        {"text": "Un delito de homicidio", "correct": false},
         {"text": "Un delito de asesinato", "correct": false},
         {"text": "Un delito de aborto", "correct": true},
         {"text": "No estaría cometiendo delito alguno, tratándose de una conducta impune", "correct": false}
@@ -1609,7 +1609,7 @@
     {
       "question": "66. Según el artículo 148 del Código Penal, ¿qué circunstancia NO podría determinar una agravación de la pena prevista para las lesiones del artículo 147.1?",
       "answers": [
-        {"text"  : "Si en la agresión se hubieren utilizado armas, instrumentos, objetos, medios, métodos o formas concretamente peligrosas para la vida o salud, física o psíquica, del lesionado.", "correct": false},
+        {"text": "Si en la agresión se hubieren utilizado armas, instrumentos, objetos, medios, métodos o formas concretamente peligrosas para la vida o salud, física o psíquica, del lesionado.", "correct": false},
         {"text": "Si hubiere mediado ensañamiento o alevosía.", "correct": false},
         {"text": "Si la víctima fuere menor de catorce años o persona con discapacidad necesitada de especial protección.", "correct": false},
         {"text": "Si la víctima tuviere cualquier relación de afinidad con el autor.", "correct": true}
@@ -1621,7 +1621,7 @@
     {
       "question": "67. Según el artículo 149 del Código Penal, ¿qué circunstancia determina la concurrencia del tipo hiperagravado de lesiones?",
       "answers": [
-        {"text"  : "Causar la pérdida o la inutilidad de un órgano o miembro principal o de un sentido.", "correct": false},
+        {"text": "Causar la pérdida o la inutilidad de un órgano o miembro principal o de un sentido.", "correct": false},
         {"text": "Causar impotencia o esterilidad.", "correct": false},
         {"text": "Causar una grave deformidad o una grave enfermedad somática o psíquica.", "correct": false},
         {"text": "Todas las respuestas son correctas.", "correct": true}
@@ -1633,7 +1633,7 @@
     {
       "question": "68. Señale la respuesta correcta en relación con el delito de lesiones por imprudencia:",
       "answers": [
-        {"text"  : "Las lesiones causadas por imprudencia son punibles en todo caso.", "correct": false},
+        {"text": "Las lesiones causadas por imprudencia son punibles en todo caso.", "correct": false},
         {"text": "Sólo resultan punibles las lesiones causadas por imprudencia grave.", "correct": false},
         {"text": "Las lesiones causadas por imprudencia menos grave sólo serán perseguibles mediante denuncia de la persona agraviada o de su representante legal.", "correct": true},
         {"text": "Ninguna de las respuestas es correcta.", "correct": false}
@@ -1645,7 +1645,7 @@
     {
       "question": "69. Según el artículo 157 del Código Penal, será autor de un delito de lesiones al feto el que por cualquier medio o procedimiento, causare en un feto:",
       "answers": [
-        {"text"  : "Una lesión.", "correct": false},
+        {"text": "Una lesión.", "correct": false},
         {"text": "Una enfermedad que perjudique gravemente su normal desarrollo.", "correct": false},
         {"text": "Su muerte.", "correct": false},
         {"text": "Las respuestas a) y b) son correctas.", "correct": true}
@@ -1657,7 +1657,7 @@
     {
       "question": "70. ¿Cuál de las siguientes circunstancias NO se configura como uno de los elementos comunes de las diferentes modalidades del delito de amenazas?",
       "answers": [
-        {"text"  : "El anuncio de un mal futuro.", "correct": false},
+        {"text": "El anuncio de un mal futuro.", "correct": false},
         {"text": "La ejecución del mal ha de depender de la voluntad del sujeto activo.", "correct": false},
         {"text": "Que el mal anunciado afecte, en todo caso, al sujeto pasivo.", "correct": true},
         {"text": "El mal anunciado ha de ser susceptible de producir intimidación en el sujeto pasivo al revestir carácter de seriedad.", "correct": false}
@@ -1669,7 +1669,7 @@
     {
       "question": "71. El artículo 172.1 del Código Penal castiga como autor de un delito de coacciones a:",
       "answers": [
-        {"text"  : "El que sin estar legítimamente autorizado impidiere a otro con violencia hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere, sea justo o injusto.", "correct": true},
+        {"text": "El que sin estar legítimamente autorizado impidiere a otro con violencia hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere, sea justo o injusto.", "correct": true},
         {"text": "El que sin estar legítimamente autorizado impidiere a otro hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere, sea justo o injusto.", "correct": false},
         {"text": "El que sin estar legítimamente autorizado impidiere a otro hacer lo que quiere.", "correct": false},
         {"text": "El que sin estar legítimamente autorizado compeliere a otro efectuar lo que no quiere.", "correct": false}
