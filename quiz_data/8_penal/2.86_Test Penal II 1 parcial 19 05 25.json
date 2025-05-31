@@ -598,10 +598,10 @@
     {
       "question": "El asesinato será castigado con la pena de prisión permanente revisable:",
       "answers": [
-        { "text": "Cuando la víctima sea menor de 18 años o se trate de persona especialmente vulnerable por razón de edad, enfermedad o discapacidad.", "correct": false },
+        { "text": "Cuando la víctima sea menor de 18 años o se trate de persona especialmente vulnerable por razón de edad, enfermedad o discapacidad.", "correct": true },
         { "text": "Cuando el hecho se hubiera cometido por la acción conjunta de dos o más personas.", "correct": false },
         { "text": "Cuando el hecho hubiera sido cometido por quien perteneciere a un grupo u organización criminal", "correct": false },
-        { "text": "Cuando el hecho hubiere sido cometido aumentando inhumana y deliberadamente el sufrimiento de la víctima", "correct": true }
+        { "text": "Cuando el hecho hubiere sido cometido aumentando inhumana y deliberadamente el sufrimiento de la víctima", "correct": false }
       ],
       "explanation": "ES: A incorrecto porque el umbral es menor de 16 años (Art. 140.1.c); B incorrecto porque la autoría conjunta no es causa automática de permanente; C incorrecto porque pertenencia a grupo criminal corresponde a Art. 140.1.d solo en concurso con otros supuestos; D correcto según Art. 140.1.a (ensañamiento que aumenta sufrimiento). \nIT: A errato perché soglia 16 anni (art. 140.1.c); B errato perché azione congiunta non basta da sola; C errato perché appartenenza a gruppo criminale richiede altri elementi (art. 140.1.d); D corretto secondo art. 140.1.a (crudeltà deliberata).",
       "legal_reference": "Código Penal, Art. 140.1"
