@@ -18,11 +18,11 @@
       "question": "¿Quién nombra al Presidente del Tribunal de Cuentas?",
       "answers": [
         { "text": "Será nombrado por el Gobierno a propuesta de los partidos políticos", "correct": false },
-        { "text": "Será nombrado por el Rey a propuesta del pleno", "correct": false },
-        { "text": "Será nombrado por el Rey a propuesta de las Cortes", "correct": true },
+        { "text": "Será nombrado por el Rey a propuesta del pleno", "correct": true },
+        { "text": "Será nombrado por el Rey a propuesta de las Cortes", "correct": false },
         { "text": "Ninguna es cierta", "correct": false }
       ],
-      "explanation": "ES: La Constitución dispone que el Presidente del Tribunal de Cuentas es nombrado por el Rey atendiendo a la propuesta de las Cortes Generales. \nIT: La Costituzione stabilisce che il Presidente del Tribunale dei Conti è nominato dal Re su proposta delle Corti Generali.",
+     "explanation": "Ley Orgánica 2/1982, de 12 de mayo, del Tribunal de Cuentas\n(Extracto relevante, Título III, Capítulo I, Artículo 29)\nArtículo 29 (texto original en español) \nBOE\nArtículo veintinueve.\nEl Presidente del Tribunal de Cuentas será nombrado de entre sus miembros por el Rey, a propuesta del mismo Tribunal en Pleno y por un período de tres años.\nTraduzione in italiano \nBOE\nArticolo ventinove.\nIl Presidente del Tribunale dei Conti verrà nominato, tra i suoi membri, dal Re, su proposta dello stesso Tribunale in Plenaria, e per un periodo di tre anni.",
       "legal_reference": "Constitución Española de 1978, art. 136.2",
       "original_file": "Test Constitucional II 2 parcial AGGIORNATO 10_07_24.txt"
     },

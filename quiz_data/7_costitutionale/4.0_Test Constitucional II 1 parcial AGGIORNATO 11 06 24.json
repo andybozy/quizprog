@@ -364,8 +364,8 @@
     {
       "question": "¿Cuál de las siguientes normas Constitucionales es la más antigua?",
       "answers": [
-        { "text": "Constitución de Cádiz.", "correct": true },
-        { "text": "El estatuto de Bayona.", "correct": false },
+        { "text": "Constitución de Cádiz.", "correct": false },
+        { "text": "El estatuto de Bayona.", "correct": true },
         { "text": "La Constitución de 1845.", "correct": false },
         { "text": "La Pepa.", "correct": false }
       ],
