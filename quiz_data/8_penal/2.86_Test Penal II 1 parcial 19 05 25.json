@@ -532,8 +532,8 @@
     {
       "question": "El artículo 172.1 del Código Penal castiga como autor de un delito de coacciones a:",
       "answers": [
-        { "text": "El que sin estar legítimamente autorizado impidiere a otro con violencia hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere, sea justo o injusto.", "correct": false },
-        { "text": "El que sin estar legítimamente autorizado impidiere a otro hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere, sea justo o injusto.", "correct": true },
+        { "text": "El que sin estar legítimamente autorizado impidiere a otro con violencia hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere, sea justo o injusto.", "correct": true },
+        { "text": "El que sin estar legítimamente autorizado impidiere a otro hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere, sea justo o injusto.", "correct": false },
         { "text": "El que sin estar legítimamente autorizado impidiere a otro hacer lo que quiere.", "correct": false },
         { "text": "El que sin estar legítimamente autorizado compeliere a otro efectuar lo que no quiere.", "correct": false }
       ],
