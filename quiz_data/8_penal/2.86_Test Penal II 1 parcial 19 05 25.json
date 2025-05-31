@@ -556,8 +556,8 @@
       "answers": [
         { "text": "El tipo básico del delito de lesiones previsto en el artículo 147.1 del CP", "correct": false },
         { "text": "Una falta de lesiones del artículo 617.1 del CP", "correct": false },
-        { "text": "Un delito leve de lesiones previsto en el artículo 147.2 de CP", "correct": false },
-        { "text": "No constituye infracción penal alguna", "correct": true }
+        { "text": "Un delito leve de lesiones previsto en el artículo 147.2 de CP", "correct": true },
+        { "text": "No constituye infracción penal alguna", "correct": false }
       ],
       "explanation": "ES: A incorrecto porque sin tratamiento médico no cabe delito según Art. 147.1 CP; B incorrecto porque tampoco encaja como falta (Art. 617.1 aplica a agresiones leves sin atención facultativa); C incorrecto porque Art. 147.2 castiga imprudencia menos grave solo a instancia de parte; D correcto: sin tratamiento ni más, no hay infracción. \nIT: A errato perché senza trattamento medico non c’è reato (art. 147.1 CP); B errato perché art. 617.1 CP riguarda lesioni lievi senza assistenza; C errato perché art. 147.2 CP punisce imprudenza meno grave con querela; D corretto: nessuna infrazione.",
       "legal_reference": "Código Penal, Art. 147.1; Art. 147.2; Art. 617.1"
@@ -1336,7 +1336,7 @@
         {"text": "Que la víctima sea menor de 14 años, o se trate de personas especialmente vulnerables", "correct": true},
         {"text": "Que el hecho fuese subsiguiente a un delito contra la libertad sexual que el autor hubiese cometido sobre la víctima", "correct": false},
         {"text": "Que el delito se hubiese cometido por quien perteneciera a un grupo u organización criminal", "correct": false},
-        {"text": "Que el hecho hubiere sido cometido aumentando inhumana y deliberadamente el sufrimiento de la víctima", "correct": true}
+        {"text": "Que el hecho hubiere sido cometido aumentando inhumana y deliberadamente el sufrimiento de la víctima", "correct": false}
       ],
       "explanation": "ES: Son falsas A y D. El art.140 CP exige víctima menor de 16 años (no 14) o vulnerable, y para el ensañamiento requiere concurrir además otra circunstancia de art.139; no basta solo el aumento del dolor. B y C sí son supuestos válidos para prisión permanente revisable.  \nIT: A e D sono errate: l’art.140 CP parla di minorenni sotto i 16 anni e per il sadismo (ensañamiento) serve anche un’altra circostanza tra quelle del 139. B e C sono corrette.",
       "legal_reference": "Código Penal, art. 140",
