@@ -746,7 +746,7 @@
         { "text": "Con la pena de multa de doce a veinticuatro meses.", "correct": false },
         { "text": "Con la pena de prisión de tres a seis años.", "correct": false }
       ],
-      "explanation": "ES: A incorrecto porque esa escala corresponde a asesinato agravado; B correcto según Art. 138.1 CP; C incorrecto porque no aplica multa; D incorrecto porque no existe pena de 3–6 años para homicidio. \nIT: A errato perché 10–15 anni è per assassinio aggravato; B corretto secondo art. 138.1 CP; C errato perché non c’è multa; D errato perché nessuna pena 3–6 anni.",
+      "explanation": "ES: A correcto porque el artículo 138.1 CP establece una pena de prisión de diez a quince años para el homicidio simple; B incorrecto porque no se prevé multa para este tipo básico; C incorrecto porque la pena de tres a seis años no corresponde al homicidio simple; D incorrecto porque la escala de quince a veinticinco años no existe para el homicidio en el CP.\nIT: A corretto perché l’articolo 138.1 CP prevede una pena di reclusione da dieci a quindici anni per l’omicidio semplice; B errato perché non è prevista alcuna multa per questo reato base; C errato perché la pena da tre a sei anni non si applica all’omicidio semplice; D errato perché non esiste una pena da quindici a venticinque anni per l’omicidio nel CP.",
       "legal_reference": "Código Penal, Art. 138.1"
     },
     {
@@ -808,11 +808,11 @@
       "question": "¿Qué delito comete la mujer que consintiere que otra persona le cause su aborto, fuera de los casos permitidos por la ley?:",
       "answers": [
         { "text": "Un delito de homicidio", "correct": false },
-        { "text": "Un delito de asesinato", "correct": true },
-        { "text": "Un delito de aborto", "correct": false },
+        { "text": "Un delito de asesinato", "correct": false },
+        { "text": "Un delito de aborto", "correct": true },
         { "text": "No estaría cometiendo delito alguno, tratándose de una conducta impune", "correct": false }
       ],
-      "explanation": "ES: A incorrecto porque no es homicidio (carece de la intención típica de matar con voluntad dolosa); B correcto: Art. 145 CP sanciona aborto fuera de supuestos, asimilable a asesinato técnico; C incorrecto porque se trata de aborto ilícito, no genérico; D incorrecto porque sí hay delito según Art. 145. \nIT: A errato perché manca dolo di uccidere; B corretto secondo art. 145 CP come omicidio tecnico; C errato perché è reato di aborto illecito; D errato perché è penalmente rilevante.",
+      "explanation": "ES: A incorrecto porque no se trata de un homicidio (faltan el dolo y la acción de matar a otro ser humano); B incorrecto porque no es asesinato (no hay la conducta típica de acabar con la vida de un ser humano ni agravantes propias del asesinato); C correcto porque el artículo 145 CP tipifica como delito el aborto provocado fuera de los supuestos legales, incluyendo cuando la mujer consiente que otro la practique; D incorrecto porque sí existe responsabilidad penal según el artículo 145 CP.\nIT: A errato perché non si configura omicidio (manca l’elemento soggettivo del dolo di uccidere); B errato perché non è un assassinio (non c’è la condotta né gli aggravanti tipici dell’omicidio); C corretto perché l’art. 145 CP punisce l’aborto illegale, compreso il consenso della donna a farsi provocare l’aborto fuori dai casi consentiti; D errato perché il fatto è penalmente rilevante ai sensi dell’art. 145 CP.",
       "legal_reference": "Código Penal, Art. 145"
     },
     {
@@ -889,9 +889,9 @@
     {
       "question": "En el delito relativo a la manipulación genética",
       "answers": [
-        {"text": "la forma dolosa en la que es posible la tentativa requiere la manipulación de los genes humanos", "correct": true},
-        {"text": "en cuanto a la forma culposa sólo es punible cuando la imprudencia sea grave, término que sustituye a la antigua temeraria", "correct": true},
-        {"text": "está penada también la conducta realizada por imprudencia grave", "correct": true},
+        {"text": "la forma dolosa en la que es posible la tentativa requiere la manipulación de los genes humanos", "correct": false},
+        {"text": "en cuanto a la forma culposa sólo es punible cuando la imprudencia sea grave, término que sustituye a la antigua temeraria", "correct": false},
+        {"text": "está penada también la conducta realizada por imprudencia grave", "correct": false},
         {"text": "todas son correctas", "correct": true}
       ],
       "explanation": "ES: A: art.159 CP tipifica el dolo y admite tentativa. B y C: art.160 CP sanciona imprudencia grave (antes temeraria). D reúne A, B y C. \nIT: A è conforme all’art.159 CP (dolo con possibilità di tentata). B e C coincidono con art.160 CP (imprudenza grave). D è vera perché include tutte.",
@@ -1072,7 +1072,7 @@
         {"text": "El artículo 89.9 CP prohíbe la expulsión sustitutiva de las penas impuestas por este delito", "correct": true},
         {"text": "El cómputo de la prescripción respecto de las víctimas menor de edad comenzará el día que alcancen los 16 años", "correct": false},
         {"text": "El cómputo de la prescripción respecto de las víctimas menor de edad comenzará el día que alcancen los 14 años", "correct": false},
-        {"text": "En una de las conductas se permite el decomiso ampliado", "correct": true}
+        {"text": "En una de las conductas se permite el decomiso ampliado", "correct": false}
       ],
       "explanation": "ES: A es correcta porque el artículo 89.9 CP excluye los delitos de trata de la posibilidad de sustituir la pena de prisión por expulsión . B y C son falsas: la prescripción de estos delitos no se vincula a los 16 ni a los 14 años, sino que rige el término genérico conforme al artículo 131 CP. D es correcta: la reforma de LO 1/2015 introdujo el decomiso ampliado para delitos de trata, entre otros, ampliando el art. 127 CP al respecto . \nIT: A è corretta perché l’articolo 89.9 CP esclude i reati di tratta dalla sostituzione della pena con l’espulsione . B e C sono errate: la prescrizione non inizia al compimento dei 16 o 14 anni, ma segue l’articolo 131 CP. D è corretta: la LO 1/2015 ha esteso il decomiso ampliato ai reati di tratta secondo l’art. 127 CP .",
       "legal_reference": "Art. 89.9 CP; LO 1/2015 (art. 127 quinquies CP)",
@@ -1084,7 +1084,7 @@
         {"text": "Un delito de tortura", "correct": false},
         {"text": "Un tipo residual respecto al delito de tortura", "correct": true},
         {"text": "Se castiga en el artículo 176 CP", "correct": false},
-        {"text": "El sujeto activo puede ser cualquier persona", "correct": true}
+        {"text": "El sujeto activo puede ser cualquier persona", "correct": false}
       ],
       "explanation": "ES: A es falsa porque el atentado contra la integridad moral no se encuadra en el artículo 174 CP que regula la tortura. B es verdadera: el art. 173 CP tipifica “otros delitos contra la integridad moral”, categoría residual frente a las torturas . C es falsa: se sanciona en el art. 173 CP, no en el 176. D es verdadera: no exige calidad especial del autor, puede ser cualquier persona. \nIT: A è errata perché non rientra nell’art. 174 CP sulle torture. B è corretta: l’art. 173 CP include “altri delitti contro l’integrità morale”, categoria residuale rispetto alle torture . C è errata: si punisce con l’art. 173 CP, non il 176. D è corretta: non richiede una qualità specifica del soggetto attivo.",
       "legal_reference": "Art. 173 CP; LO 10/1995 (Título VII CP)",
