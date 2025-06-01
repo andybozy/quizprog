@@ -10,7 +10,7 @@
         { "text": "Menoscabar gravemente la integridad moral", "correct": false},
         { "text": "Todas las anteriores son correctas", "correct": true }
       ],
-      "explanation": "ESP:\nA: Sujeto activo genérico – El artículo 173 CP no exige una cualidad especial del autor, basta que sea cualquier persona (sujeto genérico).  \nB: Infligir un trato degradante – El precepto exige que el trato rebaje la dignidad de la víctima (trato degradante).  \nC: Menoscabar gravemente la integridad moral – Debe causarse un menoscabo intenso en la moral de la víctima.  \nD: Todas las anteriores son correctas – Recoge A, B y C simultáneamente, que son los requisitos del tipo básico :contentReference[oaicite:0]{index=0}.\n\nIT:\nA: Soggetto attivo generico – L’articolo 173 CP contempla come autore qualsiasi persona.  \nB: Infliggere un trattamento degradante – Richiesto che il comportamento leda la dignità della vittima.  \nC: Lesionare gravemente l’integrità morale – Occorre un danno morale significativo.  \nD: Tutte le precedenti sono corrette – Riunisce A, B e C, i tre elementi del tipo base.",
+      "explanation": "ESP:\nA: Sujeto activo genérico – El artículo 173 CP no exige una cualidad especial del autor, basta que sea cualquier persona (sujeto genérico).  \nB: Infligir un trato degradante – El precepto exige que el trato rebaje la dignidad de la víctima (trato degradante).  \nC: Menoscabar gravemente la integridad moral – Debe causarse un menoscabo intenso en la moral de la víctima.  \nD: Todas las anteriores son correctas – Recoge A, B y C simultáneamente, que son los requisitos del tipo básico.\n\nIT:\nA: Soggetto attivo generico – L’articolo 173 CP contempla come autore qualsiasi persona.  \nB: Infliggere un trattamento degradante – Richiesto che il comportamento leda la dignità della vittima.  \nC: Lesionare gravemente l’integrità morale – Occorre un danno morale significativo.  \nD: Tutte le precedenti sono corrette – Riunisce A, B e C, i tre elementi del tipo base.",
       "legal_reference": "Artículo 173 Código Penal",
       "original_file": "Test Penal II 2 parcial AGGIORNATO 19 05 25.txt"
     },
@@ -22,7 +22,7 @@
         { "text": "Que se cree a la víctima una situación objetivamente humillante, hostil o intimidatoria", "correct": false},
         { "text": "Que no constituya otro delito de mayor gravedad", "correct": false }
       ],
-      "explanation": "ESP:\nA: Correcta – Art. 173.4 CP exige expresiones o actos de carácter sexual.  \nB: Incorrecta – No pide específicamente lesión psíquica, solo hostilidad u humillación objetivas.  \nC: Correcta – Requiere crear un entorno humillante, hostil o intimidatorio.  \nD: Correcta – Debe no encajar en tipo más grave (p.ej. agresión sexual) :contentReference[oaicite:1]{index=1}.\n\nIT:\nA: Corretta – L’art. 173.4 CP richiede comportamenti a sfondo sessuale.  \nB: Scorretta – Non è richiesta una lesione psichica specifica, solo un contesto umiliante o intimidatorio.  \nC: Corretta – Occorre una situazione oggettivamente offensiva o intimidatoria.  \nD: Corretta – Non deve essere altro reato più grave.",
+      "explanation": "ESP:\nA: Correcta – Art. 173.4 CP exige expresiones o actos de carácter sexual.  \nB: Incorrecta – No pide específicamente lesión psíquica, solo hostilidad u humillación objetivas.  \nC: Correcta – Requiere crear un entorno humillante, hostil o intimidatorio.  \nD: Correcta – Debe no encajar en tipo más grave (p.ej. agresión sexual).\n\nIT:\nA: Corretta – L’art. 173.4 CP richiede comportamenti a sfondo sessuale.  \nB: Scorretta – Non è richiesta una lesione psichica specifica, solo un contesto umiliante o intimidatorio.  \nC: Corretta – Occorre una situazione oggettivamente offensiva o intimidatoria.  \nD: Corretta – Non deve essere altro reato più grave.",
       "legal_reference": "Artículo 173.4 Código Penal",
       "original_file": "Test Penal II 2 parcial AGGIORNATO 19 05 25.txt"
     },
@@ -34,7 +34,7 @@
         { "text": "Que se abuse de una situación de superioridad o de necesidad o de vulnerabilidad de la víctima", "correct": false},
         { "text": "Que la víctima sea menor de edad o persona con discapacidad necesitada de especial protección", "correct": true }
       ],
-      "explanation": "ESP:\nA: Correcto – El tipo aplica si hay vínculo territorial con España.  \nB: Correcto – Medios de coerción (violencia, engaño) son esenciales.  \nC: Correcto – Abuso de vulnerabilidad es uno de los medios.  \nD: Incorrecto – Ser menor/discapacitado agrava, pero no es elemento constitutivo :contentReference[oaicite:2]{index=2}.\n\nIT:\nA: Corretta – Ambito territoriale collegato alla Spagna.  \nB: Corretta – Requisito di violenza, inganno o intimidazione.  \nC: Corretta – Abuso di una situazione di vulnerabilità.  \nD: Scorretta – Minorenne o disabile aggravano la pena, non costituiscono elemento tipico.",
+      "explanation": "ESP:\nA: Correcto – El tipo aplica si hay vínculo territorial con España.  \nB: Correcto – Medios de coerción (violencia, engaño) son esenciales.  \nC: Correcto – Abuso de vulnerabilidad es uno de los medios.  \nD: Incorrecto – Ser menor/discapacitado agrava, pero no es elemento constitutivo.\n\nIT:\nA: Corretta – Ambito territoriale collegato alla Spagna.  \nB: Corretta – Requisito di violenza, inganno o intimidazione.  \nC: Corretta – Abuso di una situazione di vulnerabilità.  \nD: Scorretta – Minorenne o disabile aggravano la pena, non costituiscono elemento tipico.",
       "legal_reference": "Artículo 177-bis Código Penal",
       "original_file": "Test Penal II 2 parcial AGGIORNATO 19 05 25.txt"
     },
@@ -46,7 +46,7 @@
         { "text": "Tanto la a como la b son correctas", "correct": true},
         { "text": "Ni la a ni la b son correctas", "correct": false }
       ],
-      "explanation": "ESP:\nA: Parcialmente correcto – Es condición necesaria.  \nB: Parcialmente correcto – También debe haber proporcionalidad.  \nC: Correcto – Ambas condiciones son exigidas por art. 177-bis.8 CP.  \nD: Incorrecto – Las dos sí son correctas :contentReference[oaicite:3]{index=3}.\n\nIT:\nA: Parzialmente corretta – Condizione necessaria ma non sufficiente da sola.  \nB: Parzialmente corretta – Serve anche proporzionalità.  \nC: Corretta – Art. 177-bis.8 CP richiede entrambi i requisiti.  \nD: Scorretta – Entrambi i requisiti sono previsti.",
+      "explanation": "ESP:\nA: Parcialmente correcto – Es condición necesaria.  \nB: Parcialmente correcto – También debe haber proporcionalidad.  \nC: Correcto – Ambas condiciones son exigidas por art. 177-bis.8 CP.  \nD: Incorrecto – Las dos sí son correctas.\n\nIT:\nA: Parzialmente corretta – Condizione necessaria ma non sufficiente da sola.  \nB: Parzialmente corretta – Serve anche proporzionalità.  \nC: Corretta – Art. 177-bis.8 CP richiede entrambi i requisiti.  \nD: Scorretta – Entrambi i requisiti sono previsti.",
       "legal_reference": "Artículo 177-bis, apartado 8, Código Penal",
       "original_file": "Test Penal II 2 parcial AGGIORNATO 19 05 25.txt"
     },
@@ -58,7 +58,7 @@
         { "text": "Si se ha manifestado mediante actos", "correct": false},
         { "text": "Si expresa de manera clara la voluntad de la persona", "correct": false }
       ],
-      "explanation": "ESP:\nA: Correcto – Debe ser libre.  \nB: Incorrecto – No se exige expresarse justo antes, basta que sea previo y explícito (art. 178.1).  \nC: Correcto – Puede hacerse mediante acciones inequívocas.  \nD: Correcto – Debe ser claro e inequívoco :contentReference[oaicite:4]{index=4}.\n\nIT:\nA: Corretta – Il consenso deve essere libero.  \nB: Scorretta – Non serve manifestarlo immediatamente prima dell’atto.  \nC: Corretta – Può avvenire tramite gesti espliciti.  \nD: Corretta – Deve essere chiaro e inequivocabile.",
+      "explanation": "ESP:\nA: Correcto – Debe ser libre.  \nB: Incorrecto – No se exige expresarse justo antes, basta que sea previo y explícito (art. 178.1).  \nC: Correcto – Puede hacerse mediante acciones inequívocas.  \nD: Correcto – Debe ser claro e inequívoco.\n\nIT:\nA: Corretta – Il consenso deve essere libero.  \nB: Scorretta – Non serve manifestarlo immediatamente prima dell’atto.  \nC: Corretta – Può avvenire tramite gesti espliciti.  \nD: Corretta – Deve essere chiaro e inequivocabile.",
       "legal_reference": "Artículo 178.1 Código Penal",
       "original_file": "Test Penal II 2 parcial AGGIORNATO 19 05 25.txt"
     },
@@ -70,7 +70,7 @@
         { "text": "Actos de carácter sexual que realice el menor sobre sí mismo a instancia del autor", "correct": false},
         { "text": "Solo la a y la b son correctas", "correct": true }
       ],
-      "explanation": "ESP:\nA: Correcto – El tipo incluye estos actos directos.  \nB: Correcto – También incluye instigar a terceros.  \nC: Correcto – Se penaliza incluso si el menor actúa sobre sí mismo.  \nD: Incorrecto – C es válido, por tanto no solo A y B :contentReference[oaicite:5]{index=5}.\n\nIT:\nA: Corretta – Inclusi atti diretti.  \nB: Corretta – Comprende anche atti tramite terzi.  \nC: Corretta – Punisce anche la stimolazione su se stessi.  \nD: Scorretta – La C è contemplata, quindi non soltanto A e B.",
+      "explanation": "ESP:\nA: Correcto – El tipo incluye estos actos directos.  \nB: Correcto – También incluye instigar a terceros.  \nC: Correcto – Se penaliza incluso si el menor actúa sobre sí mismo.  \nD: Incorrecto – C es válido, por tanto no solo A y B.\n\nIT:\nA: Corretta – Inclusi atti diretti.  \nB: Corretta – Comprende anche atti tramite terzi.  \nC: Corretta – Punisce anche la stimolazione su se stessi.  \nD: Scorretta – La C è contemplata, quindi non soltanto A e B.",
       "legal_reference": "Artículo 181 Código Penal",
       "original_file": "Test Penal II 2 parcial AGGIORNATO 19 05 25.txt"
     },
@@ -82,7 +82,7 @@
         { "text": "Que el autor no participe en ellos", "correct": false},
         { "text": "Ninguna de las anteriores es correcta", "correct": false }
       ],
-      "explanation": "ESP:\nA: Correcto – Art. 182 CP exige finalidad sexual para la exhibición.  \nB: Incorrecto – No es requisito la participación del autor.  \nC: Incorrecto – Tampoco es requisito que no participe.  \nD: Incorrecto – A sí es requisito :contentReference[oaicite:6]{index=6}.\n\nIT:\nA: Corretta – Serve uno scopo sessuale.  \nB: Scorretta – Non conta la partecipazione.  \nC: Scorretta – Non è previsto che l’autore non partecipi.  \nD: Scorretta – La A è necessaria.",
+      "explanation": "ESP:\nA: Correcto – Art. 182 CP exige finalidad sexual para la exhibición.  \nB: Incorrecto – No es requisito la participación del autor.  \nC: Incorrecto – Tampoco es requisito que no participe.  \nD: Incorrecto – A sí es requisito.\n\nIT:\nA: Corretta – Serve uno scopo sessuale.  \nB: Scorretta – Non conta la partecipazione.  \nC: Scorretta – Non è previsto che l’autore non partecipi.  \nD: Scorretta – La A è necessaria.",
       "legal_reference": "Artículo 182 Código Penal",
       "original_file": "Test Penal II 2 parcial AGGIORNATO 19 05 25.txt"
     },
@@ -94,7 +94,7 @@
         { "text": "El sujeto activo contacte con el menor", "correct": false},
         { "text": "El sujeto activo le proponga concertar un encuentro", "correct": false }
       ],
-      "explanation": "ESP:\nA: Correcto – Art. 183 CP regula contactos por TIC.  \nB: Incorrecto – No exige intimidación, solo engaño o engaños sutiles.  \nC: Correcto – Es necesario el contacto.  \nD: Correcto – Debe proponer un encuentro :contentReference[oaicite:7]{index=7}.\n\nIT:\nA: Corretta – Richiede uso di TIC.  \nB: Scorretta – Non serve intimidazione.  \nC: Corretta – Serve il contatto.  \nD: Corretta – Necessaria la proposta di incontro.",
+      "explanation": "ESP:\nA: Correcto – Art. 183 CP regula contactos por TIC.  \nB: Incorrecto – No exige intimidación, solo engaño o engaños sutiles.  \nC: Correcto – Es necesario el contacto.  \nD: Correcto – Debe proponer un encuentro.\n\nIT:\nA: Corretta – Richiede uso di TIC.  \nB: Scorretta – Non serve intimidazione.  \nC: Corretta – Serve il contatto.  \nD: Corretta – Necessaria la proposta di incontro.",
       "legal_reference": "Artículo 183 Código Penal",
       "original_file": "Test Penal II 2 parcial AGGIORNATO 19 05 25.txt"
     },
@@ -106,7 +106,7 @@
         { "text": "Que se oculte al menor de edad", "correct": false},
         { "text": "Ninguna de las anteriores es correcta", "correct": false }
       ],
-      "explanation": "ESP:\nA: Correcto – El delito exige dolo (intención), según art. 220 CP.  \nB: Incorrecto – No exige intercambio de bebé, basta suplantar la maternidad.  \nC: Incorrecto – Ocultación no es elemento, sino posible conducta.  \nD: Incorrecto – A es correcta :contentReference[oaicite:8]{index=8}.\n\nIT:\nA: Corretta – Occorre dolo.  \nB: Scorretta – Non serve sostituzione tra neonati.  \nC: Scorretta – L’occultamento non è elemento tipico.  \nD: Scorretta – La A è corretta.",
+      "explanation": "ESP:\nA: Correcto – El delito exige dolo (intención), según art. 220 CP.  \nB: Incorrecto – No exige intercambio de bebé, basta suplantar la maternidad.  \nC: Incorrecto – Ocultación no es elemento, sino posible conducta.  \nD: Incorrecto – A es correcta.\n\nIT:\nA: Corretta – Occorre dolo.  \nB: Scorretta – Non serve sostituzione tra neonati.  \nC: Scorretta – L’occultamento non è elemento tipico.  \nD: Scorretta – La A è corretta.",
       "legal_reference": "Artículo 220 Código Penal",
       "original_file": "Test Penal II 2 parcial AGGIORNATO 19 05 25.txt"
     },
@@ -118,7 +118,7 @@
         { "text": "Que actúe para perjudicar al otro contrayente", "correct": true},
         { "text": "Que la actuación sea dolosa", "correct": false }
       ],
-      "explanation": "ESP:\nA: Correcto – Debe haber un matrimonio anterior vigente.  \nB: Correcto – Conocimiento del primer vínculo matrimonial.  \nC: Incorrecto – No requiere ánimo de perjuicio, basta la pluralidad de matrimonios Dolosos.  \nD: Correcto – El tipo exige dolo :contentReference[oaicite:9]{index=9}.\n\nIT:\nA: Corretta – Serve secondo matrimonio.  \nB: Corretta – Serve consapevolezza del primo.  \nC: Scorretta – Non è richiesto lo scopo di nuocere all’altro coniuge.  \nD: Corretta – Occorre dolo.",
+      "explanation": "ESP:\nA: Correcto – Debe haber un matrimonio anterior vigente.  \nB: Correcto – Conocimiento del primer vínculo matrimonial.  \nC: Incorrecto – No requiere ánimo de perjuicio, basta la pluralidad de matrimonios Dolosos.  \nD: Correcto – El tipo exige dolo.\n\nIT:\nA: Corretta – Serve secondo matrimonio.  \nB: Corretta – Serve consapevolezza del primo.  \nC: Scorretta – Non è richiesto lo scopo di nuocere all’altro coniuge.  \nD: Corretta – Occorre dolo.",
       "legal_reference": "Artículo 217 Código Penal",
       "original_file": "Test Penal II 2 parcial AGGIORNATO 19 05 25.txt"
     },
@@ -130,7 +130,7 @@
         { "text": "La de lesionar a otra persona", "correct": false},
         { "text": "La de coartar la libertad", "correct": false }
       ],
-      "explanation": "ESP:\nA: Correcto – Art. 174 CP señala obtener confesión o información como fin.  \nB: Incorrecto – Ultrajar puede ser medio, no fin principal.  \nC: Incorrecto – Lesionar es efecto, no finalidad.  \nD: Incorrecto – Coartar libertad es posible consecuencia, no objetivo primario :contentReference[oaicite:10]{index=10}.\n\nIT:\nA: Corretta – Scopo di ottenere confessione o informazioni.  \nB: Scorretta – Umiliazione è mezzo, non fine.  \nC: Scorretta – Lesioni sono effetto, non finalità.  \nD: Scorretta – Limitazione della libertà è conseguenza, non scopo.",
+      "explanation": "ESP:\nA: Correcto – Art. 174 CP señala obtener confesión o información como fin.  \nB: Incorrecto – Ultrajar puede ser medio, no fin principal.  \nC: Incorrecto – Lesionar es efecto, no finalidad.  \nD: Incorrecto – Coartar libertad es posible consecuencia, no objetivo primario.\n\nIT:\nA: Corretta – Scopo di ottenere confessione o informazioni.  \nB: Scorretta – Umiliazione è mezzo, non fine.  \nC: Scorretta – Lesioni sono effetto, non finalità.  \nD: Scorretta – Limitazione della libertà è conseguenza, non scopo.",
       "legal_reference": "Artículo 174 Código Penal",
       "original_file": "Test Penal II 2 parcial AGGIORNATO 19 05 25.txt"
     },
@@ -142,7 +142,7 @@
         { "text": "Que la calumnia se reputará hecha con publicidad cuando se propaguen por medio de la imprenta, la radiodifusión o por cualquier otro medio de eficacia semejante.", "correct": false},
         { "text": "Que cuando concurra publicidad será responsable civil solidaria la persona física o jurídica propietaria del medio informativo a través del cual se haya propagado la calumnia.", "correct": true }
       ],
-      "explanation": "ESP:\nA: Correcto – Art. 207 CP define calumnia con dolo o temerario desprecio.  \nB: Correcto – Pena varía según publicidad o no.  \nC: Correcto – Se considera publicidad imprenta, radio, etc.  \nD: Incorrecto – Solo se responsabiliza a propietarios de prensa diaria, no ‘cualquier medio informativo’ :contentReference[oaicite:11]{index=11}.\n\nIT:\nA: Corretta – Definita come imputazione dolosa o incauta.  \nB: Corretta – Pena differenziata per pubblicità.  \nC: Corretta – Pubblicità tramite stampa, radio o simili.  \nD: Scorretta – Responsabilità limitata ai proprietari di mezzi di stampa quotidiani.",
+      "explanation": "ESP:\nA: Correcto – Art. 207 CP define calumnia con dolo o temerario desprecio.  \nB: Correcto – Pena varía según publicidad o no.  \nC: Correcto – Se considera publicidad imprenta, radio, etc.  \nD: Incorrecto – Solo se responsabiliza a propietarios de prensa diaria, no ‘cualquier medio informativo’.\n\nIT:\nA: Corretta – Definita come imputazione dolosa o incauta.  \nB: Corretta – Pena differenziata per pubblicità.  \nC: Corretta – Pubblicità tramite stampa, radio o simili.  \nD: Scorretta – Responsabilità limitata ai proprietari di mezzi di stampa quotidiani.",
       "legal_reference": "Artículo 207 Código Penal",
       "original_file": "Test Penal II 2 parcial AGGIORNATO 19 05 25.txt"
     },
@@ -154,7 +154,7 @@
         { "text": "La de quien, por cualquier medio indirecto exhibiere material pomográfico entre menores de edad o personas con discapacidad necesitadas de especial protección.", "correct": true},
         { "text": "La de aquel que, por cualquier medio directo, vendiere o difundiere material pornográfico entre menores de edad o personas con discapacidad necesitadas de especial protección.", "correct": false }
       ],
-      "explanation": "ESP:\nA: Punible – Art. 185 CP sanciona exhibición ante menores.  \nB: Punible – Igual si hay discapacidad especial.  \nC: No punible – El término ‘pomográfico’ es incorrecto y no encaja en el tipo de pornografía infantil.  \nD: Punible – Distribución directa de pornografía infantil está penada :contentReference[oaicite:12]{index=12}.\n\nIT:\nA: Punibile – Exhibizione di fronte a minori.  \nB: Punibile – Anche se la vittima ha disabilità.  \nC: Non punibile – Il termine è inesatto e non rientra nel tipo penale.  \nD: Punibile – Vendita o diffusione diretta di pornografia minorile.",
+      "explanation": "ESP:\nA: Punible – Art. 185 CP sanciona exhibición ante menores.  \nB: Punible – Igual si hay discapacidad especial.  \nC: No punible – El término ‘pomográfico’ es incorrecto y no encaja en el tipo de pornografía infantil.  \nD: Punible – Distribución directa de pornografía infantil está penada.\n\nIT:\nA: Punibile – Exhibizione di fronte a minori.  \nB: Punibile – Anche se la vittima ha disabilità.  \nC: Non punibile – Il termine è inesatto e non rientra nel tipo penale.  \nD: Punibile – Vendita o diffusione diretta di pornografia minorile.",
       "legal_reference": "Artículo 185 Código Penal",
       "original_file": "Test Penal II 2 parcial AGGIORNATO 19 05 25.txt"
     },
@@ -166,7 +166,7 @@
         { "text": "Que solamente será constitutiva de delito las injurias que, por su naturaleza, efectos y circunstancias, sean tenidas en el concepto público por graves.", "correct": true},
         { "text": "Que las injurias serán castigadas con pena de multa aun cuando se propagaran con publicidad.", "correct": false }
       ],
-      "explanation": "ESP:\nA: Correcto – Injurias leves encajan en vejación injusta (art. 209).  \nB: Correcto – Definición de injuria en art. 208.  \nC: Incorrecto – Tanto leves como graves pueden ser delito, no solo las consideradas graves.  \nD: Correcto – Se multa incluso con publicidad :contentReference[oaicite:13]{index=13}.\n\nIT:\nA: Corretta – Ingiurie lievi vanno a vessazione ingiusta.  \nB: Corretta – Definizione conforme a art. 208.  \nC: Scorretta – Anche le lievi possono costituire reato.  \nD: Corretta – Sanzionate anche con pubblicità.",
+      "explanation": "ESP:\nA: Correcto – Injurias leves encajan en vejación injusta (art. 209).  \nB: Correcto – Definición de injuria en art. 208.  \nC: Incorrecto – Tanto leves como graves pueden ser delito, no solo las consideradas graves.  \nD: Correcto – Se multa incluso con publicidad.\n\nIT:\nA: Corretta – Ingiurie lievi vanno a vessazione ingiusta.  \nB: Corretta – Definizione conforme a art. 208.  \nC: Scorretta – Anche le lievi possono costituire reato.  \nD: Corretta – Sanzionate anche con pubblicità.",
       "legal_reference": "Artículos 208-209 Código Penal",
       "original_file": "Test Penal II 2 parcial AGGIORNATO 19 05 25.txt"
     },
@@ -178,7 +178,7 @@
         { "text": "Solo se puede cometer por autoridad o funcionario público, tanto en el ejercicio de su cargo como en su vida particular.", "correct": true},
         { "text": "Todas las anteriores son falsas", "correct": false }
       ],
-      "explanation": "ESP:\nA: Incorrecto – Particulares sin cargo no están incluidos.  \nB: Incorrecto – Solo si actúan como autoridad, no por su condición profesional genérica.  \nC: Correcto – Art. 174 CP limita el tipo a autoridad o funcionario, dentro o fuera de sus funciones.  \nD: Incorrecto – C es verdadera :contentReference[oaicite:14]{index=14}.\n\nIT:\nA: Scorretta – Non include privati.  \nB: Scorretta – Solo se agiscono da autorità.  \nC: Corretta – Limitato ad autorità o pubblico ufficiale.  \nD: Scorretta – La C è vera.",
+      "explanation": "ESP:\nA: Incorrecto – Particulares sin cargo no están incluidos.  \nB: Incorrecto – Solo si actúan como autoridad, no por su condición profesional genérica.  \nC: Correcto – Art. 174 CP limita el tipo a autoridad o funcionario, dentro o fuera de sus funciones.  \nD: Incorrecto – C es verdadera.\n\nIT:\nA: Scorretta – Non include privati.  \nB: Scorretta – Solo se agiscono da autorità.  \nC: Corretta – Limitato ad autorità o pubblico ufficiale.  \nD: Scorretta – La C è vera.",
       "legal_reference": "Artículo 174 Código Penal",
       "original_file": "Test Penal II 2 parcial AGGIORNATO 19 05 25.txt"
     },
@@ -190,7 +190,7 @@
         { "text": "El libre consentimiento del menor de dieciséis años excluirá la responsabilidad penal, aunque el autor no sea una persona próxima al menor por edad y grado de desarrollo o madurez física y psicológica.", "correct": false},
         { "text": "Ninguna es correcta", "correct": false }
       ],
-      "explanation": "ESP:\nA: Incorrecto – El consentimiento nunca exonera cuando la víctima es menor de 16, aunque el autor sea próximo.  \nB: Correcto – Art. 181.1 CP niega valor al consentimiento del menor en esos casos.  \nC: Incorrecto – Tampoco exonera si el autor no es próximo.  \nD: Incorrecto – B es correcta :contentReference[oaicite:15]{index=15}.\n\nIT:\nA: Scorretta – Il consenso del minore non esclude mai la responsabilità.  \nB: Corretta – L’art. 181.1 CP nega valore al consenso del minore.  \nC: Scorretta – Nessuna esclusione di responsabilità in questo caso.  \nD: Scorretta – La B è giusta.",
+      "explanation": "ESP:\nA: Incorrecto – El consentimiento nunca exonera cuando la víctima es menor de 16, aunque el autor sea próximo.  \nB: Correcto – Art. 181.1 CP niega valor al consentimiento del menor en esos casos.  \nC: Incorrecto – Tampoco exonera si el autor no es próximo.  \nD: Incorrecto – B es correcta.\n\nIT:\nA: Scorretta – Il consenso del minore non esclude mai la responsabilità.  \nB: Corretta – L’art. 181.1 CP nega valore al consenso del minore.  \nC: Scorretta – Nessuna esclusione di responsabilità in questo caso.  \nD: Scorretta – La B è giusta.",
       "legal_reference": "Artículo 181.1 Código Penal",
       "original_file": "Test Penal II 2 parcial AGGIORNATO 19 05 25.txt"
     },
@@ -202,7 +202,7 @@
         { "text": "El que ejecutare o hiciere ejecutar a otra persona actos de exhibición obscena ante menores de edad, exclusivamente.", "correct": false},
         { "text": "El que ejecutare o hiciere ejecutar a otra persona actos de exhibición obscena ante personas con discapacidad necesitadas de especial protección, exclusivamente", "correct": false }
       ],
-      "explanation": "ESP:\nA: Correcto – Art. 185 CP tipifica exhibición ante menores o discapacitados especiales.  \nB: Incorrecto – Debe incluirse uno de esos colectivos.  \nC: Incorrecto – No es exclusivo de menores; vale también para discapacitados.  \nD: Incorrecto – Tampoco exclusivo de discapacitados :contentReference[oaicite:16]{index=16}.\n\nIT:\nA: Corretta – Prevede atti osceni davanti a minori o disabili speciali.  \nB: Scorretta – Mancanza del requisito del gruppo protetto.  \nC: Scorretta – Non è riservato solo ai minori.  \nD: Scorretta – Non è limitato solo ai disabili.",
+      "explanation": "ESP:\nA: Correcto – Art. 185 CP tipifica exhibición ante menores o discapacitados especiales.  \nB: Incorrecto – Debe incluirse uno de esos colectivos.  \nC: Incorrecto – No es exclusivo de menores; vale también para discapacitados.  \nD: Incorrecto – Tampoco exclusivo de discapacitados.\n\nIT:\nA: Corretta – Prevede atti osceni davanti a minori o disabili speciali.  \nB: Scorretta – Mancanza del requisito del gruppo protetto.  \nC: Scorretta – Non è riservato solo ai minori.  \nD: Scorretta – Non è limitato solo ai disabili.",
       "legal_reference": "Artículo 185 Código Penal",
       "original_file": "Test Penal II 2 parcial AGGIORNATO 19 05 25.txt"
     },
@@ -214,7 +214,7 @@
         { "text": "Que la posibilidad de socorrerle sea sin riesgo de terceros.", "correct": false},
         { "text": "Que la víctima lo fuere por accidente ocasionado fortuitamente por el que omitió el auxilio.", "correct": true }
       ],
-      "explanation": "ESP:\nA: Correcto – Art. 195 CP exige persona desamparada y en peligro.  \nB: Correcto – Auxilio sin riesgo propio.  \nC: Correcto – Sin riesgo para terceros.  \nD: Incorrecto – No necesita que el peligro sea creado por quien omite el auxilio :contentReference[oaicite:17]{index=17}.\n\nIT:\nA: Corretta – Persona in pericolo manifesto.  \nB: Corretta – Nessun rischio per chi soccorre.  \nC: Corretta – Nessun rischio per terzi.  \nD: Scorretta – Non serve che il pericolo derivi dall’omissione.",
+      "explanation": "ESP:\nA: Correcto – Art. 195 CP exige persona desamparada y en peligro.  \nB: Correcto – Auxilio sin riesgo propio.  \nC: Correcto – Sin riesgo para terceros.  \nD: Incorrecto – No necesita que el peligro sea creado por quien omite el auxilio.\n\nIT:\nA: Corretta – Persona in pericolo manifesto.  \nB: Corretta – Nessun rischio per chi soccorre.  \nC: Corretta – Nessun rischio per terzi.  \nD: Scorretta – Non serve che il pericolo derivi dall’omissione.",
       "legal_reference": "Artículo 195 Código Penal",
       "original_file": "Test Penal II 2 parcial AGGIORNATO 19 05 25.txt"
     },
@@ -226,7 +226,7 @@
         { "text": "Si la víctima es una persona cuya situación de vulnerabilidad ha sido originada o agravada por el desplazamiento derivado de un conflicto armado o una catástrofe humanitaria.", "correct": false},
         { "text": "Ninguna de las anteriores es incorrecta.", "correct": true }
       ],
-      "explanation": "ESP:\nA: Agrava – Art. 177-bis.4.a CP.  \nB: Agrava – 177-bis.4.b CP.  \nC: Agrava – 177-bis.4.c CP.  \nD: Correcto – Todas A, B y C agravan, así que ninguna es ‘incorrecta’ :contentReference[oaicite:18]{index=18}.\n\nIT:\nA: Aggrava – Comma a).  \nB: Aggrava – Comma b).  \nC: Aggrava – Comma c).  \nD: Corretta – Nessuna delle precedenti è non aggravante.",
+      "explanation": "ESP:\nA: Agrava – Art. 177-bis.4.a CP.  \nB: Agrava – 177-bis.4.b CP.  \nC: Agrava – 177-bis.4.c CP.  \nD: Correcto – Todas A, B y C agravan, así que ninguna es ‘incorrecta’.\n\nIT:\nA: Aggrava – Comma a).  \nB: Aggrava – Comma b).  \nC: Aggrava – Comma c).  \nD: Corretta – Nessuna delle precedenti è non aggravante.",
       "legal_reference": "Artículo 177-bis, apartado 4, Código Penal",
       "original_file": "Test Penal II 2 parcial AGGIORNATO 19 05 25.txt"
     },
@@ -238,7 +238,7 @@
         { "text": "Sí de un delito de vejación injusta.", "correct": false},
         { "text": "No, la imputación de hechos no constituye delito alguno.", "correct": false }
       ],
-      "explanation": "ESP:\nA: Correcto – Art. 205 CP sanciona calumnia cuando se imputa falsamente un delito.  \nB: Incorrecto – Injuria es lesión de honor sin la falsa imputación penal.  \nC: Incorrecto – Vejación injusta trata ofensas leves, no imputación de delito.  \nD: Incorrecto – La calumnia sí es delito :contentReference[oaicite:19]{index=19}.\n\nIT:\nA: Corretta – Imputazione dolosa di reato (calunnia).  \nB: Scorretta – Ingiuria riguarda offesa all’onore, non falso reato.  \nC: Scorretta – Vessazione ingiusta è offesa lieve.  \nD: Scorretta – Calunnia è reato.",
+      "explanation": "ESP:\nA: Correcto – Art. 205 CP sanciona calumnia cuando se imputa falsamente un delito.  \nB: Incorrecto – Injuria es lesión de honor sin la falsa imputación penal.  \nC: Incorrecto – Vejación injusta trata ofensas leves, no imputación de delito.  \nD: Incorrecto – La calumnia sí es delito.\n\nIT:\nA: Corretta – Imputazione dolosa di reato (calunnia).  \nB: Scorretta – Ingiuria riguarda offesa all’onore, non falso reato.  \nC: Scorretta – Vessazione ingiusta è offesa lieve.  \nD: Scorretta – Calunnia è reato.",
       "legal_reference": "Artículo 205 Código Penal",
       "original_file": "Test Penal II 2 parcial AGGIORNATO 19 05 25.txt"
     },
@@ -250,7 +250,7 @@
         { "text": "El sujeto activo ha de estar en situación de superioridad respecto de la víctima.", "correct": true},
         { "text": "Ninguna de las anteriores es válida", "correct": false }
       ],
-      "explanation": "ESP:\nA: Incorrecto – Debe existir superioridad (art. 184 CP).  \nB: Incorrecto – No es en igualdad; igualdad correspondería a acoso ordinario.  \nC: Correcto – El tipo básico exige posición jerárquica.  \nD: Incorrecto – C es válida :contentReference[oaicite:20]{index=20}.\n\nIT:\nA: Scorretta – Serve rapporto di superiorità.  \nB: Scorretta – L’uguaglianza non configura acoso laboral.  \nC: Corretta – Richiesta posizione gerarchica.  \nD: Scorretta – La C è corretta.",
+      "explanation": "ESP:\nA: Incorrecto – Debe existir superioridad (art. 184 CP).  \nB: Incorrecto – No es en igualdad; igualdad correspondería a acoso ordinario.  \nC: Correcto – El tipo básico exige posición jerárquica.  \nD: Incorrecto – C es válida.\n\nIT:\nA: Scorretta – Serve rapporto di superiorità.  \nB: Scorretta – L’uguaglianza non configura acoso laboral.  \nC: Corretta – Richiesta posizione gerarchica.  \nD: Scorretta – La C è corretta.",
       "legal_reference": "Artículo 184 Código Penal",
       "original_file": "Test Penal II 2 parcial AGGIORNATO 19 05 25.txt"
     },
@@ -262,7 +262,7 @@
         { "text": "Realizar un seguimiento personal conversaciones por detrás de la puerta de la persona, llegando a escuchar", "correct": true},
         { "text": "Utilizar artificios técnicos de escucha, transmisión, grabación o reproducción del sonido o de la imagen, o de cualquier otra señal de comunicación.", "correct": false }
       ],
-      "explanation": "ESP:\nA: Constituye – Art. 197.1.a CP.  \nB: Constituye – Art. 197.1.b CP.  \nC: No constituye – Escuchar con oído desnudo no utiliza medios técnicos ni acceso ilícito a datos.  \nD: Constituye – Art. 197.1.d CP :contentReference[oaicite:21]{index=21}.\n\nIT:\nA: Costituisce – Accesso a documenti personali.  \nB: Costituisce – Intercettazione di telecomunicazioni.  \nC: Non costituisce – Mancanza di mezzo tecnico o illecito accesso informatico.  \nD: Costituisce – Uso di dispositivi tecnici di ascolto.",
+      "explanation": "ESP:\nA: Constituye – Art. 197.1.a CP.  \nB: Constituye – Art. 197.1.b CP.  \nC: No constituye – Escuchar con oído desnudo no utiliza medios técnicos ni acceso ilícito a datos.  \nD: Constituye – Art. 197.1.d CP.\n\nIT:\nA: Costituisce – Accesso a documenti personali.  \nB: Costituisce – Intercettazione di telecomunicazioni.  \nC: Non costituisce – Mancanza di mezzo tecnico o illecito accesso informatico.  \nD: Costituisce – Uso di dispositivi tecnici di ascolto.",
       "legal_reference": "Artículo 197.1 Código Penal",
       "original_file": "Test Penal II 2 parcial AGGIORNATO 19 05 25.txt"
     },
@@ -274,7 +274,7 @@
         { "text": "Que si la revelación hubiera sido cometida por imprudencia grave será castigada, pero no es punible cuando la imprudencia sea leve.", "correct": false},
         { "text": "Que el incumplimiento de una cláusula contractual de know-how es constitutiva de esta clase de delitos en todo caso.", "correct": false }
       ],
-      "explanation": "ESP:\nA: Correcto – Art. 199.1 CP prevé pena de inhabilitación especial reducida para profesionales con deber de sigilo.  \nB: Incorrecto – No se agrava, al contrario se atenúa.  \nC: Incorrecto – Revelación imprudente puede punirse, pero no es específico de este apartado.  \nD: Incorrecto – La cláusula contractual no equivale per se a delito :contentReference[oaicite:22]{index=22}.\n\nIT:\nA: Corretta – Pena ridotta per professionisti soggetti a segreto.  \nB: Scorretta – Non prevede aggravamento.  \nC: Scorretta – Non menziona imprudenza in questo comma.  \nD: Scorretta – Clausola contrattuale non è di per sé reato.",
+      "explanation": "ESP:\nA: Correcto – Art. 199.1 CP prevé pena de inhabilitación especial reducida para profesionales con deber de sigilo.  \nB: Incorrecto – No se agrava, al contrario se atenúa.  \nC: Incorrecto – Revelación imprudente puede punirse, pero no es específico de este apartado.  \nD: Incorrecto – La cláusula contractual no equivale per se a delito.\n\nIT:\nA: Corretta – Pena ridotta per professionisti soggetti a segreto.  \nB: Scorretta – Non prevede aggravamento.  \nC: Scorretta – Non menziona imprudenza in questo comma.  \nD: Scorretta – Clausola contrattuale non è di per sé reato.",
       "legal_reference": "Artículo 199.1 Código Penal",
       "original_file": "Test Penal II 2 parcial AGGIORNATO 19 05 25.txt"
     },
@@ -286,7 +286,7 @@
         { "text": "La explotación para realizar actividades delictivas", "correct": false},
         { "text": "Todas las anteriores están previstas como posibles finalidades de dicho delito", "correct": true }
       ],
-      "explanation": "ESP:\nA: Prevista – 177-bis CP incluye extracción de órganos.  \nB: Prevista – Matrimonios forzados están recogidos.  \nC: Prevista – Explotación delictiva es tipo agravado.  \nD: Correcto – Todas las anteriores son finalidades del tipo :contentReference[oaicite:23]{index=23}.\n\nIT:\nA: Prevista – Estrazione di organi.  \nB: Prevista – Matrimonio forzato.  \nC: Prevista – Sfruttamento per attività criminali.  \nD: Corretta – Tutti i precedenti fini sono inclusi.",
+      "explanation": "ESP:\nA: Prevista – 177-bis CP incluye extracción de órganos.  \nB: Prevista – Matrimonios forzados están recogidos.  \nC: Prevista – Explotación delictiva es tipo agravado.  \nD: Correcto – Todas las anteriores son finalidades del tipo.\n\nIT:\nA: Prevista – Estrazione di organi.  \nB: Prevista – Matrimonio forzato.  \nC: Prevista – Sfruttamento per attività criminali.  \nD: Corretta – Tutti i precedenti fini sono inclusi.",
       "legal_reference": "Artículo 177-bis Código Penal",
       "original_file": "Test Penal II 2 parcial AGGIORNATO 19 05 25.txt"
     },
@@ -298,7 +298,7 @@
         { "text": "Que la consecuencia es con efectos penológicos, pues se impondrá en todo caso la pena de inhabilitación absoluta por recaer en el sujeto activo dicha cualidad.", "correct": false},
         { "text": "Que dicho delito no es aplicable a la autoridad o funcionario público, pues, su regulación se contiene de forma específica en los artículos 534 a 536 (no funcionarios ni autoridad) del Código Penal.", "correct": false }
       ],
-      "explanation": "ESP:\nA: Correcto – Art. 197.2 CP exige actuación ilegal y abuso de cargo.  \nB: Incorrecto – No agrava por imprudencia, solo por dolo.  \nC: Incorrecto – No impone inhabilitación absoluta automática.  \nD: Incorrecto – Sí se aplica a funcionarios mediante art. 197.2 :contentReference[oaicite:24]{index=24}.\n\nIT:\nA: Corretta – Serve abuso di potere fuori dai casi legali.  \nB: Scorretta – Non c’è aggravamento per imprudenza.  \nC: Scorretta – Non prevede inabilitazione assoluta automatica.  \nD: Scorretta – Art. 197.2 CP si applica ai funzionari.",
+      "explanation": "ESP:\nA: Correcto – Art. 197.2 CP exige actuación ilegal y abuso de cargo.  \nB: Incorrecto – No agrava por imprudencia, solo por dolo.  \nC: Incorrecto – No impone inhabilitación absoluta automática.  \nD: Incorrecto – Sí se aplica a funcionarios mediante art. 197.2.\n\nIT:\nA: Corretta – Serve abuso di potere fuori dai casi legali.  \nB: Scorretta – Non c’è aggravamento per imprudenza.  \nC: Scorretta – Non prevede inabilitazione assoluta automatica.  \nD: Scorretta – Art. 197.2 CP si applica ai funzionari.",
       "legal_reference": "Artículo 197.2 Código Penal",
       "original_file": "Test Penal II 2 parcial AGGIORNATO 19 05 25.txt"
     },
@@ -310,7 +310,7 @@
         { "text": "Pruebe la verdad de las imputaciones cuando estas estén dirigidas contra funcionarios públicos, empresarios o personalidades relevantes de la vida social, sobre hechos concernientes al ejercicio de sus cargos o referidos a la comisión de faltas penales o infracciones administrativas.", "correct": true},
         { "text": "La respuesta A y C son correctas.", "correct": false }
       ],
-      "explanation": "ESP:\nA: Incorrecto – Solo la verdad no basta si no se cumplen los supuestos de funcionario/empresario.  \nB: Incorrecto – Falta incluir empresarios y otras personalidades.  \nC: Correcto – Art. 217 CP exonera si pruebas verdad en esos casos.  \nD: Incorrecto – A es falsa, por tanto D no es correcta :contentReference[oaicite:25]{index=25}.\n\nIT:\nA: Scorretta – Verità da sola non sufficiente senza contesto.  \nB: Scorretta – Manca riferimento a imprenditori e figure rilevanti.  \nC: Corretta – Esenzione prevista per verità in questi casi.  \nD: Scorretta – La A è falsa, quindi D sbagliata.",
+      "explanation": "ESP:\nA: Incorrecto – Solo la verdad no basta si no se cumplen los supuestos de funcionario/empresario.  \nB: Incorrecto – Falta incluir empresarios y otras personalidades.  \nC: Correcto – Art. 217 CP exonera si pruebas verdad en esos casos.  \nD: Incorrecto – A es falsa, por tanto D no es correcta.\n\nIT:\nA: Scorretta – Verità da sola non sufficiente senza contesto.  \nB: Scorretta – Manca riferimento a imprenditori e figure rilevanti.  \nC: Corretta – Esenzione prevista per verità in questi casi.  \nD: Scorretta – La A è falsa, quindi D sbagliata.",
       "legal_reference": "Artículo 217 Código Penal",
       "original_file": "Test Penal II 2 parcial AGGIORNATO 19 05 25.txt"
     },
@@ -322,7 +322,7 @@
         { "text": "Se exige que la explotación de la víctima se lleve a cabo materialmente, no bastando para la perfección del delito el mero propósito o intención de explotación", "correct": false},
         { "text": "No se admite la declaración de la víctima practicada en fase de instrucción como prueba preconstituida como medio de prueba válido para ser reproducido en el acto de juicio.", "correct": false }
       ],
-      "explanation": "ESP:\nA: Incorrecto – No es obligatoria la dimensión internacional.  \nB: Correcto – Consentimiento del menor es irrelevante per se en art. 177-bis CP.  \nC: Incorrecto – El delito se consuma con captación o transporte; no requiere consumación de la explotación.  \nD: Incorrecto – La ley admite declaraciones preconstituídas de víctimas vulnerables :contentReference[oaicite:26]{index=26}.\n\nIT:\nA: Scorretta – Non serve trasferimento internazionale.  \nB: Corretta – Il consenso del minore non vale.  \nC: Scorretta – Tipo perfezionato con mera cattura o trasporto.  \nD: Scorretta – Dichiarazioni precostituite sono ammesse.",
+      "explanation": "ESP:\nA: Incorrecto – No es obligatoria la dimensión internacional.  \nB: Correcto – Consentimiento del menor es irrelevante per se en art. 177-bis CP.  \nC: Incorrecto – El delito se consuma con captación o transporte; no requiere consumación de la explotación.  \nD: Incorrecto – La ley admite declaraciones preconstituídas de víctimas vulnerables.\n\nIT:\nA: Scorretta – Non serve trasferimento internazionale.  \nB: Corretta – Il consenso del minore non vale.  \nC: Scorretta – Tipo perfezionato con mera cattura o trasporto.  \nD: Scorretta – Dichiarazioni precostituite sono ammesse.",
       "legal_reference": "Artículo 177-bis Código Penal",
       "original_file": "Test Penal II 2 parcial AGGIORNATO 19 05 25.txt"
     },
@@ -334,7 +334,7 @@
         { "text": "Aquella en la que un particular, sin habitar en ella se mantuviere en morada ajena con consentimiento del morador", "correct": true},
         { "text": "Todas las anteriores son falsas", "correct": false }
       ],
-      "explanation": "ESP:\nA: Integra – Art. 202.1 CP.  \nB: Integra – Art. 202.1 CP castiga también la permanencia contra voluntad.  \nC: No integra – Con consentimiento inicial no hay delito si se permanece con aquél.  \nD: Incorrecto – C es verdadera excepción :contentReference[oaicite:27]{index=27}.\n\nIT:\nA: Costituisce – Entrata senza consenso.  \nB: Costituisce – Permanenza contro volontà del titolare.  \nC: Non costituisce – Permesso iniziale esclude reato.  \nD: Scorretta – C è l’eccezione.",
+      "explanation": "ESP:\nA: Integra – Art. 202.1 CP.  \nB: Integra – Art. 202.1 CP castiga también la permanencia contra voluntad.  \nC: No integra – Con consentimiento inicial no hay delito si se permanece con aquél.  \nD: Incorrecto – C es verdadera excepción.\n\nIT:\nA: Costituisce – Entrata senza consenso.  \nB: Costituisce – Permanenza contro volontà del titolare.  \nC: Non costituisce – Permesso iniziale esclude reato.  \nD: Scorretta – C è l’eccezione.",
       "legal_reference": "Artículo 202 Código Penal",
       "original_file": "Test Penal II 2 parcial AGGIORNATO 19 05 25.txt"
     },
@@ -346,7 +346,7 @@
         { "text": "La publicidad.", "correct": false},
         { "text": "Ninguna de las anteriores.", "correct": false }
       ],
-      "explanation": "ESP:\nA: Agrava – Art. 213.3.a CP.  \nB: No agrava expresamente – El ensañamiento no figura en el art. 213.3.  \nC: Agrava – Art. 213.3.b CP contempla publicidad.  \nD: Incorrecto – B es la no contemplada :contentReference[oaicite:28]{index=28}.\n\nIT:\nA: Aggrava – Premio o promessa.  \nB: Non aggrava – Accanimento non citato nell’art. 213.3.  \nC: Aggrava – Pubblicità.  \nD: Scorretta – B è quella non prevista.",
+      "explanation": "ESP:\nA: Agrava – Art. 213.3.a CP.  \nB: No agrava expresamente – El ensañamiento no figura en el art. 213.3.  \nC: Agrava – Art. 213.3.b CP contempla publicidad.  \nD: Incorrecto – B es la no contemplada.\n\nIT:\nA: Aggrava – Premio o promessa.  \nB: Non aggrava – Accanimento non citato nell’art. 213.3.  \nC: Aggrava – Pubblicità.  \nD: Scorretta – B è quella non prevista.",
       "legal_reference": "Artículo 213.3 Código Penal",
       "original_file": "Test Penal II 2 parcial AGGIORNATO 19 05 25.txt"
     },
@@ -358,7 +358,7 @@
         { "text": "Que para la ejecución del delito, el responsable se hubiera prevalido de una relación de superioridad o parentesco, por ser ascendiente, descendiente o hermano, por naturaleza o adopción, o afines, con la víctima.", "correct": false},
         { "text": "Que el culpable hubiera puesto en peligro, de forma dolosa o por imprudencia grave, la vida o salud de la víctima.", "correct": true }
       ],
-      "explanation": "ESP:\nA: Agrava – Art. 187.4.a CP.  \nB: Agrava – Art. 187.4.b CP.  \nC: Agrava – Art. 187.4.c CP.  \nD: Incorrecto – El poner en peligro vida o salud no está previsto como agravante en art. 187.4 :contentReference[oaicite:29]{index=29}.\n\nIT:\nA: Aggrava – Autorità o pubblico ufficiale.  \nB: Aggrava – Gruppo criminale.  \nC: Aggrava – Rapporto di superiorità o parentela.  \nD: Scorretta – Pericolo per vita o salute non è aggravante prevista.",
+      "explanation": "ESP:\nA: Agrava – Art. 187.4.a CP.  \nB: Agrava – Art. 187.4.b CP.  \nC: Agrava – Art. 187.4.c CP.  \nD: Incorrecto – El poner en peligro vida o salud no está previsto como agravante en art. 187.4.\n\nIT:\nA: Aggrava – Autorità o pubblico ufficiale.  \nB: Aggrava – Gruppo criminale.  \nC: Aggrava – Rapporto di superiorità o parentela.  \nD: Scorretta – Pericolo per vita o salute non è aggravante prevista.",
       "legal_reference": "Artículo 187.4 Código Penal",
       "original_file": "Test Penal II 2 parcial AGGIORNATO 19 05 25.txt"
     },
