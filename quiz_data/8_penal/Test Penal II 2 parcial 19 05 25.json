@@ -246,8 +246,8 @@
       "question": "1. En el delito de acoso laboral:",
       "answers": [
         { "text": "Es irrelevante que el sujeto activo esté en relación de superioridad o de igualdad respecto de la víctima.", "correct": false},
-        { "text": "El sujeto activo ha de estar en situación de igualdad respecto de la víctima, constituyendo una modalidad agravada cuando se encuentra en relación de superioridad.", "correct": false},
-        { "text": "El sujeto activo ha de estar en situación de superioridad respecto de la víctima.", "correct": true},
+        { "text": "El sujeto activo ha de estar en situación de igualdad respecto de la víctima, constituyendo una modalidad agravada cuando se encuentra en relación de superioridad.", "correct": true},
+        { "text": "El sujeto activo ha de estar en situación de superioridad respecto de la víctima.", "correct": false},
         { "text": "Ninguna de las anteriores es válida", "correct": false }
       ],
       "explanation": "ESP:\nA: Incorrecto – Debe existir superioridad (art. 184 CP).  \nB: Incorrecto – No es en igualdad; igualdad correspondería a acoso ordinario.  \nC: Correcto – El tipo básico exige posición jerárquica.  \nD: Incorrecto – C es válida.\n\nIT:\nA: Scorretta – Serve rapporto di superiorità.  \nB: Scorretta – L’uguaglianza non configura acoso laboral.  \nC: Corretta – Richiesta posizione gerarchica.  \nD: Scorretta – La C è corretta.",
