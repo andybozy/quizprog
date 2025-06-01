@@ -269,8 +269,8 @@
     {
       "question": "¿Cuál de las siguientes afirmaciones es correcta, según el Código Penal, para el supuesto en que la revelación de secretos ajenos fuera cometida por un profesional?",
       "answers": [
-        { "text": "Que se castiga menos gravemente (con la pena de inhabilitación especial reducida) al que revelare secretos ajenos de los que tenga conocimiento por razón de su oficio o sus relaciones laborales.", "correct": true},
-        { "text": "Que se castiga más gravemente profesional que, con incumplimiento de su obligación de sigilo o reserva, divulgue los secretos de otra persona.", "correct": false},
+        { "text": "Que se castiga menos gravemente (con la pena de inhabilitación especial reducida) al que revelare secretos ajenos de los que tenga conocimiento por razón de su oficio o sus relaciones laborales.", "correct": false},
+        { "text": "Que se castiga más gravemente profesional que, con incumplimiento de su obligación de sigilo o reserva, divulgue los secretos de otra persona.", "correct": true},
         { "text": "Que si la revelación hubiera sido cometida por imprudencia grave será castigada, pero no es punible cuando la imprudencia sea leve.", "correct": false},
         { "text": "Que el incumplimiento de una cláusula contractual de know-how es constitutiva de esta clase de delitos en todo caso.", "correct": false }
       ],

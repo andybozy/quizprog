@@ -39,7 +39,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
-      "question": "Según el artículo 169 CP (amenazas), ¿cuál de los siguientes no es uno de los delitos que deben amenazarse para sancionar la conducta?",
+      "question": "El que amenazare a otro con causarle a él a su familia o a otras personas con las que esté íntimamente vinculado un mal que constituía delito cerrado castigado como autor de amenazas del artículo 169 cp .  cual de los siguientes no es unos de estos delitos con los que se debe amenazar para poder sancionar la conducta",
       "answers": [
         {"text": "Lesiones", "correct": false},
         {"text": "Contra la imagen", "correct": true},
@@ -210,9 +210,9 @@
       "question": "El artículo 197.7 CP sanciona la divulgación no consentida de imágenes o grabaciones de carácter íntimo. ¿Cuál de los siguientes no es un requisito según el precepto citado?",
       "answers": [
         {"text": "Que no exista autorización ni expresa ni tácita de la persona afectada", "correct": false},
-        {"text": "Que las imágenes se obtuvieran con anuencia de la víctima", "correct": true},
+        {"text": "Que las imágenes se obtuvieran con anuencia de la víctima", "correct": false},
         {"text": "Que las imágenes se obtuvieran en un domicilio o en cualquier otro lugar fuera del alcance de la mirada de terceros", "correct": false},
-        {"text": "Que exista ánimo de lucro en la misma", "correct": false}
+        {"text": "Que exista ánimo de lucro en la misma", "correct": true}
       ],
       "explanation": "ES: «Que no exista autorización ni expresa ni tácita»: incorrecta, es requisito; «Que las imágenes se obtuvieran con anuencia de la víctima»: correcta, contradice la falta de consentimiento; «Que se obtuvieran en domicilio o lugar íntimo»: incorrecta, forma parte del tipo; «Que exista ánimo de lucro»: incorrecta, agravante pero no requisito esencial.\nIT: «Che non vi sia autorizzazione né espressa né tacita»: errata, è requisito; «Che le immagini siano ottenute con il consenso della vittima»: corretta, contraddice la mancanza di consenso; «Che siano ottenute in domicilio o luogo intimo»: errata, è elemento del reato; «Che vi sia scopo di lucro»: errata, è aggravante ma non requisito essenziale.",
       "legal_reference": "Ley Orgánica 10/1995, Código Penal, art. 197.7",
