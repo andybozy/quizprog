@@ -161,9 +161,9 @@
     {
       "question": "De acuerdo con lo señalado en el Código Penal una de las siguientes afirmaciones acerca de las injurias no es correcta ¿De cuál se trata?",
       "answers": [
-        { "text": "Que las injurias de carácter leve dan lugar al tipo penal de delito de vejación injusta aplicable a cualquier persona.", "correct": false},
+        { "text": "Que las injurias de carácter leve dan lugar al tipo penal de delito de vejación injusta aplicable a cualquier persona.", "correct": true},
         { "text": "Que es injuria la acción o expresión que lesionan la dignidad de otra persona, menoscabando su fama o atentando contra su propia estimación.", "correct": false},
-        { "text": "Que solamente será constitutiva de delito las injurias que, por su naturaleza, efectos y circunstancias, sean tenidas en el concepto público por graves.", "correct": true},
+        { "text": "Que solamente será constitutiva de delito las injurias que, por su naturaleza, efectos y circunstancias, sean tenidas en el concepto público por graves.", "correct": false},
         { "text": "Que las injurias serán castigadas con pena de multa aun cuando se propagaran con publicidad.", "correct": false }
       ],
       "explanation": "ESP:\nA: Correcto – Injurias leves encajan en vejación injusta (art. 209).  \nB: Correcto – Definición de injuria en art. 208.  \nC: Incorrecto – Tanto leves como graves pueden ser delito, no solo las consideradas graves.  \nD: Correcto – Se multa incluso con publicidad.\n\nIT:\nA: Corretta – Ingiurie lievi vanno a vessazione ingiusta.  \nB: Corretta – Definizione conforme a art. 208.  \nC: Scorretta – Anche le lievi possono costituire reato.  \nD: Corretta – Sanzionate anche con pubblicità.",
@@ -174,8 +174,8 @@
       "question": "El delito de tortura regulado en el artículo 174 del Código Penal puede cometerse por:",
       "answers": [
         { "text": "El particular que, sometiere a otro, a condiciones o procedimientos que, por su naturaleza, duración u otras circunstancias le supongan sufrimientos físicos o mentales", "correct": false},
-        { "text": "El funcionario de instituciones penitenciarias o de centros de protección o corrección de menores, respecto de detenidos, internos o presos, siempre en el desempeño de su actividad profesional.", "correct": false},
-        { "text": "Solo se puede cometer por autoridad o funcionario público, tanto en el ejercicio de su cargo como en su vida particular.", "correct": true},
+        { "text": "El funcionario de instituciones penitenciarias o de centros de protección o corrección de menores, respecto de detenidos, internos o presos, siempre en el desempeño de su actividad profesional.", "correct": true},
+        { "text": "Solo se puede cometer por autoridad o funcionario público, tanto en el ejercicio de su cargo como en su vida particular.", "correct": false},
         { "text": "Todas las anteriores son falsas", "correct": false }
       ],
       "explanation": "ESP:\nA: Incorrecto – Particulares sin cargo no están incluidos.  \nB: Incorrecto – Solo si actúan como autoridad, no por su condición profesional genérica.  \nC: Correcto – Art. 174 CP limita el tipo a autoridad o funcionario, dentro o fuera de sus funciones.  \nD: Incorrecto – C es verdadera.\n\nIT:\nA: Scorretta – Non include privati.  \nB: Scorretta – Solo se agiscono da autorità.  \nC: Corretta – Limitato ad autorità o pubblico ufficiale.  \nD: Scorretta – La C è vera.",
