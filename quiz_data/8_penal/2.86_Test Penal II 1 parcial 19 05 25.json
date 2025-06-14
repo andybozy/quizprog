@@ -10,8 +10,8 @@
         {"text": "Que se utilicen medios que pongan en peligro la vida", "correct": false},
         {"text": "Que se utilicen instrumentos que pongan en peligro la integridad de las personas", "correct": false}
       ],
-      "explanation": "ES: «Que se cometa por dolo o imprudencia»: respuesta correcta porque el artículo 154 CP exige dolo, no contempla la imprudencia; «Que el acometimiento sea tumultuario»: opción incorrecta pues la riña debe ser tumultuaria; «Que se utilicen medios que pongan en peligro la vida»: incorrecta porque es uno de los elementos del tipo; «Que se utilicen instrumentos que pongan en peligro la integridad de las personas»: incorrecta pues también se precisa el uso de instrumentos peligrosos.\nIT: «Che sia commesso con dolo o imprudenza»: risposta corretta perché l’art. 154 CP richiede dolo, non contempla imprudenza; «Che l’aggressione sia tumultuaria»: opzione errata perché la rissa deve essere tumultuaria; «Che si usino mezzi che mettano in pericolo la vita»: errata in quanto è uno degli elementi del reato; «Che si usino strumenti che mettano in pericolo l’integrità delle persone»: errata perché il tipo richiede l’uso di strumenti pericolosi.",
-      "legal_reference": "Ley Orgánica 10/1995, Código Penal, art. 154.1",
+      "explanation": "ES: «Que se cometa por dolo o imprudencia»: respuesta correcta porque el artículo 154 CP exige dolo, no contempla la imprudencia; «Que el acometimiento sea tumultuario»: opción incorrecta pues la riña debe ser tumultuaria; «Que se utilicen medios que pongan en peligro la vida»: incorrecta porque es uno de los elementos del tipo; «Que se utilicen instrumentos que pongan en peligro la integridad de las personas»: incorrecta pues también se precisa el uso de instrumentos peligrosos.\nIT: «Che sia commesso con dolo o imprudenza»: risposta corretta perché l’art. 154 CP richiede dolo, non contempla imprudenza; «Che l’aggressione sia tumultuaria»: opzione errata perché la rissa deve essere tumultuaria; «Che si usino mezzi che mettano in pericolo la vita»: errata in quanto è uno degli elementi del reato; «Che si usino strumenti che mettano in pericolo l’integrità delle persone»: errata perché il tipo richiede l’uso di strumenti pericolosi.\nTarea\\nTEMA 3.pptx\\nSezione/slides contrassegnate dal titolo «4. La participación en riña» (subito dopo la parte 3 «Especial referencia a la mutilación genital»)",
+      "legal_reference": "Ley Orgánica 10/1995, Código Penal, art. 154.1\\nTEMA 3.pptx\\nSezione/slides contrassegnate dal titolo «4. La participación en riña» (subito dopo la parte 3 «Especial referencia a la mutilación genital»)",
       "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
@@ -1677,6 +1677,188 @@
       "explanation": "ES:\nA: Correcta – reproduce el texto literal de art. 172.1 (violencia/intimidación + sin autorización).\nB: Errónea – omite violencia o intimidación.\nC: Errónea – no menciona violencia ni coacción formal.\nD: Errónea – incompleta, falta impedimento de lo no prohibido.\nIT:\nA: Corretta – corrisponde a “senza autorizzazione… violenza o intimidazione…” (CP, art. 172.1).\nB: Errata – manca “violenza o intimidazione”.\nC: Errata – incompleta.\nD: Errata – incompleta.",
       "legal_reference": "Código Penal (España), art. 172.1",
       "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25"
-    }
+    },
+    {
+      "question": "72. ¿En cuál de los siguientes supuestos el delito de asesinato no será castigado con pena de prisión permanente revisable?",
+      "answers": [
+        { "text": "Que la víctima sea una persona especialmente vulnerable.", "correct": false },
+        { "text": "Que se hayan empleado en su ejecución medios, modos o formas que tiendan directamente a asegurar el acto.", "correct": true },
+        { "text": "Que la víctima sea menor de dieciséis años.", "correct": false },
+        { "text": "Que el autor perteneciera a una organización criminal.", "correct": false }
+      ],
+      "explanation": "ES:\nEl artículo 140.1 CP impone la pena de prisión permanente revisable al asesinato cuando: 1) la víctima es menor de 16 años o persona especialmente vulnerable, 2) el hecho sigue a un delito contra la libertad sexual, 3) el autor pertenece a un grupo u organización criminal, o 4) el reo ha sido condenado por la muerte de dos o más personas. Ninguna de estas circunstancias se identifica con el simple uso de medios o modos que aseguren la ejecución, rasgo que configura la alevosía del art. 139 CP y comporta la pena ordinaria de 15-25 años, pero no la agravación del art. 140.\nIT:\nL’art. 140.1 CP prevede la prisión permanente revisable se: 1) la vittima ha meno di 16 anni o è particolarmente vulnerabile, 2) l’omicidio è successivo a un reato contro la libertà sessuale, 3) l’autore appartiene a un gruppo o organizzazione criminale, oppure 4) l’omicida è già condannato per due o più omicidi. L’uso di mezzi o forme che garantiscono l’esecuzione (alevosía, art. 139) comporta la pena ordinaria (15-25 anni) e non attiva la qualificazione dell’art. 140.\nPagina/Slide: TEMA 1.pptx, diapo «3. ASESINATO CUALIFICADO (art. 140 CP)» :contentReference[oaicite:0]{index=0}",
+      "legal_reference": "Arts. 139 y 140 Código Penal español (LO 10/1995, redacción LO 1/2015)",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+    },
+    {
+      "question": "73. Para el delito de detención ilegal tipificado en el artículo 163.3 del CP, se impondrá la pena agravada cuando el encierro o detención:",
+      "answers": [
+        { "text": "Ha durado más de 3 días.", "correct": false },
+        { "text": "Ha durado más de 5 días.", "correct": false },
+        { "text": "Ha durado más de 15 días.", "correct": true },
+        { "text": "Ha durado más de 20 días.", "correct": false }
+      ],
+      "explanation": "ES:\\nEl art. 163.3 CP dispone: “Se impondrá la pena de prisión de cinco a ocho años si el encierro o detención ha durado más de quince días”, de modo que la agravación se aplica al superar los 15 días.\\nIT:\\nL’art. 163.3 CP prevede la pena aggravata (reclusione da cinque a otto anni) quando la privazione della libertà si è protratta per oltre quindici giorni.\\nPagina/Slide: TEMA 5.pptx, diapositiva «Artículo 163» (sección \"Detenciones ilegales y secuestros\") :contentReference[oaicite:0]{index=0}",
+      "legal_reference": "Art. 163.3 Código Penal español (LO 10/1995, redacción LO 1/2015)",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+    },
+{
+  "question": "74. La detención ilegal del artículo 163 establece en su apartado 4 que se castigará con una pena menor si:",
+  "answers": [
+    { "text": "Se hubiese puesto en libertad la persona por un particular.", "correct": false },
+    { "text": "Se llevara a cabo fuera de los supuestos previstos por la ley.", "correct": false },
+    { "text": "Tuviera como fin presentarla inmediatamente a la autoridad.", "correct": true },
+    { "text": "Todas las anteriores son correctas.", "correct": false }
+  ],
+  "explanation": "ES:\\nEl art. 163.4 CP dispone que «el particular que, fuera de los casos permitidos por las leyes, aprehendiere a una persona para presentarla inmediatamente a la autoridad, será castigado con la pena de multa de tres a seis meses». Esta es una forma atenuada en relación con la pena básica de prisión de 4-6 años (art. 163.1). Las demás opciones no coinciden con este supuesto; la liberación temprana (≤ 3 días) pertenece al art. 163.2, y actuar fuera de los supuestos legales describe solo el tipo básico.\\nIT:\\nIl comma 4 dell’art. 163 CP prevede un’ipotesi attenuata: se un privato, fuori dai casi consentiti, cattura una persona al solo scopo di consegnarla immediatamente all’autorità, si applica la pena ridotta della multa da 3 a 6 mesi. Le altre alternative non corrispondono a tale fattispecie; la liberazione entro 3 giorni è trattata dal comma 2, mentre agire fuori dai casi consentiti integra il tipo base.\\nPagina/Slide: TEMA 5.pptx, diapositiva «Artículo 163» :contentReference[oaicite:0]{index=0}",
+  "legal_reference": "Art. 163.4 Código Penal español (LO 10/1995, redacción LO 1/2015)",
+  "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+},
+{
+  "question": "75. El artículo 165 del CP establece que la detención ilegal se sancionará con una pena mayor si se ha ejecutado con:",
+  "answers": [
+    { "text": "Simulación de autoridad o función pública.", "correct": false },
+    { "text": "Simulación de policía.", "correct": false },
+    { "text": "Simulación de poder judicial.", "correct": false },
+    { "text": "Todas las anteriores son correctas.", "correct": true }
+  ],
+  "explanation": "ES:\nEl art. 165 CP dispone que las penas previstas para la detención ilegal (arts. 163-164) se impondrán en su mitad superior «si la detención ilegal o secuestro se ha ejecutado con simulación de autoridad o función pública…». La simulación de policía o de poder judicial son casos concretos de esa simulación de autoridad; por tanto, cualquiera de las tres hipótesis (a, b, c) cumple la condición, de modo que la opción correcta es la respuesta global d).\nIT:\nL’art. 165 CP prevede che le pene di cui agli artt. 163-164 siano applicate nella metà superiore «se la detenzione illegale o il sequestro sono stati eseguiti simulando un’autorità o una funzione pubblica…». Fingere di essere un poliziotto o un membro del potere giudiziario rientra nella stessa simulazione di autorità; pertanto tutte le ipotesi delle risposte a), b) e c) soddisfano il requisito, e la risposta corretta è la d).\nPagina/Slide: TEMA 5.pptx, diapositiva «Artículo 165» (sección “Detenciones ilegales y secuestros”) :contentReference[oaicite:2]{index=2}",
+  "legal_reference": "Art. 165 Código Penal español (LO 10/1995, red. LO 1/2015)",
+  "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+},
+{
+  "question": "76. El artículo 166 del Código Penal establece una pena agravada para el delito de secuestro de hasta 20 años de prisión si:",
+  "answers": [
+    { "text": "Se exige una condición para poner a la persona en libertad.", "correct": false },
+    { "text": "Se exige un rescate para poner a la persona en libertad.", "correct": false },
+    { "text": "No se da razón del paradero de la persona detenida.", "correct": true },
+    { "text": "Ninguna de las anteriores es correcta.", "correct": false }
+  ],
+  "explanation": "ES:\\nEl art. 166.1 CP dispone que «el reo de secuestro que no dé razón del paradero de la persona detenida será castigado con una pena de quince a veinte años de prisión» :contentReference[oaicite:2]{index=2}. Exigir un rescate o cualquier otra condición pertenece al tipo básico de secuestro del art. 164 CP (6-10 años de prisión), por lo que solo la opción c) activa la agravación de hasta 20 años.\\nIT:\\nL’art. 166.1 CP prevede la pena aggravata (15-20 anni) per il sequestro quando l’autore non fornisce indicazioni sul luogo in cui si trova la vittima. L’esigere un riscatto o un’altra condizione rientra nel tipo base dell’art. 164 (6-10 anni) e non comporta l’aggravante del 166.\\nPagina/Slide: TEMA 5.pptx, diapositiva «Artículo 166».",
+  "legal_reference": "Art. 166 Código Penal español (LO 10/1995, redacción LO 1/2015)",
+  "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+},
+{
+  "question": "77. Las amenazas del artículo 169 del CP se sancionarán con una pena agravada si:",
+  "answers": [
+    { "text": "Se hicieren por escrito.", "correct": false },
+    { "text": "Se hicieren por teléfono.", "correct": false },
+    { "text": "Se hicieren por cualquier medio de comunicación.", "correct": false },
+    { "text": "Todas las anteriores son correctas.", "correct": true }
+  ],
+  "explanation": "ES:\nEl art. 169 CP indica que «las penas señaladas se impondrán en su mitad superior si las amenazas se hicieren por escrito, por teléfono o por cualquier medio de comunicación o de reproducción…»; cualquiera de estos medios agrava la pena, de modo que la opción correcta es la que engloba todas (d).\nIT:\nL’art. 169 CP prevede che «le pene si applicano nella metà superiore se le minacce sono fatte per iscritto, per telefono o con qualsiasi mezzo di comunicazione o riproduzione…»; ognuno di questi mezzi comporta l’aggravante, quindi la risposta corretta è la d).\nPagina/Slide: TEMA 5.pptx, diapositiva «Artículo 169 – Amenazas» :contentReference[oaicite:2]{index=2}",
+  "legal_reference": "Art. 169 Código Penal español (LO 10/1995, red. LO 1/2015)",
+  "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+},
+{
+  "question": "78. ¿Cuál de los siguientes no es un requisito del delito de coacciones del artículo 172 del Código Penal?",
+  "answers": [
+    { "text": "Impedir a otro hacer lo que la ley no prohíbe.", "correct": false },
+    { "text": "Permitir a otro hacer lo que la ley prohíbe.", "correct": false },
+    { "text": "Impedir a otro hacer lo que la ley prohíbe.", "correct": true },
+    { "text": "Permitir a otro hacer lo que la ley no prohíbe.", "correct": false }
+  ],
+  "explanation": "ES:\nEl art. 172.1 CP contempla dos únicas conductas: a) **impedir con violencia que otro realice lo que la ley no prohíbe**, y b) **compelerle a efectuar lo que no quiere, sea justo o injusto**. No castiga impedir actos prohibidos ni ‘permitir’ nada. Por tanto, la opción **c)** —impedir lo que la ley prohíbe— no forma parte de los requisitos del tipo.\nIT:\nL’art. 172.1 CP punisce solo due condotte: a) **impedire con violenza che qualcuno compia ciò che la legge non vieta** e b) **costringerlo a fare ciò che non vuole, sia giusto sia ingiusto**. Non rientra nel reato impedire un atto vietato né «permettere» alcunché. Pertanto l’opzione **c)** è l’unica che non costituisce requisito.\nPagina/Slide: TEMA 5.pptx, diapositiva “Artículo 172 – Coacciones” :contentReference[oaicite:2]{index=2}",
+  "legal_reference": "Art. 172 Código Penal español (LO 10/1995, redacción LO 1/2015)",
+  "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+},
+{
+  "question": "79. Entre los aspectos relevantes de la LO 1/2004 de Medidas de Protección Integral contra la Violencia de Género podemos mencionar:",
+  "answers": [
+    { "text": "Desarrollo de medidas de sensibilización.", "correct": false },
+    { "text": "Eliminación de este tipo de violencia en el ámbito de la publicidad.", "correct": false },
+    { "text": "Lucha contra la misma en el ámbito educativo.", "correct": false },
+    { "text": "Todas las anteriores son correctas.", "correct": true }
+  ],
+  "explanation": "ES:\\nLa diapositiva dedicada a la LO 1/2004 destaca expresamente como ejes: «medidas de sensibilización, prevención y detección», «eliminación de la violencia en la publicidad y los medios de comunicación» y «su lucha a través del sistema educativo» :contentReference[oaicite:3]{index=3}. Al reunir las tres opciones a), b) y c), la respuesta correcta es la d).\\nIT:\\nNella slide sulla LO 1/2004 si elencano tra gli aspetti fondamentali: «misure di sensibilizzazione», l’eliminazione della violenza di genere «nel campo della pubblicità» e «la lotta in ambito educativo» :contentReference[oaicite:4]{index=4}. Poiché le tre voci compaiono tutte, la risposta corretta è la d).\\nPagina/Slide: TEMA 4.pptx, diapositiva 2 (sezione «1. LO 1/2004 y la configuración de los delitos de VIOGEN»)",
+  "legal_reference": "Ley Orgánica 1/2004, de Medidas de Protección Integral contra la Violencia de Género",
+  "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+},
+{
+  "question": "80. El maltrato físico o psíquico del artículo 153 del CP en el ámbito de la violencia de género se sancionará con una pena mayor según su apartado 3 cuando:",
+  "answers": [
+    { "text": "Se cometa en presencia de menores.", "correct": true },
+    { "text": "Se cometa en presencia de víctimas.", "correct": false },
+    { "text": "Se cometa en el domicilio común.", "correct": false },
+    { "text": "Todas las anteriores son correctas.", "correct": false }
+  ],
+  "explanation": "ES:\\nEl art. 153.3 CP agrava la pena (mitad superior) si el delito se comete **en presencia de menores**, usando armas, en el domicilio común o de la víctima, o quebrantando penas/medidas del art. 48. No menciona la mera presencia de la víctima (siempre existente) y, aunque también incluye el domicilio común, la opción c) por sí sola no abarca todos los supuestos. De las alternativas dadas, solo la a) recoge literalmente uno de los requisitos del precepto. \\nIT:\\nL’art. 153.3 CP prevede l’aumento di pena (metà superiore) se il reato è commesso **in presenza di minori**, con armi, nel domicilio comune o della vittima o violando pene/misure dell’art. 48. Non menziona la semplice presenza della vittima (implicita) e, sebbene includa il domicilio comune, l’opzione c) da sola non è esaustiva. Tra le risposte proposte, solo la a) riproduce esattamente una delle circostanze aggravanti.\\nPagina/Slide: TEMA 4.pptx, sección \"Maltrato físico y psíquico\", diapositiva con texto del art. 153.3.",
+  "legal_reference": "Art. 153.3 Código Penal español (LO 10/1995, red. LO 1/2015)",
+  "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+},
+{
+  "question": "81. Señale la respuesta incorrecta. El maltrato habitual en el ámbito de la violencia doméstica sancionado en el artículo 173.2 del Código Penal se comete contra:",
+  "answers": [
+    { "text": "Cónyuge.", "correct": false },
+    { "text": "Ascendientes.", "correct": false },
+    { "text": "Parientes hasta el tercer grado de consanguinidad.", "correct": true },
+    { "text": "Personas discapacitadas necesitadas de especial protección que convivan con el autor.", "correct": false }
+  ],
+  "explanation": "ES:\nEl art. 173.2 CP considera víctimas posibles al cónyuge o ex-cónyuge, personas unidas por análoga relación de afectividad, descendientes, ascendientes y hermanos (consanguíneos, afines o adoptivos), así como menores o personas con discapacidad necesitadas de especial protección que convivan con el autor, o personas integradas en el núcleo de su convivencia familiar. No incluye a otros parientes de tercer grado (tíos, sobrinos, bisabuelos), por lo que la opción c) excede los supuestos legales.\nIT:\nL’art. 173.2 CP elenca come possibili vittime il coniuge o ex-coniuge, i discendenti, ascendenti e fratelli, i minori o disabili conviventi ecc.; non menziona parenti fino al terzo grado, pertanto l’opzione c) è l’unica non contemplata.\nPagina/Slide: TEMA 4.pptx, diapositiva «Artículo 173.2 – Maltrato habitual» :contentReference[oaicite:2]{index=2}",
+  "legal_reference": "Art. 173.2 Código Penal español (LO 10/1995, redacción LO 1/2015)",
+  "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+},
+{
+  "question": "82. No constituye un tipo agravado de lesiones del artículo 148 del Código Penal:",
+  "answers": [
+    { "text": "Ejecutar el hecho mediando ensañamiento o alevosía.", "correct": false },
+    { "text": "Que la víctima se encontrara en una grave situación económica.", "correct": true },
+    { "text": "Utilizar medios concretamente peligrosos para la vida o la salud del lesionado.", "correct": false },
+    { "text": "Que la víctima sea menor de catorce años o persona con discapacidad necesitada de especial protección.", "correct": false }
+  ],
+  "explanation": "ES:\nEl art. 148 CP enumera los supuestos que agravan las lesiones: (1) empleo de armas o medios concretamente peligrosos; (2) ensañamiento o alevosía; (3) víctima menor de 14 años o persona con discapacidad; (4) víctima cónyuge o análoga relación; (5) víctima especialmente vulnerable conviviente. No menciona la situación económica de la víctima, por lo que la opción b) NO constituye tipo agravado.\nIT:\nL’art. 148 CP prevede le circostanze aggravanti delle lesioni: (1) uso di armi o mezzi concretamente pericolosi; (2) crudeltà (ensañamiento) o proditorietà (alevosía); (3) vittima minore di 14 anni o disabile; (4) vittima coniuge o partner; (5) vittima particolarmente vulnerabile convivente. Non vi è alcun riferimento alla condizione economica della vittima; quindi la b) non è requisito aggravante.\nPagina/Slide: TEMA 3 (1).pptx, diapositivas «Tipos agravados de lesiones – Artículo 148» :contentReference[oaicite:2]{index=2}",
+  "legal_reference": "Art. 148 Código Penal español (LO 10/1995, redacción LO 1/2015)",
+  "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+},
+{
+  "question": "83. En los delitos de lesiones, el consentimiento válido, libre, espontánea y expresamente emitido del ofendido, según el artículo 155 del CP, da lugar a:",
+  "answers": [
+    { "text": "La exención de la responsabilidad penal.", "correct": false },
+    { "text": "La exención de la responsabilidad civil.", "correct": false },
+    { "text": "La imposición de la pena inferior en grado.", "correct": true },
+    { "text": "Ninguna de las anteriores es correcta.", "correct": false }
+  ],
+  "explanation": "ES:\nEl art. 155 CP dispone que «quien realizare el hecho con el consentimiento válido, libre, espontáneo y expreso del ofendido será castigado con la pena inferior en uno o dos grados». No elimina la responsabilidad penal por completo ni la civil.\nIT:\nL’art. 155 CP stabilisce che «chi compie il fatto con il consenso valido, libero, spontaneo ed espresso dell’offeso è punito con la pena inferiore di uno o due gradi». Non esonera dalla responsabilità penale né da quella civile.\nPagina/Slide: TEMA 3 (1).pptx, diapositiva «Artículo 155 – Lesiones consentidas».",
+  "legal_reference": "Art. 155 Código Penal español (LO 10/1995, redacción LO 1/2015)",
+  "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+},
+{
+  "question": "84. Para proceder por el delito de la práctica de reproducción asistida sin el consentimiento de la mujer sancionado en el artículo 161 del CP es precisa, con carácter general:",
+  "answers": [
+    { "text": "La denuncia de la persona agraviada o su representante legal.", "correct": true },
+    { "text": "La denuncia del Ministerio Fiscal.", "correct": false },
+    { "text": "Tanto la denuncia de la persona agraviada como la del Ministerio Fiscal.", "correct": false },
+    { "text": "La prestación de una fianza.", "correct": false }
+  ],
+  "explanation": "ES:\nEl art. 161.2 CP dispone que «para proceder por este delito será precisa denuncia de la persona agraviada o de su representante legal». El Ministerio Fiscal solo puede denunciar cuando la víctima sea menor, persona con discapacidad necesitada de especial protección o desvalida, por lo que no se trata de la regla general.\nIT:\nL’art. 161.2 CP stabilisce che il reato è perseguibile soltanto previa querela della persona offesa o del suo rappresentante legale; il Pubblico Ministero può agire soltanto se la vittima è minore o disabile, dunque non si richiede in via generale.\nPagina/Slide: TEMA 2.pptx, diapositiva «Artículo 161 – Delitos relativos a la manipulación genética» :contentReference[oaicite:2]{index=2}",
+  "legal_reference": "Art. 161.2 Código Penal español (LO 10/1995, redacción LO 1/2015)",
+  "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+},
+{
+  "question": "85. El consentimiento válido, libre, consciente y expresamente emitido, exime de responsabilidad penal en los supuestos de:",
+  "answers": [
+    { "text": "Trasplante de órganos.", "correct": false },
+    { "text": "Esterilizaciones.", "correct": false },
+    { "text": "Cirugía transexual.", "correct": false },
+    { "text": "Todas las anteriores son correctas.", "correct": true }
+  ],
+  "explanation": "ES:\nEl artículo 156 CP establece que «el consentimiento válido, libre, consciente y expresamente emitido exime de responsabilidad penal en los supuestos de trasplante de órganos efectuado conforme a la ley, esterilizaciones y cirugía transexual realizadas por facultativo…». Por tanto, las tres opciones individuales (a, b y c) están comprendidas; la respuesta correcta es la opción global d).\nIT:\nSecondo l’art. 156 CP, «il consenso valido, libero, consapevole ed espresso esonera da responsabilità penale nei casi di trapianto di organi eseguito secondo legge, sterilizzazioni e chirurgia transex». Poiché tutti e tre i casi rientrano nella norma, l’unica risposta completa è la d).\nPagina/Slide: TEMA 3 (1).pptx, sezione «El consentimiento en las lesiones», diapositiva con el texto del art. 156 :contentReference[oaicite:2]{index=2}",
+  "legal_reference": "Art. 156 Código Penal español (LO 10/1995, red. LO 2/2020)",
+  "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+},
+{
+  "question": "86. El consentimiento que exime de responsabilidad penal en las intervenciones del artículo 156 del CP no puede ser:",
+  "answers": [
+    { "text": "Obtenido viciadamente.", "correct": false },
+    { "text": "Obtenido mediante precio.", "correct": false },
+    { "text": "Cuando el otorgante sea menor de edad.", "correct": false },
+    { "text": "Todas las anteriores son correctas.", "correct": true }
+  ],
+  "explanation": "ES:\nEl art. 156 CP señala que el consentimiento \"válido, libre, consciente y expresamente emitido\" exime de responsabilidad penal en trasplantes, esterilizaciones y cirugía transexual, **salvo que** dicho consentimiento «se haya obtenido viciadamente, o mediante precio o recompensa, o el otorgante sea menor de edad…». Las tres circunstancias de las letras a), b) y c) invalidan el consentimiento; por tanto, la respuesta correcta es la opción global d).\nIT:\nL’art. 156 CP dispone che il consenso «valido, libero, consapevole ed espresso» esonera da responsabilità penale in trapianti, sterilizzazioni e chirurgia transex, **tranne se** è stato ottenuto in modo viziato, mediante prezzo o se l’autore del consenso è minorenne. Tutte e tre le ipotesi (a, b, c) rendono nullo il consenso; quindi la risposta esatta è la d).\nPagina/Slide: TEMA 3 (1).pptx – diapositiva «El consentimiento en las lesiones» (texto del art. 156) :contentReference[oaicite:2]{index=2}",
+  "legal_reference": "Art. 156 Código Penal español (LO 10/1995, red. LO 2/2020)",
+  "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+}
+
+
   ]
 }
