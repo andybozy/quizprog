@@ -5,110 +5,110 @@
     {
       "question": "¿Cuál de los siguientes no es un requisito del delito de participación en riña del art. 154 CP?",
       "answers": [
-        {"text": "Que se cometa por dolo o imprudencia", "correct": true},
-        {"text": "Que el acometimiento sea tumultuario", "correct": false},
-        {"text": "Que se utilicen medios que pongan en peligro la vida", "correct": false},
-        {"text": "Que se utilicen instrumentos que pongan en peligro la integridad de las personas", "correct": false}
+        { "text": "Que se cometa por dolo o imprudencia", "correct": true },
+        { "text": "Que el acometimiento sea tumultuario", "correct": false },
+        { "text": "Que se utilicen medios que pongan en peligro la vida", "correct": false },
+        { "text": "Que se utilicen instrumentos que pongan en peligro la integridad de las personas", "correct": false }
       ],
-      "explanation": "ES: «Que se cometa por dolo o imprudencia»: respuesta correcta porque el artículo 154 CP exige dolo, no contempla la imprudencia; «Que el acometimiento sea tumultuario»: opción incorrecta pues la riña debe ser tumultuaria; «Que se utilicen medios que pongan en peligro la vida»: incorrecta porque es uno de los elementos del tipo; «Que se utilicen instrumentos que pongan en peligro la integridad de las personas»: incorrecta pues también se precisa el uso de instrumentos peligrosos.\nIT: «Che sia commesso con dolo o imprudenza»: risposta corretta perché l’art. 154 CP richiede dolo, non contempla imprudenza; «Che l’aggressione sia tumultuaria»: opzione errata perché la rissa deve essere tumultuaria; «Che si usino mezzi che mettano in pericolo la vita»: errata in quanto è uno degli elementi del reato; «Che si usino strumenti che mettano in pericolo l’integrità delle persone»: errata perché il tipo richiede l’uso di strumenti pericolosi.\nTarea\\nTEMA 3.pptx\\nSezione/slides contrassegnate dal titolo «4. La participación en riña» (subito dopo la parte 3 «Especial referencia a la mutilación genital»)",
-      "legal_reference": "Ley Orgánica 10/1995, Código Penal, art. 154.1\\nTEMA 3.pptx\\nSezione/slides contrassegnate dal titolo «4. La participación en riña» (subito dopo la parte 3 «Especial referencia a la mutilación genital»)",
+      "explanation": "ES:\nEl art. 154 CP exige que los contendientes se acometan tumultuariamente y utilicen medios o instrumentos que pongan en peligro la vida o la integridad de las personas; el precepto solo admite comisión dolosa, de modo que la imprudencia queda fuera. Por ello la opción a) es la única que **no** constituye requisito. :contentReference[oaicite:3]{index=3}\nIT:\nL’art. 154 CP richiede il dolo e un’aggressione tumultuaria con mezzi o strumenti pericolosi per la vita o l’integrità; quindi soltanto la risposta a) non è requisito del reato. :contentReference[oaicite:4]{index=4}\nPagina/Slide: TEMA 3 (1).pptx – diapositiva «4. La participación en riña»",
+      "legal_reference": "Código Penal español, art. 154",
       "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "Con respecto al delito de detención ilegal tipificado en el art. 163 del CP, ¿cuándo se impondrá la pena inferior en grado según su apartado segundo?",
       "answers": [
-        {"text": "Si el encierro durare menos de quince días", "correct": false},
-        {"text": "Si se pusiera en libertad al detenido dentro de los tres primeros días", "correct": true},
-        {"text": "Si se pusiera a la persona inmediatamente ante la autoridad", "correct": false},
-        {"text": "Ninguna de las anteriores es correcta", "correct": false}
+        { "text": "Si el encierro durare menos de quince días", "correct": false },
+        { "text": "Si se pusiera en libertad al detenido dentro de los tres primeros días", "correct": true },
+        { "text": "Si se pusiera a la persona inmediatamente ante la autoridad", "correct": false },
+        { "text": "Ninguna de las anteriores es correcta", "correct": false }
       ],
-      "explanation": "ES: «Si el encierro durare menos de quince días»: incorrecta, la reducción no depende de quince días; «Si se pusiera en libertad al detenido dentro de los tres primeros días»: correcta, el art. 163.2 CP prevé atenuación si la puesta a disposición es antes de 3 días; «Si se pusiera a la persona inmediatamente ante la autoridad»: incorrecta, la norma exige plazo máximo de 3 días, no puesta inmediata; «Ninguna de las anteriores es correcta»: errada porque sí hay opción correcta.\nIT: «Se la detenzione durasse meno di quindici giorni»: errata, la riduzione non dipende da quindici giorni; «Se si liberasse il detenuto nei primi tre giorni»: corretta, l’art. 163.2 CP prevede attenuazione se la consegna all’autorità avviene entro 3 giorni; «Se si presentasse immediatamente la persona all’autorità»: errata, la norma prevede un termine massimo di 3 giorni, non una presentazione immediata; «Nessuna delle precedenti è corretta»: errata perché esiste un’opzione corretta.",
-      "legal_reference": "Ley Orgánica 10/1995, Código Penal, art. 163.2",
+      "explanation": "ES:\nEl art. 163.2 CP establece que «se impondrá la pena inferior en grado si el culpable diere libertad a la persona encerrada o detenida dentro de los tres días siguientes al encierro»; por tanto, sólo la opción b) coincide con el precepto. Las demás alternativas no se corresponden con el supuesto de atenuación.\nIT:\nL’art. 163.2 CP prevede la pena inferiore di grado se il reo libera la persona privata della libertà entro i primi tre giorni, quindi la risposta corretta è la b).\nPagina/Slide: TEMA 5.pptx – diapositiva «Artículo 163 – Detenciones ilegales»",
+      "legal_reference": "Código Penal, art. 163.2",
       "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "El delito de secuestro del artículo 164 del CP exige para su sanción que:",
       "answers": [
-        {"text": "Se haya exigido alguna condición para poner en libertad a la persona", "correct": true},
-        {"text": "Se haya tenido a la persona privada de libertad más de quince días", "correct": false},
-        {"text": "Se haya tenido a la persona retenida más de tres días", "correct": false},
-        {"text": "Todas las anteriores son correctas", "correct": false}
+        { "text": "Se haya exigido alguna condición para poner en libertad a la persona", "correct": true },
+        { "text": "Se haya tenido a la persona privada de libertad más de quince días", "correct": false },
+        { "text": "Se haya tenido a la persona retenida más de tres días", "correct": false },
+        { "text": "Todas las anteriores son correctas", "correct": false }
       ],
-      "explanation": "ES: «Se haya exigido alguna condición para poner en libertad a la persona»: correcta, el art. 164 CP tipifica el secuestro cuando se condiciona la liberación; «Se haya tenido a la persona privada de libertad más de quince días»: incorrecta, la duración no es elemento del tipo; «Se haya tenido a la persona retenida más de tres días»: incorrecta, tampoco cuenta el plazo; «Todas las anteriores son correctas»: errada porque solo la primera es requisito.\nIT: «Che sia stata posta una condizione per liberare la persona»: corretta, l’art. 164 CP configura il sequestro quando si pone condizione per la liberazione; «Che la persona sia stata privata della libertà più di quindici giorni»: errata, la durata non è elemento del reato; «Che la persona sia stata trattenuta più di tre giorni»: errata, il termine non rileva; «Tutte le precedenti sono corrette»: errata perché solo la prima è requisito.",
-      "legal_reference": "Ley Orgánica 10/1995, Código Penal, art. 164",
+      "explanation": "ES:\nSólo se configura el secuestro cuando se impone una condición para la liberación (art. 164 CP); la duración del cautiverio no es elemento típico. Por ello la opción a) es la única correcta.\nIT:\nIl sequestro ex art. 164 CP si configura solo se viene imposta una condizione per la liberazione; la durata non è rilevante. Pertanto è corretta solo la risposta a).\nPagina/Slide: TEMA 5.pptx – diapositiva «Artículo 164 – Secuestro»",
+      "legal_reference": "Código Penal, art. 164",
       "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
-      "question": "El que amenazare a otro con causarle a él a su familia o a otras personas con las que esté íntimamente vinculado un mal que constituía delito cerrado castigado como autor de amenazas del artículo 169 cp .  cual de los siguientes no es unos de estos delitos con los que se debe amenazar para poder sancionar la conducta",
+      "question": "El que amenazare a otro con causarle a él, a su familia o a otras personas íntimamente vinculadas un mal que constituya delito castigado como amenazas del art. 169 CP, ¿cuál de los siguientes no es uno de los delitos con los que se debe amenazar para poder sancionar la conducta?",
       "answers": [
-        {"text": "Lesiones", "correct": false},
-        {"text": "Contra la imagen", "correct": true},
-        {"text": "Aborto", "correct": false},
-        {"text": "Tortura", "correct": false}
+        { "text": "Lesiones", "correct": false },
+        { "text": "Contra la imagen", "correct": true },
+        { "text": "Aborto", "correct": false },
+        { "text": "Tortura", "correct": false }
       ],
-      "explanation": "ES: «Lesiones»: incorrecta, el art. 169 CP incluye amenazas de lesiones; «Contra la imagen»: correcta, no está tipificado entre los delitos amenazables; «Aborto»: incorrecta, sí figura; «Tortura»: incorrecta, también se tipifica.\nIT: «Lesioni»: errata, l’art. 169 CP include minacce di lesioni; «Contro l’immagine»: corretta, non è tra i reati minacciabili; «Aborto»: errata, è previsto; «Tortura»: errata, anch’essa prevista.",
-      "legal_reference": "Ley Orgánica 10/1995, Código Penal, art. 169",
+      "explanation": "ES:\nEl art. 169 CP enumera, entre otros, delitos de lesiones, aborto y torturas, pero no contempla delitos «contra la imagen», por lo que la opción b) es la única que no figura en el listado y, por tanto, es la correcta.\nIT:\nL’art. 169 CP menziona tra i reati minacciabili lesioni, aborto e tortura, ma non reati «contro l’immagine»; dunque la risposta corretta è la b).\nPagina/Slide: TEMA 5.pptx – diapositiva «Artículo 169 – Amenazas»",
+      "legal_reference": "Código Penal, art. 169",
       "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "El artículo 172.2 de la LECRIM sanciona al que, de modo leve, coaccione a:",
       "answers": [
-        {"text": "A la esposa", "correct": false},
-        {"text": "A una persona especialmente vulnerable que conviva con el autor", "correct": false},
-        {"text": "A la ex esposa", "correct": false},
-        {"text": "Todas las anteriores son correctas", "correct": true}
+        { "text": "A la esposa", "correct": false },
+        { "text": "A una persona especialmente vulnerable que conviva con el autor", "correct": false },
+        { "text": "A la ex esposa", "correct": false },
+        { "text": "Todas las anteriores son correctas", "correct": true }
       ],
-      "explanation": "ES: «A la esposa»: incorrecta sola, es uno de los sujetos; «A una persona especialmente vulnerable que conviva con el autor»: incorrecta sola, también está incluida; «A la ex esposa»: incorrecta sola; «Todas las anteriores son correctas»: correcta, el art. 172.2 LECRIM abarca a los tres.\nIT: «La moglie»: errata da sola, è uno dei soggetti; «Una persona particolarmente vulnerabile convivente»: errata da sola, è inclusa; «La ex moglie»: errata da sola; «Tutte le precedenti sono corrette»: corretta, l’art. 172.2 LECRIM comprende tutti e tre.",
-      "legal_reference": "Ley de Enjuiciamiento Criminal, art. 172.2",
+      "explanation": "ES:\nEl art. 172.2 —en realidad del Código Penal— incluye a cónyuge o ex-cónyuge y a persona especialmente vulnerable conviviente; por ello sólo la opción «Todas» engloba todos los supuestos.\nIT:\nL’art. 172.2 CP ricomprende coniuge o ex-coniuge e persona vulnerabile convivente; quindi l’unica risposta completa è «Tutte le precedenti».\nPagina/Slide: TEMA 5.pptx, diapositiva «Artículo 172 – Coacciones (apart. 2)»",
+      "legal_reference": "Código Penal, art. 172.2",
       "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "El homicidio cometido por imprudencia menos grave solo será perseguible mediante denuncia de la persona agraviada o de su representante legal, salvo en los casos en que se produzca:",
       "answers": [
-        {"text": "Utilizando un arma de fuego", "correct": false},
-        {"text": "Utilizando vehículo a motor o ciclomotor", "correct": true},
-        {"text": "Cometiendo imprudencia profesional", "correct": false},
-        {"text": "Ninguna de las anteriores es correcta", "correct": false}
+        { "text": "Utilizando un arma de fuego", "correct": false },
+        { "text": "Utilizando vehículo a motor o ciclomotor", "correct": true },
+        { "text": "Cometiendo imprudencia profesional", "correct": false },
+        { "text": "Ninguna de las anteriores es correcta", "correct": false }
       ],
-      "explanation": "ES: «Utilizando un arma de fuego»: incorrecta, no modifica la procedibilidad; «Utilizando vehículo a motor o ciclomotor»: correcta, convierte el delito en acción pública; «Cometiendo imprudencia profesional»: incorrecta, no altera la necesidad de denuncia; «Ninguna de las anteriores es correcta»: errada porque sí hay supuesto.\nIT: «Usando un’arma da fuoco»: errata, non cambia la procedibilità; «Usando veicolo a motore o ciclomotore»: corretta, rende il reato perseguibile d’ufficio; «Commettendo imprudenza professionale»: errata, non elimina la necessità di querela; «Nessuna delle precedenti è corretta»: errata perché esiste un caso previsto.",
-      "legal_reference": "Ley Orgánica 10/1995, Código Penal, art. 142.2",
+      "explanation": "ES:\nEl último párrafo del art. 142.2 CP exceptúa de la necesidad de denuncia los casos cometidos con *vehículo a motor o ciclomotor*; el uso de arma de fuego no figura en esta excepción. Por ello la respuesta correcta es la b).\nIT:\nIl capoverso finale dell’art. 142.2 CP rende procedibile d’ufficio l’omicidio imprudente meno grave solo se avviene con *veicolo a motore o ciclomotore*; l’arma da fuoco non è contemplata. La risposta corretta è dunque la b).\nPagina/Slide: TEMA 1.pptx, diapositiva «Homicidio imprudente (art. 142.2)»",
+      "legal_reference": "Código Penal, art. 142.2",
       "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
-      "question": "señale la respuesta incorrecta. En los supuestos del artículo 143, apartados 2 y 3 (cooperación al suicidio), es preciso que:",
+      "question": "Señale la respuesta incorrecta. En los supuestos del artículo 143, apartados 2 y 3 (cooperación al suicidio), es preciso que:",
       "answers": [
-        {"text": "Los actos con los que se coopere sean necesarios para el suicidio", "correct": false},
-        {"text": "La cooperación llegara hasta el punto de ejecutar la muerte", "correct": false},
-        {"text": "Anteriormente haya existido una inducción al suicidio", "correct": true},
-        {"text": "El sujeto activo y pasivo sea genérico", "correct": false}
+        { "text": "Los actos con los que se coopere sean necesarios para el suicidio", "correct": false },
+        { "text": "La cooperación llegara hasta el punto de ejecutar la muerte", "correct": false },
+        { "text": "Anteriormente haya existido una inducción al suicidio", "correct": true },
+        { "text": "El sujeto activo y pasivo sea genérico", "correct": false }
       ],
-      "explanation": "ES: «Los actos con los que se coopere sean necesarios para el suicidio»: incorrecta, el tipo no exige necesidad operativa; «La cooperación llegara hasta el punto de ejecutar la muerte»: incorrecta, no se requiere ejecutar; «Anteriormente haya existido una inducción al suicidio»: correcta, es condición de los apartados 2 y 3; «El sujeto activo y pasivo sea genérico»: incorrecta, no es exigencia.\nIT: «Gli atti di cooperazione siano necessari per il suicidio»: errata, il reato non richiede effettiva necessità operativa; «La cooperazione arrivi fino all’esecuzione della morte»: errata, non è richiesta; «Precedentemente sia avvenuta un’induzione al suicidio»: corretta, è condizione dei commi 2 e 3; «Soggetto attivo e passivo siano generici»: errata, non è requisito.",
-      "legal_reference": "Ley Orgánica 10/1995, Código Penal, art. 143.2-3",
+      "explanation": "ES:\nLos apartados 2 y 3 del art. 143 CP sólo exigen la cooperación con actos necesarios (o que causen la muerte) a petición del suicida; no requieren inducción previa, por lo que la opción c) es la afirmación incorrecta.\nIT:\nI commi 2 e 3 dell’art. 143 CP richiedono solo la cooperazione con atti necessari (o che provochino la morte) su richiesta del suicida; non occorre precedente induzione, dunque l’opzione c) è l’affermazione errata.\nPagina/Slide: TEMA 1.pptx, diapositiva «Cooperación al suicidio – arts. 143.2-3»",
+      "legal_reference": "Código Penal, art. 143.2-3",
       "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
-      "question": "señale la respuesta incorrecta.  El artículo 143.4 CP sanciona con pena inferior en uno o dos grados al que coopere activamente con actos necesarios y directos a la muerte de otra persona si esta:",
+      "question": "Señale la respuesta incorrecta.  El artículo 143.4 CP sanciona con pena inferior en uno o dos grados al que coopere activamente con actos necesarios y directos a la muerte de otra persona si esta:",
       "answers": [
-        {"text": "Tiene un padecimiento grave crónico e imposibilitante", "correct": false},
-        {"text": "Tiene una enfermedad grave e incurable con sufrimientos físicos constantes", "correct": false},
-        {"text": "Tiene una enfermedad grave e incurable con sufrimientos psíquicos constantes", "correct": false},
-        {"text": "Tiene un padecimiento grave e imposibilitante sea crónico o no", "correct": true}
+        { "text": "Tiene un padecimiento grave crónico e imposibilitante", "correct": false },
+        { "text": "Tiene una enfermedad grave e incurable con sufrimientos físicos constantes", "correct": false },
+        { "text": "Tiene una enfermedad grave e incurable con sufrimientos psíquicos constantes", "correct": false },
+        { "text": "Tiene un padecimiento grave e imposibilitante sea crónico o no", "correct": true }
       ],
-      "explanation": "ES: «Tiene un padecimiento grave crónico e imposibilitante»: incorrecta, el tipo exige gravedad e incurabilidad con sufrimientos; «Tiene una enfermedad grave e incurable con sufrimientos físicos constantes»: incorrecta sola, precisa incluir psíquicos o físicos; «Tiene una enfermedad grave e incurable con sufrimientos psíquicos constantes»: incorrecta sola por la misma razón; «Tiene un padecimiento grave e imposibilitante sea crónico o no»: correcta, engloba ambos supuestos permitidos.\nIT: «Ha una patologia grave cronica e invalidante»: errata, il reato richiede malattia grave e incurabile con sofferenze; «Ha una malattia grave e incurabile con sofferenze fisiche costanti»: errata da sola, richiede anche psichiche; «Ha una malattia grave e incurabile con sofferenze psichiche costanti»: errata da sola per lo stesso motivo; «Ha una patologia grave e invalidante sia cronica che no»: corretta, comprende entrambi i casi previsti.",
-      "legal_reference": "Ley Orgánica 10/1995, Código Penal, art. 143.4",
+      "explanation": "ES:\nEl art. 143.4 CP exige *enfermedad grave que conduzca a la muerte* o *padecimiento grave, crónico e imposibilitante* con sufrimientos constantes. La opción d) incluye padecimientos no crónicos y, por tanto, es la única afirmación incorrecta.\nIT:\nL’art. 143.4 CP richiede una *malattia grave che conduca a morte* o un *padecimiento grave, cronico e invalidante* con sofferenze costanti; l’opzione d) ammette anche casi non cronici, risultando l’unica affermazione errata.\nPagina/Slide: TEMA 1.pptx, diapositiva «Eutanasia – art. 143.4»",
+      "legal_reference": "Código Penal, art. 143.4",
       "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
-      "question": "señale la respuesta correcta, El artículo 143 BIS CP sanciona la incitación al suicidio de:",
+      "question": "Señale la respuesta correcta. El artículo 143 BIS CP sanciona la incitación al suicidio de:",
       "answers": [
-        {"text":"Solo a personas menores de catorce años de edad", "correct": false},
-        {"text": "Personas con discapacidad necesitadas de especial protección", "correct": true},
-        {"text": "Solo de personas menores de dieciséis años", "correct": false},
-        {"text": "Solo de personas que padezcan anomalía o alteración psíquica", "correct": false}
+        { "text": "Solo a personas menores de catorce años de edad", "correct": false },
+        { "text": "Personas con discapacidad necesitadas de especial protección", "correct": true },
+        { "text": "Solo de personas menores de dieciséis años", "correct": false },
+        { "text": "Solo de personas que padezcan anomalía o alteración psíquica", "correct": false }
       ],
-      "explanation": "ES: «Solo a personas menores de catorce años de edad»: incorrecta, el tipo no limita la edad; «Personas con discapacidad necesitadas de especial protección»: correcta, el art. 143 BIS CP agrava esta conducta; «Solo de personas menores de dieciséis años»: incorrecta; «Solo de personas que padezcan anomalía o alteración psíquica»: incorrecta, es más amplia la protección.\nIT: «Solo persone minori di quattordici anni»: errata, il reato non è limitato dall’età; «Persone con disabilità bisognose di protezione speciale»: corretta, l’art. 143 BIS CP prevede aggravante per questi soggetti; «Solo persone minori di sedici anni»: errata; «Solo persone con anomalie o alterazioni psichiche»: errata, la protezione è più ampia.",
-      "legal_reference": "Ley Orgánica 10/1995, Código Penal, art. 143 BIS",
-      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
+      "explanation": "ES:\nEl art. 143 bis CP protege expresamente a menores de edad y a *personas con discapacidad necesitadas de especial protección*; la opción b) es la única que refleja uno de estos colectivos y, por tanto, es la correcta.\nIT:\nL’art. 143 bis CP tutela in modo specifico i minori e le *persone con disabilità bisognose di speciale protezione*; l’unica risposta che include tale categoria è la b), corretta.\nPagina/Slide: TEMA 1.pptx, diapositiva «Incitación al suicidio – art. 143 bis»",
+      "legal_reference": "Código Penal, art. 143 bis",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf --1234567--"
     },
     {
       "question": "Para que el aborto producido con consentimiento de la mujer pueda sancionarse por aplicación del artículo 145 CP, es preciso que se practique:",
@@ -827,7 +827,7 @@
       "legal_reference": "Código Penal, Art. 148"
     },
     {
-      "question": "El sujeto activo del delito de homicidio puede ser",
+      "question": "1. El sujeto activo del delito de homicidio puede ser",
       "answers": [
         {"text": "cualquier persona", "correct": true},
         {"text": "cualquier persona menos ascendentes y descendientes de la víctima o su cónyuge que podrían ser sujetos de parricidio", "correct": false},
@@ -839,7 +839,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "Entre los requisitos de la omisión impropia se encuentran",
+      "question": "2. Entre los requisitos de la omisión impropia se encuentran",
       "answers": [
         {"text": "que exista relación de causalidad entre la omisión y la muerte", "correct": false},
         {"text": "la reforma inducida por la LO 1/15 suprimió el homicidio por omisión impropia quedando únicamente el supuesto en caso de que el sujeto activo tenga posición de garante", "correct": false},
@@ -851,7 +851,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "¿Cuáles son las circunstancias cualificadoras en el delito de asesinato?",
+      "question": "3. ¿Cuáles son las circunstancias cualificadoras en el delito de asesinato?",
       "answers": [
         {"text": "el uso de disfraz por parte del sujeto en el momento de cometer la acción", "correct": false},
         {"text": "que la víctima sea menor de 16 años", "correct": false},
@@ -863,7 +863,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "En el delito de aborto previsto y penado en los artículos 144 y ss. del Código Penal castiga a quien",
+      "question": "3. En el delito de aborto previsto y penado en los artículos 144 y ss. del Código Penal castiga a quien",
       "answers": [
         {"text": "produzca el aborto de una mujer sin su consentimiento o habiendo obtenido la anuencia de la mujer mediante violencia, amenaza o engaño", "correct": true},
         {"text": "se castiga al profesional que produzca el aborto de la mujer fuera de los casos previsto en la ley, excepción apartado quinto del artículo 145 del CP", "correct": true},
@@ -875,7 +875,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "El bien jurídico protegido en el delito de aborto es:",
+      "question": "4. El bien jurídico protegido en el delito de aborto es:",
       "answers": [
         {"text": "la vida del nasciturus y la integridad de la madre", "correct": false},
         {"text": "la vida del nasciturus", "correct": true},
@@ -887,7 +887,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "En el delito relativo a la manipulación genética",
+      "question": "5. En el delito relativo a la manipulación genética",
       "answers": [
         {"text": "la forma dolosa en la que es posible la tentativa requiere la manipulación de los genes humanos", "correct": false},
         {"text": "en cuanto a la forma culposa sólo es punible cuando la imprudencia sea grave, término que sustituye a la antigua temeraria", "correct": false},
@@ -899,7 +899,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "¿Qué modalidad se puede dar en el delito de lesiones al feto?",
+      "question": "6. ¿Qué modalidad se puede dar en el delito de lesiones al feto?",
       "answers": [
         {"text": "solo dolosa", "correct": true},
         {"text": "solo imprudente", "correct": false},
@@ -911,7 +911,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "¿Qué modalidad se puede dar en los delitos relativos a la manipulación genética?",
+      "question": "7. ¿Qué modalidad se puede dar en los delitos relativos a la manipulación genética?",
       "answers": [
         {"text": "es posible la tentativa acabada o inacabada", "correct": true},
         {"text": "en cuanto a la forma culposa sólo es punible cuando la imprudencia sea leve", "correct": false},
@@ -923,7 +923,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "Entre los elementos del delito de participación en riña se encuentran",
+      "question": "8. Entre los elementos del delito de participación en riña se encuentran",
       "answers": [
         {"text": "que en tal riña diversos agresores se acometen entre sí pudiendo precisar quién fue el agresor de cada cual", "correct": false},
         {"text": "que en dicha riña no se utilicen medios o instrumentos que pongan en peligro la vida o integridad de las personas", "correct": false},
@@ -935,7 +935,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "¿En algún caso es legal la esterilización de personas con discapacidad?",
+      "question": "9. ¿En algún caso es legal la esterilización de personas con discapacidad?",
       "answers": [
         {"text": "sí siempre y cuando exista consentimiento expreso del discapacitado", "correct": false},
         {"text": "no en ningún caso", "correct": false},
@@ -947,7 +947,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "¿Cuál de las siguientes circunstancias no supone una agravación del delito de maltrato habitual?",
+      "question": "10. ¿Cuál de las siguientes circunstancias no supone una agravación del delito de maltrato habitual?",
       "answers": [
         {"text": "cuando alguno de los actos de violencia se perpetre en presencia de menores de 16 años", "correct": true},
         {"text": "cuando se utilicen armas", "correct": false},
@@ -959,7 +959,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "¿Qué limitación introdujo la ley integral de 2004 respecto de la violencia de género?",
+      "question": "11. ¿Qué limitación introdujo la ley integral de 2004 respecto de la violencia de género?",
       "answers": [
         {"text": "una limitación respecto al sujeto: pudiendo ser víctima las mujeres en el ámbito de la pareja o expareja", "correct": true},
         {"text": "una limitación respecto al objeto: pudiendo ser víctimas las mujeres agredidas por su pareja o expareja o por otros familiares o personas de su ámbito doméstico", "correct": false},
@@ -971,7 +971,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "Por el delito de violencia de género se castiga",
+      "question": "12. Por el delito de violencia de género se castiga",
       "answers": [
         {"text": "solo el maltrato físico", "correct": false},
         {"text": "solo el maltrato psíquico", "correct": false},
@@ -983,7 +983,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "En el delito de divulgación no consentida de imágenes o grabaciones de carácter íntimo, ¿cuál de las siguientes afirmaciones es cierta?",
+      "question": "13. En el delito de divulgación no consentida de imágenes o grabaciones de carácter íntimo, ¿cuál de las siguientes afirmaciones es cierta?",
       "answers": [
         {"text": "se encuentra recogido en el artículo 198 del CP", "correct": false},
         {"text": "si existe consentimiento en la formación de las imágenes no existiría tal delito", "correct": false},
@@ -995,7 +995,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "En el delito de maltrato habitual se castiga",
+      "question": "14. En el delito de maltrato habitual se castiga",
       "answers": [
         {"text": "a quien habitualmente ejerza violencia física y psíquica sobre quien sea su cónyuge o haya sido", "correct": true},
         {"text": "a quien habitualmente ejerza violencia física o psíquica únicamente sobre su cónyuge siempre no estén separados legalmente", "correct": false},
@@ -1007,7 +1007,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "¿Cuál de las siguientes conductas supone una agravación en el delito de detención ilegal?",
+      "question": "15. ¿Cuál de las siguientes conductas supone una agravación en el delito de detención ilegal?",
       "answers": [
         {"text": "si el encierro o detención durase más de 15 años", "correct": false},
         {"text": "si el culpable diera libertad al encerrado o detenido después de los 5 primeros días de su detención", "correct": false},
@@ -1019,7 +1019,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "La conducta típica de las amenazas puede ser:",
+      "question": "16. La conducta típica de las amenazas puede ser:",
       "answers": [
         {"text": "solo la amenaza de un mal constitutivo de delito", "correct": false},
         {"text": "solo la amenaza de un mal no constitutivo de delito", "correct": false},
@@ -1031,7 +1031,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "Entre los elementos del delito de coacciones se encuentra",
+      "question": "17. Entre los elementos del delito de coacciones se encuentra",
       "answers": [
         {"text": "el empleo de la violencia", "correct": true},
         {"text": "el uso de arma", "correct": false},
@@ -1043,7 +1043,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "El delito de matrimonio forzado es",
+      "question": "18. El delito de matrimonio forzado es",
       "answers": [
         {"text": "un tipo específico de delito de coacciones", "correct": false},
         {"text": "un tipo específico de delito de amenazas", "correct": false},
@@ -1055,7 +1055,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "Una de las conductas típicas del delito de acoso es",
+      "question": "19. Una de las conductas típicas del delito de acoso es",
       "answers": [
         {"text": "Vigilar o perseguir a la víctima", "correct": true},
         {"text": "Establecer o intentar establecer contacto con la víctima solo por medios telemáticos", "correct": false},
@@ -1067,7 +1067,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "En los delitos de trata de seres humanos, cuál de las siguientes afirmaciones es cierta",
+      "question": "20. En los delitos de trata de seres humanos, cuál de las siguientes afirmaciones es cierta",
       "answers": [
         {"text": "El artículo 89.9 CP prohíbe la expulsión sustitutiva de las penas impuestas por este delito", "correct": true},
         {"text": "El cómputo de la prescripción respecto de las víctimas menor de edad comenzará el día que alcancen los 16 años", "correct": false},
@@ -1079,7 +1079,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "El atentado contra la integridad moral es",
+      "question": "21. El atentado contra la integridad moral es",
       "answers": [
         {"text": "Un delito de tortura", "correct": false},
         {"text": "Un tipo residual respecto al delito de tortura", "correct": true},
@@ -1091,7 +1091,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "Como finalidad del delito de explotación encontramos",
+      "question": "22. Como finalidad del delito de explotación encontramos",
       "answers": [
         {"text": "Explotación sexual, incluida la pornografía", "correct": false},
         {"text": "Explotación para realizar actividades delictivas", "correct": false},
@@ -1103,7 +1103,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "Los actos preparatorios en el delito de trata de seres humanos se castigan",
+      "question": "23. Los actos preparatorios en el delito de trata de seres humanos se castigan",
       "answers": [
         {"text": "Con la pena superior en grado", "correct": false},
         {"text": "Con la pena inferior en grado", "correct": false},
@@ -1115,7 +1115,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "Al reo de homicidio se le impondrá una pena de",
+      "question": "24. Al reo de homicidio se le impondrá una pena de",
       "answers": [
         {"text": "Diez a quince años de prisión en todo caso", "correct": false},
         {"text": "Quince a veinte años de prisión", "correct": false},
@@ -1127,7 +1127,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "¿Cuál de las siguientes circunstancias no cualifica el homicidio en asesinato?",
+      "question": "25. ¿Cuál de las siguientes circunstancias no cualifica el homicidio en asesinato?",
       "answers": [
         {"text": "La alevosía", "correct": false},
         {"text": "Cuando se haya cometido por precio, recompensa o promesa", "correct": false},
@@ -1139,7 +1139,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "El asesinato se castigará con pena",
+      "question": "27. El asesinato se castigará con pena",
       "answers": [
         {"text": "De prisión de quince a veinticinco años", "correct": false},
         {"text": "De prisión de veinte años y un día a veinticinco años cuando concurran varias circunstancias del art. 139", "correct": false},
@@ -1151,7 +1151,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "¿Cuáles son las circunstancias cualificadoras del asesinato?",
+      "question": "28. ¿Cuáles son las circunstancias cualificadoras del asesinato?",
       "answers": [
         {"text": "Alevosía, ensañamiento y dolo", "correct": false},
         {"text": "Alevosía, precio/promesa/recompensa", "correct": false},
@@ -1163,7 +1163,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "¿Qué es la alevosía?",
+      "question": "30. ¿Qué es la alevosía?",
       "answers": [
         {"text": "Emplear medios, modos o formas que tiendan indirectamente a asegurar la ejecución", "correct": false},
         {"text": "Emplear medios, modos o formas que tiendan directamente a asegurar la ejecución, sin riesgo de defensa por parte del ofendido", "correct": true},
@@ -1175,7 +1175,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "Para la apreciación de la circunstancia de precio, recompensa o promesa:",
+      "question": "31. Para la apreciación de la circunstancia de precio, recompensa o promesa:",
       "answers": [
         {"text": "Puede preceder a la realización del delito, incluyendo ulteriores gratificaciones, ya sean espontáneas o solicitadas", "correct": false},
         {"text": "Ha de preceder a la realización del delito, con medios consistentes, sin necesidad de aceptación por parte del mandatario", "correct": false},
@@ -1187,7 +1187,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "¿Es de aplicación la circunstancia de ensañamiento cuando:",
+      "question": "31. ¿Es de aplicación la circunstancia de ensañamiento cuando:",
       "answers": [
         {"text": "La víctima esté viva, ya que los actos de sadismo sobre el cadáver no integran este elemento", "correct": false},
         {"text": "La víctima esté viva o muerta, porque aumenta deliberada e inhumanamente el dolor", "correct": false},
@@ -1199,7 +1199,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "El asesinato será castigado con pena de prisión permanente revisable cuando concurra alguna de las siguientes circunstancias. Señale la falsa:",
+      "question": "32. El asesinato será castigado con pena de prisión permanente revisable cuando concurra alguna de las siguientes circunstancias. Señale la falsa:",
       "answers": [
         {"text": "Que la víctima sea menor de 14 años, o persona especialmente vulnerable", "correct": true},
         {"text": "Que el hecho fuera subsiguiente a un delito contra la libertad sexual cometido sobre la víctima", "correct": false},
@@ -1211,7 +1211,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "La inducción al suicidio consiste en:",
+      "question": "33. La inducción al suicidio consiste en:",
       "answers": [
         {"text": "Instigar o mover al suicidio, aunque el ánimo del inducido estuviera predispuesto pero no decidido", "correct": false},
         {"text": "Instigar o mover al suicidio solo si el ánimo del inducido ya estuviera totalmente predispuesto", "correct": false},
@@ -1223,7 +1223,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "La cooperación necesaria en el suicidio:",
+      "question": "35. La cooperación necesaria en el suicidio:",
       "answers": [
         {"text": "Solo cabe por acción y nunca por omisión", "correct": false},
         {"text": "Cabe por omisión siempre que no exista obligación de actuar derivada de posición de garante", "correct": false},
@@ -1235,7 +1235,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "La eutanasia auténtica supone:",
+      "question": "36. La eutanasia auténtica supone:",
       "answers": [
         {"text": "Auxilio activo a morir sin acortamiento de la vida", "correct": false},
         {"text": "Auxilio activo a morir con acortamiento de la vida, aunque la intención de adelantar el fallecimiento esté ausente", "correct": false},
@@ -1247,7 +1247,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "La eutanasia indirecta supone:",
+      "question": "37. La eutanasia indirecta supone:",
       "answers": [
         {"text": "El auxilio activo a morir sin acortamiento de la vida, tratando de mitigar el sufrimiento del enfermo, mediante lenitivos o analgésicos, control de la sofocación y prestación de asistencia psicológica.", "correct": true},
         {"text": "Acción dirigida al acortamiento de la vida con pronóstico infausto", "correct": false},
@@ -1259,7 +1259,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "La eutanasia directa supone:",
+      "question": "38. La eutanasia directa supone:",
       "answers": [
         {"text": "Auxilio activo a morir sin acortamiento de la vida", "correct": false},
         {"text": "Acción dirigida al acortamiento de la vida con intención de adelantar el fallecimiento", "correct": true},
@@ -1271,7 +1271,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "La eutanasia pasiva:",
+      "question": "39. La eutanasia pasiva:",
       "answers": [
         {"text": "Es auxilio activo con acortamiento de la vida sin intención de adelantar el fallecimiento", "correct": false},
         {"text": "Acción dirigida al acortamiento de la vida ante sufrimiento infausto", "correct": false},
@@ -1283,7 +1283,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "El Código Penal castiga el aborto cuando:",
+      "question": "40. El Código Penal castiga el aborto cuando:",
       "answers": [
         {"text": "Es cometido sin el consentimiento de la mujer o habiéndolo obtenido mediante violencia, amenaza o engaño", "correct": true},
         {"text": "Es cometido con consentimiento de la mujer, en los casos permitidos por la ley, pero sin cumplir los requisitos exigidos en ella", "correct": true},
@@ -1295,7 +1295,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "El código Penal considera autor del delito de lesiones al feto",
+      "question": "40. El código Penal considera autor del delito de lesiones al feto",
       "answers": [
         {"text": "El que, por cualquier medio o procedimiento causare en un feto una lesión o enfermedad que perjudique gravemente su normal desarrollo, o provoque en el mismo una grave tara física o psíquica", "correct": true},
         {"text": "El que, por cualquier medio o procedimiento causare en un feto una lesión o enfermedad que perjudicando el desarrollo del feto exclusivamente", "correct": false},
@@ -1307,7 +1307,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "Según el artículo 159 del CP, el delito relativo a la manipulación genética castiga a",
+      "question": "41. Según el artículo 159 del CP, el delito relativo a la manipulación genética castiga a",
       "answers": [
         {"text": "Los que, con finalidad distinta a la eliminación o disminución de taras o enfermedades graves, manipulen genes humanos de manera que se altere el genotipo, serán castigados con la pena de multa de 2 a 6 años", "correct": false},
         {"text": "Los que, con finalidad a la eliminación o disminución de taras o enfermedades graves, manipulen genes humanos de manera que se altere el genotipo, serán castigados con la pena de prisión de 2 a 6 años", "correct": false},
@@ -1319,7 +1319,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "Según el artículo 139 del CP, ¿qué circunstancia no convierte el homicidio en asesinato?",
+      "question": "42. Según el artículo 139 del CP, ¿qué circunstancia no convierte el homicidio en asesinato?",
       "answers": [
         {"text": "La alevosía", "correct": false},
         {"text": "Para facilitar la comisión de otro delito o para evitar que se descubra", "correct": false},
@@ -1331,7 +1331,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "El asesinato será castigado con pena de prisión permanente revisable cuando concurra alguna de las siguientes circunstancias. Señale la falsa",
+      "question": "43. El asesinato será castigado con pena de prisión permanente revisable: cuando concurra alguna de las siguientes circunstancias. Señale la falsa",
       "answers": [
         {"text": "Que la víctima sea menor de 14 años, o se trate de personas especialmente vulnerables", "correct": true},
         {"text": "Que el hecho fuese subsiguiente a un delito contra la libertad sexual que el autor hubiese cometido sobre la víctima", "correct": false},
@@ -1343,7 +1343,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "La acción típica del delito de homicidio",
+      "question": "44. La acción típica del delito de homicidio",
       "answers": [
         {"text": "Es realizable mediante una acción, en sentido estricto, consistente en matar a otro", "correct": false},
         {"text": "Puede realizarse mediante una acción o mediante una omisión", "correct": false},
@@ -1355,7 +1355,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "En el delito de asesinato se define la alevosía como",
+      "question": "45. En el delito de asesinato se define la alevosía como",
       "answers": [
         {"text": "Empleando medios, modos o formas que tiendan indirectamente a asegurar la ejecución", "correct": false},
         {"text": "Empleando medios, modos o formas que tiendan directamente a asegurarla, sin el riesgo que para su persona pudiera proceder de la defensa por parte del ofendido", "correct": true},
@@ -1367,7 +1367,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "En el delito de cooperación necesaria en el suicidio",
+      "question": "46. En el delito de cooperación necesaria en el suicidio",
       "answers": [
         {"text": "Solo cabe por acción y nunca por omisión", "correct": false},
         {"text": "Cabe que se cometa por omisión siempre que no exista obligación de actuar derivada de posición de garante", "correct": false},
@@ -1379,7 +1379,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.txt"
     },
     {
-      "question": "El aborto por imprudencia grave",
+      "question": "47. El aborto por imprudencia grave",
       "answers": [
         {"text": "Es siempre impune", "correct": false},
         {"text": "Solo se castiga si no ha existido consentimiento de la mujer", "correct": false},
@@ -1391,7 +1391,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "La acción de golpear el rostro de una persona con una botella de cristal, causándole la pérdida de la visión de un ojo en un porcentaje de un 80%",
+      "question": "48. La acción de golpear el rostro de una persona con una botella de cristal, causándole la pérdida de la visión de un ojo en un porcentaje de un 80%",
       "answers": [
         {"text": "Configura un delito de lesiones tipificado en el art.149 del CP, al haber causado una deformación grave", "correct": false},
         {"text": "Configura un delito de lesiones tipificado en los artículos 147 y 148.1 del CP, al haber utilizado un objeto concretamente peligroso para la vida o salud del lesionado", "correct": false},
@@ -1403,7 +1403,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "La lesión que no precise tratamiento médico o quirúrgico y solo requiera una primera asistencia facultativa constituye",
+      "question": "49. La lesión que no precise tratamiento médico o quirúrgico y solo requiera una primera asistencia facultativa constituye",
       "answers": [
         {"text": "El tipo básico del delito de lesiones previsto en el artículo 147.1 del CP", "correct": false},
         {"text": "Una falta de lesiones del artículo 617.1 del CP", "correct": false},
@@ -1415,7 +1415,7 @@
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "No es un elemento del delito de participación en riña",
+      "question": "50. No es un elemento del delito de participación en riña",
       "answers": [
         {"text": "Que en la riña, los diversos agresores físicos se acometan entre sí de modo tumultuario, esto es, sin que se pueda precisar quién fue el agresor de cada cual", "correct": false},
         {"text": "Que todos los participantes en la riña utilicen medios o instrumentos que pongan en peligro la vida o integridad de las personas", "correct": true},
