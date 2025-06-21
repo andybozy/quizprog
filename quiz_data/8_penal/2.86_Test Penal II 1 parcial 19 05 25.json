@@ -708,117 +708,127 @@
       ],
       "explanation": "ES:\nEl art. 163 CP: **agrava** si la privación supera 15 días (163.3), **atenúa** (pena inferior en grado) si se libera en ≤3 días sin lograr el fin (163.2) y prevé una **falta** si sólo se pretende presentarlo a la autoridad (163.4). La opción c) recoge los tres supuestos, siendo la única completa.\nIT:\nL’art. 163 CP prevede pena più alta >15 giorni, riduzione se liberato ≤3 giorni e attenuante se si consegna all’autorità; quindi è corretta solo la c).\nPagina/Slide: TEMA 5.pptx «Detenciones ilegales – art. 163»:contentReference[oaicite:20]{index=20}",
       "legal_reference": "Código Penal, art. 163",
-      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf---12345---"
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "Según el artículo 163.2 CP, tipo privilegiado de detención ilegal, se impondrá la pena inferior en grado al culpable que diera libertad al encerrado o detenido:",
       "answers": [
-        { "text": "Dentro de los 2 primeros días de su detención, sin haber logrado el objeto que se había propuesto", "correct": false},
-        { "text": "Dentro de los 2 primeros días de su detención, aunque haya logrado el objeto que se había propuesto", "correct": false},
-        { "text": "Dentro de los primeros días de su detención, sin haber logrado el objeto que se había propuesto", "correct": true},
-        { "text": "Dentro de los 3 primeros días de su detención, aunque haya logrado el objeto que se había propuesto", "correct": false}
+        { "text": "Dentro de los 2 primeros días de su detención, sin haber logrado el objeto que se había propuesto", "correct": false },
+        { "text": "Dentro de los 2 primeros días de su detención, aunque haya logrado el objeto que se había propuesto", "correct": false },
+        { "text": "Dentro de los primeros días de su detención, sin haber logrado el objeto que se había propuesto", "correct": false },
+        { "text": "Dentro de los 3 primeros días de su detención, aunque haya logrado el objeto que se había propuesto", "correct": true }
       ],
-      "explanation": "ES: A incorrecto (límite 3 días, no 2); B incorrecto por misma razón; C incorrecto por falta de precisión; D correcto según Art. 163.2 CP (“tres primeros días” independientemente de logro). \nIT: A errato perché termine è 3 giorni, non 2; B errato idem; C errato per mancanza di numero; D corretto secondo art. 163.2 CP.",
-      "legal_reference": "Código Penal, Art. 163.2"
+      "explanation": "ES:\nEl art. 163.2 CP atenúa la pena si el culpable pone en libertad a la víctima dentro de los tres primeros días desde el encierro, sin exigir que haya o no cumplido su propósito. Solo la opción d) menciona el plazo exacto de tres días.\nIT:\nL’art. 163.2 CP prevede la pena inferiore se il reo libera la persona entro i primi tre giorni; non importa se abbia realizzato il suo intento. L’unica opzione con il termine preciso di tre giorni è la d).\nPagina/Slide: TEMA 5.pptx – «Artículo 163 (2)»",
+      "legal_reference": "Código Penal, art. 163.2",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "¿En qué consiste la acción en el delito de detención ilegal del artículo 163 del CP?:",
       "answers": [
-        { "text": "En coaccionar o detener a otro", "correct": false},
-        { "text": "En encerrar o detener a otro privándole de su libertad", "correct": true},
-        { "text": "En encerrar o extorsionar a otro", "correct": false},
-        { "text": "En encerrar, detener o secuestrar a otro", "correct": false}
+        { "text": "En coaccionar o detener a otro", "correct": false },
+        { "text": "En encerrar o detener a otro privándole de su libertad", "correct": true },
+        { "text": "En encerrar o extorsionar a otro", "correct": false },
+        { "text": "En encerrar, detener o secuestrar a otro", "correct": false }
       ],
-      "explanation": "ES: A incorrecto porque falta privación de libertad mediante encierro; B correcto: Art. 163 CP define detención ilegal como encerrar o detener privando de libertad; C incorrecto porque extorsión no entra; D incorrecto porque secuestro es agravado distinto (Art. 164). \nIT: A errato perché manca privazione di libertà; B corretto secondo art. 163 CP; C errato perché estorsione è reato diverso; D errato perché sequestro è Art. 164 CP.",
-      "legal_reference": "Código Penal, Art. 163"
+      "explanation": "ES:\nEl art. 163 CP describe la detención ilegal como «encerrar o detener a otro privándole de su libertad»; ninguna otra conducta (extorsión, secuestro) forma parte del tipo básico.\nIT:\nL’art. 163 CP configura la detenzione illegale come «rinchiudere o trattenere qualcuno privandolo della libertà»; le altre azioni non rientrano nel tipo.\nPagina/Slide: TEMA 5.pptx – «Artículo 163 (1)»",
+      "legal_reference": "Código Penal, art. 163",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "La modalidad agravada del delito de amenazas, consistente en ejecutar las amenazas por medio de escrito, por teléfono o por cualquier otro medio de comunicación o de reproducción, o en nombre de entidades o grupos reales o supuestos:",
       "answers": [
-        { "text": "Sólo puede aplicarse a las amenazas condicionales", "correct": false},
-        { "text": "Sólo puede aplicarse a las amenazas condicionales, cuando el mal amenazado es constitutivo de delito", "correct": false},
-        { "text": "Sólo puede aplicarse a las amenazas condicionales cuando el mal amenazado no es constitutivo de delito.", "correct": false},
-        { "text": "Ninguna de las anteriores es válida", "correct": true}
+        { "text": "Sólo puede aplicarse a las amenazas condicionales", "correct": false },
+        { "text": "Sólo puede aplicarse a las amenazas condicionales, cuando el mal amenazado es constitutivo de delito", "correct": false },
+        { "text": "Sólo puede aplicarse a las amenazas condicionales cuando el mal amenazado no es constitutivo de delito.", "correct": false },
+        { "text": "Ninguna de las anteriores es válida", "correct": true }
       ],
-      "explanation": "non si sa è giusta ma non con miacce condizionali, la domanda è doppia...\n\nES: A incorrecto porque no se limita a condicionales; B incorrecto idem; C incorrecto idem; D correcto: Art. 169.3 CP agrava las amenazas por escrito o medios, sin restricción a condicionales. \nIT: A errato perché non solo minacce condizionali; B errato idem; C errato idem; D corretto secondo art. 169.3 CP.",
-      "legal_reference": "Código Penal, Art. 169.3"
+      "explanation": "ES:\nEl art. 169.3 CP agrava la pena cuando la amenaza se formula por escrito, teléfono u otros medios, con independencia de que la amenaza sea condicional o no. Ninguna de las opciones a)-c) refleja esta amplitud, de ahí que la respuesta correcta sea d).\nIT:\nL’art. 169.3 CP prevede l’aggravante se la minaccia è fatta per iscritto, telefono o altri mezzi, senza limitarla alle minacce condizionate; pertanto solo la risposta d) è esatta.\nPagina/Slide: TEMA 5.pptx – «Artículo 169 (3)»",
+      "legal_reference": "Código Penal, art. 169.3",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "Cometerá el tipo básico del delito de coacciones, regulado en el artículo 172.1 del Código Penal:",
       "answers": [
-        { "text": "El que, sin estar legítimamente autorizado, impidiere a otro con violencia hacer lo que la Ley prohíbe, siendo además injusto.", "correct": false},
-        { "text": "El que, estando legítimamente autorizado, impidiere a otro con violencia hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere, sea justo o injusto.", "correct": false},
-        { "text": "El que, sin estar legítimamente autorizado, impidiere a otro con violencia o intimidación hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere y la ley no le obliga, sea justo o injusto.", "correct": true},
-        { "text": "El que exigiere de otro una cantidad o recompensa bajo la amenaza de revelar o difundir hechos referentes a su vida privada o relaciones familiares que no sean públicamente conocidos y puedan afectar a su fama, crédito o interés.", "correct": false}
+        { "text": "El que, sin estar legítimamente autorizado, impidiere a otro con violencia hacer lo que la Ley prohíbe, siendo además injusto.", "correct": false },
+        { "text": "El que, estando legítimamente autorizado, impidiere a otro con violencia hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere, sea justo o injusto.", "correct": false },
+        { "text": "El que, sin estar legítimamente autorizado, impidiere a otro con violencia o intimidación hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere y la ley no le obliga, sea justo o injusto.", "correct": true },
+        { "text": "El que exigiere de otro una cantidad o recompensa bajo la amenaza de revelar o difundir hechos referentes a su vida privada o relaciones familiares que no sean públicamente conocidos y puedan afectar a su fama, crédito o interés.", "correct": false }
       ],
-      "explanation": "ES: A incorrecto porque añade ‘prohíbe’ en lugar de ‘no prohíbe’; B incorrecto porque aplica a quien está autorizado; C correcto según texto literal de Art. 172.1 CP; D incorrecto porque describe chantaje (Art. 172.2), no coacciones básicas. \nIT: A errato perché formula diversa dall’art. 172.1 CP; B errato perché autorizzato non rientra nel tipo; C corretto secondo testo art. 172.1 CP; D errato perché è estorsione/minacce (art. 172.2 CP).",
-      "legal_reference": "Código Penal, Art. 172.1"
+      "explanation": "ES:\nEl art. 172.1 CP castiga al que, sin autorización, con violencia o intimidación impide a otro hacer lo que la ley no prohíbe o le obliga a hacer lo que no quiere; esa descripción coincide solo con la opción c).\nIT:\nL’art. 172.1 CP punisce chi, senza legittima autorizzazione, con violenza o intimidazione impedisce a qualcuno di fare ciò che la legge non vieta o lo costringe a fare ciò che non vuole; corrisponde solo alla risposta c).\nPagina/Slide: TEMA 5.pptx – «Artículo 172 (1)»",
+      "legal_reference": "Código Penal, art. 172.1",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "¿Qué circunstancia determina una rebaja de la pena prevista en caso de un delito de secuestro del artículo 164 del Código Penal?",
       "answers": [
-        { "text": "Si el encierro o detención ha durado menos de 3 días.", "correct": true},
-        { "text": "Si el encierro o detención ha durado menos de 10 días.", "correct": false},
-        { "text": "Si el encierro o detención ha durado menos de 12 días.", "correct": false},
-        { "text": "Si el encierro o detención ha durado menos de 15 días.", "correct": false}
+        { "text": "Si el encierro o detención ha durado menos de 3 días.", "correct": true },
+        { "text": "Si el encierro o detención ha durado menos de 10 días.", "correct": false },
+        { "text": "Si el encierro o detención ha durado menos de 12 días.", "correct": false },
+        { "text": "Si el encierro o detención ha durado menos de 15 días.", "correct": false }
       ],
-      "explanation": "ES: A correcto: Art. 164 CP prevé pena inferior si la detención dura menos de 3 días y se libera sin lograr objeto; B, C y D incorrectos porque el plazo legal es 3 días, no 10, 12 o 15. \nIT: A corretto secondo art. 164 CP; B errato perché termine è 3 giorni; C errato idem; D errato idem.",
-      "legal_reference": "Código Penal, Art. 164"
+      "explanation": "ES:\nEl art. 164.2 CP aplica la pena inferior en grado si el rehén queda en libertad dentro de los tres días siguientes y sin lograrse el fin perseguido; la única opción que recoge el plazo legal es la a).\nIT:\nL’art. 164.2 CP riduce la pena se la liberazione avviene entro tre giorni e senza raggiungere lo scopo; l’unica risposta conforme è la a).\nPagina/Slide: TEMA 5.pptx – «Artículo 164 (2)»",
+      "legal_reference": "Código Penal, art. 164.2",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "¿Con qué pena castiga el artículo 138.1 del Código Penal (tipo básico) el delito de homicidio?",
       "answers": [
-        { "text": "Con la pena de prisión de diez a quince años.", "correct": true},
-        { "text": "Con la pena de prisión de quince a veinticinco años.", "correct": false},
-        { "text": "Con la pena de multa de doce a veinticuatro meses.", "correct": false},
-        { "text": "Con la pena de prisión de tres a seis años.", "correct": false}
+        { "text": "Con la pena de prisión de diez a quince años.", "correct": true },
+        { "text": "Con la pena de prisión de quince a veinticinco años.", "correct": false },
+        { "text": "Con la pena de multa de doce a veinticuatro meses.", "correct": false },
+        { "text": "Con la pena de prisión de tres a seis años.", "correct": false }
       ],
-      "explanation": "ES: A correcto porque el artículo 138.1 CP establece una pena de prisión de diez a quince años para el homicidio simple; B incorrecto porque no se prevé multa para este tipo básico; C incorrecto porque la pena de tres a seis años no corresponde al homicidio simple; D incorrecto porque la escala de quince a veinticinco años no existe para el homicidio en el CP.\nIT: A corretto perché l’articolo 138.1 CP prevede una pena di reclusione da dieci a quindici anni per l’omicidio semplice; B errato perché non è prevista alcuna multa per questo reato base; C errato perché la pena da tre a sei anni non si applica all’omicidio semplice; D errato perché non esiste una pena da quindici a venticinque anni per l’omicidio nel CP.",
-      "legal_reference": "Código Penal, Art. 138.1"
+      "explanation": "ES:\nEl art. 138.1 CP fija para el homicidio simple prisión de diez a quince años; ninguna de las otras penas coincide.\nIT:\nL’art. 138.1 CP prevede per l’omicidio semplice reclusione da dieci a quindici anni; le altre opzioni non corrispondono.\nPagina/Slide: TEMA 1.pptx – «Artículo 138»",
+      "legal_reference": "Código Penal, art. 138.1",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "En relación con el delito de homicidio por imprudencia, el artículo 142 del Código Penal castiga al que causare la muerte de otro:",
       "answers": [
-        { "text": "Sólo por imprudencia grave", "correct": false},
-        { "text": "Por imprudencia grave o menos grave.", "correct": true},
-        { "text": "Por imprudencia grave, menos grave o leve.", "correct": false},
-        { "text": "Sólo por imprudencia leve.", "correct": false}
+        { "text": "Sólo por imprudencia grave", "correct": false },
+        { "text": "Por imprudencia grave o menos grave.", "correct": true },
+        { "text": "Por imprudencia grave, menos grave o leve.", "correct": false },
+        { "text": "Sólo por imprudencia leve.", "correct": false }
       ],
-      "explanation": "ES: A incorrecto porque también incluye imprudencia menos grave; B correcto: Art. 142 CP tipifica imprudencia grave y menos grave; C incorrecto porque leve no se tipifica; D incorrecto porque no basta la leve. \nIT: A errato perché include anche meno grave; B corretto secondo art. 142 CP; C errato perché lieve non è punita; D errato perché non solo lieve.",
-      "legal_reference": "Código Penal, Art. 142"
+      "explanation": "ES:\nEl art. 142 CP tipifica el homicidio cometido con imprudencia grave o menos grave; la imprudencia leve ya no es delictiva tras la LO 2/2019.\nIT:\nL’art. 142 CP punisce l’omicidio per imprudenza grave o meno grave; l’imprudenza lieve è stata depenalizzata.\nPagina/Slide: TEMA 1.pptx – «Artículo 142»",
+      "legal_reference": "Código Penal, art. 142",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "La única modalidad agravada del delito de coacciones consiste:",
       "answers": [
-        { "text": "En la concurrencia de violencia o intimidación", "correct": false},
-        { "text": "En que la coacción recaiga sobre un funcionario, un menor o un incapaz", "correct": false},
-        { "text": "En que la coacción tenga por objeto impedir un derecho fundamental o el legítimo disfrute de la vivienda", "correct": true},
-        { "text": "En que la coacción tenga la nota de habitualidad", "correct": false}
+        { "text": "En la concurrencia de violencia o intimidación", "correct": false },
+        { "text": "En que la coacción recaiga sobre un funcionario, un menor o un incapaz", "correct": false },
+        { "text": "En que la coacción tenga por objeto impedir un derecho fundamental o el legítimo disfrute de la vivienda", "correct": true },
+        { "text": "En que la coacción tenga la nota de habitualidad", "correct": false }
       ],
-      "explanation": "ES: A incorrecto porque violencia o intimidación son elementos básicos, no agravantes; B incorrecto porque no figura en el Art. 172.3 CP; C correcto: Art. 172.3 CP agrava coacción que impide derechos fundamentales o disfrute de la vivienda; D incorrecto porque habitualidad no se menciona. \nIT: A errato perché violenza/intimidazione sono base; B errato perché non citato in art. 172.3 CP; C corretto secondo art. 172.3 CP; D errato perché abitudinarietà non è prevista.",
-      "legal_reference": "Código Penal, Art. 172.3"
+      "explanation": "ES:\nEl art. 172.3 CP agrava la pena cuando la coacción impide el ejercicio de un derecho fundamental o el disfrute legítimo de la vivienda; las demás hipótesis no son agravantes autónomas.\nIT:\nL’art. 172.3 CP prevede l’aggravante se la coazione impedisce un diritto fondamentale o il godimento legittimo dell’abitazione; le altre opzioni non integrano aggravanti.\nPagina/Slide: TEMA 5.pptx – «Artículo 172 (3)»",
+      "legal_reference": "Código Penal, art. 172.3",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "Fulgencio sufre una agresión por la cual pierde dos piezas dentarias, dicha acción se castigaría como:",
       "answers": [
-        { "text": "Un delito de lesiones previsto y penado en el artículo 150 de Código Penal, en todos los casos.", "correct": false},
-        { "text": "Un delito de lesiones previsto y penado en el artículo 149 del Código Penal, por tratarse de lesiones con grave deformidad.", "correct": false},
-        { "text": "Un delito de lesiones del artículo 147.2 del Código Penal.", "correct": false},
-        { "text": "Todas las anteriores son incorrectas.", "correct": true}
+        { "text": "Un delito de lesiones previsto y penado en el artículo 150 de Código Penal, en todos los casos.", "correct": true },
+        { "text": "Un delito de lesiones previsto y penado en el artículo 149 del Código Penal, por tratarse de lesiones con grave deformidad.", "correct": false },
+        { "text": "Un delito de lesiones del artículo 147.2 del Código Penal.", "correct": false },
+        { "text": "Todas las anteriores son incorrectas.", "correct": false }
       ],
-      "explanation": "ES: A incorrecto porque Art. 150 CP exige inutilidad de órgano no principal y no siempre aplica a piezas dentarias; B incorrecto porque pérdida de dientes no siempre es deformidad grave (Art. 149); C incorrecto porque Art. 147.2 regula imprudencia leve y menos grave, no supuestos sin tratamiento; D correcto: ninguna de las anteriores encaja plenamente. \nIT: A errato perché art. 150 CP richiede inutilità di organo non principale, non sempre denti; B errato perché perdita denti non è sempre deformità grave (art. 149); C errato perché art. 147.2 CP riguarda imprudenza; D corretto perché nessuna corrisponde pienamente.",
-      "legal_reference": "Código Penal, Art. 147.2; Art. 149; Art. 150"
+      "explanation": "ES:\nLa pérdida de varias piezas dentarias se integra normalmente en el art. 150 CP («pérdida o inutilidad de un órgano o miembro no principal»). No suele calificarse como grave deformidad del art. 149 ni encaja en el art. 147.2.\nIT:\nLa perdita di denti rientra di regola nell’art. 150 CP (organo non principale); di norma non costituisce deformità grave ex art. 149 né si qualifica ai sensi dell’art. 147.2.\nPagina/Slide: TEMA 3 (1).pptx – «Lesiones: arts. 147-150»",
+      "legal_reference": "Código Penal, arts. 150, 149, 147.2",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "El artículo 143 bis del Código Penal castiga la distribución o difusión pública a través de Internet, del teléfono o de cualquier otra tecnología de la información o de la comunicación de contenidos específicamente destinados a promover, fomentar o incitar:",
       "answers": [
-        { "text": "A cometer conductas delictivas.", "correct": false},
-        { "text": "Al suicidio de personas menores de edad o personas con discapacidad necesitadas de especial protección.", "correct": true},
-        { "text": "Al suicidio de cualquier persona.", "correct": false},
-        { "text": "Al suicidio de personas menores de edad.", "correct": false}
+        { "text": "A cometer conductas delictivas.", "correct": false },
+        { "text": "Al suicidio de personas menores de edad o personas con discapacidad necesitadas de especial protección.", "correct": true },
+        { "text": "Al suicidio de cualquier persona.", "correct": false },
+        { "text": "Al suicidio de personas menores de edad.", "correct": false }
       ],
-      "explanation": "ES: A incorrecto porque Art. 143 bis CP se centra en la incitación al suicidio, no a conductas delictivas generales; B correcto según Art. 143 bis.1 CP (menores y personas con discapacidad); C incorrecto porque no abarca a cualquier persona, solo vulnerables; D incorrecto porque excluye personas con discapacidad mayores de edad. \nIT: A errato perché art. 143 bis CP riguarda solo suicidio; B corretto secondo art. 143 bis.1 CP; C errato perché non vale per tutti, solo vulnerabili; D errato perché esclude disabili protetti.",
-      "legal_reference": "Código Penal, Art. 143 bis"
+      "explanation": "ES:\nEl art. 143 bis CP se dirige a la difusión de contenidos que inciten al suicidio de *menores de edad o personas con discapacidad necesitadas de especial protección*; la opción b) refleja exactamente el supuesto.\nIT:\nL’art. 143 bis CP punisce la diffusione di contenuti che incitano al suicidio di *minori o persone con disabilità bisognose di speciale protezione*; corrisponde la risposta b).\nPagina/Slide: TEMA 1.pptx – «Artículo 143 bis»",
+      "legal_reference": "Código Penal, art. 143 bis",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf---12345---"
     },
     {
       "question": "Según el artículo 149 del Código Penal, ¿qué circunstancia determina la concurrencia del tipo hiperagravado de lesiones?",
