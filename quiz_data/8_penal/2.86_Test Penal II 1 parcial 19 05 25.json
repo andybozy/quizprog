@@ -478,30 +478,33 @@
         { "text": "Es otorgado por una persona con discapacidad necesitada de especial protección.", "correct": false},
         { "text": "Es espontáneamente emitido.", "correct": true}
       ],
-      "explanation": "Español (texto corregido sin doble negación):\nLa opción incorrecta es la B. Esto se debe a que:\nEl consentimiento no es válido si se otorga a un menor de edad (opción A), porque los menores no tienen capacidad para consentir legalmente.\nTampoco es válido si lo da una persona con discapacidad que necesita protección especial (opción C), pues esa persona carece de la plena capacidad volitiva necesaria para otorgar un consentimiento válido.\nAdemás, el consentimiento tácito (opción D) queda excluido por el artículo 147.1 del Código Penal: el consentimiento debe ser expreso, no basta con que esté implícito o “dado por hecho”.\nEn cambio, la opción B (“Es espontáneamente emitido”) no describe un caso en que el consentimiento sea nulo, sino todo lo contrario: el consentimiento debe ser espontáneo y consciente para que tenga validez.\nPor tanto, la respuesta incorrecta (es decir, la única afirmación que no corresponde a un supuesto de consentimiento inválido) es la B.\nItaliano (testo corretto senza doppia negazione):\nLa risposta sbagliata è la B, perché:\nIl consenso non è valido se è dato da un minore di 14 anni (opzione A), poiché i minorenni non hanno capacità giuridica per esprimere un consenso valido.\nNon è valido neppure se lo esprime una persona con disabilità che richiede tutela speciale (opzione C), perché quella persona non possiede la piena capacità di intendere e di volere necessaria per dare un consenso efficace.\nInoltre, il consenso tacito (opzione D) è escluso dall’articolo 147, comma 1, del Codice Penale: serve un consenso esplicito, non basta che sia “sottinteso” o presunto.",
-      "legal_reference": "Código Penal, Art. 147.1"
+      "explanation": "ES: El consentimiento no es válido si es tácito, lo otorga un menor o lo otorga una persona con discapacidad especialmente protegida. El hecho de que sea \"espontáneamente emitido\" caracteriza, en cambio, un consentimiento plenamente válido; por ello la afirmación D es la única incorrecta.\nIT: Il consenso non è valido se è tacito, se proviene da un minore o da una persona con disabilità bisognosa di protezione speciale. Al contrario, se è spontaneo è valido, quindi la D è l’unica risposta errata.\nPagina/Slide: TEMA 3 (1).pptx – «Art. 155-156 Consentimiento en lesiones»",
+      "legal_reference": "Código Penal, arts. 155-156",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "Con respecto a la esterilización de las personas con discapacidad realizadas sin contar con su consentimiento podemos decir que:",
       "answers": [
-        { "text": "Esta posibilidad la abolió la LO 2/2020.", "correct": false},
+        { "text": "Esta posibilidad la abolió la LO 2/2020.", "correct": true},
         { "text": "Se regula en el artículo 156 del CP.", "correct": false},
         { "text": "Deciden quienes ejerzan la patria potestad, tutela o curatela.", "correct": false},
-        { "text": "Todas las anteriores son correctas.", "correct": true}
+        { "text": "Todas las anteriores son correctas.", "correct": false}
       ],
-      "explanation": "ES: A incorrecto aislado (es cierto que LO 2/2020 abolió la esterilización forzada, pero no basta sin el resto); B incorrecto aislado (el art. 156 regula supuestos, pero sin contexto no es completa); C incorrecto aislado (la decisión recae en tutela/patr. potestad, pero sin más no explica la abolición ni referencia normativa); D correcto porque combina A, B y C para reflejar la reforma integral de LO 2/2020 al art. 156 CP. \nIT: A errato isolato (LO 2/2020 ha abolito sterilizzazione forzata, ma serve contesto); B errato isolato (art. 156 regola sterilizzazione, ma manca contesto); C errato isolato (decisione a potestà/tutela, ma non include riforma); D corretto perché unisce A, B e C mostrando la riforma di LO 2/2020 all’art. 156 CP).",
-      "legal_reference": "L.O. 2/2020; Código Penal, Art. 156"
+      "explanation": "ES: La LO 2/2020 suprimió la esterilización forzosa de personas con discapacidad, eliminando la antigua excepción del art. 156 CP; hoy esa práctica carece de amparo legal.\nIT: La LO 2/2020 ha abolito la sterilizzazione forzata delle persone con disabilità, sopprimendo l’eccezione allora contenuta nell’art. 156 CP.\nPagina/Slide: TEMA 3 (1).pptx – «Art. 156 CP tras reforma LO 2/2020»",
+      "legal_reference": "LO 2/2020; Código Penal, art. 156",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "El artículo 153 del CP sanciona el maltrato físico y psíquico en un ámbito muy concreto. ¿Quién de las siguientes personas no se recoge como posible víctima en el citado precepto?",
       "answers": [
         { "text": "La esposa.", "correct": false},
-        { "text": "La pareja mujer si no ha convivido con el autor.", "correct": true},
+        { "text": "La pareja mujer si no ha convivido con el autor.", "correct": false},
         { "text": "Persona amparada en cualquier otra relación por la que se encuentre integrada en el núcleo de su convivencia familiar.", "correct": false},
         { "text": "La persona especialmente vulnerable si convive con el autor.", "correct": false}
       ],
-      "explanation": "ES: A incorrecto (la esposa sí está incluida, Art. 153.1ª CP); B correcto (parejas no convivientes no están recogidas en Art. 153); C incorrecto (integrados en núcleo familiar sí están, Art. 153.1.c); D incorrecto (vulnerables convivientes sí, Art. 153.1.d). \nIT: A errato (la moglie è inclusa, art. 153.1ª CP); B corretto (partner non convivente non citato all’art. 153); C errato (conviventi in nucleo familiare sì, art. 153.1.c); D errato (vulnerabili conviventi sì, art. 153.1.d).",
-      "legal_reference": "Código Penal, Art. 153"
+      "explanation": "ES: El art. 153 CP incluye a la esposa, a la mujer unida por relación análoga aun sin convivencia, a las personas integradas en el núcleo familiar y a la persona especialmente vulnerable conviviente. Todas las opciones describen posibles víctimas, por lo que ninguna queda fuera.\nIT: L’art. 153 CP ricomprende moglie, partner anche non convivente, soggetti del nucleo familiare e persona vulnerabile convivente: tutte le alternative sono contemplate.\nPagina/Slide: TEMA 4.pptx – «Maltrato físico/psíquico – Art. 153 CP»",
+      "legal_reference": "Código Penal, art. 153",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "Señale la respuesta correcta en relación con el delito de lesiones por imprudencia:",
@@ -511,8 +514,9 @@
         { "text": "Las lesiones causadas por imprudencia menos grave sólo serán perseguibles mediante denuncia de la persona agraviada o de su representante legal.", "correct": true},
         { "text": "Ninguna de las respuestas es correcta.", "correct": false}
       ],
-      "explanation": "ES: A incorrecto porque la imprudencia leve y menos grave no se persigue de oficio (Art. 147.2 CP); B incorrecto porque la grave sí de oficio y la menos grave sólo a instancia de parte; C correcto según Art. 147.2 CP; D incorrecto porque C es correcta. \nIT: A errato perché non tutte le imprudenze sono perseguite d’ufficio (art. 147.2 CP); B errato perché anche imprudenza meno grave si persegue a querela; C corretto secondo art. 147.2 CP; D errato perché C è vera.",
-      "legal_reference": "Código Penal, Art. 147.2"
+      "explanation": "ES: El art. 152 CP exige denuncia para las lesiones por imprudencia menos grave; la imprudencia grave se persigue de oficio.\nIT: L’art. 152 CP richiede querela per le lesioni da imprudenza meno grave, mentre quelle gravi sono perseguite d’ufficio.\nPagina/Slide: TEMA 3 (1).pptx – «Lesiones por imprudencia – Art. 152»",
+      "legal_reference": "Código Penal, art. 152",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "Según el artículo 157 del Código Penal, será autor de un delito de lesiones al feto el que por cualquier medio o procedimiento, causare en un feto:",
@@ -522,8 +526,9 @@
         { "text": "Su muerte.", "correct": false},
         { "text": "Las respuestas a) y b) son correctas.", "correct": true}
       ],
-      "explanation": "ES: A incorrecto porque 157 CP tipifica solo la muerte del feto; B incorrecto idem; C correcto tal como establece Art. 157.1ª CP; D incorrecto porque A y B no sonConductas penadas en ese artículo. \nIT: A errato perché art. 157 CP punisce solo morte del feto; B errato per lo stesso motivo; C corretto secondo art. 157.1ª CP; D errato perché A e B non rientrano in quel comma.",
-      "legal_reference": "Código Penal, Art. 157"
+      "explanation": "ES: El art. 157 CP castiga las lesiones o enfermedades graves que afecten al normal desarrollo del feto; la muerte intencional se tipifica como aborto, no como lesiones al feto.\nIT: L’art. 157 CP sanziona lesioni o malattie gravi del feto; la morte volontaria del feto rientra nei delitti di aborto, non in questo articolo.\nPagina/Slide: TEMA 2.pptx – «Art. 157 – Lesiones al feto»",
+      "legal_reference": "Código Penal, art. 157",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "¿Cuál de las siguientes circunstancias NO se configura como uno de los elementos comunes de las diferentes modalidades del delito de amenazas?",
@@ -533,41 +538,45 @@
         { "text": "Que el mal anunciado afecte, en todo caso, al sujeto pasivo.", "correct": true},
         { "text": "El mal anunciado ha de ser susceptible de producir intimidación en el sujeto pasivo al revestir carácter de seriedad.", "correct": false}
       ],
-      "explanation": "ES: A incorrecto (es esencial, Art. 169.1ª CP); B incorrecto (debe depender de la voluntad del autor, Art. 169.1ª); C correcto porque no exige afectar ‘en todo caso’, puede ser condicional; D incorrecto (debe intimidar, Art. 169.1ª). \nIT: A errato perché è elemento base (art. 169.1ª CP); B errato perché dipende dalla volontà dell’autore (art. 169.1ª); C corretto perché non serve che colpisca ‘in ogni caso’, può essere condizionale; D errato perché deve intimidire (art. 169.1ª).",
-      "legal_reference": "Código Penal, Art. 169"
+      "explanation": "ES: El art. 169 CP exige anuncio de mal futuro, que dependa de la voluntad del autor y sea idóneo para intimidar; no exige que afecte necesariamente al sujeto pasivo (puede dirigirse a un tercero).\nIT: L’art. 169 CP richiede un male futuro, dipendente dalla volontà dell’agente e idoneo a intimidire; non occorre che colpisca sempre il soggetto passivo.\nPagina/Slide: TEMA 5.pptx – «Amenazas – elementos comunes»",
+      "legal_reference": "Código Penal, art. 169",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "El artículo 172.1 del Código Penal castiga como autor de un delito de coacciones a:",
       "answers": [
-        { "text": "El que sin estar legítimamente autorizado impidiere a otro con violencia hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere, sea justo o injusto.", "correct": true},
+        { "text": "El que sin estar legítimamente autorizado impidiere a otro con violencia o intimidación hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere, sea justo o injusto.", "correct": true},
         { "text": "El que sin estar legítimamente autorizado impidiere a otro hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere, sea justo o injusto.", "correct": false},
         { "text": "El que sin estar legítimamente autorizado impidiere a otro hacer lo que quiere.", "correct": false},
         { "text": "El que sin estar legítimamente autorizado compeliere a otro efectuar lo que no quiere.", "correct": false}
       ],
-      "explanation": "ES: A incorrecto porque añade ‘con violencia’ cuando la definición exige violencia o intimidación; B correcto según la literalidad de Art. 172.1 CP; C incorrecto porque omite la coacción con violencia o intimidación; D incorrecto por omitir la violencia/intimidación necesaria. \nIT: A errato perché aggiunge ‘con violenza’ in modo ridondante; B corretto secondo testo art. 172.1 CP; C errato perché manca violenza o intimidazione; D errato idem.",
-      "legal_reference": "Código Penal, Art. 172.1"
+      "explanation": "ES: La definición legal exige violencia o intimidación; la primera opción recoge ambos verbos (impedir / compeler) y menciona expresamente la violencia o intimidación, por lo que es la correcta.\nIT: La definizione dell’art. 172 CP richiede violenza o intimidazione; la prima opzione li include e pertanto è corretta.\nPagina/Slide: TEMA 5.pptx – «Art. 172.1 – Coacciones»",
+      "legal_reference": "Código Penal, art. 172.1",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "La acción de golpear el rostro de una persona con una botella de cristal, causándole la pérdida de la visión de un ojo en un porcentaje de un 80%:",
       "answers": [
-        { "text": "Configura un delito de lesiones tipificado en el art.149 del CP, al haber causado una deformación grave", "correct": false},
-        { "text": "Configura un delito de lesiones tipificado en los artículos 147 y 148.1 del CP, al haber utilizado un objeto concretamente peligroso para la vida o salud del lesionado.", "correct": true},
+        { "text": "Configura un delito de lesiones tipificado en el art.149 del CP, al haber causado una deformación grave.", "correct": false},
+        { "text": "Configura un delito de lesiones tipificado en los artículos 147 y 148.1 del CP, al haber utilizado un objeto concretamente peligroso para la vida o salud del lesionado.", "correct": false},
         { "text": "Configura un delito de lesiones tipificado en el art.150 del CP, al haber causado la inutilidad de un órgano o miembro no principal.", "correct": false},
-        { "text": "Configura un delito de lesiones tipificado en el art.149 del CP, al haber causado la pérdida o inutilidad de un órgano o miembro principal o de un sentido.", "correct": false}
+        { "text": "Configura un delito de lesiones tipificado en el art.149 del CP, al haber causado la pérdida o inutilidad de un órgano o miembro principal o de un sentido.", "correct": true}
       ],
-      "explanation": "ES: A incorrecto porque Art. 149 CP se refiere a deformidad o enfermedad grave, no al uso de objeto peligroso; B correcto porque Art. 148.1ª CP agrava el tipo básico (Art. 147.1) por usar medios peligrosos; C incorrecto porque inutilidad de órgano no principal se encuadra en Art. 150 pero la agravación procede de Art. 148.1ª; D incorrecto porque la pérdida de un órgano principal agrava pero se sanciona como agravante de Art. 147.1 (Art. 148.1ª), no como Art. 149 básico. \nIT: A errato perché art. 149 CP tratta deformità grave o malattia, non mezzi pericolosi; B corretto perché art. 148.1ª CP aggrava art. 147.1 per uso di mezzi pericolosi; C errato perché inutilità di organo non principale rientra in art. 150 ma aggravamento viene da art. 148.1ª; D errato perché perdita organo principale è aggravante di art. 147.1 (art. 148.1ª), non art. 149.",
-      "legal_reference": "Código Penal, Art. 147.1; Art. 148.1ª"
+      "explanation": "ES: La pérdida grave de visión (80 %) supone la inutilidad de un sentido, supuesto expresamente castigado en el art. 149 CP.\nIT: La grave perdita della vista (80 %) integra la inutilizzazione di un senso e rientra quindi nell’art. 149 CP.\nPagina/Slide: TEMA 3 (1).pptx – «Lesiones graves – Art. 149 CP»",
+      "legal_reference": "Código Penal, art. 149",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "La lesión ocasionada que no precise tratamiento médico o quirúrgico y solo requiera una primera asistencia facultativa constituye:",
       "answers": [
         { "text": "El tipo básico del delito de lesiones previsto en el artículo 147.1 del CP", "correct": false},
         { "text": "Una falta de lesiones del artículo 617.1 del CP", "correct": false},
-        { "text": "Un delito leve de lesiones previsto en el artículo 147.2 de CP", "correct": true},
+        { "text": "Un delito leve de lesiones previsto en el artículo 147.2 del CP", "correct": true},
         { "text": "No constituye infracción penal alguna", "correct": false}
       ],
-      "explanation": "ES: A incorrecto porque sin tratamiento médico no cabe delito según Art. 147.1 CP; B incorrecto porque tampoco encaja como falta (Art. 617.1 aplica a agresiones leves sin atención facultativa); C incorrecto porque Art. 147.2 castiga imprudencia menos grave solo a instancia de parte; D correcto: sin tratamiento ni más, no hay infracción. \nIT: A errato perché senza trattamento medico non c’è reato (art. 147.1 CP); B errato perché art. 617.1 CP riguarda lesioni lievi senza assistenza; C errato perché art. 147.2 CP punisce imprudenza meno grave con querela; D corretto: nessuna infrazione.",
-      "legal_reference": "Código Penal, Art. 147.1; Art. 147.2; Art. 617.1"
+      "explanation": "ES: Tras la reforma de 2015, las lesiones que sólo requieren primera asistencia se castigan como delito leve (art. 147.2 CP).\nIT: Dopo la riforma del 2015 le lesioni che richiedono solo una prima assistenza sono un delitto lieve ex art. 147.2 CP.\nPagina/Slide: TEMA 3 (1).pptx – «Lesión leve – Art. 147.2»",
+      "legal_reference": "Código Penal, art. 147.2",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "No es un elemento del delito de participación en riña:",
@@ -577,8 +586,9 @@
         { "text": "Que haya una pluralidad de personas que riñan entre sí con agresiones físicas entre varios grupos recíprocamente enfrentados.", "correct": false},
         { "text": "Todos los anteriores son elementos del delito de participación en riña.", "correct": false}
       ],
-      "explanation": "ES: A incorrecto (riña tumultuaria exige acción confusa, Art. 153 CP); B correcto ya que no se exige uso de medios peligrosos por todos los partícipes; C incorrecto (pluralidad y enfrentamiento sí son necesarios); D incorrecto porque B no es elemento. \nIT: A errato perché rissa tumultuaria prevede aggressioni confusionali (art. 153 CP); B corretto perché non serve che tutti usino mezzi pericolosi; C errato perché pluralità e scontri sì richiesti; D errato perché B non è elemento.",
-      "legal_reference": "Código Penal, Art. 153"
+      "explanation": "ES: El art. 154 CP exige acometimiento tumultuario y uso de medios peligrosos, pero no impone que los utilicen *todos* los partícipes; basta que se empleen en la riña.\nIT: L’art. 154 CP richiede rissa tumultuaria e impiego di mezzi pericolosi, non che tali mezzi siano usati da tutti i partecipanti.\nPagina/Slide: TEMA 3 (1).pptx – «La participación en riña – Art. 154»",
+      "legal_reference": "Código Penal, art. 154",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf---12345---"
     },
     {
       "question": "¿Cuál de los siguientes delitos lleva aparejada una mayor pena, conforme a lo previsto en nuestro Código Penal?",
