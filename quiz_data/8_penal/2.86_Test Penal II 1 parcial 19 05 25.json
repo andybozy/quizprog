@@ -1308,127 +1308,127 @@
       ],
       "explanation": "ES: La eutanasia directa implica administrar medios con la intención inmediata de provocar la muerte; esto describe la opción B. \nIT: La L.O. 3/2021 definisce eutanasia diretta come atto volto intenzionalmente a causare la morte; corrisponde alla B.\nPagina/Slide: TEMA 1.pptx – diapositiva «Eutanasia directa – L.O. 3/2021»",
       "legal_reference": "Ley Orgánica 3/2021",
-      "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt---12345---"
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
       "question": "39. La eutanasia pasiva:",
       "answers": [
-        {"text": "Es auxilio activo con acortamiento de la vida sin intención de adelantar el fallecimiento", "correct": false},
-        {"text": "Acción dirigida al acortamiento de la vida ante sufrimiento infausto", "correct": false},
-        {"text": "Se aprecia cuando se asiste al paciente con medios que prolongan artificialmente la vida, discutiéndose la interrupción", "correct": true},
-        {"text": "Auxilio activo a morir con lenitivos o analgésicos sin acortamiento de la vida", "correct": false}
+        { "text": "Es auxilio activo con acortamiento de la vida sin intención de adelantar el fallecimiento", "correct": false},
+        { "text": "Acción dirigida al acortamiento de la vida ante sufrimiento infausto", "correct": false},
+        { "text": "Se aprecia cuando se asiste al paciente con medios que prolongan artificialmente la vida, discutiéndose la interrupción", "correct": true},
+        { "text": "Auxilio activo a morir con lenitivos o analgésicos sin acortamiento de la vida", "correct": false}
       ],
-      "explanation": "ES: La eutanasia pasiva consiste en retirar o no iniciar tratamientos que prolongan la vida, dejando que la muerte se produzca por la enfermedad misma, como recoge la doctrina y la Ley 3/2021. C es la definición correcta. A y D describen la indiretta, B la directa. \nIT: C è corretta: la eutanasia passiva prevede la sospensione o mancato inizio di terapie di sostegno vitale, permettendo il decesso per patologia. A e D sono indiretta; B è diretta.",
-      "legal_reference": "Ley Orgánica 3/2021, de 24 de marzo",
+      "explanation": "ES:\nLa eutanasia pasiva consiste en retirar o no iniciar medidas de soporte vital, permitiendo que la muerte llegue por la evolución de la enfermedad (Ley 3/2021). Sólo la C refleja esa idea; A y D describen eutanasia indirecta y B la eutanasia activa directa.\nIT:\nLa C è corretta: la eutanasia passiva implica sospendere o non iniziare terapie che prolungano artificialmente la vita. A e D corrispondono all’eutanasia indiretta, B alla diretta.\nPagina/Slide: TEMA 1.pptx – diapositiva «Eutanasia – art. 143.4»",
+      "legal_reference": "Ley Orgánica 3/2021; Código Penal, art. 143.4",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
       "question": "40. El Código Penal castiga el aborto cuando:",
       "answers": [
-        {"text": "Es cometido sin el consentimiento de la mujer o habiéndolo obtenido mediante violencia, amenaza o engaño", "correct": true},
-        {"text": "Es cometido con consentimiento de la mujer, en los casos permitidos por la ley, pero sin cumplir los requisitos exigidos en ella", "correct": true},
-        {"text": "Es cometido con consentimiento de la mujer pero sin que exista necesariamente violencia, amenaza o engaño", "correct": false},
-        {"text": "Las respuestas A y B son correctas", "correct": true}
+        { "text": "Es cometido sin el consentimiento de la mujer o habiéndolo obtenido mediante violencia, amenaza o engaño", "correct": false},
+        { "text": "Es cometido con consentimiento de la mujer, en los casos permitidos por la ley, pero sin cumplir los requisitos exigidos en ella", "correct": false},
+        { "text": "Es cometido con consentimiento de la mujer pero sin que exista necesariamente violencia, amenaza o engaño", "correct": false},
+        { "text": "Las respuestas A y B son correctas", "correct": true}
       ],
-      "explanation": "ES: Según art.145 CP, son punibles el aborto sin consentimiento o con engaño (A) y el aborto con consentimiento pero sin requisitos (B). C es falsa porque esa fórmula no coincide con ningún supuesto sancionado. D, al agrupar A y B, también es cierta. \nIT: A e B sono corrette: l’art.145 CP punisce l’aborto senza consenso o con inganno (A) e l’aborto con consenso ma senza requisiti (B). C non corrisponde a nessuna ipotesi. D è vera perché comprende A e B.",
+      "explanation": "ES:\nEl art. 145 CP tipifica (i) el aborto sin consentimiento o con violencia, amenaza o engaño y (ii) el aborto consentido cuando no se cumplen los requisitos legales; ambas hipótesis se recogen en A y B, luego la opción correcta es D al reunirlas. C no describe ningún supuesto punible.\nIT:\nL’art. 145 CP punisce l’aborto senza consenso (o con violenza/minaccia/inganno) e quello con consenso ma privo dei requisiti di legge; A e B coincidono con tali casi, quindi D è l’unica risposta corretta.\nPagina/Slide: TEMA 2.pptx – diapositiva «Artículo 145 – Aborto»",
       "legal_reference": "Código Penal, art. 145",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "41. El código Penal considera autor del delito de lesiones al feto",
+      "question": "41. El Código Penal considera autor del delito de lesiones al feto",
       "answers": [
-        {"text": "El que, por cualquier medio o procedimiento causare en un feto una lesión o enfermedad que perjudique gravemente su normal desarrollo, o provoque en el mismo una grave tara física o psíquica", "correct": true},
-        {"text": "El que, por cualquier medio o procedimiento causare en un feto una lesión o enfermedad que perjudicando el desarrollo del feto exclusivamente", "correct": false},
-        {"text": "El que causare al feto una enfermedad exclusivamente física perjudicando su desarrollo normal", "correct": false},
-        {"text": "Ninguna de las respuestas anteriores es correcta", "correct": false}
+        { "text": "El que, por cualquier medio o procedimiento causare en un feto una lesión o enfermedad que perjudique gravemente su normal desarrollo, o provoque en el mismo una grave tara física o psíquica", "correct": true},
+        { "text": "El que, por cualquier medio o procedimiento causare en un feto una lesión o enfermedad que perjudicando el desarrollo del feto exclusivamente", "correct": false},
+        { "text": "El que causare al feto una enfermedad exclusivamente física perjudicando su desarrollo normal", "correct": false},
+        { "text": "Ninguna de las respuestas anteriores es correcta", "correct": false}
       ],
-      "explanation": "ES: A es correcta porque el artículo 153.2 CP tipifica el delito de lesiones al feto describiendo exactamente esta conducta. B y C son parciales y no recogen la gravedad ni la tara psíquica, por lo que no cumplen con el tipo legal. D es falsa.  \nIT: A è corretta: l’art.153.2 CP punisce chi causa al feto una lesione o malattia che comprometta gravemente lo sviluppo normale o provochi una grave menomazione fisica o psichica. B e C sono incomplete e D è errata.",
-      "legal_reference": "Código Penal, art. 153.2",
+      "explanation": "ES:\nEl art. 157 CP describe exactamente la conducta de la opción A; las demás son parcial­es o incompletas.\nIT:\nA riproduce l’art. 157 CP (lesioni al feto); B e C sono incomplete e D è errata.\nPagina/Slide: TEMA 2.pptx – diapositiva «Artículo 157 – Lesiones al feto»",
+      "legal_reference": "Código Penal, art. 157",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
       "question": "42. Según el artículo 159 del CP, el delito relativo a la manipulación genética castiga a",
       "answers": [
-        {"text": "Los que, con finalidad distinta a la eliminación o disminución de taras o enfermedades graves, manipulen genes humanos de manera que se altere el genotipo, serán castigados con la pena de multa de 2 a 6 años", "correct": false},
-        {"text": "Los que, con finalidad a la eliminación o disminución de taras o enfermedades graves, manipulen genes humanos de manera que se altere el genotipo, serán castigados con la pena de prisión de 2 a 6 años", "correct": false},
-        {"text": "Los que, con finalidad distinta a la eliminación o disminución de taras o enfermedades graves, manipulen genes humanos de manera que se altere el genotipo, serán castigados con la pena de prisión de 2 a 6 años e inhabilitación especial para empleo o cargo público, profesión u oficio de 7 a 10 años", "correct": true},
-        {"text": "Las respuestas A y B son correctas", "correct": false}
+        { "text": "Los que, con finalidad distinta a la eliminación o disminución de taras o enfermedades graves, manipulen genes humanos de manera que se altere el genotipo, serán castigados con la pena de multa de 2 a 6 años", "correct": false},
+        { "text": "Los que, con finalidad a la eliminación o disminución de taras o enfermedades graves, manipulen genes humanos de manera que se altere el genotipo, serán castigados con la pena de prisión de 2 a 6 años", "correct": false},
+        { "text": "Los que, con finalidad distinta a la eliminación o disminución de taras o enfermedades graves, manipulen genes humanos de manera que se altere el genotipo, serán castigados con la pena de prisión de 2 a 6 años e inhabilitación especial para empleo o cargo público, profesión u oficio de 7 a 10 años", "correct": true},
+        { "text": "Las respuestas A y B son correctas", "correct": false}
       ],
-      "explanation": "ES: C recoge literalmente el art.159.1 CP, que establece prisión de dos a seis años e inhabilitación especial de siete a diez años para quien manipule genes con finalidad distinta a la terapéutica . A y B no incluyen la combinación correcta de penas, y D es falsa.  \nIT: C riproduce esattamente l’art.159.1 CP: reclusione di 2-6 anni e interdizione speciale 7-10 anni per manipolazione genetica non terapeutica . A e B non corrispondono e D è errata.",
+      "explanation": "ES:\nEl art. 159.1 CP prevé prisión de 2-6 años e inhabilitación de 7-10 cuando la manipulación genética tiene finalidad distinta de la terapéutica; sólo la C reproduce la pena completa. A y B recogen penas erróneas; D por ello es falsa.\nIT:\nL’art. 159.1 CP stabilisce reclusione 2-6 anni + interdizione 7-10 anni per manipolazione non terapeutica; solo C è corretta.\nPagina/Slide: TEMA 2.pptx – diapositiva «Artículo 159 – Manipulación genética»",
       "legal_reference": "Código Penal, art. 159.1",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
       "question": "42. Según el artículo 139 del CP, ¿qué circunstancia no convierte el homicidio en asesinato?",
       "answers": [
-        {"text": "La alevosía", "correct": false},
-        {"text": "Para facilitar la comisión de otro delito o para evitar que se descubra", "correct": false},
-        {"text": "El aprovechamiento de la previa comisión de otro delito tras el que se comete el homicidio", "correct": true},
-        {"text": "Actuar por medio de recompensa o promesa", "correct": false}
+        { "text": "La alevosía", "correct": false},
+        { "text": "Para facilitar la comisión de otro delito o para evitar que se descubra", "correct": false},
+        { "text": "El aprovechamiento de la previa comisión de otro delito tras el que se comete el homicidio", "correct": true},
+        { "text": "Actuar por medio de recompensa o promesa", "correct": false}
       ],
-      "explanation": "ES: El art.139.1 CP incluye alevosía, precio/recompensa/promesa, ensañamiento y facilitar otro delito/evitar descubrimiento como circunstancias de asesinato. Solo el supuesto de aprovechar un delito previo no figura.  \nIT: L’art.139.1 CP elenca alevosía, prezzo/promessa, crudeltà e agevolazione/repressione; la condotta di approfittare di un reato precedente non è contemplata.",
+      "explanation": "ES:\nEl art. 139.1 CP prevé alevosía, precio/recompensa/promesa y finalidad de facilitar u ocultar otro delito; el “aprovechamiento” de un delito previo no figura, por lo que la C es la única que NO convierte el homicidio en asesinato.\nIT:\nL’art. 139.1 CP contempla alevosía, prezzo-promessa e finalità di facilitare/occultare altro reato; «aprovechamiento…» non appare: corretta la C.\nPagina/Slide: TEMA 1.pptx – diapositiva «Artículo 139 – Asesinato»",
       "legal_reference": "Código Penal, art. 139.1",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
       "question": "43. El asesinato será castigado con pena de prisión permanente revisable: cuando concurra alguna de las siguientes circunstancias. Señale la falsa",
       "answers": [
-        {"text": "Que la víctima sea menor de 14 años, o se trate de personas especialmente vulnerables", "correct": true},
-        {"text": "Que el hecho fuese subsiguiente a un delito contra la libertad sexual que el autor hubiese cometido sobre la víctima", "correct": false},
-        {"text": "Que el delito se hubiese cometido por quien perteneciera a un grupo u organización criminal", "correct": false},
-        {"text": "Que el hecho hubiere sido cometido aumentando inhumana y deliberadamente el sufrimiento de la víctima", "correct": false}
+        { "text": "Que la víctima sea menor de 14 años, o se trate de personas especialmente vulnerables", "correct": true},
+        { "text": "Que el hecho fuese subsiguiente a un delito contra la libertad sexual que el autor hubiese cometido sobre la víctima", "correct": false},
+        { "text": "Que el delito se hubiese cometido por quien perteneciera a un grupo u organización criminal", "correct": false},
+        { "text": "Que el hecho hubiere sido cometido aumentando inhumana y deliberadamente el sufrimiento de la víctima", "correct": false}
       ],
-      "explanation": "ES: Son falsas A y D. El art.140 CP exige víctima menor de 16 años (no 14) o vulnerable, y para el ensañamiento requiere concurrir además otra circunstancia de art.139; no basta solo el aumento del dolor. B y C sí son supuestos válidos para prisión permanente revisable.  \nIT: A e D sono errate: l’art.140 CP parla di minorenni sotto i 16 anni e per il sadismo (ensañamiento) serve anche un’altra circostanza tra quelle del 139. B e C sono corrette.",
+      "explanation": "ES:\nEl art. 140 CP exige víctima menor de 16 años (no 14), por lo que A es falsa. (El mero ensañamiento tampoco basta, pero la pregunta pide una sola opción.)\nIT:\nL’art. 140 CP parla di vittime < 16 anni; quindi A è l’unica risposta falsa richiesta.\nPagina/Slide: TEMA 1.pptx – diapositiva «Artículo 140 – Asesinato cualificado»",
       "legal_reference": "Código Penal, art. 140",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
       "question": "44. La acción típica del delito de homicidio",
       "answers": [
-        {"text": "Es realizable mediante una acción, en sentido estricto, consistente en matar a otro", "correct": false},
-        {"text": "Puede realizarse mediante una acción o mediante una omisión", "correct": false},
-        {"text": "Su realización cabe tanto por acción, como por omisión, pero únicamente en su modalidad de comisión por omisión, si concurre la posición de garante", "correct": true},
-        {"text": "Ninguna de las anteriores es válida", "correct": false}
+        { "text": "Es realizable mediante una acción, en sentido estricto, consistente en matar a otro", "correct": false},
+        { "text": "Puede realizarse mediante una acción o mediante una omisión", "correct": false},
+        { "text": "Su realización cabe tanto por acción, como por omisión, pero únicamente en su modalidad de comisión por omisión, si concurre la posición de garante", "correct": true},
+        { "text": "Ninguna de las anteriores es válida", "correct": false}
       ],
-      "explanation": "ES: El art.11 CP permite delito por acción u omisión, y el art.138 exige para la omisión posición de garante. Solo C detalla correctamente la limitación. A y B son imprecisas.  \nIT: C è corretta: l’art.11 CP ammette azione e omissione, ma l’omissione richiede posizione di garante (art.138). A e B sono incomplete.",
+      "explanation": "ES:\nConforme a los arts. 138 y 11 CP, el homicidio puede cometerse por acción u omisión, pero la omisión exige posición de garante (comisión por omisión). Sólo la C enuncia ese requisito.\nIT:\nGli artt. 138 e 11 CP ammettono l’omissione solo se c’è posizione di garante; pertanto è corretta la C.\nPagina/Slide: TEMA 1.pptx – diapositiva «Artículo 138 – Conducta típica»",
       "legal_reference": "Código Penal, arts. 11 y 138",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
       "question": "45. En el delito de asesinato se define la alevosía como",
       "answers": [
-        {"text": "Empleando medios, modos o formas que tiendan indirectamente a asegurar la ejecución", "correct": false},
-        {"text": "Empleando medios, modos o formas que tiendan directamente a asegurarla, sin el riesgo que para su persona pudiera proceder de la defensa por parte del ofendido", "correct": true},
-        {"text": "Empleando en la ejecución medios, modos o formas que tiendan directa o especialmente a asegurarla", "correct": false},
-        {"text": "Empleando en la ejecución armas o instrumentos peligrosos que aseguren el fin de acabar con la vida de la víctima", "correct": false}
+        { "text": "Empleando en la ejecución medios, modos o formas que tiendan directa o especialmente a asegurarla, sin el riesgo que para su persona pudiera proceder de la defensa por parte del ofendido", "correct": true},
+        { "text": "Empleando medios, modos o formas que tiendan directamente a asegurarla, sin el riesgo que para su persona pudiera proceder de la defensa por parte del ofendido", "correct": false},
+        { "text": "Empleando en la ejecución medios, modos o formas que tiendan directa o especialmente a asegurarla", "correct": false},
+        { "text": "Empleando en la ejecución armas o instrumentos peligrosos que aseguren el fin de acabar con la vida de la víctima", "correct": false}
       ],
-      "explanation": "ES: B reproduce literalmente la definición de art.22.2 CP. A confunde indirectamente; C y D no reflejan el elemento esencial de la falta de riesgo de defensa.  \nIT: B riprende testualmente l’art.22.2 CP. A è sbagliata, C e D non contengono la caratteristica chiave dell’assenza di rischio di difesa.",
+      "explanation": "ES:\nLa redacción literal del art. 22.2 CP («directa o especialmente») se refleja en la opción A; B elimina “especialmente”, C omite la falta de riesgo de defensa y D introduce un elemento ajeno.\nIT:\nL’art. 22.2 CP definisce l’alevosía con «medios, modos o formas que tiendan directa o especialmente a asegurar…» senza rischio di difesa: corrisponde solo A.\nPagina/Slide: TEMA 1.pptx – diapositiva «Artículo 22.2 – Alevosía»",
       "legal_reference": "Código Penal, art. 22.2",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
-      "question": "46. En el delito de cooperación necesaria en el suicidio",
+      "question": "46. En el delito de cooperación al suicidio",
       "answers": [
-        {"text": "Solo cabe por acción y nunca por omisión", "correct": false},
-        {"text": "Cabe que se cometa por omisión siempre que no exista obligación de actuar derivada de posición de garante", "correct": false},
-        {"text": "Cabe que se cometa por omisión siempre que exista obligación de actuar derivada de posición de garante", "correct": true},
-        {"text": "Las respuestas A y C son correctas", "correct": false}
+        { "text": "Solo cabe por acción y nunca por omisión", "correct": false},
+        { "text": "Cabe que se cometa por omisión siempre que no exista obligación de actuar derivada de posición de garante", "correct": false},
+        { "text": "Cabe que se cometa por omisión siempre que exista obligación de actuar derivada de posición de garante", "correct": false},
+        { "text": "Ante la falta de imputabilidad de la víctima, la acción será castigada como autoría mediata en asesinato", "correct": true}
       ],
-      "explanation": "ES: El art.143 CP sanciona la cooperación necesaria, y la doctrina admite la forma omisiva cuando hay deber de garante. Solo C recoge ese matiz. A y B son falsas.  \nIT: C è corretta: l’art.143 CP prevede cooperazione necessaria anche per omissione se sussiste obbligo di garante. A e B sono errate.",
+      "explanation": "ES:\nSi la víctima no es imputable, no existe un “suicidio” en sentido estricto; ayudar a causar la muerte se castiga como homicidio/asesinato (autoría mediata). Por ello la opción D es la única correcta.\nIT:\nQuando la vittima non è imputabile, manca il suicidio; l’aiuto a morire integra omicidio/assassinio come autore mediato: corretta la D.\nPagina/Slide: TEMA 1.pptx – diapositiva «Artículo 143 – Cooperación al suicidio»",
       "legal_reference": "Código Penal, art. 143",
-      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.txt"
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
       "question": "47. El aborto por imprudencia grave",
       "answers": [
-        {"text": "Es siempre impune", "correct": false},
-        {"text": "Solo se castiga si no ha existido consentimiento de la mujer", "correct": false},
-        {"text": "Solo se castiga si es cometido por la propia mujer embarazada", "correct": false},
-        {"text": "Es impune si es cometido por la mujer embarazada", "correct": true}
+        { "text": "Es siempre impune", "correct": false},
+        { "text": "Solo se castiga si no ha existido consentimiento de la mujer", "correct": false},
+        { "text": "Solo se castiga si es cometido por la propia mujer embarazada", "correct": false},
+        { "text": "Es impune si es cometido por la mujer embarazada", "correct": true}
       ],
-      "explanation": "ES: El art.142 CP exime de responsabilidad a la mujer por actos dirigidos a provocarse su propio aborto, con independencia de la imprudencia. Solo D es correcta.  \nIT: D è corretta: l’art.142 CP esenta la responsabilità della donna per il proprio aborto, anche se imprudente. Le altre sono false.",
-      "legal_reference": "Código Penal, art. 142",
-      "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
+      "explanation": "ES:\nEl art. 146 CP castiga el aborto imprudente cometido por terceros, pero declara impune a la propia mujer que provoca su aborto por imprudencia; de ahí que sólo D sea correcta.\nIT:\nL’art. 146 CP punisce l’aborto colposo di terzi, ma non quello della donna su se stessa: corretta la D.\nPagina/Slide: TEMA 2.pptx – diapositiva «Artículo 146 – Aborto imprudente»",
+      "legal_reference": "Código Penal, art. 146",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt---12345---"
     },
     {
       "question": "48. La acción de golpear el rostro de una persona con una botella de cristal, causándole la pérdida de la visión de un ojo en un porcentaje de un 80%",
