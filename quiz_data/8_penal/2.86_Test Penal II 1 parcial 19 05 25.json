@@ -5,10 +5,10 @@
     {
       "question": "¿Cuál de los siguientes no es un requisito del delito de participación en riña del art. 154 CP?",
       "answers": [
-        { "text": "Que se cometa por dolo o imprudencia", "correct": true },
-        { "text": "Que el acometimiento sea tumultuario", "correct": false },
-        { "text": "Que se utilicen medios que pongan en peligro la vida", "correct": false },
-        { "text": "Que se utilicen instrumentos que pongan en peligro la integridad de las personas", "correct": false }
+        { "text": "Que se cometa por dolo o imprudencia", "correct": true},
+        { "text": "Que el acometimiento sea tumultuario", "correct": false},
+        { "text": "Que se utilicen medios que pongan en peligro la vida", "correct": false},
+        { "text": "Que se utilicen instrumentos que pongan en peligro la integridad de las personas", "correct": false}
       ],
       "explanation": "ES:\nEl art. 154 CP exige que los contendientes se acometan tumultuariamente y utilicen medios o instrumentos que pongan en peligro la vida o la integridad de las personas; el precepto solo admite comisión dolosa, de modo que la imprudencia queda fuera. Por ello la opción a) es la única que **no** constituye requisito. :contentReference[oaicite:3]{index=3}\nIT:\nL’art. 154 CP richiede il dolo e un’aggressione tumultuaria con mezzi o strumenti pericolosi per la vita o l’integrità; quindi soltanto la risposta a) non è requisito del reato. :contentReference[oaicite:4]{index=4}\nPagina/Slide: TEMA 3 (1).pptx – diapositiva «4. La participación en riña»",
       "legal_reference": "Código Penal español, art. 154",
@@ -17,10 +17,10 @@
     {
       "question": "Con respecto al delito de detención ilegal tipificado en el art. 163 del CP, ¿cuándo se impondrá la pena inferior en grado según su apartado segundo?",
       "answers": [
-        { "text": "Si el encierro durare menos de quince días", "correct": false },
-        { "text": "Si se pusiera en libertad al detenido dentro de los tres primeros días", "correct": true },
-        { "text": "Si se pusiera a la persona inmediatamente ante la autoridad", "correct": false },
-        { "text": "Ninguna de las anteriores es correcta", "correct": false }
+        { "text": "Si el encierro durare menos de quince días", "correct": false},
+        { "text": "Si se pusiera en libertad al detenido dentro de los tres primeros días", "correct": true},
+        { "text": "Si se pusiera a la persona inmediatamente ante la autoridad", "correct": false},
+        { "text": "Ninguna de las anteriores es correcta", "correct": false}
       ],
       "explanation": "ES:\nEl art. 163.2 CP establece que «se impondrá la pena inferior en grado si el culpable diere libertad a la persona encerrada o detenida dentro de los tres días siguientes al encierro»; por tanto, sólo la opción b) coincide con el precepto. Las demás alternativas no se corresponden con el supuesto de atenuación.\nIT:\nL’art. 163.2 CP prevede la pena inferiore di grado se il reo libera la persona privata della libertà entro i primi tre giorni, quindi la risposta corretta è la b).\nPagina/Slide: TEMA 5.pptx – diapositiva «Artículo 163 – Detenciones ilegales»",
       "legal_reference": "Código Penal, art. 163.2",
@@ -29,10 +29,10 @@
     {
       "question": "El delito de secuestro del artículo 164 del CP exige para su sanción que:",
       "answers": [
-        { "text": "Se haya exigido alguna condición para poner en libertad a la persona", "correct": true },
-        { "text": "Se haya tenido a la persona privada de libertad más de quince días", "correct": false },
-        { "text": "Se haya tenido a la persona retenida más de tres días", "correct": false },
-        { "text": "Todas las anteriores son correctas", "correct": false }
+        { "text": "Se haya exigido alguna condición para poner en libertad a la persona", "correct": true},
+        { "text": "Se haya tenido a la persona privada de libertad más de quince días", "correct": false},
+        { "text": "Se haya tenido a la persona retenida más de tres días", "correct": false},
+        { "text": "Todas las anteriores son correctas", "correct": false}
       ],
       "explanation": "ES:\nSólo se configura el secuestro cuando se impone una condición para la liberación (art. 164 CP); la duración del cautiverio no es elemento típico. Por ello la opción a) es la única correcta.\nIT:\nIl sequestro ex art. 164 CP si configura solo se viene imposta una condizione per la liberazione; la durata non è rilevante. Pertanto è corretta solo la risposta a).\nPagina/Slide: TEMA 5.pptx – diapositiva «Artículo 164 – Secuestro»",
       "legal_reference": "Código Penal, art. 164",
@@ -41,10 +41,10 @@
     {
       "question": "El que amenazare a otro con causarle a él, a su familia o a otras personas íntimamente vinculadas un mal que constituya delito castigado como amenazas del art. 169 CP, ¿cuál de los siguientes no es uno de los delitos con los que se debe amenazar para poder sancionar la conducta?",
       "answers": [
-        { "text": "Lesiones", "correct": false },
-        { "text": "Contra la imagen", "correct": true },
-        { "text": "Aborto", "correct": false },
-        { "text": "Tortura", "correct": false }
+        { "text": "Lesiones", "correct": false},
+        { "text": "Contra la imagen", "correct": true},
+        { "text": "Aborto", "correct": false},
+        { "text": "Tortura", "correct": false}
       ],
       "explanation": "ES:\nEl art. 169 CP enumera, entre otros, delitos de lesiones, aborto y torturas, pero no contempla delitos «contra la imagen», por lo que la opción b) es la única que no figura en el listado y, por tanto, es la correcta.\nIT:\nL’art. 169 CP menziona tra i reati minacciabili lesioni, aborto e tortura, ma non reati «contro l’immagine»; dunque la risposta corretta è la b).\nPagina/Slide: TEMA 5.pptx – diapositiva «Artículo 169 – Amenazas»",
       "legal_reference": "Código Penal, art. 169",
@@ -53,10 +53,10 @@
     {
       "question": "El artículo 172.2 de la LECRIM sanciona al que, de modo leve, coaccione a:",
       "answers": [
-        { "text": "A la esposa", "correct": false },
-        { "text": "A una persona especialmente vulnerable que conviva con el autor", "correct": false },
-        { "text": "A la ex esposa", "correct": false },
-        { "text": "Todas las anteriores son correctas", "correct": true }
+        { "text": "A la esposa", "correct": false},
+        { "text": "A una persona especialmente vulnerable que conviva con el autor", "correct": false},
+        { "text": "A la ex esposa", "correct": false},
+        { "text": "Todas las anteriores son correctas", "correct": true}
       ],
       "explanation": "ES:\nEl art. 172.2 —en realidad del Código Penal— incluye a cónyuge o ex-cónyuge y a persona especialmente vulnerable conviviente; por ello sólo la opción «Todas» engloba todos los supuestos.\nIT:\nL’art. 172.2 CP ricomprende coniuge o ex-coniuge e persona vulnerabile convivente; quindi l’unica risposta completa è «Tutte le precedenti».\nPagina/Slide: TEMA 5.pptx, diapositiva «Artículo 172 – Coacciones (apart. 2)»",
       "legal_reference": "Código Penal, art. 172.2",
@@ -65,10 +65,10 @@
     {
       "question": "El homicidio cometido por imprudencia menos grave solo será perseguible mediante denuncia de la persona agraviada o de su representante legal, salvo en los casos en que se produzca:",
       "answers": [
-        { "text": "Utilizando un arma de fuego", "correct": false },
-        { "text": "Utilizando vehículo a motor o ciclomotor", "correct": true },
-        { "text": "Cometiendo imprudencia profesional", "correct": false },
-        { "text": "Ninguna de las anteriores es correcta", "correct": false }
+        { "text": "Utilizando un arma de fuego", "correct": false},
+        { "text": "Utilizando vehículo a motor o ciclomotor", "correct": true},
+        { "text": "Cometiendo imprudencia profesional", "correct": false},
+        { "text": "Ninguna de las anteriores es correcta", "correct": false}
       ],
       "explanation": "ES:\nEl último párrafo del art. 142.2 CP exceptúa de la necesidad de denuncia los casos cometidos con *vehículo a motor o ciclomotor*; el uso de arma de fuego no figura en esta excepción. Por ello la respuesta correcta es la b).\nIT:\nIl capoverso finale dell’art. 142.2 CP rende procedibile d’ufficio l’omicidio imprudente meno grave solo se avviene con *veicolo a motore o ciclomotore*; l’arma da fuoco non è contemplata. La risposta corretta è dunque la b).\nPagina/Slide: TEMA 1.pptx, diapositiva «Homicidio imprudente (art. 142.2)»",
       "legal_reference": "Código Penal, art. 142.2",
@@ -77,10 +77,10 @@
     {
       "question": "Señale la respuesta incorrecta. En los supuestos del artículo 143, apartados 2 y 3 (cooperación al suicidio), es preciso que:",
       "answers": [
-        { "text": "Los actos con los que se coopere sean necesarios para el suicidio", "correct": false },
-        { "text": "La cooperación llegara hasta el punto de ejecutar la muerte", "correct": false },
-        { "text": "Anteriormente haya existido una inducción al suicidio", "correct": true },
-        { "text": "El sujeto activo y pasivo sea genérico", "correct": false }
+        { "text": "Los actos con los que se coopere sean necesarios para el suicidio", "correct": false},
+        { "text": "La cooperación llegara hasta el punto de ejecutar la muerte", "correct": false},
+        { "text": "Anteriormente haya existido una inducción al suicidio", "correct": true},
+        { "text": "El sujeto activo y pasivo sea genérico", "correct": false}
       ],
       "explanation": "ES:\nLos apartados 2 y 3 del art. 143 CP sólo exigen la cooperación con actos necesarios (o que causen la muerte) a petición del suicida; no requieren inducción previa, por lo que la opción c) es la afirmación incorrecta.\nIT:\nI commi 2 e 3 dell’art. 143 CP richiedono solo la cooperazione con atti necessari (o che provochino la morte) su richiesta del suicida; non occorre precedente induzione, dunque l’opzione c) è l’affermazione errata.\nPagina/Slide: TEMA 1.pptx, diapositiva «Cooperación al suicidio – arts. 143.2-3»",
       "legal_reference": "Código Penal, art. 143.2-3",
@@ -89,10 +89,10 @@
     {
       "question": "Señale la respuesta incorrecta.  El artículo 143.4 CP sanciona con pena inferior en uno o dos grados al que coopere activamente con actos necesarios y directos a la muerte de otra persona si esta:",
       "answers": [
-        { "text": "Tiene un padecimiento grave crónico e imposibilitante", "correct": false },
-        { "text": "Tiene una enfermedad grave e incurable con sufrimientos físicos constantes", "correct": false },
-        { "text": "Tiene una enfermedad grave e incurable con sufrimientos psíquicos constantes", "correct": false },
-        { "text": "Tiene un padecimiento grave e imposibilitante sea crónico o no", "correct": true }
+        { "text": "Tiene un padecimiento grave crónico e imposibilitante", "correct": false},
+        { "text": "Tiene una enfermedad grave e incurable con sufrimientos físicos constantes", "correct": false},
+        { "text": "Tiene una enfermedad grave e incurable con sufrimientos psíquicos constantes", "correct": false},
+        { "text": "Tiene un padecimiento grave e imposibilitante sea crónico o no", "correct": true}
       ],
       "explanation": "ES:\nEl art. 143.4 CP exige *enfermedad grave que conduzca a la muerte* o *padecimiento grave, crónico e imposibilitante* con sufrimientos constantes. La opción d) incluye padecimientos no crónicos y, por tanto, es la única afirmación incorrecta.\nIT:\nL’art. 143.4 CP richiede una *malattia grave che conduca a morte* o un *padecimiento grave, cronico e invalidante* con sofferenze costanti; l’opzione d) ammette anche casi non cronici, risultando l’unica affermazione errata.\nPagina/Slide: TEMA 1.pptx, diapositiva «Eutanasia – art. 143.4»",
       "legal_reference": "Código Penal, art. 143.4",
@@ -101,10 +101,10 @@
     {
       "question": "Señale la respuesta correcta. El artículo 143 BIS CP sanciona la incitación al suicidio de:",
       "answers": [
-        { "text": "Solo a personas menores de catorce años de edad", "correct": false },
-        { "text": "Personas con discapacidad necesitadas de especial protección", "correct": true },
-        { "text": "Solo de personas menores de dieciséis años", "correct": false },
-        { "text": "Solo de personas que padezcan anomalía o alteración psíquica", "correct": false }
+        { "text": "Solo a personas menores de catorce años de edad", "correct": false},
+        { "text": "Personas con discapacidad necesitadas de especial protección", "correct": true},
+        { "text": "Solo de personas menores de dieciséis años", "correct": false},
+        { "text": "Solo de personas que padezcan anomalía o alteración psíquica", "correct": false}
       ],
       "explanation": "ES:\nEl art. 143 bis CP protege expresamente a menores de edad y a *personas con discapacidad necesitadas de especial protección*; la opción b) es la única que refleja uno de estos colectivos y, por tanto, es la correcta.\nIT:\nL’art. 143 bis CP tutela in modo specifico i minori e le *persone con disabilità bisognose di speciale protezione*; l’unica risposta che include tale categoria è la b), corretta.\nPagina/Slide: TEMA 1.pptx, diapositiva «Incitación al suicidio – art. 143 bis»",
       "legal_reference": "Código Penal, art. 143 bis",
@@ -113,122 +113,122 @@
     {
       "question": "Para que el aborto producido con consentimiento de la mujer pueda sancionarse por aplicación del artículo 145 CP, es preciso que se practique:",
       "answers": [
-        {"text": "Después de la vigésimo segunda semana de gestación", "correct": false},
-        {"text": "Fuera de los casos permitidos por la ley", "correct": true},
-        {"text": "Se produzca fuera de un centro o establecimiento público", "correct": false},
-        {"text": "Ninguna de las anteriores es correcta", "correct": false}
+        { "text": "Después de la vigésimo segunda semana de gestación", "correct": false},
+        { "text": "Fuera de los casos permitidos por la ley", "correct": true},
+        { "text": "Se produzca fuera de un centro o establecimiento público", "correct": false},
+        { "text": "Ninguna de las anteriores es correcta", "correct": false}
       ],
-      "explanation": "ES: «Después de la vigésimo segunda semana de gestación»: incorrecta, no depende de la semana; «Fuera de los casos permitidos por la ley»: correcta, el art. 145 CP sanciona los abortos no legalmente amparados; «Se produzca fuera de un centro o establecimiento público»: incorrecta, el lugar no es elemento del tipo; «Ninguna de las anteriores es correcta»: errada porque sí hay respuesta válida.\nIT: «Dopo la ventiduesima settimana di gestazione»: errata, non è basato sulle settimane; «Fuori dai casi consentiti dalla legge»: corretta, l’art. 145 CP punisce aborti non ammessi; «Se avvenga fuori da un centro pubblico»: errata, il luogo non è elemento del reato; «Nessuna delle precedenti è corretta»: errata perché esiste un’opzione giusta.",
-      "legal_reference": "Ley Orgánica 10/1995, Código Penal, art. 145",
+      "explanation": "ES:\nEl art. 145 CP castiga el aborto consentido solo cuando se realiza **fuera de los supuestos legales** de la Ley Orgánica 2/2010; los demás extremos (semanas de gestación o tipo de centro) no son elementos del tipo.\nIT:\nL’art. 145 CP punisce l’aborto con consenso della donna soltanto se praticato **al di fuori dei casi consentiti dalla legge**; settimane di gestazione o luogo non rilevano.\nPagina/Slide: TEMA 2.pptx – «Artículo 145 CP – Delitos de aborto»",
+      "legal_reference": "Código Penal, art. 145",
       "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "El artículo 160.1 CP sanciona la utilización de la ingeniería genética para:",
       "answers": [
-        {"text": "Fecundar óvulos humanos", "correct": false},
-        {"text": "Creación de seres humanos clónicos", "correct": true},
-        {"text": "Selección de la raza", "correct": false},
-        {"text": "Producir armas biológicas o exterminadoras de la especie humana", "correct": false}
+        { "text": "Fecundar óvulos humanos", "correct": false},
+        { "text": "Creación de seres humanos clónicos", "correct": true},
+        { "text": "Selección de la raza", "correct": false},
+        { "text": "Producir armas biológicas o exterminadoras de la especie humana", "correct": false}
       ],
-      "explanation": "ES: «Fecundar óvulos humanos»: incorrecta, no tipificado en art. 160.1; «Creación de seres humanos clónicos»: correcta, el art. 160.1 CP prohíbe la clonación humana; «Selección de la raza»: incorrecta, es otro tipo de manipulación; «Producir armas biológicas o exterminadoras»: incorrecta, regulado en normativa sanitaria y antiterrorista.\nIT: «Fecondare ovuli umani»: errata, non previsto dall’art. 160.1; «Creazione di esseri umani clonati»: corretta, l’art. 160.1 CP vieta la clonazione umana; «Selezione della razza»: errata, è altra fattispecie; «Produrre armi biologiche o di sterminio»: errata, disciplinato da normative sanitarie e antiterrorismo.",
-      "legal_reference": "Ley Orgánica 10/1995, Código Penal, art. 160.1",
+      "explanation": "ES:\nEl art. 160.1 CP prohíbe «crear seres humanos idénticos mediante técnicas de clonación»; los otros supuestos corresponden a preceptos distintos o no están tipificados allí.\nIT:\nL’art. 160.1 CP vieta «la creazione di esseri umani clonici»; le altre condotte sono regolate altrove o non rientrano nel comma.\nPagina/Slide: TEMA 2.pptx – «Artículo 160 CP – Manipulación genética»",
+      "legal_reference": "Código Penal, art. 160.1",
       "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "Señale la respuesta incorrecta. El tipo básico de lesiones del artículo 147.1 CP exige como requisito:",
       "answers": [
-        {"text": "El menoscabo de la integridad corporal, la salud física o mental", "correct": false},
-        {"text": "Que se causen por cualquier medio o procedimiento", "correct": false},
-        {"text": "Que se cometa por dolo o imprudencia", "correct": true},
-        {"text": "Que la lesión requiera para su sanidad tratamiento médico o quirúrgico", "correct": false}
+        { "text": "El menoscabo de la integridad corporal, la salud física o mental", "correct": false},
+        { "text": "Que se causen por cualquier medio o procedimiento", "correct": false},
+        { "text": "Que se cometa por dolo o imprudencia", "correct": true},
+        { "text": "Que la lesión requiera para su sanidad tratamiento médico o quirúrgico", "correct": false}
       ],
-      "explanation": "ES: «El menoscabo de la integridad corporal, la salud física o mental»: incorrecta, es requisito del tipo; «Que se causen por cualquier medio o procedimiento»: incorrecta, el artículo admite cualquier medio; «Que se cometa por dolo o imprudencia»: correcta, el tipo exige dolo y no contempla imprudencia; «Que la lesión requiera tratamiento médico o quirúrgico»: incorrecta, es elemento esencial.\nIT: «Il pregiudizio all’integrità corporea, salute fisica o mentale»: errata, è requisito del reato; «Che siano cagionate con qualsiasi mezzo o procedimento»: errata, l’articolo ammette ogni mezzo; «Che sia commesso con dolo o imprudenza»: corretta, il reato richiede dolo, non contempla imprudenza; «Che la lesione richieda trattamento medico o chirurgico»: errata, è elemento essenziale.",
-      "legal_reference": "Ley Orgánica 10/1995, Código Penal, art. 147.1",
+      "explanation": "ES:\nEl art. 147.1 CP solo admite **dolo**; la imprudencia se tipifica aparte (arts. 152 ss.). Incluirla es, por tanto, la afirmación incorrecta.\nIT:\nL’art. 147.1 CP richiede il **dolo**; l’imprudenza rientra negli artt. 152 ss. Inserirla è quindi l’opzione errata.\nPagina/Slide: TEMA 3 (1).pptx – «Artículo 147 CP – Lesiones básicas»",
+      "legal_reference": "Código Penal, art. 147.1",
       "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
-      "question": "señores la respuesta incorrecta. En el ámbito del delito de lesiones, no se consideran tratamiento médico o quirúrgico:",
+      "question": "Señale la respuesta incorrecta. En el ámbito del delito de lesiones, no se consideran tratamiento médico o quirúrgico:",
       "answers": [
-        {"text": "La cura de la herida", "correct": false},
-        {"text": "Los puntos de aproximación", "correct": false},
-        {"text": "La primera asistencia facultativa", "correct": true},
-        {"text": "La simple vigilancia del curso de la lesión", "correct": false}
+        { "text": "La cura de la herida", "correct": false},
+        { "text": "Los puntos de aproximación", "correct": false},
+        { "text": "La primera asistencia facultativa", "correct": true},
+        { "text": "La simple vigilancia del curso de la lesión", "correct": false}
       ],
-      "explanation": "ES: «La cura de la herida»: incorrecta, sí es tratamiento; «Los puntos de aproximación»: incorrecta, entra en tratamiento; «La primera asistencia facultativa»: correcta, solo exploración inicial sin intervención terapéutica; «La simple vigilancia del curso de la lesión»: incorrecta, se considera seguimiento, no tratamiento.\nIT: «La cura della ferita»: errata, è trattamento; «I punti di sutura»: errata, è trattamento; «La prima assistenza facoltativa»: corretta, è solo esame iniziale senza intervento terapeutico; «La semplice sorveglianza del decorso della lesione»: errata, è monitoraggio, non trattamento.",
-      "legal_reference": "Ley Orgánica 10/1995, Código Penal, art. 147.1",
+      "explanation": "ES:\nSegún la doctrina y la jurisprudencia, la **primera asistencia facultativa** (mera exploración) no constituye tratamiento médico; las demás sí se consideran tratamientos.\nIT:\nDottrina e giurisprudenza escludono che la **prima assistenza medica** sia trattamento; gli altri interventi, invece, lo sono.\nPagina/Slide: TEMA 3 (1).pptx – «Tratamiento médico o quirúrgico – TS»",
+      "legal_reference": "Código Penal, art. 147.1 (interpretación jurisprudencial)",
       "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "Señale la respuesta incorrecta. Es condición objetiva de procedibilidad la interposición de denuncia por el afectado o su representante legal en los delitos de:",
       "answers": [
-        {"text": "Maltrato de obra", "correct": false},
-        {"text": "Lesiones leves", "correct": false},
-        {"text": "Lesiones por imprudencia grave", "correct": true},
-        {"text": "Lesiones por imprudencia menos grave", "correct": false}
+        { "text": "Maltrato de obra", "correct": false},
+        { "text": "Lesiones leves", "correct": false},
+        { "text": "Lesiones por imprudencia grave", "correct": true},
+        { "text": "Lesiones por imprudencia menos grave", "correct": false}
       ],
-      "explanation": "ES: «Maltrato de obra»: incorrecta, exige denuncia previa; «Lesiones leves»: incorrecta, también requieren querella; «Lesiones por imprudencia grave»: correcta, son de acción pública sin denuncia; «Lesiones por imprudencia menos grave»: incorrecta, igualmente acción pública.\nIT: «Maltrattamento di opere»: errata, richiede querela; «Lesioni lievi»: errata, richiedono querela; «Lesioni per imprudenza grave»: corretta, perseguibili d’ufficio; «Lesioni per imprudenza meno grave»: errata, anche esse perseguibili d’ufficio.",
-      "legal_reference": "Ley Orgánica 10/1995, Código Penal, arts. 147-152",
+      "explanation": "ES:\nLas lesiones por imprudencia grave son **delito público** (art. 152.1 CP) y, por tanto, no necesitan denuncia; las otras figuras sí la requieren.\nIT:\nLe lesioni da imprudenza grave sono **procedibili d’ufficio** (art. 152.1 CP); le altre necessitano di querela. \nPagina/Slide: TEMA 3 (1).pptx – «Procedibilidad en delitos de lesiones»",
+      "legal_reference": "Código Penal, arts. 147.2, 152",
       "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "¿Cuál de los siguientes no es un tipo agravado de lesiones del artículo 148 CP?",
       "answers": [
-        {"text": "Que hubiera mediado ensañamiento", "correct": false},
-        {"text": "Que la víctima fuera esposo de la autora", "correct": true},
-        {"text": "Que en la agresión se hubieran utilizado armas", "correct": false},
-        {"text": "Que la víctima fuera una persona con discapacidad necesitada de especial protección", "correct": false}
+        { "text": "Que hubiera mediado ensañamiento", "correct": false},
+        { "text": "Que la víctima fuera esposo de la autora", "correct": true},
+        { "text": "Que en la agresión se hubieran utilizado armas", "correct": false},
+        { "text": "Que la víctima fuera una persona con discapacidad necesitada de especial protección", "correct": false}
       ],
-      "explanation": "ES: «Que hubiera mediado ensañamiento»: incorrecta, es agravante según art. 148.1; «Que la víctima fuera esposo de la autora»: correcta, no figura como agravante; «Que se utilizaran armas»: incorrecta, es agravante; «Que la víctima fuera persona con discapacidad»: incorrecta, se considera agravante.\nIT: «Che vi fosse stato accanimento»: errata, è aggravante secondo art. 148.1; «Che la vittima fosse il coniuge dell’autore»: corretta, non è contemplata; «Che siano state usate armi»: errata, è aggravante; «Che la vittima fosse persona con disabilità»: errata, è aggravante.",
-      "legal_reference": "Ley Orgánica 10/1995, Código Penal, art. 148.1",
+      "explanation": "ES:\nEl art. 148.4 agrava cuando la víctima es **esposa o mujer** ligada al autor por relación análoga; no menciona al *esposo*. Por ello la opción b) no constituye tipo agravado.\nIT:\nL’art. 148.4 CP parla di vittima **moglie o donna** legata all’autore; non include il *marito*. L’opzione b) non è aggravante.\nPagina/Slide: TEMA 3 (1).pptx – «Artículo 148 CP – Tipos agravados»",
+      "legal_reference": "Código Penal, art. 148.1–5",
       "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "Señale la respuesta incorrecta. Según el artículo 172 BIS CP, el delito de matrimonio forzado requiere para su sanción que la conducta se realice con:",
       "answers": [
-        {"text": "Intimidación grave", "correct": false},
-        {"text": "Violencia", "correct": false},
-        {"text": "Dolorosamente", "correct": true},
-        {"text": "Fuerza", "correct": false}
+        { "text": "Intimidación grave", "correct": false},
+        { "text": "Violencia", "correct": false},
+        { "text": "Dolorosamente", "correct": false},
+        { "text": "Fuerza", "correct": true}
       ],
-      "explanation": "ES: «Intimidación grave»: incorrecta sola, sí es requisito; «Violencia»: incorrecta sola, también requisito; «Dolorosamente»: correcta, no aparece en el tipo; «Fuerza»: incorrecta, se exige fuerza o intimidación.\nIT: «Intimidazione grave»: errata da sola, è requisito; «Violenza»: errata da sola, è requisito; «Dolorosamente»: corretta, non è requisito legale; «Forza»: errata, si richiede forza o intimidazione.",
-      "legal_reference": "Ley Orgánica 10/1995, Código Penal, art. 172 BIS",
+      "explanation": "ES:\nEl tipo exige «violencia, intimidación grave o engaño»; **fuerza** no aparece literalmente, por lo que la opción d) es la afirmación incorrecta.\nIT:\nIl reato richiede «violenza, intimidazione grave o inganno»; la **forza** non è menzionata, quindi la risposta d) è quella errata.\nPagina/Slide: TEMA 5.pptx – «Artículo 172 bis CP – Matrimonio forzado»",
+      "legal_reference": "Código Penal, art. 172 bis",
       "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "El delito de acoso tipificado en el artículo 172 TER CP exige para su sanción:",
       "answers": [
-        {"text": "Que el acoso se lleve a cabo de manera dolosa o imprudente", "correct": false},
-        {"text": "Que se lleve a cabo de forma insistente o reiterada", "correct": true},
-        {"text": "Que la víctima sea una de las personas del artículo 173.2 CP", "correct": false},
-        {"text": "Ninguna de las anteriores es correcta", "correct": false}
+        { "text": "Que el acoso se lleve a cabo de manera dolosa o imprudente", "correct": false},
+        { "text": "Que se lleve a cabo de forma insistente o reiterada", "correct": true},
+        { "text": "Que la víctima sea una de las personas del artículo 173.2 CP", "correct": false},
+        { "text": "Ninguna de las anteriores es correcta", "correct": false}
       ],
-      "explanation": "ES: «De manera dolosa o imprudente»: incorrecta, el tipo exige dolo pero no contempla imprudencia; «De forma insistente o reiterada»: correcta, es elemento definitorio del acoso; «Que la víctima sea persona del art. 173.2»: incorrecta, no restringe la víctima a ese precepto; «Ninguna de las anteriores»: errada porque sí hay opción.\nIT: «In modo doloso o imprudente»: errata, il reato richiede dolo ma non imprudenza; «In modo insistente o reiterato»: corretta, è elemento definitorio dello stalking; «Che la vittima sia persona del art. 173.2»: errata, non limita la vittima a quel comma; «Nessuna delle precedenti»: errata perché esiste un’opzione giusta.",
-      "legal_reference": "Ley Orgánica 10/1995, Código Penal, art. 172 TER",
+      "explanation": "ES:\nElemento clave del art. 172 ter CP es que la conducta se realice **de forma insistente o reiterada** y altere gravemente la vida cotidiana de la víctima.\nIT:\nL’elemento centrale dell’art. 172 ter CP è l’**insistenza o reiterazione** della condotta, che deve turbare gravemente la vittima.\nPagina/Slide: TEMA 5.pptx – «Artículo 172 ter CP – Stalking»",
+      "legal_reference": "Código Penal, art. 172 ter",
       "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "El artículo 197.7 CP sanciona la divulgación no consentida de imágenes o grabaciones de carácter íntimo. ¿Cuál de los siguientes no es un requisito según el precepto citado?",
       "answers": [
-        {"text": "Que no exista autorización ni expresa ni tácita de la persona afectada", "correct": false},
-        {"text": "Que las imágenes se obtuvieran con anuencia de la víctima", "correct": false},
-        {"text": "Que las imágenes se obtuvieran en un domicilio o en cualquier otro lugar fuera del alcance de la mirada de terceros", "correct": false},
-        {"text": "Que exista ánimo de lucro en la misma", "correct": true}
+        { "text": "Que no exista autorización ni expresa ni tácita de la persona afectada", "correct": false},
+        { "text": "Que las imágenes se obtuvieran con anuencia de la víctima", "correct": false},
+        { "text": "Que las imágenes se obtuvieran en un domicilio o en cualquier otro lugar fuera del alcance de la mirada de terceros", "correct": false},
+        { "text": "Que exista ánimo de lucro en la misma", "correct": true}
       ],
-      "explanation": "ES: «Que no exista autorización ni expresa ni tácita»: incorrecta, es requisito; «Que las imágenes se obtuvieran con anuencia de la víctima»: correcta, contradice la falta de consentimiento; «Que se obtuvieran en domicilio o lugar íntimo»: incorrecta, forma parte del tipo; «Que exista ánimo de lucro»: incorrecta, agravante pero no requisito esencial.\nIT: «Che non vi sia autorizzazione né espressa né tacita»: errata, è requisito; «Che le immagini siano ottenute con il consenso della vittima»: corretta, contraddice la mancanza di consenso; «Che siano ottenute in domicilio o luogo intimo»: errata, è elemento del reato; «Che vi sia scopo di lucro»: errata, è aggravante ma non requisito essenziale.",
-      "legal_reference": "Ley Orgánica 10/1995, Código Penal, art. 197.7",
+      "explanation": "ES:\nEl ánimo de lucro es solo **agravante** (art. 197.7 pfo. 3º), no requisito del tipo básico; los demás elementos sí lo son.\nIT:\nIl fine di lucro è solo **circostanza aggravante**, non elemento costitutivo; gli altri requisiti sono richiesti dal tipo base.\nPagina/Slide: TEMA 6.pptx – «Artículo 197.7 CP – ‘Revenge porn’»",
+      "legal_reference": "Código Penal, art. 197.7",
       "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "¿En qué supuestos se agrava la pena del delito de homicidio según lo establecido en el artículo 138.2 CP?",
       "answers": [
-        {"text": "Cuando los hechos sean además constitutivos de un delito de atentado del artículo 550", "correct": true},
-        {"text": "Ensañamiento", "correct": false},
-        {"text": "Precio, recompensa o promesa", "correct": false},
-        {"text": "Alevosía", "correct": false}
+        { "text": "Cuando los hechos sean además constitutivos de un delito de atentado del artículo 550", "correct": true},
+        { "text": "Ensañamiento", "correct": false},
+        { "text": "Precio, recompensa o promesa", "correct": false},
+        { "text": "Alevosía", "correct": false}
       ],
-      "explanation": "ES: «Constitutivos de atentado art. 550»: correcta, art. 138.2 agrava si concurre atentado; «Ensañamiento»: correcta, remite al art. 140.1; «Precio, recompensa o promesa»: incorrecta, agravante de asesinato pero no de homicidio; «Alevosía»: incorrecta, es elemento de asesinato, no de homicidio simple.\nIT: «Costituiscano reato di attentato art. 550»: corretta, l’art. 138.2 prevede aggravante per attentato; «Accanimento»: corretta, richiamato dall’art. 140.1; «Prezzo, ricompensa o promessa»: errata, aggravante per omicidio aggravato (assassinio), non per omicidio semplice; «Alevosità»: errata, elemento dell’assassinio, non dell’omicidio semplice.",
-      "legal_reference": "Ley Orgánica 10/1995, Código Penal, arts. 138.2 y 140.1",
-      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
+      "explanation": "ES:\nEl art. 138.2 CP eleva la pena (15-22 años) si el homicidio se comete **contra autoridad o sus agentes** (delito de atentado del art. 550). Ensañamiento, alevosía o precio agravan y configuran asesinato (art. 140), no el homicidio simple.\nIT:\nL’art. 138.2 CP prevede una pena più alta (15-22 anni) se l’omicidio integra anche **attentato all’autorità** ex art. 550. Ensañamiento, alevosía o prezzo appartengono all’assassinio (art. 140), non all’omicidio semplice.\nPagina/Slide: TEMA 1.pptx – «Artículo 138.2 CP – Homicidio agravado»",
+      "legal_reference": "Código Penal, art. 138.2",
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf---1234---"
     },
     {
       "question": "¿Cuál de los siguientes elementos no convierte el delito de homicidio en asesinato según lo establecido en el artículo 139 CP?",
@@ -389,10 +389,10 @@
     {
       "question": "¿Cuál de los siguientes elementos convierte el homicidio en asesinato según el artículo 139 del CP?",
       "answers": [
-        { "text": "Hostigamiento", "correct": false },
-        { "text": "Facilitar la comisión de otro delito.", "correct": true },
-        { "text": "Que la víctima sea menor de edad.", "correct": false },
-        { "text": "Que sea subsiguiente a un delito contra la libertad sexual.", "correct": false }
+        { "text": "Hostigamiento", "correct": false},
+        { "text": "Facilitar la comisión de otro delito.", "correct": true},
+        { "text": "Que la víctima sea menor de edad.", "correct": false},
+        { "text": "Que sea subsiguiente a un delito contra la libertad sexual.", "correct": false}
       ],
       "explanation": "ES: A incorrecto porque la alevosía (no ‘hostigamiento’) se regula en el Art. 139.1.1ª CP; B correcto porque el Art. 139.1.4ª CP tipifica asesinato cuando el homicidio facilita otro delito o evita su descubrimiento; C incorrecto porque la edad de la víctima solo agrava en Art. 140 CP (prisión permanente), no convierte homicidio en asesinato; D incorrecto porque los delitos sexuales previos se contemplan en Art. 140 CP para prisión permanente revisable, no en la definición de asesinato. \nIT: A errato perché l’alevosìa (non ‘hostigamiento’) è descritta al 139.1.1ª CP; B corretto perché l’art. 139.1.4ª CP include l’omicidio finalizzato a facilitare altro reato; C errato perché l’età della vittima aggravata si trova in art. 140 CP, non definisce omicidio come assassinato; D errato perché i reati sessuali precedenti sono materia di art. 140 CP per pena permanente, non parte del 139.1.",
       "legal_reference": "Código Penal, Art. 139.1.4ª"
@@ -400,10 +400,10 @@
     {
       "question": "El homicidio por imprudencia grave se castiga con una pena cualificada cuando concurra:",
       "answers": [
-        { "text": "Precio, recompensa o promesa.", "correct": false },
-        { "text": "Alevosía.", "correct": false },
-        { "text": "Se cometa utilizando armas de fuego.", "correct": true },
-        { "text": "Se cometa para evitar que otro delito se descubra.", "correct": false }
+        { "text": "Precio, recompensa o promesa.", "correct": false},
+        { "text": "Alevosía.", "correct": false},
+        { "text": "Se cometa utilizando armas de fuego.", "correct": true},
+        { "text": "Se cometa para evitar que otro delito se descubra.", "correct": false}
       ],
       "explanation": "ES: A incorrecto porque precio o promesa son agravantes de asesinato (Art. 139.1.2ª), no de homicidio imprudente; B incorrecto porque alevosía solo existe en asesinato doloso (Art. 139.1.1ª); C correcto porque Art. 142.1 CP agrava la imprudencia grave si se usa arma de fuego o vehículo a motor; D incorrecto porque evitar descubrimiento de otro delito califica asesinato doloso (Art. 139.1.4ª), no imprudencia. \nIT: A errato perché ricompensa/promessa aggravano l’assassinio (art. 139.1.2ª), non l’omicidio colposo; B errato perché l’alevosìa compete all’assassinio doloso (art. 139.1.1ª); C corretto perché art. 142.1 CP prevede aggravante per uso di arma da fuoco o veicolo a motore; D errato perché evitare scoperta di altro reato è elemento di assassinio doloso (art. 139.1.4ª).",
       "legal_reference": "Código Penal, Art. 142.1"
@@ -411,10 +411,10 @@
     {
       "question": "Señale la respuesta incorrecta. El artículo 144 sanciona al que produzca el aborto de una mujer con su consentimiento si el mismo se ha obtenido mediando:",
       "answers": [
-        { "text": "Violencia.", "correct": false },
-        { "text": "Amenaza.", "correct": false },
-        { "text": "Precio, recompensa o promesa.", "correct": true },
-        { "text": "Engaño.", "correct": false }
+        { "text": "Violencia.", "correct": false},
+        { "text": "Amenaza.", "correct": false},
+        { "text": "Precio, recompensa o promesa.", "correct": true},
+        { "text": "Engaño.", "correct": false}
       ],
       "explanation": "ES: A incorrecto porque violencia invalida el consentimiento (Art. 144.1ª CP); B incorrecto porque amenaza invalida el consentimiento (Art. 144.1ª); C correcto porque precio/promesa no se menciona en Art. 144 (sanciona aborto sin consentimiento por violencia, amenaza o engaño), sino en Art. 145; D incorrecto porque engaño invalida el consentimiento (Art. 144.1ª). \nIT: A errato perché la violenza invalida il consenso (art. 144.1ª CP); B errato perché la minaccia invalida il consenso (art. 144.1ª); C corretto perché prezzo/promessa non è citato all’art. 144 (tratta violenza, minaccia, inganno), bensì all’art. 145; D errato perché l’inganno invalida il consenso (art. 144.1ª).",
       "legal_reference": "Código Penal, Art. 144"
@@ -422,10 +422,10 @@
     {
       "question": "La comisión del aborto sin cumplir con las formalidades legales se sancionará en su mitad superior si se produce:",
       "answers": [
-        { "text": "Sin contar con los dictámenes previos preceptivos.", "correct": false },
-        { "text": "Fuera de un establecimiento acreditado.", "correct": false },
-        { "text": "A partir de la vigésimo segunda semana de gestación.", "correct": true },
-        { "text": "Por imprudencia profesional.", "correct": false }
+        { "text": "Sin contar con los dictámenes previos preceptivos.", "correct": false},
+        { "text": "Fuera de un establecimiento acreditado.", "correct": false},
+        { "text": "A partir de la vigésimo segunda semana de gestación.", "correct": true},
+        { "text": "Por imprudencia profesional.", "correct": false}
       ],
       "explanation": "ES: A incorrecto porque la falta de dictámenes es sancionada con la mitad inferior (Art. 145 bis.1 CP); B incorrecto porque fuera de establecimiento acreditado también es mitad inferior; C correcto porque Art. 145 bis.2 CP establece mitad superior si después de la semana 22; D incorrecto porque la imprudencia se sanciona en Art. 146, no en 145 bis. \nIT: A errato perché mancanza di pareri medici sanzionata con metà inferiore (art. 145 bis.1 CP); B errato perché fuori struttura accreditata idem; C corretto perché art. 145 bis.2 CP prevede metà superiore se oltre 22ª settimana; D errato perché imprudenza è materia dell’art. 146.",
       "legal_reference": "Código Penal, Art. 145 bis.2"
@@ -433,10 +433,10 @@
     {
       "question": "El artículo 160 del CP en su apartado 2 castiga a quienes fecunden óvulos humanos:",
       "answers": [
-        { "text": "Con fines de clonación.", "correct": false },
-        { "text": "Con fines dirigidos a la selección de la raza.", "correct": false },
-        { "text": "Con fin distinto a la procreación humana.", "correct": true },
-        { "text": "Ninguna de las anteriores es correcta.", "correct": false }
+        { "text": "Con fines de clonación.", "correct": false},
+        { "text": "Con fines dirigidos a la selección de la raza.", "correct": false},
+        { "text": "Con fin distinto a la procreación humana.", "correct": true},
+        { "text": "Ninguna de las anteriores es correcta.", "correct": false}
       ],
       "explanation": "ES: A incorrecto porque clonación es ejemplo de fin distinto a la procreación (Art. 160.2 CP); B incorrecto porque selección de raza también es fin distinto; C correcto porque el art. 160.2 CP tipifica toda fecundación con fin no procreativo; D incorrecto porque C es la opción correcta. \nIT: A errato perché clonazione è caso di fine non procreativo (art. 160.2 CP); B errato perché selezione razziale idem; C corretto perché art. 160.2 CP punisce ogni fecondazione con fine diverso dalla procreazione; D errato perché C è corretta.",
       "legal_reference": "Código Penal, Art. 160.2"
@@ -444,10 +444,10 @@
     {
       "question": "En el ámbito del delito de lesiones no se considerará tratamiento médico:",
       "answers": [
-        { "text": "La simple vigilancia del curso de la lesión.", "correct": false },
-        { "text": "El seguimiento facultativo del curso de la lesión.", "correct": false },
-        { "text": "La primera asistencia facultativa.", "correct": false },
-        { "text": "Todas las anteriores son correctas.", "correct": true }
+        { "text": "La simple vigilancia del curso de la lesión.", "correct": false},
+        { "text": "El seguimiento facultativo del curso de la lesión.", "correct": false},
+        { "text": "La primera asistencia facultativa.", "correct": false},
+        { "text": "Todas las anteriores son correctas.", "correct": true}
       ],
       "explanation": "ES: A incorrecto porque la simple vigilancia no es tratamiento (Art. 147.1 CP); B incorrecto porque el seguimiento facultativo tampoco; C incorrecto porque la primera asistencia facultativa tampoco; D correcto porque A, B y C no se consideran tratamiento médico. \nIT: A errato perché semplice vigilanza non è trattamento (art. 147.1 CP); B errato perché follow-up medico idem; C errato perché prima assistenza idem; D corretto perché A, B e C non sono trattamento medico.",
       "legal_reference": "Código Penal, Art. 147.1"
@@ -455,10 +455,10 @@
     {
       "question": "Señale la respuesta incorrecta. Las lesiones del artículo 147.1 del CP serán castigadas con una pena superior por aplicación del artículo 148 si:",
       "answers": [
-        { "text": "Se han utilizado formas concretamente peligrosas para la vida.", "correct": false },
-        { "text": "Hubiera mediado alevosía.", "correct": false },
-        { "text": "Si la víctima hubiera sido esposo.", "correct": true },
-        { "text": "Si la víctima fuera menor de 14 años.", "correct": false }
+        { "text": "Se han utilizado formas concretamente peligrosas para la vida.", "correct": false},
+        { "text": "Hubiera mediado alevosía.", "correct": false},
+        { "text": "Si la víctima hubiera sido esposo.", "correct": true},
+        { "text": "Si la víctima fuera menor de 14 años.", "correct": false}
       ],
       "explanation": "ES: A incorrecto (verdadero agravante: uso de medios peligrosos, Art. 148.1ª); B incorrecto (verdadero agravante: alevosía, Art. 148.1ª); C correcto porque la afinidad conyugal no aparece en Art. 148; D incorrecto (verdadero agravante: menor de 14 o vulnerable, Art. 148.1ª). \nIT: A errato (reale aggravante: mezzi pericolosi, art. 148.1ª); B errato (aggravante: alevosìa, art. 148.1ª); C corretto perché la condizione di coniuge non è citata all’art. 148; D errato (aggravante: minore di 14 o vulnerabile, art. 148.1ª).",
       "legal_reference": "Código Penal, Art. 148"
@@ -466,10 +466,10 @@
     {
       "question": "Señale la respuesta incorrecta. El consentimiento en las lesiones no es válido si:",
       "answers": [
-        { "text": "Es tácito.", "correct": false },
-        { "text": "Es otorgado por un menor de edad.", "correct": false },
-        { "text": "Es otorgado por una persona con discapacidad necesitada de especial protección.", "correct": false },
-        { "text": "Es espontáneamente emitido.", "correct": true }
+        { "text": "Es tácito.", "correct": false},
+        { "text": "Es otorgado por un menor de edad.", "correct": false},
+        { "text": "Es otorgado por una persona con discapacidad necesitada de especial protección.", "correct": false},
+        { "text": "Es espontáneamente emitido.", "correct": true}
       ],
       "explanation": "Español (texto corregido sin doble negación):\nLa opción incorrecta es la B. Esto se debe a que:\nEl consentimiento no es válido si se otorga a un menor de edad (opción A), porque los menores no tienen capacidad para consentir legalmente.\nTampoco es válido si lo da una persona con discapacidad que necesita protección especial (opción C), pues esa persona carece de la plena capacidad volitiva necesaria para otorgar un consentimiento válido.\nAdemás, el consentimiento tácito (opción D) queda excluido por el artículo 147.1 del Código Penal: el consentimiento debe ser expreso, no basta con que esté implícito o “dado por hecho”.\nEn cambio, la opción B (“Es espontáneamente emitido”) no describe un caso en que el consentimiento sea nulo, sino todo lo contrario: el consentimiento debe ser espontáneo y consciente para que tenga validez.\nPor tanto, la respuesta incorrecta (es decir, la única afirmación que no corresponde a un supuesto de consentimiento inválido) es la B.\nItaliano (testo corretto senza doppia negazione):\nLa risposta sbagliata è la B, perché:\nIl consenso non è valido se è dato da un minore di 14 anni (opzione A), poiché i minorenni non hanno capacità giuridica per esprimere un consenso valido.\nNon è valido neppure se lo esprime una persona con disabilità che richiede tutela speciale (opzione C), perché quella persona non possiede la piena capacità di intendere e di volere necessaria per dare un consenso efficace.\nInoltre, il consenso tacito (opzione D) è escluso dall’articolo 147, comma 1, del Codice Penale: serve un consenso esplicito, non basta che sia “sottinteso” o presunto.",
       "legal_reference": "Código Penal, Art. 147.1"
@@ -477,10 +477,10 @@
     {
       "question": "Con respecto a la esterilización de las personas con discapacidad realizadas sin contar con su consentimiento podemos decir que:",
       "answers": [
-        { "text": "Esta posibilidad la abolió la LO 2/2020.", "correct": false },
-        { "text": "Se regula en el artículo 156 del CP.", "correct": false },
-        { "text": "Deciden quienes ejerzan la patria potestad, tutela o curatela.", "correct": false },
-        { "text": "Todas las anteriores son correctas.", "correct": true }
+        { "text": "Esta posibilidad la abolió la LO 2/2020.", "correct": false},
+        { "text": "Se regula en el artículo 156 del CP.", "correct": false},
+        { "text": "Deciden quienes ejerzan la patria potestad, tutela o curatela.", "correct": false},
+        { "text": "Todas las anteriores son correctas.", "correct": true}
       ],
       "explanation": "ES: A incorrecto aislado (es cierto que LO 2/2020 abolió la esterilización forzada, pero no basta sin el resto); B incorrecto aislado (el art. 156 regula supuestos, pero sin contexto no es completa); C incorrecto aislado (la decisión recae en tutela/patr. potestad, pero sin más no explica la abolición ni referencia normativa); D correcto porque combina A, B y C para reflejar la reforma integral de LO 2/2020 al art. 156 CP. \nIT: A errato isolato (LO 2/2020 ha abolito sterilizzazione forzata, ma serve contesto); B errato isolato (art. 156 regola sterilizzazione, ma manca contesto); C errato isolato (decisione a potestà/tutela, ma non include riforma); D corretto perché unisce A, B e C mostrando la riforma di LO 2/2020 all’art. 156 CP).",
       "legal_reference": "L.O. 2/2020; Código Penal, Art. 156"
@@ -488,10 +488,10 @@
     {
       "question": "El artículo 153 del CP sanciona el maltrato físico y psíquico en un ámbito muy concreto. ¿Quién de las siguientes personas no se recoge como posible víctima en el citado precepto?",
       "answers": [
-        { "text": "La esposa.", "correct": false },
-        { "text": "La pareja mujer si no ha convivido con el autor.", "correct": true },
-        { "text": "Persona amparada en cualquier otra relación por la que se encuentre integrada en el núcleo de su convivencia familiar.", "correct": false },
-        { "text": "La persona especialmente vulnerable si convive con el autor.", "correct": false }
+        { "text": "La esposa.", "correct": false},
+        { "text": "La pareja mujer si no ha convivido con el autor.", "correct": true},
+        { "text": "Persona amparada en cualquier otra relación por la que se encuentre integrada en el núcleo de su convivencia familiar.", "correct": false},
+        { "text": "La persona especialmente vulnerable si convive con el autor.", "correct": false}
       ],
       "explanation": "ES: A incorrecto (la esposa sí está incluida, Art. 153.1ª CP); B correcto (parejas no convivientes no están recogidas en Art. 153); C incorrecto (integrados en núcleo familiar sí están, Art. 153.1.c); D incorrecto (vulnerables convivientes sí, Art. 153.1.d). \nIT: A errato (la moglie è inclusa, art. 153.1ª CP); B corretto (partner non convivente non citato all’art. 153); C errato (conviventi in nucleo familiare sì, art. 153.1.c); D errato (vulnerabili conviventi sì, art. 153.1.d).",
       "legal_reference": "Código Penal, Art. 153"
@@ -499,10 +499,10 @@
     {
       "question": "Señale la respuesta correcta en relación con el delito de lesiones por imprudencia:",
       "answers": [
-        { "text": "Las lesiones causadas por imprudencia son punibles en todo caso.", "correct": false },
-        { "text": "Sólo resultan punibles las lesiones causadas por imprudencia grave.", "correct": false },
-        { "text": "Las lesiones causadas por imprudencia menos grave sólo serán perseguibles mediante denuncia de la persona agraviada o de su representante legal.", "correct": true },
-        { "text": "Ninguna de las respuestas es correcta.", "correct": false }
+        { "text": "Las lesiones causadas por imprudencia son punibles en todo caso.", "correct": false},
+        { "text": "Sólo resultan punibles las lesiones causadas por imprudencia grave.", "correct": false},
+        { "text": "Las lesiones causadas por imprudencia menos grave sólo serán perseguibles mediante denuncia de la persona agraviada o de su representante legal.", "correct": true},
+        { "text": "Ninguna de las respuestas es correcta.", "correct": false}
       ],
       "explanation": "ES: A incorrecto porque la imprudencia leve y menos grave no se persigue de oficio (Art. 147.2 CP); B incorrecto porque la grave sí de oficio y la menos grave sólo a instancia de parte; C correcto según Art. 147.2 CP; D incorrecto porque C es correcta. \nIT: A errato perché non tutte le imprudenze sono perseguite d’ufficio (art. 147.2 CP); B errato perché anche imprudenza meno grave si persegue a querela; C corretto secondo art. 147.2 CP; D errato perché C è vera.",
       "legal_reference": "Código Penal, Art. 147.2"
@@ -510,10 +510,10 @@
     {
       "question": "Según el artículo 157 del Código Penal, será autor de un delito de lesiones al feto el que por cualquier medio o procedimiento, causare en un feto:",
       "answers": [
-        { "text": "Una lesión.", "correct": false },
-        { "text": "Una enfermedad que perjudique gravemente su normal desarrollo.", "correct": false },
-        { "text": "Su muerte.", "correct": false },
-        { "text": "Las respuestas a) y b) son correctas.", "correct": true }
+        { "text": "Una lesión.", "correct": false},
+        { "text": "Una enfermedad que perjudique gravemente su normal desarrollo.", "correct": false},
+        { "text": "Su muerte.", "correct": false},
+        { "text": "Las respuestas a) y b) son correctas.", "correct": true}
       ],
       "explanation": "ES: A incorrecto porque 157 CP tipifica solo la muerte del feto; B incorrecto idem; C correcto tal como establece Art. 157.1ª CP; D incorrecto porque A y B no sonConductas penadas en ese artículo. \nIT: A errato perché art. 157 CP punisce solo morte del feto; B errato per lo stesso motivo; C corretto secondo art. 157.1ª CP; D errato perché A e B non rientrano in quel comma.",
       "legal_reference": "Código Penal, Art. 157"
@@ -521,10 +521,10 @@
     {
       "question": "¿Cuál de las siguientes circunstancias NO se configura como uno de los elementos comunes de las diferentes modalidades del delito de amenazas?",
       "answers": [
-        { "text": "El anuncio de un mal futuro.", "correct": false },
-        { "text": "La ejecución del mal ha de depender de la voluntad del sujeto activo.", "correct": false },
-        { "text": "Que el mal anunciado afecte, en todo caso, al sujeto pasivo.", "correct": true },
-        { "text": "El mal anunciado ha de ser susceptible de producir intimidación en el sujeto pasivo al revestir carácter de seriedad.", "correct": false }
+        { "text": "El anuncio de un mal futuro.", "correct": false},
+        { "text": "La ejecución del mal ha de depender de la voluntad del sujeto activo.", "correct": false},
+        { "text": "Que el mal anunciado afecte, en todo caso, al sujeto pasivo.", "correct": true},
+        { "text": "El mal anunciado ha de ser susceptible de producir intimidación en el sujeto pasivo al revestir carácter de seriedad.", "correct": false}
       ],
       "explanation": "ES: A incorrecto (es esencial, Art. 169.1ª CP); B incorrecto (debe depender de la voluntad del autor, Art. 169.1ª); C correcto porque no exige afectar ‘en todo caso’, puede ser condicional; D incorrecto (debe intimidar, Art. 169.1ª). \nIT: A errato perché è elemento base (art. 169.1ª CP); B errato perché dipende dalla volontà dell’autore (art. 169.1ª); C corretto perché non serve che colpisca ‘in ogni caso’, può essere condizionale; D errato perché deve intimidire (art. 169.1ª).",
       "legal_reference": "Código Penal, Art. 169"
@@ -532,10 +532,10 @@
     {
       "question": "El artículo 172.1 del Código Penal castiga como autor de un delito de coacciones a:",
       "answers": [
-        { "text": "El que sin estar legítimamente autorizado impidiere a otro con violencia hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere, sea justo o injusto.", "correct": true },
-        { "text": "El que sin estar legítimamente autorizado impidiere a otro hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere, sea justo o injusto.", "correct": false },
-        { "text": "El que sin estar legítimamente autorizado impidiere a otro hacer lo que quiere.", "correct": false },
-        { "text": "El que sin estar legítimamente autorizado compeliere a otro efectuar lo que no quiere.", "correct": false }
+        { "text": "El que sin estar legítimamente autorizado impidiere a otro con violencia hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere, sea justo o injusto.", "correct": true},
+        { "text": "El que sin estar legítimamente autorizado impidiere a otro hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere, sea justo o injusto.", "correct": false},
+        { "text": "El que sin estar legítimamente autorizado impidiere a otro hacer lo que quiere.", "correct": false},
+        { "text": "El que sin estar legítimamente autorizado compeliere a otro efectuar lo que no quiere.", "correct": false}
       ],
       "explanation": "ES: A incorrecto porque añade ‘con violencia’ cuando la definición exige violencia o intimidación; B correcto según la literalidad de Art. 172.1 CP; C incorrecto porque omite la coacción con violencia o intimidación; D incorrecto por omitir la violencia/intimidación necesaria. \nIT: A errato perché aggiunge ‘con violenza’ in modo ridondante; B corretto secondo testo art. 172.1 CP; C errato perché manca violenza o intimidazione; D errato idem.",
       "legal_reference": "Código Penal, Art. 172.1"
@@ -543,10 +543,10 @@
     {
       "question": "La acción de golpear el rostro de una persona con una botella de cristal, causándole la pérdida de la visión de un ojo en un porcentaje de un 80%:",
       "answers": [
-        { "text": "Configura un delito de lesiones tipificado en el art.149 del CP, al haber causado una deformación grave", "correct": false },
-        { "text": "Configura un delito de lesiones tipificado en los artículos 147 y 148.1 del CP, al haber utilizado un objeto concretamente peligroso para la vida o salud del lesionado.", "correct": true },
-        { "text": "Configura un delito de lesiones tipificado en el art.150 del CP, al haber causado la inutilidad de un órgano o miembro no principal.", "correct": false },
-        { "text": "Configura un delito de lesiones tipificado en el art.149 del CP, al haber causado la pérdida o inutilidad de un órgano o miembro principal o de un sentido.", "correct": false }
+        { "text": "Configura un delito de lesiones tipificado en el art.149 del CP, al haber causado una deformación grave", "correct": false},
+        { "text": "Configura un delito de lesiones tipificado en los artículos 147 y 148.1 del CP, al haber utilizado un objeto concretamente peligroso para la vida o salud del lesionado.", "correct": true},
+        { "text": "Configura un delito de lesiones tipificado en el art.150 del CP, al haber causado la inutilidad de un órgano o miembro no principal.", "correct": false},
+        { "text": "Configura un delito de lesiones tipificado en el art.149 del CP, al haber causado la pérdida o inutilidad de un órgano o miembro principal o de un sentido.", "correct": false}
       ],
       "explanation": "ES: A incorrecto porque Art. 149 CP se refiere a deformidad o enfermedad grave, no al uso de objeto peligroso; B correcto porque Art. 148.1ª CP agrava el tipo básico (Art. 147.1) por usar medios peligrosos; C incorrecto porque inutilidad de órgano no principal se encuadra en Art. 150 pero la agravación procede de Art. 148.1ª; D incorrecto porque la pérdida de un órgano principal agrava pero se sanciona como agravante de Art. 147.1 (Art. 148.1ª), no como Art. 149 básico. \nIT: A errato perché art. 149 CP tratta deformità grave o malattia, non mezzi pericolosi; B corretto perché art. 148.1ª CP aggrava art. 147.1 per uso di mezzi pericolosi; C errato perché inutilità di organo non principale rientra in art. 150 ma aggravamento viene da art. 148.1ª; D errato perché perdita organo principale è aggravante di art. 147.1 (art. 148.1ª), non art. 149.",
       "legal_reference": "Código Penal, Art. 147.1; Art. 148.1ª"
@@ -554,10 +554,10 @@
     {
       "question": "La lesión ocasionada que no precise tratamiento médico o quirúrgico y solo requiera una primera asistencia facultativa constituye:",
       "answers": [
-        { "text": "El tipo básico del delito de lesiones previsto en el artículo 147.1 del CP", "correct": false },
-        { "text": "Una falta de lesiones del artículo 617.1 del CP", "correct": false },
-        { "text": "Un delito leve de lesiones previsto en el artículo 147.2 de CP", "correct": true },
-        { "text": "No constituye infracción penal alguna", "correct": false }
+        { "text": "El tipo básico del delito de lesiones previsto en el artículo 147.1 del CP", "correct": false},
+        { "text": "Una falta de lesiones del artículo 617.1 del CP", "correct": false},
+        { "text": "Un delito leve de lesiones previsto en el artículo 147.2 de CP", "correct": true},
+        { "text": "No constituye infracción penal alguna", "correct": false}
       ],
       "explanation": "ES: A incorrecto porque sin tratamiento médico no cabe delito según Art. 147.1 CP; B incorrecto porque tampoco encaja como falta (Art. 617.1 aplica a agresiones leves sin atención facultativa); C incorrecto porque Art. 147.2 castiga imprudencia menos grave solo a instancia de parte; D correcto: sin tratamiento ni más, no hay infracción. \nIT: A errato perché senza trattamento medico non c’è reato (art. 147.1 CP); B errato perché art. 617.1 CP riguarda lesioni lievi senza assistenza; C errato perché art. 147.2 CP punisce imprudenza meno grave con querela; D corretto: nessuna infrazione.",
       "legal_reference": "Código Penal, Art. 147.1; Art. 147.2; Art. 617.1"
@@ -565,10 +565,10 @@
     {
       "question": "No es un elemento del delito de participación en riña:",
       "answers": [
-        { "text": "Que en la riña, los diversos agresores físicos se acometan entre sí de modo tumultuario, esto es, sin que se pueda precisar quien fue el agresor de cada cual.", "correct": false },
-        { "text": "Que todos los participantes en la riña utilicen medios o instrumentos que pongan en peligro la vida o integridad de las personas.", "correct": true },
-        { "text": "Que haya una pluralidad de personas que riñan entre sí con agresiones físicas entre varios grupos recíprocamente enfrentados.", "correct": false },
-        { "text": "Todos los anteriores son elementos del delito de participación en riña.", "correct": false }
+        { "text": "Que en la riña, los diversos agresores físicos se acometan entre sí de modo tumultuario, esto es, sin que se pueda precisar quien fue el agresor de cada cual.", "correct": false},
+        { "text": "Que todos los participantes en la riña utilicen medios o instrumentos que pongan en peligro la vida o integridad de las personas.", "correct": true},
+        { "text": "Que haya una pluralidad de personas que riñan entre sí con agresiones físicas entre varios grupos recíprocamente enfrentados.", "correct": false},
+        { "text": "Todos los anteriores son elementos del delito de participación en riña.", "correct": false}
       ],
       "explanation": "ES: A incorrecto (riña tumultuaria exige acción confusa, Art. 153 CP); B correcto ya que no se exige uso de medios peligrosos por todos los partícipes; C incorrecto (pluralidad y enfrentamiento sí son necesarios); D incorrecto porque B no es elemento. \nIT: A errato perché rissa tumultuaria prevede aggressioni confusionali (art. 153 CP); B corretto perché non serve che tutti usino mezzi pericolosi; C errato perché pluralità e scontri sì richiesti; D errato perché B non è elemento.",
       "legal_reference": "Código Penal, Art. 153"
@@ -576,10 +576,10 @@
     {
       "question": "¿Cuál de los siguientes delitos lleva aparejada una mayor pena, conforme a lo previsto en nuestro Código Penal?",
       "answers": [
-        { "text": "La utilización de la ingeniería genética para producir armas biológicas o exterminadoras de la especie humana.", "correct": true },
-        { "text": "Los que, con finalidad distinta a la eliminación o disminución de taras o enfermedades graves, manipules genes humanos de manera que se altere el genotipo.", "correct": false },
-        { "text": "La creación de seres humanos idénticos por clonación u otros procedimientos dirigidos a la selección de la raza.", "correct": false },
-        { "text": "La fecundación de óvulos humanos con cualquier fin distinto a la procreación humana.", "correct": false }
+        { "text": "La utilización de la ingeniería genética para producir armas biológicas o exterminadoras de la especie humana.", "correct": true},
+        { "text": "Los que, con finalidad distinta a la eliminación o disminución de taras o enfermedades graves, manipules genes humanos de manera que se altere el genotipo.", "correct": false},
+        { "text": "La creación de seres humanos idénticos por clonación u otros procedimientos dirigidos a la selección de la raza.", "correct": false},
+        { "text": "La fecundación de óvulos humanos con cualquier fin distinto a la procreación humana.", "correct": false}
       ],
       "explanation": "ES:\nA incorrecto porque el art. 156 CP menciona la clonación con fines exterminadores, pero clasifica la manipulación genética y la fecundación con fines distintos a la procreación con penas menores;\nB incorrecto porque alterar el genotipo sin finalidad de eliminar taras o enfermedades graves está penalizado, pero con pena inferior;\nC correcto: la clonación o selección racial conlleva una pena más alta según el art. 156.2 CP;\nD incorrecto porque la fecundación con fines distintos a la procreación corresponde al art. 160.2 CP, que establece una pena menor.\nIT:\nA errato perché l’ingegneria genetica per produrre armi è punita ma non con la stessa pena della clonazione umana;\nB errato perché manipolare il genotipo per fini diversi dall’eliminazione di tarli o malattie gravi è punito meno severamente;\nC corretto: la clonazione umana o selezione della razza prevede una pena maggiore (art. 156.2 CP);\nD errato perché la fecondazione con fini non procreativi è disciplinata dall’art. 160.2 CP, che prescrive una pena inferiore.",
       "legal_reference": "Código Penal, Art. 156.2"
@@ -587,10 +587,10 @@
     {
       "question": "Conforme al art. 139 del CP ¿Qué circunstancia no convierte el homicidio en asesinato?",
       "answers": [
-        { "text": "El ensañamiento", "correct": false },
-        { "text": "Para facilitar la comisión de otro o evitar que se descubra.", "correct": false },
-        { "text": "El aprovechamiento de la previa comisión de otro delito tras el que se comete el homicidio.", "correct": true },
-        { "text": "Actuar por medio de recompensa o promesa", "correct": false }
+        { "text": "El ensañamiento", "correct": false},
+        { "text": "Para facilitar la comisión de otro o evitar que se descubra.", "correct": false},
+        { "text": "El aprovechamiento de la previa comisión de otro delito tras el que se comete el homicidio.", "correct": true},
+        { "text": "Actuar por medio de recompensa o promesa", "correct": false}
       ],
       "explanation": "ES: A incorrecto porque ensañamiento es uno de los elementos del Art. 139.1.3ª; B incorrecto porque facilitar otro delito o evitar descubrimiento es Art. 139.1.4ª; C correcto porque aprovecharse de un delito previo no figura en 139.1; D incorrecto porque precio o promesa son Art. 139.1.2ª. \nIT: A errato perché crudeltà è art. 139.1.3ª; B errato perché facilitare altro reato è art. 139.1.4ª; C corretto perché sfruttare reato precedente non è incluso nel 139.1; D errato perché ricompensa è art. 139.1.2ª.",
       "legal_reference": "Código Penal, Art. 139"
@@ -598,10 +598,10 @@
     {
       "question": "El asesinato será castigado con la pena de prisión permanente revisable:",
       "answers": [
-        { "text": "Cuando la víctima sea menor de 18 años o se trate de persona especialmente vulnerable por razón de edad, enfermedad o discapacidad.", "correct": true },
-        { "text": "Cuando el hecho se hubiera cometido por la acción conjunta de dos o más personas.", "correct": false },
-        { "text": "Cuando el hecho hubiera sido cometido por quien perteneciere a un grupo u organización criminal", "correct": false },
-        { "text": "Cuando el hecho hubiere sido cometido aumentando inhumana y deliberadamente el sufrimiento de la víctima", "correct": false }
+        { "text": "Cuando la víctima sea menor de 18 años o se trate de persona especialmente vulnerable por razón de edad, enfermedad o discapacidad.", "correct": true},
+        { "text": "Cuando el hecho se hubiera cometido por la acción conjunta de dos o más personas.", "correct": false},
+        { "text": "Cuando el hecho hubiera sido cometido por quien perteneciere a un grupo u organización criminal", "correct": false},
+        { "text": "Cuando el hecho hubiere sido cometido aumentando inhumana y deliberadamente el sufrimiento de la víctima", "correct": false}
       ],
       "explanation": "ES: A incorrecto porque el umbral es menor de 16 años (Art. 140.1.c); B incorrecto porque la autoría conjunta no es causa automática de permanente; C incorrecto porque pertenencia a grupo criminal corresponde a Art. 140.1.d solo en concurso con otros supuestos; D correcto según Art. 140.1.a (ensañamiento que aumenta sufrimiento). \nIT: A errato perché soglia 16 anni (art. 140.1.c); B errato perché azione congiunta non basta da sola; C errato perché appartenenza a gruppo criminale richiede altri elementi (art. 140.1.d); D corretto secondo art. 140.1.a (crudeltà deliberata).",
       "legal_reference": "Código Penal, Art. 140.1"
@@ -609,10 +609,10 @@
     {
       "question": "La acción típica del delito de homicidio:",
       "answers": [
-        { "text": "Es realizable mediante una acción, en sentido estricto consistente en \"matar a otro”", "correct": false },
-        { "text": "Puede realizarse mediante una acción o mediante una omisión", "correct": false },
-        { "text": "Su realización cabe tanto por acción, como por omisión, pero únicamente en su modalidad de comisión por omisión, si concurre la posición de garante", "correct": true },
-        { "text": "Ninguna de las anteriores es válida", "correct": false }
+        { "text": "Es realizable mediante una acción, en sentido estricto consistente en \"matar a otro”", "correct": false},
+        { "text": "Puede realizarse mediante una acción o mediante una omisión", "correct": false},
+        { "text": "Su realización cabe tanto por acción, como por omisión, pero únicamente en su modalidad de comisión por omisión, si concurre la posición de garante", "correct": true},
+        { "text": "Ninguna de las anteriores es válida", "correct": false}
       ],
       "explanation": "ES: A incorrecto porque también cabe omisión dolosa en deber de garante; B incorrecto porque omisión requiere posición de garante; C correcto según Art. 138.1 CP y doctrina; D incorrecto porque C es válida. \nIT: A errato perché omicidio può essere per omissione se garante; B errato perché omissive require posizione di garante; C corretto secondo art. 138.1 CP; D errato perché C è valida.",
       "legal_reference": "Código Penal, Art. 138.1"
@@ -620,10 +620,10 @@
     {
       "question": "En el delito de asesinato se define la alevosía como:",
       "answers": [
-        { "text": "Empleando en la ejecución medios, modos o formas que tiendan directa o especialmente a asegurarla, sin el riesgo que para su persona pudiera proceder de la defensa por parte del ofendido", "correct": true },
-        { "text": "Empleando en la ejecución medios, modos o formas que anulen la defensa de la víctima", "correct": false },
-        { "text": "Empleando en la ejecución medios, modos o formas que tiendan directa o especialmente a asegurarla", "correct": false },
-        { "text": "Empleando en la ejecución armas o instrumentos peligrosos que aseguren el fin de acabar con la vida de la víctima", "correct": false }
+        { "text": "Empleando en la ejecución medios, modos o formas que tiendan directa o especialmente a asegurarla, sin el riesgo que para su persona pudiera proceder de la defensa por parte del ofendido", "correct": true},
+        { "text": "Empleando en la ejecución medios, modos o formas que anulen la defensa de la víctima", "correct": false},
+        { "text": "Empleando en la ejecución medios, modos o formas que tiendan directa o especialmente a asegurarla", "correct": false},
+        { "text": "Empleando en la ejecución armas o instrumentos peligrosos que aseguren el fin de acabar con la vida de la víctima", "correct": false}
       ],
       "explanation": "ES: A correcto porque coincide con la redacción de Art. 139.1.1ª CP (sin riesgo de defensa); B incorrecto porque omite el requisito ‘sin riesgo’; C incorrecto por omitir ‘sin riesgo que proceda defensa’; D incorrecto porque armas peligrosas son agravante distinta (Art. 148). \nIT: A corretto secondo testo art. 139.1.1ª CP (‘senza rischio’); B errato perché manca ‘senza rischio’; C errato idem; D errato perché armi pericolose rientrano in art. 148 CP.",
       "legal_reference": "Código Penal, Art. 139.1.1ª"
@@ -631,10 +631,10 @@
     {
       "question": "En el delito de cooperación al suicidio:",
       "answers": [
-        { "text": "Será necesario que la víctima demuestre su inequívoca voluntad", "correct": false },
-        { "text": "Es irrelevante que la víctima sea, o no, imputable, siendo necesario su voluntad", "correct": false },
-        { "text": "Ante la falta de capacidad de la víctima, el delito queda impune.", "correct": false },
-        { "text": "Ante la falta de imputabilidad de la víctima, la acción será castigada como autoría mediata en asesinato", "correct": true }
+        { "text": "Será necesario que la víctima demuestre su inequívoca voluntad", "correct": false},
+        { "text": "Es irrelevante que la víctima sea, o no, imputable, siendo necesario su voluntad", "correct": false},
+        { "text": "Ante la falta de capacidad de la víctima, el delito queda impune.", "correct": false},
+        { "text": "Ante la falta de imputabilidad de la víctima, la acción será castigada como autoría mediata en asesinato", "correct": true}
       ],
       "explanation": "ES: A incorrecto porque la voluntad es requisito pero no único; B incorrecto porque imputabilidad sí importa para tipificar como asesinato; C incorrecto porque no queda impune, se califica distinto; D correcto según doctrina mayoritaria y Art. 138 CP (autor mediato por omisión dolosa). \nIT: A errato perché volontà è necessaria ma non sufficiente; B errato perché imputabilità influisce sulla qualificazione; C errato perché non è impune; D corretto secondo dottrina e art. 138 CP.",
       "legal_reference": "Código Penal, Art. 138"
@@ -642,10 +642,10 @@
     {
       "question": "El aborto por imprudencia grave:",
       "answers": [
-        { "text": "Es siempre impune", "correct": false },
-        { "text": "Solo se castiga si no ha existido consentimiento de la mujer es cometido por la propia mujer embarazada", "correct": false },
-        { "text": "Sólo se castiga si", "correct": false },
-        { "text": "Es impune si es cometido por la mujer embarazada", "correct": true }
+        { "text": "Es siempre impune", "correct": false},
+        { "text": "Solo se castiga si no ha existido consentimiento de la mujer es cometido por la propia mujer embarazada", "correct": false},
+        { "text": "Sólo se castiga si", "correct": false},
+        { "text": "Es impune si es cometido por la mujer embarazada", "correct": true}
       ],
       "explanation": "ES: A incorrecto porque la imprudencia grave en aborto por la mujer no se sanciona (Art. 146); B incorrecto por mala redacción y porque el consentimiento no aplica aquí; C correcto: Art. 146 CP exime a la mujer que provoca su propio aborto por imprudencia grave; D incorrecto porque la impunidad es solo para la mujer, no para terceros. \nIT: A errato perché imprudenza grave dalla donna è indenne (art. 146); B errato formulazione errata; C corretto secondo art. 146 CP; D errato perché immunità vale solo per la donna.",
       "legal_reference": "Código Penal, Art. 146"
@@ -653,10 +653,10 @@
     {
       "question": "Ante amenazas de causar un mal constitutivo de delito, con el fin de precisar cuál es el delito referido, hay que ajustarse:",
       "answers": [
-        { "text": "A una interpretación restrictiva sobre la intención que el sujeto tiene de llevar a cabo, o no, el mal que amenaza.", "correct": false },
-        { "text": "A la enumeración que el mismo delito de amenazas hace de los posibles bienes jurídicos afectados.", "correct": false },
-        { "text": "Al límite legal impuesto por el mismo delito, que los circunscribe a los delitos contra la vida y la integridad física.", "correct": true },
-        { "text": "Al límite legal impuesto por el mismo delito, que los circunscribe a los delitos contra la vida, la integridad física y el patrimonio.", "correct": false }
+        { "text": "A una interpretación restrictiva sobre la intención que el sujeto tiene de llevar a cabo, o no, el mal que amenaza.", "correct": false},
+        { "text": "A la enumeración que el mismo delito de amenazas hace de los posibles bienes jurídicos afectados.", "correct": false},
+        { "text": "Al límite legal impuesto por el mismo delito, que los circunscribe a los delitos contra la vida y la integridad física.", "correct": true},
+        { "text": "Al límite legal impuesto por el mismo delito, que los circunscribe a los delitos contra la vida, la integridad física y el patrimonio.", "correct": false}
       ],
       "explanation": "ES: A incorrecto porque no se trata de intención sino de qué delitos amenaza; B incorrecto porque el art. 169 no enumera bienes jurídicos de forma exhaustiva; C incorrecto porque incluye también patrimonio; D correcto según Art. 169 CP (vida, integridad física y patrimonio entre otros). \nIT: A errato perché non si basa sull’intenzione; B errato perché non elenca tutti i beni; C errato perché patrimonio è incluso; D corretto secondo art. 169 CP.",
       "legal_reference": "Código Penal, Art. 169"
@@ -664,10 +664,10 @@
     {
       "question": "En las denominadas amenazas condicionales la pena se hará depender, entre otros criterios:",
       "answers": [
-        { "text": "De si se ha conseguido o no la condición impuesta", "correct": false },
-        { "text": "De si se ha conseguido o no la condición impuesta, pero sólo cuando el mal con el que se amenaza sea constitutivo de delito.", "correct": false },
-        { "text": "De si se ha conseguido o no, la condición impuesta, pero sólo cuando el mal con el que se amenaza no sea constitutivo de delito.", "correct": true },
-        { "text": "De si ha concurrido engaño o no", "correct": false }
+        { "text": "De si se ha conseguido o no la condición impuesta", "correct": false},
+        { "text": "De si se ha conseguido o no la condición impuesta, pero sólo cuando el mal con el que se amenaza sea constitutivo de delito.", "correct": false},
+        { "text": "De si se ha conseguido o no, la condición impuesta, pero sólo cuando el mal con el que se amenaza no sea constitutivo de delito.", "correct": true},
+        { "text": "De si ha concurrido engaño o no", "correct": false}
       ],
       "explanation": "ES: A incorrecto porque la diferencia radica en si el mal es delito o no; B incorrecto porque la condicionante sólo afecta a no delitos; C correcto según Art. 169.2 CP; D incorrecto porque engaño no altera pena en condicionales. \nIT: A errato perché distingue male senza considerare natura del reato; B errato perché condizione riguarda non delitti; C corretto secondo art. 169.2 CP; D errato perché inganno non incide sulla pena condizionale.",
       "legal_reference": "Código Penal, Art. 169.2"
@@ -675,10 +675,10 @@
     {
       "question": "Comete delito el particular que encierre o detuviere a otro, privándole de su libertad. Pero ¿se le castigará en función de lo que haya durado la privación de libertad?",
       "answers": [
-        { "text": "Sí, ya que la pena es mayor si el encierro o detención ha durado más de quince días.", "correct": true },
-        { "text": "Sí, ya que se impondrá la pena inferior en grado si se diera libertad al detenido en los tres primeros días y no se hubiera conseguido el objeto propuesto.", "correct": false },
-        { "text": "Sí, por las razones expuestas en a) y b), y además es atenuable la pena si la detención busca poner al detenido, fuera de los casos previstos en las leyes, a disposición de la autoridad.", "correct": false },
-        { "text": "Ninguna de las anteriores.", "correct": false }
+        { "text": "Sí, ya que la pena es mayor si el encierro o detención ha durado más de quince días.", "correct": true},
+        { "text": "Sí, ya que se impondrá la pena inferior en grado si se diera libertad al detenido en los tres primeros días y no se hubiera conseguido el objeto propuesto.", "correct": false},
+        { "text": "Sí, por las razones expuestas en a) y b), y además es atenuable la pena si la detención busca poner al detenido, fuera de los casos previstos en las leyes, a disposición de la autoridad.", "correct": false},
+        { "text": "Ninguna de las anteriores.", "correct": false}
       ],
       "explanation": "ES: A correcto: Art. 163.1 CP agrava la pena si la detención dura más de 15 días; B incorrecto porque la pena inferior por liberación en ≤3 días es Art. 163.2 CP, no la mayor; C incorrecto por mezcla de supuestos; D incorrecto porque A es correcta. \nIT: A corretto secondo art. 163.1 CP; B errato perché pena ridotta è art. 163.2 CP; C errato perché miscela sup­posti; D errato perché A è vera.",
       "legal_reference": "Código Penal, Art. 163.1"
@@ -686,10 +686,10 @@
     {
       "question": "Según el artículo 163.2 CP, tipo privilegiado de detención ilegal, se impondrá la pena inferior en grado al culpable que diera libertad al encerrado o detenido:",
       "answers": [
-        { "text": "Dentro de los 2 primeros días de su detención, sin haber logrado el objeto que se había propuesto", "correct": false },
-        { "text": "Dentro de los 2 primeros días de su detención, aunque haya logrado el objeto que se había propuesto", "correct": false },
-        { "text": "Dentro de los primeros días de su detención, sin haber logrado el objeto que se había propuesto", "correct": true },
-        { "text": "Dentro de los 3 primeros días de su detención, aunque haya logrado el objeto que se había propuesto", "correct": false }
+        { "text": "Dentro de los 2 primeros días de su detención, sin haber logrado el objeto que se había propuesto", "correct": false},
+        { "text": "Dentro de los 2 primeros días de su detención, aunque haya logrado el objeto que se había propuesto", "correct": false},
+        { "text": "Dentro de los primeros días de su detención, sin haber logrado el objeto que se había propuesto", "correct": true},
+        { "text": "Dentro de los 3 primeros días de su detención, aunque haya logrado el objeto que se había propuesto", "correct": false}
       ],
       "explanation": "ES: A incorrecto (límite 3 días, no 2); B incorrecto por misma razón; C incorrecto por falta de precisión; D correcto según Art. 163.2 CP (“tres primeros días” independientemente de logro). \nIT: A errato perché termine è 3 giorni, non 2; B errato idem; C errato per mancanza di numero; D corretto secondo art. 163.2 CP.",
       "legal_reference": "Código Penal, Art. 163.2"
@@ -697,10 +697,10 @@
     {
       "question": "¿En qué consiste la acción en el delito de detención ilegal del artículo 163 del CP?:",
       "answers": [
-        { "text": "En coaccionar o detener a otro", "correct": false },
-        { "text": "En encerrar o detener a otro privándole de su libertad", "correct": true },
-        { "text": "En encerrar o extorsionar a otro", "correct": false },
-        { "text": "En encerrar, detener o secuestrar a otro", "correct": false }
+        { "text": "En coaccionar o detener a otro", "correct": false},
+        { "text": "En encerrar o detener a otro privándole de su libertad", "correct": true},
+        { "text": "En encerrar o extorsionar a otro", "correct": false},
+        { "text": "En encerrar, detener o secuestrar a otro", "correct": false}
       ],
       "explanation": "ES: A incorrecto porque falta privación de libertad mediante encierro; B correcto: Art. 163 CP define detención ilegal como encerrar o detener privando de libertad; C incorrecto porque extorsión no entra; D incorrecto porque secuestro es agravado distinto (Art. 164). \nIT: A errato perché manca privazione di libertà; B corretto secondo art. 163 CP; C errato perché estorsione è reato diverso; D errato perché sequestro è Art. 164 CP.",
       "legal_reference": "Código Penal, Art. 163"
@@ -708,10 +708,10 @@
     {
       "question": "La modalidad agravada del delito de amenazas, consistente en ejecutar las amenazas por medio de escrito, por teléfono o por cualquier otro medio de comunicación o de reproducción, o en nombre de entidades o grupos reales o supuestos:",
       "answers": [
-        { "text": "Sólo puede aplicarse a las amenazas condicionales", "correct": false },
-        { "text": "Sólo puede aplicarse a las amenazas condicionales, cuando el mal amenazado es constitutivo de delito", "correct": false },
-        { "text": "Sólo puede aplicarse a las amenazas condicionales cuando el mal amenazado no es constitutivo de delito.", "correct": false },
-        { "text": "Ninguna de las anteriores es válida", "correct": true }
+        { "text": "Sólo puede aplicarse a las amenazas condicionales", "correct": false},
+        { "text": "Sólo puede aplicarse a las amenazas condicionales, cuando el mal amenazado es constitutivo de delito", "correct": false},
+        { "text": "Sólo puede aplicarse a las amenazas condicionales cuando el mal amenazado no es constitutivo de delito.", "correct": false},
+        { "text": "Ninguna de las anteriores es válida", "correct": true}
       ],
       "explanation": "non si sa è giusta ma non con miacce condizionali, la domanda è doppia...\n\nES: A incorrecto porque no se limita a condicionales; B incorrecto idem; C incorrecto idem; D correcto: Art. 169.3 CP agrava las amenazas por escrito o medios, sin restricción a condicionales. \nIT: A errato perché non solo minacce condizionali; B errato idem; C errato idem; D corretto secondo art. 169.3 CP.",
       "legal_reference": "Código Penal, Art. 169.3"
@@ -719,10 +719,10 @@
     {
       "question": "Cometerá el tipo básico del delito de coacciones, regulado en el artículo 172.1 del Código Penal:",
       "answers": [
-        { "text": "El que, sin estar legítimamente autorizado, impidiere a otro con violencia hacer lo que la Ley prohíbe, siendo además injusto.", "correct": false },
-        { "text": "El que, estando legítimamente autorizado, impidiere a otro con violencia hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere, sea justo o injusto.", "correct": false },
-        { "text": "El que, sin estar legítimamente autorizado, impidiere a otro con violencia o intimidación hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere y la ley no le obliga, sea justo o injusto.", "correct": true },
-        { "text": "El que exigiere de otro una cantidad o recompensa bajo la amenaza de revelar o difundir hechos referentes a su vida privada o relaciones familiares que no sean públicamente conocidos y puedan afectar a su fama, crédito o interés.", "correct": false }
+        { "text": "El que, sin estar legítimamente autorizado, impidiere a otro con violencia hacer lo que la Ley prohíbe, siendo además injusto.", "correct": false},
+        { "text": "El que, estando legítimamente autorizado, impidiere a otro con violencia hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere, sea justo o injusto.", "correct": false},
+        { "text": "El que, sin estar legítimamente autorizado, impidiere a otro con violencia o intimidación hacer lo que la Ley no prohíbe, o le compeliere a efectuar lo que no quiere y la ley no le obliga, sea justo o injusto.", "correct": true},
+        { "text": "El que exigiere de otro una cantidad o recompensa bajo la amenaza de revelar o difundir hechos referentes a su vida privada o relaciones familiares que no sean públicamente conocidos y puedan afectar a su fama, crédito o interés.", "correct": false}
       ],
       "explanation": "ES: A incorrecto porque añade ‘prohíbe’ en lugar de ‘no prohíbe’; B incorrecto porque aplica a quien está autorizado; C correcto según texto literal de Art. 172.1 CP; D incorrecto porque describe chantaje (Art. 172.2), no coacciones básicas. \nIT: A errato perché formula diversa dall’art. 172.1 CP; B errato perché autorizzato non rientra nel tipo; C corretto secondo testo art. 172.1 CP; D errato perché è estorsione/minacce (art. 172.2 CP).",
       "legal_reference": "Código Penal, Art. 172.1"
@@ -730,10 +730,10 @@
     {
       "question": "¿Qué circunstancia determina una rebaja de la pena prevista en caso de un delito de secuestro del artículo 164 del Código Penal?",
       "answers": [
-        { "text": "Si el encierro o detención ha durado menos de 3 días.", "correct": true },
-        { "text": "Si el encierro o detención ha durado menos de 10 días.", "correct": false },
-        { "text": "Si el encierro o detención ha durado menos de 12 días.", "correct": false },
-        { "text": "Si el encierro o detención ha durado menos de 15 días.", "correct": false }
+        { "text": "Si el encierro o detención ha durado menos de 3 días.", "correct": true},
+        { "text": "Si el encierro o detención ha durado menos de 10 días.", "correct": false},
+        { "text": "Si el encierro o detención ha durado menos de 12 días.", "correct": false},
+        { "text": "Si el encierro o detención ha durado menos de 15 días.", "correct": false}
       ],
       "explanation": "ES: A correcto: Art. 164 CP prevé pena inferior si la detención dura menos de 3 días y se libera sin lograr objeto; B, C y D incorrectos porque el plazo legal es 3 días, no 10, 12 o 15. \nIT: A corretto secondo art. 164 CP; B errato perché termine è 3 giorni; C errato idem; D errato idem.",
       "legal_reference": "Código Penal, Art. 164"
@@ -741,10 +741,10 @@
     {
       "question": "¿Con qué pena castiga el artículo 138.1 del Código Penal (tipo básico) el delito de homicidio?",
       "answers": [
-        { "text": "Con la pena de prisión de diez a quince años.", "correct": true },
-        { "text": "Con la pena de prisión de quince a veinticinco años.", "correct": false },
-        { "text": "Con la pena de multa de doce a veinticuatro meses.", "correct": false },
-        { "text": "Con la pena de prisión de tres a seis años.", "correct": false }
+        { "text": "Con la pena de prisión de diez a quince años.", "correct": true},
+        { "text": "Con la pena de prisión de quince a veinticinco años.", "correct": false},
+        { "text": "Con la pena de multa de doce a veinticuatro meses.", "correct": false},
+        { "text": "Con la pena de prisión de tres a seis años.", "correct": false}
       ],
       "explanation": "ES: A correcto porque el artículo 138.1 CP establece una pena de prisión de diez a quince años para el homicidio simple; B incorrecto porque no se prevé multa para este tipo básico; C incorrecto porque la pena de tres a seis años no corresponde al homicidio simple; D incorrecto porque la escala de quince a veinticinco años no existe para el homicidio en el CP.\nIT: A corretto perché l’articolo 138.1 CP prevede una pena di reclusione da dieci a quindici anni per l’omicidio semplice; B errato perché non è prevista alcuna multa per questo reato base; C errato perché la pena da tre a sei anni non si applica all’omicidio semplice; D errato perché non esiste una pena da quindici a venticinque anni per l’omicidio nel CP.",
       "legal_reference": "Código Penal, Art. 138.1"
@@ -752,10 +752,10 @@
     {
       "question": "En relación con el delito de homicidio por imprudencia, el artículo 142 del Código Penal castiga al que causare la muerte de otro:",
       "answers": [
-        { "text": "Sólo por imprudencia grave", "correct": false },
-        { "text": "Por imprudencia grave o menos grave.", "correct": true },
-        { "text": "Por imprudencia grave, menos grave o leve.", "correct": false },
-        { "text": "Sólo por imprudencia leve.", "correct": false }
+        { "text": "Sólo por imprudencia grave", "correct": false},
+        { "text": "Por imprudencia grave o menos grave.", "correct": true},
+        { "text": "Por imprudencia grave, menos grave o leve.", "correct": false},
+        { "text": "Sólo por imprudencia leve.", "correct": false}
       ],
       "explanation": "ES: A incorrecto porque también incluye imprudencia menos grave; B correcto: Art. 142 CP tipifica imprudencia grave y menos grave; C incorrecto porque leve no se tipifica; D incorrecto porque no basta la leve. \nIT: A errato perché include anche meno grave; B corretto secondo art. 142 CP; C errato perché lieve non è punita; D errato perché non solo lieve.",
       "legal_reference": "Código Penal, Art. 142"
@@ -763,10 +763,10 @@
     {
       "question": "La única modalidad agravada del delito de coacciones consiste:",
       "answers": [
-        { "text": "En la concurrencia de violencia o intimidación", "correct": false },
-        { "text": "En que la coacción recaiga sobre un funcionario, un menor o un incapaz", "correct": false },
-        { "text": "En que la coacción tenga por objeto impedir un derecho fundamental o el legítimo disfrute de la vivienda", "correct": true },
-        { "text": "En que la coacción tenga la nota de habitualidad", "correct": false }
+        { "text": "En la concurrencia de violencia o intimidación", "correct": false},
+        { "text": "En que la coacción recaiga sobre un funcionario, un menor o un incapaz", "correct": false},
+        { "text": "En que la coacción tenga por objeto impedir un derecho fundamental o el legítimo disfrute de la vivienda", "correct": true},
+        { "text": "En que la coacción tenga la nota de habitualidad", "correct": false}
       ],
       "explanation": "ES: A incorrecto porque violencia o intimidación son elementos básicos, no agravantes; B incorrecto porque no figura en el Art. 172.3 CP; C correcto: Art. 172.3 CP agrava coacción que impide derechos fundamentales o disfrute de la vivienda; D incorrecto porque habitualidad no se menciona. \nIT: A errato perché violenza/intimidazione sono base; B errato perché non citato in art. 172.3 CP; C corretto secondo art. 172.3 CP; D errato perché abitudinarietà non è prevista.",
       "legal_reference": "Código Penal, Art. 172.3"
@@ -774,10 +774,10 @@
     {
       "question": "Fulgencio sufre una agresión por la cual pierde dos piezas dentarias, dicha acción se castigaría como:",
       "answers": [
-        { "text": "Un delito de lesiones previsto y penado en el artículo 150 de Código Penal, en todos los casos.", "correct": false },
-        { "text": "Un delito de lesiones previsto y penado en el artículo 149 del Código Penal, por tratarse de lesiones con grave deformidad.", "correct": false },
-        { "text": "Un delito de lesiones del artículo 147.2 del Código Penal.", "correct": false },
-        { "text": "Todas las anteriores son incorrectas.", "correct": true }
+        { "text": "Un delito de lesiones previsto y penado en el artículo 150 de Código Penal, en todos los casos.", "correct": false},
+        { "text": "Un delito de lesiones previsto y penado en el artículo 149 del Código Penal, por tratarse de lesiones con grave deformidad.", "correct": false},
+        { "text": "Un delito de lesiones del artículo 147.2 del Código Penal.", "correct": false},
+        { "text": "Todas las anteriores son incorrectas.", "correct": true}
       ],
       "explanation": "ES: A incorrecto porque Art. 150 CP exige inutilidad de órgano no principal y no siempre aplica a piezas dentarias; B incorrecto porque pérdida de dientes no siempre es deformidad grave (Art. 149); C incorrecto porque Art. 147.2 regula imprudencia leve y menos grave, no supuestos sin tratamiento; D correcto: ninguna de las anteriores encaja plenamente. \nIT: A errato perché art. 150 CP richiede inutilità di organo non principale, non sempre denti; B errato perché perdita denti non è sempre deformità grave (art. 149); C errato perché art. 147.2 CP riguarda imprudenza; D corretto perché nessuna corrisponde pienamente.",
       "legal_reference": "Código Penal, Art. 147.2; Art. 149; Art. 150"
@@ -785,10 +785,10 @@
     {
       "question": "El artículo 143 bis del Código Penal castiga la distribución o difusión pública a través de Internet, del teléfono o de cualquier otra tecnología de la información o de la comunicación de contenidos específicamente destinados a promover, fomentar o incitar:",
       "answers": [
-        { "text": "A cometer conductas delictivas.", "correct": false },
-        { "text": "Al suicidio de personas menores de edad o personas con discapacidad necesitadas de especial protección.", "correct": true },
-        { "text": "Al suicidio de cualquier persona.", "correct": false },
-        { "text": "Al suicidio de personas menores de edad.", "correct": false }
+        { "text": "A cometer conductas delictivas.", "correct": false},
+        { "text": "Al suicidio de personas menores de edad o personas con discapacidad necesitadas de especial protección.", "correct": true},
+        { "text": "Al suicidio de cualquier persona.", "correct": false},
+        { "text": "Al suicidio de personas menores de edad.", "correct": false}
       ],
       "explanation": "ES: A incorrecto porque Art. 143 bis CP se centra en la incitación al suicidio, no a conductas delictivas generales; B correcto según Art. 143 bis.1 CP (menores y personas con discapacidad); C incorrecto porque no abarca a cualquier persona, solo vulnerables; D incorrecto porque excluye personas con discapacidad mayores de edad. \nIT: A errato perché art. 143 bis CP riguarda solo suicidio; B corretto secondo art. 143 bis.1 CP; C errato perché non vale per tutti, solo vulnerabili; D errato perché esclude disabili protetti.",
       "legal_reference": "Código Penal, Art. 143 bis"
@@ -796,10 +796,10 @@
     {
       "question": "Según el artículo 149 del Código Penal, ¿qué circunstancia determina la concurrencia del tipo hiperagravado de lesiones?",
       "answers": [
-        { "text": "Causar la pérdida o la inutilidad de un órgano o miembro principal o de un sentido", "correct": false },
-        { "text": "Causar impotencia o esterilidad.", "correct": false },
-        { "text": "Causar una grave deformidad o una grave enfermedad somática o psíquica.", "correct": false },
-        { "text": "Todas las respuestas son correctas.", "correct": true }
+        { "text": "Causar la pérdida o la inutilidad de un órgano o miembro principal o de un sentido", "correct": false},
+        { "text": "Causar impotencia o esterilidad.", "correct": false},
+        { "text": "Causar una grave deformidad o una grave enfermedad somática o psíquica.", "correct": false},
+        { "text": "Todas las respuestas son correctas.", "correct": true}
       ],
       "explanation": "ES: A, B y C son todos supuestos incluidos en Art. 149.1ª, 1.b y 1.c CP, por lo que D correcto: el tipo hiperagravado engloba pérdida de órgano/sentido, impotencia/esterilidad y deformidad/enfermedad grave. \nIT: A, B e C rientrano tutti nei casi dell’art. 149.1ª–c CP, quindi D è corretto: il tipo iperaggravato comprende tutte queste evenienze.",
       "legal_reference": "Código Penal, Art. 149"
@@ -807,10 +807,10 @@
     {
       "question": "¿Qué delito comete la mujer que consintiere que otra persona le cause su aborto, fuera de los casos permitidos por la ley?:",
       "answers": [
-        { "text": "Un delito de homicidio", "correct": false },
-        { "text": "Un delito de asesinato", "correct": false },
-        { "text": "Un delito de aborto", "correct": true },
-        { "text": "No estaría cometiendo delito alguno, tratándose de una conducta impune", "correct": false }
+        { "text": "Un delito de homicidio", "correct": false},
+        { "text": "Un delito de asesinato", "correct": false},
+        { "text": "Un delito de aborto", "correct": true},
+        { "text": "No estaría cometiendo delito alguno, tratándose de una conducta impune", "correct": false}
       ],
       "explanation": "ES: A incorrecto porque no se trata de un homicidio (faltan el dolo y la acción de matar a otro ser humano); B incorrecto porque no es asesinato (no hay la conducta típica de acabar con la vida de un ser humano ni agravantes propias del asesinato); C correcto porque el artículo 145 CP tipifica como delito el aborto provocado fuera de los supuestos legales, incluyendo cuando la mujer consiente que otro la practique; D incorrecto porque sí existe responsabilidad penal según el artículo 145 CP.\nIT: A errato perché non si configura omicidio (manca l’elemento soggettivo del dolo di uccidere); B errato perché non è un assassinio (non c’è la condotta né gli aggravanti tipici dell’omicidio); C corretto perché l’art. 145 CP punisce l’aborto illegale, compreso il consenso della donna a farsi provocare l’aborto fuori dai casi consentiti; D errato perché il fatto è penalmente rilevante ai sensi dell’art. 145 CP.",
       "legal_reference": "Código Penal, Art. 145"
@@ -818,10 +818,10 @@
     {
       "question": "Según el artículo 148 del Código Penal, ¿qué circunstancia no podría determinar una agravación de la pena prevista para las lesiones del artículo 147.1?",
       "answers": [
-        { "text": "Si en la agresión se hubieren utilizado armas, instrumentos, objetos, medios, métodos o formas concretamente peligrosas para la vida o salud, física o psíquica, del lesionado.", "correct": false },
-        { "text": "Si hubiere mediado ensañamiento o alevosía.", "correct": false },
-        { "text": "Si la víctima fuere menor de catorce años o persona con discapacidad necesitada de especial protección.", "correct": false },
-        { "text": "Si la víctima tuviere cualquier relación de afinidad con el autor", "correct": true }
+        { "text": "Si en la agresión se hubieren utilizado armas, instrumentos, objetos, medios, métodos o formas concretamente peligrosas para la vida o salud, física o psíquica, del lesionado.", "correct": false},
+        { "text": "Si hubiere mediado ensañamiento o alevosía.", "correct": false},
+        { "text": "Si la víctima fuere menor de catorce años o persona con discapacidad necesitada de especial protección.", "correct": false},
+        { "text": "Si la víctima tuviere cualquier relación de afinidad con el autor", "correct": true}
       ],
       "explanation": "ES: A incorrecto (Art. 148.1ª CP incluye uso de medios peligrosos); B incorrecto (ensañamiento y alevosía son agravantes, Art. 148.1ª); C incorrecto (menor de 14 o vulnerable, Art. 148.1ª); D correcto porque la afinidad no figura en Art. 148 como agravante. \nIT: A errato perché art. 148.1ª CP comprende mezzi pericolosi; B errato perché crudeltà/alevosìa ci sono; C errato perché minori e vulnerabili sì; D corretto perché affinità non è aggravante.",
       "legal_reference": "Código Penal, Art. 148"
@@ -1681,10 +1681,10 @@
     {
       "question": "72. ¿En cuál de los siguientes supuestos el delito de asesinato no será castigado con pena de prisión permanente revisable?",
       "answers": [
-        { "text": "Que la víctima sea una persona especialmente vulnerable.", "correct": false },
-        { "text": "Que se hayan empleado en su ejecución medios, modos o formas que tiendan directamente a asegurar el acto.", "correct": true },
-        { "text": "Que la víctima sea menor de dieciséis años.", "correct": false },
-        { "text": "Que el autor perteneciera a una organización criminal.", "correct": false }
+        { "text": "Que la víctima sea una persona especialmente vulnerable.", "correct": false},
+        { "text": "Que se hayan empleado en su ejecución medios, modos o formas que tiendan directamente a asegurar el acto.", "correct": true},
+        { "text": "Que la víctima sea menor de dieciséis años.", "correct": false},
+        { "text": "Que el autor perteneciera a una organización criminal.", "correct": false}
       ],
       "explanation": "ES:\nEl artículo 140.1 CP impone la pena de prisión permanente revisable al asesinato cuando: 1) la víctima es menor de 16 años o persona especialmente vulnerable, 2) el hecho sigue a un delito contra la libertad sexual, 3) el autor pertenece a un grupo u organización criminal, o 4) el reo ha sido condenado por la muerte de dos o más personas. Ninguna de estas circunstancias se identifica con el simple uso de medios o modos que aseguren la ejecución, rasgo que configura la alevosía del art. 139 CP y comporta la pena ordinaria de 15-25 años, pero no la agravación del art. 140.\nIT:\nL’art. 140.1 CP prevede la prisión permanente revisable se: 1) la vittima ha meno di 16 anni o è particolarmente vulnerabile, 2) l’omicidio è successivo a un reato contro la libertà sessuale, 3) l’autore appartiene a un gruppo o organizzazione criminale, oppure 4) l’omicida è già condannato per due o più omicidi. L’uso di mezzi o forme che garantiscono l’esecuzione (alevosía, art. 139) comporta la pena ordinaria (15-25 anni) e non attiva la qualificazione dell’art. 140.\nPagina/Slide: TEMA 1.pptx, diapo «3. ASESINATO CUALIFICADO (art. 140 CP)» :contentReference[oaicite:0]{index=0}",
       "legal_reference": "Arts. 139 y 140 Código Penal español (LO 10/1995, redacción LO 1/2015)",
@@ -1693,10 +1693,10 @@
     {
       "question": "73. Para el delito de detención ilegal tipificado en el artículo 163.3 del CP, se impondrá la pena agravada cuando el encierro o detención:",
       "answers": [
-        { "text": "Ha durado más de 3 días.", "correct": false },
-        { "text": "Ha durado más de 5 días.", "correct": false },
-        { "text": "Ha durado más de 15 días.", "correct": true },
-        { "text": "Ha durado más de 20 días.", "correct": false }
+        { "text": "Ha durado más de 3 días.", "correct": false},
+        { "text": "Ha durado más de 5 días.", "correct": false},
+        { "text": "Ha durado más de 15 días.", "correct": true},
+        { "text": "Ha durado más de 20 días.", "correct": false}
       ],
       "explanation": "ES:\\nEl art. 163.3 CP dispone: “Se impondrá la pena de prisión de cinco a ocho años si el encierro o detención ha durado más de quince días”, de modo que la agravación se aplica al superar los 15 días.\\nIT:\\nL’art. 163.3 CP prevede la pena aggravata (reclusione da cinque a otto anni) quando la privazione della libertà si è protratta per oltre quindici giorni.\\nPagina/Slide: TEMA 5.pptx, diapositiva «Artículo 163» (sección \"Detenciones ilegales y secuestros\") :contentReference[oaicite:0]{index=0}",
       "legal_reference": "Art. 163.3 Código Penal español (LO 10/1995, redacción LO 1/2015)",
@@ -1705,10 +1705,10 @@
     {
       "question": "74. La detención ilegal del artículo 163 establece en su apartado 4 que se castigará con una pena menor si:",
       "answers": [
-        { "text": "Se hubiese puesto en libertad la persona por un particular.", "correct": false },
-        { "text": "Se llevara a cabo fuera de los supuestos previstos por la ley.", "correct": false },
-        { "text": "Tuviera como fin presentarla inmediatamente a la autoridad.", "correct": true },
-        { "text": "Todas las anteriores son correctas.", "correct": false }
+        { "text": "Se hubiese puesto en libertad la persona por un particular.", "correct": false},
+        { "text": "Se llevara a cabo fuera de los supuestos previstos por la ley.", "correct": false},
+        { "text": "Tuviera como fin presentarla inmediatamente a la autoridad.", "correct": true},
+        { "text": "Todas las anteriores son correctas.", "correct": false}
       ],
       "explanation": "ES:\\nEl art. 163.4 CP dispone que «el particular que, fuera de los casos permitidos por las leyes, aprehendiere a una persona para presentarla inmediatamente a la autoridad, será castigado con la pena de multa de tres a seis meses». Esta es una forma atenuada en relación con la pena básica de prisión de 4-6 años (art. 163.1). Las demás opciones no coinciden con este supuesto; la liberación temprana (≤ 3 días) pertenece al art. 163.2, y actuar fuera de los supuestos legales describe solo el tipo básico.\\nIT:\\nIl comma 4 dell’art. 163 CP prevede un’ipotesi attenuata: se un privato, fuori dai casi consentiti, cattura una persona al solo scopo di consegnarla immediatamente all’autorità, si applica la pena ridotta della multa da 3 a 6 mesi. Le altre alternative non corrispondono a tale fattispecie; la liberazione entro 3 giorni è trattata dal comma 2, mentre agire fuori dai casi consentiti integra il tipo base.\\nPagina/Slide: TEMA 5.pptx, diapositiva «Artículo 163» :contentReference[oaicite:0]{index=0}",
       "legal_reference": "Art. 163.4 Código Penal español (LO 10/1995, redacción LO 1/2015)",
@@ -1717,10 +1717,10 @@
     {
       "question": "75. El artículo 165 del CP establece que la detención ilegal se sancionará con una pena mayor si se ha ejecutado con:",
       "answers": [
-        { "text": "Simulación de autoridad o función pública.", "correct": false },
-        { "text": "Simulación de policía.", "correct": false },
-        { "text": "Simulación de poder judicial.", "correct": false },
-        { "text": "Todas las anteriores son correctas.", "correct": true }
+        { "text": "Simulación de autoridad o función pública.", "correct": false},
+        { "text": "Simulación de policía.", "correct": false},
+        { "text": "Simulación de poder judicial.", "correct": false},
+        { "text": "Todas las anteriores son correctas.", "correct": true}
       ],
       "explanation": "ES:\nEl art. 165 CP dispone que las penas previstas para la detención ilegal (arts. 163-164) se impondrán en su mitad superior «si la detención ilegal o secuestro se ha ejecutado con simulación de autoridad o función pública…». La simulación de policía o de poder judicial son casos concretos de esa simulación de autoridad; por tanto, cualquiera de las tres hipótesis (a, b, c) cumple la condición, de modo que la opción correcta es la respuesta global d).\nIT:\nL’art. 165 CP prevede che le pene di cui agli artt. 163-164 siano applicate nella metà superiore «se la detenzione illegale o il sequestro sono stati eseguiti simulando un’autorità o una funzione pubblica…». Fingere di essere un poliziotto o un membro del potere giudiziario rientra nella stessa simulazione di autorità; pertanto tutte le ipotesi delle risposte a), b) e c) soddisfano il requisito, e la risposta corretta è la d).\nPagina/Slide: TEMA 5.pptx, diapositiva «Artículo 165» (sección “Detenciones ilegales y secuestros”) :contentReference[oaicite:2]{index=2}",
       "legal_reference": "Art. 165 Código Penal español (LO 10/1995, red. LO 1/2015)",
@@ -1729,10 +1729,10 @@
     {
       "question": "76. El artículo 166 del Código Penal establece una pena agravada para el delito de secuestro de hasta 20 años de prisión si:",
       "answers": [
-        { "text": "Se exige una condición para poner a la persona en libertad.", "correct": false },
-        { "text": "Se exige un rescate para poner a la persona en libertad.", "correct": false },
-        { "text": "No se da razón del paradero de la persona detenida.", "correct": true },
-        { "text": "Ninguna de las anteriores es correcta.", "correct": false }
+        { "text": "Se exige una condición para poner a la persona en libertad.", "correct": false},
+        { "text": "Se exige un rescate para poner a la persona en libertad.", "correct": false},
+        { "text": "No se da razón del paradero de la persona detenida.", "correct": true},
+        { "text": "Ninguna de las anteriores es correcta.", "correct": false}
       ],
       "explanation": "ES:\\nEl art. 166.1 CP dispone que «el reo de secuestro que no dé razón del paradero de la persona detenida será castigado con una pena de quince a veinte años de prisión» :contentReference[oaicite:2]{index=2}. Exigir un rescate o cualquier otra condición pertenece al tipo básico de secuestro del art. 164 CP (6-10 años de prisión), por lo que solo la opción c) activa la agravación de hasta 20 años.\\nIT:\\nL’art. 166.1 CP prevede la pena aggravata (15-20 anni) per il sequestro quando l’autore non fornisce indicazioni sul luogo in cui si trova la vittima. L’esigere un riscatto o un’altra condizione rientra nel tipo base dell’art. 164 (6-10 anni) e non comporta l’aggravante del 166.\\nPagina/Slide: TEMA 5.pptx, diapositiva «Artículo 166».",
       "legal_reference": "Art. 166 Código Penal español (LO 10/1995, redacción LO 1/2015)",
@@ -1741,10 +1741,10 @@
     {
       "question": "77. Las amenazas del artículo 169 del CP se sancionarán con una pena agravada si:",
       "answers": [
-        { "text": "Se hicieren por escrito.", "correct": false },
-        { "text": "Se hicieren por teléfono.", "correct": false },
-        { "text": "Se hicieren por cualquier medio de comunicación.", "correct": false },
-        { "text": "Todas las anteriores son correctas.", "correct": true }
+        { "text": "Se hicieren por escrito.", "correct": false},
+        { "text": "Se hicieren por teléfono.", "correct": false},
+        { "text": "Se hicieren por cualquier medio de comunicación.", "correct": false},
+        { "text": "Todas las anteriores son correctas.", "correct": true}
       ],
       "explanation": "ES:\nEl art. 169 CP indica que «las penas señaladas se impondrán en su mitad superior si las amenazas se hicieren por escrito, por teléfono o por cualquier medio de comunicación o de reproducción…»; cualquiera de estos medios agrava la pena, de modo que la opción correcta es la que engloba todas (d).\nIT:\nL’art. 169 CP prevede che «le pene si applicano nella metà superiore se le minacce sono fatte per iscritto, per telefono o con qualsiasi mezzo di comunicazione o riproduzione…»; ognuno di questi mezzi comporta l’aggravante, quindi la risposta corretta è la d).\nPagina/Slide: TEMA 5.pptx, diapositiva «Artículo 169 – Amenazas» :contentReference[oaicite:2]{index=2}",
       "legal_reference": "Art. 169 Código Penal español (LO 10/1995, red. LO 1/2015)",
@@ -1753,10 +1753,10 @@
     {
       "question": "78. ¿Cuál de los siguientes no es un requisito del delito de coacciones del artículo 172 del Código Penal?",
       "answers": [
-        { "text": "Impedir a otro hacer lo que la ley no prohíbe.", "correct": false },
-        { "text": "Permitir a otro hacer lo que la ley prohíbe.", "correct": false },
-        { "text": "Impedir a otro hacer lo que la ley prohíbe.", "correct": true },
-        { "text": "Permitir a otro hacer lo que la ley no prohíbe.", "correct": false }
+        { "text": "Impedir a otro hacer lo que la ley no prohíbe.", "correct": false},
+        { "text": "Permitir a otro hacer lo que la ley prohíbe.", "correct": false},
+        { "text": "Impedir a otro hacer lo que la ley prohíbe.", "correct": true},
+        { "text": "Permitir a otro hacer lo que la ley no prohíbe.", "correct": false}
       ],
       "explanation": "ES:\nEl art. 172.1 CP contempla dos únicas conductas: a) **impedir con violencia que otro realice lo que la ley no prohíbe**, y b) **compelerle a efectuar lo que no quiere, sea justo o injusto**. No castiga impedir actos prohibidos ni ‘permitir’ nada. Por tanto, la opción **c)** —impedir lo que la ley prohíbe— no forma parte de los requisitos del tipo.\nIT:\nL’art. 172.1 CP punisce solo due condotte: a) **impedire con violenza che qualcuno compia ciò che la legge non vieta** e b) **costringerlo a fare ciò che non vuole, sia giusto sia ingiusto**. Non rientra nel reato impedire un atto vietato né «permettere» alcunché. Pertanto l’opzione **c)** è l’unica che non costituisce requisito.\nPagina/Slide: TEMA 5.pptx, diapositiva “Artículo 172 – Coacciones” :contentReference[oaicite:2]{index=2}",
       "legal_reference": "Art. 172 Código Penal español (LO 10/1995, redacción LO 1/2015)",
@@ -1765,10 +1765,10 @@
     {
       "question": "79. Entre los aspectos relevantes de la LO 1/2004 de Medidas de Protección Integral contra la Violencia de Género podemos mencionar:",
       "answers": [
-        { "text": "Desarrollo de medidas de sensibilización.", "correct": false },
-        { "text": "Eliminación de este tipo de violencia en el ámbito de la publicidad.", "correct": false },
-        { "text": "Lucha contra la misma en el ámbito educativo.", "correct": false },
-        { "text": "Todas las anteriores son correctas.", "correct": true }
+        { "text": "Desarrollo de medidas de sensibilización.", "correct": false},
+        { "text": "Eliminación de este tipo de violencia en el ámbito de la publicidad.", "correct": false},
+        { "text": "Lucha contra la misma en el ámbito educativo.", "correct": false},
+        { "text": "Todas las anteriores son correctas.", "correct": true}
       ],
       "explanation": "ES:\\nLa diapositiva dedicada a la LO 1/2004 destaca expresamente como ejes: «medidas de sensibilización, prevención y detección», «eliminación de la violencia en la publicidad y los medios de comunicación» y «su lucha a través del sistema educativo» :contentReference[oaicite:3]{index=3}. Al reunir las tres opciones a), b) y c), la respuesta correcta es la d).\\nIT:\\nNella slide sulla LO 1/2004 si elencano tra gli aspetti fondamentali: «misure di sensibilizzazione», l’eliminazione della violenza di genere «nel campo della pubblicità» e «la lotta in ambito educativo» :contentReference[oaicite:4]{index=4}. Poiché le tre voci compaiono tutte, la risposta corretta è la d).\\nPagina/Slide: TEMA 4.pptx, diapositiva 2 (sezione «1. LO 1/2004 y la configuración de los delitos de VIOGEN»)",
       "legal_reference": "Ley Orgánica 1/2004, de Medidas de Protección Integral contra la Violencia de Género",
@@ -1777,10 +1777,10 @@
     {
       "question": "80. El maltrato físico o psíquico del artículo 153 del CP en el ámbito de la violencia de género se sancionará con una pena mayor según su apartado 3 cuando:",
       "answers": [
-        { "text": "Se cometa en presencia de menores.", "correct": true },
-        { "text": "Se cometa en presencia de víctimas.", "correct": false },
-        { "text": "Se cometa en el domicilio común.", "correct": false },
-        { "text": "Todas las anteriores son correctas.", "correct": false }
+        { "text": "Se cometa en presencia de menores.", "correct": true},
+        { "text": "Se cometa en presencia de víctimas.", "correct": false},
+        { "text": "Se cometa en el domicilio común.", "correct": false},
+        { "text": "Todas las anteriores son correctas.", "correct": false}
       ],
       "explanation": "ES:\\nEl art. 153.3 CP agrava la pena (mitad superior) si el delito se comete **en presencia de menores**, usando armas, en el domicilio común o de la víctima, o quebrantando penas/medidas del art. 48. No menciona la mera presencia de la víctima (siempre existente) y, aunque también incluye el domicilio común, la opción c) por sí sola no abarca todos los supuestos. De las alternativas dadas, solo la a) recoge literalmente uno de los requisitos del precepto. \\nIT:\\nL’art. 153.3 CP prevede l’aumento di pena (metà superiore) se il reato è commesso **in presenza di minori**, con armi, nel domicilio comune o della vittima o violando pene/misure dell’art. 48. Non menziona la semplice presenza della vittima (implicita) e, sebbene includa il domicilio comune, l’opzione c) da sola non è esaustiva. Tra le risposte proposte, solo la a) riproduce esattamente una delle circostanze aggravanti.\\nPagina/Slide: TEMA 4.pptx, sección \"Maltrato físico y psíquico\", diapositiva con texto del art. 153.3.",
       "legal_reference": "Art. 153.3 Código Penal español (LO 10/1995, red. LO 1/2015)",
@@ -1789,10 +1789,10 @@
     {
       "question": "81. Señale la respuesta incorrecta. El maltrato habitual en el ámbito de la violencia doméstica sancionado en el artículo 173.2 del Código Penal se comete contra:",
       "answers": [
-        { "text": "Cónyuge.", "correct": false },
-        { "text": "Ascendientes.", "correct": false },
-        { "text": "Parientes hasta el tercer grado de consanguinidad.", "correct": true },
-        { "text": "Personas discapacitadas necesitadas de especial protección que convivan con el autor.", "correct": false }
+        { "text": "Cónyuge.", "correct": false},
+        { "text": "Ascendientes.", "correct": false},
+        { "text": "Parientes hasta el tercer grado de consanguinidad.", "correct": true},
+        { "text": "Personas discapacitadas necesitadas de especial protección que convivan con el autor.", "correct": false}
       ],
       "explanation": "ES:\nEl art. 173.2 CP considera víctimas posibles al cónyuge o ex-cónyuge, personas unidas por análoga relación de afectividad, descendientes, ascendientes y hermanos (consanguíneos, afines o adoptivos), así como menores o personas con discapacidad necesitadas de especial protección que convivan con el autor, o personas integradas en el núcleo de su convivencia familiar. No incluye a otros parientes de tercer grado (tíos, sobrinos, bisabuelos), por lo que la opción c) excede los supuestos legales.\nIT:\nL’art. 173.2 CP elenca come possibili vittime il coniuge o ex-coniuge, i discendenti, ascendenti e fratelli, i minori o disabili conviventi ecc.; non menziona parenti fino al terzo grado, pertanto l’opzione c) è l’unica non contemplata.\nPagina/Slide: TEMA 4.pptx, diapositiva «Artículo 173.2 – Maltrato habitual» :contentReference[oaicite:2]{index=2}",
       "legal_reference": "Art. 173.2 Código Penal español (LO 10/1995, redacción LO 1/2015)",
@@ -1801,10 +1801,10 @@
     {
       "question": "82. No constituye un tipo agravado de lesiones del artículo 148 del Código Penal:",
       "answers": [
-        { "text": "Ejecutar el hecho mediando ensañamiento o alevosía.", "correct": false },
-        { "text": "Que la víctima se encontrara en una grave situación económica.", "correct": true },
-        { "text": "Utilizar medios concretamente peligrosos para la vida o la salud del lesionado.", "correct": false },
-        { "text": "Que la víctima sea menor de catorce años o persona con discapacidad necesitada de especial protección.", "correct": false }
+        { "text": "Ejecutar el hecho mediando ensañamiento o alevosía.", "correct": false},
+        { "text": "Que la víctima se encontrara en una grave situación económica.", "correct": true},
+        { "text": "Utilizar medios concretamente peligrosos para la vida o la salud del lesionado.", "correct": false},
+        { "text": "Que la víctima sea menor de catorce años o persona con discapacidad necesitada de especial protección.", "correct": false}
       ],
       "explanation": "ES:\nEl art. 148 CP enumera los supuestos que agravan las lesiones: (1) empleo de armas o medios concretamente peligrosos; (2) ensañamiento o alevosía; (3) víctima menor de 14 años o persona con discapacidad; (4) víctima cónyuge o análoga relación; (5) víctima especialmente vulnerable conviviente. No menciona la situación económica de la víctima, por lo que la opción b) NO constituye tipo agravado.\nIT:\nL’art. 148 CP prevede le circostanze aggravanti delle lesioni: (1) uso di armi o mezzi concretamente pericolosi; (2) crudeltà (ensañamiento) o proditorietà (alevosía); (3) vittima minore di 14 anni o disabile; (4) vittima coniuge o partner; (5) vittima particolarmente vulnerabile convivente. Non vi è alcun riferimento alla condizione economica della vittima; quindi la b) non è requisito aggravante.\nPagina/Slide: TEMA 3 (1).pptx, diapositivas «Tipos agravados de lesiones – Artículo 148» :contentReference[oaicite:2]{index=2}",
       "legal_reference": "Art. 148 Código Penal español (LO 10/1995, redacción LO 1/2015)",
@@ -1813,10 +1813,10 @@
     {
       "question": "83. En los delitos de lesiones, el consentimiento válido, libre, espontánea y expresamente emitido del ofendido, según el artículo 155 del CP, da lugar a:",
       "answers": [
-        { "text": "La exención de la responsabilidad penal.", "correct": false },
-        { "text": "La exención de la responsabilidad civil.", "correct": false },
-        { "text": "La imposición de la pena inferior en grado.", "correct": true },
-        { "text": "Ninguna de las anteriores es correcta.", "correct": false }
+        { "text": "La exención de la responsabilidad penal.", "correct": false},
+        { "text": "La exención de la responsabilidad civil.", "correct": false},
+        { "text": "La imposición de la pena inferior en grado.", "correct": true},
+        { "text": "Ninguna de las anteriores es correcta.", "correct": false}
       ],
       "explanation": "ES:\nEl art. 155 CP dispone que «quien realizare el hecho con el consentimiento válido, libre, espontáneo y expreso del ofendido será castigado con la pena inferior en uno o dos grados». No elimina la responsabilidad penal por completo ni la civil.\nIT:\nL’art. 155 CP stabilisce che «chi compie il fatto con il consenso valido, libero, spontaneo ed espresso dell’offeso è punito con la pena inferiore di uno o due gradi». Non esonera dalla responsabilità penale né da quella civile.\nPagina/Slide: TEMA 3 (1).pptx, diapositiva «Artículo 155 – Lesiones consentidas».",
       "legal_reference": "Art. 155 Código Penal español (LO 10/1995, redacción LO 1/2015)",
@@ -1825,10 +1825,10 @@
     {
       "question": "84. Para proceder por el delito de la práctica de reproducción asistida sin el consentimiento de la mujer sancionado en el artículo 161 del CP es precisa, con carácter general:",
       "answers": [
-        { "text": "La denuncia de la persona agraviada o su representante legal.", "correct": true },
-        { "text": "La denuncia del Ministerio Fiscal.", "correct": false },
-        { "text": "Tanto la denuncia de la persona agraviada como la del Ministerio Fiscal.", "correct": false },
-        { "text": "La prestación de una fianza.", "correct": false }
+        { "text": "La denuncia de la persona agraviada o su representante legal.", "correct": true},
+        { "text": "La denuncia del Ministerio Fiscal.", "correct": false},
+        { "text": "Tanto la denuncia de la persona agraviada como la del Ministerio Fiscal.", "correct": false},
+        { "text": "La prestación de una fianza.", "correct": false}
       ],
       "explanation": "ES:\nEl art. 161.2 CP dispone que «para proceder por este delito será precisa denuncia de la persona agraviada o de su representante legal». El Ministerio Fiscal solo puede denunciar cuando la víctima sea menor, persona con discapacidad necesitada de especial protección o desvalida, por lo que no se trata de la regla general.\nIT:\nL’art. 161.2 CP stabilisce che il reato è perseguibile soltanto previa querela della persona offesa o del suo rappresentante legale; il Pubblico Ministero può agire soltanto se la vittima è minore o disabile, dunque non si richiede in via generale.\nPagina/Slide: TEMA 2.pptx, diapositiva «Artículo 161 – Delitos relativos a la manipulación genética» :contentReference[oaicite:2]{index=2}",
       "legal_reference": "Art. 161.2 Código Penal español (LO 10/1995, redacción LO 1/2015)",
@@ -1837,10 +1837,10 @@
     {
       "question": "85. El consentimiento válido, libre, consciente y expresamente emitido, exime de responsabilidad penal en los supuestos de:",
       "answers": [
-        { "text": "Trasplante de órganos.", "correct": false },
-        { "text": "Esterilizaciones.", "correct": false },
-        { "text": "Cirugía transexual.", "correct": false },
-        { "text": "Todas las anteriores son correctas.", "correct": true }
+        { "text": "Trasplante de órganos.", "correct": false},
+        { "text": "Esterilizaciones.", "correct": false},
+        { "text": "Cirugía transexual.", "correct": false},
+        { "text": "Todas las anteriores son correctas.", "correct": true}
       ],
       "explanation": "ES:\nEl artículo 156 CP establece que «el consentimiento válido, libre, consciente y expresamente emitido exime de responsabilidad penal en los supuestos de trasplante de órganos efectuado conforme a la ley, esterilizaciones y cirugía transexual realizadas por facultativo…». Por tanto, las tres opciones individuales (a, b y c) están comprendidas; la respuesta correcta es la opción global d).\nIT:\nSecondo l’art. 156 CP, «il consenso valido, libero, consapevole ed espresso esonera da responsabilità penale nei casi di trapianto di organi eseguito secondo legge, sterilizzazioni e chirurgia transex». Poiché tutti e tre i casi rientrano nella norma, l’unica risposta completa è la d).\nPagina/Slide: TEMA 3 (1).pptx, sezione «El consentimiento en las lesiones», diapositiva con el texto del art. 156 :contentReference[oaicite:2]{index=2}",
       "legal_reference": "Art. 156 Código Penal español (LO 10/1995, red. LO 2/2020)",
@@ -1849,10 +1849,10 @@
     {
       "question": "86. El consentimiento que exime de responsabilidad penal en las intervenciones del artículo 156 del CP no puede ser:",
       "answers": [
-        { "text": "Obtenido viciadamente.", "correct": false },
-        { "text": "Obtenido mediante precio.", "correct": false },
-        { "text": "Cuando el otorgante sea menor de edad.", "correct": false },
-        { "text": "Todas las anteriores son correctas.", "correct": true }
+        { "text": "Obtenido viciadamente.", "correct": false},
+        { "text": "Obtenido mediante precio.", "correct": false},
+        { "text": "Cuando el otorgante sea menor de edad.", "correct": false},
+        { "text": "Todas las anteriores son correctas.", "correct": true}
       ],
       "explanation": "ES:\nEl art. 156 CP señala que el consentimiento \"válido, libre, consciente y expresamente emitido\" exime de responsabilidad penal en trasplantes, esterilizaciones y cirugía transexual, **salvo que** dicho consentimiento «se haya obtenido viciadamente, o mediante precio o recompensa, o el otorgante sea menor de edad…». Las tres circunstancias de las letras a), b) y c) invalidan el consentimiento; por tanto, la respuesta correcta es la opción global d).\nIT:\nL’art. 156 CP dispone che il consenso «valido, libero, consapevole ed espresso» esonera da responsabilità penale in trapianti, sterilizzazioni e chirurgia transex, **tranne se** è stato ottenuto in modo viziato, mediante prezzo o se l’autore del consenso è minorenne. Tutte e tre le ipotesi (a, b, c) rendono nullo il consenso; quindi la risposta esatta è la d).\nPagina/Slide: TEMA 3 (1).pptx – diapositiva «El consentimiento en las lesiones» (texto del art. 156) :contentReference[oaicite:2]{index=2}",
       "legal_reference": "Art. 156 Código Penal español (LO 10/1995, red. LO 2/2020)",
