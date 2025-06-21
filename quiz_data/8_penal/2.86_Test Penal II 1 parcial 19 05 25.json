@@ -828,7 +828,7 @@
       ],
       "explanation": "ES:\nEl art. 143 bis CP se dirige a la difusión de contenidos que inciten al suicidio de *menores de edad o personas con discapacidad necesitadas de especial protección*; la opción b) refleja exactamente el supuesto.\nIT:\nL’art. 143 bis CP punisce la diffusione di contenuti che incitano al suicidio di *minori o persone con disabilità bisognose di speciale protezione*; corrisponde la risposta b).\nPagina/Slide: TEMA 1.pptx – «Artículo 143 bis»",
       "legal_reference": "Código Penal, art. 143 bis",
-      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf---12345---"
+      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
       "question": "Según el artículo 149 del Código Penal, ¿qué circunstancia determina la concurrencia del tipo hiperagravado de lesiones?",
@@ -953,122 +953,122 @@
     {
       "question": "7. ¿Qué modalidad se puede dar en los delitos relativos a la manipulación genética?",
       "answers": [
-        {"text": "es posible la tentativa acabada o inacabada", "correct": true},
-        {"text": "en cuanto a la forma culposa sólo es punible cuando la imprudencia sea leve", "correct": false},
-        {"text": "en el artículo 160.1 del CP se castiga con una penalidad ligeramente menos grave a la prevista para el tipo doloso del artículo 159", "correct": true},
-        {"text": "el artículo 160.2 del CP castiga con una pena ligeramente más grave que el artículo 159", "correct": false}
+        { "text": "Es posible la tentativa acabada o inacabada", "correct": true },
+        { "text": "En cuanto a la forma culposa sólo es punible cuando la imprudencia sea leve", "correct": false },
+        { "text": "En el artículo 160.1 del CP se castiga con una penalidad ligeramente menos grave a la prevista para el tipo doloso del artículo 159", "correct": false },
+        { "text": "El artículo 160.2 del CP castiga con una pena ligeramente más grave que el artículo 159", "correct": false }
       ],
-      "explanation": "ES: A: art.159 admite tentativa. B es falsa: culposa solo cuando sea grave, no leve. C: art.160.1 impone pena menor que el dolo. D: art.160.2 no agrava respecto al dolo. \nIT: A è prevista dall’art.159 CP (tentata). B è falsa: la forma colposa è punibile se grave. C corrisponde a art.160.1 CP. D è errata: art.160.2 non introduce pena più alta del dolo.",
-      "legal_reference": "Código Penal, arts. 159 y 160",
+      "explanation": "ES:\nLa tentativa (acabada o inacabada) es la única modalidad expresamente admitida por el art. 159 CP; la imprudencia grave se regula en el art. 160, pero no agrava la pena, sino que la atenúa, y en ningún caso se castiga la imprudencia leve. Por ello la opción a) es la única correcta.\nIT:\nSolo la tentativa (art. 159 CP) costituisce chiaramente una modalità prevista; l’imprudenza grave (art. 160 CP) comporta una pena inferiore e non peggiora il tipo, mentre l’imprudenza lieve non è punita.\nPagina/Slide: TEMA 2.pptx – diapositiva «Delitos de manipulación genética (arts. 159-160)»",
+      "legal_reference": "Código Penal, arts. 159-160",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
       "question": "8. Entre los elementos del delito de participación en riña se encuentran",
       "answers": [
-        {"text": "que en tal riña diversos agresores se acometen entre sí pudiendo precisar quién fue el agresor de cada cual", "correct": false},
-        {"text": "que en dicha riña no se utilicen medios o instrumentos que pongan en peligro la vida o integridad de las personas", "correct": false},
-        {"text": "que todos los intervinientes utilicen medios o instrumentos que pongan en peligro la integridad de las personas", "correct": false},
-        {"text": "que haya una pluralidad de personas que riñan entre sí con agresiones físicas entre varios grupos recíprocamente enfrentados", "correct": true}
+        { "text": "Que en tal riña diversos agresores se acometan entre sí pudiendo precisar quién fue el agresor de cada cual", "correct": false },
+        { "text": "Que en dicha riña no se utilicen medios o instrumentos que pongan en peligro la vida o integridad de las personas", "correct": false },
+        { "text": "Que todos los intervinientes utilicen medios o instrumentos que pongan en peligro la integridad de las personas", "correct": false },
+        { "text": "Que haya una pluralidad de personas que riñan entre sí con agresiones físicas entre varios grupos recíprocamente enfrentados", "correct": true }
       ],
-      "explanation": "ES: D es correcta: art.154 CP define riña tumultuaria como pluralidad de grupos enfrentados físicamente sin orden. A es errada porque no se precisa cada agresor. B y C son falsas: no exige ni prohíbe armas o instrumentos. \nIT: D riflette l’art.154 CP (riña tumultuaria). A non è richiesta l’impossibilità di identificare autore, B e C non sono elementi necessari.",
+      "explanation": "ES:\nEl art. 154 CP exige una confrontación física tumultuaria entre grupos; no requiere individualizar agresores ni exige -ni prohíbe- el uso de armas peligrosas. Por tanto, solo la opción d) describe un elemento típico.\nIT:\nL’art. 154 CP richiede pluralità di soggetti che si affrontano tumultuosamente; non è necessario identificare ogni aggressore né l’uso (o divieto) di strumenti pericolosi. Corretta quindi la d).\nPagina/Slide: TEMA 3 (1).pptx – diapositiva «4. La participación en riña»",
       "legal_reference": "Código Penal, art. 154",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
       "question": "9. ¿En algún caso es legal la esterilización de personas con discapacidad?",
       "answers": [
-        {"text": "sí siempre y cuando exista consentimiento expreso del discapacitado", "correct": false},
-        {"text": "no en ningún caso", "correct": false},
-        {"text": "deberá ser autorizado por el juez", "correct": true},
-        {"text": "sí siempre que esté autorizado de forma expresa por el representante legal", "correct": false}
+        { "text": "Sí siempre y cuando exista consentimiento expreso del discapacitado", "correct": false },
+        { "text": "No en ningún caso", "correct": false },
+        { "text": "Deberá ser autorizado por el juez", "correct": true },
+        { "text": "Sí siempre que esté autorizado de forma expresa por el representante legal", "correct": false }
       ],
-      "explanation": "ES: A es errada porque, aunque se requiera consentimiento, la legislación (CC, art.200.4) exige además autorización judicial para intervenciones de esterilización en incapaces. B es falsa: no se prohíbe absolutamente, existe vía judicial. C es correcta: el tutor puede consentir todo menos esterilización, para la cual se precisa autorización del juez. D es incorrecta: el representante legal solo puede consentir si hay autorización judicial previa.  \nIT: A è sbagliata perché, pur essendo necessario il consenso, il codice civile (art.200.4) richiede l’autorizzazione del giudice per la sterilizzazione di incapaci. B è falsa: non c’è divieto assoluto, è prevista l’autorizzazione giudiziaria. C è corretta: l’operazione di sterilizzazione necessita di autorizzazione giudiziale. D è errata: il rappresentante legale da solo non può sostituirsi al giudice.",
-      "legal_reference": "Código Civil, art. 200.4",
+      "explanation": "ES:\nEl art. 200.4 CC y el art. 156 CP exigen autorización judicial previa para la esterilización de personas con discapacidad, aun contando con su consentimiento o el de su representante; la única opción correcta es la c).\nIT:\nPer la sterilizzazione di persone disabili serve l’autorizzazione del giudice (art. 200.4 CC, art. 156 CP); pertanto è corretta solo la risposta c).\nPagina/Slide: TEMA 3 (1).pptx – diapositiva «Consentimiento y esterilizaciones (art. 156 CP)»",
+      "legal_reference": "Código Civil, art. 200.4; Código Penal, art. 156",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
       "question": "10. ¿Cuál de las siguientes circunstancias no supone una agravación del delito de maltrato habitual?",
       "answers": [
-        {"text": "cuando alguno de los actos de violencia se perpetre en presencia de menores de 16 años", "correct": true},
-        {"text": "cuando se utilicen armas", "correct": false},
-        {"text": "cuando tengan lugar en el domicilio común o en el domicilio de la víctima", "correct": false},
-        {"text": "cuando se realicen quebrantando una pena de alejamiento", "correct": false}
+        { "text": "Cuando alguno de los actos de violencia se perpetre en presencia de menores de 16 años", "correct": true },
+        { "text": "Cuando se utilicen armas", "correct": false },
+        { "text": "Cuando tengan lugar en el domicilio común o en el domicilio de la víctima", "correct": false },
+        { "text": "Cuando se realicen quebrantando una pena de alejamiento", "correct": false }
       ],
-      "explanation": "ES: A es correcta (no agrava) porque el art.173.2 CP agrava si la violencia ocurre en presencia de menores, sin límite de edad; referirse sólo a menores de 16 es inexacto. B, C y D sí son agravantes expresamente previstos en art.173.2 CP.  \nIT: A è corretta: l’art.173.2 CP indica aggravante per presenza di minori in generale, non solo <16 anni; il testo limitato a 16 non corrisponde. B, C e D sono aggravanti previste.",
+      "explanation": "ES:\nEl art. 173.2 CP agrava si la violencia se comete «en presencia de menores», sin limitar la edad; circunscribirlo a menores de 16 años no reproduce el requisito legal y, por ello, la opción a) es la única que NO implica agravación. Las restantes sí figuran como circunstancias agravantes.\nIT:\nL’art. 173.2 CP parla di «presenza di minori» senza soglia d’età: limitare a <16 anni non coincide con la norma; la a) è quindi l’unica non aggravante. B, C e D sono aggravanti espresse.\nPagina/Slide: TEMA 4.pptx – diapositiva «Artículo 173.2 – Maltrato habitual»",
       "legal_reference": "Código Penal, art. 173.2",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
       "question": "11. ¿Qué limitación introdujo la ley integral de 2004 respecto de la violencia de género?",
       "answers": [
-        {"text": "una limitación respecto al sujeto: pudiendo ser víctima las mujeres en el ámbito de la pareja o expareja", "correct": true},
-        {"text": "una limitación respecto al objeto: pudiendo ser víctimas las mujeres agredidas por su pareja o expareja o por otros familiares o personas de su ámbito doméstico", "correct": false},
-        {"text": "una limitación respecto del objeto introduciendo también como agresores a los jefes", "correct": false},
-        {"text": "todas son correctas", "correct": false}
+        { "text": "Una limitación respecto al sujeto: pudiendo ser víctima las mujeres en el ámbito de la pareja o expareja", "correct": true },
+        { "text": "Una limitación respecto al objeto: pudiendo ser víctimas las mujeres agredidas por su pareja o expareja o por otros familiares o personas de su ámbito doméstico", "correct": false },
+        { "text": "Una limitación respecto del objeto introduciendo también como agresores a los jefes", "correct": false },
+        { "text": "Todas son correctas", "correct": false }
       ],
-      "explanation": "ES: A es verdadera: la LO 1/2004 define violencia de género solo en el marco de relaciones de pareja o expareja (art.1). B amplía erróneamente el ámbito a otros familiares. C es falsa: no se incluyen jefes. D es errada.  \nIT: A è vera: la L.O.1/2004 circoscrive la violenza di genere a donna–partner/ex-partner (art.1). B è sbagliata perché estende a familiari. C non menziona i datori di lavoro. D è falsa.",
+      "explanation": "ES:\nLa LO 1/2004 configura la violencia de género exclusivamente en el marco de relaciones de pareja o expareja (art. 1), limitación que se recoge solo en la opción a). Las demás amplían indebidamente el ámbito.\nIT:\nLa L.O. 1/2004 limita la violenza di genere a rapporti di coppia o ex-coppia (art. 1); questa specifica si trova solo nella risposta a).\nPagina/Slide: TEMA 4.pptx – diapositiva «LO 1/2004 – Ámbito de aplicación»",
       "legal_reference": "Ley Orgánica 1/2004, art. 1",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
       "question": "12. Por el delito de violencia de género se castiga",
       "answers": [
-        {"text": "solo el maltrato físico", "correct": false},
-        {"text": "solo el maltrato psíquico", "correct": false},
-        {"text": "ambos", "correct": true},
-        {"text": "la violencia siempre que se trate de hombre respecto de la mujer", "correct": false}
+        { "text": "Solo el maltrato físico", "correct": false },
+        { "text": "Solo el maltrato psíquico", "correct": false },
+        { "text": "Ambos", "correct": true },
+        { "text": "La violencia siempre que se trate de hombre respecto de la mujer", "correct": false }
       ],
-      "explanation": "ES: A y B son falsas: art.173.1 CP castiga tanto violencia física como psíquica. C es correcta. D es incorrecta: requiere relación de pareja, no cualquier violencia hombre–mujer.  \nIT: A e B sono sbagliate: l’art.173.1 CP include violenza fisica e psicologica. C è corretta. D è errata: serve relazione di coppia.",
-      "legal_reference": "Código Penal, art. 173.1",
+      "explanation": "ES:\nEl art. 173.1 CP (en conexión con LO 1/2004) castiga tanto la violencia física como la psíquica ejercida habitualmente; la opción c) es la correcta.\nIT:\nL’art. 173.1 CP punisce sia violenza fisica sia psicologica; corretta la c).\nPagina/Slide: TEMA 4.pptx – diapositiva «Violencia de género – arts. 173.1 y LO 1/2004»",
+      "legal_reference": "Código Penal, art. 173.1; LO 1/2004",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
       "question": "13. En el delito de divulgación no consentida de imágenes o grabaciones de carácter íntimo, ¿cuál de las siguientes afirmaciones es cierta?",
       "answers": [
-        {"text": "se encuentra recogido en el artículo 198 del CP", "correct": false},
-        {"text": "si existe consentimiento en la formación de las imágenes no existiría tal delito", "correct": false},
-        {"text": "si está el consentimiento en la difusión de las imágenes la conducta será atípica", "correct": true},
-        {"text": "solo es punible la toma de imágenes sin consentimiento", "correct": false}
+        { "text": "Se encuentra recogido en el artículo 198 del CP", "correct": false },
+        { "text": "Si existe consentimiento en la formación de las imágenes no existiría tal delito", "correct": false },
+        { "text": "Si está el consentimiento en la difusión de las imágenes la conducta será atípica", "correct": true },
+        { "text": "Solo es punible la toma de imágenes sin consentimiento", "correct": false }
       ],
-      "explanation": "ES: A es falsa: la regulación está en art.197.7 CP, no en el 198 (que trata calumnias/injurias). B es errada: el delito se centra en la difusión, no en la toma. C es correcta: sin consentimiento para la difusión, es atípica. D es falsa: la punición se refiere a divulgar, no solo a la toma.  \nIT: A è sbagliata: è l’art.197.7 CP che punisce la divulgazione. B è errata: il reato non riguarda la sola formazione. C è corretta: con consenso alla diffusione, non c’è reato. D non corrisponde alla norma.",
+      "explanation": "ES:\nEl art. 197.7 CP castiga la difusión no consentida; con consentimiento para divulgar, la conducta es atípica (opción c). Los artículos 198 tratan otras materias y el tipo no se centra en la toma de imágenes.\nIT:\nL’art. 197.7 CP punisce la diffusione senza consenso; con consenso alla diffusione non c’è reato (c). Gli artt. 198 CP riguardano altro.\nPagina/Slide: TEMA 6.pptx – diapositiva «Artículo 197.7 – ‘revenge porn’»",
       "legal_reference": "Código Penal, art. 197.7",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
       "question": "14. En el delito de maltrato habitual se castiga",
       "answers": [
-        {"text": "a quien habitualmente ejerza violencia física y psíquica sobre quien sea su cónyuge o haya sido", "correct": true},
-        {"text": "a quien habitualmente ejerza violencia física o psíquica únicamente sobre su cónyuge siempre no estén separados legalmente", "correct": false},
-        {"text": "a quien habitualmente ejerza violencia física o psíquica sobre quien sea o haya sido su cónyuge, siendo únicamente punible si esta desarrollada en el ámbito de una relación heterosexual", "correct": false},
-        {"text": "en un delito propio en el que la conducta se debe realizar por el hombre sobre mujer", "correct": false}
+        { "text": "A quien habitualmente ejerza violencia física y psíquica sobre quien sea su cónyuge o haya sido", "correct": true },
+        { "text": "A quien habitualmente ejerza violencia física o psíquica únicamente sobre su cónyuge siempre no estén separados legalmente", "correct": false },
+        { "text": "A quien habitualmente ejerza violencia física o psíquica sobre quien sea o haya sido su cónyuge, siendo únicamente punible si está desarrollada en el ámbito de una relación heterosexual", "correct": false },
+        { "text": "En un delito propio en el que la conducta se debe realizar por el hombre sobre mujer", "correct": false }
       ],
-      "explanation": "ES: A es correcta: art.173.2 CP castiga la violencia habitual física o psíquica sobre cónyuge o expareja. B es falsa: no exige no separación legal. C es errada: no requiere relación heterosexual. D es incorrecta: no se limita a hombre sobre mujer.  \nIT: A è giusta: l’art.173.2 CP punisce violenza abituale su coniuge/ex. B è sbagliata: non si richiede lo stato civile. C è errata: orientamento sessuale non rileva. D è falso: il reato non è esclusivo tra uomo e donna.",
+      "explanation": "ES:\nEl art. 173.2 CP tipifica la violencia habitual (física o psíquica) sobre cónyuge o expareja, sin exigencias de sexo, orientación ni estado civil; la descripción correcta es solo la a).\nIT:\nL’art. 173.2 CP punisce la violenza abituale su coniuge/ex senza requisiti di genere o orientamento; corretta la a).\nPagina/Slide: TEMA 4.pptx – diapositiva «Artículo 173.2 – Maltrato habitual»",
       "legal_reference": "Código Penal, art. 173.2",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
       "question": "15. ¿Cuál de las siguientes conductas supone una agravación en el delito de detención ilegal?",
       "answers": [
-        {"text": "si el encierro o detención durase más de 15 años", "correct": false},
-        {"text": "si el culpable diera libertad al encerrado o detenido después de los 5 primeros días de su detención", "correct": false},
-        {"text": "si el encierro o detención durase más de 20 días", "correct": false},
-        {"text": "el particular que fuera de los casos permitido por la ley aprehendiera a una persona para presentarla inmediatamente a la autoridad judicial", "correct": false}
+        { "text": "Si el encierro o detención durase más de 15 años", "correct": false },
+        { "text": "Si el culpable diera libertad al encerrado o detenido después de los 5 primeros días de su detención", "correct": false },
+        { "text": "Si el encierro o detención durase más de 20 días", "correct": true },
+        { "text": "El particular que, fuera de los casos permitidos por la ley, aprehendiera a una persona para presentarla inmediatamente a la autoridad judicial", "correct": false }
       ],
-      "explanation": "ES: Ninguna es correcta. El art.164 CP agrava cuando la detención dura más de 15 días (no años ni 20 días). Las demás no coinciden con supuestos agravantes.  \nIT: Nessuna risposta è corretta: l’art.164 CP aggravante scatta oltre i 15 giorni, non anni o 20 giorni; le altre ipotesi non corrispondono.\ncommento ispe:\nSe impondrá AGRAVARÁ la pena de prisión de cinco a ocho años si el encierro o detención ha durado más de quince días.\nSalvo error por mi parte, ninguna es totalmente correcta. No se si puede ser un error de transcripción. La A sería correcta si en vez de años fueran días.",
-      "legal_reference": "Código Penal, art. 164",
+      "explanation": "ES:\nEl art. 163.3 CP (pena 5-8 años) agrava cuando el encierro dura «más de quince días»; 20 días supera dicho umbral, por lo que la opción c) encaja. La a) es absurda (años), la b) se refiere a atenuación (art. 163.2) y la d) describe la forma privilegiada (art. 163.4).\nIT:\nL’aggravante scatta se la detenzione supera i 15 giorni (art. 163.3 CP); 20 giorni li supera, quindi corretta la c). Le altre opzioni riguardano attenuante o ipotesi privilegiate.\nPagina/Slide: TEMA 5.pptx – diapositiva «Artículo 163 – Detenciones ilegales (agravante >15 días)»",
+      "legal_reference": "Código Penal, art. 163.3",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
     },
     {
       "question": "16. La conducta típica de las amenazas puede ser:",
       "answers": [
-        {"text": "solo la amenaza de un mal constitutivo de delito", "correct": false},
-        {"text": "solo la amenaza de un mal no constitutivo de delito", "correct": false},
-        {"text": "solo en el caso de amenazas graves", "correct": false},
-        {"text": "tanto las amenazas de un mal constitutivo de delito como las de un mal no constitutivo", "correct": true}
+        { "text": "Solo la amenaza de un mal constitutivo de delito", "correct": false },
+        { "text": "Solo la amenaza de un mal no constitutivo de delito", "correct": false },
+        { "text": "Solo en el caso de amenazas graves", "correct": false },
+        { "text": "Tanto las amenazas de un mal constitutivo de delito como las de un mal no constitutivo", "correct": true }
       ],
-      "explanation": "ES: D es correcta: art.169 CP castiga amenazas de cualquier mal, sea o no delito. A y B son parciales. C es falsa: no exige gravedad específica.  \nIT: D è corretta: l’art.169 CP include minacce di danni che siano reato o meno. A e B sono parziali; C è errata.",
+      "explanation": "ES:\nEl art. 169 CP distingue entre amenazas condicionales (mal que sea delito) y no condicionales (mal no constitutivo); ambas son punibles. Solo la opción d) recoge ambas modalidades.\nIT:\nL’art. 169 CP punisce sia minacce di un male che costituisca reato sia di un male che non lo sia; corretta la d).\nPagina/Slide: TEMA 5.pptx – diapositiva «Artículo 169 – Amenazas»",
       "legal_reference": "Código Penal, art. 169",
-      "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt"
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25.txt---12345---"
     },
     {
       "question": "17. Entre los elementos del delito de coacciones se encuentra",
