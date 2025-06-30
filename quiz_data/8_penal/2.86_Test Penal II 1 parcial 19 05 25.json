@@ -463,14 +463,14 @@
     {
       "question": "A efectos de sanción del delito de homicidio por imprudencia grave (art. 142.1 CP), no se reputará que concurra dicha imprudencia cuando…",
       "answers": [
-        { "text": "El autor condujere un vehículo a motor o un ciclomotor a velocidad superior en 60 km/h en vía urbana", "correct": false},
-        { "text": "El autor condujere a velocidad superior en 80 km/h en vía interurbana a la permitida reglamentariamente", "correct": false},
-        { "text": "El autor condujera un vehículo de motor o ciclomotor bajo la influencia de alcohol siempre que la tasa supere en aire espirado los 0,60 mg/l", "correct": false},
-        { "text": "El autor condujera un vehículo a motor bajo la influencia de estupefacientes", "correct": true}
+        { "text": "El autor condujere un vehículo a motor o un ciclomotor a velocidad superior en 60 km/h en vía urbana", "correct": false },
+        { "text": "El autor condujere a velocidad superior en 80 km/h en vía interurbana a la permitida reglamentariamente", "correct": false },
+        { "text": "El autor condujera un vehículo a motor bajo la influencia de estupefacientes", "correct": true },
+        { "text": "El autor condujera un vehículo de motor o ciclomotor bajo la influencia de alcohol siempre que la tasa supere en aire espirado los 0,60 mg/l", "correct": false }
       ],
-      "explanation": "ES:\nEl art. 142.1 presume imprudencia grave por exceso de velocidad (+60 km/h urbano, +80 km/h interurbano) o alcohol > 0,60 mg/l. No menciona explícitamente la conducción bajo estupefacientes, por lo que la d) escapa a la presunción y es la opción correcta.\nIT:\nL’art. 142.1 presume imprudenza grave per eccesso di velocità o tasso alcolemico > 0,60 mg/l; non cita espressamente la guida sotto stupefacenti, quindi la d) è corretta.\nPagina/Slide: TEMA 1.pptx – «Artículo 142.1 CP – Imprudencia grave»",
-      "legal_reference": "Código Penal, art. 142.1",
-      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
+      "explanation": "ES:\nTras la reforma operada por la LO 2/2019, el segundo párrafo del art. 142.1 CP presume **imprudencia grave** únicamente en dos supuestos concretos:\n1. Conducción con exceso de velocidad ≥ 60 km/h en vía urbana o ≥ 80 km/h en interurbana (art. 379.1 CP).\n2. Conducción con una tasa de alcohol superior a 0,60 mg/l en aire espirado (art. 379.2, primer inciso).\nLa conducción **bajo la influencia de drogas o estupefacientes** no se menciona expresamente como presunción automática; si bien puede constituir imprudencia grave previa valoración judicial, no opera la presunción ‘iuris et de iure’. Por ello la opción **C** es la única que **no** entra en la presunción y debe marcarse.\nIT:\nDopo la riforma (LO 2/2019) il 2º comma dell’art. 142.1 presume l’imprudenza grave solo in due ipotesi: eccesso di velocità (≥ 60 km/h urbano, ≥ 80 km/h extraurbano) e tasso alcolico > 0,60 mg/l. La guida sotto stupefacenti non rientra nella presunzione automatica; pertanto l’opzione **C** è l’unica corretta.\nPagina/Slide: TEMA 1.pptx – «Homicidio imprudente grave – art. 142.1 CP»",
+      "legal_reference": "Código Penal, art. 142.1 (párrafo 2º) y art. 379 CP",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25"
     },
     {
       "question": "El artículo 142.1 CP prevé una pena de inhabilitación especial para el caso de homicidio cometido por imprudencia grave si el mismo se ejecutó:",
