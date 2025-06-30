@@ -316,26 +316,27 @@
       "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
-      "question": "Señale la respuesta incorrecta. El tipo básico de lesiones del artículo 147.1 CP exige como requisito:",
-      "answers": [
-        { "text": "El menoscabo de la integridad corporal, la salud física o mental", "correct": false},
-        { "text": "Que se causen por cualquier medio o procedimiento", "correct": false},
-        { "text": "Que se cometa por dolo o imprudencia", "correct": false},
-        { "text": "Que la lesión requiera para su sanidad tratamiento médico o quirúrgico", "correct": true}
-      ],
-      "explanation": "L'articolo 147.1 del CP spagnolo punisce le lesioni che non richiedono trattamento medico o chirurgico, mentre l'articolo 147.2 punisce quelle che lo richiedono (con pene più severe).\nPagina/Slide: TEMA 3 (1).pptx – «Artículo 147 CP – Lesiones básicas»",
-      "legal_reference": "Código Penal, art. 147.1",
-      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
-    },
+  "question": "Señale la respuesta incorrecta. El tipo básico de lesiones del artículo 147.1 CP exige como requisito:",
+  "answers": [
+    { "text": "Que la lesión requiera para su sanidad tratamiento médico o quirúrgico", "correct": false },
+    { "text": "El menoscabo de la integridad corporal, la salud física o mental", "correct": false },
+    { "text": "Que se causen por cualquier medio o procedimiento", "correct": false },
+    { "text": "Que se cometa por dolo o imprudencia", "correct": true }
+  ],
+  "explanation": "ES:\nEl art. 147.1 CP castiga las lesiones **dolosas** que (i) menoscaben la integridad corporal o la salud física/mental, (ii) se produzcan por cualquier medio o procedimiento y (iii) **requieran tratamiento médico o quirúrgico además de la primera asistencia facultativa**. La imprudencia se regula aparte (arts. 152-152 bis); por eso la opción **D** –que exige \"dolo o imprudencia\"– incluye un elemento (imprudencia) que **no** es requisito del tipo básico y constituye la respuesta incorrecta.\nIT:\nL’art. 147.1 CP punisce solo le lesioni **dolose** che (i) ledono l’integrità fisica o la salute, (ii) sono causate con qualunque mezzo e (iii) richiedono trattamento medico-chirurgico oltre al primo soccorso. L’imprudenza è disciplinata a parte (artt. 152-152 bis); quindi l’opzione **D** è l’unica che contiene un requisito non richiesto dal tipo e risulta la risposta errata.\nPagina/Slide: TEMA 3 (1).pptx – «Artículo 147.1 – Lesiones que requieren tratamiento médico»\nNel Código Penal spagnolo il dolo è il regime ordinario di imputación subjetiva:\nArt. 12 CP → «Las acciones u omisiones imprudentes solo se castigarán cuando expresamente lo disponga la ley».\nConseguenza → Se un articolo non menziona l’imprudencia, si punisce solo la condotta dolosa.",
+  "legal_reference": "Código Penal, art. 147.1 y arts. 152-152 bis",
+  "original_file": "Test Penal II 1 parcial AGGIORNATO 19 05 25"
+},
+
     {
       "question": "Señale la respuesta incorrecta. En el ámbito del delito de lesiones, no se consideran tratamiento médico o quirúrgico:",
       "answers": [
         { "text": "La cura de la herida", "correct": false},
-        { "text": "Los puntos de aproximación", "correct": false},
-        { "text": "La primera asistencia facultativa", "correct": true},
+        { "text": "Los puntos de aproximación", "correct": true},
+        { "text": "La primera asistencia facultativa", "correct": false},
         { "text": "La simple vigilancia del curso de la lesión", "correct": false}
       ],
-      "explanation": "ES:\nSegún la doctrina y la jurisprudencia, la **primera asistencia facultativa** (mera exploración) no constituye tratamiento médico; las demás sí se consideran tratamientos.\nIT:\nDottrina e giurisprudenza escludono che la **prima assistenza medica** sia trattamento; gli altri interventi, invece, lo sono.\nPagina/Slide: TEMA 3 (1).pptx – «Tratamiento médico o quirúrgico – TS»",
+      "explanation": "ES:\nLa jurisprudencia del Tribunal Supremo (p. ej. STS 433/2011, 825/2013) distingue los cuidados básicos del **tratamiento médico o quirúrgico**. **No se consideran tratamiento**: 1) la primera asistencia facultativa (exploración y cura elemental), 2) la simple cura o limpieza de la herida y 3) la mera vigilancia de la evolución de la lesión. **Sí se consideran tratamiento** los puntos de aproximación (suturas, grapas o tiras adhesivas), por lo que la opción C menciona un acto que SÍ es tratamiento y resulta la respuesta incorrecta.\nIT:\nLa giurisprudenza spagnola (es. STS 433/2011, 825/2013) distingue tra cure iniziali e **trattamento medico-chirurgico**. **Non costituiscono trattamento**: 1) la prima assistenza medica (esplorazione e medicazione di base), 2) la semplice pulizia/medicazione della ferita e 3) il controllo evolutivo della lesione. **Costituisce invece trattamento** la sutura con punti di avvicinamento; di conseguenza l’opzione C fa riferimento a un atto che È trattamento, risultando l’unica risposta errata.\nPagina/Slide: TEMA 3 (1).pptx – «Concepto de tratamiento médico o quirúrgico – TS»",
       "legal_reference": "Código Penal, art. 147.1 (interpretación jurisprudencial)",
       "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
