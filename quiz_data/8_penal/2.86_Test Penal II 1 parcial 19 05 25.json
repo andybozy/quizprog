@@ -897,8 +897,8 @@
       "answers": [
         { "text": "Dentro de los 2 primeros días de su detención, sin haber logrado el objeto que se había propuesto", "correct": false},
         { "text": "Dentro de los 2 primeros días de su detención, aunque haya logrado el objeto que se había propuesto", "correct": false},
-        { "text": "Dentro de los primeros días de su detención, sin haber logrado el objeto que se había propuesto", "correct": false},
-        { "text": "Dentro de los 3 primeros días de su detención, aunque haya logrado el objeto que se había propuesto", "correct": true}
+        { "text": "Dentro de los primeros días de su detención, sin haber logrado el objeto que se había propuesto", "correct": true},
+        { "text": "Dentro de los 3 primeros días de su detención, aunque haya logrado el objeto que se había propuesto", "correct": false}
       ],
       "explanation": "ES:\nEl art. 163.2 CP atenúa la pena si el culpable pone en libertad a la víctima dentro de los tres primeros días desde el encierro, sin exigir que haya o no cumplido su propósito. Solo la opción d) menciona el plazo exacto de tres días.\nIT:\nL’art. 163.2 CP prevede la pena inferiore se il reo libera la persona entro i primi tre giorni; non importa se abbia realizzato il suo intento. L’unica opzione con il termine preciso di tre giorni è la d).\nPagina/Slide: TEMA 5.pptx – «Artículo 163 (2)»",
       "legal_reference": "Código Penal, art. 163.2",
@@ -1159,9 +1159,9 @@
     {
       "question": "9. ¿En algún caso es legal la esterilización de personas con discapacidad?",
       "answers": [
-        { "text": "Sí siempre y cuando exista consentimiento expreso del discapacitado", "correct": false},
+        { "text": "Sí siempre y cuando exista consentimiento expreso del discapacitado", "correct": true},
         { "text": "No en ningún caso", "correct": false},
-        { "text": "Deberá ser autorizado por el juez", "correct": true},
+        { "text": "Deberá ser autorizado por el juez", "correct": false},
         { "text": "Sí siempre que esté autorizado de forma expresa por el representante legal", "correct": false}
       ],
       "explanation": "ES:\nEl art. 200.4 CC y el art. 156 CP exigen autorización judicial previa para la esterilización de personas con discapacidad, aun contando con su consentimiento o el de su representante; la única opción correcta es la c).\nIT:\nPer la sterilizzazione di persone disabili serve l’autorizzazione del giudice (art. 200.4 CC, art. 156 CP); pertanto è corretta solo la risposta c).\nPagina/Slide: TEMA 3 (1).pptx – diapositiva «Consentimiento y esterilizaciones (art. 156 CP)»",
