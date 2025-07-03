@@ -3,17 +3,197 @@
   "file_name": "Test Penal II 2 parcial AGGIORNATO 19 05 25",
   "questions": [
     {
-  "question": "2) Se considerará un delito contra la integridad moral tipificado en el artículo 173 del CP, el tener conocimiento del paradero del cadáver de una persona y:",
-  "answers": [
-    { "text": "Tardar más de quince días en comunicarlo a los familiares.", "correct": false },
-    { "text": "Ocultarlo en su primera pregunta por el órgano judicial.", "correct": false },
-    { "text": "Ocultarlo de modo reiterado a los familiares o allegados.", "correct": true },
-    { "text": "Ninguna de las anteriores es correcta.", "correct": false }
-  ],
-  "explanation": "ES:\nEl segundo párrafo del art. 173.1 CP (tras la reforma de la LO 14/2022) castiga con la misma pena del tipo básico a «quienes, teniendo conocimiento del paradero del cadáver de una persona, **oculten de modo reiterado tal información a los familiares o allegados de la misma**». No se menciona ningún plazo temporal ni la comparecencia ante la autoridad judicial, de modo que solo la opción c) refleja el requisito legal.\nIT:\nIl secondo comma dell’art. 173.1 CP (modificato dalla LO 14/2022) punisce con la stessa pena del tipo base chi, «conoscendo il luogo in cui si trova il cadavere di una persona, **occulti in modo reiterato tale informazione ai familiari o persone a lei vicine**». Non si prevede alcun termine di 15 giorni né il semplice silenzio davanti al giudice; quindi l’unica risposta corretta è la c).\nPagina/Slide: TEMA 6.pptx, diapositiva «Artículo 173 – Ocultación del cadáver» :contentReference[oaicite:2]{index=2}",
-  "legal_reference": "Art. 173.1 (2.º párrafo) Código Penal español, introducido por LO 14/2022",
-  "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
-},
+      "question": "2) Se considerará un delito contra la integridad moral tipificado en el artículo 173 del CP, el tener conocimiento del paradero del cadáver de una persona y:",
+      "answers": [
+        { "text": "Tardar más de quince días en comunicarlo a los familiares.", "correct": false },
+        { "text": "Ocultarlo en su primera pregunta por el órgano judicial.", "correct": false },
+        { "text": "Ocultarlo de modo reiterado a los familiares o allegados.", "correct": true },
+        { "text": "Ninguna de las anteriores es correcta.", "correct": false }
+      ],
+      "explanation": "ES:\nEl segundo párrafo del art. 173.1 CP (tras la reforma de la LO 14/2022) castiga con la misma pena del tipo básico a «quienes, teniendo conocimiento del paradero del cadáver de una persona, **oculten de modo reiterado tal información a los familiares o allegados de la misma**». No se menciona ningún plazo temporal ni la comparecencia ante la autoridad judicial, de modo que solo la opción c) refleja el requisito legal.\nIT:\nIl secondo comma dell’art. 173.1 CP (modificato dalla LO 14/2022) punisce con la stessa pena del tipo base chi, «conoscendo il luogo in cui si trova il cadavere di una persona, **occulti in modo reiterato tale informazione ai familiari o persone a lei vicine**». Non si prevede alcun termine di 15 giorni né il semplice silenzio davanti al giudice; quindi l’unica risposta corretta è la c).\nPagina/Slide: TEMA 6.pptx, diapositiva «Artículo 173 – Ocultación del cadáver» :contentReference[oaicite:2]{index=2}",
+      "legal_reference": "Art. 173.1 (2.º párrafo) Código Penal español, introducido por LO 14/2022",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+    },
+    {
+      "question": "3) Se considera delito de acoso laboral del artículo 173 del CP la actuación que se comete concurriendo el siguiente requisito:",
+      "answers": [
+        { "text": "Que el autor se prevalga de su relación de superioridad.", "correct": false },
+        { "text": "Que se produzca en el ámbito de cualquier relación laboral o funcional.", "correct": false },
+        { "text": "Que suponga un grave acoso contra la víctima.", "correct": false },
+        { "text": "Todas las anteriores son correctas.", "correct": true }
+      ],
+      "explanation": "ES:\nEl art. 173.1 CP (párrafo 3.º) tipifica el mobbing: «…quienes, **en el ámbito de cualquier relación laboral o funcionarial**, y **prevaleciéndose de su relación de superioridad**, **realicen de manera reiterada actos hostiles o humillantes que supongan un grave acoso** contra la víctima…». Las tres premisas de las opciones a), b) y c) son cumulativas, por lo que la respuesta correcta es la d).\nIT:\nIl terzo comma dell’art. 173.1 CP configura il mobbing: «…chi, **nell’ambito di un rapporto di lavoro o funzionale**, **approfittando della propria posizione di superiorità**, compie in modo reiterato atti ostili o umilianti che costituiscono **grave molestia** nei confronti della vittima…». Tutte e tre le condizioni (a, b, c) sono richieste contemporaneamente; dunque la risposta corretta è la d).\nPagina/Slide: TEMA 6.pptx, diapositiva «Artículo 173.1 – Acoso laboral»",
+      "legal_reference": "Art. 173.1 (párrafo 3.º) Código Penal español (LO 10/1995, redacción LO 1/2015)",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+    },
+    {
+      "question": "¿Cuál de los siguientes no es un requisito del delito de acoso inmobiliario del artículo 173 del CP?",
+      "answers": [
+        { "text": "Que constituya un trato degradante.", "correct": true },
+        { "text": "Que se lleven a cabo actos hostiles o humillantes.", "correct": false },
+        { "text": "Que la actuación se realice de forma reiterada.", "correct": false },
+        { "text": "Que tenga por objeto impedir el legítimo disfrute de la vivienda.", "correct": false }
+      ],
+      "explanation": "ES:\nEl último párrafo del art. 173.1 CP castiga el llamado *acoso inmobiliario* cuando el autor «**de forma reiterada lleve a cabo actos hostiles o humillantes que, *sin llegar a constituir trato degradante*, tengan por objeto impedir el legítimo disfrute de la vivienda» :contentReference[oaicite:3]{index=3}. Por tanto son requisitos (i) la reiteración, (ii) los actos hostiles/humillantes y (iii) el fin de impedir el disfrute de la vivienda, pero **no se exige que esos actos alcancen la intensidad de un trato degradante**.\nIT:\nL’ultimo comma dell’art. 173.1 CP punisce il *mobbing immobiliare* quando l’agente «**in maniera reiterata compie atti ostili o umilianti che, *senza raggiungere la soglia del trattamento degradante*, mirano a impedire il legittimo godimento dell’abitazione» :contentReference[oaicite:4]{index=4}. Sono dunque requisiti la reiterazione, gli atti ostili/umilianti e l’obiettivo di impedire il godimento dell’immobile; **non** è richiesto che costituiscano un trattamento degradante.\nPagina/Slide: TEMA 6.pptx, diapositiva «Artículo 173 – Acoso inmobiliario».",
+      "legal_reference": "Art. 173.1 (párrafo final) Código Penal español, redacción LO 1/2015",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+    },
+    {
+      "question": "8) El delito de trata de seres humanos del artículo 177bis del CP se comete con una serie de finalidades enumeradas por el precepto, indique cual de las siguientes no es una de ellas:",
+      "answers": [
+        { "text": "Pornografía.", "correct": false },
+        { "text": "Esclavitud.", "correct": false },
+        { "text": "Lesiones.", "correct": true },
+        { "text": "Matrimonio forzado.", "correct": false }
+      ],
+      "explanation": "ES:\nEl art. 177 bis 1 CP enumera como fines de explotación: trabajos o servicios forzados, esclavitud o prácticas afines, servidumbre o mendicidad; explotación sexual **incluida la pornografía**; explotación para actividades delictivas; extracción de órganos; y **matrimonio forzado**. No menciona las «lesiones» como finalidad autónoma, de modo que esa opción queda fuera del tipo penal.\nIT:\nL’art. 177 bis 1 CP elenca tra gli scopi di sfruttamento: lavoro o servizi forzati, schiavitù o pratiche assimilate, servitù o mendicità; sfruttamento sessuale **compresa la pornografia**; sfruttamento per attività delittuose; espianto di organi; e **matrimonio forzato**. «Lesioni» non figura tra tali finalità, quindi l’opzione corretta è la c).\nPagina/Slide: TEMA 6.pptx, sección “5. Trata de seres humanos”, diapositiva con texto de «Artículo 177 bis.1» :contentReference[oaicite:2]{index=2}",
+      "legal_reference": "Art. 177 bis 1 Código Penal español (LO 10/1995, red. LO 1/2015)",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+    },
+    {
+      "question": "9) La pena para el delito de trata de seres humanos se agravará si:",
+      "answers": [
+        { "text": "Se pone en peligro la vida de la persona.", "correct": false },
+        { "text": "Se pone en peligro la integridad física de la persona.", "correct": false },
+        { "text": "Se pone en peligro la integridad psíquica de la persona.", "correct": false },
+        { "text": "Todas las anteriores son correctas.", "correct": true }
+      ],
+      "explanation": "ES:\nEl art. 177 bis.4 e) CP dispone que las penas de la trata se impondrán en su mitad superior «cuando se haya puesto en peligro la vida, la integridad física o la integridad psíquica» de la víctima, bastando cualquiera de esos riesgos para agravar. Por ello, las tres situaciones de las letras a), b) y c) activan la agravación, de modo que la respuesta correcta es la d).\nIT:\nL’art. 177 bis.4 e) CP prevede l’aumento di pena (metà superiore) quando l’autore mette in pericolo la vita o l’integrità fisica o psichica della vittima. Qualunque di tali pericoli fa scattare l’aggravante; quindi la risposta corretta è la d).\nPagina/Slide: TEMA 6.pptx, sezione «5. Trata de seres humanos», diapositiva con il testo dell’art. 177 bis.4 e).",
+      "legal_reference": "Art. 177 bis.4 e) Código Penal español (LO 10/1995, red. LO 1/2015)",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+    },
+    {
+      "question": "12) Indique la respuesta incorrecta. El artículo 178.2 del CP establece que se considerará en todo caso agresión sexual:",
+      "answers": [
+        { "text": "Las que se realizan empleando violencia.", "correct": false },
+        { "text": "Las que se realizan empleando intimidación.", "correct": false },
+        { "text": "Las que se realizan empleando fuerza.", "correct": true },
+        { "text": "Las que se realizan empleando abuso de superioridad.", "correct": false }
+      ],
+      "explanation": "ES:\nEl art. 178.2 CP enumera, sin carácter exhaustivo, que «se consideran en todo caso agresión sexual los actos de contenido sexual que se realicen empleando **violencia, intimidación o abuso de una situación de superioridad o de vulnerabilidad de la víctima**» y añade los supuestos de víctimas privadas de sentido o con la voluntad anulada. No menciona la mera \"fuerza\" como categoría autónoma (el propio precepto define que hay violencia cuando se emplea fuerza física, pero no la lista aparte), de ahí que la opción c) sea la única que no coincide con el tenor literal.\nIT:\nL’art. 178.2 CP stabilisce che «si considerano in ogni caso aggressione sessuale gli atti di contenuto sessuale compiuti con **violenza, intimidazione o abuso di una situazione di supremazia o vulnerabilità della vittima**», oltre ai casi di vittima priva di sensi o con volontà annullata. Non viene indicata la semplice «forza» come categoria distinta; pertanto la risposta c) è l’unica non contemplata.\nPagina/Slide: TEMA 7.pptx, diapositiva «Artículo 178 – Tipo básico» :contentReference[oaicite:2]{index=2}",
+      "legal_reference": "Art. 178.2 Código Penal español (LO 10/1995, redacción LO 10/2022)",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+    },
+    {
+      "question": "13) Señale la respuesta incorrecta. Para que una agresión sexual se castigue como violación del artículo 179 del CP es preciso que:",
+      "answers": [
+        { "text": "El acceso carnal sea por vía vaginal, anal o bucal.", "correct": false },
+        { "text": "Se introduzcan miembros corporales por vía vaginal o anal.", "correct": false },
+        { "text": "Se introduzcan objetos por vía vaginal o anal.", "correct": false },
+        { "text": "La víctima tuviera anulada su voluntad.", "correct": true }
+      ],
+      "explanation": "ES:\nEl art. 179.1 CP define la violación cuando la agresión sexual consiste en (i) acceso carnal por vía vaginal, anal o bucal, o (ii) introducción de miembros corporales u objetos por vía vaginal o anal. El apartado 2 solo agrava la pena si concurre violencia, intimidación o la víctima tuviera anulada su voluntad, pero esta última circunstancia **no es requisito para la calificación de violación**, sino para aplicar la pena superior.\nIT:\nL’art. 179.1 CP qualifica lo stupro quando l’aggressione sessuale consiste in penetrazione (vaginale, anale o orale) o introduzione di membri corporali/oggetti nelle prime due vie. Il comma 2 aumenta la pena se vi sono violenza, intimidazione o se la volontà della vittima è annullata; tuttavia quest’ultima non è un requisito per configurare la violazione, solo per la pena più alta.\nPagina/Slide: TEMA 7.pptx, diapositiva «Artículo 179 – Violación» :contentReference[oaicite:2]{index=2}",
+      "legal_reference": "Art. 179 Código Penal español (LO 10/1995, redacción LO 10/2022)",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+    },
+    {
+      "question": "14) Indique cuál no es una agravante del delito de agresión sexual según el artículo 180 del CP:",
+      "answers": [
+        { "text": "Cuando se realice con ánimo de lucro.", "correct": true },
+        { "text": "Cometer el hecho por la actuación conjunta de dos o más personas.", "correct": false },
+        { "text": "Cuando vaya precedido de una violencia de extrema gravedad.", "correct": false },
+        { "text": "Cuando la víctima sea su esposa.", "correct": false }
+      ],
+      "explanation": "ES:\nEl art. 180.1 CP (tras la reforma de la LO 10/2022) agrava la agresión sexual si: a) la violencia o intimidación es particularmente peligrosa (p.ej. uso de armas); b) la víctima se halla en situación de especial vulnerabilidad; c) el hecho se comete mediante la actuación conjunta de dos o más personas; d) la víctima es o ha sido cónyuge, análogo afectivo, ascendiente, descendiente u otra persona especialmente vinculada; e) concurren circunstancias que anulan la defensa de la víctima, etc. **No figura el ánimo de lucro** como circunstancia agravante, por lo que la opción a) es la única que no pertenece al listado legal.\nIT:\nL’art. 180.1 CP (modificato dalla LO 10/2022 «solo sí es sí») prevede l’aggravante nelle ipotesi: violenza o intimidazione particolarmente pericolosa, vittima in situazione di vulnerabilità, azione congiunta di due o più persone, vittima coniuge o partner, ecc. **L’animus lucri non è contemplato**, quindi l’alternativa a) è quella che non è aggravante.\nPagina/Slide: TEMA 7.pptx, diapositiva «Artículo 180 – Formas agravadas de la agresión sexual»",
+      "legal_reference": "Art. 180.1 Código Penal español (LO 10/1995; redacción LO 10/2022)",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+    },
+    {
+      "question": "15) Indique la respuesta incorrecta. Se considera delito de agresión sexual sobre un menor de 16 años según el artículo 181 CP:",
+      "answers": [
+        { "text": "Actos de carácter sexual que realice el menor con el autor", "correct": false },
+        { "text": "Actos de carácter sexual que realice el menor con un tercero a instancia del autor", "correct": false },
+        { "text": "Actos de carácter sexual que realice el menor sobre sí mismo a instancia del autor", "correct": false },
+        { "text": "a y b son correctas", "correct": true }
+      ],
+      "explanation": "ES:\nEl art. 181.1 CP considera incluidos en los \"actos de carácter sexual\" (i) los que realiza el menor con el autor, (ii) los que realiza el menor con un tercero a instancia del autor y (iii) los que realiza el menor sobre sí mismo a instancia del autor :contentReference[oaicite:3]{index=3}. Por ello, las opciones a), b) y c) describen conductas tipificadas; la opción d) es incorrecta porque deja fuera la conducta del apartado c).\nIT:\nL’art. 181.1 CP include come atti di natura sessuale: (i) quelli che il minore compie con l’autore, (ii) quelli che il minore compie con un terzo su istigazione dell’autore e (iii) quelli che il minore compie su se stesso su istigazione dell’autore :contentReference[oaicite:4]{index=4}. Le risposte a), b) e c) sono quindi corrette; la d) è l’unica risposta errata.\nPagina/Slide: TEMA 7.pptx, diapositiva «Artículo 181 – Tipo básico»",
+      "legal_reference": "Art. 181.1 Código Penal español (LO 10/1995, redacción LO 10/2022)",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+    },
+    {
+      "question": "18) Indique la respuesta incorrecta. Según el artículo 183bis del CP, el consentimiento del menor de 16 años excluye la responsabilidad penal por delito de agresión sexual si:",
+      "answers": [
+        { "text": "Dicho consentimiento es libre.", "correct": false },
+        { "text": "Si el autor no supera la edad de 18 años.", "correct": true },
+        { "text": "Si el autor es una persona próxima al menor en edad.", "correct": false },
+        { "text": "Si el autor es una persona próxima al menor en grado de madurez.", "correct": false }
+      ],
+      "explanation": "ES:\\nEl art. 183 bis CP establece una excusa absolutoria: «…el libre consentimiento del menor de dieciséis años excluirá la responsabilidad penal… **cuando el autor sea una persona próxima al menor por edad y grado de desarrollo o madurez física y psicológica**». El precepto no exige que el autor tenga menos de 18 años; basta con la cercanía en edad y madurez. Por ello, la opción b) es la única afirmación incorrecta.\\nIT:\\nL’art. 183 bis CP prevede che il libero consenso del minore di 16 anni escluda la responsabilità penale **quando l’autore sia una persona prossima al minore per età e grado di sviluppo o maturità fisica e psicologica**. Non richiede che l’autore non superi i 18 anni; quindi la risposta b) è l’unica errata.\\nPagina/Slide: TEMA 7.pptx, diapositiva «Excusa absolutoria – Art. 183 bis» :contentReference[oaicite:2]{index=2}",
+      "legal_reference": "Art. 183 bis Código Penal español (LO 10/1995, redacción LO 10/2022)",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+    },
+    {
+      "question": "20) Indique la respuesta incorrecta. El delito de acoso sexual sancionado en el artículo 184 del CP se sanciona cuando se produce en el ámbito de:",
+      "answers": [
+        { "text": "Una relación laboral.", "correct": false },
+        { "text": "Una relación familiar.", "correct": true },
+        { "text": "Una relación docente.", "correct": false },
+        { "text": "Una relación de prestación de servicios.", "correct": false }
+      ],
+      "explanation": "ES:\nEl art. 184.2 CP agrava el acoso sexual cuando se realiza \"en el ámbito de una relación laboral, docente o de prestación de servicios\", aprovechando una posición de superioridad o confianza. No menciona la relación familiar, por lo que esta opción es la única afirmación incorrecta.\nIT:\nL’art. 184.2 CP prevede l’aggravante dell’acoso sexual quando avviene \"nell’ambito di un rapporto di lavoro, insegnamento o prestazione di servizi\", sfruttando la posizione d’autorità. Non include il rapporto familiare, quindi l’opzione b) è l’unica risposta errata.\nPagina/Slide: TEMA 7.pptx, diapositiva «Artículo 184 – Acoso sexual»",
+      "legal_reference": "Art. 184 Código Penal español (LO 10/1995, redacción LO 10/2022)",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+    },
+    {
+      "question": "21) No es requisito del tipo básico del delito de acoso sexual tipificado en el artículo 184 del CP:",
+      "answers": [
+        { "text": "Que la actuación provoque una situación gravemente intimidatoria, hostil o humillante.", "correct": false },
+        { "text": "Que el sujeto anuncie causar un mal a la persona.", "correct": true },
+        { "text": "Que el sujeto solicitare favores de naturaleza sexual para sí o para un tercero.", "correct": false },
+        { "text": "Que se dé en el ámbito de una relación continuada o habitual.", "correct": false }
+      ],
+      "explanation": "ES:\nEl tipo básico (art. 184.1) exige: 1) solicitar favores sexuales para sí o un tercero; 2) que se dé en una relación laboral, docente o de prestación de servicios continuada o habitual; 3) que el comportamiento provoque una situación objetiva y *gravemente intimidatoria, hostil o humillante* en la víctima. El *anuncio de causar un mal* aparece solo en el art. 184.2 CP como circunstancia agravante, por lo que **no forma parte del tipo básico**.\nIT:\nIl tipo base dell’art. 184.1 CP richiede: 1) richiesta di favori sessuali per sé o per terzi; 2) che avvenga nell’ambito di un rapporto lavorativo, didattico o di servizi continuativo o abituale; 3) che provochi una situazione oggettivamente intimidatoria, ostile o umiliante per la vittima. L’*annuncio di causare un male* compare soltanto nella forma aggravata dell’art. 184.2, dunque **non è un requisito del tipo base**.\nPagina/Slide: TEMA 8.pptx, diapositiva «1. Acoso sexual – Artículo 184» :contentReference[oaicite:2]{index=2}",
+      "legal_reference": "Arts. 184.1 y 184.2 Código Penal español (LO 10/1995, redacción LO 10/2022)",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+    },
+    {
+      "question": "22) El delito de exhibicionismo del artículo 185 del CP no exige:",
+      "answers": [
+        { "text": "Que el autor ejecute o haga ejecutar a otro el exhibicionismo.", "correct": false },
+        { "text": "Que se haga en público.", "correct": true },
+        { "text": "Que la actuación consista en ejecutar actos de exhibición obscena.", "correct": false },
+        { "text": "Que la víctima sea menor de edad o persona con discapacidad necesitada de especial protección.", "correct": false }
+      ],
+      "explanation": "ES:\nEl art. 185 CP sólo requiere: 1) que el sujeto ejecute o haga ejecutar actos de exhibición obscena y 2) que lo haga **ante** menores o personas con discapacidad necesitadas de especial protección. El precepto no menciona que el acto deba realizarse en un lugar público; basta con la presencia de la víctima vulnerable. Por ello, la opción b) es la única que NO constituye requisito.\nIT:\nL’art. 185 CP esige soltanto: 1) che l’agente compia o faccia compiere atti di esibizione oscena e 2) che ciò avvenga **davanti** a minori o persone con disabilità bisognose di speciale protezione. Non è richiesto che l’esibizionismo avvenga «in pubblico»; pertanto la risposta corretta (non richiesta) è la b).\nPagina/Slide: TEMA 8.pptx, diapositiva «2. Exhibicionismo – Artículo 185» :contentReference[oaicite:2]{index=2}",
+      "legal_reference": "Art. 185 Código Penal español (LO 10/1995, redacción LO 10/2022)",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+    },
+    {
+      "question": "23) Señale la respuesta incorrecta. Con respecto a los delitos de corrupción y prostitución de menores y discapacitados, según el precepto 189.6 CP, se sanciona la omisión o no evitación del delito por parte de:",
+      "answers": [
+        { "text": "El que ejerciere la patria potestad sobre el menor.", "correct": false },
+        { "text": "El que vigilare o educare el menor de edad.", "correct": true },
+        { "text": "El que ejerciente la tutela sobre el discapacitado.", "correct": false },
+        { "text": "El que ejerciere el acogimiento del menor.", "correct": false }
+      ],
+      "explanation": "ES:\nEl art. 189.6 CP castiga la omisión de impedir la prostitución o corrupción de un menor o persona con discapacidad cuando el sujeto tenga **potestad, tutela, guarda o acogimiento** sobre la víctima. No se hace referencia a quienes únicamente la vigilan o educan, de modo que la opción b) es la única afirmación que no encaja en el precepto.\nIT:\nL’art. 189.6 CP punisce l’omissione di impedire la prostituzione o corruzione di un minore o persona con disabilità quando l’autore abbia **potestà, tutela, custodia o accoglienza** del minore. Non comprende chi si limiti a vigilare o educare; pertanto l’alternativa b) è l’unica inesatta.\nPagina/Slide: TEMA 8.pptx – sección «Prostitución, explotación sexual y corrupción de menores», diapositiva con el texto del art. 189.6 :contentReference[oaicite:2]{index=2}",
+      "legal_reference": "Art. 189.6 Código Penal español (LO 10/1995, redacción LO 10/2022)",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+    },
+    {
+      "question": "24) No es un elemento del delito de omisión del deber de socorro sancionado en el artículo 195 del CP:",
+      "answers": [
+        { "text": "No socorrer a una persona.", "correct": false },
+        { "text": "Que la persona lo impida de pedir socorro.", "correct": true },
+        { "text": "Que la persona se halle desamparada.", "correct": false },
+        { "text": "Que la persona se halle en peligro manifiesto.", "correct": false }
+      ],
+      "explanation": "ES:\nEl art. 195.1 CP exige tres condiciones básicas: 1) omitir el socorro («no socorriere»), 2) que la persona esté desamparada, y 3) que se encuentre en peligro manifiesto y grave; además, el socorro debe poder prestarse sin riesgo propio ni de terceros. El precepto no contempla que la víctima impida al autor pedir auxilio; esa idea no forma parte de los elementos típicos, por lo que la opción b) es la única que no corresponde al tipo.\nIT:\nL’art. 195.1 CP richiede: 1) l’omissione del soccorso, 2) che la persona sia in stato di abbandono, 3) che versi in pericolo manifesto e grave, purché l’aiuto possa prestarsi senza rischio per sé o per terzi. Non fa parte degli elementi del reato che la vittima impedisca di chiedere aiuto; pertanto l’opzione b) è l’unica non prevista.\nPagina/Slide: TEMA 9.pptx, diapositiva «Artículo 195 – Omisión del deber de socorro» :contentReference[oaicite:2]{index=2}",
+      "legal_reference": "Art. 195 Código Penal español (LO 10/1995, redacción LO 1/2015)",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+    },
+    {
+      "question": "25) La omisión del deber de un profesional sanitario sancionada en el artículo 196 del CP no exige que:",
+      "answers": [
+        { "text": "El mismo denegare asistencia sanitaria.", "correct": false },
+        { "text": "Que el profesional esté obligado a prestar asistencia.", "correct": false },
+        { "text": "Que de la actuación se derive un riesgo para la salud de las personas.", "correct": false },
+        { "text": "Que el profesional actúe imprudentemente.", "correct": true }
+      ],
+      "explanation": "ES:\nEl art. 196 CP castiga al profesional sanitario que, estando obligado a ello, **deniega asistencia** o **abandona los servicios sanitarios**, cuando de esta conducta se derive **riesgo grave para la salud** de las personas. El precepto no menciona la imprudencia: exige una omisión consciente y voluntaria. Por tanto, no es requisito que el profesional actúe imprudentemente, de ahí que la opción d) sea la correcta.\nIT:\nL’art. 196 CP punisce il professionista sanitario che, essendo tenuto a prestare assistenza, la **nega** o **abbandona il servizio**, provocando un **grave rischio per la salute** delle persone. Il testo non richiede l’imprudenza: si tratta di una condotta omissiva dolosa. Pertanto, il requisito non richiesto è la d).\nPagina/Slide: TEMA 9.pptx, diapositiva «Artículo 196 – Omisión del deber de asistencia sanitaria» :contentReference[oaicite:2]{index=2}",
+      "legal_reference": "Art. 196 Código Penal español (LO 10/1995, redacción LO 1/2015)",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+    },
 
     {
       "question": "El tipo básico de atentado contra la integridad moral sancionado en el artículo 173 del CP exige:",
