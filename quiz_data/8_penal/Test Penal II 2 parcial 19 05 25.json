@@ -786,14 +786,14 @@
     {
       "question": "En el delito de lesiones, el tratamiento médico se…",
       "answers": [
-        { "text": "Todas las actividades médicas necesarias para curar una enfermedad incluida la primera asistencia", "correct": false },
-        { "text": "El restaurador del cuerpo para corregir mediante operaciones cualquier alteración funcional u orgánica causada por una lesión", "correct": true },
         { "text": "El que se emplea exclusivamente en urgencias hospitalarias para curar el maltrato", "correct": false },
-        { "text": "Todas las anteriores son incorrectas", "correct": false }
+        { "text": "Todas las actividades médicas necesarias para curar una enfermedad incluida la primera asistencia", "correct": false },
+        { "text": "Todas las anteriores son incorrectas", "correct": true },
+        { "text": "El restaurador del cuerpo para corregir mediante operaciones cualquier alteración funcional u orgánica causada por una lesión", "correct": false }
       ],
-      "explanation": "ES: A: Incorrecta; definición no incluye curar enfermedades. B: Correcta; art. 147 CP abarca operaciones para restaurar funcionalidad tras lesión. C: Incorrecta; no se limita a urgencias. D: Incorrecta; B es la definición precisa (Art. 147 CP).\nIT: A: Errata, non include malattie. B: Corretta, l'art. 147 CP parla di ripristino funzionale tramite operazioni. C: Errata, non solo per emergenze. D: Errata, B è la definizione corretta.",
-      "legal_reference": "Art. 147 CP",
-      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+      "explanation": "ES:\nEl art. 147.1 CP exige que la lesión precise, *además de la primera asistencia facultativa*, **tratamiento médico o quirúrgico**; la simple vigilancia o la primera asistencia quedan fuera :contentReference[oaicite:3]{index=3}. La jurisprudencia (p. ej. STS 1473/2002, STS 649/2013) aclara que el tratamiento abarca cualquier actuación sanitaria encaminada a la curación o mejoría sostenida de la lesión, sin limitarse a urgencias ni necesariamente a una operación, pero excluye esa primera asistencia inicial.\n\nAsí:\n- **A)** es incorrecta porque reduce el tratamiento a la asistencia de urgencias.\n- **B)** es incorrecta porque incluye la primera asistencia, precisamente excluida por la ley.\n- **D)** es incorrecta porque lo restringe sólo a intervenciones quirúrgicas, cuando también puede ser farmacológico, rehabilitador, etc.\nConsecuentemente, la opción **C) “Todas las anteriores son incorrectas”** es la única acertada.\n\nIT:\nL’art. 147.1 CP richiede, oltre al primo soccorso, **un trattamento medico o chirurgico**; il semplice primo soccorso o la mera sorveglianza non bastano :contentReference[oaicite:4]{index=4}. La giurisprudenza specifica che tale trattamento comprende qualunque cura continuativa diretta a guarire o migliorare la lesione, non solo gli interventi d’urgenza né esclusivamente quelli chirurgici. Di conseguenza le opzioni A, B e D non corrispondono al concetto legale, per cui la risposta corretta è la C.\n\nPagina/Slide: TEMA 3 (1).pptx, sezione «1. Lesiones – Artículo 147»",
+      "legal_reference": "Art. 147.1 Código Penal; STS 1473/2002, 5-XI-2002; STS 649/2013, 11-IX-2013",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
     },
     {
       "question": "Se trata de un delito de lesiones agravado…",
