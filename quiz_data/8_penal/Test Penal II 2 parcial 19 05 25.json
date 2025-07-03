@@ -194,7 +194,91 @@
       "legal_reference": "Art. 196 Código Penal español (LO 10/1995, redacción LO 1/2015)",
       "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
     },
-
+    {
+      "question": "26) El delito básico del descubrimiento de secretos del artículo 197 del CP puede hacerse por:",
+      "answers": [
+        { "text": "Apoderarse de papeles.", "correct": false },
+        { "text": "Apoderarse de mails.", "correct": false },
+        { "text": "Grabar conversaciones si eres interlocutor de las mismas.", "correct": true },
+        { "text": "Interceptar telecomunicaciones.", "correct": false }
+      ],
+      "explanation": "ispe: MAYBE ALL CORRECT???\nES:\nEl art. 197.1 CP castiga tres vías principales: (i) apoderarse sin consentimiento de papeles, cartas o mensajes de correo electrónico u otros documentos; (ii) interceptar telecomunicaciones ajenas; y (iii) utilizar artificios técnicos de escucha, transmisión o grabación respecto de comunicaciones de terceros. El Tribunal Supremo (STS 114/2019, 5-III-2019; STS 649/2013, 11-IX-2013) ha precisado que **grabar una conversación propia –cuando el autor es interlocutor– no revela ningún secreto ajeno y, por tanto, no integra el tipo**. Así, la opción c) es la única que no constituye medio de comisión del delito.\nIT:\nL’art. 197.1 CP punisce l’appropriazione di documenti (cartacei o elettronici) altrui senza consenso, l’intercettazione di telecomunicazioni e l’uso di dispositivi di ascolto o registrazione verso comunicazioni di terzi. La giurisprudenza spagnola ha chiarito che registrare una conversazione a cui si partecipa non viola segreti altrui; quindi solo l’opzione c) è corretta come esclusa dal tipo.\nPagina/Slide: TEMA 9.pptx, diapositiva 5 («Artículo 197 – Descubrimiento y revelación de secretos»)",
+      "legal_reference": "Art. 197.1 Código Penal; STS 114/2019, 5-III-2019; STS 649/2013, 11-IX-2013",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+    },
+    {
+      "question": "27) Señale la respuesta incorrecta. El delito de descubrimiento y revelación de secretos se castigará con una pena superior si afecta a datos que revelan:",
+      "answers": [
+        { "text": "Religión.",          "correct": false },
+        { "text": "Ideología.",         "correct": false },
+        { "text": "Identidad de género.","correct": false },
+        { "text": "Interceptar telecomunicaciones.", "correct": true }
+      ],
+      "explanation": "ES:\\nEl art. 197.5 CP solo agrava la pena por datos que revelen ideología, religión, creencias, salud, origen racial o vida sexual. Ni la identidad de género figura en ese listado, ni mucho menos la mera interceptación de telecomunicaciones (que es un medio, no un dato). Por ello la opción d) es la más claramente ajena al precepto.\\nIT:\\nIl comma 5 dell’art. 197 CP menziona esclusivamente ideologia, religione, credo, salute, origine razziale o vita sessuale. «Identidad de género» non è inclusa, ma «interceptar telecomunicaciones» non è neppure un tipo di dato: è solo una modalità esecutiva già prevista dal comma 1. Perciò la risposta d) è l’unica inequivocabilmente incompatibile con l’aggravante.",
+      "Pagina/Slide": "TEMA 9.pptx – diapositive su «Artículo 197» (vedi passaggio 5) :contentReference[oaicite:5]{index=5}",
+      "legal_reference": "Art. 197.5 Código Penal (LO 10/1995, red. LO 1/2015; ult. mod. 11-06-2024)",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+    },
+    {
+      "question": "28) El delito de hacking o intrusismo informático del artículo 197 bis no exige:",
+      "answers": [
+        { "text": "Que se acceda a un sistema de información.", "correct": false },
+        { "text": "Que se haga a través de un programa informático.", "correct": true },
+        { "text": "Que no se tenga autorización.", "correct": false },
+        { "text": "Que se vulneren medidas de seguridad que impidan el acceso.", "correct": false }
+      ],
+      "explanation": "ES:\nEl art. 197 bis.1 CP castiga al que, «por cualquier medio o procedimiento, vulnerando las medidas de seguridad establecidas para impedirlo, y sin estar debidamente autorizado, acceda… a un sistema de información…». Por tanto exige: (1) acceso (o permanencia) en el sistema, (2) ausencia de autorización y (3) vulneración de medidas de seguridad. No exige que el acceso se realice mediante un programa informático concreto, pues la norma admite *cualquier* medio.\nIT:\nL’art. 197 bis.1 CP punisce chi, «con qualsiasi mezzo o procedimento», viola le misure di sicurezza ed accede senza autorizzazione a un sistema informatico. Non è richiesto l’uso di un programma informatico specifico: basta qualunque mezzo.\nPagina/Slide: TEMA 9.pptx, diapositiva con texto «Artículo 197 bis» :contentReference[oaicite:2]{index=2}",
+      "legal_reference": "Art. 197 bis Código Penal español (LO 10/1995, redacción LO 1/2015)",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+    },
+    {
+      "question": "29) El delito de calumnia castigado en el artículo 205 del CP exige para su comisión:",
+      "answers": [
+        { "text": "Que se emita una expresión que lesione la dignidad de la persona.", "correct": false },
+        { "text": "Que se impute un delito a la persona.", "correct": true },
+        { "text": "Que se actúe con temerario desprecio hacia la verdad.", "correct": false },
+        { "text": "El sujeto activo es genérico.", "correct": false }
+      ],
+      "explanation": "ES:\nEl art. 205 CP define la calumnia como **«la imputación de un delito hecha con conocimiento de su falsedad o temerario desprecio hacia la verdad»**. Por tanto, el elemento imprescindible es la imputación de un hecho delictivo (opción b). El temerario desprecio es solo una de las dos formas alternativas de dolo (la otra es conocer la falsedad); por ello no resulta obligatorio en todo caso. La mera lesión de la dignidad alude a la injuria (art. 208), y la genéricidad del sujeto activo es una característica común, no un requisito específico.\nIT:\nL’art. 205 CP qualifica la calunnia come **«l’imputazione di un reato fatta con coscienza della sua falsità o con temerario disprezzo della verità»**. L’elemento imprescindibile è quindi l’imputazione di un reato (risposta b). Il «temerario disprezzo» è solo una possibilità alternativa al pieno sapere della falsità, quindi non sempre necessario. L’espressione che lede la dignità appartiene all’ingiuria (art. 208) e il soggetto attivo generico non è un requisito.\nPagina/Slide: TEMA 10.pptx, diapositiva 1 «Delitos de calumnia – Artículo 205» :contentReference[oaicite:2]{index=2}",
+      "legal_reference": "Art. 205 Código Penal español (LO 10/1995, redacción LO 1/2015)",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+    },
+    {
+      "question": "30) Señale la respuesta incorrecta. El delito de injurias básico del artículo 208 del CP exige para su sanción que:",
+      "answers": [
+        { "text": "La injuria sea grave.", "correct": false },
+        { "text": "Que menoscabe la fama de la persona.", "correct": false },
+        { "text": "Que atente contra la propia estimación de la persona.", "correct": false },
+        { "text": "Que se haga con publicidad.", "correct": true }
+      ],
+      "explanation": "ES:\nEl art. 208 CP define la injuria como la acción o expresión que lesiona la dignidad de otra persona, menoscabe su fama o atente contra su propia estimación. Sólo son punibles las **injurias graves** (art. 208.2). La publicidad no es requisito de punibilidad: si la injuria grave se difunde con publicidad la pena aumenta (art. 209), pero también se sanciona la injuria grave sin publicidad (multa de 3-7 meses). Por ello la afirmación d) es la única incorrecta.\nIT:\nL’art. 208 CP definisce l’ingiuria come l’azione o espressione che lede la dignità di un’altra persona, diminuendone la fama o offendendone la propria stima. Sono punibili solo le **ingiurie gravi**; la «pubblicità» non è condizione per la sanzione: se l’ingiuria grave è resa pubblica la multa è più alta (art. 209), ma la condotta è comunque punibile anche senza pubblicità. Pertanto la risposta d) è l’unica errata.\nPagina/Slide: TEMA 10.pptx, diapositiva «Artículo 208 – Injurias»",
+      "legal_reference": "Arts. 208 y 209 Código Penal español (LO 10/1995, redacción LO 1/2015)",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+    },
+    {
+      "question": "31) Para sancionar el delito de suposición de parto del artículo 220 del CP se exige:",
+      "answers": [
+        { "text": "Que la actuación sea dolosa.", "correct": true },
+        { "text": "Que se sustituya un niño por otro.", "correct": false },
+        { "text": "Que se oculte al menor de edad.", "correct": false },
+        { "text": "Ninguna de las anteriores es correcta.", "correct": false }
+      ],
+      "explanation": "ES:\nEl apartado 1 del art. 220 CP castiga la *supuesta de parto* –simular un alumbramiento inexistente– con pena de prisión de seis meses a dos años. La doctrina y la jurisprudencia exigen **dolo directo**: la simulación debe hacerse conscientemente y con ánimo de alterar la filiación; no existe modalidad imprudente. Los otros supuestos del art. 220 (ocultar/entregar al menor o sustituir un niño por otro) pertenecen a los apartados 2 y 3 y no son requisitos de la suposición de parto.\nIT:\nL’art. 220.1 CP punisce la *sospensione di parto* – fingere un parto mai avvenuto – con pena da sei mesi a due anni. Per integrare il reato è necessario il **dolo diretto**: l’autore deve agire consapevolmente simulando il parto per alterare la filiazione; non esiste forma colposa. Gli altri comportamenti (occultamento o sostituzione del minore) sono previsti nei commi successivi e non costituiscono requisiti della fattispecie.\nPagina/Slide: TEMA 11.pptx, sección «Suposición de parto, alteración de la paternidad… – Artículo 220» :contentReference[oaicite:2]{index=2}",
+      "legal_reference": "Art. 220.1 Código Penal español; doctrina citada (p.ej. STS 114/2019) sobre la exigencia de dolo directo",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+    },
+    {
+      "question": "32) Indique la respuesta incorrecta. El delito de matrimonio ilegal del artículo 217 del CP exige el elemento de:",
+      "answers": [
+        { "text": "Contraer segundo o ulterior matrimonio.", "correct": false },
+        { "text": "Saber que subsiste el primero.", "correct": false },
+        { "text": "Que actúe para perjudicar al otro contrayente.", "correct": true },
+        { "text": "Que la actuación sea dolosa.", "correct": false }
+      ],
+      "explanation": "ES:\nEl art. 217 CP (bigamia) se integra por dos requisitos: a) contraer un segundo o ulterior matrimonio y b) hacerlo \"a sabiendas\" de que el anterior sigue vigente. No se exige ánimo de perjudicar al otro cónyuge; ese elemento aparece en el art. 218 CP (matrimonio inválido para perjudicar), no en el 217. La conducta ha de ser dolosa porque la frase «a sabiendas» implica conocimiento y voluntad. Por ello, la opción c) es la única afirmación incorrecta.\nIT:\nL’art. 217 CP punisce la bigamia quando: a) si contrae un secondo o ulteriore matrimonio e b) si sa che il primo è ancora valido. Non è richiesto l’intento di nuocere all’altro coniuge; tale requisito appartiene all’art. 218 CP. Essendo necessaria la consapevolezza («a sabiendas»), l’elemento soggettivo è il dolo. L’unica risposta errata è la c).\nPagina/Slide: TEMA 11.pptx, diapositiva «1. Matrimonios ilegales — Artículo 217. BIGAMIA» :contentReference[oaicite:2]{index=2}",
+      "legal_reference": "Art. 217 Código Penal español (LO 10/1995, redacción LO 1/2015)",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+    },
     {
       "question": "El tipo básico de atentado contra la integridad moral sancionado en el artículo 173 del CP exige:",
       "answers": [
