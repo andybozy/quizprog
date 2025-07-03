@@ -41,10 +41,10 @@
     {
       "question": "21. El artículo 165 del CP establece que la detención ilegal se sancionará con una pena mayor si se ha ejecutado con:",
       "answers": [
-        { "text": "Simulación de autoridad o función pública.", "correct": false},
+        { "text": "Simulación de autoridad o función pública.", "correct": true},
         { "text": "Simulación de policía.", "correct": false},
         { "text": "Simulación de poder judicial.", "correct": false},
-        { "text": "Todas las anteriores son correctas.", "correct": true}
+        { "text": "Todas las anteriores son correctas.", "correct": false}
       ],
       "explanation": "ES/IT: Cualquier simulación de autoridad o función pública —incluida la de policía o de órgano judicial— activa la agravante del art. 165; la respuesta correcta es por tanto la d).\nPagina/Slide: TEMA 5.pptx – «Artículo 165 (Agravación)»",
       "legal_reference": "Código Penal, art. 165",

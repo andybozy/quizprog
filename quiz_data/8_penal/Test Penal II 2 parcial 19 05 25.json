@@ -3,6 +3,19 @@
   "file_name": "Test Penal II 2 parcial AGGIORNATO 19 05 25",
   "questions": [
     {
+  "question": "2) Se considerará un delito contra la integridad moral tipificado en el artículo 173 del CP, el tener conocimiento del paradero del cadáver de una persona y:",
+  "answers": [
+    { "text": "Tardar más de quince días en comunicarlo a los familiares.", "correct": false },
+    { "text": "Ocultarlo en su primera pregunta por el órgano judicial.", "correct": false },
+    { "text": "Ocultarlo de modo reiterado a los familiares o allegados.", "correct": true },
+    { "text": "Ninguna de las anteriores es correcta.", "correct": false }
+  ],
+  "explanation": "ES:\nEl segundo párrafo del art. 173.1 CP (tras la reforma de la LO 14/2022) castiga con la misma pena del tipo básico a «quienes, teniendo conocimiento del paradero del cadáver de una persona, **oculten de modo reiterado tal información a los familiares o allegados de la misma**». No se menciona ningún plazo temporal ni la comparecencia ante la autoridad judicial, de modo que solo la opción c) refleja el requisito legal.\nIT:\nIl secondo comma dell’art. 173.1 CP (modificato dalla LO 14/2022) punisce con la stessa pena del tipo base chi, «conoscendo il luogo in cui si trova il cadavere di una persona, **occulti in modo reiterato tale informazione ai familiari o persone a lei vicine**». Non si prevede alcun termine di 15 giorni né il semplice silenzio davanti al giudice; quindi l’unica risposta corretta è la c).\nPagina/Slide: TEMA 6.pptx, diapositiva «Artículo 173 – Ocultación del cadáver» :contentReference[oaicite:2]{index=2}",
+  "legal_reference": "Art. 173.1 (2.º párrafo) Código Penal español, introducido por LO 14/2022",
+  "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
+},
+
+    {
       "question": "El tipo básico de atentado contra la integridad moral sancionado en el artículo 173 del CP exige:",
       "answers": [
         { "text": "Sujeto activo genérico", "correct": false},
