@@ -822,14 +822,14 @@
     {
       "question": "La divulgación no consentida de imágenes de carácter íntimo…",
       "answers": [
-        { "text": "Es un delito semipúblico que exclusivamente puede ser denunciado por la persona agravada", "correct": false },
         { "text": "Es un delito que exige que la captación de la imagen la haya realizado la propia persona perjudicada", "correct": false },
-        { "text": "Es un delito que castiga la realización de fotografías o grabaciones a una persona especialmente vulnerable para posteriormente difundirlas", "correct": false },
-        { "text": "Todas son incorrectas", "correct": true }
+        { "text": "Es un delito que castiga la realización de fotografías o grabaciones de una persona especialmente vulnerable para posteriormente difundirlas", "correct": false },
+        { "text": "Todas son incorrectas", "correct": true },
+        { "text": "Es un delito semipúblico que exclusivamente puede ser denunciado por la persona agravada", "correct": false }
       ],
-      "explanation": "ES: A: Incorrecta; art. 197.7 CP es de acción pública, no semipública. B: Incorrecta; no requiere que la víctima haga la imagen. C: Incorrecta; no exige vulnerabilidad de la víctima. D: Correcta; ninguna de las anteriores describe correctamente el tipo (Art. 197.7 CP).\nIT: A: Errata, è procedibile d'ufficio, non semipubblico. B: Errata, non serve che la vittima realizzi l'immagine. C: Errata, non richiede vulnerabilità. D: Corretta, nessuna delle precedenti è giusta.",
-      "legal_reference": "Art. 197.7 CP",
-      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+      "explanation": "ES:\\nEl art. 197.7 CP (introducido por LO 1/2015 y conocido como precepto contra la “revenge porn”) castiga la difusión de imágenes o grabaciones íntimas divulgadas sin autorización cuando fueron obtenidas **con consentimiento** de la víctima en un ámbito privado.\\n• **A** – Falso: la norma sólo exige que el autor obtuviera las imágenes con consentimiento, no que las haya captado la propia víctima.\\n• **B** – Falso: no se requiere que la persona sea \"especialmente vulnerable\"; la vulnerabilidad pertenece a otros tipos (p.ej. arts. 183 ter, 197 bis sobre menores).\\n• **D** – Falso: es un delito **semipúblico** (art. 201 CP), pero la acción puede ser iniciada no sólo por la persona agraviada sino también por su representante legal o el Ministerio Fiscal si la víctima es menor o incapaz; por tanto no es «exclusivamente».\\nDe ahí que la opción **C (“Todas son incorrectas”)** sea la única verdadera.\\n\\nIT:\\nL’art. 197.7 CP punisce la divulgazione non autorizzata di immagini intime ottenute con il consenso della vittima in ambito privato.\\n• **A** – Errato: non è necessario che le immagini siano state riprese dalla vittima stessa.\\n• **B** – Errato: non serve che la vittima sia “particolarmente vulnerabile”; ciò riguarda altre figure di reato.\\n• **D** – Errato: il reato è semipubblico e l’azione può essere promossa anche dal rappresentante legale o dal pubblico ministero (se minore o incapace), non solo dalla persona offesa.\\nPertanto l’unica risposta corretta è la **C**.\\nPagina/Slide: TEMA 9.pptx, diapositiva «Artículo 197.7 – Divulgación de imágenes íntimas».",
+      "legal_reference": "Art. 197.7 y art. 201 Código Penal español (LO 10/1995, redacción LO 1/2015 y LO 14/2022)",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
     },
     {
       "question": "Señale la respuesta correcta en cuanto al delito de amenazas",
