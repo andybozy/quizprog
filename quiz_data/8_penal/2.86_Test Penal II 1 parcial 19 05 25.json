@@ -869,16 +869,16 @@
       "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
     },
     {
-      "question": "En las denominadas amenazas condicionales la pena se hará depender, entre otros criterios:",
+      "question": "16. En las denominadas amenazas condicionales la pena se hará depender, entre otros criterios:",
       "answers": [
-        { "text": "De si se ha conseguido o no la condición impuesta", "correct": false},
-        { "text": "De si se ha conseguido o no la condición impuesta, pero sólo cuando el mal con el que se amenaza sea constitutivo de delito.", "correct": false},
-        { "text": "De si se ha conseguido o no, la condición impuesta, pero sólo cuando el mal con el que se amenaza no sea constitutivo de delito.", "correct": true},
-        { "text": "De si ha concurrido engaño o no", "correct": false}
+        { "text": "De si se ha conseguido o no la condición impuesta", "correct": false },
+        { "text": "De si se ha conseguido o no la condición impuesta, pero sólo cuando el mal con el que se amenaza sea constitutivo de delito.", "correct": true },
+        { "text": "De si se ha conseguido o no la condición impuesta, pero sólo cuando el mal con el que se amenaza no sea constitutivo de delito.", "correct": false },
+        { "text": "De si ha concurrido engaño o no", "correct": false }
       ],
-      "explanation": "ES:\nConforme al art. 171.1-2 CP (amenazas condicionales “no constitutivas de delito”), la pena varía según la condición se cumpla o no *cuando el mal no es delictivo*; por eso es correcta la c).\nIT:\nPer le minacce condizionali di mal non delittuoso la pena muta a seconda che la condizione si realizzi o meno (art. 171 CP); corretta la c).\nPagina/Slide: TEMA 5.pptx «Amenazas condicionales – art. 171»",
-      "legal_reference": "Código Penal, art. 171.1-2",
-      "original_file": "Test Penal II 1 parcial AGGIORNADO 19 05 25.pdf"
+      "explanation": "ES:\\nEl art. 169.1 CP regula las *amenazas condicionales* (chantaje) cuando el mal anunciado es un **delito**. La pena es de 1-5 años si el autor logra su propósito y de 6 meses-3 años si no lo consigue, de modo que el criterio del resultado solo opera en esta hipótesis. Cuando el mal no es delito, el supuesto encaja en el art. 171.1 (amenazas leves) y la escala punitiva es distinta; por eso la opción c) es incorrecta. Tampoco influye la concurrencia de engaño (opción d).\\nIT:\\nL’art. 169.1 CP disciplina le *minacce condizionate* quando il male minacciato integra un reato: la pena varia (1-5 anni se il fine è raggiunto; 6 mesi-3 anni se non lo è). Se il male non è reato si applica l’art. 171.1 (minacce lievi) con un regime diverso. La presenza di inganno non rileva.\\nPagina/Slide: TEMA 5.pptx, diapositiva «Artículo 169 – Amenazas condicionales».",
+      "legal_reference": "Art. 169.1 Código Penal español (LO 10/1995, redacción LO 1/2015); distinción con art. 171.1",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
     },
     {
       "question": "Comete delito el particular que encierre o detuviere a otro, privándole de su libertad. Pero ¿se le castigará en función de lo que haya durado la privación de libertad?",
