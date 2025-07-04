@@ -835,13 +835,13 @@
       "question": "Señale la respuesta correcta en cuanto al delito de amenazas",
       "answers": [
         { "text": "El mal deseado puede recaer exclusivamente sobre la persona y la propiedad", "correct": false },
-        { "text": "La diferencia con el delito de coacciones está en el momento temporal del mal deseado: en las amenazas el mal suele ser inminente y en las coacciones se aplaza", "correct": true },
+        { "text": "La diferencia con el delito de coacciones está en el momento temporal del mal deseado: en las amenazas el mal suele ser inminente y en las coacciones se aplaza", "correct": false },
         { "text": "La persona sobre la que recae el mal puede ser tanto el propio amenazado como sus familiares directos de hasta segundo grado", "correct": false },
-        { "text": "El mal anunciado debe ser posible como un elemento necesario del tipo", "correct": false }
+        { "text": "El mal anunciado debe ser posible como un elemento necesario del tipo", "correct": true }
       ],
-      "explanation": "ES: A: Incorrecta; amenazas también abarcan otros bienes jurídicos. B: Correcta; el mal inminente distingue amenazas de coacciones. C: Incorrecta; art. 171 CP no extiende a familiares. D: Incorrecta; no se exige posibilidad real del mal. (Art. 171 CP).\nIT: A: Errata, le minacce possono minacciare vari beni. B: Corretta, il carattere incombente differenzia da coazioni. C: Errata, non include familiari. D: Errata, non serve possibilità reale.",
-      "legal_reference": "Art. 171 CP",
-      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+      "explanation": "ES:\n• El art. 169 CP y la jurisprudencia exigen que la amenaza consista en un **mal posible, serio y verosímil**; si el daño anunciado es imposible (irreal o fantástico) no hay delito.  \n• El mal no se limita a la persona o los bienes; puede referirse a la libertad, la integridad sexual, el honor, etc. (opción A incorrecta).  \n• La diferencia con las coacciones no radica en la inmediatez sino en la naturaleza de la acción: la coacción obliga o impide un acto mediante violencia/intimidación presente, mientras que la amenaza anuncia un daño futuro (opción B incorrecta).  \n• El mal puede dirigirse al propio amenazado, a cualquier miembro de su familia o a «otras personas con las que esté íntimamente ligado» (art. 169.1); no se limita al segundo grado de parentesco (opción C incorrecta).\n\nIT:\n• Il reato di minaccia (art. 169 CP) richiede che il male prospettato sia **possibile e credibile**; un danno impossibile esclude la tipicità.  \n• Il male può colpire non solo la persona e il patrimonio, ma anche libertà, onore, integrità sessuale ecc., quindi la risposta A è falsa.  \n• Nelle coazioni la violenza/intimidazione è attuale e costringe o impedisce un’azione, mentre nella minaccia il danno è futuro; pertanto la spiegazione della B è invertita.  \n• Il bersaglio può essere il soggetto minacciato, qualsiasi parente o altra persona a lui strettamente legata, non soltanto i familiari di 2º grado, perciò la C è incompleta.\n\nPagina/Slide: TEMA 5.pptx, diapositiva «Amenazas: concepto y requisitos (mal posible, futuro y serio)».\n",
+      "legal_reference": "Art. 169 Código Penal español; STS 629/2008, 7-X-2008; STS 193/2016, 10-III-2016 (exigen mal posible y serio)",
+      "original_file": "Test Penal II 1 parcial AGGIORNATO 05 06 25.docx"
     },
     {
       "question": "En el delito de amenazas, están previstas varias modalidades, tales como:",
