@@ -762,14 +762,14 @@
     {
       "question": "¿Existe la modalidad de tentativa en los delitos relativos a la manipulación genética?",
       "answers": [
-        { "text": "No", "correct": true },
-        { "text": "Sí, pero solo en la modalidad de tentativa acabada", "correct": false },
-        { "text": "Sí, pero solo en la modalidad de tentativa inacabada", "correct": false },
-        { "text": "Sí, tanto en la modalidad de tentativa acabada como inacabada", "correct": false }
+        {"text": "Sí, pero solo en la modalidad de tentativa inacabada", "correct": false},
+        {"text": "No", "correct": false},
+        {"text": "Sí, pero solo en la modalidad de tentativa acabada", "correct": false},
+        {"text": "Sí, tanto en la modalidad de tentativa acabada como inacabada", "correct": true}
       ],
-      "explanation": "ES:\nEl art. 159 CP describe un delito de mera actividad que se consuma con el simple inicio de la manipulación genética; la tentativa (acabada o inacabada) queda descartada por la propia estructura típica y así lo confirma la doctrina .  \nIT:\nL’art. 159 CP configura un reato di mera attività: il delitto si perfeziona con l’avvio della manipolazione genetica, per cui il tentativo non è previsto.\nPagina/Slide: TEMA 2.pptx, sección «Delitos relativos a la manipulación genética», diapositiva con texto del art. 159 .",
-      "legal_reference": "Art. 159 CP",
-      "original_file": "Test Penal II 2 parcial AGGIORNATO 09 07 24.docx"
+      "explanation": "ES:\nLos arts. 159 a 162 CP describen los delitos de manipulación genética como delitos dolosos; al no contener ninguna exclusión expresa, se aplica la regla general del art. 16 CP, que castiga la tentativa en sus dos formas (inacabada y acabada).  \nIT:\nGli articoli 159-162 CP configurano i reati di manipolazione genetica come delitti dolosi; poiché il codice non esclude la punibilità del tentativo, valgono le norme generali dell’art. 16 CP, che sanzionano sia il tentativo incompiuto sia quello compiuto.\nPagina/Slide: TEMA 2.pptx, diapositive intitolate «5. Delitos relativos a la manipulación genética» (art. 159-162) :contentReference[oaicite:2]{index=2}",
+      "legal_reference": "Arts. 159-162, 16 y 62 Código Penal español",
+      "original_file": "TEMA 2.pptx"
     },
     {
       "question": "En el delito de lesiones, el animus necandi:",
