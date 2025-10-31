@@ -373,6 +373,738 @@
       "explanation": "ES: La CE prohíbe la retroactividad de normas sancionadoras no favorables; sí cabe la retroactividad de la ley penal más benigna. IT: Vige il favor rei: retroattività solo se più favorevole all’imputato.",
       "legal_reference": "Arts. 9.3 y 25.1 CE. :contentReference[oaicite:28]{index=28}",
       "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "¿Qué principio establece que nadie puede ser castigado dos veces por el mismo delito?",
+      "answers": [
+        { "text": "Irretroactividad de las penas", "correct": false },
+        { "text": "Taxatividad.", "correct": false },
+        { "text": "Ne Bis In Idem.", "correct": true },
+        { "text": "Habeas Corpus.", "correct": false }
+      ],
+      "explanation": "ES: El principio non bis in idem impide sancionar o juzgar dos veces por los mismos hechos cuando ya existe una resolución firme. IT: Il principio del ne bis in idem vieta una doppia sanzione o giudizio per i medesimi fatti se esiste già decisione definitiva.",
+      "legal_reference": "Art. 25 CE (legalidad sancionadora) y jurisprudencia del Tribunal Constitucional sobre non bis in idem.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "¿Cuál de las siguientes características NO corresponden a los derechos fundamentales?",
+      "answers": [
+        { "text": "Universales.", "correct": false },
+        { "text": "Inalienables.", "correct": false },
+        { "text": "Intransferibles.", "correct": false },
+        { "text": "Prescriptibles.", "correct": true }
+      ],
+      "explanation": "ES: Los derechos fundamentales se conciben como universales, inalienables, intransferibles e imprescriptibles; por ello ‘prescriptibles’ no procede. IT: I diritti fondamentali sono universali, inalienabili, intrasferibili e imprescrittibili; dunque ‘prescrittibili’ è errato.",
+      "legal_reference": "Art. 10.1 CE (dignidad como fundamento) y doctrina constitucional.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "¿Qué establece la Constitución Española sobre la titularidad de los derechos fundamentales para los extranjeros?",
+      "answers": [
+        { "text": "Que no poseen ningún derecho fundamental.", "correct": false },
+        { "text": "Que los extranjeros tienen los mismos derechos fundamentales que los ciudadanos españoles, con algunas excepciones específicas.", "correct": true },
+        { "text": "Que los extranjeros solo tienen derechos fundamentales si tienen residencia legal.", "correct": false },
+        { "text": "Que los extranjeros solo tienen derechos fundamentales si consiguen acceder al territorio español.", "correct": false }
+      ],
+      "explanation": "ES: Los extranjeros gozan de las libertades públicas del Título I en los términos que establezcan las leyes y tratados, con excepciones (p. ej., art. 23). IT: Gli stranieri godono dei diritti del Titolo I nei limiti di legge e trattati, con eccezioni come i diritti politici nazionali.",
+      "legal_reference": "Art. 13 CE; LO 4/2000 (Derechos y Libertades de los Extranjeros).",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "¿Qué significa que los derechos fundamentales se aplican \"erga omnes\"?",
+      "answers": [
+        { "text": "Que se aplican sólo a los ciudadanos españoles.", "correct": false },
+        { "text": "Que se aplican inmediatamente y frente a todos.", "correct": true },
+        { "text": "Que se aplican solo en las situaciones de emergencia.", "correct": false },
+        { "text": "Que se aplican tanto a los ciudadanos españoles como a los extranjeros.", "correct": false }
+      ],
+      "explanation": "ES: ‘Erga omnes’ significa oponibilidad general, incluso frente a particulares mediante la eficacia horizontal mediata. IT: ‘Erga omnes’ indica opponibilità verso chiunque, anche nei rapporti tra privati tramite efficacia orizzontale.",
+      "legal_reference": "Art. 53.1 CE (vinculan a todos los poderes públicos y tutela judicial).",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "Con la entrada de España en Europa en 1988:",
+      "answers": [
+        { "text": "España se somete a la jurisdicción del Tribunal Europeo de Derechos Humanos.", "correct": true },
+        { "text": "Se ratifica de facto la Carta Magna Europea.", "correct": false },
+        { "text": "España se somete a la jurisdicción del Consejo Europeo, siempre y cuando no vayan en contra de los artículos de la Constitución Española, si fuera el caso habría que modificar los artículos afectados.", "correct": false },
+        { "text": "Se ratifica tanto el Convenio Europeo de Derechos Humanos como la Carta Magna Europea.", "correct": false }
+      ],
+      "explanation": "ES: La sujeción al TEDH deriva de la ratificación del CEDH; la referencia temporal no altera que España acepta su jurisdicción. IT: La giurisdizione della CEDU discende dalla ratifica della Convenzione; l’anno nel quesito non incide sulla risposta.",
+      "legal_reference": "CEDH y aceptación de la jurisdicción del TEDH; publicación en BOE de su ratificación.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "Desde el punto de vista de su función, el derecho fundamental de asociación es:",
+      "answers": [
+        { "text": "Un derecho civil.", "correct": true },
+        { "text": "Un derecho político.", "correct": false },
+        { "text": "Un derecho social.", "correct": false },
+        { "text": "Un derecho administrativo.", "correct": false }
+      ],
+      "explanation": "ES: El derecho de asociación del art. 22 CE es una libertad clásica (derecho civil), aunque con proyección política. IT: La libertà di associazione (art. 22 CE) è un diritto di libertà civile, con possibili ricadute politiche.",
+      "legal_reference": "Art. 22 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "6. Proteger el orden democrático español, se ampara bajo la dimensión de los derechos fundamentales:",
+      "answers": [
+        { "text": "Del Tribunal Constitucional", "correct": false },
+        { "text": "Una dimensión doble: subjetiva y objetiva.", "correct": false },
+        { "text": "Subjetiva", "correct": false },
+        { "text": "Objetiva.", "correct": true }
+      ],
+      "explanation": "ES: La protección del orden democrático se ancla en la dimensión objetiva: los derechos como valores y principios que informan el ordenamiento. IT: La tutela dell’ordine democratico rientra nella dimensione oggettiva dei diritti (valori e principi dell’ordinamento).",
+      "legal_reference": "Art. 10.1 CE; doctrina del TC sobre dimensión objetiva de los derechos.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "7. ¿Cuál es la función básica de la eficacia vertical de los derechos fundamentales?",
+      "answers": [
+        { "text": "Regular las relaciones jurídicas y privadas de los ciudadanos.", "correct": false },
+        { "text": "Operar como límite a la acción de los poderes públicos.", "correct": true },
+        { "text": "Garantizar la igualdad entre los ciudadanos", "correct": false },
+        { "text": "Que el Estado actúe como mediador en los asuntos privados de los ciudadanos.", "correct": false }
+      ],
+      "explanation": "ES: La eficacia vertical sitúa los derechos como límites y controles a los poderes públicos. IT: L’efficacia verticale pone i diritti come limiti all’azione dei pubblici poteri.",
+      "legal_reference": "Arts. 9.1 y 53.1 CE (vinculación de poderes públicos).",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "8. ¿Qué establece la Constitución Española sobre la regulación de los derechos fundamentales por las Comunidades Autónomas?",
+      "answers": [
+        { "text": "Las Comunidades Autónomas pueden regular derechos fundamentales en todo caso", "correct": false },
+        { "text": "Las Comunidades Autónomas pueden regular derechos fundamentales, pero sólo a través de leyes orgánicas y al es de su competencia.", "correct": false },
+        { "text": "Las Comunidades Autónomas pueden regular derechos fundamentales, pero solo a través de leyes ordinarias y si es de su competencia.", "correct": true },
+        { "text": "Las Comunidades Autónomas no pueden regular derechos fundamentales en ningún caso.", "correct": false }
+      ],
+      "explanation": "ES: El desarrollo del ejercicio corresponde a Ley Orgánica estatal; las CCAA pueden regular aspectos de ejercicio en materias propias mediante leyes ordinarias respetando aquella. IT: Sviluppo con legge organica statale; Regioni possono disciplinare l’esercizio nelle proprie competenze con legge ordinaria.",
+      "legal_reference": "Arts. 81.1 y 53.1 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "9. ¿Qué implica la \"reserva de lay orgánica\" en la protección de los derechos fundamentales de los arts. 14 a 29",
+      "answers": [
+        { "text": "Que estos derechos fundamentales no pueden ser modificados", "correct": false },
+        { "text": "Pueden ser modificados si se alcanza una mayoría absoluta por Decreto-Ley", "correct": false },
+        { "text": "Pueden ser modificados si se alcanza mayoría absoluta en el Congreso de los Diputados.", "correct": true },
+        { "text": "Pueden ser modificados si se alcanza una mayoría absoluta en el Congreso de los Diputados y en el Senado, también es necesario informar al Defensor del Pueblo", "correct": false }
+      ],
+      "explanation": "ES: La reserva de LO afecta al desarrollo del ejercicio de los derechos (mayoría absoluta del Congreso). La reforma constitucional de los derechos es otro procedimiento. IT: La riserva di legge organica riguarda lo sviluppo dell’esercizio; la revisione della Costituzione segue procedure proprie.",
+      "legal_reference": "Art. 81 CE; art. 53.1 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "10. El procedimiento basado en la preferencia y sumariedad pertenece a:",
+      "answers": [
+        { "text": "La garantía de la jurisdicción ordinaria", "correct": true },
+        { "text": "La garantía de la jurisdicción del Tribunal Constitucional.", "correct": false },
+        { "text": "La garantía normativa.", "correct": false },
+        { "text": "La garantía institucional.", "correct": false }
+      ],
+      "explanation": "ES: El art. 53.2 CE prevé tutela preferente y sumaria ante la jurisdicción ordinaria para el art. 14 y la Sección 1.ª del Cap. II. IT: Tutela preferenziale e sommaria davanti alla giurisdizione ordinaria.",
+      "legal_reference": "Art. 53.2 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "11. Señale cuál de las siguientes características es relativa a la suspensión de derechos fundamentales y declaración de los estados de emergencia:",
+      "answers": [
+        { "text": "Temporalidad.", "correct": true },
+        { "text": "Normalidad.", "correct": false },
+        { "text": "Flexibilidad.", "correct": false },
+        { "text": "Investigación por pertenecer a una banda terrorista.", "correct": false }
+      ],
+      "explanation": "ES: La suspensión es excepcional y temporal, propia de situaciones de anormalidad constitucional. IT: La sospensione è temporanea ed eccezionale.",
+      "legal_reference": "Arts. 55 y 116 CE; LO 4/1981 (estados de alarma, excepción y sitio).",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "12. ¿Cuál es el tiempo máximo que puede durar el Estado de excepción?",
+      "answers": [
+        { "text": "10 días (prorrogables por otro plazo idéntico).", "correct": false },
+        { "text": "15 días (prorrogables por otro plazo idéntico).", "correct": false },
+        { "text": "2 meses (incluida la prórroga).", "correct": true },
+        { "text": "1 año", "correct": false }
+      ],
+      "explanation": "ES: La declaración es por 30 días y puede prorrogarse por otros 30 con autorización del Congreso. IT: Stato d’eccezione: 30 giorni + proroga di 30 (totale 2 mesi).",
+      "legal_reference": "LO 4/1981, arts. 13 y 20 (duración y prórroga del estado de excepción).",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "13. ¿Qué Implica el derecho a la igualdad del artículo 14 de la Constitución Española?",
+      "answers": [
+        { "text": "Que todas las personas deben ser tratadas de igual modo en todas las circunstancias.", "correct": false },
+        { "text": "Que no se puede dar un trato distinto a las personas que estén en la misma situación.", "correct": true },
+        { "text": "Que las leyes deben ser interpretadas con flexibilidad para aplicar el derecho a la Igualdad", "correct": false },
+        { "text": "El derecho a la igualdad se aplica sólo a la esfera económica, no a las circunstancias personales", "correct": false }
+      ],
+      "explanation": "ES: Igualdad supone mismo trato a supuestos iguales y admite diferencias razonables y proporcionadas. IT: Parità di trattamento per casi uguali; ammesse differenziazioni ragionevoli.",
+      "legal_reference": "Art. 14 CE; jurisprudencia constitucional sobre igualdad.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "14. ¿Cuál fue el primer tribunal que admitió la licitud de tomas medidas de acción positiva?",
+      "answers": [
+        { "text": "El Tribunal Europeo de Derechos Humanos.", "correct": false },
+        { "text": "El Tribunal de Justicia de la Unión Europea.", "correct": false },
+        { "text": "El Tribunal Constitucional Español", "correct": false },
+        { "text": "El Tribunal Supremo de Estados Unidos.", "correct": true }
+      ],
+      "explanation": "ES: Históricamente la ‘affirmative action’ fue perfilada por el Tribunal Supremo de EE. UU. (p. ej., Bakke, 1978), antecedente de la acción positiva europea. IT: Le prime pronunce favorevoli sono della Corte Suprema USA (affirmative action), poi recepite in Europa.",
+      "legal_reference": "Referencia comparada; en España, art. 9.2 CE (promoción de la igualdad) y LO 3/2007.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "15. ¿Qué implica la igualdad en la aplicación de la ley?",
+      "answers": [
+        { "text": "Que las normas se interpreten de la misma manera en todos los casos", "correct": true },
+        { "text": "Que las normas se apliquen de manera diferente según el caso.", "correct": false },
+        { "text": "Que sólo los jueces deben interpretar las normas.", "correct": false },
+        { "text": "Que las normas no se apliquen de igual forma a todos los ciudadanos.", "correct": false }
+      ],
+      "explanation": "ES: Exige que supuestos sustancialmente iguales reciban igual tratamiento judicial, evitando cambios arbitrarios de criterio. IT: Impone applicazione uniforme della legge a casi uguali, senza arbitrarietà.",
+      "legal_reference": "Art. 14 CE; doctrina del TC sobre igualdad en la aplicación judicial de la ley.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "16. ¿Qué problema plantea las medidas de acción positiva frente a la meritocracia?",
+      "answers": [
+        { "text": "Se niegan los méritos de los ciudadanos.", "correct": true },
+        { "text": "Se favorece la igualdad en el acceso.", "correct": false },
+        { "text": "Beneficia a los que poseen más recursos y capacidades", "correct": false },
+        { "text": "Realmente no existe problema alguno entre ambas", "correct": false }
+      ],
+      "explanation": "ES: La crítica clásica es que pueden tensionar la meritocracia al introducir preferencias para corregir desigualdades de hecho. IT: Critica: le misure possono comprimere il ‘merito’ privilegiando categorie svantaggiate.",
+      "legal_reference": "Art. 9.2 CE (remover obstáculos) y LO 3/2007 (medidas específicas de igualdad).",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "17. La preferencia del varón en la sucesión de la Corona Española y en los títulos nobiliarios:",
+      "answers": [
+        { "text": "Vulnera claramente la aplicación del derecho a la igualdad.", "correct": false },
+        { "text": "Es la única excepción que contempla el artículo 14 de la Constitución Española y el Tribunal Constitucional Español.", "correct": false },
+        { "text": "El Tribunal Constitucional Español ha afirmado que no supone una vulneración del derecho a la igualdad.", "correct": true },
+        { "text": "Vulnera el derecho a la igualdad, pero la Unión Europea ampara una excepción para aquellos países europeos que establecen la Monarquía Parlamentaria como forma de gobiemo", "correct": false }
+      ],
+      "explanation": "ES: La preferencia masculina en la Corona proviene del art. 57.1 CE; al estar en la propia Constitución no se enjuicia por art. 14. En títulos nobiliarios, la Ley 33/2006 impone igualdad. IT: La preferenza maschile per la Corona è costituzionale (art. 57.1 CE); nei titoli nobiliari vige la parità dal 2006.",
+      "legal_reference": "Art. 57.1 CE; Ley 33/2006 (igualdad en títulos nobiliarios).",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "18. ¿Históricamente cuáles fueron las primeras medidas de acción positiva que tuvieron lugar en España y en Europa?",
+      "answers": [
+        { "text": "Medidas para la promoción de las minorías frente a la discriminación.", "correct": false },
+        { "text": "Medidas para favorecer a las mujeres frente a la desigualdad de los hombres", "correct": true },
+        { "text": "Medidas para proteger a los extranjeros en el ámbito laboral.", "correct": false },
+        { "text": "Medidas para beneficiar a las personas con discapacidad.", "correct": false }
+      ],
+      "explanation": "ES: El foco inicial fue la igualdad de mujeres y hombres, especialmente en el ámbito laboral. IT: Le prime misure hanno riguardato la parità di genere nel lavoro.",
+      "legal_reference": "Art. 9.2 CE; Dir. 2006/54/CE; LO 3/2007, art. 11.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "19. ¿Qué derecho prohíbe absolutamente la tortura y los tratos inhumanos o degradantes?",
+      "answers": [
+        { "text": "El derecho de libertad de expresión.", "correct": false },
+        { "text": "El derecho a la integridad física y moral", "correct": true },
+        { "text": "El derecho a la protección del domicilia", "correct": false },
+        { "text": "El derecho a la buena fama y reputación.", "correct": false }
+      ],
+      "explanation": "ES: El art. 15 CE prohíbe en absoluto la tortura y tratos inhumanos o degradantes. IT: L’art. 15 CE vieta assolutamente tortura e trattamenti inumani o degradanti.",
+      "legal_reference": "Art. 15 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "20. La pena de muerte en España",
+      "answers": [
+        { "text": "Está prohibida", "correct": true },
+        { "text": "Está restringida al ámbito militar, pero sólo en tiempos de guerra.", "correct": false },
+        { "text": "Está restringida al ámbito militar, tanto en tiempos de paz como de guerra", "correct": false },
+        { "text": "Se permite de forma muy excepcional para delitos de extrema gravedad como el magnicidio", "correct": false }
+      ],
+      "explanation": "ES: España abolió la pena de muerte en toda circunstancia con el Protocolo n.º 13 del CEDH. IT: Abolizione totale con il Protocollo n. 13 CEDU.",
+      "legal_reference": "Art. 15 CE; Protocolo n.º 13 al CEDH.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "21. El derecho de pensamiento en su dimensión exterior:",
+      "answers": [
+        { "text": "Es ilimitado y no posee restricciones", "correct": false },
+        { "text": "Posee restricciones expresamente recogidas con la Constitución.", "correct": true },
+        { "text": "El artículo 16 que recoge este derecho solo lo aplica al ámbito privado.", "correct": false },
+        { "text": "Posee restricciones pero de facto no se aplican porque es un derecho que no posee conflictos con otros derechos.", "correct": false }
+      ],
+      "explanation": "ES: La manifestación externa tiene límites (orden público protegido por la ley). IT: La dimensione esterna ammette limiti di ordine pubblico.",
+      "legal_reference": "Art. 16.1 CE (límites en sus manifestaciones).",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "22. Según la interpretación del artículo 18.2 CE, ¿qué NO es considerado como un domicilio particular?",
+      "answers": [
+        { "text": "Una habitación de hotel", "correct": false },
+        { "text": "Lina caravana.", "correct": false },
+        { "text": "Una tienda de campaña", "correct": false },
+        { "text": "Un véhicule.", "correct": true }
+      ],
+      "explanation": "ES: En general, el vehículo no goza de la protección reforzada del domicilio, a diferencia de espacios de uso habitacional (hotel, caravana, tienda). IT: L’auto non è di regola domicilio; camere d’hotel e caravan possono esserlo.",
+      "legal_reference": "Art. 18.2 CE; doctrina constitucional sobre concepto de domicilio.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "23. ¿Qué establece el artículo 18.1 CE sobre el derecho a la propia imagen?",
+      "answers": [
+        { "text": "Sólo aplican a las personas jurídicas, como una red social o una empresa de publicidad", "correct": false },
+        { "text": "Protege el aspecto y los atributos físicos de la persona.", "correct": true },
+        { "text": "La voz de una persona no está incluida en la protección de este derecho.", "correct": false },
+        { "text": "La propia imagen sólo se aplica en el ámbito privado", "correct": false }
+      ],
+      "explanation": "ES: La LO 1/1982 desarrolla el honor, intimidad y propia imagen; protege rasgos físicos e identificativos (y también la voz). IT: La tutela della propria immagine copre tratti fisici/identificativi; la voce è pure protetta.",
+      "legal_reference": "Art. 18.1 CE; LO 1/1982 (protección civil del honor, intimidad y propia imagen).",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "24. La aconfesionalidad del Estado español Implica que:",
+      "answers": [
+        { "text": "Se rechaza la existencia de una religión oficial y existe una absoluta indiferencia sobre al hecho religioso", "correct": false },
+        { "text": "La religión católica no es oficial pero la iglesia católica tiene relaciones diplomáticas con el Gobierno español", "correct": false },
+        { "text": "No existe una religión oficial pero el Estado español puede mostrar su respaldo a los credos religiosos at fuera conveniente", "correct": false },
+        { "text": "Se permiten que se mantengan relaciones oficiales con las confesiones religiosas", "correct": true }
+      ],
+      "explanation": "ES: El Estado es aconfesional, pero coopera con las confesiones religiosas. IT: Stato aconfessionale con rapporti di cooperazione con le confessioni.",
+      "legal_reference": "Art. 16.3 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "25. ¿Qué diferencia existe entre la libertad de expresión y la libertad de Información?",
+      "answers": [
+        { "text": "La libertad de expresión se refiere a hechos y la libertad de información a opiniones", "correct": false },
+        { "text": "La libertad de información se refiere a hechos y la libertad de información a opiniones", "correct": true },
+        { "text": "No existe diferencia alguna, ambas se integran en la libertad de pensamiento.", "correct": false },
+        { "text": "La única diferencia es que la libertad de expresión además se aplica a toy merlice de comunicación y periodistas", "correct": false }
+      ],
+      "explanation": "ES: La expresión protege ideas/opiniones; la información, hechos veraces con deber de diligencia. IT: Espressione = opinioni; informazione = fatti (veridicità/diligenza).",
+      "legal_reference": "Art. 20.1 a) y d) CE; doctrina del TC sobre veracidad y diligencia informativa.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "26. ¿Qué implica la cláusula de conciencia para los periodistas?",
+      "answers": [
+        { "text": "La obligación de revelar sus fuentes", "correct": false },
+        { "text": "Seguir las directrices del medio de comunicación,", "correct": false },
+        { "text": "Impedir que un periodista trabajen contra de sus propias convicciones.", "correct": true },
+        { "text": "La prohibición de revelar sus fuentes, salvo en el caso de las noticias falsas (fake news)", "correct": false }
+      ],
+      "explanation": "ES: La cláusula de conciencia protege la independencia profesional del periodista frente a imposiciones contrarias a sus convicciones. IT: La clausola di coscienza tutela il giornalista da direttive contrarie alle proprie convinzioni.",
+      "legal_reference": "Art. 20.1 d) CE (cláusula de conciencia y secreto profesional); LO 2/1997 (cláusula de conciencia).",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "27. ¿Qué significa el concepto de \"chilling effect\" en el contexto de libertad de expresión?",
+      "answers": [
+        { "text": "Promover la libertad de expresión.", "correct": false },
+        { "text": "La censura previa de las opiniones.", "correct": false },
+        { "text": "Proteger la libertad de expresión de los periodistas.", "correct": false },
+        { "text": "Disuadir y amenazar veladamente con sanciones.", "correct": true }
+      ],
+      "explanation": "ES: Es el efecto disuasorio que desalienta el ejercicio de la libertad por temor a sanciones. IT: Effetto ‘raggelante’ che scoraggia l’esercizio della libertà per timore di sanzioni.",
+      "legal_reference": "Art. 20 CE (libertad de expresión e información); concepto doctrinal.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "28. ¿Qué establece el artículo 20 CE sobre la responsabilidad de los medios de comunicación públicos?",
+      "answers": [
+        { "text": "Deben ser gestionados por el gobierno.", "correct": false },
+        { "text": "Deben ser gestionados por agencias independientes.", "correct": false },
+        { "text": "Deben ser gestionados bajo control parlamentario", "correct": true },
+        { "text": "Los medios de comunicación públicos no pueden ser controlados por el gobierno", "correct": false }
+      ],
+      "explanation": "ES: El art. 20.3 CE dispone que la ley regulará la organización y el control parlamentario de los medios públicos. IT: L’art. 20.3 CE prevede il controllo parlamentare sui media pubblici.",
+      "legal_reference": "Art. 20.3 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "29. ¿Cuál es la duración máxima de la detención preventiva según el artículo 17.2 CE?",
+      "answers": [
+        { "text": "Un día natural.", "correct": false },
+        { "text": "48 horas.", "correct": false },
+        { "text": "72 horas.", "correct": true },
+        { "text": "40 horas con posibilidad de prórroga de 12 horas.", "correct": false }
+      ],
+      "explanation": "ES: Toda persona detenida debe ser puesta en libertad o a disposición judicial en un plazo máximo de 72 horas. IT: Il fermo non può superare 72 ore prima della presentazione al giudice o liberazione.",
+      "legal_reference": "Art. 17.2 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "30. Un detenido es mantenido en prisión provisional por un delito con pena privativa de libertad superior a tres años ¿Cuál es la duración máxima de esta prisión provisional según el artículo 17 CE?",
+      "answers": [
+        { "text": "Seis meses.", "correct": false },
+        { "text": "Un año.", "correct": false },
+        { "text": "Dos años.", "correct": true },
+        { "text": "Tres años.", "correct": false }
+      ],
+      "explanation": "ES: Para delitos con pena superior a 3 años, el plazo máximo inicial de prisión provisional es de 2 años (con posibilidad de prórroga motivada). IT: Per pene superiori a 3 anni, limite iniziale di custodia cautelare: 2 anni (prorogabile con motivazione).",
+      "legal_reference": "Art. 17 CE; LECrim, art. 504 (plazos de prisión provisional).",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "1- ¿Cómo se denomina el Título I de la Constitución Española de 1978?",
+      "answers": [
+        { "text": "De los derechos y deberes fundamentales.", "correct": true },
+        { "text": "Derechos y libertades.", "correct": false },
+        { "text": "De los derechos y deberes de los ciudadanos.", "correct": false },
+        { "text": "De los principios, derechos y deberes de los ciudadanos.", "correct": false }
+      ],
+      "explanation": "ES: El Título I se llama oficialmente “De los derechos y deberes fundamentales”. IT: Il Titolo I si intitola “De los derechos y deberes fundamentales”.",
+      "legal_reference": "CE 1978, Título I.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "2- ¿Cómo se denomina la Sección 1ª del Capítulo 2º del Título I de la Constitución Española?",
+      "answers": [
+        { "text": "De los derechos de los españoles y los extranjeros.", "correct": false },
+        { "text": "Derechos y libertades", "correct": false },
+        { "text": "De los derechos fundamentales y de las libertades públicas.", "correct": true },
+        { "text": "De las garantías de las libertades y derechos fundamentales.", "correct": false }
+      ],
+      "explanation": "ES: La Sección 1ª (arts. 15–29) se denomina “De los derechos fundamentales y de las libertades públicas”. IT: La Sezione 1ª (artt. 15–29) è “De los derechos fundamentales y de las libertades públicas”.",
+      "legal_reference": "CE, Título I, Capítulo II, Sección 1ª (arts. 15–29).",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "3- Según el artículo 14 de la Constitución, son iguales ante la ley:",
+      "answers": [
+        { "text": "Todos los ciudadanos.", "correct": false },
+        { "text": "Los españoles.", "correct": true },
+        { "text": "Los españoles y los extranjeros.", "correct": false },
+        { "text": "Todos los españoles que se encuentren en pleno disfrute de sus derechos.", "correct": false }
+      ],
+      "explanation": "ES: El tenor literal del art. 14 CE dice “Los españoles son iguales ante la ley…”. IT: Il testo dell’art. 14 CE recita “Los españoles son iguales ante la ley…”.",
+      "legal_reference": "Art. 14 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "4- El artículo 14 de la Constitución establece que los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de:",
+      "answers": [
+        { "text": "Nacimiento, raza, sexo y religión.", "correct": false },
+        { "text": "Opinión.", "correct": false },
+        { "text": "Cualquier condición o circunstancia personal o social.", "correct": false },
+        { "text": "Todas las respuestas son correctas.", "correct": true }
+      ],
+      "explanation": "ES: El art. 14 incluye todas esas causas (nacimiento, raza, sexo, religión, opinión y cualquier otra condición…). IT: L’art. 14 comprende tutte queste cause di discriminazione.",
+      "legal_reference": "Art. 14 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "5- ¿En qué artículo de la Constitución se recoge la igualdad ante la ley?",
+      "answers": [
+        { "text": "En el 14.", "correct": true },
+        { "text": "En el 10.", "correct": false },
+        { "text": "En el 15.", "correct": false },
+        { "text": "En el 11.", "correct": false }
+      ],
+      "explanation": "ES: La igualdad ante la ley está en el art. 14 CE. IT: Il principio è collocato nell’art. 14 CE.",
+      "legal_reference": "Art. 14 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "6- ¿En qué artículo de la Constitución se recoge el derecho a la vida y a la integridad física y moral?",
+      "answers": [
+        { "text": "En el 10.", "correct": false },
+        { "text": "En el 15.", "correct": true },
+        { "text": "En el 14.", "correct": false },
+        { "text": "En el 12.", "correct": false }
+      ],
+      "explanation": "ES: El derecho a la vida e integridad se reconoce en el art. 15 CE. IT: Diritto alla vita e all’integrità: art. 15 CE.",
+      "legal_reference": "Art. 15 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "7- ¿En qué casos puede una persona ser sometida a torturas o a penas o tratos inhumanos o degradantes, según la Constitución Española?",
+      "answers": [
+        { "text": "En caso de resolución judicial motivada.", "correct": false },
+        { "text": "En delitos de terrorismo.", "correct": false },
+        { "text": "En ninguno.", "correct": true },
+        { "text": "Ninguna de las otras respuestas es correcta.", "correct": false }
+      ],
+      "explanation": "ES: La prohibición es absoluta (art. 15 CE). IT: Il divieto è assoluto (art. 15 CE).",
+      "legal_reference": "Art. 15 CE; doctrina TC sobre prohibición absoluta.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "8- Según el artículo 15 de la Constitución, la pena de muerte queda abolida:",
+      "answers": [
+        { "text": "Salvo lo que puedan disponer las leyes generales en tiempo de guerra o en vigencia de alguno de los estados de excepción.", "correct": false },
+        { "text": "En todo caso.", "correct": false },
+        { "text": "Salvo lo que puedan disponer las leyes penales militares para tiempos de guerra.", "correct": true },
+        { "text": "Salvo lo que puedan disponer las leyes penales militares para tiempos de guerra o en vigencia del estado de sitio.", "correct": false }
+      ],
+      "explanation": "ES: Literal del art. 15 CE prevé la salvedad militar en guerra; hoy, por el Protocolo n.º 13 CEDH, está abolida en todo caso. IT: Testo dell’art. 15 CE prevede eccezione in guerra; oggi abolizione totale per Protocollo n. 13 CEDU.",
+      "legal_reference": "Art. 15 CE; Protocolo n.º 13 CEDH (abolición total).",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "9- Según el artículo 15 de la Constitución, tienen derecho a la vida y a la integridad física y moral:",
+      "answers": [
+        { "text": "Todos.", "correct": true },
+        { "text": "Los españoles.", "correct": false },
+        { "text": "Los españoles y los extranjeros que así lo tengan reconocido por los tratados y la ley.", "correct": false },
+        { "text": "Ninguna de las otras respuestas es correcta.", "correct": false }
+      ],
+      "explanation": "ES: El precepto dice “Todos tienen derecho a la vida y a la integridad…”. IT: Il testo dice “Todos…”.",
+      "legal_reference": "Art. 15 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "10- Según el artículo 16 de la Constitución, la libertad ideológica, religiosa y de culto:",
+      "answers": [
+        { "text": "Tendrá, como única limitación, el respeto a la moral y a los derechos de los demás.", "correct": false },
+        { "text": "No tendrá limitación alguna.", "correct": false },
+        { "text": "No tendrá más limitación, en sus manifestaciones, que la necesaria para el mantenimiento del orden público protegido por la ley.", "correct": true },
+        { "text": "Tendrá su limitación en el respeto a la Ley de Libertad Religiosa y a las normas que desarrollen la misma.", "correct": false }
+      ],
+      "explanation": "ES: El límite es el orden público protegido por la ley (art. 16.1 CE). IT: Il limite è l’ordine pubblico tutelato dalla legge (art. 16.1 CE).",
+      "legal_reference": "Art. 16.1 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "10- La Constitución establece que nadie podrá ser obligado a declarar sobre su:",
+      "answers": [
+        { "text": "Religión.", "correct": false },
+        { "text": "Ideología.", "correct": false },
+        { "text": "Creencias.", "correct": false },
+        { "text": "Todas las respuestas son correctas.", "correct": true }
+      ],
+      "explanation": "ES: Art. 16.2 CE: nadie puede ser obligado a declarar sobre ideología, religión o creencias. IT: Nessuno può essere obbligato a dichiarare su ideologia, religione o credo.",
+      "legal_reference": "Art. 16.2 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "11- ¿Qué confesión tendrá carácter estatal, según la Constitución de 1978?",
+      "answers": [
+        { "text": "La católica.", "correct": false },
+        { "text": "Ninguna.", "correct": true },
+        { "text": "La católica y aquellas que tengan un mayor seguimiento a nivel nacional.", "correct": false },
+        { "text": "La católica, pero será a nivel autonómico.", "correct": false }
+      ],
+      "explanation": "ES: El Estado es aconfesional: ninguna confesión tendrá carácter estatal (art. 16.3 CE). IT: Stato aconfessionale: nessuna religione è statale (art. 16.3 CE).",
+      "legal_reference": "Art. 16.3 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "12- ¿En qué plazo máximo deberá el detenido ser puesto en libertad o a disposición de la autoridad judicial, según el artículo 17.2 de la Constitución Española?",
+      "answers": [
+        { "text": "72 horas.", "correct": true },
+        { "text": "48 horas.", "correct": false },
+        { "text": "96 horas.", "correct": false },
+        { "text": "Ninguna de las otras respuestas es correcta.", "correct": false }
+      ],
+      "explanation": "ES: El máximo constitucional de detención preventiva es 72 horas. IT: Il limite massimo è 72 ore.",
+      "legal_reference": "Art. 17.2 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "13- La detención preventiva no podrá durar más:",
+      "answers": [
+        { "text": "Del tiempo estrictamente necesario para la realización de las averiguaciones tendentes al esclarecimiento de los hechos.", "correct": true },
+        { "text": "De 48 horas.", "correct": false },
+        { "text": "De 36 horas.", "correct": false },
+        { "text": "Del tiempo que estrictamente indique la autoridad judicial para cada caso.", "correct": false }
+      ],
+      "explanation": "ES: El art. 17.2 CE añade que, en todo caso, el máximo es 72 horas; la regla general es “tiempo estrictamente necesario”. IT: Regola generale “tempo strettamente necessario”, con tetto massimo di 72 ore.",
+      "legal_reference": "Art. 17.2 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "14- Toda persona detenida debe ser:",
+      "answers": [
+        { "text": "Informada de forma inmediata, y de modo que le sea comprensible a su abogado, de sus derechos y de las causas de su detención.", "correct": false },
+        { "text": "Informada en el plazo de 72 horas, y de modo que le sea comprensible para él o su defensa, de las razones de su detención.", "correct": false },
+        { "text": "Puesta en libertad en el plazo máximo de 72 horas.", "correct": false },
+        { "text": "Informada de forma inmediata, y de modo que le sea comprensible, de sus derechos y de las razones de su detención.", "correct": true }
+      ],
+      "explanation": "ES: La información debe ser inmediata y comprensible para el detenido. IT: Informazione immediata e comprensibile al fermato.",
+      "legal_reference": "Art. 17.3 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "15- Una persona detenida:",
+      "answers": [
+        { "text": "No puede ser obligada a declarar.", "correct": true },
+        { "text": "Puede ser obligada a declarar por la autoridad judicial.", "correct": false },
+        { "text": "No puede ser obligada a declarar sin la presencia de su abogado.", "correct": false },
+        { "text": "Puede ser obligada a declarar por una sentencia judicial.", "correct": false }
+      ],
+      "explanation": "ES: El art. 24.2 CE reconoce el derecho a no declarar; no cabe obligación de declarar. IT: Diritto a non dichiarare (art. 24.2 CE).",
+      "legal_reference": "Arts. 17.3 y 24.2 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "16- Según el artículo 17 de la Constitución, se garantiza la asistencia de abogado al detenido:",
+      "answers": [
+        { "text": "En las diligencias judiciales exclusivamente.", "correct": false },
+        { "text": "En las diligencias policiales y judiciales, en los términos que la el juez establezca.", "correct": false },
+        { "text": "En las diligencias policiales y judiciales, en los términos que la ley establezca.", "correct": true },
+        { "text": "En cualquier diligencia ante la que se encuentre el detenido.", "correct": false }
+      ],
+      "explanation": "ES: La asistencia se garantiza en diligencias policiales y judiciales “en los términos que la ley establezca”. IT: Assistenza legale in atti di polizia e giudiziari, nei termini di legge.",
+      "legal_reference": "Art. 17.3 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "17- ¿Cuál de los siguientes derechos garantiza el artículo 18 de la Constitución Española?",
+      "answers": [
+        { "text": "El domicilio es inviolable. Ninguna entrada o registro podrá hacerse en él sin consentimiento del titular o resolución judicial, incluso en caso de flagrante delito.", "correct": false },
+        { "text": "Se garantiza el derecho al honor, a la intimidad personal y familiar y a la propia imagen.", "correct": true },
+        { "text": "La ley fomentará el uso de la informática para garantizar el honor y la intimidad personal y familiar de los ciudadanos y el pleno ejercicio de sus derechos.", "correct": false },
+        { "text": "Todas las respuestas son correctas.", "correct": false }
+      ],
+      "explanation": "ES: El art. 18.1 CE garantiza honor, intimidad y propia imagen. La inviolabilidad del domicilio admite la excepción de flagrante delito y la ley no “fomenta” sino que “limitará” el uso de la informática. IT: Onore, riservatezza e immagine (art. 18.1); domicilio con eccezione; l’uso dell’informatica è “limitato”, non promosso.",
+      "legal_reference": "Art. 18.1, 18.2 y 18.4 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "18- ¿Cuál de los siguientes derechos garantiza el artículo 18 de la Constitución Española?",
+      "answers": [
+        { "text": "El derecho a la propia imagen.", "correct": false },
+        { "text": "El derecho al honor.", "correct": false },
+        { "text": "El derecho a la intimidad personal y familiar.", "correct": false },
+        { "text": "Todas las respuestas son correctas.", "correct": true }
+      ],
+      "explanation": "ES: El art. 18.1 recoge los tres derechos citados. IT: L’art. 18.1 include tutti e tre i diritti indicati.",
+      "legal_reference": "Art. 18.1 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "19- ¿Cuál de los siguientes derechos no se encuentra recogido en el artículo 18 de la Constitución?",
+      "answers": [
+        { "text": "Se garantiza el secreto de las comunicaciones y, en especial, de las postales, telegráficas y telefónicas, salvo resolución policial.", "correct": true },
+        { "text": "Se garantiza el derecho al honor, a la intimidad personal y familiar y a la propia imagen.", "correct": false },
+        { "text": "El domicilio es inviolable. Ninguna entrada o registro podrá hacerse en él sin consentimiento del titular o resolución judicial, salvo en caso de flagrante delito.", "correct": false },
+        { "text": "La ley limitará el uso de la informática para garantizar el honor y la intimidad personal y familiar de los ciudadanos y el pleno ejercicio de sus derechos.", "correct": false }
+      ],
+      "explanation": "ES: El art. 18.3 prevé “salvo resolución judicial”, no “policial”; así redactado, ese enunciado no es el del art. 18. IT: L’art. 18.3 richiede provvedimento “giudiziale”, non “poliziesco”.",
+      "legal_reference": "Art. 18.1, 18.2, 18.3 y 18.4 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "20- El artículo 18 de la Constitución española recoge que la ley limitará el uso de la informática para garantizar:",
+      "answers": [
+        { "text": "La ley no podrá limitar el uso de la informática salvo resolución judicial.", "correct": false },
+        { "text": "El honor, la intimidad, la propia imagen y la protección de la juventud y de la infancia.", "correct": false },
+        { "text": "El libre desarrollo de los derechos y deberes de los ciudadanos.", "correct": false },
+        { "text": "El honor y la intimidad personal y familiar de los ciudadanos y el pleno ejercicio de sus derechos.", "correct": true }
+      ],
+      "explanation": "ES: La fórmula exacta es “honor e intimidad personal y familiar… y el pleno ejercicio de sus derechos”. IT: Testo esatto: onore e riservatezza personale e familiare, e pieno esercizio dei diritti.",
+      "legal_reference": "Art. 18.4 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "21- Según la Constitución Española, el domicilio es inviolable y ninguna entrada o registro podrá hacerse en él:",
+      "answers": [
+        { "text": "Sin consentimiento del titular o resolución judicial, incluso en caso de flagrante delito.", "correct": false },
+        { "text": "Sin consentimiento del titular y resolución judicial, salvo en caso de flagrante delito.", "correct": false },
+        { "text": "Sin consentimiento del titular o resolución judicial, salvo en caso de flagrante delito.", "correct": true },
+        { "text": "Ninguna de las otras respuestas es correcta.", "correct": false }
+      ],
+      "explanation": "ES: La excepción es el flagrante delito; no “incluso” sino “salvo”. IT: Eccezione: flagranza; non “incluso” ma “salvo”.",
+      "legal_reference": "Art. 18.2 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "22- El secreto de las comunicaciones está garantizado en la Constitución:",
+      "answers": [
+        { "text": "En todo caso.", "correct": false },
+        { "text": "Salvo resolución judicial.", "correct": true },
+        { "text": "Salvo en caso de flagrante delito.", "correct": false },
+        { "text": "Salvo en caso de delitos de terrorismo.", "correct": false }
+      ],
+      "explanation": "ES: La garantía admite la excepción de resolución judicial (art. 18.3 CE). IT: Garanzia con sola eccezione di provvedimento giudiziale.",
+      "legal_reference": "Art. 18.3 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "23- Los españoles tienen derecho a circular por el territorio nacional:",
+      "answers": [
+        { "text": "En los términos que las Cámaras lo establezcan.", "correct": false },
+        { "text": "En los términos que la ley establezca.", "correct": true },
+        { "text": "En los términos que las Comunidades Autónomas lo establezcan.", "correct": false },
+        { "text": "Ninguna de las otras respuestas es correcta.", "correct": false }
+      ],
+      "explanation": "ES: Art. 19 CE: el derecho se ejerce en los términos que la ley establezca. IT: Esercizio “nei termini stabiliti dalla legge”.",
+      "legal_reference": "Art. 19 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "24- Según el artículo 19 de la Constitución: ¿Quiénes tienen derecho a elegir libremente su residencia y a circular por el territorio nacional?",
+      "answers": [
+        { "text": "Los españoles.", "correct": true },
+        { "text": "Todas las personas.", "correct": false },
+        { "text": "Los españoles y extranjeros en los términos que la ley establezca.", "correct": false },
+        { "text": "Ninguna de las otras respuestas es correcta.", "correct": false }
+      ],
+      "explanation": "ES: El art. 19 CE atribuye este derecho a “los españoles”. IT: Il diritto è riconosciuto ai “cittadini spagnoli”.",
+      "legal_reference": "Art. 19 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "El derecho a entrar y salir libremente de España:",
+      "answers": [
+        { "text": "No podrá ser limitado por motivos políticos o ideológicos.", "correct": true },
+        { "text": "No podrá ser limitado por ningún motivo.", "correct": false },
+        { "text": "Únicamente podrá ser limitado por motivos políticos.", "correct": false },
+        { "text": "Únicamente podrá ser limitado mediante resolución judicial.", "correct": false }
+      ],
+      "explanation": "ES: El art. 19 CE prohíbe limitaciones por motivos políticos o ideológicos. IT: L’art. 19 CE vieta limiti per motivi politici o ideologici.",
+      "legal_reference": "Art. 19 CE (entrada y salida de España).",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "25- Según el artículo 21.2 de la Constitución, en los casos de reuniones en lugares de tránsito público y manifestaciones:",
+      "answers": [
+        { "text": "Ninguna de las otras respuestas es correcta.", "correct": false },
+        { "text": "No es necesaria comunicación previa.", "correct": false },
+        { "text": "Deberán ser autorizadas previamente.", "correct": false },
+        { "text": "Se dará comunicación previa a la autoridad", "correct": true }
+      ],
+      "explanation": "ES: Requieren comunicación previa, no autorización. IT: Serve comunicazione previa, non autorizzazione.",
+      "legal_reference": "Art. 21.2 CE; LO 9/1983, de Derecho de Reunión.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "26- Según la Constitución, la ley que regule el ejercicio del derecho a la huelga:",
+      "answers": [
+        { "text": "No podrá establecer limitaciones ni garantías frente a este derecho.", "correct": false },
+        { "text": "Establecerá las garantías precisas para asegurar el mantenimiento de los servicios esenciales de las Administraciones Públicas.", "correct": false },
+        { "text": "Establecerá las garantías precisas para asegurar el mantenimiento de los servicios esenciales de la comunidad.", "correct": true },
+        { "text": "La b) y la c) son correctas.", "correct": false }
+      ],
+      "explanation": "ES: El art. 28.2 CE menciona “servicios esenciales de la comunidad”. IT: L’art. 28.2 CE parla di “servizi essenziali della comunità”.",
+      "legal_reference": "Art. 28.2 CE (derecho de huelga).",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "27- ¿Quiénes tendrán derecho a obtener la tutela efectiva de los jueces y tribunales en el ejercicio de sus derechos e intereses legítimos, según el artículo 24 de la Constitución?",
+      "answers": [
+        { "text": "Los ciudadanos de la Unión Europea.", "correct": false },
+        { "text": "Los españoles.", "correct": false },
+        { "text": "Los españoles y los ciudadanos de los países que reconozcan a los españoles el mismo derecho.", "correct": false },
+        { "text": "Todas las personas.", "correct": true }
+      ],
+      "explanation": "ES: La tutela judicial efectiva (art. 24.1 CE) es para todas las personas. IT: La tutela giurisdizionale effettiva spetta a tutti.",
+      "legal_reference": "Art. 24.1 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "28- ¿Cuál de los siguientes derechos se encuentra recogido en el artículo 24.2 de la CE?",
+      "answers": [
+        { "text": "Todos tienen derecho a no confesarse culpables.", "correct": false },
+        { "text": "Todos tienen derecho a no declarar contra sí mismos.", "correct": false },
+        { "text": "Todos tienen derecho a la presunción de inocencia.", "correct": false },
+        { "text": "Todas las respuestas son correctas.", "correct": true }
+      ],
+      "explanation": "ES: El art. 24.2 CE reconoce la presunción de inocencia y el derecho a no declarar contra sí mismo ni a confesarse culpable. IT: Art. 24.2 CE: presunzione d’innocenza e diritto al silenzio.",
+      "legal_reference": "Art. 24.2 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
     }
   ]
 }
