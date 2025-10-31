@@ -4,566 +4,874 @@
   "questions": [
     {
       "question": "¿Qué tipo de labores están reservadas exclusivamente a funcionarios públicos?",
-      "answers": [
-        { "text": "La elaboración de proyectos de normas", "correct": false },
-        { "text": "La vigilancia de fronteras", "correct": false },
-        { "text": "Los que supongan participar en potestades públicas", "correct": true },
-        { "text": "Los que supongan elaboración de proyectos de normas siempre y cuando así conste atribuido por una resolución previa escrita emitida por órgano competente.", "correct": false }
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "La elaboración de proyectos de normas", "correct": false },
+            { "text": "La vigilancia de fronteras", "correct": false },
+            { "text": "Los que supongan participar en potestades públicas", "correct": true },
+            { "text": "Los que supongan elaboración de proyectos de normas siempre y cuando así conste atribuido por una resolución previa escrita emitida por órgano competente.", "correct": false }
+          ]
+        },
+        {
+          "answers": [
+            { "text": "La elaboración de proyectos de normas", "correct": false },
+            { "text": "La vigilancia de fronteras", "correct": false },
+            { "text": "Los que supongan participar en potestades públicas", "correct": true },
+            { "text": "Los que supongan elaboración de proyectos de normas siempre y cuando así conste atribuido por una resolución previa escrita emitida por órgano competente.", "correct": false }
+          ]
+        }
       ],
-      "explanation": "ES: El ejercicio de potestades públicas y la salvaguarda de los intereses generales queda reservado a funcionarios, no a personal laboral ni a contratistas. Elaborar proyectos de normas no implica necesariamente ejercicio de potestad pública. IT: L’esercizio di potestà pubbliche è riservato ai funzionari; redigere bozze normative non comporta di per sé l’esercizio di potestà amministrative.",
+      "explanation": "ES: El ejercicio de potestades públicas y la salvaguarda del interés general está reservado a funcionarios. IT: Le funzioni che implicano potestà pubbliche spettano ai funzionari, non al personale contrattuale.",
       "legal_reference": "RDL 5/2015 (EBEP), art. 9.2.",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
       "question": "Señale cuál de los siguientes NO es un principio ético de los funcionarios:",
-      "answers": [
-        { "text": "Se abstendrán en aquellos asuntos en los que tengan un interés personal, así como de toda actividad privada o interés que pueda suponer un riesgo de plantear conflictos de intereses con su puesto público.", "correct": false },
-        { "text": "No contraerán obligaciones económicas ni intervendrán en operaciones financieras, obligaciones patrimoniales o negocios jurídicos con personas o entidades cuando pueda suponer un conflicto de intereses con las obligaciones de su puesto público.", "correct": false },
-        { "text": "Cumplirán con diligencia las tareas que les correspondan o se les encomienden y, en su caso, resolverán dentro de plazo los procedimientos o expedientes de su competencia.", "correct": true },
-        { "text": "Informarán a los ciudadanos sobre aquellas materias o asuntos que tengan derecho a conocer, y facilitarán el ejercicio de sus derechos y el cumplimiento de sus obligaciones.", "correct": false }
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Se abstendrán en aquellos asuntos en los que tengan un interés personal, así como de toda actividad privada o interés que pueda suponer un riesgo de plantear conflictos de intereses con su puesto público.", "correct": false },
+            { "text": "No contraerán obligaciones económicas ni intervendrán en operaciones financieras, obligaciones patrimoniales o negocios jurídicos con personas o entidades cuando pueda suponer un conflicto de intereses con las obligaciones de su puesto público.", "correct": false },
+            { "text": "Cumplirán con diligencia las tareas que les correspondan o se les encomienden y, en su caso, resolverán dentro de plazo los procedimientos o expedientes de su competencia.", "correct": true },
+            { "text": "Informarán a los ciudadanos sobre aquellas materias o asuntos que tengan derecho a conocer, y facilitarán el ejercicio de sus derechos y el cumplimiento de sus obligaciones.", "correct": false }
+          ]
+        },
+        {
+          "answers": [
+            { "text": "Se abstendrán en aquellos asuntos en los que tengan un interés personal, así como de toda actividad privada o interés que pueda suponer un riesgo de plantear conflictos de intereses con su puesto público.", "correct": false },
+            { "text": "No contraerán obligaciones económicas ni intervendrán en operaciones financieras, obligaciones patrimoniales o negocios jurídicos con personas o entidades cuando pueda suponer un conflicto de intereses con las obligaciones de su puesto público.", "correct": false },
+            { "text": "Tratarán con atención y respeto a los ciudadanos, a sus superiores y a los restantes empleados públicos.", "correct": true },
+            { "text": "No aceptarán ningún trato de favor o situación que implique privilegio o ventaja injustificada, por parte de personas físicas o entidades privadas.", "correct": false }
+          ]
+        }
       ],
-      "explanation": "ES: La diligencia en el cumplimiento y la resolución en plazo es principio de conducta (no ético). Los principios éticos abarcan imparcialidad, integridad, abstención ante conflictos. IT: La diligenza e il rispetto dei termini rientrano nei principi di condotta, non tra quelli etici; i principi etici includono imparzialità, integrità e astensione in caso di conflitto.",
-      "legal_reference": "EBEP, art. 52 (principios éticos) y art. 53 (principios de conducta).",
+      "explanation": "ES: La diligencia/respeto son principios de conducta, no éticos. IT: Diligenza e rispetto rientrano nei principi di condotta (art. 53), non tra quelli etici (art. 52).",
+      "legal_reference": "EBEP, arts. 52 (principios éticos) y 53 (principios de conducta).",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
       "question": "Señale cuál de los siguientes NO es un principio de conducta de los Funcionarios Públicos",
-      "answers": [
-        { "text": "Garantizarán la constancia y permanencia de los documentos para su transmisión y entrega a sus posteriores responsables.", "correct": true },
-        { "text": "Mantendrán actualizada su formación y cualificación.", "correct": false },
-        { "text": "Observarán las normas sobre seguridad y salud laboral", "correct": false },
-        { "text": "No aceptarán ningún trato de favor o situación que implique privilegio o ventaja injustificada, por parte de personas físicas o entidades privadas.", "correct": false }
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Garantizarán la constancia y permanencia de los documentos para su transmisión y entrega a sus posteriores responsables.", "correct": true },
+            { "text": "Mantendrán actualizada su formación y cualificación.", "correct": false },
+            { "text": "Observarán las normas sobre seguridad y salud laboral", "correct": false },
+            { "text": "No aceptarán ningún trato de favor o situación que implique privilegio o ventaja injustificada, por parte de personas físicas o entidades privadas.", "correct": false }
+          ]
+        },
+        {
+          "answers": [
+            { "text": "Garantizarán la constancia y permanencia de los documentos para su transmisión y entrega a sus posteriores responsables.", "correct": true },
+            { "text": "Mantendrán actualizada su formación y cualificación.", "correct": false },
+            { "text": "Observarán las normas sobre seguridad y salud laboral", "correct": false },
+            { "text": "Respetarán la Constitución y el resto de normas que integran el ordenamiento jurídico.", "correct": false }
+          ]
+        }
       ],
-      "explanation": "ES: El mantenimiento de la formación, el cumplimiento de seguridad y salud y la prohibición de tratos de favor sí son principios de conducta. La “garantía de constancia y permanencia de documentos” no figura como tal principio en el listado legal. IT: Aggiornamento professionale, sicurezza e divieto di favoritismi sono principi di condotta; la garanzia di permanenza dei documenti non è prevista espressamente come principio di condotta.",
-      "legal_reference": "EBEP, art. 53 (principios de conducta).",
+      "explanation": "ES: El listado legal no incluye la ‘garantía de constancia y permanencia’ como principio de conducta. IT: La voce su ‘permanenza dei documenti’ non figura tra i principi di condotta dell’EBEP.",
+      "legal_reference": "EBEP, art. 53.",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
       "question": "La incomparecencia injustificada de los funcionarios en las Comisiones de Investigación de las Cortes Generales y de las Asambleas legislativas de las Comunidades Autónomas se considera",
-      "answers": [
-        { "text": "Falta grave si es en las Cortes Generales", "correct": false },
-        { "text": "Falta muy grave", "correct": true },
-        { "text": "Faltas graves tanto si es en las CCAA como en las Cortes Generales", "correct": false },
-        { "text": "Infracción disciplinaria", "correct": false }
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Falta grave si es en las Cortes Generales", "correct": false },
+            { "text": "Falta muy grave", "correct": true },
+            { "text": "Faltas graves tanto si es en las CCAA como en las Cortes Generales", "correct": false },
+            { "text": "Infracción disciplinaria", "correct": false }
+          ]
+        }
       ],
-      "explanation": "ES: La incomparecencia injustificada ante comisiones de investigación es tipificada como falta muy grave. IT: L’assenza ingiustificata dinanzi a commissioni d’inchiesta parlamentari o regionali integra una mancanza disciplinare molto grave.",
-      "legal_reference": "EBEP, art. 95.2 (faltas muy graves).",
+      "explanation": "ES: La incomparecencia injustificada ante comisiones de investigación es falta muy grave. IT: L’assenza ingiustificata davanti a commissioni d’inchiesta integra mancanza molto grave.",
+      "legal_reference": "EBEP, art. 95.2.",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
       "question": "En el caso de afectación expresa, debe constar en el mismo:",
-      "answers": [
-        { "text": "El fin al que se destina", "correct": true },
-        { "text": "El modo de adquisición", "correct": false },
-        { "text": "El órgano al que corresponda el ejercicio de las competencias demaniales", "correct": true },
-        { "text": "Las opciones a y c son correctas", "correct": true }
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "El fin al que se destina", "correct": false },
+            { "text": "El modo de adquisición", "correct": false },
+            { "text": "El órgano al que corresponda el ejercicio de las competencias demaniales", "correct": false },
+            { "text": "Las opciones a y c son correctas", "correct": true }
+          ]
+        }
       ],
-      "explanation": "ES: El acuerdo de afectación debe indicar destino y órgano gestor de las competencias demaniales; el modo de adquisición no es requisito propio de la afectación. IT: L’atto di destinazione demaniale deve specificare fine e organo competente; la modalità di acquisto non è elemento necessario dell’affectatio.",
-      "legal_reference": "Ley 33/2003 (LPAP), arts. 66-67.",
+      "explanation": "ES: La afectación debe indicar destino y órgano competente; la opción que lo resume (a y c) es la correcta. IT: L’atto di affectatio deve specificare fine e organo; corretta la risposta che le comprende.",
+      "legal_reference": "Ley 33/2003 (LPAP), arts. 66–67.",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
       "question": "¿Puede adquirir la Administración Bienes Patrimoniales por Usucapión?",
-      "answers": [
-        { "text": "No, con excepción de los previstos en la Ley", "correct": false },
-        { "text": "No, salvo autorización expresa", "correct": false },
-        { "text": "Sí, en los términos del Código Civil", "correct": true },
-        { "text": "Sí, conforme al procedimiento administrativo especial establecido por la Ley de Patrimonio de las Administraciones Públicas", "correct": false }
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "No, con excepción de los previstos en la Ley", "correct": false },
+            { "text": "No, salvo autorización expresa", "correct": false },
+            { "text": "Sí, en los términos del Código Civil", "correct": true },
+            { "text": "Sí, conforme al procedimiento administrativo especial establecido por la Ley de Patrimonio de las Administraciones Públicas", "correct": false }
+          ]
+        },
+        {
+          "answers": [
+            { "text": "No, con excepción de los previstos en la Ley", "correct": false },
+            { "text": "No, salvo autorización expresa", "correct": false },
+            { "text": "Sí, en los términos del Código Civil", "correct": true },
+            { "text": "Sí conforme al procedimiento administrativo especial establecido por la Ley de Patrimonio de las Administraciones Públicas", "correct": false }
+          ]
+        }
       ],
-      "explanation": "ES: La Administración puede adquirir bienes y derechos por cualquier modo admitido en Derecho, incluida la usucapión, con arreglo al Código Civil. IT: L’Amministrazione può acquistare per usucapione nei termini del Codice Civile, come qualsiasi soggetto di diritto.",
-      "legal_reference": "LPAP, art. 17.1; Código Civil, arts. 1936 y ss., 1959 y ss.",
+      "explanation": "ES: La Administración puede adquirir por cualquier modo admitido en Derecho, incluida la usucapión. IT: L’Amministrazione può acquistare per usucapione secondo il Codice Civile.",
+      "legal_reference": "LPAP, art. 17.1; Código Civil, arts. 1936 y ss.",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
       "question": "¿Quién puede expedir una certificación administrativa?",
-      "answers": [
-        { "text": "Únicamente empleados públicos", "correct": false },
-        { "text": "Cualquier miembro del personal laboral", "correct": false },
-        { "text": "Únicamente funcionarios públicos", "correct": true },
-        { "text": "Únicamente personal de alta Dirección", "correct": false }
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Únicamente empleados públicos", "correct": false },
+            { "text": "Cualquier miembro del personal laboral", "correct": false },
+            { "text": "Únicamente funcionarios públicos", "correct": true },
+            { "text": "Únicamente personal de alta Dirección", "correct": false }
+          ]
+        },
+        {
+          "answers": [
+            { "text": "Únicamente empleados públicos", "correct": false },
+            { "text": "Cualquier miembro del personal laboral", "correct": false },
+            { "text": "Únicamente funcionarios públicos", "correct": true },
+            { "text": "Únicamente personal de alta Dirección", "correct": false }
+          ]
+        }
       ],
-      "explanation": "ES: La fe pública administrativa y la expedición de certificaciones se reservan a funcionarios (funciones de autoridad/potestad). IT: La certificazione amministrativa è funzione che implica esercizio di potestà e spetta ai funzionari.",
-      "legal_reference": "EBEP, art. 9.2; LPACAP 39/2015, arts. 27-28 (régimen de documentos/certificaciones).",
+      "explanation": "ES: La fe pública/expedición de certificaciones es función propia de funcionarios. IT: Le certificazioni amministrative spettano ai funzionari.",
+      "legal_reference": "EBEP, art. 9.2; Ley 39/2015, arts. 27–28.",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
       "question": "¿Es necesaria la nacionalidad española para poder ser funcionario público?",
-      "answers": [
-        { "text": "Sí, en todo caso", "correct": false },
-        { "text": "Sí, pero también se admiten cónyuges de españoles", "correct": false },
-        { "text": "Sí, pero también se admiten cónyuges de españoles y nacionales de otros Estados miembros de la UE", "correct": true },
-        { "text": "No. Hay casos en los que se puede dispensar de este requisito.", "correct": false }
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Sí, en todo caso", "correct": false },
+            { "text": "Sí, pero también se admiten cónyuges de españoles", "correct": false },
+            { "text": "Sí, pero también se admiten cónyuges de españoles y nacionales de otros Estados miembros de la UE", "correct": true },
+            { "text": "No. Hay casos en los que se puede dispensar de este requisito.", "correct": false }
+          ]
+        },
+        {
+          "answers": [
+            { "text": "Sí, en todo caso", "correct": false },
+            { "text": "Sí, pero también se admiten cónyuges de españoles", "correct": false },
+            { "text": "Sí, pero también se admiten cónyuges de españoles y nacionales de otros Estados miembros de la UE", "correct": true },
+            { "text": "No. Hay casos en los que se puede dispensar de este requisito.", "correct": false }
+          ]
+        }
       ],
-      "explanation": "ES: Con carácter general se exige nacionalidad española, pero también pueden acceder nacionales de la UE y ciertos familiares (cónyuges) en los términos legales. IT: In via generale è richiesta la cittadinanza spagnola; possono accedere anche cittadini UE e taluni familiari, secondo legge.",
-      "legal_reference": "EBEP, arts. 56 y 57.",
+      "explanation": "ES: Pueden acceder nacionales de España, de la UE y ciertos familiares; fuera de ello, el acceso es restrictivo. IT: Accesso per cittadini spagnoli e UE (e alcuni familiari) secondo l’EBEP.",
+      "legal_reference": "EBEP, arts. 56–57.",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
       "question": "El documento mediante el que los interesados ponen en conocimiento de la Administración Pública competente sus datos identificativos y demás requisitos exigibles para el ejercicio de un derecho o el inicio de una actividad se denomina:",
-      "answers": [
-        { "text": "Comunicación previa", "correct": true },
-        { "text": "Declaración responsable", "correct": false },
-        { "text": "Autorización", "correct": false },
-        { "text": "Permiso", "correct": false }
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Comunicación previa", "correct": true },
+            { "text": "Declaración responsable", "correct": false },
+            { "text": "Autorización", "correct": false },
+            { "text": "Permiso", "correct": false }
+          ]
+        },
+        {
+          "answers": [
+            { "text": "Comunicación previa", "correct": true },
+            { "text": "Declaración responsable", "correct": false },
+            { "text": "Autorización", "correct": false },
+            { "text": "Permiso", "correct": false }
+          ]
+        }
       ],
-      "explanation": "ES: Esa definición es de comunicación previa; la declaración responsable es una manifestación de cumplimiento bajo responsabilidad del interesado. IT: La definizione corrisponde alla comunicazione preventiva; la dichiarazione responsabile è un’autodichiarazione di conformità.",
-      "legal_reference": "LPACAP 39/2015, art. 69.1-2.",
+      "explanation": "ES: Esa es la definición legal de comunicación previa; la declaración responsable es una manifestación de cumplimiento. IT: È ‘comunicazione preventiva’; la ‘dichiarazione responsabile’ attesta il rispetto dei requisiti.",
+      "legal_reference": "Ley 39/2015 (LPACAP), art. 69.1–2.",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
       "question": "Cuando se utilizan los contratos para dar entrada a las empresas privadas en la gestión de servicios públicos nos encontramos ante la figura de:",
-      "answers": [
-        { "text": "Concesión", "correct": true },
-        { "text": "Concierto", "correct": false },
-        { "text": "Sociedades de economía mixta", "correct": false },
-        { "text": "Todas las respuestas son correctas", "correct": false }
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Concesión", "correct": true },
+            { "text": "Concierto", "correct": false },
+            { "text": "Sociedades de economía mixta", "correct": false },
+            { "text": "Todas las respuestas son correctas", "correct": false }
+          ]
+        },
+        {
+          "answers": [
+            { "text": "Concesión", "correct": true },
+            { "text": "Concierto", "correct": false },
+            { "text": "Sociedades de economía mixta", "correct": false },
+            { "text": "Todas las respuestas son correctas", "correct": false }
+          ]
+        }
       ],
-      "explanation": "ES: La gestión contractual de servicios públicos por un operador privado se articula como contrato de concesión de servicios. El concierto y la sociedad mixta no son la figura contractual típica de gestión directa por contrato. IT: L’ingresso di un privato tramite contratto nella gestione di un servizio pubblico è la concessione di servizi.",
-      "legal_reference": "LCSP 9/2017, arts. 14-15 (contrato de concesión de servicios).",
+      "explanation": "ES: La gestión contractual por un privado del servicio público es concesión de servicios. IT: L’ingresso tramite contratto nella gestione di un servizio pubblico è la concessione di servizi.",
+      "legal_reference": "Ley 9/2017 (LCSP), arts. 14–15 (concesión de servicios).",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
       "question": "La norma de referencia en materia de unidad de mercado es:",
-      "answers": [
-        { "text": "Ley 27/2006 de Unidad de mercado", "correct": false },
-        { "text": "Ley 26/2007 de Unidad de mercado", "correct": false },
-        { "text": "Ley 20/2013 de garantía de la unidad de mercado", "correct": true },
-        { "text": "Ley 42/2007 de garantía de la unidad de mercado", "correct": false }
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Ley 27/2006 de Unidad de mercado", "correct": false },
+            { "text": "Ley 26/2007 de Unidad de mercado", "correct": false },
+            { "text": "Ley 20/2013 de garantía de la unidad de mercado", "correct": true },
+            { "text": "Ley 42/2007 de garantía de la unidad de mercado", "correct": false }
+          ]
+        },
+        {
+          "answers": [
+            { "text": "Ley 27/2006 de Unidad de mercado", "correct": false },
+            { "text": "Ley 26/2007 de Unidad de mercado", "correct": false },
+            { "text": "Ley 20/2013 de garantía de la unidad de mercado", "correct": true },
+            { "text": "Ley 42/2007 de garantía de la unidad de mercado", "correct": false }
+          ]
+        }
       ],
-      "explanation": "ES: La norma básica es la Ley 20/2013. IT: La legge di riferimento è la 20/2013 sulla garanzia dell’unità di mercato.",
+      "explanation": "ES: La ley marco es la 20/2013. IT: La norma di riferimento è la Ley 20/2013.",
       "legal_reference": "Ley 20/2013, de garantía de la unidad de mercado.",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
       "question": "Las declaraciones responsables y las comunicaciones permitirán, el reconocimiento o ejercicio de un derecho o bien el inicio de una actividad:",
-      "answers": [
-        { "text": "Desde que transcurran 60 días de su presentación", "correct": false },
-        { "text": "Desde su presentación", "correct": true },
-        { "text": "Desde la comprobación documental por la Administración", "correct": false },
-        { "text": "Desde la visita de comprobación de la Administración", "correct": false }
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Desde que transcurran 60 días de su presentación", "correct": false },
+            { "text": "Desde su presentación", "correct": true },
+            { "text": "Desde la comprobación documental por la Administración", "correct": false },
+            { "text": "Desde la visita de comprobación de la Administración", "correct": false }
+          ]
+        },
+        {
+          "answers": [
+            { "text": "Desde su presentación", "correct": true },
+            { "text": "Desde que transcurran 21 días de su presentación", "correct": false },
+            { "text": "Desde la visita de comprobación de la Administración", "correct": false },
+            { "text": "Desde la comprobación documental por la Administración", "correct": false }
+          ]
+        }
       ],
-      "explanation": "ES: Producen efectos desde su presentación, sin perjuicio de controles posteriores. IT: Producono effetti dalla presentazione, fatti salvi i controlli successivi.",
-      "legal_reference": "LPACAP 39/2015, art. 69.3.",
+      "explanation": "ES: Surten efectos desde su presentación, sin perjuicio de control posterior. IT: Producono effetti dalla presentazione, fatti salvi i controlli.",
+      "legal_reference": "LPACAP, art. 69.3.",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
       "question": "Los organismos autónomos se rigen:",
-      "answers": [
-        { "text": "Por el derecho público principalmente de forma análoga a los Ministerios.", "correct": true },
-        { "text": "Por el derecho público en el ejercicio de las competencias públicas que tienen asignadas y por el derecho privado en otros aspectos.", "correct": false },
-        { "text": "Se rigen por las mismas normas que las demás fundaciones con algunas salvedades en materia de contratación, contabilidad y control financiero.", "correct": false },
-        { "text": "Por Derecho privado de manera preponderante", "correct": false }
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Por el derecho público principalmente de forma análoga a los Ministerios.", "correct": true },
+            { "text": "Por el derecho público en el ejercicio de las competencias públicas que tienen asignadas y por el derecho privado en otros aspectos.", "correct": false },
+            { "text": "Se rigen por las mismas normas que las demás fundaciones con algunas salvedades en materia de contratación, contabilidad y control financiero.", "correct": false },
+            { "text": "Por Derecho privado de manera preponderante", "correct": false }
+          ]
+        },
+        {
+          "answers": [
+            { "text": "Por el derecho público principalmente de forma análoga a los Ministerios.", "correct": true },
+            { "text": "Por el derecho público en el ejercicio de las competencias públicas que tienen asignadas y por el derecho privado en otros aspectos.", "correct": false },
+            { "text": "Se rigen por las mismas normas que las demás fundaciones con algunas salvedades en materia de contratación, contabilidad y control financiero", "correct": false },
+            { "text": "Por Derecho privado de manera preponderante", "correct": false }
+          ]
+        }
       ],
-      "explanation": "ES: Los organismos autónomos tienen régimen predominantemente de derecho público; la regla mixta público/privado corresponde a las EPE. IT: Gli organismi autonomi seguono prevalentemente il diritto pubblico; il regime misto è proprio delle entità pubbliche imprenditoriali.",
-      "legal_reference": "Ley 40/2015, arts. 98-99.",
+      "explanation": "ES: Los OA tienen régimen predominantemente de Derecho público; el régimen mixto corresponde a las EPE. IT: Gli organismi autonomi hanno regime pubblicistico; il regime misto è delle entità pubbliche imprenditoriali.",
+      "legal_reference": "Ley 40/2015, arts. 98–99.",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
       "question": "Los inmuebles en construcción a efectos de afectación:",
-      "answers": [
-        { "text": "Sólo podrán afectarse cuando sean terminados por un certificado final de obra acompañado de la recepción formal de la obra por el Departamento correspondiente sin más trámites.", "correct": false },
-        { "text": "Se entenderán afectados al departamento con cargo a cuyos créditos presupuestarios se efectúe la edificación.", "correct": true },
-        { "text": "Requieren una afectación expresa que se entiende implícita en el acta de recepción de obra", "correct": false },
-        { "text": "Se entenderán afectados al Ministerio de Obras Públicas o su equivalente a nivel autonómico.", "correct": false }
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Sólo podrán afectarse cuando sean terminados por un certificado final de obra acompañado de la recepción formal de la obra por el Departamento correspondiente sin más trámites.", "correct": false },
+            { "text": "Se entenderán afectados al departamento con cargo a cuyos créditos presupuestarios se efectúe la edificación.", "correct": true },
+            { "text": "Requieren una afectación expresa que se entiende implícita en el acta de recepción de obra", "correct": false },
+            { "text": "Se entenderán afectados al Ministerio de Obras Públicas o su equivalente a nivel autonómico.", "correct": false }
+          ]
+        },
+        {
+          "answers": [
+            { "text": "Sólo podrán afectarse cuando sean terminados por un certificado final de obra acompañado de la recepción formal de la obra por el Departamento correspondiente sin más trámites", "correct": false },
+            { "text": "Se entenderán afectados al departamento con cargo a cuyos créditos presupuestarios se efectúe la edificación", "correct": true },
+            { "text": "Requieren una afectación expresa que se entiende implícita en el acta de recepción de obra", "correct": false },
+            { "text": "Se entenderán afectados al Ministerio de Obras Públicas o su equivalente a nivel autonómico", "correct": false }
+          ]
+        }
       ],
-      "explanation": "ES: La afectación de inmuebles en construcción se presume a favor del departamento que financia la obra. IT: Gli immobili in costruzione si considerano affetti al dipartimento a carico del cui bilancio si realizza l’opera.",
-      "legal_reference": "LPAP, art. 67.3 (afectación presunta).",
+      "explanation": "ES: Existe afectación presunta al departamento cuyos créditos financian la obra. IT: Vige affectatio presunta al dipartimento che sostiene la spesa.",
+      "legal_reference": "LPAP, art. 67.3.",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
       "question": "Cuando varía la Administración titular de un Bien de Dominio Público nos encontramos ante un fenómeno de:",
-      "answers": [
-        { "text": "Afectación", "correct": false },
-        { "text": "Desafectación", "correct": false },
-        { "text": "Mutación demanial objetiva", "correct": false },
-        { "text": "Mutación demanial subjetiva", "correct": true }
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Afectación", "correct": false },
+            { "text": "Desafectación", "correct": false },
+            { "text": "Mutación demanial objetiva", "correct": false },
+            { "text": "Mutación demanial subjetiva", "correct": true }
+          ]
+        }
       ],
-      "explanation": "ES: Cambia la titularidad administrativa manteniéndose el carácter demanial: mutación demanial subjetiva. IT: Il mutamento del soggetto titolare, con permanenza del demanio, è mutazione demaniale soggettiva.",
+      "explanation": "ES: Cambio de titular manteniendo el carácter demanial = mutación demanial subjetiva. IT: Cambio del soggetto titolare con permanenza del demanio: mutazione soggettiva.",
       "legal_reference": "LPAP, art. 71.",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
       "question": "El uso común con aprovechamiento especial de bienes de Dominio Público:",
-      "answers": [
-        { "text": "Es generalmente gratuito", "correct": false },
-        { "text": "Generalmente lleva una tasa", "correct": true },
-        { "text": "Siempre es gratuito", "correct": false },
-        { "text": "Siempre lleva una tasa", "correct": false }
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Es generalmente gratuito", "correct": false },
+            { "text": "Generalmente lleva una tasa", "correct": true },
+            { "text": "Siempre es gratuito", "correct": false },
+            { "text": "Siempre lleva una tasa", "correct": false }
+          ]
+        },
+        {
+          "answers": [
+            { "text": "Es generalmente gratuito", "correct": false },
+            { "text": "Generalmente lleva una tasa", "correct": true },
+            { "text": "Siempre es gratuito", "correct": false },
+            { "text": "Siempre lleva una tasa", "correct": false }
+          ]
+        }
       ],
-      "explanation": "ES: El aprovechamiento especial del dominio público genera, por regla, tasa/canon. IT: L’uso comune con particolare sfruttamento del demanio comporta ordinariamente un’entrata (tassa/canone).",
-      "legal_reference": "TRLRHL (Texto Refundido Ley Haciendas Locales) 2/2004, art. 20.3; LPAP, arts. 84 y ss.",
+      "explanation": "ES: El aprovechamiento especial del dominio público genera en regla tasa/canon. IT: L’uso comune con speciale sfruttamento comporta di norma un prelievo.",
+      "legal_reference": "TRLRHL 2/2004, art. 20.3; LPAP, arts. 84 y ss.",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
       "question": "El uso privativo:",
-      "answers": [
-        { "text": "Es generalmente gratuito", "correct": false },
-        { "text": "Generalmente lleva una tasa o contraprestación", "correct": true },
-        { "text": "Siempre es gratuito", "correct": false },
-        { "text": "Siempre lleva una tasa o contraprestación", "correct": false }
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Es generalmente gratuito", "correct": false },
+            { "text": "Generalmente lleva una tasa o contraprestación", "correct": true },
+            { "text": "Siempre es gratuito", "correct": false },
+            { "text": "Siempre lleva una tasa o contraprestación", "correct": false }
+          ]
+        },
+        {
+          "answers": [
+            { "text": "Es generalmente gratuito", "correct": false },
+            { "text": "Supone una nueva afectación", "correct": false },
+            { "text": "Siempre es gratuito", "correct": false },
+            { "text": "Realiza una ocupación efectiva de un bien de dominio público", "correct": true }
+          ]
+        }
       ],
-      "explanation": "ES: El uso privativo (ocupación excluyente de porción del dominio público) conlleva ordinariamente tasa o canon, si bien pueden existir excepciones legales. IT: L’uso privativo del demanio implica di regola un canone/tassa; non è gratuità la regola.",
-      "legal_reference": "TRLRHL 2/2004, art. 20.3; normativa sectorial (p. ej., TRLA, canon por utilización del DPH).",
+      "explanation": "ES: El uso privativo ocupa de modo excluyente el D.P. y suele devengar tasa/canon. IT: L’uso privativo implica occupazione esclusiva e normalmente un corrispettivo.",
+      "legal_reference": "RBEL RD 1372/1986, art. 75; TRLRHL 2/2004, art. 20.3.",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
       "question": "La potestad de deslinde administrativo de fincas colindantes:",
-      "answers": [
-        { "text": "Solo puede relizarse cuando haya indicios de usurpación", "correct": false },
-        { "text": "Sólo puede realizarse cuando los límites entre las propiedades sean imprecisos", "correct": false },
-        { "text": "Sólo puede realizarse cuando los límites sean confusos o haya indicios de usurpación", "correct": true },
-        { "text": "Sólo puede realizarse cuando los límites sean confusos y haya indicios de usurpación", "correct": false }
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Solo puede relizarse cuando haya indicios de usurpación", "correct": false },
+            { "text": "Sólo puede realizarse cuando los límites entre las propiedades sean imprecisos", "correct": false },
+            { "text": "Sólo puede realizarse cuando los límites sean confusos o haya indicios de usurpación", "correct": true },
+            { "text": "Sólo puede realizarse cuando los límites sean confusos y haya indicios de usurpación", "correct": false }
+          ]
+        },
+        {
+          "answers": [
+            { "text": "Solo puede realizarse cuando haya indicios de usurpación", "correct": false },
+            { "text": "Sólo puede realizarse cuando los límites entre las propiedades sean imprecisos", "correct": false },
+            { "text": "Sólo puede realizarse cuando los límites sean confusos o haya indicios de usurpación", "correct": true },
+            { "text": "Sólo puede realizarse cuando los límites sean confusos y haya indicios de usurpación", "correct": false }
+          ]
+        }
       ],
-      "explanation": "ES: Procede cuando existan límites confusos o indicios de usurpación; no se exige cumulativamente ambos. IT: Il potere di delimitazione si esercita se i confini sono confusi o vi sono indizi di usurpazione; non è richiesta la compresenza.",
-      "legal_reference": "LPAP, arts. 54-55 (deslinde y recuperación posesoria).",
+      "explanation": "ES: Procede por confusión de límites o indicios de usurpación (no ambos cumulativos). IT: Si esercita con confini confusi o indizi di usurpazione.",
+      "legal_reference": "LPAP, arts. 54–55.",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
       "question": "Para que la Administración pueda recuperar la posesión de un bien cuyo poseedor tiene título inscrito en el Registro de la Propiedad:",
-      "answers": [
-        { "text": "Puede recuperar la posesión en vía administrativa en todo caso", "correct": false },
-        { "text": "Debe acudir a los tribunales siempre", "correct": true },
-        { "text": "Debe acudir a los tribunales sólo si ha pasado más de un año", "correct": false },
-        { "text": "Puede recuperar la posesión en vía administrativa si ha pasado menos de un año", "correct": false }
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Puede recuperar la posesión en vía administrativa en todo caso", "correct": false },
+            { "text": "Debe acudir a los tribunales siempre", "correct": true },
+            { "text": "Debe acudir a los tribunales sólo si ha pasado más de un año", "correct": false },
+            { "text": "Puede recuperar la posesión en vía administrativa si ha pasado menos de un año", "correct": false }
+          ]
+        },
+        {
+          "answers": [
+            { "text": "Puede recuperar la posesión en vía administrativa en todo caso", "correct": false },
+            { "text": "Debe acudir a los tribunales siempre", "correct": true },
+            { "text": "Debe acudir a los tribunales sólo si ha pasado más de un año", "correct": false },
+            { "text": "Puede recuperar la posesión en vía administrativa si ha pasado menos de un año", "correct": false }
+          ]
+        }
       ],
-      "explanation": "ES: Frente a poseedor amparado por título inscrito, la Administración no puede oponer desahucio/recuperación de oficio y debe acudir a la vía judicial declarativa. IT: In presenza di un titolo registrale, l’Amministrazione deve rivolgersi al giudice; non basta l’autotutela possessoria.",
-      "legal_reference": "LPAP, art. 55 (límites de la recuperación de oficio); Ley Hipotecaria, arts. 1 y 38 (protección registral).",
+      "explanation": "ES: El título inscrito blinda al poseedor frente a la recuperación de oficio; procede vía judicial. IT: Con titolo registrato occorre ricorrere ai tribunali.",
+      "legal_reference": "LPAP, art. 55; Ley Hipotecaria, arts. 1 y 38.",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
       "question": "¿A quién se puede ceder gratuitamente la propiedad de bienes públicos?",
-      "answers": [
-        { "text": "Comunidades Autónomas", "correct": true },
-        { "text": "Estados Extranjeros por cuestiones de cooperación", "correct": true },
-        { "text": "Organizaciones Internacionales en operaciones de Mantenimiento de la Paz", "correct": true },
-        { "text": "Asociaciones de interés público.", "correct": true }
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Comunidades Autónomas", "correct": true },
+            { "text": "Estados Extranjeros por cuestiones de cooperación", "correct": true },
+            { "text": "Organizaciones Internacionales en operaciones de Mantenimiento de la Paz", "correct": true },
+            { "text": "Asociaciones de interés público.", "correct": true }
+          ]
+        },
+        {
+          "answers": [
+            { "text": "Estados Extranjeros por cuestiones de cooperación", "correct": true },
+            { "text": "Entidades locales", "correct": true },
+            { "text": "Organizaciones Internacionales en operaciones de Mantenimiento de la Paz", "correct": true },
+            { "text": "Todas las anteriores", "correct": true }
+          ]
+        }
       ],
-      "explanation": "ES: La LPAP permite cesiones gratuitas de bienes patrimoniales a CCAA, entidades locales y otras entidades/organizaciones públicas o sin ánimo de lucro y, en determinados supuestos, a Estados extranjeros y OO.II. IT: La legge consente cessioni gratuite a soggetti pubblici interni, enti non profit e, in casi previsti, a Stati esteri e organizzazioni internazionali.",
-      "legal_reference": "LPAP, arts. 145-146 (cesiones gratuitas de bienes patrimoniales).",
+      "explanation": "ES: La LPAP permite cesiones gratuitas a otras AAPP, OO.II./Estados y entidades sin ánimo de lucro para fines de interés general. IT: Cessioni gratuite ammesse a PA, organizzazioni internazionali/Stati ed enti senza scopo di lucro per fini pubblici.",
+      "legal_reference": "LPAP, arts. 145–146.",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
       "question": "Señale la respuesta correcta",
-      "answers": [
-        { "text": "Lecho o fondo de un embalse superficial es el terreno cubierto por las aguas cuando éstas alcanzan su mayor nivel a consecuencia de las máximas crecidas ordinarias de los ríos que lo alimentan", "correct": true },
-        { "text": "Lecho o fondo de un embalse superficial es el terreno cubierto por las aguas cuando éstas alcanzan su mayor nivel a consecuencia de los mayores temporales conocidos.", "correct": false },
-        { "text": "Lecho o fondo de un embalse superficial es el terreno cubierto por las aguas cuando éstas alcanzan su mayor nivel a consecuencia de los máximos aportes de agua realizados por el flujo de agua canalizada que los nutre.", "correct": false },
-        { "text": "Lecho o fondo de un embalse superficial es el terreno cubierto por las aguas cuando éstas alcanzan su menor nivel a consecuencia de los máximo aportes de agua realizados por el flujo de agua canalizada que los nutre.", "correct": false }
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Lecho o fondo de un embalse superficial es el terreno cubierto por las aguas cuando éstas alcanzan su mayor nivel a consecuencia de las máximas crecidas ordinarias de los ríos que lo alimentan", "correct": true },
+            { "text": "Lecho o fondo de un embalse superficial es el terreno cubierto por las aguas cuando éstas alcanzan su mayor nivel a consecuencia de los mayores temporales conocidos.", "correct": false },
+            { "text": "Lecho o fondo de un embalse superficial es el terreno cubierto por las aguas cuando éstas alcanzan su mayor nivel a consecuencia de los máximos aportes de agua realizados por el flujo de agua canalizada que los nutre.", "correct": false },
+            { "text": "Lecho o fondo de un embalse superficial es el terreno cubierto por las aguas cuando éstas alcanzan su menor nivel a consecuencia de los máximo aportes de agua realizados por el flujo de agua canalizada que los nutre.", "correct": false }
+          ]
+        },
+        {
+          "answers": [
+            { "text": "Lecho o fondo de un embalse superficial es el terreno cubierto por las aguas cuando éstas alcanzan su mayor nivel a consecuencia de las máximas crecidas ordinarias de los ríos que lo alimentan", "correct": true },
+            { "text": "Lecho o fondo de un embalse superficial es el terreno cubierto por las aguas cuando estas alcanzan su mayor nivel a consecuencia de los mayores temporales conocidos.", "correct": false },
+            { "text": "Lecho o fondo de un embalse superficial es el terreno cubierto por las aguas cuando estas alcanzan su mayor nivel a consecuencia de los máximos aportes de agua realizados por el flujo de agua canalizada que los nutre.", "correct": false },
+            { "text": "Lecho o fondo de un embalse superficial es el terreno cubierto por las aguas cuando éstas alcanzan su menor nivel a consecuencia de los máximos aportes de agua realizados por el flujo de agua canalizada que los nutre.", "correct": false }
+          ]
+        }
       ],
-      "explanation": "ES: El lecho se define por el nivel correspondiente a máximas crecidas ordinarias. IT: Il fondo è quello coperto dalle acque al livello delle piene ordinarie massime.",
-      "legal_reference": "TRLA (RDL 1/2001), art. 3 y art. 6; RDPH (RD 849/1986), art. 4.",
+      "explanation": "ES: El lecho se delimita por el nivel de máximas crecidas ordinarias. IT: Il fondo coincide con l’area coperta alle piene ordinarie massime.",
+      "legal_reference": "TRLA (RDL 1/2001), arts. 3 y 6; RDPH (RD 849/1986), art. 4.",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
       "question": "Conforme a la Ley, las fajas laterales de los cauces públicos situadas por encima del nivel de aguas bajas se denominan:",
-      "answers": [
-        { "text": "Orillas", "correct": false },
-        { "text": "Motas", "correct": false },
-        { "text": "Márgenes", "correct": false },
-        { "text": "Riberas", "correct": true }
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Orillas", "correct": false },
+            { "text": "Motas", "correct": false },
+            { "text": "Márgenes", "correct": false },
+            { "text": "Riberas", "correct": true }
+          ]
+        },
+        {
+          "answers": [
+            { "text": "Orillas", "correct": false },
+            { "text": "Motas", "correct": false },
+            { "text": "Márgenes", "correct": false },
+            { "text": "Riberas", "correct": true }
+          ]
+        }
       ],
-      "explanation": "ES: La ley define como riberas las fajas laterales por encima del nivel de aguas bajas. IT: Le ‘riberas’ sono le fasce laterali del corso d’acqua poste al di sopra del livello di magra.",
+      "explanation": "ES: La ley denomina ‘riberas’ a las fajas laterales sobre el nivel de aguas bajas. IT: Le fasce laterali sopra il livello di magra sono ‘riberas’.",
       "legal_reference": "TRLA, art. 6.1.b).",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
       "question": "Las márgenes de los terrenos que lindan con dichos cauces están sujetas en toda su extensión longitudinal a una zona de servidumbre de:",
-      "answers": [
-        { "text": "50 metros de anchura", "correct": false },
-        { "text": "25 metros de anchura", "correct": false },
-        { "text": "5 metros de anchura", "correct": true },
-        { "text": "12 metros de anchura", "correct": false }
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "50 metros de anchura", "correct": false },
+            { "text": "25 metros de anchura", "correct": false },
+            { "text": "5 metros de anchura", "correct": true },
+            { "text": "12 metros de anchura", "correct": false }
+          ]
+        },
+        {
+          "answers": [
+            { "text": "50 metros de anchura", "correct": false },
+            { "text": "25 metros de anchura", "correct": false },
+            { "text": "12 metros de anchura", "correct": false },
+            { "text": "5 metros de anchura", "correct": true }
+          ]
+        }
       ],
-      "explanation": "ES: La servidumbre legal en márgenes de cauces públicos es de 5 metros para uso público. IT: La servitù legale lungo le sponde dei corsi d’acqua è di 5 metri.",
-      "legal_reference": "TRLA, art. 7; RDPH, arts. 7-9.",
-      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
-    },
-    {
-      "question": "Señale quién no forma parte del Consejo Nacional del Agua:",
-      "answers": [
-        { "text": "Las Comunidades autónomas", "correct": false },
-        { "text": "Los municipios por los que discurra un cauce público", "correct": true },
-        { "text": "Las organizaciones sindicales y empresariales más representativas en el ámbito estatal.", "correct": false },
-        { "text": "Las entidades sin fines lucrativos de ámbito estatal cuyo objeto esté constituido por la defensa de intereses ambientales.", "correct": false }
-      ],
-      "explanation": "ES: En el Consejo Nacional del Agua están representadas CCAA, AGE, organizaciones sociales y ambientales de ámbito estatal; los municipios concretos por donde discurre un cauce no forman parte ex lege. IT: I comuni specifici non sono membri; vi partecipano rappresentanze statali, regionali e sociali.",
-      "legal_reference": "TRLA, arts. 19-20; normativa orgánica del Consejo (p.ej., RD 927/1988 y sucesivas modificaciones).",
-      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
-    },
-    {
-      "question": "La elaboración del Plan Hidrológico de Cuenca corresponde a:",
-      "answers": [
-        { "text": "Consejo Nacional del Agua", "correct": false },
-        { "text": "Organismos de cuenca", "correct": true },
-        { "text": "Comunidades de usuarios", "correct": false },
-        { "text": "Comunidades autónomas", "correct": false }
-      ],
-      "explanation": "ES: Las Confederaciones/Organismos de cuenca elaboran los planes; el Consejo informa. IT: I Piani di bacino sono elaborati dagli organismi di bacino; il Consiglio nazionale fornisce pareri.",
-      "legal_reference": "TRLA, arts. 20-21; Reglamento de Planificación Hidrológica (RD 907/2007), arts. 4-5.",
-      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
-    },
-    {
-      "question": "El aprovechamiento del Dominio Público Hidráulico por concesión administrativa es otorgado por:",
-      "answers": [
-        { "text": "Comunidad de usuarios", "correct": false },
-        { "text": "Organismo de Cuenca, o administración hidráulica autonómica competente, en función de las competencias asignadas en su Estatuto", "correct": true },
-        { "text": "Administración hidráulica autonómica competente", "correct": false },
-        { "text": "Consejo Nacional del Agua", "correct": false }
-      ],
-      "explanation": "ES: La competencia es del organismo de cuenca (o la administración hidráulica autonómica en cuencas intracomunitarias). IT: La concessione sul demanio idrico spetta all’organismo di bacino o, se del caso, all’amministrazione idrica regionale.",
-      "legal_reference": "TRLA, arts. 59-60; RD 849/1986 (RDPH), arts. 80 y ss.",
-      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
-    },
-    {
-      "question": "En una oposición para adquirir la condición de funcionario de carrera no es un requisito indispensable en todos los casos:",
-      "answers": [
-        { "text": "Nombramiento por el órgano o autoridad competente, que será publicado en el Diario Oficial correspondiente.", "correct": false },
-        { "text": "Acto de acatamiento de la Constitución y, en su caso, del Estatuto de Autonomía correspondiente y del resto del Ordenamiento Jurídico.", "correct": false },
-        { "text": "Toma de posesión dentro del plazo que se establezca.", "correct": false },
-        { "text": "Superación de un curso de formación que asegure la objetividad y racionalidad del proceso selectivo.", "correct": true }
-      ],
-      "explanation": "ES: El curso selectivo puede preverse, pero no es imprescindible en todo proceso; nombramiento, acatamiento y toma de posesión sí son hitos esenciales. IT: Il corso formativo può esser previsto, ma non è sempre obbligatorio; nomina, giuramento/accettazione e presa di servizio sono requisiti generali.",
-      "legal_reference": "EBEP, art. 61 (sistemas selectivos) y concordantes; normativa específica de cada cuerpo/escala.",
-      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
-    },
-    {
-      "question": "Señale la referencia regulatoria que no es de aplicación en el sector financiero:",
-      "answers": [
-        { "text": "Ley 6/2023, de 17 de marzo, de los Mercados de Valores y de los Servicios de Inversión", "correct": false },
-        { "text": "Ley 10/2014, de 26 de junio, de ordenación, supervisión y solvencia de entidades de crédito", "correct": false },
-        { "text": "Ley 42/2007 de 13 de diciembre, de Patrimonio bursátil, diversificación de las inversiones y controles de valores mobiliarios.", "correct": true },
-        { "text": "Ley 20/2015, de 14 de julio, de ordenación, supervisión y solvencia de las entidades aseguradoras y reaseguradoras.", "correct": false }
-      ],
-      "explanation": "ES: La opción indicada es inexistente/ajena; las otras son normas financieras vigentes (mercados de valores, banca, seguros). IT: La legge indicata non esiste/è estranea; le altre sono normative finanziarie effettive.",
-      "legal_reference": "Ley 6/2023; Ley 10/2014; Ley 20/2015.",
-      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
-    },
-    {
-      "question": "Los servicios que se consideran de interés general y son objeto de los denominados mercados regulados no se caracterizan por:",
-      "answers": [
-        { "text": "Tener que ser accesibles a toda la ciudadanía.", "correct": false },
-        { "text": "Tener un carácter prestacional dado que son esenciales para el normal desenvolvimiento de la vida de los ciudadanos.", "correct": false },
-        { "text": "Ser generalmente gratuitos", "correct": true },
-        { "text": "Tienen como nota característica su trascendencia económica al ser susceptibles de ser explotados comercialmente", "correct": false }
-      ],
-      "explanation": "ES: No son generalmente gratuitos; pueden ser tarifados/financiados. IT: Non sono in genere gratuiti; spesso sono soggetti a tariffe o regimi economici.",
-      "legal_reference": "Art. 106 TFUE; doctrina sobre servicios de interés económico general (SIEG).",
-      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
-    },
-    {
-      "question": "El Boletín Oficial del Estado tiene la naturaleza jurídica de:",
-      "answers": [
-        { "text": "Entidad pública empresarial", "correct": false },
-        { "text": "Organismo autónomo", "correct": false },
-        { "text": "Agencia Estatal", "correct": true },
-        { "text": "Fundación pública", "correct": false }
-      ],
-      "explanation": "ES: El BOE es una Agencia Estatal. IT: Il BOE è configurato come Agenzia statale.",
-      "legal_reference": "Ley 28/2006 (Agencias Estatales); RD 1495/2007 (Estatuto de la Agencia Estatal BOE).",
+      "explanation": "ES: La servidumbre longitudinal de paso es de 5 m. IT: La servitù legale lungo i corsi d’acqua è di 5 metri.",
+      "legal_reference": "TRLA, art. 7; RDPH, arts. 7–9.",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
       "question": "Señale la respuesta correcta para las zonas de servidumbre de cauces:",
-      "answers": [
-        { "text": "Los propietarios de estas zonas de servidumbre podrán libremente sembrar y plantar especies no arbóreas, siempre que no deterioren el ecosistema fluvial o impidan el paso.", "correct": true },
-        { "text": "Los propietarios de estas zonas de servidumbre no podrán libremente sembrar y plantar especies no arbóreas, siempre que no deterioren el ecosistema fluvial o impidan el paso", "correct": false },
-        { "text": "Los propietarios de estas zonas de servidumbre podrán libremente sembrar pero no plantar especies no arbóreas, siempre que no deterioren el ecosistema fluvial o impidan el paso", "correct": false },
-        { "text": "Los propietarios de estas zonas de servidumbre podrán libremente sembrar y plantar especies arbóreas, siempre que no deterioren el ecosistema fluvial o impidan el paso", "correct": false }
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Los propietarios de estas zonas de servidumbre podrán libremente sembrar y plantar especies no arbóreas, siempre que no deterioren el ecosistema fluvial o impidan el paso.", "correct": true },
+            { "text": "Los propietarios de estas zonas de servidumbre no podrán libremente sembrar y plantar especies no arbóreas, siempre que no deterioren el ecosistema fluvial o impidan el paso", "correct": false },
+            { "text": "Los propietarios de estas zonas de servidumbre podrán libremente sembrar pero no plantar especies no arbóreas, siempre que no deterioren el ecosistema fluvial o impidan el paso", "correct": false },
+            { "text": "Los propietarios de estas zonas de servidumbre podrán libremente sembrar y plantar especies arbóreas, siempre que no deterioren el ecosistema fluvial o impidan el paso", "correct": false }
+          ]
+        },
+        {
+          "answers": [
+            { "text": "Los propietarios de estas zonas de servidumbre podrán libremente sembrar y plantar especies no arbóreas, siempre que no deterioren el ecosistema fluvial o impidan el paso.", "correct": true },
+            { "text": "Los propietarios de estas zonas de servidumbre no podrán libremente sembrar y plantar especies no arbóreas, siempre que no deterioren el ecosistema fluvial o impidan el paso", "correct": false },
+            { "text": "Los propietarios de estas zonas de servidumbre podrán libremente sembrar pero no plantar especies no arbóreas, siempre que no deterioren el ecosistema fluvial o impidan el paso", "correct": false },
+            { "text": "Los propietarios de estas zonas de servidumbre podrán libremente sembrar y plantar especies arbóreas, siempre que no deterioren el ecosistema fluvial o impidan el paso", "correct": false }
+          ]
+        }
       ],
-      "explanation": "ES: Se permite sembrar/plantar especies no arbóreas si no se daña el ecosistema ni se impide el paso público. IT: È consentito seminare/piantare specie non arboree purché non si danneggi l’ecosistema né si ostacoli il passaggio.",
-      "legal_reference": "RDPH (RD 849/1986), art. 9; TRLA, art. 7.",
+      "explanation": "ES: Sembrar/plantar especies no arbóreas es admisible si no se daña el ecosistema ni se impide el paso. IT: Consentite colture/impianti non arborei se non ostacolano il passaggio né danneggiano l’ecosistema.",
+      "legal_reference": "RDPH, art. 9.",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
       "question": "En la zona de servidumbre vinculada a los cauces:",
-      "answers": [
-        { "text": "No se podrá realizar ningún tipo de construcción.", "correct": false },
-        { "text": "No se podrá realizar ningún tipo de construcción en esta zona salvo que resulte conveniente o necesaria para atender a una necesidad esencial del predio colindante", "correct": false },
-        { "text": "No se podrá realizar ningún tipo de construcción en esta zona salvo que resulte conveniente o necesaria para el uso del dominio público hidráulico o para su conservación y restauración.", "correct": true },
-        { "text": "Se podrá construir de manera limitada y siempre previa autorización discrecional del organismo de cuenca.", "correct": false }
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "No se podrá realizar ningún tipo de construcción.", "correct": false },
+            { "text": "No se podrá realizar ningún tipo de construcción en esta zona salvo que resulte conveniente o necesaria para atender a una necesidad esencial del predio colindante", "correct": false },
+            { "text": "No se podrá realizar ningún tipo de construcción en esta zona salvo que resulte conveniente o necesaria para el uso del dominio público hidráulico o para su conservación y restauración.", "correct": true },
+            { "text": "Se podrá construir de manera limitada y siempre previa autorización discrecional del organismo de cuenca.", "correct": false }
+          ]
+        },
+        {
+          "answers": [
+            { "text": "No se podrá realizar ningún tipo de construcción", "correct": false },
+            { "text": "No se podrá realizar ningún tipo de construcción en esta zona salvo que resulte conveniente o necesaria para atender a una necesidad esencial del predio colindante", "correct": false },
+            { "text": "No se podrá realizar ningún tipo de construcción en esta zona salvo que resulte conveniente o necesaria para el uso del dominio público hidráulico o para su conservación y restauración", "correct": true },
+            { "text": "Se podrá construir de manera limitada y siempre previa autorización discrecional del organismo de cuenca", "correct": false }
+          ]
+        }
       ],
-      "explanation": "ES: La excepción es la construcción necesaria para el uso, conservación o restauración del DPH. IT: L’eccezione riguarda opere necessarie all’uso/conservazione/ripristino del demanio idrico.",
+      "explanation": "ES: Solo se permiten obras necesarias para el uso, conservación o restauración del DPH. IT: Ammesse opere solo se necessarie all’uso/conservazione/ripristino del demanio idrico.",
       "legal_reference": "RDPH, art. 9; TRLA, art. 7.",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
+      "question": "La función de aplicación de los principios de unidad de gestión, respeto al principio de unidad de la cuenca hidrográfica y compatibilidad de la gestión del agua con el medio ambiente, ordenación del territorio, etc, corresponde a",
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Las Comunidades autónomas cuando ejerzan competencia sobre el dominio público hidráulico en cuencas hidrográficas comprendidas íntegramente dentro de su territorio", "correct": true },
+            { "text": "El Estado", "correct": false },
+            { "text": "La Unión Europea", "correct": false },
+            { "text": "El municipio donde radique el tramo de cuenca correspondiente con la única salvedad de los casos en que la cuenca hidrográfica discurre por más de una comunidad autónoma", "correct": false }
+          ]
+        }
+      ],
+      "explanation": "ES: En cuencas intracomunitarias la competencia gestora corresponde a la CCAA. IT: Nelle bacini interamente regionali la gestione spetta alla Comunità Autonoma.",
+      "legal_reference": "TRLA, arts. 20–21; RD 907/2007 (Planificación Hidrológica).",
+      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
+    },
+    {
+      "question": "La superficie de terreno cuya escorrentía superficial fluye en su totalidad a través de una serie de corrientes, ríos y eventualmente lagos hacia el mar por una única desembocadura, estuario o delta se denomina",
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Demarcación hidrográfica", "correct": false },
+            { "text": "Dominio público hidráulico", "correct": false },
+            { "text": "Cuenca hidrográfica", "correct": true },
+            { "text": "Aguas de transición", "correct": false }
+          ]
+        },
+        {
+          "answers": [
+            { "text": "Demarcación hidrográfica", "correct": false },
+            { "text": "Dominio público hidráulico", "correct": false },
+            { "text": "Cuenca hidrográfica", "correct": true },
+            { "text": "Aguas de transición", "correct": false }
+          ]
+        }
+      ],
+      "explanation": "ES: Definición legal de ‘cuenca hidrográfica’. IT: È la definizione normativa di bacino idrografico.",
+      "legal_reference": "TRLA, art. 16; RD 907/2007, art. 3.",
+      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
+    },
+    {
+      "question": "Señale quién no forma parte del Consejo Nacional del Agua:",
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Las Comunidades autónomas", "correct": false },
+            { "text": "Los municipios por los que discurra un cauce público", "correct": true },
+            { "text": "Las organizaciones sindicales y empresariales más representativas en el ámbito estatal.", "correct": false },
+            { "text": "Las entidades sin fines lucrativos de ámbito estatal cuyo objeto esté constituido por la defensa de intereses ambientales.", "correct": false }
+          ]
+        },
+        {
+          "answers": [
+            { "text": "Las Comunidades autónomas", "correct": false },
+            { "text": "Los municipios por los que discurre un cauce público", "correct": true },
+            { "text": "Las organizaciones sindicales y empresariales más representativas en el ámbito estatal", "correct": false },
+            { "text": "Las entidades sin fines lucrativos de ámbito estatal cuyo objeto esté constituido por la defensa de intereses ambientales", "correct": false }
+          ]
+        }
+      ],
+      "explanation": "ES: No forman parte como tales municipios concretos; sí CCAA, AGE y organizaciones representativas. IT: I comuni non sono membri; presenti Stato, Regioni e organizzazioni rappresentative.",
+      "legal_reference": "TRLA, arts. 19–20.",
+      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
+    },
+    {
+      "question": "La elaboración del Plan Hidrológico de Cuenca corresponde a",
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Consejo Nacional del Agua", "correct": false },
+            { "text": "Organismos de cuenca", "correct": true },
+            { "text": "Comunidades de usuarios", "correct": false },
+            { "text": "Comunidades autónomas", "correct": false }
+          ]
+        },
+        {
+          "answers": [
+            { "text": "Consejo Nacional del Agua", "correct": false },
+            { "text": "Organismos de cuenca", "correct": true },
+            { "text": "Comunidades de usuarios", "correct": false },
+            { "text": "Comunidades autónomas", "correct": false }
+          ]
+        }
+      ],
+      "explanation": "ES: Los organismos de cuenca elaboran; el Consejo informa. IT: L’elaborazione spetta agli organismi di bacino.",
+      "legal_reference": "TRLA, arts. 20–21; RD 907/2007, arts. 4–5.",
+      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
+    },
+    {
+      "question": "El aprovechamiento del Dominio Público Hidráulico por concesión administrativa es otorgado por",
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Comunidad de usuarios", "correct": false },
+            { "text": "Organismo de Cuenca, o administración hidráulica autonómica competente, en función de las competencias asignadas en su Estatuto", "correct": true },
+            { "text": "Administración hidráulica autonómica competente", "correct": false },
+            { "text": "Consejo Nacional del Agua", "correct": false }
+          ]
+        },
+        {
+          "answers": [
+            { "text": "Comunidad de usuarios", "correct": false },
+            { "text": "Organismo de Cuenca, o administración hidráulica autonómica competente, en función de las competencias asignadas en su Estatuto", "correct": true },
+            { "text": "Administración hidráulica autonómica competente", "correct": false },
+            { "text": "Consejo Nacional del Agua", "correct": false }
+          ]
+        }
+      ],
+      "explanation": "ES: Concesiona el organismo de cuenca (o la administración autonómica en cuencas intracomunitarias). IT: La concessione è rilasciata dall’organismo di bacino o dall’autorità idrica regionale.",
+      "legal_reference": "TRLA, arts. 59–60; RDPH, arts. 80 y ss.",
+      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
+    },
+    {
+      "question": "Los servicios que se consideran de interés general y son objeto de los denominados mercados regulados no se caracterizan por:",
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Tener que ser accesibles a toda la ciudadanía.", "correct": false },
+            { "text": "Tener un carácter prestacional dado que son esenciales para el normal desenvolvimiento de la vida de los ciudadanos.", "correct": false },
+            { "text": "Ser generalmente gratuitos", "correct": true },
+            { "text": "Tienen como nota característica su trascendencia económica al ser susceptibles de ser explotados comercialmente", "correct": false }
+          ]
+        },
+        {
+          "answers": [
+            { "text": "Tener que ser accesibles a toda la ciudadanía.", "correct": false },
+            { "text": "Tener un carácter prestacional dado que son esenciales para el normal desenvolvimiento de la vida de los ciudadanos.", "correct": false },
+            { "text": "Ser generalmente gratuitos.", "correct": true },
+            { "text": "Tienen como nota característica su trascendencia económica al ser susceptibles de ser explotados comercialmente.", "correct": false }
+          ]
+        }
+      ],
+      "explanation": "ES: No son en general gratuitos; suelen ser tarifados o financiados. IT: Non sono generalmente gratuiti; prevedono tariffe o regimi economici.",
+      "legal_reference": "Art. 106 TFUE; doctrina SIEG.",
+      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
+    },
+    {
+      "question": "El Boletín Oficial del Estado tiene la naturaleza jurídica de:",
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Entidad pública empresarial", "correct": false },
+            { "text": "Organismo autónomo", "correct": false },
+            { "text": "Agencia Estatal", "correct": true },
+            { "text": "Fundación pública", "correct": false }
+          ]
+        }
+      ],
+      "explanation": "ES: El BOE es una Agencia Estatal. IT: Il BOE è configurato come Agenzia statale.",
+      "legal_reference": "RD 1495/2007 (Estatuto de la Agencia Estatal BOE).",
+      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
+    },
+    {
       "question": "El Instituto de Crédito Oficial (ICO) tiene la naturaleza jurídica de:",
-      "answers": [
-        { "text": "Entidad pública empresarial.", "correct": true },
-        { "text": "Organismo autónomo.", "correct": false },
-        { "text": "Agencia Estatal.", "correct": false },
-        { "text": "Fundación pública.", "correct": false }
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Entidad pública empresarial.", "correct": true },
+            { "text": "Organismo autónomo.", "correct": false },
+            { "text": "Agencia Estatal.", "correct": false },
+            { "text": "Fundación pública.", "correct": false }
+          ]
+        }
       ],
-      "explanation": "ES: El ICO es una entidad pública empresarial adscrita al Ministerio de Economía. IT: L’ICO è un ente pubblico imprenditoriale.",
-      "legal_reference": "Ley 40/2015, art. 103; Estatuto del ICO (RD 706/1999 y modificaciones).",
-      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
-    },
-    {
-      "question": "La publicación o utilización indebida de la documentación o información a que los funcionarios tengan o hayan tenido acceso por razón de su cargo o función es una falta:",
-      "answers": [
-        { "text": "Grave.", "correct": false },
-        { "text": "Muy Grave.", "correct": true },
-        { "text": "Leve.", "correct": false },
-        { "text": "Es infracción penal en todo caso.", "correct": false }
-      ],
-      "explanation": "ES: La difusión/uso indebido de documentación oficial es falta muy grave; sin perjuicio de posible responsabilidad penal según el caso. IT: La pubblicazione/uso indebito di documenti è mancanza molto grave; resta ferma l’eventuale responsabilità penale.",
-      "legal_reference": "EBEP, art. 95.2 (tipificación como falta muy grave).",
-      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
-    },
-    {
-      "question": "En el caso de las entidades públicas empresariales y entidades análogas dependientes de las comunidades autónomas o corporaciones locales, los recursos que constituyen su tesorería:",
-      "answers": [
-        { "text": "No forman parte de su patrimonio.", "correct": false },
-        { "text": "No forman parte de su patrimonio salvo en el caso de Fundaciones Públicas.", "correct": true },
-        { "text": "Forman parte de su patrimonio.", "correct": false },
-        { "text": "Forman parte de su patrimonio cuando así lo dispongan las normas que las regulen.", "correct": false }
-      ],
-      "explanation": "ES: En EPE y análogas, la tesorería tiene régimen específico; en fundaciones públicas los recursos integran su patrimonio. IT: Nelle EPE la tesoreria non integra il patrimonio; nelle fondazioni pubbliche sì.",
-      "legal_reference": "Ley 40/2015, arts. 84-85, 103; normativa autonómica/local aplicable.",
-      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
-    },
-    {
-      "question": "La plataforma continental es:",
-      "answers": [
-        { "text": "Bien patrimonial", "correct": false },
-        { "text": "Bien de Dominio Público por Naturaleza.", "correct": true },
-        { "text": "Bien de Dominio Público por Destino", "correct": false },
-        { "text": "Bien privado de las empresas concesionarias de las mismas", "correct": false }
-      ],
-      "explanation": "ES: Forma parte del dominio público por naturaleza (marítimo-terrestre). IT: È demanio per natura (ambito marittimo).",
-      "legal_reference": "Ley 22/1988 de Costas, arts. 3-4; Constitución Española, art. 132.2.",
-      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
-    },
-    {
-      "question": "Los bienes afectos al Patrimonio Nacional son:",
-      "answers": [
-        { "text": "Bienes patrimoniales", "correct": false },
-        { "text": "Bienes de Dominio Público.", "correct": true },
-        { "text": "Bienes patrimoniales de la Corona y de la Familia Real", "correct": false },
-        { "text": "Bienes titularidad del Rey", "correct": false }
-      ],
-      "explanation": "ES: Los bienes del Patrimonio Nacional son de dominio público, inalienables, imprescriptibles e inembargables. IT: I beni del Patrimonio Nazionale sono demaniali, inalienabili e imprescrittibili.",
-      "legal_reference": "Ley 23/1982, de Patrimonio Nacional, arts. 1-3.",
-      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
-    },
-    {
-      "question": "Los bienes que adquiera la Administración General del Estado mediante compraventa son:",
-      "answers": [
-        { "text": "Generalmente patrimoniales.", "correct": true },
-        { "text": "Generalmente demaniales", "correct": false },
-        { "text": "Demaniales si son bienes inmuebles", "correct": false },
-        { "text": "Patrimoniales en todos los casos", "correct": false }
-      ],
-      "explanation": "ES: La regla es la patrimonialidad salvo afectación al uso/servicio público que los convierta en demaniales. IT: Di regola sono patrimoniali, salvo affectatio a uso/servizio pubblico.",
-      "legal_reference": "LPAP, arts. 5, 8, 15-17 y 66 (afectación).",
-      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
-    },
-    {
-      "question": "Los saldos bancarios abandonados que pasan a la administración se integran en la misma como:",
-      "answers": [
-        { "text": "Bienes demaniales", "correct": false },
-        { "text": "Bienes patrimoniales.", "correct": true },
-        { "text": "Parte del Tesoro Público", "correct": false },
-        { "text": "Bienes de las Fundaciones Públicas", "correct": false }
-      ],
-      "explanation": "ES: Los saldos/depósitos abandonados se incorporan como bienes patrimoniales del Estado. IT: I saldi/depositi abbandonati confluiscono come beni patrimoniali dello Stato.",
-      "legal_reference": "LPAP, art. 18 (bienes vacantes y herencias abintestato) y normativa específica sobre depósitos abandonados.",
-      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
-    },
-    {
-      "question": "¿Se puede disponer de bienes patrimoniales mediante pago aplazado?",
-      "answers": [
-        { "text": "Siempre", "correct": false },
-        { "text": "En ningún caso", "correct": false },
-        { "text": "Sí, pero por plazo no superior a 10 años.", "correct": true },
-        { "text": "Sí, pero por plazo no superior a 20 años", "correct": false }
-      ],
-      "explanation": "ES: La enajenación con precio aplazado se admite con límite temporal usual de 10 años. IT: È ammessa l’alienazione con prezzo dilazionato fino a 10 anni.",
-      "legal_reference": "LPAP, art. 137 (enajenación con precio aplazado).",
+      "explanation": "ES: El ICO es una EPE adscrita al Ministerio competente en economía. IT: L’ICO è un ente pubblico imprenditoriale.",
+      "legal_reference": "Ley 40/2015, art. 103; RD 706/1999 (Estatuto del ICO).",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
       "question": "Como marco general, la CE, en su art. 103.3, señala los principios que las leyes sobre función pública han de respetar siempre, en garantía de los propios funcionarios y del interés pública. Entre los mismos, no se encuentra:",
-      "answers": [
-        { "text": "Derecho de sindicación", "correct": false },
-        { "text": "Acceso por mérito y capacidad", "correct": false },
-        { "text": "Régimen de incompatibilidades", "correct": false },
-        { "text": "Jerarquía funcionarial separada por grupos.", "correct": true }
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Derecho de sindicación", "correct": false },
+            { "text": "Acceso por mérito y capacidad", "correct": false },
+            { "text": "Régimen de incompatibilidades", "correct": false },
+            { "text": "Jerarquía funcionarial separada por grupos.", "correct": true }
+          ]
+        }
       ],
-      "explanation": "ES: El art. 103.3 CE exige que la ley regule el estatuto de los funcionarios con respeto a los principios de mérito y capacidad, publicidad, imparcialidad, etc., pero no consagra una ‘jerarquía separada por grupos’ como principio. IT: L’art. 103.3 CE impone merito e capacità, pubblicità, imparzialità; non prevede una ‘gerarchia funzionariale separata per gruppi’ come principio generale.",
-      "legal_reference": "Constitución Española, art. 103.3; RDL 5/2015 (EBEP), arts. 52-53.",
+      "explanation": "ES: El art. 103.3 CE exige mérito, capacidad, publicidad e imparcialidad; no establece ‘jerarquía separada por grupos’. IT: L’art. 103.3 CE non prevede una gerarchia funzionariale per gruppi.",
+      "legal_reference": "Constitución Española, art. 103.3.",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
       "question": "El incumplimiento por un funcionario de las normas sobre incompatibilidades cuando ello dé lugar a una situación de incompatibilidad se considera:",
-      "answers": [
-        { "text": "Falta leve", "correct": false },
-        { "text": "Falta muy grave", "correct": true },
-        { "text": "Falta grave", "correct": false },
-        { "text": "Infracción disciplinaria", "correct": false }
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Falta leve", "correct": false },
+            { "text": "Falta muy grave", "correct": true },
+            { "text": "Falta grave", "correct": false },
+            { "text": "Infracción disciplinaria", "correct": false }
+          ]
+        }
       ],
-      "explanation": "ES: El EBEP tipifica como muy grave el incumplimiento de las normas de incompatibilidades cuando genera situación de incompatibilidad. IT: La violazione delle norme sulle incompatibilità che determini una situazione di incompatibilità è mancanza disciplinare molto grave.",
-      "legal_reference": "RDL 5/2015 (EBEP), art. 95.2; Ley 53/1984, de Incompatibilidades, arts. 1 y ss.",
+      "explanation": "ES: La vulneración que genera situación de incompatibilidad es falta muy grave. IT: La violazione che produce incompatibilità è mancanza molto grave.",
+      "legal_reference": "EBEP, art. 95.2; Ley 53/1984, de Incompatibilidades.",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
       "question": "Señale el elemento que NO es preceptivo que contenga la comunicación previa:",
-      "answers": [
-        { "text": "La manifestación, bajo su responsabilidad, que cumple los requisitos previstos en la normativa", "correct": false },
-        { "text": "La manifestación, bajo su responsabilidad que dispone de la documentación que lo acredita", "correct": false },
-        { "text": "La manifestación, bajo su responsabilidad, que ha presentado la solicitud en tiempo y forma", "correct": true },
-        { "text": "La manifestación, bajo su responsabilidad de que se compromete a mantener su cumplimiento durante el periodo de tiempo inherente a dicho reconocimiento o ejercicio", "correct": false }
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "La manifestación, bajo su responsabilidad, que cumple los requisitos previstos en la normativa", "correct": false },
+            { "text": "La manifestación, bajo su responsabilidad que dispone de la documentación que lo acredita", "correct": false },
+            { "text": "La manifestación, bajo su responsabilidad, que ha presentado la solicitud en tiempo y forma", "correct": true },
+            { "text": "La manifestación, bajo su responsabilidad de que se compromete a mantener su cumplimiento durante el periodo de tiempo inherente a dicho reconocimiento o ejercicio", "correct": false }
+          ]
+        }
       ],
-      "explanation": "ES: La comunicación previa sirve para poner en conocimiento datos identificativos y requisitos; no incluye ‘haber presentado solicitud en tiempo y forma’. IT: La comunicazione preventiva notifica dati e requisiti; non comporta la ‘presentazione di una domanda’ né la relativa attestazione.",
-      "legal_reference": "Ley 39/2015 (LPACAP), art. 69.2-3 (definiciones de comunicación previa y declaración responsable).",
+      "explanation": "ES: La comunicación previa no implica haber presentado una solicitud; es una mera puesta en conocimiento. IT: Non richiede l’attestazione di “aver presentato domanda in tempo e forma”.",
+      "legal_reference": "LPACAP, art. 69.2–3.",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
-      "question": "Las entidades públicas empresariales se rigen",
-      "answers": [
-        { "text": "Por el derecho público principalmente de forma análoga a los Ministerios", "correct": false },
-        { "text": "Por el derecho público en el ejercicio de las competencias públicas que tienen asignadas y por el derecho privado en otros aspectos", "correct": true },
-        { "text": "Se rigen por las mismas normas que las demás fundaciones con algunas salvedades en materia de contratación, contabilidad y control financiero", "correct": false },
-        { "text": "Por Derecho privado de manera preponderante", "correct": false }
+      "question": "Los bienes que adquiera la Administración General del Estado mediante compraventa son:",
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Generalmente patrimoniales.", "correct": true },
+            { "text": "Generalmente demaniales", "correct": false },
+            { "text": "Demaniales si son bienes inmuebles", "correct": false },
+            { "text": "Patrimoniales en todos los casos", "correct": false }
+          ]
+        }
       ],
-      "explanation": "ES: La EPE se somete a Derecho público cuando ejerce potestades públicas y a Derecho privado en el resto. IT: Le entità pubbliche imprenditoriali applicano diritto pubblico per l’esercizio di potestà e diritto privato per il resto.",
-      "legal_reference": "Ley 40/2015, art. 103 (entidades públicas empresariales).",
+      "explanation": "ES: Regla general: patrimoniales salvo afectación al uso/servicio público. IT: Di regola patrimoniali, salvo affectatio a uso/servizio pubblico.",
+      "legal_reference": "LPAP, arts. 5, 8, 15–17 y 66.",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
-      "question": "Cuando cambia la Administración titular de un Bien de Dominio Público pasando dicho bien a formar parte de su patrimonio, nos encontramos ante un fenómeno de",
-      "answers": [
-        { "text": "Afectación", "correct": false },
-        { "text": "Desafectación", "correct": true },
-        { "text": "Mutación demanial", "correct": false },
-        { "text": "Compraventa administrativa", "correct": false }
+      "question": "Los saldos bancarios abandonados que pasan a la administración se integran en la misma como:",
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Bienes demaniales", "correct": false },
+            { "text": "Bienes patrimoniales.", "correct": true },
+            { "text": "Parte del Tesoro Público", "correct": false },
+            { "text": "Bienes de las Fundaciones Públicas", "correct": false }
+          ]
+        }
       ],
-      "explanation": "ES: Desafectación es el paso de bien demanial a patrimonial (abandona el uso/servicio público). La mutación demanial mantiene el carácter demanial. IT: La ‘desafectación’ fa perdere al bene la natura demaniale rendendolo patrimoniale; la mutazione demaniale non cambia tale natura.",
-      "legal_reference": "Ley 33/2003 (LPAP), arts. 69-70.",
+      "explanation": "ES: Se incorporan como bienes patrimoniales del Estado. IT: Confluiscono come beni patrimoniali.",
+      "legal_reference": "LPAP, art. 18 (bienes vacantes y otros).",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
-      "question": "El uso privativo",
-      "answers": [
-        { "text": "Es generalmente gratuito", "correct": false },
-        { "text": "Supone una nueva afectación", "correct": false },
-        { "text": "Siempre es gratuito", "correct": false },
-        { "text": "Realiza una ocupación efectiva de un bien de dominio público", "correct": true }
+      "question": "¿Se puede disponer de bienes patrimoniales mediante pago aplazado?",
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Siempre", "correct": false },
+            { "text": "En ningún caso", "correct": false },
+            { "text": "Sí, pero por plazo no superior a 10 años.", "correct": true },
+            { "text": "Sí, pero por plazo no superior a 20 años", "correct": false }
+          ]
+        }
       ],
-      "explanation": "ES: El uso privativo implica ocupación exclusiva de parte del dominio público y suele requerir título habilitante y canon/tasa. IT: L’uso privativo comporta occupazione esclusiva di una porzione di demanio, normalmente con titolo e corrispettivo.",
-      "legal_reference": "RBEL (RD 1372/1986), art. 75; TRLRHL 2/2004, art. 20.3 (tasa por utilización privativa o aprovechamiento especial).",
+      "explanation": "ES: Cabe enajenación con precio aplazado hasta 10 años. IT: Alienazione con prezzo dilazionato ammessa fino a 10 anni.",
+      "legal_reference": "LPAP, art. 137.",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     },
     {
-      "question": "La obstaculización al ejercicio de las libertades públicas y derechos sindicales realizada por un funcionario se considera:",
-      "answers": [
-        { "text": "Falta grave", "correct": false },
-        { "text": "Falta muy grave", "correct": true },
-        { "text": "Falta leve", "correct": false },
-        { "text": "Infracción disciplinaria", "correct": false }
+      "question": "La plataforma continental es:",
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Bien patrimonial", "correct": false },
+            { "text": "Bien de Dominio Público por Naturaleza.", "correct": true },
+            { "text": "Bien de Dominio Público por Destino", "correct": false },
+            { "text": "Bien privado de las empresas concesionarias de las mismas", "correct": false }
+          ]
+        }
       ],
-      "explanation": "ES: Obstaculizar libertades públicas y derechos sindicales es falta muy grave conforme al EBEP. IT: L’ostacolo all’esercizio delle libertà pubbliche e dei diritti sindacali integra mancanza molto grave.",
-      "legal_reference": "RDL 5/2015 (EBEP), art. 95.2.",
+      "explanation": "ES: Integra el dominio público marítimo-terrestre por naturaleza. IT: Fa parte del demanio per natura.",
+      "legal_reference": "Ley 22/1988, de Costas, arts. 3–4; CE, art. 132.2.",
+      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
+    },
+    {
+      "question": "Los bienes afectos al Patrimonio Nacional son:",
+      "occurrences": [
+        {
+          "answers": [
+            { "text": "Bienes patrimoniales", "correct": false },
+            { "text": "Bienes de Dominio Público.", "correct": true },
+            { "text": "Bienes patrimoniales de la Corona y de la Familia Real", "correct": false },
+            { "text": "Bienes titularidad del Rey", "correct": false }
+          ]
+        }
+      ],
+      "explanation": "ES: Son demaniales (inalienables, imprescriptibles, inembargables). IT: Beni demaniali del Patrimonio Nazionale.",
+      "legal_reference": "Ley 23/1982, arts. 1–3.",
       "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO A 03 07 25.docx"
     }
   ]
