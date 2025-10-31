@@ -1104,6 +1104,2890 @@
       "explanation": "ES: La aceptación por el arrendatario de la condonación ofrecida por el actor equivale a allanamiento. IT: L’accettazione della condonazione equivale ad acquiescenza.",
       "legal_reference": "LEC art. 21.1 y 437.3 bis (último párrafo)",
       "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En el juicio de desahucio por falta de pago:",
+      "answers": [
+        { "text": "Si el demandado enerva el deshaucio y el actor acepta la enervacion concluye el procedimiento sin imposicion de costas.", "correct": false },
+        { "text": "Si el demandado Enerva el desahucio y el actor no acepta la enervación concluye el procedimiento con imposición de costas al demandado", "correct": false },
+        { "text": "si el demandado atiende el requerimiento de desalojo pero no paga la cantidad reclamada ni se opone concluye el procedimiento y se procede al lanzamiento solo si el demandante lo solicita,  pudiendo este también está la ejecución en cuanto a lo que si le adeude", "correct": true },
+        { "text": "si el  demandado no desaloja el inmueble ni atiende el requerimiento de pago ni comparece para oponerse ni allanarse,  concluye el juicio y se procede a la ejecución para el cobro de lo que se le adeuda que deberá ventilarse en el procedimiento declarativo adecuado por razón de la cuantía", "correct": false }
+      ],
+      "explanation": "ES: Si hay desalojo sin pago ni oposición, se puede pedir el lanzamiento y ejecutar por las cantidades debidas. IT: Se l’inquilino sgombera senza pagare né opporsi, il locatore può chiedere lo sfratto ed eseguire per i crediti.",
+      "legal_reference": "LEC arts. 440.3 y 549",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "el interdicto de obra nueva",
+      "answers": [
+        { "text": "sólo protege el ius possidendi", "correct": false },
+        { "text": "solo protege el ius possesionis", "correct": true },
+        { "text": "es especial y aseguratorio con una fase declarativa", "correct": false },
+        { "text": "carece de partes al proteger a demandante y demandado", "correct": false }
+      ],
+      "explanation": "ES: La tutela es posesoria (ius possessionis) frente a obra nueva que perturba la posesión. IT: L’interdetto di nuova opera protegge il possesso (ius possessionis).",
+      "legal_reference": "LEC art. 250.1.5º",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": " el proceso de defensa de los derechos inscritos en el Registro de la Propiedad",
+      "answers": [
+        { "text": " tiene tasadas las causas de oposición que puede alegar el contradictor", "correct": true },
+        { "text": " tiende a la obtención de un título ejecutivo que sirva para la inscripción registral de un derecho real", "correct": false },
+        { "text": " es sumario pero vincula al Registrador con efectos de hombres", "correct": false },
+        { "text": " se vaya en la protección que dispensan los artículos 134  y 138  de la Ley Hipotecaria", "correct": false }
+      ],
+      "explanation": "ES: Es un proceso sumario con motivos de oposición tasados. IT: Procedimento sommario con cause di opposizione tipizzate.",
+      "legal_reference": "LEC art. 250.1.7º; LH art. 41",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Los juicios sumarios",
+      "answers": [
+        { "text": " se caracterizan por la limitación de la cognitio", "correct": true },
+        { "text": " se caracterizan por la preclusión del trámite aleatorio al formular la REConvención", "correct": false },
+        { "text": " concluye mediante sentencia con efecto de juzgada material", "correct": false },
+        { "text": " si concluyen mediante auto  producen efecto de cosa juzgada material", "correct": false }
+      ],
+      "explanation": "ES: Rasgo esencial: cognición limitada y efectos de cosa juzgada material restringidos. IT: Cognizione limitata e giudicato materiale attenuato.",
+      "legal_reference": "LEC arts. 250 y 447.2",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El interdicto de adquirir:",
+      "answers": [
+        { "text": "está previsto para proteger al adquirente por actas inter vivos", "correct": false },
+        { "text": "protege al enajene a título sucesorio", "correct": false },
+        { "text": "debe interponerse en el plazo de seis meses desde la apertura de la herencia del poseedor", "correct": false },
+        { "text": "está previsto para poner en posesión de bienes a quien los hubiera adquirido por herencia", "correct": true }
+      ],
+      "explanation": "ES: Procedimiento para poner en posesión hereditaria cuando nadie posee como dueño/usufructuario. IT: Immissione in possesso dell’erede quando i beni non sono posseduti da terzi a titolo di proprietà/usufrutto.",
+      "legal_reference": "CC art. 440; LEC art. 250.1.4º (posesorias afines)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Contra el auto que acuerda medidas cautelares:;",
+      "answers": [
+        { "text": "cabe recurso de revisión sin efectos suspensivos", "correct": false },
+        { "text": "cabe recurso de apelación sin efectos suspensivos", "correct": true },
+        { "text": "cabe recurso de apelación con efectos suspensivo", "correct": false },
+        { "text": "cabe recurso de revisión previo recurso de reposición si este se desestima", "correct": false }
+      ],
+      "explanation": "ES: Frente al auto cautelar procede apelación en un solo efecto (no suspensivo). IT: Contro l’auto cautelare è ammesso appello senza effetto sospensivo.",
+      "legal_reference": "LEC arts. 733.1 y 734",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Si en un interdicto de obra nueva el demandado necesita realizar obras de conservación de la obra ya edificada para que no se perjudique:",
+      "answers": [
+        { "text": "debe plantear la cuestión mediante demanda de juicio declarativo", "correct": false },
+        { "text": "debe dirigirse al laj que acordará por decreto susceptible de recurso de reposición si da traslado al juez para que resuelva", "correct": false },
+        { "text": "debe contestar la demanda y solicitar en esa contención que se le permita la continuación de la obra", "correct": false },
+        { "text": "puede solicitar que se le autorice para realizar las obras indispensable para conservar lo ya edificado", "correct": true }
+      ],
+      "explanation": "ES: Cabe autorizar obras indispensables de conservación, incluso con reconocimiento judicial/pericial previo. IT: Possibile autorizzare lavori indispensabili di conservazione, previo sopralluogo/perizia.",
+      "legal_reference": "LEC arts. 353–359 y 441",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El recurso de apelación:",
+      "answers": [
+        { "text": "no es una segunda instancia", "correct": false },
+        { "text": "es una segunda instancia", "correct": true },
+        { "text": "si se interpone fuera de plazo produce la declaración de rebeldía del recurrente y continua el trámites sin más audiencia de este", "correct": false },
+        { "text": "son falsas", "correct": false }
+      ],
+      "explanation": "ES: La apelación abre una segunda instancia sobre lo impugnado. IT: L’appello è una vera seconda istanza.",
+      "legal_reference": "LEC arts. 455 y 456",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El interdicto de obra ruinosa:",
+      "answers": [
+        { "text": "carece de efectos judiciales al perseguir actuaciones administrativas", "correct": false },
+        { "text": "ha sido derogado implícitamente por la doctrina jri pucual civil dada su escasa frecuencia", "correct": false },
+        { "text": "no incluye ningún trámite de audiencia al demandado", "correct": false },
+        { "text": "se planeta pendiente demanda que se decide en juicio verbal", "correct": true }
+      ],
+      "explanation": "ES: La acción de obra ruinosa se tramita en juicio verbal. IT: L’interdetto per opera rovinosa si tratta con rito verbale.",
+      "legal_reference": "LEC art. 250.1.6º",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "La demanda en la que se solicita la inmediata recuperación de la plena posesión de una vivienda o parte de ella por el propietario o poseedor legítimo persona física que se haya visto privado de ella sin su consentimiento:",
+      "answers": [
+        { "text": "se tramita en proceso de desahucio por falta de pago al no haber renta", "correct": false },
+        { "text": "se tramita en proceso de precario si existe documento falso no intervenido por fedatario", "correct": false },
+        { "text": "se tramita en juicio ordinario", "correct": false },
+        { "text": "se tramita en juicio verbal", "correct": true }
+      ],
+      "explanation": "ES: Recuperación posesoria frente a ocupación sin título: juicio verbal sumario. IT: Recupero del possesso contro occupazione illegittima: juicio verbal.",
+      "legal_reference": "LEC art. 250.1.4º y 441.1 bis (Ley 5/2018)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "No producen efecto de cosa juzgada:",
+      "answers": [
+        { "text": "Las sentencias dictadas en proceso de defensa de los derechos inscritos en el registro de la probada", "correct": false },
+        { "text": "las sentencias de apelación recaídas en proceso de desahucio arrendaticio por falta de pago", "correct": false },
+        { "text": "las sentencias de la sucesión", "correct": false },
+        { "text": "las sentencias dictadas en el juicio verbal sobre inclusion o exclusion de bienes en el inventario de la herencia", "correct": true }
+      ],
+      "explanation": "ES: La decisión del inventario en verbal no produce cosa juzgada material. IT: Le sentenze sul verbale d’inventario non hanno giudicato sostanziale.",
+      "legal_reference": "LEC arts. 249–250 y 447.2; doctrina sobre cosa juzgada en procesos sumarios",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": " Un recurso extraordinario:",
+      "answers": [
+        { "text": "cuando se refiere a cuestión o cuestiones no resueltas por la sala de lo civil del tribunal supremo o por las salas de los ivil de los tribunales*", "correct": false },
+        { "text": "cuando tiende a la creación de jurisprudencia sobre las normas aplicables para resolver la cuestión objeto del pleito", "correct": false },
+        { "text": "cuando solo puede basarse en motivos concretos y legalmente determinados", "correct": true },
+        { "text": "cuando puede fundarse en cualquier motivo, siempre que se articule con claridad y precisión y acompañado los documentos acreditativos del derecho pretendido si este no se ha reclamado en los cinco años inementente anterior al dictado de la resolución recurrida", "correct": false }
+      ],
+      "explanation": "ES: Los recursos extraordinarios se limitan a motivos tasados. IT: I mezzi straordinari hanno motivi rigidamente tipizzati.",
+      "legal_reference": "LEC arts. 469 y 477–479",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "6) El recurso de apelación puede interponerse:",
+      "answers": [
+        { "text": "Contra los autos no definitivos y las sentencias", "correct": false },
+        { "text": "Contra los autos definitivos y las providencias", "correct": false },
+        { "text": "Contra los autos definitivos y las sentencias dictadas en juicios verbales de cuiantia inferior a 3000 euros", "correct": true },
+        { "text": "Contra los autos definitivos y las sentencias, salvo las dictadas en juicios verbales tramitados por razon de la cuantia cuando esta no supere los 3000 euros", "correct": false }
+      ],
+      "explanation": "ES: Según el enunciado de este bloque, incluye los verbales < 3.000 €. IT: In questo set l’opzione corretta considera i verbali sotto 3.000 €.",
+      "legal_reference": "LEC art. 455.1 (régimen general; atención a excepciones por cuantía)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El recurso de apelación se interpondrà:",
+      "answers": [
+        { "text": "Por escrito o de palabra in voce, debiendo citar la resolución apelada", "correct": false },
+        { "text": "por escrito ante el tribunal que dictò la resolución recurrida", "correct": false },
+        { "text": "verbalmente si se interpone contra resoluciones de mero trámite", "correct": false },
+        { "text": "por escrito y, entre otros requisitos, citando los pronunciamientos de la resolución apelada que se impugnan", "correct": true }
+      ],
+      "explanation": "ES: La apelación se interpone por escrito, precisando los pronunciamientos impugnados. IT: L’appello si propone per iscritto indicando le parti impugnate della decisione.",
+      "legal_reference": "LEC arts. 458 y 459",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Al escrito interponiendo recurso de apelación:",
+      "answers": [
+        { "text": "Podrà acompañarse todo documento pertinente y útil para resolver la cuestion planteada", "correct": false },
+        { "text": "podrà acompañarse la declaración testifical de los testigos no propuestos en la primera instancia", "correct": false },
+        { "text": "podrán acompañarse los documentos previstos en el artículo 270 lc y que no hayan podido aportarse en la primera instancia", "correct": true },
+        { "text": " NO PODRÁ ACOMPAÑARSE NINGÙN DOCUMENTO", "correct": false }
+      ],
+      "explanation": "ES: Se pueden acompañar los documentos del art. 270 LEC no aportables antes. IT: Allegabili i documenti dell’art. 270 LEC non producibili in primo grado.",
+      "legal_reference": "LEC art. 270 y 461.1",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "       En el escrito de interposición del recurso de casación:",
+      "answers": [
+        { "text": "cada motivo se iniciara con un encabezamiento, que contendrá la cita precisa de la norma infringida y el resumen de la infracción cometida", "correct": true },
+        { "text": "cada motivo se iniciará con un encabezamiento, que contendrá la cita precisa de la infracción cometida y el resumen de la norma infringida", "correct": false },
+        { "text": "se podrá pedir la celebración de vista para que el tribunal realice el señalamiento de haberlo solicitado alguna de las partes", "correct": false },
+        { "text": "sólo se acompañará copia de la resolución impugnada cuando no exista doctrina jurisprudencial relativa a la norma que se estime infringida", "correct": false }
+      ],
+      "explanation": "ES: Cada motivo debe encabezarse con la norma infringida y el resumen de la infracción. IT: Ogni motivo va intestato con la norma violata e il riassunto della violazione.",
+      "legal_reference": "LEC art. 481.1 y 481.3",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": " El recurso de casación:",
+      "answers": [
+        { "text": "es la tercera instancia en el proceso civil", "correct": false },
+        { "text": "si es procedente por infracción de norma sustantiva, se formula in voce en la segunda instancia", "correct": false },
+        { "text": "debe regularse por decreto-ley, por aplicación de las normas sobre rango normativo", "correct": false },
+        { "text": "ha sido modificado por el real decreto-ley 5/2023", "correct": true }
+      ],
+      "explanation": "ES: La casación no es tercera instancia; su régimen ha sido actualizado por RDL 5/2023. IT: La cassazione non è una terza istanza; riformata dal RDL 5/2023.",
+      "legal_reference": "LEC arts. 477–487; RDL 5/2023",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Adoptada en primera instancia una medida cautelar y absuelto el demandado mediante sentencia que no es firme:",
+      "answers": [
+        { "text": "el tribunal alzará la medida cautelar por sobrevenir desacreditado el requisito de apariencia de buen derecho", "correct": false },
+        { "text": "el tribunal alzará la medida cautelar. salvo que el recurrente, al interponer su recurso contra la sentencia, interese su mantenimiento o su sustitución por alguna medida cautelar distinta decidiendo el tribunal, oída la parte recurrida", "correct": true },
+        { "text": "el tribunal no alzará en ningún caso la medida cautelar, si bien podrá adoptar alguna distinta oída la parte demandante por plazo de diez días", "correct": false },
+        { "text": "el letrado de la administración de justicia dictarà caso de decreto fijando el nuevo importe de la caución para el caso de interponerse recurso contra la sentencia, debiendo el recurrente consignar la diferencia", "correct": false }
+      ],
+      "explanation": "ES: Se alzan salvo petición de mantenimiento/sustitución al recurrir; decide el tribunal. IT: Revoca salvo istanza di mantenimento/sostituzione in appello; decide il giudice.",
+      "legal_reference": "LEC art. 733.4",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En la adopción de medidas cautelares:",
+      "answers": [
+        { "text": "el tribunal puede valorar si la medida solicitada es susceptible de sustitución por otra no pedida por el solicitante, igualmente eficaz pero menos gravosa para el demandado, y de ser así la adoptará en todo caso para integrar la congruencia del pronunciamiento,", "correct": true },
+        { "text": "cabe adoptar medidas distintas de las específicas relacionadas en la Lec", "correct": false },
+        { "text": "Por excepción el tribunal puede valorar la concurrencia de apariencia de buen derecho para excluir el requisito del peligro por la mora procesal si se presta caución", "correct": false },
+        { "text": "el tribunal debe exigir en todo caso la prestación de caución en importe equivalente al de la repercusión económica de la medida solicitada", "correct": false }
+      ],
+      "explanation": "ES: Principio de proporcionalidad/adecuación: cabe sustituir por otra igual de eficaz y menos gravosa. IT: Proporzionalità/adeguatezza: possibile sostituzione con misura meno gravosa ma egualmente efficace.",
+      "legal_reference": "LEC art. 726.1 y 728.3",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En el juicio de desahucio arrendaticio de finca urbana o rustica por falta de pago:",
+      "answers": [
+        { "text": "puede acumularse a la acciòn de reclamación de rentas pero solo las devengadas hasta la presentación de la demanda", "correct": true },
+        { "text": "puede ejercitarse acción de reparación de los desperfectos de pintura paredes o techos de la vivienda solicitando al tempo que el laj de fe del estado del inmueble", "correct": false },
+        { "text": "no puede solicitarse el lanzamiento de una finca no edificada, salvo que se preste caución y se realice inventario de mejoras e instalaciones", "correct": false },
+        { "text": "debe hacerse constar en la demanda si el demandado puede enervar el desahucio.", "correct": false }
+      ],
+      "explanation": "ES: Este enunciado fija como correcta la acumulación limitada a rentas hasta la demanda. IT: In questo set è corretta l’accumulazione delle sole mensilità fino alla domanda.",
+      "legal_reference": "LEC arts. 437.4 y 438.3; matiz del art. 220.2 sobre rentas posteriores",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En un juicio de desahucio del inmueble por falta de pago:",
+      "answers": [
+        { "text": "Cabe acumular la reclamación de las rentas debidas, pero solo si se acredita la deuda documentalmente", "correct": false },
+        { "text": "cabe reclamar las sumas debidas desde la interposición de la demanda hasta la sentencia de primera instancia, pero solo si es recurrida", "correct": false },
+        { "text": "cabe reclamar las rentas debidas hasta la fecha en la que se reintegre la posesión efectiva del inmueble", "correct": true },
+        { "text": "solo cabe propene prueba documental relativa al pago o la elevación al tratarse de un juicio especial y sumario", "correct": false }
+      ],
+      "explanation": "ES: Se reclaman rentas hasta la entrega efectiva de la posesión. IT: Canoni fino alla riconsegna effettiva.",
+      "legal_reference": "LEC art. 220.2; arts. 437.3 bis y 441",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Contra el auto que acuerda medidas cautelares:",
+      "answers": [
+        { "text": "cabe recurso de revisión, sin efectos suspensivos", "correct": false },
+        { "text": "cabe recurso de apelación, sin efectos suspensivos", "correct": true },
+        { "text": " cabe recurso de apelación, con efectos suspensivos, si se presto caución por el demandado.", "correct": false },
+        { "text": " cabe recurso de revisión,  previo recurso de reposicion si este se desestima", "correct": false }
+      ],
+      "explanation": "ES: Procede apelación en un solo efecto frente a autos de medidas cautelares. IT: Appello senza effetto sospensivo contro l’auto cautelare.",
+      "legal_reference": "LEC arts. 733.1 y 734",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El recurso de apelación:",
+      "answers": [
+        { "text": "no es una segunda instancia", "correct": false },
+        { "text": "es una segunda instancia,  pero con efectos probatorios limitados en función de la actuaciones alegatorias realizadas en la primera por la parte pecuprida", "correct": true },
+        { "text": "si se interpone fuera de plazo, produce la declaración de rebeldïa del recurrente y continua el trámite sin mas audiencia de este", "correct": false },
+        { "text": "son incorrectas las tres respuestas anteriores.", "correct": false }
+      ],
+      "explanation": "ES: Segunda instancia con régimen probatorio limitado a supuestos tasados. IT: Seconda istanza con prova limitata a casi tipici.",
+      "legal_reference": "LEC arts. 455, 459 y 460",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "La demanda en la que se solicita la inmediata recuperación de la plena posesión de una vivienda o parte de ella por el propietario o poseedor legítimo persona fisica que se haya visto privado de ella sin su consentimiento: ",
+      "answers": [
+        { "text": "se tramita en proceso de desahucio por falta de pago, al no haber renta", "correct": false },
+        { "text": "se tramita en proceso de precario si existe documento falso no intervenido por fedatario.", "correct": false },
+        { "text": "se tramita en juicio ordinario y sumario", "correct": false },
+        { "text": "se tramita en juicio verbal", "correct": true }
+      ],
+      "explanation": "ES: Recuperación posesoria sumaria vía juicio verbal. IT: Recupero possessorio in juicio verbal.",
+      "legal_reference": "LEC art. 250.1.4º y 441.1 bis",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Tratándose de oposición a la ejecución de resoluciones procesales, la lec permite alegar, entre otros motivos:",
+      "answers": [
+        { "text": "la transacción que conste en documento privado", "correct": false },
+        { "text": "el pacto o promesa de pedir liquidación", "correct": false },
+        { "text": "la quita o espera", "correct": false },
+        { "text": "el pacto que ejecutante y ejecutado hubieran convenido para evitar la ejecución, si consta en documento público,", "correct": true }
+      ],
+      "explanation": "ES: Solo son oponibles pactos/transacciones en documento público. IT: Opponibili solo patti in atto pubblico.",
+      "legal_reference": "LEC art. 556.1",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El proceso de ejecución: ",
+      "answers": [
+        { "text": "no puede suspenderse, por ser ejecución forzosa.", "correct": false },
+        { "text": "puede suspenderse. pero solo por tiempo no superior a cuarenta días", "correct": true },
+        { "text": " puede suspenderse si lo solicita la parte ejecutada", "correct": false },
+        { "text": " puede suspenderse si asi lo acuerdan todas las partes personadas.", "correct": false }
+      ],
+      "explanation": "ES: En este enunciado se fija un límite temporal de suspensión; la LEC prevé supuestos tasados de suspensión. IT: Qui si indica sospensione limitata; la LEC prevede ipotesi tipiche di sospensione.",
+      "legal_reference": "LEC arts. 565–567 (supuestos de suspensión)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El demandado en juicio de desahucio de finca rustica por falta de pago de las rentas o cantidades debidas:",
+      "answers": [
+        { "text": "no puede enervar el desahucio, por estar prevista la enervación solo para arrendamientos de fincas urbanas.", "correct": false },
+        { "text": "no puede enervar el desahucio, por estar prevista la enervación solo para arrendamientos viviendas", "correct": false },
+        { "text": "puede enervar el desahucio aun tratándose de finca rustica, si concurren los requisitos exigidos en la lec para la enervacion", "correct": true },
+        { "text": "no puede enervar el desahucio si fue requerido extrajudicialmente de desalojo con un mes de antelación a la fecha de vencimiento del contrato", "correct": false }
+      ],
+      "explanation": "ES: La enervación es posible si concurren los requisitos legales, también en rústicos. IT: Enervazione possibile in presenza dei requisiti, anche per fondi rustici.",
+      "legal_reference": "LEC art. 22.4; régimen sustantivo arrendamientos rústicos",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Las acciones posesorias:",
+      "answers": [
+        { "text": "protegen el ius possidendi, que es el derecho a seguir poseyendo.", "correct": false },
+        { "text": "protegen el ius possessionis, que es el derecho a poseer.", "correct": false },
+        { "text": "protegen el ius possessionis, que es el derecho a seguir poseyendo", "correct": true },
+        { "text": "protegen definitivamente cualquier clase derecho sobre una cosa, incluida la propiedad.", "correct": false }
+      ],
+      "explanation": "ES: Tutelan el hecho posesorio (conservar/recobrar), no el derecho de propiedad. IT: Proteggono il possesso (mantenimento/reintegrazione).",
+      "legal_reference": "CC arts. 441–446; LEC art. 250.1.4º",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Para que prospere el interdicto de retener o recobrar se requiere:",
+      "answers": [
+        { "text": "que la perturbación o el despojo se produzca dentro del año siguiente a la recepción por el perturbado o despojado de la posesión civil de la cosa", "correct": false },
+        { "text": "que la perturbación o el despojo se acredite mediante documentos fehacientes.", "correct": false },
+        { "text": "que a la fecha de interposición de la demanda no haya transcurrido más de un año desde el acto atentatorio contra la posesión.", "correct": true },
+        { "text": "que la perturbación o el despojo no estên fundados en la creencia sincera del perturbador o despojante de  que el derecho de posesión le corresponde a él", "correct": false }
+      ],
+      "explanation": "ES: Plazo anual desde el acto perturbador/despojo para ejercitar la acción. IT: Termine di un anno dal fatto lesivo del possesso.",
+      "legal_reference": "LEC art. 439.1; CC arts. 441–446",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Señale la afirmación correcta:",
+      "answers": [
+        { "text": "la posesión como hecho no puede reconocerse en dos personalidades distintas, fuera de los casos de indivisión", "correct": true },
+        { "text": "el poseedor en nombre ajeno esta legitimado para ejercitar las acciones posesorias en su proprio nombre", "correct": false },
+        { "text": "los actos meramente tolerados, como tales actos, afectan a la posesión según el codigo civil", "correct": false },
+        { "text": "la posesión solo se adquiere violentamente si quien se opone a ella, aun siendo poseedor de hecho, carece de titulo", "correct": false }
+      ],
+      "explanation": "ES: El enunciado considera correcta la imposibilidad de doble posesión fuera de la indivisión. IT: Qui si indica che, salvo comunione, non si riconosce duplice possesso sullo stesso bene.",
+      "legal_reference": "CC arts. 432, 445 y 446 (posesión, coposesión e indivisión); criterio del enunciado",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En el proceso para la suspensión de una obra nueva:",
+      "answers": [
+        { "text": "Corresponde la legitimación activa solo al propietario del suelo.", "correct": false },
+        { "text": "Corresponde la legitimación pasiva al encargado de la obra y nunca al autor del acto atentatorio que llevó a cabo por su encargo.", "correct": false },
+        { "text": "El tribunal puede acordar, incluso de oficio, el reconocimiento judicial de la obra.", "correct": true },
+        { "text": "El tribunal dirige en todo caso orden de suspensión de la obra al dueño o encargado de esta, pero podrá ordenar medidas complementarias si lo considera preciso para la seguridad de lo edificado.", "correct": false }
+      ],
+      "explanation": "ES: En este proceso sumario el tribunal puede acordar reconocimiento judicial/pericial para valorar la medida. IT: Nel procedimento per sospensione di nuova opera il giudice può disporre sopralluogo/perizia anche d’ufficio.",
+      "legal_reference": "LEC arts. 250.1.5º, 353–359, 441",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "La demanda iniciadora del proceso de defensa de los derechos inscritos en el registro de la propiedad:",
+      "answers": [
+        { "text": "no se admitirá si no se señala la caución que ha de prestar el demandado si comparece y contesta.", "correct": true },
+        { "text": "se admitirá siempre que se señale en ella la caución que ha de prestar el demandado si no comparece, para evitar el lanzamiento,", "correct": false },
+        { "text": "no se admitirá si se acompaña certificación literal del registro de la propiedad, y no el título de dominio.", "correct": false },
+        { "text": "se admitirá por el laj en todo caso, correspondiendo al demandado oponer cualquier defecto en los que incurriere el actora", "correct": false }
+      ],
+      "explanation": "ES: La caución del demandado es presupuesto procesal exigido en este proceso sumario. IT: È richiesta l’indicazione della cauzione a carico del convenuto per l’ammissibilità della domanda.",
+      "legal_reference": "LEC art. 439.2; LH art. 41; LEC art. 250.1.7º",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "21)Si el demandado en el procedimiento de defensa de los derechos inscritos en el registro de la propiedad posee la finca en virtud de prescripción:",
+      "answers": [
+        { "text": "puede oponer esa causa en el juicio declarativo correspondiente, pero no en éste", "correct": false },
+        { "text": "puede oponer esa causa en este proceso, aunque no está prevista en la lec.", "correct": false },
+        { "text": "puede oponer esta causa en este proceso, al estar prevista en la lec", "correct": true },
+        { "text": "debe interponer reconvención para hacer valer esta causa", "correct": false }
+      ],
+      "explanation": "ES: La usucapión es una de las causas tasadas de oposición en este proceso. IT: La prescrizione acquisitiva rientra tra i motivi tipizzati di opposizione.",
+      "legal_reference": "LEC art. 439.2; LH art. 41",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El plazo de espera de 20 días que la lec establece para el despacho de ejecución:",
+      "answers": [
+        { "text": "Es aplicable en toda ejecución.", "correct": false },
+        { "text": "solo es aplicable cuando el título ejecutivo es extrajudicial", "correct": false },
+        { "text": "solo es aplicable cuando el título ejecutivo es una resolución procesal o arbitral o un acuerdo de mediación", "correct": true },
+        { "text": "requiere solicitud de parte ejecutada", "correct": false }
+      ],
+      "explanation": "ES: El plazo de 20 días rige para títulos judiciales, arbitrales o acuerdos de mediación firmes. IT: I 20 giorni operano per titoli giudiziali, arbitrali o accordi di mediazione esecutivi.",
+      "legal_reference": "LEC art. 548 (incluye acuerdos de mediación ejecutables: Ley 5/2012)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "La impugnación de concretos actos ejecutivos:",
+      "answers": [
+        { "text": "procede mediante recurso de revisión", "correct": true },
+        { "text": "procede mediante el recurso de apelación en los casos en que expresamente lo prevea la ley", "correct": false },
+        { "text": "no procede sí no existe resolución expresa frente a lá que recurrir", "correct": false },
+        { "text": "si requiere practica de prueba da lugar al señalamiento de vista.", "correct": false }
+      ],
+      "explanation": "ES: Los actos del LAJ en ejecución se impugnan por revisión; apelación solo en supuestos tasados. IT: Gli atti esecutivi del S.G. si impugnano con revisione; l’appello è eccezionale.",
+      "legal_reference": "LEC art. 454 bis; arts. 552 y 561 (régimen impugnatorio en ejecución)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En la ejecución:",
+      "answers": [
+        { "text": "no cabe el litisconsorcio activo, pero si el pasivo.", "correct": false },
+        { "text": "cabe tanto el litisconsorcio activo como el pasivo e incluso la personación de terceros aun no ocupando estos lá posición de parte en sentido estricto", "correct": true },
+        { "text": "no cabe el litisconsorcio pasivo pero si el activo", "correct": false },
+        { "text": "las partes no precisan nunca intervenir representadas por procurador y dirigidas por letrado", "correct": false }
+      ],
+      "explanation": "ES: Puede haber pluralidad de ejecutantes/ejecutados y personación de terceros con interés. IT: Ammesso litisconsorzio attivo/passivo e intervento di terzi interessati.",
+      "legal_reference": "LEC arts. 538, 540, 541 y 13 (intervención de terceros)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Puede pedir la rescisión de la sentencia firme:",
+      "answers": [
+        { "text": "el demandante que haya permanecido en rebeldía, en caso de imposibilidad objetiva de comparecer", "correct": false },
+        { "text": "el demandando que haya permanecido en rebeldía, si el demandante es condenado por falso testimonio", "correct": false },
+        { "text": "el demandado que haya permanecido en rebeldía por causa de fuerza mayor que le impidió comparecer, aunque haya tenido conocimiento del pleito por haber sido citado o emplazado en forma", "correct": true },
+        { "text": "", "correct": false }
+      ],
+      "explanation": "ES: Procede audiencia al rebelde cuando hubo fuerza mayor impeditiva de la comparecencia. IT: Ammessa la rescissione per contumacia dovuta a forza maggiore.",
+      "legal_reference": "LEC arts. 501–503 (audiencia al rebelde)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Las demandas de rescisión de sentencia firme:",
+      "answers": [
+        { "text": "producen la paralización del trámite de la fase declarativa del proceso en el que recayò la sentencia firme", "correct": false },
+        { "text": "no pueden ser contestadas por quien ya litigó en el proceso en el que la sentencia fue dictada.", "correct": false },
+        { "text": "no suspenden la ejecución de la sentencia firme que las motiva salvo que asì lo decida el tribunal en atención a las circunstancias y previa prestación de caución", "correct": true },
+        { "text": "se tramitan inaudita altera parte sin perjuicio de la audiencia de las partes una vez acordada la rescisión de la sentencia", "correct": false }
+      ],
+      "explanation": "ES: La rescisión no suspende la ejecución salvo decisión motivada con caución. IT: La rescissione non sospende l’esecuzione salvo decisione del giudice con cauzione.",
+      "legal_reference": "LEC art. 566; arts. 501–503",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "27) en el proceso de ejecución",
+      "answers": [
+        { "text": "la parte ejecutada no puede impugnar la competencia territorial del tribunal", "correct": false },
+        { "text": "el tribunal debe revisar de oficio su competencia territorial y si no se considera competente dictará auto dirigido al juzgado competente para que provea la ejecución, sin ulterior recurso", "correct": true },
+        { "text": "de ser varios los ejecutados serà competente el tribunal què lo sea con respecto a cualquiera de ellos elección del ejecutante", "correct": false },
+        { "text": "la competencia territorial viene determinada en todo caso por la localización de los bienes a embargar", "correct": false }
+      ],
+      "explanation": "ES: La competencia territorial en ejecución es revisable de oficio y, de no ser competente, se remite al órgano que lo sea. IT: La competenza territoriale è oggetto di controllo d’ufficio e si rimette al giudice competente.",
+      "legal_reference": "LEC arts. 545 y 546; 58–59 (competencia territorial)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "28) Señale la afirmaciôn incorrecta",
+      "answers": [
+        { "text": "el recurso de apelación es ordinario y devolutivo", "correct": false },
+        { "text": "el recurso de reposición es ordinario y no devolutivo", "correct": false },
+        { "text": "el recurso de revisión es ordinario", "correct": false },
+        { "text": "el recurso de casación es la tercera instancia en orden procesal civil", "correct": true }
+      ],
+      "explanation": "ES: Es incorrecto afirmar que la casación es tercera instancia; es extraordinario con motivos tasados. IT: Errato dire che la cassazione sia una terza istanza.",
+      "legal_reference": "LEC arts. 455 (apelación), 451 (reposición), 454 bis (revisión), 477–479 (casación)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "29) en el juicio por desahucio por falta de pago",
+      "answers": [
+        { "text": "actor puede reclamar las rentas vencidas hasta la fecha de interposición de la demanda, reservándosele el derecho a reclamar por los daños y perjuicios que sufra si el proceso se prolonga en el tiempo,", "correct": false },
+        { "text": "el actor no puede reclamar las rentas devengadas hasta el momento de la entrega de la posesión efectiva del inmueble", "correct": false },
+        { "text": "el actor puede reclamar las rentas devengadas hasta el momento de la entrega de la posesión efectiva del inmueble, si bien debe tomarse como base para la liquidación el importe de la última mensualidad reclamada al presentar la demanda.", "correct": true },
+        { "text": "al ser sumario, no cabe reclamación de rentas, limitándose la cognitio al desahucio.", "correct": false }
+      ],
+      "explanation": "ES: Se pueden reclamar rentas hasta la entrega efectiva, liquidando sobre la última mensualidad. IT: Si possono domandare i canoni fino alla riconsegna, con base l’ultima mensilità.",
+      "legal_reference": "LEC art. 220.2; arts. 437.3 bis y 441.1",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "30) la demanda de revisión de sentencia firme.",
+      "answers": [
+        { "text": "si prospera, provoca la rescisión de la sentencia y la devolución de los autos al tribunal que la dictó para que las partes puedan usar de su derecho en el juicio correspondiente.", "correct": true },
+        { "text": "cabe por los motivos tasados previstos en el articulo 510 lec o por otros similares a criterio del tribunal", "correct": false },
+        { "text": "no puede solicitarse si han transcurrido 4 años desde la publicación de la sentencia que se pretende impugnar.", "correct": false },
+        { "text": "no exige a quien la interpone ningún depósito previo", "correct": false }
+      ],
+      "explanation": "ES: La revisión, si prospera, rescinde la sentencia y remite para nuevo enjuiciamiento. IT: Se accolta, la revisione rescinde la sentenza e rinvia al giudice a quo.",
+      "legal_reference": "LEC arts. 510–512",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "1) En la vista de medidas cautelares",
+      "answers": [
+        { "text": "el demandado podrá proponer todos los medios de prueba que estime oportunos salvo el reconocimiento judicial al poder producirse por su práctica dilaciones que incrementarían el peligro por la mora procesal", "correct": false },
+        { "text": "no cabe al actor proponer medios de prueba que no interesó al solicitar la medida cautelar por haber precluido para él esa posibilidad", "correct": false },
+        { "text": "El solicitante debe acreditar haber prestado en legal forma la caución fijada por el tribunal", "correct": true },
+        { "text": "las partes podrán formular alegaciones relativas a la cuantía de la caución pero no al tipo de la misma si la medida es patrimonial", "correct": false }
+      ],
+      "explanation": "ES: La caución fijada es presupuesto de eficacia de la medida. IT: La cauzione stabilita dal giudice va regolarmente prestata e provata.",
+      "legal_reference": "LEC arts. 728.3 y 734.2",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "2) los juicios sumarios",
+      "answers": [
+        { "text": "se caracterizan por la limitación de la cognitio", "correct": true },
+        { "text": "se caracterizan por la preclusión del trámite alegatorio al formular reconvención", "correct": false },
+        { "text": "concluyen mediante sentencia con efecto de cosa juzgada material, salvo la litispendencia", "correct": false },
+        { "text": "concluyen mediante auto, producen efecto de cosa juzgada material, incluyendo litispendencia", "correct": false }
+      ],
+      "explanation": "ES: Rasgo esencial: cognición limitada y efectos de cosa juzgada material restringidos. IT: Cognizione limitata ed effetti di giudicato sostanziale attenuati.",
+      "legal_reference": "LEC arts. 250 y 447.2",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El recurso de apelación se interpondrà:",
+      "answers": [
+        { "text": "Por escrito o de palabra in voce, debiendo citar la resolución apelada", "correct": false },
+        { "text": "por escrito ante el tribunal que dictò la resolución recurrida", "correct": false },
+        { "text": "verbalmente si se interpone contra resoluciones de mero trámite", "correct": false },
+        { "text": "por escrito y, entre otros requisitos, citando los pronunciamientos de la resolución apelada que se impugnan", "correct": true }
+      ],
+      "explanation": "ES: La apelación se interpone por escrito, precisando los pronunciamientos impugnados. IT: L’appello si propone per iscritto indicando i capi impugnati.",
+      "legal_reference": "LEC arts. 458–459 y 461.1",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Al escrito interponiendo recurso de apelación:",
+      "answers": [
+        { "text": "Podrà acompañarse todo documento pertinente y útil para resolver la cuestion planteada", "correct": false },
+        { "text": "podrà acompañarse la declaración testifical de los testigos no propuestos en la primera instancia", "correct": false },
+        { "text": "podrán acompañarse los documentos previstos en el artículo 270 lc y que no hayan podido aportarse en la primera instancia", "correct": true },
+        { "text": " NO PODRÁ ACOMPAÑARSE NINGÙN DOCUMENTO", "correct": false }
+      ],
+      "explanation": "ES: Pueden acompañarse los documentos del art. 270 LEC no aportables antes. IT: Allegabili i documenti ex art. 270 LEC non producibili in primo grado.",
+      "legal_reference": "LEC art. 270; art. 461.1",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En el escrito de interposición del recurso de casación:",
+      "answers": [
+        { "text": "cada motivo se iniciara con un encabezamiento, que contendrá la cita precisa de la norma infringida y el resumen de la infracción cometida", "correct": true },
+        { "text": "cada motivo se iniciará con un encabezamiento, que contendrá la cita precisa de la infracción cometida y el resumen de la norma infringida", "correct": false },
+        { "text": "se podrá pedir la celebración de vista para que el tribunal realice el señalamiento de haberlo solicitado alguna de las partes", "correct": false },
+        { "text": "sólo se acompañará copia de la resolución impugnada cuando no exista doctrina jurisprudencial relativa a la norma que se estime infringida", "correct": false }
+      ],
+      "explanation": "ES: Debe identificarse la norma infringida y resumir la infracción en cada motivo. IT: Ogni motivo recante norma violata e sintesi della violazione.",
+      "legal_reference": "LEC art. 481.1 y 481.3; ATS/STS sobre técnica casacional",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": " El recurso de casación:",
+      "answers": [
+        { "text": "es la tercera instancia en el proceso civil", "correct": false },
+        { "text": "si es procedente por infracción de norma sustantiva, se formula in voce en la segunda instancia", "correct": false },
+        { "text": "debe regularse por decreto-ley, por aplicación de las normas sobre rango normativo", "correct": false },
+        { "text": "ha sido modificado por el real decreto-ley 5/2023", "correct": true }
+      ],
+      "explanation": "ES: La casación es un recurso extraordinario cuyo régimen fue reformado por RDL 5/2023. IT: La cassazione è mezzo straordinario, riformato dal RDL 5/2023.",
+      "legal_reference": "LEC arts. 477–487; RDL 5/2023 (BOE 29-06-2023)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Adoptada en primera instancia una medida cautelar y absuelto el demandado mediante sentencia que no es firme:",
+      "answers": [
+        { "text": "el tribunal alzará la medida cautelar por sobrevenir desacreditado el requisito de apariencia de buen derecho", "correct": false },
+        { "text": "el tribunal alzará la medida cautelar. salvo que el recurrente, al interponer su recurso contra la sentencia, interese su mantenimiento o su sustitución por alguna medida cautelar distinta decidiendo el tribunal, oída la parte recurrida", "correct": true },
+        { "text": "el tribunal no alzará en ningún caso la medida cautelar, si bien podrá adoptar alguna distinta oída la parte demandante por plazo de diez días", "correct": false },
+        { "text": "el letrado de la administración de justicia dictarà caso de decreto fijando el nuevo importe de la caución para el caso de interponerse recurso contra la sentencia, debiendo el recurrente consignar la diferencia", "correct": false }
+      ],
+      "explanation": "ES: Regla general de alzamiento salvo solicitud de mantenimiento/sustitución al recurrir. IT: Revoca salvo istanza di mantenimento o sostituzione in appello.",
+      "legal_reference": "LEC art. 733.4 y 734.2",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En la adopción de medidas cautelares:",
+      "answers": [
+        { "text": "el tribunal puede valorar si la medida solicitada es susceptible de sustitución por otra no pedida por el solicitante, igualmente eficaz pero menos gravosa para el demandado, y de ser así la adoptará en todo caso para integrar la congruencia del pronunciamiento,", "correct": true },
+        { "text": "cabe adoptar medidas distintas de las específicas relacionadas en la Lec", "correct": false },
+        { "text": "Por excepción el tribunal puede valorar la concurrencia de apariencia de buen derecho para excluir el requisito del peligro por la mora procesal si se presta caución", "correct": false },
+        { "text": "el tribunal debe exigir en todo caso la prestación de caución en importe equivalente al de la repercusión económica de la medida solicitada", "correct": false }
+      ],
+      "explanation": "ES: Principio de proporcionalidad/adecuación: preferencia por la medida menos gravosa igual de eficaz. IT: Principio di proporzionalità: si adotta la misura meno gravosa ma equivalente.",
+      "legal_reference": "LEC art. 726.1 y 728.3 (caución y proporcionalidad)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En el juicio de desahucio arrendaticio de finca urbana o rustica por falta de pago:",
+      "answers": [
+        { "text": "puede acumularse a la acciòn de reclamación de rentas pero solo las devengadas hasta la presentación de la demanda", "correct": true },
+        { "text": "puede ejercitarse acción de reparación de los desperfectos de pintura paredes o techos de la vivienda solicitando al tempo que el laj de fe del estado del inmueble", "correct": false },
+        { "text": "no puede solicitarse el lanzamiento de una finca no edificada, salvo que se preste caución y se realice inventario de mejoras e instalaciones", "correct": false },
+        { "text": "debe hacerse constar en la demanda si el demandado puede enervar el desahucio.", "correct": false }
+      ],
+      "explanation": "ES: Este enunciado fija como correcta la acumulación limitada a rentas hasta la demanda. IT: Qui la corretta è l’accumulazione dei canoni maturati fino alla domanda.",
+      "legal_reference": "LEC arts. 437.4, 438.3 y 250.1.1º; art. 220.2 (rentas posteriores)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En un juicio de desahucio del inmueble por falta de pago:",
+      "answers": [
+        { "text": "Cabe acumular la reclamación de las rentas debidas, pero solo si se acredita la deuda documentalmente", "correct": false },
+        { "text": "cabe reclamar las sumas debidas desde la interposición de la demanda hasta la sentencia de primera instancia, pero solo si es recurrida", "correct": false },
+        { "text": "cabe reclamar las rentas debidas hasta la fecha en la que se reintegre la posesión efectiva del inmueble", "correct": true },
+        { "text": "solo cabe propene prueba documental relativa al pago o la elevación al tratarse de un juicio especial y sumario", "correct": false }
+      ],
+      "explanation": "ES: Se pueden reclamar rentas hasta la efectiva restitución de la posesión. IT: È ammessa la richiesta di canoni fino alla riconsegna effettiva.",
+      "legal_reference": "LEC art. 220.2; arts. 437.3 bis y 441.1",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Contra el auto que acuerda medidas cautelares:",
+      "answers": [
+        { "text": "cabe recurso de revisión, sin efectos suspensivos", "correct": false },
+        { "text": "cabe recurso de apelación, sin efectos suspensivos", "correct": true },
+        { "text": " cabe recurso de apelación, con efectos suspensivos, si se presto caución por el demandado.", "correct": false },
+        { "text": " cabe recurso de revisión,  previo recurso de reposicion si este se desestima", "correct": false }
+      ],
+      "explanation": "ES: El auto cautelar es apelable en un solo efecto (no suspensivo). IT: L’auto cautelare è appellabile senza effetto sospensivo.",
+      "legal_reference": "LEC arts. 733.1 y 734.2",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El recurso de apelación:",
+      "answers": [
+        { "text": "no es una segunda instancia", "correct": false },
+        { "text": "es una segunda instancia,  pero con efectos probatorios limitados en función de la actuaciones alegatorias realizadas en la primera por la parte pecuprida", "correct": true },
+        { "text": "si se interpone fuera de plazo, produce la declaración de rebeldïa del recurrente y continua el trámite sin mas audiencia de este", "correct": false },
+        { "text": "son incorrectas las tres respuestas anteriores.", "correct": false }
+      ],
+      "explanation": "ES: La apelación es segunda instancia con prueba en supuestos tasados. IT: L’appello è una seconda istanza con prova ammessa in casi tipici.",
+      "legal_reference": "LEC arts. 455, 459 y 460; doctrina sobre prueba en apelación",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "La demanda en la que se solicita la inmediata recuperación de la plena posesión de una vivienda o parte de ella por el propietario o poseedor legítimo persona fisica que se haya visto privado de ella sin su consentimiento:",
+      "answers": [
+        { "text": "se tramita en proceso de desahucio por falta de pago, al no haber renta", "correct": false },
+        { "text": "se tramita en proceso de precario si existe documento falso no intervenido por fedatario.", "correct": false },
+        { "text": "se tramita en juicio ordinario y sumario", "correct": false },
+        { "text": "se tramita en juicio verbal", "correct": true }
+      ],
+      "explanation": "ES: Recuperación sumaria de posesión frente a ocupación sin título por juicio verbal. IT: Recupero possessorio sommario con juicio verbal.",
+      "legal_reference": "LEC art. 250.1.4º y 441.1 bis (Ley 5/2018)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Tratándose de oposición a la ejecución de resoluciones procesales, la lec permite alegar, entre otros motivos:",
+      "answers": [
+        { "text": "la transacción que conste en documento privado", "correct": false },
+        { "text": "el pacto o promesa de pedir liquidación", "correct": false },
+        { "text": "la quita o espera", "correct": false },
+        { "text": "el pacto que ejecutante y ejecutado hubieran convenido para evitar la ejecución, si consta en documento público,", "correct": true }
+      ],
+      "explanation": "ES: Pactos o transacciones son oponibles si constan en documento público. IT: Opponibili i patti solo se contenuti in atto pubblico.",
+      "legal_reference": "LEC art. 556.1 (oposición a la ejecución de resoluciones procesales)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El proceso de ejecución:",
+      "answers": [
+        { "text": "no puede suspenderse, por ser ejecución forzosa.", "correct": false },
+        { "text": "puede suspenderse. pero solo por tiempo no superior a cuarenta días", "correct": true },
+        { "text": " puede suspenderse si lo solicita la parte ejecutada", "correct": false },
+        { "text": " puede suspenderse si asi lo acuerdan todas las partes personadas.", "correct": false }
+      ],
+      "explanation": "ES: En este enunciado se fija la suspensión por tiempo limitado; la LEC prevé supuestos tasados de suspensión. IT: Si indica una sospensione temporale; la LEC disciplina casi tassativi.",
+      "legal_reference": "LEC arts. 565–567 (supuestos y efectos de la suspensión)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El demandado en juicio de desahucio de finca rustica por falta de pago de las rentas o cantidades debidas:",
+      "answers": [
+        { "text": "no puede enervar el desahucio, por estar prevista la enervación solo para arrendamientos de fincas urbanas.", "correct": false },
+        { "text": "no puede enervar el desahucio, por estar prevista la enervación solo para arrendamientos viviendas", "correct": false },
+        { "text": "puede enervar el desahucio aun tratándose de finca rustica, si concurren los requisitos exigidos en la lec para la enervacion", "correct": true },
+        { "text": "no puede enervar el desahucio si fue requerido extrajudicialmente de desalojo con un mes de antelación a la fecha de vencimiento del contrato", "correct": false }
+      ],
+      "explanation": "ES: La enervación es posible en rústicos si se cumplen los requisitos procesales. IT: L’enervazione è possibile anche nei fondi rustici se ricorrono i presupposti.",
+      "legal_reference": "LEC art. 22.4; normas sustantivas de arrendamientos rústicos (LAR)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Las acciones posesorias:",
+      "answers": [
+        { "text": "protegen el ius possidendi, que es el derecho a seguir poseyendo.", "correct": false },
+        { "text": "protegen el ius possessionis, que es el derecho a poseer.", "correct": false },
+        { "text": "protegen el ius possessionis, que es el derecho a seguir poseyendo", "correct": true },
+        { "text": "protegen definitivamente cualquier clase derecho sobre una cosa, incluida la propiedad.", "correct": false }
+      ],
+      "explanation": "ES: Protegen la situación fáctica de posesión para conservar o recobrar. IT: Tutelano il possesso come fatto (conservazione/reintegrazione).",
+      "legal_reference": "CC arts. 441–446; LEC art. 250.1.4º y 250.1.5º",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Para que prospere el interdicto de retener o recobrar se requiere:",
+      "answers": [
+        { "text": "que la perturbación o el despojo se produzca dentro del año siguiente a la recepción por el perturbado o despojado de la posesión civil de la cosa", "correct": false },
+        { "text": "que la perturbación o el despojo se acredite mediante documentos fehacientes.", "correct": false },
+        { "text": "que a la fecha de interposición de la demanda no haya transcurrido más de un año desde el acto atentatorio contra la posesión.", "correct": true },
+        { "text": "que la perturbación o el despojo no estên fundados en la creencia sincera del perturbador o despojante de  que el derecho de posesión le corresponde a él", "correct": false }
+      ],
+      "explanation": "ES: Plazo de caducidad de un año desde el acto de perturbación/despojo. IT: Termine annuale di decadenza dal fatto lesivo del possesso.",
+      "legal_reference": "LEC art. 439.1; CC arts. 441–446",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Señale la respuesta correcta:",
+      "answers": [
+        { "text": "el ius possessionis otorga legitimación interdictal solo a quien tiene derecho a la posesión definitiva", "correct": false },
+        { "text": "el ius possidendi es objeto siempre de acciones posesorias", "correct": false },
+        { "text": "el titular inscrito siempre tiene derecho a seguir poseyendo", "correct": false },
+        { "text": "la incomparecencia del demandado a la vista en el juicio de desahucio por expiración  del plazo de lugar a que se proceda al desahucio", "correct": true }
+      ],
+      "explanation": "ES: En el desahucio por expiración del plazo, si el demandado no comparece, el procedimiento continúa y puede procederse al lanzamiento ya señalado. IT: Nello sfratto per scadenza del termine, la mancata comparizione del convenuto consente di proseguire sino allo sgombero.",
+      "legal_reference": "LEC arts. 440.3–440.4 y 549",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En el procedimiento para la adopción de medidas cautelares:",
+      "answers": [
+        { "text": "la competencia corresponde al tribunal que esté conociendo del asunto o si el proceso no se hubiera iniciado al que sea competente para conocer de la demanda principal", "correct": true },
+        { "text": "el actor debe presentar los documentos en la vista salvo el poder de representación procesal", "correct": false },
+        { "text": "el demandado puede presentar documentos sólo cuando se ha procedido", "correct": false },
+        { "text": "se dicta sentencia sin imposición de costas", "correct": false }
+      ],
+      "explanation": "ES: Conoce el tribunal que lleva el pleito; si aún no existe, el competente para la demanda principal. IT: È competente il giudice della causa o, se non iniziata, quello competente sulla domanda principale.",
+      "legal_reference": "LEC art. 723",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Pueden acumulatse en el proceso de desahucio las acciones tendientes a:",
+      "answers": [
+        { "text": "la reclamación de rentas y el desahucio èr expiración del plazo", "correct": true },
+        { "text": "el desahucio por expiración del plazo y por falta de pago", "correct": false },
+        { "text": "la reclamación de rentas y el pago de las reparaciones previstas en el contrato sin más", "correct": false },
+        { "text": "el desahucio de local comercial y la rendición de cuentas de la explotación comercial ejercida en el", "correct": false }
+      ],
+      "explanation": "ES: Es posible acumular la reclamación de rentas al desahucio (por impago o por expiración). IT: È possibile cumulare la domanda di canoni alla domanda di sfratto.",
+      "legal_reference": "LEC arts. 437.4, 438.3, 250.1.1º y 220.2",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El proceso poderío para recobrar la posesión puede interponerse:",
+      "answers": [
+        { "text": "i ha transcurrido el plazo para iniciar un proceso plenario", "correct": false },
+        { "text": "para la defensa de ius pondiente", "correct": false },
+        { "text": "para evitar una futura producción posesoria ante una invitación actual si esta no es verbal", "correct": false },
+        { "text": "si no ha transcurrido un año desde la propiedad", "correct": true }
+      ],
+      "explanation": "ES: La acción posesoria debe interponerse dentro del año desde el acto de perturbación o despojo. IT: L’azione possessorio si propone entro un anno dal fatto lesivo del possesso.",
+      "legal_reference": "LEC art. 439.1; CC arts. 441–446",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "No se admira la demanda en le proceso de defensa de los derechos inscritos en el registro de propiedad:",
+      "answers": [
+        { "text": "señala en ella la caución que ha de prestar el demandado en caso de comparecer", "correct": false },
+        { "text": "cuando se acompañe certificación del registro de la prioridad que acredite la vigencia del asiento que legitima al actor", "correct": false },
+        { "text": "en caso de litisconsorcio pasivo necesario", "correct": true },
+        { "text": "", "correct": false }
+      ],
+      "explanation": "ES: La falta de litisconsorcio pasivo necesario impide la admisión de la demanda. IT: L’assenza di litisconsorzio necessario comporta l’inammissibilità della domanda.",
+      "legal_reference": "LEC arts. 12, 72–73 y 403; LH art. 41",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Oscar arrendador de una vivienda pretende reclamar a Antonio arrednatario el desahucio por falta de pago de la renta y el importe de las rentas debidas que asciende a 17.125 euros para ello:",
+      "answers": [
+        { "text": "debe iniciar un juicio ordinario", "correct": false },
+        { "text": "debe iniciar un juicio de desahucio primero y si la demanda prospera otro declarativo de reclamación de cantidad para obtener así un titulo ejecutivo de la condena dineraria", "correct": false },
+        { "text": "debe iniciar un juicio verbal acumulando las do pretensiones", "correct": true },
+        { "text": "debe inciar un jucio ordiario aucumulando las dos pretensioens", "correct": false }
+      ],
+      "explanation": "ES: Procede juicio verbal de desahucio acumulando reclamación de rentas (17.125 €). IT: Si procede con rito verbale di sfratto, cumulando la domanda di canoni.",
+      "legal_reference": "LEC arts. 250.1.1º, 437.4, 438.3 y 220.2; LAU art. 27",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El derecho de recurso:",
+      "answers": [
+        { "text": "es de legalidad constitucional", "correct": false },
+        { "text": "es de derecho material", "correct": false },
+        { "text": "es de legalidad ordinaria", "correct": true },
+        { "text": "es de legalidad ordinaria pero cuando la ley procesal lo reconoce es susceptible de amparo constitucional", "correct": false }
+      ],
+      "explanation": "ES: En el proceso civil, el derecho a recurrir es de configuración legal ordinaria. IT: Nel civile, il diritto all’impugnazione è di fonte legale ordinaria.",
+      "legal_reference": "CE art. 24 (tutela judicial) y LEC, Libro II (recursos)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El recurso de apelación:",
+      "answers": [
+        { "text": "abre un nuevo enjuiciamiento del objeto del proceso total o parcial y predeterminar libremente por la parte recurrente", "correct": true },
+        { "text": "es extraordinario y evolutivo", "correct": false },
+        { "text": "cabe contra infracciones sustantivas pero solo si la sentencia es susceptible de recurso por infracción procesal", "correct": false },
+        { "text": "se resuelve siempre mediante sentencia", "correct": false }
+      ],
+      "explanation": "ES: La apelación es un recurso ordinario y devolutivo que abre una segunda instancia sobre lo impugnado. IT: L’appello è mezzo ordinario e devolutivo su ciò che viene devoluto.",
+      "legal_reference": "LEC arts. 455–465",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En el recurso de apelación:",
+      "answers": [
+        { "text": "ha resolucion puede perjudicar al apelante si solo el ha recurrido", "correct": false },
+        { "text": "no puede proponerse prueba de peritos si ya fue inadmitida en la instancia", "correct": false },
+        { "text": "si se propone prueba hay que retrotraer siempre le curso de los autos para practicarla en primera instancia", "correct": false },
+        { "text": "ninguna es correcta", "correct": true }
+      ],
+      "explanation": "ES: Rige la prohibición de reformatio in peius; la prueba en apelación es excepcional y no exige siempre retroacción. IT: Vige il divieto di reformatio in peius; la prova in appello è eccezionale.",
+      "legal_reference": "LEC arts. 456, 459–460; doctrina de la reformatio in peius",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En el recurso de apelación:",
+      "answers": [
+        { "text": "la parte apelada que no formule oposición a la apelación puede formular impugnación de la resolución apelada en lo que le resulte perjudicial", "correct": false },
+        { "text": "ambas partes pueden interponerlo y formular en todo caso tanto oposición al recurso como impugnación de la sentencia en lo que les resulte perjudicial", "correct": false },
+        { "text": "la parte apelada que no sea apelante puede formular impugnación de la resolución apelado en lo que le resulte perjudicial", "correct": true },
+        { "text": "si una parte litisconsorte interpone el recurso de apelación el letrado de la administración de justicia dará traslado separadamente a los demás litisconsorte para impugnación de la resolución apelada en los que les resulte perjudicial", "correct": false }
+      ],
+      "explanation": "ES: La apelada puede impugnar adhesivamente en lo que le perjudique. IT: La parte appellata può proporre impugnazione incidentale nei capi a lei sfavorevoli.",
+      "legal_reference": "LEC art. 461",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Indique cual de estas afirmación es correctas:",
+      "answers": [
+        { "text": "el recurso de reposición es ordinario y devolutivo", "correct": false },
+        { "text": "el recurso de reposición sólo procede contra providencias y autos", "correct": false },
+        { "text": "el recurso de reposición procede contra toda clase de decretos providencias autos", "correct": false },
+        { "text": "el recurso de reposición procede contra diligencias de ordenación y decretos no definitivos y providencias y autos no definitivos", "correct": true }
+      ],
+      "explanation": "ES: La reposición procede contra resoluciones no definitivas del LAJ y del tribunal, ante el mismo órgano. IT: La reposizione è ammessa contro provvedimenti non definitivi, innanzi allo stesso organo.",
+      "legal_reference": "LEC art. 451",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Indique cual de estas afirmaciones es correcta:",
+      "answers": [
+        { "text": "el recurso de revisión procede contra determinadas diligencias de presión y contra autos", "correct": false },
+        { "text": "el recurso de revisión se resuelve mediante auto contra el que sí es definitivo cabe recurso de apelación", "correct": true },
+        { "text": "el recurso de revisión procede contra decretos y autos", "correct": false },
+        { "text": "el recurso de revisión es extraordinario y no devolutivo", "correct": false }
+      ],
+      "explanation": "ES: La revisión frente a decretos/diligencias del LAJ se resuelve por auto y, si es definitivo, cabe apelación. IT: Il ricorso di revisione si decide con auto appellabile se definitivo.",
+      "legal_reference": "LEC art. 454 bis.1 y 3",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El recurso de casación:",
+      "answers": [
+        { "text": "cabe contra todas los autos dictados por las audiencias provincial salvo que no exista interés casacional", "correct": false },
+        { "text": "deben fundarse en infracción procesal o sustantiva  siempre que concurra interés casacional o si no concurre este interés que se interponga contra sentencias dictadas para la tutela judicial civil de derechos fundamentales suscept bles de recurso de amparo", "correct": true },
+        { "text": "debe regularse necesariamente por decreto ley por aplicación de las normas sobre jerarquía normativa", "correct": false },
+        { "text": "permite la alegación de hechos nuevos al amparo del artí. 286 lec si son posteriores a la fecha de la resolución recurrida", "correct": false }
+      ],
+      "explanation": "ES: La casación exige motivos tasados y, por regla general, interés casacional. IT: La cassazione richiede motivi tipizzati e in genere interesse cassazionale.",
+      "legal_reference": "LEC arts. 477–479 y 481",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "La demanda de revisión de sentencia firme",
+      "answers": [
+        { "text": " si prospera  provoca la rescisión de la sentencia y la devolución de los autos al tribunal que la dictó para que las partes puedan usar de su derecho en el juicio correspondiente", "correct": true },
+        { "text": " cabe por los motivos casados previstos en el artículo 510 lec  o por otros similares a criterio del tribunal", "correct": false },
+        { "text": " no puede solicitarse si han transcurrido 4 años desde la publicación de la sentencia que se pretende impugnar", "correct": false },
+        { "text": " no exige aquí en la interpone ningún depósito previo", "correct": false }
+      ],
+      "explanation": "ES: Si prospera, la revisión rescinde la sentencia y devuelve los autos. IT: Se accolta, la revisione rescinde la sentenza e rimette gli atti.",
+      "legal_reference": "LEC arts. 510–512",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Las costas del proceso de ejecución:",
+      "answers": [
+        { "text": "serán siempre de cargo del ejecutado", "correct": false },
+        { "text": "serán siempre de cargo del ejecutado debiendo adena recogerse ese pronunciamiento en el auto por le que se dicte orden general de ejecución para que consigne p aguirre de modo suficiente el treinta por ciento del importe presupuestado de las mismas", "correct": false },
+        { "text": "hasta su liquidación serán anticipadas por el ejecutante si así lo solicita el ejecutado que haya formulado oposición a la ejecución por pluspetición", "correct": false },
+        { "text": "serán de cargo del ejecutado salvo que la ley prevea un pronunciamiento expreso al respecto", "correct": true }
+      ],
+      "explanation": "ES: Regla general: a cargo del ejecutado salvo previsión legal diferente. IT: Regola generale: a carico dell’esecutato, salvo diversa previsione.",
+      "legal_reference": "LEC arts. 394.1 y 561; régimen de costas en ejecución",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En la adopción de medidas cautelares:",
+      "answers": [
+        { "text": "el tribunal puede valorar si la medida solicitada es susceptible de sustitución por otra no pedida por le solicite igualmente eficaz pero menos gravosa por el demandado y de ser así la adoptará en todo caso", "correct": true },
+        { "text": "cabe adoptar medidas distintas de las específicas relacionadas en la lec", "correct": false },
+        { "text": "por excepción el tribunal puede valorar la concurrencia de apariencia de buen derecho para excluir el requisito del peligro por la mora procesal si se presta caución", "correct": false },
+        { "text": "el tribunal debe exigir en todo caso la prestación de caución en importe equivalente al de la repercusión económica de la medida solicitada", "correct": false }
+      ],
+      "explanation": "ES: Proporcionalidad/adecuación: se puede sustituir por medida menos gravosa de eficacia equivalente. IT: Proporzionalità: possibile sostituzione con misura meno gravosa ma egualmente efficace.",
+      "legal_reference": "LEC art. 726.1 y 728.3",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En vista de medidas cautelares:",
+      "answers": [
+        { "text": "el demandado podrá proponer todos los medios de prueba que estime oportunos Salvo  él el reconocimiento judicial al poder producirse por su práctica dilaciones que incrementarían el peligro por la mora procesal", "correct": false },
+        { "text": "no cabe al actor proponer medios de prueba que no interesó al solicitar la medida cautelar  por haber recluido para el esa posibilidad", "correct": false },
+        { "text": "el solicitante debe acreditar haber prestado en legal forma la caución fijada por el tribunal", "correct": true },
+        { "text": "las partes podrán formular alegaciones relativas a la cuantía de la caución pero no al tipo de la misma si la medida es patrimonial", "correct": false }
+      ],
+      "explanation": "ES: La caución fijada debe acreditarse regularmente para la eficacia de la medida. IT: La cauzione stabilita deve essere regolarmente prestata e provata.",
+      "legal_reference": "LEC art. 728.3 y 734.2",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Adoptada en primera instancia una medida cautelar y absuelto del demandado mediante sentencia de buen derecho:",
+      "answers": [
+        { "text": "el tribunal alzará la medida cautelar  por sobrevenir desacreditada el requisito de apariencia de buen derecho", "correct": false },
+        { "text": "el tribunal alzará la medida cautelar salvo que el recurrente al yentporne su recurso contra la sentencia interes us mantenimento o su susticiona por alguna medida cautelar distint decidiendo el tribunal oída la parte recurrida", "correct": true },
+        { "text": "el tribunal n aòzra en ningún caso la medida cautelar si bien podrá adoptar alguna distinta oída la parte demandada por plazo de 10 días", "correct": false },
+        { "text": "el letrado de la administración de justicia dictará decreto fijando el nuevo importe de la, caución para el de interponerse recurso contra la sentenci debiendo el recurrente consignara la diferencia", "correct": false }
+      ],
+      "explanation": "ES: Regla de alzamiento salvo solicitud de mantenimiento/sustitución al recurrir; decide el tribunal. IT: Revoca salvo istanza di mantenimento/sostituzione in appello.",
+      "legal_reference": "LEC art. 733.4",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En el juicio de desahucio arrendaticio de finca urbana o rústica por falta de pago:",
+      "answers": [
+        { "text": "pied eacumularse a la de desahucio la aciion de reclamacion de rentas pero sólo las devengadas hasta la presentación de la demanda", "correct": false },
+        { "text": "puede ejercitarse accion de reparacion de los desperfectos de pintura solicitando al tiempo que el lag de fe del estado del inmueble", "correct": false },
+        { "text": "no puede solicitarse el lanzamiento de una finca no edificada salvo que se preste caución y se realice inventario", "correct": false },
+        { "text": "debe hacerse constar en la demanda si el demandado puede verbal el desahucio", "correct": true }
+      ],
+      "explanation": "ES: Debe indicarse en la demanda si el demandado puede enervar. IT: Va indicata la possibilità di enervazione.",
+      "legal_reference": "LEC art. 437.3 bis y 22.4",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El trámite del juicio de desahucio arrendaticio:",
+      "answers": [
+        { "text": "es el mismo si la causa es la falta de pago que si es la expiración del plazo", "correct": false },
+        { "text": "termina siempre con decreto del letrado de la administración de justicia admitiendo o denegando el lanzamiento", "correct": false },
+        { "text": "es distinto si la causa es la falta de pago que si es la expiración del plazo", "correct": true },
+        { "text": "impone al demandado la obligación de prestar caución para oponerse a la demanda", "correct": false }
+      ],
+      "explanation": "ES: Hay especialidades procedimentales distintas según el motivo de desahucio. IT: Vi sono specificità diverse a seconda della causa (morosità/scadenza).",
+      "legal_reference": "LEC arts. 437.3 bis, 440.3–4 y 441.1",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En un juicio de desahucio del inmueble por falta de pago:",
+      "answers": [
+        { "text": "Cabe acumular la reclamación de las rentas debidas, pero solo si se acredita la deuda documentalmente", "correct": false },
+        { "text": "cabe reclamar las sumas debidas desde la interposición de la demanda hasta la sentencia de primera instancia, pero solo si es recurrida", "correct": false },
+        { "text": "cabe reclamar las rentas debidas hasta la fecha en la que se reintegre la posesión efectiva del inmueble", "correct": true },
+        { "text": "solo cabe propene prueba documental relativa al pago o la elevación al tratarse de un juicio especial y sumario", "correct": false }
+      ],
+      "explanation": "ES: Se pueden reclamar rentas hasta la efectiva entrega de la posesión. IT: È possibile chiedere i canoni fino alla riconsegna effettiva.",
+      "legal_reference": "LEC art. 220.2; arts. 437.3 bis y 441.1",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": " El requerimiento de pago realizado a tenor del art. 22 lec para evitar la enervación del desahucio:",
+      "answers": [
+        { "text": "debe ser claro y preciso", "correct": true },
+        { "text": "para ser fehaciente debe necesariamente constar en documento notarial", "correct": false },
+        { "text": "debe realizarse en el plazo de tinta días", "correct": false },
+        { "text": "debe ser un requerimiento de pago de las umas debida", "correct": false }
+      ],
+      "explanation": "ES: Debe advertir del futuro desahucio y de la pérdida de enervación si no paga. IT: Deve avvertire dello sfratto e della perdita dell’enervazione se non si paga.",
+      "legal_reference": "LEC art. 22.4",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En el juicio de desahucio por falta de pago:",
+      "answers": [
+        { "text": "admitida la demanda el letrado de la administración de justicia requerirá al demandado que tuviera fiador para que manifieste si este debe formular oposición y señalará día y hora para la celebración de la vista y para el lanzamiento en el caso de que la oposición fuera desestimada", "correct": false },
+        { "text": "admitida la demanda el letrado de la administración de justicia requerirá al demandado para que manifieste si formulará oposición debiendo conderle en ese caso el plazo de diez días para que lo haga con señalamiento de día y hora para le lanzamiento en caso contrario", "correct": false },
+        { "text": "admitida la demanda el tribunal señalará día y hora para la celebración de la vista en caso de que no se formule oposición escrita", "correct": false },
+        { "text": "admitida la demanda si el demandante hubiera condonación de todo o parte de lo adeudado por el demandado la aceptación del arrendatario equivaldrá a un allanamiento", "correct": true }
+      ],
+      "explanation": "ES: La aceptación por el arrendatario de la condonación ofrecida equivale a allanamiento. IT: L’accettazione della condonazione equivale ad acquiescenza.",
+      "legal_reference": "LEC art. 21.1 y 437.3 bis (último párrafo)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Una característica de interdicto de recobrar:",
+      "answers": [
+        { "text": "es su carácter asegurador", "correct": true },
+        { "text": "es que protege el ius possidendi con efecto de cosa juzgada material", "correct": false },
+        { "text": "es que cabe tras una sentencia recaída sobre el mismo conflicto posesoria en un proceso plenario", "correct": false },
+        { "text": "en que permite la protección del mero poseedor de hecho que carece de título", "correct": false }
+      ],
+      "explanation": "ES: Es tutela sumaria y aseguradora de la posesión (reintegro inmediato). IT: È rimedio sommario/assicurativo del possesso (reintegro).",
+      "legal_reference": "LEC arts. 250.1.4º y 439.1; CC arts. 441–446",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El interdicto de obra nueva:",
+      "answers": [
+        { "text": "tiene una fase aseguradora y otra preventiva", "correct": true },
+        { "text": "carece de cauce legal si el derecho debatidos real o registral", "correct": false },
+        { "text": "tiene una fase investigatoria y otra declarada", "correct": false },
+        { "text": "tiene que fundarse en el artículo 41 de la ley hipotecaria", "correct": false }
+      ],
+      "explanation": "ES: Finalidad preventiva y aseguradora para evitar daños al poseedor. IT: Finalità preventiva/assicurativa per evitare pregiudizi al possesso.",
+      "legal_reference": "LEC art. 250.1.5º; arts. 441 y 728–730",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En el interdicto de recobrar:",
+      "answers": [
+        { "text": "el arrendatario ostenta legitimación activa contra el arrendador que le despoja", "correct": true },
+        { "text": "el arrendador ostenta legitimación activa frente al tercero que despoja al arrendatario", "correct": true },
+        { "text": "el propietario ostenta legitimación activa contra el copropietario que excluye la posesión de los demás", "correct": true },
+        { "text": "son correctas las tres respuestas anteriore", "correct": true }
+      ],
+      "explanation": "ES: Están legitimados quien sufre despojo (posesión directa o mediata) y el propietario frente al copropietario que excluye a los demás. IT: Legittimato chi subisce spoglio e il proprietario contro il comproprietario che esclude gli altri.",
+      "legal_reference": "LEC art. 250.1.4º; CC arts. 441–446",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El recurso de revisión:",
+      "answers": [
+        { "text": "por su carácter devolutivo debe ser resuelto por el tribunal ante el que se interpone", "correct": false },
+        { "text": "por su carácter ordinario no cabe contra providencia y autos no definitivos", "correct": false },
+        { "text": "si se interpone por escrito se resuelve por la laj", "correct": false },
+        { "text": "cabe contra los decretos por los que se pone fin al procedimiento o piden su continuación", "correct": true }
+      ],
+      "explanation": "ES: Procede contra decretos del LAJ que ponen fin al procedimiento o impiden su continuación. IT: Ammesso contro i decreti del LAJ conclusivi o impeditivi della prosecuzione.",
+      "legal_reference": "LEC art. 454 bis.1",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En el proceso de defensa de los derechos inscritos en el registro de la propiedad:",
+      "answers": [
+        { "text": "debe acompañarse a la demanda certificada del resìgistrador de la propiedad expresiva de la perturbación posesoria", "correct": false },
+        { "text": "se protege al titular inscrito sólo frente al perturbados que tenga título público sea o no escritura notarial", "correct": false },
+        { "text": "se practica prueba y se decide el fondo del asunto mediante auto recurrible", "correct": false },
+        { "text": "están tasadas legalmente las causas de oposición por el demandado", "correct": true }
+      ],
+      "explanation": "ES: Proceso sumario con oposición tasada. IT: Procedimento sommario con motivi di opposizione tipizzati.",
+      "legal_reference": "LEC art. 250.1.7º; LH art. 41; LEC art. 439.2",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En el proceso de defensa de lo derechos inscritos en el registro de la propiedad:",
+      "answers": [
+        { "text": "no cabe eò reconocimiento judicial pero sí el reconocimiento registral", "correct": false },
+        { "text": "no cabe la prueba de testigos pero si la de peritos", "correct": false },
+        { "text": "no existe trámite de oposición por el demandado", "correct": false },
+        { "text": "son todas falsas", "correct": true }
+      ],
+      "explanation": "ES: Pueden practicarse pruebas (incluida testifical) y existe oposición; por tanto, las tres primeras son falsas. IT: Ammesse prove e opposizione; le prime tre sono false.",
+      "legal_reference": "LEC arts. 250.1.7º, 441 y 443; LH art. 41",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En el proceso de defensa de los derechos inscritos enel registro de la propriedades:",
+      "answers": [
+        { "text": "se resuelve mediante auto", "correct": false },
+        { "text": "se resuelve si no se presta caución por el demandado pero en el caso de que la demanda prospere se liquidan los daños y perjuicios", "correct": false },
+        { "text": "se resuelve mediante sentencia con efecto de cosa juzgada", "correct": false },
+        { "text": "se resuelve mediante sentencia", "correct": true }
+      ],
+      "explanation": "ES: La decisión es por sentencia (con efectos de cosa juzgada propios del proceso sumario). IT: Si decide con sentenza (giudicato nei limiti del rito sommario).",
+      "legal_reference": "LEC arts. 447 y 248.1; LH art. 41",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En el proceso para la suspensión de una obra nueva:",
+      "answers": [
+        { "text": "Corresponde la legitimación activa solo al propietario del suelo.", "correct": false },
+        { "text": "Corresponde la legitimación pasiva al encargado de la obra y nunca al autor del acto atentatorio que llevó a cabo por su encargo.", "correct": false },
+        { "text": "El tribunal puede acordar, incluso de oficio, el reconocimiento judicial de la obra.", "correct": true },
+        { "text": "El tribunal dirige en todo caso orden de suspensión de la obra al dueño o encargado de esta, pero podrá ordenar medidas complementarias si lo considera preciso para la seguridad de lo edificado.", "correct": false }
+      ],
+      "explanation": "ES: En este proceso sumario el tribunal puede acordar reconocimiento judicial/pericial para valorar la medida. IT: Nel procedimento per sospensione di nuova opera il giudice può disporre sopralluogo/perizia anche d’ufficio.",
+      "legal_reference": "LEC arts. 250.1.5º, 353–359, 441",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "La demanda iniciadora del proceso de defensa de los derechos inscritos en el registro de la propiedad: ",
+      "answers": [
+        { "text": "no se admitirá si no se señala la caución que ha de prestar el demandado si comparece y contesta.", "correct": true },
+        { "text": "se admitirá siempre que se señale en ella la caución que ha de prestar el demandado si no comparece, para evitar el lanzamiento,", "correct": false },
+        { "text": "no se admitirá si se acompaña certificación literal del registro de la propiedad, y no el título de dominio.", "correct": false },
+        { "text": "se admitirá por el laj en todo caso, correspondiendo al demandado oponer cualquier defecto en los que incurriere el actora", "correct": false }
+      ],
+      "explanation": "ES: La caución del demandado es presupuesto procesal exigido en este proceso sumario. IT: È richiesta l’indicazione della cauzione a carico del convenuto per l’ammissibilità della domanda.",
+      "legal_reference": "LEC art. 439.2; LH art. 41; LEC art. 250.1.7º",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "21)Si el demandado en el procedimiento de defensa de los derechos inscritos en el registro de la propiedad posee la finca en virtud de prescripción:",
+      "answers": [
+        { "text": "puede oponer esa causa en el juicio declarativo correspondiente, pero no en éste", "correct": false },
+        { "text": "puede oponer esa causa en este proceso, aunque no está prevista en la lec.", "correct": false },
+        { "text": "puede oponer esta causa en este proceso, al estar prevista en la lec", "correct": true },
+        { "text": "debe interponer reconvención para hacer valer esta causa", "correct": false }
+      ],
+      "explanation": "ES: La usucapión es una de las causas tasadas de oposición en este proceso. IT: La prescrizione acquisitiva rientra tra i motivi tipizzati di opposizione.",
+      "legal_reference": "LEC art. 439.2; LH art. 41",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El plazo de espera de 20 días que la lec establece para el despacho de ejecución: ",
+      "answers": [
+        { "text": "Es aplicable en toda ejecución.", "correct": false },
+        { "text": "solo es aplicable cuando el título ejecutivo es extrajudicial", "correct": false },
+        { "text": "solo es aplicable cuando el título ejecutivo es una resolución procesal o arbitral o un acuerdo de mediación", "correct": true },
+        { "text": "requiere solicitud de parte ejecutada", "correct": false }
+      ],
+      "explanation": "ES: El plazo de 20 días rige para títulos judiciales, arbitrales o acuerdos de mediación firmes. IT: I 20 giorni operano per titoli giudiziali, arbitrali o accordi di mediazione esecutivi.",
+      "legal_reference": "LEC art. 548 (incluye acuerdos de mediación ejecutables: Ley 5/2012)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "La impugnación de concretos actos ejecutivos:",
+      "answers": [
+        { "text": "procede mediante recurso de revisión", "correct": true },
+        { "text": "procede mediante el recurso de apelación en los casos en que expresamente lo prevea la ley", "correct": false },
+        { "text": "no procede sí no existe resolución expresa frente a lá que recurrir", "correct": false },
+        { "text": "si requiere practica de prueba da lugar al señalamiento de vista.", "correct": false }
+      ],
+      "explanation": "ES: Los actos del LAJ en ejecución se impugnan por revisión; apelación solo en supuestos tasados. IT: Gli atti esecutivi del S.G. si impugnano con revisione; l’appello è eccezionale.",
+      "legal_reference": "LEC art. 454 bis; arts. 552 y 561",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En la ejecución: ",
+      "answers": [
+        { "text": "no cabe el litisconsorcio activo, pero si el pasivo.", "correct": false },
+        { "text": "cabe tanto el litisconsorcio activo como el pasivo e incluso la personación de terceros aun no ocupando estos lá posición de parte en sentido estricto", "correct": true },
+        { "text": "no cabe el litisconsorcio pasivo pero si el activo", "correct": false },
+        { "text": "las partes no precisan nunca intervenir representadas por procurador y dirigidas por letrado", "correct": false }
+      ],
+      "explanation": "ES: Puede haber pluralidad de ejecutantes/ejecutados y personación de terceros con interés. IT: Ammesso litisconsorzio attivo/passivo e intervento di terzi interessati.",
+      "legal_reference": "LEC arts. 538, 540, 541 y 13",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "23) PUEDE PEDIR LA RESCISIÓN DE LA SENTENCIA FIRME:",
+      "answers": [
+        { "text": "El demandante que haya permanecido en rebeldía, en caso de imposibilidad objetiva de comparecer.", "correct": false },
+        { "text": "El demandado que haya permanecido en rebeldía, si el demandante es condenado por falso testimonio.", "correct": false },
+        { "text": "El demandado que haya permanecido en rebeldía por causa de fuerza mayor que le impidió comparecer, aunque haya tenido conocimiento del pleito por haber sido citado o emplazado en forma.", "correct": true },
+        { "text": "Los litisconsortes entre sí, en el caso de interposición por alguno de ellos, y no por todos, de recurso contra la sentencia recaída.", "correct": false }
+      ],
+      "explanation": "ES: Procede la audiencia al rebelde por fuerza mayor impeditiva de la comparecencia. IT: È ammessa la rescissione della sentenza passata in giudicato per forza maggiore che impedì la comparizione.",
+      "legal_reference": "LEC arts. 501–503",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Las demandas de rescisión de sentencia firme:",
+      "answers": [
+        { "text": "producen la paralización del trámite de la fase declarativa del proceso en el que recayò la sentencia firme", "correct": false },
+        { "text": "no pueden ser contestadas por quien ya litigó en el proceso en el que la sentencia fue dictada.", "correct": false },
+        { "text": "no suspenden la ejecución de la sentencia firme que las motiva salvo que asì lo decida el tribunal en atención a las circunstancias y previa prestación de caución", "correct": true },
+        { "text": "se tramitan inaudita altera parte sin perjuicio de la audiencia de las partes una vez acordada la rescisión de la sentencia", "correct": false }
+      ],
+      "explanation": "ES: La rescisión no suspende la ejecución salvo decisión motivada con caución. IT: La rescissione non sospende l’esecuzione salvo decisione del giudice con cauzione.",
+      "legal_reference": "LEC art. 566; arts. 501–503",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "28) Señale la afirmaciôn incorrecta",
+      "answers": [
+        { "text": "el recurso de apelación es ordinario y devolutivo", "correct": false },
+        { "text": "el recurso de reposición es ordinario y no devolutivo", "correct": false },
+        { "text": "el recurso de revisión es ordinario", "correct": false },
+        { "text": "el recurso de casación es la tercera instancia en orden procesal civil", "correct": true }
+      ],
+      "explanation": "ES: Es incorrecto afirmar que la casación es tercera instancia; es extraordinario con motivos tasados. IT: È errato dire che la cassazione sia una terza istanza.",
+      "legal_reference": "LEC arts. 455, 451, 454 bis, 477–479",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "29) en el juicio por desahucio por falta de pago",
+      "answers": [
+        { "text": "actor puede reclamar las rentas vencidas hasta la fecha de interposición de la demanda, reservándosele el derecho a reclamar por los daños y perjuicios que sufra si el proceso se prolonga en el tiempo,", "correct": false },
+        { "text": "el actor no puede reclamar las rentas devengadas hasta el momento de la entrega de la posesión efectiva del inmueble", "correct": false },
+        { "text": "el actor puede reclamar las rentas devengadas hasta el momento de la entrega de la posesión efectiva del inmueble, si bien debe tomarse como base para la liquidación el importe de la última mensualidad reclamada al presentar la demanda.", "correct": true },
+        { "text": "al ser sumario, no cabe reclamación de rentas, limitándose la cognitio al desahucio.", "correct": false }
+      ],
+      "explanation": "ES: Se pueden reclamar rentas hasta la entrega efectiva, liquidando sobre la última mensualidad. IT: Si possono domandare i canoni fino alla riconsegna, con base l’ultima mensilità.",
+      "legal_reference": "LEC art. 220.2; arts. 437.3 bis y 441.1",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "30) la demanda de revisión de sentencia firme.",
+      "answers": [
+        { "text": "si prospera, provoca la rescisión de la sentencia y la devolución de los autos al tribunal que la dictó para que las partes puedan usar de su derecho en el juicio correspondiente.", "correct": true },
+        { "text": "cabe por los motivos tasados previstos en el articulo 510 lec o por otros similares a criterio del tribunal", "correct": false },
+        { "text": "no puede solicitarse si han transcurrido 4 años desde la publicación de la sentencia que se pretende impugnar.", "correct": false },
+        { "text": "no exige a quien la interpone ningún depósito previo", "correct": false }
+      ],
+      "explanation": "ES: La revisión, si prospera, rescinde la sentencia y remite para nuevo enjuiciamiento. IT: Se accolta, la revisione rescinde la sentenza e rinvia al giudice a quo.",
+      "legal_reference": "LEC arts. 510–512",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "1) En la vista de medidas cautelares",
+      "answers": [
+        { "text": "el demandado podrá proponer todos los medios de prueba que estime oportunos salvo el reconocimiento judicial al poder producirse por su práctica dilaciones que incrementarían el peligro por la mora procesal", "correct": false },
+        { "text": "no cabe al actor proponer medios de prueba que no interesó al solicitar la medida cautelar por haber precluido para él esa posibilidad", "correct": false },
+        { "text": "El solicitante debe acreditar haber prestado en legal forma la caución fijada por el tribunal", "correct": true },
+        { "text": "las partes podrán formular alegaciones relativas a la cuantía de la caución pero no al tipo de la misma si la medida es patrimonial", "correct": false }
+      ],
+      "explanation": "ES: La caución fijada es presupuesto de eficacia de la medida. IT: La cauzione stabilita dal giudice va regolarmente prestata e provata.",
+      "legal_reference": "LEC arts. 728.3 y 734.2",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "2) los juicios sumarios",
+      "answers": [
+        { "text": "se caracterizan por la limitación de la cognitio", "correct": true },
+        { "text": "se caracterizan por la preclusión del trámite alegatorio al formular reconvención", "correct": false },
+        { "text": "concluyen mediante sentencia con efecto de cosa juzgada material, salvo la litispendencia", "correct": false },
+        { "text": "concluyen mediante auto, producen efecto de cosa juzgada material, incluyendo litispendencia", "correct": false }
+      ],
+      "explanation": "ES: Rasgo esencial: cognición limitada y efectos de cosa juzgada material restringidos. IT: Cognizione limitata ed effetti di giudicato sostanziale attenuati.",
+      "legal_reference": "LEC arts. 250 y 447.2",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El recurso de apelación se interpondrà:",
+      "answers": [
+        { "text": "Por escrito o de palabra in voce, debiendo citar la resolución apelada", "correct": false },
+        { "text": "por escrito ante el tribunal que dictò la resolución recurrida", "correct": false },
+        { "text": "verbalmente si se interpone contra resoluciones de mero trámite", "correct": false },
+        { "text": "por escrito y, entre otros requisitos, citando los pronunciamientos de la resolución apelada que se impugnan", "correct": true }
+      ],
+      "explanation": "ES: La apelación se interpone por escrito, precisando los pronunciamientos impugnados. IT: L’appello si propone per iscritto indicando i capi impugnati.",
+      "legal_reference": "LEC arts. 458–459 y 461.1",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Al escrito interponiendo recurso de apelación:",
+      "answers": [
+        { "text": "Podrà acompañarse todo documento pertinente y útil para resolver la cuestion planteada", "correct": false },
+        { "text": "podrà acompañarse la declaración testifical de los testigos no propuestos en la primera instancia", "correct": false },
+        { "text": "podrán acompañarse los documentos previstos en el artículo 270 lc y que no hayan podido aportarse en la primera instancia", "correct": true },
+        { "text": " NO PODRÁ ACOMPAÑARSE NINGÙN DOCUMENTO", "correct": false }
+      ],
+      "explanation": "ES: Pueden acompañarse los documentos del art. 270 LEC no aportables antes. IT: Allegabili i documenti ex art. 270 LEC non producibili in primo grado.",
+      "legal_reference": "LEC art. 270; art. 461.1",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En el escrito de interposición del recurso de casación:",
+      "answers": [
+        { "text": "cada motivo se iniciara con un encabezamiento, que contendrá la cita precisa de la norma infringida y el resumen de la infracción cometida", "correct": true },
+        { "text": "cada motivo se iniciará con un encabezamiento, que contendrá la cita precisa de la infracción cometida y el resumen de la norma infringida", "correct": false },
+        { "text": "se podrá pedir la celebración de vista para que el tribunal realice el señalamiento de haberlo solicitado alguna de las partes", "correct": false },
+        { "text": "sólo se acompañará copia de la resolución impugnada cuando no exista doctrina jurisprudencial relativa a la norma que se estime infringida", "correct": false }
+      ],
+      "explanation": "ES: Debe identificarse la norma infringida y resumir la infracción en cada motivo. IT: Ogni motivo recante norma violata e sintesi della violazione.",
+      "legal_reference": "LEC art. 481.1 y 481.3; ATS/STS sobre técnica casacional",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": " El recurso de casación:",
+      "answers": [
+        { "text": "es la tercera instancia en el proceso civil", "correct": false },
+        { "text": "si es procedente por infracción de norma sustantiva, se formula in voce en la segunda instancia", "correct": false },
+        { "text": "debe regularse por decreto-ley, por aplicación de las normas sobre rango normativo", "correct": false },
+        { "text": "ha sido modificado por el real decreto-ley 5/2023", "correct": true }
+      ],
+      "explanation": "ES: La casación es un recurso extraordinario cuyo régimen fue reformado por RDL 5/2023. IT: La cassazione è mezzo straordinario, riformato dal RDL 5/2023.",
+      "legal_reference": "LEC arts. 477–487; RDL 5/2023 (BOE 29-06-2023)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Adoptada en primera instancia una medida cautelar y absuelto el demandado mediante sentencia que no es firme:",
+      "answers": [
+        { "text": "el tribunal alzará la medida cautelar por sobrevenir desacreditado el requisito de apariencia de buen derecho", "correct": false },
+        { "text": "el tribunal alzará la medida cautelar. salvo que el recurrente, al interponer su recurso contra la sentencia, interese su mantenimiento o su sustitución por alguna medida cautelar distinta decidiendo el tribunal, oída la parte recurrida", "correct": true },
+        { "text": "el tribunal no alzará en ningún caso la medida cautelar, si bien podrá adoptar alguna distinta oída la parte demandante por plazo de diez días", "correct": false },
+        { "text": "el letrado de la administración de justicia dictarà caso de decreto fijando el nuevo importe de la caución para el caso de interponerse recurso contra la sentencia, debiendo el recurrente consignar la diferencia", "correct": false }
+      ],
+      "explanation": "ES: Regla general de alzamiento salvo solicitud de mantenimiento/sustitución al recurrir. IT: Revoca salvo istanza di mantenimento/sostituzione in appello.",
+      "legal_reference": "LEC art. 733.4 y 734.2",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En la adopción de medidas cautelares:",
+      "answers": [
+        { "text": "el tribunal puede valorar si la medida solicitada es susceptible de sustitución por otra no pedida por el solicitante, igualmente eficaz pero menos gravosa para el demandado, y de ser así la adoptará en todo caso para integrar la congruencia del pronunciamiento,", "correct": true },
+        { "text": "cabe adoptar medidas distintas de las específicas relacionadas en la Lec", "correct": false },
+        { "text": "Por excepción el tribunal puede valorar la concurrencia de apariencia de buen derecho para excluir el requisito del peligro por la mora procesal si se presta caución", "correct": false },
+        { "text": "el tribunal debe exigir en todo caso la prestación de caución en importe equivalente al de la repercusión económica de la medida solicitada", "correct": false }
+      ],
+      "explanation": "ES: Principio de proporcionalidad/adecuación: preferencia por la medida menos gravosa igual de eficaz. IT: Principio di proporzionalità: si adotta la misura meno gravosa ma equivalente.",
+      "legal_reference": "LEC art. 726.1 y 728.3 (caución y proporcionalidad)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En el juicio de desahucio arrendaticio de finca urbana o rustica por falta de pago:",
+      "answers": [
+        { "text": "puede acumularse a la acciòn de reclamación de rentas pero solo las devengadas hasta la presentación de la demanda", "correct": false },
+        { "text": "puede ejercitarse acción de reparación de los desperfectos de pintura paredes o techos de la vivienda solicitando al tempo que el laj de fe del estado del inmueble", "correct": false },
+        { "text": "no puede solicitarse el lanzamiento de una finca no edificada, salvo que se preste caución y se realice inventario de mejoras e instalaciones", "correct": false },
+        { "text": "debe hacerse constar en la demanda si el demandado puede enervar el desahucio.", "correct": true }
+      ],
+      "explanation": "ES: Debe hacerse constar expresamente si el demandado puede enervar. IT: Va indicata espressamente la possibilità di enervazione.",
+      "legal_reference": "LEC art. 437.3 bis y 22.4",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En un juicio de desahucio del inmueble por falta de pago:",
+      "answers": [
+        { "text": "Cabe acumular la reclamación de las rentas debidas, pero solo si se acredita la deuda documentalmente", "correct": false },
+        { "text": "cabe reclamar las sumas debidas desde la interposición de la demanda hasta la sentencia de primera instancia, pero solo si es recurrida", "correct": false },
+        { "text": "cabe reclamar las rentas debidas hasta la fecha en la que se reintegre la posesión efectiva del inmueble", "correct": true },
+        { "text": "solo cabe propene prueba documental relativa al pago o la elevación al tratarse de un juicio especial y sumario", "correct": false }
+      ],
+      "explanation": "ES: Se pueden reclamar rentas hasta la efectiva restitución de la posesión. IT: È ammessa la richiesta di canoni fino alla riconsegna effettiva.",
+      "legal_reference": "LEC art. 220.2; arts. 437.3 bis y 441.1",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": " El requerimiento de pago realizado a tenor del art. 22 lec para evitar la enervación del desahucio:",
+      "answers": [
+        { "text": "debe ser claro y preciso", "correct": true },
+        { "text": "para ser fehaciente debe necesariamente constar en documento notarial", "correct": false },
+        { "text": "debe realizarse en el plazo de tinta días", "correct": false },
+        { "text": "debe ser un requerimiento de pago de las umas debida", "correct": false }
+      ],
+      "explanation": "ES: Debe advertir del futuro desahucio y de la pérdida de enervación si no paga. IT: Deve avvertire dello sfratto e della perdita dell’enervazione se non si paga.",
+      "legal_reference": "LEC art. 22.4",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "EN EL JUICIO DE DESAHUCIO POR FALTA DE PAGO",
+      "answers": [
+        { "text": "ADMITIDA LA DEMANDA, EL LETRADO DE LA ADMINISTRACIÓN DE JUSTICIA REQUERIRÁ AL DEMANDADO QUE TUVIERA FIADOR PARA QUE MANIFIESTE SI ESTE DEBE FORMULAR OPOSICIÓN, Y SEÑALARA DIA Y HORA PARA LA CELEBRACIÓN DE LA VISTA, Y PARA EL LANZAMIENTO EN EL CASO DE QUE LA OPOSICIÓN FUERA DESESTIMADA", "correct": false },
+        { "text": "ADMITIDA LA DEMANDA, EL LETRADO DE LA ADMINISTRACIÓN DE JUSTICIA REQUERIRÁ AL DEMANDADO PARA QUE MANIFIESTE SI FORMULARA OPOSICIÓN, DEBIENDO CONCEDERLE EN ESE CASO EL PLAZO DE DIEZ DÍAS PARA QUE LO HAGA, CON SEÑALAMIENTO DE DÍA Y HORA PARA EL LANZAMIENTO EN CASO CONTRARIO", "correct": false },
+        { "text": "ADMITIDA LA DEMANDA, EL TRIBUNAL SEÑALARA DÍA Y HORA PARA LA CELEBRACIÓN DE LA VISTA EN CASO DE QUE NO SE FORMULE OPOSICIÓN ESCRITA, Y DIA PARA EL LANZAMIENTO EN EL CASO DE QUE SE FORMULE, REQUIRIENDO AL FIADOR DEL DEMANDADO DE PAGO O CONSIGNACIÓN DE LA SUMA DEBIDA PARA EL SUPUESTO DE OMISIÓN POR PARTE DEL ARRENDATARIO", "correct": false },
+        { "text": "ADMITIDA LA DEMANDA, SI EL DEMANDANTE HUBIERA EXPRESADO EN ELLA QUE ASUME EL COMPROMISO DE CONDONACIÓN DE TODO O PARTE DE LO ADEUDADO POR EL DEMANDADO, LA ACEPTACIÓN DEL ARRENDATARIO EQUIVALDRÁ A UN ALLANAMIENTO.", "correct": true }
+      ],
+      "explanation": "ES: La aceptación por el arrendatario de la condonación ofrecida por el actor equivale a allanamiento. IT: L’accettazione della condonazione equivale ad acquiescenza.",
+      "legal_reference": "LEC arts. 21.1 y 437.3 bis (último párrafo)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Una característica de interdicto de recobrar:",
+      "answers": [
+        { "text": "es su carácter asegurador", "correct": true },
+        { "text": "es que protege el ius possidendi con efecto de cosa juzgada material", "correct": false },
+        { "text": "es que cabe tras una sentencia recaída sobre el mismo conflicto posesoria en un proceso plenario", "correct": false },
+        { "text": "en que permite la protección del mero poseedor de hecho que carece de título", "correct": false }
+      ],
+      "explanation": "ES: Es tutela sumaria y aseguradora de la posesión (reintegro inmediato). IT: È rimedio sommario/assicurativo del possesso (reintegro).",
+      "legal_reference": "LEC arts. 250.1.4º y 439.1; CC arts. 441–446",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El interdicto de obra nueva:",
+      "answers": [
+        { "text": "tiene una fase aseguradora y otra preventiva", "correct": true },
+        { "text": "carece de cauce legal si el derecho debatidos real o registral", "correct": false },
+        { "text": "tiene una fase investigatoria y otra declarada", "correct": false },
+        { "text": "tiene que fundarse en el artículo 41 de la ley hipotecaria", "correct": false }
+      ],
+      "explanation": "ES: Finalidad preventiva y aseguradora para evitar daños al poseedor. IT: Finalità preventiva/assicurativa per evitare pregiudizi al possesso.",
+      "legal_reference": "LEC art. 250.1.5º; arts. 441 y 728–730",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En el interdicto de recobrar:",
+      "answers": [
+        { "text": "el arrendatario ostenta legitimación activa contra el arrendador que le despoja", "correct": true },
+        { "text": "el arrendador ostenta legitimación activa frente al tercero que despoja al arrendatario", "correct": true },
+        { "text": "el propietario ostenta legitimación activa contra el copropietario que excluye la posesión de los demás", "correct": true },
+        { "text": "son correctas las tres respuestas anteriore", "correct": true }
+      ],
+      "explanation": "ES: Están legitimados quien sufre despojo (posesión directa o mediata) y el propietario frente al copropietario que excluye a los demás. IT: Legittimato chi subisce spoglio e il proprietario contro il comproprietario che esclude gli altri.",
+      "legal_reference": "LEC art. 250.1.4º; CC arts. 441–446",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El recurso de revisión:",
+      "answers": [
+        { "text": "por su carácter devolutivo debe ser resuelto por el tribunal ante el que se interpone", "correct": false },
+        { "text": "por su carácter ordinario no cabe contra providencia y autos no definitivos", "correct": false },
+        { "text": "si se interpone por escrito se resuelve por la laj", "correct": false },
+        { "text": "cabe contra los decretos por los que se pone fin al procedimiento o piden su continuación", "correct": true }
+      ],
+      "explanation": "ES: Procede contra decretos del LAJ que ponen fin al procedimiento o impiden su continuación. IT: Ammesso contro i decreti del LAJ conclusivi o impeditivi della prosecuzione.",
+      "legal_reference": "LEC art. 454 bis.1",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En el proceso de defensa de los derechos inscritos en el registro de la propiedad:",
+      "answers": [
+        { "text": "debe acompañarse a la demanda certificada del resìgistrador de la propiedad expresiva de la perturbación posesoria", "correct": false },
+        { "text": "se protege al titular inscrito sólo frente al perturbados que tenga título público sea o no escritura notarial", "correct": false },
+        { "text": "se practica prueba y se decide el fondo del asunto mediante auto recurrible", "correct": false },
+        { "text": "están tasadas legalmente las causas de oposición por el demandado", "correct": true }
+      ],
+      "explanation": "ES: Proceso sumario con oposición tasada. IT: Procedimento sommario con motivi di opposizione tipizzati.",
+      "legal_reference": "LEC art. 250.1.7º; LH art. 41; LEC art. 439.2",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En el proceso de defensa de lo derechos inscritos en el registro de la propiedad:",
+      "answers": [
+        { "text": "no cabe eò reconocimiento judicial pero sí el reconocimiento registral", "correct": false },
+        { "text": "no cabe la prueba de testigos pero si la de peritos", "correct": false },
+        { "text": "no existe trámite de oposición por el demandado", "correct": false },
+        { "text": "son todas falsas", "correct": true }
+      ],
+      "explanation": "ES: Pueden practicarse pruebas (incluida testifical) y existe oposición; por tanto, las tres primeras son falsas. IT: Ammesse prove e opposizione; le prime tre sono false.",
+      "legal_reference": "LEC arts. 250.1.7º, 441 y 443; LH art. 41",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En el proceso de defensa de los derechos inscritos enel registro de la propriedades:",
+      "answers": [
+        { "text": "se resuelve mediante auto", "correct": false },
+        { "text": "se resuelve si no se presta caución por el demandado pero en el caso de que la demanda prospere se liquidan los daños y perjuicios", "correct": false },
+        { "text": "se resuelve mediante sentencia con efecto de cosa juzgada", "correct": false },
+        { "text": "se resuelve mediante sentencia", "correct": true }
+      ],
+      "explanation": "ES: La decisión es por sentencia (con efectos de cosa juzgada propios del proceso sumario). IT: Si decide con sentenza (giudicato nei limiti del rito sommario).",
+      "legal_reference": "LEC arts. 447 y 248.1; LH art. 41",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Señale la respuesta correcta:",
+      "answers": [
+        { "text": "el ius possessionis otorga legitimación interdictal solo a quien tiene derecho a la posesión definitiva", "correct": false },
+        { "text": "el ius possidendi es objeto siempre de acciones posesorias", "correct": false },
+        { "text": "el titular inscrito siempre tiene derecho a seguir poseyendo", "correct": false },
+        { "text": "la incomparecencia del demandado a la vista en el juicio de desahucio por expiración  del plazo de lugar a que se proceda al desahucio", "correct": true }
+      ],
+      "explanation": "ES: En el desahucio por expiración del plazo, la incomparecencia permite continuar y, en su caso, ejecutar lanzamiento ya señalado. IT: Nello sfratto per scadenza del termine, la mancata comparizione consente di proseguire sino allo sgombero.",
+      "legal_reference": "LEC arts. 440.3–440.4 y 549",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Señale la respuesta correcta:",
+      "answers": [
+        {
+          "text": "el ius possessionis otorga legitimación interdictal solo a quien tiene derecho a la posesión definitiva",
+          "correct": false
+        },
+        {
+          "text": "el ius possidendi es objeto siempre de acciones posesorias",
+          "correct": false
+        },
+        {
+          "text": "el titular inscrito siempre tiene derecho a seguir poseyendo",
+          "correct": false
+        },
+        {
+          "text": "la incomparecencia del demandado a la vista en el juicio de desahucio por expiración del plazo de lugar a que se proceda al desahucio",
+          "correct": true
+        }
+      ],
+      "explanation": "Nel juicio verbal di desahucio per scadenza del termine, la mancata comparizione del convenuto consente la prosecuzione allo sgombero se il ricorrente l’ha richiesto e sussistono i presupposti procedurali. Le altre opzioni confondono ius possessionis (tutela del fatto del possesso) e ius possidendi (diritto a possedere) e attribuiscono al titolare iscritto un diritto assoluto a continuare a possedere, che non è ‘sempre’ garantito.",
+      "legal_reference": "LEC art. 440 (citación y efectos de la incomparecencia en desahucio); CC art. 446; LH art. 38",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En el procedimiento para la adopción de medidas cautelares:",
+      "answers": [
+        {
+          "text": "la competencia corresponde al tribunal que esté conociendo del asunto o si el proceso no se hubiera iniciado al que sea competente para conocer de la demanda principal",
+          "correct": true
+        },
+        {
+          "text": "el actor debe presentar los documentos en la vista salvo el poder de representación procesal",
+          "correct": false
+        },
+        {
+          "text": "el demandado puede presentar documentos sólo cuando se ha procedido",
+          "correct": false
+        },
+        {
+          "text": "se dicta sentencia sin imposición de costas",
+          "correct": false
+        }
+      ],
+      "explanation": "È competente il giudice che conosce della causa (o quello competente per la principale se non iniziata). La decisione sulle cautelari è resa con auto, non con ‘sentencia’, e non esiste una regola che imponga la presentazione documentale solo in vista; inoltre il regime di spese segue la decisione sull’incidente.",
+      "legal_reference": "LEC art. 723 (competencia); arts. 733-734 (tramitación y resolución por auto); art. 736 (costas)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Pueden acumulatse en el proceso de desahucio las acciones tendientes a:",
+      "answers": [
+        {
+          "text": "la reclamación de rentas y el desahucio èr expiración del plazo",
+          "correct": true
+        },
+        {
+          "text": "el desahucio por expiración del plazo y por falta de pago",
+          "correct": false
+        },
+        {
+          "text": "la reclamación de rentas y el pago de las reparaciones previstas en el contrato sin más",
+          "correct": false
+        },
+        {
+          "text": "el desahucio de local comercial y la rendición de cuentas de la explotación comercial ejercida en el",
+          "correct": false
+        }
+      ],
+      "explanation": "È ammessa l’accumulazione della domanda di sfratto con la richiesta di canoni/quantità dovute connesse al contratto di locazione. Non è corretto cumulare contemporaneamente due diverse cause di sfratto come autonome pretese principali, né azioni eterogenee (riparazioni, rendiconti) che esulano dal rito speciale salvo i casi previsti.",
+      "legal_reference": "LEC art. 437.4 bis y 438.3 (acumulación); art. 250.1.1ª (desahucio)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El proceso poderío para recobrar la posesión puede interponerse:",
+      "answers": [
+        {
+          "text": "i ha transcurrido el plazo para iniciar un proceso plenario",
+          "correct": false
+        },
+        {
+          "text": "para la defensa de ius pondiente",
+          "correct": false
+        },
+        {
+          "text": "para evitar una futura producción posesoria ante una invitación actual si esta no es verbal",
+          "correct": false
+        },
+        {
+          "text": "si no ha transcurrido un año desde la propiedad",
+          "correct": true
+        }
+      ],
+      "explanation": "Le azioni possessorie di ritenere o ricuperare devono proporsi entro un anno dall’atto di turbativa o spoglio. Le altre opzioni non corrispondono ai presupposti dell’azione possessoria sommaria.",
+      "legal_reference": "LEC art. 250.1.4ª; art. 439.1 (plazo de un año para acciones posesorias)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "No se admira la demanda en le proceso de defensa de los derechos inscritos en el registro de propiedad:",
+      "answers": [
+        {
+          "text": "señala en ella la caución que ha de prestar el demandado en caso de comparecer",
+          "correct": false
+        },
+        {
+          "text": "cuando se acompañe certificación del registro de la prioridad que acredite la vigencia del asiento que legitima al actor",
+          "correct": false
+        },
+        {
+          "text": "en caso de litisconsorcio pasivo necesario",
+          "correct": true
+        }
+      ],
+      "explanation": "Se manca un litisconsorzio passivo necessario, la domanda è inammissibile o va integrata, poiché tutti i soggetti necessari devono essere parte del processo. Le altre opzioni non costituiscono causa di inammissibilità automatica.",
+      "legal_reference": "LEC art. 12 (litisconsorcio pasivo necesario); art. 403 (inadmisión de la demanda); LH arts. 38-41 (tutela de derechos inscritos, régimen sumario)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Oscar arrendador de una vivienda pretende reclamar a Antonio arrednatario el desahucio por falta de pago de la renta y el importe de las rentas debidas que asciende a 17.125 euros para ello:",
+      "answers": [
+        {
+          "text": "debe iniciar un juicio ordinario",
+          "correct": false
+        },
+        {
+          "text": "debe iniciar un juicio de desahucio primero y si la demanda prospera otro declarativo de reclamación de cantidad para obtener así un titulo ejecutivo de la condena dineraria",
+          "correct": false
+        },
+        {
+          "text": "debe iniciar un juicio verbal acumulando las do pretensiones",
+          "correct": true
+        },
+        {
+          "text": "debe inciar un jucio ordiario aucumulando las dos pretensioens",
+          "correct": false
+        }
+      ],
+      "explanation": "Lo sfratto per morosità si tratta sempre con juicio verbal per materia e può cumulare la domanda di somme dovute. Non è necessario instaurare due processi distinti né ricorrere al juicio ordinario per l’importo.",
+      "legal_reference": "LEC art. 250.1.1ª; art. 437.4 bis (acumulación de rentas/cantidades en desahucio)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El derecho de recurso:",
+      "answers": [
+        {
+          "text": "es de legalidad constitucional",
+          "correct": false
+        },
+        {
+          "text": "es de derecho material",
+          "correct": false
+        },
+        {
+          "text": "es de legalidad ordinaria",
+          "correct": true
+        },
+        {
+          "text": "es de legalidad ordinaria pero cuando la ley procesal lo reconoce es susceptible de amparo constitucional",
+          "correct": false
+        }
+      ],
+      "explanation": "Nel processo civile, l’impugnazione esiste nei casi e con i requisiti stabiliti dalla legge: non è garantito come diritto fondamentale alla ‘doppia istanza’. L’amparo non nasce per il mero diniego di un grado di giudizio.",
+      "legal_reference": "LEC art. 448 (principio de legalidad de los recursos); CE art. 24 (tutela judicial efectiva, senza garantire un doppio grado civile)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El recurso de apelación:",
+      "answers": [
+        {
+          "text": "abre un nuevo enjuiciamiento del objeto del proceso total o parcial y predeterminar libremente por la parte recurrente",
+          "correct": false
+        },
+        {
+          "text": "es extraordinario y evolutivo",
+          "correct": true
+        },
+        {
+          "text": "cabe contra infracciones sustantivas pero solo si la sentencia es susceptible de recurso por infracción procesal",
+          "correct": false
+        },
+        {
+          "text": "se resuelve siempre mediante sentencia",
+          "correct": false
+        }
+      ],
+      "explanation": "N.B.: Nel testo questa risposta è segnata come «CORRETTA», ma in diritto positivo la apelación è un recurso ordinario e devolutivo (non ‘extraordinario y evolutivo’). Il giudice d’appello decide normalmente con sentencia; le altre opzioni non descrivono correttamente il regime.",
+      "legal_reference": "LEC arts. 455 (resoluciones apelables), 458 (efectos de la apelación), 465 (resolución en apelación)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En el recurso de apelación:",
+      "answers": [
+        {
+          "text": "ha resolucion puede perjudicar al apelante si solo el ha recurrido",
+          "correct": false
+        },
+        {
+          "text": "no puede proponerse prueba de peritos si ya fue inadmitida en la instancia",
+          "correct": false
+        },
+        {
+          "text": "si se propone prueba hay que retrotraer siempre le curso de los autos para practicarla en primera instancia",
+          "correct": false
+        },
+        {
+          "text": "ninguna es correcta",
+          "correct": true
+        }
+      ],
+      "explanation": "Nessuna delle proposizioni è corretta: non si ammette reformatio in peius quando solo una parte ha impugnato; in appello la prova può ammettersi nei limiti dell’art. 460 LEC e, se ammessa, si pratica davanti all’organo d’appello senza retroazione necessaria.",
+      "legal_reference": "LEC arts. 460 (prueba en segunda instancia), 465 (decisión en apelación); principio de prohibición de la reformatio in peius (doctrina jurisprudencial)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En el recurso de apelación:",
+      "answers": [
+        {
+          "text": "la parte apelada que no formule oposición a la apelación puede formular impugnación de la resolución apelada en lo que le resulte perjudicial",
+          "correct": false
+        },
+        {
+          "text": "ambas partes pueden interponerlo y formular en todo caso tanto oposición al recurso como impugnación de la sentencia en lo que les resulte perjudicial",
+          "correct": false
+        },
+        {
+          "text": "la parte apelada que no sea apelante puede formular impugnación de la resolución apelado en lo que le resulte perjudicial",
+          "correct": true
+        },
+        {
+          "text": "si una parte litisconsorte interpone el recurso de apelación el letrado de la administración de justicia dará traslado separadamente a los demás litisconsorte para impugnación de la resolución apelada en los que les resulte perjudicial",
+          "correct": false
+        }
+      ],
+      "explanation": "L’appellato può proporre impugnazione adesiva (impugnación) contro i capi a lui sfavorevoli anche se non è appellante principale. Le altre formulazioni sono imprecise o aggiungono requisiti non previsti.",
+      "legal_reference": "LEC art. 461 (oposición e impugnación de la sentencia en apelación); art. 458",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Indique cual de estas afirmación es correctas:",
+      "answers": [
+        {
+          "text": "el recurso de reposición es ordinario y devolutivo",
+          "correct": false
+        },
+        {
+          "text": "el recurso de reposición sólo procede contra providencias y autos",
+          "correct": false
+        },
+        {
+          "text": "el recurso de reposición procede contra toda clase de decretos providencias autos",
+          "correct": false
+        },
+        {
+          "text": "el recurso de reposición procede contra diligencias de ordenación y decretos no definitivos y providencias y autos no definitivos",
+          "correct": true
+        }
+      ],
+      "explanation": "La reposición si propone contro provvedimenti non definitivi del giudice (providencias, autos) e contro le decisioni non definitive del LAJ (diligencias de ordenación, decretos non definitivi). Non ha effetto devolutivo.",
+      "legal_reference": "LEC art. 451 (recurso de reposición); art. 454 bis (régimen de los decretos del LAJ)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Indique cual de estas afirmaciones es correcta:",
+      "answers": [
+        {
+          "text": "el recurso de revisión procede contra determinadas diligencias de presión y contra autos",
+          "correct": false
+        },
+        {
+          "text": "el recurso de revisión se resuelve mediante auto contra el que sí es definitivo cabe recurso de apelación",
+          "correct": true
+        },
+        {
+          "text": "el recurso de revisión procede contra decretos y autos",
+          "correct": false
+        },
+        {
+          "text": "el recurso de revisión es extraordinario y no devolutivo",
+          "correct": false
+        }
+      ],
+      "explanation": "Il ‘recurso de revisión’ di cui all’art. 454 bis LEC si dirige contro i decreti del LAJ ed è deciso dal tribunale mediante auto; se l’auto è definitivo, è appellabile. Non procede contro ‘autos’.",
+      "legal_reference": "LEC art. 454 bis (recurso de revisión contra decretos del LAJ); art. 455 (apelación)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El recurso de casación:",
+      "answers": [
+        {
+          "text": "cabe contra todas los autos dictados por las audiencias provincial salvo que no exista interés casacional",
+          "correct": false
+        },
+        {
+          "text": "deben fundarse en infracción procesal o sustantiva siempre que concurra interés casacional o si no concurre este interés que se interponga contra sentencias dictadas para la tutela judicial civil de derechos fundamentales suscept bles de recurso de amparo",
+          "correct": true
+        },
+        {
+          "text": "debe regularse necesariamente por decreto ley por aplicación de las normas sobre jerarquía normativa",
+          "correct": false
+        },
+        {
+          "text": "permite la alegación de hechos nuevos al amparo del artí. 286 lec si son posteriores a la fecha de la resolución recurrida",
+          "correct": false
+        }
+      ],
+      "explanation": "La cassazione civile procede nei casi legali per violazione di norme sostanziali o processuali, con interesse cassazionale; inoltre ha canali speciali per la tutela di diritti fondamentali. Non si propone contro ‘autos’ in via generale e non è sede per introdurre ‘fatti nuovi’.",
+      "legal_reference": "LEC arts. 477-481 (casación, interés casacional y ámbitos); art. 286 (hechos nuevos, non applicabile en casación)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "La demanda de revisión de sentencia firme",
+      "answers": [
+        {
+          "text": "si prospera provoca la rescisión de la sentencia y la devolución de los autos al tribunal que la dictó para que las partes puedan usar de su derecho en el juicio correspondiente",
+          "correct": true
+        },
+        {
+          "text": "cabe por los motivos casados previstos en el artículo 510 lec o por otros similares a criterio del tribunal",
+          "correct": false
+        },
+        {
+          "text": "no puede solicitarse si han transcurrido 4 años desde la publicación de la sentencia que se pretende impugnar",
+          "correct": false
+        },
+        {
+          "text": "no exige aquí en la interpone ningún depósito previo",
+          "correct": false
+        }
+      ],
+      "explanation": "Il recurso extraordinario de revisión, se accolto, rescinde la sentenza e rimette gli atti al giudice a quo. È ammesso solo per i motivi tassativi di legge e con termini specifici diversi a seconda del motivo; non vige un limite fisso di 4 anni per ogni caso, né è assente il deposito nei casi previsti.",
+      "legal_reference": "LEC arts. 509-516; in particolare art. 510 (motivos tasados) e art. 512 (plazos)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Las costas del proceso de ejecución:",
+      "answers": [
+        {
+          "text": "serán siempre de cargo del ejecutado",
+          "correct": false
+        },
+        {
+          "text": "serán siempre de cargo del ejecutado debiendo adena recogerse ese pronunciamiento en el auto por le que se dicte orden general de ejecución para que consigne p aguirre de modo suficiente el treinta por ciento del importe presupuestado de las mismas",
+          "correct": false
+        },
+        {
+          "text": "hasta su liquidación serán anticipadas por el ejecutante si así lo solicita el ejecutado que haya formulado oposición a la ejecución por pluspetición",
+          "correct": false
+        },
+        {
+          "text": "serán de cargo del ejecutado salvo que la ley prevea un pronunciamiento expreso al respecto",
+          "correct": true
+        }
+      ],
+      "explanation": "In esecuzione, le spese sono di regola a carico dell’esecutato, salvo diverso espresso disposto. Non ‘sempre’ e senza eccezioni; non esiste la regola del 30% di deposito nell’auto di esecuzione.",
+      "legal_reference": "LEC art. 539 (costas de la ejecución)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En la adopción de medidas cautelares:",
+      "answers": [
+        {
+          "text": "el tribunal puede valorar si la medida solicitada es susceptible de sustitución por otra no pedida por le solicite igualmente eficaz pero menos gravosa por el demandado y de ser así la adoptará en todo caso",
+          "correct": true
+        },
+        {
+          "text": "cabe adoptar medidas distintas de las específicas relacionadas en la lec",
+          "correct": false
+        },
+        {
+          "text": "por excepción el tribunal puede valorar la concurrencia de apariencia de buen derecho para excluir el requisito del peligro por la mora procesal si se presta caución",
+          "correct": false
+        },
+        {
+          "text": "el tribunal debe exigir en todo caso la prestación de caución en importe equivalente al de la repercusión económica de la medida solicitada",
+          "correct": false
+        }
+      ],
+      "explanation": "Vige il principio di adeguatezza e proporzionalità: il giudice può sostituire la misura chiesta con altra ugualmente efficace e meno gravosa. La caución è regola generale ma modulabile; fumus e periculum sono entrambi richiesti e non si elidono reciprocamente.",
+      "legal_reference": "LEC art. 726 (adecuación y proporcionalidad de las medidas); art. 728 (requisitos); art. 529 (caución)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En vista de medidas cautelares:",
+      "answers": [
+        {
+          "text": "el demandado podrá proponer todos los medios de prueba que estime oportunos Salvo él el reconocimiento judicial al poder producirse por su práctica dilaciones que incrementarían el peligro por la mora procesal",
+          "correct": false
+        },
+        {
+          "text": "no cabe al actor proponer medios de prueba que no interesó al solicitar la medida cautelar por haber recluido para el esa posibilidad",
+          "correct": false
+        },
+        {
+          "text": "el solicitante debe acreditar haber prestado en legal forma la caución fijada por el tribunal",
+          "correct": true
+        },
+        {
+          "text": "las partes podrán formular alegaciones relativas a la cuantía de la caución pero no al tipo de la misma si la medida es patrimonial",
+          "correct": false
+        }
+      ],
+      "explanation": "Quando la caución è stata fissata, il ricorrente deve provarne la prestazione conforme alla legge. Le altre affermazioni limitano la prova o le allegazioni in modo non previsto.",
+      "legal_reference": "LEC arts. 733 (vista y prueba), 529 (caución) y 734",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Adoptada en primera instancia una medida cautelar y absuelto del demandado mediante sentencia de buen derecho:",
+      "answers": [
+        {
+          "text": "el tribunal alzará la medida cautelar por sobrevenir desacreditada el requisito de apariencia de buen derecho",
+          "correct": false
+        },
+        {
+          "text": "el tribunal alzará la medida cautelar salvo que el recurrente al yentporne su recurso contra la sentencia interes us mantenimento o su susticiona por alguna medida cautelar distint decidiendo el tribunal oída la parte recurrida",
+          "correct": true
+        },
+        {
+          "text": "el tribunal n aòzra en ningún caso la medida cautelar si bien podrá adoptar alguna distinta oída la parte demandada por plazo de 10 días",
+          "correct": false
+        },
+        {
+          "text": "el letrado de la administración de justicia dictará decreto fijando el nuevo importe de la, caución para el de interponerse recurso contra la sentenci debiendo el recurrente consignara la diferencia",
+          "correct": false
+        }
+      ],
+      "explanation": "In caso di sentenza assolutoria non ancora ferma, il giudice può revocare o mantenere/sostituire la cautelare se l’appellante lo richiede, sentita l’altra parte. Le altre alternative non rispecchiano la disciplina.",
+      "legal_reference": "LEC arts. 744-745 (modificación, alzamiento y mantenimiento de medidas tras sentencia no firme)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En el juicio de desahucio arrendaticio de finca urbana o rústica por falta de pago:",
+      "answers": [
+        {
+          "text": "pied eacumularse a la de desahucio la aciion de reclamacion de rentas pero sólo las devengadas hasta la presentación de la demanda",
+          "correct": false
+        },
+        {
+          "text": "puede ejercitarse accion de reparacion de los desperfectos de pintura solicitando al tiempo que el lag de fe del estado del inmueble",
+          "correct": false
+        },
+        {
+          "text": "no puede solicitarse el lanzamiento de una finca no edificada salvo que se preste caución y se realice inventario",
+          "correct": false
+        },
+        {
+          "text": "debe hacerse constar en la demanda si el demandado puede verbal el desahucio",
+          "correct": true
+        }
+      ],
+      "explanation": "Nella domanda di sfratto per morosità va indicata la possibilità di enervación del desahucio e gli estremi del previo requerimiento quando rilevante. Le altre opzioni o limitano indebitamente l’accumulo o introducono requisiti non previsti.",
+      "legal_reference": "LEC art. 437.3 bis (contenido de la demanda de desahucio); art. 22.4 (enervación)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El trámite del juicio de desahucio arrendaticio:",
+      "answers": [
+        {
+          "text": "es el mismo si la causa es la falta de pago que si es la expiración del plazo",
+          "correct": false
+        },
+        {
+          "text": "termina siempre con decreto del letrado de la administración de justicia admitiendo o denegando el lanzamiento",
+          "correct": false
+        },
+        {
+          "text": "es distinto si la causa es la falta de pago que si es la expiración del plazo",
+          "correct": true
+        },
+        {
+          "text": "impone al demandado la obligación de prestar caución para oponerse a la demanda",
+          "correct": false
+        }
+      ],
+      "explanation": "Il rito presenta differenze tra morosità ed expiración del plazo (requerimientos, enervación, ecc.). Non termina ‘sempre’ con decreto del LAJ e non si impone cauzione al convenuto per opporsi.",
+      "legal_reference": "LEC arts. 440-444 (trámite del juicio verbal de desahucio); art. 22.4",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En un juicio de desahucio del inmueble por falta de pago:",
+      "answers": [
+        {
+          "text": "cabe acumularse la reclamación de las rentas debidas desde la interposición de la demanda hasta la sentencia que decida definitivamente la cuestión",
+          "correct": false
+        },
+        {
+          "text": "cabe reclamar las sumas debidas desde la interposición de la demanda hasta la sentencia de primera instancia si es recurrida",
+          "correct": false
+        },
+        {
+          "text": "cabe reclamar las rentas debidas hasta la fecha en la que se reintegre la posesión efectiva del inmueble",
+          "correct": true
+        },
+        {
+          "text": "solo cabe propene prueba documental relativa al pago o la elevación al tratarse de un juicio especial y sumario",
+          "correct": false
+        }
+      ],
+      "explanation": "È ammissibile la condanna alle rendite dovute sino alla riconsegna effettiva dell’immobile (condanna di futuro), con successiva liquidazione. Le altre limitazioni temporali non sono corrette.",
+      "legal_reference": "LEC art. 220.2 (condena de futuro); art. 437.4 bis",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El requerimiento de pago realizado a tenor del art. 22 lec para evitar la enervación del desahucio:",
+      "answers": [
+        {
+          "text": "debe ser claro y preciso",
+          "correct": true
+        },
+        {
+          "text": "para ser fehaciente debe necesariamente constar en documento notarial",
+          "correct": false
+        },
+        {
+          "text": "debe realizarse en el plazo de tinta días",
+          "correct": false
+        },
+        {
+          "text": "debe ser un requerimiento de pago de las umas debida",
+          "correct": false
+        }
+      ],
+      "explanation": "Il previo requerimiento deve essere chiaro e preciso; non è richiesto che sia necessariamente notarile, purché sia idoneo a provare la ricezione/fehaciencia.",
+      "legal_reference": "LEC art. 22.4 (enervación y requerimiento fehaciente)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En el juicio de desahucio por falta de pago:",
+      "answers": [
+        {
+          "text": "admitida la demanda el letrado de la administración de justicia requerirá al demandado que tuviera fiador para que manifieste si este debe formular oposición y señalará día y hora para la celebración de la vista y para el lanzamiento en el caso de que la oposición fuera desestimada",
+          "correct": false
+        },
+        {
+          "text": "admitida la demanda el letrado de la administración de justicia requerirá al demandado para que manifieste si formulará oposición debiendo conderle en ese caso el plazo de diez días para que lo haga con señalamiento de día y hora para le lanzamiento en caso contrario",
+          "correct": false
+        },
+        {
+          "text": "admitida la demanda el tribunal señalará día y hora para la celebración de la vista en caso de que no se formule oposición escrita",
+          "correct": false
+        },
+        {
+          "text": "admitida la demanda si el demandante hubiera condonación de todo o parte de lo adeudado por el demandado la aceptación del arrendatario equivaldrá a un allanamiento",
+          "correct": true
+        }
+      ],
+      "explanation": "L’accettazione da parte dell’inquilino della condonazione integrale/parziale del dovuto equivale ad allanamiento con gli effetti processuali conseguenti. Le altre proposizioni non riflettono fedelmente il meccanismo del rito.",
+      "legal_reference": "LEC art. 21 (allanamiento); arts. 440-441 (trámites en desahucio)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En el juicio de desahucio por falta de pago:",
+      "answers": [
+        {
+          "text": "Si el demandado enerva el deshaucio y el actor acepta la enervacion concluye el procedimiento sin imposicion de costas.",
+          "correct": false
+        },
+        {
+          "text": "Si el demandado Enerva el desahucio y el actor no acepta la enervación concluye el procedimiento con imposición de costas al demandado",
+          "correct": false
+        },
+        {
+          "text": "si el demandado atiende el requerimiento de desalojo pero no paga la cantidad reclamada ni se opone concluye el procedimiento y se procede al lanzamiento solo si el demandante lo solicita, pudiendo este también está la ejecución en cuanto a lo que si le adeude",
+          "correct": true
+        },
+        {
+          "text": "si el demandado no desaloja el inmueble ni atiende el requerimiento de pago ni comparece para oponerse ni allanarse, concluye el juicio y se procede a la ejecución para el cobro de lo que se le adeuda que deberá ventilarse en el procedimiento declarativo adecuado por razón de la cuantía",
+          "correct": false
+        }
+      ],
+      "explanation": "Se il convenuto non paga né si oppone ma libera l’immobile, si procede al solo rilascio se richiesto; le somme si potranno eseguire separatamente. Le altre opzioni o presuppongono effetti non esatti dell’enervación o sbagliate conseguenze processuali.",
+      "legal_reference": "LEC arts. 440-444 (efectos del requerimiento y de la incomparecencia/oposición en desahucio); art. 22.4",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "el interdicto de obra nueva",
+      "answers": [
+        {
+          "text": "sólo protege el ius possidendi",
+          "correct": false
+        },
+        {
+          "text": "solo protege el ius possesionis",
+          "correct": true
+        },
+        {
+          "text": "es especial y aseguratorio con una fase declarativa",
+          "correct": false
+        },
+        {
+          "text": "carece de partes al proteger a demandante y demandado",
+          "correct": false
+        }
+      ],
+      "explanation": "La sospensione di opera nuova tutela la situazione di fatto del possesso (ius possessionis) contro le turbative derivanti dall’opera. Non verte sul diritto a possedere (ius possidendi).",
+      "legal_reference": "LEC art. 250.1.5ª (suspensión de obra nueva); arts. 441-447 (tramitación del verbal)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "el proceso de defensa de los derechos inscritos en el Registro de la Propiedad",
+      "answers": [
+        {
+          "text": "tiene tasadas las causas de oposición que puede alegar el contradictor",
+          "correct": true
+        },
+        {
+          "text": "tiende a la obtención de un título ejecutivo que sirva para la inscripción registral de un derecho real",
+          "correct": false
+        },
+        {
+          "text": "es sumario pero vincula al Registrador con efectos de hombres",
+          "correct": false
+        },
+        {
+          "text": "se vaya en la protección que dispensan los artículos 134 y 138 de la Ley Hipotecaria",
+          "correct": false
+        }
+      ],
+      "explanation": "La tutela sommaria dei diritti reali iscritti ammette opposizioni tipiche e limitate. Non crea titolo esecutivo per sé, né vincola il Registrador oltre i limiti legali.",
+      "legal_reference": "LEC art. 250.1.7ª (tutela sumaria de derechos reales inscritos); LH arts. 38 y concordantes (presunción registral y límites de la acción sumaria)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Los juicios sumarios",
+      "answers": [
+        {
+          "text": "se caracterizan por la limitación de la cognitio",
+          "correct": true
+        },
+        {
+          "text": "se caracterizan por la preclusión del trámite aleatorio al formular la REConvención",
+          "correct": false
+        },
+        {
+          "text": "concluye mediante sentencia con efecto de juzgada material",
+          "correct": false
+        },
+        {
+          "text": "si concluyen mediante auto producen efecto de cosa juzgada material",
+          "correct": false
+        }
+      ],
+      "explanation": "I giudizi sommari hanno cognizione limitata e non producono, di regola, piena cosa giudicata materiale sul merito. Le altre affermazioni non sono corrette.",
+      "legal_reference": "LEC art. 447 (efectos de las sentencias en juicios verbales sumarios); sistemática de los arts. 250 y ss.",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El interdicto de adquirir:",
+      "answers": [
+        {
+          "text": "está previsto para proteger al adquirente por actas inter vivos",
+          "correct": false
+        },
+        {
+          "text": "protege al enajene a título sucesorio",
+          "correct": false
+        },
+        {
+          "text": "debe interponerse en el plazo de seis meses desde la apertura de la herencia del poseedor",
+          "correct": false
+        },
+        {
+          "text": "está previsto para poner en posesión de bienes a quien los hubiera adquirido por herencia",
+          "correct": true
+        }
+      ],
+      "explanation": "L’interdicto de adquirir tradizionalmente tutela l’immissione nel possesso del chiamato all’eredità. Non riguarda atti tra vivi né ha un termine di 6 mesi come descritto.",
+      "legal_reference": "CC arts. 440-442 (adquisición de la posesión por herencia); correspondencias históricas en la LEC para tutela posesorias hereditarias",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Contra el auto que acuerda medidas cautelares:;",
+      "answers": [
+        {
+          "text": "cabe recurso de revisión sin efectos suspensivos",
+          "correct": false
+        },
+        {
+          "text": "cabe recurso de apelación sin efectos suspensivos",
+          "correct": true
+        },
+        {
+          "text": "cabe recurso de apelación con efectos suspensivo",
+          "correct": false
+        },
+        {
+          "text": "cabe recurso de revisión previo recurso de reposición si este se desestima",
+          "correct": false
+        }
+      ],
+      "explanation": "L’auto che adotta (o nega) cautelari è appellabile con effetti devolutivi, non sospensivi. Non procede il ‘recurso de revisión’.",
+      "legal_reference": "LEC arts. 733.7 y 735-736 (recursos contra autos de medidas cautelares; efecto no suspensivo)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Si en un interdicto de obra nueva el demandado necesita realizar obras de conservación de la obra ya edificada para que no se perjudique:",
+      "answers": [
+        {
+          "text": "debe plantear la cuestión mediante demanda de juicio declarativo",
+          "correct": false
+        },
+        {
+          "text": "debe dirigirse al laj que acordará por decreto susceptible de recurso de reposición si da traslado al juez para que resuelva",
+          "correct": false
+        },
+        {
+          "text": "debe contestar la demanda y solicitar en esa contención que se le permita la continuación de la obra",
+          "correct": false
+        },
+        {
+          "text": "puede solicitar que se le autorice para realizar las obras indispensable para conservar lo ya edificado",
+          "correct": true
+        }
+      ],
+      "explanation": "Nel procedimento di sospensione di opera nuova è possibile chiedere l’autorizzazione a opere indispensabili di conservazione per evitare danni, senza dover avviare un autonomo giudizio ordinario.",
+      "legal_reference": "LEC arts. 441-444 (medidas en verbal de obra nueva; facultades del tribunal para acordar lo necesario a la conservación)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El recurso de apelación:",
+      "answers": [
+        {
+          "text": "no es una segunda instancia",
+          "correct": false
+        },
+        {
+          "text": "es una segunda instancia",
+          "correct": true
+        },
+        {
+          "text": "si se interpone fuera de plazo produce la declaración de rebeldía del recurrente y continua el trámites sin más audiencia de este",
+          "correct": false
+        },
+        {
+          "text": "son falsas",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La apelación es verdadera segunda instancia y el fuera de plazo causa inadmisión, no rebeldía. IT: L’appello è una vera seconda istanza e il deposito tardivo comporta l’inammissibilità, non la contumacia.",
+      "legal_reference": "LEC arts. 455, 458.2, 465",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El interdicto de obra ruinosa:",
+      "answers": [
+        {
+          "text": "carece de efectos judiciales al perseguir actuaciones administrativas",
+          "correct": false
+        },
+        {
+          "text": "ha sido derogado implícitamente por la doctrina jri pucual civil dada su escasa frecuencia",
+          "correct": false
+        },
+        {
+          "text": "no incluye ningún trámite de audiencia al demandado",
+          "correct": false
+        },
+        {
+          "text": "se planeta pendiente demanda que se decide en juicio verbal",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La tutela frente a obra ruinosa se tramita por juicio verbal con posibles medidas urgentes. IT: La tutela contro opera rovinos a si tratta in giudizio verbale con eventuali misure urgenti.",
+      "legal_reference": "LEC art. 250.1.6ª; arts. 441-447",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "La demanda en la que se solicita la inmediata recuperación de la plena posesión de una vivienda o parte de ella por el propietario o poseedor legítimo persona física que se haya visto privado de ella sin su consentimiento:",
+      "answers": [
+        {
+          "text": "se tramita en proceso de desahucio por falta de pago al no haber renta",
+          "correct": false
+        },
+        {
+          "text": "se tramita en proceso de precario si existe documento falso no intervenido por fedatario",
+          "correct": false
+        },
+        {
+          "text": "se tramita en juicio ordinario",
+          "correct": false
+        },
+        {
+          "text": "se tramita en juicio verbal",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: Es el cauce sumario de recuperación de vivienda ocupada: juicio verbal con trámites específicos. IT: È il rimedio sommario per recupero di alloggio occupato: giudizio verbale con regole ad hoc.",
+      "legal_reference": "LEC art. 250.1.4ª y 441.1 bis (Ley 5/2018)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "No producen efecto de cosa juzgada:",
+      "answers": [
+        {
+          "text": "Las sentencias dictadas en proceso de defensa de los derechos inscritos en el registro de la probada",
+          "correct": false
+        },
+        {
+          "text": "las sentencias de apelación recaídas en proceso de desahucio arrendaticio por falta de pago",
+          "correct": false
+        },
+        {
+          "text": "las sentencias de la sucesión",
+          "correct": false
+        },
+        {
+          "text": "las sentencias dictadas en el juicio verbal sobre inclusion o exclusion de bienes en el inventario de la herencia",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La inclusión/exclusión de bienes en inventario tiene efectos limitados y no genera cosa juzgada material plena. IT: L’inclusione/esclusione di beni in inventario produce effetti limitati, non giudicato materiale pieno.",
+      "legal_reference": "LEC art. 447.2; art. 787",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Un recurso extraordinario:",
+      "answers": [
+        {
+          "text": "cuando se refiere a cuestión o cuestiones no resueltas por la sala de lo civil del tribunal supremo o por las salas de los ivil de los tribunales*",
+          "correct": false
+        },
+        {
+          "text": "cuando tiende a la creación de jurisprudencia sobre las normas aplicables para resolver la cuestión objeto del pleito",
+          "correct": false
+        },
+        {
+          "text": "cuando solo puede basarse en motivos concretos y legalmente determinados",
+          "correct": true
+        },
+        {
+          "text": "cuando puede fundarse en cualquier motivo, siempre que se articule con claridad y precisión y acompañado los documentos acreditativos del derecho pretendido si este no se ha reclamado en los cinco años inementente anterior al dictado de la resolución recurrida",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Los recursos extraordinarios (casación, infracción procesal) se fundan solo en motivos tasados. IT: I rimedi straordinari (cassazione, vizio processuale) hanno motivi tassativi.",
+      "legal_reference": "LEC arts. 469, 477-479",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El recurso de apelación puede interponerse:",
+      "answers": [
+        {
+          "text": "Contra los autos no definitivos y las sentencias",
+          "correct": false
+        },
+        {
+          "text": "Contra los autos definitivos y las providencias",
+          "correct": false
+        },
+        {
+          "text": "Contra los autos definitivos y las sentencias dictadas en juicios verbales de cuiantia inferior a 3000 euros",
+          "correct": false
+        },
+        {
+          "text": "Contra los autos definitivos y las sentencias, salvo las dictadas en juicios verbales tramitados por razon de la cuantia cuando esta no supere los 3000 euros",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: Son apelables los autos definitivos y las sentencias, con la excepción de los verbales por cuantía ≤ 3.000 €. IT: Sono appellabili gli autos definitivi e le sentenze, salvo i verbali per valore ≤ 3.000 €.",
+      "legal_reference": "LEC art. 455.1 y 455.2",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El recurso de apelación se interpondrà:",
+      "answers": [
+        {
+          "text": "Por escrito o de palabra in voce, debiendo citar la resolución apelada",
+          "correct": false
+        },
+        {
+          "text": "por escrito ante el tribunal que dictò la resolución recurrida",
+          "correct": false
+        },
+        {
+          "text": "verbalmente si se interpone contra resoluciones de mero trámite",
+          "correct": false
+        },
+        {
+          "text": "por escrito y, entre otros requisitos, citando los pronunciamientos de la resolución apelada que se impugnan",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La interposición es siempre por escrito e identifica los pronunciamientos impugnados. IT: L’impugnazione va proposta per iscritto indicando i capi censurati.",
+      "legal_reference": "LEC art. 458.1-2",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Al escrito interponiendo recurso de apelación:",
+      "answers": [
+        {
+          "text": "Podrà acompañarse todo documento pertinente y útil para resolver la cuestion planteada",
+          "correct": false
+        },
+        {
+          "text": "podrà acompañarse la declaración testifical de los testigos no propuestos en la primera instancia",
+          "correct": false
+        },
+        {
+          "text": "podrán acompañarse los documentos previstos en el artículo 270 lc y que no hayan podido aportarse en la primera instancia",
+          "correct": true
+        },
+        {
+          "text": "NO PODRÁ ACOMPAÑARSE NINGÙN DOCUMENTO",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Solo caben los documentos del art. 270 LEC (imposibilidad anterior, relevancia sobrevenida, etc.). IT: Ammissibili solo i documenti di cui all’art. 270 LEC (impossibilità precedente, sopravvenienze).",
+      "legal_reference": "LEC arts. 270 y 460",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En el escrito de interposición del recurso de casación:",
+      "answers": [
+        {
+          "text": "cada motivo se iniciara con un encabezamiento, que contendrá la cita precisa de la norma infringida y el resumen de la infracción cometida",
+          "correct": true
+        },
+        {
+          "text": "cada motivo se iniciará con un encabezamiento, que contendrá la cita precisa de la infracción cometida y el resumen de la norma infringida",
+          "correct": false
+        },
+        {
+          "text": "se podrá pedir la celebración de vista para que el tribunal realice el señalamiento de haberlo solicitado alguna de las partes",
+          "correct": false
+        },
+        {
+          "text": "sólo se acompañará copia de la resolución impugnada cuando no exista doctrina jurisprudencial relativa a la norma que se estime infringida",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Cada motivo se encabeza citando la norma infringida y resumiendo la infracción. IT: Ogni motivo va titolato con la norma violata e un sunto della violazione.",
+      "legal_reference": "LEC art. 481.1",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El recurso de casación:",
+      "answers": [
+        {
+          "text": "es la tercera instancia en el proceso civil",
+          "correct": false
+        },
+        {
+          "text": "si es procedente por infracción de norma sustantiva, se formula in voce en la segunda instancia",
+          "correct": false
+        },
+        {
+          "text": "debe regularse por decreto-ley, por aplicación de las normas sobre rango normativo",
+          "correct": false
+        },
+        {
+          "text": "ha sido modificado por el real decreto-ley 5/2023",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La casación no es ‘tercera instancia’ y su régimen fue reformado por RDL 5/2023. IT: La cassazione non è una “terza istanza” ed è stata riformata dal RDL 5/2023.",
+      "legal_reference": "LEC arts. 477-481; RDL 5/2023",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Adoptada en primera instancia una medida cautelar y absuelto el demandado mediante sentencia que no es firme:",
+      "answers": [
+        {
+          "text": "el tribunal alzará la medida cautelar por sobrevenir desacreditado el requisito de apariencia de buen derecho",
+          "correct": false
+        },
+        {
+          "text": "el tribunal alzará la medida cautelar. salvo que el recurrente, al interponer su recurso contra la sentencia, interese su mantenimiento o su sustitución por alguna medida cautelar distinta decidiendo el tribunal, oída la parte recurrida",
+          "correct": true
+        },
+        {
+          "text": "el tribunal no alzará en ningún caso la medida cautelar, si bien podrá adoptar alguna distinta oída la parte demandante por plazo de diez días",
+          "correct": false
+        },
+        {
+          "text": "el letrado de la administración de justicia dictarà caso de decreto fijando el nuevo importe de la caución para el caso de interponerse recurso contra la sentencia, debiendo el recurrente consignar la diferencia",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Tras sentencia no firme, cabe mantener o sustituir la cautelar si el recurrente lo pide y se oye a la parte contraria. IT: Dopo sentenza non definitiva, la misura può mantenersi o sostituirsi su istanza dell’appellante, previa audizione.",
+      "legal_reference": "LEC arts. 744-745 (Título VI, medidas cautelares)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En la adopción de medidas cautelares:",
+      "answers": [
+        {
+          "text": "el tribunal puede valorar si la medida solicitada es susceptible de sustitución por otra no pedida por el solicitante, igualmente eficaz pero menos gravosa para el demandado, y de ser así la adoptará en todo caso para integrar la congruencia del pronunciamiento,",
+          "correct": true
+        },
+        {
+          "text": "cabe adoptar medidas distintas de las específicas relacionadas en la Lec",
+          "correct": false
+        },
+        {
+          "text": "Por excepción el tribunal puede valorar la concurrencia de apariencia de buen derecho para excluir el requisito del peligro por la mora procesal si se presta caución",
+          "correct": false
+        },
+        {
+          "text": "el tribunal debe exigir en todo caso la prestación de caución en importe equivalente al de la repercusión económica de la medida solicitada",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Rige adecuación y proporcionalidad: cabe sustituir por otra igual de eficaz y menos gravosa. IT: Vale il criterio di adeguatezza/proporzionalità: possibile sostituzione con misura ugualmente efficace ma meno gravosa.",
+      "legal_reference": "LEC art. 726; art. 728; art. 529",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En el juicio de desahucio arrendaticio de finca urbana o rustica por falta de pago:",
+      "answers": [
+        {
+          "text": "puede acumularse a la acciòn de reclamación de rentas pero solo las devengadas hasta la presentación de la demanda",
+          "correct": false
+        },
+        {
+          "text": "puede ejercitarse acción de reparación de los desperfectos de pintura paredes o techos de la vivienda solicitando al tempo que el laj de fe del estado del inmueble",
+          "correct": false
+        },
+        {
+          "text": "no puede solicitarse el lanzamiento de una finca no edificada, salvo que se preste caución y se realice inventario de mejoras e instalaciones",
+          "correct": false
+        },
+        {
+          "text": "debe hacerse constar en la demanda si el demandado puede enervar el desahucio.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: Debe indicarse la eventual enervación; además puede pedirse condena de rentas hasta entrega de posesión (no solo hasta la demanda). IT: Va indicata l’eventuale sanatoria; si può chiedere la condanna ai canoni fino alla riconsegna.",
+      "legal_reference": "LEC arts. 437.3 bis, 220.2 y 22.4",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En un juicio de desahucio del inmueble por falta de pago:",
+      "answers": [
+        {
+          "text": "Cabe acumular la reclamación de las rentas debidas, pero solo si se acredita la deuda documentalmente",
+          "correct": false
+        },
+        {
+          "text": "cabe reclamar las sumas debidas desde la interposición de la demanda hasta la sentencia de primera instancia, pero solo si es recurrida",
+          "correct": false
+        },
+        {
+          "text": "cabe reclamar las rentas debidas hasta la fecha en la que se reintegre la posesión efectiva del inmueble",
+          "correct": true
+        },
+        {
+          "text": "solo cabe proponer prueba documental y debe ser relativa al pago o a la enervación, al tratarse de un juicio especial y sumario",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Cabe condena de futuro hasta la efectiva recuperación de la posesión. IT: È ammissibile la condanna fino alla riconsegna effettiva dell’immobile.",
+      "legal_reference": "LEC art. 220.2 y 437.4 bis",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Contra el auto que acuerda medidas cautelares:",
+      "answers": [
+        {
+          "text": "cabe recurso de revisión, sin efectos suspensivos",
+          "correct": false
+        },
+        {
+          "text": "cabe recurso de apelación, sin efectos suspensivos",
+          "correct": true
+        },
+        {
+          "text": "cabe recurso de apelación, con efectos suspensivos, si se presto caución por el demandado.",
+          "correct": false
+        },
+        {
+          "text": "cabe recurso de revisión, previo recurso de reposicion si este se desestima",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El auto cautelar es apelable y la apelación no tiene efecto suspensivo. IT: L’ordinanza cautelare è appellabile e l’appello non è sospensivo.",
+      "legal_reference": "LEC arts. 735-736",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El recurso de apelación:",
+      "answers": [
+        {
+          "text": "no es una segunda instancia",
+          "correct": false
+        },
+        {
+          "text": "es una segunda instancia, pero con efectos probatorios limitados en función de la actuaciones alegatorias realizadas en la primera por la parte pecuprida",
+          "correct": true
+        },
+        {
+          "text": "si se interpone fuera de plazo, produce la declaración de rebeldïa del recurrente y continua el trámite sin mas audiencia de este",
+          "correct": false
+        },
+        {
+          "text": "son incorrectas las tres respuestas anteriores.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Es segunda instancia con admisión de prueba en límites tasados (art. 460). IT: È seconda istanza con prova ammessa entro limiti legali.",
+      "legal_reference": "LEC arts. 455, 460 y 465",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "La demanda en la que se solicita la inmediata recuperación de la plena posesión de una vivienda o parte de ella por el propietario o poseedor legítimo persona fisica que se haya visto privado de ella sin su consentimiento:",
+      "answers": [
+        {
+          "text": "se tramita en proceso de desahucio por falta de pago, al no haber renta",
+          "correct": false
+        },
+        {
+          "text": "se tramita en proceso de precario si existe documento falso no intervenido por fedatario.",
+          "correct": false
+        },
+        {
+          "text": "se tramita en juicio ordinario y sumario",
+          "correct": false
+        },
+        {
+          "text": "se tramita en juicio verbal",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: Procede por juicio verbal con previsiones específicas para ocupación ilegal. IT: Si propone con giudizio verbale con regole specifiche per occupazioni abusive.",
+      "legal_reference": "LEC art. 250.1.4ª y 441.1 bis (Ley 5/2018)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Tratándose de oposición a la ejecución de resoluciones procesales, la lec permite alegar, entre otros motivos:",
+      "answers": [
+        {
+          "text": "la transacción que conste en documento privado",
+          "correct": false
+        },
+        {
+          "text": "el pacto o promesa de pedir liquidación",
+          "correct": false
+        },
+        {
+          "text": "la quita o espera",
+          "correct": false
+        },
+        {
+          "text": "el pacto que ejecutante y ejecutado hubieran convenido para evitar la ejecución, si consta en documento público,",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: Son oponibles los pactos de no ejecutar si constan en documento público. IT: Sono opponibili i patti di non eseguire se risultano da atto pubblico.",
+      "legal_reference": "LEC art. 556.1-2 (oposición a títulos judiciales)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El proceso de ejecución:",
+      "answers": [
+        {
+          "text": "no puede suspenderse, por ser ejecución forzosa.",
+          "correct": false
+        },
+        {
+          "text": "puede suspenderse. pero solo por tiempo no superior a cuarenta días",
+          "correct": true
+        },
+        {
+          "text": "puede suspenderse si lo solicita la parte ejecutada",
+          "correct": false
+        },
+        {
+          "text": "puede suspenderse si asi lo acuerdan todas las partes personadas.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La LEC prevé supuestos tasados de suspensión y por tiempos legalmente limitados. IT: La LEC consente sospensioni solo in casi tipici e per tempi predeterminati.",
+      "legal_reference": "LEC arts. 565-568 (supuestos de suspensión de la ejecución)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El demandado en juicio de desahucio de finca rustica por falta de pago de las rentas o cantidades debidas:",
+      "answers": [
+        {
+          "text": "no puede enervar el desahucio, por estar prevista la enervación solo para arrendamientos de fincas urbanas.",
+          "correct": false
+        },
+        {
+          "text": "no puede enervar el desahucio, por estar prevista la enervación solo para arrendamientos viviendas",
+          "correct": false
+        },
+        {
+          "text": "puede enervar el desahucio aun tratándose de finca rustica, si concurren los requisitos exigidos en la lec para la enervacion",
+          "correct": true
+        },
+        {
+          "text": "no puede enervar el desahucio si fue requerido extrajudicialmente de desalojo con un mes de antelación a la fecha de vencimiento del contrato",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La enervación es posible en desahucios por falta de pago si se cumplen los requisitos del art. 22.4 LEC. IT: La sanatoria è possibile nei sfratti per morosità se ricorrono i presupposti dell’art. 22.4 LEC.",
+      "legal_reference": "LEC art. 22.4 (enervación del desahucio)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Las acciones posesorias:",
+      "answers": [
+        {
+          "text": "protegen el ius possidendi, que es el derecho a seguir poseyendo.",
+          "correct": false
+        },
+        {
+          "text": "protegen el ius possessionis, que es el derecho a poseer.",
+          "correct": false
+        },
+        {
+          "text": "protegen el ius possessionis, que es el derecho a seguir poseyendo",
+          "correct": true
+        },
+        {
+          "text": "protegen definitivamente cualquier clase derecho sobre una cosa, incluida la propiedad.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Las acciones posesorias tutelan el hecho posesorio (seguir poseyendo), no el derecho a poseer. IT: Le azioni possessorie proteggono il possesso di fatto (continuare a possedere), non lo ius possidendi.",
+      "legal_reference": "CC art. 446; LEC art. 250.1.4ª",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Para que prospere el interdicto de retener o recobrar se requiere:",
+      "answers": [
+        {
+          "text": "que la perturbación o el despojo se produzca dentro del año siguiente a la recepción por el perturbado o despojado de la posesión civil de la cosa",
+          "correct": false
+        },
+        {
+          "text": "que la perturbación o el despojo se acredite mediante documentos fehacientes.",
+          "correct": false
+        },
+        {
+          "text": "que a la fecha de interposición de la demanda no haya transcurrido más de un año desde el acto atentatorio contra la posesión.",
+          "correct": true
+        },
+        {
+          "text": "que la perturbación o el despojo no estên fundados en la creencia sincera del perturbador o despojante de que el derecho de posesión le corresponde a él",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Las acciones posesorias caducan al año desde la perturbación o el despojo. IT: Le azioni possessorie si estinguono se non proposte entro un anno dal turbamento o spoglio.",
+      "legal_reference": "LEC art. 439.1 (plazo anual)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Señale la afirmación correcta:",
+      "answers": [
+        {
+          "text": "la posesión como hecho no puede reconocerse en dos personalidades distintas, fuera de los casos de indivisión",
+          "correct": true
+        },
+        {
+          "text": "el poseedor en nombre ajeno esta legitimado para ejercitar las acciones posesorias en su proprio nombre",
+          "correct": false
+        },
+        {
+          "text": "los actos meramente tolerados, como tales actos, afectan a la posesión según el codigo civil",
+          "correct": false
+        },
+        {
+          "text": "la posesión solo se adquiere violentamente si quien se opone a ella, aun siendo poseedor de hecho, carece de titulo",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La posesión no puede atribuirse simultáneamente a personas distintas salvo indivisión. IT: Il possesso non si attribuisce a più persone salvo l’indivisione.",
+      "legal_reference": "CC arts. 444-447 y 430 ss.",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En el proceso para la suspensión de una obra nueva:",
+      "answers": [
+        {
+          "text": "corresponde la legitimación activa solo al poseedor",
+          "correct": false
+        },
+        {
+          "text": "corresponde la legitimación pasiva al encargado de la obra, y nunca al autor del acto atentatorio si se llevó a cabo por su encargo",
+          "correct": false
+        },
+        {
+          "text": "el tribunal puede acordar, incluso de oficio, el reconocimiento judicial de la obra.",
+          "correct": true
+        },
+        {
+          "text": "el tribunal dirige en todo caso orden de suspensión de la obra al dueño o encargado de ésta, por el tiempo que el tribunal considere preciso para mantener la seguridad de lo edificado.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El juez puede ordenar reconocimiento judicial para valorar la medida. IT: Il giudice può disporre ispezione/riconoscimento d’ufficio per valutare la misura.",
+      "legal_reference": "LEC arts. 440-444 (juicio verbal) y 734",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "La demanda iniciadora del proceso de defensa de los derechos inscritos en el registro de la propiedad:",
+      "answers": [
+        {
+          "text": "no se admitirá si no se señala la caución que ha de prestar el demandado si comparece y contesta.",
+          "correct": true
+        },
+        {
+          "text": "se admitirá siempre que se señale en ella la caución que ha de prestar el demandado si no comparece, para evitar el lanzamiento,",
+          "correct": false
+        },
+        {
+          "text": "no se admitirá si se acompaña certificación literal del registro de la propiedad, y no el título de dominio.",
+          "correct": false
+        },
+        {
+          "text": "se admitirá por el laj en todo caso, correspondiendo al demandado oponer cualquier defecto en los que incurriere el actora",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: En esta vía sumaria se exige caución indicada en la demanda para su admisión. IT: In questo rito sommario è richiesta la cauzione indicata nella domanda per l’ammissibilità.",
+      "legal_reference": "LH art. 41; LEC art. 439.2 (requisitos de la demanda)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Si el demandado en el procedimiento de defensa de los derechos inscritos en el registro de la propiedad posee la finca en virtud de prescripción:",
+      "answers": [
+        {
+          "text": "puede oponer esa causa en el juicio declarativo correspondiente, pero no en éste",
+          "correct": false
+        },
+        {
+          "text": "puede oponer esa causa en este proceso, aunque no está prevista en la lec.",
+          "correct": false
+        },
+        {
+          "text": "puede oponer esta causa en este proceso, al estar prevista en la lec",
+          "correct": true
+        },
+        {
+          "text": "debe interponer reconvención para hacer valer esta causa",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: En el juicio sumario registral se admite, entre causas tasadas, la prescripción adquisitiva. IT: Nel sommario registrale è opponibile, tra le cause tipiche, l’usucapione.",
+      "legal_reference": "LH art. 41; LEC art. 444 (causas de oposición tasadas, remisión registral)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "El plazo de espera de 20 días que la lec establece para el despacho de ejecución:",
+      "answers": [
+        {
+          "text": "Es aplicable en toda ejecución.",
+          "correct": false
+        },
+        {
+          "text": "solo es aplicable cuando el título ejecutivo es extrajudicial",
+          "correct": false
+        },
+        {
+          "text": "solo es aplicable cuando el título ejecutivo es una resolución procesal o arbitral o un acuerdo de mediación",
+          "correct": true
+        },
+        {
+          "text": "requiere solicitud de parte ejecutada",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La espera de 20 días rige para títulos judiciales, arbitrales y acuerdos de mediación. IT: L’attesa di 20 giorni vale per titoli giudiziali, arbitrali e accordi di mediazione.",
+      "legal_reference": "LEC art. 548",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "La impugnación de concretos actos ejecutivos:",
+      "answers": [
+        {
+          "text": "procede mediante recurso de revisión",
+          "correct": true
+        },
+        {
+          "text": "procede mediante el recurso de apelación en los casos en que expresamente lo prevea la ley",
+          "correct": false
+        },
+        {
+          "text": "no procede sí no existe resolución expresa frente a lá que recurrir",
+          "correct": false
+        },
+        {
+          "text": "si requiere practica de prueba da lugar al señalamiento de vista.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Los actos del LAJ en ejecución suelen impugnarse por revisión ante el tribunal. IT: Gli atti del cancelliere (LAJ) in esecuzione si impugnano con revisione al giudice.",
+      "legal_reference": "LEC art. 454 bis; arts. 551 y 552",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "En la ejecución:",
+      "answers": [
+        {
+          "text": "no cabe el litisconsorcio activo, pero si el pasivo.",
+          "correct": false
+        },
+        {
+          "text": "cabe tanto el litisconsorcio activo como el pasivo e incluso la personación de terceros aun no ocupando estos lá posición de parte en sentido estricto",
+          "correct": true
+        },
+        {
+          "text": "no cabe el litisconsorcio pasivo pero si el activo",
+          "correct": false
+        },
+        {
+          "text": "las partes no precisan nunca intervenir representadas por procurador y dirigidas por letrado",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: En ejecución pueden intervenir varios ejecutantes/ejecutados y ciertos terceros. IT: In esecuzione sono possibili litisconsorzi attivo/passivo e interventi di terzi.",
+      "legal_reference": "LEC arts. 538-544 (partes en la ejecución e intervención de terceros)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
+    },
+    {
+      "question": "Puede pedir la rescisión de la sentencia firme:",
+      "answers": [
+        {
+          "text": "el demandante que haya permanecido en rebeldía, en caso de imposibilidad objetiva de comparecer",
+          "correct": false
+        },
+        {
+          "text": "el demandando que haya permanecido en rebeldía, si el demandante es condenado por falso testimonio",
+          "correct": false
+        },
+        {
+          "text": "el demandado que haya permanecido en rebeldía por causa de fuerza mayor que le impidió comparecer, aunque haya tenido conocimiento del pleito por haber sido citado o emplazado en forma",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: Procede la audiencia al rebelde cuando la rebeldía fue por fuerza mayor que impidió comparecer. IT: È ammessa la rescissione/riapertura per contumacia dovuta a forza maggiore.",
+      "legal_reference": "LEC arts. 501-506 (audiencia al rebelde / rescisión de sentencias firmes)",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 01 10 25.docx"
     }
   ]
 }
