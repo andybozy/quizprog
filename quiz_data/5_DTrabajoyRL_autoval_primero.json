@@ -363,6 +363,368 @@
       "explanation": "ES: La LRJS atribuye a la jurisdicción social las controversias derivadas de contratos de TRADE frente a su cliente. No es mercantil y no se trata de ‘despido’ laboral. IT: Le controversie del TRADE vanno al giudice del lavoro (social), non al commercio; non è licenziamento ma risoluzione del contratto del TRADE.",
       "legal_reference": "Ley 36/2011, LRJS, art. 2 (competencia: trabajo y TRADE). Ley 20/2007 (TRADE).",
       "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 4 - 5 - Pregunta 1\nLos contratos a tiempo parcial se pueden celebrar",
+      "answers": [
+        { "text": "Por tiempo indefinido o con una duración determinada.- CORRETTA", "correct": true },
+        { "text": "Por tiempo indefinido, exclusivamente", "correct": false },
+        { "text": "Con una duración determinada, exclusivamente", "correct": false },
+        { "text": "Sólo con una duración determinada, y siempre que se alegue la causa", "correct": false }
+      ],
+      "explanation": "ES: El contrato a tiempo parcial puede ser indefinido o de duración determinada; la parcialidad se refiere a la jornada, no a la duración del vínculo. IT: Il part-time riguarda l'orario (inferiore al tempo pieno), non la durata: può essere sia a tempo indeterminato che a termine.",
+      "legal_reference": "ET (RDL 2/2015), art. 12.1; art. 15 (temporalidad).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 4 - 5 - Pregunta 2\nSeñale la correcta para el contrato a tiempo parcial",
+      "answers": [
+        { "text": "el trabajador no puede hacer horas extraordinarias.- CORRETTA", "correct": true },
+        { "text": "es posible en los contratos formativos", "correct": false },
+        { "text": "su conversión en indefinido o viceversa cabe de forma obligatoria en una modificación sustancial de condiciones de trabajo", "correct": false },
+        { "text": "el empresario podra requerir la prestación de horas complementarias con un preaviso de 5 días", "correct": false }
+      ],
+      "explanation": "ES: En el part-time, por regla general no se realizan horas extraordinarias salvo fuerza mayor; lo que cabe son horas complementarias con requisitos (preaviso mínimo 3 días salvo convenio). IT: Nel part-time le ore straordinarie sono vietate (salvo forza maggiore); sono ammesse le ore complementari con preavviso tipico di 3 giorni.",
+      "legal_reference": "ET, art. 12.4.c (prohibición de horas extra salvo fuerza mayor y régimen de horas complementarias); art. 35 (horas extraordinarias).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 4 - 5 - Pregunta 3\nDe las siguientes afirmaciones, señale la única verdadera",
+      "answers": [
+        { "text": "Los contratos de duración determinada sólo pueden celebrarse cuando concurran las causas o motivos que les sirven de fundamento.- CORRETTA", "correct": true },
+        { "text": "En función de su duración, los contratos de trabajo se clasifican en contratos por tiempo indefinido, contratos temporales y contratos basura", "correct": false },
+        { "text": "Los contratos por tiempo indefinido no son incentivados por el Derecho español, al ser poco atractivos en un contexto económico en continua transformación", "correct": false },
+        { "text": "Los contratos de duración determinada no tienen previsto inicialmente el momento o la causa de su extinción", "correct": false }
+      ],
+      "explanation": "ES: La temporalidad exige causa objetiva concreta; el resto de opciones son incorrectas o usan términos no jurídicos. IT: I contratti a termine richiedono causale; le altre affermazioni sono inesatte o non giuridiche.",
+      "legal_reference": "ET, art. 15 (contratos de duración determinada y exigencia causal); RDL 32/2021 (reforma de la temporalidad).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 4 - 5 - Pregunta 4\nLos contratos de duración determinada se presumen celebrados por tiempo indefinido (y jornada completa) cuando",
+      "answers": [
+        { "text": "No se da de alta al trabajador en la seguridad social y ha transcurrido el periodo de prueba o tiempo equivalente.- CORRETTA", "correct": true },
+        { "text": "Se conciertan por escrito", "correct": false },
+        { "text": "Nunca se presumirán celebrados por tiempo indefinido los contratos de duración determinada", "correct": false },
+        { "text": "Siempre se presumirán celebrados por tiempo indefinido los contratos de duración determinada", "correct": false }
+      ],
+      "explanation": "ES: La falta de alta en Seguridad Social transcurrido el periodo de prueba y la ausencia de forma escrita en supuestos exigidos provocan la presunción de contrato indefinido (y a jornada completa en determinados casos). IT: Se manca l’iscrizione alla previdenza o la forma scritta quando richiesta, il rapporto si presume a tempo indeterminato (spesso a tempo pieno).",
+      "legal_reference": "ET, art. 8.2 (forma escrita y presunción de jornada), art. 15.3 (fraude y presunción de indefinición).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 4 - 5 - Pregunta 5\n¿Qué contrato realizaremos si queremos sustituir un trabajador con reserva del puesto, o cubrir un puesto durante un proceso de selección?",
+      "answers": [
+        { "text": "Sustitución.- CORRETTA", "correct": true },
+        { "text": "Interinidad", "correct": false },
+        { "text": "Relevo", "correct": false },
+        { "text": "Selección", "correct": false }
+      ],
+      "explanation": "ES: Tras la reforma de 2021, el contrato adecuado es el de sustitución (incluye cobertura de vacante durante selección, con límites temporales). IT: La modalità corretta è il contratto di sostituzione (anche per coprire la vacanza durante la selezione).",
+      "legal_reference": "ET, art. 15 (contrato de sustitución: supuestos y duración).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 4 - 5 - Pregunta 6\nUn contrato de duración determinada superior a un año, se presume celebrado por tiempo indefinido y a jornada completa cuando",
+      "answers": [
+        { "text": "Todas son correctas.- CORRETTA", "correct": true },
+        { "text": "No se observa la exigencia de la forma escrita", "correct": false },
+        { "text": "No se ha dado de alta al trabajador en la seguridad social", "correct": false },
+        { "text": "Se incumplen las disposiciones sobre denuncia", "correct": false }
+      ],
+      "explanation": "ES: La ausencia de forma escrita cuando es exigible, la falta de alta en Seguridad Social transcurrido el periodo de prueba y la falta de denuncia/prolongación indebida pueden determinar la presunción de indefinición (y, en ciertos casos, de jornada completa). IT: Mancata forma scritta, mancata iscrizione alla previdenza e proroghe/denuncia irregolari portano alla presunzione di rapporto a tempo indeterminato (spesso full-time).",
+      "legal_reference": "ET, art. 8.2 (presunción de jornada completa por falta de forma), art. 15.3 (fraude), art. 49.1.c y 49.2 (denuncia/extinción).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 4 - 5 - Pregunta 7\n¿El contrato temporal por circunstancias de la producción será prorrogable?",
+      "answers": [
+        { "text": "Sí, una sola prórroga, si su duración no había llegado al máximo permitido.- CORRETTA", "correct": true },
+        { "text": "No, en ningún caso", "correct": false },
+        { "text": "Dependiendo de si ha finalizado la circunstancia que lo causa", "correct": false },
+        { "text": "Sí, tantas prórrogas como se quiera, siempre que su duración no haya llegado al máximo permitido", "correct": false }
+      ],
+      "explanation": "ES: El contrato por circunstancias de la producción admite una única prórroga hasta el tope máximo legal o convencional. IT: Il contratto per circostanze della produzione è prorogabile una sola volta entro il limite massimo previsto.",
+      "legal_reference": "ET, art. 15.2 (circunstancias de la producción y prórroga); RDL 32/2021.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 4 - 5 - Pregunta 8\nPara el caso de que un Convenio colectivo no lo recoja, el contrato temporal por circunstancias imprevistas de la producción tendrá una duración máxima de",
+      "answers": [
+        { "text": "6 meses.- CORRETTA", "correct": true },
+        { "text": "12 meses", "correct": false },
+        { "text": "8 meses", "correct": false },
+        { "text": "3 meses", "correct": false }
+      ],
+      "explanation": "ES: A falta de previsión convencional, el límite general es 6 meses en un periodo de referencia de 12. IT: In mancanza di patto collettivo, il tetto standard è 6 mesi su 12.",
+      "legal_reference": "ET, art. 15.2 (duración máxima y reglas supletorias).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 4 - 5 - Pregunta 9\nComo regla general, el Estatuto de los trabajadores contempla el derecho del trabajador eventual a una indemnización por extinción del contrato que consiste en",
+      "answers": [
+        { "text": "12 días de salario por año de servicio.- CORRETTA", "correct": true },
+        { "text": "8 días de salario por año de servicio", "correct": false },
+        { "text": "9 días de salario por año de servicio", "correct": false },
+        { "text": "10 días de salario por año de servicio", "correct": false }
+      ],
+      "explanation": "ES: La indemnización por fin de contrato temporal (no de interinidad/sustitución) es de 12 días de salario por año de servicio. IT: L’indennità per scadenza del termine è pari a 12 giorni/anno (salve eccezioni).",
+      "legal_reference": "ET, art. 49.1.c; DT 13ª ET (escala histórica hasta 12 días).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 4 - 5 - Pregunta 10\nEl contrato de sustitución para un puesto que va a ser cubierto por un proceso de selección tendrá una duración máxima de",
+      "answers": [
+        { "text": "3 meses.- CORRETTA", "correct": true },
+        { "text": "1 mes", "correct": false },
+        { "text": "2 meses", "correct": false },
+        { "text": "6 meses", "correct": false }
+      ],
+      "explanation": "ES: La cobertura de vacante por proceso de selección mediante contrato de sustitución tiene límite máximo de 3 meses, no prorrogable. IT: La sostituzione per vacanza in attesa di selezione non può superare 3 mesi.",
+      "legal_reference": "ET, art. 15 (contrato de sustitución por vacante: duración máxima 3 meses).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+
+    {
+      "question": "TEST 6 - Pregunta 1\n¿Tiene el trabajador que cumplir las órdenes del empresario o puede desobedecer las que no considere adecuadas?",
+      "answers": [
+        { "text": "En principio tiene que cumplirlas y, si no está de acuerdo con la orden, reclamar después. Además puede desobedecer algunas clases de órdenes (ilegales, perjudiciales para su prestigio o competencia profesional) .- CORRETTA", "correct": true },
+        { "text": "Sí, tiene que cumplirlas todas porque el Estatuto de los Trabajadores establece el poder de dirección del empresario", "correct": false },
+        { "text": "Sí, siempre que se le hagan con educación tiene que cumplirlas, porque si no las cumple el empresario puede despedir al trabajador por desobediencia", "correct": false },
+        { "text": "El trabajador, como persona, tiene libertad y autonomía para decidir qué ordenes cumple y cuáles no, conforme al derecho de la objeción de conciencia", "correct": false }
+      ],
+      "explanation": "ES: Rige la regla ‘obedece y reclama’ salvo órdenes ilícitas, abusivas o que lesionen gravemente la dignidad/profesionalidad (ius resistentiae). IT: In via generale si obbedisce e si impugna; si può rifiutare ordini illegali o lesivi della dignità/competenza.",
+      "legal_reference": "ET, art. 5 (deberes), art. 20 (poder de dirección) y art. 54.2.b (indisciplina/desobediencia); doctrina del ius resistentiae (STS).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 6 - Pregunta 2\nEntre los deberes laborales básicos que recoge el Estatuto de los Trabajadores se encuentran",
+      "answers": [
+        { "text": "Observar las medidas de seguridad e higiene que se adopten y contribuir a la mejora de la productividad.- CORRETTA", "correct": true },
+        { "text": "Cotizar a la Seguridad Social y no concurrir con la actividad de la empresa", "correct": false },
+        { "text": "No discriminar por razón de sexo a los compañeros", "correct": false },
+        { "text": "Todas las respuestas son correctas", "correct": false }
+      ],
+      "explanation": "ES: Son deberes básicos observar las medidas de seguridad y el cumplimiento diligente, con contribución a la productividad. IT: Tra i doveri fondamentali: osservare le misure di sicurezza e contribuire alla produttività.",
+      "legal_reference": "ET, art. 5 (deberes básicos); art. 19 (seguridad y salud).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 6 - Pregunta 3\nLas Empresas de Trabajo temporal:",
+      "answers": [
+        { "text": "Como su propio nombre indica, realizan cesiones temporales de trabajadores. .- CORRETTA", "correct": true },
+        { "text": "Como su propio nombre indica, sólo pueden hacer contratos temporales a los trabajadores.", "correct": false },
+        { "text": "Pueden tener trabajadores con contrato indefinido, pero para sus oficinas, no para cederlos a otras empresas", "correct": false },
+        { "text": "Todas son correctas", "correct": false }
+      ],
+      "explanation": "ES: La ETT cede trabajadores a empresas usuarias mediante contrato de puesta a disposición; la relación del trabajador con la ETT puede ser indefinida. IT: Le agenzie interinali effettuano somministrazione temporanea; i lavoratori possono essere assunti anche a tempo indeterminato dall’ETT.",
+      "legal_reference": "Ley 14/1994, de Empresas de Trabajo Temporal, arts. 1 y 6; ET, art. 43 (cesión).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 6 - Pregunta 4\n¿Puede el empresario adoptar cualquier medida para verificar el cumplimiento por el trabajador de sus obligaciones y deberes laborales?",
+      "answers": [
+        { "text": "Siempre que el empresario guarde la consideración debida a la dignidad humana del trabajador y se considere, en su caso, la capacidad real del trabajador discapacitado.- CORRETTA", "correct": true },
+        { "text": "Si, siempre", "correct": false },
+        { "text": "No, dado que ello atentaría contra los derechos fundamentales del trabajador", "correct": false },
+        { "text": "Si, cuando ello sea necesario para la protección del patrimonio de la empresa", "correct": false }
+      ],
+      "explanation": "ES: El poder de control exige respeto a la dignidad, proporcionalidad e información previa cuando proceda. IT: Il controllo è legittimo se proporzionato e rispettoso della dignità e dei diritti fondamentali.",
+      "legal_reference": "ET, art. 20.3 (medidas de vigilancia y control); LO 3/2018 (datos y derechos digitales); doctrina TC sobre proporcionalidad.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 6 - Pregunta 5\nEl establecimiento de un sistema de organizaciones, división del trabajo y ordenación material del mismo se denomina",
+      "answers": [
+        { "text": "Poder de dirección.- CORRETTA", "correct": true },
+        { "text": "Poder disciplinario", "correct": false },
+        { "text": "Poder de control", "correct": false },
+        { "text": "Ninguna de las respuestas anteriores es correcta", "correct": false }
+      ],
+      "explanation": "ES: La organización del trabajo y su ordenación se incardinan en el poder de dirección. IT: L’assetto organizzativo rientra nel potere direttivo.",
+      "legal_reference": "ET, art. 20.1-2.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 6 - Pregunta 6\n¿Puede el trabajador, conforme con el deber de buena fe, prestar sus servicios profesionales para varios empresarios de forma alternativa?",
+      "answers": [
+        { "text": "Sí, pero no puede realizar tareas de la misma o de similar naturaleza con respecto a las que está realizando en la empresa de referencia, de acuerdo con su contrato de trabajo, si se estima competencia desleal.- CORRETTA", "correct": true },
+        { "text": "Si, en todo caso", "correct": false },
+        { "text": "No, nuestro ordenamiento jurídico prohíbe el pluriempleo", "correct": false },
+        { "text": "Nunca, salvo comunicación previa a los representantes sindicales", "correct": false }
+      ],
+      "explanation": "ES: El pluriempleo es posible salvo concurrencia desleal o pacto de no competencia y límites de jornada/descanso. IT: È ammesso il pluri-impiego salvo concorrenza sleale, patti di non concorrenza e limiti di orario/riposi.",
+      "legal_reference": "ET, art. 5.a (buena fe), art. 21 (no competencia), arts. 34-37 (jornada y descansos).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 6 - Pregunta 7\n¿cuándo está legitimado el trabajador a desobedecer las órdenes dadas por el empresario?",
+      "answers": [
+        { "text": "Cuando la orden sea contraria a las normas laborales, constituya ilícito penal o sea notoriamente infundadas de manera que lleve aparejado descrédito profesional.- CORRETTA", "correct": true },
+        { "text": "Nunca, el trabajador siempre está obligado a cumplir las órdenes impartidas por el empresario y después, si ha lugar, reclamar", "correct": false },
+        { "text": "Cuando la orden sea contraria a las normas laborales o sea ilícita penalmente", "correct": false },
+        { "text": "todas son falsas", "correct": false }
+      ],
+      "explanation": "ES: Cabe ius resistentiae frente a órdenes ilegales, notoriamente infundadas o que lesionen gravemente la dignidad profesional. IT: È legittimo il rifiuto di ordini illeciti o manifestamente infondati che ledano la professionalità.",
+      "legal_reference": "ET, art. 20 (dirección) y 54.2.b (desobediencia); jurisprudencia del TS sobre ius resistentiae.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 6 - Pregunta 8\nEl contrato de Puesta a disposición",
+      "answers": [
+        { "text": "Se firma entre la Empresa de Trabajo Temporal y la Empresa usuaria.- CORRETTA", "correct": true },
+        { "text": "Se firma entre el trabajador y la empresa usuaria", "correct": false },
+        { "text": "Se firma entre el trabajador y la Empresa de Trabajo Temporal.", "correct": false },
+        { "text": "Se firma entre el trabajador, la Empresa de Trabajo Temporal y la Empresa usuaria", "correct": false }
+      ],
+      "explanation": "ES: El contrato de puesta a disposición vincula ETT y empresa usuaria; el trabajador tiene contrato laboral con la ETT. IT: Il contratto di somministrazione è tra agenzia e impresa; il lavoratore è assunto dall’agenzia.",
+      "legal_reference": "Ley 14/1994, art. 6; ET, art. 43.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 6 - Pregunta 9\nCuáles son las consecuencias del incumplimiento por el trabajador del deber de diligencia, si hay una disminución voluntaria del rendimiento?",
+      "answers": [
+        { "text": "El incumplimiento de este deber dará derecho al empresario a reducir correlativamente el salario debido, pudiendo constituir un incumplimiento sancionable incluso con el despido.- CORRETTA", "correct": true },
+        { "text": "El empresario sólo podrá imponer al trabajador una sanción", "correct": false },
+        { "text": "El empresario podrá decretar el despido del trabajador", "correct": false },
+        { "text": "El empresario cambiará de puesto al trabajador y podrá pedirle una indemnización por daños y perjuicios", "correct": false }
+      ],
+      "explanation": "ES: La disminución voluntaria y continuada del rendimiento es falta sancionable que puede justificar despido disciplinario; además, en sistemas retributivos por rendimiento puede reducirse la retribución conforme a lo pactado. IT: La riduzione volontaria del rendimento è sanzionabile fino al licenziamento; ove la paga dipenda dalla produttività, si riduce proporzionalmente secondo il sistema pattuito.",
+      "legal_reference": "ET, art. 54.2.e (disminución continuada y voluntaria), art. 58 (régimen disciplinario); art. 26 (estructura salarial).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 6 - Pregunta 10\nEn la empresa Razonadas Sinrazones, S.A. se va a implantar un sistema de tornos para saber con exactitud la hora a la que los trabajadores entran y salen de la empresa, así como el tiempo en el que abandonan su puesto de trabajo para tomarse un descanso. Los trabajadores le preguntan si esto es posible y les responde que sí, siempre que la medida sea idónea, necesaria y proporcional. En concreto, les explica el significado de la idoneidad, que es",
+      "answers": [
+        { "text": "Que la medida sea susceptible de conseguir el objetivo perseguido.- CORRETTA", "correct": true },
+        { "text": "Que no existe una medida más moderada para conseguir el objetivo", "correct": false },
+        { "text": "Que la medida no sea ilegal", "correct": false },
+        { "text": "Que de la medida se deriven más beneficios para el interés general que perjuicios sobre otros bienes o valores en conflicto", "correct": false }
+      ],
+      "explanation": "ES: La ‘idoneidad’ es el primer juicio del test de proporcionalidad: aptitud de la medida para lograr el fin. ‘Necesidad’ es la inexistencia de alternativa menos gravosa y la ‘proporcionalidad en sentido estricto’ el balance final. IT: L’idoneità valuta se la misura è atta a raggiungere lo scopo; la necessità richiede l’assenza di alternative meno invasive; il bilanciamento finale è la proporzionalità in senso stretto.",
+      "legal_reference": "ET, art. 20.3; doctrina TC sobre test de proporcionalidad (p. ej., STC 186/2000; 292/2000).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+
+    {
+      "question": "TEST 7 - Pregunta 1\nEntre el final de una jornada y el comienzo de la siguiente mediarán, como mínimo...",
+      "answers": [
+        { "text": "12 HORAS.- CORRETTA", "correct": true },
+        { "text": "10 HORAS", "correct": false },
+        { "text": "8 HORAS", "correct": false },
+        { "text": "14 HORAS", "correct": false }
+      ],
+      "explanation": "ES: Descanso mínimo diario de 12 horas entre jornadas. IT: Riposo minimo giornaliero di 12 ore tra due giornate di lavoro.",
+      "legal_reference": "ET, art. 34.3; Dir. 2003/88/CE (tiempos de trabajo).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 7 - Pregunta 2\nSeñala la respuesta incorrecta sobre la jornada de trabajo",
+      "answers": [
+        { "text": "El descanso semanal mínimo es, para todos los trabajadores, de dos días, ininterrumpidos.- CORRETTA", "correct": true },
+        { "text": "Para que la jornada se considere partida, debe existir una interrupción mínima de una hora para la comida", "correct": false },
+        { "text": "Entre el final de una jornada y el comienzo de la siguiente, debe existir como mínimo 12 horas de descanso", "correct": false },
+        { "text": "El horario nocturno comprende desde las 22 a las 6 horas", "correct": false }
+      ],
+      "explanation": "ES: En general el descanso semanal es de día y medio ininterrumpido, no dos días (salvo menores: 2 días). IT: Il riposo settimanale ordinario è di un giorno e mezzo, non di due (che valgono per i minori).",
+      "legal_reference": "ET, art. 37.1 (descanso semanal); art. 34.3 (descanso diario); art. 36 (trabajo nocturno).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 7 - Pregunta 3\nUna de las siguientes afirmaciones sobre el descanso semanal es falsa",
+      "answers": [
+        { "text": "Para los menores será como mínimo de dos días y medio ininterrumpido.- CORRETTA", "correct": true },
+        { "text": "Tendrá una duración mínima de día y medio ininterrumpid", "correct": false },
+        { "text": "Es irrenunciable y retribuido", "correct": false },
+        { "text": "Es acumulable por períodos de hasta 14 días", "correct": false }
+      ],
+      "explanation": "ES: Para los menores el descanso semanal mínimo es de 2 días, no 2,5 días. Las otras afirmaciones reflejan reglas generales. IT: Per i minori il riposo settimanale è almeno di 2 giorni, non 2,5; le altre proposizioni sono corrette.",
+      "legal_reference": "ET, art. 37.1 (descanso semanal; menores).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 7 - Pregunta 4\nLa duración del descanso semanal de los menores de dieciocho años será, como mínimo, de",
+      "answers": [
+        { "text": "2 días ininterrumpidos.- CORRETTA", "correct": true },
+        { "text": "día y medio ininterrumpido", "correct": false },
+        { "text": "3 días ininterrumpidos", "correct": false },
+        { "text": "1 día", "correct": false }
+      ],
+      "explanation": "ES: Regla específica para menores: 2 días ininterrumpidos. IT: Regola speciale per i minori: 2 giorni consecutivi.",
+      "legal_reference": "ET, art. 37.1 (menores).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 7 - Pregunta 5\nCon carácter general, ¿Es tiempo de trabajo efectivo el que emplea el trabajador en vestirse dentro del centro de trabajo?",
+      "answers": [
+        { "text": "No, por cuanto no se encuentra aún en su puesto de trabajo.- CORRETTA", "correct": true },
+        { "text": "Siempre, por estar ya a disposición del empresario", "correct": false },
+        { "text": "Solamente si se pacta por convenio colectivo su compensación por tiempos equivalentes de descanso", "correct": false },
+        { "text": "Solamente si se pacta por convenio colectivo o en contrato su compensación por tiempos equivalentes de descanso", "correct": false }
+      ],
+      "explanation": "ES: Con carácter general no computa como tiempo efectivo salvo que el cambio sea obligatorio, deba hacerse en el centro y derive de exigencias de seguridad/imagen, en cuyo caso la jurisprudencia lo ha considerado tiempo efectivo. IT: In via generale no; se obbligatorio e da svolgere in sede (per sicurezza/immagine), la giurisprudenza lo considera tempo di lavoro.",
+      "legal_reference": "ET, art. 34 (jornada); doctrina TS sobre tiempo de ‘cambio de ropa’ (p. ej., SSTS Sala Social).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 7 - Pregunta 6\nEl salario admite varias modalidades",
+      "answers": [
+        { "text": "Sí, en dinero o en especie.- CORRETTA", "correct": true },
+        { "text": "No, solo en dinero", "correct": false },
+        { "text": "Sí, en moneda de curso legal o en talón bancario", "correct": false },
+        { "text": "Si, dinerario o emocional", "correct": false }
+      ],
+      "explanation": "ES: El salario puede satisfacerse en dinero y en especie (con límites). IT: La retribuzione può essere in denaro e in natura (entro limiti).",
+      "legal_reference": "ET, art. 26.1 y 26.3 (salario en especie ≤ 30%).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 7 - Pregunta 7\nLa propina es salario",
+      "answers": [
+        { "text": "No, por su escasa cuantía.- CORRETTA", "correct": true },
+        { "text": "No, por su escasa cuantía", "correct": false },
+        { "text": "Sólo si así se prevé en el contrato del trabajador", "correct": false },
+        { "text": "Solamente cuando se abona en el sector de hostelería y casinos", "correct": false }
+      ],
+      "explanation": "ES: El enunciado da como válida la no consideración de salario; jurídicamente, la clave no es la ‘escasa cuantía’, sino que la propina es una liberalidad del cliente y solo puede adquirir naturaleza salarial si se integra en la estructura retributiva (p. ej., si la empresa la recauda y distribuye). IT: Il test considera che la mancia non sia salario; in diritto il criterio non è l’esiguità, ma l’origine liberale e la (eventuale) integrazione stabile nella retribuzione.",
+      "legal_reference": "ET, art. 26.1-2 (concepto de salario y percepciones extrasalariales); jurisprudencia social del TS sobre propinas.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 7 - Pregunta 8\nUn trabajador aporta a su trabajo sus propias herramientas. La Empresa, por su parte, le abona en nómina una cantidad todos los meses en concepto de “desgaste de herramientas”. Tal pago será",
+      "answers": [
+        { "text": "Una prestación extrasalarial.- CORRETTA", "correct": true },
+        { "text": "Parte del Salario Base", "correct": false },
+        { "text": "Salario en especie", "correct": false },
+        { "text": "Un complemento salarial", "correct": false }
+      ],
+      "explanation": "ES: Es una indemnización de gastos (compensación de gastos por medios propios), por tanto percepción extrasalarial. IT: È rimborso/indennità per spese/consumo di strumenti propri, quindi voce extra-salariale.",
+      "legal_reference": "ET, art. 26.2 (percepciones extrasalariales: indemnizaciones y suplidos).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 7 - Pregunta 9\nLas pagas extraordinarias serán",
+      "answers": [
+        { "text": "Como mínimo dos y una de ellas debe abonarse en Navidad.- CORRETTA", "correct": true },
+        { "text": "Como máximo tres: una en verano, otra en Navidad y la tercera prorrateada a lo largo del año", "correct": false },
+        { "text": "Como mínimo dos: una en verano y otra en Navidad", "correct": false },
+        { "text": "Como máximo cuatro: cada una en un trimestre", "correct": false }
+      ],
+      "explanation": "ES: El ET garantiza al menos dos pagas extraordinarias anuales, una de ellas en Navidad (la otra por convenio o pacto). IT: Minimo due mensilità extra l’anno, una a Natale; l’altra secondo CCNL o accordo.",
+      "legal_reference": "ET, art. 31.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 7 - Pregunta 10\nJuan ha tenido que realizar un trabajo entre las tres y las cinco de la mañana. Le pregunta si ese trabajo, según el artículo 36 del Estatuto de los Trabajadores, es trabajo nocturno. ¿Qué le deberá contestar?",
+      "answers": [
+        { "text": "Si, porque es trabajo nocturno el que se presta entre las diez de la noche y las seis de la mañana.- CORRETTA", "correct": true },
+        { "text": "Sí, ya que es trabajo nocturno el que se presta después de ponerse el sol, y hasta que amanece. Por eso, en verano la jornada es mayor para los trabajadores de este turno, que se recuperan en invierno, con menos horas de sol y, por tanto, una jornada menor", "correct": false },
+        { "text": "No, porque aunque el trabajo se ha realizado de noche, a efectos del artículo 36 del Estatuto de los Trabajadores será trabajo nocturno el que se presta entre las diez de la noche y las seis de la mañana, pero sólo si se realiza al menos durante tres horas o al menos durante la tercera parte de su jornada laboral", "correct": false },
+        { "text": "Sí, porque es trabajo nocturno el que se presta entre las doce de la noche y las ocho de la mañana", "correct": false }
+      ],
+      "explanation": "ES: El trabajo nocturno se define legalmente como el realizado entre las 22:00 y las 06:00. IT: Il lavoro notturno è quello svolto tra le 22:00 e le 06:00.",
+      "legal_reference": "ET, art. 36.1.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
     }
   ]
 }

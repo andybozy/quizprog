@@ -1435,6 +1435,320 @@
       "explanation": "ES: Idoneidad = aptitud del medio para conseguir el fin; parte del test de proporcionalidad. IT: Idoneità = attitudine del mezzo al fine; parte del test di proporzionalità.",
       "legal_reference": "ET art. 20.3; STC 14/2003 y 39/2016 (proporcionalidad)",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Una Empresa pretende enviar a uno de sus trabajadores, que trabaja en su Centro de Trabajo de Murcia, por razones organizativas y por un periodo de seis meses, a otro centro de trabajo, situado en Santander. ¿Ante qué tipo de movilidad laboral nos encontramos?",
+      "answers": [
+        { "text": "Desplazamiento", "correct": true },
+        { "text": "Traslado", "correct": false },
+        { "text": "Modificación sustancial de condiciones de trabajo", "correct": false },
+        { "text": "No supone ningún tipo de movilidad, ni geográfica ni funcional, pues no tiene carácter permanente", "correct": false }
+      ],
+      "explanation": "ES: Un cambio temporal de hasta 12 meses en 3 años es «desplazamiento». IT: Spostamento temporaneo ≤12 mesi in 3 anni è «desplazamiento», non trasferimento.",
+      "legal_reference": "ET art. 40.6 (desplazamientos) y 40.1 (traslados: >12 meses en 3 años).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "La movilidad geográfica del trabajador a un centro de trabajo distinto de la misma empresa que exija cambio de residencia durante más de 12 meses (en un período de 3 años) constituye",
+      "answers": [
+        { "text": "Traslado", "correct": true },
+        { "text": "Modificación sustancial de condiciones de trabajo", "correct": false },
+        { "text": "Desplazamiento", "correct": false },
+        { "text": "Movilidad geográfica funcional", "correct": false }
+      ],
+      "explanation": "ES: Si supera 12 meses dentro de 3 años es «traslado». IT: Oltre 12 mesi in 3 anni si tratta di «traslado».",
+      "legal_reference": "ET art. 40.1 (traslado) y 40.6 (desplazamiento).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Tendrán la consideración de modificaciones sustanciales de las condiciones de trabajo las que afecten a",
+      "answers": [
+        { "text": "Horario", "correct": false },
+        { "text": "Sistema de remuneración", "correct": false },
+        { "text": "Sistema de trabajo a turnos", "correct": false },
+        { "text": "Todas las respuestas son correctas", "correct": true }
+      ],
+      "explanation": "ES: Las tres materias son típicas de modificación sustancial. IT: Orario, retribuzione e turni rientrano nelle modifiche sostanziali.",
+      "legal_reference": "ET art. 41.1 (relación de materias).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "El ejercicio de huelga legal por parte de los trabajadores, supone",
+      "answers": [
+        { "text": "La suspensión del contrato de trabajo mientras dure el ejercicio del derecho de huelga, no se trabaja y no se cobra esos días de huelga", "correct": true },
+        { "text": "La suspensión de empleo del trabajador huelguista, aunque no pierde su derecho al salario pactado legalmente", "correct": false },
+        { "text": "La extinción de los contratos de trabajo de los huelguistas durante el período que dure la huelga", "correct": false },
+        { "text": "Ninguna es correcta", "correct": false }
+      ],
+      "explanation": "ES: La huelga legal suspende el contrato y no devenga salario. IT: Lo sciopero legale sospende il contratto e non dà diritto alla retribuzione.",
+      "legal_reference": "ET art. 45.1 (causas de suspensión); CE art. 28.2; RD-ley 17/1977.",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "La Excedencia voluntaria",
+      "answers": [
+        { "text": "Una vez finalizada, no produce derecho alguno a la reincorporación inmediata", "correct": true },
+        { "text": "No puede ser por tiempo inferior a un año", "correct": false },
+        { "text": "Sólo se puede solicitar si se tienen más de dos años de antigüedad en la empresa", "correct": false },
+        { "text": "Una vez incorporado el trabajador, podrá volver a solicitar tantas nuevas excedencias voluntarias como quiera, en cualquier momento, siempre que no perjudique el normal funcionamiento de la Empresa", "correct": false }
+      ],
+      "explanation": "ES: No hay reserva de puesto; existe derecho preferente a reingreso en vacante. IT: Nessuna riserva del posto; c’è solo diritto di preferenza su vacanze.",
+      "legal_reference": "ET art. 46.2 (excedencia voluntaria: duración y efectos).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Los trabajadores tendrán derecho a un período de excedencia para atender al cuidado de cada hijo... Este periodo tendrá una duración",
+      "answers": [
+        { "text": "No superior a tres años", "correct": true },
+        { "text": "No inferior a tres años", "correct": false },
+        { "text": "No superior a dos años", "correct": false },
+        { "text": "No inferior a dos años", "correct": false }
+      ],
+      "explanation": "ES: La excedencia por cuidado de hijo dura como máximo 3 años. IT: L’eccedenza per cura dei figli è massima di 3 anni.",
+      "legal_reference": "ET art. 46.3 (cuidado de hijos).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "El derecho a solicitar la excedencia voluntaria sólo puede ser ejercitado otra vez por el mismo trabajador",
+      "answers": [
+        { "text": "Si han transcurrido cuatro años desde el final de la anterior excedencia", "correct": true },
+        { "text": "Si han transcurrido dos años desde el final de la anterior excedencia", "correct": false },
+        { "text": "Si han transcurrido tres años desde el final de la anterior excedencia", "correct": false },
+        { "text": "Si ha transcurrido un año desde el final de la anterior excedencia", "correct": false }
+      ],
+      "explanation": "ES: El ET exige 4 años entre excedencias voluntarias. IT: L’ET richiede 4 anni tra un’eccedenza volontaria e la successiva.",
+      "legal_reference": "ET art. 46.2 (intervalo de 4 años).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "La lactancia (natural o artificial) da derecho a una hora de interrupción de trabajo, divisible en dos fracciones y sustituible por la reducción de jornada en media hora o acumulable en jornadas completas, siempre que el hijo sea menor de",
+      "answers": [
+        { "text": "Nueve meses", "correct": true },
+        { "text": "Un año", "correct": false },
+        { "text": "Tres meses", "correct": false },
+        { "text": "Seis meses", "correct": false }
+      ],
+      "explanation": "ES: Derecho de lactancia hasta 9 meses (o más si convenio). IT: Diritto all’allattamento fino a 9 mesi (salve previsioni collettive).",
+      "legal_reference": "ET art. 37.4 (derecho de lactancia).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "No puede ser causa de suspensión del contrato de trabajo:",
+      "answers": [
+        { "text": "La Imposición, en sentencia firme, de una pena de privación de libertad al trabajador", "correct": true },
+        { "text": "La Huelga", "correct": false },
+        { "text": "La incapacidad temporal del trabajador", "correct": false },
+        { "text": "La existencia de causas técnicas, organizativas, económicas o de producción", "correct": false }
+      ],
+      "explanation": "ES: El enunciado marca como correcta la privación de libertad, pero legalmente SÍ es causa de suspensión (también huelga y causas del art. 47). IT: L’enunciato indica la risposta A, ma giuridicamente la privazione della libertà È causa di sospensione (così come sciopero e cause tecniche/organizzative).",
+      "legal_reference": "ET art. 45.1.g (privación de libertad), 45.1 (huelga) y ET art. 47 (causas ETOP).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "La excedencia voluntaria no se podrá solicitar por tiempo inferior a:",
+      "answers": [
+        { "text": "Cuatro meses", "correct": true },
+        { "text": "Cinco meses", "correct": false },
+        { "text": "Un año", "correct": false },
+        { "text": "Seis meses", "correct": false }
+      ],
+      "explanation": "ES: Duración mínima 4 meses y máxima 5 años. IT: Durata minima 4 mesi e massima 5 anni.",
+      "legal_reference": "ET art. 46.2 (duración).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+
+    {
+      "question": "Para que la carta de despido sea válida es preciso:",
+      "answers": [
+        { "text": "Que en ella se mencionan los hechos que motivan el despido y la fecha en la que surtirá efectos", "correct": true },
+        { "text": "Que contenga información fidedigna", "correct": false },
+        { "text": "Que sea entregada al trabajador al menos con 48 horas de anticipación respecto del momento en el que el despido surtirá efectos", "correct": false },
+        { "text": "Que previamente se haya dado al trabajador la oportunidad de defenderse de la falta que se le imputa", "correct": false }
+      ],
+      "explanation": "ES: Debe indicarse hechos y fecha de efectos (y forma escrita). IT: Lettera deve contenere fatti e data di effetti (e forma scritta).",
+      "legal_reference": "ET art. 55.1 (disciplinario) y 53.1 (objetivo: carta con causa y fecha).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "La declaración judicial de improcedencia del despido tiene los siguientes efectos:",
+      "answers": [
+        { "text": "La opción empresarial entre readmitir o indemnizar al trabajador", "correct": true },
+        { "text": "La condena al empresario a readmitir al trabajador", "correct": false },
+        { "text": "La condena al empresario a indemnizar al trabajador", "correct": false },
+        { "text": "La opción del trabajador entre su readmisión y el pago de una indemnización", "correct": false }
+      ],
+      "explanation": "ES: En improcedencia elige el empresario (salvo representantes). IT: In caso di improcedenza sceglie il datore (salvo rappresentanti).",
+      "legal_reference": "ET art. 56.1–56.4 (opción readmisión/indemnización).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Indique cuál de las siguientes no es causa de extinción del contrato de trabajo:",
+      "answers": [
+        { "text": "El caso fortuito y la fuerza mayor que impidan la continuación de las actividades de la empresa", "correct": false },
+        { "text": "El abandono por el trabajador del puesto de trabajo", "correct": false },
+        { "text": "La terminación del plazo previsto inicialmente para su vigencia", "correct": false },
+        { "text": "Todas las causas mencionadas son causas de extinción del contrato", "correct": true }
+      ],
+      "explanation": "ES: Las tres (A–C) son causas extintivas (fuerza mayor/ERE, dimisión, fin de contrato temporal); por eso D es la adecuada. IT: A–C sono cause di estinzione; quindi D («tutte lo sono») risulta corretta.",
+      "legal_reference": "ET art. 49.1.c–d (fin de plazo y dimisión); ET art. 51.7 (fuerza mayor).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "El despido disciplinario es considerado nulo:",
+      "answers": [
+        { "text": "Cuando tiene un móvil discriminatorio o se produce con violación de derechos fundamentales del trabajador", "correct": true },
+        { "text": "Cuando no ha sido notificado por escrito al trabajador", "correct": false },
+        { "text": "Cuando no se hacen constar los hechos que lo motivan y la fecha en que tendrá efectos", "correct": false },
+        { "text": "Cuando, afectando a un representante de los trabajadores, no ha sido notificado por escrito", "correct": false }
+      ],
+      "explanation": "ES: Móvil discriminatorio/lesión de derechos fundamentales determina nulidad. IT: Motivo discriminatorio o violazione di diritti fondamentali comporta nullità.",
+      "legal_reference": "ET art. 55.5; CE art. 14 y 24; LRJS arts. 177–184.",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "No es causa de despido disciplinario:",
+      "answers": [
+        { "text": "La embriaguez habitual o toxicomanía, siempre que no afecte al rendimiento", "correct": true },
+        { "text": "Las ofensas verbales o físicas a un familiar de una persona que trabaja en la empresa y que convive con él", "correct": false },
+        { "text": "La disminución continuada y voluntaria del rendimiento normal o pactado de trabajo", "correct": false },
+        { "text": "La indisciplina o desobediencia grave", "correct": false }
+      ],
+      "explanation": "ES: Embriaguez/toxicom. sólo si repercute negativamente puede ser causa; si no afecta, no lo es. IT: Ubriachezza/tossicodipendenza sono rilevanti solo se incidono negativamente.",
+      "legal_reference": "ET art. 54.2 f) (embriaguez o toxicomanía con repercusión).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "No será aceptada como causa de despido objetivo:",
+      "answers": [
+        { "text": "La ineptitud del trabajador, si ya se conocía por el empresario con anterioridad a su entrada en la empresa", "correct": true },
+        { "text": "La ineptitud del trabajador es conocida con posterioridad al ingreso del mismo en la empresa", "correct": false },
+        { "text": "La falta de adaptación del trabajador a las modificaciones técnicas", "correct": false },
+        { "text": "La necesidad de amortizar o suprimir un puesto de trabajo, por razones técnicas, económicas, organizativas o de producción", "correct": false }
+      ],
+      "explanation": "ES: La ineptitud conocida antes de la contratación no legitima despido objetivo. IT: L’inidoneità preesistente e nota al datore non giustifica il licenziamento oggettivo.",
+      "legal_reference": "ET art. 52 a) (ineptitud sobrevenida).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Los salarios de tramitación son:",
+      "answers": [
+        { "text": "Los salarios dejados de percibir desde la fecha del despido", "correct": true },
+        { "text": "Los salarios que se tienen en cuenta a efectos del cálculo de la indemnización por despido", "correct": false },
+        { "text": "Han sido suprimidos con objeto de reducir el coste del despido y facilitar la gestión empresarial", "correct": false },
+        { "text": "El módulo para el cálculo de las prestaciones por desempleo", "correct": false }
+      ],
+      "explanation": "ES: Son los salarios dejados de percibir hasta la readmisión (hoy sólo si hay readmisión). IT: Retribuzioni non percepite fino alla reintegrazione (oggi solo con reintegra).",
+      "legal_reference": "ET art. 56.2 (salarios de tramitación en caso de readmisión).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Se entenderá por despido colectivo la extinción del contrato de trabajo fundada en causas económicas, organizativas o de producción cuando, en un periodo de 90 días, la extinción afecte, al menos, a:",
+      "answers": [
+        { "text": "La totalidad de la plantilla de la empresa, siempre que el número de trabajadores afectados sea superior a 5, y hay cesación total de la actividad empresarial", "correct": true },
+        { "text": "20 trabajadores en las empresas que ocupen 200 o más", "correct": false },
+        { "text": "Diez trabajadores en las empresas que ocupen más de 100", "correct": false },
+        { "text": "El 15% del número de trabajadores de las empresas en aquellas que ocupen entre 100 y 300 trabajadores", "correct": false }
+      ],
+      "explanation": "ES: Entre los umbrales, también existe el supuesto de cese total con >5 personas. IT: Tra le soglie rientra pure la cessazione totale con oltre 5 lavoratori.",
+      "legal_reference": "ET art. 51.1 (umbrales y cese total >5).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "El trabajador tiene derecho a los salarios de tramitación:",
+      "answers": [
+        { "text": "Cuando el empresario opta por la readmisión", "correct": true },
+        { "text": "Nunca", "correct": false },
+        { "text": "Cuando quien efectúa la opción por la readmisión o la indemnización es el trabajador", "correct": false },
+        { "text": "Cuando el empresario opta por la indemnización", "correct": false }
+      ],
+      "explanation": "ES: Tras la reforma, sólo cuando hay readmisión (opte quien opte en casos tasados). IT: Oggi spettano solo in caso di reintegrazione.",
+      "legal_reference": "ET art. 56.2 y 56.4.",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "El despido de una mujer embarazada:",
+      "answers": [
+        { "text": "Podrá ser calificado como procedente", "correct": true },
+        { "text": "Será siempre un despido discriminatorio", "correct": false },
+        { "text": "Será siempre calificado como nulo", "correct": false },
+        { "text": "Podrá ser calificado como improcedente, en algunos casos", "correct": false }
+      ],
+      "explanation": "ES: No es automáticamente nulo; puede ser procedente si se acreditan causas ajenas al embarazo. IT: Non è sempre nullo; può essere legittimo con ragioni estranee alla gravidanza.",
+      "legal_reference": "ET art. 55.5 b) y LO 3/2007 art. 8 (protección frente a discriminación).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+
+    {
+      "question": "Julia ha sido seleccionada por la empresa Los Rápidos de Reparto a Domicilio. No sabe muy bien qué contrato le harán, ya que comentan que su relación laboral no es por cuenta ajena. Le realiza la consulta a usted, que le plantea que existen determinados indicios de ajenidad. En concreto, el requisito de la ajenidad implica:",
+      "answers": [
+        { "text": "Que Julia realiza la actividad laboral dentro del ámbito de dirección de otra persona llamada emprendedor o empresario", "correct": false },
+        { "text": "Que los bienes y servicios producidos no le reportan un beneficio económico directo y el empresario además asume los riesgos inherentes a la actividad productiva", "correct": true },
+        { "text": "Que el trabajo ha de ser prestado de forma libre y voluntaria fruto de un acuerdo entre quien cede su actividad y quien la recibe", "correct": false },
+        { "text": "Todas son ciertas", "correct": false }
+      ],
+      "explanation": "ES: Ajenidad = frutos y riesgos para el empresario. IT: Alienità = frutti e rischi in capo all’imprenditore.",
+      "legal_reference": "ET art. 1.1; doctrina TS sobre ajenidad en frutos y riesgos.",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "El que los útiles, material y medios del trabajo sean aportados por el empresario, que éste asuma los gastos originados por el trabajo o que la retribución del trabajador se fije y sea periódica y no dependa de los beneficios de la empresa son indicios de la nota de:",
+      "answers": [
+        { "text": "Dependencia", "correct": false },
+        { "text": "Ajenidad", "correct": true },
+        { "text": "Voluntariedad", "correct": false },
+        { "text": "Retribución", "correct": false }
+      ],
+      "explanation": "ES: Son indicadores clásicos de ajenidad. IT: Indici tipici dell’alienità.",
+      "legal_reference": "ET art. 1.1; criterios jurisprudenciales de laboralidad (TS).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Carmelo contrata con una empresa la prestación de su trabajo en las siguientes condiciones: tendrá dos días y medio libres a la semana. Pocos meses después el empresario le llama para comentarle que no puede mantener ese pacto, que necesita que vuelva a hacer solo día y medio. Carmelo le pregunta si puede renunciar a los derechos reconocidos en su contrato de trabajo. ¿Cuál sería su respuesta?",
+      "answers": [
+        { "text": "Sí", "correct": false },
+        { "text": "Solo si así lo establece el convenio colectivo", "correct": false },
+        { "text": "No, por el principio de irrenunciabilidad de los derechos", "correct": true },
+        { "text": "No, por el principio pro operario", "correct": false }
+      ],
+      "explanation": "ES: Los derechos laborales son, en general, indisponibles en perjuicio del trabajador. IT: I diritti del lavoratore sono in linea di massima irrinunciabili in peius.",
+      "legal_reference": "ET art. 3.5 (irrenunciabilidad de derechos).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Los convenios de la OIT tienen el rango de:",
+      "answers": [
+        { "text": "Tratados internacionales que, al ser dictados por una organización supranacional, son directamente aplicables sin requerirse su aceptación por los países miembros", "correct": false },
+        { "text": "Normas internacionales que no tendrán eficacia interna en cada país hasta tanto su autoridad competente no ratifique el convenio", "correct": true },
+        { "text": "Directivas de la Unión Europea", "correct": false },
+        { "text": "Son meras propuestas de una organización supranacional sin ningún carácter vinculante para los Estados", "correct": false }
+      ],
+      "explanation": "ES: Obligan tras ratificación y entrada en vigor internas. IT: Vincolano solo dopo ratifica e recepimento secondo l’ordinamento interno.",
+      "legal_reference": "Constitución OIT art. 19; CE art. 96 (tratados internacionales).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Salvo lo dispuesto por convenio colectivo, la realización de horas complementarias en un contrato a tiempo parcial:",
+      "answers": [
+        { "text": "No podrá exceder del 30% de las horas ordinarias de trabajo objeto del contrato", "correct": false },
+        { "text": "No podrá exceder del 30% de las horas de trabajo objeto del contrato incluyendo las horas extraordinarias", "correct": false },
+        { "text": "No podrá exceder del 30% de las horas de trabajo objeto del contrato excluyendo las horas extraordinarias", "correct": true },
+        { "text": "En todo caso, la suma de las horas ordinarias y las complementarias no excederá del 75% de la jornada máxima establecida por ley o convenio", "correct": false }
+      ],
+      "explanation": "ES: Límite general del 30% (ampliable por convenio) y distinto de horas extraordinarias. IT: Limite generale 30% (aumentabile da CCNL) e distinto dagli straordinari.",
+      "legal_reference": "ET art. 12.5.b) (horas complementarias) y 12.4.c) (prohibición de horas extra).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Con el objetivo de incentivar a sus trabajadores, una empresa contempla en la retribución de los trabajadores un plus de productividad que consiste en un euro por cada 1000 lechugas recogidas. Si consideramos que este incentivo favorece a aquellos trabajadores con mayor fuerza física, la medida podría suponer:",
+      "answers": [
+        { "text": "Una discriminación directa", "correct": false },
+        { "text": "Una discriminación indirecta", "correct": true },
+        { "text": "Una discriminación premeditada", "correct": false },
+        { "text": "Una discriminación flagrante", "correct": false }
+      ],
+      "explanation": "ES: Una regla aparentemente neutra con impacto adverso es discriminación indirecta. IT: Una regola neutra che svantaggia un gruppo integra discriminazione indiretta.",
+      "legal_reference": "LO 3/2007 art. 6.2 (discriminación indirecta) y ET art. 17 (igualdad).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     }
   ]
 }
