@@ -697,6 +697,215 @@
       "explanation": "ES: Se cumplirán las disposiciones válidas (p. ej., legados) y el remanente irá a los herederos legítimos; el CC permite incluso distribuir toda la herencia en legados.\nIT: Si eseguono le disposizioni valide (es. legati) e il residuo va agli eredi legittimi; il CC consente anche di distribuire tutta l’eredità in legati.",
       "legal_reference": "CC arts. 764 y 891",
       "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "21. La emancipacion:",
+      "answers": [
+        { "text": "los menore emancipados continúan sujetos a la patria potestad de sus progenitores", "correct": false },
+        { "text": "la emancipación sólo se alcanza por consenso de quienes ejerzan la patria potestad o por concesión judicial", "correct": false },
+        { "text": "quienes ejerzan la patria potestad podrán conceder la emancipación a sus hijos menores siempre que tenga más de 16 años aunque no la consientan", "correct": false },
+        { "text": "el juez podrà conceder la emancipación de los hijos mayores de diecisiete años si éstos la pidieren y previa audiencia de sus padres si estos vivieran separados", "correct": false }
+      ],
+      "explanation": "ES: Ninguna opción es plenamente correcta. La emancipación pone fin a la patria potestad; puede producirse por matrimonio, por concesión de quienes ejercen la patria potestad con consentimiento del menor (≥16), o por concesión judicial por causa justificada (también ≥16). No es sólo por acuerdo o por vía judicial; tampoco puede imponerse sin consentimiento del menor; y el umbral legal es 16, no 17.\nIT: Nessuna risposta è del tutto corretta. L’emancipazione fa cessare la potestà; può avvenire per matrimonio, per concessione dei genitori con consenso del minore (≥16), o per concessione del giudice (sempre ≥16). Non è «solo» per accordo/giudice; non si impone senza consenso; e la soglia è 16, non 17.",
+      "legal_reference": "CC arts. 314–320",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "23. La patria potestad respecto de los padres",
+      "answers": [
+        { "text": "solo serán válidos los actos realizados conjuntamente por ambos progenitores", "correct": false },
+        { "text": "si los desacuerdos entre progenitores fueran reiterados el juez podrá atribuir la patria potestad total o parcialmente a uno de los padres", "correct": true },
+        { "text": "aunque los padres viven separados la patria potestad se ejercerá conjuntamente por ambos progenitores en todo caso", "correct": false },
+        { "text": "un progenitor no podrà ser excluido del ejercicio de su patria potestad en ningún caso", "correct": false }
+      ],
+      "explanation": "ES: Rige el ejercicio conjunto, pero el juez puede atribuir total o parcialmente el ejercicio a uno si hay desacuerdos reiterados o razones de interés del menor. No todos los actos exigen actuación conjunta; y cabe exclusión o limitación del ejercicio en supuestos legales.\nIT: Vige l’esercizio congiunto, ma il giudice può attribuirlo in tutto o in parte a uno solo in caso di dissidi reiterati o nell’interesse del minore. Non tutti gli atti richiedono congiunta; ed è possibile escludere/limitare l’esercizio nei casi di legge.",
+      "legal_reference": "CC art. 156 (ejercicio y discrepancias); art. 159",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "15. Enumere las causas de extinción de la patria potestad:",
+      "answers": [],
+      "explanation": "ES: Muerte o declaración de fallecimiento de padres o hijo; emancipación; adopción del hijo.\nIT: Morte o dichiarazione di morte presunta dei genitori o del figlio; emancipazione; adozione del figlio.",
+      "legal_reference": "CC art. 169",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "1.   Enumere brevemente los caracteres del testamento:",
+      "answers": [],
+      "explanation": "ES: Negocio mortis causa y unilateral; individual (prohibidos testamentos mancomunados); personalísimo (no por comisario/mandatario); libre (nulo si violencia/dolo/fraude); formal o solemne; esencialmente revocable.\nIT: Negozio mortis causa e unilaterale; individuale (vietati i congiunti); personalissimo; libero; formale/solenne; essenzialmente revocabile.",
+      "legal_reference": "CC arts. 667, 669–671, 673, 687, 733, 737",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "1.   ¿Cuándo tiene lugar la revocación tácita de un testamento?",
+      "answers": [],
+      "explanation": "ES: Opera por otorgamiento de testamento posterior perfecto que no conserve el anterior, y por destrucción/alteración del testamento cerrado en las condiciones legales (presunciones de revocación y autenticidad).\nIT: Avviene con un testamento posteriore perfetto che non mantenga il precedente, e con la rottura/alterazione del testamento segreto nei casi di legge (presunzioni di revoca e autenticità).",
+      "legal_reference": "CC arts. 739 y 742",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "1.   ¿Qué sucede si el legatario muriese antes de aceptar el legado dejando varios herederos?",
+      "answers": [],
+      "explanation": "ES: Cada heredero del legatario puede aceptar o repudiar su parte en el legado.\nIT: Ciascun erede del legatario può accettare o rinunciare alla propria quota di legato.",
+      "legal_reference": "CC art. 889, párr. 2º",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "1.   Si los bienes de la herencia no alcanzaren para cubrir todos los legados, ¿En qué orden se efectuará el pago de los mismos?",
+      "answers": [],
+      "explanation": "ES: Regla general: reducción a prorrata de los legados si el caudal no basta, salvo preferencia establecida por el testador o supuestos legales específicos.\nIT: Regola generale: riduzione pro rata dei legati se l’asse non basta, salvo preferenze disposte dal testatore o casi particolari previsti dalla legge.",
+      "legal_reference": "CC art. 887 (reducción de legados por insuficiencia)",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "9. ¿Cuáles son las especialidades de la mejora, frente a la legítima estricta?",
+      "answers": [],
+      "explanation": "ES: La mejora recae sólo en descendientes y se concreta en el tercio de mejora; permite favorecer a uno o varios, es disponible dentro de límites legitimarios, sujeta a imputación/colación según los casos. La legítima estricta (tercio) es indisponible y se reparte por cabezas entre los legitimarios.\nIT: La «mejora» spetta solo ai discendenti e grava sul terzo di miglioramento; consente favorire uno o più, nei limiti di legge, con regole di imputazione/collazione. La legittima «stretta» (un terzo) è indisponibile e si divide in parti uguali tra i legittimari.",
+      "legal_reference": "CC arts. 806–808, 823–833, 818–822",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "11. ¿Cómo se denomina el derecho que tienen los parientes de una persona para sucederle en todos los derechos que tendría si viviera o hubiera podido heredar?",
+      "answers": [],
+      "explanation": "ES: Derecho de representación.\nIT: Diritto di rappresentazione.",
+      "legal_reference": "CC art. 924",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "12. ¿Qué es el derecho a deliberar?",
+      "answers": [],
+      "explanation": "ES: Facultad del llamado para examinar el estado de la herencia antes de aceptar o repudiar, reservándose durante el término legal.\nIT: Facoltà del chiamato di esaminare la massa ereditaria prima di accettare o rinunciare, con riserva entro il termine legale.",
+      "legal_reference": "CC arts. 1010–1011 (derecho a deliberar/beneficio de inventario)",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "13. Si el testador no lo ha establecido expresamente, ¿qué plazo tendrá el albacea para cumplir su encargo?",
+      "answers": [],
+      "explanation": "ES: Un año desde la aceptación, prorrogable en los términos legales o por voluntad del testador.\nIT: Un anno dall’accettazione, prorogabile secondo legge o volontà del testatore.",
+      "legal_reference": "CC art. 904 (plazo del albacea)",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "14. ¿Son colacionables las donaciones hechas al consorte del hijo?",
+      "answers": [],
+      "explanation": "ES: En principio no se colacionan por no ser el donatario heredero forzoso del donante; salvo que encubran liberalidad al hijo o concurran supuestos de simulación/fraude.\nIT: In linea generale non si collazionano perché il coniuge del figlio non è legittimario del donante; salvo che la donazione dissimuli una liberalità al figlio o vi siano frode/simulazione.",
+      "legal_reference": "CC arts. 1035–1041 (colación y exclusiones por razón del donatario)",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "15. Enumere las fases de la partición de la herencia",
+      "answers": [],
+      "explanation": "ES: (i) Inventario y avalúo; (ii) Liquidación del caudal y colación; (iii) División y adjudicación.\nIT: (i) Inventario e stima; (ii) Liquidazione dell’asse e collazione; (iii) Divisione e attribuzione dei beni.",
+      "legal_reference": "CC arts. 1051–1080 (partición y operaciones particionales)",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+
+    {
+      "question": "1. ¿Será válido en todo caso un matrimonio autorizado por un Concejal, que actuara como tal, pero cuyo nombramiento aún no se hubiera efectuado?",
+      "answers": [],
+      "explanation": "ES: La falta de competencia del autorizante provoca nulidad (funcionario incompetente), pero si al menos uno contrajo de buena fe produce efectos putativos; la vía adecuada es la convalidación o nueva celebración con autoridad competente.\nIT: L’incompetenza dell’ufficiale determina la nullità, ma se almeno uno agì in buona fede il matrimonio è putativo; occorre convalida o nuova celebrazione davanti ad autorità competente.",
+      "legal_reference": "CC arts. 53, 73.3, 79–80; LRC 2011",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "2. ¿Quién autoriza la celebración de matrimonio secreto? ¿Dónde se inscribe?",
+      "answers": [],
+      "explanation": "ES: Lo autoriza el Ministro de Justicia por causa grave; se inscribe en el Libro Especial de Matrimonios Secretos del Registro Civil Central.\nIT: Lo autorizza il Ministro della Giustizia per grave motivo; si iscrive nel Libro Speciale dei Matrimoni Segreti del Registro Civile Centrale.",
+      "legal_reference": "CC art. 54; LRC 2011 arts. 64 y concordantes",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "3. Enumere brevemente las consecuencias de la nulidad matrimonial.",
+      "answers": [],
+      "explanation": "ES: Libertad de estado; liquidación del régimen económico; efectos putativos si hubo buena fe; mantenimiento de deberes parentales respecto de los hijos (custodia, alimentos, etc.).\nIT: Libertà di stato; liquidazione del regime patrimoniale; effetti putativi in buona fede; permanenza dei doveri verso i figli (affidamento, mantenimento, ecc.).",
+      "legal_reference": "CC arts. 73–79, 92, 95",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "4. ¿Cuáles son las causas de disolución de matrimonio?",
+      "answers": [],
+      "explanation": "ES: Muerte o declaración de fallecimiento de uno de los cónyuges; divorcio.\nIT: Morte o dichiarazione di morte presunta di uno dei coniugi; divorzio.",
+      "legal_reference": "CC art. 85",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "5. ¿Cuándo se decretará judicialmente la separación o el divorcio?",
+      "answers": [],
+      "explanation": "ES: Cuando existan hijos menores o mayores con medidas de apoyo atribuidas a sus progenitores, y cumplidos los requisitos temporales (3 meses desde el matrimonio salvo riesgo), la separación/divorcio se decreta judicialmente; en otros casos cabe vía notarial/LAJ si es de mutuo acuerdo y sin menores.\nIT: In presenza di figli minori o con misure di sostegno, la separazione/divorzio è giudiziale; requisito di 3 mesi salvo pericolo. Negli altri casi è possibile via notarile/LAJ se consensuale e senza minori.",
+      "legal_reference": "CC arts. 81–86; LJV 2015",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+
+    {
+      "question": "6. ¿Quién debe prestar consentimiento para disponer de los derechos sobre la vivienda habitual y los muebles de uso ordinario de la familia? ¿Y si tales derechos pertenezcan a uno solo de los cónyuges?",
+      "answers": [],
+      "explanation": "ES: Se requiere consentimiento de ambos o autorización judicial, aunque los derechos pertenezcan a uno; la declaración falsa sobre el carácter de vivienda no perjudica al adquirente de buena fe.\nIT: Occorre il consenso di entrambi o l’autorizzazione giudiziale, anche se i diritti appartengono a uno solo; la falsa dichiarazione sul carattere di abitazione non pregiudica il terzo in buona fede.",
+      "legal_reference": "CC art. 1320",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+
+    {
+      "question": "7. Durante la sociedad de gananciales, en los actos dispositivos de bienes gananciales a título gratuito, ¿cabe autorización judicial subsidiaria? ¿Qué sucede respecto de los actos a título gratuito si no concurre el consentimiento de ambos cónyuges?",
+      "answers": [],
+      "explanation": "ES: No cabe autorización judicial subsidiaria; son nulos los actos a título gratuito sin consentimiento de ambos, salvo liberalidades de uso.\nIT: Non è prevista un’autorizzazione giudiziale sostitutiva; gli atti a titolo gratuito senza il consenso di entrambi sono nulli, salvo le liberalità d’uso.",
+      "legal_reference": "CC art. 1378 (actos gratuitos) y 1365–1377 (régimen general)",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+
+    {
+      "question": "8. ¿En qué régimen económico matrimonial cada uno de los cónyuges adquiere derecho a participar en las ganancias obtenidas por su consorte durante el tiempo en que dicho régimen haya estado vigente?",
+      "answers": [],
+      "explanation": "ES: En el régimen de participación en las ganancias.\nIT: Nel regime di partecipazione agli incrementi (partecipazione agli acquisti/guadagni).",
+      "legal_reference": "CC arts. 1411–1419 (régimen de participación)",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+
+    {
+      "question": "9. En el régimen económico de separación de bienes, si la vivienda habitual pertenece a uno solo de los cónyuges, ¿podrá éste disponer de la misma? ¿qué será necesario?",
+      "answers": [],
+      "explanation": "ES: Podrá disponer sólo con consentimiento del otro cónyuge o, en su defecto, autorización judicial, por tratarse de la vivienda familiar.\nIT: Potrà disporne solo col consenso dell’altro coniuge o, in difetto, con autorizzazione giudiziale, trattandosi dell’abitazione familiare.",
+      "legal_reference": "CC art. 1320 (aplicable también en separación de bienes)",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+
+    {
+      "question": "10. El régimen de separación de bienes iniciado como consecuencia de la separación de los cónyuges, ¿se extingue por la reconciliación de éstos?",
+      "answers": [],
+      "explanation": "ES: La separación de bienes decretada no se altera por la reconciliación; sólo volverán al régimen anterior si lo pactan en capitulaciones, con inventario de lo que cada uno aporta.\nIT: La separazione dei beni non cessa per riconciliazione; si può tornare al regime precedente solo con nuove capitolazioni e inventario dei beni apportati.",
+      "legal_reference": "CC arts. 1443–1444",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+
+    {
+      "question": "11. ¿En qué casos podrá la mujer ejercitar la acción de impugnación de su maternidad?",
+      "answers": [],
+      "explanation": "ES: Justificando suposición del parto o no ser cierta la identidad del hijo; con el régimen de legitimación y plazos propios según se trate de filiación matrimonial o no matrimonial.\nIT: Dimostrando supposizione del parto o non veridicità dell’identità del figlio; con legittimazione e termini propri a seconda che si tratti di filiazione matrimoniale o non.",
+      "legal_reference": "CC art. 139 y concordantes (arts. 136–140)",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+
+    {
+      "question": "12. ¿A quién corresponde la acción de reclamación de filiación no matrimonial, cuando falte la respectiva posesión de estado? ¿En qué plazos?",
+      "answers": [],
+      "explanation": "ES: Corresponde al hijo durante toda su vida; fallecido, a sus herederos por el tiempo restante. También a los progenitores dentro de un año desde conocimiento de los hechos (no transmisible salvo continuación de la ya iniciada).\nIT: Spetta al figlio per tutta la vita; in caso di morte, agli eredi per il tempo residuo. Anche ai genitori entro un anno dalla conoscenza dei fatti (non trasmissibile salvo prosecuzione di quella già iniziata).",
+      "legal_reference": "CC art. 133.1–2",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+
+    {
+      "question": "13. ¿Qué duración máxima tendrá el acogimiento familiar temporal?",
+      "answers": [],
+      "explanation": "ES: Dos años, salvo prórroga si conviene al interés superior del menor por previsible e inmediata reintegración familiar o adopción de medida definitiva.\nIT: Due anni, salvo proroga se nell’interesse del minore per prevedibile e immediato rientro in famiglia o altra misura definitiva.",
+      "legal_reference": "CC arts. 172–173 bis; LO 1/1996 art. 20",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+
+    {
+      "question": "14. Respecto de la patria potestad, ¿Qué sucede cuando el progenitor sea un menor no emancipado?",
+      "answers": [],
+      "explanation": "ES: Ejercerá la patria potestad sobre sus hijos con la asistencia de sus padres y, a falta de éstos, de su tutor; en desacuerdo o imposibilidad, con la del juez.\nIT: Eserciterà la potestà sui figli con l’assistenza dei propri genitori e, in mancanza, del tutore; in caso di disaccordo o impossibilità, con quella del giudice.",
+      "legal_reference": "CC art. 157",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
     }
   ]
 }
