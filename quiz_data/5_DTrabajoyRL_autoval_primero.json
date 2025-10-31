@@ -1,0 +1,368 @@
+{
+  "file_number": 0,
+  "file_name": "Autoevaluacion Trabajo y RL .docx",
+  "questions": [
+    {
+      "question": "TEST 1 - Pregunta 1\n¿Cuáles son las notas características del trabajo asalariado?",
+      "answers": [
+        { "text": "Personal, voluntario, dependiente y por cuenta ajena.", "correct": true },
+        { "text": "Regulado por Convenio Colectivo", "correct": false },
+        { "text": "Voluntario y por cuenta ajena", "correct": false },
+        { "text": "Dependiente y retribuido", "correct": false }
+      ],
+      "explanation": "ES: Son rasgos esenciales del trabajo asalariado: voluntariedad, ajenidad (por cuenta ajena), dependencia (dentro del poder de dirección del empresario) y prestación personal. La retribución también es esencial, pero las otras opciones son parciales o mezclan rasgos sueltos. IT: Gli elementi tipici sono volontarietà, eterodirezione (dipendenza), ajenidad/contocrazia e carattere personale. Le altre risposte elencano solo una parte dei requisiti o confondono fonti con caratteristiche (p.es. il CCNL non definisce di per sé il lavoro salariato).",
+      "legal_reference": "RDL 2/2015, Estatuto de los Trabajadores (ET), art. 1.1 (trabajo voluntario, retribuido, por cuenta ajena y dentro del ámbito de organización y dirección de otro).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 1 - Pregunta 2\nEl requisito de la ajenidad implica",
+      "answers": [
+        { "text": "Que el trabajador realiza la actividad laboral dentro del ámbito de dirección de otra persona, llamada empleador o empresario", "correct": false },
+        { "text": "Que el trabajo ha de ser prestado de forma libre y voluntaria, fruto de un acuerdo entre quien cede su actividad y quien la recibe", "correct": false },
+        { "text": "Que los bienes y servicios producidos no reportan al trabajador un beneficio económico directo, y el empresario, además, asume los riesgos inherentes a la actividad productiva.", "correct": true },
+        { "text": "Todas son ciertas", "correct": false }
+      ],
+      "explanation": "ES: La ajenidad se refiere a que los frutos y riesgos de la actividad corresponden al empresario, no al trabajador. La primera opción describe dependencia; la segunda, voluntariedad. IT: L’“ajenidad” indica che risultati e rischi economici spettano all’imprenditore; le altre opzioni riguardano dipendenza o volontarietà, non l’elemento dell’estraneità ai frutti/ai rischi.",
+      "legal_reference": "ET, art. 1.1; Doctrina jurisprudencial del Tribunal Supremo sobre ajenidad en frutos y riesgos; Ley 20/2007, Estatuto del Trabajo Autónomo (para el contraste con el trabajo por cuenta propia).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 1 - Pregunta 3\nSegún la disposición adicional primera del Estatuto de los Trabajadores: El trabajo por cuenta propia",
+      "answers": [
+        { "text": "No está sometido a la legislación laboral excepto en aquellos aspectos que, por precepto legal, se disponga expresamente.", "correct": true },
+        { "text": "No está sometido a la legislación laboral excepto en aquellos aspectos que, por precepto legal o convenio colectivo se disponga expresamente", "correct": false },
+        { "text": "Está sometido siempre a la legislación laboral", "correct": false },
+        { "text": "No está sometido nunca a la legislación laboral", "correct": false }
+      ],
+      "explanation": "ES: La legislación laboral rige la relación por cuenta ajena; el trabajo autónomo se regula por su normativa específica salvo remisiones expresas por ley. Un convenio colectivo no puede someter al autónomo a la legislación laboral. IT: Il lavoro autonomo non è soggetto all’ET salvo rinvii espressi di legge; i contratti collettivi non possono imporre il regime lavoristico agli autonomi.",
+      "legal_reference": "ET, art. 1 y exclusiones del art. 1.3; Ley 20/2007, Estatuto del Trabajo Autónomo. (La mención a la DA/DF del ET en manuales resume esta idea: el trabajo por cuenta propia queda fuera del ET salvo previsión legal expresa).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 1 - Pregunta 4\nEl derecho laboral regula el trabajo dependiente, lo que supone",
+      "answers": [
+        { "text": "Sometimiento tanto al poder de dirección como al poder disciplinario.", "correct": true },
+        { "text": "Sometimiento exclusivamente a la ley, los convenios y el contrato, que es ley entre las partes", "correct": false },
+        { "text": "Sometimiento al poder disciplinario del empresario", "correct": false },
+        { "text": "Sometimiento al poder de dirección del empresario", "correct": false }
+      ],
+      "explanation": "ES: La relación laboral implica sujeción al poder de dirección (organización y control del trabajo) y al poder disciplinario del empresario. IT: Nel lavoro subordinato l’attività è assoggettata sia al potere direttivo sia a quello disciplinare del datore.",
+      "legal_reference": "ET, art. 20 (poder de dirección y control) y art. 58 (facultad disciplinaria).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 1 - Pregunta 5\nLa característica por la cual el trabajador cede los resultados de su trabajo se denomina",
+      "answers": [
+        { "text": "Retribución", "correct": false },
+        { "text": "Cesión de frutos", "correct": false },
+        { "text": "Dependencia", "correct": false },
+        { "text": "Ajenidad.", "correct": true }
+      ],
+      "explanation": "ES: La ajenidad recoge la cesión de frutos y la asunción de riesgos por el empresario; retribución y dependencia son notas distintas. IT: L’“ajenidad” implica che i frutti dell’opera spettano al datore; retribuzione e dipendenza sono concetti diversi.",
+      "legal_reference": "ET, art. 1.1; Doctrina TS sobre ajenidad.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 1 - Pregunta 6\nIndique cuál de las siguientes notas no es esencial para la existencia de un contrato de trabajo",
+      "answers": [
+        { "text": "Prestación personal de servicios", "correct": false },
+        { "text": "Asistencia a un centro de trabajo, para el cumplimiento de un horario previamente determinado.", "correct": true },
+        { "text": "Abono de un salario", "correct": false },
+        { "text": "Subordinación a las órdenes e instrucciones del empleador", "correct": false }
+      ],
+      "explanation": "ES: Puede existir contrato de trabajo sin asistencia a centro físico ni horario rígido (teletrabajo, trabajo a distancia); lo esencial es la prestación personal, la retribución y la dependencia. IT: La presenza in sede/rispetto di un orario non è imprescindibile; ciò che conta è prestazione personale, retribuzione e subordinazione.",
+      "legal_reference": "ET, art. 1.1; Ley 10/2021, de trabajo a distancia.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 1 - Pregunta 7\nEl sistema retributivo nacido en la revolución industrial por el que se paga en especie, por pagarés, fichas o vales que son aceptados por los comerciantes con el aval del empresario, pero por precio inferior a su valor y, muchas veces canjeados de forma forzosa por los bienes y productos que los propios empresarios vendían a los trabajadores en sus establecimientos o economatos, se conoce como",
+      "answers": [
+        { "text": "Régimen del Stock", "correct": false },
+        { "text": "Régimen del Truck.", "correct": true },
+        { "text": "Régimen de Canjes", "correct": false },
+        { "text": "Régimen de economatos", "correct": false }
+      ],
+      "explanation": "ES: El ‘truck system’ es el pago en vales/fichas con sobreprecio o canje forzoso; hoy se prohíbe pagar el salario en vales, salvo límites y garantías. IT: Il sistema ‘truck’ pagava con buoni o merci a condizioni svantaggiose; l’ordinamento attuale tutela il pagamento in moneta legale.",
+      "legal_reference": "OIT Convenio núm. 95 sobre la protección del salario (art. 3-4); ET, art. 29 (pago del salario) y garantías salariales.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 1 - Pregunta 8\nEn el sistema gremial, Finalmente, un Oficial o un Aprendiz accedían al grado de Maestro mediante la realización de exámenes teórico prácticos que incluían la realización de lo que se conocía como",
+      "answers": [
+        { "text": "Opera Prima", "correct": false },
+        { "text": "Obra maestra.", "correct": true },
+        { "text": "Gran obra", "correct": false },
+        { "text": "Gaje del Oficio", "correct": false }
+      ],
+      "explanation": "ES: Históricamente la ‘obra maestra’ era la pieza con la que se acreditaba la maestría en el gremio. IT: ‘Opera maestra’ identificava la prova finale per accedere al grado di maestro nelle corporazioni.",
+      "legal_reference": "Dato histórico-doctrinal (no hay referencia normativa vigente específica).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 1 - Pregunta 9\nSe considera que nuestro Derecho del Trabajo propiamente dicho comienza con",
+      "answers": [
+        { "text": "La ley de descanso dominical de 1904", "correct": false },
+        { "text": "La ley sobre trabajo de menores de 1873.", "correct": true },
+        { "text": "El fuero del trabajo, de 1938", "correct": false },
+        { "text": "La introducción en la península ibérica del Derecho Romano y la regulación de la locatio-conductio operarum", "correct": false }
+      ],
+      "explanation": "ES: La ‘Ley Benot’ de 1873 (trabajo de mujeres y niños) se considera punto de arranque del Derecho del Trabajo en España. IT: La Legge Benot del 1873 segna l’avvio del diritto del lavoro moderno in Spagna, prima delle riforme del XX secolo.",
+      "legal_reference": "Decreto/Ley Benot de 24 de julio de 1873 (trabajo de mujeres y niños).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 1 - Pregunta 10\nEn la definición del Derecho del Trabajo NO encontramos",
+      "answers": [
+        { "text": "la exclusividad", "correct": false },
+        { "text": "la remuneración", "correct": false },
+        { "text": "la ajenidad", "correct": false },
+        { "text": "la dependencia.", "correct": true }
+      ],
+      "explanation": "ES: La ‘dependencia’ caracteriza la relación laboral (prestación subordinada), no la definición sistemática del ‘Derecho del Trabajo’ como conjunto de normas. IT: La dipendenza è una nota della relazione di lavoro; la definizione della disciplina comprende l’insieme di norme che regolano il lavoro per conto altrui retribuito, non la nota in sé.",
+      "legal_reference": "ET, art. 1.1 (define rasgos de la relación, no la disciplina en abstracto); doctrina general de Derecho del Trabajo.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+
+    {
+      "question": "TEST 2 - Pregunta 1\nSeñale cual de las siguientes normas no es exclusiva del derecho laboral:",
+      "answers": [
+        { "text": "Convenios colectivos", "correct": false },
+        { "text": "Contrato de trabajo", "correct": false },
+        { "text": "Disposiciones legales.", "correct": true },
+        { "text": "Todas lo son", "correct": false }
+      ],
+      "explanation": "ES: Las disposiciones legales (leyes y reglamentos) no son exclusivas del Derecho del Trabajo; los convenios y el contrato sí son típicos del ámbito laboral. IT: Le disposizioni legislative sono generali; CCNL e contratto di lavoro appartengono specificamente alla sfera lavoristica.",
+      "legal_reference": "ET, art. 3.1 (fuentes: disposiciones legales y reglamentarias, convenios, contratos...).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 2 - Pregunta 2\nEl derecho a la negociación colectiva (Art. 37 de la Constitución española) es susceptible de",
+      "answers": [
+        { "text": "un procedimiento preferente y sumario", "correct": false },
+        { "text": "recurso de amparo", "correct": false },
+        { "text": "recurso de inconstitucionalidad.", "correct": true },
+        { "text": "Todos los nombrados", "correct": false }
+      ],
+      "explanation": "ES: El art. 37 CE está en la Sección 2ª (no amparable vía art. 53.2 CE ni sometido al ‘procedimiento preferente y sumario’ reservado a los arts. 14 y 15–29). Puede impugnarse una ley contraria mediante recurso de inconstitucionalidad. IT: La negoziazione collettiva (art. 37 CE) non è tutelata con amparo né col rito preferenziale; la via è il controllo astratto di costituzionalità delle leggi.",
+      "legal_reference": "CE, arts. 37 y 53.2; LOTC (Ley Orgánica del Tribunal Constitucional) sobre recurso de inconstitucionalidad.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 2 - Pregunta 3\nEl instrumento normativo del derecho comunitario europeo que se dirige exclusivamente a los Estados miembros y obliga a estos a llevar a cabo una actuación positiva denominada trasposición se denomina",
+      "answers": [
+        { "text": "Reglamento", "correct": false },
+        { "text": "Decisión", "correct": false },
+        { "text": "Directiva.", "correct": true },
+        { "text": "Recomendación", "correct": false }
+      ],
+      "explanation": "ES: La directiva vincula a los Estados en el resultado y requiere transposición; el reglamento es directamente aplicable, la decisión tiene destinatarios concretos, la recomendación no es vinculante. IT: La direttiva obbliga gli Stati al risultato e alla trasposizione; il regolamento è self-executing.",
+      "legal_reference": "TFUE, art. 288.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 2 - Pregunta 4\nEl órgano de la OIT integrado por cuatro representantes de cada estado miembro (dos por el gobierno, uno por los empresarios y otro por los trabajadores), que se reúne al menos una vez al año y tiene, entre otras atribuciones, la de adoptar convenios y recomendaciones, aprobar los presupuestos y el control de la acción de otros órganos es",
+      "answers": [
+        { "text": "La Conferencia.", "correct": true },
+        { "text": "La Oficina Internacional de Trabajo", "correct": false },
+        { "text": "La directiva", "correct": false },
+        { "text": "El consejo de administración", "correct": false }
+      ],
+      "explanation": "ES: La Conferencia Internacional del Trabajo es el órgano tripartito deliberante que adopta convenios y recomendaciones. IT: La Conferenza dell’OIL (tripartita) approva convenzioni/raccomandazioni e bilancio; la Oficina es secretaría técnica; el Consejo es órgano ejecutivo.",
+      "legal_reference": "Constitución de la OIT, art. 3.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 2 - Pregunta 5\nEl Principio de condición más beneficiosa implica",
+      "answers": [
+        { "text": "Que se aplicará la norma más favorable para el trabajador", "correct": false },
+        { "text": "Que el trabajador puede renunciar a los derechos que quiera", "correct": false },
+        { "text": "Que la norma de rango inferior puede modificar la de rango superior para mejorarla", "correct": false },
+        { "text": "Que los derechos adquiridos por el trabajador por contrato de trabajo no se pierden aunque cambien las leyes.", "correct": true }
+      ],
+      "explanation": "ES: La condición más beneficiosa es una ventaja individual consolidada que no decae por cambios normativos menos favorables; no supone renuncia de derechos (prohibida) ni simple ‘norma más favorable’. IT: Le condizioni più favorevoli individuali si mantengono; non c’entrano rinunce (vietate) né la mera scelta della norma più favorevole.",
+      "legal_reference": "ET, art. 3.1.c y 3.3; doctrina jurisprudencial del TS sobre condición más beneficiosa.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 2 - Pregunta 6\n¿En virtud de qué principio no se pueden empeorar en los contratos de trabajo las condiciones establecidas en los convenios colectivos?",
+      "answers": [
+        { "text": "Principio de irrenunciabilidad de derechos", "correct": false },
+        { "text": "Principio de condición más beneficiosa", "correct": false },
+        { "text": "Principio pro operario", "correct": false },
+        { "text": "Principio de norma más favorable.", "correct": true }
+      ],
+      "explanation": "ES: Entre fuentes concurrentes se aplica la más favorable al trabajador y el contrato no puede establecer condiciones inferiores al mínimo convencional salvo autorización expresa. IT: In presenza di più fonti, prevale quella più favorevole; il contratto individuale non può peggiorare il CCNL.",
+      "legal_reference": "ET, art. 3.1 y art. 82.3 (fuerza vinculante del convenio); principio de norma más favorable en la concurrencia de normas.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 2 - Pregunta 7\n¿En virtud de qué principio, donde existan varias interpretaciones posibles de un precepto de derecho del trabajo, será de aplicación la interpretación que mayor beneficio reporte al trabajador?",
+      "answers": [
+        { "text": "Principio de norma más favorable", "correct": false },
+        { "text": "Principio de irrenunciabilidad de derechos", "correct": false },
+        { "text": "Principio de condición más beneficiosa", "correct": false },
+        { "text": "Principio pro operario.", "correct": true }
+      ],
+      "explanation": "ES: El principio pro operario guía la interpretación de normas dudosas en el sentido más favorable al trabajador; no debe confundirse con la elección entre normas (norma más favorable) ni con condiciones más beneficiosas. IT: Il ‘pro operario’ opera a livello ermeneutico, non come criterio di concorrenza tra fonti.",
+      "legal_reference": "Principio general reconocido por la jurisprudencia laboral; ET, art. 3 (fuentes) y reglas generales de interpretación (CC, art. 3).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 2 - Pregunta 8\nLas normas con rango de ley, elaboradas por el Gobierno ante situaciones extraordinarias o de urgente necesidad son",
+      "answers": [
+        { "text": "Los Decretos – Leyes.", "correct": true },
+        { "text": "Las leyes orgánicas", "correct": false },
+        { "text": "Las leyes ordinarias", "correct": false },
+        { "text": "Los Decretos Legislativos", "correct": false }
+      ],
+      "explanation": "ES: El Decreto-ley es dictado por el Gobierno en casos de extraordinaria y urgente necesidad, con control parlamentario posterior. IT: Il decreto-legge (spagnolo: Real Decreto-ley) è atto con forza di legge per urgenza.",
+      "legal_reference": "CE, art. 86.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 2 - Pregunta 9\nUn texto articulado (Real Decreto Legislativo) se dicta en desarrollo de",
+      "answers": [
+        { "text": "Un decreto ley", "correct": false },
+        { "text": "Una ley orgánica", "correct": false },
+        { "text": "Una ley ordinaria de delegación", "correct": false },
+        { "text": "Una ley de bases.", "correct": true }
+      ],
+      "explanation": "ES: La delegación legislativa para textos articulados se hace mediante ley de bases; los textos refundidos se hacen mediante ley ordinaria de delegación. IT: Il ‘testo articolato’ richiede una legge di principi (ley de bases).",
+      "legal_reference": "CE, arts. 82 y 83.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 2 - Pregunta 10\nConforme con el Artículo 3 del Estatuto de los Trabajadores, la primera fuente del Derecho del Trabajo será",
+      "answers": [
+        { "text": "El Convenio Colectivo", "correct": false },
+        { "text": "EL contrato de trabajo", "correct": false },
+        { "text": "La Costumbre local y profesional", "correct": false },
+        { "text": "Las disposiciones legales y reglamentarias.", "correct": true }
+      ],
+      "explanation": "ES: El art. 3.1 ET coloca en primer lugar las disposiciones legales y reglamentarias; después los convenios, la voluntad de las partes y la costumbre. IT: La gerarchia delle fonti inizia da leggi e regolamenti, poi CCNL, poi contratto e consuetudine.",
+      "legal_reference": "ET, art. 3.1.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+
+    {
+      "question": "TEST 3 - Pregunta 1\nDe entre estas, cual no es una relación laboral de carácter especial de las recogidas en el artículo 2 del Estatuto de los Trabajadores",
+      "answers": [
+        { "text": "Funcionarios públicos.", "correct": true },
+        { "text": "Servicio del hogar familiar", "correct": false },
+        { "text": "Penados en las instituciones penitenciarias", "correct": false },
+        { "text": "Artistas en espectáculos públicos", "correct": false }
+      ],
+      "explanation": "ES: Los funcionarios públicos no se rigen por el ET sino por el régimen estatutario del empleo público. Las otras son relaciones especiales del art. 2 ET. IT: I funzionari sono esclusi dal diritto del lavoro comune; domestici, penados y artistas sì rientrano nelle speciali.",
+      "legal_reference": "ET, art. 2.1; Real Decreto Legislativo 5/2015 (TREBEP).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 3 - Pregunta 2\nAlgunas de las relaciones laborales especiales que contempla el Estatuto de los Trabajadores son las siguientes:",
+      "answers": [
+        { "text": "La del personal de alta dirección, los deportistas profesionales y los artistas de espectáculos públicos.", "correct": true },
+        { "text": "La de los menores de edad y la de los trabajadores autónomos dependientes", "correct": false },
+        { "text": "La del servicio del hogar familiar y los menores de edad", "correct": false },
+        { "text": "La de los funcionarios y del personal estatutario", "correct": false }
+      ],
+      "explanation": "ES: Alta dirección, deportistas y artistas están tipificadas como relaciones especiales. Menores y funcionarios no configuran per se una relación ‘especial’ del art. 2. IT: Direttivi, sportivi e artisti rientrano; minori e funzionari no.",
+      "legal_reference": "ET, art. 2.1, letras a), d), e). RD 1382/1985 (alta dirección).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 3 - Pregunta 3\nLos funcionarios públicos",
+      "answers": [
+        { "text": "Están excluidos de la contratación laboral.", "correct": true },
+        { "text": "Son trabajadores sujetos a una relación laboral especial", "correct": false },
+        { "text": "Son trabajadores autónomos", "correct": false },
+        { "text": "Su relación de servicios se rige por la normativa mercantil", "correct": false }
+      ],
+      "explanation": "ES: El empleo público estatutario se rige por el TREBEP y normativa administrativa, no por contrato laboral del ET. IT: I pubblici dipendenti ‘funzionari’ seguono il regime pubblico, non un contratto di diritto privato lavoristico.",
+      "legal_reference": "RDL 5/2015, TREBEP; ET, art. 1.3 (exclusiones).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 3 - Pregunta 4\nSegún la disposición final primera del Estatuto de los Trabajadores: El trabajo por cuenta propia",
+      "answers": [
+        { "text": "No está sometido a la legislación laboral excepto en aquellos aspectos que, por precepto legal, se disponga expresamente.", "correct": true },
+        { "text": "Está sometido siempre a la legislación laboral", "correct": false },
+        { "text": "No está sometido nunca a la legislación laboral", "correct": false },
+        { "text": "No está sometido a la legislación laboral excepto en aquellos aspectos que, por precepto legal o convenio colectivo se disponga expresamente", "correct": false }
+      ],
+      "explanation": "ES: El trabajo autónomo queda fuera del ET salvo remisión legal expresa. Un convenio colectivo no puede someterlo al ET por sí solo. IT: Il lavoro per conto proprio è regolato dallo Statuto del Lavoro Autonomo e non dall’ET, salvo rinvii di legge.",
+      "legal_reference": "ET, art. 1 y exclusiones; Ley 20/2007, Estatuto del Trabajo Autónomo.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 3 - Pregunta 5\nEstarán excluidos de la relación laboral",
+      "answers": [
+        { "text": "Los trabajadores por cuenta propia.", "correct": true },
+        { "text": "Los trabajadores por cuenta ajena", "correct": false },
+        { "text": "Los trabajadores que se comprometen personalmente a la realización de un servicio", "correct": false },
+        { "text": "Los trabajadores que realizan trabajos retribuidos", "correct": false }
+      ],
+      "explanation": "ES: El ET excluye las actividades por cuenta propia; la relación laboral se predica de quienes trabajan por cuenta ajena, con dependencia y retribución. IT: Gli autonomi sono esclusi; i dipendenti per conto altrui rientrano.",
+      "legal_reference": "ET, art. 1.1 y 1.3; Ley 20/2007.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 3 - Pregunta 6\nCuál de las siguientes actividades no está excluida de la relación laboral",
+      "answers": [
+        { "text": "El personal de alta dirección.", "correct": true },
+        { "text": "Los trabajos realizados a título de amistad", "correct": false },
+        { "text": "Los servicios de transportistas que utilizan vehículos de su propiedad", "correct": false },
+        { "text": "Las actividades de los agentes de comercio que asuman todo el riesgo de la operación", "correct": false }
+      ],
+      "explanation": "ES: El personal de alta dirección es relación laboral especial (no excluida). Amistad/beneficencia quedan fuera; transportistas con vehículo propio y agentes que asumen riesgo operan como autónomos. IT: La ‘alta direzione’ è speciale; le altre fattispecie sono escluse o tipiche dell’autonomia.",
+      "legal_reference": "ET, art. 2.1.a (alta dirección); ET, art. 1.3 (amistad/beneficencia; transportistas con medio propio); Ley 12/1992, Contrato de Agencia.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 3 - Pregunta 7\nUn camionero es propietario de su propio vehículo comercial de servicio público, y presta servicio de transporte. Dicho servicio lo realiza siempre para el mismo cargador, a cambio de un precio pactado, y cuenta con la autorización administrativa pertinente (a su nombre). Su actividad se considera:",
+      "answers": [
+        { "text": "Actividad excluida del ámbito laboral. (Art. 1.3 TRET). .- CORRETTA", "correct": true },
+        { "text": "Actividad laboral normal. (Artículo 1.1. TRET)", "correct": false },
+        { "text": "Relación laboral especial. (Art. 2 TRET)", "correct": false },
+        { "text": "Ninguna de las anteriores", "correct": false }
+      ],
+      "explanation": "ES: El transportista con autorización propia y vehículo propio actúa por cuenta propia y queda excluido del ET, aunque trabaje para un único cliente. IT: L’autotrasportatore con mezzo e licenza propri opera come autonomo, non come dipendente.",
+      "legal_reference": "ET, art. 1.3 (exclusión de transportistas con autorización y medios propios).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 3 - Pregunta 8\nl personal de alta dirección que no sea meramente consejero o miembro del Consejo de Administración de la sociedad",
+      "answers": [
+        { "text": "es un supuesto de relación laboral de carácter especial.", "correct": true },
+        { "text": "está excluido del TRET por el artículo 1.3", "correct": false },
+        { "text": "es un contrato laboral común", "correct": false },
+        { "text": "ninguna de las anteriores es cierta", "correct": false }
+      ],
+      "explanation": "ES: La alta dirección se rige por un régimen laboral especial, distinto del común y no excluido del ET. IT: I dirigenti apicali sono una relazione speciale (non esclusa né ‘comune’).",
+      "legal_reference": "ET, art. 2.1.a; RD 1382/1985, alta dirección.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 3 - Pregunta 9\nJavier cree que cumple todos los requisitos para ser considerado autónomo dependiente, por lo que solicita de la empresa cliente, mediante burofax, la formalización de un contrato de TRADE. Pasado un mes sin que la empresa le conteste, solicita al juez el reconocimiento de la condición de trabajador autónomo económicamente dependiente. En el caso de que el órgano jurisdiccional del orden social reconozca la condición de trabajador autónomo económicamente dependiente ¿desde qué momento será considerado como tal?",
+      "answers": [
+        { "text": "Desde el momento en que se hubiere recibido por el cliente la comunicación.", "correct": true },
+        { "text": "Desde el momento en que hubiera enviado la comunicación al cliente", "correct": false },
+        { "text": "Desde el momento en el que comenzó la relación contractual con el cliente", "correct": false },
+        { "text": "Desde el momento en el que el juez, vistas las pruebas, considere.", "correct": false }
+      ],
+      "explanation": "ES: La ley del autónomo dependiente prevé efectos desde la recepción del requerimiento fehaciente si se reconoce la condición; no desde el envío, ni retroactivamente al inicio, ni desde la sentencia salvo previsión contraria. IT: Gli effetti decorrono dalla ricezione della comunicazione da parte del cliente, non dall’invio né dall’inizio né dalla decisione giudiziale.",
+      "legal_reference": "Ley 20/2007, Estatuto del Trabajo Autónomo, arts. 11–12 y RD 197/2009 (desarrollo del TRADE).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 3 - Pregunta 10\nA un trabajador autónomo económicamente dependiente, se le ha comunicado la extinción de su contrato. En dicho contrato se establece una indemnización por daños y perjuicios derivados de la extinción del mismo, que la empresa cliente se niega a abonarle. El trabajador quiere recurrir por lo que va al despacho de Elena, Abogada, a preguntar ante qué Juzgado ha de interponer la demanda. ¿Qué Jurisdicción sería la competente para resolver la reclamación de daños y perjuicios por resolución unilateral de la empresa?",
+      "answers": [
+        { "text": "Al ser autónomo económicamente dependiente, le corresponde siempre la Jurisdicción Social para reclamaciones derivadas de su contrato con el cliente.", "correct": true },
+        { "text": "Al ser autónomo, la Jurisdicción Mercantil, al ser una extinción de contrato", "correct": false },
+        { "text": "Aunque es autónomo, al ser un despido le corresponde la Jurisdicción Social", "correct": false },
+        { "text": "Al ser autónomo, la Jurisdicción Mercantil, en todo caso", "correct": false }
+      ],
+      "explanation": "ES: La LRJS atribuye a la jurisdicción social las controversias derivadas de contratos de TRADE frente a su cliente. No es mercantil y no se trata de ‘despido’ laboral. IT: Le controversie del TRADE vanno al giudice del lavoro (social), non al commercio; non è licenziamento ma risoluzione del contratto del TRADE.",
+      "legal_reference": "Ley 36/2011, LRJS, art. 2 (competencia: trabajo y TRADE). Ley 20/2007 (TRADE).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    }
+  ]
+}

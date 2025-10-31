@@ -711,6 +711,730 @@
       "explanation": "ES: Deber general de medidas pro-igualdad; los planes obligatorios se exigen desde 50 personas, pero la obligación de promover la igualdad es general. IT: Obbligo generale di misure pro-parità; i piani sono obbligatori da 50 addetti, ma il dovere di promozione è generale.",
       "legal_reference": "LO 3/2007 arts. 14 y 45–48 (planes ≥50).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "¿Cuáles son las notas características del trabajo asalariado?",
+      "answers": [
+        { "text": "Dependiente y retribuido", "correct": false },
+        { "text": "Regulado por Convenio Colectivo", "correct": false },
+        { "text": "Voluntario y por cuenta ajena", "correct": false },
+        { "text": "Personal, voluntario, dependiente y por cuenta ajena", "correct": true }
+      ],
+      "explanation": "ES: El trabajo asalariado se define por voluntariedad, ajenidad, dependencia y carácter personal. IT: Il lavoro subordinato si caratterizza per volontarietà, alienità, dipendenza e personalità.",
+      "legal_reference": "ET art. 1.1.",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "El requisito de la ajenidad implica",
+      "answers": [
+        { "text": "Que el trabajador realiza la actividad laboral dentro del ámbito de dirección de otra persona, llamada empleador o empresario", "correct": false },
+        { "text": "Que el trabajo ha de ser prestado de forma libre y voluntaria, fruto de un acuerdo entre quien cede su actividad y quien la recibe", "correct": false },
+        { "text": "Que los bienes y servicios producidos no reportan al trabajador un beneficio económico directo, y el empresario, además, asume los riesgos inherentes a la actividad productiva", "correct": true },
+        { "text": "Todas son ciertas", "correct": false }
+      ],
+      "explanation": "ES: Ajenidad = frutos y riesgos corresponden al empleador. IT: Alienità = frutti e rischi in capo al datore.",
+      "legal_reference": "ET art. 1.1; doctrina clásica sobre ajenidad en frutos y riesgos (TS).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Según la disposición adicional primera del Estatuto de los Trabajadores: El trabajo por cuenta propia",
+      "answers": [
+        { "text": "Está sometido siempre a la legislación laboral", "correct": false },
+        { "text": "No está sometido a la legislación laboral excepto en aquellos aspectos que, por precepto legal, se disponga expresamente", "correct": true },
+        { "text": "No está sometido nunca a la legislación laboral", "correct": false },
+        { "text": "No está sometido a la legislación laboral excepto en aquellos aspectos que, por precepto legal o convenio colectivo se disponga expresamente", "correct": false }
+      ],
+      "explanation": "ES: El trabajo autónomo queda fuera del ET salvo remisión legal expresa. IT: Il lavoro autonomo è escluso dall’ET salvo rinvii espressi.",
+      "legal_reference": "ET art. 1 y 1.3; Ley 20/2007 (LETA) art. 1 y 2.",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "El derecho laboral regula el trabajo dependiente, lo que supone",
+      "answers": [
+        { "text": "Sometimiento tanto al poder de dirección como al poder disciplinario", "correct": true },
+        { "text": "Sometimiento al poder disciplinario del empresario", "correct": false },
+        { "text": "Sometimiento al poder de dirección del empresario", "correct": false },
+        { "text": "Sometimiento exclusivamente a la ley, los convenios y el contrato, que es ley entre las partes", "correct": false }
+      ],
+      "explanation": "ES: La dependencia implica dirección y potestad disciplinaria. IT: La dipendenza comporta potere direttivo e disciplinare.",
+      "legal_reference": "ET arts. 20 (dirección) y 58 (régimen disciplinario).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "La característica por la cual el trabajador cede los resultados de su trabajo se denomina",
+      "answers": [
+        { "text": "Ajenidad", "correct": true },
+        { "text": "Retribución", "correct": false },
+        { "text": "Cesión de frutos", "correct": false },
+        { "text": "Dependencia", "correct": false }
+      ],
+      "explanation": "ES: El trabajador no recibe directamente los frutos del trabajo: ajenidad. IT: I frutti del lavoro spettano al datore: alienità.",
+      "legal_reference": "ET art. 1.1; doctrina TS sobre ajenidad en frutos.",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Indique cuál de las siguientes notas no es esencial para la existencia de un contrato de trabajo",
+      "answers": [
+        { "text": "Asistencia a un centro de trabajo, para el cumplimiento de un horario previamente determinado", "correct": true },
+        { "text": "Abono de un salario", "correct": false },
+        { "text": "Prestación personal de servicios", "correct": false },
+        { "text": "Subordinación a las órdenes e instrucciones del empleador", "correct": false }
+      ],
+      "explanation": "ES: La presencialidad/horario fijo no es esencial (teletrabajo). IT: Presenza fisica/orario fisso non sono essenziali (lavoro a distanza).",
+      "legal_reference": "ET art. 1.1; Ley 10/2021 art. 1 (trabajo a distancia).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "El sistema retributivo nacido en la revolución industrial por el que se paga en especie, por pagarés, fichas o vales que son aceptados por los comerciantes con el aval del empresario, pero por precio inferior a su valor y, muchas veces canjeados de forma forzosa por los bienes y productos que los propios empresarios vendían a los trabajadores en sus establecimientos o economatos, se conoce como",
+      "answers": [
+        { "text": "Régimen de economatos", "correct": false },
+        { "text": "Régimen del Stock", "correct": false },
+        { "text": "Régimen del Truck", "correct": true },
+        { "text": "Régimen de Canjes", "correct": false }
+      ],
+      "explanation": "ES: El “truck system” fue un sistema abusivo de pago en especie. IT: Il “truck system” prevedeva pagamenti in natura tramite buoni/vales.",
+      "legal_reference": "ET art. 26.1 (límite del salario en especie ≤30%); referencias históricas doctrinales al sistema “truck”.",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "En el sistema gremial, Finalmente, un Oficial o un Aprendiz accedían al grado de Maestro mediante la realización de exámenes teórico prácticos que incluían la realización de lo que se conocía como",
+      "answers": [
+        { "text": "Gran obra", "correct": false },
+        { "text": "Obra maestra", "correct": true },
+        { "text": "Opera Prima", "correct": false },
+        { "text": "Gaje del Oficio", "correct": false }
+      ],
+      "explanation": "ES: Históricamente, la “obra maestra” era la pieza de acceso a Maestro. IT: Storicamente la “capolavoro” era il requisito per il grado di Maestro.",
+      "legal_reference": "Referencia histórica/doctrinal (no hay norma vigente específica).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Se considera que nuestro Derecho del Trabajo propiamente dicho comienza con",
+      "answers": [
+        { "text": "La introducción en la península ibérica del Derecho Romano y la regulación de la locatio-conductio operarum", "correct": false },
+        { "text": "El fuero del trabajo, de 1938", "correct": false },
+        { "text": "La ley sobre trabajo de menores de 1873", "correct": true },
+        { "text": "La ley de descanso dominical de 1904", "correct": false }
+      ],
+      "explanation": "ES: La llamada Ley Benot (1873) inicia la legislación social en España. IT: La “Ley Benot” del 1873 segna l’avvio della legislazione sociale spagnola.",
+      "legal_reference": "Ley de 24 de julio de 1873 (Ley Benot) sobre trabajo de mujeres y niños.",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "En la definición del Derecho del Trabajo NO encontramos",
+      "answers": [
+        { "text": "la remuneración", "correct": false },
+        { "text": "la dependencia", "correct": false },
+        { "text": "la ajenidad", "correct": false },
+        { "text": "la exclusividad", "correct": true }
+      ],
+      "explanation": "ES: No existe obligación de exclusividad salvo pacto; el pluriempleo es posible. IT: L’esclusività non è essenziale; il plurimpiego è ammesso salvo patti.",
+      "legal_reference": "ET art. 21.1 (no concurrencia durante la relación); ET art. 5.a (buena fe).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+
+    {
+      "question": "¿Cuál de las siguientes normas no es exclusiva del derecho laboral?",
+      "answers": [
+        { "text": "Disposiciones legales", "correct": true },
+        { "text": "Contrato de trabajo", "correct": false },
+        { "text": "Convenios colectivos", "correct": false },
+        { "text": "Todas lo son", "correct": false }
+      ],
+      "explanation": "ES: Las disposiciones legales existen en todo el ordenamiento, no son exclusivas del laboral. IT: Le “disposizioni di legge” non sono peculiari del diritto del lavoro.",
+      "legal_reference": "ET art. 3.1 (fuentes del Derecho del Trabajo).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "El derecho a la negociación colectiva (Art. 37 de la Constitución española) es susceptible de:",
+      "answers": [
+        { "text": "Recurso de inconstitucionalidad", "correct": true },
+        { "text": "Todos los nombrados", "correct": false },
+        { "text": "Un procedimiento preferente y sumario", "correct": false },
+        { "text": "Recurso de amparo", "correct": false }
+      ],
+      "explanation": "ES: No es derecho fundamental tutelable en amparo ni con procedimiento preferente; la normativa que lo regule puede ser impugnada por inconstitucionalidad. IT: Non è diritto fondamentale (no amparo); una legge che lo incida può essere impugnata per incostituzionalità.",
+      "legal_reference": "CE arts. 37, 53 y 86; LOTC arts. 31-32, 41-42 (ámbito del amparo: arts. 14–29 y 30.2 CE).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "El instrumento normativo del derecho comunitario europeo que se dirige exclusivamente a los Estados miembros y obliga a estos a llevar a cabo una actuación positiva denominada transposición se denomina:",
+      "answers": [
+        { "text": "Decisión", "correct": false },
+        { "text": "Reglamento", "correct": false },
+        { "text": "Recomendación", "correct": false },
+        { "text": "Directiva", "correct": true }
+      ],
+      "explanation": "ES: La Directiva obliga al resultado y requiere transposición estatal. IT: La Direttiva vincola sul risultato e richiede recepimento.",
+      "legal_reference": "TFUE art. 288 (ant. art. 249 TCE).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "El órgano de la OIT integrado por cuatro representantes de cada estado miembro (dos por el gobierno, uno por los empresarios y otro por los trabajadores), que se reúne al menos una vez al año y tiene, entre otras atribuciones, la de adoptar convenios y recomendaciones, aprobar los presupuestos y el control de la acción de otros órganos es:",
+      "answers": [
+        { "text": "La Conferencia", "correct": true },
+        { "text": "El consejo de administración", "correct": false },
+        { "text": "La Oficina Internacional de Trabajo", "correct": false },
+        { "text": "La directiva", "correct": false }
+      ],
+      "explanation": "ES: La Conferencia Internacional del Trabajo es el órgano normativo de la OIT. IT: La Conferenza Internazionale del Lavoro è l’organo normativo dell’OIL.",
+      "legal_reference": "Constitución de la OIT arts. 3, 14 y 19.",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "El Principio de condición más beneficiosa implica:",
+      "answers": [
+        { "text": "Que el trabajador puede renunciar a los derechos que quiera", "correct": false },
+        { "text": "Que se aplicará la norma más favorable para el trabajador", "correct": false },
+        { "text": "Que la norma de rango inferior puede modificar la de rango superior para mejorarla", "correct": false },
+        { "text": "Que los derechos adquiridos por el trabajador por contrato de trabajo no se pierden aunque cambien las leyes", "correct": true }
+      ],
+      "explanation": "ES: Las condiciones más beneficiosas contractuales se conservan salvo compensación/absorción. IT: Le condizioni più favorevoli contrattuali si mantengono salvo compensazione/assorbimento.",
+      "legal_reference": "ET art. 3.1.c y 26.5; jurisprudencia TS sobre condición más beneficiosa (p.ej. SSTS 22-12-2014, 16-02-2016).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "¿En virtud de qué principio no se pueden empeorar en los contratos de trabajo las condiciones establecidas en los convenios colectivos?",
+      "answers": [
+        { "text": "Principio de norma más favorable", "correct": true },
+        { "text": "Principio de condición más beneficiosa", "correct": false },
+        { "text": "Principio de irrenunciabilidad de derechos", "correct": false },
+        { "text": "Principio pro operario", "correct": false }
+      ],
+      "explanation": "ES: La norma inferior no puede empeorar lo fijado por la superior: prevalece la más favorable en conjunto. IT: La norma di grado inferiore non può peggiorare quella superiore: prevale la più favorevole nel complesso.",
+      "legal_reference": "ET art. 3.3; CE art. 37.1; doctrina TS sobre criterio de globalidad.",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "¿En virtud de qué principio, donde existan varias interpretaciones posibles de un precepto de derecho del trabajo, será de aplicación la interpretación que mayor beneficio reporte al trabajador?",
+      "answers": [
+        { "text": "Principio pro operario", "correct": true },
+        { "text": "Principio de norma más favorable", "correct": false },
+        { "text": "Principio de condición más beneficiosa", "correct": false },
+        { "text": "Principio de irrenunciabilidad de derechos", "correct": false }
+      ],
+      "explanation": "ES: El pro operario es un criterio hermenéutico ante dudas interpretativas. IT: Il pro operario è un criterio interpretativo a favore del lavoratore nei casi dubbi.",
+      "legal_reference": "ET art. 3; CC art. 3.1; jurisprudencia TS (criterio pro operario).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Las normas con rango de ley, elaboradas por el Gobierno ante situaciones extraordinarias o de urgente necesidad son:",
+      "answers": [
+        { "text": "Los Decretos – Leyes", "correct": true },
+        { "text": "Los Decretos Legislativos", "correct": false },
+        { "text": "Las leyes orgánicas", "correct": false },
+        { "text": "Las leyes ordinarias", "correct": false }
+      ],
+      "explanation": "ES: El Decreto-ley lo dicta el Gobierno por urgente necesidad. IT: Il Decreto-legge è adottato dal Governo in casi di necessità e urgenza.",
+      "legal_reference": "CE art. 86.",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Un texto articulado (Real Decreto Legislativo) se dicta en desarrollo de:",
+      "answers": [
+        { "text": "Una ley orgánica", "correct": false },
+        { "text": "Una ley ordinaria de delegación", "correct": false },
+        { "text": "Una ley de bases", "correct": true },
+        { "text": "Un decreto ley", "correct": false }
+      ],
+      "explanation": "ES: La delegación para textos articulados se hace mediante ley de bases. IT: La delega per testi articolati avviene con legge di basi.",
+      "legal_reference": "CE art. 82.2 y 82.3.",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Conforme con el Artículo 3 del Estatuto de los Trabajadores, la primera fuente del Derecho del Trabajo será:",
+      "answers": [
+        { "text": "El Convenio Colectivo", "correct": false },
+        { "text": "La Costumbre local y profesional", "correct": false },
+        { "text": "Las disposiciones legales y reglamentarias", "correct": true },
+        { "text": "El contrato de trabajo", "correct": false }
+      ],
+      "explanation": "ES: El ET sitúa en primer lugar las disposiciones legales y reglamentarias. IT: L’ET pone al primo posto le disposizioni legali e regolamentari.",
+      "legal_reference": "ET art. 3.1 a).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+
+    {
+      "question": "¿Cuál no es una relación laboral de carácter especial de las recogidas en el artículo 2 del Estatuto de los Trabajadores?",
+      "answers": [
+        { "text": "Funcionarios públicos", "correct": true },
+        { "text": "Servicio del hogar familiar", "correct": false },
+        { "text": "Penados en las instituciones penitenciarias", "correct": false },
+        { "text": "Artistas en espectáculos públicos", "correct": false }
+      ],
+      "explanation": "ES: Los funcionarios se rigen por Derecho administrativo, no por relación laboral especial. IT: I funzionari pubblici rientrano nel diritto amministrativo, non in un rapporto di lavoro speciale.",
+      "legal_reference": "ET art. 2; RDL 5/2015 (EBEP) art. 1 y 2.",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "¿Cuáles son algunas de las relaciones laborales especiales que contempla el Estatuto de los Trabajadores?",
+      "answers": [
+        { "text": "La del personal de alta dirección, los deportistas profesionales y los artistas de espectáculos públicos", "correct": true },
+        { "text": "La de los menores de edad y la de los trabajadores autónomos dependientes", "correct": false },
+        { "text": "La del servicio del hogar familiar y los menores de edad", "correct": false },
+        { "text": "La de los funcionarios y del personal estatutario", "correct": false }
+      ],
+      "explanation": "ES: Alta dirección, deportistas y artistas son relaciones especiales. IT: Dirigenti, sportivi e artisti sono rapporti speciali.",
+      "legal_reference": "ET art. 2; RD 1382/1985 (alta dirección); RD 1006/1985 (deportistas); RD 1435/1985 (artistas).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Los funcionarios públicos:",
+      "answers": [
+        { "text": "Están excluidos de la contratación laboral", "correct": true },
+        { "text": "Son trabajadores sujetos a una relación laboral especial", "correct": false },
+        { "text": "Son trabajadores autónomos", "correct": false },
+        { "text": "Su relación de servicios se rige por la normativa mercantil", "correct": false }
+      ],
+      "explanation": "ES: Su vínculo es estatutario, no laboral. IT: Il loro rapporto è statutario, non di lavoro subordinato.",
+      "legal_reference": "RDL 5/2015 (EBEP) arts. 2 y 8; ET art. 1.3 a).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Según la disposición final primera del Estatuto de los Trabajadores: El trabajo por cuenta propia:",
+      "answers": [
+        { "text": "No está sometido a la legislación laboral excepto en aquellos aspectos que, por precepto legal, se disponga expresamente", "correct": true },
+        { "text": "Está sometido siempre a la legislación laboral", "correct": false },
+        { "text": "No está sometido nunca a la legislación laboral", "correct": false },
+        { "text": "No está sometido a la legislación laboral excepto en aquellos aspectos que, por precepto legal o convenio colectivo se disponga expresamente", "correct": false }
+      ],
+      "explanation": "ES: El ET excluye el trabajo por cuenta propia salvo remisión legal. IT: L’ET esclude il lavoro autonomo salvo rinvii di legge.",
+      "legal_reference": "ET art. 1; LETA art. 1 y 2.",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "¿Quiénes están excluidos de la relación laboral?",
+      "answers": [
+        { "text": "Los trabajadores por cuenta propia", "correct": true },
+        { "text": "Los trabajadores por cuenta ajena", "correct": false },
+        { "text": "Los trabajadores que se comprometen personalmente a la realización de un servicio", "correct": false },
+        { "text": "Los trabajadores que realizan trabajos retribuidos", "correct": false }
+      ],
+      "explanation": "ES: La relación laboral requiere ajenidad y dependencia; el autónomo queda excluido. IT: Il lavoro autonomo è fuori dal campo del lavoro subordinato.",
+      "legal_reference": "ET art. 1.1 y 1.3; LETA art. 1.",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "¿Cuál de las siguientes actividades no está excluida de la relación laboral?",
+      "answers": [
+        { "text": "El personal de alta dirección", "correct": true },
+        { "text": "Los trabajos realizados a título de amistad", "correct": false },
+        { "text": "Los servicios de transportistas que utilizan vehículos de su propiedad", "correct": false },
+        { "text": "Las actividades de los agentes de comercio que asuman todo el riesgo de la operación", "correct": false }
+      ],
+      "explanation": "ES: Alta dirección es relación laboral especial, no exclusión absoluta. IT: L’alta direzione è rapporto speciale, non escluso dal campo del lavoro.",
+      "legal_reference": "ET art. 2.1 a); RD 1382/1985 (alta dirección).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Un camionero que presta servicio con vehículo propio y autorización a su nombre, para un único cliente, ¿su actividad se considera?:",
+      "answers": [
+        { "text": "Actividad excluida del ámbito laboral. (Art. 1.3 TRET)", "correct": true },
+        { "text": "Actividad laboral normal. (Artículo 1.1. TRET)", "correct": false },
+        { "text": "Relación laboral especial. (Art. 2 TRET)", "correct": false },
+        { "text": "Ninguna de las anteriores", "correct": false }
+      ],
+      "explanation": "ES: Prestación con vehículo propio y autorización suele encajar en relación mercantil excluida del ET. IT: Prestazione con mezzo proprio e licenza rientra di regola in rapporto commerciale escluso dall’ET.",
+      "legal_reference": "ET art. 1.3 g) y h) (supuestos excluidos); LOTT y normativa de transporte (régimen mercantil).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "El personal de alta dirección que no sea consejero o miembro del Consejo de Administración:",
+      "answers": [
+        { "text": "Es un supuesto de relación laboral de carácter especial", "correct": true },
+        { "text": "Está excluido del TRET por el artículo 1.3", "correct": false },
+        { "text": "Es un contrato laboral común", "correct": false },
+        { "text": "Ninguna de las anteriores es cierta", "correct": false }
+      ],
+      "explanation": "ES: Alta dirección tiene régimen laboral especial específico. IT: La dirigenza apicale è rapporto speciale con disciplina propria.",
+      "legal_reference": "ET art. 2.1 a); RD 1382/1985 (relación laboral de alta dirección).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Si un juez reconoce a Javier como trabajador autónomo económicamente dependiente, ¿desde cuándo tendrá efecto?",
+      "answers": [
+        { "text": "Desde el momento en que se hubiere recibido por el cliente la comunicación", "correct": true },
+        { "text": "Desde el momento en que hubiera enviado la comunicación al cliente", "correct": false },
+        { "text": "Desde el momento en el que comenzó la relación contractual con el cliente", "correct": false },
+        { "text": "Desde el momento en el que el juez, vistas las pruebas, considere", "correct": false }
+      ],
+      "explanation": "ES: Los efectos se anudan a la recepción por el cliente de la comunicación fehaciente. IT: Gli effetti decorrono dalla ricezione della comunicazione da parte del cliente.",
+      "legal_reference": "Ley 20/2007 (LETA) art. 12; RD 197/2009 art. 3.",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "¿Qué jurisdicción es competente para una reclamación de daños de un trabajador autónomo económicamente dependiente?",
+      "answers": [
+        { "text": "Al ser autónomo económicamente dependiente, le corresponde siempre la Jurisdicción Social para reclamaciones derivadas de su contrato con el cliente", "correct": true },
+        { "text": "Al ser autónomo, la Jurisdicción Mercantil, al ser una extinción de contrato", "correct": false },
+        { "text": "Aunque es autónomo, al ser un despido le corresponde la Jurisdicción Social", "correct": false },
+        { "text": "Al ser autónomo, la Jurisdicción Mercantil, en todo caso", "correct": false }
+      ],
+      "explanation": "ES: La LRJS atribuye a lo social los litigios derivados del contrato TRADE. IT: La LRJS devolve alla giurisdizione sociale le controversie del TRADE.",
+      "legal_reference": "LRJS art. 2 n) (competencia en materia de trabajadores autónomos económicamente dependientes).",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Según el artículo 9 del Estatuto de los trabajadores, si resultase nula sólo una parte de un contrato de trabajo:",
+      "answers": [
+        { "text": "El contrato permanecerá válido en lo restante, y se entenderá completado con los preceptos jurídicos adecuados", "correct": true },
+        { "text": "Todo el contrato resulta afectado y es nulo", "correct": false },
+        { "text": "Todo el contrato resulta válido, convalidando la parte nula", "correct": false },
+        { "text": "Su validez o nulidad dependerá de la importancia de la cláusula nula", "correct": false }
+      ],
+      "explanation": "ES: La nulidad parcial no arrastra el resto del contrato, que se integra con las normas aplicables. IT: La nullità parziale non travolge l’intero contratto; la parte restante si integra con le norme pertinenti.",
+      "legal_reference": "ET art. 9.1",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "El contrato de trabajo:",
+      "answers": [
+        { "text": "Tiene una función creadora o constitutiva respecto de la relación laboral", "correct": true },
+        { "text": "Puede establecer cláusulas menos favorables que lo regulado en convenio colectivo", "correct": false },
+        { "text": "Deja un gran margen de actuación a la voluntad de las partes", "correct": false },
+        { "text": "Todas son falsas", "correct": false }
+      ],
+      "explanation": "ES: El acuerdo contractual crea la relación laboral, pero no puede empeorar lo fijado por la ley o el convenio. IT: Il contratto costituisce il rapporto di lavoro ma non può derogare in peius a legge o contratto collettivo.",
+      "legal_reference": "ET arts. 1, 3 y 8",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "El contrato de trabajo:",
+      "answers": [
+        { "text": "Es un contrato típico y nominado, que se encuentra previsto y regulado por ley", "correct": true },
+        { "text": "Es un contrato de compraventa, el trabajador vende su fuerza de trabajo a cambio de un precio", "correct": false },
+        { "text": "Es un contrato de mandato, en el que el trabajador realiza negocios o actos por cuenta de otra persona, el empresario", "correct": false },
+        { "text": "Es un arrendamiento de servicios, en el que se pacta la ejecución de unos trabajos, no la entrega de una obra", "correct": false }
+      ],
+      "explanation": "ES: Es un contrato típico regulado por el ET y normativa laboral. IT: È un contratto tipico e nominato, disciplinato dall’ET e dalla normativa del lavoro.",
+      "legal_reference": "ET (texto refundido) arts. 1–3 y 8; CC art. 1255 (límites a la autonomía)",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Salvo excepciones muy concretas, la posibilidad de firmar un contrato de trabajo, como trabajador:",
+      "answers": [
+        { "text": "Se establece a partir de los 16 años", "correct": true },
+        { "text": "Se reconoce sólo a los mayores de edad", "correct": false },
+        { "text": "Se establece a partir de los 14 años", "correct": false },
+        { "text": "Se permite a los menores de 16, siempre que estén emancipados", "correct": false }
+      ],
+      "explanation": "ES: Pueden contratar mayores de 16 y menores de 18 con consentimiento o si están emancipados. IT: Possono lavorare i maggiori di 16 anni con consenso o se emancipati.",
+      "legal_reference": "ET art. 7; CC arts. 162, 323–326 (emancipación)",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Una persona que tiene 17 años, en plenitud de facultades mentales, ¿puede celebrar válidamente un contrato de trabajo?:",
+      "answers": [
+        { "text": "si está emancipado legalmente, cuenta con la autorización de sus padres o tutores o vive independiente (con independencia económica)", "correct": true },
+        { "text": "No, en ningún caso", "correct": false },
+        { "text": "Sí, en todo caso", "correct": false },
+        { "text": "Necesitará, en todo caso, la autorización de padre o tutor", "correct": false }
+      ],
+      "explanation": "ES: El enunciado considera válida también la categoría de «vive independiente», que no figura como tal en la ley; la capacidad deriva de emancipación o autorización. IT: L’enunciato include «vive indipendente», nozione non prevista; la capacità si fonda su emancipazione o autorizzazione.",
+      "legal_reference": "ET art. 7; CC arts. 162 y 323",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Como empresarios, ¿los menores de 18 años pueden celebrar un contrato?:",
+      "answers": [
+        { "text": "No, salvo que sean mayores de 16 años y estén emancipados", "correct": true },
+        { "text": "No, salvo que sean mayores de 16 años y lo hagan a través de un representante", "correct": false },
+        { "text": "Sí, el límite de edad sólo se establece para los trabajadores", "correct": false },
+        { "text": "No. En ningún caso", "correct": false }
+      ],
+      "explanation": "ES: La capacidad general para contratar como empresario requiere mayoría de edad o emancipación. IT: Per agire come imprenditore serve la maggiore età o l’emancipazione.",
+      "legal_reference": "CC arts. 322–323; Código de Comercio art. 4",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Las consecuencias de la contratación laboral de un menor son:",
+      "answers": [
+        { "text": "Que el contrato de trabajo es susceptible de anulación y que el empresario incurre en una infracción administrativa laboral de carácter muy grave", "correct": true },
+        { "text": "Que el contrato de trabajo se presume realizado por tiempo indefinido y a jornada completo", "correct": false },
+        { "text": "Que el contrato de trabajo es válido y no se puede anular pero que el empresario podrá ser sancionado por cometer una infracción muy grave", "correct": false },
+        { "text": "Te concede una bonificación en la Seguridad Social", "correct": false }
+      ],
+      "explanation": "ES: Está prohibido contratar menores de 16; el contrato es anulable y la infracción es muy grave. IT: Vietato assumere minori di 16 anni; il contratto è annullabile e l’infrazione è molto grave.",
+      "legal_reference": "ET art. 6.1; LISOS art. 8.3",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "La presunción de existencia del contrato de trabajo en la prestación de servicios por cuenta y dentro del ámbito de organización y dirección de otra persona a cambio de una retribución de ésta",
+      "answers": [
+        { "text": "admite prueba en contrario", "correct": true },
+        { "text": "No admite prueba en contrario", "correct": false },
+        { "text": "no se recoge en el Estatuto de los trabajadores", "correct": false },
+        { "text": "no existe tal presunción", "correct": false }
+      ],
+      "explanation": "ES: La prestación por cuenta ajena y dependiente presume laboralidad, pero es iuris tantum. IT: La prestazione per conto altrui e in dipendenza presume il rapporto di lavoro, ma è presunzione relativa.",
+      "legal_reference": "ET art. 8.1–8.2; doctrina TS sobre presunción de laboralidad",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "¿Cuál de estas afirmaciones no es correcta?",
+      "answers": [
+        { "text": "El contrato de trabajo es un acuerdo por escrito", "correct": true },
+        { "text": "El contrato de trabajo manifiesta la voluntad de las partes: El empresario y el trabajador", "correct": false },
+        { "text": "Por el contrato de trabajo el trabajador se compromete a prestar determinados servicios", "correct": false },
+        { "text": "Por el contrato de trabajo el empresario se obliga a pagar un salario al trabajador", "correct": false }
+      ],
+      "explanation": "ES: El contrato puede ser escrito o verbal salvo supuestos tasados. IT: Il contratto può essere scritto o verbale salvo casi obbligatori.",
+      "legal_reference": "ET art. 8.1–8.2",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "En empresas de menos de 25 trabajadores el periodo de pruebas para técnicos no titulados tendrá una duración máxima de",
+      "answers": [
+        { "text": "3 meses", "correct": true },
+        { "text": "4 meses", "correct": false },
+        { "text": "2 meses", "correct": false },
+        { "text": "6 meses", "correct": false }
+      ],
+      "explanation": "ES: Para trabajadores que no sean técnicos titulados, el máximo es 3 meses en empresas <25. IT: Per non tecnici, limite 3 mesi nelle imprese con meno di 25 dipendenti.",
+      "legal_reference": "ET art. 14.1 (límites del período de prueba)",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+
+    {
+      "question": "Los contratos a tiempo parcial se pueden celebrar",
+      "answers": [
+        { "text": "Por tiempo indefinido o con una duración determinada", "correct": true },
+        { "text": "Por tiempo indefinido, exclusivamente", "correct": false },
+        { "text": "Con una duración determinada, exclusivamente", "correct": false },
+        { "text": "Sólo con una duración determinada, y siempre que se alegue la causa", "correct": false }
+      ],
+      "explanation": "ES: El tiempo parcial puede ser indefinido o temporal. IT: Il part-time può essere a tempo indeterminato o determinato.",
+      "legal_reference": "ET art. 12.1–12.2",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Señale la correcta para el contrato a tiempo parcial",
+      "answers": [
+        { "text": "el trabajador no puede hacer horas extraordinarias", "correct": true },
+        { "text": "es posible en los contratos formativos", "correct": false },
+        { "text": "su conversión en indefinido o viceversa cabe de forma obligatoria en una modificación sustancial de condiciones de trabajo", "correct": false },
+        { "text": "el empresario podrá requerir la prestación de horas complementarias con un preaviso de 5 días", "correct": false }
+      ],
+      "explanation": "ES: En el tiempo parcial, por regla general, no caben horas extraordinarias (salvo fuerza mayor). IT: Nel part-time gli straordinari sono vietati (salvo forza maggiore).",
+      "legal_reference": "ET art. 12.4.c) y 12.5 (horas complementarias)",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "De las siguientes afirmaciones, señale la única verdadera",
+      "answers": [
+        { "text": "Los contratos de duración determinada sólo pueden celebrarse cuando concurran las causas o motivos que les sirven de fundamento", "correct": true },
+        { "text": "En función de su duración, los contratos de trabajo se clasifican en contratos por tiempo indefinido, contratos temporales y contratos basura", "correct": false },
+        { "text": "Los contratos por tiempo indefinido no son incentivados por el Derecho español, al ser poco atractivos en un contexto económico en continua transformación", "correct": false },
+        { "text": "Los contratos de duración determinada no tienen previsto inicialmente el momento o la causa de su extinción", "correct": false }
+      ],
+      "explanation": "ES: La temporalidad exige causa objetiva; el indefinido es la regla. IT: Il tempo determinato richiede causale; l’indeterminato è la regola.",
+      "legal_reference": "ET art. 15.1–15.2 (tras RDL 32/2021)",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Los contratos de duración determinada se presumen celebrados por tiempo indefinido (y jornada completa) cuando",
+      "answers": [
+        { "text": "No se da de alta al trabajador en la seguridad social y ha transcurrido el periodo de prueba o tiempo equivalente", "correct": true },
+        { "text": "Se conciertan por escrito", "correct": false },
+        { "text": "Nunca se presumirán celebrados por tiempo indefinido los contratos de duración determinada", "correct": false },
+        { "text": "Siempre se presumirán celebrados por tiempo indefinido los contratos de duración determinada", "correct": false }
+      ],
+      "explanation": "ES: Sin alta y transcurrido el periodo de prueba, se presume indefinido a jornada completa salvo prueba en contrario. IT: Senza iscrizione alla SS e decorso il periodo di prova, si presume a tempo indeterminato full-time salvo prova contraria.",
+      "legal_reference": "ET art. 8.2 (falta de forma escrita o de alta) y 15.3 (fraude)",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "¿Qué contrato realizaremos si queremos sustituir un trabajador con reserva del puesto, o cubrir un puesto durante un proceso de selección?",
+      "answers": [
+        { "text": "Sustitución", "correct": true },
+        { "text": "Interinidad", "correct": false },
+        { "text": "Relevo", "correct": false },
+        { "text": "Selección", "correct": false }
+      ],
+      "explanation": "ES: Tras la reforma, la modalidad es «contrato de sustitución». IT: Dopo la riforma, la figura è il «contratto di sostituzione».",
+      "legal_reference": "ET art. 15.3 (sustitución del trabajador con reserva de puesto / durante selección)",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Un contrato de duración determinada superior a un año, se presume celebrado por tiempo indefinido y a jornada completa cuando",
+      "answers": [
+        { "text": "Todas son correctas", "correct": true },
+        { "text": "No se observa la exigencia de la forma escrita", "correct": false },
+        { "text": "No se ha dado de alta al trabajador en la seguridad social", "correct": false },
+        { "text": "Se incumplen las disposiciones sobre denuncia", "correct": false }
+      ],
+      "explanation": "ES: Determinados incumplimientos (forma, alta, fraude/denuncia) conducen a la presunción de indefinido a tiempo completo. IT: Alcune violazioni (forma, iscrizione, frode/denuncia) portano alla presunzione di indeterminato full-time.",
+      "legal_reference": "ET arts. 8.2 y 15.3; doctrina sobre fraude de ley en temporalidad",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "¿El contrato temporal por circunstancias de la producción será prorrogable?",
+      "answers": [
+        { "text": "Sí, una sola prórroga, si su duración no había llegado al máximo permitido", "correct": true },
+        { "text": "No, en ningún caso", "correct": false },
+        { "text": "Dependiendo de si ha finalizado la circunstancia que lo causa", "correct": false },
+        { "text": "Sí, tantas prórrogas como se quiera, siempre que su duración no haya llegado al máximo permitido", "correct": false }
+      ],
+      "explanation": "ES: Admite una sola prórroga si no se alcanza el máximo legal o convencional. IT: È ammessa un’unica proroga se non si supera il limite massimo.",
+      "legal_reference": "ET art. 15.2 (circunstancias de la producción)",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Para el caso de que un Convenio colectivo no lo recoja, el contrato temporal por circunstancias imprevistas de la producción tendrá una duración máxima de",
+      "answers": [
+        { "text": "6 meses", "correct": true },
+        { "text": "12 meses", "correct": false },
+        { "text": "8 meses", "correct": false },
+        { "text": "3 meses", "correct": false }
+      ],
+      "explanation": "ES: Duración máxima legal supletoria de 6 meses (ampliable por convenio). IT: Durata massima legale, in via suppletiva, di 6 mesi (estendibile da CCNL).",
+      "legal_reference": "ET art. 15.2 (imprevisibles: 6 de 12 por convenio)",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Como regla general, el Estatuto de los trabajadores contempla el derecho del trabajador eventual a una indemnización por extinción del contrato que consiste en",
+      "answers": [
+        { "text": "12 días de salario por año de servicio", "correct": true },
+        { "text": "8 días de salario por año de servicio", "correct": false },
+        { "text": "9 días de salario por año de servicio", "correct": false },
+        { "text": "10 días de salario por año de servicio", "correct": false }
+      ],
+      "explanation": "ES: Indemnización legal de 12 días/año para la mayoría de temporales. IT: Indennità legale di 12 giorni/anno per i rapporti a termine.",
+      "legal_reference": "ET art. 49.1.c) (indemnización por fin de contrato temporal)",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "El contrato de sustitución para un puesto que va a ser cubierto por un proceso de selección tendrá una duración máxima de",
+      "answers": [
+        { "text": "3 meses", "correct": true },
+        { "text": "1 mes", "correct": false },
+        { "text": "2 meses", "correct": false },
+        { "text": "6 meses", "correct": false }
+      ],
+      "explanation": "ES: La cobertura de vacante durante selección se limita a 3 meses. IT: La copertura della vacanza durante la selezione è limitata a 3 mesi.",
+      "legal_reference": "ET art. 15.3 (sustitución por cobertura de vacante)",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+
+    {
+      "question": "¿Tiene el trabajador que cumplir las órdenes del empresario o puede desobedecer las que no considere adecuadas?",
+      "answers": [
+        { "text": "En principio tiene que cumplirlas y, si no está de acuerdo con la orden, reclamar después. Además puede desobedecer algunas clases de órdenes (ilegales, perjudiciales para su prestigio o competencia profesional)", "correct": true },
+        { "text": "Sí, tiene que cumplirlas todas porque el Estatuto de los Trabajadores establece el poder de dirección del empresario", "correct": false },
+        { "text": "Sí, siempre que se le hagan con educación tiene que cumplirlas, porque si no las cumple el empresario puede despedir al trabajador por desobediencia", "correct": false },
+        { "text": "El trabajador, como persona, tiene libertad y autonomía para decidir qué órdenes cumple y cuáles no, conforme al derecho de la objeción de conciencia", "correct": false }
+      ],
+      "explanation": "ES: Regla de cumplimiento y posterior impugnación; cabe negativa ante órdenes ilícitas o notoriamente infundadas. IT: Regola dell’ottemperanza con impugnazione successiva; è legittimo rifiutare ordini illeciti o manifestamente infondati.",
+      "legal_reference": "ET arts. 5.a), 20.2–20.3 y 54.2 b)–d); doctrina TS",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Entre los deberes laborales básicos que recoge el Estatuto de los Trabajadores se encuentran",
+      "answers": [
+        { "text": "Observar las medidas de seguridad e higiene que se adopten y contribuir a la mejora de la productividad", "correct": true },
+        { "text": "Cotizar a la Seguridad Social y no concurrir con la actividad de la empresa", "correct": false },
+        { "text": "No discriminar por razón de sexo a los compañeros", "correct": false },
+        { "text": "Todas las respuestas son correctas", "correct": false }
+      ],
+      "explanation": "ES: La seguridad y salud y la diligencia/productividad forman parte de los deberes básicos. IT: Sicurezza e salute e diligenza/produttività rientrano tra i doveri basilari.",
+      "legal_reference": "ET art. 5 y 19; LPRL 31/1995 art. 29",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "Las Empresas de Trabajo temporal:",
+      "answers": [
+        { "text": "Como su propio nombre indica, realizan cesiones temporales de trabajadores", "correct": true },
+        { "text": "Como su propio nombre indica, sólo pueden hacer contratos temporales a los trabajadores", "correct": false },
+        { "text": "Pueden tener trabajadores con contrato indefinido, pero para sus oficinas, no para cederlos a otras empresas", "correct": false },
+        { "text": "Todas son correctas", "correct": false }
+      ],
+      "explanation": "ES: Su objeto es la cesión temporal; los trabajadores pueden estar vinculados a la ETT con distintos contratos. IT: L’oggetto è la somministrazione temporanea; i lavoratori possono avere vari tipi di contratto con l’agenzia.",
+      "legal_reference": "Ley 14/1994, arts. 1–6 y 10",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "¿Puede el empresario adoptar cualquier medida para verificar el cumplimiento por el trabajador de sus obligaciones y deberes laborales?",
+      "answers": [
+        { "text": "Siempre que el empresario guarde la consideración debida a la dignidad humana del trabajador y se considere, en su caso, la capacidad real del trabajador discapacitado", "correct": true },
+        { "text": "Sí, siempre", "correct": false },
+        { "text": "No, dado que ello atentaría contra los derechos fundamentales del trabajador", "correct": false },
+        { "text": "Sí, cuando ello sea necesario para la protección del patrimonio de la empresa", "correct": false }
+      ],
+      "explanation": "ES: Las medidas deben respetar dignidad y proporcionalidad. IT: Le misure devono rispettare dignità e proporzionalità.",
+      "legal_reference": "ET art. 20.3; LOPDGDD art. 89–90; STC 39/2016",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "El establecimiento de un sistema de organizaciones, división del trabajo y ordenación material del mismo se denomina",
+      "answers": [
+        { "text": "Poder de dirección", "correct": true },
+        { "text": "Poder disciplinario", "correct": false },
+        { "text": "Poder de control", "correct": false },
+        { "text": "Ninguna de las respuestas anteriores es correcta", "correct": false }
+      ],
+      "explanation": "ES: Es la manifestación del poder organizativo del empresario. IT: È la manifestazione del potere organizzativo del datore.",
+      "legal_reference": "ET art. 20.1–20.2",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "¿Puede el trabajador, conforme con el deber de buena fe, prestar sus servicios profesionales para varios empresarios de forma alternativa?",
+      "answers": [
+        { "text": "Sí, pero no puede realizar tareas de la misma o de similar naturaleza con respecto a las que está realizando en la empresa de referencia, de acuerdo con su contrato de trabajo, si se estima competencia desleal", "correct": true },
+        { "text": "Sí, en todo caso", "correct": false },
+        { "text": "No, nuestro ordenamiento jurídico prohíbe el pluriempleo", "correct": false },
+        { "text": "Nunca, salvo comunicación previa a los representantes sindicales", "correct": false }
+      ],
+      "explanation": "ES: El pluriempleo es posible, salvo concurrencia desleal y pactos de exclusividad. IT: Il pluri-impiego è possibile, salvo concorrenza sleale e patti di esclusiva.",
+      "legal_reference": "ET art. 5.a) (buena fe) y art. 21.1 (no competencia durante la relación)",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "¿Cuándo está legitimado el trabajador a desobedecer las órdenes dadas por el empresario?",
+      "answers": [
+        { "text": "Cuando la orden sea contraria a las normas laborales, constituya ilícito penal o sea notoriamente infundada de manera que lleve aparejado descrédito profesional", "correct": true },
+        { "text": "Nunca, el trabajador siempre está obligado a cumplir las órdenes impartidas por el empresario y después, si ha lugar, reclamar", "correct": false },
+        { "text": "Cuando la orden sea contraria a las normas laborales o sea ilícita penalmente", "correct": false },
+        { "text": "Todas son falsas", "correct": false }
+      ],
+      "explanation": "ES: Cabe negativa frente a órdenes ilícitas o manifiestamente irrazonables. IT: È legittimo rifiutare ordini illeciti o manifestamente irragionevoli.",
+      "legal_reference": "ET arts. 5 y 20; doctrina TS sobre derecho de resistencia",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "El contrato de Puesta a disposición",
+      "answers": [
+        { "text": "Se firma entre la Empresa de Trabajo Temporal y la Empresa usuaria", "correct": true },
+        { "text": "Se firma entre el trabajador y la empresa usuaria", "correct": false },
+        { "text": "Se firma entre el trabajador y la Empresa de Trabajo Temporal", "correct": false },
+        { "text": "Se firma entre el trabajador, la Empresa de Trabajo Temporal y la Empresa usuaria", "correct": false }
+      ],
+      "explanation": "ES: Es el acuerdo ETT–empresa usuaria que habilita la cesión del trabajador. IT: È il contratto tra agenzia e impresa utilizzatrice che abilita la somministrazione.",
+      "legal_reference": "Ley 14/1994, art. 6 y 8",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "¿Cuáles son las consecuencias del incumplimiento por el trabajador del deber de diligencia, si hay una disminución voluntaria del rendimiento?",
+      "answers": [
+        { "text": "El incumplimiento de este deber dará derecho al empresario a reducir correlativamente el salario debido, pudiendo constituir un incumplimiento sancionable incluso con el despido", "correct": true },
+        { "text": "El empresario sólo podrá imponer al trabajador una sanción", "correct": false },
+        { "text": "El empresario podrá decretar el despido del trabajador", "correct": false },
+        { "text": "El empresario cambiará de puesto al trabajador y podrá pedirle una indemnización por daños y perjuicios", "correct": false }
+      ],
+      "explanation": "ES: La disminución voluntaria y continuada puede justificar sanción grave, incluso despido; el salario se corresponde con el trabajo efectivamente realizado. IT: La riduzione volontaria e continuata del rendimento può giustificare sanzione fino al licenziamento; la retribuzione corrisponde al lavoro effettivo.",
+      "legal_reference": "ET art. 54.2.e) y art. 58; principio de salario por trabajo debido (ET art. 26)",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
+    },
+    {
+      "question": "En la empresa Razonadas Sinrazones, S.A. se va a implantar un sistema de tornos para saber con exactitud la hora a la que los trabajadores entran y salen de la empresa, así como el tiempo en el que abandonan su puesto de trabajo para tomarse un descanso. Los trabajadores le preguntan si esto es posible y les responde que sí, siempre que la medida sea idónea, necesaria y proporcional. En concreto, les explica el significado de la idoneidad, que es",
+      "answers": [
+        { "text": "Que la medida sea susceptible de conseguir el objetivo perseguido", "correct": true },
+        { "text": "Que no exista una medida más moderada para conseguir el objetivo", "correct": false },
+        { "text": "Que la medida no sea ilegal", "correct": false },
+        { "text": "Que de la medida se derivan más beneficios para el interés general que perjuicios sobre otros bienes o valores en conflicto", "correct": false }
+      ],
+      "explanation": "ES: Idoneidad = aptitud del medio para conseguir el fin; parte del test de proporcionalidad. IT: Idoneità = attitudine del mezzo al fine; parte del test di proporzionalità.",
+      "legal_reference": "ET art. 20.3; STC 14/2003 y 39/2016 (proporcionalidad)",
+      "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     }
   ]
 }

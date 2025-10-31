@@ -721,6 +721,366 @@
       "explanation": "ES: Es falsa la exclusividad para SA; tras la reforma, pueden ser telemáticas también en SL si estatutariamente previsto. IT: Non è vero che valgano solo per S.A.; anche le S.R.L. possono tenerle se previste dallo statuto.",
       "legal_reference": "LSC art. 182 bis (juntas exclusivamente telemáticas; aplicable a SA y SL, Ley 5/2021).",
       "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "79. La sentencia estimatoria de la impugnación de acuerdos sociales en sede de junta general:",
+      "answers": [
+        { "text": "No afectará caso de aumento de capital a los terceros suscriptores de tas acciones de las nuevas acciones", "correct": false },
+        { "text": "Afectará todos los socios", "correct": false },
+        { "text": "Será cosa juzgada material", "correct": false },
+        { "text": "No afectará a la validez de los actos o contratos realizados con terceros", "correct": true }
+      ],
+      "explanation": "ES: La nulidad del acuerdo no perjudica la validez de actos/contratos frente a terceros de buena fe. IT: L’annullamento della delibera non incide sugli atti con terzi in buona fede.",
+      "legal_reference": "LSC art. 207 (eficacia de la sentencia de impugnación).",
+      "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "1.- El carácter mercantil de las sociedades de capital viene atribuido por su:",
+      "answers": [
+        { "text": "Estructura corporativa.", "correct": false },
+        { "text": "División del capital en partes alícuotas.", "correct": false },
+        { "text": "Objeto social.", "correct": false },
+        { "text": "Forma social.", "correct": true }
+      ],
+      "explanation": "ES: Las sociedades de capital tienen carácter mercantil por su forma con independencia del objeto. IT: La natura mercantile discende dalla forma societaria, a prescindere dall’oggetto.",
+      "legal_reference": "LSC art. 1 (carácter mercantil por la forma).",
+      "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "2.- En qué consiste el principio de realidad o correspondencia efectiva:",
+      "answers": [
+        { "text": "Que la cifra de capital debe a de mantenerse durante la vigencia de la sociedad saldo modificación estatutaria.", "correct": false },
+        { "text": "Que la cifra de capital esté realmente cubierta por los socios con su aportación efectiva.", "correct": true },
+        { "text": "Que las particiones sociales y acciones deberán estar íntegramente suscritas en el de la constitución de la sociedad.", "correct": false },
+        { "text": "Todas las anteriores son ciertas", "correct": false }
+      ],
+      "explanation": "ES: El capital debe responder a aportaciones reales y efectivas. IT: Il capitale deve essere effettivo e realmente versato/conferito.",
+      "legal_reference": "LSC art. 59 (efectividad de las aportaciones).",
+      "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "3.- Qué se entiende por sociedad irregular:",
+      "answers": [
+        { "text": "La declarada por el Registrador Mercantil con defecto subsanable ", "correct": false },
+        { "text": "La no inscrita en el Registro Mercantil.", "correct": true },
+        { "text": "La inscrita en el Registro Mercantil pendiente de publicación en el BORM.", "correct": false },
+        { "text": "Las que en la escritura de constitución no se haga constar la identidad de las personas o personas que se encarguen inicialmente de la administración social.", "correct": false }
+      ],
+      "explanation": "ES: La sociedad no inscrita en el plazo legal deviene irregular. IT: La mancata iscrizione determina la società irregolare.",
+      "legal_reference": "LSC art. 39 (sociedad irregular).",
+      "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "4.- El socio único responderá personal, ilimitada y solidariamente de las deudas sociales",
+      "answers": [
+        { "text": "En ningún caso.", "correct": false },
+        { "text": "Siempre dado su carácter unipersonal.", "correct": false },
+        { "text": "Sólo durante el periodo de incumplimiento o cumplimiento tardío de la obligación de publicidad registral del carácter unipersonal de la sociedad.", "correct": true },
+        { "text": "Solo en el momento de constituir la sociedad con tal carácter unipersonal.", "correct": false }
+      ],
+      "explanation": "ES: Hay responsabilidad por deudas contraídas mientras la unipersonalidad no conste inscrita en plazo. IT: Il socio unico risponde per le obbligazioni sorte finché l’unipersonalità non è pubblicizzata nei termini.",
+      "legal_reference": "LSC arts. 14–16 (publicidad de la unipersonalidad y efectos), en especial 16.3.",
+      "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "5.- El principio de estabilidad en el capital social significa:",
+      "answers": [
+        { "text": "Que realmente está cubierto por los socios por su aportación efectiva.", "correct": false },
+        { "text": "Que se trata de una cifra única y exacta.", "correct": false },
+        { "text": "Que permanecerá estable salvo reforma estatutaria", "correct": true },
+        { "text": "Que deberá estar íntegramente suscrito en el momento de otorgar la escritura de constitución.", "correct": false }
+      ],
+      "explanation": "ES: La cifra de capital se mantiene estable salvo aumento/reducción acordados conforme a ley. IT: Il capitale è stabile salvo modifiche statutarie (aumenti/riduzioni).",
+      "legal_reference": "LSC arts. 295–317 (aumento y reducción del capital).",
+      "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "6.- Respecto a los pactos reservados:",
+      "answers": [
+        { "text": "Carecen de naturaleza societaria", "correct": false },
+        { "text": "Vincula estrictamente a quienes lo han suscrito", "correct": false },
+        { "text": "No serán oponibles a la sociedad", "correct": false },
+        { "text": "Todas las anteriores son ciertas", "correct": true }
+      ],
+      "explanation": "ES: Los pactos parasociales no son oponibles a la sociedad y sólo obligan a los firmantes. IT: I patti parasociali vincolano i sottoscrittori e non sono opponibili alla società se non statutizzati.",
+      "legal_reference": "LSC art. 29 (pactos reservados no oponibles).",
+      "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "7.- Hasta la inscripción de la Sociedad en el Registro Mercantil:",
+      "answers": [
+        { "text": "No podrá transmitirse las acciones o participaciones sociales", "correct": false },
+        { "text": "No adquirirá personalidad jurídica ", "correct": false },
+        { "text": "No podrá ejercitarse la acción de nulidad de la sociedad", "correct": false },
+        { "text": "Todas las anteriores son ciertas", "correct": true }
+      ],
+      "explanation": "ES: Antes de la inscripción hay sociedad en formación sin personalidad plena y no cabe la acción de nulidad societaria. IT: Prima dell’iscrizione la società è “in formazione”; non si applica la nullità societaria tipica.",
+      "legal_reference": "LSC arts. 36–38 (sociedad en formación) y 56–57 (nulidad tras inscripción).",
+      "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "8.- Será necesario el informe de experto independiente para garantizar la adecuada valoración económica de las aportaciones no dinerarias:",
+      "answers": [
+        { "text": "En la sociedad limitada", "correct": false },
+        { "text": "Cuando consista en valores mobiliarios que coticen en el mercado secundario oficial", "correct": false },
+        { "text": "Cuando hubiera sido determinado dentro de los seis meses anteriores a la aportación por experto independiente no designado por las partes", "correct": false },
+        { "text": "En las sociedades anónimas", "correct": true }
+      ],
+      "explanation": "ES: En SA es preceptivo informe de experto independiente para aportaciones no dinerarias, con excepciones tasadas. IT: Nelle S.A. serve perizia indipendente per conferimenti in natura (salve eccezioni).",
+      "legal_reference": "LSC arts. 67–69 (aportaciones no dinerarias en SA) y 73–75 (régimen en SL sin perito obligatorio).",
+      "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "9.- Respecto a la mora de los accionistas y sus efectos cual de la siguiente respuesta es incorrecta:",
+      "answers": [
+        { "text": "Podrá percibir dividendos cuando cese su situación de mora", "correct": false },
+        { "text": "El importe de sus acciones será descontado para el cómputo de constitución de la junta", "correct": false },
+        { "text": "No podrá ejercitar el derecho de información y de impugnación de la junta", "correct": true },
+        { "text": "No podrá ejercitar el derecho de suscripción preferente", "correct": false }
+      ],
+      "explanation": "ES: Es incorrecto negar en todo caso los derechos de información/impugnación al moroso; la ley prevé suspensión de voto, dividendos y preferente, no necesariamente información/impugnación. IT: L’azionista moroso vede sospesi voto/dividendi/prelazione, ma non automaticamente informazione/impugnazione.",
+      "legal_reference": "LSC arts. 82 (mora y suspensión de derechos), 197 (derecho de información en SA).",
+      "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "10.- El valor contable o valor neto patrimonial de las acciones o participaciones sociales",
+      "answers": [
+        { "text": "Es la suma del valor nominal más la prima de emisión", "correct": false },
+        { "text": "Se calcula dividiendo el patrimonio neto por el número de acciones o participaciones sociales en que se divida el capital social", "correct": true },
+        { "text": "No puede ser inferior al valor nominal, pero si igual o superior al mismo", "correct": false },
+        { "text": "Debe de coincidir con el valor nominal durante la vida de la sociedad.", "correct": false }
+      ],
+      "explanation": "ES: El valor neto patrimonial = patrimonio neto / número de títulos. IT: Il valore contabile si ottiene dividendo il patrimonio netto per il numero di azioni/quote.",
+      "legal_reference": "Criterio contable general; LSC arts. 90–94 (estructura del capital).",
+      "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "11.- Cual de las siguientes respuestas no es cierta en relación con el derecho de examen de contabilidad.",
+      "answers": [
+        { "text": "Que puede ser ejercido por cualquier socio de una sociedad de capital una vez convocada la junta sea ordinaria o extraordinaria", "correct": true },
+        { "text": "Que solo puede ser ejercido por socios que representen al menos un 5% de las participaciones sociales del total porcentaje en el que se divide el capital.", "correct": false },
+        { "text": "Que el experto independiente a acompañar al socio sólo podrá ser auditor de cuentas o economista.", "correct": false },
+        { "text": "Que será ejercitado una vez convocada la junta para aprobar las cuentas anuales del ejercicio social anterior al cierre.", "correct": false }
+      ],
+      "explanation": "ES: No es cierto que ‘cualquier socio’ de cualquier sociedad pueda revisar contabilidad; en SL se exige 5% para examen de soporte, en SA rige otro régimen. IT: Non ogni socio ha diritto all’esame contabile illimitato; in SRL serve quota (5%).",
+      "legal_reference": "LSC arts. 196 (SL) y 197 (SA); 272.3 (examen contable en SL ≥5%).",
+      "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "12.-  La prima de emisión es:",
+      "answers": [
+        { "text": "La diferencia entre el valor nominal y el valor de emisión", "correct": true },
+        { "text": "El valor del activo neto", "correct": false },
+        { "text": "El valor de mercado de la acciones o participaciones sociales ", "correct": false },
+        { "text": "Ninguna de las anteriores es cierta", "correct": false }
+      ],
+      "explanation": "ES: Prima = precio de emisión − valor nominal. IT: Sovrapprezzo = prezzo di emissione meno valore nominale.",
+      "legal_reference": "LSC arts. 298.2, 303 (prima de emisión y aumentos).",
+      "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "13.- No es cierto que los desembolsos pendientes sean:",
+      "answers": [
+        { "text": "La diferencia entre la aportación suscrita y la desembolsada por el socio.", "correct": false },
+        { "text": "Una deuda del socio contra la sociedad sea anónima o limitada.", "correct": true },
+        { "text": "Una obligación de entregar la parte de capital no desembolsada por el socio.", "correct": false },
+        { "text": "Un derecho de crédito de la sociedad frente al socio.", "correct": false }
+      ],
+      "explanation": "ES: Es una deuda del socio frente a la sociedad (no ‘contra’), y un crédito de ésta. IT: È un debito del socio verso la società e un suo credito.",
+      "legal_reference": "LSC arts. 78–82 (desembolsos y mora del accionista).",
+      "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "14.- Cuál de los siguientes supuestos no dará nacimiento al derecho al dividendo:",
+      "answers": [
+        { "text": "Que el patrimonio neto contable no sea inferior a la cifra de capital social", "correct": false },
+        { "text": "Cuando existan pérdidas de ejercicio anteriores pendientes de compensación", "correct": true },
+        { "text": "Que en el acuerdo de la Junta no se hubiera determinado las circunstancias de su pago, esto tiempo, lugar y forma", "correct": false },
+        { "text": "La falta de aplicación de reserva legal o estatutaria", "correct": false }
+      ],
+      "explanation": "ES: Si hay pérdidas pendientes de compensar, no procede repartir dividendos. IT: In presenza di perdite da coprire non sorge diritto al dividendo.",
+      "legal_reference": "LSC art. 273 (reparto de dividendos y límites).",
+      "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "15.- Para la distribución de dividendos a cuenta cual de esta repuesta no es cierta",
+      "answers": [
+        { "text": "Son pagos de dividendos futuros.", "correct": false },
+        { "text": "El estado contable que ponga de manifiesto la liquidez suficiente debe de incluirse en la memoria de las cuentas anuales. ", "correct": false },
+        { "text": "Será acordada exclusivamente por la junta general", "correct": true },
+        { "text": "A la cantidad total a distribuir deberá deducirse las pérdidas de ejercicios anteriores.", "correct": false }
+      ],
+      "explanation": "ES: El dividendo a cuenta puede acordarlo el órgano de administración cumpliendo requisitos. IT: L’acconto dividendi può essere deliberato dagli amministratori se sussistono le condizioni.",
+      "legal_reference": "LSC art. 277 (dividendos a cuenta: requisitos y competencia).",
+      "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "16.- Las cláusulas de rescate en caso de transmisión de acciones o participaciones sociales:",
+      "answers": [
+        { "text": "Establecen a favor de los socios, sociedad o incluso de un tercero en caso de SA un derecho de adquisición preferente frente al causahabiente o rematante", "correct": true },
+        { "text": "Imponen la necesidad de la previa autorización de la sociedad", "correct": false },
+        { "text": "Establece a favor de todos los socios o sociedad un derecho de adquisición preferente frente a la enajenación a favor de otro socio o de un tercero", "correct": false },
+        { "text": "Establece a favor de un tercero normalmente una entidad bancaria un derecho de adquisición preferente frente a la enajenación entre socios", "correct": false }
+      ],
+      "explanation": "ES: El ‘rescate’ configura derechos de adquisición preferente estatutarios. IT: Il riscatto/prelazione opera come diritto di acquisto preferenziale previsto dallo statuto.",
+      "legal_reference": "LSC art. 123 (SA) y 107–110 (SL, derechos de adquisición).",
+      "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "17.- Cuando esta respuesta no es cierta en relación a lo establecido en la Ley en cuanto a la suspensión del derecho de voto del socio en la junta general.",
+      "answers": [
+        { "text": "Cuando ejercite el derecho de separación en el seno de la junta", "correct": true },
+        { "text": "Cuando le libere de una obligación o le conceda un derecho", "correct": false },
+        { "text": "Cuando le libere de una obligación ", "correct": false },
+        { "text": "Cuando se le facilite cualquier tipo de asistencia financiera ", "correct": false }
+      ],
+      "explanation": "ES: No es causa de privación del voto el mero ejercicio del derecho de separación; sí en supuestos de conflicto (liberación de obligaciones, concesión de derechos, asistencia financiera). IT: L’esercizio del recesso non comporta di per sé sospensione del voto; valgono i casi di conflitto.",
+      "legal_reference": "LSC art. 190 (privación de voto por conflicto); arts. 346 y ss. (separación).",
+      "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "18.- Salvo disposición estatutaria contraria a los Estatutos Sociales no será libre la transmisión voluntaria de participaciones sociales por actos inter vivos a favor de:",
+      "answers": [
+        { "text": "Terceros", "correct": true },
+        { "text": "Pareja de hecho y asimilados", "correct": false },
+        { "text": "Ascendientes o descendientes del socio", "correct": false },
+        { "text": "Sociedades del mismo grupo empresarial", "correct": false }
+      ],
+      "explanation": "ES: En SL la transmisión a terceros está restringida salvo previsión estatutaria. IT: Nelle SRL la cessione a terzi è limitata (regime legale di prelazione/consenso).",
+      "legal_reference": "LSC arts. 107–110 (régimen de transmisión en SL).",
+      "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "19.- Las participaciones o acciones adquiridas en ejecución de un acuerdo de reducción de capital o formen parte de un patrimonio adquirido a título universal deberán ser enajenadas en un plazo máximo a contar desde la fecha de adquisición de:",
+      "answers": [
+        { "text": "1 año", "correct": false },
+        { "text": "2 años", "correct": false },
+        { "text": "3 años", "correct": true },
+        { "text": "5 años", "correct": false }
+      ],
+      "explanation": "ES: La ley impone enajenación en 3 años (o amortización) para esos supuestos. IT: Obbligo di alienare entro 3 anni (salvo ammortamento).",
+      "legal_reference": "LSC art. 145.1 (plazo de tres años).",
+      "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "20.- Cuál de las siguientes afirmaciones es falsa en relación a las prestaciones accesorias:",
+      "answers": [
+        { "text": "Pueden ser remuneradas.", "correct": false },
+        { "text": "Afectan a todos los socios.", "correct": true },
+        { "text": "Tienen carácter estatutario.", "correct": false },
+        { "text": "Son obligaciones distintas a la aportación al capital social.", "correct": false }
+      ],
+      "explanation": "ES: No vinculan necesariamente a todos los socios; deben ser estatutarias y pueden ser retribuidas. IT: Non gravano su tutti i soci; sono obbligazioni statutarie, talora retribuite.",
+      "legal_reference": "LSC arts. 86–89 (prestaciones accesorias).",
+      "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "21.- Cuál de estas afirmaciones no es cierta en relación a las cláusulas de transmisión de particiones sociales  ",
+      "answers": [
+        { "text": "Su intransmisibilidad plena radical en todos los casos", "correct": true },
+        { "text": "La nulidad de las que hagan prácticamente libre su transmisión.", "correct": false },
+        { "text": "La nulidad de las que alteren la integridad cuantitativa de la transmisión.", "correct": false },
+        { "text": "Las que impidan su transmisión a otro socio", "correct": false }
+      ],
+      "explanation": "ES: Es válida la prohibición absoluta sólo si se reconoce derecho de separación; no es ‘plena en todos los casos’. IT: Il divieto assoluto è ammissibile solo con diritto di recesso; non è regola generale ‘radicale’.",
+      "legal_reference": "LSC art. 108 (prohibición y derecho de separación del socio).",
+      "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "22.- Qué clase de Junta podrá ser convocada judicialmente en caso de que no lo fuera dentro del correspondiente plazo:",
+      "answers": [
+        { "text": "Extraordinaria", "correct": false },
+        { "text": "Ordinaria", "correct": true },
+        { "text": "Estatutaria", "correct": false },
+        { "text": "Son correctas las respuestas b) y c)", "correct": false }
+      ],
+      "explanation": "ES: Puede instarse convocatoria judicial de la junta ordinaria no convocada en plazo. IT: È possibile la convocazione giudiziale della ordinaria non convocata tempestivamente.",
+      "legal_reference": "LSC art. 169 (convocatoria judicial/registral por falta de convocatoria en plazo).",
+      "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "23.- Para la convocatoria judicial de la Junta General Ordinaria será necesario que:",
+      "answers": [
+        { "text": "Previamente sea instada por socios que representen más del 5%  del capital social sin que fuera atendida oportunamente", "correct": true },
+        { "text": "Previamente sea instada por socios que representen más del 3%  del capital social sin que fuera atendida oportunamente", "correct": false },
+        { "text": "Previamente sea instada por socios que representen más del 1%  del capital social sin que fuera atendida oportunamente", "correct": false },
+        { "text": "Previamente sea instada por cualquier socio sin que fuera atendida oportunamente", "correct": true }
+      ],
+      "explanation": "ES: El enunciado marca dos opciones; legalmente la minoría habilitante es 5%. IT: La legge richiede, di regola, il 5%; l’opzione ‘cualquier socio’ non è conforme salvo previsiones especiales.",
+      "legal_reference": "LSC art. 168 (minoría del 5%); arts. 169–170 (convocatoria por LAJ/Registrador/Juez).",
+      "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "24.- Qué acuerdos pueden adoptarse en Junta General de Socios sin necesidad de que estén expresamente contemplados en su orden del día:",
+      "answers": [
+        { "text": "Ninguno", "correct": false },
+        { "text": "Los que socios mayoritariamente decidan antes de su inicio", "correct": false },
+        { "text": "Los de nombramiento de auditores y expertos independientes", "correct": false },
+        { "text": "Los de cese y nombramiento de administradores y de ejercicio de acción individual de responsabilidad", "correct": true }
+      ],
+      "explanation": "ES: Pueden adoptarse acuerdos conexos como cese/nombramiento y acción individual de responsabilidad. IT: Ammesse talune delibere connesse (revoca/nomina; azione individuale).",
+      "legal_reference": "LSC art. 223 (cese), art. 241 (acción individual de responsabilidad).",
+      "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "25.- Para la válida constitución de la Junta Extraordinaria de Accionistas en primera convocatoria en la que se deba acordar la modificación de los Estatutos Sociales se requerirá un quórum:",
+      "answers": [
+        { "text": "De al menos el 50% del capital suscrito con derecho a voto", "correct": true },
+        { "text": "De al menos el 35% del capital suscrito con derecho a voto", "correct": false },
+        { "text": "De al menos el 25% del capital suscrito con derecho a voto", "correct": false },
+        { "text": "De la totalidad del capital suscrito con derecho a voto", "correct": false }
+      ],
+      "explanation": "ES: Para materias del art. 194 (modificación estatutaria), en primera convocatoria se exige asistencia de al menos el 50%. IT: Per le materie rafforzate (modifica statuto) occorre il 50% in prima convocazione.",
+      "legal_reference": "LSC art. 194.1 (quórum reforzado en SA).",
+      "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "26.- En las Sociedades de Responsabilidad Limitada los acuerdos de la junta se adoptarán por mayoría de:",
+      "answers": [
+        { "text": "Los votos válidamente emitidos, siempre que representen al menos tres tercios de los votos correspondientes a las participaciones en que se divida el capital social", "correct": false },
+        { "text": "Los votos válidamente emitidos, siempre que representen al menos dos tercios de los votos correspondientes a las participaciones en que se divida el capital social", "correct": false },
+        { "text": "Los votos válidamente emitidos, siempre que representen al menos un tercio de los votos correspondientes a las participaciones en que se divida el capital social", "correct": true },
+        { "text": "Los votos válidamente emitidos correspondientes a las participaciones en que se divida el capital social", "correct": false }
+      ],
+      "explanation": "ES: Regla general en SL: mayoría de votos válidos emitidos que representen al menos 1/3 del capital con derecho de voto. IT: In SRL la regola generale richiede 1/3 del capitale rappresentato.",
+      "legal_reference": "LSC art. 198 (mayorías en SL).",
+      "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "27.- Cuando los administradores sociales de una Sociedad Anónima pueden denegar el derecho de información a un accionista:",
+      "answers": [
+        { "text": "Sea innecesaria para la tutela de los derechos de los socios", "correct": false },
+        { "text": "Su publicidad perjudique a la sociedad", "correct": false },
+        { "text": "Pueda utilizarse para fines extrasociales", "correct": false },
+        { "text": "Todas las anteriores son ciertas", "correct": true }
+      ],
+      "explanation": "ES: En SA el órgano puede denegar la información si es innecesaria, perjudicial o con fines extrasociales. IT: In S.A. il diritto informativo può essere negato nei casi tipici (inutilità, pregiudizio, fini extrasociali).",
+      "legal_reference": "LSC art. 197.4 (límites y denegación en SA).",
+      "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "28.- Cuál de las siguientes afirmaciones es falsa en relación con el derecho de información una vez convocada la Junta General:",
+      "answers": [
+        { "text": "Puede ser ejercitado por cualquier socio siempre que represente al menos el 1% del capital social", "correct": false },
+        { "text": "Puede ser ejercitado por un socio de una Sociedad Limitada siempre que represente al menos el 5% del capital social", "correct": false },
+        { "text": "Deberá llevarse a cabo en el domicilio social", "correct": false },
+        { "text": "Deberá hacerse acompañar de los puntos que sean objeto de aclaración por parte de los administradores sociales", "correct": true }
+      ],
+      "explanation": "ES: Es falsa la exigencia de acompañar ‘los puntos objeto de aclaración’; la ley no lo impone en esos términos. IT: Non è richiesto che l’istanza ‘alleghi i punti’ nei termini indicati dall’enunciato.",
+      "legal_reference": "LSC arts. 196 (SL) y 197 (SA) sobre forma y límites del derecho de información.",
+      "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "29.- Quién o quiénes están) legitimadas) para impugnar los acuerdos adoptados en Junta General:",
+      "answers": [
+        { "text": "Los socios siempre que representen al menos un uno por ciento del capital social", "correct": false },
+        { "text": "Cualquiera de los Administradores", "correct": false },
+        { "text": "Los terceros que acrediten un interés legítimo", "correct": false },
+        { "text": "Todos los anteriores", "correct": true }
+      ],
+      "explanation": "ES: Están legitimados socios (≥1%), administradores y terceros con interés legítimo. IT: Legittimati: soci con almeno 1%, amministratori e terzi con interesse legittimo.",
+      "legal_reference": "LSC art. 206 (legitimación para impugnar acuerdos).",
+      "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
     }
   ]
 }
