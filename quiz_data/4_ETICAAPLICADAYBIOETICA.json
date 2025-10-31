@@ -1801,6 +1801,306 @@
       "explanation": "ES: La DUDH sitúa la dignidad humana en el centro del sistema de derechos.\nIT: La DUDH pone la dignità al centro dell’intero impianto dei diritti.",
       "legal_reference": "DUDH, Preámbulo y art. 1.",
       "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF)"
+    },
+    {
+      "question": "La eutanasia es considerada un acto médico según el texto.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: El texto sostiene que matar no es terapéutico y, por tanto, la eutanasia no constituye un acto médico en sí.\nIT: Il testo afferma che uccidere non è terapeutico e quindi l’eutanasia non è un atto medico in quanto tale.",
+      "legal_reference": "Declaración de la AMM sobre Eutanasia y Suicidio Médicamente Asistido (2019); Juramento hipocrático (cláusula de no dar fármacos mortales).",
+      "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF) – Artículo: “U3. La eutanasia no es un acto médico”"
+    },
+    {
+      "question": "Matar no es una acción terapéutica en el ámbito médico.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La finalidad terapéutica es curar, aliviar o acompañar; causar la muerte no es un medio terapéutico.\nIT: La finalità terapeutica è curare, alleviare o accompagnare; provocare la morte non è uno strumento terapeutico.",
+      "legal_reference": "Declaración de la AMM (2019); Códigos deontológicos médicos que proscriben causar la muerte del paciente.",
+      "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF) – Artículo: “U3. La eutanasia no es un acto médico”"
+    },
+    {
+      "question": "El médico tiene la obligación de mantener la vida a cualquier costo.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: El derecho a morir dignamente incluye rechazar tratamientos desproporcionados; el médico debe respetar voluntad y dignidad del paciente.\nIT: Il diritto a morire con dignità include rifiutare trattamenti sproporzionati; il medico deve rispettare la volontà e la dignità del paziente.",
+      "legal_reference": "Corte Constitucional de Colombia, T-970/2014; Resolución MinSalud 1216/2015 (procedimiento y comités).",
+      "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF) – Artículo: “U3. La eutanasia no es un acto médico”"
+    },
+    {
+      "question": "La dignidad de la vida y la dignidad humana son conceptos complementarios.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: El texto articula la tutela de la vida en relación con la dignidad intrínseca de la persona, no como nociones opuestas.\nIT: Il testo collega la tutela della vita alla dignità intrinseca della persona, non come nozioni contrapposte.",
+      "legal_reference": "UNESCO, Declaración Universal sobre Bioética y Derechos Humanos (2005), art. 3; Convenio de Oviedo (1997), arts. 1–2.",
+      "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF) – Artículo: “U3. La eutanasia no es un acto médico”"
+    },
+    {
+      "question": "La Corte Constitucional de Colombia permite la eutanasia sin consentimiento.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: La jurisprudencia exige consentimiento libre, informado, inequívoco y persistente; sin él no procede la eutanasia.\nIT: La giurisprudenza richiede consenso libero, informato, inequivoco e persistente; in assenza non procede l’eutanasia.",
+      "legal_reference": "Sentencia C-239/1997; T-970/2014; protocolos MinSalud (Res. 1216/2015).",
+      "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF) – Artículo: “U3. La eutanasia no es un acto médico”"
+    },
+    {
+      "question": "El suicidio asistido está contemplado en la legislación colombiana.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La Corte despenalizó la asistencia médica al suicidio bajo requisitos similares a la eutanasia.\nIT: La Corte ha depenalizzato l’assistenza medica al suicidio con requisiti simili all’eutanasia.",
+      "legal_reference": "Sentencia C-164/2022 (asistencia médica al suicidio); art. 107 CP (inducir o ayudar al suicidio) modulada por C-164/2022.",
+      "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF) – Artículo: “U3. La eutanasia no es un acto médico”"
+    },
+    {
+      "question": "La función principal del médico es proteger la dignidad humana, no solo la vida biológica.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: El texto no contrapone dignidad y vida ni subordina la segunda a la primera; la misión médica integra ambas, por lo que la formulación resulta inexacta.\nIT: Il testo non contrappone dignità e vita né subordina la seconda alla prima; la missione medica integra entrambe, dunque l’enunciato è impreciso.",
+      "legal_reference": "UNESCO 2005, art. 3 (primacía de la persona); AMM (2019) sobre límites éticos.",
+      "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF) – Artículo: “U3. La eutanasia no es un acto médico”"
+    },
+    {
+      "question": "Un paciente puede solicitar la eutanasia si cree que su vida ya no es digna.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: Puede solicitarla, pero la mera apreciación subjetiva no basta: debe cumplir condiciones médicas y de consentimiento exigidas por la Corte.\nIT: Può richiederla, ma la sola percezione soggettiva non basta: servono condizioni mediche e consenso secondo la giurisprudenza.",
+      "legal_reference": "C-233/2021 (alcance requisitos); C-164/2022; Res. 1216/2015 (trámite y comités).",
+      "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF) – Artículo: “U3. La eutanasia no es un acto médico”"
+    },
+    {
+      "question": "La Corte Constitucional defiende que la dignidad es superior a la vida biológica.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: La Corte reconoce el valor constitucional de la vida y la dignidad, sin proclamar jerarquía absoluta; evita absolutizar la vida como ‘sagrada’ en términos penales.\nIT: La Corte riconosce vita e dignità come valori costituzionali, senza una gerarchia assoluta; evita assolutizzare la vita in chiave penale.",
+      "legal_reference": "C-239/1997; C-233/2021 (contexto de proporcionalidad y autonomía).",
+      "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF) – Artículo: “U3. La eutanasia no es un acto médico”"
+    },
+    {
+      "question": "Según la sentencia C-239/97, la eutanasia es ilegal si el paciente no da su consentimiento explícito.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La despenalización condicionada se apoya en consentimiento expreso del paciente; sin él, la conducta es punible.\nIT: La depenalizzazione condizionata richiede consenso espresso del paziente; in mancanza, la condotta è punibile.",
+      "legal_reference": "C-239/1997; CP art. 106 (homicidio por piedad).",
+      "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF) – Artículo: “U3. La eutanasia no es un acto médico”"
+    },
+    {
+      "question": "La Asociación Médica Mundial está de acuerdo con la eutanasia.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: La AMM considera la eutanasia y el suicidio médicamente asistido contrarios a la ética médica (salvo marcos legales locales, no impone obligación).\nIT: L’AMM ritiene eutanasia e suicidio medicalmente assistito contrari all’etica medica (pur riconoscendo contesti legali locali, non impone obbligo).",
+      "legal_reference": "Declaración de la AMM (2019) sobre Eutanasia y Suicidio con Ayuda Médica.",
+      "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF) – Artículo: “U3. La eutanasia no es un acto médico”"
+    },
+    {
+      "question": "La autonomía del paciente justifica que él decida sobre su propia muerte.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: El derecho a morir dignamente integra la autonomía decisional del paciente bajo requisitos estrictos de consentimiento e idoneidad.\nIT: Il diritto a morire dignitosamente integra l’autonomia decisionale del paziente con rigorosi requisiti di consenso e idoneità.",
+      "legal_reference": "T-970/2014; C-233/2021; C-164/2022 (autonomía y requisitos).",
+      "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF) – Artículo: “U3. La eutanasia no es un acto médico”"
+    },
+    {
+      "question": "Los médicos están obligados a practicar la eutanasia cuando el paciente lo solicite.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: No existe obligación general; rigen objeción de conciencia y derivación según protocolos, y evaluación de requisitos por comité.\nIT: Non esiste un obbligo generale; valgono obiezione di coscienza e invio secondo i protocolli, con verifica dei requisiti da parte del comitato.",
+      "legal_reference": "Res. 1216/2015 (comités); AMM (2019) — ningún médico puede ser obligado a participar.",
+      "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF) – Artículo: “U3. La eutanasia no es un acto médico”"
+    },
+    {
+      "question": "El juramento médico incluye la defensa de la vida desde la concepción.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La tradición hipocrática y códigos deontológicos clásicos incluyen el deber de máximo respeto a la vida; la versión original proscribe dar veneno o abortivos.\nIT: La tradizione ippocratica e i codici deontologici classici includono il massimo rispetto per la vita; la versione originaria vieta veleni o abortivi.",
+      "legal_reference": "Juramento hipocrático (tradición clásica); Declaración de Ginebra (AMM, ‘máximo respeto por la vida humana’).",
+      "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF) – Artículo: “U3. La eutanasia no es un acto médico”"
+    },
+    {
+      "question": "La dignidad de la vida se pierde cuando una persona sufre intensamente.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: El sufrimiento no anula la dignidad intrínseca; habilita cuidados paliativos y decisiones informadas, no la negación de la dignidad.\nIT: La sofferenza non annulla la dignità intrinseca; abilita cure palliative e decisioni informate, non la negazione della dignità.",
+      "legal_reference": "UNESCO 2005, art. 3; AMM (respeto de la vida y del paciente).",
+      "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF) – Artículo: “U3. La eutanasia no es un acto médico”"
+    },
+    {
+      "question": "La eutanasia puede considerarse una forma de limpieza social según el texto.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: El texto advierte riesgos de presión social contra personas vulnerables, interpretando la eutanasia como posible ‘limpieza’ o descarte.\nIT: Il testo segnala rischi di pressione sociale verso i vulnerabili, leggendo l’eutanasia come possibile ‘pulizia’ o scarto.",
+      "legal_reference": "Declaraciones de la AMM; principios de vulnerabilidad (UNESCO 2005, art. 8).",
+      "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF) – Artículo: “U3. La eutanasia no es un acto médico”"
+    },
+    {
+      "question": "Los familiares pueden decidir la eutanasia en nombre de un paciente inconsciente.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: La decisión exige consentimiento del paciente o documento de voluntad anticipada; la sola voluntad familiar no legitima el procedimiento.\nIT: La decisione richiede consenso del paziente o testamento biologico; la sola volontà dei familiari non legittima la procedura.",
+      "legal_reference": "T-970/2014; lineamientos MinSalud (Res. 1216/2015) sobre solicitud personal y manifestaciones anticipadas.",
+      "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF) – Artículo: “U3. La eutanasia no es un acto médico”"
+    },
+    {
+      "question": "La acción de matar a un paciente no es compatible con la misión del médico.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La ética médica clásica rechaza causar la muerte; el rol profesional se orienta a curar, aliviar y acompañar.\nIT: L’etica medica classica rifiuta il causare la morte; il ruolo professionale mira a curare, alleviare e accompagnare.",
+      "legal_reference": "Declaración de la AMM (2019); Juramento hipocrático.",
+      "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF) – Artículo: “U3. La eutanasia no es un acto médico”"
+    },
+    {
+      "question": "La Corte Constitucional de Colombia considera la eutanasia con consentimiento explícito como un acto solidario.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La Corte ha descrito la eutanasia, bajo requisitos estrictos y consentimiento, como ‘acto de solidaridad’ del médico.\nIT: La Corte ha descritto l’eutanasia, a rigorose condizioni e con consenso, come ‘atto di solidarietà’ del medico.",
+      "legal_reference": "C-164/2022 (fundamentos citan la consideración de ‘acto de solidaridad’); C-239/1997 (acto piadoso, no ánimo homicida).",
+      "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF) – Artículo: “U3. La eutanasia no es un acto médico”"
+    },
+    {
+      "question": "La eutanasia no puede ser ejecutada por terceros ajenos al paciente.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La práctica, cuando procede, debe realizarla un profesional de la medicina; no por terceros sin competencia ni vínculo clínico.\nIT: La pratica, quando ammissibile, deve essere eseguita da un medico; non da terzi privi di competenza o di rapporto clinico.",
+      "legal_reference": "Res. 1216/2015 (médico tratante y comité); C-164/2022 (SMA con intervención de profesional de la medicina).",
+      "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF) – Artículo: “U3. La eutanasia no es un acto médico”"
+    },
+    {
+      "question": "Los médicos pueden decidir aplicar la eutanasia a un paciente inconsciente sin consentimiento previo.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: Sin voluntad anticipada válida o manifestación previa del paciente, no procede; deben respetarse autonomía y procedimientos.\nIT: In assenza di dichiarazioni anticipate valide o di manifestazione previa del paziente, non procede; vanno rispettati autonomia e procedure.",
+      "legal_reference": "T-970/2014; protocolos de solicitud y verificación (Res. 1216/2015).",
+      "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF) – Artículo: “U3. La eutanasia no es un acto médico”"
+    },
+    {
+      "question": "La eutanasia es legal en Colombia si el paciente lo solicita y cumple ciertos requisitos.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: Bajo los criterios de la Corte y lineamientos del Ministerio de Salud, la eutanasia está despenalizada con requisitos clínicos y de consentimiento.\nIT: Sulla base della giurisprudenza e delle linee guida ministeriali, l’eutanasia è depenalizzata con requisiti clinici e di consenso.",
+      "legal_reference": "C-239/1997; C-233/2021 (precisiones); Res. 1216/2015 (procedimiento).",
+      "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF) – Artículo: “U3. La eutanasia no es un acto médico”"
+    },
+    {
+      "question": "La Corte Constitucional establece que el médico puede decidir sobre la vida del paciente sin consulta previa.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: La decisión exige solicitud, evaluación multidisciplinaria y cumplimiento de garantías; no es discrecional del médico.\nIT: La decisione richiede domanda, valutazione multidisciplinare e garanzie; non è discrezionale del medico.",
+      "legal_reference": "Res. 1216/2015 (comités y trámite); T-970/2014 (debido proceso en RMD).",
+      "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF) – Artículo: “U3. La eutanasia no es un acto médico”"
+    },
+    {
+      "question": "La dignidad humana, según el texto, es un valor superior al bienestar subjetivo del paciente.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: El texto distingue dignidad objetiva de la persona frente a parámetros puramente subjetivos de bienestar.\nIT: Il testo distingue la dignità oggettiva della persona da parametri puramente soggettivi di benessere.",
+      "legal_reference": "UNESCO 2005, art. 3 (primacía de la persona); Convenio de Oviedo, art. 2 (primacía del ser humano).",
+      "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF) – Artículo: “U3. La eutanasia no es un acto médico”"
+    },
+    {
+      "question": "La eutanasia y el suicidio asistido son prácticas consideradas no éticas por la mayoría de los médicos.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La AMM mantiene oposición ética a estas prácticas, aunque reconozca marcos legales diversos y objeción de conciencia.\nIT: L’AMM mantiene un’opposizione etica a tali pratiche, pur riconoscendo contesti legali diversi e obiezione di coscienza.",
+      "legal_reference": "AMM, Declaración 2019 (Eutanasia y Suicidio con Ayuda Médica).",
+      "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF) – Artículo: “U3. La eutanasia no es un acto médico”"
+    },
+    {
+      "question": "El respeto a la dignidad humana justifica la eutanasia según la Corte.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: La Corte no convierte la dignidad en justificación automática; exige condiciones estrictas y control de proporcionalidad.\nIT: La Corte non fa della dignità una giustificazione automatica; richiede condizioni rigorose e controllo di proporzionalità.",
+      "legal_reference": "C-239/1997; C-233/2021; C-164/2022 (criterios y límites).",
+      "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF) – Artículo: “U3. La eutanasia no es un acto médico”"
+    },
+    {
+      "question": "El médico está éticamente impedido para actuar en contra de la vida de su paciente.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La ética profesional prohíbe causar la muerte; la intervención médica se orienta al cuidado integral.\nIT: L’etica professionale vieta di causare la morte; l’intervento medico è orientato alla cura integrale.",
+      "legal_reference": "AMM (2019); Juramento hipocrático.",
+      "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF) – Artículo: “U3. La eutanasia no es un acto médico”"
+    },
+    {
+      "question": "La eutanasia se considera un derecho fundamental en la Constitución colombiana.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: No está expresamente en la Constitución; el derecho a morir dignamente es construcción jurisprudencial a partir de dignidad, autonomía y salud.\nIT: Non è espresso nella Costituzione; il diritto a morire dignitosamente è costruzione giurisprudenziale basata su dignità, autonomia e salute.",
+      "legal_reference": "C-239/1997; T-970/2014; C-233/2021 (línea jurisprudencial).",
+      "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF) – Artículo: “U3. La eutanasia no es un acto médico”"
+    },
+    {
+      "question": "Los médicos que practican la eutanasia no pueden ser procesados penalmente si hay consentimiento.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La Corte condicionó la no punibilidad cuando concurren requisitos (consentimiento expreso, diagnóstico grave, procedimientos reglados).\nIT: La Corte ha condizionato la non punibilità al ricorrere dei requisiti (consenso espresso, diagnosi grave, procedure regolamentate).",
+      "legal_reference": "C-239/1997; CP art. 106 (homicidio por piedad) interpretado conforme; desarrollo en T-970/2014 y C-233/2021.",
+      "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF) – Artículo: “U3. La eutanasia no es un acto médico”"
+    },
+    {
+      "question": "La eutanasia está en conflicto con los principios fundamentales del juramento médico.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La tradición hipocrática y la AMM sostienen que la eutanasia contradice la ética profesional médica.\nIT: La tradizione ippocratica e l’AMM sostengono che l’eutanasia contraddice l’etica professionale medica.",
+      "legal_reference": "Juramento hipocrático; AMM, Declaración 2019.",
+      "original_file": "PREGUNTAS UNIDAD 3-1.pdf (PDF) – Artículo: “U3. La eutanasia no es un acto médico”"
     }
   ]
 }
