@@ -434,6 +434,66 @@
       "explanation": "ES: Si el contenido del derecho extranjero no queda probado por las partes, la práctica jurisprudencial española aplica supletoriamente la ley del foro. No procede exequátur ni tienen relevancia los foros exclusivos para esta cuestión probatoria.\nIT: Se il contenuto del diritto straniero non è provato dalle parti, la giurisprudenza spagnola applica in via sussidiaria la legge del foro. Non si avvia alcun exequatur e i fori esclusivi non sono pertinenti a questa tematica probatoria.",
       "legal_reference": "Ley de Enjuiciamiento Civil (LEC), art. 281.2; doctrina y jurisprudencia del Tribunal Supremo sobre aplicación supletoria de la lex fori por falta de prueba del derecho extranjero.",
       "original_file": "D. internacional privado 1° Parziale AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "8. Como delito relativo a la propiedad intelectual se castiga por la via del articulo 270 del Codigo Penal la siguiente conducta:",
+      "answers": [
+        { "text": "El que explote económicamente una prestación literaria en autorización de los titulares de los derechos de propiedad - CORRETTA", "correct": true },
+        { "text": "El que facilite una ejecución artística de manera neutral", "correct": false },
+        { "text": "El que ofrece un listado ordenado de enlaces a las obras de modo activo o inactivo", "correct": false },
+        { "text": "El que plagie una obra científica, aunque sea sin ánimo de obtener un beneficio económico", "correct": false }
+      ],
+      "explanation": "ES: El art. 270.1 CP sanciona la explotación económica de obras o prestaciones protegidas sin autorización de los titulares/cesionarios (el enunciado refleja esa idea). Las demás opciones no describen por sí solas la conducta típica o se formulan de modo impreciso.\nIT: L’art. 270.1 CP punisce lo sfruttamento economico di opere/prestazioni senza autorizzazione del titolare/cessionario. Le altre opzioni non integrano il tipo o sono vaghe.",
+      "legal_reference": "CP art. 270.1",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "9. Con respecto al delito contro la propiedad intelectual previsto en el artículo 274 en su apartado 1, indique cual es la respuesta correcta:",
+      "answers": [
+        { "text": "Se castiga al que fabrique, produzca o importe productos con un signo distintivo idéntico o confundible con una marca - CORRETTA", "correct": true },
+        { "text": "El sujeto activo tiene que actuar con fines industriales o comerciales", "correct": false },
+        { "text": "Se castiga al que plagie una obra gráfica", "correct": false },
+        { "text": "Se castiga al que comercialice, al por mayor, productos que incorporen un signo distintivo idéntico o confundible con una marca", "correct": false }
+      ],
+      "explanation": "ES: El art. 274.1 CP (propiedad industrial) tutela los signos distintivos: fabricar, producir, importar (y otras conductas) con fines industriales o comerciales es típico. El plagio de una obra gráfica pertenece a propiedad intelectual (art. 270), no al 274.\nIT: L’art. 274.1 CP tutela i segni distintivi (marchi ecc.); fabbricare/produrre/importare con fini industriali o commerciali integra il reato. Il ‘plagio’ di opere è materia di proprietà intellettuale (art. 270).",
+      "legal_reference": "CP art. 274.1",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "10. Para considerar regularizados la situación ante la Seguridad Social en base a lo establecido en el articulo 307 del Código Penal es preciso:",
+      "answers": [
+        { "text": "El conocimiento y el pago de la deuda", "correct": false },
+        { "text": "El reconocimiento y el pago de la deuda - CORRETTA", "correct": true },
+        { "text": "El pago de la deuda y su notificación al Ministerio Fiscal", "correct": false },
+        { "text": "El pago de la deuda y su notificación al Letrado de la Seguridad Social", "correct": false }
+      ],
+      "explanation": "ES: La regularización penalmente eficaz en el fraude a la Seguridad Social exige el reconocimiento y el pago íntegro de la deuda en los términos legales, antes de ciertos hitos procesales.\nIT: La regolarizzazione (art. 307 CP) richiede riconoscimento e pagamento integrale del debito entro i termini previsti; non basta il ‘solo conocimiento’ né comunicazioni ulteriori.",
+      "legal_reference": "CP art. 307.6 (cláusula de regularización)",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "11. Con respecto al delito de fraude de subvenciones, el articulo 308 del Codigo Penal establece liberamente en su aplicación que:",
+      "answers": [
+        { "text": "Las ayudas deben superar el valor de 50.000 euros", "correct": false },
+        { "text": "El sujeto debe haber falseado sus cuentas anuales", "correct": false },
+        { "text": "El sujeto no cumple con las condiciones requeridas para su concesión - CORRETTA", "correct": true },
+        { "text": "El sujeto oculta las condiciones que permiten su concession", "correct": false }
+      ],
+      "explanation": "ES: El art. 308 CP sanciona, entre otros, obtener ayudas/subvenciones falseando requisitos u ocultando los que las hubieran impedido. No exige necesariamente falsear cuentas anuales ni fija el umbral de 50.000 € (el tipo general alude a 100.000 € para obtención indebida y 120.000 € para desvío de destino, según supuestos).\nIT: Il reato sussiste quando si ottiene la sovvenzione non rispettando le condizioni richieste o occultando impedimenti; non è requisito la falsificazione dei conti né la soglia di 50.000 € (le soglie legali sono diverse a seconda del caso).",
+      "legal_reference": "CP art. 308.1–2",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "12. El delito de falsedad documental societaria tipificado en el artículo 290 del Código Penal puede ser cometido por:",
+      "answers": [
+        { "text": "Administradores de hecho y de derecho - CORRETTA", "correct": true },
+        { "text": "Administradores  nombrados por la sociedad mercantil", "correct": false },
+        { "text": "Administradores  nombrados por la autoridad judicial", "correct": false },
+        { "text": "Administradores concursales", "correct": false }
+      ],
+      "explanation": "ES: El art. 290 CP se refiere a administradores de hecho o de derecho que falsean cuentas, documentos u otros instrumentos societarios. Otras funciones (concursales, judiciales) no encajan como autores típicos salvo concurrir además la condición del precepto.\nIT: Il reato di falsità societaria (art. 290 CP) riguarda gli amministratori ‘di fatto’ o ‘di diritto’ che falsificano conti/documenti societari.",
+      "legal_reference": "CP art. 290",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
     }
   ]
 }
