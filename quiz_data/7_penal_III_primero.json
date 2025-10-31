@@ -380,6 +380,368 @@
       "explanation": "ES: La apropiación puede beneficiarse el propio autor o un tercero (253). El umbral de 400 € solo separa leves y básicos, y la conducta no se limita a negar la recepción.\nIT: L’appropriazione può essere a favore dell’autore o di un terzo; le altre opzioni sono imprecise o errate.",
       "legal_reference": "CP art. 253",
       "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "18. Indique la respuesta incorrecta. La defraudación del fluido eléctrico y análogos sancionada en el artículo 255 del Código Penal nos indica que los medios empleados para cometer la defraudación pueden ser:",
+      "answers": [
+        { "text": "Alterar maliciosamente las indicaciones de aparados contadores.", "correct": false },
+        { "text": "Valerse de mecanismos instalados para realizar la defraudación.", "correct": false },
+        { "text": "Empleando cualquiera otros medios autorizados para reducir la tarifación. - CORRETTA", "correct": true },
+        { "text": "Utilizando un medio clandestino.", "correct": false }
+      ],
+      "explanation": "ES: El art. 255 CP menciona como medios típicos: alterar contadores, valerse de mecanismos para defraudar o emplear cualquier medio clandestino. Afirmar que se usan medios “autorizados” para reducir la tarifación es la opción incorrecta que señala el test.\nIT: L’art. 255 CP punisce alterazioni dei contatori, meccanismi fraudolenti o mezzi clandestini; l’uso di mezzi “autorizzati” non integra il reato.",
+      "legal_reference": "CP art. 255",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "19. Señale la respuesta incorrecta. Según el artículo 257 apartado 1 del Código Penal, el alzamiento de bienes se sanciona cuando el sujeto activo realize cualquier acto de disposición, patrimonial o generador de obligaciones que:",
+      "answers": [
+        { "text": "Que dilate un procedimiento de apremio.", "correct": false },
+        { "text": "Que dificulte un embargo.", "correct": false },
+        { "text": "Que implique la eficacia de un procedimiento de apremio.", "correct": false },
+        { "text": "Que resuelva un procedimiento ejecutivo. - CORRETTA", "correct": true }
+      ],
+      "explanation": "ES: El art. 257 CP castiga actos destinados a frustrar la ejecución (dilatar, dificultar, impedir embargos). “Resolver” un procedimiento ejecutivo no describe un modo de frustración típico y es la opción incorrecta marcada en el enunciado.\nIT: L’alzamiento de bienes colpisce condotte che ostacolano l’esecuzione; “risolvere” il procedimento non è modalità tipica.",
+      "legal_reference": "CP art. 257.1",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "20. Señale la respuesta incorrecta. Será castigado por un delito de frustración de ejecución del artículo 258 del Código Penal cuando se cumpla el siguiente elemento:",
+      "answers": [
+        { "text": "Cuando se presente una relación de bienes mendaz al administrador.", "correct": false },
+        { "text": "Cuando la relación de patrimonio presentada al administrador sea incompleta.", "correct": false },
+        { "text": "Cuando se impida la satisfacción del acreedor.", "correct": false },
+        { "text": "Ninguna de las respuestas anteriores es correcta. - CORRETTA", "correct": true }
+      ],
+      "explanation": "ES: El art. 258 CP sanciona, entre otros, presentar relación mendaz o incompleta de bienes y cualquier actuar que tienda a impedir la satisfacción del acreedor en ejecución. Por eso la opción “ninguna es correcta” es la incorrecta a elegir.\nIT: La norma punisce relazioni mendaci/incomplete e condotte che impediscono la soddisfazione del creditore; dunque “nessuna è corretta” è la risposta da marcare come errata.",
+      "legal_reference": "CP art. 258",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "21. ¿Cuál de las siguientes conductas no se sancionará por la vía del artículo 259 del Código Penal como insolvencia punible?",
+      "answers": [
+        { "text": "Quien oculta los bienes que debían estar incluidos en la masa del concurso en el momento de su apertura.", "correct": false },
+        { "text": "Quien cometa cualquier tipo de irregularidades en la llevanza de la contabilidad. - CORRETTA", "correct": true },
+        { "text": "Quien participe en negociacones especulativas cuando carezca de justificación económica para ello.", "correct": false },
+        { "text": "Quien proceda al reconocimiento de créditos ficticios.", "correct": false }
+      ],
+      "explanation": "ES: El art. 259 CP exige irregularidades contables relevantes (doble contabilidad, falsedad, ocultación, etc.). “Cualquier tipo” de irregularidad no basta, por eso el test la marca como no sancionable por esta vía.\nIT: Sono punite irregolarità contabili rilevanti; non “qualunque” irregolarità. L’opzione b) è quindi quella da escludere.",
+      "legal_reference": "CP art. 259.1",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "22. El artículo 262 del Código Penal castiga la alteración de precios en concursos y subastas públicas. ¿Cuál de las siguientes conductas está recogida como uno de estos supuesto sancionables?",
+      "answers": [
+        { "text": "Los que intenten alejar al resto de los posesores por medio de dádivas. - CORRETTA", "correct": true },
+        { "text": "Los que finalmente no concurrieran a la subasta a la que estaban llamados.", "correct": false },
+        { "text": "Los que realicen promesas para encorporarse como posesores a la subasta.", "correct": false },
+        { "text": "Ninguna de las respuestas anteriores es correcta.", "correct": false }
+      ],
+      "explanation": "ES: Art. 262.1 CP: se castiga a quienes soliciten/acepten dádivas o promesas para no concurrir, o intenten excluir postores. Alejar postores mediante dádivas encaja.\nIT: La condotta di allontanare gli offerenti con dazioni rientra nell’art. 262.1 CP.",
+      "legal_reference": "CP art. 262.1",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "23. Señale la respuesta incorrecta. Como delito relativo a la propiedad intelectual, se castiga por la vía del artículo 270 del Código Penal la siguiente infracción:",
+      "answers": [
+        { "text": "El que explote económicamente una prestación literaria sin autorización de los titulares de los derechos de propiedad intelectual.", "correct": false },
+        { "text": "El que se comunique públicamente parte de una obra artística sin autorización de los cesionarios de los derechos de propiedad intelectual.", "correct": false },
+        { "text": "El que transforme una ejecución artística con autorización de los cesionarios de los derechos de propiedad intelectual, pero sin la autorización del autor. - CORRETTA", "correct": true },
+        { "text": "El que plagie una obra científica, sin autorización de los titulares de los derechos de propiedad.", "correct": false }
+      ],
+      "explanation": "ES: El art. 270 CP sanciona la explotación sin autorización de los titulares o cesionarios. El enunciado marca como “incorrecta” la opción sobre transformar con autorización de cesionarios pero no del autor; si el cesionario ostenta los derechos de explotación, su autorización puede bastar. Se sigue el marcado del test.\nIT: La tutela è dei titolari/cessionari; l’opzione c) è indicata come errata dal quiz e così viene riportata.",
+      "legal_reference": "CP art. 270.1",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "24. Con respecto al delito contra la propiedad industrial previsto en el artículo 274 en su apartado 1, indique cuál es la respuesta incorrecta:",
+      "answers": [
+        { "text": "Se castigará al que fabrique, produzca o importe productos con un signo distintivo idéntico o confundible con una marca. - CORRETTA", "correct": true },
+        { "text": "El sujeto activo tiene que actuar con fines industriales o comerciales.", "correct": false },
+        { "text": "Se castiga al que plagie una obra gráfica.", "correct": false },
+        { "text": "Se castiga al que comercialice, al por mayor, productos que incorporen un signo distintivo idéntico o confundible con una marca.", "correct": false }
+      ],
+      "explanation": "ES: El test marca como “incorrecta” la afirmación a). No obstante, con arreglo al art. 274.1 CP, fabricar/producir/importar/almacenar/comercializar con signo idéntico o confundible sí es típico cuando se actúa con fines industriales o comerciales. Se sigue el marcado del enunciado.\nIT: L’opzione a) è segnata come errata nel testo, ma la condotta è prevista dall’art. 274.1 CP; si riporta fedelmente quanto indicato.",
+      "legal_reference": "CP art. 274.1",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "25. Señale la respuesta incorrecta. El delito relativo al descubrimiento de un secreto de empresa tipificado en el artículo 278 del Código Penal indica que:",
+      "answers": [
+        { "text": "Se puede sancionar con la pena mayor si los secretos descubiertos se revelasen a terceros.", "correct": false },
+        { "text": "El secreto puede encontrarse recogido en distintos tipos de soportes.", "correct": false },
+        { "text": "Se exige ánimo de lucro.", "correct": false },
+        { "text": "Tanto la a como la b son correctas. - CORRETTA", "correct": true }
+      ],
+      "explanation": "ES: El enunciado exige señalar la opción incorrecta y marca la d). Legalmente, el art. 278 CP no requiere ánimo de lucro de forma general; la agravación por revelación existe. Se reproduce el marcado del test.\nIT: Il quiz indica la d) come risposta da scegliere; si precisa che l’art. 278 CP non richiede sempre animus lucri.",
+      "legal_reference": "CP art. 278",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "26. Señale la respuesta incorrecta. El delito contra la Hacienda Pública tipificado en el artículo 305 del Código Penal sanciona al que defraude a la Hacienda Pública si:",
+      "answers": [
+        { "text": "Elude el pago de tributos.", "correct": false },
+        { "text": "Eludiendo el pago de cantidades retenidas. - CORRETTA", "correct": true },
+        { "text": "Eludiendo el pago de ingresos a cuenta.", "correct": false },
+        { "text": "Ninguna de las respuestas anteriores es correcta.", "correct": false }
+      ],
+      "explanation": "ES: El test marca como incorrecta la b). En la literalidad del art. 305 CP, también integra el tipo eludir pagos de cantidades retenidas o debidas retener y de ingresos a cuenta. Se sigue fielmente el marcado del enunciado.\nIT: Secondo il testo, la b) è la risposta da segnare; l’art. 305 CP contempla pure le ritenute e gli acconti.",
+      "legal_reference": "CP art. 305.1",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "27. Sobre qué objetos puede recaer el delito contra la Hacienda Pública del artículo 305 del Código Penal según su apartado 2:",
+      "answers": [
+        { "text": "Tributos y retenciones.", "correct": false },
+        { "text": "Ingresos a cuenta e impuestos.", "correct": false },
+        { "text": "Devoluciones.", "correct": false },
+        { "text": "Todas las anteriores son correctas. - CORRETTA", "correct": true }
+      ],
+      "explanation": "ES: El art. 305 CP alcanza tributos, cantidades retenidas o que debieron retenerse, ingresos a cuenta y devoluciones indebidas; por eso procede “todas las anteriores”.\nIT: L’oggetto materiale comprende tributi, ritenute, acconti e rimborsi indebiti.",
+      "legal_reference": "CP art. 305.1–2",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "28. Señale la respuesta errónea. Según el artículo 301 del Código Penal que sanciona el delito de blanqueo de capitales, la conducta del sujeto activo que recae sobre bienes, sabiendo que estos tienen su origen en una actividad delictiva, puede ser:",
+      "answers": [
+        { "text": "Adquirir.", "correct": false },
+        { "text": "Convertir.", "correct": false },
+        { "text": "Transmitir.", "correct": false },
+        { "text": "Conocer. - CORRETTA", "correct": true }
+      ],
+      "explanation": "ES: El art. 301 CP enumera conductas como adquirir, convertir, transmitir, poseer, utilizar, etc. “Conocer” no es por sí mismo un verbo típico de acción; se requiere una conducta de manejo de bienes.\nIT: La mera conoscenza dell’origine illecita non basta; occorre un atto di gestione/trasferimento ecc.",
+      "legal_reference": "CP art. 301.1",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "29. Con respecto al delito de fraude de subvenciones, el artículo 308 del Código Penal establece literalmente en su tipificación:",
+      "answers": [
+        { "text": "Las ayudas deben proceder de la Administración Pública Nacional.", "correct": false },
+        { "text": "El sujeto debe haber hecho una relación de bienes mendaz.", "correct": false },
+        { "text": "El sujeto no cumpla con las condiciones requeridas para su concesión. - CORRETTA", "correct": true },
+        { "text": "El sujeto oculta las condiciones que favorecen su concesión.", "correct": false }
+      ],
+      "explanation": "ES: El art. 308 CP sanciona obtener ayudas/subvenciones falseando condiciones u ocultando las que la hubieran impedido; el enunciado recoge esa literalidad.\nIT: Il reato scatta se si ottiene la sovvenzione falsificando o occultando i requisiti richiesti.",
+      "legal_reference": "CP art. 308.1",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "30. Con respecto al delito de financiación ilegal de partidos políticos tipificado en el artículo 304 bis del Código Penal, podemos indicar que se exige:",
+      "answers": [
+        { "text": "Que el sujeto activo sea un funcionario o personal de la Administración Pública.", "correct": false },
+        { "text": "Los partidos políticos y sus federaciones pueden ser los únicos beneficiarios.", "correct": false },
+        { "text": "Consiste en dar o recibir aportaciones o donaciones. - CORRETTA", "correct": true },
+        { "text": "Este precepto no es una norma penal en blanco.", "correct": false }
+      ],
+      "explanation": "ES: El art. 304 bis CP tipifica dar/recibir donaciones o aportaciones prohibidas a partidos, federaciones, coaliciones o agrupaciones, con remisiones normativas (norma penal en blanco).\nIT: La fattispecie riguarda erogazioni vietate a partiti/coalizioni; è prevista come norma in bianco.",
+      "legal_reference": "CP art. 304 bis",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "31. Según el artículo 267 del Código Penal, los daños causados por imprudencia grave se castigan cuando:",
+      "answers": [
+        { "text": "Superan la cuantía de 50.000 euros.", "correct": false },
+        { "text": "Superan la cuantía de 250.000 euros.", "correct": false },
+        { "text": "Superan la cuantía de 80.000 euros. - CORRETTA", "correct": true },
+        { "text": "Es indiferente la cuantía siempre que la imprudencia sea grave.", "correct": false }
+      ],
+      "explanation": "ES: La punibilidad de los daños por imprudencia grave exige umbral económico; el test fija 80.000 € como referencia típica de art. 267 CP.\nIT: I danni colposi gravi sono punibili oltre una certa soglia economica; qui indicata in 80.000 € secondo il quiz.",
+      "legal_reference": "CP art. 267",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "32. Señale la respuesta incorrecta. Para poder castigar los daños del artículo 267 del Código Penal causados por imprudencia será preciso que:",
+      "answers": [
+        { "text": "Los mismos alcancen una cifra marcada por la norma.", "correct": false },
+        { "text": "Que la imprudencia cometida sea grave. - CORRETTA", "correct": true },
+        { "text": "Que la persona agraviada y su representante legal denuncien, salvo excepciones.", "correct": false },
+        { "text": "Ninguna de las respuestas anteriores es correcta.", "correct": false }
+      ],
+      "explanation": "ES: El test pide señalar la opción incorrecta y marca que sea “grave” como tal. Con carácter general, el art. 267 exige imprudencia grave y una cuantía mínima. Se reproduce el marcado del enunciado.\nIT: L’enunciato segna come errata la necessità della gravità; nella lettera dell’art. 267 CP, gravità e soglia sono condizioni di punibilità.",
+      "legal_reference": "CP art. 267",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+
+    {
+      "question": "PRIMER PARCIAL\n1. ¿Qué circunstancias agravan la pena por sabotaje informático según el artículo 264 del Código Penal?",
+      "answers": [
+        { "text": "Cometer el delito en el marco de una organización criminal.", "correct": false },
+        { "text": "Ocasionar daños de especial gravedad o afectar a un número elevado de sistemas informáticos.", "correct": false },
+        { "text": "Perjudicar gravemente el funcionamiento de servicios públicos esenciales.", "correct": false },
+        { "text": "Todas las anteriores. - CORRETTA", "correct": true }
+      ],
+      "explanation": "ES: Las agravantes del art. 264 CP incluyen especial gravedad, afectación masiva, organización criminal y afectación de servicios esenciales; por ello procede “todas las anteriores”.\nIT: Le ipotesi aggravate comprendono danno grave, massa di sistemi coinvolti, organizzazione criminale e servizi essenziali.",
+      "legal_reference": "CP art. 264 y 264 ter",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "2. ¿Qué acción constituye un delito contra la propiedad intelectual según el artículo 270.1 del Código Penal?",
+      "answers": [
+        { "text": "Comunicar públicamente una obra sin autorización. - CORRETTA", "correct": true },
+        { "text": "Importar una obra sin autorización.", "correct": false },
+        { "text": "Exportar una obra sin autorización.", "correct": false },
+        { "text": "Adquirir una obra en una tienda sin autorización.", "correct": false }
+      ],
+      "explanation": "ES: Art. 270.1 CP: reproducir, plagiar, distribuir o comunicar públicamente sin autorización de titulares/cesionarios integra el delito.\nIT: La comunicazione pubblica non autorizzata rientra nel 270.1 CP.",
+      "legal_reference": "CP art. 270.1",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "3. ¿Qué medida puede ordenar el juez en caso de infracción de derechos de propiedad intelectual a través de un portal de internet según el artículo 270.3 del Código Penal?",
+      "answers": [
+        { "text": "La retirada de las obras o prestaciones objeto de la infracción. - CORRETTA", "correct": true },
+        { "text": "La eliminación de todos los enlaces del portal.", "correct": false },
+        { "text": "La suspensión temporal del portal.", "correct": false },
+        { "text": "La publicación de un aviso en el portal.", "correct": false }
+      ],
+      "explanation": "ES: El art. 270.3 CP prevé medidas como retirada y cese. El test selecciona la retirada como ejemplo típico.\nIT: È misura tipica disporre la rimozione dei contenuti illeciti.",
+      "legal_reference": "CP art. 270.3",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "4. ¿Qué circunstancias agravan la pena por delitos contra la propiedad intelectual según el artículo 271 del Código Penal?",
+      "answers": [
+        { "text": "Que el beneficio obtenido posea especial trascendencia económica.", "correct": false },
+        { "text": "Que los hechos revistan especial gravedad.", "correct": false },
+        { "text": "Que el culpable pertenezca a una organización o asociación.", "correct": false },
+        { "text": "Todas las anteriores. - CORRETTA", "correct": true }
+      ],
+      "explanation": "ES: El art. 271 CP agrava por especial gravedad, elevado beneficio, organización/ asociación, entre otros supuestos.\nIT: Sono previste aggravanti per entità del beneficio, gravità dei fatti, appartenenza ad organizzazioni.",
+      "legal_reference": "CP art. 271",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "5. ¿Qué acción constituye un delito contra la propiedad industrial según el artículo 273.1 del Código Penal?",
+      "answers": [
+        { "text": "Introducir en el comercio objetos amparados por una patente sin consentimiento. - CORRETTA", "correct": true },
+        { "text": "Introducir en el comercio objetos con signo distintivo que pueda conducir a su confusión con una marca registrada.", "correct": false },
+        { "text": "Citar una patente en un trabajo académico sin consentimiento.", "correct": false },
+        { "text": "Todas las respuestas anteriores son correctas.", "correct": false }
+      ],
+      "explanation": "ES: Art. 273.1 CP protege patentes/dibujos/modelos; la introducción en el comercio sin consentimiento del titular integra el tipo.\nIT: La messa in commercio di prodotti brevettati senza consenso è punita.",
+      "legal_reference": "CP art. 273.1",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "6. ¿Qué acciones constituyen un delito contra la propiedad industrial según el artículo 274 del Código Penal?",
+      "answers": [
+        { "text": "Fabricar, producir o importar productos que incorporen un signo distintivo idéntico o confundible con uno registrado.", "correct": false },
+        { "text": "Ofrecer, distribuir o comercializar productos que incorporen un signo distintivo idéntico o confundible con uno registrado.", "correct": false },
+        { "text": "Almacenar productos que incorporen un signo distintivo idéntico o confundible con uno registrado.", "correct": false },
+        { "text": "Todas las anteriores. - CORRETTA", "correct": true }
+      ],
+      "explanation": "ES: El art. 274.1 CP abarca fabricar, producir, importar, almacenar, ofrecer, distribuir o comercializar productos con signos idénticos o confundibles, con fines industriales o comerciales.\nIT: Tutte le condotte elencate sono tipiche secondo il 274.1 CP.",
+      "legal_reference": "CP art. 274.1",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "7. ¿Qué acciones constituyen un delito de corrupción en los negocios según el artículo 286 bis del Código Penal?",
+      "answers": [
+        { "text": "Recibir, solicitar o aceptar un beneficio o ventaja no justificados para favorecer indebidamente a otro en la adquisición o venta de mercancías.", "correct": false },
+        { "text": "Ofrecer o conceder un beneficio o ventaja no justificados para ser favorecido indebidamente en la adquisición o venta de mercancías.", "correct": false },
+        { "text": "Ambas respuestas son correctas. - CORRETTA", "correct": true },
+        { "text": "Ninguna de las anteriores.", "correct": false }
+      ],
+      "explanation": "ES: El tipo alcanza tanto la vertiente pasiva (recibir/solicitar/aceptar) como la activa (ofrecer/conceder) en el ámbito de los negocios.\nIT: Sia la condotta attiva sia quella passiva integrano il reato.",
+      "legal_reference": "CP art. 286 bis",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "8. ¿Qué acciones constituyen un delito relativo al mercado y a los consumidores según el artículo 281 del Código Penal?",
+      "answers": [
+        { "text": "Detraer del mercado materias primas o productos de primera necesidad con la intención de desabastecer un sector. - CORRETTA", "correct": true },
+        { "text": "Comprar materias primas o productos de primera necesidad con ánimo de lucro.", "correct": false },
+        { "text": "Utilizar materias primas o productos de primera necesidad para alterar el precio.", "correct": false },
+        { "text": "Dañar de modo grave productos de primera necesidad con ánimo de lucro.", "correct": false }
+      ],
+      "explanation": "ES: Art. 281 CP: detraer del mercado para desabastecer o encarecer bienes esenciales es típico. Las otras opciones no encajan literalmente en el tipo básico.\nIT: La sottrazione dal mercato per creare carenza integra il reato.",
+      "legal_reference": "CP art. 281",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "9. ¿Qué se considera una relación de bienes incompleta en un procedimiento de ejecución según el artículo 258 del Código Penal?",
+      "answers": [
+        { "text": "Cuando el deudor no incluye bienes de titularidad de terceros que utiliza o disfruta. - CORRETTA", "correct": true },
+        { "text": "Cuando el deudor incluye todos sus bienes sin excepción.", "correct": false },
+        { "text": "Cuando el deudor presenta una lista de bienes sin valor económico.", "correct": false },
+        { "text": "Cuando el deudor incluye bienes inmuebles y muebles pero fuera de plazo.", "correct": false }
+      ],
+      "explanation": "ES: La ‘relación incompleta’ incluye omitir bienes útiles/disfrutados aunque sean de terceros cuando legalmente deben declararse (p.ej., bienes gananciales, bienes en usufructo, etc.).\nIT: È incompleta la relazione che omette beni che avrebbero dovuto essere indicati per la soddisfazione coattiva.",
+      "legal_reference": "CP art. 258.1",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "10. ¿Qué acción constituye un delito de alteración de precios en concursos y subastas públicas según el artículo 262.1 del Código Penal?",
+      "answers": [
+        { "text": "Solicitar dádivas o promesas para no tomar parte en un concurso o subasta pública. - CORRETTA", "correct": true },
+        { "text": "Comprar bienes inmuebles sin informar a los acreedores.", "correct": false },
+        { "text": "Vender bienes muebles sin autorización judicial.", "correct": false },
+        { "text": "Donar bienes a familiares cercanos que van a ser subastados.", "correct": false }
+      ],
+      "explanation": "ES: El art. 262.1 CP sanciona solicitar/aceptar dádivas o promesas para no concurrir o para hacerlo en condiciones determinadas.\nIT: La richiesta/accettazione di utilità per non partecipare integra la fattispecie.",
+      "legal_reference": "CP art. 262.1",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+
+    {
+      "question": "1.      Con respecto a la sanción del delito leve de hurto se tendrá en cuenta la concurrencia de los siguientes elementos. Señale la respuesta incorrecta.",
+      "answers": [
+        { "text": "La cuantía de lo sustraído no debe exceder de 400 euros.", "correct": false },
+        { "text": "Debe concurrir ánimo de lucro.", "correct": false },
+        { "text": "No se tendrán en cuenta los antecedentes penales. - CORRETTA", "correct": true },
+        { "text": "Si ha sido condenado por dos delitos previamente este tipo se impone la pena del tipo básico. - CORRETTA", "correct": true }
+      ],
+      "explanation": "ES: El hurto leve (art. 234.2 CP) atiende a la cuantía (≤ 400 €) y al ánimo de lucro. Los antecedentes y la multirreincidencia pueden tener efectos agravatorios (art. 235); por ello el test marca c) y d) como ‘incorrectas’. \nIT: Per il ‘hurto leve’ rilevano soglia e lucro; precedenti e recidiva possono aggravare, quindi c) e d) vengono contrassegnate come sbagliate.",
+      "legal_reference": "CP arts. 234.2, 235.1.7ª",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "2.      En relación con la pena a imponer por el tipo de hurto, se sancionarán como calificados los siguientes supuestos. Señale la respuesta incorrecta.",
+      "answers": [
+        { "text": "Cuando se trate de cosas de valor científico.", "correct": false },
+        { "text": "Cuando se trate de conducciones de hidrocarburos y se cause un quebranto grave.", "correct": false },
+        { "text": "Cuando se trate de cableado de suministro eléctrico y se cause un perjuicio menos grave. - CORRETTA", "correct": true },
+        { "text": "Cuando se ponga a la familia de la víctima en grave situación económica.", "correct": false }
+      ],
+      "explanation": "ES: El art. 235 CP agrava por valor científico, conducciones/cableado con quebranto grave, bienes de primera necesidad, etc. ‘Perjuicio menos grave’ no es categoría de agravación típica.\nIT: L’aggravata richiede un pregiudizio grave; “meno grave” non è previsto.",
+      "legal_reference": "CP art. 235.1",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "3.      En la regulación del hurto de cosa propia se indican los siguientes requisitos. Señale la respuesta incorrecta.",
+      "answers": [
+        { "text": "Si el valor de la cosa no excede de 400 euros es un tipo leve.", "correct": false },
+        { "text": "La sustracción siempre la lleva a cabo el autor de la cosa mueble. - CORRETTA", "correct": true },
+        { "text": "Se sustrae de quien la tiene legítimamente en su poder.", "correct": false },
+        { "text": "Se realiza con perjuicio del poseedor o de un tercero.", "correct": false }
+      ],
+      "explanation": "ES: El hurto de cosa propia (art. 236 CP) lo comete el propietario, sustrayéndola al poseedor legítimo con perjuicio; no ‘siempre’ por el “autor de la cosa mueble” (enunciado impreciso), por eso b) es la incorrecta.\nIT: L’autore è il proprietario, con danno al detentore legittimo; la b) è formulata in modo scorretto.",
+      "legal_reference": "CP art. 236; art. 234.2 (forma leve)",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "4.      Sobre la tipificación del delito de robo en nuestro Código Penal, señale cuál de las siguientes respuestas es correcta:",
+      "answers": [
+        { "text": "El rompimiento de techo se considera un tipo de violencia.", "correct": false },
+        { "text": "Las tarjetas perforadas se consideran llaves falsas. - CORRETTA", "correct": true },
+        { "text": "Se castiga como delito leve de robo si el valor de la cosa no excede de 400 euros.", "correct": false },
+        { "text": "No se considera que concurre el requisito de violencia si esta se emplea para proteger la huida.", "correct": false }
+      ],
+      "explanation": "ES: El art. 239 CP incluye como llaves falsas tarjetas magnéticas/otros dispositivos. El rompimiento de techo es ‘fuerza en las cosas’, no ‘violencia’.\nIT: Le “carte”/dispositivi possono costituire chiavi false; non esiste ‘robo’ lieve per soglia.",
+      "legal_reference": "CP arts. 238–239, 242",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
+    },
+    {
+      "question": "5.      Con respecto a la sanción del robo en casa habitada, señale cuál de las siguientes respuestas es incorrecta.",
+      "answers": [
+        { "text": "Se considera casa habitada todo albergue en el que se encuentren una o dos personas, aunque no sea morada. - CORRETTA", "correct": true },
+        { "text": "También se sancionan los hechos si se cometiere en establecimiento abierto al público fuera de las horas de apertura.", "correct": false },
+        { "text": "Los garajes se consideran dependencias de la casa habitada a los efectos de sancionar este delito.", "correct": false },
+        { "text": "Se impondrá una pena mayor si recae sobre cosas de primera necesidad y causa una situación de desabastecimiento.", "correct": false }
+      ],
+      "explanation": "ES: ‘Casa habitada’ exige destino de morada; un albergue ocasional no convierte per se el lugar en casa habitada. Se sanciona también en establecimientos abiertos al público (art. 241 CP).\nIT: La ‘casa habitada’ richiede relazione di abitazione; l’opzione a) è descritta in modo inesatto.",
+      "legal_reference": "CP art. 241.1–3",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx"
     }
   ]
 }
