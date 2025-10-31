@@ -1330,6 +1330,126 @@
       "explanation": "ES: El enunciado señala como correcta una revalorización no realizada, que en realidad NO tributa hasta la transmisión; los premios y ganancias de juego se integran en la base general. IT: L’item dà come corretta una plusvalenza non realizzata, che in realtà non è imponibile finché non si cede il bene; premi e vincite vanno di regola nella base generale.",
       "legal_reference": "LIRPF arts. 33.1 (necesidad de alteración patrimonial realizada) y 45-46.",
       "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "SEñale cuál de las siguientes contraposiciones se considera rendimiento del trabajo a efectos del IRPF:",
+      "answers": [
+        { "text": "los rendimientos obtenidos por un trabajador autónomo en el desarrollo de su acividades profesional", "correct": true },
+        { "text": "las contribuciones a planes de pensiones y sistemas alternativos a los planes de pensiones realizadas por el trabajador", "correct": false },
+        { "text": "el importe total de las dietas y asignaciones para gastos de viaje del trabajador", "correct": false },
+        { "text": "las pensiones de jubilación de la seguridad social", "correct": false }
+      ],
+      "explanation": "ES: El enunciado marca como correcta la opción sobre el autónomo, pero técnicamente los ingresos del autónomo son rendimientos de actividades económicas (no del trabajo). Las pensiones de jubilación sí son rendimientos del trabajo; las dietas solo están exentas dentro de límites, el exceso es rendimiento del trabajo. IT: L’item indica come corretta la risposta sull’autonomo, ma in realtà i compensi dell’autonomo sono redditi di attività economica, non di lavoro dipendente. Le pensioni sono redditi di lavoro; le diarie sono esenti entro limiti, l’eccedenza è reddito di lavoro.",
+      "legal_reference": "LIRPF arts. 17 (rendimientos del trabajo), 27 (actividades económicas), 18 y RIRPF art. 9 (dietas).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Señale cuál de los siguientes gastos puede considerarse físicamente deducible en el cálculo del rendimiento neto del trabajo",
+      "answers": [
+        { "text": "determinados donativos establecidos por ley", "correct": false },
+        { "text": "los gastos de seguros médicos privados", "correct": false },
+        { "text": "los arrendamientos y suministros de la residencia habitual", "correct": false },
+        { "text": "las cotizaciones a la seguridad social", "correct": true }
+      ],
+      "explanation": "ES: Entre los gastos deducibles del trabajo están, con carácter tasado, las cotizaciones a la Seguridad Social. Donativos, seguros médicos privados y alquiler/suministros de la vivienda habitual no son gastos deducibles del trabajo (aunque pueden tener otros tratamientos). IT: Tra le spese deducibili dal reddito di lavoro rientrano le contribuzioni previdenziali; donazioni, assicurazioni sanitarie e canone/utenze dell’abitazione non lo sono.",
+      "legal_reference": "LIRPF art. 19.2 (gastos deducibles del trabajo) y art. 68 (donativos: deducción en cuota, no gasto).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Este estudiante de 20 años genera contenidos en instagram y se ha dado de alta como autonomía para realizar esta actividades. Además trabaja como dependiente en la campana de navidad y de socorrista en verano. señale la respuesta correcta:",
+      "answers": [
+        { "text": "los rendimientos derivados de las tres actividades económicas que realiza Ester tributan en el IRPF", "correct": true },
+        { "text": "los rendimientos derivado de su actividad en instagram no tributan en el IRPF sino en el impuesto de sociedades", "correct": false },
+        { "text": "al ser Ester menos de 25 años sus ingresos están exentos", "correct": false },
+        { "text": "los ingresos obtenidos por Ester como dependiente y socorrista no tributan en el IRPF al derivarse del trabajo a tiempo parcial", "correct": false }
+      ],
+      "explanation": "ES: El enunciado considera correcta la tributación en IRPF; en realidad, la actividad de Instagram tributa como actividad económica y los trabajos de dependiente/socorrista como rendimientos del trabajo. Todas tributan en IRPF (categorías distintas). IT: L’attività su Instagram è reddito di attività economica; i lavori di commessa/bagnina sono redditi di lavoro. Tutti concorrono all’IRPF.",
+      "legal_reference": "LIRPF arts. 17 (trabajo) y 27 (actividad económica).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "¿A que se refiere la LIRPF al establecer que hay que tributar por un inmueble no alquilado ni afecto a actividades económicas y que no constituye vivienda habitual?",
+      "answers": [
+        { "text": "imputación de rentas inmobiliarias", "correct": true },
+        { "text": "rendimientos del capital inmobiliario", "correct": false },
+        { "text": "ganancias de capital", "correct": false },
+        { "text": "a que no esos casos no hay tributa por IRPF", "correct": false }
+      ],
+      "explanation": "ES: Para inmuebles urbanos no arrendados y no afectos (que no son vivienda habitual) procede imputación de rentas. IT: Per gli immobili urbani non locati e non strumentali (non abitazione principale) si applica l’imputazione di reddito.",
+      "legal_reference": "LIRPF art. 85.1 (imputación de rentas inmobiliarias).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Elasa posee acciones de la empresa Zotas SL que cotiza en bolsa adquiridas el 1 de enero del presente ejercicio fiscal por €1.000 en el mes de febrero del mismo ejercicio obtuvo €50 en concepto de dividendos brutos por dichas acciones las cuales vende el 28 de febrero por €800. ¿Qué debe declarar?",
+      "answers": [
+        { "text": "Elsa debe declarar una pérdida patrimonial de €200 por la venta de las acciones", "correct": true },
+        { "text": "Elsa de declarar €50 en concepto de rendimientos del capital mobiliario por los dividendos percibidos", "correct": true },
+        { "text": "A y B son correctas", "correct": true },
+        { "text": "ninguna es correcta", "correct": false }
+      ],
+      "explanation": "ES: Venta a 800 frente a coste 1.000 → pérdida patrimonial 200 (base del ahorro); dividendos 50 → rendimiento de capital mobiliario (base del ahorro). IT: Cessione a 800 vs costo 1.000 → minusvalenza 200; dividendi 50 → reddito di capitale.",
+      "legal_reference": "LIRPF arts. 25-26 (dividendos) y 33-35 (ganancias/pérdidas patrimoniales).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Irene tiene 26 años y compró 200 acciones de una empresa a €10 acción hace 5 años en el ejercicio fiscal vende 100 de las acciones anteriores a €15 acción pagando €50 por gestos inherentes a la venta a la entidad financiera que le ha gestionado la operación. Que tipo de rendimiento tiene que declarar y en qué cuantía?",
+      "answers": [
+        { "text": "ganancia patrimonial derivada de transmisión a integrar en la bolsa del ahorro: 500€", "correct": false },
+        { "text": "ganancia patrimonial derivada de transmisión a integrar en la bolsa del ahorro: 450€", "correct": true },
+        { "text": "ganancia patrimonial a integrar en la base general por importe de 500€", "correct": false },
+        { "text": "rendimientos de capital, mobiliario rendimiento neto: 450€", "correct": false }
+      ],
+      "explanation": "ES: Ganancia = (15×100) − (10×100) − 50 = 450 €, que se integra en la base del ahorro. IT: Plusvalenza = 1.500 − 1.000 − 50 = 450 €, base del risparmio.",
+      "legal_reference": "LIRPF arts. 33-35 y 46 (integración en la base del ahorro).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Señala la afirmación correcta con respecto al IRPF:",
+      "answers": [
+        { "text": "el IRPF es un tributo estatal en el que las CCAA no tiene ninguna competencia", "correct": false },
+        { "text": "la duración del período impositivo en el IRPF es de un año cualesquiera que sean las circunstancia", "correct": false },
+        { "text": "el IRPF grava tanto rentas y rendimientos monetarios como rentas en especie", "correct": true },
+        { "text": "en el IRPF español sólo se integran las rentas obtenidas en el territorio nacional", "correct": false }
+      ],
+      "explanation": "ES: El IRPF grava rentas dinerarias y en especie; hay competencias autonómicas y se aplica renta mundial para residentes. IT: L’IRPF tassa redditi in denaro e in natura; esistono competenze regionali e si applica il principio del reddito mondiale.",
+      "legal_reference": "LIRPF arts. 1-2 (naturaleza/objeto), 45-46 (bases), 8-9 (residencia).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Los rendimientos obtenidos en una óptica cuya titular es a la vez propietaria del local se consideran a efectos del IRPF:",
+      "answers": [
+        { "text": "rendimientos de actividades económicas", "correct": true },
+        { "text": "rendimientos del capital inmobiliario", "correct": false },
+        { "text": "rendimientos mixtos de actividades económicas y del capital inmobiliario", "correct": false },
+        { "text": "se consideran rendimientos del trabajo para la titular de la actividad", "correct": false }
+      ],
+      "explanation": "ES: La explotación de la óptica es una actividad económica; la propiedad del local no altera la naturaleza del rendimiento principal. IT: L’ottica è attività economica; la proprietà del locale non cambia la qualificazione del reddito.",
+      "legal_reference": "LIRPF art. 27.1 (concepto de actividad económica).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Señale en qué caso se debe realizar imputación de rentas inmobiliarias para el contribuyente:",
+      "answers": [
+        { "text": "apartamento vacacional que se alquila durante todo el ano", "correct": false },
+        { "text": "casa en  el pueblo que se destina a uso como segunda residencia", "correct": true },
+        { "text": "local donde está instalada la clínica en la que el contribuyente ejerce su actividad profesional", "correct": false },
+        { "text": "vivienda en construcción", "correct": false }
+      ],
+      "explanation": "ES: Imputación procede para inmuebles urbanos no alquilados y no afectos (p. ej., segunda residencia). IT: L’imputazione si applica per gli immobili urbani non locati e non strumentali (es. seconda casa).",
+      "legal_reference": "LIRPF art. 85.1 y 85.2.",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Se consideran rendimientos de actividades económicos a efectos del IRPF:",
+      "answers": [
+        { "text": "los ingresos de un arquitecto que trabaja en un estudio por cuenta ajena", "correct": false },
+        { "text": "los ingresos obtenidos del arrendamiento de locales, en el supuesto de que se tenga contratada una persona para gestionar dichos arrendamientos", "correct": true },
+        { "text": "los ingresos obtenidos por conferencias cursos y seminarios sin ninguna excepción", "correct": false },
+        { "text": "los ingresos de un empresario individual procedentes de la venta de una furgoneta de la empresa", "correct": false }
+      ],
+      "explanation": "ES: El arrendamiento de inmuebles es actividad económica cuando se dispone de al menos una persona empleada con contrato laboral y a jornada completa para su gestión. IT: La locazione è attività economica se c’è un dipendente full-time addetto alla gestione.",
+      "legal_reference": "LIRPF art. 27.2 (arrendamiento de inmuebles como actividad económica).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
     }
   ]
 }
