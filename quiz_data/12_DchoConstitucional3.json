@@ -1105,6 +1105,366 @@
       "explanation": "ES: El art. 24.2 CE reconoce la presunción de inocencia y el derecho a no declarar contra sí mismo ni a confesarse culpable. IT: Art. 24.2 CE: presunzione d’innocenza e diritto al silenzio.",
       "legal_reference": "Art. 24.2 CE.",
       "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "1. .- El derecho a sindicarse libremente:",
+      "answers": [
+        { "text": "El ejercicio de tal derecho por parte de los funcionarios no presenta peculiaridad alguna.", "correct": false },
+        { "text": "Lo tienen todos los trabajadores.", "correct": false },
+        { "text": "Podrá ser limitado, o exceptuado, a las Fuerzas Armadas.", "correct": true },
+        { "text": "No podrá ser restringido su ejercicio a otros cuerpos aunque estén sometidos a la disciplina militar.", "correct": false }
+      ],
+      "explanation": "ES: El art. 28.1 CE reconoce el derecho de sindicación y permite limitar o exceptuar a Fuerzas Armadas, Institutos armados y cuerpos sometidos a disciplina militar; en funcionarios hay peculiaridades legales. IT: L’art. 28.1 CE ammette limiti/deroghe per Forze Armate e corpi militari e disciplina peculiar per i funzionari.",
+      "legal_reference": "Art. 28.1 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "2. .- En relación con el derecho a la libertad religiosa ¿qué declara ta Constitución española?",
+      "answers": [
+        { "text": "La reconoce, la garantiza y la protege.", "correct": false },
+        { "text": "La reconoce.", "correct": false },
+        { "text": "La garantiza.", "correct": true },
+        { "text": "La reconoce y la garantiza.", "correct": false }
+      ],
+      "explanation": "ES: El tenor literal del art. 16.1 CE es “Se garantiza la libertad ideológica, religiosa y de culto…”. IT: Testo letterale: “Si garantisce la libertà ideologica, religiosa e di culto…”.",
+      "legal_reference": "Art. 16.1 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "3. .- ¿Cuál es el tiempo máximo de duración de la detención preventiva?",
+      "answers": [
+        { "text": "36 horas.", "correct": false },
+        { "text": "48 horas.", "correct": false },
+        { "text": "72 horas.", "correct": true },
+        { "text": "24 horas.", "correct": false }
+      ],
+      "explanation": "ES: Debe ponerse en libertad o a disposición judicial en un máximo de 72 horas. IT: Il fermo non può superare 72 ore prima della convalida o liberazione.",
+      "legal_reference": "Art. 17.2 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "4.- El ejercicio, por ejemplo, del derecho a expresar opiniones por escrito:",
+      "answers": [
+        { "text": "No puede restringirse mediante ningún tipo de censura previa.", "correct": true },
+        { "text": "Puede restringirse mediante censura previa por parte de los organismos oficiales en los casos en los que esté en peligro la seguridad nacional.", "correct": false },
+        { "text": "Sólo puede restringirse mediante censura previa cuando la opinión sea vertida a través de los medios de comunicación del Estado.", "correct": false },
+        { "text": "Puede restringirse mediante censura previa cuando los destinatarios de la opinión sean menores de edad.", "correct": false }
+      ],
+      "explanation": "ES: La CE prohíbe toda censura previa en el ejercicio de las libertades del art. 20. IT: È vietata qualsiasi censura preventiva nell’esercizio delle libertà di espressione/informazione.",
+      "legal_reference": "Art. 20.2 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "5 - Una de las siguientes afirmaciones es falsa:",
+      "answers": [
+        { "text": "la Constitución establece que el hombre y la mujer tienen derecho a contraer matrimonio con plena igualdad jurídica.", "correct": false },
+        { "text": "la Constitución admite que el matrimonio podrá ser disuelto.", "correct": false },
+        { "text": "la Constitución dispone que la edad y la capacidad del hombre y la mujer para contraer matrimonio se alcanza con la mayoría de edad.", "correct": true },
+        { "text": "la Constitución delega en la ley la concreción de los derechos ydeberes de los cónyuges.", "correct": false }
+      ],
+      "explanation": "ES: La CE no fija edad/capacidad matrimonial (lo hace la ley civil); sí reconoce igualdad, admite disolución y remite a la ley los derechos/deberes. IT: L’età/capacità non è in Costituzione ma nel Codice civile; uguaglianza e disciplina del matrimonio sono rimesse alla legge.",
+      "legal_reference": "Art. 32 CE; Código Civil (edad/capacidad por ley).",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "6 .- Del derecho de asilo en España:",
+      "answers": [
+        { "text": "Sólo podrán gozar los ciudadanos de otros países.", "correct": false },
+        { "text": "Sólo podrán gozar los apátridas.", "correct": false },
+        { "text": "Podrán gozar del mismo los ciudadanos españoles perseguidos en otros países.", "correct": false },
+        { "text": "Se disfrutará por sus beneficiarios en los términos establecidos en la Ley..", "correct": true }
+      ],
+      "explanation": "ES: La CE remite a la ley la regulación del asilo para ciudadanos de otros países y apátridas; no es para españoles en su propio país. IT: L’asilo in Spagna riguarda stranieri e apolidi secondo la legge; non i cittadini spagnoli.",
+      "legal_reference": "Art. 13.4 CE; Ley 12/2009 (asilo y protección subsidiaria).",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "7 .- Los españoles son mayores de edad:",
+      "answers": [
+        { "text": "A los veintiún años.", "correct": false },
+        { "text": "A los dieciséis años.", "correct": false },
+        { "text": "Cuando se emancipan, al margen de su edad.", "correct": false },
+        { "text": "A los dieciocho años.", "correct": true }
+      ],
+      "explanation": "ES: La mayoría de edad se alcanza a los 18 años. IT: Maggiore età a 18 anni.",
+      "legal_reference": "Art. 12 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "8 .- La labor que la Constitución asigna a los poderes públicos respecto a los ciudadanos disminuidos:",
+      "answers": [
+        { "text": "No impone a los poderes públicos una función de amparo especial de los disminuidos para el disfrute de sus derechos.", "correct": false },
+        { "text": "Se limita a los que lo sean por causas físicas, y tiendo únicamente a realizar una política de previsión y tratamiento.", "correct": false },
+        { "text": "Abarca sólo a los disminuidos físicos y sensoriales, debiendo ser realizada una política no exclusivamente de prevención y tratamiento, sino, además, de rehabilitación e integración.", "correct": false },
+        { "text": "Las políticas orientadas a los disminuidos físicos y sensoriales, también irán dirigidas a los disminuidos psíquicos.", "correct": true }
+      ],
+      "explanation": "ES: La CE ordena una política de prevención, tratamiento, rehabilitación e integración para disminuidos físicos, sensoriales y psíquicos. IT: Politiche di prevenzione, trattamento, riabilitazione e integrazione per disabili fisici, sensoriali e psichici.",
+      "legal_reference": "Art. 49 CE (redacción histórica).",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "9 - ¿Qué asociaciones están prohibidas?",
+      "answers": [
+        { "text": "las asociaciones paramilitares y las secretas.", "correct": false },
+        { "text": "Las asociaciones secretas y las ilegales.", "correct": false },
+        { "text": "Las asociaciones paramilitares, ilegales y secretas.", "correct": true },
+        { "text": "Las asociaciones ilegales y las paramilitares.", "correct": false }
+      ],
+      "explanation": "ES: Son ilícitas las asociaciones secretas y las de carácter paramilitar, y las que persigan fines o medios delictivos (ilegales). IT: Vietate le associazioni segrete, paramilitari e quelle con fini/mezzi delittuosi.",
+      "legal_reference": "Art. 22.5 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "10 .- ¿Puede, la Administración civil, imponer sanciones que impliquen privación de libertad?",
+      "answers": [
+        { "text": "No, ni de forma directa ni de forma indirecta o subsidiaria.", "correct": true },
+        { "text": "No de forma directa, pero si de forma subsidiaria.", "correct": false },
+        { "text": "Sólo de forma directa.", "correct": false },
+        { "text": "Sí, tanto de forma indirecta como directa.", "correct": false }
+      ],
+      "explanation": "ES: La Administración civil no puede imponer sanciones que directa o subsidiariamente supongan privación de libertad. IT: L’amministrazione non può imporre sanzioni con privazione della libertà, né dirette né indirette.",
+      "legal_reference": "Art. 25.3 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "11 - El derecho a participar en los asuntos públicos:",
+      "answers": [
+        { "text": "Podrá corresponder a los ciudadanos extranjeros, tanto para el sufragio activo como para el pasivo en las elecciones municipales.", "correct": false },
+        { "text": "Sólo corresponde a los ciudadanos españoles.", "correct": false },
+        { "text": "Podrá corresponder a los ciudadanos extranjeros, pero sólo para el derecho de sufragio activo en las elecciones municipales.", "correct": true },
+        { "text": "Nunca puede corresponder a los extranjeros.", "correct": false }
+      ],
+      "explanation": "ES: Como regla, el art. 23 CE es para españoles; el art. 13.2 permite reconocer a extranjeros el sufragio activo en municipales por ley o tratado. IT: Diritti politici ai soli spagnoli; per gli stranieri può riconoscersi solo il voto attivo nelle comunali.",
+      "legal_reference": "Arts. 23 y 13.2 CE; LO 5/1985 (Régimen Electoral General).",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "12 .- La defensa de los consumidores a cargo de los poderes públicos, protegerá, por procedimientos eficaces:",
+      "answers": [
+        { "text": "La seguridad de los consumidores.", "correct": true },
+        { "text": "La libre competencia.", "correct": false },
+        { "text": "la economía de mercado.", "correct": false },
+        { "text": "La independencia de los consumidores.", "correct": false }
+      ],
+      "explanation": "ES: El art. 51 CE ordena proteger seguridad, salud y legítimos intereses económicos; “libre competencia/economía de mercado” no es su objeto directo. IT: Si tutela sicurezza, salute e interessi economici dei consumatori; non la concorrenza in sé.",
+      "legal_reference": "Art. 51 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "13 .- Sólo uno de los siguientes derechos podrá ser suspendido en caso de se acuerde la declaración de estado de excepción o de sitio:",
+      "answers": [
+        { "text": "Derecho de huelga.", "correct": true },
+        { "text": "Derecho de petición colectiva.", "correct": false },
+        { "text": "Derecho a obtener la tutela efectiva de Jueces y Tribunales.", "correct": false },
+        { "text": "Derecho de creación de centros docentes.", "correct": false }
+      ],
+      "explanation": "ES: Entre los suspendibles está el art. 28.2 CE (huelga); petición (art. 29), tutela judicial (art. 24) y creación de centros (art. 27.6) no figuran en el catálogo de suspensión. IT: Sospendibile lo sciopero; gli altri non rientrano nell’elenco dell’art. 55.1.",
+      "legal_reference": "Art. 55.1 CE (incluye art. 28.2 CE).",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "14 .- En cuanto a la Seguridad Social:",
+      "answers": [
+        { "text": "La asistencia y prestaciones complementarias a la Seguridad Social, son obligatorias.", "correct": false },
+        { "text": "En ningún caso da cobertura al desempleo.", "correct": false },
+        { "text": "Los poderes públicos mantendrán un régimen público de Seguridad Social para la población activa.", "correct": false },
+        { "text": "Garantizará la asistencia y prestaciones sociales suficientes ante situaciones de necesidad..", "correct": true }
+      ],
+      "explanation": "ES: La CE ordena un régimen público para todos los ciudadanos que garantice prestaciones suficientes; incluye protección por desempleo. IT: Regime pubblico per tutti con prestazioni adeguate; copre anche la disoccupazione.",
+      "legal_reference": "Art. 41 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "15 .- Una de las siguientes afirmaciones no es cierta:",
+      "answers": [
+        { "text": "Los poderes públicos fomentarán el deporte.", "correct": false },
+        { "text": "Los poderes públicos limitarán la utilización del ocio orientando su política a la consecución del pleno empleo.", "correct": true },
+        { "text": "Los poderes públicos fomentarán la educación sanitaria.", "correct": false },
+        { "text": "Los poderes públicos fomentarán la educación física.", "correct": false }
+      ],
+      "explanation": "ES: La CE fomenta educación sanitaria, educación física y deporte; no prevé “limitar el ocio” aunque orienta la política al pleno empleo. IT: Non si limita il “tempo libero”; si promuovono salute, educazione fisica e sport.",
+      "legal_reference": "Arts. 40.1 y 43.3 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "16 .- Aquellos que violen la normativa constitucional protectora del medio ambiente:",
+      "answers": [
+        { "text": "Podrán ser sancionados penal y administrativamente, y estarán obligados a reparar el daño causado.", "correct": true },
+        { "text": "Sólo estarán obligados a reparar el daño causado.", "correct": false },
+        { "text": "Sólo podrán ser sancionados administrativamente.", "correct": false },
+        { "text": "Sólo podrán ser sancionados penalmente.", "correct": false }
+      ],
+      "explanation": "ES: El art. 45.3 CE prevé sanciones penales o administrativas y la obligación de reparar; la respuesta correcta recoge la idea de sanción y reparación (aunque técnicamente es “o”, no “y”). IT: Si prevedono sanzioni penali o amministrative e l’obbligo di riparare il danno.",
+      "legal_reference": "Art. 45.3 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "17 .- ¿En qué casos se puede obligar a un ciudadano a declarar sobre su ideología?",
+      "answers": [
+        { "text": "En caso de ciudadanos extranjeros.", "correct": false },
+        { "text": "En casos de riesgo grave de la seguridad ciudadana.", "correct": false },
+        { "text": "En cualquier caso.", "correct": false },
+        { "text": "En ningún caso.", "correct": true }
+      ],
+      "explanation": "ES: Nadie puede ser obligado a declarar sobre ideología, religión o creencias. IT: Nessuno può essere costretto a dichiarare ideologia, religione o credo.",
+      "legal_reference": "Art. 16.2 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "18 .- El principio de legalidad regulado en el art. 25.1 de nuestra Constitución implica que:",
+      "answers": [
+        { "text": "Todos los ciudadanos y los poderes públicos están sometidos al imperio de la Ley.", "correct": false },
+        { "text": "Podrá ser sancionada una persona por la comisión de una infracción administrativa, aún cuando no constituya conducta sancionable en el momento de producirse.", "correct": false },
+        { "text": "Nadie podrá ser condenado o sancionado por acciones u omisiones que en el momento de producirse no constituyan delito según la legislación vigente en aquel momento.", "correct": true },
+        { "text": "Podrá ser sancionada una persona por la comisión de una falta, aún cuando no constituya infracción penal en el momento de producirse, siempre que sí lo sea al dictarse sentencia.", "correct": false }
+      ],
+      "explanation": "ES: Exige ley previa (tipicidad) para delitos y sanciones; no cabe retroactividad desfavorable. IT: Legalità e irretroattività sfavorevole: serve legge precedente che tipizzi il fatto.",
+      "legal_reference": "Art. 25.1 CE; art. 9.3 CE (irretroactividad desfavorable).",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "19 .- El procedimiento que se emplea para poner de inmediato en libertad a una persona detenida ilegalmente se denomina:",
+      "answers": [
+        { "text": "Procedimiento de Extradición Pasiva.", "correct": false },
+        { "text": "Procedimiento de Excarcelación Urgente.", "correct": false },
+        { "text": "Procedimiento de Hábeas Corpus.", "correct": true },
+        { "text": "Procedimiento de Extradición Activa.", "correct": false }
+      ],
+      "explanation": "ES: El habeas corpus tutela frente a detenciones ilegales o arbitrarias, con resolución inmediata. IT: Habeas corpus: rimedio urgente contro la detenzione illegittima.",
+      "legal_reference": "Art. 17.4 CE; LO 6/1984 (Habeas Corpus).",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "20 .- ¿En qué artículo de la Constitución española de 1978 se contiene el derecho a la igualdad y a la seguridad individual?",
+      "answers": [
+        { "text": "En el artículo 21.", "correct": false },
+        { "text": "En el artículo 17.", "correct": false },
+        { "text": "En el artículo 18.", "correct": false },
+        { "text": "Ninguna es correcta .", "correct": true }
+      ],
+      "explanation": "ES: Igualdad está en el art. 14 y libertad y seguridad en el art. 17; no en un mismo precepto. IT: Uguaglianza (art. 14) e libertà e sicurezza (art. 17) sono in articoli diversi.",
+      "legal_reference": "Arts. 14 y 17 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "21 .- El derecho de reunión reconocido constitucionalmente, en lugares de tránsito público y manifestaciones:",
+      "answers": [
+        { "text": "Podrá ser prohibido cuando existan razones fundadas de alteración del orden público.", "correct": true },
+        { "text": "No precisará tampoco ni autorización previa ni comunicación de la misma índole a la autoridad.", "correct": false },
+        { "text": "Sólo podrá ser prohibido si su celebración implica un peligro para las personas.", "correct": false },
+        { "text": "No podrá ser prohibido ni aún en ese caso, debiendo, eso sí, ser dotado el acto de un intenso servicio de seguridad..", "correct": false }
+      ],
+      "explanation": "ES: Requiere comunicación previa y puede prohibirse por alteración del orden público con peligro para personas o bienes; la opción recoge el núcleo de la causa habilitante. IT: Serve comunicazione e può vietarsi per ordine pubblico con pericolo.",
+      "legal_reference": "Art. 21.2 CE; LO 9/1983, arts. 8–10.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "22 .- Todos los siguientes derechos, menos uno, podrán ser suspendidos en caso de que se acuerde la declaración de estado de excepción o de sitio:",
+      "answers": [
+        { "text": "Derecho de asociación.", "correct": true },
+        { "text": "Derecho de reunión pacífica y sin armas.", "correct": false },
+        { "text": "Derecho a la asistencia de Abogado en las diligencias policiales y judiciales.", "correct": false },
+        { "text": "Derecho a elegir libremente la residencia.", "correct": false }
+      ],
+      "explanation": "ES: El art. 55.1 permite suspender, entre otros, arts. 17, 18.2–3, 19, 20.1 a) y d) y 5, 21, 28.2 y 37.2; el de asociación (art. 22) no figura. IT: L’associazione non è nell’elenco dei diritti sospendibili.",
+      "legal_reference": "Art. 55.1 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "23 .- El artículo quince de la Constitución española:",
+      "answers": [
+        { "text": "Admite la práctica de la tortura para el esclarecimiento de delitos relacionados con el terrorismo.", "correct": false },
+        { "text": "Afirma que todos los nacidos tienen derecho a la vida.", "correct": false },
+        { "text": "Reconoce el derecho a la integridad física y psíquica de las personas.", "correct": false },
+        { "text": "Descarta la posibilidad de que ningún ser humano pueda ser sometido a trato degradante.", "correct": true }
+      ],
+      "explanation": "ES: Prohíbe absolutamente la tortura y tratos inhumanos o degradantes; el texto habla de “integridad física y moral” y “todos”, no “nacidos”. IT: Divieto assoluto di tortura e trattamenti degradanti; la formula è “integrità fisica e morale”.",
+      "legal_reference": "Art. 15 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "24 .- ¿Qué artículo de la Constitución recoge el derecho y el deber del descanso?",
+      "answers": [
+        { "text": "El artículo 33.", "correct": false },
+        { "text": "El artículo 39.", "correct": false },
+        { "text": "El artículo 37.", "correct": false },
+        { "text": "Ninguno es correcto", "correct": true }
+      ],
+      "explanation": "ES: El descanso y las vacaciones retribuidas se contemplan en el art. 40.2 CE (no listado). IT: Riposo e ferie retribuite: art. 40.2 CE (non fra le opzioni).",
+      "legal_reference": "Art. 40.2 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "25 .- Una de las siguientes afirmaciones no es correcta:",
+      "answers": [
+        { "text": "Los poderes públicos gestionarán los centros de enseñanza no sostenidos por la Administración.", "correct": true },
+        { "text": "Los poderes públicos inspeccionarán el sistema educativo.", "correct": false },
+        { "text": "Se reconoce la autonomía de las Universidades.", "correct": false },
+        { "text": "Los poderes públicos ayudarán a los centros docentes que reúnan los requisitos legales.", "correct": false }
+      ],
+      "explanation": "ES: Los centros no sostenidos por la Administración se gestionan privadamente; la CE sí reconoce inspección, autonomía universitaria y ayudas. IT: Le scuole non sovvenzionate sono private; la CE prevede ispezione, autonomia universitaria e aiuti.",
+      "legal_reference": "Art. 27.5, 27.8 y 27.9 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "26 .- El derecho de reunión reconocido constitucionalmente:",
+      "answers": [
+        { "text": "Sólo precisará autorización previa cuando la reunión a celebrar se vaya a verificar con armas.", "correct": false },
+        { "text": "Precisará para su ejercicio autorización previa.", "correct": false },
+        { "text": "Sólo precisará autorización previa cuando se prevea que la reunión no va a discurrir por cauces pacíficos.", "correct": false },
+        { "text": "No precisará autorización previa cuando la reunión sea pacífica y sin armas.", "correct": true }
+      ],
+      "explanation": "ES: No requiere autorización previa; en lugares de tránsito público exige comunicación previa. IT: Nessuna autorizzazione preventiva; per vie pubbliche serve comunicazione.",
+      "legal_reference": "Art. 21.1–2 CE; LO 9/1983 (Derecho de Reunión).",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "27 ..- ¿Qué contenido tiene el artículo 44 de la Constitución?",
+      "answers": [
+        { "text": "El derecho a una vivienda adecuada.", "correct": false },
+        { "text": "El derecho a la salud.", "correct": false },
+        { "text": "El derecho a vacaciones retribuidas.", "correct": false },
+        { "text": "El derecho de acceso a la cultura.", "correct": true }
+      ],
+      "explanation": "ES: El art. 44 CE consagra el acceso a la cultura; vivienda (47), salud (43) y vacaciones (40.2) están en otros preceptos. IT: Art. 44 CE: accesso alla cultura; casa, salute e ferie sono altrove.",
+      "legal_reference": "Art. 44 CE; arts. 47, 43 y 40.2 CE (para contraste).",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "28 - El derecho a la protección de la salud:",
+      "answers": [
+        { "text": "Es un derecho fundamental de la persona.", "correct": false },
+        { "text": "Es un derecho simple de los españoles.", "correct": false },
+        { "text": "Es un principio inspirador de la política social del Estado.", "correct": false },
+        { "text": "Es un principio rector de la poíítica social del Estado.", "correct": true }
+      ],
+      "explanation": "ES: La salud (art. 43) integra los principios rectores (Cap. III), no un derecho fundamental del Cap. II Sección 1ª. IT: La tutela della salute è principio direttivo, non diritto fondamentale in Costituzione spagnola.",
+      "legal_reference": "Art. 43 CE; Título I, Cap. III CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "29 .- En relación con el derecho de los españoles a una vivienda digna y adecuada:",
+      "answers": [
+        { "text": "Los poderes públicos no están obligados a realizar gestión o promoción alguna para hacerlo efectivo.", "correct": false },
+        { "text": "Los poderes públicos están obligados a regular la utilización del suelo de acuerdo con eí interés general para impedir la especulación.", "correct": true },
+        { "text": "La comunidad no está obligada a participar en la plusvalía que genere la acción urbanística de los entes públicos.", "correct": false },
+        { "text": "La efectividad de tal derecho está en manos de los propios ciudadanos y de las empresas constructoras", "correct": false }
+      ],
+      "explanation": "ES: El art. 47 CE exige regular el suelo para impedir la especulación y prevé la participación comunitaria en las plusvalías. IT: Uso del suolo secondo l’interesse generale e partecipazione della collettività alle plusvalenze.",
+      "legal_reference": "Art. 47 CE.",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
+    },
+    {
+      "question": "30.- El derecho a disfrutar de un medio ambiente adecuado:",
+      "answers": [
+        { "text": "Podrá ser alegado ante dicha jurisdicción en cualquier caso y sin requisito especial.", "correct": false },
+        { "text": "Podrá ser susceptible de ser recabada su tutela a través del recurso de amparo.", "correct": false },
+        { "text": "Sólo podrá ser alegado ante la jurisdicción ordinaria de acuerdo con lo que dispongan ías leyes.", "correct": true },
+        { "text": "No podrá utilizarse respecto a temas relacionados con el mismo el recurso de inconstitucionalidad.", "correct": false }
+      ],
+      "explanation": "ES: Es principio rector (art. 45), tutelable ante la jurisdicción ordinaria según la ley; el amparo procede sólo para derechos del art. 14–29. IT: Principio direttivo: tutela davanti ai giudici ordinari; amparo solo per diritti fondamentali.",
+      "legal_reference": "Arts. 45 y 53.2 CE; LOTC arts. 41–44 (ámbito del amparo).",
+      "original_file": "D.CONSTITUCIONAL III 1° PARCIAL AGGIORNATO 28 10 25.docx"
     }
   ]
 }
