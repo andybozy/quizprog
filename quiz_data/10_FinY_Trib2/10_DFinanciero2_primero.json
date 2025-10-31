@@ -1,0 +1,1455 @@
+{
+  "file_number": 0,
+  "file_name": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx",
+  "questions": [
+    {
+      "question": "¿Puede considerarse contribuyente del IRPF una persona del cuerpo diplomático español que ha estado destinada durante once meses en Sudáfrica en 2023?",
+      "answers": [
+        { "text": "No, porque al estar destinada fuera de España no cumple con el criterio de permanencia mínima de 183 días en territorio español.", "correct": false },
+        { "text": "Sí, porque los miembros del cuerpo diplomático español se consideran residentes fiscales en España con independencia de su permanencia en el extranjero.", "correct": true },
+        { "text": "No, porque Sudáfrica no tiene convenio de doble imposición con España.", "correct": false },
+        { "text": "Sí, pero solo si obtiene ingresos exclusivamente de fuentes españolas durante ese período.", "correct": false }
+      ],
+      "explanation": "ES: El personal español de misiones diplomáticas y oficinas consulares tiene la consideración de contribuyente del IRPF como residente en España con independencia de los días de permanencia en el extranjero. La regla de los 183 días no se aplica en su caso. IT: Il personale delle missioni diplomatiche/uffici consolari spagnoli è considerato residente fiscale in Spagna ai fini IRPF a prescindere dai giorni trascorsi all’estero; non si applica la regola dei 183 giorni.",
+      "legal_reference": "LIRPF, art. 9 (residencia) y norma especial para personal de misiones diplomáticas y consulares (LIRPF, art. 10); Convenio de Viena sobre Relaciones Diplomáticas (1961).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "¿Cómo debe calificarse la entrega de acciones recibidas por la Sra. Ostra como parte de la retribución por su buen desempeño en la empresa?",
+      "answers": [
+        { "text": "Rendimientos del trabajo sujetos a tributación por su valor de mercado.", "correct": true },
+        { "text": "Rendimientos del capital mobiliario por los dividendos futuros que generen las acciones.", "correct": false },
+        { "text": "Ganancias patrimoniales no sujetas a tributación por tratarse de una entrega en especie.", "correct": false },
+        { "text": "Rendimientos del trabajo en especie exentos de tributación al no superar 12.000 euros.", "correct": false }
+      ],
+      "explanation": "ES: La entrega de acciones al trabajador es retribución en especie y tributa como rendimiento del trabajo por su valor (con carácter general). La exención hasta 12.000 € solo procede si se cumplen requisitos específicos (oferta general a trabajadores, permanencia, etc.), que no constan en el enunciado. IT: La consegna di azioni al dipendente è retribuzione in natura e si tassa come reddito da lavoro; l’esenzione fino a 12.000 € è condizionata a requisiti non indicati qui.",
+      "legal_reference": "LIRPF, arts. 42.1 y 43 (valoración de retribuciones en especie); exención específica para entrega de acciones a empleados (LIRPF, art. 42.3, requisitos reglamentarios).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Si las acciones que ha recibido la Sra. Ostra produjeran rendimientos, ¿cómo se deben imputar éstos, si sabemos que la Sra. Ostra está casada en régimen de gananciales?",
+      "answers": [
+        { "text": "Son rendimientos del trabajo imputables íntegramente a la Sra. Ostra.", "correct": false },
+        { "text": "Son rendimientos del trabajo imputables al 50% a cada cónyuge.", "correct": false },
+        { "text": "Son rendimientos del capital mobiliario que se imputan al 50% para cada cónyuge.", "correct": true },
+        { "text": "Son rendimientos del capital atribuibles 100% a la Sra. Ostra.", "correct": false }
+      ],
+      "explanation": "ES: Los dividendos son rendimientos del capital mobiliario y, siendo las acciones gananciales (adquiridas por el trabajo de uno de los cónyuges), se presumen comunes y se imputan al 50% a cada cónyuge. IT: I dividendi sono redditi di capitale; se le azioni sono beni della comunione legale, i proventi si imputano per metà ciascuno ai coniugi.",
+      "legal_reference": "LIRPF, art. 11 (individualización de rentas); Código Civil, art. 1347.2 (son gananciales los bienes obtenidos por el trabajo o industria de cualquiera de los cónyuges).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Acerca de la lista de gastos fiscalmente deducibles para determinar rendimientos netos del trabajo:",
+      "answers": [
+        { "text": "Es abierta, aunque solo para contribuyentes que tengan ingresos exclusivamente de una actividad económica.", "correct": false },
+        { "text": "Es abierta en todos los casos.", "correct": false },
+        { "text": "Es cerrada y en ella están incluidas las subvenciones recibidas por las empresas.", "correct": false },
+        { "text": "Ninguna de las anteriores es correcta.", "correct": true }
+      ],
+      "explanation": "ES: La lista de gastos deducibles del trabajo es tasada (cerrada) y no incluye subvenciones a empresas; las opciones a), b) y c) son erróneas, por lo que la correcta es “ninguna de las anteriores”. IT: L’elenco dei costi deducibili per il lavoro dipendente è tassativo; le altre opzioni sono sbagliate, dunque l’unica corretta è «nessuna delle precedenti».",
+      "legal_reference": "LIRPF, art. 19.2 (gastos deducibles del trabajo: cotizaciones, defensa jurídica, otros gastos, etc.).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "En el método de estimación directa normal, para la determinación del rendimiento neto de actividad económica:",
+      "answers": [
+        { "text": "Se aplica obligatoriamente la reducción por rendimientos de la actividad económica.", "correct": false },
+        { "text": "Se aplica una reducción sobre el rendimiento íntegro del 10%.", "correct": false },
+        { "text": "Se aplica una reducción del 7% sobre la diferencia entre los ingresos y los gastos fiscalmente deducibles, siempre que no se aplique la reducción por rendimientos de la actividad económica, con un límite de 2.000 € anuales.", "correct": false },
+        { "text": "Ninguna de las anteriores es correcta.", "correct": true }
+      ],
+      "explanation": "ES: La reducción del 5/7% por ‘gastos de difícil justificación’ es propia de Estimación Directa Simplificada, no de la Normal; no existe una reducción automática del 10% ni una obligación genérica de aplicar reducciones. IT: Le riduzioni percentuali citate si riferiscono al regime semplificato, non a quello ordinario; quindi nessuna delle precedenti è corretta.",
+      "legal_reference": "LIRPF, art. 28; RIRPF (RD 439/2007), art. 30 (régimen de estimación directa; la reducción del 5/7% corresponde a la modalidad simplificada).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "¿Puede considerarse contribuyente del IRPF un jugador de baloncesto que percibe retribuciones por jugar en un equipo español desde febrero hasta diciembre de 2023, aprovechando el cierre patronal de la NBA?",
+      "answers": [
+        { "text": "Sí, porque ha permanecido más de 183 días en España durante el año 2023.", "correct": true },
+        { "text": "No, porque su residencia fiscal principal sigue siendo en el país donde juega habitualmente.", "correct": false },
+        { "text": "Sí, porque sus ingresos provienen de fuentes españolas durante el cierre patronal.", "correct": false },
+        { "text": "No, porque no tiene un contrato permanente con el equipo español.", "correct": false }
+      ],
+      "explanation": "ES: La residencia fiscal se determina, entre otros criterios, por permanecer más de 183 días en territorio español en el año natural. IT: La residenza fiscale si presume se si soggiorna più di 183 giorni in Spagna nell’anno.",
+      "legal_reference": "LIRPF, art. 9.1.a) (criterio de permanencia de 183 días).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "La Sra. Selene recibió intereses brutos por cuentas corrientes por un importe de 456 €. Su banco le cobró una comisión de administración de valores 23 € y una cuota anual por tarjeta de crédito de 30 €. ¿Qué importe debe declarar como rendimiento neto del capital mobiliario por los intereses percibidos?",
+      "answers": [
+        { "text": "456 €", "correct": false },
+        { "text": "433 €", "correct": true },
+        { "text": "403 €", "correct": false },
+        { "text": "425 €", "correct": false }
+      ],
+      "explanation": "ES: Solo son deducibles, para rendimientos del capital mobiliario en la base del ahorro, los gastos de administración y depósito de valores negociables (23 €). La comisión de tarjeta no es deducible. 456 − 23 = 433 €. IT: Deducibili sono solo le spese di amministrazione e deposito di valori (23 €); la commissione della carta non lo è. 456 − 23 = 433 €.",
+      "legal_reference": "LIRPF, arts. 25 y 26.1 (rendimiento neto del capital mobiliario: deducibles los gastos de administración y depósito de valores).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Durante los meses de julio y agosto, la Sra. Selene alquiló su vehículo por un total de 1.000 €/mes. Pagó 150 € a un abogado para redactar el contrato, quien estimó una amortización anual del vehículo en 390 €, y pagó 200 € por el seguro de responsabilidad anual. ¿Cuál es el rendimiento neto del alquiler del vehículo?",
+      "answers": [
+        { "text": "1.751,67 €", "correct": true },
+        { "text": "1.767,51 €", "correct": false },
+        { "text": "1.571,67 €", "correct": false },
+        { "text": "Ninguna de las anteriores es correcta", "correct": false }
+      ],
+      "explanation": "ES: Ingresos: 2.000 € (dos meses). Gastos: abogado 150 € + amortización 390×2/12 = 65 € + seguro 200×2/12 ≈ 33,33 €. Total gastos ≈ 248,33 €. Rendimiento neto ≈ 2.000 − 248,33 = 1.751,67 €. IT: Ricavi 2.000 €; costi 150 + 65 + 33,33 ≈ 248,33; netto ≈ 1.751,67 €.",
+      "legal_reference": "LIRPF, art. 25.4 (cesión a terceros de bienes muebles: rendimiento del capital mobiliario) y art. 26 (cálculo del rendimiento neto).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "A efectos del IRPF los intereses obtenidos por el dinero cedido en préstamo:",
+      "answers": [
+        { "text": "Tienen la consideración de rendimientos del capital mobiliario a incluir en la BIA", "correct": true },
+        { "text": "Tienen la consideración de rendimientos del capital mobiliario a incluir en la base general del IRPF", "correct": false },
+        { "text": "Están exentos de tributación si el préstamo se realiza entre particulares", "correct": false },
+        { "text": "Tributan como variaciones patrimoniales en el IRPF", "correct": false }
+      ],
+      "explanation": "ES: Los intereses por cesión a terceros de capitales propios son rendimientos del capital mobiliario que se integran en la base del ahorro. IT: Gli interessi da prestito (cessione a terzi di capitali propri) sono redditi di capitale da includere nella base del risparmio.",
+      "legal_reference": "LIRPF, art. 25.2 y art. 46 (integración en la base del ahorro).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Los ingresos que percibe la Sra. Peria por alquilar su apartamento en la playa durante un mes al año se califican a efectos de IRPF como:",
+      "answers": [
+        { "text": "Rendimientos del capital mobiliario", "correct": false },
+        { "text": "Rendimientos del capital inmobiliario", "correct": true },
+        { "text": "Rendimientos de actividades económicas", "correct": false },
+        { "text": "No tributan en el IRPF", "correct": false }
+      ],
+      "explanation": "ES: El alquiler de inmuebles genera rendimientos del capital inmobiliario salvo que exista organización empresarial (no indicada). IT: La locazione di immobili genera redditi di capitale immobiliare, salvo attività organizzata (qui non risulta).",
+      "legal_reference": "LIRPF, art. 22 (rendimientos del capital inmobiliario).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Son gastos deducibles de los rendimientos del capital mobiliario a efectos de calcular el rendimiento neto:",
+      "answers": [
+        { "text": "En general, todos los gastos necesarios para obtener los ingresos.", "correct": false },
+        { "text": "En el caso de rendimientos a incluir en la base del ahorro exclusivamente los gastos de administración y depósito de las acciones o participaciones.", "correct": true },
+        { "text": "Son deducibles los pagos por asesoría personalizada de carteras de inversión.", "correct": false },
+        { "text": "Ningún gasto es deducible a la hora de calcular los ingresos netos.", "correct": false }
+      ],
+      "explanation": "ES: Para rendimientos del capital mobiliario en la base del ahorro solo son deducibles los gastos de administración y depósito de valores negociables. IT: Per i redditi di capitale nella base del risparmio sono deducibili solo le spese di amministrazione e custodia di titoli.",
+      "legal_reference": "LIRPF, art. 26.1 (rendimiento neto del capital mobiliario).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "¿Cómo se calculan los rendimientos de capital inmobiliario en el IRPF?",
+      "answers": [
+        { "text": "Restando los gastos deducibles de los ingresos íntegros obtenidos por el alquiler de una propiedad.", "correct": true },
+        { "text": "Se consideran gastos deducibles los gastos de comunidad y suministros pagados por los inquilinos.", "correct": false },
+        { "text": "La amortización del inmueble, incluyendo el suelo, es un gasto deducible de los rendimientos íntegros del capital inmobiliario.", "correct": false },
+        { "text": "Las compras de menaje y muebles son gastos deducibles de los rendimientos íntegros del capital inmobiliario.", "correct": false }
+      ],
+      "explanation": "ES: El rendimiento neto es ingresos menos gastos deducibles (IBI, reparaciones, intereses, amortización de la construcción, etc.). No se amortiza el suelo; los gastos que paga el inquilino no son gasto del arrendador. IT: Il reddito netto è ricavi meno costi deducibili; non si ammortizza il terreno e i costi pagati dall’inquilino non sono costi del locatore.",
+      "legal_reference": "LIRPF, art. 23 (gastos deducibles y amortización de la construcción, no del suelo).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Don Omitorrinco ejerce como economista y percibió un salario bruto de 80.000 € durante 2023. Además, vive en un inmueble propiedad de su empresa que se le cedió gratuitamente al 1 de julio, con un valor catastral revisado de 112.000 €. La empresa ya repercutió el ingreso a cuenta correspondiente. ¿Cuál es su rendimiento íntegro del trabajo?",
+      "answers": [
+        { "text": "80.000 €", "correct": false },
+        { "text": "82.800 €", "correct": true },
+        { "text": "81.000 €", "correct": false },
+        { "text": "63.200 €", "correct": false }
+      ],
+      "explanation": "ES: La vivienda de empresa es retribución en especie valorada, con carácter general, en el 5% del valor catastral si está revisado, prorrateado por el tiempo de uso: 112.000 × 5% × 6/12 = 2.800 €. 80.000 + 2.800 = 82.800 €. IT: L’alloggio aziendale è retribuzione in natura: 112.000 × 5% × 6/12 = 2.800; totale 82.800 €.",
+      "legal_reference": "LIRPF, arts. 42 y 43 (retribuciones en especie y su valoración).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "En marzo de 2023, Don Filipino transmitió su vivienda de playa por 200.000 €. Esta vivienda la heredó de su padre y tenía un valor declarado en el impuesto de Sucesiones de 72.100 €, con 10.000 € abonados por dicho impuesto y 500 € de notaría. Los gastos accesorios a la venta fueron de 6.000 €. ¿Cuál es el importe de la ganancia patrimonial?",
+      "answers": [
+        { "text": "117.400 €", "correct": false },
+        { "text": "125.400 €", "correct": false },
+        { "text": "121.400 €", "correct": true },
+        { "text": "132.400 €", "correct": false }
+      ],
+      "explanation": "ES: Valor transmisión neto 200.000 − 6.000 = 194.000 €. Valor adquisición: valor declarado en ISD (72.100) + gastos inherentes (notaría 500). El ISD satisfecho no forma parte del valor de adquisición. Ganancia: 194.000 − 72.600 = 121.400 €. IT: Prezzo netto 194.000; costo 72.600 (72.100 + 500); plusvalenza 121.400 €.",
+      "legal_reference": "LIRPF, arts. 34, 35 y 36 (valor de adquisición/transmisión; adquisiciones a título lucrativo mortis causa).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "¿Cuál de las siguientes rentas no se considera renta exenta en el IRPF?",
+      "answers": [
+        { "text": "Las becas de estudio que cumplan con los requisitos establecidos en la LIRPF.", "correct": false },
+        { "text": "Las pensiones de jubilación.", "correct": true },
+        { "text": "Las pensiones de alimentos otorgadas por decisión judicial.", "correct": false },
+        { "text": "Las indemnizaciones por despido que cumplan los requisitos que exige la LIRPF.", "correct": false }
+      ],
+      "explanation": "ES: Las pensiones de jubilación, con carácter general, no están exentas. Las becas (con requisitos), pensiones de alimentos por decisión judicial y la indemnización por despido hasta el límite legal pueden estar exentas. IT: Le pensioni di vecchiaia non sono esenti; borse di studio (con requisiti), alimenti per decisione giudiziaria e indennità di licenziamento (entro i limiti) possono essere esenti.",
+      "legal_reference": "LIRPF, art. 7 (rentas exentas) y art. 17 (rendimientos del trabajo).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Señale la afirmación incorrecta con respecto al IRPF:",
+      "answers": [
+        { "text": "El IRPF es un tributo estatal compartido con las CC AA.", "correct": false },
+        { "text": "La duración del periodo impositivo en el IRPF es de un año, salvo que el contribuyente fallezca antes.", "correct": false },
+        { "text": "El IRPF grava tanto rentas y rendimientos monetarios como rentas en especie.", "correct": false },
+        { "text": "En el IRPF español solo se integran las rentas obtenidas en el territorio nacional por residentes fiscales.", "correct": true }
+      ],
+      "explanation": "ES: Es incorrecto afirmar que solo se integran rentas obtenidas en España: los residentes tributan por renta mundial. IT: È falso che i residenti tassino solo i redditi prodotti in Spagna: vige il principio di worldwide income.",
+      "legal_reference": "LIRPF, art. 2 (naturaleza y objeto) y art. 8 y 9 (obligación personal; residencia).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Don Fortunato ganó 20.000 € en un concurso televisivo e invirtió ese dinero en acciones de Telefónica. ¿Cómo deben calificarse los 20.000 € a efectos del IRPF?",
+      "answers": [
+        { "text": "Como un rendimiento del capital mobiliario", "correct": false },
+        { "text": "Como un rendimiento del trabajo.", "correct": false },
+        { "text": "Como una ganancia patrimonial.", "correct": true },
+        { "text": "Como un premio exento del IRPF pero sujetos al gravamen especial sobre premios", "correct": false }
+      ],
+      "explanation": "ES: Los premios constituyen, con carácter general, ganancias patrimoniales no exentas (salvo supuestos específicos). IT: I premi costituiscono, in via generale, plusvalenze (variazioni patrimoniali) imponibili, non redditi di capitale o di lavoro.",
+      "legal_reference": "LIRPF, art. 33.1 (ganancias y pérdidas patrimoniales) y art. 75 RIRPF (retenciones sobre premios).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Un trabajador percibe dietas de 1.500 € para afrontar gastos de viaje dentro de España. Justifica gastos de locomoción en transporte público por 300 € y manutención con pernocta de 2 días por un total de 106,68 € ¿Qué importe debe considerarse exento?",
+      "answers": [
+        { "text": "406,68 €", "correct": true },
+        { "text": "1.093.32 €", "correct": false },
+        { "text": "106,68 €", "correct": false },
+        { "text": "300 €", "correct": false }
+      ],
+      "explanation": "ES: Están exentos los gastos justificados de locomoción en transporte público (300 €) y las cantidades por manutención con pernocta dentro de los límites reglamentarios (53,34 €/día × 2 = 106,68 €). Total exento: 406,68 €. IT: Esenti i trasporti documentati (300 €) e i pasti con pernottamento entro i limiti (53,34 × 2 = 106,68 €); totale 406,68 €.",
+      "legal_reference": "RIRPF (RD 439/2007), art. 9 (dietas y gastos de viaje exentos).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Señale la afirmación incorrecta respecto al IRPF:",
+      "answers": [
+        { "text": "Es un impuesto progresivo", "correct": false },
+        { "text": "Tiene en cuenta las circunstancias personales y familiares", "correct": false },
+        { "text": "Su base imponible es el valor del patrimonio neto del sujeto pasivo", "correct": true },
+        { "text": "Los contribuyentes son personas físicas", "correct": false }
+      ],
+      "explanation": "ES: La base imponible del IRPF no es el patrimonio neto (eso corresponde al Impuesto sobre el Patrimonio), sino la renta. IT: La base imponibile è il reddito, non il patrimonio netto (imposta diversa).",
+      "legal_reference": "LIRPF, arts. 1-2 (naturaleza y objeto) y 48-49 (determinación de la base imponible).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Un propietario alquila durante 6 meses un inmueble como vivienda habitual por un importe anual de 15.000 €. Tiene gastos deducibles por conservación de 8.000 €, intereses de hipoteca por 3.000 € y amortización por 2.500 € ¿Cuál es el rendimiento neto del capital inmobiliario?",
+      "answers": [
+        { "text": "150 €", "correct": false },
+        { "text": "250 €", "correct": false },
+        { "text": "200 €", "correct": false },
+        { "text": "100 €", "correct": false }
+      ],
+      "explanation": "ES: Con los datos dados, ninguna opción coincide con el cálculo correcto. Ingresos del período: 7.500 € (6/12 de 15.000, si esa cifra es anual). Límite conjunto de intereses + reparaciones: hasta el rendimiento íntegro (art. 23 LIRPF) → se deducen hasta 7.500 € y el exceso se puede compensar en 4 años. La amortización (proporcional) sería 1.250 €. El resultado correcto no se corresponde con las opciones. IT: Nessuna risposta coincide: i ricavi per 6 mesi sono 7.500 €, interessi+riparazioni deducibili fino al limite del ricavo e ammortamento proporzionale (1.250 €); il risultato non è tra le opzioni.",
+      "legal_reference": "LIRPF, art. 23.1 (gastos deducibles; límite conjunto de intereses y reparaciones; compensación del exceso) y art. 23.2 (reducción por arrendamiento de vivienda cuando proceda).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "La Sra. Pilar trabaja por cuenta propia como traductora e intérprete ¿Qué gasto puede deducirse a la hora de calcular el rendimiento de la actividad económica a declarar en el IRPF?",
+      "answers": [
+        { "text": "El gasto en gasolina, parking, reparaciones y seguro de su automóvil privado, que usa indistintamente en su vida personal y profesional 1", "correct": false },
+        { "text": "El gasto de un viaje personal de descanso por una situación de estrés profesional", "correct": false },
+        { "text": "La cuota de seguridad social que paga mensualmente al régimen de Trabajadores Autónomos", "correct": true },
+        { "text": "Una multa por exceso de velocidad", "correct": false }
+      ],
+      "explanation": "ES: Las cuotas a la Seguridad Social son gasto deducible; los gastos mixtos no afectos exclusivamente, los personales y las sanciones no lo son. IT: I contributi previdenziali sono deducibili; spese miste non afferenti, personali e sanzioni non sono deducibili.",
+      "legal_reference": "LIRPF, art. 30.2 (gastos deducibles en actividades económicas) y art. 14.1.e) (no deducibilidad de sanciones).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Señale la afirmación correcta con respecto al IRPF:",
+      "answers": [
+        { "text": "Es un impuesto de carácter personal y directo que grava la renta de las personas jurídicas", "correct": false },
+        { "text": "El hecho imponible lo constituye únicamente la obtención de rentas salariales por parte del contribuyente", "correct": false },
+        { "text": "Grava la renta de las personas físicas según los principios de igualdad, generalidad y progresividad", "correct": true },
+        { "text": "No se consideran las circunstancias personales y familiares del sujeto pasivo", "correct": false }
+      ],
+      "explanation": "ES: El IRPF grava la renta de personas físicas con principios de igualdad, generalidad y progresividad, atendiendo a circunstancias personales y familiares. IT: L’IRPF tassa il reddito delle persone fisiche secondo i principi indicati, considerando le circostanze personali/familiari.",
+      "legal_reference": "LIRPF, arts. 1-2 (naturaleza y objeto) y Preámbulo; Constitución Española, art. 31 (principios tributarios).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Según el IRPF, ¿qué requisito debe cumplirse para que el alquiler de inmuebles sea considerado una actividad económica?",
+      "answers": [
+        { "text": "Que el contribuyente obtenga ingresos superiores a 100.000 euros anuales por el alquiler", "correct": false },
+        { "text": "Que los inmuebles estén situados en diferentes comunidades autónomas", "correct": false },
+        { "text": "Que el contribuyente contrate laboralmente a una persona a jornada completa para gestionar el alquiler", "correct": true },
+        { "text": "Que se alquile al menos el 50% del inmueble afecto", "correct": false }
+      ],
+      "explanation": "ES: La calificación de actividad económica exige, entre otros requisitos, disponer de una persona empleada con contrato laboral y a jornada completa para la ordenación de la actividad. IT: Per qualificare l’attività come impresa è richiesta, tra l’altro, l’assunzione a tempo pieno di un dipendente addetto alla gestione.",
+      "legal_reference": "LIRPF, art. 27.2 (arrendamiento de inmuebles como actividad económica).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "La amortización de elementos afectos a la actividad económica en el método de Estimación Directa Normal puede calcularse:",
+      "answers": [
+        { "text": "Por los métodos aceptados según la normativa del Impuesto sobre Sociedades.", "correct": true },
+        { "text": "Por el método lineal, aplicando las tablas de amortización específicas definidas para la Estimación Directa en el IRPF.", "correct": false },
+        { "text": "La amortización no es un gasto deducible en Estimación Directa Normal.", "correct": false },
+        { "text": "Ninguna de las anteriores es correcta.", "correct": false }
+      ],
+      "explanation": "ES: En estimación directa normal, las reglas de amortización remiten a las del Impuesto sobre Sociedades. IT: Nel regime ordinario si applicano i criteri di ammortamento dell’imposta sulle società.",
+      "legal_reference": "LIRPF, art. 28.1 (remisión a normas del IS); LIS (Ley 27/2014), art. 12 (amortización).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Lozano ha recibido 5.000€ en concepto de derechos de autor de una novela escrita por su abuela cuyos derechos se los dejó en herencia su madre. ¿Cómo tributa esta renta en el IRPF?",
+      "answers": [
+        { "text": "No está sujeta el IRPF sino al Impuesto de Sucesiones y Donaciones.", "correct": false },
+        { "text": "Se trata de un rendimiento del capital mobiliario a declarar en la base general.", "correct": true },
+        { "text": "Es un rendimiento de actividades económicas a declarar en el IRPF.", "correct": false },
+        { "text": "Tributa como rendimiento del trabajo en el IRPF de Amparo.", "correct": false }
+      ],
+      "explanation": "ES: Los derechos de autor percibidos por quien no es el autor originario (adquiridos mortis causa) son rendimientos del capital mobiliario y se integran en la base general. IT: I diritti d’autore percepiti da soggetto diverso dall’autore originario (per successione) sono redditi di capitale (base generale).",
+      "legal_reference": "LIRPF, art. 25.4 (rendimientos del capital mobiliario: propiedad intelectual no del autor).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Señale cuál de los siguientes rendimientos no se califica como rendimientos de capital mobiliario en el IRPF:",
+      "answers": [
+        { "text": "Los procedentes de una patente, cuando el contribuyente no es el autor.", "correct": false },
+        { "text": "Los procedentes de una letra del tesoro.", "correct": false },
+        { "text": "El beneficio obtenido en la venta de unas acciones cotizadas.", "correct": true },
+        { "text": "Los intereses procedentes de una imposición a plazo fijo.", "correct": false }
+      ],
+      "explanation": "ES: La ganancia por venta de acciones es ganancia patrimonial, no rendimiento de capital mobiliario. IT: L’utile dalla cessione di azioni è plusvalenza, non reddito di capitale.",
+      "legal_reference": "LIRPF, art. 33 (ganancias y pérdidas patrimoniales) y art. 25 (rendimientos del capital mobiliario).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "En el IRPF se consideran rendimientos de capital mobiliario:",
+      "answers": [
+        { "text": "Al arrendamiento de un local comercial afecto a la actividad.", "correct": false },
+        { "text": "Al arrendamiento de un negocio.", "correct": true },
+        { "text": "A la segunda vivienda donde el contribuyente pasa los fines de semana.", "correct": false },
+        { "text": "A los premios obtenidos en juegos autorizados que no están exentos.", "correct": false }
+      ],
+      "explanation": "ES: El arrendamiento de negocio (cesión de elementos con unidad económica sin organización propia) puede calificarse como rendimiento del capital mobiliario; el arrendamiento de local afecto es actividad económica y la segunda vivienda genera, en su caso, imputación de rentas; los premios son ganancias patrimoniales. IT: La locazione d’azienda può essere reddito di capitale; il locale “affecto” è attività economica; la seconda casa genera imputazione di reddito; i premi sono plusvalenze.",
+      "legal_reference": "LIRPF, art. 25.4 (otros rendimientos del capital mobiliario) y art. 27 (actividad económica).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "¿Cuál de los siguientes elementos sí puede considerarse afecto a una actividad económica de abogacía desempeñada por cuenta propia?",
+      "answers": [
+        { "text": "Un ordenador que se usa para uso personal.", "correct": false },
+        { "text": "Un automóvil que se usa indistintamente para uso personal y profesional.", "correct": false },
+        { "text": "Un aparato de aire acondicionado de la vivienda habitual, para todo uso.", "correct": false },
+        { "text": "Una habitación de la vivienda habitual de 35 m2, en la que está instalado el despacho profesional.", "correct": true }
+      ],
+      "explanation": "ES: Son afectos los elementos utilizados de forma exclusiva y permanente en la actividad (p. ej., despacho profesional en la vivienda). Bienes de uso mixto personal/profesional no se consideran afectos salvo reglas específicas. IT: È bene strumentale il locale adibito stabilmente all’attività; beni a uso promiscuo non sono di regola «affetti».",
+      "legal_reference": "LIRPF, art. 29 (afectación de elementos patrimoniales a actividades económicas).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "¿Qué ingresos forman parte de la base imponible general según la LIRPF?",
+      "answers": [
+        { "text": "Rendimientos del trabajo, ganancias patrimoniales por transmisiones y rendimientos del capital mobiliario.", "correct": false },
+        { "text": "Rendimientos del capital mobiliario y ganancias patrimoniales por transmisiones patrimoniales.", "correct": false },
+        { "text": "Solo rendimientos del trabajo y ganancias patrimoniales.", "correct": false },
+        { "text": "Rendimientos del trabajo, imputaciones de renta y ganancias patrimoniales sin transmisión patrimonial.", "correct": true }
+      ],
+      "explanation": "ES: La base general integra, entre otros, rendimientos del trabajo, imputaciones de renta y ganancias/pérdidas que no deriven de transmisión. Las ganancias por transmisión y rendimientos de capital mobiliario por cesión de capitales se integran, en general, en la base del ahorro. IT: Nella base generale vanno, tra gli altri, redditi di lavoro, imputazioni e plus/minus non da cessione.",
+      "legal_reference": "LIRPF, arts. 45-46 (composición de bases general y del ahorro).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Según la normativa del IRPF, ¿qué elemento no forma parte del valor de adquisición en una ganancia patrimonial derivada de la transmisión de un inmueble?",
+      "answers": [
+        { "text": "El valor declarado en el impuesto de Sucesiones y Donaciones.", "correct": false },
+        { "text": "Los gastos de mejora realizados en el inmueble.", "correct": false },
+        { "text": "Los intereses de un préstamo hipotecario.", "correct": true },
+        { "text": "Los gastos de notaría y registro en la adquisición.", "correct": false }
+      ],
+      "explanation": "ES: Los intereses del préstamo no forman parte del valor de adquisición; sí lo hacen el precio/valor de adquisición, gastos y tributos inherentes y mejoras. IT: Gli interessi del mutuo non fanno parte del costo; vi rientrano prezzo/valore, spese e migliorie.",
+      "legal_reference": "LIRPF, art. 35 (valor de adquisición y transmisión) y art. 34 (ganancias patrimoniales).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "¿Cómo se calcula la amortización de un inmueble cuando el valor de adquisición es superior al valor catastral?",
+      "answers": [
+        { "text": "Se aplica el 3% al valor de adquisición total", "correct": false },
+        { "text": "Se aplica el 3% al valor de suelo", "correct": false },
+        { "text": "Se aplica el 3% al valor de construcción proporcional del valor de adquisición.", "correct": true },
+        { "text": "Se aplica el 3% al valor de adquisición", "correct": false }
+      ],
+      "explanation": "ES: La base de amortización del inmueble arrendado es el mayor entre coste de adquisición o valor catastral, pero solo de la parte correspondiente a la construcción (excluido suelo); el tipo es el 3% anual. IT: Si ammortizza il solo valore della costruzione (escluso terreno) al 3% annuo, prendendo la base più elevata tra costo e valore catastale, riproporzionata alla costruzione.",
+      "legal_reference": "LIRPF, art. 23.1.b) (amortización: 3% sobre el mayor de coste o valor catastral, solo construcción).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Son gastos deducibles de los rendimientos del capital mobiliario a efectos de calcular el rendimiento neto:",
+      "answers": [
+        { "text": "En general, todos los gastos necesarios para obtener los ingresos", "correct": false },
+        { "text": "En el caso de rendimientos a incluir en la base del ahorro exclusivamente los gastos de administración y depósito de las acciones o participaciones.", "correct": true },
+        { "text": "Son deducibles los pagos por asesoría personalizada de carteras de inversión", "correct": false },
+        { "text": "Ningún gasto es deducible a la hora de calcular los ingresos netos", "correct": false }
+      ],
+      "explanation": "ES: Se reitera que, para base del ahorro, la deducción se limita a administración y depósito de valores. IT: Conferma: deducibili solo spese di amministrazione e custodia di titoli nella base del risparmio.",
+      "legal_reference": "LIRPF, art. 26.1.",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "En qué caso una persona física de nacionalidad española es contribuyente del IRPF aunque acredite su residencia en un paraíso fiscal?",
+      "answers": [
+        { "text": "Durante el año en que traslada su residencia y los cuatro siguientes.", "correct": true },
+        { "text": "Durante el año en que traslada su residencia y los dos siguientes", "correct": false },
+        { "text": "Solo durante el año de traslado de residencia", "correct": false },
+        { "text": "Solo si obtiene rendimientos del capital mobiliario en España", "correct": false }
+      ],
+      "explanation": "ES: Existe una regla especial antiabuso por la que se mantiene la condición de contribuyente durante el ejercicio del cambio y los cuatro siguientes si el nuevo país es paraíso fiscal. IT: In caso di trasferimento verso un paradiso fiscale, si resta contribuenti IRPF per l’anno del trasferimento e i quattro successivi.",
+      "legal_reference": "LIRPF, art. 8.2 (mantenimiento de la condición de contribuyente por traslado a paraísos fiscales).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Qué regla general se aplica a la individualización de los rendimientos del capital mobiliario en un matrimonio en régimen de gananciales?",
+      "answers": [
+        { "text": "Se atribuyen en su totalidad el cónyuge que gestionò los activos", "correct": false },
+        { "text": "Se atribuyen al cónyuge titular de la cuenta", "correct": false },
+        { "text": "Se atribuyen por mitad entre los cónyuges.", "correct": true },
+        { "text": "Se atribuyen al cónyuge con mayor renta declarada", "correct": false }
+      ],
+      "explanation": "ES: Por regla general, si el bien generador es ganancial, los rendimientos se atribuyen al 50% a cada cónyuge. IT: In regime di comunione legale, i redditi dei beni comuni si imputano per metà a ciascun coniuge.",
+      "legal_reference": "LIRPF, art. 11 (individualización) y CC, art. 1347 ss.",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Cual es el límite de deducción para los gastos de administración y custodia de valores negociables en los rendimientos del capital mobiliario?",
+      "answers": [
+        { "text": "2.000 euros anuales", "correct": false },
+        { "text": "El 5 % de los rendimientos íntegros", "correct": false },
+        { "text": "Solo los gastos efectivamente pagados.", "correct": true },
+        { "text": "No hay límite, siempre que sean gastos necesarios", "correct": false }
+      ],
+      "explanation": "ES: No existe un ‘límite cuantitativo’ específico; se deducen los gastos efectivamente satisfechos por administración y depósito de valores. IT: Non c’è un tetto fisso; sono deducibili le spese effettivamente sostenute per amministrazione/custodia titoli.",
+      "legal_reference": "LIRPF, art. 26.1 (delimitación de gastos deducibles en capital mobiliario).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "¿Cómo se determina la imputación de los rendimientos por la cesión de derechos de imagen?",
+      "answers": [
+        { "text": "Se imputan como rendimientos de actividades económicas.", "correct": true },
+        { "text": "Se imputan como rendimientos de capital mobiliario", "correct": false },
+        { "text": "Se imputan como rendimientos del trabajo", "correct": false },
+        { "text": "Están exentos de tributación", "correct": false }
+      ],
+      "explanation": "ES: La explotación de derechos de imagen constituye, en general, rendimiento de actividades económicas cuando existe ordenación por cuenta propia. IT: Lo sfruttamento dei diritti d’immagine è, di regola, reddito d’impresa/professionale se vi è organizzazione per conto proprio.",
+      "legal_reference": "LIRPF, arts. 27 y 92 (rentas derivadas de derechos de imagen).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "En el IRPF se consideran rendimientos de capital mobiliario:",
+      "answers": [
+        { "text": "Al arrendamiento de un local comercial afectó a la actividad", "correct": false },
+        { "text": "Al arrendamiento de un negocio", "correct": false },
+        { "text": "A la segunda vivienda donde el contribuyente pasa los fines de semana.", "correct": false },
+        { "text": "A los premios obtenidos en juegos autorizados que no están exentos.", "correct": true }
+      ],
+      "explanation": "ES: El enunciado marca como correcta la opción “premios”. Sin embargo, técnicamente los premios no exentos son ganancias patrimoniales (no rendimientos del capital mobiliario). En capital mobiliario caben, entre otros, intereses, dividendos y ciertos supuestos del art. 25.4 (p. ej., cesión de negocios en determinadas formas). La segunda vivienda genera, en su caso, imputación de rentas; un local afecto implica, en principio, actividad económica. IT: L’enunciato indica corretta l’opzione «premi», ma i premi non esenti sono plusvalenze (non redditi di capitale). I redditi di capitale includono interessi, dividendi e alcuni casi di art. 25.4. La seconda casa genera imputazione di reddito; un locale “affetto” attiene all’attività economica.",
+      "legal_reference": "LIRPF arts. 22, 25.4 y 33; art. 85 (imputación de rentas inmobiliarias).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "¿Cuál es el tratamiento fiscal de los sueldos y salarios a efectos del IRPF?",
+      "answers": [
+        { "text": "Se computan por su valor neto, deducidas las cotizaciones sociales.", "correct": false },
+        { "text": "Se computan por su valor bruto, sin deducir las retenciones ni cotizaciones sociales.", "correct": true },
+        { "text": "Se computan solo si superan los 22.000 euros anuales.", "correct": false },
+        { "text": "Están exentos en su totalidad si el trabajador percibe una renta inferior a 15.000 euros.", "correct": false }
+      ],
+      "explanation": "ES: El rendimiento íntegro del trabajo es el importe total bruto satisfecho (sin minorar por retenciones ni cotizaciones); después se restan los gastos deducibles para obtener el rendimiento neto. IT: Il reddito di lavoro si computa al lordo; le ritenute e i contributi non riducono l’«integrale», ma sono oneri/gasti deducibili per arrivare al netto.",
+      "legal_reference": "LIRPF arts. 17.1 y 19.2.",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "¿Cuál es el límite de ingresos anuales en rendimientos del trabajo para estar exento de presentar la declaración del IRPF si hay más de un pagador?",
+      "answers": [
+        { "text": "22.000 euros.", "correct": false },
+        { "text": "12.000 euros.", "correct": true },
+        { "text": "15.000 euros.", "correct": false },
+        { "text": "Ninguna de las anteriores.", "correct": false }
+      ],
+      "explanation": "ES: El enunciado considera 12.000 €. Advertencia: la normativa ha variado en distintas anualidades; en ejercicios recientes el umbral general con varios pagadores suele ser 15.000 € cuando el segundo y posteriores superan 1.500 € (si no, 22.000 €). IT: L’enunciato indica 12.000 €. Attenzione: negli ultimi anni la soglia con più pagatori è stata 15.000 € (salvo condizioni specifiche) o 22.000 € se i secondi pagatori non superano 1.500 €.",
+      "legal_reference": "LIRPF art. 96 (obligación de declarar) y normativa anual aplicable.",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "¿Qué porcentaje del valor catastral se utiliza para valorar el uso de una vivienda propiedad de la empresa, si no ha sido revisado en los últimos 10 años?",
+      "answers": [
+        { "text": "El 5%.", "correct": true },
+        { "text": "El 10%.", "correct": false },
+        { "text": "El 15%.", "correct": false },
+        { "text": "El 20%.", "correct": false }
+      ],
+      "explanation": "ES: El enunciado señala 5% como correcto. Precisión técnica: la vivienda en especie se valora con carácter general al 10% del valor catastral si éste no ha sido revisado, y al 5% si lo ha sido en los diez años anteriores. IT: L’enunciato indica 5%. Tecnicamente: è 10% se il valore catastale non è stato rivisto negli ultimi 10 anni, 5% se rivisto.",
+      "legal_reference": "LIRPF art. 43.1.1.º (valoración de retribuciones en especie por vivienda).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "¿Cómo se imputan las rentas inmobiliarias cuando el valor catastral no ha sido revisado en los últimos 10 años?",
+      "answers": [
+        { "text": "Se aplica el 1,1% sobre el valor catastral.", "correct": false },
+        { "text": "Se aplica el 2% sobre el valor catastral.", "correct": true },
+        { "text": "Se aplica el 3% sobre el valor catastral revisado.", "correct": false },
+        { "text": "Se aplica el 3% sobre el valor catastral del suelo.", "correct": false }
+      ],
+      "explanation": "ES: La imputación de rentas inmobiliarias es, con carácter general, el 2% del valor catastral (1,1% si está revisado). IT: L’imputazione del reddito immobiliare è il 2% del valore catastale (1,1% se revisionato).",
+      "legal_reference": "LIRPF art. 85.1 (imputación de rentas inmobiliarias).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Señale en qué caso se debe realizar imputación de rentas inmobiliarias:",
+      "answers": [
+        { "text": "Apartamento vacacional que se alquila durante todo el año.", "correct": false },
+        { "text": "Casa en el pueblo que se destina a uso propio como segunda residencia.", "correct": true },
+        { "text": "Local donde está instalada la clínica en la que se ejerce una actividad profesional.", "correct": false },
+        { "text": "Vivienda en construcción.", "correct": false }
+      ],
+      "explanation": "ES: La imputación procede para inmuebles urbanos no afectos y no alquilados (p. ej., segunda residencia). IT: L’imputazione si applica per immobili urbani non locati e non afferenti (es. seconda casa).",
+      "legal_reference": "LIRPF art. 85.1.",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Acerca de la lista de gastos fiscalmente deducibles para determinar los rendimientos netos del trabajo:",
+      "answers": [
+        { "text": "Es cerrada en cuanto deducibles exclusivamente, los que expresamente incluye.", "correct": true },
+        { "text": "Es abierta en todos los casos.", "correct": false },
+        { "text": "Es cerrada y en ella están incluidos las subvenciones recibidas por las empresas.", "correct": false },
+        { "text": "Es abierta, siempre que sean contribuyentes que tengan hijos.", "correct": false }
+      ],
+      "explanation": "ES: La relación es tasada (cotizaciones, defensa jurídica, otros gastos, etc.); no incluye subvenciones. IT: L’elenco è tassativo; non comprende sovvenzioni alle imprese.",
+      "legal_reference": "LIRPF art. 19.2.",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Suponiendo que tengo un propiedad un chalet en Bolonia (Italia), que lo he adquirido pero no he vivido en él durante todo el año 2023. Desconozco el valor catastral pero sí que sé que lo adquirí por 867.844 euros.",
+      "answers": [
+        { "text": "Dado que es un patrimonio situado en el extranjero, no es objeto de tributación en España.", "correct": false },
+        { "text": "Dado que los contribuyentes del IRPF tributan por renta mundial, deberé tener en cuenta lo que ocurra con ese bien en el exterior.", "correct": true },
+        { "text": "Para calcular la imputación basta utilizar la mitad del valor de adquisición y lo multiplicar por 2%.", "correct": false },
+        { "text": "Tanto la b) como la c) son correctas.", "correct": false }
+      ],
+      "explanation": "ES: Se tributa por la renta mundial; los inmuebles no alquilados generan imputación también si están en el extranjero. No existe regla de “la mitad del valor de adquisición × 2%”. IT: Si tassa il reddito mondiale; l’imputazione vale anche per immobili all’estero. La regola “metà del costo × 2%” non esiste.",
+      "legal_reference": "LIRPF arts. 2 y 85.1; obligación personal por residencia (arts. 8-9).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "¿Cómo se valoran los gastos de locomoción en transporte propio a efectos del IRPF?",
+      "answers": [
+        { "text": "0,25 €/km recorrido más peaje y parking justificado.", "correct": true },
+        { "text": "0,35 €/km recorrido más peaje y parking justificado.", "correct": false },
+        { "text": "0,35 €/km recorrido sin posibilidad de incluir peaje y parking.", "correct": false },
+        { "text": "Solo se permite deducir el importe de los peajes y el parking, pero no el kilometraje.", "correct": false }
+      ],
+      "explanation": "ES: El enunciado fija 0,25 €/km + peajes y aparcamiento justificados. Nota: el importe por km ha sido modificado en años recientes por normativa reglamentaria, por lo que conviene comprobar el valor vigente del ejercicio (históricamente 0,19 €/km, después 0,26 €/km). IT: L’enunciato indica 0,25 €/km + pedaggi/parking; avvertenza: l’importo chilometrico è stato aggiornato negli ultimi anni (in passato 0,19 €/km, poi 0,26 €/km).",
+      "legal_reference": "RIRPF (RD 439/2007), art. 9.A.3 (dietas y gastos de locomoción exentos).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "A efectos del IRPF los intereses obtenidos por el dinero cedido en préstamo:",
+      "answers": [
+        { "text": "Tienen la consideración de rendimientos del capital mobiliario a incluir en la base del ahorro del IRPF.", "correct": true },
+        { "text": "Tienen la consideración de rendimientos del capital mobiliario a incluir en la base general del IRPF.", "correct": false },
+        { "text": "Están exentos de tributación si el préstamo se realiza entre particulares.", "correct": false },
+        { "text": "Tributan como variaciones patrimoniales en el IRPF.", "correct": false }
+      ],
+      "explanation": "ES: Son rendimientos del capital mobiliario (cesión a terceros de capitales propios) y se integran en la base del ahorro. IT: Sono redditi di capitale (cessione a terzi di capitali propri) e si includono nella base del risparmio.",
+      "legal_reference": "LIRPF arts. 25.2 y 46.",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "¿Cómo se realiza la amortización de un inmueble cuando el valor de adquisición es superior al valor catastral?",
+      "answers": [
+        { "text": "Se aplica el 3% al valor de adquisición total.", "correct": false },
+        { "text": "Se aplica el 3% al valor de suelo.", "correct": false },
+        { "text": "Se aplica el 3% al valor de construcción proporcional al valor de adquisición.", "correct": true },
+        { "text": "Se aplica el 3% al valor de adquisición.", "correct": false }
+      ],
+      "explanation": "ES: Se amortiza solo la construcción (no el suelo) al 3% anual, tomando la mayor base entre coste o valor catastral, prorrateada a la parte de construcción. IT: Si ammortizza solo la costruzione (non il terreno) al 3% annuo, sulla base maggiore tra costo e valore catastale, riproporzionata alla costruzione.",
+      "legal_reference": "LIRPF art. 23.1.b).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "¿Qué porcentaje de reducción se aplica a los rendimientos netos procedentes del arrendamiento de vivienda habitual, en términos generales?",
+      "answers": [
+        { "text": "60%.", "correct": true },
+        { "text": "70%.", "correct": false },
+        { "text": "30%.", "correct": false }
+      ],
+      "explanation": "ES: El enunciado recoge la reducción general del 60% para arrendamiento de vivienda. Aviso: esta reducción ha sido objeto de reformas recientes; verificar el régimen vigente en el ejercicio aplicable. IT: L’enunciato indica la riduzione generale del 60% (locazione abitativa). Attenzione a riforme recenti e regime vigente.",
+      "legal_reference": "LIRPF art. 23.2 (reducción por arrendamiento de vivienda).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "¿Cómo se valoran los intereses satisfechos por préstamos hipotecarios para la adquisición de un inmueble destinado al alquiler?",
+      "answers": [
+        { "text": "Se consideran no deducibles.", "correct": false },
+        { "text": "Se consideran únicamente como gasto necesario para la obtención de rendimientos inmobiliarios.", "correct": true },
+        { "text": "Se consideran deducibles, solo si se destina a la vivienda habitual del arrendatario.", "correct": false },
+        { "text": "No se incluyen dentro de la base imponible del IRPF.", "correct": false }
+      ],
+      "explanation": "ES: Los intereses del préstamo son gasto deducible en el rendimiento del capital inmobiliario (no confundir con deducción por vivienda habitual). IT: Gli interessi del mutuo sono costo deducibile nel reddito di capitale immobiliare (non confondere con detrazione per abitazione principale).",
+      "legal_reference": "LIRPF art. 23.1.a).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "¿Qué regla especial se aplica a la individualización de las ganancias patrimoniales derivadas de juegos de azar?",
+      "answers": [
+        { "text": "Se imputan al cónyuge con mayor renta.", "correct": false },
+        { "text": "Se imputan al cónyuge con menor renta.", "correct": false },
+        { "text": "Se imputan al titular de la cuenta bancaria utilizada.", "correct": true },
+        { "text": "Se imputan al cónyuge titular de los bienes compartidos.", "correct": false }
+      ],
+      "explanation": "ES: El enunciado da por válida la imputación al titular de la cuenta. Precisamente, la regla general de individualización atribuye las ganancias al titular que las obtiene; la ‘cuenta’ es un mero medio de cobro. IT: L’enunciato accetta l’imputazione all’intestatario del conto; in realtà la regola generale imputa al soggetto che ha ottenuto la vincita, il conto è solo mezzo di pagamento.",
+      "legal_reference": "LIRPF art. 11 (individualización de rentas); arts. 33 y 45-46 (calificación e integración).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "Son gastos deducibles de los rendimientos del capital mobiliario a efectos de calcular el rendimiento neto:",
+      "answers": [
+        { "text": "En general, todos los gastos necesarios para obtener los ingresos.", "correct": false },
+        { "text": "En el caso de rendimientos a incluir en la base del ahorro exclusivamente los gastos de administración y depósito de las acciones o participaciones.", "correct": true },
+        { "text": "Son deducibles los pagos por asesoría personalizada de carteras de inversión.", "correct": false },
+        { "text": "Ningún gasto es deducible a la hora de calcular los ingresos netos.", "correct": false }
+      ],
+      "explanation": "ES: En la base del ahorro solo son deducibles gastos de administración y depósito de valores. IT: Nella base del risparmio si deducono solo spese di amministrazione e custodia di titoli.",
+      "legal_reference": "LIRPF art. 26.1.",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "¿Cómo se calculan los rendimientos de capital inmobiliario en el IRPF?",
+      "answers": [
+        { "text": "Restando los gastos deducibles de los ingresos íntegros obtenidos por el alquiler de una propiedad.", "correct": true },
+        { "text": "Se consideran gastos deducibles los gastos de comunidad y suministros pagados por los inquilinos.", "correct": false },
+        { "text": "La amortización del inmueble, incluyendo el suelo, es un gasto deducible de los rendimientos íntegros del capital inmobiliario.", "correct": false },
+        { "text": "Las compras de menaje y muebles son gastos deducibles de los rendimientos íntegros del capital inmobiliario.", "correct": false }
+      ],
+      "explanation": "ES: El rendimiento neto es ingresos menos gastos deducibles; no se amortiza el suelo; gastos pagados por el inquilino no son gasto del arrendador. IT: Il reddito netto è ricavi meno costi deducibili; il terreno non si ammortizza; i costi pagati dall’inquilino non sono costi del locatore.",
+      "legal_reference": "LIRPF art. 23.1 (gastos deducibles y amortización).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "Se consideran rendimientos de actividades económicas a efectos del IRPF:",
+      "answers": [
+        { "text": "Los ingresos de un arquitecto que trabaja en un estudio por cuenta ajena.", "correct": false },
+        { "text": "Los ingresos obtenidos del arrendamiento de locales, en el supuesto de que se tenga contratada a una persona 8 horas al día para gestionar dichos arrendamientos.", "correct": true },
+        { "text": "Los ingresos obtenidos por conferencias, cursos y seminarios, sin ninguna excepción.", "correct": false },
+        { "text": "Los ingresos de un empresario individual procedentes de la venta de una furgoneta de la empresa.", "correct": false }
+      ],
+      "explanation": "ES: El arrendamiento es actividad económica cuando hay persona empleada a jornada completa para su gestión. IT: La locazione è attività economica se c’è un dipendente full-time addetto alla gestione.",
+      "legal_reference": "LIRPF art. 27.2.",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "¿Cuál es el incremento por movilidad geográfica en el concepto de otros gastos deducibles?",
+      "answers": [
+        { "text": "1.500 euros.", "correct": true },
+        { "text": "500 euros.", "correct": false },
+        { "text": "2.000 euros.", "correct": false },
+        { "text": "No se permiten otros gastos deducibles.", "correct": false }
+      ],
+      "explanation": "ES: El enunciado fija un incremento específico por movilidad geográfica. El importe y condiciones han cambiado en distintas reformas; revisar el ejercicio aplicable. IT: L’enunciato indica un incremento dedicato alla mobilità geografica; importi/condizioni sono variati nel tempo, verificare l’anno d’imposta.",
+      "legal_reference": "LIRPF art. 19.2.f) (otros gastos; movilidad geográfica) y disposiciones transitorias/reglamentarias aplicables.",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "¿Qué tratamiento fiscal tiene la cesión de un vehículo de empresa, cuyo valor es de 24.000 euros, si se utiliza durante 200 días en el año?",
+      "answers": [
+        { "text": "No tiene impacto fiscal si se utiliza menos de 365 días.", "correct": false },
+        { "text": "Se valorará al 20% del valor del vehículo proporcional al tiempo de uso personal.", "correct": true },
+        { "text": "Se valorará al 5% del valor del vehículo.", "correct": false },
+        { "text": "No tributa si el uso es para fines laborales.", "correct": false }
+      ],
+      "explanation": "ES: El uso de vehículo de empresa es retribución en especie valorada, con carácter general, en el 20% anual del coste de adquisición para el pagador, prorrateado por tiempo y uso. IT: L’uso dell’auto aziendale è retribuzione in natura valutata, di regola, al 20% annuo del costo per il datore, riproporzionato per tempo/uso.",
+      "legal_reference": "LIRPF art. 43.1.1.º (retribuciones en especie: utilización de vehículos).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "Eva es despedida de la empresa en la que trabajaba desde hace 16 años, recibiendo una indemnización por despido improcedente. Señala la respuesta correcta:",
+      "answers": [
+        { "text": "Al tratarse de un despido improcedente toda la cuantía recibida está exenta del IRPF.", "correct": false },
+        { "text": "La indemnización percibida que no supere la cuantía establecida con carácter obligatorio por la normativa está sujeta a gravamen en el IRPF como ganancia de capital.", "correct": false },
+        { "text": "La indemnización por despido que supere la cuantía exenta está sujeta a gravamen en el IRPF como rendimiento del trabajo, pudiendo aplicarse un porcentaje de reducción si el abono se percibe en un periodo superior a dos años.", "correct": true },
+        { "text": "La indemnización percibida está sujeta a gravamen en el IRPF en su totalidad, pero al ser irregular se puede aplicar un porcentaje de reducción.", "correct": false }
+      ],
+      "explanation": "ES: La indemnización está exenta hasta la cuantía obligatoria; el exceso tributa como rendimiento del trabajo, pudiendo aplicar reducción por irregularidad si procede. IT: L’indennità è esente entro i limiti legali; l’eccedenza è reddito di lavoro con possibile riduzione per irregolarità.",
+      "legal_reference": "LIRPF art. 7.e) (exención) y art. 18.2 (irregularidad); ET art. 56 (cuantías legales).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "¿Cómo se tributa por el alquiler de un inmueble cuando este genera un rendimiento neto previo negativo tras restar de los rendimientos íntegros los gastos con límite de deducción?",
+      "answers": [
+        { "text": "El rendimiento neto se compensa con otras rentas del capital inmobiliario.", "correct": false },
+        { "text": "No se puede deducir ningún gasto adicional.", "correct": false },
+        { "text": "El rendimiento negativo se puede compensar en los cuatro años siguientes.", "correct": true },
+        { "text": "El rendimiento negativo no se puede compensar ni deducir en años posteriores.", "correct": false }
+      ],
+      "explanation": "ES: El exceso de gastos (intereses y reparaciones/conservación) no deducible por límite puede deducirse en 4 años siguientes con el mismo origen. IT: L’eccedenza di spese non dedotte per limite si può recuperare nei 4 anni successivi con la stessa natura.",
+      "legal_reference": "LIRPF art. 23.1 (límite conjunto y compensación del exceso).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "¿Cuál de los siguientes elementos sí puede considerarse afecto a una actividad económica de abogacía desempeñada por cuenta propia?",
+      "answers": [
+        { "text": "Un ordenador que se usa para uso personal.", "correct": false },
+        { "text": "Un automóvil que se usa indistintamente para uso personal y profesional.", "correct": false },
+        { "text": "Un aparato de aire acondicionado de la vivienda habitual, para todo uso.", "correct": false },
+        { "text": "Una habitación de la vivienda habitual de 35 m², en la que está instalado el despacho profesional.", "correct": true }
+      ],
+      "explanation": "ES: Son afectos los bienes utilizados de forma exclusiva y permanente en la actividad (p. ej., despacho en la vivienda). IT: Sono «affetti» i beni usati in modo esclusivo e permanente nell’attività (p.es. studio in casa).",
+      "legal_reference": "LIRPF art. 29 (afectación de elementos patrimoniales).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "Los rendimientos obtenidos en una óptica cuya titular de la actividad es a la vez propietaria del local se consideran a efectos del IRPF:",
+      "answers": [
+        { "text": "Rendimientos de actividades económicas.", "correct": true },
+        { "text": "Rendimientos del capital inmobiliario.", "correct": false },
+        { "text": "Rendimientos mixtos de actividades económicas y del capital inmobiliario.", "correct": false },
+        { "text": "Se consideran rendimientos del trabajo para la titular de la actividad.", "correct": false }
+      ],
+      "explanation": "ES: La óptica es una actividad económica; el hecho de ser propietaria del local no transforma la naturaleza del rendimiento principal. IT: L’ottica è attività economica; la proprietà del locale non muta la qualificazione del reddito.",
+      "legal_reference": "LIRPF art. 27.1 (concepto de actividad económica).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "¿Qué se entiende por la imputación de rentas inmobiliarias?",
+      "answers": [
+        { "text": "Se refiere a las rentas obtenidas por alquileres de viviendas.", "correct": false },
+        { "text": "Permite la deducción de todos los gastos relacionados con la vivienda.", "correct": false },
+        { "text": "Se aplica en viviendas no alquiladas, pero de uso no habitual.", "correct": true },
+        { "text": "No se aplica si la vivienda está en construcción.", "correct": false }
+      ],
+      "explanation": "ES: La imputación se aplica a inmuebles urbanos no arrendados que no constituyen la vivienda habitual. IT: L’imputazione riguarda immobili urbani non locati e non abitazione principale.",
+      "legal_reference": "LIRPF art. 85.1.",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "¿Cómo se tributa la transmisión de un inmueble cuando el valor de adquisición es superior al valor de venta?",
+      "answers": [
+        { "text": "Se considera una ganancia patrimonial.", "correct": false },
+        { "text": "Se considera una pérdida patrimonial.", "correct": true },
+        { "text": "Se aplica una exención si la venta se reinvierte en vivienda habitual.", "correct": false },
+        { "text": "No se tributa si el inmueble ha estado en propiedad más de 10 años.", "correct": false }
+      ],
+      "explanation": "ES: Si el precio de venta es inferior al de adquisición (ajustado), hay pérdida patrimonial. IT: Se il prezzo di vendita è inferiore al costo (rettificato), si genera una minusvalenza.",
+      "legal_reference": "LIRPF art. 33.1 y 35 (cálculo de ganancias/pérdidas).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "¿Qué parte del valor de una vivienda alquilada es imputable al valor del suelo para efectos de calcular la amortización deducible?",
+      "answers": [
+        { "text": "El 100% del valor catastral.", "correct": false },
+        { "text": "El 80% del valor catastral.", "correct": false },
+        { "text": "El porcentaje que corresponda según la normativa fiscal vigente.", "correct": true },
+        { "text": "No se debe imputar parte del valor del suelo.", "correct": false }
+      ],
+      "explanation": "ES: La amortización solo recae sobre la construcción; se debe excluir el valor del suelo aplicando la proporción que corresponda. IT: Si ammortizza solo la costruzione, escludendo la quota di terreno secondo la proporzione prevista.",
+      "legal_reference": "LIRPF art. 23.1.b).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "El artículo 9 de la LIRPF define como contribuyentes en el IRPF:",
+      "answers": [
+        { "text": "A las personas físicas que no permanezcan más de 183 días en territorio español.", "correct": false },
+        { "text": "A las personas físicas que tengan el núcleo principal o la base de sus actividades o intereses económicos, de forma directa o indirecta, en territorio español.", "correct": true },
+        { "text": "A las personas físicas cuyo cónyuge separado legalmente y los hijos menores de edad que dependan de él residan habitualmente en España.", "correct": false },
+        { "text": "A las personas físicas que trasladan su residencia a un paraíso fiscal si durante los 4 años anteriores fueron consideradas residentes fiscales en España.", "correct": false }
+      ],
+      "explanation": "ES: Es criterio de residencia tener el núcleo principal o la base de las actividades o intereses económicos en España (criterio económico), además del de permanencia de 183 días. IT: La residenza può determinarsi anche per «centro degli interessi economici» in Spagna, oltre che per permanenza.",
+      "legal_reference": "LIRPF art. 9.1.b) (residencia por centro de intereses económicos).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "Antena es propietaria de un piso en Burgos que se lo alquila gratuitamente a su hermana:",
+      "answers": [
+        { "text": "Como se la alquila a un familiar, se considera una imputación de renta que se calcula como un rendimiento de capital inmobiliario", "correct": false },
+        { "text": "Como se la alquila a un familiar, se considera un rendimiento de capital inmobiliario que se calcula como una imputación de renta.", "correct": true },
+        { "text": "Como se la alquila a un familiar gratuitamente, no existe rendimiento alguno que pueda tributar en el IRPF.", "correct": false },
+        { "text": "Ninguna de las anteriores es correcta.", "correct": false }
+      ],
+      "explanation": "ES: El enunciado califica como rendimiento del capital inmobiliario «calculado como imputación». Técnicamente, si no hay renta (gratuito), no hay rendimiento; procede la imputación de rentas inmobiliarias (no rendimiento). IT: L’enunciato parla di reddito di capitale immobiliare «calcolato come imputazione», ma senza canone si applica l’imputazione (non un reddito di locazione).",
+      "legal_reference": "LIRPF art. 22 (rendimientos) y art. 85.1 (imputaciones).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "En el método de estimación directa simplificada, para la determinación del rendimiento neto:",
+      "answers": [
+        { "text": "Se aplica obligatoriamente la reducción por rendimientos de la actividad económica.", "correct": false },
+        { "text": "Se aplica una reducción sobre el rendimiento íntegro del 10%.", "correct": false },
+        { "text": "Se aplica una reducción del 5% sobre la diferencia entre los ingresos y los gastos fiscalmente deducibles, siempre que no se aplique la reducción por rendimientos de la actividad económica, con el límite de 2.000 euros anuales.", "correct": true },
+        { "text": "Ninguna de las anteriores es correcta", "correct": false }
+      ],
+      "explanation": "ES: En estimación directa simplificada procede el 5% por gastos de difícil justificación con límite anual. IT: Nel regime semplificato si applica il 5% per spese di difficile giustificazione entro il limite annuo.",
+      "legal_reference": "LIRPF art. 28; RIRPF art. 30 (modalidad simplificada: gastos de difícil justificación).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "Señale en qué caso se debe realizar imputación de rentas inmobiliarias:",
+      "answers": [
+        { "text": "Apartamento vacacional que se alquila durante todo el año.", "correct": false },
+        { "text": "Casa en el pueblo que se destina a uso propio como segunda residencia.", "correct": true },
+        { "text": "Local donde está instalada la clínica en la que se ejerce una actividad profesional,", "correct": false },
+        { "text": "Vivienda en construcción.", "correct": false }
+      ],
+      "explanation": "ES: Segunda residencia: procede imputación. Alquiler todo el año: no hay imputación; local afecto: excluido; construcción: excluido. IT: Seconda casa → imputazione; immobili locati/affetti o in costruzione → no.",
+      "legal_reference": "LIRPF art. 85.1 y 85.2.",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Acerca de la lista de gastos fiscalmente deducibles para determinar los rendimientos netos del trabajo:",
+      "answers": [
+        { "text": "Es cerrada, serán deducibles exclusivamente, los que expresamente incluye.", "correct": true },
+        { "text": "Está abierta en todos los casos.", "correct": false },
+        { "text": "Es cerrada y en ella están incluidas las subvenciones recibidas por las empresas.", "correct": false },
+        { "text": "Está abierta, aunque sólo para contribuyentes que tengan hijos.", "correct": false }
+      ],
+      "explanation": "ES: La relación de gastos deducibles del trabajo es tasada (cotizaciones a la Seguridad Social o mutualidades, cuotas a sindicatos/colegios con límites, gastos de defensa jurídica, y el concepto de ‘otros gastos’ con cuantía fija). No es un catálogo abierto ni incluye subvenciones empresariales. IT: L’elenco dei costi deducibili per i redditi di lavoro dipendente è tassativo; non è ‘aperto’ e non comprende sovvenzioni alle imprese.",
+      "legal_reference": "LIRPF, art. 19.2 (gastos deducibles del trabajo).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Suponiendo que tengo en propiedad un chalet en Bolonia (Italia), que ni lo he alquilado ni he vivido en él durante todo el año 2023. Desconozco el valor catastral pero sí sé que su adquisición fue de 847.684 euros.",
+      "answers": [
+        { "text": "Dado que es un elemento patrimonial que se encuentra en el extranjero, no es objeto de tributación en España.", "correct": false },
+        { "text": "Dado que los contribuyentes del IRPF tributan por renta mundial, deberé tener en cuenta lo que ocurra con ese bien a efectos del impuesto.", "correct": true },
+        { "text": "Para calcular la imputación de renta utilizaré la mitad del valor de adquisición y lo multiplicaré por 2%.", "correct": false },
+        { "text": "Tanto la b) como la c) son correctas.", "correct": false }
+      ],
+      "explanation": "ES: Los residentes tributan por su renta mundial. Las segundas viviendas no alquiladas generan imputación de rentas inmobiliarias (también si están en el extranjero). No existe la regla de ‘la mitad del valor de adquisición × 2%’. IT: I residenti fiscali in Spagna tassano il reddito mondiale; una seconda casa non locata genera imputazione di redditi anche se all’estero. Nessuna regola «metà del costo × 2%».",
+      "legal_reference": "LIRPF, arts. 2, 8 y 9 (obligación personal) y art. 85.1 (imputación de rentas inmobiliarias).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Matilda alquiló durante tres meses su vehículo a Marito por un importe de 200 euros al mes. Sabemos que Marito alquila una plaza de garaje en la que guarda el coche, que le cuesta 50 euros al mes; que el impuesto de matriculación que Matilda pagó repercutido a Marito fue de 80 euros y que la amortización anual del coche se calculó y es de 300 euros al año.",
+      "answers": [
+        { "text": "Se trata de un rendimiento de capital mobiliario del artículo 25.4 que se incluye en la base general.", "correct": true },
+        { "text": "El rendimiento neto por el que tributará Matilda alcanza los 525 euros.", "correct": false },
+        { "text": "El rendimiento neto por el que tributará Matilda alcanza los 605 euros.", "correct": false },
+        { "text": "Tanto la a) como la b) son correctas", "correct": false }
+      ],
+      "explanation": "ES: La cesión temporal de un bien mueble (coche) genera rendimiento de capital mobiliario (base general). Sobre el cálculo: ingresos 200×3 + 80 = 680; gastos deducibles de Matilda: amortización 300×3/12 = 75; neto ≈ 605 €. No obstante, el ítem oficial marca solo la calificación (a) como correcta; b) y c) quedan descartadas en el test. IT: La locazione di un bene mobile produce reddito di capitale (base generale). Il netto aritmetico plausibile sarebbe 680−75=605 €, ma l’esercizio valida solo la qualificazione giuridica (a).",
+      "legal_reference": "LIRPF, art. 25.4 (otros rendimientos de capital mobiliario: cesión de bienes), art. 26 (rendimiento neto).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "A efectos del IRPF los intereses obtenidos por el dinero cedido en préstamo:",
+      "answers": [
+        { "text": "Tienen la consideración de rendimientos del capital mobiliario a incluir en la base del ahorro del IRPF.", "correct": true },
+        { "text": "Tienen la consideración de rendimientos del capital mobiliario a incluir en la base general del IRPF.", "correct": false },
+        { "text": "Están exentos de tributación si el préstamo se realiza entre particulares.", "correct": false },
+        { "text": "Tributan como variaciones patrimoniales en el IRPF.", "correct": false }
+      ],
+      "explanation": "ES: Los intereses por cesión a terceros de capitales propios son rendimientos del capital mobiliario que se integran en la base del ahorro. IT: Gli interessi da prestiti (cessione a terzi di capitali propri) sono redditi di capitale da includere nella base del risparmio.",
+      "legal_reference": "LIRPF, art. 25.2 y art. 46 (base del ahorro).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "En lo referente a los rendimientos del trabajo en especie a efectos del IRPF:",
+      "answers": [
+        { "text": "En general, los rendimientos íntegros del trabajo en especie deben incluir el ingreso a cuenta.", "correct": false },
+        { "text": "El porcentaje aplicable para calcular el ingreso a cuenta es el mismo que el porcentaje de retención a aplicar a los rendimientos del trabajo monetarios.", "correct": false },
+        { "text": "Existen determinados rendimientos en especie para los que no es necesario realizar ingreso a cuenta.", "correct": false },
+        { "text": "Todas las respuestas son verdaderas.", "correct": true }
+      ],
+      "explanation": "ES: El enunciado declara correcta la opción “todas”. En rigor, el ingreso a cuenta no se exige en ciertas retribuciones en especie exentas; además, su cálculo no consiste en aplicar el mismo tipo de retención del trabajo dinerario, por lo que el ‘todas’ es discutible. IT: L’item dà come corretta «tutte», ma tecnicamente non tutte le affermazioni precedenti sono vere (il calcolo dell’ingresso a conto non è il medesimo della ritenuta ordinaria).",
+      "legal_reference": "LIRPF, arts. 42 y 43 (retribuciones en especie e ingreso a cuenta); RIRPF, arts. 43 y ss. (retenciones).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Los ingresos que percibe un contribuyente, persona física, por alquilar su apartamento en la playa durante un mes al año se califican a efectos de IRPF como:",
+      "answers": [
+        { "text": "Rendimientos del capital mobiliario.", "correct": false },
+        { "text": "Rendimientos del capital inmobiliario.", "correct": true },
+        { "text": "Rendimientos de actividades económicas.", "correct": false },
+        { "text": "No tributan en el IRPF.", "correct": false }
+      ],
+      "explanation": "ES: El arrendamiento de inmuebles produce rendimientos del capital inmobiliario salvo que exista organización empresarial relevante (no indicada). IT: La locazione di immobili genera redditi di capitale immobiliare, salvo attività organizzata.",
+      "legal_reference": "LIRPF, art. 22 (rendimientos del capital inmobiliario).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Son gastos deducibles de los rendimientos del capital mobiliario a efectos de calcular el rendimiento neto:",
+      "answers": [
+        { "text": "En general, todos los gastos necesarios para obtener los ingresos.", "correct": false },
+        { "text": "En el caso de rendimientos a incluir en la base del ahorro exclusivamente los gastos de administración y depósito de las acciones o participaciones.", "correct": true },
+        { "text": "Son deducibles los pagos por asesoría personalizada de carteras de inversión.", "correct": false },
+        { "text": "Ningún gasto es deducible a la hora de calcular los ingresos netos.", "correct": false }
+      ],
+      "explanation": "ES: En la base del ahorro solo son deducibles los gastos de administración y depósito de valores negociables. IT: Nella base del risparmio sono deducibili solo le spese di amministrazione e custodia di titoli.",
+      "legal_reference": "LIRPF, art. 26.1 (delimitación de gastos deducibles en capital mobiliario).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "¿Cómo se calculan los rendimientos de capital inmobiliario en el IRPF?",
+      "answers": [
+        { "text": "Restando los gastos deducibles de los ingresos íntegros obtenidos por el alquiler de una propiedad.", "correct": true },
+        { "text": "Se consideran gastos deducibles los gastos de comunidad y suministros pagados por los inquilinos.", "correct": false },
+        { "text": "La amortización del inmueble, incluyendo el suelo, es un gasto deducible de los rendimientos íntegros del capital inmobiliario.", "correct": false },
+        { "text": "Las compras de menaje y muebles son gastos deducibles de los rendimientos íntegros del capital inmobiliario.", "correct": false }
+      ],
+      "explanation": "ES: Rendimiento neto = ingresos por alquiler − gastos deducibles (IBI, reparaciones, intereses, amortización de la construcción, etc.). No se amortiza el suelo; lo pagado por el inquilino no es gasto del arrendador. IT: Reddito netto = ricavi da locazione − costi deducibili; il terreno non si ammortizza; i costi pagati dall’inquilino non sono costi del locatore.",
+      "legal_reference": "LIRPF, art. 23.1 (gastos deducibles y amortización; exclusión del suelo).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Un empresario, persona física, que dirige una clínica de estética vende el 1 de julio por 20.000 euros un aparato de radiofrecuencia. Dicho aparato había sido adquirido e instalado cuatro años antes, también el 1 de julio, por 30.000 euros y venía amortizándose linealmente al 10% durante los 4 ejercicios, siendo de 18.000 euros su valor neto contable en el momento de la venta. ¿Qué importe debe incluir en la declaración de IRPF? ¿Cómo tributará esta cantidad en IRPF?",
+      "answers": [
+        { "text": "Ganancia patrimonial de 2.000 euros a incluir en las rentas del ahorro.", "correct": false },
+        { "text": "Ganancia patrimonial de 2.000 euros a incluir en los rendimientos de actividades económicas.", "correct": true },
+        { "text": "Ganancia patrimonial de 10.000 euros a incluir en las rentas del ahorro.", "correct": false },
+        { "text": "Ganancia patrimonial de 10.000 euros a incluir en los rendimientos de actividades económicas.", "correct": false }
+      ],
+      "explanation": "ES: La venta de elementos afectos genera una ganancia de 20.000 − 18.000 = 2.000 €, que se integra en el rendimiento de actividades económicas (no en la base del ahorro). IT: La cessione di un bene strumentale genera plusvalenza di 2.000 € da includere nel reddito dell’attività (non nella base del risparmio).",
+      "legal_reference": "LIRPF, art. 28.2 (ganancias/pérdidas de elementos afectos) y arts. 34-35 (cálculo).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Se consideran rendimientos de actividades económicas a efectos del IRPF:",
+      "answers": [
+        { "text": "Los ingresos de un arquitecto que trabaja en un estudio por cuenta ajena.", "correct": false },
+        { "text": "Los ingresos obtenidos del arrendamiento de locales, en el supuesto de que se tenga contratada a una persona 8 horas al día para gestionar dichos arrendamientos.", "correct": true },
+        { "text": "Los ingresos obtenidos por conferencias, cursos y seminarios, sin ninguna excepción.", "correct": false },
+        { "text": "Los ingresos de un empresario individual procedentes de la venta de una furgoneta de la empresa.", "correct": false }
+      ],
+      "explanation": "ES: El arrendamiento de inmuebles es ‘actividad económica’ si existe al menos una persona empleada con contrato laboral y jornada completa para su gestión. IT: La locazione è attività economica se vi è un dipendente full-time addetto alla gestione.",
+      "legal_reference": "LIRPF, art. 27.2 (arrendamiento de inmuebles como actividad económica).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Señale la afirmación correcta con respecto al IRPF:",
+      "answers": [
+        { "text": "El IRPF es un tributo estatal en el que las CC. AA. no tienen ninguna competencia.", "correct": false },
+        { "text": "La duración del periodo impositivo en el IRPF es de un año, cualesquiera que sean las circunstancias.", "correct": false },
+        { "text": "El IRPF grava tanto rentas y rendimientos monetarios como rentas en especie.", "correct": true },
+        { "text": "En el IRPF español solo se integran las rentas obtenidas en el territorio nacional.", "correct": false }
+      ],
+      "explanation": "ES: El IRPF alcanza rentas dinerarias y en especie; la obligación personal implica renta mundial; las CCAA sí tienen competencias normativas y de gestión. IT: L’IRPF tassa sia redditi monetari sia in natura; vige il principio del reddito mondiale; le Comunità Autonome hanno competenze.",
+      "legal_reference": "LIRPF, arts. 1-2 (naturaleza y objeto) y 45-46 (composición de bases). CE, art. 31.",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "¿Cuál de las siguientes rentas se incluye en la base imponible del ahorro en el IRPF?",
+      "answers": [
+        { "text": "Una subvención del Programa de Incentivos a la instalación de placas solares.", "correct": false },
+        { "text": "El rendimiento obtenido con la amortización de una Letra del Tesoro.", "correct": true },
+        { "text": "El rescate en forma de capital de un plan de pensiones.", "correct": false },
+        { "text": "La ganancia procedente de apuestas online.", "correct": false }
+      ],
+      "explanation": "ES: Los rendimientos de capital mobiliario por deuda pública (Letras) se integran en la base del ahorro; subvenciones y el rescate de planes de pensiones van a la base general. IT: Gli interessi/rendimenti di titoli di Stato confluiscono nella base del risparmio; sovvenzioni e prestazioni di piani pensionistici vanno in generale.",
+      "legal_reference": "LIRPF, arts. 25-26 y 46 (base del ahorro y general).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "Los rendimientos obtenidos en una óptica cuya titular de la actividad es a la vez propietaria del local se consideran a efectos del IRPF:",
+      "answers": [
+        { "text": "Rendimientos de actividades económicas.", "correct": true },
+        { "text": "Rendimientos del capital inmobiliario.", "correct": false },
+        { "text": "Rendimientos mixtos de actividades económicas y del capital inmobiliario.", "correct": false },
+        { "text": "Se consideran rendimientos del trabajo para la titular de la actividad.", "correct": false }
+      ],
+      "explanation": "ES: La explotación de la óptica constituye actividad económica; ser dueña del local no altera la naturaleza del rendimiento principal. IT: L’attività dell’ottica è reddito d’impresa/professionale; la proprietà del locale non muta la qualificazione.",
+      "legal_reference": "LIRPF, art. 27.1 (concepto de actividad económica).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "Señala la afirmación correcta con relación al IRPF:",
+      "answers": [
+        { "text": "Solo los ingresos dinerarios o monetarios se consideran rendimientos del trabajo.", "correct": false },
+        { "text": "Los ingresos del trabajo irregulares se benefician de una reducción.", "correct": true },
+        { "text": "Todas las retribuciones en especie siguen la misma regla de valoración.", "correct": false },
+        { "text": "La reducción del rendimiento neto del trabajo por irregularidad se aplica a aquellos que ingresos superiores a una cierta cuantía.", "correct": false }
+      ],
+      "explanation": "ES: Los rendimientos del trabajo ‘irregulares’ (generados en >2 años o notoriamente irregulares) pueden aplicar reducción si se cumplen requisitos. IT: I redditi di lavoro ‘irregolari’ possono beneficiare di una riduzione se ricorrono i presupposti.",
+      "legal_reference": "LIRPF, art. 18.2 (reducción por irregularidad) y arts. 42-43 (especie y valoración).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "Señale la afirmación incorrecta respecto al IRPF:",
+      "answers": [
+        { "text": "Es un impuesto progresivo.", "correct": true },
+        { "text": "Tiene en cuenta las circunstancias personales y familiares.", "correct": false },
+        { "text": "Su base imponible es el valor del patrimonio neto del sujeto pasivo.", "correct": false },
+        { "text": "Los contribuyentes son personas físicas.", "correct": false }
+      ],
+      "explanation": "ES: El enunciado marca como ‘incorrecta’ la frase “Es un impuesto progresivo”, lo que es controvertido porque el IRPF sí es progresivo; en puridad, la incorrecta es que la base imponible sea el patrimonio neto (eso corresponde al Impuesto sobre el Patrimonio). IT: L’item considera sbagliato «è un’imposta progressiva», ma l’IRPF è effettivamente progressiva; l’affermazione errata sarebbe quella sul patrimonio netto.",
+      "legal_reference": "LIRPF, arts. 1-2 y 63 (tarifa progresiva); Ley 19/1991 (Impuesto sobre el Patrimonio) para contraste.",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "Señale la afirmación incorrecta en relación con los rendimientos del capital:",
+      "answers": [
+        { "text": "Para evitar problemas de incentivos todos los rendimientos del capital tributan de igual manera en el IRPF, independientemente de su naturaleza.", "correct": true },
+        { "text": "En general, los rendimientos del capital inmobiliario tributan en la base general.", "correct": false },
+        { "text": "En general, los rendimientos del capital mobiliario tributan en la base del ahorro.", "correct": false },
+        { "text": "Los rendimientos del capital pueden ser monetarios o en especie.", "correct": false }
+      ],
+      "explanation": "ES: Es falso que todos los rendimientos del capital tributen igual; su integración difiere (mobiliario en ahorro, inmobiliario en general, con excepciones). IT: Non è vero che tutti i redditi di capitale abbiano identico trattamento; mobiliari in genere nel risparmio, immobiliari nella base generale.",
+      "legal_reference": "LIRPF, arts. 22-26 y 45-46 (calificación e integración).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "Pilar trabaja por cuenta propia como traductora e intérprete ¿Qué gasto puede deducirse a la hora de calcular el rendimiento de la actividad económica a declarar en el IRPF?",
+      "answers": [
+        { "text": "El gasto en gasolina, parking, reparaciones y seguro de su automóvil privado, que usa indistintamente en su vida personal y profesional.", "correct": false },
+        { "text": "El gasto de un viaje personal de descanso por una situación de estrés profesional", "correct": false },
+        { "text": "La cuota de seguridad social que paga mensualmente al régimen de Trabajadores Autónomos.", "correct": true },
+        { "text": "Una multa por exceso de velocidad", "correct": false }
+      ],
+      "explanation": "ES: Son deducibles las cotizaciones al RETA; los gastos personales o sanciones no lo son, y los bienes de uso mixto requieren afectación exclusiva. IT: Deducibili i contributi previdenziali; spese personali e sanzioni non sono deducibili; i beni a uso promiscuo non sono affetti.",
+      "legal_reference": "LIRPF, art. 30.2 (gastos deducibles) y art. 14.1.e) (no deducibilidad de sanciones).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "Señale la afirmación correcta con respecto al IRPF:",
+      "answers": [
+        { "text": "Es un impuesto de carácter personal y directo que grava la renta de las personas jurídicas.", "correct": false },
+        { "text": "El hecho imponible lo constituye únicamente la obtención de rentas salariales por parte del contribuyente.", "correct": false },
+        { "text": "Grava la renta de las personas físicas según los principios de igualdad, generalidad y progresividad.", "correct": true },
+        { "text": "No se consideran las circunstancias personales y familiares del sujeto pasivo.", "correct": false }
+      ],
+      "explanation": "ES: El IRPF grava la renta de las personas físicas atendiendo a principios y circunstancias personales/familiares. IT: L’IRPF tassa il reddito delle persone fisiche considerando principi e circostanze personali/familiari.",
+      "legal_reference": "LIRPF, arts. 1-2; CE, art. 31.1.",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "Eva es despedida de la empresa en la que trabajaba desde hace 10 años, recibiendo una indemnización por despido improcedente. Señala la respuesta correcta:",
+      "answers": [
+        { "text": "Al tratarse de un despido improcedente toda la cuantía recibida está exenta del IRPF.", "correct": true },
+        { "text": "La indemnización percibida que no supere la cuantía establecida con carácter obligatorio por la normativa está sujeta a gravamen en el IRPF como ganancia de capital.", "correct": false },
+        { "text": "La indemnización por despido que supere la cuantía exenta está sujeta a gravamen en el IRPF como rendimiento del trabajo, pudiendo aplicarse un porcentaje de reducción al haberse generado en un periodo superior a dos años.", "correct": false },
+        { "text": "La indemnización percibida está sujeta a gravamen en el IRPF en su totalidad, pero al ser irregular se puede aplicar un porcentaje de reducción.", "correct": false }
+      ],
+      "explanation": "ES: El ítem oficial marca exenta ‘toda la cuantía’, pero en realidad la exención alcanza solo la cuantía obligatoria legal; el posible exceso tributa como rendimiento del trabajo con reducción por irregularidad si procede. IT: L’esercizio indica esente l’intero importo; tecnicamente è esente solo la quota legale obbligatoria, l’eccedenza è reddito di lavoro con eventuale riduzione.",
+      "legal_reference": "LIRPF, art. 7.e) (exención) y art. 18.2 (irregularidad); Estatuto de los Trabajadores, art. 56 (cuantías).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "¿Cuál de las siguientes rentas no se considera renta exenta en el IRPF?",
+      "answers": [
+        { "text": "Las becas de estudio que cumplan con los requisitos establecidos en la LIRPF.", "correct": false },
+        { "text": "Las pensiones de jubilación.", "correct": true },
+        { "text": "Las pensiones de alimentos otorgadas por decisión judicial.", "correct": false },
+        { "text": "Las indemnizaciones por despido que cumplen los requisitos que exige la LIPRF.", "correct": false }
+      ],
+      "explanation": "ES: Las pensiones de jubilación no están exentas, a diferencia de ciertas becas, pensiones de alimentos judiciales y la indemnización por despido dentro de los límites legales. IT: Le pensioni di vecchiaia non sono esenti; borse di studio, alimenti giudiziali e indennità di licenziamento (entro i limiti) possono esserlo.",
+      "legal_reference": "LIRPF, art. 7 (rentas exentas) y art. 17 (rendimientos del trabajo).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "La amortización de elementos afectos a la actividad económica en el método de Estimación Directa Normal puede calcularse:",
+      "answers": [
+        { "text": "Por los métodos aceptados según la normativa del Impuesto sobre Sociedades.", "correct": false },
+        { "text": "Por el método lineal, aplicando las tablas de amortización específicas definidas para la Estimación Directa en el IRPF.", "correct": true },
+        { "text": "La amortización no es un gasto deducible en Estimación Directa Normal.", "correct": false },
+        { "text": "Ninguna de las anteriores es correcta.", "correct": false }
+      ],
+      "explanation": "ES: El enunciado considera correcta la opción de ‘tablas ED IRPF’. Técnicamente, en estimación directa normal se remite a las reglas del Impuesto sobre Sociedades para amortización. IT: L’item dà come corretta la tabella IRPF; in realtà nel regime ordinario si rinvia alle regole dell’imposta sulle società.",
+      "legal_reference": "LIRPF, art. 28.1 (remisión a IS); LIS, art. 12 (amortización).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "¿Cuál de los siguientes elementos sí puede considerarse afecto a una actividad económica de abogacía desempeñada por cuenta propia?",
+      "answers": [
+        { "text": "Un ordenador que se usa para uso personal.", "correct": false },
+        { "text": "Un automóvil que se usa indistintamente para uso personal y profesional.", "correct": false },
+        { "text": "Un aparato de aire acondicionado de la vivienda habitual, para todo uso.", "correct": false },
+        { "text": "Una habitación de la vivienda habitual de 35 m2, en la que está instalado el despacho profesional.", "correct": true }
+      ],
+      "explanation": "ES: Es afecto el despacho profesional en la vivienda (uso exclusivo y permanente). Los bienes de uso mixto personal/profesional no se consideran afectos por regla general. IT: È affetta la stanza adibita a studio con uso esclusivo; i beni a uso promiscuo di regola non sono affetti.",
+      "legal_reference": "LIRPF, art. 29 (afectación de elementos patrimoniales a actividades).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "El objeto del IRPF:",
+      "answers": [
+        { "text": "Es la renta del contribuyente, con independencia del lugar donde se hubiese generado y solo si el pagador reside en el territorio de residencia del contribuyente.", "correct": false },
+        { "text": "Es la renta mundial del contribuyente, con independencia del lugar donde se hubiese generado.", "correct": true },
+        { "text": "Es la renta del contribuyente, siempre que proceda de su lugar de residencia.", "correct": false },
+        { "text": "Es la renta del contribuyente, entendiendo por tal la persona física que obtiene rendimientos en España, sea cual sea su residencia.", "correct": false }
+      ],
+      "explanation": "ES: La obligación personal por residencia implica tributación por la renta mundial. IT: Per i residenti si applica il principio del reddito mondiale.",
+      "legal_reference": "LIRPF, arts. 2, 8 y 9 (naturaleza y obligación personal).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "Señale cuál de los siguientes rendimientos no se califica como rendimientos de capital mobiliario en el IRPF:",
+      "answers": [
+        { "text": "Los procedentes de una patente, cuando el contribuyente no es el autor.", "correct": false },
+        { "text": "Los procedentes de una letra del tesoro.", "correct": false },
+        { "text": "El beneficio obtenido en la venta de unas acciones cotizadas.", "correct": true },
+        { "text": "Los intereses procedentes de una imposición a plazo fijo.", "correct": false }
+      ],
+      "explanation": "ES: La plusvalía por venta de acciones es ganancia patrimonial, no rendimiento de capital mobiliario. IT: L’utile della cessione di azioni è plusvalenza, non reddito di capitale.",
+      "legal_reference": "LIRPF, arts. 25 (RCM) y 33-35 (ganancias patrimoniales).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "Amparo ha recibido 5.000€ en concepto de derechos de autor de una novela escrita por su abuela cuyos derechos se los dejó en herencia su madre. ¿Cómo tributa esta renta en el IRPF?",
+      "answers": [
+        { "text": "No está sujeta el IRPF sino al Impuesto de Sucesiones y Donaciones,", "correct": false },
+        { "text": "Se trata de un rendimiento del capital mobiliario a declarar en la base general.", "correct": true },
+        { "text": "Es un rendimiento de actividades económicas a declarar en el IRPF.", "correct": false },
+        { "text": "Tributa como rendimiento del trabajo en el IRPF de Amparo.", "correct": false }
+      ],
+      "explanation": "ES: Derechos de autor percibidos por quien no es el autor originario (adquiridos mortis causa) son rendimientos del capital mobiliario en la base general. IT: I diritti d’autore percepiti da soggetto diverso dall’autore originario (successione) sono redditi di capitale in base generale.",
+      "legal_reference": "LIRPF, art. 25.4 (propiedad intelectual cuando el perceptor no es autor).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "En el IRPF se consideran rendimientos de capital mobiliario:",
+      "answers": [
+        { "text": "Al arrendamiento de un local comercial afecto a la actividad.", "correct": false },
+        { "text": "Al arrendamiento de un negocio.", "correct": true },
+        { "text": "A la segunda vivienda donde el contribuyente pasa los fines de semana.", "correct": false },
+        { "text": "A los premios obtenidos en juegos autorizados que no están exentos.", "correct": false }
+      ],
+      "explanation": "ES: La cesión de negocio (sin organización empresarial propia) puede calificarse como rendimiento del capital mobiliario. Los premios no exentos son ganancias patrimoniales; la segunda vivienda, en su caso, genera imputación de rentas; un local afecto es actividad económica. IT: La locazione d’azienda può essere reddito di capitale; i premi sono plusvalenze; seconda casa → imputazione; locale affetto → attività economica.",
+      "legal_reference": "LIRPF, art. 25.4 (otros rendimientos del capital mobiliario) y art. 27 (actividad económica).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+
+    {
+      "question": "Señala la afirmación correcta respecto al IRPF:",
+      "answers": [
+        { "text": "es un impuesto progesivo", "correct": true },
+        { "text": "no tiene en cuenta las circunstancias personales y familiares", "correct": false },
+        { "text": "su base imponible es el valor del patrimonio neto del sujeto pasivo", "correct": false },
+        { "text": "los contribuyentes son tanto las personas física como las jurídicas", "correct": false }
+      ],
+      "explanation": "ES: El IRPF es un impuesto personal, directo y progresivo; tiene en cuenta circunstancias personales/familiares y no grava el patrimonio neto (eso es el IP). IT: L’IRPF è personale, diretto e progressivo; considera le circostanze personali e non tassa il patrimonio netto.",
+      "legal_reference": "LIRPF, arts. 1-2 y 63; Ley 19/1991 (Impuesto sobre el Patrimonio) para contraste.",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Los contribuyentes con residencia fiscal en españa que obtienen rendimientos del trabajo percibidos por trabajo efectivamente realizados en el extranjero:",
+      "answers": [
+        { "text": "están exentos en el IRPF español con ciertos límites y requisitos", "correct": true },
+        { "text": "están sujetos a doble imposición porque en españa se tributa por la renta mundial", "correct": false },
+        { "text": "tributan en el país donde obtiene los rendimientos pero no es espanol", "correct": false },
+        { "text": "deben integrar esos rendimientos en la base imponible general del IRPF aplicado una reducción", "correct": false }
+      ],
+      "explanation": "ES: Existe exención por trabajos efectivamente realizados en el extranjero si concurren requisitos (límite anual y país con impuesto análogo). IT: C’è un’esenzione per lavoro svolto all’estero se si rispettano condizioni (tetto annuo e imposizione analoga nel Paese).",
+      "legal_reference": "LIRPF, art. 7.p) (exención por trabajos en el extranjero) y RIRPF art. 6.",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "En un matrimonio el marido es titular de una empresa individual y la mujer trabaja como funcionaria en un ministerio. ¿Pueden declarar cada uno la mitad de los beneficios del negocio en el IRPF?",
+      "answers": [
+        { "text": "sí siempre que estén casados en régimen de gananciales", "correct": false },
+        { "text": "no es el marido quien tiene que declarar todo el beneficio obtenido", "correct": true },
+        { "text": "sí tanto si están en gananciales como en separación de bienes", "correct": false },
+        { "text": "sí siempre que la mujer ayude a su marido en la actividad", "correct": false }
+      ],
+      "explanation": "ES: Los rendimientos de actividades económicas se atribuyen al titular de la actividad, con independencia del régimen económico matrimonial. IT: I redditi da attività economica si attribuiscono al titolare dell’attività anche se il regime è di comunione legale.",
+      "legal_reference": "LIRPF, art. 11 (individualización de rentas) y art. 27 (titularidad de la actividad).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "En relación con los rendimientos de capital inmobiliario se consideran en el IRPF como gastos deducibles los siguientes:",
+      "answers": [
+        { "text": "intereses del prestamo contraido para la adquisición del inmueble", "correct": true },
+        { "text": "los tributos y suministros pagados por la persona propietaria", "correct": true },
+        { "text": "los saldos de dudoso cobro en algunos casos", "correct": true },
+        { "text": "todas son correctas", "correct": true }
+      ],
+      "explanation": "ES: Intereses, tributos/gastos necesarios y saldos de dudoso cobro (bajo condiciones) son deducibles en capital inmobiliario; por ello ‘todas’ es válida. IT: Interessi, tributi/spese necessarie e crediti dubbi (con condizioni) sono deducibili; dunque ‘tutte’ è corretta.",
+      "legal_reference": "LIRPF, art. 23.1 (gastos deducibles, incluidos intereses, tributos, saldos de dudoso cobro).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Tributa como renta general en el IRPF",
+      "answers": [
+        { "text": "la ganancia obtenida por la venta de un paquete de acciones", "correct": false },
+        { "text": "el rendimiento de un fondo de inversión", "correct": false },
+        { "text": "la renta cobrada a los inquilinos por el alquiler de un inmueble", "correct": true },
+        { "text": "la renta obtenida por los intereses de cuentas corrientes", "correct": false }
+      ],
+      "explanation": "ES: El alquiler de inmuebles se califica como rendimiento del capital inmobiliario e integra la base general. Las ganancias por venta de acciones y los rendimientos de fondos e intereses bancarios se integran, con carácter general, en la base del ahorro. IT: I canoni di locazione sono redditi di capitale immobiliare e confluiscono nella base generale. Le plusvalenze su azioni, i rendimenti dei fondi e gli interessi vanno in linea generale nella base del risparmio.",
+      "legal_reference": "LIRPF arts. 22, 45 y 46.",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Señala la afirmación incorrecta en relación con los rendimientos del capital",
+      "answers": [
+        { "text": "para evitar problemas de incentivos todos los rendimientos del capital tributan de igual manera en el IRPF indemendentemete de su naturaleza", "correct": false },
+        { "text": "en general los rendimientos del capital mobiliario tributan en la base general", "correct": true },
+        { "text": "en general los rendimientos del capital mobiliario tributan en la del ahorro", "correct": false },
+        { "text": "los rendimientos del capital pueden ser monetarios o en especie", "correct": false }
+      ],
+      "explanation": "ES: El enunciado marca como incorrecta la afirmación de que el capital mobiliario tribute en la base general; en realidad suele integrarse en la base del ahorro (salvo excepciones). Nota: también la opción “todos tributan igual” es falsa, pero el test solo permite una opción. IT: L’item indica come errata l’affermazione che i redditi di capitale mobiliari vadano in «base generale»; di regola vanno nella base del risparmio. Nota: anche «tutti tassano uguale» è falsa, ma il test richiede una sola scelta.",
+      "legal_reference": "LIRPF arts. 22-26 y 46.",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Ana compró una casa con jardín hace 10 años por €100.000 en el momento de la adquisición pagó €8.000 por el impuesto de transmisión patrimoniales y €2.000 en concepto de notaría y otros gastos. Hace 5 años construyó una piscina en el jardín por la que pagó un total de €10.000. En el presente ejercicio vendió la vivienda por€152.000 abonando €2.000 en gastos notaría e impuestos. Señale la respuesta correcta en relación con el IRPF",
+      "answers": [
+        { "text": "Ana debe declarar una ganancia patrimonial de €52.000 por venta", "correct": false },
+        { "text": "Ana debe declarar una ganancia patrimonial de €40.000 por venta", "correct": false },
+        { "text": "Ana debe declarar una ganancia patrimonial de €30.000 por venta", "correct": true },
+        { "text": "la piscina no debe tenerse en cuenta a la horas de calcular la ganancia patrimonial a declarar en el IRPF", "correct": false }
+      ],
+      "explanation": "ES: Valor de transmisión neto 152.000 − 2.000 = 150.000. Valor de adquisición: 100.000 + 8.000 + 2.000 + 10.000 (mejora) = 120.000. Ganancia = 30.000. IT: Valore di cessione netto 150.000; costo 120.000 (prezzo + imposte/acquisto + miglioria piscina). Plusvalenza = 30.000.",
+      "legal_reference": "LIRPF arts. 34-35 (cálculo de ganancias y pérdidas; gastos y mejoras).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "No tienen la consideración de rendimientos del trabajo en el IRPF",
+      "answers": [
+        { "text": "la renta obtenida por una ingeniera, persona física, que realiza proyectos para empresas por cuenta propia", "correct": true },
+        { "text": "la pensiones de jubilación invalidez y viudedad", "correct": false },
+        { "text": "la renta obtenida por una profesora que imparte clases de idiomas en una academia con la que tienen contrato laboral", "correct": false },
+        { "text": "la renta obtenida por una profesora al impartir la charla en una institución pública", "correct": false }
+      ],
+      "explanation": "ES: Los ingresos por cuenta propia con ordenación de medios son rendimientos de actividades económicas, no del trabajo. Pensiones y retribuciones laborales sí son rendimientos del trabajo. IT: I compensi da lavoro autonomo con organizzazione di mezzi sono redditi d’attività economica; pensioni e retribuzioni dipendenti sono redditi di lavoro.",
+      "legal_reference": "LIRPF arts. 17 (trabajo) y 27 (actividades económicas).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Este estudiante de 20 años genera contenidos en instagram y se ha dado de alta como autonomía para realizar esta actividades. Además trabaja como dependiente en la campana de navidad y de socorrista en verano. señale la respuesta correcta",
+      "answers": [
+        { "text": "los rendimientos derivados de las tres actividades económicas que realiza Ester tributan en el IRPF", "correct": true },
+        { "text": "los rendimientos derivado de su actividad en instagram no tributan en el IRPF sino en el impuesto de sociedades", "correct": false },
+        { "text": "al ser Ester menos de 25 años sus ingresos están exentos", "correct": false },
+        { "text": "los ingresos obtenidos por Ester como dependiente y socorrista no tributan en el IRPF al derivarse del trabajo a tiempo parcial", "correct": false }
+      ],
+      "explanation": "ES: El enunciado marca correcta la idea de que «las tres son actividades económicas», aunque técnicamente solo Instagram sería actividad económica; los otros dos trabajos son rendimientos del trabajo. En cualquier caso, tributan todos en el IRPF (en categorías distintas). IT: L’item segna corretta l’idea che «tutte e tre siano attività economiche», ma in realtà solo Instagram lo è; gli altri sono redditi di lavoro. Tutti comunque sono imponibili IRPF.",
+      "legal_reference": "LIRPF arts. 17 (trabajo) y 27 (actividad económica).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "¿A que se refiere la LIRPF al establecer que hay que tributar por un inmueble no alquilado ni afecto a actividades económicas y que no constituye vivienda habitual?",
+      "answers": [
+        { "text": "imputación de rentas inmobiliarias", "correct": true },
+        { "text": "rendimientos del capital inmobiliario", "correct": false },
+        { "text": "ganancias de capital", "correct": false },
+        { "text": "a que no esos casos no hay tributa por IRPF", "correct": false }
+      ],
+      "explanation": "ES: Para inmuebles urbanos no afectos y no arrendados (no vivienda habitual) procede la imputación de rentas inmobiliarias. IT: Per immobili urbani non locati e non afferenti (non abitazione principale) si applica l’imputazione del reddito.",
+      "legal_reference": "LIRPF art. 85.1.",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Elasa posee acciones de la empresa Zotas SL que cotiza en bolsa adquiridas el 1 de enero del presente ejercicio fiscal por €1.000 en el mes de febrero del mismo ejercicio obtuvo €50 en concepto de dividendos brutos por dichas acciones las cuales vende el 28 de febrero por €800. ¿Qué debe declarar?",
+      "answers": [
+        { "text": "Elsa debe declarar una pérdida patrimonial de €200 por la venta de las acciones", "correct": true },
+        { "text": "Elsa de declarar €50 en concepto de rendimientos del capital mobiliario por los dividendos percibidos", "correct": true },
+        { "text": "A y B son correctas", "correct": true },
+        { "text": "ninguna es correcta", "correct": false }
+      ],
+      "explanation": "ES: Venta por 800 frente a coste 1.000 → pérdida de 200 (base del ahorro). Dividendos 50 → rendimiento de capital mobiliario (base del ahorro). IT: Cessione a 800 vs costo 1.000 → minusvalenza 200; dividendi 50 → reddito di capitale.",
+      "legal_reference": "LIRPF arts. 25-26 (dividendos) y 33-35 (ganancias/pérdidas patrimoniales).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Irene tiene 26 años y compró 200 acciones de una empresa a €10 acción hace 5 años en el ejercicio fiscal vende 100 de las acciones anteriores a €15 acción pagando €50 por gestos inherentes a la venta a la entidad financiera que le ha gestionado la operación. Que tipo de rendimiento tiene que declarar y en qué cuantía?",
+      "answers": [
+        { "text": "ganancia patrimonial derivada de transmisión a integrar en la bolsa del ahorro: 500€", "correct": false },
+        { "text": "ganancia patrimonial derivada de transmisión a integrar en la bolsa del ahorro: 450€", "correct": true },
+        { "text": "ganancia patrimonial a integrar en la base general por importe de 500€", "correct": false },
+        { "text": "rendimientos de capital, mobiliario rendimiento neto: 450€", "correct": false }
+      ],
+      "explanation": "ES: Ganancia = (15×100) − (10×100) − 50 = 450 €, integrada en la base del ahorro. IT: Plusvalenza = 1.500 − 1.000 − 50 = 450 €, base del risparmio.",
+      "legal_reference": "LIRPF arts. 33-35 y 46.",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Lena de 60 años y residente en Madrid posee una vivienda en la costa que adquirió hace 10 años por €10.000 y que hoy tiene un valor de mercado de €150.000. Señale la respuesta correcta a efectos del IRPF",
+      "answers": [
+        { "text": "si Lena dona la vivienda a su nieta su nieta debe declarar una ganancia patrimonial en el IRPF de €50.000", "correct": false },
+        { "text": "si Lena faccele y su hoja recibe la vivienda en herencia la declaración de IRPF de Ana debe incluir una ganancia patrimonial en el IRPF de €50.000", "correct": false },
+        { "text": "si Lena vende la vivienda debe declarar una ganancia patrimonial en el IRPF de €50.000", "correct": true },
+        { "text": "si la vivienda fuera la residencia habitual de Lena la ganancia patrimonial che obtiene queda exenta tanto en el caso de herencia como de donación o venta", "correct": false }
+      ],
+      "explanation": "ES: El enunciado marca 50.000 €, pero con los datos dados la ganancia sería 150.000 − 10.000 = 140.000 € (sin considerar gastos). En herencia/donación no hay ganancia en el IRPF del causante/donante; en la venta sí. IT: L’item indica 50.000 €, ma dai dati emergerebbe 140.000 €. In eredità/donazione non c’è plusvalenza in capo al dante causa; nella vendita sì.",
+      "legal_reference": "LIRPF arts. 33-36 (transmisiones onerosas vs lucrativas); Ley 29/1987 (ISD) para herencias/donaciones.",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Un empresario individual que tributa en el régimen de Estimación Directa Simplificada no puede deducirse como gasto",
+      "answers": [
+        { "text": "un seguro médico privado contratado con ADESLAS por el que ha satisfecho una prima anual que no supera el límite establecido", "correct": false },
+        { "text": "una donación a un club deportivo", "correct": false },
+        { "text": "el 30% de la proporción de la vivienda afecta en las facturas de luz y telefónica e internet de la vivienda siempre que el autónomo trabaja desde casa y así se lo haya notificado a Hacienda en su declaración cenal", "correct": true },
+        { "text": "Gasto por un servicio de asesoramiento a la empresa contratado a un abogado", "correct": false }
+      ],
+      "explanation": "ES: El item marca como ‘no deducible’ el 30% de suministros de vivienda afectada, pero la normativa permite deducir ese 30% sobre la proporción de metros afectos (desde 2018), cumpliendo requisitos. Donaciones no son gasto deducible de la actividad (aunque pueden dar derecho a deducción en cuota). IT: L’item segna «non deducibile» il 30% dei servizi della casa adibita in parte all’attività, ma la legge consente tale deduzione (30% della quota di metri affetti) se ricorrono i presupposti.",
+      "legal_reference": "LIRPF art. 30.2.5ª (gastos de suministros en vivienda parcialmente afecta; 30% de la proporción); Ley 49/2002 (donativos, deducción en cuota).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Si se venden unas acciones de una sociedad por €3.000 cuando se compran por €2.500. Que se obtiene a efectos de IRPF?",
+      "answers": [
+        { "text": "rendimientos del capital mobiliario a integrar en la base general", "correct": false },
+        { "text": "rendimientos del capital mobiliario a integrar en la base del ahorro", "correct": false },
+        { "text": "una ganancia patrimonial a integrar en la base general", "correct": false },
+        { "text": "una ganancia patrimonial a integrar en la base de ahorro", "correct": true }
+      ],
+      "explanation": "ES: Diferencia positiva por transmisión de acciones → ganancia patrimonial en la base del ahorro. IT: Plusvalenza da cessione di azioni → base del risparmio.",
+      "legal_reference": "LIRPF arts. 33-35 y 46.",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Cuál de las siguientes variaciones patrimoniales se incluye en la base imponible del ahorro en e IRPF",
+      "answers": [
+        { "text": "el aumento en el valor de una vivienda debido a la apertura de un parada de metro en las inmediaciones", "correct": false },
+        { "text": "un premio obtenido en un concurso de televisión", "correct": false },
+        { "text": "ganancias obtenidas del juego online", "correct": false },
+        { "text": "el aumento en el valor de una vivienda debido a la apertura de una parada de metro en las inmediacione", "correct": true }
+      ],
+      "explanation": "ES: El enunciado señala como correcta una revalorización no realizada, que en realidad NO tributa hasta la transmisión; los premios y ganancias de juego se integran en la base general. IT: L’item dà come corretta una plusvalenza non realizzata, che in realtà non è imponibile finché non si cede il bene; premi e vincite vanno di regola nella base generale.",
+      "legal_reference": "LIRPF arts. 33.1 (necesidad de alteración patrimonial realizada) y 45-46.",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "SEñale cuál de las siguientes contraposiciones se considera rendimiento del trabajo a efectos del IRPF:",
+      "answers": [
+        { "text": "los rendimientos obtenidos por un trabajador autónomo en el desarrollo de su acividades profesional", "correct": true },
+        { "text": "las contribuciones a planes de pensiones y sistemas alternativos a los planes de pensiones realizadas por el trabajador", "correct": false },
+        { "text": "el importe total de las dietas y asignaciones para gastos de viaje del trabajador", "correct": false },
+        { "text": "las pensiones de jubilación de la seguridad social", "correct": false }
+      ],
+      "explanation": "ES: El enunciado marca como correcta la opción sobre el autónomo, pero técnicamente los ingresos del autónomo son rendimientos de actividades económicas (no del trabajo). Las pensiones de jubilación sí son rendimientos del trabajo; las dietas solo están exentas dentro de límites, el exceso es rendimiento del trabajo. IT: L’item indica come corretta la risposta sull’autonomo, ma in realtà i compensi dell’autonomo sono redditi di attività economica, non di lavoro dipendente. Le pensioni sono redditi di lavoro; le diarie sono esenti entro limiti, l’eccedenza è reddito di lavoro.",
+      "legal_reference": "LIRPF arts. 17 (rendimientos del trabajo), 27 (actividades económicas), 18 y RIRPF art. 9 (dietas).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Señale cuál de los siguientes gastos puede considerarse físicamente deducible en el cálculo del rendimiento neto del trabajo",
+      "answers": [
+        { "text": "determinados donativos establecidos por ley", "correct": false },
+        { "text": "los gastos de seguros médicos privados", "correct": false },
+        { "text": "los arrendamientos y suministros de la residencia habitual", "correct": false },
+        { "text": "las cotizaciones a la seguridad social", "correct": true }
+      ],
+      "explanation": "ES: Entre los gastos deducibles del trabajo están, con carácter tasado, las cotizaciones a la Seguridad Social. Donativos, seguros médicos privados y alquiler/suministros de la vivienda habitual no son gastos deducibles del trabajo (aunque pueden tener otros tratamientos). IT: Tra le spese deducibili dal reddito di lavoro rientrano le contribuzioni previdenziali; donazioni, assicurazioni sanitarie e canone/utenze dell’abitazione non lo sono.",
+      "legal_reference": "LIRPF art. 19.2 (gastos deducibles del trabajo) y art. 68 (donativos: deducción en cuota, no gasto).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Este estudiante de 20 años genera contenidos en instagram y se ha dado de alta como autonomía para realizar esta actividades. Además trabaja como dependiente en la campana de navidad y de socorrista en verano. señale la respuesta correcta:",
+      "answers": [
+        { "text": "los rendimientos derivados de las tres actividades económicas que realiza Ester tributan en el IRPF", "correct": true },
+        { "text": "los rendimientos derivado de su actividad en instagram no tributan en el IRPF sino en el impuesto de sociedades", "correct": false },
+        { "text": "al ser Ester menos de 25 años sus ingresos están exentos", "correct": false },
+        { "text": "los ingresos obtenidos por Ester como dependiente y socorrista no tributan en el IRPF al derivarse del trabajo a tiempo parcial", "correct": false }
+      ],
+      "explanation": "ES: El enunciado considera correcta la tributación en IRPF; en realidad, la actividad de Instagram tributa como actividad económica y los trabajos de dependiente/socorrista como rendimientos del trabajo. Todas tributan en IRPF (categorías distintas). IT: L’attività su Instagram è reddito di attività economica; i lavori di commessa/bagnina sono redditi di lavoro. Tutti concorrono all’IRPF.",
+      "legal_reference": "LIRPF arts. 17 (trabajo) y 27 (actividad económica).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "¿A que se refiere la LIRPF al establecer que hay que tributar por un inmueble no alquilado ni afecto a actividades económicas y que no constituye vivienda habitual?",
+      "answers": [
+        { "text": "imputación de rentas inmobiliarias", "correct": true },
+        { "text": "rendimientos del capital inmobiliario", "correct": false },
+        { "text": "ganancias de capital", "correct": false },
+        { "text": "a que no esos casos no hay tributa por IRPF", "correct": false }
+      ],
+      "explanation": "ES: Para inmuebles urbanos no arrendados y no afectos (que no son vivienda habitual) procede imputación de rentas. IT: Per gli immobili urbani non locati e non strumentali (non abitazione principale) si applica l’imputazione di reddito.",
+      "legal_reference": "LIRPF art. 85.1 (imputación de rentas inmobiliarias).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Elasa posee acciones de la empresa Zotas SL que cotiza en bolsa adquiridas el 1 de enero del presente ejercicio fiscal por €1.000 en el mes de febrero del mismo ejercicio obtuvo €50 en concepto de dividendos brutos por dichas acciones las cuales vende el 28 de febrero por €800. ¿Qué debe declarar?",
+      "answers": [
+        { "text": "Elsa debe declarar una pérdida patrimonial de €200 por la venta de las acciones", "correct": true },
+        { "text": "Elsa de declarar €50 en concepto de rendimientos del capital mobiliario por los dividendos percibidos", "correct": true },
+        { "text": "A y B son correctas", "correct": true },
+        { "text": "ninguna es correcta", "correct": false }
+      ],
+      "explanation": "ES: Venta a 800 frente a coste 1.000 → pérdida patrimonial 200 (base del ahorro); dividendos 50 → rendimiento de capital mobiliario (base del ahorro). IT: Cessione a 800 vs costo 1.000 → minusvalenza 200; dividendi 50 → reddito di capitale.",
+      "legal_reference": "LIRPF arts. 25-26 (dividendos) y 33-35 (ganancias/pérdidas patrimoniales).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Irene tiene 26 años y compró 200 acciones de una empresa a €10 acción hace 5 años en el ejercicio fiscal vende 100 de las acciones anteriores a €15 acción pagando €50 por gestos inherentes a la venta a la entidad financiera que le ha gestionado la operación. Que tipo de rendimiento tiene que declarar y en qué cuantía?",
+      "answers": [
+        { "text": "ganancia patrimonial derivada de transmisión a integrar en la bolsa del ahorro: 500€", "correct": false },
+        { "text": "ganancia patrimonial derivada de transmisión a integrar en la bolsa del ahorro: 450€", "correct": true },
+        { "text": "ganancia patrimonial a integrar en la base general por importe de 500€", "correct": false },
+        { "text": "rendimientos de capital, mobiliario rendimiento neto: 450€", "correct": false }
+      ],
+      "explanation": "ES: Ganancia = (15×100) − (10×100) − 50 = 450 €, que se integra en la base del ahorro. IT: Plusvalenza = 1.500 − 1.000 − 50 = 450 €, base del risparmio.",
+      "legal_reference": "LIRPF arts. 33-35 y 46 (integración en la base del ahorro).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Señala la afirmación correcta con respecto al IRPF:",
+      "answers": [
+        { "text": "el IRPF es un tributo estatal en el que las CCAA no tiene ninguna competencia", "correct": false },
+        { "text": "la duración del período impositivo en el IRPF es de un año cualesquiera que sean las circunstancia", "correct": false },
+        { "text": "el IRPF grava tanto rentas y rendimientos monetarios como rentas en especie", "correct": true },
+        { "text": "en el IRPF español sólo se integran las rentas obtenidas en el territorio nacional", "correct": false }
+      ],
+      "explanation": "ES: El IRPF grava rentas dinerarias y en especie; hay competencias autonómicas y se aplica renta mundial para residentes. IT: L’IRPF tassa redditi in denaro e in natura; esistono competenze regionali e si applica il principio del reddito mondiale.",
+      "legal_reference": "LIRPF arts. 1-2 (naturaleza/objeto), 45-46 (bases), 8-9 (residencia).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Los rendimientos obtenidos en una óptica cuya titular es a la vez propietaria del local se consideran a efectos del IRPF:",
+      "answers": [
+        { "text": "rendimientos de actividades económicas", "correct": true },
+        { "text": "rendimientos del capital inmobiliario", "correct": false },
+        { "text": "rendimientos mixtos de actividades económicas y del capital inmobiliario", "correct": false },
+        { "text": "se consideran rendimientos del trabajo para la titular de la actividad", "correct": false }
+      ],
+      "explanation": "ES: La explotación de la óptica es una actividad económica; la propiedad del local no altera la naturaleza del rendimiento principal. IT: L’ottica è attività economica; la proprietà del locale non cambia la qualificazione del reddito.",
+      "legal_reference": "LIRPF art. 27.1 (concepto de actividad económica).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Señale en qué caso se debe realizar imputación de rentas inmobiliarias para el contribuyente:",
+      "answers": [
+        { "text": "apartamento vacacional que se alquila durante todo el ano", "correct": false },
+        { "text": "casa en  el pueblo que se destina a uso como segunda residencia", "correct": true },
+        { "text": "local donde está instalada la clínica en la que el contribuyente ejerce su actividad profesional", "correct": false },
+        { "text": "vivienda en construcción", "correct": false }
+      ],
+      "explanation": "ES: Imputación procede para inmuebles urbanos no alquilados y no afectos (p. ej., segunda residencia). IT: L’imputazione si applica per gli immobili urbani non locati e non strumentali (es. seconda casa).",
+      "legal_reference": "LIRPF art. 85.1 y 85.2.",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    },
+    {
+      "question": "Se consideran rendimientos de actividades económicos a efectos del IRPF:",
+      "answers": [
+        { "text": "los ingresos de un arquitecto que trabaja en un estudio por cuenta ajena", "correct": false },
+        { "text": "los ingresos obtenidos del arrendamiento de locales, en el supuesto de que se tenga contratada una persona para gestionar dichos arrendamientos", "correct": true },
+        { "text": "los ingresos obtenidos por conferencias cursos y seminarios sin ninguna excepción", "correct": false },
+        { "text": "los ingresos de un empresario individual procedentes de la venta de una furgoneta de la empresa", "correct": false }
+      ],
+      "explanation": "ES: El arrendamiento de inmuebles es actividad económica cuando se dispone de al menos una persona empleada con contrato laboral y a jornada completa para su gestión. IT: La locazione è attività economica se c’è un dipendente full-time addetto alla gestione.",
+      "legal_reference": "LIRPF art. 27.2 (arrendamiento de inmuebles como actividad económica).",
+      "original_file": "Financiero II 1° Parcial AGGIORNATO 03 07 25.docx"
+    }
+  ]
+}
