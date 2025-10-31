@@ -361,6 +361,342 @@
       "explanation": "ES: En Derecho común, a falta de capitulaciones rige por defecto la sociedad de gananciales.\nIT: Nel diritto comune spagnolo, in assenza di capitolazioni si applica il regime legale dei gananciales (comunione legale).",
       "legal_reference": "CC arts. 1315–1316 y 1344",
       "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "18. Administración de la sociedad de gananciales",
+      "answers": [
+        { "text": "la gestión y disposiciones de los bienes gananciales corresponde conjuntamente a los cónyuges en todo caso", "correct": false },
+        { "text": "cada cónyuge podrá con el expreso consentimiento del otro tomar como anticipo el numerario ganancial que le sea necesario para el ejercicio de su profesión o la administración ordinaria de sus bienes", "correct": false },
+        { "text": "para realizar gastos urgentes de carácter necesario, salvo cuando se trate de extraordinarios, bastarà el consentimiento de uno solo de los cónyuges", "correct": false },
+        { "text": "en la administración de la sociedad de gananciales en primer lugar rige lo pactado en capitulaciones matrimoniales", "correct": true }
+      ],
+      "explanation": "ES: En gananciales rige la cogestión y, ante todo, lo pactado en capitulaciones; no existe una regla de actuación “en todo caso” ni un derecho de anticipo como tal sin cobertura legal expresa.\nIT: Nel regime di comunione legale prevalgono prima di tutto le capitolazioni; non vi è gestione «in ogni caso» né un diritto di anticipo sul denaro comune senza base legale.",
+      "legal_reference": "CC arts. 1325, 1344, 1375–1378",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "19. Impugnación de la maternidad",
+      "answers": [
+        { "text": "la madre solo podrà impugnar su propia maternidad en caso de que justifique que no es cierta la identidad del hijo", "correct": false },
+        { "text": "la acción de impugnación de la filiación materna matrimonial corresponde a la madre al marido y al hijo", "correct": false },
+        { "text": "la accion de impugnacion de filiacion materna no matrimonial corresponde a la madre, al hijo, y a aquellos a quien perjudique o a los que puedan resultar afectados en su calidad de herederos forzosos", "correct": true },
+        { "text": "no en posible impugnar la filiación materna en ningún caso", "correct": false }
+      ],
+      "explanation": "ES: La maternidad matrimonial solo puede impugnarla la madre (no marido/hijo). La no matrimonial puede impugnarla madre, hijo y perjudicados (o sus herederos forzosos) en los supuestos y plazos legales.\nIT: La maternità matrimoniale è impugnabile solo dalla madre; quella non matrimoniale è impugnabile da madre, figlio e soggetti pregiudicati (o loro legittimari) nei casi e termini di legge.",
+      "legal_reference": "CC arts. 139–140",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "20. Carmen y Raul tienen un hijo de 15 años que ha recibido una herencia de un tío suyo, pero sospechan que la herencia puede ocasionar algún perjuicio porque es posible que tenga más pasivos que activos. Marque la opción correcta:",
+      "answers": [
+        { "text": "pueden renunciar a la herencia en nombre de su hijo sin más requisitos", "correct": false },
+        { "text": "si solicitan autorización judicial para renunciar la herencia a favor del hijo el juez deberà limitarse a conceder la autorización para ello en todo caso", "correct": false },
+        { "text": "si el juez denegase la autorización para la renuncia la herencia solo podrà ser aceptada a beneficio de inventario", "correct": true },
+        { "text": "en este caso no serà necesaria autorización judicial ya que el menos es mayor de catorce años y puede consentir por sí solo en documento público", "correct": false }
+      ],
+      "explanation": "ES: La renuncia por menores exige autorización judicial; si se deniega, solo cabe aceptación a beneficio de inventario para proteger al menor.\nIT: La rinuncia per i minori richiede autorizzazione giudiziale; se negata, è possibile solo l’accettazione con beneficio d’inventario.",
+      "legal_reference": "CC arts. 166, 1010–1013, 1003",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "22. El acogimiento familiar",
+      "answers": [
+        { "text": "si los padres del menor son conocidos y no están privados de la patria potestad serà preceptivo que presten su consentimiento al acogimiento en todo caso", "correct": false },
+        { "text": "es competencia de juez de primera instancia la superior vigilancia de la tutela acogimiento o guarda de los menor", "correct": false },
+        { "text": "el acogimiento familiar se extinguirà exclusivamente por resolución judicial o por la mayoría de edad del menor", "correct": false },
+        { "text": "todas son falsas", "correct": true }
+      ],
+      "explanation": "ES: El consentimiento de los progenitores no es “en todo caso” (puede suplirse). La superior vigilancia de tutela/guarda corresponde al Ministerio Fiscal. La extinción del acogimiento no es exclusiva por resolución judicial o mayoría de edad (hay otras causas).\nIT: Il consenso dei genitori non è sempre necessario (può essere sostituito). La vigilanza superiore spetta al Pubblico Ministero. L’affidamento non si estingue solo per sentenza o maggiore età.",
+      "legal_reference": "CC arts. 172–173 bis; CC art. 232; LO 1/1996 arts. 20–22",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "1. La aceptación de la herencia",
+      "answers": [
+        { "text": "Debe hacerse en documento público.", "correct": false },
+        { "text": "Debe ser expresa.", "correct": false },
+        { "text": "El aceptante adquiere retroactivamente la cualidad de heredero.", "correct": true },
+        { "text": "La aceptación pura y simple obliga al heredero a responder de todas las cargas de la herencia, pero sólo con los bienes de ésta.", "correct": false }
+      ],
+      "explanation": "ES: La aceptación puede ser expresa o tácita; sus efectos se retrotraen al fallecimiento. La aceptación pura y simple hace responder también con bienes propios.\nIT: L’accettazione può essere espressa o tacita; i suoi effetti si retrodatano alla morte. Con l’accettazione pura e semplice si risponde anche coi beni propri.",
+      "legal_reference": "CC arts. 989, 999–1000, 1003",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "2. Bienes colacionables. Son absolutamente colacionables:",
+      "answers": [
+        { "text": "Las donaciones hechas al consorte del hijo.", "correct": false },
+        { "text": "Los gastos realizados por los padres y ascendientes para cubrir las necesidades especiales de sus hijos o descendientes con discapacidad", "correct": false },
+        { "text": "Los bienes recibidos por el heredero, en virtud de dote, donación u otro título lucrativo.", "correct": true },
+        { "text": "Los gastos de alimentos, educación, curación de enfermedades, aunque sean extraordinarias, aprendizaje, equipo ordinario, ni los regalos de costumbre.", "correct": false }
+      ],
+      "explanation": "ES: La regla general es la colación de donaciones a herederos forzosos; ciertos gastos de sostenimiento y educación no se colacionan.\nIT: In linea generale si collazionano le liberalità ai legittimari; non si collazionano spese di mantenimento/educazione e regali d’uso.",
+      "legal_reference": "CC arts. 1035–1041",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "3. El albaceazgo",
+      "answers": [
+        { "text": "Si el testador no ha señalado plazo, el albacea deberá cumplir su encargo dentro del plazo improrrogable un año, contado desde su aceptación.", "correct": false },
+        { "text": "El testador solo podrá nombrar un albacea.", "correct": false },
+        { "text": "El albaceazgo es un cargo voluntario.", "correct": true },
+        { "text": "El albaceazgo solo termina por la muerte del albacea, o por el lapso del término legal, o señalado por el testador.", "correct": false }
+      ],
+      "explanation": "ES: El albaceazgo es voluntario; el plazo legal de un año es prorrogable; pueden nombrarse varios; las causas de extinción son más amplias que las citadas.\nIT: L’esecutore testamentario è un incarico volontario; l’anno legale è prorogabile; possono essere nominati più esecutori; le cause di cessazione sono più ampie.",
+      "legal_reference": "CC arts. 892, 904–910",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "4. Ángel y Chelo está unidos en matrimonio y tienen tres hijos comunes. Ángel desea otorgar testamento para distribuir su herencia. Señale la respuesta correcta:",
+      "answers": [
+        { "text": "Deberá respetar como legítima las dos terceras partes de la herencia, que tendrá que distribuir entre sus tres hijos: una tercera parte en partes iguales y la otra tercera parte podrá aplicarla como mejora.", "correct": true },
+        { "text": "Deberá respetar como legítima las dos terceras partes de la herencia, que tendrá que distribuir por igual entre sus tres hijos.", "correct": false },
+        { "text": "Deberá respetar como legítima las dos terceras partes de la herencia, que tendrá que distribuir por igual entre Claudia y sus tres hijos.", "correct": false },
+        { "text": "Deberá respetar como legítima un tercio de la herencia para Claudia y otro tercio para sus tres hijos. El resto será de libre disposición.", "correct": false }
+      ],
+      "explanation": "ES: Con descendientes, la legítima global es de dos tercios: uno de legítima estricta por partes iguales, y otro de mejora a favor de uno o varios.\nIT: Con discendenti, la legittima è di due terzi: un terzo di legittima rigorosa in parti uguali e un terzo di miglioramento a favore di uno o più.",
+      "legal_reference": "CC arts. 806–808, 823–833",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "5. Armando y Pilar están unidos en matrimonio y no tienen hijos en común. Armando muere sin testar, y a su herencia concurren los padres de Armando y su cónyuge Pilar. Marque la opción correcta:",
+      "answers": [
+        { "text": "Pilar no tiene ningún derecho.", "correct": false },
+        { "text": "Pilar tiene derecho al usufructo del tercio destinado a mejora.", "correct": false },
+        { "text": "Pilar tiene derecho al usufructo de la mitad de la herencia.", "correct": true },
+        { "text": "Pilar tiene derecho al usufructo de los dos tercios de la herencia.", "correct": false }
+      ],
+      "explanation": "ES: En concurrencia con ascendientes, el cónyuge viudo ostenta el usufructo de la mitad de la herencia.\nIT: In concorso con ascendenti, al coniuge superstite spetta l’usufrutto della metà dell’eredità.",
+      "legal_reference": "CC art. 834",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "6. La institución de heredero",
+      "answers": [
+        { "text": "El testamento será válido aunque no contenga institución de heredero, o ésta no comprenda la totalidad de los bienes.", "correct": true },
+        { "text": "La designación de la institución de heredero podrá hacerse con la intervención de comisario o mandatario.", "correct": false },
+        { "text": "En el testamento del adoptante, la expresión genérica \"hijo o hijos\" no comprende a los adoptivos.", "correct": false },
+        { "text": "Si entre personas del mismo nombre y apellidos hay igualdad de circunstancias y éstas son tales que no permiten distinguir al instituido, ambos serán herederos.", "correct": false }
+      ],
+      "explanation": "ES: El testamento puede contener solo legados; la institución de heredero no es imprescindible.\nIT: Il testamento può contenere soltanto legati; l’istituzione di erede non è sempre necessaria.",
+      "legal_reference": "CC arts. 764 y 891",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "7. La herencia que carece de herederos, por inexistencia o repudiación, se denomina",
+      "answers": [
+        { "text": "Herencia vacante", "correct": true },
+        { "text": "Herencia yacente", "correct": false },
+        { "text": "Herencia abierta.", "correct": false },
+        { "text": "Herencia presunta.", "correct": false }
+      ],
+      "explanation": "ES: Vacante es la herencia sin llamado que la acepte; en tal caso, corresponde al Estado.\nIT: Vacante è l’eredità priva di eredi; in tal caso succede lo Stato.",
+      "legal_reference": "CC art. 956",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "8. Incapacidad relativa para suceder:",
+      "answers": [
+        { "text": "Son relativamente incapaces para suceder las criaturas abortivas, entendiéndose tales las que no reúnan las circunstancias expresadas en el artículo 30 (nacimiento con vida).", "correct": false },
+        { "text": "El testador no podrá disponer del todo o parte de su herencia en favor del padre del Notario que autorice su testamento.", "correct": true },
+        { "text": "No surtirá efecto la disposición testamentaria en favor de quien sea tutor o curador del testador, en ningún caso.", "correct": false },
+        { "text": "El albacea que no acepte el cargo, o lo renuncie sin justa causa, perderá lo que le hubiese dejado el testador, incluido, en su caso, su derecho a la legítima.", "correct": false }
+      ],
+      "explanation": "ES: Es nula la disposición a favor del Notario autorizante y sus parientes en los grados legales; otras afirmaciones no se ajustan al régimen de incapacidades relativas.\nIT: È nulla la disposizione a favore del notaio rogante e dei suoi parenti nei gradi previsti; le altre affermazioni non corrispondono al regime delle incapacità relative.",
+      "legal_reference": "CC art. 754; CC art. 30 (personalidad jurídica)",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "9. Felipe es ciego y va a otorgar testamento, Marque la opción correcta",
+      "answers": [
+        { "text": "Al acto de otorgamiento deberán concurrir dos testigos idóneos.", "correct": true },
+        { "text": "Los testigos leerán el testamento en presencia del Notario y deberán declarar que coincide con la voluntad manifestada.", "correct": false },
+        { "text": "El testamento puede ser cerrado.", "correct": false },
+        { "text": "Todas las demás respuestas son ciertas.", "correct": false }
+      ],
+      "explanation": "ES: El testamento abierto de persona ciega requiere testigos; el testamento cerrado está prohibido a los ciegos; la lectura corresponde al Notario.\nIT: Il testamento pubblico di persona cieca richiede testimoni; il testamento segreto è vietato ai ciechi; la lettura spetta al Notaio.",
+      "legal_reference": "CC arts. 697, 707; Ley del Notariado (lectura por el Notario)",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "10. Rodrigo redactó un testamento ológrafo y se lo entregó a su íntimo amigo José Luis para que lo conservase e hiciera lo necesario, si a él le pasaba algo. A los dos años, Rodrigo fallece, Marque la opción correcta",
+      "answers": [
+        { "text": "El testamento ológrafo no puede conservarlo un tercero, sino que Rodrigo debió conservarlo por sí mismo o entregarlo a un Notario.", "correct": false },
+        { "text": "José Luis deberá presentar el testamento ante Notario competente en los diez días siguientes a aquel en que tenga conocimiento del fallecimiento del testador, o de lo contrario será responsable de los daños y perjuicios que haya causado.", "correct": true },
+        { "text": "José Luis deberá presentar el testamento ante Notario competente en los cinco años siguientes a aquel en que tenga conocimiento del fallecimiento del testador, o de lo contrario será responsable de los daños y perjuicios que haya causado.", "correct": false },
+        { "text": "El testamento de Rodrigo será válido, aunque lo haya escrito el propio José Luis, dictándoselo Rodrigo.", "correct": false }
+      ],
+      "explanation": "ES: Quien tenga en su poder un ológrafo debe presentarlo al Notario en 10 días desde que conoce el fallecimiento, bajo responsabilidad.\nIT: Chi detiene un olografo deve presentarlo al Notaio entro 10 giorni dalla conoscenza della morte, a pena di responsabilità.",
+      "legal_reference": "CC arts. 689–690, 703–706 (ológrafo y protocolización)",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "11. Roberto acude al notario para otorgar testamento cerrado. Marque la opción correcta:",
+      "answers": [
+        { "text": "Roberto debe comparecer en la notaría con el testamento necesariamente escrito de su puño y letra y ya cerrado y sellado.", "correct": false },
+        { "text": "Sobre la cubierta del testamento extenderá el Notario la correspondiente acta de su otorgamiento, que firmarán Roberto y el Notario, que necesariamente debe encomendar su guarda a un tercero de su confianza, en todo caso.", "correct": false },
+        { "text": "La persona que tenga en su poder un testamento cerrado deberá presentarlo ante Notario competente en los diez días siguientes a aquel en que tenga conocimiento del fallecimiento del testador.", "correct": true },
+        { "text": "Si, por descuido, la persona que tenga en su poder un testamento cerrado incumpla su deber de presentación en plazo, perderá todo derecho a la herencia, si lo tuviere.", "correct": false }
+      ],
+      "explanation": "ES: Existe deber de presentación en 10 días; no es obligado encomendar la guarda a tercero; el testamento cerrado puede estar mecanografiado y firmado por el testador.\nIT: Vi è l’obbligo di presentazione entro 10 giorni; non è necessario affidarne la custodia a terzi; il testamento segreto può essere dattiloscritto e firmato dal testatore.",
+      "legal_reference": "CC arts. 708–715",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "12. Jaime está embarcado en un crucero por el Mediterráneo, y como lleva unos días encontrándose mal, decide otorgar testamento.",
+      "answers": [
+        { "text": "No es posible testar en esa embarcación, sino que es necesario que se trate de un buque de guerra.", "correct": false },
+        { "text": "El testamento podrá otorgarse en forma extraordinaria, si hay peligro de naufragio, y se otorgará de palabra ante el Capitán y un testigo.", "correct": false },
+        { "text": "El testamento podrá otorgarse de forma ordinaria, abierta o cerrada, ante el Capitán, con la asistencia de dos testigos idóneos, que se elegirán entre los pasajeros, si los hubiere.", "correct": true },
+        { "text": "El Capitán de la embarcación no podrá testar a bordo.", "correct": false }
+      ],
+      "explanation": "ES: Cabe testamento marítimo en buques mercantes, abierto o cerrado, ante el Capitán y dos testigos idóneos.\nIT: È ammesso il testamento marittimo su navi mercantili, pubblico o segreto, dinanzi al Capitano con due testimoni idonei.",
+      "legal_reference": "CC arts. 730–736 (testamento marítimo)",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "13. Legado de parte alícuota",
+      "answers": [
+        { "text": "Caracteriza al legatario de parte alícuota el ser llamado a una cuota de la herencia líquida, es decir, una vez deducidas las cargas que pesan sobre la misma.", "correct": true },
+        { "text": "La sustitución se extinguirá exclusivamente por la premoriencia de su sobrina María con relación su hermana Mar.", "correct": false },
+        { "text": "El efecto esencial de la sustitución vulgar es que el sustituto adquiere el derecho hereditario que le permite aceptar o repudiar a herencia (ius delationis), y si muere sin aceptar o repudiar, transmite a sus propios herederos tal derecho.", "correct": false },
+        { "text": "Todas las demás respuestas son falsas.", "correct": false }
+      ],
+      "explanation": "ES: El legado de parte alícuota atribuye una cuota de la herencia líquida (no una cosa concreta), con efectos afines a los del heredero en la partición.\nIT: Il legato di quota attribuisce una percentuale dell’asse netto (non un bene specifico), con effetti prossimi a quelli dell’erede nella divisione.",
+      "legal_reference": "CC arts. 660–668, 881–889 (concepto de herencia/legados)",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "16. La interpretación de las disposiciones testamentarias",
+      "answers": [
+        { "text": "Toda disposición testamentaria deberá entenderse en el sentido literal de sus palabras, a no ser que aparezca claramente que fue otra la voluntad del testador.", "correct": true },
+        { "text": "El testador puede prohibir que se impugne el testamento, aunque haya nulidad declarada por la ley.", "correct": false },
+        { "text": "El legatario de parte alícuota podrá reclamar judicialmente la división de la herencia.", "correct": true },
+        { "text": "El Tribunal Supremo ha considerado que es nula la partición practicada sin la intervención de los legatarios de parte alícuota.", "correct": true }
+      ],
+      "explanation": "ES: Prima la voluntad real del testador; no cabe prohibir la impugnación por nulidad; el legatario de parte alícuota tiene legitimación en la división; la jurisprudencia anula particiones hechas sin su intervención.\nIT: Prevale la volontà reale del de cuius; non è possibile vietare l’impugnazione per nullità; il legatario di quota è legittimato alla divisione; la giurisprudenza annulla le divisioni fatte senza di lui.",
+      "legal_reference": "CC art. 675; doctrina jurisprudencial sobre legatario de parte alícuota",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "14. Jacinto hace testamento y lega a su hermano Guillermo un vehículo, que en realidad él conoce que pertenece a Sofía, la esposa de Jacinto. ¿Qué efectos tendrá esta atribución sobre el testamento?",
+      "answers": [
+        { "text": "Desaparece la carga del legado, al no encontrarse dentro del haber hereditario del causante el bien objeto del legado.", "correct": false },
+        { "text": "El legado de cosa ajena si el testador, al legarla, sabía que lo era, es válido. El heredero estará obligado a adquirir el vehículo para entregarlo al legatario; y, no siéndole posible, a dar a éste su justa estimación.", "correct": true },
+        { "text": "Se entenderá legado, en todo caso, el valor que tuviera el vehículo al tiempo del fallecimiento.", "correct": false },
+        { "text": "En principio, será nulo el legado. Pero será válido si la adquiere después de otorgado el testamento.", "correct": false }
+      ],
+      "explanation": "ES: Si el testador sabe que lega cosa ajena, el legado es válido y el heredero debe adquirirla o, si imposible, abonar su justa estimación.\nIT: Se il testatore sa di legare cosa altrui, il legato è valido e l’erede deve acquistarla o, se impossibile, corrisponderne il giusto valore.",
+      "legal_reference": "CC art. 861",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "15. Luis no tiene ascendientes ni descendientes. Ha instituido heredera a su hermana Mar, que será sustituida por su sobrina María, para el exclusivo caso de que Mar muera antes que el propio Luis. Marque la respuesta correcta",
+      "answers": [
+        { "text": "La sustitución vulgar se da para los casos de premoriencia, incapacidad o renuncia, sin que el testador pueda restringir la sustitución a uno solo de esos casos.", "correct": false },
+        { "text": "La sustitución se extinguirá exclusivamente por la premoriencia de su sobrina María con relación su hermana Mar.", "correct": false },
+        { "text": "El efecto esencial de la sustitución vulgar es que el sustituto adquiere el derecho hereditario que le permite aceptar o repudiar a herencia (ius delationis), y si muere sin aceptar o repudiar, transmite a sus propios herederos tal derecho.", "correct": true },
+        { "text": "Todas las demás respuestas son falsas.", "correct": false }
+      ],
+      "explanation": "ES: El testador puede limitar la sustitución a uno de los supuestos (p. ej., solo premoriencia). El sustituto adquiere el ius delationis y, si fallece sin decidir, transmite tal derecho a sus herederos.\nIT: Il testatore può restringere la sostituzione a un solo caso (es. sola premorienza). Il sostituto acquista lo ius delationis e lo trasmette ai propri eredi se muore senza decidere.",
+      "legal_reference": "CC arts. 774–778, 1006",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "16. La interpretación de las disposiciones testamentarias",
+      "answers": [
+        { "text": "Toda disposición testamentaria deberá entenderse en el sentido literal de sus palabras, a no ser que aparezca claramente que fue otra la voluntad del testador.", "correct": true },
+        { "text": "El testador puede prohibir que se impugne el testamento, aunque haya nulidad declarada por la ley.", "correct": false },
+        { "text": "Cuando el testador llame a la sucesión a una persona y a sus hijos, se entenderán instituidos sucesivamente.", "correct": false },
+        { "text": "Si el testador instituye a sus hermanos, y los tiene carnales y de padre o madre solamente, heredarán todos ellos por partes iguales.", "correct": true }
+      ],
+      "explanation": "ES: Se atiende al sentido literal salvo voluntad contraria clara; no cabe prohibir la impugnación por nulidad; en la institución a “hermanos”, heredan por partes iguales (sin distinguir líneas).\nIT: Si segue il senso letterale salvo diversa volontà chiara; non si può vietare l’impugnazione per nullità; instituendo «fratelli», ereditano in parti uguali.",
+      "legal_reference": "CC arts. 675, 771–773",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "17. La reserva ordinaria o vidual",
+      "answers": [
+        { "text": "Son personas obligadas a reservar en este caso, solo y exclusivamente, el viudo o viuda que contrae segundo o ulterior matrimonio, y son personas beneficiarias de la reserva, los hijos y descendientes del primer matrimonio.", "correct": true },
+        { "text": "No son bienes reservables en este caso la mitad de los bienes gananciales, perteneciente al cónyuge sobreviviente, y las cosas dadas por los hijos a su padre o madre, sabiendo que estaban por segunda vez casados.", "correct": false },
+        { "text": "El reservista pierde absolutamente la libre disposición de los bienes reservables, ya sean muebles o inmuebles.", "correct": false },
+        { "text": "La reserva vidual se extingue únicamente cuando a la muerte del reservista queden solo hijos desheredados, sin descendientes que los representen.", "correct": false }
+      ],
+      "explanation": "ES: El viudo/a que contrae nuevas nupcias debe reservar bienes a favor de los hijos/descendientes del primer matrimonio, conforme a la reserva ordinaria.\nIT: Il vedovo/a che si risposa deve riservare beni ai figli/discendenti del primo matrimonio (riserva vedovile).",
+      "legal_reference": "CC arts. 968–980",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "18. Rogelio, durante una discusión con Raquel, que es pareja de su padre, Ernesto, agredió a la misma, causándole lesiones (fractura de dos dedos de la mano derecha y policontusiones). Raquel denunció a Rogelio, si bien aún no se ha celebrado juicio. Ernesto, después del episodio, decide desheredar a su hijo Rogelio. Marque la opción correcta:",
+      "answers": [
+        { "text": "No puede desheredarlo por agredir a Raquel, ya que no es su cónyuge.", "correct": false },
+        { "text": "La desheredación es válida.", "correct": false },
+        { "text": "No puede desheredar a Rogelio porque aún no ha recaído condena por esos hechos.", "correct": true },
+        { "text": "Puede desheredar a Rogelio, pero no podrá privarlo de la legítima estricta.", "correct": false }
+      ],
+      "explanation": "ES: La causa de indignidad por atentado exige condena penal (y la pareja del progenitor no es cónyuge). Para desheredación por maltrato de obra se exige prueba suficiente; en el caso propuesto no hay condena aún, por lo que la opción correcta del enunciado es la negativa.\nIT: L’indegnità per attentato richiede condanna; inoltre la compagna del padre non è coniuge. Per la diseredazione per maltrattamenti occorrono prove; qui non c’è condanna, dunque si esclude la diseredazione nel senso richiesto dal quesito.",
+      "legal_reference": "CC arts. 756 (indignidad), 853.2 (desheredación por maltrato) y jurisprudencia",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "19. Rodolfo, viudo con tres hijos mayores de edad, se casa con Águeda, también viuda y sin hijos. Rodolfo muere sin testar, y Águeda concurre a la herencia con los tres hijos de Rodolfo, de su primer matrimonio.",
+      "answers": [
+        { "text": "Águeda deberá recibir su parte como legitimaria, y los hijos de Rodolfo necesariamente deberán hacerlo asignándole una renta vitalicia, los productos de determinados bienes, o un capital en efectivo.", "correct": false },
+        { "text": "Águeda podrá exigir que su derecho de usufructo le sea satisfecho, a elección de los hijos, asignándole un capital en dinero o un lote de bienes hereditarios.", "correct": true },
+        { "text": "En este caso, solo es posible asignarle una renta vitalicia.", "correct": false },
+        { "text": "Ninguna de las demás respuestas es cierta.", "correct": false }
+      ],
+      "explanation": "ES: El usufructo viudal puede conmutarse por capital o lote de bienes a elección de los herederos.\nIT: L’usufrutto del coniuge può essere convertito in capitale o in un lotto di beni a scelta degli eredi.",
+      "legal_reference": "CC art. 839",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "20. José Luis, soltero, fallece sin testamento. No tiene descendientes ni ascendientes. Tiene tres hermanos, uno soltero sin hijos, otro con una hija y un tercero, ya fallecido, que tenía tres hijos. Marque la opción correcta.",
+      "answers": [
+        { "text": "La herencia de José Luis se distribuirá en seis partes iguales, para sus hermanos y sobrinos.", "correct": false },
+        { "text": "La herencia se distribuirá en tres partes. Una para cada una de sus dos hermanos, y la tercera se repartirá, a partes iguales, entre sus tres sobrinos, hijos del hermano fallecido.", "correct": true },
+        { "text": "La herencia se repartirá entre los dos hermanos que han sobrevivido a José Luis, sin que los sobrinos tengan derecho a la herencia.", "correct": false },
+        { "text": "En este caso, a falta de personas que tengan derecho a heredar, heredará el Estado.", "correct": false }
+      ],
+      "explanation": "ES: En la línea colateral se admite la representación por estirpes: los hijos del hermano premuerto heredan por cabezas en la parte que a éste le habría correspondido.\nIT: Nella linea collaterale è ammessa la rappresentazione per stirpi: i figli del fratello premorto succedono nella quota che sarebbe spettata al loro genitore.",
+      "legal_reference": "CC arts. 925, 932, 946–955, 981–986 (representación en colaterales)",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+
+    {
+      "question": "5. Si el heredero fuere instituido bajo condición suspensiva, ¿qué sucede con los bienes mientras la condición se realice o haya certeza de que no podrá cumplirse?",
+      "answers": [],
+      "explanation": "ES: Se pondrán los bienes de la herencia en administración hasta el cumplimiento o certeza del incumplimiento de la condición.\nIT: I beni dell’eredità saranno posti in amministrazione fino all’avveramento o alla certezza del mancato avveramento della condizione.",
+      "legal_reference": "CC arts. 799–801 (condiciones hereditarias) y 1033 (administración interina)",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "6. El cumplimiento del modo en una disposición testamentaria puede ser propio o analógico. ¿Cuándo se da este último y en qué consiste?",
+      "answers": [],
+      "explanation": "ES: Cuando no pueda cumplirse en los términos ordenados sin culpa del heredero/legatario, debe cumplirse en los términos más análogos y conformes a la voluntad del testador.\nIT: Quando l’onere non può adempiersi nei termini voluti senza colpa dell’erede/legatario, si esegue nel modo più analogo e conforme alla volontà del testatore.",
+      "legal_reference": "CC art. 798.1",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "7. Respecto a la reserva vidual, ¿serán válidas las enajenaciones de los bienes inmuebles reservables hechas por el cónyuge sobreviviente antes de celebrar segundas bodas?",
+      "answers": [],
+      "explanation": "ES: Sí, serán válidas, pero desde que contraiga segundas nupcias deberá asegurar a los hijos del primer matrimonio el valor de lo enajenado; las posteriores al segundo matrimonio solo subsistirán si no quedan hijos/descendientes del primero.\nIT: Sì, sono valide, ma dal secondo matrimonio il coniuge deve garantire ai figli del primo il valore alienato; le alienazioni successive al secondo matrimonio sussistono solo se non restano figli/discendenti del primo.",
+      "legal_reference": "CC arts. 974–975",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "8. ¿Cuáles son los caracteres de la legítima del cónyuge viudo?",
+      "answers": [],
+      "explanation": "ES: Es un usufructo (cuota variable según concurrencia con descendientes o ascendientes) y, en defecto de estos, el cónyuge hereda abintestato antes que colaterales.\nIT: È un usufrutto (quota variabile a seconda della concorrenza con discendenti o ascendenti) e, in mancanza di questi, il coniuge succede ab intestato prima dei collaterali.",
+      "legal_reference": "CC arts. 834–840, 944–945",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
+    },
+    {
+      "question": "10. ¿Qué tendrá lugar si el testamento no contiene institución de heredero en todo o en parte de los bienes o no dispone de todos los que corresponden al testador?",
+      "answers": [],
+      "explanation": "ES: Se cumplirán las disposiciones válidas (p. ej., legados) y el remanente irá a los herederos legítimos; el CC permite incluso distribuir toda la herencia en legados.\nIT: Si eseguono le disposizioni valide (es. legati) e il residuo va agli eredi legittimi; il CC consente anche di distribuire tutta l’eredità in legati.",
+      "legal_reference": "CC arts. 764 y 891",
+      "original_file": "Test autoevaluación Civil IV 1° PARZIALE AGG. 09 06 25.docx"
     }
   ]
 }
