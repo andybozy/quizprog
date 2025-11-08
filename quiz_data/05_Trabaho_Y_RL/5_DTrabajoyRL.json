@@ -1,9 +1,6 @@
 {
   "file_number": 0,
   "file_name": "Trabajo y RL AGGIORNATO 06 06 25 .docx",
-  "total_questions": 146,
-  "returned_questions": 30,
-  "index_range": [1, 30],
   "questions": [
     {
       "question": "El principio pro operario:",
@@ -13,7 +10,7 @@
         { "text": "Se aplica como criterio de interpretación de las normas y no de los contratos.", "correct": false },
         { "text": "La respuesta b) y c) son correctas.", "correct": true }
       ],
-      "explanation": "ES: El principio pro operario es un criterio hermenéutico jurisprudencial que se aplica a la interpretación de normas laborales cuando hay dudas, y no opera para reescribir contratos; además, no está proclamado de forma expresa en el ET. IT: Il principio pro operario è un criterio interpretativo giurisprudenziale per le norme del lavoro (non per i contratti) e non è previsto espressamente nell’ET.",
+      "explanation": "ES: A) Falsa: el pro operario no reescribe contratos; es un canon para normas laborales dudosas. B) Verdadera: no está proclamado de forma expresa en el ET, es construcción jurisprudencial. C) Verdadera: opera como criterio hermenéutico para la ley laboral, no para el contrato individual. D) Correcta: b) y c) resumen fielmente su alcance. IT: A) Falsa: il pro operario non serve a modificare i contratti; si usa solo per interpretare norme del lavoro dubbie. B) Vera: non è positivizzato espressamente nell’ET, è frutto della giurisprudenza. C) Vera: è criterio ermeneutico per la norma, non per il contratto. D) Corretta: b) e c) sono entrambe vere. :contentReference[oaicite:1]{index=1}",
       "legal_reference": "ET art. 3 (fuentes e interpretación); CC art. 3.1; Doctrina jurisprudencial del Tribunal Supremo sobre pro operario.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -25,7 +22,7 @@
         { "text": "Tratados y Recomendaciones.", "correct": false },
         { "text": "Reglamentos y Recomendaciones.", "correct": false }
       ],
-      "explanation": "ES: La OIT adopta Convenios (vinculantes tras ratificación) y Recomendaciones (no vinculantes). IT: L’OIL adotta Convenzioni (vincolanti previa ratifica) e Raccomandazioni (non vincolanti).",
+      "explanation": "ES: A) Falsa: la OIT no adopta “Tratados” en sentido estricto para Estados; adopta Convenios y Recomendaciones. B) Verdadera: los Convenios (vinculantes tras ratificación) y las Recomendaciones (no vinculantes) son sus instrumentos típicos. C) Falsa: “Tratados” no es la categoría propia de la OIT. D) Falsa: la OIT no dicta “Reglamentos” con ese alcance. IT: A) Falsa: l’OIL non adotta Trattati ma Convenzioni e Raccomandazioni. B) Vera: Convenzioni (vincolanti dopo ratifica) e Raccomandazioni (orientative) sono gli atti tipici. C) Falsa: “Trattati” non è la forma propria dell’OIL. D) Falsa: non emana “Regolamenti” generali. :contentReference[oaicite:2]{index=2}",
       "legal_reference": "Constitución de la OIT, art. 19.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -37,7 +34,7 @@
         { "text": "El art. 63.5 RLOE la fija en nueve meses.", "correct": false },
         { "text": "El art. 63.5 RLOE establece que su duración es indefinida, salvo que se incurra en causa de suspensión o retirada de la misma.", "correct": false }
       ],
-      "explanation": "ES: La autorización inicial tiene duración de un año. IT: L’autorizzazione iniziale ha durata annuale.",
+      "explanation": "ES: A) Verdadera: la duración inicial es de 1 año. B) C) Falsas: seis o nueve meses no son el régimen supletorio. D) Falsa: no es indefinida. IT: A) Vera: la durata iniziale è annuale. B) C) False: sei o nove mesi non sono la regola. D) Falsa: non è a tempo indeterminato. :contentReference[oaicite:3]{index=3}",
       "legal_reference": "LO 4/2000 art. 36; RD 557/2011 (RLOEX) art. 63.5.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -49,7 +46,7 @@
         { "text": "Desde el momento en el que comenzó la relación contractual con el cliente.", "correct": false },
         { "text": "Desde el momento en el que el juez, vistas las pruebas, considere.", "correct": false }
       ],
-      "explanation": "ES: El reconocimiento despliega efectos desde la recepción por el cliente de la comunicación fehaciente. IT: Il riconoscimento produce effetti dal momento della ricezione della comunicazione da parte del cliente.",
+      "explanation": "ES: A) Verdadera: los efectos se anudan a la recepción fehaciente por el cliente. B) Falsa: el mero envío no basta. C) Falsa: no hay retroacción al inicio. D) Falsa: no queda a libre fijación del juez, la ley determina el dies a quo. IT: A) Vera: gli effetti decorrono dalla ricezione della comunicazione da parte del cliente. B) Falsa: l’invio non è sufficiente. C) Falsa: non c’è retroattività. D) Falsa: non è rimesso alla discrezionalità del giudice. :contentReference[oaicite:4]{index=4}",
       "legal_reference": "Ley 20/2007, Estatuto del Trabajo Autónomo (LETA), art. 12; RD 197/2009.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -61,7 +58,7 @@
         { "text": "No es posible la prórroga de este tipo de contratos.", "correct": false },
         { "text": "El contrato puede prorrogarse hasta la obtención de dicho diploma sin superar nunca la duración máxima de dos años, por la sola petición de Naiara.", "correct": true }
       ],
-      "explanation": "ES: El enunciado marca como correcta la prórroga por sola petición de la persona trabajadora; no obstante, conforme al art. 11.2 ET la prórroga requiere acuerdo de las partes y no opera por solicitud unilateral. IT: L’enunciato indica come corretta la proroga su sola richiesta della lavoratrice; tuttavia l’art. 11.2 ET richiede l’accordo di entrambe le parti.",
+      "explanation": "ES: A) Falsa: fija un tope de 16 meses que no es el legal (el máximo general es 2 años) y, en todo caso, requiere acuerdo. B) Falsa en el archivo, pero jurídicamente sería la que se ajusta: prórroga posible por acuerdo hasta un máximo total de 2 años. C) Falsa: la prórroga sí es posible dentro de los límites legales. D) Señalada como correcta en el fichero, pero en Derecho positivo no basta la petición unilateral: se exige acuerdo de ambas partes. IT: A) Falsa: limite di 16 mesi non previsto e serve sempre l’accordo. B) Falsa nel file, ma corretta in diritto: proroga per accordo fino a 2 anni complessivi. C) Falsa: la proroga è ammessa nei limiti di legge. D) Indicata come corretta nel file, ma giuridicamente non basta la richiesta unilaterale: occorre l’accordo. :contentReference[oaicite:5]{index=5}",
       "legal_reference": "ET art. 11.2 (contrato de formación en alternancia, duración y prórroga) según RDL 32/2021.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -73,7 +70,7 @@
         { "text": "No, además de los dos contratos temporales sin solución de continuidad, Martín debe haber estado contratado por un plazo superior a 24 meses en un periodo de treinta meses.", "correct": true },
         { "text": "No, además de los dos contratos temporales sin solución de continuidad, Martín debe haber estado contratado por un plazo superior a 18 meses en un periodo de 24 meses.", "correct": false }
       ],
-      "explanation": "ES: El enunciado aplica la regla clásica del encadenamiento (24 en 30 meses) del antiguo art. 15.5 ET; hoy el régimen se ha modificado por RDL 32/2021. IT: L’enunciato applica la regola storica dei 24 mesi su 30 (vecchio art. 15.5 ET); dopo la riforma del 2021 la disciplina è cambiata.",
+      "explanation": "ES: A) Falsa: no basta un segundo contrato temporal para adquirir fijeza. B) Falsa: 22/28 no es la regla clásica. C) Verdadera en la redacción histórica (24 en 30); hoy la reforma de 2021 modificó el régimen. D) Falsa: 18/24 no corresponde al encadenamiento del antiguo art. 15. IT: A) Falsa. B) Falsa. C) Vera per il vecchio criterio dei 24 mesi su 30 (riforma 2021 ha cambiato). D) Falsa. :contentReference[oaicite:6]{index=6}",
       "legal_reference": "ET art. 15.5 (redacciones anteriores); reforma por RDL 32/2021 (nuevo art. 15).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -85,7 +82,7 @@
         { "text": "Sí puede sustituir a los empleados durante sus vacaciones. Deberá utilizar el contrato de obra o servicio determinado por cuanto, al tratarse de la actividad normal de la empresa, el periodo de vacaciones tiene sustantividad propia.", "correct": false },
         { "text": "Sí puede sustituir a los empleados durante sus vacaciones. Para ello deberá utilizar el contrato por circunstancias de la producción.", "correct": true }
       ],
-      "explanation": "ES: El enunciado considera que la cobertura de vacaciones encaja en circunstancias de la producción; doctrinal y prácticamente se ha utilizado el contrato de sustitución (antes interinidad) para cubrir a quien disfruta vacaciones. IT: L’enunciato qualifica le ferie come «circostanze della produzione»; nella prassi spesso si usa il contratto di sostituzione. ",
+      "explanation": "ES: A) Falsa en el ítem: la figura prevista aquí es ‘circunstancias de la producción’; la sustitución se usa cuando se cubre a una persona concreta con reserva de puesto. B) Falsa: sí pueden cubrirse picos por vacaciones. C) Falsa: la obra/servicio determinado ha sido suprimida. D) Verdadera: el pico ocasional previsible por vacaciones encaja en circunstancias de la producción. IT: A) Falsa nel quesito: qui si usa ‘circostanze della produzione’; la sostituzione copre un soggetto con riserva di posto. B) Falsa. C) Falsa: il “lavoro a progetto/servizio” non esiste più. D) Vera. :contentReference[oaicite:7]{index=7}",
       "legal_reference": "ET art. 15 (modalidades temporales tras RDL 32/2021); Ley 14/1994 (ETT) y práctica sobre contrato de sustitución.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -97,7 +94,7 @@
         { "text": "Ninguno, no se podrá establecer periodo de prueba para técnicos titulados.", "correct": false },
         { "text": "Ninguno, ya que no se podrá realizar esta modalidad de contrato a técnicos titulados.", "correct": true }
       ],
-      "explanation": "ES: El enunciado sostiene que el contrato de formación en alternancia no procede para técnicos titulados (por ello no habría periodo de prueba); la regulación vigente del art. 11.2 ET delimita destinatarios y finalidades de la alternancia. IT: L’enunciato afferma che la «formazione in alternanza» non è attivabile per tecnici laureati; l’art. 11.2 ET disciplina requisiti e finalità.",
+      "explanation": "ES: A) B) Falsas: hablar de ‘periodo de prueba’ presupone que la modalidad sea procedente. C) Falsa: no existe una prohibición general de periodo de prueba por ser titulado; la clave es que la alternancia no está pensada para ese perfil. D) Verdadera en el ítem: no procede el contrato de alternancia para técnicos titulados en este supuesto, y por tanto no hay periodo de prueba que fijar. IT: A) B) False: discutere del periodo di prova presuppone la correttezza della tipologia. C) Falsa: non c’è un divieto generale per i laureati; qui la tipologia non è idonea. D) Vera nel test: la formazione in alternanza non è applicabile a questo profilo, quindi niente prova. :contentReference[oaicite:8]{index=8}",
       "legal_reference": "ET art. 11.2 (formación en alternancia, requisitos y límites) según RDL 32/2021; normativa de desarrollo formativo.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -109,7 +106,7 @@
         { "text": "El contrato se presumirá celebrado a tiempo completo, salvo prueba en contrario que acredite el carácter parcial de los servicios.", "correct": true },
         { "text": "Contrato a tiempo parcial.", "correct": false }
       ],
-      "explanation": "ES: La falta de forma y la indeterminación horaria activan la presunción de jornada completa salvo prueba del carácter parcial y su distribución. IT: In assenza di indicazioni chiare, si presume tempo pieno salvo prova del part-time e della sua distribuzione.",
+      "explanation": "ES: A) Falsa: el relevo cubre jubilación parcial y requisitos específicos. B) Falsa: no es un formativo. C) Verdadera: sin constar número y distribución de horas, rige la presunción de jornada completa. D) Falsa: no se presume el tiempo parcial. IT: A) Falsa. B) Falsa. C) Vera: senza indicazione di ore e ripartizione, si presume il full-time. D) Falsa. :contentReference[oaicite:9]{index=9}",
       "legal_reference": "ET art. 8.2 (presunción indefinido) y art. 12.4 (presunción de jornada completa si no consta número y distribución de horas).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -121,7 +118,7 @@
         { "text": "Un empleado de hogar.", "correct": false },
         { "text": "Un jugador de la primera plantilla del UCAM Murcia de Baloncesto.", "correct": false }
       ],
-      "explanation": "ES: MIR, empleados de hogar y deportistas profesionales son relaciones especiales; un trabajador contratado por una cooperativa (no socio) puede tener relación laboral común. IT: MIR, lavoro domestico e sportivi professionisti sono rapporti speciali; un dipendente assunto da una cooperativa (non socio) rientra nel rapporto comune.",
+      "explanation": "ES: A) Verdadera: si es persona trabajadora contratada (no socio cooperativista), es relación común. B) Falsa: MIR es relación especial. C) Falsa: el hogar familiar es especial. D) Falsa: deportistas profesionales es especial. IT: A) Vera: lavoratore dipendente (non socio) in cooperativa = rapporto comune. B) Falsa: MIR è speciale. C) Falsa: domestico è speciale. D) Falsa: sportivi professionisti è speciale. :contentReference[oaicite:10]{index=10}",
       "legal_reference": "ET art. 2 (relaciones especiales); RD 1146/2006 (MIR); RD 1620/2011 (empleados de hogar); RD 1006/1985 (deportistas).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -133,7 +130,7 @@
         { "text": "Resoluciones.", "correct": false },
         { "text": "Recomendaciones.", "correct": true }
       ],
-      "explanation": "ES: Las Recomendaciones de la OIT orientan, no obligan. IT: Le Raccomandazioni OIL sono orientative, non vincolanti.",
+      "explanation": "ES: A) Falsa: las Directivas son de la UE. B) Falsa: los Convenios son vinculantes tras ratificación. C) Falsa: la categoría relevante aquí son las Recomendaciones. D) Verdadera: orientan sin obligar. IT: A) Falsa: le Direttive sono UE. B) Falsa: le Convenzioni vincolano dopo ratifica. C) Falsa. D) Vera: le Raccomandazioni non vincolano. :contentReference[oaicite:11]{index=11}",
       "legal_reference": "Constitución de la OIT, art. 19 (Recomendaciones).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -145,7 +142,7 @@
         { "text": "Abono de un salario.", "correct": false },
         { "text": "Subordinación a las órdenes e instrucciones del empleador.", "correct": false }
       ],
-      "explanation": "ES: La asistencia a un centro concreto y a un horario predeterminado no es esencial (existe teletrabajo, flexibilidad). IT: La presenza fisica e un orario prefissato non sono essenziali (telelavoro, flessibilità).",
+      "explanation": "ES: A) Falsa: la prestación personal es nota esencial. B) Verdadera: puede haber trabajo sin centro fijo/horario rígido (teletrabajo). C) Falsa: la retribución es esencial. D) Falsa: la dependencia/subordinación es esencial. IT: A) Falsa: prestazione personale è essenziale. B) Vera: si può lavorare senza sede/orario rigidi. C) Falsa: retribuzione è essenziale. D) Falsa: subordinazione è essenziale. :contentReference[oaicite:12]{index=12}",
       "legal_reference": "ET art. 1.1 (notas esenciales: voluntariedad, ajenidad, dependencia, retribución).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -157,7 +154,7 @@
         { "text": "Es el derecho que tienen todos los trabajadores a ver protegida su salud en el desempeño de su trabajo.", "correct": false },
         { "text": "b) y c) son correctas.", "correct": false }
       ],
-      "explanation": "ES: Las represalias por reclamar derechos conculcan la garantía de indemnidad y son nulas. IT: Le ritorsioni per l’esercizio di azioni a tutela dei diritti sono nulle per violazione della garanzia di indennità.",
+      "explanation": "ES: A) Falsa: eso se vincula al derecho a interrumpir la actividad por riesgo grave, no a la garantía de indemnidad. B) Verdadera: toda represalia por reclamar derechos es nula. C) Falsa: describe la tutela de seguridad y salud, no la garantía de indemnidad. D) Falsa: c) no es indemnidad. IT: A) Falsa: riguarda la sospensione per rischio grave, non l’indennità. B) Vera: la ritorsione per azioni di tutela è nulla. C) Falsa: è tutela della salute, non garanzia di indennità. D) Falsa. :contentReference[oaicite:13]{index=13}",
       "legal_reference": "CE art. 24.1; ET art. 4.2.g; LRJS arts. 177–184 (tutela de derechos fundamentales).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -168,7 +165,7 @@
         { "text": "La comparación parcial entre grupos o conjuntos homogéneos de materias de una y otra norma.", "correct": false },
         { "text": "La comparación global entre normas, de manera que se da preferencia, en bloque, a la más favorable, apreciada en su conjunto.", "correct": true }
       ],
-      "explanation": "ES: Rige la comparación en global (criterio de globalidad) y no un picking cláusula a cláusula. IT: Si applica il criterio di globalità: confronto complessivo, non «cherry picking» clausola per clausola.",
+      "explanation": "ES: A) Falsa: el ‘cherry picking’ cláusula a cláusula no es la regla. B) Falsa: la comparación por grupos homogéneos es excepcional. C) Verdadera: predomina el criterio de globalidad. IT: A) Falsa: non si scelgono le singole clausole migliori. B) Falsa: confronto per blocchi omogenei non è la regola. C) Vera: vale il criterio di globalità. :contentReference[oaicite:14]{index=14}",
       "legal_reference": "ET art. 3.3 y 84; doctrina del TS sobre criterio de globalidad.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -180,7 +177,7 @@
         { "text": "No, no se pueden celebrar contratos de puesta a disposición con una empresa de trabajo temporal para sustituir a trabajadores en huelga de la empresa usuaria.", "correct": true },
         { "text": "Sí, puede celebrar contratos de puesta a disposición con una empresa de trabajo temporal para sustituir a trabajadores en huelga de la empresa usuaria, pero el contrato que firme será un contrato de interinidad, ya que hay suspensión del contrato con reserva del puesto de trabajo.", "correct": false }
       ],
-      "explanation": "ES: Está expresamente prohibido cubrir huelguistas mediante ETT. IT: È espressamente vietato sostituire scioperanti tramite ETT.",
+      "explanation": "ES: A) B) D) Falsas: la sustitución de huelguistas por ETT está prohibida. C) Verdadera: hay prohibición expresa. IT: A) B) D) False: è vietato sostituire scioperanti tramite agenzia. C) Vera: divieto espresso. :contentReference[oaicite:15]{index=15}",
       "legal_reference": "Ley 14/1994, art. 8.3; ET art. 6.5 (sucesos análogos).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -192,7 +189,7 @@
         { "text": "No, ya que este pacto de permanencia excede los 12 meses para trabajadores cualificados.", "correct": false },
         { "text": "No, en ningún caso se puede exigir indemnización, ya que no se puede obligar a ningún trabajador a firmar contratos indefinidos.", "correct": false }
       ],
-      "explanation": "ES: El pacto de permanencia (máx. 2 años) permite exigir daños si se incumple tras formación específica costeada por la empresa. IT: Il patto di permanenza (max 2 anni) consente il risarcimento per inadempimento dopo formazione specifica a carico dell’azienda.",
+      "explanation": "ES: A) Verdadera: si hay formación específica costeada por la empresa, el incumplimiento del pacto (hasta 2 años) permite reclamar daños. B) Falsa: el pacto sí está previsto legalmente. C) Falsa: el máximo para cualificados es 2 años, no 12 meses. D) Falsa: no se trata de contrato “indefinido” sino de permanencia postformación. IT: A) Vera. B) Falsa. C) Falsa: tetto 2 anni per i tecnici. D) Falsa. :contentReference[oaicite:16]{index=16}",
       "legal_reference": "ET art. 21.4.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -204,7 +201,7 @@
         { "text": "El pacto tendrá efecto tras la extinción de la relación laboral.", "correct": false },
         { "text": "La ingeniera percibirá una compensación económica adecuada.", "correct": false }
       ],
-      "explanation": "ES: La delimitación no puede ser genérica al «sector»; exige concreción razonable (ámbito objetivo/territorial) y proporcionalidad. IT: Il limite non può essere il mero «settore» in astratto; serve delimitazione ragionevole e proporzionata.",
+      "explanation": "ES: A) Correcta (NO se ajusta): una mera referencia genérica a “el sector” es desproporcionada; el pacto exige delimitación razonable. B) Falsa en el fichero (como ‘NO se ajusta’), aunque jurídicamente también sería no conforme si se impone “en todo caso” 30 meses, pues para técnicos el máximo es 24. C) Falsa: que opere tras la extinción es lo propio del pacto postcontractual. D) Falsa: la compensación adecuada es requisito de validez. IT: A) Corretta (non conforme): “il settore” in astratto è troppo ampio. B) Falsa nel file, benché in diritto 30 mesi “in ogni caso” eccedano il limite di 24 per i tecnici. C) Falsa: il patto opera dopo l’estinzione. D) Falsa: è richiesto un compenso adeguato. :contentReference[oaicite:17]{index=17}",
       "legal_reference": "ET art. 21.2 (duración máx. 2 años para técnicos; compensación; delimitación razonable).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -216,7 +213,7 @@
         { "text": "La empresa, previa audiencia de los representantes de los trabajadores, deberá elaborar una política interna.", "correct": true },
         { "text": "La empresa tendrá que incluir esta previsión en el convenio colectivo de aplicación, en el caso de que exista.", "correct": false }
       ],
-      "explanation": "ES: La desconexión se articula mediante política interna previa audiencia de la RLT. IT: La disconnessione digitale si garantisce con una policy interna previa audizione della RSU/RLS.",
+      "explanation": "ES: A) Falsa: no se exige cláusula contractual individual. B) Falsa: hay obligación de articularlo. C) Verdadera: se garantiza mediante política interna previa audiencia de la RLT. D) Falsa: no depende de que exista convenio. IT: A) Falsa. B) Falsa. C) Vera: policy interna con previa audizione RSU. D) Falsa. :contentReference[oaicite:18]{index=18}",
       "legal_reference": "LOPDGDD 3/2018, art. 88; Ley 10/2021 de trabajo a distancia, art. 18.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -228,7 +225,7 @@
         { "text": "El horario de trabajo, los menores de edad no pueden realizar trabajos nocturnos. Se considera trabajo nocturno el comprendido entre las diez de la noche y las seis de la mañana.", "correct": true },
         { "text": "No existe ningún impedimento para su firma, siempre y cuando el contrato de trabajo sea firmado por el menor de edad en unión de su representante legal.", "correct": false }
       ],
-      "explanation": "ES: Los menores no pueden realizar trabajo nocturno (22:00–06:00). IT: I minori non possono lavorare in orario notturno (22:00–06:00).",
+      "explanation": "ES: A) Falsa: hostelería no está prohibida per se. B) Falsa: la duración puede ser inferior. C) Verdadera: el trabajo nocturno (22:00–06:00) está vedado a menores. D) Falsa: la firma con representante no salva la prohibición de nocturnidad. IT: A) Falsa. B) Falsa. C) Vera: il lavoro notturno (22–06) è vietato ai minori. D) Falsa. :contentReference[oaicite:19]{index=19}",
       "legal_reference": "ET art. 6.2; RD 1561/1995, art. 6.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -240,7 +237,7 @@
         { "text": "El tiempo de trabajo efectivo no podrá ser superior al 75% durante el primer año, y al 85% durante el segundo y tercer año, de la jornada máxima prevista en el convenio colectivo aplicable a la empresa, o en su defecto, de la jornada máxima legal.", "correct": false },
         { "text": "El tiempo de trabajo efectivo no podrá ser superior al 65% durante el primer año, y al 85% durante el segundo y tercer año, de la jornada máxima prevista en el convenio colectivo de aplicación a la empresa, o en su defecto, de la jornada máxima legal, incluyendo las horas extraordinarias.", "correct": false }
       ],
-      "explanation": "ES: Ninguna opción se ajusta plenamente: el art. 11.2 ET fija 65% el primer año y 85% el segundo (no hay tercer año). IT: Nessuna opzione è corretta: l’art. 11.2 ET prevede 65% il primo anno e 85% il secondo (non esiste un terzo anno).",
+      "explanation": "ES: A) B) C) D) Todas incorrectas: la ley fija 65% el primer año y 85% el segundo (no hay ‘tercer año’) y nunca incluyen horas extra. IT: A) B) C) D) Tutte sbagliate: 65% primo anno e 85% secondo (nessun terzo anno) e senza straordinari. :contentReference[oaicite:20]{index=20}",
       "legal_reference": "ET art. 11.2 (formación en alternancia): 65% primer año y 85% segundo.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -252,7 +249,7 @@
         { "text": "Aquellas empresas con más de 100 trabajadores.", "correct": false },
         { "text": "Aquellas empresas con más de 150 trabajadores.", "correct": false }
       ],
-      "explanation": "ES: La LO 3/2007 impone un deber general de promover igualdad; los planes de igualdad obligatorios son a partir de 50 personas, pero el deber de medidas es general. IT: La LO 3/2007 prevede un dovere generale di promuovere l’uguaglianza; i piani di uguaglianza sono obbligatori da 50 dipendenti, ma l’obbligo di misure è generale.",
+      "explanation": "ES: A) Verdadera: el deber de promover la igualdad es general. B) C) D) Falsas: esos umbrales aplican a planes obligatorios, no al deber general de medidas. IT: A) Vera: l’obbligo di promuovere la parità è generale. B) C) D) False: le soglie riguardano i piani di uguaglianza, non l’obbligo di misure. :contentReference[oaicite:21]{index=21}",
       "legal_reference": "LO 3/2007 arts. 14, 45–48 (planes de igualdad ≥50 personas).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -264,7 +261,7 @@
         { "text": "Que el trabajo ha de ser prestado de forma libre y voluntaria, fruto de un acuerdo entre quien cede su actividad y quien la recibe.", "correct": false },
         { "text": "Todas son ciertas.", "correct": false }
       ],
-      "explanation": "ES: La ajenidad supone que frutos y riesgos corresponden al empleador. IT: L’«alienità» implica che frutti e rischi fanno capo al datore.",
+      "explanation": "ES: A) Falsa: describe dependencia. B) Verdadera: la ajenidad supone que frutos y riesgos corresponden al empleador. C) Falsa: refleja voluntariedad. D) Falsa: no todas son propias de la ajenidad. IT: A) Falsa: è dipendenza. B) Vera: alienità = frutti e rischi in capo al datore. C) Falsa: è volontarietà. D) Falsa. :contentReference[oaicite:22]{index=22}",
       "legal_reference": "ET art. 1.1; doctrina clásica de ajenidad (resultados y riesgos).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -276,7 +273,7 @@
         { "text": "No está sometido nunca a la legislación laboral.", "correct": false },
         { "text": "No está sometido a la legislación laboral excepto en aquellos aspectos que, por precepto legal o convenio colectivo se disponga expresamente.", "correct": false }
       ],
-      "explanation": "ES: El trabajo por cuenta propia queda fuera del ET salvo remisiones legales expresas. IT: Il lavoro autonomo è escluso dall’ET, salvo rinvii espressi di legge.",
+      "explanation": "ES: A) Verdadera: el autónomo queda fuera salvo remisión legal expresa. B) C) D) Falsas: no está ‘siempre’ ni ‘nunca’, y el convenio no puede por sí someterlo al ET. IT: A) Vera. B) C) D) False: non è ‘sempre/mai’ e il CCNL non può estendere l’ET all’autonomo. :contentReference[oaicite:23]{index=23}",
       "legal_reference": "ET art. 1.1 y 1.3; LETA (Ley 20/2007).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -288,7 +285,7 @@
         { "text": "Un tiempo no inferior a un año.", "correct": false },
         { "text": "No se puede establecer este tipo de pactos, por lo que se considerará nulo de pleno derecho.", "correct": false }
       ],
-      "explanation": "ES: Para trabajadores no técnicos el máximo del pacto postcontractual es 6 meses; 2 años solo para técnicos. IT: Per i non tecnici il limite massimo è 6 mesi; 2 anni solo per i tecnici.",
+      "explanation": "ES: A) Falsa: 2 años es el máximo para técnicos, no para no cualificados. B) Verdadera: para no técnicos el tope es 6 meses. C) Falsa: ‘no inferior’ no es el criterio. D) Falsa: el pacto es válido si cumple requisitos. IT: A) Falsa. B) Vera: massimo 6 mesi per i non tecnici. C) Falsa. D) Falsa. :contentReference[oaicite:24]{index=24}",
       "legal_reference": "ET art. 21.2.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -300,7 +297,7 @@
         { "text": "Impide al trabajador prestar sus servicios a otro empresario cuando se considere que existe competencia desleal.", "correct": true },
         { "text": "Se extiende al período posterior a la terminación de la relación laboral cuando así lo disponga unilateralmente el empresario.", "correct": false }
       ],
-      "explanation": "ES: La no concurrencia durante la vigencia impide prestar servicios a competidores cuando suponga competencia desleal; el pluriempleo no está prohibido en sí. IT: Il divieto di concorrenza in costanza vieta prestazioni concorrenti sleali; il plurimpiego non è di per sé vietato.",
+      "explanation": "ES: A) Falsa: la prohibición de concurrencia está prevista (ET 21.1). B) Falsa: el pluriempleo no está prohibido en sí. C) Verdadera: la incompatibilidad opera si hay competencia desleal. D) Falsa: el postcontractual exige pacto y compensación. IT: A) Falsa. B) Falsa. C) Vera: vietate solo prestazioni in concorrenza sleale. D) Falsa: dopo il rapporto serve un patto ad hoc. :contentReference[oaicite:25]{index=25}",
       "legal_reference": "ET art. 21.1 (no concurrencia durante la relación) y deber de buena fe (ET art. 5.a).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -312,7 +309,7 @@
         { "text": "No, porque la contratación debe realizarse en el año siguiente a la obtención del título.", "correct": false },
         { "text": "El contrato solo podría celebrarse si se tratara de un puesto de trabajo diferente.", "correct": true }
       ],
-      "explanation": "ES: El contrato formativo para la obtención de la práctica profesional no puede reiterarse para idénticas funciones; cambiar el título no basta si el puesto es el mismo. IT: Il contratto formativo per pratica professionale non si può reiterare per le stesse mansioni; titolo diverso non basta se il posto è identico.",
+      "explanation": "ES: A) Falsa: confunde ‘prueba’ con contrato formativo para práctica profesional. B) Falsa: título distinto no basta si el puesto es el mismo. C) Falsa: el plazo desde la titulación no es el criterio decisivo aquí. D) Verdadera: solo cabe para funciones distintas. IT: A) Falsa. B) Falsa. C) Falsa. D) Vera: consentito solo per mansioni diverse. :contentReference[oaicite:26]{index=26}",
       "legal_reference": "ET art. 11.3 (obtención de práctica profesional): límites temporales y de reiteración.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -324,7 +321,7 @@
         { "text": "La jornada laboral puede realizarse de forma continua o fraccionada", "correct": false },
         { "text": "Los trabajadores a tiempo parcial no pueden realizar horas extraordinarias", "correct": false }
       ],
-      "explanation": "ES: Es falsa la imposibilidad de concertarlo por duración determinada; el tiempo parcial puede ser indefinido o temporal. IT: È falso che non possa essere a termine; il part-time può essere a tempo indeterminato o determinato.",
+      "explanation": "ES: A) Correcta como ‘falsa’ afirmación: el tiempo parcial sí puede ser por tiempo determinado o indefinido. B) C) D) Verdaderas: definen adecuadamente el part-time y sus límites (sin horas extra salvo fuerza mayor). IT: A) Corretta come affermazione falsa: il part-time può essere a termine o indeterminato. B) C) D) Vere. :contentReference[oaicite:27]{index=27}",
       "legal_reference": "ET art. 12.1 y 12.2.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -336,7 +333,7 @@
         { "text": "a y b son correctas.", "correct": true },
         { "text": "Es válido en todo caso, durante los seis meses siguientes a la extinción del contrato.", "correct": false }
       ],
-      "explanation": "ES: Se exige interés industrial/comercial real y compensación adecuada; no es válido por defecto. IT: Sono necessari interesse reale dell’impresa e compenso adeguato; non è valido automaticamente.",
+      "explanation": "ES: A) Incompleta: es requisito, pero no el único. B) Incompleta: también es requisito, pero hace falta además interés real. C) Verdadera: validez condicionada a interés real + compensación adecuada. D) Falsa: no es válido “en todo caso”; depende de requisitos y duración. IT: A) Incompleta. B) Incompleta. C) Vera: servono interesse reale e compenso adeguato. D) Falsa. :contentReference[oaicite:28]{index=28}",
       "legal_reference": "ET art. 21.2.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -348,7 +345,7 @@
         { "text": "Tendrá derecho a indemnizaciones y finiquitos.", "correct": true },
         { "text": "No tendrá derecho a indemnizaciones ni a finiquito.", "correct": false }
       ],
-      "explanation": "ES: El enunciado marca como correcta la opción sobre «indemnizaciones y finiquitos». En sentido técnico, en el período de prueba no hay indemnización por despido, pero sí derecho al finiquito (salarios devengados y vacaciones proporcionales). IT: L’enunciato indica «indennità e liquidazione»; tecnicamente nel periodo di prova non spetta indennità di licenziamento, ma sempre il saldo/finiquito (retribuzioni e ferie proporzionali).",
+      "explanation": "ES: A) B) Falsas: en prueba no hay indemnización por despido. C) Verdadera: siempre hay finiquito (salarios devengados y vacaciones proporcionales). D) Falsa: el finiquito corresponde. IT: A) B) False. C) Vera: spetta il saldo/finiquito. D) Falsa. :contentReference[oaicite:29]{index=29}",
       "legal_reference": "ET art. 14.2 (extinción durante la prueba sin indemnización), ET art. 49 (liquidación/finiquito).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -360,10 +357,11 @@
         { "text": "Sí, Julio puede rechazar la propuesta de convertir su contrato de trabajo a tiempo parcial en uno a tiempo completo colocado", "correct": true },
         { "text": "Sí, Julio puede rechazar la propuesta de convertir su contrato de trabajo parcial en uno a tiempo completo, pero el empresario podrá modificar sustancialmente sus condiciones de trabajo de forma unilateral para convertirlo en un contrato a tiempo completo.", "correct": false }
       ],
-      "explanation": "ES: La conversión a tiempo completo desde parcial es voluntaria para el trabajador; el rechazo no puede acarrear perjuicios. IT: La trasformazione da part-time a full-time è volontaria per il lavoratore; il rifiuto non può comportare svantaggi.",
+      "explanation": "ES: A) Falsa: la conversión no es prerrogativa unilateral del empresario. B) Falsa: el rechazo no extingue el contrato. C) Verdadera: la conversión de parcial a completo es voluntaria para el trabajador. D) Falsa: no cabe imponerla por modificación sustancial. IT: A) Falsa. B) Falsa. C) Vera: la trasformazione è volontaria. D) Falsa. :contentReference[oaicite:30]{index=30}",
       "legal_reference": "ET art. 12.4.e) (voluntariedad en la conversión de contratos a tiempo parcial/completo).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "El principio pro operario:",
       "answers": [
@@ -372,10 +370,11 @@
         { "text": "Se aplica como criterio de interpretación de las normas y no de los contratos", "correct": false },
         { "text": "La respuesta b) y c) son correctas", "correct": true }
       ],
-      "explanation": "ES: Criterio hermenéutico que opera ante dudas interpretativas de la norma laboral (no del contrato) y no está positivado expresamente. IT: È un canone interpretativo per le norme del lavoro (non per i contratti) e non è previsto espressamente.",
+      "explanation": "ES: A) Falsa: no rige para contratos. B) Verdadera: no está positivado expresamente en el ET. C) Verdadera: se aplica al interpretar normas laborales. D) Correcta: b) y c) son válidas conjuntamente. IT: A) Falsa. B) Vera. C) Vera. D) Corretta: b) e c) sono entrambe vere. :contentReference[oaicite:31]{index=31}",
       "legal_reference": "ET art. 3; CC art. 3.1; doctrina TS sobre pro operario.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "Indique cuál de las siguientes notas no es esencial para la existencia de un contrato de trabajo:",
       "answers": [
@@ -384,10 +383,11 @@
         { "text": "Abono de un salario", "correct": false },
         { "text": "Subordinación a las órdenes e instrucciones del empleador", "correct": false }
       ],
-      "explanation": "ES: La presencialidad/horario fijo no es esencial (p. ej., teletrabajo). IT: Presenza fisica e orario prefissato non sono essenziali (es. lavoro da remoto).",
+      "explanation": "ES: A) Falsa: la prestación personal es esencial. B) Verdadera: centro/horario no son imprescindibles (teletrabajo). C) Falsa: el salario es esencial. D) Falsa: la subordinación es esencial. IT: A) Falsa. B) Vera. C) Falsa. D) Falsa. :contentReference[oaicite:32]{index=32}",
       "legal_reference": "ET art. 1.1 (voluntariedad, ajenidad, dependencia y retribución como notas).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "La acción de la O.I.T. tiene por fin la mejora de las condiciones de vida y trabajo de los trabajadores en el plano internacional, para ello, se vale de los programas de asistencia a países y entidades que la requieran, así como de la adopción de:",
       "answers": [
@@ -396,10 +396,11 @@
         { "text": "Tratados y Recomendaciones.", "correct": false },
         { "text": "Reglamentos y Recomendaciones.", "correct": false }
       ],
-      "explanation": "ES: La OIT adopta Convenios (vinculantes tras ratificación) y Recomendaciones (no vinculantes). IT: L’OIL adotta Convenzioni (vincolanti dopo ratifica) e Raccomandazioni (non vincolanti).",
+      "explanation": "ES: A) Falsa. B) Verdadera: binomio típico de la OIT. C) D) Falsas. IT: A) Falsa. B) Vera. C) D) False. :contentReference[oaicite:33]{index=33}",
       "legal_reference": "Constitución OIT art. 19.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "Según se establece en la LO 4/2000 (artículo 11.2) respecto al derecho a huelga de los extranjeros en España:",
       "answers": [
@@ -408,10 +409,11 @@
         { "text": "Tendrán el derecho, pero con ciertas limitaciones respecto de los ciudadanos españoles, salvo que sean ciudadanos de la Unión Europea o asimilados.", "correct": false },
         { "text": "Tendrán el derecho, pero con ciertas limitaciones respecto de los ciudadanos españoles, dependiendo del país de procedencia del extranjero, sobre la base de la reciprocidad.", "correct": false }
       ],
-      "explanation": "ES: Los extranjeros pueden ejercer el derecho de huelga en las mismas condiciones que los españoles. IT: Gli stranieri possono esercitare il diritto di sciopero alle medesime condizioni dei cittadini spagnoli.",
+      "explanation": "ES: A) Falsa. B) Verdadera: igualdad de condiciones. C) D) Falsas: no hay esas limitaciones por ciudadanía/origen. IT: A) Falsa. B) Vera. C) D) False. :contentReference[oaicite:34]{index=34}",
       "legal_reference": "LO 4/2000 art. 11.2; CE art. 28.2; RD 17/1977 (régimen de huelga).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "La autorización inicial de residencia y trabajo por cuenta ajena de un ciudadano extranjero (que no tenga nacionalidad de un país de la Unión Europea) se limitará, salvo excepciones, a un determinado territorio y ocupación, terminando reglamentariamente su duración. ¿Cuál es esa duración?",
       "answers": [
@@ -420,10 +422,11 @@
         { "text": "El art. 63.5 RLOE la fija en nueve meses.", "correct": false },
         { "text": "El art. 63.5 RLOE establece que su duración es indefinida, salvo que se incurra en causa de suspensión o retirada de la misma.", "correct": false }
       ],
-      "explanation": "ES: La duración inicial es de un año. IT: La durata iniziale è di un anno.",
+      "explanation": "ES: A) Verdadera. B) C) D) Falsas. IT: A) Vera. B) C) D) False. :contentReference[oaicite:35]{index=35}",
       "legal_reference": "RD 557/2011 (RLOEX) art. 63.5; LO 4/2000 art. 36.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "Javier cree que cumple todos los requisitos para ser considerado autónomo dependiente, por lo que solicita de la empresa cliente, mediante burofax, la formalización de un contrato de TRADE. Pasado un mes sin que la empresa le conteste, solicita al juez el reconocimiento de la condición de trabajador autónomo económicamente dependiente. En el caso de que el órgano jurisdiccional del orden social reconozca la condición de trabajador autónomo económicamente dependiente ¿desde qué momento será considerado como tal?",
       "answers": [
@@ -432,10 +435,11 @@
         { "text": "Desde el momento en el que comenzó la relación contractual con el cliente", "correct": false },
         { "text": "Desde el momento en el que el juez, vistas las pruebas, considere.", "correct": false }
       ],
-      "explanation": "ES: Efectos desde la recepción de la comunicación por el cliente. IT: Gli effetti decorrono dalla ricezione della comunicazione da parte del cliente.",
+      "explanation": "ES: A) Verdadera. B) C) D) Falsas por los motivos ya expuestos: envío no basta, no hay retroacción, ni libre fijación judicial. IT: A) Vera. B) C) D) False. :contentReference[oaicite:36]{index=36}",
       "legal_reference": "Ley 20/2007 (LETA) art. 12; RD 197/2009 (desarrollo) art. 3.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "Naiara suscribió con la empresa Piratillas S.L. un contrato de formación en alternancia para compatibilizar la actividad laboral con la etapa final de su proceso formativo, pactando las partes una duración del contrato de ocho meses. Llegado el vencimiento del mismo, Naiara no ha conseguido el diploma de estudios asociado a su contrato formativo. Indique la respuesta correcta.",
       "answers": [
@@ -444,10 +448,11 @@
         { "text": "No es posible la prórroga de este tipo de contratos.", "correct": false },
         { "text": "El contrato puede prorrogarse hasta la obtención de dicho diploma sin superar nunca la duración máxima de dos años, por la sola petición de Naia.", "correct": false }
       ],
-      "explanation": "ES: La alternancia puede prorrogarse por acuerdo sin superar 2 años totales. IT: Il contratto in alternanza può essere prorogato previo accordo, entro il limite massimo di 2 anni.",
+      "explanation": "ES: A) Falsa: tope de 16 meses no es el legal. B) Verdadera: prórroga por acuerdo dentro del máximo de 2 años. C) Falsa: la prórroga sí cabe. D) Falsa: no vale la petición unilateral. IT: A) Falsa. B) Vera. C) Falsa. D) Falsa. :contentReference[oaicite:37]{index=37}",
       "legal_reference": "ET art. 11.2 (duración y prórroga del contrato de formación en alternancia, RDL 32/2021).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "Pedro, con estudios de bachiller, ha empezado a trabajar en una empresa de diez trabajadores. En su contrato indefinido figura un periodo de prueba de tres meses, sin que en el convenio regulador aplicable se establezca límite a la duración del periodo de prueba. ¿Es legal el periodo de tres meses establecido?",
       "answers": [
@@ -456,10 +461,11 @@
         { "text": "No, porque al no fijarse límite de duración del periodo de prueba en el convenio regulador, será legal siempre que no supere los dos meses.", "correct": false },
         { "text": "No, porque al no ser un técnico titulado, el periodo de prueba nunca puede ser superior a un mes.", "correct": false }
       ],
-      "explanation": "ES: Para no titulados en empresas <25 personas, el máximo es 3 meses. IT: Per non tecnici in aziende <25 addetti, il massimo è 3 mesi.",
+      "explanation": "ES: A) Falsa: el límite de 6 meses no rige para no titulados en empresas pequeñas. B) Verdadera: en empresas <25, máximo 3 meses para no titulados. C) D) Falsas: 2 meses o 1 mes no son los topes aquí. IT: A) Falsa. B) Vera. C) D) False. :contentReference[oaicite:38]{index=38}",
       "legal_reference": "ET art. 14.1 (límites del período de prueba por grupo y tamaño de empresa).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "El pasado julio de 2023, Enrique, de 15 años, ofrece a un amigo llamado Juan, de la misma edad, la posibilidad de obtener un dinero extra en vacaciones trabajando en el bar de sus padres. Acepta y a mediados de ese mes, comienzan a trabajar. Una semana después, recibe la visita de un Inspector de Trabajo. ¿Qué consecuencias se pueden derivar de esta contratación laboral?",
       "answers": [
@@ -468,10 +474,11 @@
         { "text": "Que el contrato de trabajo es válido y no se puede anular pero que el empresario podrá ser sancionado por cometer una infracción muy grave", "correct": false },
         { "text": "No tiene consecuencias jurídicas si el menor tiene 17 años", "correct": false }
       ],
-      "explanation": "ES: Prohibido trabajar a menores de 16; la contratación es anulable y constituye infracción muy grave. IT: Vietato lavorare sotto i 16 anni; il contratto è annullabile e l’infrazione è molto grave.",
+      "explanation": "ES: A) Falsa: la nulidad/ anulabilidad prima. B) Verdadera: prohibido contratar menores de 16; contrato anulable e infracción muy grave. C) Falsa: sí es anulable. D) Falsa: el supuesto es de 15 años; a 17 tampoco puede trabajar de noche ni en ciertos trabajos. IT: A) Falsa. B) Vera: vietato sotto i 16 anni; contratto annullabile e infrazione gravissima. C) Falsa. D) Falsa. :contentReference[oaicite:39]{index=39}",
       "legal_reference": "ET art. 6.1; LISOS art. 8.3.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "Martín acude a su despacho en busca de asesoramiento legal acerca de su situación laboral. Desde mayo de 2022 viene prestando sus servicios en el mismo puesto de trabajo y para la misma empresa mediante la sucesión de dos contratos temporales sin solución de continuidad. Martín cree que después del segundo contrato temporal adquirió la condición de trabajador fijo.",
       "answers": [
@@ -480,10 +487,11 @@
         { "text": "No, además de los dos contratos temporales sin solución de continuidad, Martín debe haber estado contratado por un plazo superior a 24 meses en un periodo de treinta meses.", "correct": true },
         { "text": "No, además de los dos contratos temporales sin solución de continuidad, Martín debe haber estado contratado por un plazo superior a 18 meses en un periodo de 24 meses.", "correct": false }
       ],
-      "explanation": "ES: Regla clásica del encadenamiento (24 en 30 meses) de redacciones previas del art. 15 ET; la reforma de 2021 modificó este régimen. IT: Regola storica dei 24 su 30 mesi (vecchio art. 15 ET); riforma 2021 ha cambiato la disciplina.",
+      "explanation": "ES: A) Falsa. B) Falsa. C) Verdadera con la regla histórica 24/30 (hoy régimen reformado). D) Falsa. IT: A) Falsa. B) Falsa. C) Vera (regola storica 24/30). D) Falsa. :contentReference[oaicite:40]{index=40}",
       "legal_reference": "ET art. 15.5 (redacciones previas); RDL 32/2021 (nuevo régimen).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "Jaume se encuentra cursando formación profesional del sistema educativo oficial y le ofrecen realizar un contrato en alternancia en una empresa con actividad formativa. ¿Cuál es la duración máxima de este tipo de contrato?",
       "answers": [
@@ -492,10 +500,11 @@
         { "text": "La duración máxima será de un año.", "correct": false },
         { "text": "La duración máxima será únicamente la que se determine por convenio colectivo.", "correct": false }
       ],
-      "explanation": "ES: La alternancia tiene máximo de 2 años. IT: Il contratto in alternanza ha durata massima di 2 anni.",
+      "explanation": "ES: A) C) D) Falsas: ni 3 ni 1 año ni lo que diga solo el convenio. B) Verdadera: máximo 2 años. IT: A) C) D) False. B) Vera: massimo 2 anni. :contentReference[oaicite:41]{index=41}",
       "legal_reference": "ET art. 11.2 (duración).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "A Juan, graduado en derecho, le han ofrecido concertar un contrato de formación en alternancia, para ejercer como asesor jurídico. Le realiza la consulta acerca del periodo de prueba que la empresa le puede firmar, como técnico titulado qué es, y usted comenta que ese tiempo será:",
       "answers": [
@@ -504,10 +513,11 @@
         { "text": "Ninguno, no se podrá establecer período de prueba para técnicos titulados.", "correct": false },
         { "text": "Ninguno, ya que no se podrá realizar esta modalidad de contrato a técnicos titulados.", "correct": true }
       ],
-      "explanation": "ES: El enunciado sostiene que la alternancia no procede para técnicos titulados; la regulación de art. 11.2 ET delimita supuestos y finalidades. IT: L’enunciato afferma che l’alternanza non si applica ai tecnici laureati; l’art. 11.2 ET ne disciplina requisiti e finalità.",
+      "explanation": "ES: A) B) Falsas: hablar de prueba presupone modalidad idónea. C) Falsa: no hay veto general al periodo de prueba por ser titulado. D) Verdadera en el ítem: la alternancia no procede para ese perfil, luego no hay prueba. IT: A) B) False. C) Falsa. D) Vera nel quesito. :contentReference[oaicite:42]{index=42}",
       "legal_reference": "ET art. 11.2 (contrato de formación en alternancia, requisitos).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "En nuestro derecho laboral, respecto del principio de norma más favorable, se aplica el siguiente criterio de comparación:",
       "answers": [
@@ -516,10 +526,11 @@
         { "text": "La comparación parcial entre grupos o conjuntos homogéneos de materias de una y otra norma.", "correct": false },
         { "text": "Cualquiera de los criterios es válido, y variará en función de cuáles son las normas que se están aplicando, si se trata de concurrencia de leyes, de convenios o de ambos entre sí.", "correct": true }
       ],
-      "explanation": "ES: El enunciado da por válida la flexibilidad de criterios; doctrinalmente predomina el criterio de globalidad. IT: L’enunciato ammette vari criteri; in dottrina prevale il criterio di globalità (confronto d’insieme).",
+      "explanation": "ES: A) B) C) Falsas en el ítem: no se erigen en única regla universal. D) Verdadera: el enunciado admite flexibilidad según concurrencia normativa (aunque doctrinalmente predomina la globalidad). IT: A) B) C) False nel test. D) Vera: criterio flessibile secondo il tipo di concorrenza (pur prevalendo in dottrina la globalità). :contentReference[oaicite:43]{index=43}",
       "legal_reference": "ET arts. 3.3 y 84; doctrina TS sobre globalidad de comparación.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "Ante una situación de incremento ocasional y previsible de la actividad de la empresa, se podrá contratar trabajadores con contrato eventual:",
       "answers": [
@@ -528,10 +539,11 @@
         { "text": "a lo largo de un periodo de 90 días consecutivos al año, tantos contratos como sean necesarios.", "correct": false },
         { "text": "A lo largo de un periodo de 90 días no consecutivos al año, tantos contratos como sean necesarios.", "correct": false }
       ],
-      "explanation": "ES: El ET permite 90 días en el año natural para necesidades previsibles (no continuados) sin identificar persona concreta. IT: L’ET consente 90 giorni nell’anno solare per esigenze prevedibili (non continuativi).",
+      "explanation": "ES: A) Verdadera: 90 días en el año natural para necesidades previsibles (no continuados y sin identificar persona). B) C) D) Falsas: desfiguran el límite legal. IT: A) Vera. B) C) D) False. :contentReference[oaicite:44]{index=44}",
       "legal_reference": "ET art. 15.2 (contrato por circunstancias de la producción previsible) tras RDL 32/2021.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "Alberto comete una falta laboral muy grave. Está preocupado, porque han pasado ya cuatro meses desde la comisión del hecho, y no sabe si la empresa ha tenido conocimiento de ello. Viene a consultarnos, y le comentamos, para su tranquilidad, que la falta laboral muy grave cometida por un trabajador prescribe:",
       "answers": [
@@ -540,7 +552,7 @@
         { "text": "A los 20 días a partir de que la empresa tuvo conocimiento de su comisión", "correct": false },
         { "text": "A los 60 días a partir de que la empresa tuvo conocimiento de su comisión, y en cualquier caso a los seis meses de haberse cometido.", "correct": true }
       ],
-      "explanation": "ES: Para faltas muy graves: 60 días desde conocimiento y 6 meses desde la comisión. IT: Per infrazioni molto gravi: 60 giorni dalla conoscenza e comunque 6 mesi dal fatto.",
+      "explanation": "ES: A) C) Falsas: no son los plazos. B) Falsa: el cómputo por comisión no basta. D) Verdadera: 60 días desde conocimiento y, en todo caso, 6 meses desde el hecho. IT: A) C) False. B) Falsa. D) Vera: 60 giorni dalla conoscenza e comunque 6 mesi dal fatto. :contentReference[oaicite:45]{index=45}",
       "legal_reference": "ET art. 60.2.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -552,7 +564,7 @@
         { "text": "Contratos por circunstancia de producción.", "correct": true },
         { "text": "Contratos de obra y servicio determinado.", "correct": false }
       ],
-      "explanation": "ES: Las vacaciones pueden generar picos ocasionales que justifican contrato por circunstancias (interpretación del ET tras RDL 32/2021). IT: Le ferie possono creare picchi occasionali che giustificano il contratto per circostanze della produzione.",
+      "explanation": "ES: A) Falsa: la sustitución es para una persona con reserva de puesto. B) Falsa. C) Verdadera: pico ocasional por vacaciones. D) Falsa: la modalidad de obra/servicio ya no opera. IT: A) Falsa. B) Falsa. C) Vera. D) Falsa. :contentReference[oaicite:46]{index=46}",
       "legal_reference": "ET art. 15.2 (circunstancias de la producción).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -564,7 +576,7 @@
         { "text": "Como máximo tres meses.", "correct": true },
         { "text": "Cómo mínimo tres meses.", "correct": false }
       ],
-      "explanation": "ES: La cobertura temporal de un puesto mientras dura el proceso de selección tiene tope de 3 meses. IT: La copertura temporanea del posto durante la selezione ha un limite massimo di 3 mesi.",
+      "explanation": "ES: A) Falsa: el límite legal no es 2 meses. B) Falsa: hablar de un “mínimo” no corresponde al tope permitido. C) Verdadera: la sustitución por cobertura de vacante durante selección tiene un máximo de 3 meses. D) Falsa: tampoco existe un mínimo de 3 meses. IT: A) Falsa: il limite non è 2 mesi. B) Falsa: non c’è un minimo legale in tal senso. C) Vera: la sostituzione per copertura della vacanza durante la selezione dura al massimo 3 mesi. D) Falsa: nessun minimo di 3 mesi.",
       "legal_reference": "ET art. 15.3 (contrato de sustitución por cobertura de vacante durante proceso de selección).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -576,8 +588,8 @@
         { "text": "Que la medida no sea ilegal.", "correct": false },
         { "text": "Que de la medida se derivan más beneficios para el interés general que perjuicios sobre otros bienes o valores en conflicto.", "correct": false }
       ],
-      "explanation": "ES: Idoneidad = aptitud del medio para alcanzar la finalidad; sigue el test de proporcionalidad (idoneidad, necesidad y proporcionalidad estricto sensu). IT: Idoneità = capacità del mezzo di raggiungere l’obiettivo; si applica il test di proporzionalità in tre fasi.",
-      "legal_reference": "ET art. 20.3 (medidas de control); doctrina constitucional sobre proporcionalidad (p. ej., STC 14/2003, STC 39/2016).",
+      "explanation": "ES: A) Falsa: eso es el criterio de necesidad, no de idoneidad. B) Verdadera: idoneidad = aptitud del medio para alcanzar el fin. C) Falsa: la licitud es presupuesto general, no define idoneidad. D) Falsa: ese es el juicio de proporcionalidad en sentido estricto. IT: A) Falsa: descrive la necessità, non l’idoneità. B) Vera: idoneità = capacità del mezzo di raggiungere lo scopo. C) Falsa: la liceità è presupposto, non definizione. D) Falsa: riguarda la proporzionalità in senso stretto.",
+      "legal_reference": "ET art. 20.3; doctrina constitucional del test de proporcionalidad (idoneidad, necesidad y proporcionalidad estricta).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
     {
@@ -588,7 +600,7 @@
         { "text": "Si, ya que la suma de las horas ordinarias, complementarias y extraordinarias no pueden suponer el 75 % de la jornada ordinaria de trabajo a tiempo completo", "correct": false },
         { "text": "Si, ya que los trabajadores a tiempo parcial no pueden realizar, a la vez, horas complementarias y horas extraordinarias", "correct": false }
       ],
-      "explanation": "ES: En el tiempo parcial están prohibidas las horas extraordinarias, salvo fuerza mayor; sí caben horas complementarias. IT: Nel part-time sono vietati gli straordinari (salvo forza maggiore); ammesse le ore complementari.",
+      "explanation": "ES: A) Verdadera: en el tiempo parcial las horas extraordinarias están prohibidas salvo fuerza mayor. B) Falsa: el límite general de horas complementarias es el 30% (salvo ampliación por convenio), no 25%. C) Falsa: no existe ese umbral del 75% como regla general. D) Falsa: la irregularidad ya se produce por las horas extra; la coexistencia con complementarias no es el punto decisivo. IT: A) Vera: nel part-time gli straordinari sono vietati (salvo forza maggiore). B) Falsa: il tetto base è 30% (salvo diverso da CCNL). C) Falsa: nessuna soglia 75% generale. D) Falsa: l’irregolarità deriva dagli straordinari, non dal cumulo in sé.",
       "legal_reference": "ET art. 12.4.c) (prohibición de horas extraordinarias en el tiempo parcial) y 12.5 (horas complementarias).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -600,8 +612,8 @@
         { "text": "El contrato se presumirá celebrado a tiempo completo, salvo prueba en contrario que acredite el carácter parcial de los servicios.", "correct": true },
         { "text": "Contrato formativo y de aprendizaje.", "correct": false }
       ],
-      "explanation": "ES: Si no se fija número y distribución de horas, se presume jornada completa salvo prueba del carácter parcial. IT: Se non si indicano numero e distribuzione delle ore, si presume tempo pieno salvo prova del part-time.",
-      "legal_reference": "ET art. 12.4.c) (requisitos de forma del tiempo parcial y presunción de jornada completa) y art. 8.2.",
+      "explanation": "ES: A) Falsa: no se presume el tiempo parcial; debe constar número y distribución de horas. B) Falsa: el relevo cubre supuestos de jubilación parcial. C) Verdadera: sin constar y probar la parcialidad y su distribución, se presume jornada completa. D) Falsa: no concurren requisitos formativos. IT: A) Falsa. B) Falsa. C) Vera: senza prova della parzialità e della sua ripartizione, si presume full-time. D) Falsa.",
+      "legal_reference": "ET art. 12.4.c) (requisitos formales del tiempo parcial) y art. 8.2.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
     {
@@ -612,8 +624,8 @@
         { "text": "No, no se pueden celebrar contratos de puesta a disposición con una empresa de trabajo temporal para sustituir a trabajadores en huelga de la empresa usuaria.", "correct": true },
         { "text": "Si, puede celebrar contratos de puesta a disposición con una empresa de trabajo temporal para sustituir a trabajadores en huelga de la empresa usuaria, pero el contrato que se celebre será un contrato de interinidad, ya que hay suspensión del contrato con reserva de puesto de trabajo.", "correct": false }
       ],
-      "explanation": "ES: Prohibido cubrir huelguistas mediante ETT. IT: Vietato sostituire gli scioperanti tramite agenzia interinale.",
-      "legal_reference": "Ley 14/1994, art. 8.3; ET art. 6.5 (principio antifraude).",
+      "explanation": "ES: A) B) D) Falsas: la sustitución de huelguistas vía ETT está expresamente prohibida. C) Verdadera: existe un veto legal específico. IT: A) B) D) False: è vietato sostituire scioperanti tramite agenzia. C) Vera: divieto espresso.",
+      "legal_reference": "Ley 14/1994, art. 8.3; ET art. 6.5.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
     {
@@ -624,7 +636,7 @@
         { "text": "No, ya que este pacto de permanencia con la empresa es contrario a la Ley, ya que el pacto de permanencia no puede exceder los 12 meses para trabajadores cualificados", "correct": false },
         { "text": "No, en ningún caso puede exigir ningún tipo de indemnización, ya que no se puede obligar a ningún trabajador a firmar contratos vitalicios", "correct": false }
       ],
-      "explanation": "ES: El pacto de permanencia (máx. 2 años) permite reclamar daños por incumplimiento tras formación específica a cargo de la empresa. IT: Il patto di permanenza (max 2 anni) consente il risarcimento se violato dopo formazione specifica sostenuta dall’azienda.",
+      "explanation": "ES: A) Verdadera: incumplido el pacto tras formación específica sufragada por la empresa (límite hasta 2 años), cabe reclamar daños. B) Falsa: no se exige probar que trabaja en la competencia para que exista incumplimiento. C) Falsa: el máximo para cualificados es 24 meses, no 12. D) Falsa: no se trata de “contrato vitalicio”, sino de un pacto postformación válido si cumple requisitos. IT: A) Vera. B) Falsa: non serve provare il passaggio alla concorrenza. C) Falsa: tetto 24 mesi per i qualificati. D) Falsa.",
       "legal_reference": "ET art. 21.4.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -636,8 +648,8 @@
         { "text": "El pacto tendrá efecto a la extinción de la relación laboral", "correct": false },
         { "text": "La ingeniera percibirá una compensación económica adecuada", "correct": false }
       ],
-      "explanation": "ES: Para técnicos el máximo es 2 años; 30 meses excede el límite. IT: Per i tecnici il massimo è 2 anni; 30 mesi superano il limite.",
-      "legal_reference": "ET art. 21.2 (límite temporal y compensación).",
+      "explanation": "ES: A) Falsa como ‘NO se ajusta’: una delimitación razonable puede ceñirse al ámbito de interés; habrá que valorar proporcionalidad pero no es per se ilícita. B) Verdadera: 30 meses excede el límite legal (máx. 24 meses para técnicos). C) Falsa: producir efectos tras la extinción es consustancial al pacto postcontractual. D) Falsa: la compensación adecuada es requisito de validez, no de invalidez. IT: A) Falsa come ipotesi “illegittima” di per sé; la delimitazione può essere lecita se proporzionata. B) Vera: 30 mesi superano il limite di 24 per i tecnici. C) Falsa: l’efficacia post estinzione è propria del patto. D) Falsa: il compenso adeguato è requisito di validità.",
+      "legal_reference": "ET art. 21.2 (límite temporal, compensación, delimitación razonable).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
     {
@@ -648,7 +660,7 @@
         { "text": "La empresa, previa audiencia de los representantes de los trabajadores, deberá elaborar una política interna", "correct": true },
         { "text": "La empresa tendrá que incluir esta previsión en el convenio colectivo de aplicación, en el caso de que exista", "correct": false }
       ],
-      "explanation": "ES: El derecho se articula mediante política interna, previa audiencia de la RLT. IT: Il diritto si garantisce tramite una policy interna, previa audizione della rappresentanza.",
+      "explanation": "ES: A) Falsa: no se impone cláusula individual en el contrato. B) Falsa: sí hay obligación de articularlo. C) Verdadera: debe establecerse mediante política interna previa audiencia de la RLT. D) Falsa: no depende de que exista convenio. IT: A) Falsa. B) Falsa. C) Vera: policy interna con previa audizione delle rappresentanze. D) Falsa.",
       "legal_reference": "LOPDGDD 3/2018 art. 88; Ley 10/2021 art. 18.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -660,7 +672,7 @@
         { "text": "El horario de trabajo, los menores de edad no pueden realizar trabajos nocturnos. Se considera trabajo nocturno el realizado entre las diez de la noche y las seis de la mañana.", "correct": true },
         { "text": "No existe ningún impedimento para su firma, siempre y cuando el contrato de trabajo sea firmado por el menor de edad en unión de su representante legal.", "correct": false }
       ],
-      "explanation": "ES: Prohibición de trabajo nocturno para menores. IT: Divieto di lavoro notturno per i minori.",
+      "explanation": "ES: A) Falsa: la hostelería no está prohibida en sí a menores. B) Falsa: no hay tal mínimo diario general. C) Verdadera: está vedado el trabajo nocturno (22:00–06:00). D) Falsa: la firma con representante no salva la prohibición de nocturnidad. IT: A) Falsa. B) Falsa. C) Vera: lavoro notturno vietato (22–06). D) Falsa.",
       "legal_reference": "ET art. 6.2; RD 1561/1995 art. 6.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -672,8 +684,8 @@
         { "text": "El despido es nulo de pleno derecho puesto que se está vulnerando el derecho a la intimidad del trabajador.", "correct": false },
         { "text": "El despido es ilegal.", "correct": false }
       ],
-      "explanation": "ES: Informado el control GPS, la desobediencia/rendimiento insuficiente sostenido puede constituir causa disciplinaria. IT: Con informativa sul GPS, l’inadempimento reiterato può integrare giusta causa disciplinare.",
-      "legal_reference": "ET art. 20.3 (control empresarial) y 54 (disciplinario: transgresión de la buena fe, disminución de rendimiento); LOPDGDD art. 90 (videovigilancia/geolocalización).",
+      "explanation": "ES: A) Verdadera: incumplimiento reiterado con control informado y proporcional puede justificar despido disciplinario. B) Falsa: sí hay causa. C) Falsa: informado el GPS y siendo proporcional, no hay nulidad por vulneración de intimidad. D) Falsa: no hay ilicitud formal demostrada. IT: A) Vera: inadempimento reiterato con tracciamento informato e proporzionato può giustificare il licenziamento. B) Falsa. C) Falsa: niente nullità se il controllo è legittimo. D) Falsa.",
+      "legal_reference": "ET arts. 20.3 y 54; LOPDGDD art. 90 (geolocalización).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
     {
@@ -684,10 +696,11 @@
         { "text": "El tiempo de trabajo efectivo no podrá ser superior al 65% el primer año y al 85% el segundo y tercer año, de la jornada máxima prevista en el convenio colectivo de aplicación en la empresa, o, en su defecto, de la jornada máxima legal.", "correct": false },
         { "text": "El tiempo de trabajo efectivo no podrá ser superior al 65% el primer año y al 85% el segundo, de la jornada máxima prevista en el convenio colectivo de aplicación en la empresa, o, en su defecto, de la jornada máxima legal, incluyendo las horas extraordinarias.", "correct": false }
       ],
-      "explanation": "ES: Alternancia: 65% primer año y 85% segundo. IT: Alternanza: 65% primo anno e 85% secondo.",
-      "legal_reference": "ET art. 11.2 (límite de tiempo de trabajo efectivo).",
+      "explanation": "ES: A) Falsa: el límite es “no superior”, no “no inferior”. B) Verdadera: 65% primer año y 85% segundo. C) Falsa: no existe un tercer año. D) Falsa: nunca incluye horas extraordinarias. IT: A) Falsa. B) Vera: 65% primo anno e 85% secondo. C) Falsa: nessun terzo anno. D) Falsa: escluse le ore straordinarie.",
+      "legal_reference": "ET art. 11.2.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "Una empresa se encuentra, de manera ocasional (no cíclica ni estacional) en una situación de desajuste temporal entre el empleo estable disponible y el requerido, debido a las vacaciones de los trabajadores de este año. Si contrata trabajadores para cubrir tal desajuste, ¿qué contrato les podrá realizar?",
       "answers": [
@@ -696,10 +709,11 @@
         { "text": "Contratos por circunstancia de producción.", "correct": true },
         { "text": "Contratos de obra y servicio determinado.", "correct": false }
       ],
-      "explanation": "ES: El pico ocasional por vacaciones puede cubrirse vía «circunstancias de la producción» según la práctica post-reforma. IT: Il picco occasionale dovuto alle ferie può coprirsi con «circostanze della produzione».",
-      "legal_reference": "ET art. 15.2 (circunstancias de la producción).",
+      "explanation": "ES: A) Falsa: la sustitución cubre a una persona concreta con reserva de puesto. B) Falsa. C) Verdadera: el pico por vacaciones encaja en circunstancias de la producción. D) Falsa: la obra/servicio determinado fue suprimida. IT: A) Falsa. B) Falsa. C) Vera. D) Falsa.",
+      "legal_reference": "ET art. 15.2.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "De acuerdo con la Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres, deberán tomar medidas que favorezcan la igualdad de los trabajadores:",
       "answers": [
@@ -708,10 +722,11 @@
         { "text": "aquellas empresas con más de 100 trabajadores", "correct": false },
         { "text": "aquellas empresas con más de 150 trabajadores", "correct": false }
       ],
-      "explanation": "ES: Deber general de medidas pro-igualdad; los planes obligatorios se exigen desde 50 personas, pero la obligación de promover la igualdad es general. IT: Obbligo generale di misure pro-parità; i piani sono obbligatori da 50 addetti, ma il dovere di promozione è generale.",
-      "legal_reference": "LO 3/2007 arts. 14 y 45–48 (planes ≥50).",
+      "explanation": "ES: A) Verdadera: el deber de promover igualdad es general. B) C) D) Falsas: los umbrales afectan a la obligación de planes de igualdad, no al deber genérico de medidas. IT: A) Vera. B) C) D) False: le soglie riguardano i piani obbligatori, non l’obbligo generale di misure.",
+      "legal_reference": "LO 3/2007 arts. 14 y 45–48.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "¿Cuáles son las notas características del trabajo asalariado?",
       "answers": [
@@ -720,10 +735,11 @@
         { "text": "Voluntario y por cuenta ajena", "correct": false },
         { "text": "Personal, voluntario, dependiente y por cuenta ajena", "correct": true }
       ],
-      "explanation": "ES: El trabajo asalariado se define por voluntariedad, ajenidad, dependencia y carácter personal. IT: Il lavoro subordinato si caratterizza per volontarietà, alienità, dipendenza e personalità.",
+      "explanation": "ES: A) Falsa: es parcial (falta voluntariedad y carácter personal). B) Falsa: el convenio no define el concepto. C) Falsa: también faltan dependencia y prestación personal. D) Verdadera: conjunto de notas esenciales. IT: A) Falsa: elenco incompleto. B) Falsa. C) Falsa. D) Vera: personalità, volontarietà, dipendenza e alienità.",
       "legal_reference": "ET art. 1.1.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "El requisito de la ajenidad implica",
       "answers": [
@@ -732,10 +748,11 @@
         { "text": "Que los bienes y servicios producidos no reportan al trabajador un beneficio económico directo, y el empresario, además, asume los riesgos inherentes a la actividad productiva", "correct": true },
         { "text": "Todas son ciertas", "correct": false }
       ],
-      "explanation": "ES: Ajenidad = frutos y riesgos corresponden al empleador. IT: Alienità = frutti e rischi in capo al datore.",
-      "legal_reference": "ET art. 1.1; doctrina clásica sobre ajenidad en frutos y riesgos (TS).",
+      "explanation": "ES: A) Falsa: eso describe dependencia. B) Falsa: describe voluntariedad. C) Verdadera: frutos y riesgos corresponden al empleador. D) Falsa: no todas son rasgos de ajenidad. IT: A) Falsa: è dipendenza. B) Falsa: è volontarietà. C) Vera: frutti e rischi in capo al datore. D) Falsa.",
+      "legal_reference": "ET art. 1.1; doctrina jurisprudencial sobre ajenidad.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "Según la disposición adicional primera del Estatuto de los Trabajadores: El trabajo por cuenta propia",
       "answers": [
@@ -744,10 +761,11 @@
         { "text": "No está sometido nunca a la legislación laboral", "correct": false },
         { "text": "No está sometido a la legislación laboral excepto en aquellos aspectos que, por precepto legal o convenio colectivo se disponga expresamente", "correct": false }
       ],
-      "explanation": "ES: El trabajo autónomo queda fuera del ET salvo remisión legal expresa. IT: Il lavoro autonomo è escluso dall’ET salvo rinvii espressi.",
-      "legal_reference": "ET art. 1 y 1.3; Ley 20/2007 (LETA) art. 1 y 2.",
+      "explanation": "ES: A) Falsa: no “siempre”. B) Verdadera: solo cuando la ley remite expresamente. C) Falsa: tampoco “nunca”. D) Falsa: el convenio no puede someter el trabajo autónomo al ET por sí mismo. IT: A) Falsa. B) Vera. C) Falsa. D) Falsa.",
+      "legal_reference": "ET art. 1 y 1.3; Ley 20/2007 (LETA).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "El derecho laboral regula el trabajo dependiente, lo que supone",
       "answers": [
@@ -756,10 +774,11 @@
         { "text": "Sometimiento al poder de dirección del empresario", "correct": false },
         { "text": "Sometimiento exclusivamente a la ley, los convenios y el contrato, que es ley entre las partes", "correct": false }
       ],
-      "explanation": "ES: La dependencia implica dirección y potestad disciplinaria. IT: La dipendenza comporta potere direttivo e disciplinare.",
-      "legal_reference": "ET arts. 20 (dirección) y 58 (régimen disciplinario).",
+      "explanation": "ES: A) Verdadera: la dependencia implica dirección y disciplina. B) C) Falsas por incompletas. D) Falsa: además de normas, existe poder de dirección/disciplinario. IT: A) Vera. B) C) False (incomplete). D) Falsa.",
+      "legal_reference": "ET arts. 20 y 58.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "La característica por la cual el trabajador cede los resultados de su trabajo se denomina",
       "answers": [
@@ -768,10 +787,11 @@
         { "text": "Cesión de frutos", "correct": false },
         { "text": "Dependencia", "correct": false }
       ],
-      "explanation": "ES: El trabajador no recibe directamente los frutos del trabajo: ajenidad. IT: I frutti del lavoro spettano al datore: alienità.",
+      "explanation": "ES: A) Verdadera: los frutos pertenecen al empleador. B) Falsa: retribución es el pago al trabajador. C) Falsa: no es el término técnico en nuestro ordenamiento. D) Falsa: dependencia alude a dirección/organización. IT: A) Vera. B) Falsa. C) Falsa. D) Falsa.",
       "legal_reference": "ET art. 1.1; doctrina TS sobre ajenidad en frutos.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "Indique cuál de las siguientes notas no es esencial para la existencia de un contrato de trabajo",
       "answers": [
@@ -780,10 +800,11 @@
         { "text": "Prestación personal de servicios", "correct": false },
         { "text": "Subordinación a las órdenes e instrucciones del empleador", "correct": false }
       ],
-      "explanation": "ES: La presencialidad/horario fijo no es esencial (teletrabajo). IT: Presenza fisica/orario fisso non sono essenziali (lavoro a distanza).",
-      "legal_reference": "ET art. 1.1; Ley 10/2021 art. 1 (trabajo a distancia).",
+      "explanation": "ES: A) Verdadera: no es imprescindible centro/horario (teletrabajo). B) C) D) Falsas: salario, prestación personal y subordinación son esenciales. IT: A) Vera. B) C) D) False: retribuzione, personalità e subordinazione sono essenziali.",
+      "legal_reference": "ET art. 1.1; Ley 10/2021 sobre trabajo a distancia (contexto).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "El sistema retributivo nacido en la revolución industrial por el que se paga en especie, por pagarés, fichas o vales que son aceptados por los comerciantes con el aval del empresario, pero por precio inferior a su valor y, muchas veces canjeados de forma forzosa por los bienes y productos que los propios empresarios vendían a los trabajadores en sus establecimientos o economatos, se conoce como",
       "answers": [
@@ -792,10 +813,11 @@
         { "text": "Régimen del Truck", "correct": true },
         { "text": "Régimen de Canjes", "correct": false }
       ],
-      "explanation": "ES: El “truck system” fue un sistema abusivo de pago en especie. IT: Il “truck system” prevedeva pagamenti in natura tramite buoni/vales.",
-      "legal_reference": "ET art. 26.1 (límite del salario en especie ≤30%); referencias históricas doctrinales al sistema “truck”.",
+      "explanation": "ES: A) Falsa: los economatos eran tiendas, no el sistema de pago. B) Falsa: no es denominación histórica usual. C) Verdadera: es el llamado “truck system”. D) Falsa: no es el término técnico. IT: A) Falsa. B) Falsa. C) Vera: “truck system”. D) Falsa.",
+      "legal_reference": "ET art. 26.1 (límite del salario en especie ≤30%); referencias históricas.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "En el sistema gremial, Finalmente, un Oficial o un Aprendiz accedían al grado de Maestro mediante la realización de exámenes teórico prácticos que incluían la realización de lo que se conocía como",
       "answers": [
@@ -804,10 +826,11 @@
         { "text": "Opera Prima", "correct": false },
         { "text": "Gaje del Oficio", "correct": false }
       ],
-      "explanation": "ES: Históricamente, la “obra maestra” era la pieza de acceso a Maestro. IT: Storicamente la “capolavoro” era il requisito per il grado di Maestro.",
-      "legal_reference": "Referencia histórica/doctrinal (no hay norma vigente específica).",
+      "explanation": "ES: A) Falsa: no es el término histórico. B) Verdadera: la pieza de acceso era la “obra maestra”. C) Falsa: “opera prima” es expresión de otro contexto. D) Falsa: “gaje” alude a emolumentos/oficio. IT: A) Falsa. B) Vera: la “capolavoro”. C) Falsa. D) Falsa.",
+      "legal_reference": "Referencia histórica/doctrinal.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "Se considera que nuestro Derecho del Trabajo propiamente dicho comienza con",
       "answers": [
@@ -816,10 +839,11 @@
         { "text": "La ley sobre trabajo de menores de 1873", "correct": true },
         { "text": "La ley de descanso dominical de 1904", "correct": false }
       ],
-      "explanation": "ES: La llamada Ley Benot (1873) inicia la legislación social en España. IT: La “Ley Benot” del 1873 segna l’avvio della legislazione sociale spagnola.",
-      "legal_reference": "Ley de 24 de julio de 1873 (Ley Benot) sobre trabajo de mujeres y niños.",
+      "explanation": "ES: A) Falsa: es antecedente remoto, no el inicio del Derecho del Trabajo moderno. B) Falsa: es posterior y de distinto contexto. C) Verdadera: la “Ley Benot” (1873) inicia la legislación social. D) Falsa: es relevante pero posterior. IT: A) Falsa. B) Falsa. C) Vera: la “Ley Benot” del 1873 segna l’avvio. D) Falsa.",
+      "legal_reference": "Ley de 24 de julio de 1873 (Benot).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "En la definición del Derecho del Trabajo NO encontramos",
       "answers": [
@@ -828,8 +852,8 @@
         { "text": "la ajenidad", "correct": false },
         { "text": "la exclusividad", "correct": true }
       ],
-      "explanation": "ES: No existe obligación de exclusividad salvo pacto; el pluriempleo es posible. IT: L’esclusività non è essenziale; il plurimpiego è ammesso salvo patti.",
-      "legal_reference": "ET art. 21.1 (no concurrencia durante la relación); ET art. 5.a (buena fe).",
+      "explanation": "ES: A) B) C) Falsas: son notas típicas del trabajo subordinado. D) Verdadera: la exclusividad no es elemento esencial (salvo pacto). IT: A) B) C) False. D) Vera: l’esclusività non è requisito essenziale.",
+      "legal_reference": "ET art. 21.1 (no concurrencia durante la relación) y régimen de exclusividad por pacto expreso.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
 
@@ -841,10 +865,11 @@
         { "text": "Convenios colectivos", "correct": false },
         { "text": "Todas lo son", "correct": false }
       ],
-      "explanation": "ES: Las disposiciones legales existen en todo el ordenamiento, no son exclusivas del laboral. IT: Le “disposizioni di legge” non sono peculiari del diritto del lavoro.",
+      "explanation": "ES: A) Verdadera: disposiciones legales existen en todo el ordenamiento. B) C) Falsas: el contrato de trabajo y el convenio colectivo sí son específicos del ámbito laboral. D) Falsa: no todas lo son. IT: A) Vera. B) C) False. D) Falsa.",
       "legal_reference": "ET art. 3.1 (fuentes del Derecho del Trabajo).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "El derecho a la negociación colectiva (Art. 37 de la Constitución española) es susceptible de:",
       "answers": [
@@ -853,10 +878,11 @@
         { "text": "Un procedimiento preferente y sumario", "correct": false },
         { "text": "Recurso de amparo", "correct": false }
       ],
-      "explanation": "ES: No es derecho fundamental tutelable en amparo ni con procedimiento preferente; la normativa que lo regule puede ser impugnada por inconstitucionalidad. IT: Non è diritto fondamentale (no amparo); una legge che lo incida può essere impugnata per incostituzionalità.",
-      "legal_reference": "CE arts. 37, 53 y 86; LOTC arts. 31-32, 41-42 (ámbito del amparo: arts. 14–29 y 30.2 CE).",
+      "explanation": "ES: A) Verdadera: las leyes que lo regulan pueden impugnarse por inconstitucionalidad. B) Falsa: no es derecho fundamental tutelable en amparo. C) Falsa: el procedimiento preferente y sumario se reserva a ciertos derechos fundamentales. D) Falsa: no procede amparo por el art. 37 CE. IT: A) Vera. B) Falsa. C) Falsa. D) Falsa.",
+      "legal_reference": "CE arts. 37, 53; LOTC arts. 31–32, 41–42.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "El instrumento normativo del derecho comunitario europeo que se dirige exclusivamente a los Estados miembros y obliga a estos a llevar a cabo una actuación positiva denominada transposición se denomina:",
       "answers": [
@@ -865,10 +891,11 @@
         { "text": "Recomendación", "correct": false },
         { "text": "Directiva", "correct": true }
       ],
-      "explanation": "ES: La Directiva obliga al resultado y requiere transposición estatal. IT: La Direttiva vincola sul risultato e richiede recepimento.",
-      "legal_reference": "TFUE art. 288 (ant. art. 249 TCE).",
+      "explanation": "ES: A) Falsa: la decisión puede dirigirse también a destinatarios determinados. B) Falsa: el reglamento es directamente aplicable. C) Falsa: la recomendación no es vinculante. D) Verdadera: la directiva obliga al resultado y requiere transposición. IT: A) Falsa. B) Falsa. C) Falsa. D) Vera.",
+      "legal_reference": "TFUE art. 288.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "El órgano de la OIT integrado por cuatro representantes de cada estado miembro (dos por el gobierno, uno por los empresarios y otro por los trabajadores), que se reúne al menos una vez al año y tiene, entre otras atribuciones, la de adoptar convenios y recomendaciones, aprobar los presupuestos y el control de la acción de otros órganos es:",
       "answers": [
@@ -877,10 +904,11 @@
         { "text": "La Oficina Internacional de Trabajo", "correct": false },
         { "text": "La directiva", "correct": false }
       ],
-      "explanation": "ES: La Conferencia Internacional del Trabajo es el órgano normativo de la OIT. IT: La Conferenza Internazionale del Lavoro è l’organo normativo dell’OIL.",
+      "explanation": "ES: A) Verdadera: es la Conferencia Internacional del Trabajo. B) Falsa: el Consejo es órgano de gobierno permanente. C) Falsa: la Oficina es secretaría técnica. D) Falsa: “directiva” no es órgano. IT: A) Vera. B) Falsa. C) Falsa. D) Falsa.",
       "legal_reference": "Constitución de la OIT arts. 3, 14 y 19.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "El Principio de condición más beneficiosa implica:",
       "answers": [
@@ -889,10 +917,11 @@
         { "text": "Que la norma de rango inferior puede modificar la de rango superior para mejorarla", "correct": false },
         { "text": "Que los derechos adquiridos por el trabajador por contrato de trabajo no se pierden aunque cambien las leyes", "correct": true }
       ],
-      "explanation": "ES: Las condiciones más beneficiosas contractuales se conservan salvo compensación/absorción. IT: Le condizioni più favorevoli contrattuali si mantengono salvo compensazione/assorbimento.",
-      "legal_reference": "ET art. 3.1.c y 26.5; jurisprudencia TS sobre condición más beneficiosa (p.ej. SSTS 22-12-2014, 16-02-2016).",
+      "explanation": "ES: A) Falsa: rige la irrenunciabilidad en perjuicio del trabajador. B) Falsa: eso es el principio de norma más favorable. C) Falsa: la jerarquía normativa no se altera; puede operar mejora convencional/contractual. D) Verdadera: las condiciones más beneficiosas se conservan salvo compensación/absorción. IT: A) Falsa. B) Falsa. C) Falsa. D) Vera.",
+      "legal_reference": "ET art. 3.1.c y 26.5; jurisprudencia TS sobre condición más beneficiosa.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "¿En virtud de qué principio no se pueden empeorar en los contratos de trabajo las condiciones establecidas en los convenios colectivos?",
       "answers": [
@@ -901,10 +930,11 @@
         { "text": "Principio de irrenunciabilidad de derechos", "correct": false },
         { "text": "Principio pro operario", "correct": false }
       ],
-      "explanation": "ES: La norma inferior no puede empeorar lo fijado por la superior: prevalece la más favorable en conjunto. IT: La norma di grado inferiore non può peggiorare quella superiore: prevale la più favorevole nel complesso.",
-      "legal_reference": "ET art. 3.3; CE art. 37.1; doctrina TS sobre criterio de globalidad.",
+      "explanation": "ES: A) Verdadera: prevalece la norma más favorable en conjunto; el contrato no puede empeorar el convenio. B) Falsa: se refiere a derechos adquiridos individuales. C) Falsa: impide renuncias en perjuicio, pero no es el criterio de comparación normativa. D) Falsa: es criterio hermenéutico, no de jerarquía de fuentes. IT: A) Vera. B) Falsa. C) Falsa. D) Falsa.",
+      "legal_reference": "ET art. 3.3; CE art. 37.1.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "¿En virtud de qué principio, donde existan varias interpretaciones posibles de un precepto de derecho del trabajo, será de aplicación la interpretación que mayor beneficio reporte al trabajador?",
       "answers": [
@@ -913,10 +943,11 @@
         { "text": "Principio de condición más beneficiosa", "correct": false },
         { "text": "Principio de irrenunciabilidad de derechos", "correct": false }
       ],
-      "explanation": "ES: El pro operario es un criterio hermenéutico ante dudas interpretativas. IT: Il pro operario è un criterio interpretativo a favore del lavoratore nei casi dubbi.",
-      "legal_reference": "ET art. 3; CC art. 3.1; jurisprudencia TS (criterio pro operario).",
+      "explanation": "ES: A) Verdadera: criterio hermenéutico ante dudas interpretativas. B) C) D) Falsas: son principios distintos (comparación de normas, derechos adquiridos, indisponibilidad). IT: A) Vera. B) C) D) False.",
+      "legal_reference": "ET art. 3; CC art. 3.1; jurisprudencia TS (pro operario).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "Las normas con rango de ley, elaboradas por el Gobierno ante situaciones extraordinarias o de urgente necesidad son:",
       "answers": [
@@ -925,10 +956,11 @@
         { "text": "Las leyes orgánicas", "correct": false },
         { "text": "Las leyes ordinarias", "correct": false }
       ],
-      "explanation": "ES: El Decreto-ley lo dicta el Gobierno por urgente necesidad. IT: Il Decreto-legge è adottato dal Governo in casi di necessità e urgenza.",
-      "legal_reference": "CE art. 86.",
+      "explanation": "ES: A) Verdadera: el Gobierno dicta decretos-ley por urgente necesidad. B) Falsa: los decretos legislativos derivan de delegación parlamentaria. C) D) Falsas: son categorías legislativas de las Cortes, no del Gobierno por urgencia. IT: A) Vera. B) Falsa. C) D) False.",
+      "legal_reference": "CE art. 86 y 82.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "Un texto articulado (Real Decreto Legislativo) se dicta en desarrollo de:",
       "answers": [
@@ -937,10 +969,11 @@
         { "text": "Una ley de bases", "correct": true },
         { "text": "Un decreto ley", "correct": false }
       ],
-      "explanation": "ES: La delegación para textos articulados se hace mediante ley de bases. IT: La delega per testi articolati avviene con legge di basi.",
-      "legal_reference": "CE art. 82.2 y 82.3.",
+      "explanation": "ES: A) Falsa: el tipo (orgánica/ordinaria) es irrelevante; lo decisivo es la ley de bases. B) Falsa: no es una “ley de delegación” genérica, sino una ley de bases. C) Verdadera: los textos articulados desarrollan leyes de bases. D) Falsa: el decreto-ley no delega. IT: A) Falsa. B) Falsa. C) Vera. D) Falsa.",
+      "legal_reference": "CE art. 82.2–82.3.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "Conforme con el Artículo 3 del Estatuto de los Trabajadores, la primera fuente del Derecho del Trabajo será:",
       "answers": [
@@ -949,11 +982,10 @@
         { "text": "Las disposiciones legales y reglamentarias", "correct": true },
         { "text": "El contrato de trabajo", "correct": false }
       ],
-      "explanation": "ES: El ET sitúa en primer lugar las disposiciones legales y reglamentarias. IT: L’ET pone al primo posto le disposizioni legali e regolamentari.",
+      "explanation": "ES: A) B) D) Falsas: son fuentes, pero no las primeras en la prelación. C) Verdadera: la ley y el reglamento ocupan el primer lugar. IT: A) B) D) False. C) Vera.",
       "legal_reference": "ET art. 3.1 a).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
-
     {
       "question": "¿Cuál no es una relación laboral de carácter especial de las recogidas en el artículo 2 del Estatuto de los Trabajadores?",
       "answers": [
@@ -962,7 +994,7 @@
         { "text": "Penados en las instituciones penitenciarias", "correct": false },
         { "text": "Artistas en espectáculos públicos", "correct": false }
       ],
-      "explanation": "ES: Los funcionarios se rigen por Derecho administrativo, no por relación laboral especial. IT: I funzionari pubblici rientrano nel diritto amministrativo, non in un rapporto di lavoro speciale.",
+      "explanation": "ES: A) Verdadera: los funcionarios se rigen por Derecho administrativo (no relación laboral especial). B) Falsa: el hogar familiar sí es relación laboral especial. C) Falsa: penados trabajando en prisión es relación especial. D) Falsa: artistas en espectáculos públicos es relación especial. IT: A) Vera: i funzionari sono regolati dal diritto amministrativo, non da un rapporto speciale. B) Falsa: il lavoro domestico è rapporto speciale. C) Falsa: i detenuti lavoratori rientrano tra i rapporti speciali. D) Falsa: anche gli artisti dello spettacolo sono rapporto speciale.",
       "legal_reference": "ET art. 2; RDL 5/2015 (EBEP) art. 1 y 2.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -974,7 +1006,7 @@
         { "text": "La del servicio del hogar familiar y los menores de edad", "correct": false },
         { "text": "La de los funcionarios y del personal estatutario", "correct": false }
       ],
-      "explanation": "ES: Alta dirección, deportistas y artistas son relaciones especiales. IT: Dirigenti, sportivi e artisti sono rapporti speciali.",
+      "explanation": "ES: A) Verdadera: todos los citados son relaciones especiales. B) Falsa: los menores no constituyen por sí una “relación especial”; el TRADE tampoco. C) Falsa: mezclar hogar familiar (sí especial) con menores (no) hace la opción incorrecta. D) Falsa: funcionarios/personal estatutario se rigen por derecho público, no relación laboral. IT: A) Vera: alta direzione, sportivi e artisti = rapporti speciali. B) Falsa: i minori non configurano un rapporto speciale; il TRADE è autonomo. C) Falsa: combinazione eterogenea rende l’opzione errata. D) Falsa: funzionari/statutari sono diritto pubblico.",
       "legal_reference": "ET art. 2; RD 1382/1985 (alta dirección); RD 1006/1985 (deportistas); RD 1435/1985 (artistas).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -986,19 +1018,19 @@
         { "text": "Son trabajadores autónomos", "correct": false },
         { "text": "Su relación de servicios se rige por la normativa mercantil", "correct": false }
       ],
-      "explanation": "ES: Su vínculo es estatutario, no laboral. IT: Il loro rapporto è statutario, non di lavoro subordinato.",
+      "explanation": "ES: A) Verdadera: vínculo estatutario-administrativo. B) Falsa: no es relación especial, sino estatutaria. C) Falsa: no son autónomos. D) Falsa: no se rigen por normativa mercantil. IT: A) Vera: rapporto di servizio pubblicistico. B) Falsa: non è rapporto speciale ma statutario. C) Falsa: non autonomi. D) Falsa: non diritto commerciale.",
       "legal_reference": "RDL 5/2015 (EBEP) arts. 2 y 8; ET art. 1.3 a).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
     {
-      "question": "Según la disposición final primera del Estatuto de los Trabajadores: El trabajo por cuenta propia:",
+      "question": "Según la disposición final primera del Estatuto de los Trabajadores: El trabajo por cuenta propia",
       "answers": [
-        { "text": "No está sometido a la legislación laboral excepto en aquellos aspectos que, por precepto legal, se disponga expresamente", "correct": true },
         { "text": "Está sometido siempre a la legislación laboral", "correct": false },
+        { "text": "No está sometido a la legislación laboral excepto en aquellos aspectos que, por precepto legal, se disponga expresamente", "correct": true },
         { "text": "No está sometido nunca a la legislación laboral", "correct": false },
         { "text": "No está sometido a la legislación laboral excepto en aquellos aspectos que, por precepto legal o convenio colectivo se disponga expresamente", "correct": false }
       ],
-      "explanation": "ES: El ET excluye el trabajo por cuenta propia salvo remisión legal. IT: L’ET esclude il lavoro autonomo salvo rinvii di legge.",
+      "explanation": "ES: A) Falsa: no “siempre”. B) Verdadera: solo cuando una ley lo disponga. C) Falsa: tampoco “nunca”. D) Falsa: el convenio no puede someter al autónomo al ET por sí solo. IT: A) Falsa. B) Vera: serve rinvio legale espresso. C) Falsa. D) Falsa: il CCNL non estende l’ET all’autonomo.",
       "legal_reference": "ET art. 1; LETA art. 1 y 2.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1010,7 +1042,7 @@
         { "text": "Los trabajadores que se comprometen personalmente a la realización de un servicio", "correct": false },
         { "text": "Los trabajadores que realizan trabajos retribuidos", "correct": false }
       ],
-      "explanation": "ES: La relación laboral requiere ajenidad y dependencia; el autónomo queda excluido. IT: Il lavoro autonomo è fuori dal campo del lavoro subordinato.",
+      "explanation": "ES: A) Verdadera: el autónomo queda fuera del ET. B) Falsa: por cuenta ajena es el núcleo del ET. C) Falsa: compromiso personal puede ser laboral si hay ajenidad y dependencia. D) Falsa: la retribución no excluye la laboralidad. IT: A) Vera: il lavoro autonomo è escluso. B) Falsa: per conto altrui = campo dell’ET. C) Falsa. D) Falsa.",
       "legal_reference": "ET art. 1.1 y 1.3; LETA art. 1.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1022,7 +1054,7 @@
         { "text": "Los servicios de transportistas que utilizan vehículos de su propiedad", "correct": false },
         { "text": "Las actividades de los agentes de comercio que asuman todo el riesgo de la operación", "correct": false }
       ],
-      "explanation": "ES: Alta dirección es relación laboral especial, no exclusión absoluta. IT: L’alta direzione è rapporto speciale, non escluso dal campo del lavoro.",
+      "explanation": "ES: A) Verdadera: alta dirección es relación laboral especial (no exclusión). B) Falsa: amistad/vecindad están excluidos. C) Falsa: con vehículo propio y autonomía, suelen ser excluidos. D) Falsa: agentes que asumen el riesgo operan como autónomos. IT: A) Vera: alta direzione = rapporto speciale, non escluso. B) Falsa. C) Falsa. D) Falsa.",
       "legal_reference": "ET art. 2.1 a); RD 1382/1985 (alta dirección).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1034,7 +1066,7 @@
         { "text": "Relación laboral especial. (Art. 2 TRET)", "correct": false },
         { "text": "Ninguna de las anteriores", "correct": false }
       ],
-      "explanation": "ES: Prestación con vehículo propio y autorización suele encajar en relación mercantil excluida del ET. IT: Prestazione con mezzo proprio e licenza rientra di regola in rapporto commerciale escluso dall’ET.",
+      "explanation": "ES: A) Verdadera: se encuadra normalmente en relación mercantil excluida del ET. B) Falsa: no es típica relación laboral por ajenidad/vehículo. C) Falsa: no es relación especial. D) Falsa. IT: A) Vera: di regola è rapporto commerciale escluso dall’ET. B) Falsa. C) Falsa. D) Falsa.",
       "legal_reference": "ET art. 1.3 g) y h) (supuestos excluidos); LOTT y normativa de transporte (régimen mercantil).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1046,7 +1078,7 @@
         { "text": "Es un contrato laboral común", "correct": false },
         { "text": "Ninguna de las anteriores es cierta", "correct": false }
       ],
-      "explanation": "ES: Alta dirección tiene régimen laboral especial específico. IT: La dirigenza apicale è rapporto speciale con disciplina propria.",
+      "explanation": "ES: A) Verdadera: alta dirección tiene régimen especial. B) Falsa: no está excluida del ET en general; tiene normativa especial. C) Falsa: no es relación común. D) Falsa. IT: A) Vera. B) Falsa. C) Falsa. D) Falsa.",
       "legal_reference": "ET art. 2.1 a); RD 1382/1985 (relación laboral de alta dirección).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1058,7 +1090,7 @@
         { "text": "Desde el momento en el que comenzó la relación contractual con el cliente", "correct": false },
         { "text": "Desde el momento en el que el juez, vistas las pruebas, considere", "correct": false }
       ],
-      "explanation": "ES: Los efectos se anudan a la recepción por el cliente de la comunicación fehaciente. IT: Gli effetti decorrono dalla ricezione della comunicazione da parte del cliente.",
+      "explanation": "ES: A) Verdadera: efectos desde la recepción por el cliente. B) Falsa: el envío no basta. C) Falsa: no hay retroacción al inicio. D) Falsa: la ley fija el momento, no la discreción judicial. IT: A) Vera. B) Falsa. C) Falsa. D) Falsa.",
       "legal_reference": "Ley 20/2007 (LETA) art. 12; RD 197/2009 art. 3.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1070,7 +1102,7 @@
         { "text": "Aunque es autónomo, al ser un despido le corresponde la Jurisdicción Social", "correct": false },
         { "text": "Al ser autónomo, la Jurisdicción Mercantil, en todo caso", "correct": false }
       ],
-      "explanation": "ES: La LRJS atribuye a lo social los litigios derivados del contrato TRADE. IT: La LRJS devolve alla giurisdizione sociale le controversie del TRADE.",
+      "explanation": "ES: A) Verdadera: los litigios TRADE con el cliente son sociales. B) Falsa: no por ser autónomo pasa a Mercantil. C) Falsa: el criterio es la materia TRADE, no ‘despido’. D) Falsa: Mercantil no es competente en todo caso. IT: A) Vera. B) Falsa. C) Falsa. D) Falsa.",
       "legal_reference": "LRJS art. 2 n) (competencia en materia de trabajadores autónomos económicamente dependientes).",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1082,7 +1114,7 @@
         { "text": "Todo el contrato resulta válido, convalidando la parte nula", "correct": false },
         { "text": "Su validez o nulidad dependerá de la importancia de la cláusula nula", "correct": false }
       ],
-      "explanation": "ES: La nulidad parcial no arrastra el resto del contrato, que se integra con las normas aplicables. IT: La nullità parziale non travolge l’intero contratto; la parte restante si integra con le norme pertinenti.",
+      "explanation": "ES: A) Verdadera: rige la nulidad parcial con integración normativa. B) Falsa: no se anula todo salvo indisolubilidad. C) Falsa: la parte nula no se convalida. D) Falsa: no depende de la ‘importancia’ sino de separabilidad. IT: A) Vera. B) Falsa. C) Falsa. D) Falsa.",
       "legal_reference": "ET art. 9.1",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1094,7 +1126,7 @@
         { "text": "Deja un gran margen de actuación a la voluntad de las partes", "correct": false },
         { "text": "Todas son falsas", "correct": false }
       ],
-      "explanation": "ES: El acuerdo contractual crea la relación laboral, pero no puede empeorar lo fijado por la ley o el convenio. IT: Il contratto costituisce il rapporto di lavoro ma non può derogare in peius a legge o contratto collettivo.",
+      "explanation": "ES: A) Verdadera: el acuerdo origina la relación. B) Falsa: no puede empeorar mínimos legales/convencionales. C) Falsa: la autonomía está limitada por normas imperativas. D) Falsa: hay una verdadera. IT: A) Vera. B) Falsa. C) Falsa. D) Falsa.",
       "legal_reference": "ET arts. 1, 3 y 8",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1106,7 +1138,7 @@
         { "text": "Es un contrato de mandato, en el que el trabajador realiza negocios o actos por cuenta de otra persona, el empresario", "correct": false },
         { "text": "Es un arrendamiento de servicios, en el que se pacta la ejecución de unos trabajos, no la entrega de una obra", "correct": false }
       ],
-      "explanation": "ES: Es un contrato típico regulado por el ET y normativa laboral. IT: È un contratto tipico e nominato, disciplinato dall’ET e dalla normativa del lavoro.",
+      "explanation": "ES: A) Verdadera: figura típica regulada por el ET. B) C) D) Falsas: analogías civiles no captan ajenidad/dependencia del trabajo. IT: A) Vera. B) C) D) False: gli schemi civilistici non colgono alienità e subordinazione.",
       "legal_reference": "ET (texto refundido) arts. 1–3 y 8; CC art. 1255 (límites a la autonomía)",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1118,7 +1150,7 @@
         { "text": "Se establece a partir de los 14 años", "correct": false },
         { "text": "Se permite a los menores de 16, siempre que estén emancipados", "correct": false }
       ],
-      "explanation": "ES: Pueden contratar mayores de 16 y menores de 18 con consentimiento o si están emancipados. IT: Possono lavorare i maggiori di 16 anni con consenso o se emancipati.",
+      "explanation": "ES: A) Verdadera: capacidad laboral básica desde 16 (con consentimiento salvo emancipación). B) Falsa. C) Falsa. D) Falsa: menores de 16 no pueden trabajar salvo supuestos artísticos tasados. IT: A) Vera: capacità lavorativa da 16 (con consenso, salvo emancipazione). B) C) D) False.",
       "legal_reference": "ET art. 7; CC arts. 162, 323–326 (emancipación)",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1130,7 +1162,7 @@
         { "text": "Sí, en todo caso", "correct": false },
         { "text": "Necesitará, en todo caso, la autorización de padre o tutor", "correct": false }
       ],
-      "explanation": "ES: El enunciado considera válida también la categoría de «vive independiente», que no figura como tal en la ley; la capacidad deriva de emancipación o autorización. IT: L’enunciato include «vive indipendente», nozione non prevista; la capacità si fonda su emancipazione o autorizzazione.",
+      "explanation": "ES: A) Verdadera en el ítem: emancipada/o o con autorización puede; la mención «vive independiente» no es categoría legal autónoma, salvo que implique emancipación de hecho reconocida. B) Falsa. C) Falsa. D) Falsa: no siempre se requiere autorización (si emancipado). IT: A) Vera nel test: emancipazione o autorizzazione; “vive indipendente” non è categoria autonoma salvo riconoscimento di emancipazione. B) Falsa. C) Falsa. D) Falsa.",
       "legal_reference": "ET art. 7; CC arts. 162 y 323",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1142,7 +1174,7 @@
         { "text": "Sí, el límite de edad sólo se establece para los trabajadores", "correct": false },
         { "text": "No. En ningún caso", "correct": false }
       ],
-      "explanation": "ES: La capacidad general para contratar como empresario requiere mayoría de edad o emancipación. IT: Per agire come imprenditore serve la maggiore età o l’emancipazione.",
+      "explanation": "ES: A) Verdadera: se requiere mayoría de edad o emancipación. B) Falsa: representante no suple la falta de capacidad. C) Falsa. D) Falsa: hay excepción por emancipación. IT: A) Vera. B) Falsa. C) Falsa. D) Falsa.",
       "legal_reference": "CC arts. 322–323; Código de Comercio art. 4",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1154,7 +1186,7 @@
         { "text": "Que el contrato de trabajo es válido y no se puede anular pero que el empresario podrá ser sancionado por cometer una infracción muy grave", "correct": false },
         { "text": "Te concede una bonificación en la Seguridad Social", "correct": false }
       ],
-      "explanation": "ES: Está prohibido contratar menores de 16; el contrato es anulable y la infracción es muy grave. IT: Vietato assumere minori di 16 anni; il contratto è annullabile e l’infrazione è molto grave.",
+      "explanation": "ES: A) Verdadera: prohibido contratar menores de 16 ⇒ anulabilidad e infracción muy grave. B) Falsa. C) Falsa: sí es anulable. D) Falsa. IT: A) Vera. B) C) D) False.",
       "legal_reference": "ET art. 6.1; LISOS art. 8.3",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1166,7 +1198,7 @@
         { "text": "no se recoge en el Estatuto de los trabajadores", "correct": false },
         { "text": "no existe tal presunción", "correct": false }
       ],
-      "explanation": "ES: La prestación por cuenta ajena y dependiente presume laboralidad, pero es iuris tantum. IT: La prestazione per conto altrui e in dipendenza presume il rapporto di lavoro, ma è presunzione relativa.",
+      "explanation": "ES: A) Verdadera: presunción iuris tantum de laboralidad. B) C) D) Falsas. IT: A) Vera: presunzione relativa. B) C) D) False.",
       "legal_reference": "ET art. 8.1–8.2; doctrina TS sobre presunción de laboralidad",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1178,8 +1210,8 @@
         { "text": "Por el contrato de trabajo el trabajador se compromete a prestar determinados servicios", "correct": false },
         { "text": "Por el contrato de trabajo el empresario se obliga a pagar un salario al trabajador", "correct": false }
       ],
-      "explanation": "ES: El contrato puede ser escrito o verbal salvo supuestos tasados. IT: Il contratto può essere scritto o verbale salvo casi obbligatori.",
-      "legal_reference": "ET art. 8.1–8.2",
+      "explanation": "ES: A) Verdadera como ‘no correcta’: puede ser escrito o verbal salvo supuestos. B) C) D) Verdaderas (por eso no son la ‘no correcta’): definen elementos básicos del contrato laboral. IT: A) Vera come affermazione non corretta: può essere anche verbale. B) C) D) Vere (quindi non la ‘non corretta’).",
+        "legal_reference": "ET art. 8.1–8.2",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
     {
@@ -1190,11 +1222,10 @@
         { "text": "2 meses", "correct": false },
         { "text": "6 meses", "correct": false }
       ],
-      "explanation": "ES: Para trabajadores que no sean técnicos titulados, el máximo es 3 meses en empresas <25. IT: Per non tecnici, limite 3 mesi nelle imprese con meno di 25 dipendenti.",
+      "explanation": "ES: A) Verdadera: máximo 3 meses. B) C) D) Falsas: no se ajustan al límite legal. IT: A) Vera. B) C) D) False.",
       "legal_reference": "ET art. 14.1 (límites del período de prueba)",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
-
     {
       "question": "Los contratos a tiempo parcial se pueden celebrar",
       "answers": [
@@ -1203,7 +1234,7 @@
         { "text": "Con una duración determinada, exclusivamente", "correct": false },
         { "text": "Sólo con una duración determinada, y siempre que se alegue la causa", "correct": false }
       ],
-      "explanation": "ES: El tiempo parcial puede ser indefinido o temporal. IT: Il part-time può essere a tempo indeterminato o determinato.",
+      "explanation": "ES: A) Verdadera: part-time puede ser indefinido o temporal. B) C) D) Falsas. IT: A) Vera. B) C) D) False.",
       "legal_reference": "ET art. 12.1–12.2",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1215,7 +1246,7 @@
         { "text": "su conversión en indefinido o viceversa cabe de forma obligatoria en una modificación sustancial de condiciones de trabajo", "correct": false },
         { "text": "el empresario podrá requerir la prestación de horas complementarias con un preaviso de 5 días", "correct": false }
       ],
-      "explanation": "ES: En el tiempo parcial, por regla general, no caben horas extraordinarias (salvo fuerza mayor). IT: Nel part-time gli straordinari sono vietati (salvo forza maggiore).",
+      "explanation": "ES: A) Verdadera: salvo fuerza mayor, no hay horas extra en part-time. B) Falsa: el part-time no se aplica a ciertos contratos formativos según régimen vigente. C) Falsa: la conversión no es obligatoria por MSCT. D) Falsa: el preaviso típico de horas complementarias es de 3 días (salvo convenio). IT: A) Vera: niente straordinari (salvo forza maggiore). B) Falsa. C) Falsa. D) Falsa: preavviso ordinario 3 giorni salvo CCNL.",
       "legal_reference": "ET art. 12.4.c) y 12.5 (horas complementarias)",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1227,7 +1258,7 @@
         { "text": "Los contratos por tiempo indefinido no son incentivados por el Derecho español, al ser poco atractivos en un contexto económico en continua transformación", "correct": false },
         { "text": "Los contratos de duración determinada no tienen previsto inicialmente el momento o la causa de su extinción", "correct": false }
       ],
-      "explanation": "ES: La temporalidad exige causa objetiva; el indefinido es la regla. IT: Il tempo determinato richiede causale; l’indeterminato è la regola.",
+      "explanation": "ES: A) Verdadera: la temporalidad exige causa. B) Falsa: ‘contratos basura’ no es categoría jurídica. C) Falsa: el indefinido es la regla e incentivado. D) Falsa: en los temporales sí está prevista causa/fecha. IT: A) Vera. B) Falsa. C) Falsa. D) Falsa.",
       "legal_reference": "ET art. 15.1–15.2 (tras RDL 32/2021)",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1239,7 +1270,7 @@
         { "text": "Nunca se presumirán celebrados por tiempo indefinido los contratos de duración determinada", "correct": false },
         { "text": "Siempre se presumirán celebrados por tiempo indefinido los contratos de duración determinada", "correct": false }
       ],
-      "explanation": "ES: Sin alta y transcurrido el periodo de prueba, se presume indefinido a jornada completa salvo prueba en contrario. IT: Senza iscrizione alla SS e decorso il periodo di prova, si presume a tempo indeterminato full-time salvo prova contraria.",
+      "explanation": "ES: A) Verdadera: falta de alta + transcurso del periodo activan presunción de indefinido a tiempo completo. B) Falsa. C) Falsa. D) Falsa. IT: A) Vera. B) C) D) False.",
       "legal_reference": "ET art. 8.2 (falta de forma escrita o de alta) y 15.3 (fraude)",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1251,7 +1282,7 @@
         { "text": "Relevo", "correct": false },
         { "text": "Selección", "correct": false }
       ],
-      "explanation": "ES: Tras la reforma, la modalidad es «contrato de sustitución». IT: Dopo la riforma, la figura è il «contratto di sostituzione».",
+      "explanation": "ES: A) Verdadera: tras la reforma, la modalidad es «contrato de sustitución». B) Falsa: la antigua ‘interinidad’ fue reemplazada. C) Falsa: el relevo tiene régimen específico ligado a jubilación parcial. D) Falsa: no existe “contrato de selección”. IT: A) Vera. B) Falsa. C) Falsa. D) Falsa.",
       "legal_reference": "ET art. 15.3 (sustitución del trabajador con reserva de puesto / durante selección)",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1263,7 +1294,7 @@
         { "text": "No se ha dado de alta al trabajador en la seguridad social", "correct": false },
         { "text": "Se incumplen las disposiciones sobre denuncia", "correct": false }
       ],
-      "explanation": "ES: Determinados incumplimientos (forma, alta, fraude/denuncia) conducen a la presunción de indefinido a tiempo completo. IT: Alcune violazioni (forma, iscrizione, frode/denuncia) portano alla presunzione di indeterminato full-time.",
+      "explanation": "ES: A) Verdadera: cualquiera de los incumplimientos indicados conduce a presunción de indefinido a jornada completa. B) C) D) Falsas aisladamente como ‘únicas’ causas, pues A las integra a todas. IT: A) Vera. B) C) D) False se considerate singolarmente: A ricomprende tutte.",
       "legal_reference": "ET arts. 8.2 y 15.3; doctrina sobre fraude de ley en temporalidad",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1275,7 +1306,7 @@
         { "text": "Dependiendo de si ha finalizado la circunstancia que lo causa", "correct": false },
         { "text": "Sí, tantas prórrogas como se quiera, siempre que su duración no haya llegado al máximo permitido", "correct": false }
       ],
-      "explanation": "ES: Admite una sola prórroga si no se alcanza el máximo legal o convencional. IT: È ammessa un’unica proroga se non si supera il limite massimo.",
+      "explanation": "ES: A) Verdadera: cabe una única prórroga dentro del tope. B) Falsa. C) Falsa: no es criterio decisivo. D) Falsa: no son “tantas como se quiera”. IT: A) Vera. B) C) D) False.",
       "legal_reference": "ET art. 15.2 (circunstancias de la producción)",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1287,7 +1318,7 @@
         { "text": "8 meses", "correct": false },
         { "text": "3 meses", "correct": false }
       ],
-      "explanation": "ES: Duración máxima legal supletoria de 6 meses (ampliable por convenio). IT: Durata massima legale, in via suppletiva, di 6 mesi (estendibile da CCNL).",
+      "explanation": "ES: A) Verdadera: máximo supletorio 6 meses (ampliable por convenio hasta 12). B) C) D) Falsas. IT: A) Vera: tetto legale 6 mesi (estendibile dal CCNL). B) C) D) False.",
       "legal_reference": "ET art. 15.2 (imprevisibles: 6 de 12 por convenio)",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1299,7 +1330,7 @@
         { "text": "9 días de salario por año de servicio", "correct": false },
         { "text": "10 días de salario por año de servicio", "correct": false }
       ],
-      "explanation": "ES: Indemnización legal de 12 días/año para la mayoría de temporales. IT: Indennità legale di 12 giorni/anno per i rapporti a termine.",
+      "explanation": "ES: A) Verdadera: 12 días/año para la mayoría de temporales. B) C) D) Falsas. IT: A) Vera. B) C) D) False.",
       "legal_reference": "ET art. 49.1.c) (indemnización por fin de contrato temporal)",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1311,11 +1342,10 @@
         { "text": "2 meses", "correct": false },
         { "text": "6 meses", "correct": false }
       ],
-      "explanation": "ES: La cobertura de vacante durante selección se limita a 3 meses. IT: La copertura della vacanza durante la selezione è limitata a 3 mesi.",
+      "explanation": "ES: A) Verdadera: límite de 3 meses. B) C) D) Falsas. IT: A) Vera. B) C) D) False.",
       "legal_reference": "ET art. 15.3 (sustitución por cobertura de vacante)",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
-
     {
       "question": "¿Tiene el trabajador que cumplir las órdenes del empresario o puede desobedecer las que no considere adecuadas?",
       "answers": [
@@ -1324,7 +1354,7 @@
         { "text": "Sí, siempre que se le hagan con educación tiene que cumplirlas, porque si no las cumple el empresario puede despedir al trabajador por desobediencia", "correct": false },
         { "text": "El trabajador, como persona, tiene libertad y autonomía para decidir qué órdenes cumple y cuáles no, conforme al derecho de la objeción de conciencia", "correct": false }
       ],
-      "explanation": "ES: Regla de cumplimiento y posterior impugnación; cabe negativa ante órdenes ilícitas o notoriamente infundadas. IT: Regola dell’ottemperanza con impugnazione successiva; è legittimo rifiutare ordini illeciti o manifestamente infondati.",
+      "explanation": "ES: A) Verdadera: regla de obediencia con posibilidad de impugnar; cabe desobedecer órdenes ilícitas o notoriamente infundadas. B) C) Falsas: no toda orden es exigible sin matices. D) Falsa: no existe objeción general a órdenes laborales. IT: A) Vera: obbedienza con impugnazione; rifiuto solo per ordini illeciti o manifestamente irragionevoli. B) C) False. D) Falsa.",
       "legal_reference": "ET arts. 5.a), 20.2–20.3 y 54.2 b)–d); doctrina TS",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1336,7 +1366,7 @@
         { "text": "No discriminar por razón de sexo a los compañeros", "correct": false },
         { "text": "Todas las respuestas son correctas", "correct": false }
       ],
-      "explanation": "ES: La seguridad y salud y la diligencia/productividad forman parte de los deberes básicos. IT: Sicurezza e salute e diligenza/produttività rientrano tra i doveri basilari.",
+      "explanation": "ES: A) Verdadera: deberes básicos del trabajador. B) Falsa: la cotización es obligación empresarial principal (con descuentos); la no concurrencia tiene encuadre específico. C) Falsa: la no discriminación es derecho/garantía, no deber básico formulado así. D) Falsa. IT: A) Vera. B) Falsa. C) Falsa. D) Falsa.",
       "legal_reference": "ET art. 5 y 19; LPRL 31/1995 art. 29",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1348,7 +1378,7 @@
         { "text": "Pueden tener trabajadores con contrato indefinido, pero para sus oficinas, no para cederlos a otras empresas", "correct": false },
         { "text": "Todas son correctas", "correct": false }
       ],
-      "explanation": "ES: Su objeto es la cesión temporal; los trabajadores pueden estar vinculados a la ETT con distintos contratos. IT: L’oggetto è la somministrazione temporanea; i lavoratori possono avere vari tipi di contratto con l’agenzia.",
+      "explanation": "ES: A) Verdadera: objeto = cesión temporal. B) Falsa: los contratos con la ETT pueden ser también indefinidos. C) Falsa: la ETT puede ceder personal con contrato indefinido. D) Falsa. IT: A) Vera. B) Falsa. C) Falsa. D) Falsa.",
       "legal_reference": "Ley 14/1994, arts. 1–6 y 10",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1360,7 +1390,7 @@
         { "text": "No, dado que ello atentaría contra los derechos fundamentales del trabajador", "correct": false },
         { "text": "Sí, cuando ello sea necesario para la protección del patrimonio de la empresa", "correct": false }
       ],
-      "explanation": "ES: Las medidas deben respetar dignidad y proporcionalidad. IT: Le misure devono rispettare dignità e proporzionalità.",
+      "explanation": "ES: A) Verdadera: controles sí, pero con dignidad/proporcionalidad. B) Falsa: no ‘siempre’. C) Falsa: no están prohibidos per se. D) Falsa: la necesidad patrimonial no legitima cualquier medida. IT: A) Vera. B) Falsa. C) Falsa. D) Falsa.",
       "legal_reference": "ET art. 20.3; LOPDGDD art. 89–90; STC 39/2016",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1372,7 +1402,7 @@
         { "text": "Poder de control", "correct": false },
         { "text": "Ninguna de las respuestas anteriores es correcta", "correct": false }
       ],
-      "explanation": "ES: Es la manifestación del poder organizativo del empresario. IT: È la manifestazione del potere organizzativo del datore.",
+      "explanation": "ES: A) Verdadera: es manifestación del poder organizativo. B) Falsa: otro ámbito (sanciones). C) Falsa: control es otra faceta distinta. D) Falsa. IT: A) Vera: potere organizzativo. B) Falsa. C) Falsa. D) Falsa.",
       "legal_reference": "ET art. 20.1–20.2",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1384,7 +1414,7 @@
         { "text": "No, nuestro ordenamiento jurídico prohíbe el pluriempleo", "correct": false },
         { "text": "Nunca, salvo comunicación previa a los representantes sindicales", "correct": false }
       ],
-      "explanation": "ES: El pluriempleo es posible, salvo concurrencia desleal y pactos de exclusividad. IT: Il pluri-impiego è possibile, salvo concorrenza sleale e patti di esclusiva.",
+      "explanation": "ES: A) Verdadera: pluriempleo posible salvo concurrencia desleal o pactos. B) Falsa: no siempre. C) Falsa: no existe prohibición general. D) Falsa: no depende de informar a RLT. IT: A) Vera. B) Falsa. C) Falsa. D) Falsa.",
       "legal_reference": "ET art. 5.a) (buena fe) y art. 21.1 (no competencia durante la relación)",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1396,7 +1426,7 @@
         { "text": "Cuando la orden sea contraria a las normas laborales o sea ilícita penalmente", "correct": false },
         { "text": "Todas son falsas", "correct": false }
       ],
-      "explanation": "ES: Cabe negativa frente a órdenes ilícitas o manifiestamente irrazonables. IT: È legittimo rifiutare ordini illeciti o manifestamente irragionevoli.",
+      "explanation": "ES: A) Verdadera: cabe resistencia frente a órdenes ilícitas o manifiestamente irrazonables. B) Falsa: la regla es obedecer y reclamar, pero existen excepciones claras. C) Falsa: falta el supuesto de orden notoriamente infundada con descrédito profesional. D) Falsa: sí existe un supuesto legítimo (A). IT: A) Vera: è legittimo rifiutare ordini illeciti o manifestamente irragionevoli. B) Falsa: vige l’obbedienza con impugnazione, salvo eccezioni. C) Falsa: manca il caso dell’ordine palesemente infondato con discredito professionale. D) Falsa: un’ipotesi legittima esiste (A).",
       "legal_reference": "ET arts. 5 y 20; doctrina TS sobre derecho de resistencia",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1408,7 +1438,7 @@
         { "text": "Se firma entre el trabajador y la Empresa de Trabajo Temporal", "correct": false },
         { "text": "Se firma entre el trabajador, la Empresa de Trabajo Temporal y la Empresa usuaria", "correct": false }
       ],
-      "explanation": "ES: Es el acuerdo ETT–empresa usuaria que habilita la cesión del trabajador. IT: È il contratto tra agenzia e impresa utilizzatrice che abilita la somministrazione.",
+      "explanation": "ES: A) Verdadera: es el acuerdo ETT–usuaria que habilita la cesión. B) Falsa: la relación del trabajador es con la ETT, no con la usuaria. C) Falsa: ese es el contrato de trabajo con la ETT, no el de puesta a disposición. D) Falsa: no es tripartito. IT: A) Vera: è il contratto tra agenzia e impresa utilizzatrice. B) Falsa: il lavoratore non contratta con l’utilizzatrice. C) Falsa: è il rapporto di lavoro con l’agenzia, non la messa a disposizione. D) Falsa: non è trilaterale.",
       "legal_reference": "Ley 14/1994, art. 6 y 8",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
@@ -1420,8 +1450,8 @@
         { "text": "El empresario podrá decretar el despido del trabajador", "correct": false },
         { "text": "El empresario cambiará de puesto al trabajador y podrá pedirle una indemnización por daños y perjuicios", "correct": false }
       ],
-      "explanation": "ES: La disminución voluntaria y continuada puede justificar sanción grave, incluso despido; el salario se corresponde con el trabajo efectivamente realizado. IT: La riduzione volontaria e continuata del rendimento può giustificare sanzione fino al licenziamento; la retribuzione corrisponde al lavoro effettivo.",
-      "legal_reference": "ET art. 54.2.e) y art. 58; principio de salario por trabajo debido (ET art. 26)",
+      "explanation": "ES: A) Verdadera: la disminución voluntaria y continuada puede justificar sanción grave, incluso despido, y el salario se ajusta al trabajo debido. B) Falsa: no se limita a sanción leve. C) Falsa: el despido no es “automático”; requiere tipicidad y pruebas. D) Falsa: el traslado/daños no es la respuesta típica. IT: A) Vera: riduzione volontaria e continuata del rendimento può portare a sanzione fino al licenziamento; la retribuzione segue il lavoro dovuto. B) Falsa. C) Falsa: non è automatico. D) Falsa.",
+      "legal_reference": "ET art. 54.2.e) y 58; ET art. 26 (salario por trabajo debido)",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
     {
@@ -1432,8 +1462,8 @@
         { "text": "Que la medida no sea ilegal", "correct": false },
         { "text": "Que de la medida se derivan más beneficios para el interés general que perjuicios sobre otros bienes o valores en conflicto", "correct": false }
       ],
-      "explanation": "ES: Idoneidad = aptitud del medio para conseguir el fin; parte del test de proporcionalidad. IT: Idoneità = attitudine del mezzo al fine; parte del test di proporzionalità.",
-      "legal_reference": "ET art. 20.3; STC 14/2003 y 39/2016 (proporcionalidad)",
+      "explanation": "ES: A) Verdadera: idoneidad = aptitud del medio para alcanzar el fin. B) Falsa: eso es necesidad. C) Falsa: la licitud es presupuesto general. D) Falsa: es proporcionalidad en sentido estricto. IT: A) Vera: idoneità = capacità del mezzo di raggiungere lo scopo. B) Falsa: è il criterio della necessità. C) Falsa: la liceità è presupposto. D) Falsa: riguarda la proporzionalità stretta.",
+      "legal_reference": "ET art. 20.3; STC 14/2003 y 39/2016 (test de proporcionalidad)",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
     {
@@ -1444,8 +1474,8 @@
         { "text": "Modificación sustancial de condiciones de trabajo", "correct": false },
         { "text": "No supone ningún tipo de movilidad, ni geográfica ni funcional, pues no tiene carácter permanente", "correct": false }
       ],
-      "explanation": "ES: Un cambio temporal de hasta 12 meses en 3 años es «desplazamiento». IT: Spostamento temporaneo ≤12 mesi in 3 anni è «desplazamiento», non trasferimento.",
-      "legal_reference": "ET art. 40.6 (desplazamientos) y 40.1 (traslados: >12 meses en 3 años).",
+      "explanation": "ES: A) Verdadera: cambio temporal ≤12 meses en 3 años = desplazamiento. B) Falsa: traslado exige >12 meses en 3 años. C) Falsa: no es MSCT, es movilidad geográfica. D) Falsa: sí hay movilidad temporal. IT: A) Vera: spostamento temporaneo ≤12 mesi in 3 anni. B) Falsa: oltre 12 mesi è trasferimento. C) Falsa. D) Falsa.",
+      "legal_reference": "ET art. 40.6 (desplazamientos) y 40.1 (traslados)",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
     {
@@ -1456,8 +1486,8 @@
         { "text": "Desplazamiento", "correct": false },
         { "text": "Movilidad geográfica funcional", "correct": false }
       ],
-      "explanation": "ES: Si supera 12 meses dentro de 3 años es «traslado». IT: Oltre 12 mesi in 3 anni si tratta di «traslado».",
-      "legal_reference": "ET art. 40.1 (traslado) y 40.6 (desplazamiento).",
+      "explanation": "ES: A) Verdadera: >12 meses en 3 años = traslado. B) Falsa: no es MSCT. C) Falsa: el desplazamiento es temporal ≤12/3. D) Falsa: no existe ‘geográfica funcional’. IT: A) Vera. B) Falsa. C) Falsa. D) Falsa.",
+      "legal_reference": "ET art. 40.1 y 40.6",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
     {
@@ -1468,8 +1498,8 @@
         { "text": "Sistema de trabajo a turnos", "correct": false },
         { "text": "Todas las respuestas son correctas", "correct": true }
       ],
-      "explanation": "ES: Las tres materias son típicas de modificación sustancial. IT: Orario, retribuzione e turni rientrano nelle modifiche sostanziali.",
-      "legal_reference": "ET art. 41.1 (relación de materias).",
+      "explanation": "ES: A) B) C) Falsas aisladamente: cada una lo es, pero la opción correcta es la conjunta. D) Verdadera: las tres materias encajan como MSCT. IT: A) B) C) False prese singolarmente. D) Vera: tutte e tre rientrano tra le modifiche sostanziali.",
+      "legal_reference": "ET art. 41.1",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
     {
@@ -1480,8 +1510,8 @@
         { "text": "La extinción de los contratos de trabajo de los huelguistas durante el período que dure la huelga", "correct": false },
         { "text": "Ninguna es correcta", "correct": false }
       ],
-      "explanation": "ES: La huelga legal suspende el contrato y no devenga salario. IT: Lo sciopero legale sospende il contratto e non dà diritto alla retribuzione.",
-      "legal_reference": "ET art. 45.1 (causas de suspensión); CE art. 28.2; RD-ley 17/1977.",
+      "explanation": "ES: A) Verdadera: la huelga legal suspende contrato y salario. B) Falsa: no se devenga salario. C) Falsa: no extingue. D) Falsa: A es correcta. IT: A) Vera: sciopero = sospensione e niente retribuzione. B) Falsa. C) Falsa. D) Falsa.",
+      "legal_reference": "ET art. 45.1; CE art. 28.2; RD-ley 17/1977",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
     {
@@ -1492,8 +1522,8 @@
         { "text": "Sólo se puede solicitar si se tienen más de dos años de antigüedad en la empresa", "correct": false },
         { "text": "Una vez incorporado el trabajador, podrá volver a solicitar tantas nuevas excedencias voluntarias como quiera, en cualquier momento, siempre que no perjudique el normal funcionamiento de la Empresa", "correct": false }
       ],
-      "explanation": "ES: No hay reserva de puesto; existe derecho preferente a reingreso en vacante. IT: Nessuna riserva del posto; c’è solo diritto di preferenza su vacanze.",
-      "legal_reference": "ET art. 46.2 (excedencia voluntaria: duración y efectos).",
+      "explanation": "ES: A) Verdadera: no hay reserva de puesto (sí preferencia a vacante). B) C) Falsas: requisitos distintos en el ET. D) Falsa: exige intervalo temporal entre excedencias. IT: A) Vera: nessuna riserva del posto (solo preferenza su vacanze). B) C) False. D) Falsa: occorre intervallo minimo tra eccedenze.",
+      "legal_reference": "ET art. 46.2 (duración y efectos)",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
     {
@@ -1504,8 +1534,8 @@
         { "text": "No superior a dos años", "correct": false },
         { "text": "No inferior a dos años", "correct": false }
       ],
-      "explanation": "ES: La excedencia por cuidado de hijo dura como máximo 3 años. IT: L’eccedenza per cura dei figli è massima di 3 anni.",
-      "legal_reference": "ET art. 46.3 (cuidado de hijos).",
+      "explanation": "ES: A) Verdadera: máximo 3 años. B) C) D) Falsas. IT: A) Vera: tetto massimo 3 anni. B) C) D) False.",
+      "legal_reference": "ET art. 46.3 (cuidado de hijos)",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
     {
@@ -1516,8 +1546,8 @@
         { "text": "Si han transcurrido tres años desde el final de la anterior excedencia", "correct": false },
         { "text": "Si ha transcurrido un año desde el final de la anterior excedencia", "correct": false }
       ],
-      "explanation": "ES: El ET exige 4 años entre excedencias voluntarias. IT: L’ET richiede 4 anni tra un’eccedenza volontaria e la successiva.",
-      "legal_reference": "ET art. 46.2 (intervalo de 4 años).",
+      "explanation": "ES: A) Verdadera: intervalo mínimo de 4 años. B) C) D) Falsas. IT: A) Vera: minimo 4 anni tra eccedenze. B) C) D) False.",
+      "legal_reference": "ET art. 46.2",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
     {
@@ -1528,8 +1558,8 @@
         { "text": "Tres meses", "correct": false },
         { "text": "Seis meses", "correct": false }
       ],
-      "explanation": "ES: Derecho de lactancia hasta 9 meses (o más si convenio). IT: Diritto all’allattamento fino a 9 mesi (salve previsioni collettive).",
-      "legal_reference": "ET art. 37.4 (derecho de lactancia).",
+      "explanation": "ES: A) Verdadera: hasta 9 meses (salvo mejoras por convenio). B) C) D) Falsas. IT: A) Vera: fino a 9 mesi (salve previsioni collettive). B) C) D) False.",
+      "legal_reference": "ET art. 37.4",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
     {
@@ -1540,8 +1570,8 @@
         { "text": "La incapacidad temporal del trabajador", "correct": false },
         { "text": "La existencia de causas técnicas, organizativas, económicas o de producción", "correct": false }
       ],
-      "explanation": "ES: El enunciado marca como correcta la privación de libertad, pero legalmente SÍ es causa de suspensión (también huelga y causas del art. 47). IT: L’enunciato indica la risposta A, ma giuridicamente la privazione della libertà È causa di sospensione (così come sciopero e cause tecniche/organizzative).",
-      "legal_reference": "ET art. 45.1.g (privación de libertad), 45.1 (huelga) y ET art. 47 (causas ETOP).",
+      "explanation": "ES: El ítem marca A como correcta, pero jurídicamente es errónea: la privación de libertad SÍ es causa de suspensión (ET 45.1.g). B) Falsa: la huelga legal suspende el contrato. C) Falsa: la IT suspende el contrato. D) Falsa: las causas ETOP pueden implicar suspensión colectiva (art. 47). IT: L’opzione A è indicata come corretta nel file, ma in diritto è sbagliata: la reclusione È causa di sospensione. B) Falsa: lo sciopero sospende. C) Falsa: l’IT sospende. D) Falsa: cause tecniche/economiche/organizzative consentono sospensione.",
+      "legal_reference": "ET art. 45.1.g (privación de libertad), 45.1; ET art. 47 (ETOP)",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
     {
@@ -1552,8 +1582,8 @@
         { "text": "Un año", "correct": false },
         { "text": "Seis meses", "correct": false }
       ],
-      "explanation": "ES: Duración mínima 4 meses y máxima 5 años. IT: Durata minima 4 mesi e massima 5 anni.",
-      "legal_reference": "ET art. 46.2 (duración).",
+      "explanation": "ES: A) Verdadera: mínimo 4 meses (máximo 5 años). B) C) D) Falsas. IT: A) Vera: minimo 4 mesi (massimo 5 anni). B) C) D) False.",
+      "legal_reference": "ET art. 46.2",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
 
@@ -1565,8 +1595,8 @@
         { "text": "Que sea entregada al trabajador al menos con 48 horas de anticipación respecto del momento en el que el despido surtirá efectos", "correct": false },
         { "text": "Que previamente se haya dado al trabajador la oportunidad de defenderse de la falta que se le imputa", "correct": false }
       ],
-      "explanation": "ES: Debe indicarse hechos y fecha de efectos (y forma escrita). IT: Lettera deve contenere fatti e data di effetti (e forma scritta).",
-      "legal_reference": "ET art. 55.1 (disciplinario) y 53.1 (objetivo: carta con causa y fecha).",
+      "explanation": "ES: A) Verdadera: debe constar causa y fecha de efectos (y forma escrita). B) Falsa: vaguedad. C) Falsa: no existe ese preaviso general en disciplinario. D) Falsa: el trámite previo no es requisito general del art. 55. IT: A) Vera: fatti e data (forma scritta). B) Falsa. C) Falsa. D) Falsa.",
+      "legal_reference": "ET art. 55.1 (disciplinario) y 53.1 (objetivo)",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
     {
@@ -1577,10 +1607,11 @@
         { "text": "La condena al empresario a indemnizar al trabajador", "correct": false },
         { "text": "La opción del trabajador entre su readmisión y el pago de una indemnización", "correct": false }
       ],
-      "explanation": "ES: En improcedencia elige el empresario (salvo representantes). IT: In caso di improcedenza sceglie il datore (salvo rappresentanti).",
-      "legal_reference": "ET art. 56.1–56.4 (opción readmisión/indemnización).",
+      "explanation": "ES: A) Verdadera: en general elige el empresario (salvo representantes). B) C) D) Falsas: no son reglas generales. IT: A) Vera: di regola sceglie il datore (salvo rappresentanti). B) C) D) False.",
+      "legal_reference": "ET art. 56.1–56.4",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "Indique cuál de las siguientes no es causa de extinción del contrato de trabajo:",
       "answers": [
@@ -1589,10 +1620,11 @@
         { "text": "La terminación del plazo previsto inicialmente para su vigencia", "correct": false },
         { "text": "Todas las causas mencionadas son causas de extinción del contrato", "correct": true }
       ],
-      "explanation": "ES: Las tres (A–C) son causas extintivas (fuerza mayor/ERE, dimisión, fin de contrato temporal); por eso D es la adecuada. IT: A–C sono cause di estinzione; quindi D («tutte lo sono») risulta corretta.",
-      "legal_reference": "ET art. 49.1.c–d (fin de plazo y dimisión); ET art. 51.7 (fuerza mayor).",
+      "explanation": "ES: A) B) C) Son causas extintivas legalmente previstas; por ello D) es la opción correcta al preguntar “cuál no es” (ninguna de A–C queda excluida). IT: A) B) C) Sono cause estintive; quindi D) è corretta perché nessuna delle precedenti è “non causa”.",
+      "legal_reference": "ET art. 49.1; ET art. 51.7 (fuerza mayor)",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "El despido disciplinario es considerado nulo:",
       "answers": [
@@ -1601,10 +1633,11 @@
         { "text": "Cuando no se hacen constar los hechos que lo motivan y la fecha en que tendrá efectos", "correct": false },
         { "text": "Cuando, afectando a un representante de los trabajadores, no ha sido notificado por escrito", "correct": false }
       ],
-      "explanation": "ES: Móvil discriminatorio/lesión de derechos fundamentales determina nulidad. IT: Motivo discriminatorio o violazione di diritti fondamentali comporta nullità.",
-      "legal_reference": "ET art. 55.5; CE art. 14 y 24; LRJS arts. 177–184.",
+      "explanation": "ES: A) Verdadera: móvil discriminatorio/lesión de derechos fundamentales ⇒ nulidad. B) C) D) Falsas: esos defectos formales llevan a improcedencia, no a nulidad, salvo supuestos de especial protección. IT: A) Vera: discriminazione/violazione di diritti fondamentali ⇒ nullità. B) C) D) False: difetti formali → in genere improcedenza.",
+      "legal_reference": "ET art. 55.5; CE art. 14 y 24; LRJS 177–184",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "No es causa de despido disciplinario:",
       "answers": [
@@ -1613,10 +1646,11 @@
         { "text": "La disminución continuada y voluntaria del rendimiento normal o pactado de trabajo", "correct": false },
         { "text": "La indisciplina o desobediencia grave", "correct": false }
       ],
-      "explanation": "ES: Embriaguez/toxicom. sólo si repercute negativamente puede ser causa; si no afecta, no lo es. IT: Ubriachezza/tossicodipendenza sono rilevanti solo se incidono negativamente.",
-      "legal_reference": "ET art. 54.2 f) (embriaguez o toxicomanía con repercusión).",
+      "explanation": "ES: A) Verdadera: solo si afecta negativamente podría ser causa; si no, no. B) C) D) Falsas: son causas típicas de despido disciplinario. IT: A) Vera: rileva solo se incide sul rendimento/convivenza lavorativa. B) C) D) False: sono fattispecie tipiche.",
+      "legal_reference": "ET art. 54.2 f) (embriaguez/toxicomanía con repercusión); 54.2 b)–e)",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "No será aceptada como causa de despido objetivo:",
       "answers": [
@@ -1625,10 +1659,11 @@
         { "text": "La falta de adaptación del trabajador a las modificaciones técnicas", "correct": false },
         { "text": "La necesidad de amortizar o suprimir un puesto de trabajo, por razones técnicas, económicas, organizativas o de producción", "correct": false }
       ],
-      "explanation": "ES: La ineptitud conocida antes de la contratación no legitima despido objetivo. IT: L’inidoneità preesistente e nota al datore non giustifica il licenziamento oggettivo.",
-      "legal_reference": "ET art. 52 a) (ineptitud sobrevenida).",
+      "explanation": "ES: A) Verdadera: la ineptitud preexistente y conocida no legitima el objetivo. B) C) D) Falsas: sí pueden fundamentar objetivo en condiciones legales. IT: A) Vera. B) C) D) False: possono integrare il giustificato motivo oggettivo se ricorrono i presupposti. ",
+      "legal_reference": "ET art. 52 a) (ineptitud sobrevenida); 52 c)–e)",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "Los salarios de tramitación son:",
       "answers": [
@@ -1637,10 +1672,11 @@
         { "text": "Han sido suprimidos con objeto de reducir el coste del despido y facilitar la gestión empresarial", "correct": false },
         { "text": "El módulo para el cálculo de las prestaciones por desempleo", "correct": false }
       ],
-      "explanation": "ES: Son los salarios dejados de percibir hasta la readmisión (hoy sólo si hay readmisión). IT: Retribuzioni non percepite fino alla reintegrazione (oggi solo con reintegra).",
-      "legal_reference": "ET art. 56.2 (salarios de tramitación en caso de readmisión).",
+      "explanation": "ES: A) Verdadera: son los dejados de percibir hasta la readmisión (hoy solo si hay readmisión). B) C) D) Falsas: no son base indemnizatoria ni han sido ‘suprimidos’ en tal sentido ni módulo de prestaciones. IT: A) Vera: retribuzioni non percepite fino alla reintegrazione (oggi solo con reintegra). B) C) D) False.",
+      "legal_reference": "ET art. 56.2",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "Se entenderá por despido colectivo la extinción del contrato de trabajo fundada en causas económicas, organizativas o de producción cuando, en un periodo de 90 días, la extinción afecte, al menos, a:",
       "answers": [
@@ -1649,10 +1685,11 @@
         { "text": "Diez trabajadores en las empresas que ocupen más de 100", "correct": false },
         { "text": "El 15% del número de trabajadores de las empresas en aquellas que ocupen entre 100 y 300 trabajadores", "correct": false }
       ],
-      "explanation": "ES: Entre los umbrales, también existe el supuesto de cese total con >5 personas. IT: Tra le soglie rientra pure la cessazione totale con oltre 5 lavoratori.",
-      "legal_reference": "ET art. 51.1 (umbrales y cese total >5).",
+      "explanation": "ES: A) Verdadera: supuesto de cese total con más de 5 personas. B) C) D) Falsas: no recogen correctamente los umbrales legales. IT: A) Vera: cessazione totale con >5. B) C) D) False.",
+      "legal_reference": "ET art. 51.1 (umbrales y cese total)",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "El trabajador tiene derecho a los salarios de tramitación:",
       "answers": [
@@ -1661,10 +1698,11 @@
         { "text": "Cuando quien efectúa la opción por la readmisión o la indemnización es el trabajador", "correct": false },
         { "text": "Cuando el empresario opta por la indemnización", "correct": false }
       ],
-      "explanation": "ES: Tras la reforma, sólo cuando hay readmisión (opte quien opte en casos tasados). IT: Oggi spettano solo in caso di reintegrazione.",
-      "legal_reference": "ET art. 56.2 y 56.4.",
+      "explanation": "ES: A) Verdadera: tras la reforma, solo si hay readmisión. B) C) D) Falsas. IT: A) Vera: oggi spettano solo con reintegra. B) C) D) False.",
+      "legal_reference": "ET art. 56.2 y 56.4",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "El despido de una mujer embarazada:",
       "answers": [
@@ -1673,10 +1711,11 @@
         { "text": "Será siempre calificado como nulo", "correct": false },
         { "text": "Podrá ser calificado como improcedente, en algunos casos", "correct": false }
       ],
-      "explanation": "ES: No es automáticamente nulo; puede ser procedente si se acreditan causas ajenas al embarazo. IT: Non è sempre nullo; può essere legittimo con ragioni estranee alla gravidanza.",
-      "legal_reference": "ET art. 55.5 b) y LO 3/2007 art. 8 (protección frente a discriminación).",
+      "explanation": "ES: A) Verdadera: puede ser procedente si se acreditan causas ajenas al embarazo. B) C) Falsas: no es automáticamente discriminatorio o nulo. D) Falsa: la opción correcta ya es A (aunque también podría resultar improcedente si no se prueban causas). IT: A) Vera: può essere legittimo se fondato su ragioni estranee. B) C) False. D) Falsa: l’opzione corretta è A.",
+      "legal_reference": "ET art. 55.5 b); LO 3/2007 art. 8",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
 
     {
       "question": "Julia ha sido seleccionada por la empresa Los Rápidos de Reparto a Domicilio. No sabe muy bien qué contrato le harán, ya que comentan que su relación laboral no es por cuenta ajena. Le realiza la consulta a usted, que le plantea que existen determinados indicios de ajenidad. En concreto, el requisito de la ajenidad implica:",
@@ -1686,10 +1725,11 @@
         { "text": "Que el trabajo ha de ser prestado de forma libre y voluntaria fruto de un acuerdo entre quien cede su actividad y quien la recibe", "correct": false },
         { "text": "Todas son ciertas", "correct": false }
       ],
-      "explanation": "ES: Ajenidad = frutos y riesgos para el empresario. IT: Alienità = frutti e rischi in capo all’imprenditore.",
-      "legal_reference": "ET art. 1.1; doctrina TS sobre ajenidad en frutos y riesgos.",
+      "explanation": "ES: A) Falsa: describe dependencia. B) Verdadera: frutos y riesgos corresponden al empleador. C) Falsa: es voluntariedad. D) Falsa: no todas corresponden a ajenidad. IT: A) Falsa: è dipendenza. B) Vera: alienità = frutti e rischi in capo al datore. C) Falsa: è volontarietà. D) Falsa.",
+      "legal_reference": "ET art. 1.1; doctrina TS sobre ajenidad (frutos y riesgos)",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
     {
       "question": "El que los útiles, material y medios del trabajo sean aportados por el empresario, que éste asuma los gastos originados por el trabajo o que la retribución del trabajador se fije y sea periódica y no dependa de los beneficios de la empresa son indicios de la nota de:",
       "answers": [
@@ -1698,10 +1738,12 @@
         { "text": "Voluntariedad", "correct": false },
         { "text": "Retribución", "correct": false }
       ],
-      "explanation": "ES: Son indicadores clásicos de ajenidad. IT: Indici tipici dell’alienità.",
-      "legal_reference": "ET art. 1.1; criterios jurisprudenciales de laboralidad (TS).",
+      "explanation": "ES: A) Falsa: dependencia se refiere a poder de dirección. B) Verdadera: son indicios clásicos de ajenidad en frutos y riesgos. C) Falsa: voluntariedad es otra nota esencial. D) Falsa: ‘retribución’ no identifica esos indicios. IT: A) Falsa. B) Vera: indici tipici di alienità. C) Falsa. D) Falsa.",
+      "legal_reference": "ET art. 1.1; criterios jurisprudenciales de laboralidad (TS)",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
+
     {
       "question": "Carmelo contrata con una empresa la prestación de su trabajo en las siguientes condiciones: tendrá dos días y medio libres a la semana. Pocos meses después el empresario le llama para comentarle que no puede mantener ese pacto, que necesita que vuelva a hacer solo día y medio. Carmelo le pregunta si puede renunciar a los derechos reconocidos en su contrato de trabajo. ¿Cuál sería su respuesta?",
       "answers": [
@@ -1710,10 +1752,12 @@
         { "text": "No, por el principio de irrenunciabilidad de los derechos", "correct": true },
         { "text": "No, por el principio pro operario", "correct": false }
       ],
-      "explanation": "ES: Los derechos laborales son, en general, indisponibles en perjuicio del trabajador. IT: I diritti del lavoratore sono in linea di massima irrinunciabili in peius.",
-      "legal_reference": "ET art. 3.5 (irrenunciabilidad de derechos).",
+      "explanation": "ES: A) Falsa: los derechos laborales, en general, son indisponibles en perjuicio del trabajador. B) Falsa: el convenio no autoriza renuncias en peius. C) Verdadera: rige irrenunciabilidad de derechos mínimos. D) Falsa: el pro operario es criterio interpretativo, no de (in)renunciabilidad. IT: A) Falsa. B) Falsa. C) Vera: vige l’irrinunciabilità in peius. D) Falsa.",
+      "legal_reference": "ET art. 3.5 (irrenunciabilidad)",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
+
     {
       "question": "Los convenios de la OIT tienen el rango de:",
       "answers": [
@@ -1722,10 +1766,12 @@
         { "text": "Directivas de la Unión Europea", "correct": false },
         { "text": "Son meras propuestas de una organización supranacional sin ningún carácter vinculante para los Estados", "correct": false }
       ],
-      "explanation": "ES: Obligan tras ratificación y entrada en vigor internas. IT: Vincolano solo dopo ratifica e recepimento secondo l’ordinamento interno.",
-      "legal_reference": "Constitución OIT art. 19; CE art. 96 (tratados internacionales).",
+      "explanation": "ES: A) Falsa: requieren ratificación y, en su caso, incorporación. B) Verdadera: eficacia interna tras ratificación conforme al ordenamiento nacional. C) Falsa: no son instrumentos de la UE. D) Falsa: vinculan a los Estados que ratifican. IT: A) Falsa. B) Vera: efficacia interna dopo ratifica/recepimento. C) Falsa. D) Falsa.",
+      "legal_reference": "Constitución OIT art. 19; CE art. 96",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
+
     {
       "question": "Salvo lo dispuesto por convenio colectivo, la realización de horas complementarias en un contrato a tiempo parcial:",
       "answers": [
@@ -1734,10 +1780,12 @@
         { "text": "No podrá exceder del 30% de las horas de trabajo objeto del contrato excluyendo las horas extraordinarias", "correct": true },
         { "text": "En todo caso, la suma de las horas ordinarias y las complementarias no excederá del 75% de la jornada máxima establecida por ley o convenio", "correct": false }
       ],
-      "explanation": "ES: Límite general del 30% (ampliable por convenio) y distinto de horas extraordinarias. IT: Limite generale 30% (aumentabile da CCNL) e distinto dagli straordinari.",
-      "legal_reference": "ET art. 12.5.b) (horas complementarias) y 12.4.c) (prohibición de horas extra).",
+      "explanation": "ES: A) Falsa: el 30% se calcula sobre las horas del contrato, no sobre las ‘ordinarias’ como concepto aparte. B) Falsa: las horas extra están prohibidas en el part-time (salvo fuerza mayor) y no computan aquí. C) Verdadera: regla general 30% (ampliable por convenio). D) Falsa: no existe ese tope del 75%. IT: A) Falsa. B) Falsa: straordinari vietati nel part-time. C) Vera: 30% sulle ore del contratto (estendibile da CCNL). D) Falsa.",
+      "legal_reference": "ET art. 12.5.b) (horas complementarias) y 12.4.c) (prohibición de horas extra)",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
+
+
     {
       "question": "Con el objetivo de incentivar a sus trabajadores, una empresa contempla en la retribución de los trabajadores un plus de productividad que consiste en un euro por cada 1000 lechugas recogidas. Si consideramos que este incentivo favorece a aquellos trabajadores con mayor fuerza física, la medida podría suponer:",
       "answers": [
@@ -1746,8 +1794,8 @@
         { "text": "Una discriminación premeditada", "correct": false },
         { "text": "Una discriminación flagrante", "correct": false }
       ],
-      "explanation": "ES: Una regla aparentemente neutra con impacto adverso es discriminación indirecta. IT: Una regola neutra che svantaggia un gruppo integra discriminazione indiretta.",
-      "legal_reference": "LO 3/2007 art. 6.2 (discriminación indirecta) y ET art. 17 (igualdad).",
+      "explanation": "ES: A) Falsa: no se dirige expresamente contra un grupo protegido. B) Verdadera: regla aparentemente neutra con impacto adverso en determinados colectivos. C) D) Falsas: no son categorías técnico-jurídicas específicas aquí. IT: A) Falsa. B) Vera: regola neutra che svantaggia un gruppo = discriminazione indiretta. C) D) False.",
+      "legal_reference": "LO 3/2007 art. 6.2; ET art. 17",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     }
   ]
