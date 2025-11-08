@@ -209,7 +209,7 @@
     {
       "question": "LA DEMANDA DE REVISIÓN DE SENTENCIA FIRME:",
       "answers": [
-        { "text": "A).S| PROSPERA, PROVOCA LA RESCISIÓN DE LA SENTENCIA Y LA DEVOLUCIÓN DE LOS AUTOS AL TRIBUNAL QUE LA DICTÓ PAFIA QUE LAS PARTES PUEDAN USAR DE SU DERECHO EN EL JUICIO CORRESPONDIENTE.", "correct": true },
+        { "text": "Si PROSPERA, PROVOCA LA RESCISIÓN DE LA SENTENCIA Y LA DEVOLUCIÓN DE LOS AUTOS AL TRIBUNAL QUE LA DICTÓ PAFIA QUE LAS PARTES PUEDAN USAR DE SU DERECHO EN EL JUICIO CORRESPONDIENTE.", "correct": true },
         { "text": "CABE POR LOS MOTIVOS TASADOS PREVISTOS EN EL ArTÍCULO 510 LEC O POA OTROS SIMILARES A CRITERIO DEL TRIBUNAL", "correct": false },
         { "text": "NO PUEDE SOLICITARSE SI HAN TRANSCURRIDO 4 AÑOS DESDE LA PUBLICACIÓN DE LA SENTENCIA QUE SE PRETENDE IMPUGNAR.", "correct": false },
         { "text": "NO EXIGE A QUIEN LA INTERPONE NINGÚN DEPÓSITO PREVIO", "correct": false }
@@ -245,13 +245,13 @@
     {
       "question": "EN EL RECURSO DE APELACIÓN:",
       "answers": [
-        { "text": "LA PARTE APELADA QUE NO SEA APELANTE PUEDE FORMULAR IMPUGNACIÓN DE LA RESOLUCIÓN APELADA EN LO QUE LE RESULTE PERJUDICIAL.", "correct": false },
+        { "text": "LA PARTE APELADA QUE NO SEA APELANTE PUEDE FORMULAR IMPUGNACIÓN DE LA RESOLUCIÓN APELADA EN LO QUE LE RESULTE PERJUDICIAL.", "correct": true },
         { "text": "AMBAS PARTES PUEDEN INTERPONERLO Y FORMULAR, EN TODO CASO, TANTO OPOSICIÓN AL RECURSO COMO IMPUGNACIÓN DE LA SENTENCIA EN LO QUE LES RESULTE PERJUDICIAL", "correct": false },
-        { "text": "LA PARTE APELADA QUE SEA APELANTE PUEDE FORMULAR IMPUGNACIÓN DE LA RESOLUCIÓN APELADA EN LO QUE LE RESULTE PERJUDICIAL", "correct": true },
+        { "text": "LA PARTE APELADA QUE SEA APELANTE PUEDE FORMULAR IMPUGNACIÓN DE LA RESOLUCIÓN APELADA EN LO QUE LE RESULTE PERJUDICIAL", "correct": false },
         { "text": "SI UNA PARTE LITISCONSORTE INTERPONE EL RECURSO DE APELACIÓN, EL LETRADO DE LA ADMINISTRACIÓN DE JUSTICIA DARA TRASLADO SEPARADAMENTE A LOS DEMÁS LITISCONSORTES PARA IMPUGNACIÓN DE LA RESOLUCIÓN APELADA EN LO QUE LES RESULTE PERJUDICIAL", "correct": false }
       ],
-      "explanation": "IT: A) Errata: l’impugnazione (impugnación) la formula la parte apelada; il testo qui la nega. B) Errata: non sempre entrambe le parti possono impugnare tutto; dipende dal caso. C) Corretta: l’apelado che è anche apelante può impugnare i capi a lui sfavorevoli (art. 461 LEC). D) Errata: il regime di trasmissione non è quello descritto. \nES: A) Incorrecta: el apelado puede impugnar la resolución en lo que le perjudique; esta opción lo niega. B) Incorrecta: no en todo caso cabe lo que se afirma. C) Correcta: el apelado que también apela puede impugnar lo desfavorable (art. 461 LEC). D) Incorrecta: el traslado no opera en los términos descritos.\nRiferimenti/Referencias: • File: LEC — Art.: 461 (impugnación por el apelado), 458–460 — Palabras clave: “impugnación del apelado”, “apelación”.",
-      "legal_reference": "LEC art. 461 (impugnación por el apelado); arts. 458–460",
+      "explanation": "IT: Nell’[apelación], l’“[impugnación]” è lo strumento dell’[apelado] che NON ha presentato appello: ricevuto il traslado dell’“escrito de interposición”, può impugnare i capi della sentenza a lui sfavorevoli (art. 461 LEC). Per questo la risposta corretta è la D e la C è errata. Inoltre, la decisione d’appello non può peggiorare la posizione dell’[apelante], salvo che il peggioramento derivi dall’accoglimento dell’impugnación proposta dall’iniziale apelado (art. 465 LEC). \nES: En apelación, la “impugnación” corresponde al apelado que no recurrió: puede impugnar lo desfavorable cuando se le da traslado del escrito de interposición (art. 461 LEC). La resolución de apelación no puede perjudicar al apelante, salvo por estimación de la impugnación del inicialmente apelado (art. 465 LEC). ",
+      "legal_reference": "LEC arts. 461 (impugnación del apelado no apelante), 465 (prohibición de reformatio in peius con excepción por impugnación del apelado)",
       "original_file": "AGGIORNATO A TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 29 10 25.docx"
     },
     {
