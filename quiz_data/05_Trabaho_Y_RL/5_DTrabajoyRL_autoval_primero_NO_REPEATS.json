@@ -1,0 +1,1014 @@
+{
+  "file_number": 0,
+  "file_name": "Autoevaluacion Trabajo y RL .docx",
+  "questions": [
+    {
+      "question": "TEST 2 - Pregunta 1\nSeñale cual de las siguientes normas no es exclusiva del derecho laboral:",
+      "answers": [
+        {
+          "text": "Convenios colectivos",
+          "correct": false
+        },
+        {
+          "text": "Contrato de trabajo",
+          "correct": false
+        },
+        {
+          "text": "Disposiciones legales.",
+          "correct": true
+        },
+        {
+          "text": "Todas lo son",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Las disposiciones legales (leyes y reglamentos) no son exclusivas del Derecho del Trabajo; los convenios y el contrato sí son típicos del ámbito laboral. IT: Le disposizioni legislative sono generali; CCNL e contratto di lavoro appartengono specificamente alla sfera lavoristica.",
+      "legal_reference": "ET, art. 3.1 (fuentes: disposiciones legales y reglamentarias, convenios, contratos...).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 2 - Pregunta 3\nEl instrumento normativo del derecho comunitario europeo que se dirige exclusivamente a los Estados miembros y obliga a estos a llevar a cabo una actuación positiva denominada trasposición se denomina",
+      "answers": [
+        {
+          "text": "Reglamento",
+          "correct": false
+        },
+        {
+          "text": "Decisión",
+          "correct": false
+        },
+        {
+          "text": "Directiva.",
+          "correct": true
+        },
+        {
+          "text": "Recomendación",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La directiva vincula a los Estados en el resultado y requiere transposición; el reglamento es directamente aplicable, la decisión tiene destinatarios concretos, la recomendación no es vinculante. IT: La direttiva obbliga gli Stati al risultato e alla trasposizione; il regolamento è self-executing.",
+      "legal_reference": "TFUE, art. 288.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 3 - Pregunta 1\nDe entre estas, cual no es una relación laboral de carácter especial de las recogidas en el artículo 2 del Estatuto de los Trabajadores",
+      "answers": [
+        {
+          "text": "Funcionarios públicos.",
+          "correct": true
+        },
+        {
+          "text": "Servicio del hogar familiar",
+          "correct": false
+        },
+        {
+          "text": "Penados en las instituciones penitenciarias",
+          "correct": false
+        },
+        {
+          "text": "Artistas en espectáculos públicos",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Los funcionarios públicos no se rigen por el ET sino por el régimen estatutario del empleo público. Las otras son relaciones especiales del art. 2 ET. IT: I funzionari sono esclusi dal diritto del lavoro comune; domestici, penados y artistas sì rientrano nelle speciali.",
+      "legal_reference": "ET, art. 2.1; Real Decreto Legislativo 5/2015 (TREBEP).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 3 - Pregunta 2\nAlgunas de las relaciones laborales especiales que contempla el Estatuto de los Trabajadores son las siguientes:",
+      "answers": [
+        {
+          "text": "La del personal de alta dirección, los deportistas profesionales y los artistas de espectáculos públicos.",
+          "correct": true
+        },
+        {
+          "text": "La de los menores de edad y la de los trabajadores autónomos dependientes",
+          "correct": false
+        },
+        {
+          "text": "La del servicio del hogar familiar y los menores de edad",
+          "correct": false
+        },
+        {
+          "text": "La de los funcionarios y del personal estatutario",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Alta dirección, deportistas y artistas están tipificadas como relaciones especiales. Menores y funcionarios no configuran per se una relación ‘especial’ del art. 2. IT: Direttivi, sportivi e artisti rientrano; minori e funzionari no.",
+      "legal_reference": "ET, art. 2.1, letras a), d), e). RD 1382/1985 (alta dirección).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 3 - Pregunta 5\nEstarán excluidos de la relación laboral",
+      "answers": [
+        {
+          "text": "Los trabajadores por cuenta propia.",
+          "correct": true
+        },
+        {
+          "text": "Los trabajadores por cuenta ajena",
+          "correct": false
+        },
+        {
+          "text": "Los trabajadores que se comprometen personalmente a la realización de un servicio",
+          "correct": false
+        },
+        {
+          "text": "Los trabajadores que realizan trabajos retribuidos",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El ET excluye las actividades por cuenta propia; la relación laboral se predica de quienes trabajan por cuenta ajena, con dependencia y retribución. IT: Gli autonomi sono esclusi; i dipendenti per conto altrui rientrano.",
+      "legal_reference": "ET, art. 1.1 y 1.3; Ley 20/2007.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 3 - Pregunta 6\nCuál de las siguientes actividades no está excluida de la relación laboral",
+      "answers": [
+        {
+          "text": "El personal de alta dirección.",
+          "correct": true
+        },
+        {
+          "text": "Los trabajos realizados a título de amistad",
+          "correct": false
+        },
+        {
+          "text": "Los servicios de transportistas que utilizan vehículos de su propiedad",
+          "correct": false
+        },
+        {
+          "text": "Las actividades de los agentes de comercio que asuman todo el riesgo de la operación",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El personal de alta dirección es relación laboral especial (no excluida). Amistad/beneficencia quedan fuera; transportistas con vehículo propio y agentes que asumen riesgo operan como autónomos. IT: La ‘alta direzione’ è speciale; le altre fattispecie sono escluse o tipiche dell’autonomia.",
+      "legal_reference": "ET, art. 2.1.a (alta dirección); ET, art. 1.3 (amistad/beneficencia; transportistas con medio propio); Ley 12/1992, Contrato de Agencia.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 3 - Pregunta 7\nUn camionero es propietario de su propio vehículo comercial de servicio público, y presta servicio de transporte. Dicho servicio lo realiza siempre para el mismo cargador, a cambio de un precio pactado, y cuenta con la autorización administrativa pertinente (a su nombre). Su actividad se considera:",
+      "answers": [
+        {
+          "text": "Actividad excluida del ámbito laboral. (Art. 1.3 TRET). .- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "Actividad laboral normal. (Artículo 1.1. TRET)",
+          "correct": false
+        },
+        {
+          "text": "Relación laboral especial. (Art. 2 TRET)",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El transportista con autorización propia y vehículo propio actúa por cuenta propia y queda excluido del ET, aunque trabaje para un único cliente. IT: L’autotrasportatore con mezzo e licenza propri opera come autonomo, non come dipendente.",
+      "legal_reference": "ET, art. 1.3 (exclusión de transportistas con autorización y medios propios).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 3 - Pregunta 8\nl personal de alta dirección que no sea meramente consejero o miembro del Consejo de Administración de la sociedad",
+      "answers": [
+        {
+          "text": "es un supuesto de relación laboral de carácter especial.",
+          "correct": true
+        },
+        {
+          "text": "está excluido del TRET por el artículo 1.3",
+          "correct": false
+        },
+        {
+          "text": "es un contrato laboral común",
+          "correct": false
+        },
+        {
+          "text": "ninguna de las anteriores es cierta",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La alta dirección se rige por un régimen laboral especial, distinto del común y no excluido del ET. IT: I dirigenti apicali sono una relazione speciale (non esclusa né ‘comune’).",
+      "legal_reference": "ET, art. 2.1.a; RD 1382/1985, alta dirección.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 3 - Pregunta 10\nA un trabajador autónomo económicamente dependiente, se le ha comunicado la extinción de su contrato. En dicho contrato se establece una indemnización por daños y perjuicios derivados de la extinción del mismo, que la empresa cliente se niega a abonarle. El trabajador quiere recurrir por lo que va al despacho de Elena, Abogada, a preguntar ante qué Juzgado ha de interponer la demanda. ¿Qué Jurisdicción sería la competente para resolver la reclamación de daños y perjuicios por resolución unilateral de la empresa?",
+      "answers": [
+        {
+          "text": "Al ser autónomo económicamente dependiente, le corresponde siempre la Jurisdicción Social para reclamaciones derivadas de su contrato con el cliente.",
+          "correct": true
+        },
+        {
+          "text": "Al ser autónomo, la Jurisdicción Mercantil, al ser una extinción de contrato",
+          "correct": false
+        },
+        {
+          "text": "Aunque es autónomo, al ser un despido le corresponde la Jurisdicción Social",
+          "correct": false
+        },
+        {
+          "text": "Al ser autónomo, la Jurisdicción Mercantil, en todo caso",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La LRJS atribuye a la jurisdicción social las controversias derivadas de contratos de TRADE frente a su cliente. No es mercantil y no se trata de ‘despido’ laboral. IT: Le controversie del TRADE vanno al giudice del lavoro (social), non al commercio; non è licenziamento ma risoluzione del contratto del TRADE.",
+      "legal_reference": "Ley 36/2011, LRJS, art. 2 (competencia: trabajo y TRADE). Ley 20/2007 (TRADE).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 4 - 5 - Pregunta 1\nLos contratos a tiempo parcial se pueden celebrar",
+      "answers": [
+        {
+          "text": "Por tiempo indefinido o con una duración determinada.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "Por tiempo indefinido, exclusivamente",
+          "correct": false
+        },
+        {
+          "text": "Con una duración determinada, exclusivamente",
+          "correct": false
+        },
+        {
+          "text": "Sólo con una duración determinada, y siempre que se alegue la causa",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El contrato a tiempo parcial puede ser indefinido o de duración determinada; la parcialidad se refiere a la jornada, no a la duración del vínculo. IT: Il part-time riguarda l'orario (inferiore al tempo pieno), non la durata: può essere sia a tempo indeterminato che a termine.",
+      "legal_reference": "ET (RDL 2/2015), art. 12.1; art. 15 (temporalidad).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 4 - 5 - Pregunta 2\nSeñale la correcta para el contrato a tiempo parcial",
+      "answers": [
+        {
+          "text": "el trabajador no puede hacer horas extraordinarias.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "es posible en los contratos formativos",
+          "correct": false
+        },
+        {
+          "text": "su conversión en indefinido o viceversa cabe de forma obligatoria en una modificación sustancial de condiciones de trabajo",
+          "correct": false
+        },
+        {
+          "text": "el empresario podra requerir la prestación de horas complementarias con un preaviso de 5 días",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: En el part-time, por regla general no se realizan horas extraordinarias salvo fuerza mayor; lo que cabe son horas complementarias con requisitos (preaviso mínimo 3 días salvo convenio). IT: Nel part-time le ore straordinarie sono vietate (salvo forza maggiore); sono ammesse le ore complementari con preavviso tipico di 3 giorni.",
+      "legal_reference": "ET, art. 12.4.c (prohibición de horas extra salvo fuerza mayor y régimen de horas complementarias); art. 35 (horas extraordinarias).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 4 - 5 - Pregunta 3\nDe las siguientes afirmaciones, señale la única verdadera",
+      "answers": [
+        {
+          "text": "Los contratos de duración determinada sólo pueden celebrarse cuando concurran las causas o motivos que les sirven de fundamento.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "En función de su duración, los contratos de trabajo se clasifican en contratos por tiempo indefinido, contratos temporales y contratos basura",
+          "correct": false
+        },
+        {
+          "text": "Los contratos por tiempo indefinido no son incentivados por el Derecho español, al ser poco atractivos en un contexto económico en continua transformación",
+          "correct": false
+        },
+        {
+          "text": "Los contratos de duración determinada no tienen previsto inicialmente el momento o la causa de su extinción",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La temporalidad exige causa objetiva concreta; el resto de opciones son incorrectas o usan términos no jurídicos. IT: I contratti a termine richiedono causale; le altre affermazioni sono inesatte o non giuridiche.",
+      "legal_reference": "ET, art. 15 (contratos de duración determinada y exigencia causal); RDL 32/2021 (reforma de la temporalidad).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 4 - 5 - Pregunta 4\nLos contratos de duración determinada se presumen celebrados por tiempo indefinido (y jornada completa) cuando",
+      "answers": [
+        {
+          "text": "No se da de alta al trabajador en la seguridad social y ha transcurrido el periodo de prueba o tiempo equivalente.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "Se conciertan por escrito",
+          "correct": false
+        },
+        {
+          "text": "Nunca se presumirán celebrados por tiempo indefinido los contratos de duración determinada",
+          "correct": false
+        },
+        {
+          "text": "Siempre se presumirán celebrados por tiempo indefinido los contratos de duración determinada",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La falta de alta en Seguridad Social transcurrido el periodo de prueba y la ausencia de forma escrita en supuestos exigidos provocan la presunción de contrato indefinido (y a jornada completa en determinados casos). IT: Se manca l’iscrizione alla previdenza o la forma scritta quando richiesta, il rapporto si presume a tempo indeterminato (spesso a tempo pieno).",
+      "legal_reference": "ET, art. 8.2 (forma escrita y presunción de jornada), art. 15.3 (fraude y presunción de indefinición).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 4 - 5 - Pregunta 5\n¿Qué contrato realizaremos si queremos sustituir un trabajador con reserva del puesto, o cubrir un puesto durante un proceso de selección?",
+      "answers": [
+        {
+          "text": "Sustitución.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "Interinidad",
+          "correct": false
+        },
+        {
+          "text": "Relevo",
+          "correct": false
+        },
+        {
+          "text": "Selección",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Tras la reforma de 2021, el contrato adecuado es el de sustitución (incluye cobertura de vacante durante selección, con límites temporales). IT: La modalità corretta è il contratto di sostituzione (anche per coprire la vacanza durante la selezione).",
+      "legal_reference": "ET, art. 15 (contrato de sustitución: supuestos y duración).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 4 - 5 - Pregunta 6\nUn contrato de duración determinada superior a un año, se presume celebrado por tiempo indefinido y a jornada completa cuando",
+      "answers": [
+        {
+          "text": "Todas son correctas.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "No se observa la exigencia de la forma escrita",
+          "correct": false
+        },
+        {
+          "text": "No se ha dado de alta al trabajador en la seguridad social",
+          "correct": false
+        },
+        {
+          "text": "Se incumplen las disposiciones sobre denuncia",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La ausencia de forma escrita cuando es exigible, la falta de alta en Seguridad Social transcurrido el periodo de prueba y la falta de denuncia/prolongación indebida pueden determinar la presunción de indefinición (y, en ciertos casos, de jornada completa). IT: Mancata forma scritta, mancata iscrizione alla previdenza e proroghe/denuncia irregolari portano alla presunzione di rapporto a tempo indeterminato (spesso full-time).",
+      "legal_reference": "ET, art. 8.2 (presunción de jornada completa por falta de forma), art. 15.3 (fraude), art. 49.1.c y 49.2 (denuncia/extinción).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 4 - 5 - Pregunta 7\n¿El contrato temporal por circunstancias de la producción será prorrogable?",
+      "answers": [
+        {
+          "text": "Sí, una sola prórroga, si su duración no había llegado al máximo permitido.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "No, en ningún caso",
+          "correct": false
+        },
+        {
+          "text": "Dependiendo de si ha finalizado la circunstancia que lo causa",
+          "correct": false
+        },
+        {
+          "text": "Sí, tantas prórrogas como se quiera, siempre que su duración no haya llegado al máximo permitido",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El contrato por circunstancias de la producción admite una única prórroga hasta el tope máximo legal o convencional. IT: Il contratto per circostanze della produzione è prorogabile una sola volta entro il limite massimo previsto.",
+      "legal_reference": "ET, art. 15.2 (circunstancias de la producción y prórroga); RDL 32/2021.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 4 - 5 - Pregunta 8\nPara el caso de que un Convenio colectivo no lo recoja, el contrato temporal por circunstancias imprevistas de la producción tendrá una duración máxima de",
+      "answers": [
+        {
+          "text": "6 meses.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "12 meses",
+          "correct": false
+        },
+        {
+          "text": "8 meses",
+          "correct": false
+        },
+        {
+          "text": "3 meses",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: A falta de previsión convencional, el límite general es 6 meses en un periodo de referencia de 12. IT: In mancanza di patto collettivo, il tetto standard è 6 mesi su 12.",
+      "legal_reference": "ET, art. 15.2 (duración máxima y reglas supletorias).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 4 - 5 - Pregunta 9\nComo regla general, el Estatuto de los trabajadores contempla el derecho del trabajador eventual a una indemnización por extinción del contrato que consiste en",
+      "answers": [
+        {
+          "text": "12 días de salario por año de servicio.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "8 días de salario por año de servicio",
+          "correct": false
+        },
+        {
+          "text": "9 días de salario por año de servicio",
+          "correct": false
+        },
+        {
+          "text": "10 días de salario por año de servicio",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La indemnización por fin de contrato temporal (no de interinidad/sustitución) es de 12 días de salario por año de servicio. IT: L’indennità per scadenza del termine è pari a 12 giorni/anno (salve eccezioni).",
+      "legal_reference": "ET, art. 49.1.c; DT 13ª ET (escala histórica hasta 12 días).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 4 - 5 - Pregunta 10\nEl contrato de sustitución para un puesto que va a ser cubierto por un proceso de selección tendrá una duración máxima de",
+      "answers": [
+        {
+          "text": "3 meses.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "1 mes",
+          "correct": false
+        },
+        {
+          "text": "2 meses",
+          "correct": false
+        },
+        {
+          "text": "6 meses",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La cobertura de vacante por proceso de selección mediante contrato de sustitución tiene límite máximo de 3 meses, no prorrogable. IT: La sostituzione per vacanza in attesa di selezione non può superare 3 mesi.",
+      "legal_reference": "ET, art. 15 (contrato de sustitución por vacante: duración máxima 3 meses).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 7 - Pregunta 1\nEntre el final de una jornada y el comienzo de la siguiente mediarán, como mínimo...",
+      "answers": [
+        {
+          "text": "12 HORAS.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "10 HORAS",
+          "correct": false
+        },
+        {
+          "text": "8 HORAS",
+          "correct": false
+        },
+        {
+          "text": "14 HORAS",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Descanso mínimo diario de 12 horas entre jornadas. IT: Riposo minimo giornaliero di 12 ore tra due giornate di lavoro.",
+      "legal_reference": "ET, art. 34.3; Dir. 2003/88/CE (tiempos de trabajo).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 7 - Pregunta 2\nSeñala la respuesta incorrecta sobre la jornada de trabajo",
+      "answers": [
+        {
+          "text": "El descanso semanal mínimo es, para todos los trabajadores, de dos días, ininterrumpidos.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "Para que la jornada se considere partida, debe existir una interrupción mínima de una hora para la comida",
+          "correct": false
+        },
+        {
+          "text": "Entre el final de una jornada y el comienzo de la siguiente, debe existir como mínimo 12 horas de descanso",
+          "correct": false
+        },
+        {
+          "text": "El horario nocturno comprende desde las 22 a las 6 horas",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: En general el descanso semanal es de día y medio ininterrumpido, no dos días (salvo menores: 2 días). IT: Il riposo settimanale ordinario è di un giorno e mezzo, non di due (che valgono per i minori).",
+      "legal_reference": "ET, art. 37.1 (descanso semanal); art. 34.3 (descanso diario); art. 36 (trabajo nocturno).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 7 - Pregunta 3\nUna de las siguientes afirmaciones sobre el descanso semanal es falsa",
+      "answers": [
+        {
+          "text": "Para los menores será como mínimo de dos días y medio ininterrumpido.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "Tendrá una duración mínima de día y medio ininterrumpid",
+          "correct": false
+        },
+        {
+          "text": "Es irrenunciable y retribuido",
+          "correct": false
+        },
+        {
+          "text": "Es acumulable por períodos de hasta 14 días",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Para los menores el descanso semanal mínimo es de 2 días, no 2,5 días. Las otras afirmaciones reflejan reglas generales. IT: Per i minori il riposo settimanale è almeno di 2 giorni, non 2,5; le altre proposizioni sono corrette.",
+      "legal_reference": "ET, art. 37.1 (descanso semanal; menores).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 7 - Pregunta 4\nLa duración del descanso semanal de los menores de dieciocho años será, como mínimo, de",
+      "answers": [
+        {
+          "text": "2 días ininterrumpidos.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "día y medio ininterrumpido",
+          "correct": false
+        },
+        {
+          "text": "3 días ininterrumpidos",
+          "correct": false
+        },
+        {
+          "text": "1 día",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Regla específica para menores: 2 días ininterrumpidos. IT: Regola speciale per i minori: 2 giorni consecutivi.",
+      "legal_reference": "ET, art. 37.1 (menores).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 7 - Pregunta 5\nCon carácter general, ¿Es tiempo de trabajo efectivo el que emplea el trabajador en vestirse dentro del centro de trabajo?",
+      "answers": [
+        {
+          "text": "No, por cuanto no se encuentra aún en su puesto de trabajo.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "Siempre, por estar ya a disposición del empresario",
+          "correct": false
+        },
+        {
+          "text": "Solamente si se pacta por convenio colectivo su compensación por tiempos equivalentes de descanso",
+          "correct": false
+        },
+        {
+          "text": "Solamente si se pacta por convenio colectivo o en contrato su compensación por tiempos equivalentes de descanso",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Con carácter general no computa como tiempo efectivo salvo que el cambio sea obligatorio, deba hacerse en el centro y derive de exigencias de seguridad/imagen, en cuyo caso la jurisprudencia lo ha considerado tiempo efectivo. IT: In via generale no; se obbligatorio e da svolgere in sede (per sicurezza/immagine), la giurisprudenza lo considera tempo di lavoro.",
+      "legal_reference": "ET, art. 34 (jornada); doctrina TS sobre tiempo de ‘cambio de ropa’ (p. ej., SSTS Sala Social).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 7 - Pregunta 6\nEl salario admite varias modalidades",
+      "answers": [
+        {
+          "text": "Sí, en dinero o en especie.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "No, solo en dinero",
+          "correct": false
+        },
+        {
+          "text": "Sí, en moneda de curso legal o en talón bancario",
+          "correct": false
+        },
+        {
+          "text": "Si, dinerario o emocional",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El salario puede satisfacerse en dinero y en especie (con límites). IT: La retribuzione può essere in denaro e in natura (entro limiti).",
+      "legal_reference": "ET, art. 26.1 y 26.3 (salario en especie ≤ 30%).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 7 - Pregunta 7\nLa propina es salario",
+      "answers": [
+        {
+          "text": "No, por su escasa cuantía.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "No, por su escasa cuantía",
+          "correct": false
+        },
+        {
+          "text": "Sólo si así se prevé en el contrato del trabajador",
+          "correct": false
+        },
+        {
+          "text": "Solamente cuando se abona en el sector de hostelería y casinos",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El enunciado da como válida la no consideración de salario; jurídicamente, la clave no es la ‘escasa cuantía’, sino que la propina es una liberalidad del cliente y solo puede adquirir naturaleza salarial si se integra en la estructura retributiva (p. ej., si la empresa la recauda y distribuye). IT: Il test considera che la mancia non sia salario; in diritto il criterio non è l’esiguità, ma l’origine liberale e la (eventuale) integrazione stabile nella retribuzione.",
+      "legal_reference": "ET, art. 26.1-2 (concepto de salario y percepciones extrasalariales); jurisprudencia social del TS sobre propinas.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 7 - Pregunta 8\nUn trabajador aporta a su trabajo sus propias herramientas. La Empresa, por su parte, le abona en nómina una cantidad todos los meses en concepto de “desgaste de herramientas”. Tal pago será",
+      "answers": [
+        {
+          "text": "Una prestación extrasalarial.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "Parte del Salario Base",
+          "correct": false
+        },
+        {
+          "text": "Salario en especie",
+          "correct": false
+        },
+        {
+          "text": "Un complemento salarial",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Es una indemnización de gastos (compensación de gastos por medios propios), por tanto percepción extrasalarial. IT: È rimborso/indennità per spese/consumo di strumenti propri, quindi voce extra-salariale.",
+      "legal_reference": "ET, art. 26.2 (percepciones extrasalariales: indemnizaciones y suplidos).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 7 - Pregunta 9\nLas pagas extraordinarias serán",
+      "answers": [
+        {
+          "text": "Como mínimo dos y una de ellas debe abonarse en Navidad.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "Como máximo tres: una en verano, otra en Navidad y la tercera prorrateada a lo largo del año",
+          "correct": false
+        },
+        {
+          "text": "Como mínimo dos: una en verano y otra en Navidad",
+          "correct": false
+        },
+        {
+          "text": "Como máximo cuatro: cada una en un trimestre",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El ET garantiza al menos dos pagas extraordinarias anuales, una de ellas en Navidad (la otra por convenio o pacto). IT: Minimo due mensilità extra l’anno, una a Natale; l’altra secondo CCNL o accordo.",
+      "legal_reference": "ET, art. 31.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 7 - Pregunta 10\nJuan ha tenido que realizar un trabajo entre las tres y las cinco de la mañana. Le pregunta si ese trabajo, según el artículo 36 del Estatuto de los Trabajadores, es trabajo nocturno. ¿Qué le deberá contestar?",
+      "answers": [
+        {
+          "text": "Si, porque es trabajo nocturno el que se presta entre las diez de la noche y las seis de la mañana.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "Sí, ya que es trabajo nocturno el que se presta después de ponerse el sol, y hasta que amanece. Por eso, en verano la jornada es mayor para los trabajadores de este turno, que se recuperan en invierno, con menos horas de sol y, por tanto, una jornada menor",
+          "correct": false
+        },
+        {
+          "text": "No, porque aunque el trabajo se ha realizado de noche, a efectos del artículo 36 del Estatuto de los Trabajadores será trabajo nocturno el que se presta entre las diez de la noche y las seis de la mañana, pero sólo si se realiza al menos durante tres horas o al menos durante la tercera parte de su jornada laboral",
+          "correct": false
+        },
+        {
+          "text": "Sí, porque es trabajo nocturno el que se presta entre las doce de la noche y las ocho de la mañana",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El trabajo nocturno se define legalmente como el realizado entre las 22:00 y las 06:00. IT: Il lavoro notturno è quello svolto tra le 22:00 e le 06:00.",
+      "legal_reference": "ET, art. 36.1.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 8 - Pregunta 1\nUna Empresa pretende enviar a uno de sus trabajadores, que trabaja en su Centro de Trabajo de Murcia, por razones organizativas y por un periodo de seis meses, a otro centro de trabajo, situado en Santander,. ¿Ante qué tipo de movilidad laboral nos encontramos?",
+      "answers": [
+        {
+          "text": "Desplazamiento.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "Traslado",
+          "correct": false
+        },
+        {
+          "text": "Modificación sustancial de condiciones de trabajo",
+          "correct": false
+        },
+        {
+          "text": "No supone ningún tipo de movilidad, ni geográfica ni funcional, pues no tiene carácter permanente",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Un cambio temporal que exige cambio de residencia por menos de 12 meses en 3 años es desplazamiento. IT: Spostamento temporaneo (<12 mesi in 3 anni) con cambio di residenza integra un ‘desplazamiento’, non un ‘traslado’.",
+      "legal_reference": "ET (RDL 2/2015), art. 40.6-7 (desplazamientos).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 8 - Pregunta 6\nLos trabajadores tendrán derecho a un período de excedencia para atender al cuidado de cada hijo, tanto cuando lo sea por naturaleza, como por adopción, o en los supuestos de acogimiento, tanto permanente como preadoptivo, aunque éstos sean provisionales, a contar desde la fecha de nacimiento o, en su caso, de la resolución judicial o administrativa. Este periodo tendrá una duración",
+      "answers": [
+        {
+          "text": "No superior a tres años.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "No inferior a tres años",
+          "correct": false
+        },
+        {
+          "text": "No superior a dos años",
+          "correct": false
+        },
+        {
+          "text": "No inferior a dos años",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La excedencia por cuidado de hijo puede alcanzar hasta 3 años. IT: L’eccedenza per cura del figlio è fino a 3 anni dalla nascita/adozione/affidamento.",
+      "legal_reference": "ET, art. 46.3.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 8 - Pregunta 10\nLa excedencia voluntaria no se podrá solicitar por tiempo inferior a:\n\nCuatro meses.- CORRETTA",
+      "answers": [
+        {
+          "text": "Cuatro meses.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "Cinco meses",
+          "correct": false
+        },
+        {
+          "text": "Un año",
+          "correct": false
+        },
+        {
+          "text": "Seis meses",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La duración mínima de la excedencia voluntaria es 4 meses. IT: L’eccedenza volontaria richiede almeno 4 mesi.",
+      "legal_reference": "ET, art. 46.2 (mínimo 4 meses y máximo 5 años).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 10 - Pregunta 1\nLas secciones sindicales pueden ser constituidas por",
+      "answers": [
+        {
+          "text": "los trabajadores de una empresa afiliados a un mismo sindicato, de conformidad con sus estatutos, en el ámbito de la empresa o centro de trabajo. .- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "Los sindicatos más representativos a nivel nacional",
+          "correct": false
+        },
+        {
+          "text": "Los delegados de personal pertenecientes a un sindicato",
+          "correct": false
+        },
+        {
+          "text": "El Comité de empresa",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Las secciones sindicales se constituyen por los afiliados del sindicato en la empresa/centro, conforme a estatutos. IT: Le sezioni sindacali sono costituite dagli iscritti del sindacato nell’impresa/centro secondo gli statuti.",
+      "legal_reference": "LO 11/1985, de Libertad Sindical (LOLS), art. 8.1.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 10 - Pregunta 2\n¿Quiénes pueden designar a los delegados sindicales?:",
+      "answers": [
+        {
+          "text": "Los trabajadores afiliados al sindicato en la empresa.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "El sindicato al que pertenece la sección sindical",
+          "correct": false
+        },
+        {
+          "text": "El empresario y los delegados de personal conjuntamente",
+          "correct": false
+        },
+        {
+          "text": "Todos los trabajadores de la empresa",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La designación corresponde a los afiliados del sindicato en la empresa/centro, según estatutos y LOLS. IT: La nomina dei delegati sindacali spetta agli iscritti nell’azienda, secondo statuto e LOLS.",
+      "legal_reference": "LOLS, art. 10.1-2.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 10 - Pregunta 3\nEn una empresa o centro de trabajo de menos de cincuenta y más de diez trabajadores, la representación de los trabajadores corresponde a",
+      "answers": [
+        {
+          "text": "Los delegados de personal. .- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "Los sindicatos más representativos a nivel local",
+          "correct": false
+        },
+        {
+          "text": "El trabajador de más antigüedad en la empresa",
+          "correct": false
+        },
+        {
+          "text": "El Comité de empresa.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Entre 11 y 49 personas trabajadoras: delegados de personal; desde 50: comité de empresa. IT: 11–49 addetti: delegati di personale; ≥50: comitato di impresa.",
+      "legal_reference": "ET, art. 62 (delegados de personal) y 63 (comité de empresa).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 10 - Pregunta 4\nEn las empresas de más de cincuenta trabajadores y menos de cien, el número de miembros del Comité de empresa será:",
+      "answers": [
+        {
+          "text": "5.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "13",
+          "correct": false
+        },
+        {
+          "text": "9",
+          "correct": false
+        },
+        {
+          "text": "3",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Tramo 50–100 trabajadores: 5 miembros del comité. IT: Nelle imprese 50–100 addetti: 5 membri.",
+      "legal_reference": "ET, art. 66.1 (número de miembros del comité).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 10 - Pregunta 5\nEl Comité de seguridad y salud se constituirá en",
+      "answers": [
+        {
+          "text": "Las empresas o centros de trabajo que cuenten con 50 o más trabajadores.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "Todas las empresas.",
+          "correct": false
+        },
+        {
+          "text": "Las empresas de más de diez trabajadores",
+          "correct": false
+        },
+        {
+          "text": "Las empresas con más de un centro de trabajo",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El Comité de Seguridad y Salud es obligatorio a partir de 50 trabajadores. IT: Il Comitato di Sicurezza e Salute si istituisce con ≥50 lavoratori.",
+      "legal_reference": "Ley 31/1995, LPRL, art. 38.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 10 - Pregunta 6\nEn Empresas de hasta 30 trabajadores, el número de delegados de prevención",
+      "answers": [
+        {
+          "text": "Será de 1: El delegado de personal.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "Será de 2",
+          "correct": false
+        },
+        {
+          "text": "Será de 1, a elegir entre los delegados de personal.",
+          "correct": false
+        },
+        {
+          "text": "Será de 1, y no podrá ser el delegado de personal",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: En empresas de hasta 30, el delegado de prevención es el delegado de personal (1). IT: Fino a 30 addetti, il delegato di prevenzione coincide con il delegato di personale (1).",
+      "legal_reference": "LPRL, art. 35.2.",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 10 - Pregunta 7\nEl número máximo de delegados de prevención será de:",
+      "answers": [
+        {
+          "text": "8.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "5",
+          "correct": false
+        },
+        {
+          "text": "3",
+          "correct": false
+        },
+        {
+          "text": "12",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La escala legal fija un máximo de 8 delegados de prevención en empresas con más de 4.000 personas. IT: La tabella legale arriva a un massimo di 8 delegati di prevenzione (>4.000 addetti).",
+      "legal_reference": "LPRL, art. 35.2 (tabla de delegados por plantilla).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 10 - Pregunta 8\nTendrán la consideración de sindicatos más representativos a nivel estatal:\n\n\nLos que acrediten una especial audiencia, expresada en la obtención, en dicho ámbito del 10 % o más del total de delegados de personal de los miembros de los comités de empresa y de los correspondientes órganos de las Administraciones Públicas, así como los sindicatos o entes sindicales, afiliados, federados o confederados a una organización sindical de ámbito estatal que tenga la consideración de más representativa. .- CORRETTA",
+      "answers": [
+        {
+          "text": "Los que acrediten una especial audiencia, expresada en la obtención, en dicho ámbito del 10 % o más del total de delegados de personal de los miembros de los comités de empresa y de los correspondientes órganos de las Administraciones Públicas, así como los sindicatos o entes sindicales, afiliados, federados o confederados a una organización sindical de ámbito estatal que tenga la consideración de más representativa. .- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "Los que acrediten una especial audiencia, expresada en la obtención, en dicho ámbito del 15 % o más del total de delegados de personal de los miembros de los comités de empresa y de los correspondientes órganos de las Administraciones Públicas, así como los sindicatos o entes sindicales, afiliados, federados o confederados a una organización sindical de ámbito estatal que tenga la consideración de más representativa",
+          "correct": false
+        },
+        {
+          "text": "Los que acrediten una especial audiencia, expresada en la obtención, en dicho ámbito del 10 % o más del total de delegados de personal de los miembros de los comités de empresa y de los correspondientes órganos de las Administraciones Públicas.",
+          "correct": false
+        },
+        {
+          "text": "Los que acrediten una especial audiencia, expresada en la obtención, en dicho ámbito del 15 % o más del total de delegados de personal de los miembros de los comités de empresa y de los correspondientes órganos de las Administraciones Públicas",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Son más representativos los sindicatos con al menos el 10% estatal o los federados a una confederación estatal más representativa. IT: Rilevanza nazionale con almeno il 10% o affiliazione a confederazione nazionale più rappresentativa.",
+      "legal_reference": "LOLS, art. 6.2 (representatividad estatal).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 10 - Pregunta 9\nLas organizaciones sindicales en el ejercicio de la libertad sindical, tienen derecho a:",
+      "answers": [
+        {
+          "text": "Constituir federaciones, confederaciones y organizaciones internacionales, así como afiliarse a ellas y retirarse de las mismas.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "No ser suspendidas ni disueltas, en su caso, por la Autoridad Judicial.",
+          "correct": false
+        },
+        {
+          "text": "Redactar sus estatutos y reglamento, previo consentimiento de la Autoridad laboral.",
+          "correct": false
+        },
+        {
+          "text": "Ser sostenidas económicamente por el empresario",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Entre los derechos sindicales: federarse y confederarse, adherirse a organizaciones internacionales y separarse de ellas. IT: Diritti: costituire federazioni/confederazioni, aderire a organizzazioni internazionali e recedervi.",
+      "legal_reference": "LOLS, art. 2.2.d (derechos de las organizaciones sindicales).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    },
+    {
+      "question": "TEST 10 - Pregunta 10\nEl acto de extensión de un convenio",
+      "answers": [
+        {
+          "text": "Lo ejerce la administración para llenar un vacío normativo (ausencia de convenio en un ámbito determinado) mediante la aplicación, por decisión administrativa, de las normas de un convenio existente.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "Requiere, para ser válido, que el convenio extendido sea, al menos, de ámbito empresarial y que se esté aplicando en una empresa del mismo sector, o de uno análogo.",
+          "correct": false
+        },
+        {
+          "text": "tiene por objeto asumir como propio el convenio concertado por partes ajenas, y se adoptará de común acuerdo por las partes legitimadas",
+          "correct": false
+        },
+        {
+          "text": "Todas son correctas",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La autoridad laboral puede extender un convenio existente a ámbitos sin convenio para evitar vacíos. IT: L’amministrazione può estendere un CC a un ambito privo di copertura per colmare il vuoto.",
+      "legal_reference": "ET, art. 92.2 (extensión de convenios).",
+      "original_file": "Autoevaluacion Trabajo y RL .docx"
+    }
+  ]
+}
