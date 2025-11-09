@@ -521,12 +521,12 @@
     {
       "question": "En nuestro derecho laboral, respecto del principio de norma más favorable, se aplica el siguiente criterio de comparación:",
       "answers": [
-        { "text": "La comparación global entre normas, de manera que se da preferencia, en bloque, a la más favorable, apreciada en su conjunto.", "correct": false },
+        { "text": "La comparación global entre normas, de manera que se da preferencia, en bloque, a la más favorable, apreciada en su conjunto.", "correct": true },
         { "text": "La comparación específica entre concretas condiciones de trabajo reguladas en las normas en colisión, aplicando las más favorables de cada norma.", "correct": false },
         { "text": "La comparación parcial entre grupos o conjuntos homogéneos de materias de una y otra norma.", "correct": false },
-        { "text": "Cualquiera de los criterios es válido, y variará en función de cuáles son las normas que se están aplicando, si se trata de concurrencia de leyes, de convenios o de ambos entre sí.", "correct": true }
+        { "text": "Cualquiera de los criterios es válido, y variará en función de cuáles son las normas que se están aplicando, si se trata de concurrencia de leyes, de convenios o de ambos entre sí.", "correct": false }
       ],
-      "explanation": "ES: A) B) C) Falsas en el ítem: no se erigen en única regla universal. D) Verdadera: el enunciado admite flexibilidad según concurrencia normativa (aunque doctrinalmente predomina la globalidad).\nIT: A) B) C) False nel test. D) Vera: criterio flessibile secondo il tipo di concorrenza (pur prevalendo in dottrina la globalità).",
+      "explanation": "ES (ampliada).\nEl principio de norma más favorable opera cuando coinciden dos o más normas potencialmente aplicables. Para resolver la colisión, el art. 3.3 ET impone el criterio de globalidad: se compara cada norma en su conjunto y se aplica una sola, la más favorable en bloque; en los conceptos cuantificables, además, con cómputo anual. Esta regla impide construir un “puzle” tomando de cada norma solo las cláusulas ventajosas. Tus apuntes lo explican exactamente en estos términos.\n\nIT (estesa).\nIl principio della norma più favorevole si applica nei conflitti tra più fonti potenzialmente applicabili. L’art. 3.3 ET adotta il criterio della globalità: si confrontano le norme nel loro complesso e se ne applica una sola, quella globalmente più favorevole; per le voci quantificabili si considera il computo annuale. È vietato fare “cherry-picking” combinando le clausole più vantaggiose di testi diversi, come ricordano i tuoi materiali.",
       "legal_reference": "ET arts. 3.3 y 84; doctrina TS sobre globalidad de comparación.",
       "original_file": "Trabajo y RL AGGIORNATO 06 06 25 .docx"
     },
