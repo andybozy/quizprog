@@ -1,6 +1,6 @@
 {
+  "file_number": 0,
   "file_name": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx",
-  "total_questions_in_file": 120,
   "questions": [
     {
       "question": "13. ¿Cuál de los siguientes elementos no es un requisito del delito de hurto del artículo 234 del CP?",
@@ -1031,6 +1031,306 @@
         { "text": "Todas las respuestas anteriores son falsas.", "correct": false }
       ],
       "explanation": "ES: La regularización plena previa a determinadas actuaciones excluye la punibilidad en los términos del CP; de ahí que [A] sea la correcta en la formulación del test. Referencia PPTX (disposiciones comunes económicas): 4_TEMA 41.pptx. :contentReference[oaicite:59]{index=59}\nIT: La regolarizzazione tempestiva può escludere la punibilità; [A] è corretta secondo il quesito. Riferimento PPTX: 4_TEMA 41.pptx. :contentReference[oaicite:60]{index=60}"
+    },
+    {
+      "question": "26- Delitos contra los derechos de ciudadanos extranjeros. Art. 318 bis CP.",
+      "answers": [
+        { "text": "El tipo básico sanciona a quien intencionadamente ayude a ...transitar a través del mismo, en cualquier caso.", "correct": false },
+        { "text": "Los hechos no serán punibles cuando el objetivo perseguido por el autor fuere únicamente prestar ayuda humanitaria a la persona de que se trate.", "correct": true },
+        { "text": "Si los hechos se hubieran cometido con ánimo de lucro se impondrá la pena superior en grado.", "correct": false },
+        { "text": "Será un supuesto agravado cuando los hechos se hubieran cometido en el seno de cualquier tipo de organización.", "correct": true }
+      ],
+      "explanation": "ES: El art. 318 bis CP sanciona la ayuda intencional a la entrada o al tránsito irregulares (tipo básico) con una cláusula de no punibilidad para la finalidad exclusivamente humanitaria. Con ánimo de lucro la pena se impone en su mitad superior; si los hechos se cometen en el seno de una organización, opera la modalidad agravada (prisión 4–8 años). [A] es FALSA por el “en cualquier caso”, que desconoce la exención humanitaria; [B] es VERDADERA; [C] es FALSA (la ley habla de “mitad superior”, no “superior en grado”); [D] es VERDADERA. (Sin diapositiva PPTX específica). \nIT: L’art. 318 bis CP punisce l’aiuto intenzionale all’ingresso/transito irregolare; prevede l’esenzione quando lo scopo è esclusivamente umanitario. Con animus lucri si applica la metà superiore; se i fatti avvengono in seno ad un’organizzazione, c’è l’aggravata (4–8 anni). [A] FALSA; [B] VERA; [C] FALSA; [D] VERA. (Nessuna slide PPTX)."
+    },
+    {
+      "question": "27. ¿Son punibles la caza y la pesca, conforme a lo previsto en el artículo 335 del Código Penal?",
+      "answers": [
+        { "text": "Si, cuando se ejerza sobre especies protegidas.", "correct": false },
+        { "text": "Sí, siempre que no se haya obtenido la correspondiente autorización administrativa.", "correct": true },
+        { "text": "Sí, cuando se empleen armas de fuego sin estar en posesión del permiso de armas.", "correct": false },
+        { "text": "Todas las anteriores conductas son punibles conforme a lo previsto en el artículo 335 del Código Penal.", "correct": false }
+      ],
+      "explanation": "ES: El art. 335 CP no se refiere a especies protegidas (eso es el 334), sino a caza/pesca de otras especies cuando esté expresamente prohibido por su normativa y a supuestos como cazar/pescar en terrenos sometidos a régimen cinegético especial sin el permiso del titular o marisquear sin título habilitante. No regula el “permiso de armas”. [A] FALSA (remite al 334); [B] VERDADERA (permiso/título habilitante según 335.2); [C] FALSA; [D] FALSA. (Sin diapositiva PPTX específica). \nIT: L’art. 335 CP non riguarda le specie protette (art. 334), ma la caccia/pesca vietate dalla normativa e, tra l’altro, la caccia/pesca in fondi a regime venatorio speciale senza il permesso del titolare o il marisqueo senza titolo. Nessun riferimento al “porto d’armi”. [A] FALSA; [B] VERA; [C] FALSA; [D] FALSA. (Nessuna slide PPTX)."
+    },
+    {
+      "question": "28. ¿Respecto de qué animales no son punibles las acciones constitutivas de delito a que hace referencia el artículo 340 bis del Código Penal?",
+      "answers": [
+        { "text": "Respecto de un animal doméstico o amansado.", "correct": false },
+        { "text": "Respecto de un animal que viva en estado salvaje.", "correct": false },
+        { "text": "Respecto de un animal invertebrado.", "correct": true },
+        { "text": "Respecto de animal que, temporal o permanentemente, vive bajo control humano.", "correct": false }
+      ],
+      "explanation": "ES: El Título XVI bis (art. 340 bis CP) protege a los animales domésticos/amansados/domesticados o que vivan bajo control humano, y también a otros vertebrados en determinados supuestos; los invertebrados quedan fuera. [A] FALSA; [B] FALSA; [C] VERDADERA; [D] FALSA. (Sin diapositiva PPTX específica). \nIT: Il Titolo XVI bis (art. 340 bis CP) tutela animali domestici, addomesticati, domesticati o sotto controllo umano e, in certi casi, altri vertebrati; gli invertebrati sono esclusi. [A] FALSA; [B] FALSA; [C] VERA; [D] FALSA. (Nessuna slide PPTX)."
+    },
+    {
+      "question": "29. La protección de los edificios regularmente protegidos por s...itutiva de delito, conforme a lo establecido en el Código Penal?",
+      "answers": [
+        { "text": "La de quienes derriben los edificios singularmente protegidos.", "correct": false },
+        { "text": "La de los que alteran levemente los edificios singularmente protegidos", "correct": true },
+        { "text": "La de aquella autoridad o funcionario público que, a sabiendas de su injusticia, haya informado favorablemente proyectos de derribo 0 alteración de edificios singularmente protegidos.", "correct": false },
+        { "text": "La de aquella autoridad o funcionario público que, por sí mismo, o como miembro de un organismo colegiado, haya resuelto o votado a favor de la concesión de proyectos de derribo o alteración de edificios, a sabiendas de su injusticia.", "correct": false }
+      ],
+      "explanation": "ES: Los arts. 321–322 CP protegen los edificios singularmente protegidos por interés histórico/artístico/cultural/monumental. El derribo/alteración GRAVE es delito; las alteraciones leves suelen ser administrativas. Responden también autoridad/funcionario que, a sabiendas, informan favorablemente o votan a favor. Por tanto, lo “no constitutivo de delito” es [B]. (Sin diapositiva PPTX específica). \nIT: Gli artt. 321–322 CP tutelano gli edifici singolarmente protetti: demolizione/alterazione GRAVE = reato; le modifiche lievi in genere sono amministrative. Risponde anche l’autorità/funzionario che approva o vota a favore sapendo l’ingiustizia. Dunque la condotta “non costitutiva di reato” è [B]. (Nessuna slide PPTX)."
+    },
+    {
+      "question": "30. El Código Penal castiga a quien, contraviniendo las Leyes u ...ientes afirmaciones no es correcta en relación con dicho delito?",
+      "answers": [
+        { "text": "Que se castiga con la misma pena al que trafique con ellas, sus partes, derivados de las mismas, o con sus propágulos.", "correct": false },
+        { "text": "Que si la conducta afectará a una cantidad insignificante de ejemplares y no tuviera consecuencias relevantes para el estado de conservación de la especie se castigará como delito leve.", "correct": true },
+        { "text": "Que la pena se impondrá en su mitad superior si se trata de especies o subespecies catalogadas en peligro de extinción.", "correct": false },
+        { "text": "Que puede cometerse por imprudencia grave.", "correct": false }
+      ],
+      "explanation": "ES: El art. 332 CP prevé una cláusula de atipicidad para la “cantidad insignificante… sin consecuencias relevantes”, no un “delito leve”. También contempla agravación por especies en peligro y modalidad imprudente. Por ello, la afirmación “se castigará como delito leve” es la incorrecta a marcar ([B]). (Sin diapositiva PPTX específica). \nIT: L’art. 332 CP prevede un’esclusione di tipicità per quantità insignificante senza impatto conservativo; non un “reato lieve”. Prevede pure aggravata e forma colposa grave. Dunque [B] è l’affermazione non corretta. (Nessuna slide PPTX)."
+    },
+    {
+      "question": "1.\tCon respecto al delito de hurto de cosa propia especificado en el art. 236 del código penal señale la respuesta correcta:",
+      "answers": [
+        { "text": "no hay tipo leve de hurto de sustracción de cosa propia", "correct": false },
+        { "text": "solo el dueño de la cosa puede comentar este delito", "correct": true },
+        { "text": "el poseedor debe tener la cosa ilegítimamente en su poder", "correct": false },
+        { "text": "puede ser cometido por un tercero que actúa con consentimiento del propietario", "correct": false }
+      ],
+      "explanation": "ES: El art. 236 CP castiga al PROPIETARIO que sustrae su cosa a quien la tiene LEGÍTIMAMENTE, causando perjuicio; hay forma leve si ≤ 400 €. [A] FALSA (sí hay tipo leve); [B] VERDADERA (sujeto activo típico: el dueño); [C] FALSA (el poseedor debe ser legítimo, no ilegítimo); [D] FALSA. Referencias PPTX: 1_TEMA 38.pptx, diap. 8. \nIT: L’art. 236 CP punisce il proprietario che sottrae il bene a chi lo detiene legittimamente, con danno; esiste forma lieve ≤ 400 €. [A] FALSA; [B] VERA; [C] FALSA; [D] FALSA. Riferimenti PPTX: 1_TEMA 38.pptx, slide 8."
+    },
+    {
+      "question": "2.\tCon respecto al delito de robo del art. 237 del código penal señala la respuesta correcta:",
+      "answers": [
+        { "text": "el dolo y el ánimo de lucro son requisitos imprescindibles del tipo subjetivo", "correct": true },
+        { "text": "el objeto sobre el que recae es un cose tanto de naturaleza mueble como inmueble", "correct": false },
+        { "text": "el sujeto activo no es genérico", "correct": false },
+        { "text": "este artículo recoge un delito leve de robo en la cuantía no supera los 400 euros", "correct": false }
+      ],
+      "explanation": "ES: Robo (art. 237 CP): exige dolo y ánimo de lucro; recae sobre cosa MUEBLE; sujeto activo genérico; no existe “robo leve”. [A] VERDADERA; [B]/[C]/[D] FALSAS. Referencias PPTX: 1_TEMA 38.pptx, diap. 9. \nIT: Rapina/furto con violenza (art. 237 CP): dolo + fine di profitto; oggetto = mobile; soggetto generico; nessuna “rapina lieve”. [A] VERA; [B]/[C]/[D] FALSE. Riferimenti PPTX: 1_TEMA 38.pptx, slide 9."
+    },
+    {
+      "question": "3.\tSegún el art. 238 se considera que existe robo con fuerza cuando se dan las siguiente circunstancia",
+      "answers": [
+        { "text": "uso de llaves falsas", "correct": true },
+        { "text": "cuando se hubieran neutralizado eliminado o inutilizado po...o los dispositivos de alarma y seguridad instalados en las cosas", "correct": true },
+        { "text": "cuando recaiga sobre conducciones de hidrocarburo", "correct": false },
+        { "text": "cuando se trate de productos agrarios o ganaderos en el delito se cometa en explicaciones agrícolas o ganaderas", "correct": false }
+      ],
+      "explanation": "ES: Fuerza en las cosas (art. 238 CP): llaves falsas (art. 239), escalamiento, fractura/forzamiento y neutralización de sistemas de alarma/seguridad. [A]/[B] VERDADERAS; [C]/[D] FALSAS (son agravantes de hurto del 235, no “fuerza”). Referencias PPTX: 1_TEMA 38.pptx, diap. 10–11. \nIT: “Forza nelle cose” (art. 238 CP): chiavi false, effrazione e neutralizzazione di allarmi. [A]/[B] VERE; [C]/[D] FALSE. Riferimenti PPTX: 1_TEMA 38.pptx, slide 10–11."
+    },
+    {
+      "question": "4.\tSegún el art. 239 se consideran llaves falsas. Señala la respuesta incorrecta",
+      "answers": [
+        { "text": "las llaves legítimas hurtadas a su propietario", "correct": false },
+        { "text": "las llaves legítimas robadas a su propietario", "correct": false },
+        { "text": "las garanzias o instrumentos analogica", "correct": false },
+        { "text": "la inutilización de sistemas específicos de alarma o giardia", "correct": true }
+      ],
+      "explanation": "ES: “Llaves falsas” (art. 239) = llaves legítimas sustraídas/perdidas, ganzúas/instrumentos análogos, tarjetas magnéticas/perforadas/mandos. Inutilizar alarmas no es llave falsa (es fuerza del 238.5). [D] es la INCORRECTA a marcar. Referencias PPTX: 1_TEMA 38.pptx, diap. 11. \nIT: “Chiavi false” (art. 239): chiavi legittime sottratte/smarrite, grimaldelli, tessere magnetiche/telecomandi. Disattivare allarme ≠ chiave. [D] errata da segnare. Riferimenti PPTX: 1_TEMA 38.pptx, slide 11."
+    },
+    {
+      "question": "5.\tCon respecto al robo cometido en casa habitada, edificio o lo... en el art. 241 del código penal. Señale la respuesta incorrecta",
+      "answers": [
+        { "text": "puede ejecutarse en cualquiera de sus dependencias", "correct": false },
+        { "text": "no puede cometerse en un establecimiento abierto al público fuera de las horas de apertura", "correct": true },
+        { "text": "se consideran dependencias de casa habitada sus garajes y patios", "correct": false },
+        { "text": "no se consideran dependencias de casa habitada los departamentos contiguos al edificio aunque formen una unidad física", "correct": false }
+      ],
+      "explanation": "ES: El art. 241 CP es aplicable también fuera de horas de apertura; hay dependencias (patios/garajes contiguos) en comunicación interior. “No puede cometerse fuera de horario” es la INCORRECTA. Referencias PPTX: 1_TEMA 38.pptx, diap. 13. \nIT: Art. 241 CP applicabile anche fuori orario; dipendenze: cortili/garage contigui comunicanti. [B] è l’opzione errata. Riferimenti PPTX: 1_TEMA 38.pptx, slide 13."
+    },
+    {
+      "question": "6.\tSegún el art. 242 del código penal se impondrá la pena agrava...en las siguientes circunstancias. Señale la respuesta  correcta:",
+      "answers": [
+        { "text": "cuando el valor de la cosa robada exceda de 50.000 euros", "correct": false },
+        { "text": "cuando al cometer el hecho delictivo el autor sea reincidente ...aber cometido al menos tres delitos de la misma naturaleza", "correct": false },
+        { "text": "cuando el delincuente hubiera usada armas para proteger su herida", "correct": false },
+        { "text": "cuando el delincuente hubiera usado violencia sobre los que acudiesen en aiudo de la víctima", "correct": true }
+      ],
+      "explanation": "ES: Robo con violencia/intimidación (art. 242 CP): agrava, entre otros, la violencia contra quien acude en auxilio; el uso de armas/medios peligrosos también agrava (incluso para lograr la huida). [D] es la correcta; [A]/[B] no son criterios del 242. Referencias PPTX: 1_TEMA 38.pptx, diap. 15. \nIT: Rapina (art. 242): è aggravata, tra l’altro, la violenza verso i soccorritori; l’uso di armi/mezzi pericolosi pure. [D] corretta; [A]/[B] no. Riferimenti PPTX: 1_TEMA 38.pptx, slide 15."
+    },
+    {
+      "question": "7.\tLa sustracción de cosa propia a su utilidad social o cultural especificada en el art. 249 del código penal exige",
+      "answers": [
+        { "text": "la existencia de ánimo de lucro", "correct": false },
+        { "text": "la existencia de dolo o imprudencia grave", "correct": false },
+        { "text": "que la sustracción se lleve a cabo por cualquier medio", "correct": true },
+        { "text": "que se ocasiona siempre un daño en la cosa", "correct": false }
+      ],
+      "explanation": "ES: En realidad es el art. 289 CP: castiga al propietario que destruye/inutiliza o sustrae a su función social/cultural su cosa; no exige ánimo de lucro ni daño material, y puede realizarse por cualquier medio. [C] VERDADERA. Referencias PPTX: 1_TEMA 38.pptx, diap. 21. \nIT: È l’art. 289 CP: punisce il proprietario che distrugge/integra o sottrae alla funzione un bene proprio di utilità sociale/culturale; no lucro/danno, mezzo qualunque. [C] VERA. Riferimenti PPTX: 1_TEMA 38.pptx, slide 21."
+    },
+    {
+      "question": "8.\tPara la fijación de la pena en el delito de estafa según el art. 248 del código penal ¿Qué elemento se tendrá en cuenta?",
+      "answers": [
+        { "text": "el importe de lo defraudado", "correct": true },
+        { "text": "el volumen del negocio realizado", "correct": false },
+        { "text": "la intimidación empleada por el autor", "correct": false },
+        { "text": "el quebranto económico causado a la familia", "correct": false }
+      ],
+      "explanation": "ES: Según el art. 249 CP, la pena se individualiza atendiendo al importe, quebranto económico, relaciones entre autor/víctima y medios empleados. [A] VERDADERA; [B]/[C]/[D] FALSAS. Referencias PPTX: 2_TEMA 39.pptx, diap. 4. \nIT: L’art. 249 CP: pena commisurata a importo, pregiudizio, rapporti, mezzi. [A] VERA; [B]/[C]/[D] FALSE. Riferimenti PPTX: 2_TEMA 39.pptx, slide 4."
+    },
+    {
+      "question": "9.\tEl art. 249 1b del código penal sanción contra los reos... utilizando de forma fraudulenta",
+      "answers": [
+        { "text": "tarjetas de debito per ni de crédito", "correct": false },
+        { "text": "tarjetas de crédito pero no de debido", "correct": false },
+        { "text": "cheques de viaje", "correct": true },
+        { "text": "ninguna de las anteriores", "correct": false }
+      ],
+      "explanation": "ES: El art. 248.2(b) CP contempla, entre otros, el uso fraudulento de tarjetas de crédito o débito y “cheques de viaje”. [C] VERDADERA. Referencias PPTX: 2_TEMA 39.pptx, diap. 4. \nIT: Art. 248.2(b) CP: uso fraudolento di carte di pagamento e travellers’ cheques. [C] VERA. Riferimenti PPTX: 2_TEMA 39.pptx, slide 4."
+    },
+    {
+      "question": "10.\tSegún el art. 250 se agrava la pena para el delito de estafa si el delinquir el culèable hubiera",
+      "answers": [
+        { "text": "tres delitos comprendidos en el capítulo de las defraudaciones", "correct": false },
+        { "text": "no se tienen en cuenta los antecedentes penales cancelados", "correct": false },
+        { "text": "no se tiene en cuenta los antecedentes èenales que debieran ser cancelados", "correct": false },
+        { "text": "todas las respuestas son correctas", "correct": true }
+      ],
+      "explanation": "ES: El art. 250.1.6ª CP prevé la multirreincidencia específica; no se computan antecedentes cancelados o cancelables. Por eso procede “todas”. Referencias PPTX: 2_TEMA 39.pptx, diap. 6. \nIT: Recidiva qualificata ed esclusione dei precedenti cancellati/cancellabili (250.1.6ª). “Tutte”. Riferimenti PPTX: 2_TEMA 39.pptx, slide 6."
+    },
+    {
+      "question": "11.\tPara que una conducta sea sancionada como apropiación indebida por el art. 252 del código penal es preciso que:",
+      "answers": [
+        { "text": "el sujeto activo tenga facultades para administrar patrimonio ajeno", "correct": false },
+        { "text": "el sujeto activo se exceda en el ejercicio de sus funciones", "correct": false },
+        { "text": "la cuantía puede bi si+uperar los 400 euros y será sancionada como delito leve", "correct": false },
+        { "text": "todas son correctas ", "correct": true }
+      ],
+      "explanation": "ES: El enunciado dice “apropiación indebida”, pero describe la ADMINISTRACIÓN DESLEAL (art. 252): facultades de administración sobre patrimonio ajeno, exceso en su ejercicio y perjuicio; existe forma leve ≤ 400 €. Por eso “todas”. Referencias PPTX: 2_TEMA 39.pptx, diap. 11. \nIT: In realtà è AMMINISTRAZIONE INFEDELE (art. 252): poteri gestori, eccesso, danno; forma lieve ≤ 400 €. “Tutte”. Riferimenti PPTX: 2_TEMA 39.pptx, slide 11."
+    },
+    {
+      "question": "12.\tLa sanción del delito por la vía de apropiación indebida del art. 253 del código penal exige que:",
+      "answers": [
+        { "text": "que la cuantía de lo apropiado exceda de los 400 euros", "correct": false },
+        { "text": "que la apropiación sea para el propio sujeto activo o para un tercero", "correct": true },
+        { "text": "que la cuantía de lo apropiado no exceda de 400 euros porque siempre es un delito leve", "correct": false },
+        { "text": "la conducta consiste siempre en negar haber recibido el bien a devolver", "correct": false }
+      ],
+      "explanation": "ES: Art. 253 CP: apropiación indebida para sí o para un tercero de bien mueble ajeno recibido con obligación de entregar/devolver. [B] VERDADERA; [A]/[C]/[D] FALSAS. Referencias PPTX: 2_TEMA 39.pptx, diap. 12. \nIT: Art. 253 CP: appropriazione indebita (per sé o per terzi) di bene mobile altrui ricevuto con obbligo di restituzione. [B] VERA; [A]/[C]/[D] FALSE. Riferimenti PPTX: 2_TEMA 39.pptx, slide 12."
+    },
+    {
+      "question": "13.\tLa defraudación del fluido eléctrico y análogos sancionada e...digo penal los medios para cometer esta defraudación pueden ser:",
+      "answers": [
+        { "text": "alterando maliciosamente las indicaciones de apartados contadores", "correct": false },
+        { "text": "mecanismos instalados para realizar la defraudación", "correct": false },
+        { "text": "empleando cualesquiera otros medios clandestinos", "correct": false },
+        { "text": "todas son correctas", "correct": true }
+      ],
+      "explanation": "ES: Art. 255 CP: medios típicos son (i) alterar contadores/indicaciones, (ii) valerse de mecanismos para defraudar, (iii) emplear medios clandestinos; existe forma leve si ≤ 400 €. [D] “todas”. Referencias PPTX: 2_TEMA 39.pptx, diap. 14. \nIT: Art. 255: contatori alterati, congegni, mezzi clandestini; forma lieve ≤ 400 €. [D] “tutte”. Riferimenti PPTX: 2_TEMA 39.pptx, slide 14."
+    },
+    {
+      "question": "14.\tCual de las siguientes conductas no es sancionada en el art. 259 del código penal como insolvencia punible?",
+      "answers": [
+        { "text": "quien oculte los bienes en la mesa del concurso en el momento de su apertura", "correct": false },
+        { "text": "quien asuma deudas que no guarden proporción con la situación ...deudor y carezcan de justificación económica y empresarial", "correct": false },
+        { "text": "quien participe en negocios especulativos", "correct": false },
+        { "text": "quien proceda al reconocimiento de créditos ", "correct": true }
+      ],
+      "explanation": "ES: El art. 259 CP sanciona ocultaciones, actos desproporcionados, operaciones a pérdidas, especulación injustificada, simulación o reconocimiento de CRÉDITOS FICTICIOS, etc. El mero “reconocimiento de créditos” no tipifica: debe ser ficticio. Por eso [D] es la no sancionada. Referencias PPTX: 3_TEMA 40.pptx, diap. 10 y 15. \nIT: L’art. 259 punisce anche il riconoscimento di crediti FITTIZI; il semplice riconoscimento non basta. [D] è la non sanzionata. Riferimenti PPTX: 3_TEMA 40.pptx, slide 10 e 15."
+    },
+    {
+      "question": "15.\tEl delito relativo al descubrimiento de un secreto de empres... en el art. 276 del código penal exige los siguientes elementos:",
+      "answers": [
+        { "text": "se puede sancionar con una pena mayor si los secretos descubiertos se ceden a terceros", "correct": false },
+        { "text": "el descubrimiento se realiza por acceso a documentos electrónicos", "correct": false },
+        { "text": "ninguna de las anteriore", "correct": false },
+        { "text": "a y b son correctas", "correct": true }
+      ],
+      "explanation": "ES: El tipo de DESCUBRIMIENTO de secreto de empresa es el art. 278 CP: apoderamiento de datos/soportes (también electrónicos) y agravación si se difunden/revelan/ceden a terceros. [A] y [B] describen supuestos típicos; [D] procede. Referencias PPTX: 4_TEMA 41.pptx, diap. 23–24. \nIT: La “scoperta” di segreto d’impresa è l’art. 278 CP: apprensione dei supporti (anche elettronici) e aggravata per cessione/rivelazione. [A] e [B] corrette; [D] si. Riferimenti PPTX: 4_TEMA 41.pptx, slide 23–24."
+    },
+    {
+      "question": "16.\t El delito contra la hacienda pública especificado en el ar...l código penal sanciona al que defraude a la hacienda pública si",
+      "answers": [
+        { "text": "elude el pago de tributos", "correct": true },
+        { "text": "obtiene devoluciones aunque sean lícitas de los mismos", "correct": false },
+        { "text": "disfruta de beneficios fiscales debidamente", "correct": false },
+        { "text": "ninguna de las anteriores", "correct": false }
+      ],
+      "explanation": "ES: Art. 305 CP: eludir tributos/retenciones/ingresos a cuenta u obtener devoluciones INDEBIDAS. [A] VERDADERA; [B]/[C] FALSAS; [D] FALSA. (Sin diapositiva PPTX específica). \nIT: Art. 305: elusione di imposte/ritenute/acconti o rimborsi indebiti. [A] VERA; [B]/[C] FALSE; [D] FALSA. (Nessuna slide PPTX)."
+    },
+    {
+      "question": "17.\t Sobre qué objetos puede recaer el delito contra la ha...ienda pública del art. 305 del código penal según su apartado 2:",
+      "answers": [
+        { "text": "tributos", "correct": false },
+        { "text": "ingresos a cuenta o impuestos", "correct": false },
+        { "text": "ninguna de las anteriores", "correct": false },
+        { "text": "a y b son correctas", "correct": true }
+      ],
+      "explanation": "ES: El objeto del art. 305 comprende tributos, cantidades retenidas/debidas retener, ingresos a cuenta y devoluciones indebidas. Por eso [D] (“a y b”) es la opción. (Sin diapositiva PPTX específica). \nIT: Oggetto 305: imposte, ritenute, acconti e rimborsi indebiti. [D] corretta. (Nessuna slide PPTX)."
+    },
+    {
+      "question": "18.\tEl delito de receptación especificado en el art. 298 del código penal exige su sanción:",
+      "answers": [
+        { "text": "dolo y ánimo de lucro", "correct": true },
+        { "text": "dolo y delito societario", "correct": false },
+        { "text": "dolo o intervención en el delito precedente", "correct": false },
+        { "text": "dolo y destrucción de los afectos", "correct": false }
+      ],
+      "explanation": "ES: Receptación (art. 298 CP): recibir/ocultar/ayudar a aprovechar efectos del delito, con ánimo de lucro y SIN haber participado en el delito previo. [A] VERDADERA; restantes FALSAS. (Sin diapositiva PPTX). \nIT: Ricettazione (art. 298): animus lucri e assenza di partecipazione al reato presupposto. [A] VERA; le altre FALSE. (Nessuna slide PPTX)."
+    },
+    {
+      "question": "1. El artículo 234 en su apartado 3 sanciona el hurto con una pena en su mitad superior cuando el mismo se hubiera cometido:",
+      "answers": [
+        { "text": "Hurtando un objeto con valor superior a 400 euros.", "correct": false },
+        { "text": "Cuando la cosa sustraída tenga valor cultural.", "correct": false },
+        { "text": "Cuando se haya neutralizado un dispositivo de alarma instalado en la cosa", "correct": true },
+        { "text": "Cuando se trate de cosas de primera necesidad", "correct": false }
+      ],
+      "explanation": "ES: Art. 234.3 CP: neutralizar dispositivos específicos de alarma/seguridad instalados en la cosa comporta la mitad superior. [A] FALSA (400 € separa leve/básico); [B]/[D] remiten a 235. Referencias PPTX: 1_TEMA 38.pptx, diap. 3 y 14. \nIT: Art. 234.3: neutralizzazione dell’allarme = metà superiore. [A] FALSA; [B]/[D] attengono al 235. Riferimenti PPTX: 1_TEMA 38.pptx, slide 3 e 14."
+    },
+    {
+      "question": "2 El delito de hurto tipificado en el artículo 234 se sancionan ... de las siguientes circunstancias Señale la respuesta incomecta:",
+      "answers": [
+        { "text": "Cuando se sustraigan cosas de valor cientifico", "correct": false },
+        { "text": "Cuando el valor de la cosa supere los 400 euros.", "correct": true },
+        { "text": "Cuando se trate de cableado de suministro eléctrico", "correct": false },
+        { "text": "Cuando revista especial gravedad atendiendo al valor de los efectos sustraidos.", "correct": false }
+      ],
+      "explanation": "ES: El 235 CP recoge agravaciones (valor científico, cableado/infraestructuras esenciales, especial gravedad…). Superar 400 € no agrava: solo separa leve/básico (234.2). Por ello la INCORRECTA es [B]. Referencias PPTX: 1_TEMA 38.pptx, diap. 5 y 12–14. \nIT: Art. 235: aggravanti; i 400 € distinguono lieve/base (234.2). L’ERRATA è [B]. Riferimenti PPTX: 1_TEMA 38.pptx, slide 5 e 12–14."
+    },
+    {
+      "question": "3. Con respecto al robo o hurto de uso de vehículos a motor y ci...lomotor tipados en el articulo 244 señale la respuesta correcta:",
+      "answers": [
+        { "text": "Es preciso el empleo de fuerza en las cosas", "correct": false },
+        { "text": "Es necesario que se cometa con violencia o intimidación", "correct": false },
+        { "text": "Si no se efectúa la restitución en el plazo señalado sólo puede castigarse por hurto", "correct": false },
+        { "text": "La restitución puede efectuarse directa o indirectamente", "correct": true }
+      ],
+      "explanation": "ES: Robo/hurto de uso (art. 244): no exige fuerza ni violencia; la restitución puede ser directa o indirecta en ≤ 48 h. [D] VERDADERA. Referencias PPTX: 1_TEMA 38.pptx, diap. 17. \nIT: Uso di veicolo (art. 244): niente forza/violenza; restituzione diretta o indiretta entro 48 ore. [D] VERA. Riferimenti PPTX: 1_TEMA 38.pptx, slide 17."
+    },
+    {
+      "question": "4.El delito de usurpación sancionado en los artículos 247 a 249 del Código sanciona a.\nSeñale la respuesta incorrecta:",
+      "answers": [
+        { "text": "Al quae altere términos de heredades", "correct": false },
+        { "text": "Al que altere lindes de pueblos", "correct": false },
+        { "text": "Al que distraiga aguas de uso público", "correct": false },
+        { "text": "Al que sustraiga una cosa propia de utilidad social o cultural a su legítimo poseedor", "correct": true }
+      ],
+      "explanation": "ES: Art. 246–247 CP: usurpación incluye alterar términos/lindes y distraer aguas; “sustraer cosa propia de utilidad social/cultural” pertenece al 289, no a usurpación. [D] es la INCORRECTA. Referencias PPTX: 1_TEMA 38.pptx, diap. 19–20. \nIT: Art. 246–247: usurpazione = alterazione confini/distrazione acque; “sottrarre bene proprio di utilità sociale” è art. 289. [D] errata. Riferimenti PPTX: 1_TEMA 38.pptx, slide 19–20."
+    },
+    {
+      "question": "5. Según el artículo 257 apartado 1 del Código Penal, el a...acto de disposición patrimonial o generador de obligaciones que.\nSeñale la respuesta incorrecta:",
+      "answers": [
+        { "text": "Que dilate un procedimiento de apremio", "correct": false },
+        { "text": "Que declare la nulidad de un embargo", "correct": true },
+        { "text": "Que extinga un procedimiento de apremio", "correct": false },
+        { "text": "Que resuelva un embargo", "correct": false }
+      ],
+      "explanation": "ES: Alzamiento de bienes (art. 257.1): castiga actos que dilatan/dificultan/impiden la eficacia del embargo o del procedimiento ejecutivo/apremio; “declarar la nulidad” o “resolver/extinguir” no son conductas típicas del autor. [B] INCORRECTA. Referencias PPTX: 3_TEMA 40.pptx, diap. 3. \nIT: Sottrazione ai creditori (257.1): atti che ostacolano l’esecuzione; “dichiarare la nullità/risolvere” non è condotta dell’autore. [B] errata. Riferimenti PPTX: 3_TEMA 40.pptx, slide 3."
+    },
+    {
+      "question": "6. Serà castigado por un delito de frustración de ejecución del ...lo 258 del Código Penal cuando se cumpla el siguiente requisito:",
+      "answers": [
+        { "text": "Cuando se presente una relación de bienes mendaz al administrador", "correct": false },
+        { "text": "Cuando la relación de patrimonio presentada al administrador sea incompleta", "correct": false },
+        { "text": "Cuando la conducta se realice en el seno de un procedimiento de ejecución judicial o administrativo", "correct": true },
+        { "text": "Cuando anule el procedimiento judicial de ejecución", "correct": false }
+      ],
+      "explanation": "ES: Frustración de la ejecución (art. 258 CP): exige que la conducta (relación mendaz/incompleta, etc.) se produzca en procedimiento de ejecución judicial o administrativo y que dilate/dificulte/impida la satisfacción del acreedor. [C] VERDADERA. Referencias PPTX: 3_TEMA 40.pptx, diap. 6, 8–9. \nIT: Frustrazione dell’esecuzione (art. 258): condotta in sede esecutiva che ostacola la soddisfazione del creditore. [C] VERA. Riferimenti PPTX: 3_TEMA 40.pptx, slide 6, 8–9."
+    },
+    {
+      "question": "7. El artículo 262 del Código Penal castiga la alteración de pre...ntes conductas está recogida como uno de supuestos sancionables?",
+      "answers": [
+        { "text": "Los que intentan alejar al resto de postores por medio de dádivas", "correct": true },
+        { "text": "Los que finalmente no concurran a la subasta a la que estaban llamados", "correct": false },
+        { "text": "Los que abandonen la subasta en la que hubieran participado", "correct": false },
+        { "text": "Los que realicen promesas para incorporarse como postores a la subasta", "correct": false }
+      ],
+      "explanation": "ES: Art. 262.1 CP: típico solicitar dádivas para no concurrir o intentar alejar a postores con dádivas/promesas/amenazas; también concertarse para alterar el remate o quebrar/abandonar fraudulentamente tras la adjudicación. [A] VERDADERA. Referencias PPTX: 3_TEMA 40.pptx, diap. 19. \nIT: Art. 262.1: tipico allontanare gli offerenti con donativi/minacce, chiedere utilità per non partecipare, accordarsi, ritirarsi fraudolentemente. [A] VERA. Riferimenti PPTX: 3_TEMA 40.pptx, slide 19."
     }
   ]
 }
