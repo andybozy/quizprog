@@ -595,11 +595,11 @@
       "question": "68. En relación con la transmisión condicionada por el aspecto subjetivo.",
       "answers": [
         { "text": "Proclama la libre transmisión de participaciones sociales por actos inter vivos", "correct": false },
-        { "text": "Proclama la libre transmisión de acciones por actos inter vivos", "correct": true },
+        { "text": "Proclama la libre transmisión de acciones por actos inter vivos", "correct": false },
         { "text": "Proclama la gratuidad de las acciones transmitidas a favor del cónyuge", "correct": false },
-        { "text": "Proclama la libre transmisión de participaciones sociales a favor de las parejas de hecho o asimilada", "correct": false }
+        { "text": "Proclama la libre transmisión de participaciones sociales a favor de las parejas de hecho o asimilada", "correct": true }
       ],
-      "explanation": "ES.\nLa opción correcta es la b). En la **sociedad anónima**, la regla general es la **libre transmisibilidad** de las acciones por actos inter vivos, salvo que los estatutos establezcan válidamente restricciones (art. 123 LSC). Por eso se dice que, desde el punto de vista subjetivo, la SA está pensada para un capital \"abierto\".\n\nEn cambio:\n• a) En la SL la regla básica es la **restricción** a la transmisibilidad de las participaciones a terceros, con un régimen legal de preferencia y consentimiento (arts. 107–110 LSC).\n• c) y d) Introducen elementos (gratuidad, parejas de hecho) que no forman parte del criterio general, sino de casos particulares que podrían o no recogerse en los estatutos.\n\nIT.\nLa risposta b) è corretta: nella S.p.A. vige il principio della **libera trasferibilità** delle azioni inter vivos, salvo limitazioni statutarie espressamente ammesse.\n\nNella S.r.l., invece, le quote sono soggette ad un regime legale di **restrizioni** e prelazione (a, d). La gratuità dei trasferimenti al coniuge (c) non è un principio generale della disciplina, ma al massimo un possibile contenuto statutario.",
+      "explanation": "La risposta corretta è [B] Proclama la libre transmisión de participaciones sociales a favor de las parejas de hecho o asimilada.\n\nPresumo che questa domanda venga dallo stesso file del primo parziale di Mercantil II:\nFile di riferimento (logico): D. Mercantil II 1° parcial AGGIORNATO 06 10 25.docx – Domanda 68.\n\nSpiegazione ragionata (IT)\n\nQuando il programma parla di “transmisión condicionada por el aspecto subjetivo” sta classificando i regimi di circolazione delle partecipazioni/azioni in base a chi è il soggetto acquirente (cioè al “profilo soggettivo” del destinatario), non al tipo di atto (inter vivos / mortis causa, oneroso / gratuito) né all’oggetto.",
       "legal_reference": "LSC art. 123 (restricciones estatutarias en SA); LSC arts. 107–110 (régimen restrictivo en SL).",
       "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
     },
@@ -668,7 +668,7 @@
       "answers": [
         { "text": "El importe de la operación supere el veinticinco por ciento del valor del activo que figure en el último balance", "correct": true },
         { "text": "El importe de la operación supere el veinticinco por ciento del valor del activo que figure en el balance", "correct": false },
-        { "text": " El importe de la operación supere el veinticinco por ciento del valor del activo que figure en une balance aprobado para tal operación", "correct": false },
+        { "text": "El importe de la operación supere el veinticinco por ciento del valor del activo que figure en une balance aprobado para tal operación", "correct": false },
         { "text": "El importe de la operación supere el veinticinco por ciento del valor del activo que figure en balance que deberá estar necesariamente auditado", "correct": false }
       ],
       "explanation": "ES.\nLa opción correcta es la a). Desde la reforma de la Ley 31/2014, la LSC atribuye a la junta la competencia para decidir sobre la **adquisición, enajenación o aportación a otra sociedad de activos esenciales**, y presume que un activo es esencial cuando la operación supera el **25 % del valor del activo** según el **último balance aprobado** (art. 160.f LSC).\n\nLas demás opciones distorsionan este criterio:\n• b) No precisa que se trate del último balance **aprobado**, que es la referencia legal.\n• c) Habla de un balance aprobado “para tal operación”, fórmula que no coincide con el texto legal.\n• d) Añade la exigencia de auditoría, que no figura en la definición de activo esencial (aunque en muchas sociedades las cuentas estén efectivamente auditadas).\n\nIT.\nLa risposta a) è corretta: la legge presume che un bene sia **essenziale** quando l’operazione supera il **25%** del valore dell’attivo risultante dall’**ultimo bilancio approvato**. In tali casi, la decisione spetta all’assemblea (art. 160.f LSC).\n\nLe altre risposte o non precisano che si tratta dell’ultimo bilancio approvato (b), o introducono formule non previste (c, d), come l’obbligo che il bilancio sia specificamente redatto per l’operazione o necessariamente sottoposto a revisione.",
@@ -700,7 +700,7 @@
       "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
     },
     {
-      "question": "77. Quién o quiénes están) legitimadas) para impugnar los acuerdos adoptados en Junta General:",
+      "question": "77. Quién o quiénes están legitimadas para impugnar los acuerdos adoptados en Junta General:",
       "answers": [
         { "text": "Los socios siempre que representen al menos un uno por ciento del capital social", "correct": false },
         { "text": "Cualquiera de los Administradores", "correct": false },
@@ -1122,7 +1122,7 @@
     {
       "question": "33.No será necesario el informe de experto independiente para garantizar la adecuada valoración económica de las aportaciones no dinerarias:",
       "answers": [
-        { "text": " en la sociedad limitada", "correct": true },
+        { "text": "en la sociedad limitada", "correct": true },
         { "text": "cuando consista en valores mobiliarios que coticen en el mercado secundario oficial", "correct": true },
         { "text": "cuando hubiera sido determinada dentro de los seis mese anteriores a la aportación por experto independiente no designado por las partes", "correct": true },
         { "text": "Todas son correcta", "correct": true }
@@ -1208,7 +1208,7 @@
       "answers": [
         { "text": "el importe de la operación supere el 25% del valor del activo que figure en el último balance", "correct": true },
         { "text": "el importe de la operación supere el 25% del valor del activo que figure en el balance", "correct": false },
-        { "text": " el importe de la operación supere el 25% del valor del activo que figure en une balance aprobado para tal operación", "correct": false },
+        { "text": "el importe de la operación supere el 25% del valor del activo que figure en une balance aprobado para tal operación", "correct": false },
         { "text": "el importe de la operación supere el 25% del valor del activo que figure en balance que deberá estar necesariamente auditado", "correct": false }
       ],
       "explanation": "ES.\nLa opción correcta es la a). La reforma de 2014 introdujo en el art. 160.f LSC una nueva competencia de la junta: la decisión sobre la **adquisición, enajenación o aportación a otra sociedad de activos esenciales**. Se presume que un activo es esencial cuando el importe de la operación supera el **25 % del valor del activo** que figure en el **último balance aprobado**.\n\nLas otras opciones matizan mal ese criterio:\n• b) \"El balance\" sin precisar que es el último aprobado deja la referencia incompleta.\n• c) Hablar de un balance aprobado específicamente para la operación no refleja el texto legal.\n• d) Añadir que el balance ha de estar necesariamente auditado no forma parte de la presunción legal, aunque en muchas sociedades las cuentas sean efectivamente auditadas.\n\nIT.\nLa risposta a) è corretta: l’art. 160.f LSC presume che un bene sia \"essenziale\" quando l’operazione supera il **25%** dell’attivo risultante dall’**ultimo bilancio approvato**. In tali casi la decisione spetta all’assemblea.\n\nLe altre formulazioni o non specificano che si tratta dell’ultimo bilancio approvato (b), o introducono requisiti non previsti (c, d).",
