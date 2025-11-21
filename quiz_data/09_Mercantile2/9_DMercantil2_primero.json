@@ -10,6 +10,7 @@
         { "text": "para la determinación de la nacionalidad española de la sociedad.", "correct": true },
         { "text": "para la competencia judicial", "correct": false }
       ],
+
       "explanation": "ES.\nLa opción marcada como correcta es la c), porque el criterio **directo y expreso** que utiliza la Ley de Sociedades de Capital para atribuir la nacionalidad española a una sociedad de capital es el lugar de su domicilio social: si el domicilio está en España, la sociedad tiene nacionalidad española.\n\nOjo, eso **no significa** que las otras opciones sean totalmente irrelevantes desde el punto de vista práctico: el domicilio también sirve para fijar el término municipal en el que se celebran las juntas (regla supletoria) y para determinar la competencia territorial de registros y juzgados. Pero la pregunta te pide un efecto concreto del domicilio, y el único que funciona como **criterio de nacionalidad** es el de la opción c).\n\n• a) Estructura corporativa → la estructura de órganos viene dada por el tipo social (SA, SL), no por dónde se domicilie la sociedad.\n• b) Lugar de celebración de la junta → por defecto la junta se celebra en el término municipal del domicilio social, pero la norma es supletoria y puede modularse estatutariamente.\n• d) Competencia judicial → el domicilio social se usa como punto de conexión territorial (por ejemplo, para impugnación de acuerdos), pero no es su función típica más característica frente a las demás opciones.\n\nIT.\nLa risposta corretta è la c), perché il domicilio sociale è il **criterio legale** utilizzato per attribuire la nazionalità spagnola alla società di capitali: se il domicilio è situato in Spagna, la società ha nazionalità spagnola.\n\nLe altre risposte richiamano effetti reali del domicilio (luogo di tenuta dell’assemblea, competenza territoriale dei giudici e del Registro delle Imprese), ma la domanda ti chiede un profilo specifico in cui il domicilio sia rilevante in modo diretto ed esclusivo: la nazionalità della società.",
       "legal_reference": "LSC arts. 8 (nacionalidad), 9 (domicilio); LSC art. 175 (lugar de celebración de la junta en el término municipal del domicilio social).",
       "original_file": "D. Mercantil II 1 ° parcial AGGIORNATO 06 10 25.docx"
@@ -366,7 +367,7 @@
       "question": "30) - cual de estos supuestos da lugar a la impugnación del acuerdo de junta",
       "answers": [
         { "text": "Cuando el voto emitido por error hubiera dado incrementado la ya conseguida mayoría exigible", "correct": false },
-        { "text": "Cuando la participación a la reunión de personas no legitimadas hubiera dado la mayoría exigible para la adopción del acuerdo- CORRECTA", "correct": true },
+        { "text": "Cuando la participación a la reunión de personas no legitimadas hubiera dado la mayoría exigible para la adopción del acuerdo", "correct": true },
         { "text": "Cuando se hubiera dejado sin efecto o sustituido por otro adoptado después la interpuesta la demanda de impugnación", "correct": false },
         { "text": "La insuficiencia de información facilitada por los administradores los socios durante la celebración de la junta convocada", "correct": false }
       ],
@@ -1097,7 +1098,7 @@
     {
       "question": "31.De acuerdo con la ley de sociedades de capital el criterio para atribuir la nacionalidad española a una sociedad mercantil es:",
       "answers": [
-        { "text": "el domicilio social- CORRECTA", "correct": true },
+        { "text": "el domicilio social", "correct": true },
         { "text": "por la procedencia de los fondos que constituyan el capital social", "correct": false },
         { "text": "lugar de otorgamiento de la escritura de constitución", "correct": false },
         { "text": "nacionalidad de los socios fundadores", "correct": false }
@@ -1111,7 +1112,7 @@
       "answers": [
         { "text": "a todo tipo de sociedad", "correct": false },
         { "text": "solo SL", "correct": false },
-        { "text": "solo SA- CORRECTA", "correct": true },
+        { "text": "solo SA", "correct": true },
         { "text": "no es de aplicación a ningún tipo de sociedad", "correct": false }
       ],
       "explanation": "ES.\nLa respuesta correcta es la c). La **fundación sucesiva** (constitución por suscripción pública) es un régimen específico previsto **únicamente para la Sociedad Anónima**. Implica que el capital se suscribe mediante oferta pública de acciones, con folleto, intervención de entidad financiera, etc., en lugar de por fundación simultánea.\n\nEn la SL no existe este mecanismo: siempre se constituye por **fundación simultánea**, con todos los socios fundadores compareciendo ante notario.\n\nIT.\nLa risposta c) è corretta: la **fondazione successiva** è un meccanismo previsto solo per la **S.A.** (S.p.A.), in cui il capitale viene sottoscritto tramite offerta pubblica. La S.r.l. non conosce questo tipo di costituzione: è sempre fondata in modo simultaneo dai soci che intervengono all’atto notarile.",
@@ -1124,7 +1125,7 @@
         { "text": " en la sociedad limitada", "correct": true },
         { "text": "cuando consista en valores mobiliarios que coticen en el mercado secundario oficial", "correct": true },
         { "text": "cuando hubiera sido determinada dentro de los seis mese anteriores a la aportación por experto independiente no designado por las partes", "correct": true },
-        { "text": "Todas son correcta- CORRECTA", "correct": true }
+        { "text": "Todas son correcta", "correct": true }
       ],
       "explanation": "ES.\nTodas las opciones son compatibles con la LSC como supuestos en los que **no se exige informe de experto independiente**:\n\n• a) En la **sociedad limitada** no es obligatorio el informe de experto designado por el registrador; la ley confía en la responsabilidad solidaria de fundadores y socios por la realidad y valoración de las aportaciones no dinerarias.\n• b) En la **sociedad anónima**, cuando la aportación consista en valores mobiliarios cotizados en un mercado regulado, su precio de mercado puede servir como referencia suficiente, y la ley permite prescindir del perito en determinadas condiciones.\n• c) También puede prescindirse del informe cuando exista una **valoración reciente** (hasta seis meses antes) realizada por experto independiente no designado por las partes, siempre que se cumplan los criterios legales.\n\nPor eso la opción d) sintetiza correctamente que **todas las anteriores** se corresponden con supuestos de excepción al régimen general de perito.\n\nIT.\nTutte le risposte sono considerate corrette perché descrivono casi in cui **non è richiesto** un nuovo rapporto di esperto indipendente:\n\n1) Nella **S.r.l.** la perizia non è obbligatoria (a): prevale la responsabilità dei soci per la corretta valutazione.\n2) Nella **S.p.A.**, se il conferimento consiste in titoli quotati, la legge può prescindere dalla perizia, facendo leva sui prezzi di mercato (b).\n3) Sempre in S.p.A., se vi è già una **perizia recente** (entro sei mesi) redatta da un esperto indipendente non nominato dalle parti, la LSC ammette l’esenzione (c).\n\nLa d) è dunque corretta perché ricomprende tutti questi casi di esonero.",
       "legal_reference": "LSC arts. 67.3 (excepciones SA), 73–75 (régimen SL sin perito obligatorio).",
@@ -1135,7 +1136,7 @@
       "answers": [
         { "text": "la disolución de la sociedad", "correct": false },
         { "text": "que caso de insolvencia de la sociedad los contratos entre el socio único y la sociedad no serán oponibles a la masa la responsabilidad del socio único por las deudas sociales contraídas durante ese periodo de unipersonalidad", "correct": false },
-        { "text": "la responsabilidad del socio único por las deuda sociales contraídas durante ese periodo de unipersonalidad- CORRECTA", "correct": true },
+        { "text": "la responsabilidad del socio único por las deuda sociales contraídas durante ese periodo de unipersonalidad", "correct": true },
         { "text": "el cese de su administrador social por negligencia en el desempeño de su cargo", "correct": false }
       ],
       "explanation": "ES.\nLa opción correcta es la c). Si existe **unipersonalidad sobrevenida** y no se cumple la obligación de declararla e inscribirla en el Registro Mercantil, el art. 16.3 LSC establece que el socio único responderá **personal, ilimitada y solidariamente** de las deudas sociales contraídas durante el período de falta de publicidad.\n\nMatices sobre las otras opciones:\n• a) El incumplimiento de la publicidad de la unipersonalidad no provoca automáticamente la **disolución** de la sociedad.\n• b) La norma efectivamente prevé que, en caso de insolvencia, ciertos contratos entre socio único y sociedad pueden no ser oponibles a la masa, pero la respuesta mezcla y formula mal el contenido legal; el núcleo de la pregunta es la **responsabilidad por las deudas**.\n• d) No determina por sí mismo el cese del administrador por negligencia; otra cosa es que pueda valorarse su conducta en acciones de responsabilidad.\n\nIT.\nLa risposta c) è corretta: la mancata pubblicità dell’unipersonalità (originaria o sopravvenuta) comporta che il socio unico risponda **personalmente e illimitatamente** dei debiti sociali sorti in quel periodo.\n\nNon vi è scioglimento automatico della società (a), né una destituzione ipso iure dell’amministratore (d). La lettera b) accenna ai problemi di opponibilità dei contratti socio unico/società in caso di insolvenza, ma è formulata in modo confuso e non coglie il nucleo dell’effetto principale: la responsabilità del socio unico per i debiti del periodo non pubblicizzato.",
@@ -1148,7 +1149,7 @@
         { "text": "subordinadas", "correct": false },
         { "text": "participativas", "correct": false },
         { "text": "estatutarias", "correct": false },
-        { "text": "accesorias- CORRECTA", "correct": true }
+        { "text": "accesorias", "correct": true }
       ],
       "explanation": "ES.\nLa opción correcta es la d). Las obligaciones que asume el socio **distintas de la aportación al capital** (trabajos, servicios, no competencia, suministros, etc.) se denominan en la LSC **prestaciones accesorias**. Están ligadas a la condición de socio y a determinadas participaciones o acciones.\n\nLas otras denominaciones no son técnicas en este contexto:\n• a) \"Subordinadas\" → se usa para ciertos créditos, no para obligaciones del socio frente a la sociedad.\n• b) \"Participativas\" → remite a los préstamos participativos u otras figuras, pero no es el nombre de la categoría legal aquí buscada.\n• c) \"Estatutarias\" → describe que se regulan en los estatutos, pero no es el término técnico de la figura.\n\nIT.\nLa risposta d) è corretta: le obbligazioni diverse dal conferimento in capitale che gravano sul socio sono le **prestazioni accessorie** (prestazioni ulteriori di fare, non fare, dare, ecc.).\n\nLe altre opzioni non corrispondono alla denominazione legale: \"subordinate\" (a) rinvia ai crediti subordinati, \"partecipative\" (b) ai finanziamenti partecipativi e \"statutarie\" (c) indica solo che sono regolate nello statuto, non il loro nome tecnico.",
       "legal_reference": "LSC arts. 86–89 (prestaciones accesorias, carácter estatutario, retribución, etc.).",
@@ -1160,7 +1161,7 @@
         { "text": "si son reservados no serán oponibles a la sociedad", "correct": false },
         { "text": "son de contenido heterogéneo", "correct": false },
         { "text": "se caracterizan por su neutralidad", "correct": false },
-        { "text": "tienden a reglamentar las organización y funcionamiento de su órgano de administración- CORRECTA", "correct": true }
+        { "text": "tienden a reglamentar las organización y funcionamiento de su órgano de administración", "correct": true }
       ],
       "explanation": "ES.\nLa opción que se considera **no cierta** es la d). Los **pactos parasociales** se celebran entre socios y pueden tener contenido muy variado (derechos de voto, de transmisión, políticas de dividendo, etc.), pero **no sustituyen ni reglamentan formalmente el órgano de administración**, cuya organización y funcionamiento vienen determinados por la ley y los estatutos.\n\nLas demás afirmaciones son correctas:\n• a) Si son reservados, no son oponibles a la sociedad (art. 29 LSC).\n• b) Tienen contenido **heterogéneo**: pueden abordar múltiples aspectos de la relación entre socios.\n• c) Se caracterizan por su **neutralidad societaria** en el sentido de que, mientras no se integren en estatutos, no modifican directamente la estructura orgánica de la sociedad.\n\nIT.\nLa risposta d) è quella non corretta: i **patti parasociali** non sono lo strumento per regolamentare formalmente l’organizzazione e il funzionamento dell’organo amministrativo (ciò spetta alla legge e allo statuto). Essi disciplinano piuttosto i rapporti tra soci.\n\nSono invece vere le altre affermazioni: se sono riservati non sono opponibili alla società (a), possono avere contenuti molto diversi (b) e sono “neutrali” rispetto all’assetto organico finché non vengono recepiti nello statuto (c).",
       "legal_reference": "LSC art. 29 (pactos parasociales no oponibles a la sociedad).",
@@ -1171,7 +1172,7 @@
       "answers": [
         { "text": "puede ser ejercido indistintamente por cualquiera de los copropietarios", "correct": false },
         { "text": "solo per el que hubiera registrado ene libro de registro de socios", "correct": false },
-        { "text": "el determinarlo el título constitutivo- CORRECTA", "correct": true },
+        { "text": "el determinarlo el título constitutivo", "correct": true },
         { "text": "al socio copropietario que autorice la junta general", "correct": false }
       ],
       "explanation": "ES.\nLa opción correcta es la c). En caso de **copropiedad** de acciones o participaciones, la LSC exige que los copropietarios designen **una sola persona** para el ejercicio de los derechos de socio (representante común). Esa designación puede venir ya fijada en el **título constitutivo** de la copropiedad (por ejemplo, un documento en el que se pacta qué comunero representará a todos).\n\nLas demás opciones no se ajustan al régimen legal:\n• a) No pueden ejercer indistintamente todos los copropietarios; debe haber un representante único frente a la sociedad.\n• b) No basta con que figure uno de ellos en el libro registro si no se ha respetado el acuerdo entre copropietarios; la sociedad se basa en lo que se le notifica, pero internamente debe existir una designación válida.\n• d) La junta no decide quién es el representante de la comunidad; lo deciden los copropietarios, y la sociedad se limita a reconocer al designado.\n\nIT.\nLa risposta c) è corretta: nella **comproprietà** di azioni/quote i comproprietari devono designare un unico rappresentante per l’esercizio dei diritti sociali, e tale designazione può risultare direttamente dal **titolo costitutivo** della comunione.\n\nNon è ammesso che ciascun comproprietario eserciti i diritti a turno (a), né che la scelta dipenda dall’autorizzazione dell’assemblea (d). L’annotazione nel libro soci (b) riflette una situazione, ma presuppone una designazione valida a monte tra i comproprietari.",
@@ -1184,7 +1185,7 @@
         { "text": "cuando se trate de aportar acciones de otras sociedades", "correct": false },
         { "text": "cuando conste una informe de valoración anterior de un experto en los tres meses anteriores", "correct": false },
         { "text": "en los procesos de fusión o escisión", "correct": false },
-        { "text": "cuando sea objeto de una oferta pública de adquisición de acciones- CORRECTA", "correct": true }
+        { "text": "cuando sea objeto de una oferta pública de adquisición de acciones", "correct": true }
       ],
       "explanation": "ES.\nLa opción correcta es la d). Cuando las acciones son objeto de una **oferta pública de adquisición (OPA)**, su valoración y el precio equitativo se rigen por la normativa especial del mercado de valores (CNMV, RD 1066/2007, etc.), no por el régimen general de informe de experto independiente de la LSC. En ese contexto, el informe pericial de la LSC no es el instrumento central de valoración.\n\nLas otras situaciones, por sí solas, no suponen automáticamente la inexistencia de informe de experto en el marco de la LSC:\n• a) Que se aporten acciones de otras sociedades no exime per se del informe, salvo que concurran las excepciones legales (valores cotizados, etc.).\n• b) Un informe en los tres meses anteriores no encaja del todo con el plazo de seis meses que maneja la LSC para ciertas exenciones; el enunciado resulta impreciso.\n• c) En fusiones y escisiones suele haber informes específicos de expertos sobre el tipo de canje, pero ello no significa que la LSC prescinda siempre de cualquier valoración independiente.\n\nIT.\nLa risposta d) è corretta: quando le azioni sono oggetto di un’**OPA**, la determinazione del prezzo equo segue le regole della normativa sui mercati finanziari, non il regime di perizia della LSC; in tale ambito, il rapporto dell’esperto ex LSC non è richiesto.\n\nGli altri casi (conferimento di azioni di altre società, perizia recente, operazioni di fusione/scissione) possono prevedere perizie proprie o eccezioni specifiche, ma non rappresentano, così come formulati, una regola generale di esenzione dall’esperto indipendente.",
       "legal_reference": "TRLMV (hoy Ley 6/2023 de los Mercados de Valores), RD 1066/2007 sobre OPAs.",
@@ -1195,7 +1196,7 @@
       "answers": [
         { "text": "1 año", "correct": false },
         { "text": "2 años", "correct": false },
-        { "text": "3 años- CORRECTA", "correct": true },
+        { "text": "3 años", "correct": true },
         { "text": "5 años", "correct": false }
       ],
       "explanation": "ES.\nLa opción correcta es la c): cuando la sociedad adquiere sus propias acciones o participaciones en ejecución de un acuerdo de **reducción de capital** o porque forman parte de un patrimonio adquirido a **título universal** (fusión, herencia, etc.), la LSC obliga a **enajenarlas o amortizarlas** en el plazo máximo de **tres años** desde la adquisición, salvo que antes se reduzca el capital o se reestablezcan los límites de autocartera.\n\nIT.\nLa risposta c) è corretta: in caso di acquisto di azioni/quote proprie in esecuzione di una riduzione di capitale o nell’ambito di un acquisto a titolo universale, la società deve **alienarle o annullarle** entro tre anni dalla data di acquisto, salvo che sia intervenuta prima una riduzione di capitale o il rientro nei limiti di legge sulle azioni proprie.",
@@ -1205,7 +1206,7 @@
     {
       "question": "40.Tras la reforma operada por la ley 31/2014 de 3 de diciembre se ha establecido una nueva competencia de la junta en los casos de adquisición enajenación y aportación a otras sociedad de activos esencial presuponiendo tal carácter cuando:",
       "answers": [
-        { "text": "el importe de la operación supere el 25% del valor del activo que figure en el último balance- CORRECTA", "correct": true },
+        { "text": "el importe de la operación supere el 25% del valor del activo que figure en el último balance", "correct": true },
         { "text": "el importe de la operación supere el 25% del valor del activo que figure en el balance", "correct": false },
         { "text": " el importe de la operación supere el 25% del valor del activo que figure en une balance aprobado para tal operación", "correct": false },
         { "text": "el importe de la operación supere el 25% del valor del activo que figure en balance que deberá estar necesariamente auditado", "correct": false }
@@ -1217,7 +1218,7 @@
     {
       "question": "41.Cuál de estas afirmaciones no es cierta en relación a las cláusulas de transmisión de participaciones sociales:",
       "answers": [
-        { "text": "su intransmisibilidad plena radical en todos los casos- CORRECTA", "correct": true },
+        { "text": "su intransmisibilidad plena radical en todos los casos", "correct": true },
         { "text": "la nulidad de las que hagan prácticamente libre su transmisión", "correct": false },
         { "text": "la nulidad de las que alternan la integridad cuantitativa de la transmisión", "correct": false },
         { "text": "las que impidan su transmisión a otro socio", "correct": false }
@@ -1232,7 +1233,7 @@
         { "text": "cuando se trate de adoptar un acuerdo sobre la transmisión de sus acciones o participaciones sociale", "correct": false },
         { "text": "cuando se le excluya de la sociedad", "correct": false },
         { "text": "se le preste asistencia financiera", "correct": false },
-        { "text": "en el caso de que sea propuesto en la junta para ser administrados de a sociedad- CORRECTA", "correct": true }
+        { "text": "en el caso de que sea propuesto en la junta para ser administrados de a sociedad", "correct": true }
       ],
       "explanation": "ES.\nLa afirmación que **no es cierta** es la d). Ser propuesto como administrador en la junta **no figura** entre los supuestos del art. 190 LSC que determinan la suspensión del derecho de voto por conflicto de intereses.\n\nEn cambio, sí son supuestos típicos de privación de voto:\n• a) Acuerdos de autorización para la **transmisión** de sus acciones/participaciones en SL.\n• b) Acuerdos de **exclusión** del socio, que afectan directamente a su condición.\n• c) Acuerdos que impliquen **asistencia financiera** a su favor (préstamos, garantías, etc.).\n\nPor eso, a), b) y c) reflejan situaciones de conflicto de intereses en las que la ley priva al socio del voto, mientras que la opción d) describe un mero nombramiento, donde el socio sí puede votar (salvo otras circunstancias especiales).\n\nIT.\nLa risposta d) è quella non corretta: il fatto di essere proposto come amministratore **non comporta di per sé** la sospensione del diritto di voto ai sensi dell’art. 190 LSC.\n\nSono invece tipici i casi delle lettere a), b) e c): autorizzazione al trasferimento delle proprie quote/azioni, delibera di esclusione del socio, concessione di assistenza finanziaria. In tali situazioni il socio è in conflitto di interessi e la legge gli nega il voto su quel punto.",
       "legal_reference": "LSC art. 190 (privación del derecho de voto por conflicto de intereses).",
@@ -1242,7 +1243,7 @@
       "question": "43.Cuando deviene una sociedad irregular:",
       "answers": [
         { "text": "cuando se detecten efectos en el proceso de su fundación", "correct": false },
-        { "text": "cuando constituida no se ha inscrito en el registro mercantil en el plazo de un año- CORRECTA", "correct": true },
+        { "text": "cuando constituida no se ha inscrito en el registro mercantil en el plazo de un año", "correct": true },
         { "text": "desde el otorgamiento de la escritura hasta su inscripción registral", "correct": false },
         { "text": "cuando está pendiente de la aceptación del cargo de administrador en la escritura de constitución", "correct": false }
       ],
@@ -1255,7 +1256,7 @@
       "answers": [
         { "text": "las acciones son al portador mientras que la participaciones sociales son nominativas", "correct": false },
         { "text": "Las acciones estarán representadas por medio de títulos y las participaciones sociales por medio de anotaciones en cuenta.", "correct": false },
-        { "text": "las acciones son valores mobiliarios y las participaciones sociales no lo son. - CORRECTA", "correct": true },
+        { "text": "las acciones son valores mobiliarios y las participaciones sociales no lo son. ", "correct": true },
         { "text": "Tanto las acciones como las participaciones sociales pueden estar representadas por medio de título o por medio de anotaciones en cuenta.", "correct": false }
       ],
       "explanation": "ES.\nLa opción correcta es la c). La diferencia esencial es que las **acciones** de SA son **valores mobiliarios** (valores negociables sometidos a la normativa de mercado de valores), mientras que las **participaciones** de SL **no** tienen tal naturaleza: son posiciones societarias no configuradas como valores negociables, con transmisión restringida.\n\nLas demás afirmaciones simplifican mal la representación:\n• a) No todas las acciones son al portador; pueden ser nominativas, y además la representación al portador es hoy residual. Las participaciones de SL son siempre nominativas, pero no de esa forma.\n• b) Tanto acciones como participaciones pueden tener distintas formas de representación (título, anotaciones en cuenta, libro registro de socios). La dicotomía \"acciones = títulos / participaciones = anotaciones\" no es exacta.\n• d) Aun cuando técnicamente puedan documentarse de diversas formas, la ley no construye las participaciones de SL como valores mobiliarios dematerializados negociables.\n\nIT.\nLa risposta c) è corretta: le **azioni** di S.p.A. sono **valori mobiliari**, mentre le **partecipazioni** di S.r.l. non lo sono e sono soggette a un regime di circolazione più rigido.\n\nLe altre opzioni confondono il modo di rappresentazione (al portatore, nominativo, titoli, annotazioni in conto, libri soci) con la natura giuridica del titolo. Il punto chiave che l’esame vuole fissare è proprio la differenza tra valori mobiliari (azioni) e semplici quote di partecipazione (S.r.l.).",
@@ -1268,7 +1269,7 @@
         { "text": "aumentar su número mediante la disminución de la cifra de capital social", "correct": false },
         { "text": "aumentar su número mediante el aumento de su valor nominal", "correct": false },
         { "text": "aumentar su número mediante la reducción de su valor nominal", "correct": false },
-        { "text": "ninguna es correcta- CORRECTA", "correct": true }
+        { "text": "ninguna es correcta", "correct": true }
       ],
       "explanation": "ES.\nLa opción correcta es la d). La **reagrupación** de acciones (contrasplit) no consiste en aumentar su número, sino justamente en lo contrario: **reducir** el número de títulos en circulación mediante el **aumento de su valor nominal**, sin modificar la cifra de capital. Ninguna de las tres definiciones propuestas describe bien este fenómeno.\n\nLas opciones a), b) y c) son incorrectas porque:\n• a) Vincula la reagrupación a una reducción de capital, cuando normalmente se hace a capital constante.\n• b) y c) Hablan de aumentar el número de títulos, cuando la reagrupación reduce el número de acciones o participaciones.\n\nIT.\nLa risposta d) è corretta: il **raggruppamento** di azioni (contrasplit) riduce il numero dei titoli e ne aumenta il valore nominale, mantenendo invariato il capitale sociale. Nessuna delle opzioni a), b) o c) descrive correttamente questa operazione, motivo per cui la soluzione è \"nessuna è corretta\".",
       "legal_reference": "LSC arts. 59, 90–94 (capital/representación); práctica societaria de reagrupación sin modificación de capital.",
@@ -1280,7 +1281,7 @@
         { "text": "son los beneficios obtenidos por la sociedad pendiente de reparto", "correct": false },
         { "text": "el el derecho de crédito de los administradores cuando hay reparto de beneficios y en los estatutos sociales cuenta que le organo de administración será retribuido", "correct": false },
         { "text": "es un derecho de crédito del socio frente a la sociedad", "correct": false },
-        { "text": "solo se da en la sociedad anónima y no en limitada- CORRECTA", "correct": true }
+        { "text": "solo se da en la sociedad anónima y no en limitada", "correct": true }
       ],
       "explanation": "ES.\nLa opción correcta es la d), que introduce un matiz importante: el **dividendo pasivo** (parte del valor nominal no desembolsada) sólo existe en la **sociedad anónima**, porque en la SL la ley exige el **desembolso íntegro** de las participaciones desde el inicio, de modo que no hay capital pendiente.\n\nRecordatorio del concepto:\n• El dividendo pasivo es la parte del nominal que el socio de SA aún debe a la sociedad; representa un crédito de la sociedad frente al accionista.\n\nPor qué las otras opciones son falsas:\n• a) Describe el dividendo activo (beneficios pendientes de reparto), no el pasivo.\n• b) Mezcla la retribución de administradores con el concepto de dividendo; son categorías distintas.\n• c) Invierte la relación: el dividendo pasivo no es un crédito del socio frente a la sociedad, sino al revés.\n\nIT.\nLa risposta d) è corretta: il **dividendo passivo** è tipico della **S.p.A.** (quota del valore nominale non ancora versata dal socio). Nella S.r.l., invece, le quote devono essere interamente liberate fin dall’inizio, per cui non esiste tecnicamente il dividendo passivo.\n\nLe altre risposte confondono il dividendo passivo con gli utili distribuibili (a), con i compensi degli amministratori (b) o rovesciano la direzione del credito (c).",
       "legal_reference": "LSC arts. 78–82 (SA: desembolsos y mora); régimen de SL: ausencia de dividendos pasivos por exigencia de desembolso íntegro.",
@@ -1292,7 +1293,7 @@
         { "text": "es una obligación del socio distinta a la de aportación de capital", "correct": false },
         { "text": "deben de estar reguladas en los estatutos soziale", "correct": false },
         { "text": "admite cualquier tipo de objeto", "correct": false },
-        { "text": "su nacimiento no requiere el consentimiento del socio obligado- CORRECTA", "correct": true }
+        { "text": "su nacimiento no requiere el consentimiento del socio obligado", "correct": true }
       ],
       "explanation": "ES.\nLa afirmación **falsa** es la d). Las **prestaciones accesorias** requieren necesariamente el **consentimiento del socio** obligado: no pueden imponerse de forma unilateral sin su aceptación, y además deben estar previstas en los estatutos (arts. 86–89 LSC).\n\nLas demás opciones describen rasgos verdaderos de la figura:\n• a) Son obligaciones del socio **distintas** de la aportación de capital (hacer, no hacer, dar, servicios, etc.).\n• b) Deben estar **reguladas en los estatutos**, con indicación de contenido, régimen, retribución, transmisibilidad, etc.\n• c) Admiten un objeto muy variado, dentro de los límites de la ley y del orden público (no hay una lista tasada).\n\nIT.\nLa risposta d) è quella falsa: la nascita di una **prestazione accessoria** presuppone il **consenso del socio** interessato e la sua accettazione, oltre alla previsione statutaria.\n\nLe altre affermazioni sono corrette: si tratta di obbligazioni diverse dal conferimento di capitale (a), devono essere disciplinate nello statuto (b) e possono avere oggetti diversi (c), purché leciti e determinati.",
       "legal_reference": "LSC arts. 86–89 (consentimiento, carácter estatutario y, en su caso, retribución).",
@@ -1304,7 +1305,7 @@
         { "text": "cuando la consideran innecesaria y ambiguas", "correct": false },
         { "text": "cuando se pueda utilizar con fines extrasociales", "correct": false },
         { "text": "cuando perjudique el interés social", "correct": false },
-        { "text": "todas son ciertas- CORRECTA", "correct": true }
+        { "text": "todas son ciertas", "correct": true }
       ],
       "explanation": "ES.\nLa opción correcta es la d). Tanto en SL como en SA, incluso cuando el socio ostenta al menos el **5 %** del capital, los administradores pueden **denegar la información** solicitada si concurre alguno de estos motivos clásicos (arts. 196 y 197 LSC):\n\n1) La información es **innecesaria** o confusa para la tutela de los derechos del socio.\n2) Puede utilizarse con **fines extrasociales** (por ejemplo, en beneficio de un competidor).\n3) Su divulgación puede **perjudicar el interés social**.\n\nPor tanto, a), b) y c) describen cada una un supuesto de denegación válido, y la respuesta global correcta es que todas son ciertas.\n\nIT.\nLa risposta d) è corretta: gli amministratori possono rifiutare di rispondere alle domande del socio (anche titolare del 5%) quando ritengano che le informazioni siano **inutili o ambigue** (a), utilizzabili per **fini extrasociali** (b) o tali da **pregiudicare l’interesse sociale** (c).\n\nQuesti tre casi corrispondono alle cause tipiche di diniego del diritto di informazione previste dalla LSC; per questo il test riunisce le tre ipotesi nella formula \"tutte sono vere\".",
       "legal_reference": "LSC arts. 196 (SL) y 197 (SA): límites al derecho de información; 272.3 (examen contable en SL con ≥5%).",
@@ -1316,7 +1317,7 @@
         { "text": "antes la insuficiencia o incorrección de la información facilitada por la sociedad en respuesta al ejercicio del derecho de información", "correct": false },
         { "text": "cuando se hubiera dejado sin efecto tras la celebración de la junta antes de la demanda judicial de impugnación", "correct": false },
         { "text": "por la invalidez de los votos emitidos en la junta con  independencia de que su resultado hubiera o no validado el acuerdo", "correct": false },
-        { "text": "d.todas son ciertas- CORRECTA", "correct": true }
+        { "text": "d.todas son ciertas", "correct": true }
       ],
       "explanation": "ES.\nLa opción correcta es la d). El art. 204.3 LSC enumera varios supuestos en los que **no procede la impugnación** de acuerdos sociales por tratarse de vicios irrelevantes o ya subsanados, entre ellos:\n\n• Defectos de **información insuficiente o incorrecta** que no sean esenciales para la formación del voto (a), salvo que tengan carácter relevante.\n• Cuando el acuerdo ha sido **dejado sin efecto o sustituido** por otro antes de la interposición de la demanda (b), desapareciendo el objeto de la impugnación.\n• La existencia de votos inválidos que **no hayan sido determinantes** del resultado (c); si el acuerdo se hubiera aprobado igualmente sin esos votos, el vicio no permite anularlo.\n\nPor ello, todas las situaciones mencionadas describen supuestos en los que la impugnación no será admitida, y la respuesta conjunta correcta es la d).\n\nIT.\nLa risposta d) è corretta: l’art. 204.3 LSC indica diversi casi in cui **non è ammessa** l’impugnazione delle delibere, fra cui:\n\n1) Insufficienza o inesattezza dell’informazione non essenziale per la formazione del voto (a).\n2) Revoca o sostituzione della delibera prima della proposizione della domanda giudiziale (b).\n3) Voti invalidi che non abbiano influito sul risultato (c).\n\nIn tutte queste ipotesi il vizio è considerato **non rilevante** ai fini dell’annullamento, per cui le tre affermazioni sono vere e la risposta giusta è \"tutte sono corrette\".",
       "legal_reference": "LSC art. 204.3 (causas de inadmisión/irrelevancia para impugnación).",
