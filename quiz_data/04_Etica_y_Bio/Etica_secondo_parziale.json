@@ -1203,6 +1203,306 @@
       "explanation": "ES: Vero es correcto: los núcleos adultos acumulan marcas epigenéticas de diferenciación y envejecimiento; reprogramarlos para desarrollo completo exige superar barreras epigenéticas (metilación, improntas, remodelado cromatínico) y limitaciones biológicas asociadas. Falso sería erróneo porque supone que un núcleo adulto se comporta como embrionario sin reset, lo que contradice la evidencia.\nIT: Vero è corretto: un nucleo adulto porta marcatori epigenetici di differenziamento (e talvolta segni legati all’età); per ottenere sviluppo completo occorre superare barriere genetico-epigenetiche. Dire Falso presuppone una “conversione automatica” del nucleo adulto, che non è realistica.",
       "legal_reference": "N/A (cuestión científica). Referencia científica: limitaciones epigenéticas y necesidad de reprogramación profunda en SCNT con núcleos somáticos adultos.",
       "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "21. Los clones humanos serían idénticos en personalidad y experiencias a su progenitor.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: Falso es correcto: aunque un clon pueda compartir (en gran medida) el genoma nuclear, la personalidad y las experiencias dependen de ambiente, educación, contexto social, historia vital y factores epigenéticos; no se “copian” por clonación. Vero sería erróneo porque confunde identidad genética con identidad biográfica y psicológica.\nIT: È Falso: anche con genoma simile, personalità ed esperienze dipendono da ambiente, educazione e storia di vita; non sono duplicabili con la clonazione. Dire Vero confonde identità genetica con identità psicologica/biografica.",
+      "legal_reference": "N/A (afirmación científica/psicosocial; sin referencia legislativa directa).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "22. La metilación del ADN regula la expresión génica durante el desarrollo embrionario.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: Vero es correcto: la metilación del ADN es un mecanismo epigenético que modula qué genes se activan o silencian durante el desarrollo, guiando diferenciación y programas embrionarios. Falso sería erróneo porque negaría un mecanismo básico de regulación génica.\nIT: Vero: la metilazione del DNA regola l’espressione genica durante lo sviluppo, influenzando differenziamento e programmi embrionali. Dire Falso negherebbe un meccanismo epigenetico fondamentale.",
+      "legal_reference": "N/A (afirmación científica; sin referencia legislativa directa).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "23. La clonación humana no puede ser regulada éticamente debido a su complejidad técnica.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: Falso es correcto: precisamente por su complejidad y riesgos, existen marcos ético-jurídicos que la regulan o prohíben (prohibición de clonación reproductiva) y establecen límites, garantías y sanciones. Vero sería erróneo porque sostiene una imposibilidad absoluta de regulación que contradice la existencia de normas nacionales e internacionales.\nIT: È Falso: proprio perché complessa e rischiosa, la clonazione è oggetto di regolazione e divieti (soprattutto per la clonazione riproduttiva), con limiti e sanzioni. Dire Vero ignora che esistono strumenti normativi che disciplinano o proibiscono queste pratiche.",
+      "legal_reference": "España: Ley 14/2006, art. 1.3; Código Penal, art. 160.3. UE: Carta de Derechos Fundamentales, art. 3.2(d). Consejo de Europa: CETS 168, art. 1. UNESCO (1997): art. 11.",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "24. El proceso de transferencia nuclear es idéntico para todas las especies de mamíferos.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: Falso es correcto: aunque el esquema general sea similar, existen diferencias especie-específicas (activación del ovocito, compatibilidad núcleo-citoplasma, tiempos de desarrollo, reprogramación epigenética), por lo que la técnica no es “idéntica” en resultados ni en ajustes. Vero sería erróneo porque presupone uniformidad biológica entre especies.\nIT: È Falso: lo schema può essere simile, ma la riuscita e i parametri dipendono dalla specie (interazione nucleo-citoplasma, tempi di sviluppo, riprogrammazione). Dire Vero presuppone un’identità tecnica e biologica che non esiste.",
+      "legal_reference": "N/A (afirmación científica; sin referencia legislativa directa).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "25. Un nuclóvulo es suficiente para formar un organismo completo sin más procesos.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: Falso es correcto: el nuclóvulo es solo un paso inicial; para generar un organismo se requieren activación, reprogramación efectiva, desarrollo embrionario coordinado, implantación y gestación en un entorno adecuado. Vero sería erróneo porque trata un estado celular inicial como si garantizara por sí mismo el desarrollo completo.\nIT: È Falso: il nuclovulo è solo l’inizio; servono attivazione, riprogrammazione, sviluppo coordinato, impianto e gestazione. Dire Vero confonde una cellula “di partenza” con la sufficienza biologica per un organismo completo.",
+      "legal_reference": "N/A (afirmación científica; sin referencia legislativa directa).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "26. El clonaje animal ha sido exitoso en especies como ovejas y ratones.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: Vero es correcto: existen casos documentados de clonación en mamíferos (por ejemplo, ovejas y ratones), aunque con eficiencias variables y riesgos. Falso sería erróneo porque negaría hechos ampliamente conocidos de la biología experimental.\nIT: Vero: la clonazione animale è stata realizzata in diverse specie (incluse pecore e topi), pur con efficienza non elevata. Dire Falso negherebbe risultati consolidati della biologia sperimentale.",
+      "legal_reference": "N/A (afirmación científica/histórica; sin referencia legislativa directa).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "27. La clonación reproductiva se considera ética en algunos contextos médicos.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: Falso es correcto: la clonación reproductiva humana no se considera éticamente aceptable en el marco del documento y, además, suele estar prohibida/limitada por instrumentos internacionales y legislación interna; se cita por riesgos, instrumentalización y afectación de dignidad/identidad. Vero sería erróneo porque presupone aceptabilidad ética “médica” donde predomina el rechazo.\nIT: È Falso: la clonazione riproduttiva umana è generalmente respinta per ragioni di dignità, rischi e strumentalizzazione, e spesso vietata. Dire Vero implicherebbe un’accettazione etica in ambito medico che non è quella sostenuta dal documento.",
+      "legal_reference": "España: Ley 14/2006, art. 1.3; Código Penal, art. 160.3. UE: Carta, art. 3.2(d). Consejo de Europa: CETS 168, art. 1. UNESCO (1997): art. 11.",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "28. El envejecimiento prematuro es un riesgo identificado en clones mamíferos.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: Vero es correcto: entre los riesgos descritos en clonación de mamíferos se ha señalado la posibilidad de alteraciones asociadas a reprogramación/epigenética que podrían relacionarse con envejecimiento o fenotipos anómalos. Falso sería erróneo porque ignora riesgos biológicos históricamente discutidos en clonación.\nIT: Vero: tra i rischi discussi nella clonazione dei mammiferi rientrano anomalie legate a riprogrammazione/epigenetica, incluse possibili manifestazioni compatibili con invecchiamento precoce. Dire Falso negherebbe una linea di rischio frequentemente riportata nel dibattito scientifico-bioetico.",
+      "legal_reference": "N/A (afirmación científica; sin referencia legislativa directa).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "29. Las células madre embrionarias pueden ser obtenidas a partir de nuclóvulos reprogramados.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: Vero es correcto: si el nuclóvulo se reprograma y progresa a etapas tempranas equivalentes a blastocisto, es posible derivar células madre embrionarias de su masa celular interna (concepto de clonación terapéutica). Falso sería erróneo porque niega la base técnica de la derivación en ese enfoque.\nIT: Vero: se il nuclovulo viene riprogrammato e raggiunge stadi precoci idonei, si possono derivare cellule staminali embrionali (logica della clonazione terapeutica). Dire Falso negherebbe il presupposto tecnico di tale derivazione.",
+      "legal_reference": "N/A (afirmación científica; la regulación concreta de investigación biomédica depende del ordenamiento y no se desprende solo de esta proposición).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "30. La clonación implica la generación de organismos genéticamente idénticos al progenitor.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: Vero es correcto en sentido definicional: la clonación busca producir un organismo con el mismo genoma nuclear que el donante. Falso sería erróneo porque negaría el elemento definitorio del “clonaje”. Matiz: pueden existir diferencias epigenéticas y mitocondriales, pero no invalidan la finalidad genética nuclear.\nIT: Vero: per definizione la clonazione mira a generare un organismo con lo stesso patrimonio genetico nucleare del donatore. Dire Falso negherebbe il tratto definitorio. Nota: differenze epigenetiche/mitocondriali possono esserci, ma non eliminano l’identità nucleare perseguita.",
+      "legal_reference": "N/A (afirmación definicional/científica).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "31. La transferencia nuclear en primates ha sido consistentemente exitosa.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: Falso es correcto: en primates la transferencia nuclear ha presentado dificultades técnicas importantes y bajas tasas de éxito; no puede calificarse de “consistentemente” exitosa. Vero sería erróneo porque presupone una reproducibilidad alta que no caracteriza este campo.\nIT: È Falso: nei primati la SCNT ha incontrato ostacoli rilevanti e non è stata “costantemente” efficace. Dire Vero implicherebbe un successo regolare e riproducibile che non è tipico di questa tecnica.",
+      "legal_reference": "N/A (afirmación científica/estado de la técnica).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "32. La diferenciación celular es irrelevante para el éxito de la clonación.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: Falso es correcto: el grado de diferenciación del núcleo donante influye en la facilidad de reprogramación; núcleos muy diferenciados suelen requerir una reprogramación más difícil, afectando eficiencia y anomalías. Vero sería erróneo porque niega un factor biológico clave.\nIT: È Falso: lo stato di differenziamento del nucleo donatore incide sulla riprogrammazione e quindi sul successo. Dire Vero ignorerebbe un determinante biologico centrale (più differenziato = riprogrammazione più complessa).",
+      "legal_reference": "N/A (afirmación científica).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "33. El gen Oct-4 es crucial en el desarrollo inicial de embriones clonados.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: Vero es correcto: Oct-4 se asocia a pluripotencia y a programas tempranos del desarrollo; su expresión adecuada es relevante para el desarrollo inicial, también en embriones clonados. Falso sería erróneo porque negaría un elemento central de la regulación temprana.\nIT: Vero: Oct-4 è un gene chiave per pluripotenza e sviluppo precoce; la sua corretta espressione è importante anche negli embrioni clonati. Dire Falso negherebbe un fattore noto della regolazione iniziale.",
+      "legal_reference": "N/A (afirmación científica).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "34. Los cambios epigenéticos son reversibles y esenciales para la reprogramación en la clonación.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: Vero es correcto: la clonación requiere revertir marcas epigenéticas propias de células diferenciadas para reinstaurar un estado compatible con desarrollo embrionario; esa reversibilidad (al menos parcial) es esencial. Falso sería erróneo porque negaría la base epigenética de la reprogramación.\nIT: Vero: la clonazione richiede “invertire” (in parte) marcatori epigenetici del nucleo somatico; questa reversibilità è essenziale per ripristinare programmi embrionali. Dire Falso negherebbe il presupposto epigenetico della riprogrammazione.",
+      "legal_reference": "N/A (afirmación científica).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "35. La transferencia nuclear puede generar células embrioides sin organización funcional.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: Vero es correcto: si la reprogramación es incompleta, puede haber proliferación y estructuras celulares tipo embrioide sin organización embrionaria funcional. Falso sería erróneo porque presupone que la transferencia nuclear siempre produce desarrollo ordenado.\nIT: Vero: se la riprogrammazione è incompleta, la SCNT può produrre strutture embrioidi senza organizzazione funzionale. Dire Falso implica che lo sviluppo ordinato sia automatico, cosa non vera.",
+      "legal_reference": "N/A (afirmación científica).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "36. La técnica de clonación solo se utiliza con fines terapéuticos en humanos.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: Falso es correcto: en humanos se ha planteado/estudiado en contextos de investigación (no necesariamente terapéuticos directos) y, además, el debate incluye la clonación reproductiva (aunque prohibida), lo que impide decir “solo” terapéutica. Vero sería erróneo por absolutizar el uso y excluir investigación básica o intentos no terapéuticos.\nIT: È Falso: nell’uomo la clonazione/SCNT è stata discussa e studiata anche in ambiti di ricerca non immediatamente terapeutici, e la clonazione riproduttiva è oggetto di divieto e dibattito; quindi non si può dire “solo” terapeutica. Dire Vero sarebbe una generalizzazione assoluta scorretta.",
+      "legal_reference": "España: Ley 14/2006, art. 1.3 (prohibición de clonación con fines reproductivos). Instrumentos internacionales: UNESCO (1997) art. 11; UE Carta art. 3.2(d); CETS 168 art. 1.",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "37. La baja eficiencia de la clonación se debe en parte a errores en la reprogramación del ADN.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: Vero es correcto: fallos de reprogramación epigenética (metilación, improntas, remodelado cromatínico) contribuyen a detenciones del desarrollo, anomalías y baja tasa de éxito. Falso sería erróneo porque negaría un factor causal ampliamente reconocido.\nIT: Vero: la bassa efficienza dipende anche da errori di riprogrammazione (soprattutto epigenetica), che causano arresti e anomalie. Dire Falso negherebbe una causa importante del fallimento clonale.",
+      "legal_reference": "N/A (afirmación científica).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "38. El proceso de clonación elimina la necesidad de mitocondrias funcionales.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: Falso es correcto: las mitocondrias son esenciales para energía celular y desarrollo; en transferencia nuclear el ovocito aporta mitocondrias, que deben ser funcionales. Vero sería erróneo porque ignora una condición bioenergética básica.\nIT: È Falso: i mitocondri sono indispensabili; nel trasferimento nucleare provengono dall’ovocita e devono funzionare. Dire Vero nega un requisito bioenergetico fondamentale.",
+      "legal_reference": "N/A (afirmación científica).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "39. La clonación humana plantea riesgos únicos en comparación con otras especies.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: Vero es correcto: además de riesgos biomédicos, en humanos aparecen riesgos éticos, sociales y jurídicos específicos (dignidad, identidad, instrumentalización, filiación, explotación de donantes), y la tolerancia al riesgo es mucho menor. Falso sería erróneo porque equipara el caso humano al animal, ignorando su especificidad.\nIT: Vero: nell’uomo i rischi non sono solo biologici ma anche etico-sociali e giuridici (dignità, identità, strumentalizzazione, filiazione, sfruttamento), quindi “unici” rispetto ad altre specie. Dire Falso appiattirebbe il caso umano su quello animale.",
+      "legal_reference": "Instrumentos internacionales y UE evidencian especial protección: CETS 168, art. 1; UE Carta, art. 3.2(d); UNESCO (1997), art. 11; España: Ley 14/2006, art. 1.3; CP art. 160.3.",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "40. La clonación de mamíferos comenzó con experimentos en ratones y conejos.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: Vero es correcto en el sentido del enunciado: los desarrollos pioneros en clonación de mamíferos se impulsaron a partir de experimentación en especies de laboratorio (incluidos roedores) y otras como conejos, antes de los hitos más mediáticos. Falso sería erróneo porque niega la relevancia histórica de esos modelos experimentales.\nIT: Vero: i primi sviluppi e tentativi in clonazione dei mammiferi si sono appoggiati a modelli di laboratorio (tra cui roditori) e anche conigli, prima dei successi più noti. Dire Falso negherebbe il ruolo storico dei modelli sperimentali iniziali.",
+      "legal_reference": "N/A (afirmación histórica/científica).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "41. Un nuclóvulo reprogramado puede considerarse un cigoto artificial.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: Vero es correcto en clave conceptual: si el nuclóvulo queda reprogramado y adquiere funcionalidad equivalente al inicio del desarrollo, puede describirse como “cigoto artificial” (no por fecundación, sino por SCNT). Falso sería erróneo porque niega esa analogía funcional.\nIT: Vero: un nuclovulo riprogrammato, se capace di avviare sviluppo precoce, può essere visto come “zigote artificiale” (non da fecondazione ma da SCNT). Dire Falso rifiuterebbe l’analogia funzionale su cui si basa il termine.",
+      "legal_reference": "N/A (afirmación conceptual/científica).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "42. La clonación de células tumorales podría ser útil para investigaciones biomédicas.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: Vero es correcto: clonar células tumorales puede ayudar a obtener líneas celulares homogéneas para estudiar mecanismos, respuesta a fármacos y heterogeneidad tumoral, mejorando la reproducibilidad experimental. Falso sería erróneo porque ignora potenciales usos metodológicos en investigación.\nIT: Vero: clonare cellule tumorali può essere utile per ottenere linee più omogenee e studiare meccanismi e risposta ai farmaci, aumentando riproducibilità. Dire Falso negherebbe un possibile impiego sperimentale rilevante.",
+      "legal_reference": "N/A (afirmación científica; la regulación concreta de investigación biomédica depende del ordenamiento).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "43. La clonación humana está prohibida por la mayoría de los gobiernos e instituciones.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: Vero es correcto: la clonación reproductiva humana está prohibida o fuertemente restringida en muchos ordenamientos y por instrumentos internacionales; se justifica por dignidad, identidad y riesgos. Falso sería erróneo porque desconoce esa tendencia regulatoria ampliamente extendida.\nIT: Vero: la clonazione riproduttiva umana è vietata o severamente limitata in molti sistemi e strumenti internazionali, per ragioni di dignità/identità e rischio. Dire Falso ignorerebbe questa realtà normativa diffusa.",
+      "legal_reference": "España: Ley 14/2006, art. 1.3; Código Penal, art. 160.3. UE: Carta, art. 3.2(d). Consejo de Europa: CETS 168, art. 1. UNESCO (1997): art. 11.",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "44. El uso de núcleos somáticos en clonación elimina la necesidad de gametos.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: Vero es correcto en el sentido genético: no se necesita la unión de gametos (espermatozoide + ovocito con su núcleo) para aportar el genoma nuclear, porque éste proviene de una célula somática. Falso sería erróneo porque describe la clonación como si dependiera de fecundación. Matiz: suele requerirse un ovocito enucleado como “citoplasma receptor”, pero no como gameto aportador del núcleo.\nIT: Vero: in senso genetico non serve la fusione di gameti per il genoma nucleare, perché il nucleo proviene da una cellula somatica. Dire Falso confonderebbe clonazione e fecondazione. Nota: si usa spesso un ovocita enucleato come citoplasma ricevente, ma non come fonte del nucleo gametico.",
+      "legal_reference": "N/A (afirmación científica/definicional).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "45. La clonación de mamíferos por transferencia nuclear tiene tasas de éxito superiores al 50%.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: Falso es correcto: las tasas de éxito de la transferencia nuclear en mamíferos suelen ser bajas (muy por debajo del 50%), con pérdidas embrionarias/gestacionales y anomalías asociadas a reprogramación. Vero sería erróneo porque afirma una eficiencia irreal y no representativa.\nIT: È Falso: l’efficienza della SCNT nei mammiferi è in genere bassa, ben lontana dal 50%, con molte perdite e anomalie. Dire Vero darebbe una percentuale non coerente con la pratica sperimentale.",
+      "legal_reference": "N/A (afirmación científica).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "46. El envejecimiento prematuro de clones puede estar relacionado con la metilación anormal del ADN.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: Vero es correcto: patrones anómalos de metilación (y otras marcas epigenéticas) pueden alterar expresión génica y fenotipos, lo que se ha vinculado a problemas de desarrollo y posibles rasgos compatibles con envejecimiento anómalo. Falso sería erróneo porque niega una relación plausible y discutida en el marco de fallos de reprogramación.\nIT: Vero: metilazione anomala e altri errori epigenetici possono alterare l’espressione genica e contribuire a fenotipi patologici, inclusi aspetti compatibili con invecchiamento anomalo. Dire Falso negherebbe un collegamento coerente con i fallimenti di riprogrammazione.",
+      "legal_reference": "N/A (afirmación científica).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "47. La generación de gemelos idénticos mediante división embrionaria no es clonación.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: Vero es correcto según el uso del documento: la gemelación idéntica por división embrionaria se describe como un fenómeno natural del desarrollo, no como clonación en sentido técnico (transferencia nuclear/producción deliberada). Falso sería erróneo si se entiende “clonación” exclusivamente como técnica artificial; aunque haya identidad genética, el texto reserva el término para procedimientos biotecnológicos.\nIT: Vero secondo l’impostazione del documento: i gemelli monozigoti derivano da un processo di sviluppo (divisione) e non da clonazione “tecnica” deliberata (es. SCNT). Dire Falso sarebbe coerente solo se si usasse “clonazione” in senso biologico lato (identità genetica), ma qui il testo adotta un senso tecnico-reproduttivo.",
+      "legal_reference": "N/A (cuestión definicional/terminológica).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "48. La transferencia de núcleos somáticos es una técnica esencial en clonación.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: Vero es correcto: la transferencia de núcleos somáticos (SCNT) es el procedimiento central para obtener un embrión/clon a partir del núcleo de una célula somática. Falso sería erróneo porque niega la técnica definitoria más característica del clonaje por transferencia nuclear.\nIT: Vero: il trasferimento di nuclei somatici (SCNT) è tecnica cardine della clonazione per ottenere un embrione/clon a partire da una cellula somatica. Dire Falso negherebbe il metodo essenziale associato alla clonazione nucleare.",
+      "legal_reference": "N/A (afirmación científica/definicional).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "49. La clonación humana no tiene aplicaciones éticas aceptables en la actualidad.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: Vero es correcto según la postura del documento: por razones de dignidad, identidad, instrumentalización y riesgos, no se identifican usos éticamente aceptables, especialmente en clonación reproductiva humana. Falso sería erróneo porque implicaría que existen aplicaciones aceptables hoy, contrariando la conclusión personalista y el marco prohibitivo de muchas normas.\nIT: Vero: il documento sostiene che, allo stato attuale, la clonazione umana non presenti applicazioni eticamente accettabili (in particolare quella riproduttiva), per motivi di dignità/identità e rischio. Dire Falso implicherebbe ammettere applicazioni accettabili oggi, contro l’impostazione del testo e la diffusa cornice proibitiva.",
+      "legal_reference": "España: Ley 14/2006, art. 1.3; Código Penal, art. 160.3. UE: Carta, art. 3.2(d). Consejo de Europa: CETS 168, art. 1. UNESCO (1997): art. 11.",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "50. El desarrollo de la clonación está completamente libre de controversias bioéticas.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: Falso es correcto: la clonación ha estado y está rodeada de controversias bioéticas (dignidad, instrumentalización, riesgos, eugenesia, explotación de donantes, estatuto del embrión), reflejadas incluso en prohibiciones y declaraciones internacionales. Vero sería erróneo porque afirma ausencia total de controversia frente a un debate ampliamente documentado.\nIT: È Falso: la clonazione è oggetto di controversie bioetiche profonde (dignità, rischi, eugenesia, statuto dell’embrione), come mostrano anche divieti e dichiarazioni internazionali. Dire Vero negherebbe un dibattito notoriamente intenso.",
+      "legal_reference": "Instrumentos que evidencian controversia y reacción normativa: UNESCO (1997) art. 11; CETS 168 art. 1; UE Carta art. 3.2(d); España: Ley 14/2006 art. 1.3 y CP art. 160.3.",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
     }
   ]
 }
