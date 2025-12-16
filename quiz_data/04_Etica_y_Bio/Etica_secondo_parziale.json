@@ -1503,6 +1503,568 @@
       "explanation": "ES: Falso es correcto: la clonación ha estado y está rodeada de controversias bioéticas (dignidad, instrumentalización, riesgos, eugenesia, explotación de donantes, estatuto del embrión), reflejadas incluso en prohibiciones y declaraciones internacionales. Vero sería erróneo porque afirma ausencia total de controversia frente a un debate ampliamente documentado.\nIT: È Falso: la clonazione è oggetto di controversie bioetiche profonde (dignità, rischi, eugenesia, statuto dell’embrione), come mostrano anche divieti e dichiarazioni internazionali. Dire Vero negherebbe un dibattito notoriamente intenso.",
       "legal_reference": "Instrumentos que evidencian controversia y reacción normativa: UNESCO (1997) art. 11; CETS 168 art. 1; UE Carta art. 3.2(d); España: Ley 14/2006 art. 1.3 y CP art. 160.3.",
       "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "1. Las células madre embrionarias tienen un valor probado en la terapia regenerativa.",
+      "answers": [
+        {
+          "text": "Vero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es Falso porque, aunque las células madre embrionarias (hESC) tienen potencial y se investigan en ensayos, no puede afirmarse de modo general que su valor terapéutico esté probado: persisten límites relevantes (control de diferenciación, riesgo de teratomas/tumorigenicidad, posible rechazo inmunológico) y la traslación clínica sigue siendo parcial. Elegir Vero sería erróneo porque convertiría un campo aún condicionado por riesgos y resultados heterogéneos en un estándar terapéutico general.\nIT: La risposta corretta è Falso perché, sebbene le hESC siano promettenti e studiate in sperimentazioni, non si può dire in generale che abbiano un valore terapeutico provato: permangono limiti di controllo della differenziazione, rischio di teratomi/tumorigenicità e possibili problemi di rigetto immunologico, e la traslazione clinica è ancora parziale. Dire Vero trasformerebbe una promettente linea di ricerca in un trattamento clinico generalmente consolidato.",
+      "legal_reference": "Referencia científica: riesgos de teratoma e inmunorrechazo en hESC y límites de traslación clínica. Normativa (contexto de investigación): Ley 14/2007 (Título IV, arts. 32–35) sobre garantías y control de proyectos con material embrionario.",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "2. Las células madre de adulto han demostrado ser eficaces en aplicaciones terapéuticas.",
+      "answers": [
+        {
+          "text": "Vero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero porque existen aplicaciones clínicas consolidadas de células madre adultas (por ejemplo, el trasplante de células madre hematopoyéticas/médula ósea para múltiples enfermedades), con eficacia documentada y uso rutinario bajo estándares médicos. Elegir Falso sería erróneo porque negaría terapias ya establecidas y ampliamente aceptadas en la práctica clínica.\nIT: La risposta corretta è Vero perché esistono applicazioni cliniche consolidate di cellule staminali adulte (ad esempio il trapianto di cellule staminali ematopoietiche/midollo osseo), con efficacia documentata e utilizzo routinario. Dire Falso sarebbe sbagliato perché negherebbe terapie già standardizzate e largamente praticate.",
+      "legal_reference": "Referencia científica: trasplante de células madre hematopoyéticas como terapia aceptada. Normativa (marco general de donación/consentimiento): Convenio de Oviedo, art. 5; Directiva 2004/23/CE, art. 12.",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "3. El fraude científico de Hwang involucró datos falsificados sobre clonación terapéutica.",
+      "answers": [
+        {
+          "text": "Vero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero: el caso Hwang se refiere a afirmaciones sobre derivación de líneas de células madre embrionarias humanas a partir de embriones clonados (SCNT), posteriormente desmentidas por investigaciones que concluyeron que los datos eran fraudulentos. Elegir Falso sería erróneo porque negaría el núcleo del escándalo: la falsificación de resultados en el ámbito de la clonación terapéutica.\nIT: La risposta corretta è Vero: il caso Hwang riguarda rivendicazioni su linee di cellule staminali embrionali umane derivate da embrioni clonati (SCNT), poi smentite da indagini che hanno concluso per la natura fraudolenta dei dati. Dire Falso negherebbe il cuore dello scandalo: la falsificazione di risultati collegati alla clonazione terapeutica.",
+      "legal_reference": "Referencia (hechos del caso): cronología de Nature sobre el escándalo Hwang. Normativa ética general: Convenio de Oviedo, arts. 5 y 16 (consenso e revisión ética en investigación).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "4. La transferencia nuclear es un método asociado a la clonación terapéutica.",
+      "answers": [
+        {
+          "text": "Vero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero porque la clonación terapéutica se asocia típicamente a la transferencia nuclear de células somáticas (SCNT): se transfiere un núcleo somático a un ovocito enucleado para obtener un embrión clónico del que derivar células madre. Elegir Falso sería erróneo porque eliminaría el procedimiento definitorio del enfoque.\nIT: La risposta corretta è Vero perché la clonazione terapeutica è tipicamente associata al trasferimento nucleare (SCNT): un nucleo somatico viene inserito in un ovocita enucleato per ottenere un embrione clonico da cui derivare cellule staminali. Dire Falso sarebbe errato perché negherebbe la tecnica caratteristica del metodo.",
+      "legal_reference": "España: Ley 14/2007, art. 33.2 (incluye la activación de ovocitos mediante transferencia nuclear con fines terapéuticos o de investigación).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "5. El proceso de clonación reproductiva busca generar un organismo idéntico al donante genético.",
+      "answers": [
+        {
+          "text": "Vero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero porque la clonación reproductiva persigue el nacimiento de un individuo con genoma nuclear igual (o esencialmente igual) al del donante del núcleo. Elegir Falso sería erróneo porque confunde clonación reproductiva con otros objetivos (p. ej., investigación o derivación celular sin gestación).\nIT: La risposta corretta è Vero perché la clonazione riproduttiva mira alla nascita di un individuo con genoma nucleare uguale (o sostanzialmente uguale) a quello del donatore del nucleo. Dire Falso confonderebbe la clonazione riproduttiva con finalità diverse (ricerca o derivazione cellulare senza gestazione).",
+      "legal_reference": "UE: Carta de Derechos Fundamentales, art. 3.2 (prohibición de la clonación reproductora de seres humanos). España: Código Penal, art. 160.3; Ley 14/2006 (prohibición de clonación con fines reproductivos en su exposición de motivos y marco sancionador).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "6. El lobby de las células embrionarias promueve intereses científicos, económicos y políticos.",
+      "answers": [
+        {
+          "text": "Vero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero según el propio planteamiento del texto: la noción de “lobby” describe la articulación de actores y campañas que no se mueven solo por interés científico, sino también por financiación, industria/patentes y decisiones regulatorias y parlamentarias. Elegir Falso sería erróneo porque vaciaría el concepto de lobby y la tesis crítica central del documento.\nIT: La risposta corretta è Vero secondo l’impostazione del testo: la nozione di “lobby” indica un’azione coordinata che include non solo interesse scientifico, ma anche dimensione economica (finanziamenti, mercato, brevetti) e politica (scelte regolatorie e legislative). Dire Falso svuoterebbe il concetto e la tesi critica del documento.",
+      "legal_reference": "España (indicador normativo de riesgo de conflictos): Ley 14/2007, art. 34.2(b) (exige declarar relaciones e intereses comunes). Convenio de Oviedo, art. 21; UE Carta, art. 3.2 (prohibición de lucro del cuerpo humano) como marco anti-mercantilización.",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "7. El término \"blastocisto clónico\" se refiere a embriones obtenidos mediante fertilización in vitro.",
+      "answers": [
+        {
+          "text": "Vero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es Falso: un “blastocisto clónico” se refiere al blastocisto obtenido por clonación (p. ej., SCNT), no por fecundación (FIV). Elegir Vero sería erróneo porque confunde el origen biológico: FIV implica unión de gametos; clonación implica transferencia nuclear/activación.\nIT: La risposta corretta è Falso: “blastocisto clonico” indica un blastocisto ottenuto tramite clonazione (ad es. SCNT), non tramite fecondazione in vitro. Dire Vero confonderebbe l’origine: la FIV deriva da unione di gameti; la clonazione deriva da trasferimento nucleare/attivazione.",
+      "legal_reference": "Referencia científica/definicional: clonación terapéutica por SCNT vs FIV (distinción conceptual). Normativa de contexto: Ley 14/2007, art. 33.2 (transferencia nuclear).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "8. La clonación humana con fines terapéuticos evita completamente el uso de óvulos humanos.",
+      "answers": [
+        {
+          "text": "Vero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es Falso: la clonación terapéutica por SCNT requiere un ovocito (enucleado) como citoplasma receptor; por tanto, no se evita “completamente” el uso de óvulos humanos. Elegir Vero sería erróneo porque ignora el requisito técnico y el problema ético asociado a la obtención de ovocitos.\nIT: La risposta corretta è Falso: la clonazione terapeutica via SCNT richiede un ovocita (enucleato) come citoplasma ricevente; quindi non si evita “completamente” l’uso di ovociti umani. Dire Vero ignorerebbe un requisito tecnico e il correlato problema etico della raccolta di ovociti.",
+      "legal_reference": "España: Ley 14/2007, art. 33.2 (transferencia nuclear/activación de ovocitos). Convenio de Oviedo, art. 5 (consentimiento) y art. 21 (no lucro). Directiva 2004/23/CE, art. 12 (donación voluntaria y no remunerada; compensación limitada).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "9. La investigación con células madre embrionarias enfrenta fuertes críticas éticas.",
+      "answers": [
+        {
+          "text": "Vero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero porque la derivación y uso de células madre embrionarias suele implicar la utilización de embriones y, en muchos casos, su destrucción, lo que genera objeciones sobre dignidad/estatuto del embrión, además de debates sobre donación de material biológico y posibles incentivos. Elegir Falso sería erróneo porque negaría un debate bioético y jurídico ampliamente reconocido, reflejado en marcos restrictivos y garantías procedimentales.\nIT: La risposta corretta è Vero perché la derivazione/uso di cellule staminali embrionali implica l’impiego di embrioni e spesso la loro distruzione, generando critiche su dignità/statuto dell’embrione, oltre a problemi di donazione e possibili incentivi. Dire Falso negherebbe un dibattito bioetico e giuridico ampiamente riconosciuto, che si riflette in limiti e garanzie normative.",
+      "legal_reference": "Convenio de Oviedo, art. 18 (protección del embrión y prohibición de crear embriones con fines de experimentación). España: Ley 14/2007, arts. 33–35 (garantías, límites y control).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "10. La clonación terapéutica implica la destrucción de embriones humanos.",
+      "answers": [
+        {
+          "text": "Vero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero: en clonación terapéutica se genera un blastocisto clónico para aislar células madre; esa extracción implica que el embrión (blastocisto) deja de existir como tal. Elegir Falso sería erróneo porque sostiene que puede obtenerse la línea embrionaria sin afectar al embrión, lo que contradice el procedimiento estándar de derivación.\nIT: La risposta corretta è Vero: nella clonazione terapeutica si genera un blastocisto clonico per isolare cellule staminali; l’isolamento comporta la distruzione del blastocisto come embrione. Dire Falso sarebbe errato perché presuppone che si possano ottenere cellule staminali embrionali senza incidere sull’embrione, contro la procedura tipica.",
+      "legal_reference": "Referencia científica: derivación de hESC desde blastocisto (masa celular interna). Convenio de Oviedo, art. 18. España: Ley 14/2007, art. 35 (control de investigación con células troncales embrionarias).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+
+    {
+      "question": "11. El fraude de Hwang reveló problemas de integridad en la publicación científica.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero: el caso mostró fallos de control (verificación de datos, revisión por pares, supervisión institucional) y condujo a retractaciones e investigaciones, evidenciando vulnerabilidades del sistema de publicación científica ante presiones y conflictos. Elegir Falso sería erróneo porque ignora que el impacto del caso fue precisamente un debate sobre integridad científica y reformas de control.\nIT: La risposta corretta è Vero: il caso ha evidenziato criticità di controllo (verifica dei dati, peer review, supervisione) e ha portato a ritiri e indagini, mostrando vulnerabilità del sistema editoriale. Dire Falso sarebbe errato perché l’effetto principale dello scandalo fu proprio la discussione sull’integrità scientifica e sui meccanismi di verifica.",
+      "legal_reference": "Hechos del caso: cronología Nature (retractaciones, investigación, admisión de fabricación). Normativa de referencia ética: Convenio de Oviedo, art. 16 (aprobación y evaluación ética de proyectos).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "12. El fraude de la clonación fue detectado debido a la falta de pruebas de ADN consistentes.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero: uno de los elementos decisivos fue que los perfiles de ADN (huellas genéticas) de las supuestas líneas paciente-específicas no coincidían con los pacientes, lo que contradijo la afirmación de clonación terapéutica personalizada. Elegir Falso sería erróneo porque niega el tipo de verificación empírica que se usó para desmontar las conclusiones.\nIT: La risposta corretta è Vero: un punto decisivo fu che i profili di DNA delle presunte linee specifiche per paziente non coincidevano con quelli dei pazienti, smentendo la tesi di clonazione terapeutica personalizzata. Dire Falso negherebbe proprio la prova empirica usata per confutare le affermazioni.",
+      "legal_reference": "Hechos del caso: Nature (mismatch de DNA fingerprinting en líneas de 2005).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "13. El uso de células madre embrionarias se justifica plenamente desde una perspectiva ética.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: La respuesta correcta es Falso porque no existe una justificación ética “plena” y universalmente aceptada: el debate depende del estatuto moral del embrión, del principio de no instrumentalización y de la proporcionalidad entre fines y medios, además de riesgos de mercantilización y obtención de ovocitos. Elegir Vero sería erróneo porque convierte un problema bioético disputado en una conclusión cerrada, cuando las normas exigen garantías y límites.\nIT: La risposta corretta è Falso perché non esiste una giustificazione etica “piena” e universalmente condivisa: il giudizio dipende dallo statuto morale dell’embrione, dal divieto di strumentalizzazione e dalla proporzionalità tra fini e mezzi, oltre ai rischi di mercificazione e alla raccolta di ovociti. Dire Vero trasformerebbe una questione controversa in una conclusione indiscussa, mentre le norme prevedono limiti e garanzie.",
+      "legal_reference": "Convenio de Oviedo, arts. 18 y 21. España: Ley 14/2007, arts. 34–35 (garantías, autorización, informe favorable). UE: Carta, art. 3.2 (no lucro del cuerpo humano; prohibición de clonación reproductiva).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "14. La reprogramación de células somáticas es una alternativa prometedora a las células madre embrionarias.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero: la reprogramación de células somáticas permite generar iPSCs con propiedades pluripotentes, ofreciendo una vía que puede reducir (no necesariamente eliminar) el problema ético de destruir embriones, aunque introduce otros riesgos y cuestiones (mutaciones, epigenética, seguridad). Elegir Falso sería erróneo porque ignora un desarrollo central en biomedicina regenerativa.\nIT: La risposta corretta è Vero: la riprogrammazione di cellule somatiche permette di ottenere iPSC con pluripotenza, offrendo un’alternativa promettente che può ridurre (non sempre eliminare) il problema etico della distruzione di embrioni, pur introducendo altri rischi e questioni (mutazioni, epigenetica, sicurezza). Dire Falso ignorerebbe uno sviluppo chiave della medicina rigenerativa.",
+      "legal_reference": "Referencia científica: iPSC (reprogramación somática) como alternativa a hESC. Normativa/ética: Convenio de Oviedo, art. 18 (contexto de debate sobre embriones).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "15. El riesgo de tumores es una limitación en el uso de células madre embrionarias.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero: la pluripotencia conlleva riesgo de que queden células no diferenciadas capaces de formar teratomas/tumores, por lo que la seguridad y la purificación son barreras importantes. Elegir Falso sería erróneo porque negaría una limitación de seguridad central en la traslación clínica.\nIT: La risposta corretta è Vero: la pluripotenza comporta il rischio che restino cellule non differenziate capaci di formare teratomi/tumori, quindi sicurezza e purificazione sono ostacoli rilevanti. Dire Falso negherebbe una limitazione di sicurezza centrale per l’applicazione clinica.",
+      "legal_reference": "Referencia científica: tumorigenicidad/teratoma en células pluripotentes. Contexto regulatorio de seguridad: Directiva 2004/23/CE (calidad y seguridad de células/tejidos).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "16. Las células madre embrionarias se derivan de la masa celular interna del blastocisto.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero: las hESC se obtienen típicamente de la masa celular interna (ICM) del blastocisto, que contiene células pluripotentes del embrión temprano. Elegir Falso sería erróneo porque contradice la definición biológica estándar de su origen.\nIT: La risposta corretta è Vero: le hESC si ottengono tipicamente dalla massa cellulare interna (ICM) del blastocisto, che contiene cellule pluripotenti dell’embrione precoce. Dire Falso contraddirebbe la definizione biologica standard della loro origine.",
+      "legal_reference": "Referencia científica: derivación de hESC desde la ICM del blastocisto. Normativa: Convenio de Oviedo, art. 18 (investigación con embriones in vitro bajo protección y límites).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "17. La donación de óvulos para investigación se considera libre de riesgos médicos.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: La respuesta correcta es Falso: la estimulación ovárica y la extracción de ovocitos conllevan riesgos médicos (entre ellos el síndrome de hiperestimulación ovárica, complicaciones de punción, etc.). Elegir Vero sería erróneo porque niega riesgos que precisamente justifican exigencias de información y protección del donante en normas y protocolos.\nIT: La risposta corretta è Falso: la stimolazione ovarica e il prelievo di ovociti comportano rischi medici (tra cui la sindrome da iperstimolazione ovarica, complicazioni della puntura, ecc.). Dire Vero negherebbe rischi che giustificano obblighi di informazione e tutele per la donatrice.",
+      "legal_reference": "España: Ley 14/2006, art. 5.4 (información previa) y art. 26.b)11ª (infracción por estimulación ovárica continuada lesiva). Ley 14/2007, art. 32 (consentimiento e información). Directiva 2004/23/CE, art. 12 (donación voluntaria y no remunerada; compensación limitada) y considerandos sobre protección del donante vivo.",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "18. El fraude de Hwang incluyó fotografías duplicadas y datos manipulados.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero: en la cronología del caso se reportan problemas con imágenes duplicadas y fabricación/manipulación de datos en los trabajos, lo que fue parte del expediente de fraude. Elegir Falso sería erróneo porque ignora uno de los indicios materiales (figuras/imágenes) que alimentó la sospecha y la posterior investigación.\nIT: La risposta corretta è Vero: nella vicenda sono riportati problemi di immagini duplicate e dati fabbricati/manipolati, elementi che rientrano nel quadro del fraude. Dire Falso ignorerebbe uno degli indizi materiali che hanno alimentato sospetti e indagini successive.",
+      "legal_reference": "Hechos del caso: Nature (duplicaciones de imágenes y admisiones/alegaciones de fabricación de datos).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "19. El desarrollo embrionario humano en condiciones artificiales tiene múltiples limitaciones éticas.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero: el cultivo y manipulación de embriones plantea límites de dignidad, protección del embrión, finalidad legítima, control temporal (p. ej., regla de 14 días) y necesidad de autorizaciones y evaluación ética. Elegir Falso sería erróneo porque niega restricciones que están presentes tanto en el debate bioético como en la regulación positiva.\nIT: La risposta corretta è Vero: coltura e manipolazione di embrioni pongono limiti di dignità, protezione dell’embrione, finalità lecite, limiti temporali (ad es. regola dei 14 giorni) e necessità di autorizzazioni e valutazione etica. Dire Falso negherebbe vincoli presenti nel dibattito bioetico e nella regolazione normativa.",
+      "legal_reference": "España: Ley 14/2006, art. 26.c)1ª (prohíbe desarrollo in vitro más allá de 14 días como infracción muy grave). Convenio de Oviedo, art. 18 (protección y prohibición de crear embriones con fines de experimentación).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "20. La clonación terapéutica no tiene aplicaciones médicas viables hasta el momento.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero en sentido práctico-clínico: la clonación terapéutica (SCNT para obtener líneas) se mantiene en el plano de investigación y no constituye, hoy por hoy, una aplicación médica rutinaria y viable en la clínica; los resultados se orientan a modelos de enfermedad y desarrollo de conocimiento más que a tratamientos estandarizados. Elegir Falso sería erróneo porque presupone disponibilidad de terapias clínicas consolidadas derivadas de clonación terapéutica, lo que no refleja la realidad asistencial.\nIT: La risposta corretta è Vero in senso clinico-pratico: la clonazione terapeutica (SCNT per ottenere linee) resta principalmente ricerca e non è, ad oggi, un’applicazione medica routinaria e clinicamente “viabile” come terapia standard; serve soprattutto a modelli di malattia e conoscenza. Dire Falso presupporrebbe terapie cliniche consolidate basate su clonazione terapeutica, che non rappresentano la pratica assistenziale.",
+      "legal_reference": "Referencia científica/divulgativa: descripción de clonación terapéutica como técnica de investigación (SCNT) y obtención de hESC. Normativa de contexto: Ley 14/2007, arts. 34–35 (autorización y control de investigaciones con líneas embrionarias y transferencia nuclear).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+
+    {
+      "question": "21. La obtención de células madre embrionarias no afecta al desarrollo de los embriones utilizados.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: La respuesta correcta es Falso: extraer la masa celular interna para derivar hESC implica detener el desarrollo del embrión y, en la práctica, su destrucción como embrión. Elegir Vero sería erróneo porque afirma que el embrión permanece intacto, lo cual contradice el procedimiento estándar y el propio fundamento del debate ético.\nIT: La risposta corretta è Falso: isolare la massa cellulare interna per derivare hESC interrompe lo sviluppo dell’embrione e, di fatto, comporta la sua distruzione come embrione. Dire Vero sarebbe errato perché sostiene che l’embrione non venga intaccato, contraddicendo la procedura e la base del dibattito etico.",
+      "legal_reference": "Referencia científica: derivación de hESC desde blastocisto implica destrucción del embrión. Convenio de Oviedo, art. 18 (marco de protección).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "22. Las células madre de adulto son una opción ética y práctica en medicina regenerativa.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero: muchas terapias con células madre adultas (p. ej., hematopoyéticas) están establecidas y, además, suelen evitar el problema ético específico de destruir embriones, aunque siguen exigiendo consentimiento, seguridad y trazabilidad. Elegir Falso sería erróneo porque niega tanto su utilidad clínica como su menor conflictividad ética relativa en comparación con las embrionarias.\nIT: La risposta corretta è Vero: molte terapie con cellule staminali adulte (ad es. ematopoietiche) sono consolidate e, inoltre, evitano spesso la questione etica specifica della distruzione di embrioni, pur richiedendo consenso, sicurezza e tracciabilità. Dire Falso sarebbe sbagliato perché nega sia l’utilità clinica sia la minore conflittualità etica rispetto alle staminali embrionali.",
+      "legal_reference": "Convenio de Oviedo, art. 5 (consentimiento). Directiva 2004/23/CE, art. 12 (principio de donación voluntaria y no remunerada) y marco de calidad/seguridad para células y tejidos.",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "23. Los bancos de células madre embrionarias han resuelto todas las dificultades técnicas.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: La respuesta correcta es Falso: aunque los bancos facilitan acceso y estandarización, persisten dificultades técnicas y clínicas relevantes (control de diferenciación, estabilidad genética/epigenética, inmunogenicidad, riesgo tumoral, calidad GMP, etc.). Elegir Vero sería erróneo porque presenta como superados problemas que siguen siendo objeto de investigación y regulación.\nIT: La risposta corretta è Falso: anche se le biobanche facilitano accesso e standardizzazione, restano difficoltà tecniche e cliniche (controllo differenziamento, stabilità genetica/epigenetica, immunogenicità, rischio tumorale, qualità GMP). Dire Vero sarebbe errato perché darebbe per risolti problemi ancora centrali nella ricerca e nella regolazione.",
+      "legal_reference": "Marco de garantías y requisitos en investigación: Ley 14/2007, art. 34 (requisitos) y art. 35 (proyectos sujetos a informe).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "24. La investigación en células madre ha sido influenciada por intereses comerciales.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero: en biomedicina existe interacción con financiación, patentes, mercado y expectativas políticas; por eso la regulación exige transparencia de relaciones e intereses y evita incentivos económicos indebidos en la obtención de material humano. Elegir Falso sería erróneo porque ignora la dimensión económica y los mecanismos legales de prevención de conflictos de interés.\nIT: La risposta corretta è Vero: nella ricerca biomedica incidono finanziamenti, brevetti e mercato, e proprio per questo la normativa richiede trasparenza su relazioni/interessi e limita incentivi economici nella donazione di materiale umano. Dire Falso ignorerebbe la dimensione economica e i meccanismi di prevenzione dei conflitti di interesse.",
+      "legal_reference": "España: Ley 14/2007, art. 34.2(b) (declaración de relaciones e intereses comunes) y art. 35 (control). Ley 14/2006, art. 5.3 (donación no lucrativa; compensación solo resarcitoria). Convenio de Oviedo, art. 21; UE Carta, art. 3.2 (prohibición de lucro del cuerpo humano).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "25. El síndrome de hiperestimulación ovárica es un riesgo asociado a la donación de óvulos.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero: el síndrome de hiperestimulación ovárica (OHSS) es un riesgo reconocido de los protocolos de estimulación para obtener ovocitos, incluyendo en donantes. Elegir Falso sería erróneo porque negaría un riesgo clínico conocido que, precisamente, obliga a extremar criterios de seguridad, información y seguimiento.\nIT: La risposta corretta è Vero: la sindrome da iperstimolazione ovarica (OHSS) è un rischio noto dei protocolli di stimolazione per ottenere ovociti, anche nelle donatrici. Dire Falso negherebbe un rischio clinico riconosciuto che impone tutele, informazione e monitoraggio.",
+      "legal_reference": "España: Ley 14/2006, art. 26.b)11ª (estimulación ovárica lesiva) y art. 5.4 (información previa). Referencia clínica: guías/consensos sobre OHSS en donación de ovocitos.",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "26. Las células madre de origen fetal no presentan problemas éticos significativos.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: La respuesta correcta es Falso: el origen fetal puede estar vinculado a interrupciones del embarazo y plantea cuestiones de consentimiento, trazabilidad, posible instrumentalización y debate social; por eso no es correcto decir que no presenta problemas éticos “significativos”. Elegir Vero sería erróneo porque absolutiza la ausencia de controversia cuando, en realidad, existe discusión ética y regulación.\nIT: La risposta corretta è Falso: l’origine fetale può essere collegata a interruzioni di gravidanza e solleva questioni di consenso, tracciabilità, possibile strumentalizzazione e dibattito sociale; quindi non è corretto affermare che non vi siano problemi etici “significativi”. Dire Vero renderebbe inesistente una controversia che invece è reale e regolata.",
+      "legal_reference": "Convenio de Oviedo, art. 5 (consentimiento informado) y principios de protección en investigación (arts. 15–16). Normativa española de investigación biomédica: Ley 14/2007 (consentimiento y control por comités; régimen general).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "27. La creación de híbridos hombre-animal para investigación es aceptada universalmente.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: La respuesta correcta es Falso: no existe aceptación universal; muchos ordenamientos imponen límites estrictos o prohibiciones, y las directrices internacionales exigen revisión y control reforzados. Elegir Vero sería erróneo porque presupone consenso global donde hay divergencia normativa y ética.\nIT: La risposta corretta è Falso: non vi è accettazione universale; molti ordinamenti impongono limiti o divieti e le linee guida internazionali richiedono revisione e controllo rafforzati. Dire Vero presupporrebbe un consenso globale inesistente, dato il disaccordo etico e normativo.",
+      "legal_reference": "España: Ley 14/2006, art. 26.c)7ª (infracción muy grave por producción de híbridos interespecíficos con material genético humano, salvo ensayos permitidos). Contexto ético: normas de revisión y control en investigación (Convenio de Oviedo, art. 16).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "28. La clonación terapéutica enfrenta desafíos técnicos, éticos y científicos.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero: técnicamente hay baja eficiencia y problemas de reprogramación; éticamente hay debate por uso de ovocitos y estatuto del embrión; científicamente se requieren evidencias sólidas de seguridad y eficacia para cualquier traslación. Elegir Falso sería erróneo porque niega la complejidad real que justifica garantías y restricciones legales.\nIT: La risposta corretta è Vero: sul piano tecnico vi sono bassa efficienza e problemi di riprogrammazione; sul piano etico vi è dibattito per uso di ovociti e statuto dell’embrione; sul piano scientifico servono prove robuste di sicurezza ed efficacia per ogni traslazione. Dire Falso negherebbe una complessità reale che giustifica garanzie e restrizioni.",
+      "legal_reference": "España: Ley 14/2007, art. 33 (límites y técnicas permitidas) y arts. 34–35 (garantías/controles e informe favorable). Convenio de Oviedo, art. 18 (embrión in vitro) y art. 5 (consentimiento). Directiva 2004/23/CE, art. 12 (donación).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "29. El fraude científico de Hwang fue inicialmente descubierto por irregularidades en la donación de óvulos.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero según la cronología del caso: las sospechas públicas se intensificaron por cuestiones de obtención de ovocitos (posible coacción/pagos y falta de información adecuada), que abrieron investigaciones y escrutinio institucional, antes de que se consolidaran pruebas técnicas como las discrepancias de ADN. Elegir Falso sería erróneo porque ignora que el escándalo tuvo también un fuerte detonante ético-procedimental vinculado a la donación de óvulos.\nIT: La risposta corretta è Vero secondo la cronologia: i sospetti sono cresciuti anche per irregolarità nella raccolta/donazione di ovociti (possibile coercizione o pagamenti e insufficiente informazione sui rischi), che hanno innescato indagini e controllo; successivamente si sono aggiunte verifiche tecniche (DNA). Dire Falso ignorerebbe questa componente iniziale di tipo etico-procedurale.",
+      "legal_reference": "Hechos del caso: Nature (cuestiones sobre obtención de óvulos, coerción y pagos). Normativa de referencia (principio): Convenio de Oviedo, art. 5 (consentimiento informado) y art. 21 (no lucro).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "30. El uso de células madre de adulto requiere el mismo nivel de intervención ética que las embrionarias.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: La respuesta correcta es Falso: ambas requieren ética (consentimiento, seguridad, trazabilidad), pero las embrionarias añaden un problema específico y más intenso: el uso/destrucción del embrión y, a veces, la obtención de ovocitos; por ello el nivel de intervención ética y el tipo de garantías suele ser distinto y más gravoso. Elegir Vero sería erróneo porque equipara situaciones moralmente y normativamente diferentes.\nIT: La risposta corretta è Falso: entrambe richiedono etica (consenso, sicurezza, tracciabilità), ma le embrionali aggiungono questioni specifiche e più intense (uso/distruzione dell’embrione e, talvolta, raccolta di ovociti), per cui il livello e il tipo di garanzie richieste sono in genere diversi e più stringenti. Dire Vero equivarrebbe a trattare come identiche situazioni moralmente e normativamente differenti.",
+      "legal_reference": "Convenio de Oviedo, art. 5 (consentimiento) y art. 18 (embrión in vitro). España: Ley 14/2007, arts. 34–35 (garantías en investigación con material embrionario) frente al marco general de donación de células/tejidos (Directiva 2004/23/CE, art. 12).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "31. El proceso de transferencia nuclear ha sido exitoso en todos los intentos con primates.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: La respuesta correcta es Falso porque la transferencia nuclear en primates ha sido técnicamente difícil, con bajas tasas de éxito y numerosos fallos ligados a reprogramación epigenética y a la activación embrionaria. Decir Vero sería erróneo porque afirma un éxito total (“en todos los intentos”) que no se corresponde con la realidad experimental.\nIT: La risposta corretta è Falso perché nei primati il trasferimento nucleare è stato storicamente complesso e poco efficiente, con molti insuccessi legati alla riprogrammazione e allo sviluppo precoce. Dire Vero sarebbe sbagliato perché sostiene un successo “sempre” e generalizzato che non è realistico.",
+      "legal_reference": "N/A (afirmación científica; la corrección depende del estado de la técnica, no de una norma).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "32. El uso de células madre embrionarias garantiza el éxito en tratamientos de enfermedades degenerativas.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: La respuesta correcta es Falso porque no existe garantía: la traslación clínica depende de control de diferenciación, seguridad (riesgo tumoral), integración funcional, y compatibilidad inmunológica. Decir Vero sería erróneo por convertir una línea de investigación en un resultado asegurado.\nIT: La risposta corretta è Falso perché non c’è alcuna “garanzia” di successo: servono controllo del differenziamento, sicurezza (rischio tumori), integrazione funzionale e compatibilità immunologica. Dire Vero sarebbe sbagliato perché trasforma una possibilità terapeutica in certezza.",
+      "legal_reference": "N/A (afirmación científico-clínica). Contexto regulatorio de seguridad/calidad en células y tejidos: Directiva 2004/23/CE (marco de calidad y seguridad).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "33. La clonación reproductiva busca fines médicos similares a la clonación terapéutica.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: La respuesta correcta es Falso porque la clonación reproductiva pretende el nacimiento de un individuo clonado, mientras la clonación terapéutica se orienta (cuando se plantea) a obtener material celular/biológico para investigación o terapia sin finalidad reproductiva. Decir Vero sería erróneo porque equipara objetivos sustancialmente distintos.\nIT: La risposta corretta è Falso perché la clonazione riproduttiva mira alla nascita di un individuo, mentre quella terapeutica mira a ottenere cellule/linee per ricerca o potenziali terapie senza finalità riproduttiva. Dire Vero confonde scopi diversi e non sovrapponibili.",
+      "legal_reference": "España: Ley 14/2006 (prohibición de clonación con fines reproductivos) y Código Penal art. 160.3 (sanción). UE: Carta de Derechos Fundamentales art. 3.2(d) (prohibición de clonación reproductiva).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "34. La obtención de células madre de adultos evita la necesidad de destruir embriones.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero porque las células madre adultas (incluidas las de médula ósea o cordón umbilical) se obtienen de tejidos postnatales y no requieren derivación de la masa celular interna de un blastocisto, por lo que no implican destrucción de embriones. Decir Falso sería erróneo porque atribuye a las adultas el mismo problema técnico y ético específico de las embrionarias.\nIT: La risposta corretta è Vero perché le staminali adulte (incluse quelle ematopoietiche o da cordone) si ottengono da tessuti postnatali e non richiedono la distruzione di blastocisti/embrioni. Dire Falso sarebbe sbagliato perché equipara impropriamente staminali adulte ed embrionali sul punto della distruzione embrionale.",
+      "legal_reference": "Convenio de Oviedo art. 18 (sensibilidad y límites en investigación con embriones) come contesto di distinzione. Regime generale di donazione/consenso: Convenio de Oviedo art. 5; Directiva 2004/23/CE (donación y seguridad).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "35. Las células madre embrionarias tienen una capacidad ilimitada de diferenciación celular.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero en el sentido del documento: las células madre embrionarias son pluripotentes y pueden diferenciarse en una amplia variedad de tipos celulares del organismo (derivados de las tres capas germinales), además de proliferar extensamente en cultivo. Decir Falso sería erróneo porque negaría su rasgo distintivo (pluripotencia) frente a muchas células madre adultas, normalmente más restringidas.\nIT: La risposta corretta è Vero nel senso del testo: le staminali embrionali sono pluripotenti e possono differenziarsi in moltissimi tipi cellulari (derivati dei tre foglietti embrionali) e proliferare ampiamente in coltura. Dire Falso sarebbe sbagliato perché negherebbe la caratteristica centrale (pluripotenza) che le distingue da molte staminali adulte più “ristrette”.",
+      "legal_reference": "N/A (afirmación biológica). Contexto ético-normativo: Convenio de Oviedo art. 18 (embrión in vitro) y Ley 14/2007 (control de investigación con material embrionario).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "36. La clonación humana terapéutica requiere un gran número de óvulos humanos.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero porque la SCNT suele ser ineficiente: muchos ovocitos no generan embriones viables y la derivación de líneas requiere repetición, aumentando la demanda de ovocitos. Decir Falso sería erróneo porque ignora el cuello de botella técnico y el correlativo problema ético de la obtención de ovocitos.\nIT: La risposta corretta è Vero perché la SCNT è tipicamente poco efficiente: molti ovociti non portano a embrioni idonei e per ottenere linee servono numerosi tentativi, aumentando la richiesta di ovociti. Dire Falso sarebbe sbagliato perché ignora il principale “collo di bottiglia” tecnico e la conseguente questione etica della raccolta ovocitaria.",
+      "legal_reference": "España: Ley 14/2007 (transferencia nuclear/activación con fines terapéuticos o de investigación) y reglas de autorización/garantías (arts. 34–35). Donación de ovocitos: Ley 14/2006 art. 5 (donación no lucrativa, información) y Directiva 2004/23/CE art. 12 (donación voluntaria y no remunerada; compensación limitada).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "37. El potencial terapéutico de las células madre embrionarias ha sido ampliamente comprobado.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: La respuesta correcta es Falso porque, aunque existan avances y ensayos, “ampliamente comprobado” sugiere evidencia general y consolidada para múltiples indicaciones, lo cual no es correcto: persisten barreras de seguridad, control y eficacia. Decir Vero sería erróneo por presentar como ya confirmado lo que todavía requiere validación robusta y generalizable.\nIT: La risposta corretta è Falso perché, pur essendoci progressi e sperimentazioni, dire “ampiamente comprovato” implica una prova clinica consolidata e generalizzata che non c’è: restano problemi di sicurezza, controllo e efficacia. Dire Vero sarebbe sbagliato perché anticipa una conclusione non supportata in modo ampio e definitivo.",
+      "legal_reference": "N/A (afirmación científico-clínica). Contexto de garantías en investigación biomédica: Ley 14/2007 (evaluación, autorización y control de proyectos).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "38. El cultivo de células madre embrionarias puede generar tumores en organismos receptores.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero: por su pluripotencia, si se trasplantan células no completamente diferenciadas, existe riesgo de formación de teratomas/tumores. Decir Falso sería erróneo porque niega una limitación de seguridad ampliamente reconocida en células pluripotentes.\nIT: La risposta corretta è Vero: data la pluripotenza, se vengono trapiantate cellule non pienamente differenziate, c’è rischio di teratomi/tumori. Dire Falso sarebbe sbagliato perché nega una criticità di sicurezza tipica delle cellule pluripotenti.",
+      "legal_reference": "Marco general de calidad y seguridad para células/tejidos: Directiva 2004/23/CE. Normativa española de investigación biomédica: Ley 14/2007 (garantías y control).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "39. El trabajo de Hwang fue promovido por el gobierno de Corea como un avance científico clave.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero: el caso Hwang se enmarcó en una fuerte promoción pública e institucional en Corea del Sur como hito científico nacional, lo que amplificó expectativas y presiones. Decir Falso sería erróneo porque ignora la dimensión político-institucional que rodeó al caso.\nIT: La risposta corretta è Vero: il caso Hwang fu accompagnato da una forte promozione pubblica e istituzionale in Corea del Sud come “svolta” scientifica nazionale, con grandi aspettative e pressioni. Dire Falso sarebbe sbagliato perché nega il contesto politico-mediatico noto della vicenda.",
+      "legal_reference": "N/A (hecho histórico/documental; no es una regla normativa). Fuente documental típica: informes periodísticos y cronologías científicas del caso.",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "40. La terapia regenerativa con células madre embrionarias está libre de problemas inmunológicos.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: La respuesta correcta es Falso porque pueden existir respuestas inmunes y rechazo, especialmente si las células no son autólogas o si hay diferencias HLA; además, la inmunogenicidad puede variar según el tipo celular y el protocolo. Decir Vero sería erróneo porque afirma ausencia total de problemas inmunológicos.\nIT: La risposta corretta è Falso perché possono emergere problemi immunologici (rigetto) quando le cellule non sono autologhe o per differenze di compatibilità; l’immunogenicità dipende anche da tipo cellulare e protocollo. Dire Vero sarebbe sbagliato perché sostiene un’assenza totale di problemi immunitari.",
+      "legal_reference": "N/A (afirmación biomédica). Contexto de calidad/seguridad en trasplantes celulares: Directiva 2004/23/CE; Ley 14/2007 (garantías en investigación).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "41. El desarrollo de líneas celulares embrionarias depende de la calidad de los blastocistos.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero: la capacidad de derivar una línea estable se relaciona con la viabilidad/estructura del blastocisto y con la calidad de la masa celular interna, además de condiciones de cultivo. Decir Falso sería erróneo porque supone que cualquier blastocisto produce líneas con igual éxito, lo que no ocurre.\nIT: La risposta corretta è Vero: la derivazione di linee dipende dalla qualità/viabilità del blastocisto e della massa cellulare interna, oltre che dalle condizioni di coltura. Dire Falso sarebbe sbagliato perché presume che tutti i blastocisti siano equivalenti per successo di derivazione, cosa non vera.",
+      "legal_reference": "N/A (afirmación científica). Contexto regulatorio: Ley 14/2007 (requisitos y controles para proyectos y líneas celulares embrionarias).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "42. El uso de células madre de cordón umbilical es una alternativa ética y eficaz.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero: el cordón umbilical proporciona células (principalmente hematopoyéticas) con usos clínicos reconocidos y, al provenir de un tejido posparto, evita el problema ético de destruir embriones; exige, no obstante, consentimiento, calidad y trazabilidad. Decir Falso sería erróneo porque negaría tanto su utilidad clínica como su menor conflictividad ética relativa.\nIT: La risposta corretta è Vero: il cordone ombelicale fornisce cellule (soprattutto ematopoietiche) con impieghi clinici consolidati e, essendo tessuto post-parto, evita la distruzione embrionale; restano necessari consenso, qualità e tracciabilità. Dire Falso sarebbe sbagliato perché nega efficacia e profilo etico relativamente più lineare.",
+      "legal_reference": "Directiva 2004/23/CE (calidad y seguridad en células/tejidos) y art. 12 (donación voluntaria y no remunerada). Convenio de Oviedo art. 5 (consentimiento).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "43. El fraude de Hwang debilitó la confianza pública en la investigación científica con embriones.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero: un fraude altamente mediático en un área sensible (embriones) tiende a erosionar credibilidad social, aumentar el escepticismo y endurecer exigencias de control y transparencia. Decir Falso sería erróneo porque ignora el impacto reputacional típico de fraudes en biomedicina.\nIT: La risposta corretta è Vero: una frode molto mediatica in un settore sensibile (embrioni) indebolisce la fiducia pubblica, aumenta scetticismo e spinge verso controlli più rigorosi. Dire Falso sarebbe sbagliato perché nega un effetto reputazionale prevedibile e spesso documentato.",
+      "legal_reference": "N/A (consecuencia sociológica/documental). Marco ético de control: Convenio de Oviedo art. 16 (evaluación ética de investigación) como reacción típica a riesgos di integridad.",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "44. El término \"blastocisto clónico\" implica la generación de un embrión completo funcional.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: La respuesta correcta es Falso: “blastocisto clónico” describe un estadio temprano (blastocisto) obtenido por clonación (p. ej., SCNT), pero no implica que sea un embrión completo y funcional capaz de desarrollarse hasta término; además, puede estar afectado por reprogramación incompleta. Decir Vero sería erróneo porque confunde un estadio temprano con viabilidad y funcionalidad completa.\nIT: La risposta corretta è Falso: “blastocisto clonico” indica uno stadio precoce ottenuto via clonazione, ma non implica automaticamente un embrione completo e funzionale fino al termine; possono esserci problemi di riprogrammazione e non si presume piena vitalità. Dire Vero confonde fase precoce con completezza e funzionalità.",
+      "legal_reference": "N/A (definición científico-técnica). Contexto normativo sobre investigación con embriones in vitro: Convenio de Oviedo art. 18; Ley 14/2007 (control y límites).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "45. El diagnóstico genético preimplantacional puede contribuir al desarrollo de células madre embrionarias.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero: el diagnóstico genético preimplantacional (DGP) implica selección/gestión de embriones; en ciertos marcos, embriones no transferidos (por anomalías o por no ser aptos) pueden destinarse a investigación bajo condiciones, lo que puede facilitar derivación de líneas embrionarias o investigación sobre hESC. Decir Falso sería erróneo porque niega esa conexión práctica entre tecnologías reproductivas, selección embrionaria y disponibilidad de material biológico para investigación (si la ley lo permite).\nIT: La risposta corretta è Vero: la diagnosi genetica preimpianto (DGP) comporta selezione/gestione di embrioni; in alcuni regimi gli embrioni non trasferiti possono essere destinati (con condizioni) alla ricerca, favorendo derivazione di linee embrionali o studi su hESC. Dire Falso sarebbe sbagliato perché nega il collegamento pratico tra tecniche di PMA, selezione embrionale e disponibilità di materiale per ricerca (quando consentito).",
+      "legal_reference": "España (marco generale): Ley 14/2006 (técnicas de reproducción asistida y control de usos) y Ley 14/2007 (autorización/garantías de investigación biomédica). Convenio de Oviedo art. 18 (protección del embrión in vitro y límites).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "46. El cultivo de embriones para investigación puede llevar a la creación de células más maduras.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero: el cultivo con fines de investigación puede permitir diferenciación progresiva y obtención de tipos celulares más especializados (más “maduros”) a partir de células pluripotentes o estructuras embrionarias tempranas, aunque dentro de límites temporales y éticos. Decir Falso sería erróneo porque niega el objetivo mismo de muchos protocolos de diferenciación in vitro.\nIT: La risposta corretta è Vero: la coltura a fini di ricerca può consentire progressiva differenziazione e ottenere cellule più specializzate (più “mature”), pur entro limiti temporali ed etici. Dire Falso sarebbe sbagliato perché nega il senso di molti protocolli di differenziazione in vitro.",
+      "legal_reference": "España: Ley 14/2006 (límite general sobre cultivo/desarrollo in vitro) y Ley 14/2007 (autorización y control de investigación). Convenio de Oviedo art. 18 (marco de protección).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "47. Las células madre embrionarias son completamente seguras para trasplantes humanos.",
+      "answers": [
+        { "text": "Vero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "ES: La respuesta correcta es Falso: existen riesgos de tumorigenicidad (teratomas), diferenciación incompleta, integración inadecuada y problemas inmunológicos. Decir Vero sería erróneo porque afirma “completamente seguras”, estándar que no se cumple.\nIT: La risposta corretta è Falso: ci sono rischi di tumorigenicità, differenziazione incompleta, integrazione non corretta e problemi immunologici. Dire Vero sarebbe sbagliato perché afferma una sicurezza totale che non è dimostrata.",
+      "legal_reference": "Marco general de seguridad/calidad: Directiva 2004/23/CE; principios de control de investigación: Ley 14/2007.",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "48. El proceso de obtención de óvulos para investigación puede implicar explotación de las donantes.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero: la obtención de ovocitos exige estimulación ovárica y punción, con riesgos y cargas; si existen incentivos económicos indebidos, asimetrías de poder o falta de información, puede haber explotación. Decir Falso sería erróneo porque ignora un riesgo ético central que explica límites a la remuneración y exigencias estrictas de consentimiento.\nIT: La risposta corretta è Vero: la raccolta di ovociti comporta stimolazione ovarica e prelievo, con rischi e oneri; se si aggiungono incentivi economici indebiti o pressioni/asimmetrie, può configurarsi sfruttamento. Dire Falso sarebbe sbagliato perché nega un rischio etico che giustifica limiti alla remunerazione e obblighi di consenso informato rigorosi.",
+      "legal_reference": "Convenio de Oviedo art. 21 (prohibición de lucro del cuerpo humano) y art. 5 (consentimiento). UE: Carta art. 3.2 (no lucro del cuerpo humano). España: Ley 14/2006 art. 5 (donación no lucrativa; información) y régimen sancionador; Directiva 2004/23/CE art. 12 (donación voluntaria y no remunerada; compensación limitada).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "49. El fraude de Hwang involucró manipulación de imágenes y datos genéticos.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero: el caso incluyó irregularidades como duplicación/manipulación de imágenes y problemas graves en la verificación genética (inconsistencias en ADN) que desmontaron las afirmaciones sobre líneas derivadas por clonación. Decir Falso sería erróneo porque niega los elementos probatorios más citados del fraude.\nIT: La risposta corretta è Vero: la vicenda comprende manipolazione/duplicazione di immagini e irregolarità nella verifica genetica (incongruenze di DNA) che hanno smentito le affermazioni. Dire Falso sarebbe sbagliato perché nega i principali elementi di prova del fraude.",
+      "legal_reference": "N/A (hecho histórico/documental). Marco ético de investigación: Convenio de Oviedo art. 16 (evaluación ética) y principios de integridad científica (soft law y códigos de conducta).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
+    },
+    {
+      "question": "50. La obsesión por las células madre embrionarias ha desplazado el interés por alternativas menos controvertidas.",
+      "answers": [
+        { "text": "Vero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "ES: La respuesta correcta es Vero según la tesis del documento: el énfasis mediático y financiero sobre hESC pudo reducir atención comparativa a alternativas como células madre adultas o reprogramación somática, que presentan menor controversia ética. Decir Falso sería erróneo porque negaría la crítica central del texto sobre prioridades de investigación y “efecto desplazamiento”.\nIT: La risposta corretta è Vero secondo la tesi del testo: l’enfasi mediatica e finanziaria sulle hESC può aver spostato attenzione e risorse da alternative meno controverse (staminali adulte, riprogrammazione somatica). Dire Falso sarebbe sbagliato perché nega la critica del documento sul “displacement” delle priorità di ricerca.",
+      "legal_reference": "N/A (tesi socio-politica del documento). Cornice anti-mercantilizzazione e trasparenza: Convenio de Oviedo art. 21; Ley 14/2007 (declaración de intereses y control de proyectos).",
+      "original_file": "Preguntas UNIDAD 4-5-6 para el examen-1.pdf (PDF)"
     }
   ]
 }
