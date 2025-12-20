@@ -1,0 +1,369 @@
+{
+  "file_number": 0,
+  "file_name": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx",
+  "questions": [
+    {
+      "question": "1.- En el supuesto de que un empresario quiera despedir por motivos disciplinarios a un representante legal de los trabajadores, ¿qué requisito formal deberá cumplir el empleador con carácter previo?",
+      "answers": [
+        { "text": "Deberá tramitar un expediente contradictorio. - CORRETTA", "correct": true },
+        { "text": "Deberá dar audiencia a los representantes de prevención de riesgos laborales.", "correct": false },
+        { "text": "Deberá formular una consulta a la comisión paritaria del convenio colectivo de empresa.", "correct": false },
+        { "text": "Deberá dar audiencia previa a los representantes legales de los trabajadores.", "correct": false }
+      ],
+      "explanation": "ES: Para imponer una sanción por falta grave o muy grave (incluido el despido disciplinario) a un representante legal de los trabajadores, el ET exige la apertura de un expediente contradictorio, oyendo al interesado y al resto de la representación (y, en su caso, a los delegados sindicales). No existe obligación legal de oír a delegados de prevención ni de consultar a una comisión paritaria. Una simple “audiencia previa” genérica no sustituye el expediente contradictorio formal.\nIT: Per sanzionare (anche con licenziamento disciplinare) un rappresentante dei lavoratori, l’ET impone l’“expediente contradictorio”, con contraddittorio e audizione dell’interessato e degli altri rappresentanti (ed eventualmente dei delegati sindacali). Non è previsto l’ascolto degli RLS né la consultazione della commissione paritetica; una mera audizione informale non equivale al procedimento richiesto.",
+      "legal_reference": "ET (RDL 2/2015) art. 68.a; ET art. 55.1; (conexión con delegados sindicales) LOLS art. 10 (cuando proceda).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "2.- En el supuesto de comunicación de una modificación sustancial de las condiciones de trabajo referida a la jornada, ¿puede el trabajador o trabajadora rescindir el contrato de trabajo?",
+      "answers": [
+        { "text": "Podrá rescindir el contrato de trabajo con derecho a percibir una indemnización de 33 días por año trabajado con el límite de 24 mensualidades cuando la modificación sustancial le cause un perjuicio.", "correct": false },
+        { "text": "Podrá rescindir el contrato de trabajo con derecho a percibir una indemnización de 20 días por año trabajado con el límite de 9 mensualidades cuando la modificación sustancial le cause un perjuicio - CORRETTA", "correct": true },
+        { "text": "Podrá rescindir el contrato de trabajo con derecho a percibir una indemnización de 30 días por año trabajado con el límite de 12 mensualidades.", "correct": false },
+        { "text": "Podrá rescindir el contrato de trabajo con derecho a percibir una indemnización de 20 días por año trabajado con el límite de 12 mensualidades.", "correct": false }
+      ],
+      "explanation": "ES: La modificación sustancial que afecte a jornada/horario permite al trabajador optar por la extinción indemnizada del contrato cuando le perjudique, con indemnización de 20 días/año y tope de 9 mensualidades. 33 días/24 meses es propio del despido improcedente; 20 días/12 meses corresponde a otras figuras (p. ej., movilidad geográfica o despido objetivo), no a la rescisión del art. 41.\nIT: In caso di modifica sostanziale su orario/jornada, il lavoratore può risolvere il contratto con indennità se subisce pregiudizio: 20 giorni/anno con massimo 9 mensilità. 33 giorni/24 mensilità è tipico del licenziamento improcedente; 20 giorni/12 mensilità riguarda altri istituti (es. trasferimento o licenziamento oggettivo), non l’art. 41.",
+      "legal_reference": "ET (RDL 2/2015) art. 41.3.",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "13.- ¿Qué límites operan cuando el Fondo de Garantía Salarial abona a los trabajadores el importe de los salarios pendientes de pago a causa de insolvencia o concurso del empresario?",
+      "answers": [
+        { "text": "El límite será el importe del salario reconocido al trabajador incluyendo la parte proporcional de las pagas extraordinarias, pero su importe no podrá superar el doble del salario mínimo interprofesional, multiplicado por el número de días de salario pendiente de pago, limitado a su vez con un máximo de 120 días. - CORRETTA.", "correct": true },
+        { "text": "El límite es tanto pasado anualmente.", "correct": false },
+        { "text": "El límite máximo de una anualidad de acuerdo con el salario diario reconocido.", "correct": false },
+        { "text": "El límite será el importe del salario reconocido al trabajador incluyendo la parte proporcional de las pagas extraordinarias, pero su importe no podrá superar el doble del salario mínimo interprofesional, multiplicado por el número de días de salario pendiente de pago, limitado a su vez con un máximo de 150 días.", "correct": false }
+      ],
+      "explanation": "ES: Para salarios impagados, FOGASA abona con el tope del doble del SMI (en cómputo diario, incluyendo prorrata de pagas extra) y con un máximo de días cubiertos (120 días). No existe un límite general “anual” ni un máximo de 150 días para salarios.\nIT: Per i salari non pagati, il FOGASA copre entro il limite del doppio dello SMI (base giornaliera, includendo la quota di mensilità aggiuntive) e con un massimo di giorni indennizzabili (120). Non c’è un limite “annuale” né un massimo di 150 giorni per i salari.",
+      "legal_reference": "ET (RDL 2/2015) art. 33.1 (límites de salarios: doble SMI y máximo 120 días).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "15.- Rosa trabaja como técnica de laboratorio, se queda embarazada, y a los pocos días es despedida. Este despido ¿cómo puede ser calificado?",
+      "answers": [
+        { "text": "Nulo o procedente.", "correct": true },
+        { "text": "Nulo en todos los casos. - CORRETTA.", "correct": false },
+        { "text": "Improcedente o procedente.", "correct": false },
+        { "text": "Nulo, solo si se acredita vulneración de derechos fundamentales.", "correct": false }
+      ],
+      "explanation": "ES: El despido de trabajadora embarazada se califica como nulo de forma objetiva, salvo que se declare procedente por causas no relacionadas con el embarazo. Por eso, la calificación posible es “nulo o procedente”. No es “nulo en todos los casos” porque cabe procedencia si hay causa acreditada ajena al embarazo; y, en estos supuestos protegidos, la falta de causa no conduce a improcedencia sino a nulidad.\nIT: Il licenziamento della lavoratrice in gravidanza è nullo “automaticamente”, salvo che venga dichiarato procedente per motivi estranei alla gravidanza. Quindi la qualificazione corretta è “nullo o procedente”. Non è “nullo in ogni caso” perché può essere procedente se la causa è provata e indipendente; e, nei casi protetti, l’assenza di causa tende a portare alla nullità (non alla mera improcedenza).",
+      "legal_reference": "ET (RDL 2/2015) art. 55.5 (nulidad objetiva en supuestos protegidos) y excepción de procedencia por causas ajenas; LO 3/2007 (principio de igualdad y protección por embarazo/maternidad).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "21.- Durante la suspensión por incapacidad temporal:",
+      "answers": [
+        { "text": "El contrato se extingue automáticamente si dura más de un año", "correct": false },
+        { "text": "El trabajador no conserva derecho a su puesto", "correct": false },
+        { "text": "Se suspende la prestación de servicios pero se mantiene la relación laboral. - CORRETTA", "correct": true },
+        { "text": "El empresario puede sustituir al trabajador solo si tiene contrato indefinido", "correct": false }
+      ],
+      "explanation": "ES: La incapacidad temporal es causa de suspensión del contrato: se interrumpe la prestación de servicios (y la obligación salarial en los términos legales), pero la relación laboral subsiste y el puesto se conserva. No se extingue automáticamente por superar un año (hay reglas específicas de IT/SS), y la sustitución puede articularse mediante contratación temporal de sustitución, no solo indefinida.\nIT: L’infortunio/malattia (IT) sospende il contratto: si sospende la prestazione lavorativa, ma il rapporto resta in vita e il posto è conservato. Non si estingue automaticamente oltre un anno, e l’azienda può sostituire con contratto di sostituzione (non solo con un indeterminato).",
+      "legal_reference": "ET (RDL 2/2015) art. 45.1.c (suspensión por incapacidad temporal); ET art. 15 (contrato de sustitución); normativa de Seguridad Social sobre IT (LGSS).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "22.- En un expediente de regulación de empleo temporal y parcial por las causas comprendidas en el artículo 47.1 TRET (ETOP) se entenderá por reducción de jornada:",
+      "answers": [
+        { "text": "Una disminución temporal de entre un 10% y un 60% de la jornada de trabajo ordinaria.", "correct": false },
+        { "text": "Una disminución temporal de entre un 10% y un 70% de la jornada de trabajo ordinaria. - CORRETTA.", "correct": true },
+        { "text": "Una disminución temporal de entre un 20% y un 70% de la jornada de trabajo ordinaria.", "correct": false },
+        { "text": "Una disminución temporal de entre un 20% y un 80% de la jornada de trabajo ordinaria.", "correct": false }
+      ],
+      "explanation": "ES: En un ERTE con reducción de jornada, la reducción debe situarse dentro del tramo legal (mínimo 10% y máximo 70% de la jornada ordinaria). Los otros rangos no se ajustan al marco legal.\nIT: Nel regime di ERTE con riduzione d’orario, la riduzione deve rientrare nel range legale: minimo 10% e massimo 70% dell’orario ordinario. Le altre percentuali proposte non coincidono con la disciplina vigente.",
+      "legal_reference": "ET (RDL 2/2015) art. 47.1 (reducción de jornada entre 10% y 70%).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "25.- ¿Cuál de las siguientes afirmaciones se ajusta con mayor precisión al régimen legal de inembargabilidad del salario establecido en el ordenamiento jurídico español?",
+      "answers": [
+        { "text": "el salario es completamente inembargable si el trabajador percibe un importe igual o inferior al salario mínimo interprofesional, salvo en caso de pensiones alimenticias.", "correct": false },
+        { "text": "solo es embargable el exceso sobre el salario mínimo interprofesional, y ese exceso lo es aplicando los distintos tramos de embargabilidad según escala progresiva prevista legalmente. - CORRETTA.", "correct": true },
+        { "text": "todos los salarios son parcialmente embargables con un límite del 30 %, salvo que el trabajador tenga cargas familiares acreditadas.", "correct": false },
+        { "text": "el embargo de salario puede afectar al importe íntegro siempre que exista una resolución judicial, sin necesidad de respetar mínimos.", "correct": false }
+      ],
+      "explanation": "ES: La regla es: inembargable la cuantía equivalente al SMI; el exceso sí puede embargarse, pero aplicando una escala progresiva por tramos. La opción (a) es incompleta (falta la escala del exceso) y la excepción por alimentos se rige por reglas específicas; (c) inventa un tope fijo del 30%; (d) es incorrecta porque siempre deben respetarse mínimos legales.\nIT: Regola: la parte pari allo SMI è impignorabile; l’eccedenza è pignorabile con una scala progressiva per scaglioni. La (a) è parziale (non disciplina l’eccedenza); la (c) introduce un limite fisso del 30% inesatto; la (d) è errata perché i minimi impignorabili vanno comunque rispettati.",
+      "legal_reference": "LEC art. 607 (inembargabilidad y tramos); LEC art. 608 (pensión de alimentos, regla especial).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "30. En relación con los Expedientes de Regulación Temporal de Empleo (ERTE) por causas económicas, técnicas, organizativas o de producción (ETOP), ¿cuál de las siguientes afirmaciones es correcta?",
+      "answers": [
+        { "text": "Las causas económicas que justifican un ERTE incluyen exclusivamente pérdidas económicas durante el último trimestre, sin posibilidad de considerar previsiones futuras.", "correct": false },
+        { "text": "El empresario puede modificar unilateralmente la duración del ERTE una vez iniciado, sin necesidad de acuerdo con los representantes de los trabajadores.", "correct": false },
+        { "text": "Las medidas de suspensión por estas causas no son medidas de índole estructural, por tanto, más que causas organizativas se refieren a modificaciones en los sistemas y métodos de trabajo. - CORRETTA.", "correct": true },
+        { "text": "El trabajador tiene derecho a rescindir el contrato con indemnización si el ERTE se prolonga más de seis meses consecutivos, sin opción de reincorporación parcial o progresiva del mismo puesto de trabajo.", "correct": false }
+      ],
+      "explanation": "ES: El ERTE ETOP es una medida temporal (coyuntural), no estructural (a diferencia del despido colectivo). Además, en el ET las causas organizativas se vinculan a cambios en sistemas y métodos de trabajo o en la forma de organizar la producción. Las otras opciones son incorrectas: la causa económica no se limita a un trimestre, la gestión del ERTE no es un poder unilateral sin trámites, y no existe un derecho legal automático a rescindir con indemnización por duración del ERTE.\nIT: L’ERTE ETOP è una misura temporanea, non strutturale (diversa dal licenziamento collettivo). Le cause organizzative, nella definizione legale, riguardano cambiamenti nei sistemi/metodi di lavoro o nell’organizzazione della produzione. Le altre opzioni sono errate: la causa economica non è limitata a un trimestre, l’azienda non può modificare “a piacere” senza procedura, e non c’è un diritto automatico di recesso indennizzato per durata dell’ERTE.",
+      "legal_reference": "ET (RDL 2/2015) art. 47 (ERTE); ET art. 51.1 (definición de causas ETOP aplicable por remisión).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+
+    {
+      "question": "PREGUNTAS RESERVA: 1.- En materia de salario en el ordenamiento laboral español, ¿cuál de las siguientes afirmaciones es correcta?",
+      "answers": [
+        { "text": "Los complementos salariales ligados a la productividad pueden eliminarse unilateralmente por el empresario si la producción baja.", "correct": false },
+        { "text": "Las percepciones en especie tienen un límite máximo del 30% sobre el salario total, salvo pacto en contrario. - CORRETTA.", "correct": true },
+        { "text": "El salario debe ser suficiente para satisfacer las necesidades básicas del trabajador y su familia, sin que se pueda ir al salario mínimo interprofesional, siempre que exista pacto individualizado.", "correct": false },
+        { "text": "Solo es embargable el exceso del salario durante la relación laboral si se aplican todos los tramos de indemnización.", "correct": false }
+      ],
+      "explanation": "ES: La regla esencial es que el salario puede incluir retribución en especie, pero con límite máximo del 30% del total y sin que la parte en dinero pueda quedar por debajo del SMI. La idea del 30% es correcta; la coletilla “salvo pacto en contrario” no es ajustada, porque el límite es imperativo. Las otras opciones son erróneas: un complemento de productividad no se suprime “unilateralmente” fuera de los cauces legales (p. ej., art. 41 ET), y la suficiencia salarial se concreta en el SMI como mínimo indisponible.\nIT: La regola corretta è che il salario può includere una quota in natura, ma entro il 30% del totale e garantendo almeno lo SMI in denaro. Il 30% è corretto; l’inciso “salvo pacto en contrario” non lo è, perché il limite è inderogabile. Le altre opzioni sono errate: i complementi non si eliminano liberamente senza procedura (es. art. 41 ET) e la “sufficienza” non consente di scendere sotto lo SMI.",
+      "legal_reference": "ET (RDL 2/2015) art. 26.1 (salario en especie: tope 30% y SMI en dinero); ET art. 41 (vías para modificar condiciones).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "PREGUNTAS RESERVA: 2.- En relación al Estatuto de los Trabajadores y la jurisprudencia española, ¿cuál de las siguientes afirmaciones sobre la representación legal de los trabajadores es correcta?",
+      "answers": [
+        { "text": "Si la empresa tiene entre 10 y 49 trabajadores, la representación se ejercerá a través de un delegado de personal elegido por los trabajadores de dicho centro de empresa.", "correct": false },
+        { "text": "En una empresa con más de 50 trabajadores se eligen 3 delegados de personal por centro de trabajo, sin importar la plantilla de ese centro.", "correct": false },
+        { "text": "En una empresa con varios centros de empresa con o sin órganos de representantes unitarios se elegirá un comité de empresa central con 13 miembros, independientemente del número de trabajadores.", "correct": false },
+        { "text": "Los delegados sindicales designados en la empresa pueden coexistir con los órganos unitarios de representación, debiendo estar afiliados a un sindicato debidamente registrado y cuenta con un mínimo del 10% del total de los trabajadores de la empresa. - CORRETTA.", "correct": true }
+      ],
+      "explanation": "ES: La idea correcta es la coexistencia entre representación unitaria (delegados/comité) y representación sindical (delegados sindicales de sección sindical). Las opciones (a), (b) y (c) contradicen el ET (número de delegados depende de plantilla; con +50 hay comité; y el órgano intercentros no es automático ni “central” sino pactado por convenio). En cuanto a los delegados sindicales, su régimen está en la LOLS: se designan por secciones sindicales y coexisten con los órganos unitarios; el requisito exacto no es “10% del total de trabajadores” como regla general, sino las condiciones del art. 10 LOLS (y, en su caso, lo previsto por convenio).\nIT: Il punto corretto è che la rappresentanza sindacale (delegati sindacali) può coesistere con quella unitaria (delegati/comitato). Le opzioni (a), (b) e (c) sono incompatibili con l’ET (numero di delegati legato alla dimensione; oltre 50 c’è comitato; e l’intercentros nasce da patto collettivo). Per i delegati sindacali, la disciplina è nella LOLS: sono designati dalle sezioni sindacali e coesistono; la soglia “10% dei lavoratori” non è la regola legale generale, ma valgono le condizioni dell’art. 10 LOLS (e quanto previsto dal CCNL).",
+      "legal_reference": "ET (RDL 2/2015) arts. 62–66 (representación unitaria); ET art. 63.3 (comité intercentros por convenio); LOLS (LO 11/1985) art. 10 (delegados sindicales).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+
+    {
+      "question": "1)\tPedro empresario va al despacho de abogados de Juana y le efectua la siguiente consulta:  su empresa dedicada  al telemarketing Tiene una plantilla de sesenta personas trabajadoras de las que la mitad son mujeres y la mitad hombres. sin embargo el promedio de retribuciones de un sexo es superior de un 30% a al del otro sexo tomando el conjunto de la masa salarial  o la media de las percepciones satisfechas. que obligación tiene la empresa según el Estatuto de los Trabajadores",
+      "answers": [
+        { "text": "el empresario no está obligado a justificar los motivos relacionados con el sexo de las personas trabajadoras en virtud del principio de libertad de empresa y retribución", "correct": false },
+        { "text": "el empresario deberá incluir en el Registro salarial publicitado de las percepciones de cada una de las personas trabajadoras y equiparar los salarios  en cualquier circunstancia hay que perciba mayor remuneración", "correct": false },
+        { "text": "en empresario deberá incluir en el Registro salarial una justificación de que dicha diferencia responde a motivos relacionados con el sexo de las personas trabajadoras", "correct": false },
+        { "text": "el empresario deberá incluir en el Registro salarial una justificación de que dicha diferencia responde a motivos no relacionados con el sexo de las personas trabajadoras - CORRETTA", "correct": true }
+      ],
+      "explanation": "ES: Si la media/mediana retributiva de un sexo supera a la del otro en al menos un 25%, el empresario debe incluir en el registro retributivo una justificación de que la diferencia obedece a motivos no relacionados con el sexo. No basta invocar “libertad de empresa”; tampoco hay obligación automática de igualar sin análisis de valor del puesto, sino de justificar y corregir discriminaciones (igual retribución por trabajo de igual valor).\nIT: Se la retribuzione media/mediana di un sesso supera l’altro di almeno il 25%, l’azienda deve inserire nel registro retributivo una giustificazione basata su motivi non collegati al sesso. Non basta richiamare la “libertà d’impresa”, né esiste un obbligo automatico di “equiparare sempre” senza valutazione: l’obbligo è trasparenza/giustificazione e correzione di eventuali discriminazioni (parità per lavoro di pari valore).",
+      "legal_reference": "ET (RDL 2/2015) art. 28.2–28.3; RD 902/2020 (igualdad retributiva y registro).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "2 -  una trabajadora de la empresa de mantenimiento del alumbrado público de la ciudad de Almería con categoría de oficial de primera viene realizando trabajos que tienen el carácter de peligrosos. en el mes de julio la empresa la a asignado a otro puesto de trabajo de su misma categoría pero que ya no tiene carácter de peligroso idea comunicado que le da a dejar de abonar el complemento. la trabajadora acude a Félix abogado y le consulta si es posible que la empresa le suprima el pago del complemento. qué tratamiento tiene el complemento mencionado que venía percibiendo?",
+      "answers": [
+        { "text": "tiene carácter consolidable salvo acuerdo en contrario  por estar vinculado al puesto de trabajo y por tanto no puede suprimirse el pago", "correct": false },
+        { "text": "No tiene carácter salarial sino de gasto vinculado al puesto de trabajo por lo que en todos los casos si se cambia de puesto de trabajo se  suprime", "correct": false },
+        { "text": "no tiene carácter consolidable salvo acuerdo en contrario por estar vinculado al puesto de trabajo y por tanto puede suprimirse  aunque ya  haya pasado el año - CORRETTA", "correct": true },
+        { "text": "no tiene carácter salarial sino de gasto vinculado al puesto de trabajo por lo que en ningún caso puede suprimirse", "correct": false }
+      ],
+      "explanation": "ES: El plus por peligrosidad es un complemento salarial vinculado al puesto/condiciones de trabajo (no personal). Como regla, no es consolidable: si desaparece la circunstancia (cambio a puesto no peligroso), puede suprimirse, salvo que el convenio o pacto lo haga consolidable. No es “gasto” extrasalarial, sino retribución por condiciones del trabajo.\nIT: Il plus di pericolosità è un complemento salariale legato al posto/alle condizioni di lavoro. In via generale non è consolidabile: se viene meno la condizione (passaggio a mansioni non pericolose), il plus può cessare, salvo previsione di consolidamento in CCNL/patto. Non è un rimborso spese (extrasalariale), ma retribuzione per condizioni della prestazione.",
+      "legal_reference": "ET (RDL 2/2015) art. 26.3 (complementos salariales: puesto de trabajo/condiciones); disciplina convenzionale applicabile (eventuale).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "3) Joaquín es padre de un niño Miguel que cumplirá tres años el uno de enero de dos mil veinticinco punto Joaquín solicitó a la empresa una excedencia por cuidado de su hijo por un período de dos años con efectos desde el uno de Julio de 2023 hasta el treinta de junio de 2025. Joaquín quiere pedir una prórroga de esta excedencia por un período de un año más desde el uno de Julio del 2025 hasta el 1 de julio de 2026. acude a su despacho profesional preguntando si es posible",
+      "answers": [
+        { "text": "Joaquín tendrá derecho a la prórroga por un año más porque los trabajadores tienen derecho a un período de excedencia de tres años para atender al cuidado de cada hijo a contar desde la fecha de solicitud de la excedencia y siempre que el menor tenga menos de doce años", "correct": false },
+        { "text": "Joaquín no tendrá derecho a la prórroga por un año más porque los trabajadores tienen derecho a un período de excedencia de tres años para atender al cuidado de cada hijo a contar desde la fecha de nacimiento del menor y sin perjuicio de que pueda solicitar otro tipo de excedencia- CORRETTA", "correct": true },
+        { "text": "Joaquín no tendrá derecho a la prórroga por un año más porque los trabajadores tienen derecho a un periodo de excedencia de dos años para atender al cuidado de cada hijo a contar desde la fecha de solicitud de la excedencia y siempre que el menor tenga menos de doce años", "correct": false },
+        { "text": "Joaquín no tendrá derecho a la prórroga por un año más porque los trabajadores tienen derecho a un período de excedencia de dos años para atender al cuidado de cada hijo a contar desde la fecha de nacimiento del menor y sin perjuicio de solicitar otro tipo de excedencia", "correct": false }
+      ],
+      "explanation": "ES: La excedencia por cuidado de hijo tiene duración máxima de hasta 3 años, computados desde la fecha de nacimiento (o resolución de adopción/acogimiento), no desde la solicitud. Por tanto, no cabe prórroga más allá de ese límite temporal, aunque el trabajador pueda acudir a otras excedencias si cumple requisitos.\nIT: L’aspettativa per cura del figlio dura al massimo 3 anni, calcolati dalla nascita (o dall’adozione/affidamento), non dalla richiesta. Quindi non è possibile prorogare oltre tale limite, ferma restando la possibilità di altre forme di aspettativa se ne ricorrono i presupposti.",
+      "legal_reference": "ET (RDL 2/2015) art. 46.3 (excedencia por cuidado de hijo: máximo 3 años desde nacimiento/adopción/acogimiento).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "4)  la empresa de alimentación en la que trabaja Arnau Leah notificado su decisión de traslado a otro centro de trabajo que la empresa tiene en una localidad distinta a la que el reside.  que puede hacer Arnau",
+      "answers": [
+        { "text": "deberá aceptar el traslado si la empresa se lo ha notificado con una antelación mínima de treinta días a la fecha de su efectividad", "correct": false },
+        { "text": "podrá optar entre el traslado percibiendo una compensación por gastos o la extinción de su contrato percibiendo una indemnización de treinta y tres días de salario por año de servicio por prorroteándose por meses Los períodos de tiempo  a un año y con un máximo de 12 mensualidades", "correct": false },
+        { "text": "podrá optar entre el traslado percibiendo una compensación por gastos o la extinción de su contrato percibiendo una indemnización de veinte días de salario por año de servicio por prorrateándose Por meses los períodos de tiempo inferiores a un año y con un máximo de doce mensualidades. - CORRETTA", "correct": true },
+        { "text": "podrás solicitar la extinción de su contrato sin derecho a indemnización alguna", "correct": false }
+      ],
+      "explanation": "ES: Ante un traslado que exige cambio de residencia, el trabajador puede optar entre aceptar (con compensación de gastos) o extinguir el contrato con indemnización de 20 días por año con máximo de 12 mensualidades. No existe obligación de aceptar por el mero preaviso, ni la indemnización de 33 días (propia de improcedencia).\nIT: In caso di trasferimento con cambio di residenza, il lavoratore può scegliere: accettare (con rimborso/compensazione spese) oppure risolvere il contratto con indennità di 20 giorni/anno, massimo 12 mensilità. Non è obbligato ad accettare solo per il preavviso, e non si applicano i 33 giorni dell’improcedenza.",
+      "legal_reference": "ET (RDL 2/2015) art. 40.1 (opción del trabajador e indemnización 20 días/año, máximo 12).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "5)  Miguel aporta a su trabajo sus propias herramientas junto la empresa por su parte le abona en nómina una cantidad todos los meses en concepto de desgaste de herramientas.  tal pago será",
+      "answers": [
+        { "text": "parte del salario base", "correct": false },
+        { "text": "salario en especie", "correct": false },
+        { "text": "un complemento salarial", "correct": false },
+        { "text": "una prestación extra salarial- CORRETTA", "correct": true }
+      ],
+      "explanation": "ES: La cantidad por desgaste/herramientas tiene naturaleza extrasalarial si compensa un gasto o un “suplido/indemnización” derivado del trabajo (no retribuye la prestación, sino que resarce costes). No es salario base, ni complemento salarial, ni salario en especie.\nIT: Il pagamento per usura degli strumenti ha natura extrasalariale se serve a compensare un costo/indennizzo connesso all’attività (non remunera la prestazione). Quindi non è salario base, né complemento salariale, né salario in natura.",
+      "legal_reference": "ET (RDL 2/2015) art. 26.2 (percepciones extrasalariales: indemnizaciones o suplidos por gastos).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "6)  la empresa Transportes Maruxa tiene seis centros de trabajo en la provincia de Lugo con un comité de empresa en cada uno de ellos para la representación de sus trabajadores. podrá constituirse un comité intercentros",
+      "answers": [
+        { "text": "sí con un máximo de trece miembros cuando así lo acuerde la mayoría de los comités de centro", "correct": false },
+        { "text": "sí con un máximo de trece miembros cuando así se pacte por convenio colectivo - CORRETTA", "correct": true },
+        { "text": "sí siempre que se celebren nuevas elecciones para designar a sus trece miembros", "correct": false },
+        { "text": "si con un máximo de trece miembros cuando así lo decidan todos los trabajadores por mayoría", "correct": false }
+      ],
+      "explanation": "ES: El comité intercentros solo existe si se pacta en convenio colectivo (no por mera decisión de comités ni por votación directa de plantilla) y su composición máxima es de 13 miembros.\nIT: Il comitato intercentri nasce solo se previsto dal contratto collettivo; non basta una decisione dei comitati o un referendum interno. La composizione massima è di 13 membri.",
+      "legal_reference": "ET (RDL 2/2015) art. 63.3 (comité intercentros: creación por convenio y máximo 13).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "7)  la representación de las empresas deL  metal está planificando su estrategia negociadora y para ello precisa identificar a los representantes de los trabajadores por los que tendrán que negociar. en los convenios colectivos sectoriales de ámbito estatal quienes están legitimados para negociar de representación de los trabajadores",
+      "answers": [
+        { "text": "los sindicatos que cuenten con un mínimo del uno por ciento de los miembros de  de los Comités de Empresa o Delegados del personal en el ámbito geográfico y funcional al que se refiere el convenio", "correct": false },
+        { "text": "los sindicatos que cuenten con Con un mínimo del cinco porciento de los miembros de los Comités de Empresa o Delegados del personal en el ámbito geográfico y funcional al que se refiera el convenio", "correct": false },
+        { "text": "los sindicatos que tengan la consideración de más representativos a nivel estatal en sus respectivos ámbitos las organizaciones sindicales afiliadas federadas y los sindicatos que cuenten con un mínimo del 10% de los Comités de Empresa o Delegados de Personal a nivel estatal en el sector del metal - CORRETTA", "correct": true },
+        { "text": "todos los sindicatos están legitimados", "correct": false }
+      ],
+      "explanation": "ES: En convenios sectoriales de ámbito estatal, están legitimados (lado social) los sindicatos más representativos a nivel estatal y los que acrediten suficiente representatividad en el ámbito funcional/territorial (criterios del ET), típicamente el umbral del 10% en ese ámbito. No vale cualquier sindicato ni umbrales del 1% o 5% como regla general.\nIT: Nei CCNL settoriali di ambito statale, sono legittimati (parte lavoratori) i sindacati “più rappresentativi” a livello statale e quelli con adeguata rappresentatività nell’ambito (criteri ET), tipicamente soglia del 10% in tale ambito. Non sono legittimati “tutti” né si applicano soglie 1% o 5% come regola.",
+      "legal_reference": "ET (RDL 2/2015) art. 87.2 (legitimación para negociar convenios sectoriales).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "8) La plantilla de la empresa historias sin importancia SL que viene prestando servicios de 7 a 15  horas,  recibe la comunicación de que a partir del mes siguiente de verano trabajar en turnos rotativos. el convenio colectivo de aplicación contempla el trabajo a turnos e indica que se deberá pagar un plus de trescientos euros mensuales aquí en trabaje con este sistema. como debe proceder la empresa?",
+      "answers": [
+        { "text": "el cambio de horario y implantación durante el sistema de turnos es una modificación sustancial de las condiciones de trabajo y como afecta a toda la plantilla de verano comunicar la propuesta a la representación legal y o sindical de los trabajadores y se abrirá período de con consultas", "correct": true },
+        { "text": "el cambio de horario y el sistema de turnos no implican la modificación sustanciable para los trabajadores ya que seguirán trabajando cuarenta horas semanales igualmente y se les compensará con un plus de $300 euros- CORRETTA", "correct": false },
+        { "text": "la implantación de turnos de trabajo es una modificación sustancial de las condiciones de trabajo y si existen causas organizativas y productivas en empresario podrá aplicar la modificación a todo el personal siendo necesaria la mera comunicación", "correct": false },
+        { "text": "la implantación del sistema de turnos y el cambio de horario constituyen una modificación sustancial de las condiciones de trabajo pero el empresario no debe hacer nada más que comunicarlo al Comité de prensa y comprometerse al pago del plus de turnos", "correct": false }
+      ],
+      "explanation": "ES: Cambiar de horario fijo a turnos rotativos afecta al “horario” y al “régimen de trabajo a turnos”, materias típicas de modificación sustancial. Si afecta colectivamente, exige período de consultas con la representación. El hecho de mantener 40 horas o pagar un plus no elimina el carácter sustancial. Tampoco basta una mera comunicación: el art. 41 prevé procedimiento y, según el caso, consultas.\nIT: Passare da orario fisso a turni rotativi incide su “orario” e “regime di lavoro a turni”, tipici oggetti di modifica sostanziale. Se è collettiva, serve procedura con periodo di consultazioni con la rappresentanza. Il fatto di restare a 40 ore o di pagare un plus non toglie la natura sostanziale; non basta una comunicazione unilaterale senza il procedimento previsto.",
+      "legal_reference": "ET (RDL 2/2015) art. 41.1 (materias MSCT: horario y trabajo a turnos) y art. 41.4 (procedimiento colectivo y período de consultas).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "9)  ha tenido éxito con su demanda por despido y ha sido declarada la  improcedencia .  la sentencia señala que corresponde a la empresa la opción entre la readmisión de la trabajadora o el abono de la indemnización punto transcurrido el plazo de cinco días para ello no tiene noticias y comprueba En él juzgado que la empresa no ha realizado opción alguna. Esto supone que",
+      "answers": [
+        { "text": "se refiere a la empresa para que presente opción antes de 48 horas", "correct": false },
+        { "text": "sí amplía el plazo por otros 5 Días", "correct": false },
+        { "text": "se entiende que procede la readmisión - CORRETTA", "correct": true },
+        { "text": "se entiende que procede la indemnización", "correct": false }
+      ],
+      "explanation": "ES: En el despido improcedente, la opción (readmitir o indemnizar) corresponde al empresario salvo excepciones; si no ejercita la opción en plazo, se entiende elegida la readmisión. No hay prórroga automática ni “48 horas” adicionales.\nIT: Nel licenziamento improcedente, la scelta (reintegro o indennità) spetta di regola al datore; se non esercita l’opzione nel termine, si presume scelta la reintegrazione. Non c’è proroga automatica né un termine aggiuntivo di 48 ore.",
+      "legal_reference": "ET (RDL 2/2015) art. 56.1 (opción y efecto de falta de opción); LRJS (Ley 36/2011) art. 110 (efectos de la sentencia y opción).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "10)  Juan ha tenido que realizar un trabajo entre las tres y las cinco de la mañana. le pregunta si ese trabajo según el artículo 36  del Estatuto de los Trabajadores es trabajo nocturno.  que le deberá contestar",
+      "answers": [
+        { "text": "si ya que es trabajo nocturno el que se presta después de ponerse el sol y hasta que amanece.  por eso en verano la jornada es mayor para los trabajadores de este turno que se recuperan en invierno con menos horas de sol y por tanto una jornada menor", "correct": false },
+        { "text": "si porque es trabajo nocturno es que se presta entre las diez de la noche y las seis de la mañana. - CORRETTA", "correct": true },
+        { "text": "no porque aún fue el trabajo se ha realizado de noche a efectos del artículo treinta y seis de Estatuto de los Trabajadores será trabajo nocturno el que se presta entre las diez de la noche y las seis de la mañana pero solo si se realiza al menos durante tres horas o al menos durante la tercera???? parte de su jornada laboral", "correct": false },
+        { "text": "Sí porque es trabajo nocturno el que se presta entre las doce de la noche y las ocho de la mañana", "correct": false }
+      ],
+      "explanation": "ES: “Trabajo nocturno” es el realizado entre las 22:00 y las 06:00. La exigencia de “tres horas” o “un tercio” es para definir al “trabajador nocturno” (condición del trabajador), no para negar que una concreta tarea en esa franja sea nocturna.\nIT: Il “lavoro notturno” è quello svolto tra le 22:00 e le 06:00. Il requisito delle “tre ore” o “un terzo” riguarda la qualifica di “lavoratore notturno”, non la definizione di singola prestazione notturna.",
+      "legal_reference": "ET (RDL 2/2015) art. 36.1 (definición de trabajo nocturno) y art. 36.2 (trabajador nocturno).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "11)  a Eugenio además de los 1200  euros que todos los meses le ingresan en su cuenta corriente la empresa le proporciona el alquiler de su casa valorado  en $700 euros. es eso correcto",
+      "answers": [
+        { "text": "no ya que en ningún caso el salario en especie podrá superar un porcentaje del 25%", "correct": false },
+        { "text": "no y a que en ningún caso el salario en especie podrá superar un porcentaje del 30%- CORRETTA", "correct": true },
+        { "text": "si ya que la reforma del 2023  permite que cualquier porcentaje del salario puede hacer en especie mientras se valore por un técnico independiente y cotice a la seguridad social y al IRPF por su valor real y actualizado", "correct": false },
+        { "text": "si ya que no supera el porcentaje máximo de 50%", "correct": false }
+      ],
+      "explanation": "ES: El salario en especie no puede superar el 30% del total salarial y debe garantizarse SMI en dinero. Aquí 700 sobre 1900 supera el 30%, por lo que no es correcto. No existe un “25%” ni un “50%” como regla general, ni una reforma que permita cualquier porcentaje.\nIT: La quota di salario in natura non può superare il 30% del totale e va garantito lo SMI in denaro. Qui 700 su 1900 supera il 30%, quindi non è conforme. Non esistono limiti generali del 25% o 50%, né una riforma che consenta qualunque percentuale.",
+      "legal_reference": "ET (RDL 2/2015) art. 26.1 (salario en especie: tope 30% y SMI en dinero).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "12)  Raquel ha sido elegida para un cargo público que le imposibilita la asistencia al trabajo teniendo que pasar a una situación de excedencia forzosa. transcurrido un año y dos meses cesa  en su encargo y solicita el reingreso en la empresa dentro del mes siguiente Al cese  el encargo público público. tiene derecho al reingreso en su mismo puesto de trabajo",
+      "answers": [
+        { "text": "no solo con ser don derecho preferente a la de ingreso en las vacantes de igual o similar categoría", "correct": false },
+        { "text": "no sólo tenía derecho a la reserva de su puesto de trabajo durante el primer año", "correct": false },
+        { "text": "si ya que tenía derecho a la conservación del puesto de trabajo - CORRETTA", "correct": true },
+        { "text": "si siempre que no se hubiera ocupado por un contrato de sustitución", "correct": false }
+      ],
+      "explanation": "ES: La excedencia forzosa por cargo público conlleva reserva del puesto y cómputo de antigüedad; cesado el cargo, el trabajador debe solicitar reingreso en el plazo legal (habitualmente un mes) y tiene derecho a reincorporarse a su puesto. No se limita al primer año.\nIT: L’aspettativa forzosa per carica pubblica comporta riserva del posto e computo dell’anzianità; cessata la carica, se il lavoratore chiede il rientro nel termine, ha diritto al reintegro nel proprio posto. Non è una tutela limitata al primo anno.",
+      "legal_reference": "ET (RDL 2/2015) art. 46.1 (excedencia forzosa: reserva del puesto y reingreso).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "13)  José trabaja en una empresa de treinta trabajadores.  a a compañero por organiza y de estival durante 60  a partir del próximo 1  de julio se les va a modificar el horario y la distribución del tiempo de trabajo que tenían reconocidas en el contrato de trabajo. su abogado le indica que puede optar por aceptar la modificación impugnarla o:",
+      "answers": [
+        { "text": "rescindir su contrato con derecho a una indemnización de 33  días de salario por año de servicio prorrateándose Por meses los períodos inferiores a 1  año con un máximo de 24  meses", "correct": false },
+        { "text": "rescindir su contrato con derecho a una indemnización de 20  días de salario por año de servicio prorrateándose  por meses los periodos inferiores a 1  año con máximo de 9  meses", "correct": true },
+        { "text": "rescindir su contrato con derecho a una indemnización de 20  días de salario por año de servicio prorrateándose  por meses los períodos inferiores a 1  año con un máximo de 12  meses - CORRETTA", "correct": false },
+        { "text": "recibiría su contrato sin derecho a indemnización", "correct": false }
+      ],
+      "explanation": "ES: Ante una MSCT de horario/distribución de jornada, el trabajador puede extinguir el contrato con 20 días/año y tope de 9 meses (no 12). 33 días/24 meses corresponde al despido improcedente. Por eso la opción con 9 meses es la ajustada al art. 41.\nIT: Per una modifica sostanziale di orario/distribuzione, il lavoratore può risolvere con indennità di 20 giorni/anno e massimo 9 mensilità (non 12). I 33 giorni/24 mensilità sono del licenziamento improcedente. Quindi è corretta l’opzione con 9 mesi.",
+      "legal_reference": "ET (RDL 2/2015) art. 41.3 (rescisión indemnizada: 20 días/año, máximo 9 mensualidades).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "14.- En Empresas de hasta 30 trabajadores, el número de delegados de prevención:",
+      "answers": [
+        { "text": "Serà de 2. 18.-", "correct": false },
+        { "text": "Será de 1, a elegir entre los delegados de personal.", "correct": false },
+        { "text": "Será de 1: El delegado de personal. - CORRETTA", "correct": true },
+        { "text": "Será de 1, y no podrá ser el delegado de personal.", "correct": false }
+      ],
+      "explanation": "ES: En empresas de 6 a 30 trabajadores, corresponde 1 Delegado de Prevención, que será designado entre la representación unitaria; en la práctica, en ese tramo suele coincidir con el Delegado de Personal. No son 2, ni se excluye al delegado de personal.\nIT: Nelle imprese fino a 30 addetti (fascia 6–30), è previsto 1 Delegato per la Prevenzione, scelto tra la rappresentanza unitaria; di regola coincide col Delegato del personale. Non sono 2 e non è vero che il delegato del personale non possa esserlo.",
+      "legal_reference": "LPRL (Ley 31/1995) art. 35.2 (número de delegados de prevención por plantilla).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "15.- Una Empresa pretende enviar a uno de sus trabajadores, que trabaja en su Centro de Trabajo de Murcia, por razones organizativas y por un periodo de seis meses, a otro centro de trabajo, situado en Santander, ¿Ante qué tipo de movilidad laboral nos encontramos?",
+      "answers": [
+        { "text": "Traslado.", "correct": false },
+        { "text": "Modificación sustancial de condiciones de trabajo.", "correct": false },
+        { "text": "Desplazamiento. - CORRETTA", "correct": true },
+        { "text": "No supone ningún tipo de movilidad, ni geográfica ni funcional, pues no tiene carácter permanente.", "correct": false }
+      ],
+      "explanation": "ES: Un cambio temporal de centro a otra localidad por 6 meses es un desplazamiento (movilidad geográfica temporal). El traslado es de carácter más permanente/definitivo. Sí es movilidad geográfica, aunque no sea permanente.\nIT: L’invio temporaneo per 6 mesi in altra località integra un “desplazamiento” (mobilità geografica temporanea). Il “traslado” è sostanzialmente definitivo/permanente. È comunque mobilità geografica, anche se temporanea.",
+      "legal_reference": "ET (RDL 2/2015) art. 40.6 (desplazamientos temporales) y art. 40.1 (traslados).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "16.- Marina empieza a trabajar en una empresa y le informan de que su salario estará formado por un sueldo base, el derecho a disfrutar de una vivienda de la empresa, así como los gastos de locomoción y dietas necesarios para la realización de su actividad. De estos, ¿Qué conceptos son verdaderamente salariales? Indique la respuesta correcta",
+      "answers": [
+        { "text": "Todos esos conceptos son computables como salarios", "correct": false },
+        { "text": "No puede computarse como salario ni el disfrute de la vivienda ni los gastos de locomoción y dietas", "correct": false },
+        { "text": "No puede computarse como salario el disfrute de la vivienda", "correct": false },
+        { "text": "No puede computarse como salario los gastos de locomoción y dietas - CORRETTA", "correct": true }
+      ],
+      "explanation": "ES: La vivienda facilitada por la empresa puede ser salario en especie (salarial). En cambio, locomoción y dietas, si compensan gastos de la actividad, son percepciones extrasalariales (no retribuyen el trabajo). Por eso, lo no salarial son los gastos/dietas.\nIT: L’alloggio aziendale può integrare salario in natura. Al contrario, spese di trasferta/locomozione e diete, quando rimborsano costi legati al lavoro, sono voci extrasalariali. Quindi ciò che non è salariale sono spese e diete.",
+      "legal_reference": "ET (RDL 2/2015) art. 26.1 (salario, incl. en especie) y art. 26.2 (extrasalariales: suplidos/indemnizaciones por gastos).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "17.- Una de las siguientes afirmaciones sobre la suspensión del contrato de trabajo es falsa",
+      "answers": [
+        { "text": "Una de las causas de suspensión es la privación de libertad del trabajador mientras no exista sentencia condenatoria", "correct": false },
+        { "text": "La existencia de causas económicas, técnicas, organizativas o de producción en la empresa puede provocar la extinción del contrato de los trabajadores afectados pero no su suspensión. - CORRETTA", "correct": true },
+        { "text": "Supone la cesación temporal de la realización de trabajo y del pago de salario", "correct": false },
+        { "text": "La enfermedad o accidente del trabajador que provoquen su incapacidad temporal son motivo de suspensión del contrato de trabajo", "correct": false }
+      ],
+      "explanation": "ES: Es falsa la (b) porque las causas ETOP pueden dar lugar tanto a extinciones (despido colectivo/objetivo) como a suspensiones/reducciones temporales (ERTE). Las otras son compatibles con el régimen de suspensión: privación de libertad sin condena e IT son causas; y la suspensión implica cesación temporal de trabajo (y efectos salariales según el caso) manteniendo el vínculo.\nIT: La (b) è falsa perché le cause ETOP possono portare sia a estinzione (licenziamenti collettivi/oggettivi) sia a sospensione o riduzione temporanea (ERTE). Le altre affermazioni sono coerenti: la detenzione senza condanna e l’IT sono cause di sospensione; e la sospensione comporta cessazione temporanea della prestazione mantenendo il rapporto.",
+      "legal_reference": "ET (RDL 2/2015) art. 45 (suspensión); ET art. 47 (ERTE: suspensión/reducción por ETOP); ET art. 51 (despido colectivo por ETOP).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "18.- Marta que se encuentra jubilada quiere fundar un sindicato para la defensa de los intereses de los jubilados del barrio y acude a usted para que le informe sobre su capacidad para constituirlo. Señale la respuesta correcta",
+      "answers": [
+        { "text": "En su condición de trabajador jubilado puede fundar el sindicato que pretende, siempre que se limite a la defensa de los intereses de los jubilados", "correct": false },
+        { "text": "En su condición de trabajador jubilado no tiene capacidad para fundar un sindicato de jubilados ni para afiliarse a un sindicato existente, pero puede fundar una asociación", "correct": false },
+        { "text": "En su condición de trabajador jubilado no tiene capacidad para fundar un sindicato de jubilados, pero puede afiliarse a un sindicato existente o fundar una asociación - CORRETTA", "correct": true },
+        { "text": "En su condición de trabajador jubilado puede fundar un sindicato, pero tiene que renunciar a su pensión", "correct": false }
+      ],
+      "explanation": "ES: La LOLS reconoce el derecho de sindicación a los trabajadores y permite, con matices, la afiliación de colectivos que no están en activo (p. ej., jubilados) a sindicatos existentes; pero la constitución de sindicatos se anuda al ámbito de trabajadores y a reglas propias, por lo que suele articularse para jubilados mediante afiliación o asociación específica.\nIT: La LOLS consente l’iscrizione sindacale e, con alcuni limiti, l’adesione di non-attivi (es. pensionati) a sindacati esistenti; la costituzione di nuovi sindacati è legata al perimetro dei “lavoratori” e alla disciplina specifica. Per i pensionati è più coerente l’adesione a sindacati esistenti o la creazione di un’associazione.",
+      "legal_reference": "LOLS (LO 11/1985) art. 1 (derecho de libertad sindical) y reglas sobre sujetos; CE art. 28.1.",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+
+    {
+      "question": "19.- Carlos, trabajador de la empresa neumáticos La Tortuga fue asignado hace tres años a un Grupo Profesional superior al que tiene contratado, si bien la asignación no es permanente, viene desarrollando las funciones del Grupo B durante 5 meses al año. ¿Tiene derecho Carlos a reclamar el ascenso?",
+      "answers": [
+        { "text": "No, es legal poder prestar servicios dentro de dos Grupos, dentro de la polivalencia funcional que recoge el Estatuto de los Trabajadores", "correct": false },
+        { "text": "No, ya que, si bien realiza funciones de nivel superior, el porcentaje de jornada al año que lo desarrolla es inferior al Grupo Profesional predominante.", "correct": false },
+        { "text": "Si, Carlos ha prestado servicios en funciones superiores a las de su Grupo 10 meses durante dos años, no yendo en contra de lo establecido en convenio colectivo", "correct": true },
+        { "text": "Si, Carlos ha prestado servicios en funciones superiores a las de su Grupos 5 meses durante un año, no yendo en contra de lo establecido en convenio colectivo. - CORRETTA.", "correct": false }
+      ],
+      "explanation": "ES: El ET permite reclamar ascenso/clasificación si se realizan funciones superiores por más de 6 meses en un año o 8 en dos años (salvo límites convencionales). Aquí son 5 meses/año; en dos años acumula 10 meses, superando el umbral de 8 en dos años, por lo que sí puede reclamar. 5 meses en un año no alcanza el mínimo de 6.\nIT: L’ET consente la richiesta di inquadramento superiore se si svolgono mansioni superiori per più di 6 mesi in un anno o 8 mesi in due anni (salvo CCNL). Qui sono 5 mesi/anno: in due anni fa 10 mesi, superando 8 in due anni, quindi può reclamare. 5 mesi in un anno non basta perché servono almeno 6.",
+      "legal_reference": "ET (RDL 2/2015) art. 39.2 (funciones superiores: 6 meses en 1 año o 8 en 2 años).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "20.- De las siguientes afirmaciones:\nI. La estructura salarial incluye tres conceptos: El salario base, los complementos salariales y los complementos extrasalariales.\nII. Los complementos salariales son cantidades que se pagan adicionalmente al salario base, en función de la concurrencia de determinadas circunstancias\nIII. Al margen de las prestaciones salariales, el trabajador puede percibir prestaciones carentes de naturaleza salarial, destinadas a compensar gastos o necesidades del trabajador, y no a retribuir su trabajo.  \nSon correctas:",
+      "answers": [
+        { "text": "Todas", "correct": false },
+        { "text": "Solo I", "correct": false },
+        { "text": "I y II", "correct": false },
+        { "text": "II y III", "correct": true }
+      ],
+      "explanation": "ES: La I es incorrecta porque lo extrasalarial no forma parte del salario: el salario se compone de salario base y complementos salariales; lo extrasalarial son percepciones distintas (suplidos/indemnizaciones). La II es correcta (complementos por circunstancias personales, del puesto, resultados, etc.). La III también es correcta (percepciones para compensar gastos, sin naturaleza salarial).\nIT: La I è errata perché le voci extrasalariali non fanno parte del salario: il salario è base + complementi salariali; l’extrasalariale è distinto (rimborsi/indennizzi). La II è corretta (complementi in funzione di circostanze). La III è corretta (voci non salariali per compensare spese o esigenze, non per retribuire il lavoro).",
+      "legal_reference": "ET (RDL 2/2015) art. 26.1 (salario) y art. 26.2 (percepciones extrasalariales) y art. 26.3 (complementos salariales).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    }
+  ]
+}
