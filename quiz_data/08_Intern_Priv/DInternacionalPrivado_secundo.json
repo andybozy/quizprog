@@ -1,0 +1,660 @@
+{
+  "file_number": 0,
+  "file_name": "D. internacional privado 2° Parziale AGGIORNATO 01 07 24.docx",
+  "questions": [
+    {
+      "question": "Según el modelo español de DIPr, ¿Cuál es el criterio que regula el estatuto personal de las personas físicas?",
+      "answers": [
+        { "text": "El domicilio", "correct": false },
+        { "text": "La nacionalidad", "correct": true },
+        { "text": "El lugar de nacimiento", "correct": false },
+        { "text": "El lugar de defunción", "correct": false }
+      ],
+      "explanation": "ES: En el modelo español de Derecho internacional privado, la ley personal de la persona física se determina, con carácter general, por su nacionalidad. Por eso, la respuesta correcta es La nacionalidad: es el punto de conexión típico del estatuto personal (estado civil y capacidad), conforme al art. 9.1 CC.\n- El domicilio no es el criterio general en España (aunque sea central en otros sistemas y en ciertos instrumentos de la UE).\n- El lugar de nacimiento y el lugar de defunción no funcionan como conexiones generales del estatuto personal: pueden ser datos relevantes para hechos registrales o sucesorios, pero no determinan por sí solos la ley personal.\nIT: Nel modello spagnolo di DIPr la legge personale della persona fisica si individua, in via generale, con la nazionalità. Quindi è corretta La nacionalidad: è il criterio di collegamento del “estatuto personal” (stato civile e capacità) ex art. 9.1 CC.\n- Il domicilio non è il criterio generale spagnolo (pur essendo centrale in altri ordinamenti e in vari strumenti UE).\n- Luogo di nascita e luogo di morte non sono criteri generali di collegamento per lo statuto personale: sono dati fattuali utili in altri contesti, ma non determinano la lex personalis.",
+      "legal_reference": "España: art. 9.1 Código Civil (ley personal por nacionalidad).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNADO 01 07 24.docx"
+    },
+    {
+      "question": "En virtud a lo establecido en el Código Civil ¿Cómo se concreta la nacionalidad de las personas físicas en los supuestos de doble nacionalidad previstas en las leyes españolas?",
+      "answers": [
+        {
+          "text": "Según lo que determinen los tratados internacionales, y, si nada estableciesen, será preferida la nacionalidad coincidente con la última residencia habitual y, en su defecto, la última adquirida.",
+          "correct": true
+        },
+        { "text": "Prevalecerá en todo caso la nacionalidad española.", "correct": false },
+        { "text": "Se concretará la nacionalidad según el lugar de nacimiento de la persona.", "correct": false },
+        { "text": "La nacionalidad puede mutar a razón de la voluntad de la persona afectada.", "correct": false }
+      ],
+      "explanation": "ES: En caso de conflicto de nacionalidades, el Código Civil contempla una solución escalonada: primero, lo que dispongan los tratados; en su defecto, se atiende a la nacionalidad más vinculada, priorizando la que coincida con la última residencia habitual y, subsidiariamente, la última adquirida. Por ello es correcta la primera respuesta.\n- Prevalecerá en todo caso la nacionalidad española solo sería correcto en el supuesto específico en que una de las nacionalidades sea la española (regla especial), pero no como regla universal para cualquier doble nacionalidad.\n- El lugar de nacimiento no es el criterio del CC para resolver conflictos de nacionalidad.\n- La voluntad del interesado no “muta” libremente la nacionalidad a efectos de ley personal: la nacionalidad depende de normas materiales de nacionalidad y, en DIPr, se aplican reglas de conflicto (no una elección ad libitum).\nIT: Nei conflitti di nazionalità, il CC adotta una soluzione graduata: prevalgono i trattati; se mancano, si preferisce la nazionalità coincidente con l’ultima residenza abituale e, in mancanza, quella da ultimo acquisita. È quindi corretta la prima risposta.\n- La prevalenza automatica della nazionalità spagnola vale solo nel caso in cui una delle nazionalità sia quella spagnola (regola speciale), non come regola generale per ogni doppia nazionalità.\n- Il luogo di nascita non è il criterio del CC per risolvere i conflitti di nazionalità.\n- La nazionalità non è liberamente “mutabile” per volontà; dipende dal diritto sostanziale sulla cittadinanza e dalle regole di DIPr.",
+      "legal_reference": "España: art. 9.9 Código Civil (conflicto de nacionalidades); CE: art. 11.3 (tratados de doble nacionalidad).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNADO 01 07 24.docx"
+    },
+    {
+      "question": "Según el modelo español de Derecho Internacional Privado ¿Cómo se concreta la nacionalidad de las personas físicas en los supuestos de los apátridas?",
+      "answers": [
+        { "text": "La ley del lugar de su residencia habitual.", "correct": true },
+        { "text": "Prevalecerá en todo caso la nacionalidad española", "correct": false },
+        { "text": "Se concretará la nacionalidad según el lugar de nacimiento de la persona.", "correct": false },
+        { "text": "Se tendrá la nacionalidad del cónyuge.", "correct": false }
+      ],
+      "explanation": "ES: En apatridia no hay nacionalidad efectiva; por ello, el sistema español sustituye el criterio de nacionalidad por el de residencia habitual como ley personal. Es correcta la ley del lugar de su residencia habitual.\n- No puede “prevalecer” la nacionalidad española porque, precisamente, el sujeto carece de nacionalidad (o es indeterminada).\n- El lugar de nacimiento no es el criterio de ley personal para apátridas.\n- Tampoco se atribuye por defecto la nacionalidad del cónyuge: esa solución no existe como regla general de DIPr español.\nIT: In apolidia manca una nazionalità; il DIPr spagnolo sostituisce quindi la nazionalità con la residenza abituale come legge personale. È corretta la legge del luogo di residenza abituale.\n- Non può prevalere la nazionalità spagnola perché il soggetto è privo di nazionalità.\n- Il luogo di nascita non è il criterio di collegamento per l’apolide.\n- Non si assume la nazionalità del coniuge: non è una regola generale nel sistema spagnolo.",
+      "legal_reference": "España: art. 9.10 Código Civil (apátridas y nacionalidad indeterminada: ley de la residencia habitual).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNADO 01 07 24.docx"
+    },
+    {
+      "question": "¿Cómo se determina el nacimiento de la personalidad jurídica para establecer la ley aplicable?",
+      "answers": [
+        { "text": "Cuando así lo decidiera un juez en procedimiento de jurisdicción voluntaria.", "correct": false },
+        { "text": "Cuando el sujeto goce de la condición plena de persona.", "correct": true },
+        { "text": "Cuando el tratado internacional que regule la personalidad así lo determine.", "correct": false },
+        { "text": "Cuando así lo establezca la ley y el juez lo autorice", "correct": false }
+      ],
+      "explanation": "ES: El nacimiento de la personalidad (para personas físicas) se vincula al nacimiento con vida: solo cuando el nacido adquiere condición de persona (personalidad jurídica) puede hablarse plenamente de estatuto personal y de ley personal aplicable. Por ello, es correcta la opción que alude a la condición plena de persona.\n- No depende de una decisión judicial ad hoc: el juez no “crea” la personalidad, solo puede constatar hechos o resolver expedientes.\n- Un tratado internacional no es la regla general para fijar cuándo nace la personalidad en España.\n- Tampoco exige autorización judicial: el criterio es material (nacimiento con vida) conforme al CC.\nIT: La personalità giuridica della persona fisica si acquista con la nascita con vita: solo quando il soggetto è pienamente “persona” si determina lo statuto personale e la legge applicabile. È dunque corretta l’opzione sulla condizione piena di persona.\n- Non dipende da una decisione giudiziale costitutiva.\n- Non è, di regola, un trattato internazionale a determinare la nascita della personalità in Spagna.\n- Non serve autorizzazione del giudice: è un criterio legale sostanziale legato alla nascita con vita.",
+      "legal_reference": "España: arts. 29–30 Código Civil (nacimiento y adquisición de la personalidad).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNADO 01 07 24.docx"
+    },
+    {
+      "question": "La declaración de fallecimiento y la declaración de ausencia requiere concretar:",
+      "answers": [
+        {
+          "text": "Dónde falleció o se ausentó el sujeto para determinar la localización de sus bienes.",
+          "correct": false
+        },
+        {
+          "text": "Cuál es la norma de competencia que determinará quienes serán sus herederos.",
+          "correct": false
+        },
+        {
+          "text": "Las normas de competencia judicial internacional y la ley reguladora de la declaración.",
+          "correct": true
+        },
+        {
+          "text": "La legitimación previa de los herederos extranjeros para interponer el procedimiento de jurisdicción voluntaria previsto al efecto.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: En declaraciones de ausencia o fallecimiento con elemento extranjero hay dos planos imprescindibles: (i) si los tribunales/autoridades españolas son internacionalmente competentes y (ii) qué ley rige la declaración (y sus efectos propios). Por eso es correcta la opción que exige concretar competencia judicial internacional y ley aplicable.\n- El lugar donde se ausentó/falleció puede ser un dato relevante, pero no sustituye la determinación formal de competencia y ley.\n- La norma que determina herederos pertenece al plano sucesorio (lex successionis); no agota el problema de la declaración de ausencia/fallecimiento (que es un expediente específico).\n- No se exige una “legitimación previa” especial por ser herederos extranjeros: la legitimación se rige por las reglas procesales aplicables y por el tipo de expediente, no por la extranjería en sí.\nIT: Nelle dichiarazioni di assenza o morte presunta con elemento internazionale bisogna sempre definire: (i) la competenza giurisdizionale internazionale delle autorità spagnole e (ii) la legge applicabile alla dichiarazione. Per questo è corretta l’opzione su competenza e legge.\n- Il luogo dell’assenza/decesso è un fatto utile, ma non sostituisce la verifica di competenza e lex causae.\n- La determinazione degli eredi è materia successoria e non coincide con il regime della dichiarazione.\n- Non esiste una legittimazione “speciale” per eredi stranieri: conta la disciplina processuale/di volontaria giurisdizione.",
+      "legal_reference": "España: LOPJ (foros de jurisdicción voluntaria); LJV (competencia y ley aplicable en expedientes); CC art. 9.1 (ley personal) como referencia de conexión.",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNADO 01 07 24.docx"
+    },
+    {
+      "question": "Conforme a lo previsto en el art. 10 de la Ley de Jurisdicción Voluntaria, en los supuestos de declaración de fallecimiento ¿Cuál será la ley aplicable en los casos internacionales?",
+      "answers": [
+        { "text": "Por las normas previstas en los tratados internacionales.", "correct": false },
+        { "text": "Por las normas del país en el que ha fallecido el sujeto.", "correct": false },
+        {
+          "text": "A elección de los familiares y herederos, por la ley de éstos o del fallecido.",
+          "correct": false
+        },
+        {
+          "text": "La ley determinada por las normas de la U. Europea o españolas de DIPr, o sea por la ley nacional de la persona que va a ser declarada como fallecida.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La LJV remite a la arquitectura general del DIPr: primero se aplica, si procede, el Derecho de la UE o los tratados; y, en defecto, las normas españolas de conflicto. En este tipo de expedientes, el punto de conexión relevante es la ley personal del afectado (ley nacional, o ley personal equivalente). Por eso es correcta la opción que expresa esa idea.\n- La primera respuesta es incompleta: no siempre hay tratado aplicable y, además, la LJV prevé la aplicación del DIPr de la UE o del sistema español.\n- El lugar del fallecimiento (o del suceso) no determina automáticamente la ley aplicable a la declaración.\n- No existe libertad general de elección por familiares/herederos para escoger la ley del expediente: la ley aplicable se fija por normas imperativas de DIPr.\nIT: La LJV si coordina con il sistema di DIPr: si applicano prima, se pertinenti, norme UE o trattati e, in mancanza, le norme spagnole di conflitto. Nei procedimenti di dichiarazione di morte il collegamento tipico è la legge personale dell’interessato (nazionalità). È quindi corretta l’opzione che rinvia alla legge nazionale determinata dalle norme UE/spagnole.\n- Il riferimento solo ai trattati è parziale.\n- Il luogo del decesso non è di per sé il criterio determinante.\n- Non esiste una scelta libera dei familiari: la lex causae è determinata da norme imperative.",
+      "legal_reference": "España: art. 10 Ley 15/2015 (LJV) (derecho aplicable en expedientes internacionales); CC art. 9.1 y 9.10 (ley personal).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNADO 01 07 24.docx"
+    },
+    {
+      "question": "De acuerdo con lo establecido en el Convenio de Munich de 1980, el nombre y número de apellidos de una persona se determinarán:",
+      "answers": [
+        {
+          "text": "Conforme a la elección de la persona que va a ostentar nombre y apellido o en su caso de su representante legal.",
+          "correct": false
+        },
+        { "text": "Con arreglo a lo que decida el Encargado del Registro Civil correspondiente.", "correct": false },
+        { "text": "Por la ley del Estado del que esa persona sea nacional.", "correct": true },
+        { "text": "Por la ley de su última residencia habitual.", "correct": false }
+      ],
+      "explanation": "ES: El Convenio de Múnich de 1980 sobre ley aplicable a nombres y apellidos utiliza como conexión la nacionalidad: el nombre y los apellidos se determinan por la ley del Estado del que la persona sea nacional. Por ello, es correcta la tercera opción.\n- No se reconoce una elección libre general del interesado como criterio del Convenio.\n- El Encargado del Registro Civil aplica la norma de conflicto; no “decide” discrecionalmente el nombre/apellidos.\n- La residencia habitual no es el criterio principal del Convenio (aunque pueda serlo en otros instrumentos o sistemas).\nIT: Il Convenio di Monaco del 1980 prevede che nome e cognomi siano regolati dalla legge della nazionalità della persona. È quindi corretta l’opzione sulla legge dello Stato di cui la persona è nazionale.\n- Non è prevista, come regola generale, una scelta libera del soggetto.\n- L’ufficiale di stato civile applica le norme, non decide discrezionalmente.\n- La residenza abituale non è il criterio del Convenio (salvo altri strumenti).",
+      "legal_reference": "Convenio de Múnich de 5/9/1980: arts. 1–2 (ley aplicable por nacionalidad; aplicación erga omnes).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNADO 01 07 24.docx"
+    },
+    {
+      "question": "En el particular de la determinación de nombre y apellido de los españoles que sean considerados a la vez como nacionales de otros Estados ¿qué ley será aplicable?",
+      "answers": [
+        { "text": "Conforme a lo establecido por la DGSJFP se prefiere la aplicación de la ley española.", "correct": true },
+        {
+          "text": "Se estará a lo dispuesto en los tratados internacionales y si nada se establece, la coincidente con la última residencia habitual y en su defecto la última adquirida.",
+          "correct": false
+        },
+        { "text": "Las dos anteriores son correctas.", "correct": false },
+        { "text": "Ninguna de las anteriores es correcta.", "correct": false }
+      ],
+      "explanation": "ES: Si una persona ostenta la nacionalidad española además de otra, el CC establece la prevalencia de la ley española como ley personal (conflicto positivo con nacionalidad española). En coherencia, la práctica registral (DGSJFP) tiende a aplicar la ley española para nombre y apellidos de españoles con doble nacionalidad. Por eso es correcta la primera opción.\n- La regla de tratados/última residencia habitual/última adquirida opera típicamente cuando no está involucrada la nacionalidad española como ley preferente o cuando se trata de conflictos de nacionalidades sin esa regla especial.\n- Si la segunda es incorrecta para este supuesto, no pueden ser correctas ambas.\n- Existe al menos una opción correcta (la primera), luego la cuarta también es incorrecta.\nIT: Quando una persona ha la nazionalità spagnola insieme a un’altra, la legge personale da preferire è quella spagnola. La prassi DGSJFP conferma questa impostazione anche per nome e cognomi. Quindi è corretta la prima opzione.\n- La regola “trattati/ultima residenza/ultima acquisita” è tipica dei conflitti di nazionalità senza l’elemento speciale della nazionalità spagnola prevalente.\n- Non essendo corretta la seconda, non può esserlo l’opzione che le somma.\n- Almeno una risposta è corretta, quindi è falsa la quarta.",
+      "legal_reference": "España: art. 9.9 Código Civil (prevalencia de la ley española cuando concurre la nacionalidad española); práctica DGSJFP en materia registral.",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNADO 01 07 24.docx"
+    },
+    {
+      "question": "¿En qué consiste la teoría del interés nacional, en relación con la ley aplicable a la capacidad de las personas?",
+      "answers": [
+        {
+          "text": "Es una teoría que excluye en algunas ocasiones la aplicación de la ley nacional a la determinación de la capacidad de obrar de la persona física",
+          "correct": true
+        },
+        {
+          "text": "Es una excepción que establece el Reglamento Roma I, que excluye en ciertas ocasiones la aplicación de la ley nacional a la de la capacidad general de la persona.",
+          "correct": false
+        },
+        {
+          "text": "Es una excepción que viene recogida en el Reglamento Roma I, que excluye en ciertas toda ocasión la aplicación de la ley nacional a la de la capacidad testar.",
+          "correct": false
+        },
+        {
+          "text": "Es una excepción que viene recogida en el Reglamento Roma I, que excluye en ciertas ocasiones la aplicación de la ley nacional a la de la capacidad para contraer matrimonio.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La llamada “teoría del interés nacional” se asocia, en contratación internacional, a la regla que protege la seguridad del tráfico: en ciertas condiciones, una persona no puede oponer su incapacidad derivada de su ley personal si, según la ley del lugar de celebración (cuando ambas partes están en el mismo país), aparecía capaz y la otra parte actuó de buena fe. Por eso es correcta la primera respuesta (exclusión puntual de la ley nacional/personal).\n- La segunda formula de modo incorrecto el alcance: Roma I excluye en general el “estado y capacidad” del ámbito, pero mantiene una excepción específica para contratos (no una regla general de capacidad).\n- La capacidad para testar se rige por otras normas (sucesiones/testamentos), no por Roma I.\n- La capacidad matrimonial se rige por el estatuto personal y normas específicas del matrimonio, no por Roma I.\nIT: La “teoria dell’interesse nazionale” (in questo contesto) richiama la tutela dell’affidamento nei contratti: in certi casi la persona non può invocare l’incapacità secondo la propria legge personale se, nel paese di conclusione (con entrambe le parti nello stesso Stato), risultava capace e l’altra parte era in buona fede. È corretta quindi la prima opzione (esclusione puntuale della legge nazionale/personale).\n- La seconda è imprecisa: Roma I esclude in generale status e capacità, salvo una specifica eccezione contrattuale.\n- La capacità testamentaria attiene a successioni, non a Roma I.\n- La capacità di contrarre matrimonio attiene al diritto matrimoniale/statuto personale, non a Roma I.",
+      "legal_reference": "Reglamento (CE) 593/2008 (Roma I): art. 1.2(a) (exclusión status/capacidad) y art. 13 (incapacidad en contratos).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNADO 01 07 24.docx"
+    },
+    {
+      "question": "¿Qué requisitos se establecen en el Reglamento Roma I para que sea aplicable la teoría del interés nacional a las personas físicas?",
+      "answers": [
+        { "text": "Las personas deben ser nacionales de distintos países y disponer de una declaración formal de capacidad.", "correct": false },
+        {
+          "text": "Deben encontrarse en el mismo país al celebrarse el contrato y tener capacidad según la ley del país en el que se encuentren.",
+          "correct": true
+        },
+        { "text": "Deben tener capacidad suficiente y solicitarlo ante el Juez en procedimiento adecuado.", "correct": false },
+        { "text": "Las personas deben ser capaces según la ley de su propio país.", "correct": false }
+      ],
+      "explanation": "ES: El art. 13 Roma I exige, como presupuesto típico, que el contrato se celebre entre personas que se encuentren en el mismo país y que, según la ley de ese país, la persona sea capaz; en ese escenario, no podrá invocar su incapacidad conforme a otra ley frente a quien actuó sin conocerla (buena fe/diligencia). La segunda respuesta recoge los requisitos esenciales, por eso es correcta.\n- La nacionalidad de las partes y una “declaración formal” no son requisitos del art. 13.\n- No es un mecanismo que se active por solicitud judicial: opera como regla material de protección del tráfico.\n- No requiere que sea capaz según su propia ley; precisamente, regula el caso en que podría ser incapaz según esa ley pero no puede oponerla.\nIT: L’art. 13 Roma I presuppone che il contratto sia concluso tra persone che si trovano nello stesso paese e che, secondo la legge di quel paese, la persona sia capace; in tal caso non può opporre l’incapacità derivante da un’altra legge contro la controparte in buona fede. La seconda risposta coglie questi elementi, quindi è corretta.\n- Nazionalità diversa e “dichiarazione formale” non sono richieste.\n- Non è una procedura da attivare davanti al giudice.\n- Non serve che sia capace secondo la propria legge: la regola tratta proprio l’ipotesi opposta.",
+      "legal_reference": "Reglamento (CE) 593/2008 (Roma I): art. 13 (incapacidad).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNADO 01 07 24.docx"
+    },
+    {
+      "question": "En el supuesto de que una persona haya contado con la condición de ser “mayor de edad” conforme a la su ley nacional ¿Cómo afecta el cambio de nacionalidad a su edad según lo dispuesto en el art. 9 del CC?",
+      "answers": [
+        { "text": "No tendrá mayor consideración.", "correct": false },
+        { "text": "Según lo dispuesto en el CC, si es menor de 18 años, podrá ser considerado menor de edad.", "correct": false },
+        { "text": "No puede devenir de nuevo a menor de edad como consecuencia del cambio de su ley nacional.", "correct": true },
+        { "text": "La edad dependerá de lo que disponga al respecto sobre la edad nuestra Constitución Española.", "correct": false }
+      ],
+      "explanation": "ES: El CC protege la estabilidad del estado civil: la mayoría de edad adquirida conforme a la ley personal se conserva aunque cambie la ley personal (por ejemplo, por cambio de nacionalidad). Por ello, es correcta la afirmación de que no puede volver a ser menor.\n- Decir que “no tendrá mayor consideración” es ambiguo y no refleja la regla de conservación.\n- La segunda es contraria al principio de estabilidad: no se “retrocede” a la minoría por cambio de nacionalidad.\n- La Constitución no fija una regla de DIPr sobre mayoría de edad; el criterio está en el CC (y, en su caso, en la ley material aplicable por la norma de conflicto).\nIT: Il CC tutela la stabilità dello status: la maggiore età acquisita secondo la legge personale non si perde per il successivo mutamento della legge personale (es. cambio di nazionalità). È quindi corretta l’opzione che esclude il ritorno alla minore età.\n- La prima non esprime la regola di conservazione.\n- La seconda contraddice la stabilità dello status.\n- La Costituzione non disciplina il collegamento DIPr sulla maggiore età: la regola è nel CC.",
+      "legal_reference": "España: art. 9.1 Código Civil (conservación de la mayoría de edad adquirida conforme a la ley personal).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNADO 01 07 24.docx"
+    },
+    {
+      "question": "¿Cuál es la competencia judicial internacional en materia de responsabilidad parental con arreglo a lo dispuesto en el Reglamento 2019/1111?",
+      "answers": [
+        { "text": "La de los tribunales del Estado de origen del menor.", "correct": false },
+        { "text": "La de los tribunales de cualquiera de los progenitores.", "correct": false },
+        { "text": "La del tribunal del Estado de residencia habitual del menor.", "correct": true },
+        { "text": "La del Estado Miembro anterior durante el año siguiente al cambio de residencia del menor.", "correct": false }
+      ],
+      "explanation": "ES: La regla general en responsabilidad parental en Bruselas II ter (Reg. 2019/1111) es el criterio de proximidad: son competentes los tribunales del Estado miembro de la residencia habitual del menor en el momento en que se acude al órgano jurisdiccional. Por ello, es correcta la opción sobre residencia habitual.\n- El “Estado de origen” no es el foro general: puede ser relevante en cooperación o sustracción, pero no como regla general de competencia.\n- No se elige libremente entre tribunales de progenitores.\n- La competencia del Estado anterior solo se conserva de forma excepcional y por plazos tasados (por ejemplo, regla específica para derecho de visita durante tres meses en ciertos supuestos), no durante un año como regla general.\nIT: La regola generale in materia di responsabilità genitoriale nel Reg. 2019/1111 è la competenza dei giudici della residenza abituale del minore (criterio di prossimità). Quindi è corretta l’opzione sulla residenza abituale.\n- Lo “Stato di origine” non è il foro generale.\n- Non è competente “uno qualsiasi” dei tribunali dei genitori.\n- La competenza dello Stato precedente può sopravvivere solo in eccezioni e per tempi limitati (non un anno in via generale).",
+      "legal_reference": "Reglamento (UE) 2019/1111: art. 7 (regla general de competencia en responsabilidad parental).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNADO 01 07 24.docx"
+    },
+    {
+      "question": "¿Cómo se regula en España la capacidad para contraer matrimonio cuando esté presente un elemento de extranjería?",
+      "answers": [
+        { "text": "Se aplica la ley del domicilio de los contrayentes.", "correct": false },
+        {
+          "text": "No está prevista una norma que regule específicamente la capacidad para contraer matrimonio y en la práctica se aplica la regla general del art. 9.1 C.",
+          "correct": true
+        },
+        { "text": "La capacidad de los contrayentes se determina según la legislación de su lugar de nacimiento.", "correct": false },
+        {
+          "text": "Las partes pueden elegir la ley que regula la capacidad para contraer matrimonio, si ambas partes son españoles y mayores de edad.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: En DIPr español, la capacidad (incluida la capacidad matrimonial, en lo esencial) se integra en el estatuto personal y se rige por la ley personal de cada contrayente, determinada por su nacionalidad (art. 9.1 CC). Por eso, al no existir una regla “especial” autónoma para la capacidad matrimonial, se aplica la regla general del art. 9.1, como indica la segunda opción.\n- El domicilio no es el criterio general del estatuto personal en España.\n- El lugar de nacimiento no determina la capacidad.\n- No existe una autonomía de la voluntad general para elegir la ley aplicable a la capacidad matrimonial: la elección de ley se admite en ámbitos específicos (contratos, regímenes económicos en ciertos marcos), pero no para la capacidad para casarse.\nIT: Nel DIPr spagnolo la capacità rientra nello statuto personale e segue la legge personale del soggetto (nazionalità: art. 9.1 CC). Non essendoci una regola speciale autonoma per la capacità matrimoniale, si applica la regola generale del 9.1, come dice la seconda opzione.\n- Il domicilio non è il criterio generale.\n- Il luogo di nascita non determina la capacità.\n- Non c’è una scelta libera della legge per la capacità di matrimonio: opera un criterio legale imperativo legato alla legge personale.",
+      "legal_reference": "España: art. 9.1 Código Civil (capacidad por ley personal/nacionalidad).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNADO 01 07 24.docx"
+    },
+    {
+      "question": "Respecto a la determinación de la ley aplicable a los efectos personales  del matrimonio:",
+      "answers": [
+        { "text": "Se regula en general por lo establecido en el artículo 9.2 del código civil español.", "correct": true },
+        { "text": "Se regula por lo establecido por el Reglamento 2016/1103.", "correct": false },
+        {
+          "text": "Las partes pueden pactar las leyes aplicables a los efectos del matrimonio, excepto en los casos que atenten contra disposiciones del orden público internacional español.",
+          "correct": false
+        },
+        { "text": "Se atenderá a las disposiciones del convenio de Lugano de 2007.", "correct": false }
+      ],
+      "explanation": "ES: Los efectos personales del matrimonio (relaciones personales entre cónyuges) se encuadran en la regla del art. 9.2 CC, que establece conexiones para los efectos del matrimonio. Por eso es correcta la primera opción.\n- El Reglamento 2016/1103 se centra en regímenes económicos matrimoniales (efectos patrimoniales), no en los efectos personales.\n- La autonomía de la voluntad en materia de efectos del matrimonio está, como mucho, canalizada y limitada por el propio art. 9.2 CC (no es un “pacto libre” general); además, no se formula como una elección abierta de cualquier ley.\n- El Convenio de Lugano 2007 trata competencia y reconocimiento en civil/mercantil (paralelo a Bruselas I), no ley aplicable a efectos personales del matrimonio.\nIT: Gli effetti personali del matrimonio sono, in via generale, regolati dall’art. 9.2 CC (collegamenti per gli effetti del matrimonio). Quindi è corretta la prima opzione.\n- Il Reg. 2016/1103 riguarda i regimi patrimoniali, non gli effetti personali.\n- Non esiste un patto liberissimo: l’eventuale scelta è solo nei limiti previsti dall’art. 9.2 CC e non come clausola generale.\n- Lugano 2007 riguarda competenza/riconoscimento in materia civile e commerciale, non la legge applicabile agli effetti personali.",
+      "legal_reference": "España: art. 9.2 Código Civil (efectos del matrimonio; conexión principal para efectos personales).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNADO 01 07 24.docx"
+    },
+    {
+      "question": "Respecto a la determinación de la ley aplicable a los efectos patrimoniales del matrimonio:",
+      "answers": [
+        { "text": "Se regula en general por lo establecido en el artículo 9.2 del código civil español.", "correct": false },
+        { "text": "Se regula por lo establecido por el Reglamento 2016/1103.", "correct": true },
+        {
+          "text": "Las partes pueden pactar las leyes aplicables a los efectos del matrimonio, excepto en los casos que atenten contra disposiciones del orden público internacional español.",
+          "correct": false
+        },
+        { "text": "Se atenderá a las disposiciones del convenio de Lugano de 2007.", "correct": false }
+      ],
+      "explanation": "ES: Los efectos patrimoniales (régimen económico matrimonial) en el ámbito UE para los Estados vinculados se rigen por el Reglamento 2016/1103 (ley aplicable y competencia). Por eso es correcta la segunda opción.\n- El art. 9.2 CC ha jugado históricamente ese papel, pero queda desplazado en el ámbito material y territorial de aplicación del Reglamento 2016/1103.\n- Aunque el Reglamento admite elección de ley por los cónyuges, no se formula como un pacto ilimitado: hay opciones cerradas y reglas supletorias; además, no es una regla “general” basada solo en orden público.\n- El Convenio de Lugano 2007 no regula ley aplicable a regímenes económicos matrimoniales.\nIT: Gli effetti patrimoniali (regime economico matrimoniale) sono disciplinati, nel quadro UE per gli Stati partecipanti, dal Reg. 2016/1103. Quindi è corretta la seconda opzione.\n- L’art. 9.2 CC opera solo residualmente quando il Regolamento non si applica.\n- La scelta di legge esiste ma è tipizzata e limitata, non un patto libero salvo ordine pubblico.\n- Lugano 2007 non disciplina la legge applicabile ai regimi patrimoniali.",
+      "legal_reference": "Reglamento (UE) 2016/1103: arts. 22 (elección de ley), 26 (ley aplicable a falta de elección) y normas de ámbito de aplicación.",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNADO 01 07 24.docx"
+    },
+    {
+      "question": "En los casos de matrimonios de complacencia, la comprobación de ausencia de consentimiento matrimonial válido se llevará a cabo:",
+      "answers": [
+        { "text": "En el expediente previo a su autorización.", "correct": true },
+        { "text": "A instancia de parte interesada.", "correct": false },
+        {
+          "text": "En el momento de la inscripción del matrimonio por medio de determinadas pruebas y ciertas presunciones que permitan comprobar la existencia de un matrimonio simulado.",
+          "correct": false
+        },
+        { "text": "En ningún caso.", "correct": false }
+      ],
+      "explanation": "ES: Los matrimonios de complacencia se combaten verificando, antes de autorizar la celebración, que existe consentimiento matrimonial real. Esa comprobación se realiza típicamente en el expediente previo (entrevistas, valoración de indicios) tramitado por la autoridad competente. Por eso es correcta la primera opción.\n- No depende solo de que “alguien lo pida”: la verificación es preventiva y puede/debe hacerse de oficio en el expediente.\n- La fase de inscripción no es el momento ordinario para “descubrir” la simulación: la lógica del sistema es impedir la celebración sin consentimiento válido, no registrar y luego depurar.\n- Decir que nunca se comprueba es contrario al propio régimen de control del consentimiento matrimonial.\nIT: I matrimoni di convenienza si prevengono controllando, prima dell’autorizzazione, l’esistenza di un consenso matrimoniale effettivo. Questo controllo si svolge nell’“expediente previo” (istruttoria preventiva). Quindi è corretta la prima opzione.\n- Non è un controllo solo “a istanza di parte”: ha una funzione preventiva ed è normalmente officioso.\n- L’iscrizione non è il momento fisiologico per accertare la simulazione.\n- Non è vero che non si controlli mai: il sistema prevede proprio verifiche sul consenso.",
+      "legal_reference": "España: CC art. 45 y art. 56 (consentimiento matrimonial); normativa registral y práctica DGSJFP sobre expediente previo y control de matrimonios de complacencia.",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNADO 01 07 24.docx"
+    },
+    {
+      "question": "En relación con el matrimonio a celebrar en España por dos extranjeros ¿Qué posibilidades contempla el art. 50 del Código Civil español?",
+      "answers": [
+        { "text": "Su celebración conforme a ley nacional española, por residir en España.", "correct": false },
+        {
+          "text": "La celebración ante el Juez, Alcalde, funcionario público o en la forma religiosa legalmente prevista o de acuerdo con la ley nacional de cualquiera de ellos.",
+          "correct": true
+        },
+        { "text": "Sólo contempla su celebración con arreglo a la ley nacional común de los cónyuges.", "correct": false },
+        { "text": "Todas son incorrectas.", "correct": false }
+      ],
+      "explanation": "ES: El art. 50 CC ofrece alternativas para que dos extranjeros contraigan matrimonio en España: pueden hacerlo en forma civil española ante autoridad competente o en forma religiosa legalmente prevista, y también permite la forma conforme a la ley personal de cualquiera de ellos en ciertos supuestos. Por ello, es correcta la segunda opción.\n- No se basa simplemente en “residir en España” para imponer ley nacional española; lo relevante son las formas admitidas.\n- No limita la celebración a la ley nacional común; contempla más posibilidades.\n- Dado que existe una opción correcta, no pueden ser todas incorrectas.\nIT: L’art. 50 CC prevede varie possibilità per due stranieri che si sposano in Spagna: forma civile davanti all’autorità spagnola competente o forma religiosa legalmente prevista, e (secondo i casi) anche la forma conforme alla legge personale di uno dei due. È dunque corretta la seconda opzione.\n- Non è una regola fondata solo sulla residenza per imporre la legge spagnola.\n- Non si limita alla nazionalità comune.\n- Esiste una risposta corretta, quindi è falsa l’ultima.",
+      "legal_reference": "España: art. 50 Código Civil (matrimonio en España entre extranjeros: formas posibles).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNADO 01 07 24.docx"
+    },
+    {
+      "question": "¿Qué requisitos se exigen a un ciudadano español para poder contraer matrimonio consular en el extranjero?",
+      "answers": [
+        { "text": "Solicitar permiso a la autoridad civil o eclesiástica española previamente.", "correct": false },
+        { "text": "Que el otro cónyuge sea natural de la localidad en la que se va a contraer matrimonio.", "correct": false },
+        {
+          "text": "Disponer de los permisos españoles suficientes y acreditar la convivencia previa de los cónyuges en la demarcación consular.",
+          "correct": false
+        },
+        {
+          "text": "Que uno de los contrayentes sea español y domiciliado en la demarcación consular correspondiente.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: El matrimonio consular es una forma de celebración del matrimonio en el extranjero ante autoridad consular española. La exigencia típica para su viabilidad es que al menos uno de los contrayentes sea español y tenga vinculación domiciliaria/residencial con la demarcación consular. Por eso es correcta la cuarta opción.\n- No existe un requisito general de “permiso previo” de autoridad civil o eclesiástica.\n- No se exige que el otro cónyuge sea natural del lugar.\n- Tampoco es requisito general acreditar convivencia previa en la demarcación consular: lo determinante es la competencia del cónsul y la vinculación requerida.\nIT: Il matrimonio consolare è celebrato all’estero davanti all’autorità consolare spagnola. Di regola è necessario che almeno uno dei contraenti sia spagnolo e domiciliato/residente nella circoscrizione consolare. Quindi è corretta la quarta opzione.\n- Non è richiesto un permesso previo di autorità civili o ecclesiastiche.\n- Non si richiede che l’altro coniuge sia “nativo” del luogo.\n- La convivenza previa non è un requisito generale: conta soprattutto la competenza consolare e il collegamento richiesto.",
+      "legal_reference": "España: Código Civil (formas de celebración del matrimonio en el extranjero, incluido matrimonio consular) y normativa registral aplicable; referencia general a los arts. 49–52 CC en materia de forma.",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNADO 01 07 24.docx"
+    },
+    {
+      "question": "Conforme a lo previsto en el Reglamento 2016/1103, ¿Qué tribunales serán competentes para conocer de un litigio relativo a los efectos del matrimonio?",
+      "answers": [
+        { "text": "Los del Estado en el que contrajeran matrimonio.", "correct": false },
+        {
+          "text": "Los del Estado al que se sometan los cónyuges y en su defecto de forma jerarquizada donde se encuentre su residencia habitual en el momento de presentación de la demanda.",
+          "correct": true
+        },
+        {
+          "text": "Los del Estado en el que resida el demandado y subsidiariamente, a elección del demandante el de la última residencia del demandante.",
+          "correct": false
+        },
+        { "text": "Los del Estado en el que ostenten la nacionalidad común ambos cónyuges.", "correct": false }
+      ],
+      "explanation": "ES: El Reglamento 2016/1103 prevé, en primer término, foros vinculados a procedimientos conexos (p. ej., divorcio/sucesiones) y, además, admite la elección de tribunal por los cónyuges (sumisión) dentro de los límites del Reglamento; a falta de elección, opera un sistema jerarquizado de foros, donde la residencia habitual juega un papel central. Por eso, la segunda opción es la que mejor refleja la estructura (sumisión y, subsidiariamente, residencia habitual).\n- El lugar de celebración del matrimonio no es el foro general del Reglamento.\n- No existe un criterio general de “residencia del demandado y luego elección del demandante” como en Bruselas I; aquí el sistema es específico y coordinado.\n- La nacionalidad común puede ser relevante para elección o ley aplicable, pero no es el foro general por defecto.\nIT: Il Reg. 2016/1103 prevede competenza collegata a procedimenti connessi e consente la scelta del foro da parte dei coniugi; in mancanza, opera una gerarchia di criteri in cui la residenza abituale è centrale. Perciò è corretta la seconda opzione (sumisión e, in difetto, residenza abituale).\n- Il luogo di celebrazione non è il criterio generale.\n- Non vale lo schema tipico “domicilio del convenuto + scelta del ricorrente” di altri regolamenti.\n- La nazionalità comune non è il foro generale di default.",
+      "legal_reference": "Reglamento (UE) 2016/1103: arts. 4–7 (competencia; coordinación y elección de tribunal) y art. 6 (foros subsidiarios jerarquizados).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNADO 01 07 24.docx"
+    },
+    {
+      "question": "Según el Reglamento 2019/1111 todas las resoluciones dictadas en un EM serán reconocidas en los demás EEMM de la Unión a excepción de aquellos casos en los que:",
+      "answers": [
+        {
+          "text": "El demandado impugne la resolución que se haya dictado por el tribunal del Estado de origen estando el mismo declarado en rebeldía sin notificar la demanda.",
+          "correct": true
+        },
+        {
+          "text": "No se hayan observado las normas de conflicto del derecho extranjero al que remite la norma de conflicto del foro, y que permite la aplicación de la ley del foro o de un tercer Estado.",
+          "correct": false
+        },
+        {
+          "text": "El recurso esté expresamente autorizado por ser la resolución conciliable con otra dictada con anterioridad entre las mismas partes en el EM requerido.",
+          "correct": false
+        },
+        {
+          "text": "El recurso esté expresamente autorizado por ser la resolución conciliable con otra dictada con anterioridad en otro EM entre las mismas partes.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Bruselas II ter establece el reconocimiento automático, pero permite denegarlo por motivos tasados, entre ellos la vulneración del derecho de defensa: si la resolución se dictó en rebeldía sin notificación adecuada de la demanda, puede negarse el reconocimiento. Por eso la primera opción es correcta (aunque su redacción sea resumida, apunta al motivo típico de falta de emplazamiento).\n- El Reglamento no condiciona el reconocimiento a que el juez de origen haya aplicado bien normas de conflicto: se prohíbe el control de fondo o de ley aplicada.\n- Las opciones sobre “recurso autorizado” y “resolución conciliable” están formuladas de forma errónea: lo relevante es la inconciliabilidad (incompatibilidad) con otra resolución, no la “conciliabilidad”, y opera bajo requisitos concretos.\nIT: Il Reg. 2019/1111 prevede riconoscimento automatico ma con motivi di rifiuto tassativi, tra cui la violazione del contraddittorio/difesa (es. decisione in contumacia senza valida notifica). Perciò è corretta la prima opzione.\n- Il riconoscimento non dipende dal controllo delle norme di conflitto applicate dal giudice d’origine.\n- Le opzioni su “ricorso autorizzato” e “risoluzione conciliabile” sono concettualmente invertite: il motivo riguarda l’inconciliabilità (incompatibilità) e secondo condizioni specifiche.",
+      "legal_reference": "Reglamento (UE) 2019/1111: arts. 30–39 (reconocimiento) y motivos de denegación (especialmente por rebeldía/notificación y derecho de defensa).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNADO 01 07 24.docx"
+    },
+    {
+      "question": "Reconocimiento",
+      "answers": [
+        {
+          "text": "Conflicto que se produce cuando dos o más jueces o tribunales de Estados diversos consideran que tienen jurisdicción para dirimir un mismo asunto.",
+          "correct": false
+        },
+        {
+          "text": "Decisión, normalmente escrita, adoptada tras un procedimiento contradictorio por uno o varios terceros denominados árbitros, para solventar, definitiva e irrevocablemente, mediante la aplicación de la técnica jurídica según su leal saber y entender.",
+          "correct": false
+        },
+        {
+          "text": "Es el acto por el que un Estado (Estado requerido) otorga en su territorio los efectos procesales, los derechos y las obligaciones declarados en la resolución que le atribuye el Derecho del Estado que la dictó (Estado de origen), a una resolución judicial extranjera.",
+          "correct": true
+        },
+        {
+          "text": "Conjunto de principios que inspiran un ordenamiento jurídico y que reflejan los valores esenciales de una sociedad en el momento de ser apreciado.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El reconocimiento es la institución por la que el Estado requerido admite que una resolución extranjera produzca efectos en su territorio (cosa juzgada, efectos constitutivos, registrales, etc.) bajo las condiciones previstas por el régimen aplicable. Eso es exactamente lo descrito en la tercera opción.\n- La primera opción define un conflicto de jurisdicciones (litispendencia/competencia), no el reconocimiento.\n- La segunda define un laudo arbitral.\n- La cuarta describe el orden público, que puede ser causa de denegación del reconocimiento, pero no es el concepto de reconocimiento.\nIT: Il riconoscimento è l’atto mediante cui lo Stato richiesto attribuisce efficacia interna a una decisione giudiziaria straniera (effetti processuali e sostanziali), nei limiti e condizioni del regime applicabile. È quindi corretta la terza opzione.\n- La prima descrive un conflitto di giurisdizione.\n- La seconda descrive il lodo arbitrale.\n- La quarta è la definizione di ordine pubblico, che semmai è motivo di rifiuto, non il concetto di riconoscimento.",
+      "legal_reference": "España: LCJIMC arts. 41–44 (reconocimiento); UE: Reglamento 1215/2012 art. 36 (reconocimiento automático en civil y mercantil, cuando aplica).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNADO 01 07 24.docx"
+    },
+    {
+      "question": "Según el Reglamento 650/2012 relativo a la competencia, ley aplicable, reconocimiento y ejecución en materia de sucesiones mortis causa, el foro de competencia judicial internacional será con carácter general:",
+      "answers": [
+        {
+          "text": "Siempre serán competentes los tribunales del EM del domicilio de los beneficiarios, lo que favorece la tutela judicial efectiva de éstos y supone ahorro de costes del proceso.",
+          "correct": false
+        },
+        {
+          "text": "Con carácter general serán competentes los tribunales del Estado en el que el causante tuviera su residencia habitual en el momento del fallecimiento, afectando a la totalidad de la sucesión.",
+          "correct": true
+        },
+        {
+          "text": "Serán competentes los tribunales del EM del que sean nacionales tanto el causante como los beneficiarios, lo que favorece la aplicación de las normas relativas a la sucesión y evita conflictos.",
+          "correct": false
+        },
+        {
+          "text": "El del Estado del que el causante fuera nacional, con independencia del lugar de fallecimiento, afectando a la sucesión, menos a los legados, que tendrán su régimen específico.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El Reglamento 650/2012 fija como foro general el de la residencia habitual del causante en el momento del fallecimiento, con competencia para conocer de la totalidad de la sucesión (principio de unidad). Por eso es correcta la segunda opción.\n- No se usa como foro general el domicilio de beneficiarios.\n- La nacionalidad (del causante o de las partes) no es el foro general, aunque puede entrar por vías especiales (p. ej., elección de foro vinculada a professio iuris en ciertos casos).\n- No existe una regla general que separe legados del resto por competencia; el sistema busca unidad competencial y de ley aplicable.\nIT: Il Reg. 650/2012 prevede come foro generale la residenza abituale del de cuius al momento della morte, con competenza sull’intera successione (unità). È quindi corretta la seconda opzione.\n- Non è foro generale il domicilio dei beneficiari.\n- La nazionalità non è il criterio generale di competenza, anche se può rilevare in ipotesi particolari.\n- Non c’è una competenza “a parte” per i legati: l’impostazione è unitaria.",
+      "legal_reference": "Reglamento (UE) 650/2012: art. 4 (competencia general: residencia habitual del causante).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNADO 01 07 24.docx"
+    },
+    {
+      "question": "El certificado sucesorio europeo que se establece en el Reglamento 650/2012 es:",
+      "answers": [
+        {
+          "text": "Un documento obligatorio, modelo y uniforme para todos los EEMM que se realiza por el Estado del que es originario el causante y tiene como finalidad probar la identidad de éste y los derechos o facultades conferidas.",
+          "correct": false
+        },
+        {
+          "text": "Un documento que debe expedir obligatoriamente el Notario del lugar en el que fallece el causante y que tiene como finalidad acreditar la identidad de éste y el contenido de su testamento.",
+          "correct": false
+        },
+        {
+          "text": "Es el certificado que debe expedirse obligatoriamente por un Estado miembro cuando haya de ser probado el fallecimiento en otro Estado ajeno a la U.Europea.",
+          "correct": false
+        },
+        {
+          "text": "Es un documento modelo y uniforme para todos los Estados miembros y que tiene como finalidad facilitar a los herederos o legatarios probar su cualidad o los derechos obtenidos sin que su uso resulte obligatorio.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: El Certificado Sucesorio Europeo (CSE) del Reglamento 650/2012 es un instrumento uniforme y de uso no obligatorio destinado a facilitar la prueba, en otro Estado miembro, de la cualidad y derechos de herederos, legatarios con derechos directos, ejecutores testamentarios o administradores. Por eso es correcta la cuarta opción.\n- No es obligatorio en general: es optativo.\n- No se expide necesariamente por el notario del lugar de fallecimiento; lo expide la autoridad competente del Estado miembro conforme al Reglamento.\n- No está pensado para “probar el fallecimiento en un Estado tercero”; su función es la circulación intra-UE de la prueba de derechos sucesorios.\nIT: Il Certificato Successorio Europeo è un documento uniforme e facoltativo che serve a facilitare, negli altri Stati membri, la prova della qualità e dei diritti di eredi/legatari (e di altri soggetti successori). È quindi corretta la quarta opzione.\n- Non è obbligatorio.\n- Non è necessariamente il notaio del luogo di morte a rilasciarlo: dipende dall’autorità competente.\n- Non è concepito per provare il decesso in Stati extra-UE, ma per far circolare la prova dei diritti successori nell’UE.",
+      "legal_reference": "Reglamento (UE) 650/2012: arts. 62–73 (Certificado Sucesorio Europeo: finalidad, carácter no obligatorio, efectos).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNADO 01 07 24.docx"
+    },
+    {
+      "question": "El Reglamento 1215/2012 relativo a la competencia judicial, el reconocimiento y la ejecución de resoluciones judiciales en materia civil y mercantil sólo se aplicará a las resoluciones judiciales dictadas por:",
+      "answers": [
+        { "text": "Los órganos judiciales de los Estados Miembros de la Unión Europea.", "correct": true },
+        { "text": "Los tribunales de Noruega, Suiza, Islandia y Liechtenstein", "correct": false },
+        { "text": "Los tribunales de los EEMM de la UE y México, Reino Unido y Singapur.", "correct": false },
+        { "text": "Los órganos judiciales de cualquier Estado          que tenga firmado un acuerdo bilateral con España.", "correct": false }
+      ],
+      "explanation": "ES: Bruselas I bis (Reg. 1215/2012) rige para resoluciones dictadas por órganos jurisdiccionales de Estados miembros de la UE (y su régimen de circulación intra-UE), en materia civil y mercantil. Por ello es correcta la primera opción.\n- Noruega, Suiza e Islandia se coordinan mediante el Convenio de Lugano 2007, no por el Reglamento 1215/2012.\n- México, Reino Unido o Singapur no entran en el ámbito personal/territorial del Reglamento.\n- Los acuerdos bilaterales con España no convierten automáticamente una sentencia en “Bruselas I bis”; se aplica el instrumento que corresponda (convenio bilateral, LCJIMC, etc.).\nIT: Il Reg. 1215/2012 si applica alle decisioni rese dagli organi giurisdizionali degli Stati membri UE (circolazione intra-UE) in materia civile e commerciale. Quindi è corretta la prima risposta.\n- Con Norvegia/Svizzera/Islanda vale Lugano 2007.\n- Messico/Regno Unito/Singapore non rientrano nel Regolamento.\n- Gli accordi bilaterali incidono solo se sono lo strumento applicabile; non estendono automaticamente Bruxelles I bis.",
+      "legal_reference": "Reglamento (UE) 1215/2012: arts. 1–2 y 36–39 (ámbito y reconocimiento/ejecución intra-UE).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNADO 01 07 24.docx"
+    },
+    {
+      "question": "¿Qué ocurre en España con las solicitudes de reconocimiento de resoluciones  en materia civil o mercantil emanadas de un órgano jurisdiccional de un Estado Miembro de la UE?",
+      "answers": [
+        {
+          "text": "Dependiendo del tipio de resolución de que se trate se deberá certificar un título ejecutivo europeo, en concordancia con lo establecido por el Convenio de Lugano",
+          "correct": false
+        },
+        { "text": "Debe solicitarse el exequátur en cualquier caso.", "correct": false },
+        {
+          "text": "Que deberá ser reconocida sin necesidad de procedimiento alguno, independientemente de cuál sea la denominación que reciba.",
+          "correct": true
+        },
+        {
+          "text": "Debe solicitarse el exequátur en los casos en que las partes lo hayan acordado de mutuo acuerdo, siempre que su ley nacional lo permita.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: En Bruselas I bis el reconocimiento de resoluciones entre Estados miembros es automático: no se requiere procedimiento especial (no exequátur para reconocer). Por eso es correcta la tercera opción.\n- El Título Ejecutivo Europeo es un instrumento específico para créditos no impugnados, no un requisito general para reconocer cualquier resolución; y Lugano es otro instrumento distinto.\n- No se exige exequátur en cualquier caso para resoluciones UE en civil y mercantil.\n- El exequátur no depende de un acuerdo de partes: el régimen es imperativo y, además, la reforma precisamente suprime la declaración de ejecutividad en el marco UE.\nIT: Con Bruxelles I bis il riconoscimento delle sentenze tra Stati membri è automatico: non serve un procedimento di exequatur per il riconoscimento. È corretta quindi la terza opzione.\n- Il Titolo Esecutivo Europeo vale solo per crediti non contestati, non in generale; Lugano è un diverso strumento.\n- Non è richiesto exequatur in ogni caso.\n- Non dipende da un accordo tra le parti: la disciplina è imperativa e mira alla libera circolazione.",
+      "legal_reference": "Reglamento (UE) 1215/2012: art. 36 (reconocimiento sin procedimiento); art. 39 (fuerza ejecutiva sin declaración).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNADO 01 07 24.docx"
+    },
+    {
+      "question": "En general el procedimiento de ejecución se rige por:",
+      "answers": [
+        { "text": "El Derecho del Estado miembro requerido", "correct": true },
+        { "text": "El Derecho del Estado miembro de origen.", "correct": false },
+        { "text": "El Derecho del Estado que las partes hayan convenido.", "correct": false },
+        { "text": "Por las normas de Derecho Internacional Público", "correct": false }
+      ],
+      "explanation": "ES: En el sistema de Bruselas I bis, aunque se facilite la circulación del título, la ejecución material se realiza conforme a la lex fori executionis: el Derecho procesal del Estado miembro requerido (Estado de ejecución). Por ello es correcta la primera opción.\n- El Derecho del Estado de origen determina si la resolución es ejecutiva allí y ciertos datos del certificado, pero no gobierna el procedimiento de apremio/embargo y actos ejecutivos en el Estado requerido.\n- La ejecución no se rige por un acuerdo de partes: las reglas procesales de ejecución son imperativas.\n- El Derecho internacional público no regula el detalle del procedimiento ejecutivo entre particulares; el marco es el Reglamento y el Derecho procesal interno del Estado de ejecución.\nIT: In Bruxelles I bis l’esecuzione si svolge secondo la legge dello Stato membro richiesto (lex fori executionis). È corretta quindi la prima opzione.\n- La legge dello Stato di origine incide sulla forza esecutiva in origine, ma non disciplina gli atti esecutivi nello Stato richiesto.\n- Non vale un accordo tra parti per scegliere la legge dell’esecuzione.\n- Il DIP non regola la procedura esecutiva civile tra privati; rilevano Regolamento e diritto processuale dello Stato di esecuzione.",
+      "legal_reference": "Reglamento (UE) 1215/2012: art. 41.1 (ejecución conforme al Derecho del Estado miembro de ejecución, con límites del Reglamento).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNADO 01 07 24.docx"
+    },
+    {
+      "question": "Según la Ley de cooperación jurídica internacional en materia civil ¿A quién corresponde la competencia para conocer de las solicitudes de exequátur?",
+      "answers": [
+        { "text": "Directamente al Tribunal Supremo.", "correct": false },
+        {
+          "text": "A los Juzgados de Primera Instancia del domicilio de la parte frente a la que se solicita el reconocimiento o ejecución, o de la persona a quien se refieren los efectos de la resolución judicial extranjera.",
+          "correct": true
+        },
+        {
+          "text": "A la Audiencia Provincial del domicilio de la parte frente a la que se solicita el reconocimiento o ejecución, o de la persona a quien se refieren los efectos de la resolución judicial extranjera.",
+          "correct": false
+        },
+        { "text": "Al órgano jurisdiccional del Estado (de origen) de donde emana la resolución.", "correct": false }
+      ],
+      "explanation": "ES: La LCJIMC atribuye la competencia para el exequátur, con carácter general, a los Juzgados de Primera Instancia determinados por criterios territoriales (domicilio del demandado del exequátur o de la persona afectada; subsidiariamente, lugar de ejecución o de efectos). Por ello es correcta la segunda opción.\n- No corresponde directamente al Tribunal Supremo.\n- La Audiencia Provincial no es el órgano de primera instancia para el exequátur (puede intervenir en apelación).\n- El órgano del Estado de origen no decide el exequátur: es un control del Estado requerido.\nIT: La LCJIMC attribuisce la competenza sull’exequatur, in via generale, ai Juzgados de Primera Instancia del domicilio della parte contro cui si chiede il riconoscimento/esecuzione o della persona cui si riferiscono gli effetti. È corretta quindi la seconda opzione.\n- Non è competente direttamente il Tribunal Supremo.\n- L’Audiencia Provincial interviene tipicamente in appello, non come primo giudice.\n- L’exequatur è deciso dallo Stato richiesto, non dal giudice dello Stato d’origine.",
+      "legal_reference": "España: Ley 29/2015 (LCJIMC), art. 52 (competencia objetiva/territorial para el exequátur).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNADO 01 07 24.docx"
+    },
+    {
+      "question": "Exequátur",
+      "answers": [
+        {
+          "text": "Procedimiento especial para homologar actos y resoluciones pronunciados por autoridades extranjeras y declararlos ejecutivos en el foro.",
+          "correct": true
+        },
+        {
+          "text": "Consideración u observación de las normas de conflicto del derecho extranjero al que remite la norma de conflicto del foro, y que permite la aplicación de la ley del foro o de un tercer Estado.",
+          "correct": false
+        },
+        {
+          "text": "Recurso que puede interponerse ante un órgano jurisdiccional extranjero contra la vulneración por los poderes públicos de determinados derechos constitucionales en los casos y con los requisitos establecidos en la ley y en la jurisprudencia constitucional.",
+          "correct": false
+        },
+        {
+          "text": "Recurso contra determinadas resoluciones judiciales para su revisión por un órgano jurisdiccional superior mediante una segunda instancia o procedimiento que permite tanto la revisión del derecho como de los hechos mediante la proposición y práctica de prueba.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El exequátur es el procedimiento (cuando existe) por el que el Estado requerido reconoce y, en su caso, declara ejecutiva una resolución extranjera para que pueda ejecutarse como título en el foro. Eso es lo que describe la primera opción.\n- La segunda describe el reenvío (problema de conflicto de leyes), no el exequátur.\n- La tercera se asemeja al recurso de amparo/garantía constitucional, no al exequátur.\n- La cuarta describe un recurso ordinario de apelación/segunda instancia, no el control de eficacia extraterritorial.\nIT: L’exequatur è il procedimento con cui lo Stato richiesto omologa/riconosce una decisione straniera e la rende, se del caso, esecutiva nel foro. È corretta dunque la prima opzione.\n- La seconda riguarda il rinvio.\n- La terza riguarda rimedi costituzionali.\n- La quarta riguarda l’appello/secondo grado, non l’exequatur.",
+      "legal_reference": "España: LCJIMC arts. 42 y 52–55 (procedimiento de exequátur y declaración de ejecutividad).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNADO 01 07 24.docx"
+    },
+    {
+      "question": "¿Qué implica el alcance de los efectos negativos del reconocimiento de resoluciones judiciales extranjeras?",
+      "answers": [
+        {
+          "text": "Que la resolución extranjera se dota de eficacia, pasando a considerarse semejante a la dictada por la autoridad del Estado requerido.",
+          "correct": false
+        },
+        {
+          "text": "Que las partes no pueden volver a plantear ante sus tribunales el asunto que ya fue juzgado por la autoridad judicial del Estado de origen y resuelto por medio de la resolución por ella dictada.",
+          "correct": true
+        },
+        {
+          "text": "Que la resolución en ningún caso podrá reconocerse en el extranjero si las partes no lo han consentido expresamente de mutuo acuerdo mediante la sumisión tácita.",
+          "correct": false
+        },
+        { "text": "Ninguna de las opciones anteriores es válida.", "correct": false }
+      ],
+      "explanation": "ES: El efecto negativo del reconocimiento se identifica con la eficacia de cosa juzgada en su vertiente impeditiva: impide que se vuelva a litigar en el Estado requerido la misma controversia ya resuelta por la resolución extranjera (excepción de cosa juzgada). Por eso es correcta la segunda opción.\n- La primera describe más bien el efecto “positivo” o de extensión/equiparación (atribuir efectos a la resolución), pero no el efecto negativo específico.\n- El reconocimiento no depende de un consentimiento expreso por sumisión tácita: existen regímenes automáticos (UE) o procedimientos legales (LCJIMC) con causas tasadas.\n- Como hay una opción válida (la segunda), la cuarta es incorrecta.\nIT: L’effetto negativo del riconoscimento coincide con la cosa giudicata in senso impeditivo: le parti non possono riproporre davanti ai giudici dello Stato richiesto la stessa questione già decisa nello Stato d’origine. È corretta quindi la seconda opzione.\n- La prima è un effetto più “positivo” (attribuzione di efficacia/equiparazione), non l’effetto negativo.\n- Il riconoscimento non richiede un consenso espresso delle parti: dipende dal regime applicabile (UE o LCJIMC) e dai motivi di rifiuto.\n- Esiste una risposta corretta, quindi è falsa l’ultima.",
+      "legal_reference": "España: LCJIMC art. 44 (efectos del reconocimiento) y LEC art. 222 (cosa juzgada, efecto negativo); UE: Reglamento 1215/2012 art. 36 (reconocimiento) como marco cuando aplica.",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNADO 01 07 24.docx"
+    },
+    {
+      "question": "Cuando se presenta una resolución dictada en un EM por el tribunal de otro EM, el interesado:",
+      "answers": [
+        {
+          "text": "Debe aportar una copia de la resolución debidamente autentificada por Notario y traducida al idioma del Estado requerido.",
+          "correct": false
+        },
+        {
+          "text": "Deberá aportar una copia completa del procedimiento para que el tribunal que deba reconocerla o ejecutarla pueda comprobar que se han cumplido los requisitos exigidos por el Reglamento aplicable al caso.",
+          "correct": false
+        },
+        { "text": "Deberá presentar copia auténtica de la resolución y certificado del órgano judicial de origen.", "correct": true },
+        { "text": "Debe solicitar se aplique el exequátur a la resolución para posteriormente solicitar su ejecución.", "correct": false }
+      ],
+      "explanation": "ES: En el régimen de Bruselas I bis, para invocar el reconocimiento y/o solicitar ejecución, el interesado debe aportar (i) copia auténtica de la resolución y (ii) el certificado expedido por el órgano jurisdiccional de origen (formulario). Por eso es correcta la tercera opción.\n- No se exige siempre notarización adicional ni traducción “en todo caso”: la autenticidad se acredita con copia que reúna requisitos y la traducción solo se pide cuando sea necesaria conforme al instrumento aplicable.\n- No se requiere aportar “todo el procedimiento”: el control es limitado y se basa en documentos previstos (sentencia + certificado).\n- El exequátur fue suprimido en Bruselas I bis para ejecución intra-UE (se solicita directamente la ejecución), por lo que la cuarta es incorrecta.\nIT: Nel sistema di Bruxelles I bis, per far valere una decisione o chiederne l’esecuzione, occorrono una copia autentica della sentenza e il certificato rilasciato dal giudice d’origine. È quindi corretta la terza opzione.\n- Non è sempre richiesta autentica notarile ulteriore né traduzione automatica: dipende dalla necessità.\n- Non si deve depositare l’intero fascicolo del procedimento.\n- L’exequatur è stato eliminato per l’esecuzione intra-UE: si chiede direttamente l’esecuzione, quindi la quarta è falsa.",
+      "legal_reference": "Reglamento (UE) 1215/2012: art. 37 (documentos para reconocimiento) y arts. 42–53 (documentos/certificado para ejecución; certificado del órgano de origen).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNADO 01 07 24.docx"
+    },
+    {
+      "question": "¿Qué es el Estado requerido?",
+      "answers": [
+        { "text": "Aquél en el que se dicta la resolución que será objeto de reconocimiento", "correct": false },
+        { "text": "El Estado en el que se invoca el reconocimiento o la ejecución de una resolución, transacción o documento público", "correct": true },
+        { "text": "El Estado dominante a la hora de aplicar el conflicto móvil", "correct": false },
+        { "text": "Aquél que es pretendido por las partes como mediador de un conflicto", "correct": false }
+      ],
+      "explanation": "ES: El “Estado requerido” (o Estado miembro requerido/Estado de ejecución) es aquel ante cuyas autoridades se pretende que una resolución extranjera produzca efectos: reconocimiento y/o ejecución. Por eso es correcta la definición que lo identifica como el Estado donde se invoca el reconocimiento o la ejecución.\n- La primera opción describe el Estado de origen (donde se dicta la resolución), no el requerido.\n- La tercera mezcla conceptos de conflicto móvil (cambio del punto de conexión en el tiempo), ajenos a la noción procesal de Estado requerido.\n- La cuarta es una idea de mediación, que no guarda relación con reconocimiento/ejecución.\nIT: Lo “Stato richiesto” è lo Stato nel quale si chiede che una decisione straniera sia riconosciuta e/o eseguita (cioè dove se ne invocano gli effetti). È corretta quindi l’opzione che lo definisce come lo Stato in cui si invoca riconoscimento o esecuzione.\n- La prima riguarda lo Stato d’origine.\n- La terza riguarda il conflitto mobile, concetto diverso.\n- La quarta richiama la mediazione, non pertinente.",
+      "legal_reference": "España: Ley 29/2015 (LCJIMC) (terminología y régimen de reconocimiento/ejecución). UE: Reglamento (UE) 1215/2012 (Estado miembro requerido/Estado de ejecución en reconocimiento y ejecución).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNATO 01 07 24.docx"
+    },
+    {
+      "question": "¿Cuáles son las clases de reconocimiento?",
+      "answers": [
+        { "text": "Reconocimiento por homologación, el incidental con control y el llamado anti-reconocimiento", "correct": false },
+        { "text": "El reconocimiento objetivo, el subjetivo y el análogo.", "correct": false },
+        { "text": "El positivo, el negativo y el reconocimiento ecléctico", "correct": false },
+        { "text": "El reconocimiento expreso y el reconocimiento tácito", "correct": true }
+      ],
+      "explanation": "ES: En la práctica del DIPr se suele distinguir entre reconocimiento expreso (cuando se solicita de forma directa/“principal” ante una autoridad, típicamente mediante el procedimiento previsto —p. ej., exequátur cuando proceda—) y reconocimiento tácito o incidental (cuando la resolución extranjera se hace valer dentro de otro proceso o ante una autoridad sin promover un procedimiento autónomo de reconocimiento, siempre dentro del régimen aplicable). Por eso es correcta la opción “expreso/tácito”.\n- La primera mezcla etiquetas no estándar y confusas (p. ej., “anti-reconocimiento”).\n- La segunda (objetivo/subjetivo/análogo) no corresponde a una clasificación habitual en reconocimiento de resoluciones.\n- La tercera (positivo/negativo/ecléctico) puede aludir a “efectos” del reconocimiento, pero no es la clasificación clásica de “clases” de reconocimiento como institución.\nIT: In DIPr si distingue comunemente tra riconoscimento espresso (richiesto in via diretta/principale, secondo la procedura prevista) e riconoscimento tacito/incidente (fatto valere nell’ambito di un altro procedimento o davanti a un’autorità senza avviare un procedimento autonomo). Perciò è corretta l’opzione “espresso/tacito”.\n- Le altre opzioni non riflettono classificazioni tipiche o confondono categorie diverse (effetti vs classi).",
+      "legal_reference": "España: Ley 29/2015 (LCJIMC) (reconocimiento principal y reconocimiento incidental dentro del sistema); UE: Reglamento 1215/2012 (reconocimiento automático e incidenter tantum en su ámbito).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNATO 01 07 24.docx"
+    },
+    {
+      "question": "Según el Reglamento 1215/2012 -Bruselas I bis, ante una resolución extranjera de un Estado miembro (EM), presentada en otro Estado miembro (EM)…",
+      "answers": [
+        { "text": "Se debe tramitar el procedimiento del exequatur", "correct": false },
+        { "text": "Prevalecerá en todo caso la legislación del EM requerido", "correct": false },
+        { "text": "Se puede invocar la resolución de un EM en otro EM, y se puede solicitar que se declare que nada se opone al reconocimiento de la resolución judicial.", "correct": true },
+        { "text": "No se podrá impugnar el reconocimiento", "correct": false }
+      ],
+      "explanation": "ES: El Reglamento Bruselas I bis establece el reconocimiento automático de resoluciones entre Estados miembros: la resolución puede invocarse en otro EM sin procedimiento de reconocimiento. Además, el sistema prevé mecanismos procesales para que, en caso de controversia, se obtenga una declaración sobre la inexistencia de motivos de denegación o, inversamente, para solicitar la denegación. Por eso es correcta la opción que afirma que puede invocarse y solicitarse declaración de que nada se opone.\n- No hay exequátur como requisito general en Bruselas I bis (se suprimió la declaración de ejecutividad).\n- No “prevalece en todo caso” la legislación del EM requerido: el régimen es europeo y armoniza reconocimiento/ejecución; la ley del requerido rige la ejecución material, pero no desplaza el Reglamento.\n- El reconocimiento sí puede impugnarse mediante el procedimiento previsto para solicitar la denegación por motivos tasados; por tanto, es falsa la imposibilidad de impugnación.\nIT: Bruxelles I bis prevede il riconoscimento automatico delle decisioni tra Stati membri: la sentenza può essere invocata in un altro Stato senza exequatur. Se vi è contestazione, sono previsti procedimenti per ottenere una pronuncia sull’assenza (o sulla sussistenza) dei motivi di rifiuto. Per questo è corretta l’opzione che combina invocabilità e possibilità di dichiarazione che nulla osta.\n- L’exequatur è stato eliminato.\n- Non prevale “sempre” la legge dello Stato richiesto: vale la disciplina del Regolamento.\n- Il riconoscimento può essere contestato tramite i rimedi previsti per il rifiuto (motivi tassativi).",
+      "legal_reference": "Reglamento (UE) 1215/2012: art. 36 (reconocimiento sin procedimiento), art. 45 (motivos de denegación), arts. 46–49 (procedimiento para solicitar denegación / declaración relacionada).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNATO 01 07 24.docx"
+    },
+    {
+      "question": "¿Cuándo se puede denegar el reconocimiento o la ejecución según el Reglamento Bruselas I bis?",
+      "answers": [
+        { "text": "Cuando el demandado está en rebeldía y no se le entregó la cédula de emplazamiento", "correct": false },
+        { "text": "Si es incompatible con otra resolución dictada en un litigio entre las mismas partes", "correct": false },
+        { "text": "Si es manifiestamente contrario al orden público del EM requerido", "correct": false },
+        { "text": "Todas son ciertas", "correct": true }
+      ],
+      "explanation": "ES: Bruselas I bis permite denegar reconocimiento o ejecución solo por motivos tasados. Entre ellos: (i) orden público del Estado requerido; (ii) rebeldía con indefensión por falta de notificación adecuada; (iii) incompatibilidad/inconciliabilidad con otra resolución (según condiciones del Reglamento). Por eso, si se enuncian esos tres motivos, la respuesta correcta es “Todas son ciertas”.\n- Cada una de las tres primeras describe, en esencia, un motivo típico de denegación previsto por el Reglamento.\nIT: Bruxelles I bis consente il rifiuto solo per motivi tassativi: ordine pubblico, violazione del diritto di difesa in contumacia (mancata notifica), e inconciliabilità con altra decisione. Poiché le prime tre opzioni corrispondono a motivi di rifiuto, è corretta “Tutte sono vere”.\n- Le singole opzioni A–C descrivono motivi previsti (nei termini e condizioni del Regolamento).",
+      "legal_reference": "Reglamento (UE) 1215/2012: art. 45 (motivos de denegación del reconocimiento) y arts. 46–52 (procedimiento).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNATO 01 07 24.docx"
+    },
+    {
+      "question": "¿Qué es el titulo ejecutivo europeo?",
+      "answers": [
+        { "text": "Es un título que sirve para ejecutar cualquier deuda fuera del espacio europeo", "correct": false },
+        { "text": "Es una resolución adoptada por un tribunal de un EM, relativa a un procedimiento de reclamación de deudas en el que el deudor no se ha opuesto a la misma y que tiene fuerza ejecutiva por sí misma en otro EM", "correct": true },
+        { "text": "Es un documento que permite presentar una demanda entre un Estado miembro contra otro Estado miembro", "correct": false },
+        { "text": "Es una resolución que ejecuta sentencias en el Estado de origen", "correct": false }
+      ],
+      "explanation": "ES: El Título Ejecutivo Europeo (TEE) se vincula a créditos no impugnados: permite certificar una resolución (o determinados documentos/títulos en su marco) para que se ejecute en otro Estado miembro sin necesidad de exequátur, reforzando la circulación de decisiones en materia de deudas no contestadas. Por ello, es correcta la opción que lo conecta con deudas no impugnadas y eficacia ejecutiva en otro EM.\n- No sirve para ejecutar “cualquier deuda” fuera de Europa: su ámbito es UE y para créditos no impugnados.\n- No es un instrumento para demandas entre Estados.\n- No es una resolución que “ejecuta” en el Estado de origen: es una certificación para facilitar la ejecución transfronteriza.\nIT: Il Titolo Esecutivo Europeo riguarda i crediti non contestati: tramite certificazione, consente l’esecuzione in un altro Stato membro senza exequatur. È corretta quindi l’opzione che richiama la mancata opposizione del debitore e l’efficacia esecutiva in un altro EM.\n- Non vale per qualsiasi debito extra-UE.\n- Non è uno strumento per contenziosi tra Stati.\n- Non “esegue” in origine: abilita/certifica per l’esecuzione transfrontaliera.",
+      "legal_reference": "Reglamento (CE) 805/2004 (Título Ejecutivo Europeo para créditos no impugnados): especialmente arts. 3 y 6–7 (crédito no impugnado; certificación y efectos).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNATO 01 07 24.docx"
+    },
+    {
+      "question": "El Convenio de Lugano es aplicable a",
+      "answers": [
+        { "text": "Los Estados miembros del Reglamento de Bruselas I menos a Dinamarca y Suiza", "correct": false },
+        { "text": "A las resoluciones dictadas por los EM firmantes del Convenio en relación con los\nconflictos internacionales en materia mercantil y fiscal", "correct": false },
+        { "text": "Al reconocimiento y ejecución de resoluciones judiciales en materia civil y mercantil entre los países firmantes del mismo", "correct": true },
+        { "text": "Al reconocimiento y ejecución de materias fiscales, aduaneras y administrativas, así como a la capacidad de las personas físicas", "correct": false }
+      ],
+      "explanation": "ES: El Convenio de Lugano (2007) es un instrumento paralelo a Bruselas I para regular competencia judicial, reconocimiento y ejecución en materia civil y mercantil entre la UE y determinados Estados AELC (p. ej., Suiza, Noruega, Islandia). Por eso es correcta la opción que lo vincula a reconocimiento y ejecución en civil y mercantil entre Estados parte.\n- La primera es incorrecta: Dinamarca sí participa en Bruselas I bis mediante acuerdo, y Suiza no es EM; la lógica de Lugano no se describe así.\n- La segunda es incorrecta porque incluye “mercantil y fiscal”: las materias fiscales/aduaneras/administrativas están excluidas del ámbito típico civil y mercantil.\n- La cuarta es lo contrario del sistema: fiscal/aduanero/administrativo y capacidad suelen quedar fuera.\nIT: La Convenzione di Lugano disciplina competenza, riconoscimento ed esecuzione in materia civile e commerciale tra gli Stati contraenti (UE e alcuni Stati AELC). È corretta quindi l’opzione C.\n- L’opzione A descrive male l’ambito soggettivo.\n- L’opzione B sbaglia includendo la materia fiscale.\n- L’opzione D include materie normalmente escluse (fiscale, doganale, amministrativa, capacità).",
+      "legal_reference": "Convenio de Lugano 2007: art. 1 (ámbito material civil y mercantil y exclusiones) y Título III (reconocimiento y ejecución).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNATO 01 07 24.docx"
+    },
+    {
+      "question": "Ante un caso de apatridia, ¿Cuál será la ley aplicable al apátrida conforme a nuestro ordenamiento jurídico?",
+      "answers": [
+        { "text": "La ley del lugar de su residencia habitual", "correct": true },
+        { "text": "La ley nacional de su domicilio", "correct": false },
+        { "text": "La ley nacional del Estado de procedencia", "correct": false },
+        { "text": "Ninguna de las anteriores", "correct": false }
+      ],
+      "explanation": "ES: El apátrida carece de nacionalidad, por lo que el DIPr español sustituye el punto de conexión “nacionalidad” por la residencia habitual para fijar su ley personal. Por ello es correcta la ley del lugar de residencia habitual.\n- “Ley nacional de su domicilio” es contradictorio en apatridia (no hay ley nacional) y además España no usa el domicilio como criterio general del estatuto personal.\n- “Ley nacional del Estado de procedencia” no es el criterio legal del CC.\n- Hay una opción correcta (residencia habitual), luego “ninguna” es falsa.\nIT: Per l’apolide manca la nazionalità; il DIPr spagnolo collega la legge personale alla residenza abituale. È quindi corretta la legge del luogo di residenza abituale.\n- Non esiste una “legge nazionale del domicilio” per l’apolide.\n- Lo “Stato di provenienza” non è il criterio del CC.\n- Poiché una risposta è corretta, è falsa l’ultima.",
+      "legal_reference": "España: art. 9.10 Código Civil (apátridas: ley de la residencia habitual).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNATO 01 07 24.docx"
+    },
+    {
+      "question": "En el supuesto de que deba declararse el fallecimiento de una persona extranjera en España y conforme a lo previsto en el Código Civil y la Ley de jurisdicción voluntaria ¿Cuál será la ley nacional aplicable a la persona que va a declararse fallecida?",
+      "answers": [
+        { "text": "La ley del lugar en el que ha fallecido la persona extranjera", "correct": false },
+        { "text": "La ley nacional del extranjero que va a ser declarado como fallecido", "correct": true },
+        { "text": "La ley del último domicilio en el que residió.", "correct": false },
+        { "text": "Solo se le podrá declarar fallecido en su país de origen", "correct": false }
+      ],
+      "explanation": "ES: En expedientes de declaración de fallecimiento con elemento extranjero, la ley aplicable se determina por las normas españolas/UE de DIPr; como regla, se conecta con la ley personal del afectado (ley nacional), lo que encaja con la idea de que el estado civil y situaciones personalísimas se rigen por la ley personal. Por eso es correcta la ley nacional del extranjero que será declarado fallecido.\n- El lugar del fallecimiento no es el punto de conexión general para este expediente.\n- El domicilio/residencia puede jugar un papel en competencia u otros ámbitos, pero la regla de ley aplicable (según el planteamiento del test) es la ley nacional.\n- Es falso que solo pueda declararse en su país de origen: la competencia puede corresponder a España si concurren los foros previstos; la ley aplicable se determina por DIPr.\nIT: Nella dichiarazione di morte presunta con elemento internazionale, la lex causae viene individuata dalle norme di DIPr e, secondo l’impostazione del sistema, si collega alla legge personale (nazionalità) dell’interessato. È dunque corretta la legge nazionale del soggetto.\n- Il luogo del decesso non è il criterio generale.\n- Domicilio/residenza non è qui la regola indicata.\n- Non è vero che solo lo Stato d’origine possa dichiarare: dipende dalla competenza internazionale.",
+      "legal_reference": "España: art. 10 Ley 15/2015 (LJV) (derecho aplicable en expedientes internacionales); art. 9.1 Código Civil (ley personal por nacionalidad) y art. 9.10 CC (sustituciones cuando procede).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNATO 01 07 24.docx"
+    },
+    {
+      "question": "¿Cuál es la ley reguladora de la capacidad para contraer matrimonio, conforme al ordenamiento jurídico español, según la doctrina y la DGSJFP?",
+      "answers": [
+        { "text": "La ley nacional de cada contrayente al tiempo de celebración del matrimonio", "correct": true },
+        { "text": "La ley de residencia habitual de los contrayentes", "correct": false },
+        { "text": "La ley nacional común de ambos y en caso de disparidad la ley nacional del futuro esposo", "correct": false },
+        { "text": "La ley española", "correct": false }
+      ],
+      "explanation": "ES: La capacidad matrimonial se integra en el estatuto personal: cada contrayente debe ser capaz conforme a su ley personal, que en España se determina por la nacionalidad (art. 9.1 CC). La doctrina y la práctica registral (DGSJFP) aplican esta solución: ley nacional de cada contrayente en el momento de la celebración. Por eso es correcta la opción A.\n- La residencia habitual no es el criterio general español para la capacidad.\n- No existe regla de “nacionalidad común y, si no, la del esposo”: eso sería una pauta discriminatoria y no coincide con el sistema de ley personal individual.\n- La ley española solo regirá si coincide con la ley personal (por ser español) o si entra por otras vías (orden público, normas de aplicación inmediata), pero no como regla general.\nIT: La capacità di contrarre matrimonio rientra nello statuto personale: ciascun contraente deve essere capace secondo la propria legge personale, che in Spagna è collegata alla nazionalità (art. 9.1 CC). Dottrina e prassi DGSJFP seguono questa impostazione. È quindi corretta l’opzione A.\n- La residenza abituale non è il criterio generale.\n- Non c’è una regola “nazionalità comune/poi quella del marito”.\n- La legge spagnola non è automaticamente applicabile: lo è solo se è la legge personale o in ipotesi eccezionali.",
+      "legal_reference": "España: art. 9.1 Código Civil (capacidad por ley personal/nacionalidad); CC arts. 45–56 (requisitos y expediente matrimonial) como marco material; criterios doctrinales y resoluciones DGSJFP en materia registral.",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNATO 01 07 24.docx"
+    },
+    {
+      "question": "Según el art. 3 del Reglamento Bruselas II ter, relativo a la competencia, reconocimiento y ejecución de resoluciones en materia matrimonial serán competentes los tribunales de un EM en cuyo territorio se encuentre:",
+      "answers": [
+        { "text": "Los hijos del matrimonio", "correct": false },
+        { "text": "La residencia habitual de los cónyuges", "correct": true },
+        { "text": "El demandante, siempre que el demandado esté en paradero desconocido", "correct": false },
+        { "text": "Ninguna de las anteriores", "correct": false }
+      ],
+      "explanation": "ES: En materia matrimonial (divorcio, separación judicial, nulidad) el Reglamento Bruselas II ter (2019/1111) establece foros basados, principalmente, en la residencia habitual (conexión de proximidad). Entre los foros del art. 3 está la residencia habitual de los cónyuges. Por ello, es correcta la opción B.\n- La localización de los hijos es relevante para responsabilidad parental (otros artículos), pero no es el foro típico para la competencia en “materia matrimonial”.\n- La competencia no se basa simplemente en la presencia del demandante por “paradero desconocido” del demandado: el Reglamento prevé foros específicos (incluyendo residencia habitual del demandante bajo condiciones temporales), pero no el criterio tal como está formulado.\n- Dado que existe una opción correcta (residencia habitual de los cónyuges), “ninguna” es incorrecta.\nIT: In materia matrimoniale il Reg. 2019/1111 individua la competenza soprattutto sulla base della residenza abituale. L’art. 3 include la residenza abituale dei coniugi, quindi è corretta l’opzione B.\n- La posizione dei figli attiene alla responsabilità genitoriale, non al foro matrimoniale.\n- Non basta che ci sia il solo ricorrente con convenuto “irreperibile”: i fori sono tipizzati e diversi da come è formulato.\n- Poiché una risposta è corretta, è falsa l’ultima.",
+      "legal_reference": "Reglamento (UE) 2019/1111 (Bruselas II ter): art. 3 (competencia en materia matrimonial: criterios de residencia habitual, entre otros).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNATO 01 07 24.docx"
+    },
+    {
+      "question": "La ley aplicable a la nulidad del matrimonio y sus efectos según el Código Civil español se determinará:",
+      "answers": [
+        { "text": "Conforme a la ley de residencia habitual de los cónyuges", "correct": false },
+        { "text": "Con arreglo a la ley del país de residencia del demandado", "correct": false },
+        { "text": "Conforme al pacto establecido a tal fin por los cónyuges", "correct": false },
+        { "text": "Conforme a la ley aplicable a su celebración", "correct": true }
+      ],
+      "explanation": "ES: La nulidad se conecta con la validez del matrimonio: si el matrimonio es inválido, lo es por defectos en los requisitos de su constitución (capacidad, consentimiento, forma). En DIPr, el juicio sobre la validez/nulidad se hace conforme a la ley o leyes que regían la celebración/constitución del matrimonio (lex matrimonii, entendida como el marco normativo aplicable a su celebración). Por eso es correcta la opción que remite a la ley aplicable a su celebración.\n- La residencia habitual de los cónyuges puede ser relevante para competencia o para efectos en ciertos sistemas, pero no es la regla del CC para determinar la nulidad.\n- La residencia del demandado es un criterio de competencia (foro), no de ley aplicable.\n- Los cónyuges no pueden pactar libremente la ley aplicable a la validez/nulidad del vínculo: la validez se determina por normas imperativas de DIPr (ley personal para capacidad; ley de la forma/lex loci para forma, etc.).\nIT: La nullità dipende dalla validità del matrimonio al momento della sua costituzione: se mancano requisiti di capacità, consenso o forma, la valutazione si fa secondo la legge (o le leggi) che disciplinavano la celebrazione/constituzione del matrimonio (lex matrimonii in senso conflittuale). È quindi corretta l’opzione che rinvia alla legge applicabile alla celebrazione.\n- La residenza abituale dei coniugi non è la regola del CC per la nullità.\n- La residenza del convenuto è criterio di competenza, non di legge applicabile.\n- Non esiste una libera scelta della legge per validità/nullità: operano norme imperative di DIPr.",
+      "legal_reference": "España: art. 9.1 Código Civil (capacidad por ley personal); arts. 49–50 Código Civil (formas de celebración); CC arts. 73–79 (nulidad y efectos, incluido matrimonio putativo).",
+      "original_file": "D. internacional privado 2° Parziale AGGIORNATO 01 07 24.docx"
+    }
+  ]
+}
