@@ -364,6 +364,286 @@
       "explanation": "ES: La I es incorrecta porque lo extrasalarial no forma parte del salario: el salario se compone de salario base y complementos salariales; lo extrasalarial son percepciones distintas (suplidos/indemnizaciones). La II es correcta (complementos por circunstancias personales, del puesto, resultados, etc.). La III también es correcta (percepciones para compensar gastos, sin naturaleza salarial).\nIT: La I è errata perché le voci extrasalariali non fanno parte del salario: il salario è base + complementi salariali; l’extrasalariale è distinto (rimborsi/indennizzi). La II è corretta (complementi in funzione di circostanze). La III è corretta (voci non salariali per compensare spese o esigenze, non per retribuire il lavoro).",
       "legal_reference": "ET (RDL 2/2015) art. 26.1 (salario) y art. 26.2 (percepciones extrasalariales) y art. 26.3 (complementos salariales).",
       "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "21.- No será aceptada como causa de despido objetivo",
+      "answers": [
+        {
+          "text": "La ineptitud del trabajador conocida con posterioridad al ingreso del mismo en la empresa.",
+          "correct": false
+        },
+        {
+          "text": "La falta de adaptación del trabajador a las modificaciones técnicas.",
+          "correct": false
+        },
+        {
+          "text": "La necesidad de amortizar o suprimir un puesto de trabajo, por razones técnicas, económicas, organizativas o de producción.",
+          "correct": false
+        },
+        {
+          "text": "La ineptitud del trabajador, si ya se conocía por el empresario con anterioridad a su entrada en la empresa.- CORRETTA",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: El despido objetivo (art. 52 ET) admite como causas, entre otras, la ineptitud del trabajador conocida o sobrevenida con posterioridad a su colocación efectiva (52.a), la falta de adaptación a modificaciones técnicas (52.b) y causas ETOP que justifiquen amortización de puesto (52.c). En cambio, NO es aceptable invocar la “ineptitud” si el empresario ya la conocía antes de contratar: justamente por eso el art. 52.a exige que sea conocida/sobrevenida después del ingreso. Por tanto, la opción que “no será aceptada” es la D.\nIT: Il licenziamento oggettivo (art. 52 ET) ammette, tra le cause, l’inidoneità conosciuta o sopravvenuta dopo l’assunzione effettiva (52.a), la mancata adattabilità a modifiche tecniche (52.b) e cause ETOP con soppressione del posto (52.c). Non è invece ammissibile fondarlo su un’inidoneità già conosciuta dal datore prima dell’assunzione: l’art. 52.a richiede che emerga/si conosca successivamente. Quindi la causa “non accettata” è la D.",
+      "legal_reference": "ET (RDL 2/2015) art. 52.a, 52.b, 52.c.",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "22.- En un expediente de regulación de empleo temporal y parcial por las causas comprendidas en el artículo 47.1 TRET (ETOP) se entenderá por reducción de jornada:",
+      "answers": [
+        {
+          "text": "Una disminución temporal de entre un 10% y un 60% de la jornada de trabajo ordinaria.",
+          "correct": false
+        },
+        {
+          "text": "Una disminución temporal de entre un 10% y un 70% de la jornada de trabajo ordinaria.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "Una disminución temporal de entre un 20% y un 75% de la jornada de trabajo ordinaria.",
+          "correct": false
+        },
+        {
+          "text": "Una disminución temporal de entre un 20% y un 80% de la jornada de trabajo ordinaria.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: En los ERTE ETOP con reducción de jornada, el ET fija el rango legal: reducción temporal entre el 10% y el 70% de la jornada ordinaria. Por eso es correcta la opción B. Las demás combinan porcentajes que no coinciden con el tramo legal.\nIT: Negli ERTE ETOP con riduzione d’orario, l’ET stabilisce il range: riduzione temporanea tra il 10% e il 70% dell’orario ordinario. Quindi è corretta la B; le altre percentuali non corrispondono alla disciplina.",
+      "legal_reference": "ET (RDL 2/2015) art. 47.1.",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "23.- La calificación de procedencia del despido disciplinario:",
+      "answers": [
+        {
+          "text": "Supone la extinción del contrato de trabajo a partir de la fecha de la sentencia.",
+          "correct": false
+        },
+        {
+          "text": "Convalida la extinción del contrato de trabajo que se produjo por el despido.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "Conlleva la extinción del contrato y el abono de los salarios desde la fecha del despido hasta la fecha de notificación de la sentencia.",
+          "correct": false
+        },
+        {
+          "text": "Supone el abono de una indemnización al trabajador de 20 días de salario por año de servicio con el límite de 12 mensualidades.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Si el despido disciplinario es declarado procedente, significa que queda acreditada la causa (grave y culpable) y la decisión extintiva se ajusta a derecho. Su efecto es convalidar la extinción ya producida por el despido (no “desde la sentencia”), sin indemnización y, como regla general, sin salarios de tramitación. Por ello es correcta la B. La A es errónea porque desplaza el dies a quo a la sentencia; la C atribuye salarios de tramitación que no corresponden en la procedencia; la D confunde con indemnizaciones propias de otros supuestos (p. ej., despido objetivo).\nIT: Se il licenziamento disciplinare è dichiarato procedente, la giusta causa (grave e colpevole) risulta provata e l’estinzione è valida: si “convalida” l’estinzione prodotta dal licenziamento (non dalla sentenza), senza indennità e normalmente senza salari di tramitación. Quindi è corretta la B. La A è errata (decorrenza dalla sentenza), la C attribuisce salari non dovuti, la D confonde con indennità tipiche di altri istituti (es. licenziamento oggettivo).",
+      "legal_reference": "ET (RDL 2/2015) art. 54; ET art. 55.7; LRJS (Ley 36/2011) arts. 108–109.",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "24.- El Comité de Seguridad y Salud de la empresa está formado por",
+      "answers": [
+        {
+          "text": "Los delegados de Prevención y los delegados sindicales.",
+          "correct": false
+        },
+        {
+          "text": "Por los delegados de Prevención, de una parte, y por el empresario y/o sus representantes en número igual al de los delegados de Prevención, de otra.- CORRECTA",
+          "correct": true
+        },
+        {
+          "text": "Los delegados de Prevención y los representantes de las secciones sindicales.",
+          "correct": false
+        },
+        {
+          "text": "Siete trabajadores elegidos por y entre los miembros del comité de empresa.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El Comité de Seguridad y Salud es un órgano paritario y colegiado: lo integran los Delegados de Prevención y el empresario y/o sus representantes en número igual al de aquellos. No es un órgano formado por delegados sindicales o secciones sindicales (aunque puedan asistir con voz en ciertos casos), ni se compone de “siete trabajadores” elegidos por el comité.\nIT: Il Comitato di Sicurezza e Salute è un organo paritetico: composto dai Delegati di Prevenzione e dal datore (o suoi rappresentanti) in numero pari. Non è un organo costituito da delegati sindacali/sezioni sindacali, né da “sette lavoratori” scelti dal comitato aziendale.",
+      "legal_reference": "LPRL (Ley 31/1995) art. 38.1–38.2.",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "25.- Roberto, que tiene 17 años, trabaja en unos almacenes de mozo. Realiza 8 horas diarias de trabajo efectivo. De las horas hace por la mañana una jornada de 9 a 14 horas y por la tarde de 17 a 20 horas. Pregunta a su abogado si tiene derecho algún período de descanso. Indique la respuesta correcta.",
+      "answers": [
+        {
+          "text": "Roberto tiene derecho a un descanso no inferior a 15 minutos.",
+          "correct": false
+        },
+        {
+          "text": "Roberto no tiene derecho descanso porque la jornada es partida.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Roberto es menor de 18 años. Para menores, cuando la duración de la jornada diaria continuada exceda de 4,5 horas, debe establecerse un período de descanso de al menos 30 minutos. En su jornada de mañana (9 a 14) trabaja 5 horas continuadas, así que sí tiene derecho a descanso y no puede reducirse a 15 minutos. Además, el hecho de que la jornada sea partida no elimina el derecho al descanso dentro de cada tramo continuado. Con las opciones ofrecidas, ninguna es plenamente correcta: la respuesta legal sería “descanso mínimo de 30 minutos”.\nIT: Roberto è minorenne. Per i minori, se il lavoro continuato supera 4,5 ore, spetta una pausa di almeno 30 minuti. Nel turno 9–14 lavora 5 ore continuate, quindi ha diritto alla pausa (non basta 15 minuti). Il fatto che l’orario sia spezzato non elimina il diritto alla pausa nel tratto continuato. Con le sole opzioni A/B, nessuna è corretta: la risposta conforme è “almeno 30 minuti”.",
+      "legal_reference": "ET (RDL 2/2015) art. 34.4 (descanso en jornada continuada; especialidad menores).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "26. La empresa Marza. S.A. está padeciendo durante el último año una disminución persistente en su nivel de ingresos ordinarios respecto del año anterior. En la empresa trabajan 48 trabajadores ante la pérdida de ingresos se plantea despedir en los próximos meses 10 de estos. El empresario acude usted para que le indique el procedimiento que debe seguir. Indique la respuesta correcta:",
+      "answers": [
+        {
+          "text": "El despido debe ir precedido de un periodo de consultas con los representantes legales de los trabajadores de 45 días.",
+          "correct": false
+        },
+        {
+          "text": "El despido debe ir precedido de un periodo de consultas con los representantes legales de los trabajadores si su número es superior a 15 días.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "No es necesario ningún periodo de consultas con los representantes legales de los trabajadores si no afecta solo a 10 trabajadores.",
+          "correct": false
+        },
+        {
+          "text": "El despido debe ir precedido de un periodo de consultas con los representantes legales de los trabajadores de 30 días.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Con 48 trabajadores, la extinción de 10 contratos en 90 días alcanza el umbral de despido colectivo (≥10 en empresas de menos de 100). Por tanto, debe seguirse el procedimiento del art. 51 ET con período de consultas. En empresas de menos de 50 trabajadores, la duración máxima del período de consultas es de 15 días. Por ello la opción B (15 días) es la correcta; 45 y 30 días no aplican a esta plantilla, y negar el período de consultas es incorrecto.\nIT: Con 48 dipendenti, il licenziamento di 10 persone entro 90 giorni supera la soglia del licenziamento collettivo (≥10 nelle imprese <100). Quindi si applica l’art. 51 ET con periodo di consultazioni. Per imprese con meno di 50 dipendenti, il periodo massimo è 15 giorni. Dunque è corretta la B; 45/30 giorni non si applicano e non è vero che non servano consultazioni.",
+      "legal_reference": "ET (RDL 2/2015) art. 51.1 (umbrales) y art. 51.2 (período de consultas: 15 días en empresas <50).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "27. La empresa Delta Lambda, con una plantilla de 75 trabajadores, quiere despedir a 25 de ellos por causa económica (pérdidas en el último año). La empresa tiene un solo centro de trabajo, no existiendo representantes de los trabajadores. Para proceder al despido de los 25 empleados, la empresa debe:",
+      "answers": [
+        {
+          "text": "Realizar las gestiones correspondientes para que los trabajadores constituyan una comisión elegida por ellos, para a continuación iniciar el período de consultas con dicha comisión y seguir el procedimiento de despido colectivo. - CORRETTA.",
+          "correct": true
+        },
+        {
+          "text": "Iniciar el período de consultas con los 25 empleados afectados.",
+          "correct": false
+        },
+        {
+          "text": "Solicitar autorización de despido colectivo de la autoridad laboral.",
+          "correct": false
+        },
+        {
+          "text": "Realizar despidos objetivos individuales, pues la inexistencia de representantes de los trabajadores impide utilizar el procedimiento de despido colectivo.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Al superar el umbral de despido colectivo, es obligatorio el procedimiento del art. 51 ET. Si no hay representantes, la negociación del período de consultas se realiza con una comisión representativa constituida conforme al ET (comisión elegida por los trabajadores o, en su caso, designada por sindicatos legitimados). No se negocia “con cada afectado” individualmente, no existe hoy una autorización administrativa previa como requisito general, y la falta de representantes no impide el despido colectivo: obliga a articular la comisión.\nIT: Superata la soglia del licenziamento collettivo, si applica obbligatoriamente l’art. 51 ET. Se non esistono rappresentanti, le consultazioni si svolgono con una commissione rappresentativa costituita secondo l’ET (commissione eletta dai lavoratori o designata dai sindacati legittimati). Non si negozia individualmente con ciascun licenziato; non è richiesta, come regola generale, un’autorizzazione amministrativa preventiva; e l’assenza di rappresentanza non blocca la procedura, ma impone la commissione.",
+      "legal_reference": "ET (RDL 2/2015) art. 51.2 (comisión representativa y período de consultas); RD 1483/2012 (procedimiento de despido colectivo, reglas operativas).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "28. ¿Cuál es la duración del descanso mínimo entre jornadas? Marque la respuesta correcta.",
+      "answers": [
+        {
+          "text": "Entre el final de una jornada y el comienzo de la siguiente deben mediar, como mínimo, 14 horas.",
+          "correct": false
+        },
+        {
+          "text": "Entre el final de una jornada y el comienzo de la siguiente deben mediar, como mínimo, nueve horas.",
+          "correct": false
+        },
+        {
+          "text": "El descanso mínimo entre jornadas será como mínimo de doce horas, salvo que haya acuerdo entre empresario y trabajador que disponga una duración inferior en contrato - CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "El descanso mínimo entre jornadas será de un día y medio.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La regla general del ET es 12 horas mínimas entre el final de una jornada y el inicio de la siguiente. Por eso, en un test, la opción que pretende ser correcta es la C (porque recoge “doce horas”). No obstante, el inciso final de la C (“salvo que haya acuerdo… en contrato”) no es correcto como regla general: el mínimo de 12 horas no se reduce por acuerdo individual; solo hay modulaciones en supuestos tasados de jornadas especiales y con descansos compensatorios (p. ej., RD 1561/1995). Las opciones A, B y D son incorrectas en el régimen general.\nIT: La regola generale dell’ET è un minimo di 12 ore tra una giornata e l’altra. Perciò, in un test, la risposta corretta “di fatto” è la C (perché indica le 12 ore). Tuttavia, la clausola finale della C (riduzione per accordo individuale in contratto) non è corretta come regola generale: il minimo non si deroga con accordo individuale; eventuali riduzioni sono previste solo in casi tipizzati di jornadas especiales e con riposi compensativi (es. RD 1561/1995). A, B e D sono errate nel regime generale.",
+      "legal_reference": "ET (RDL 2/2015) art. 34.3; RD 1561/1995 (jornadas especiales: modulaciones con compensación).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "29. La calificación de una huelga como abusiva, legal o ilícita, corresponde:",
+      "answers": [
+        {
+          "text": "Al orden social de la jurisdicción, con carácter posterior a su celebración, a través de un procedimiento especial celebrado a instancia del empresario. - CORRETTA.",
+          "correct": true
+        },
+        {
+          "text": "A la autoridad laboral, con carácter previo al desarrollo de la huelga, mediante resolución motivada.",
+          "correct": false
+        },
+        {
+          "text": "A la autoridad laboral, con carácter previo al desarrollo de la huelga, autorizando los servicios mínimos.",
+          "correct": false
+        },
+        {
+          "text": "No a la misma, y estableciendo, con carácter posterior a la huelga, la autoridad las sanciones correspondientes a los trabajadores por participar en la huelga.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La licitud/ilicitud o carácter abusivo de una huelga se enjuicia por el orden social (jueces/tribunales sociales), normalmente a posteriori y a través de los cauces procesales laborales (frecuentemente por conflicto colectivo). La autoridad laboral no “declara” la huelga legal o ilegal por resolución previa; y aunque en servicios esenciales se fijan servicios mínimos, eso no equivale a calificar la huelga como lícita/ilícita.\nIT: La qualificazione di uno sciopero (lecito/illecito/abusivo) è materia del giudice del lavoro (ordine sociale), di regola ex post, tramite i procedimenti del contenzioso collettivo. L’autorità amministrativa non “dichiara” preventivamente la legalità dello sciopero; e la determinazione dei servizi minimi nei servizi essenziali non è una qualificazione di liceità/illiceità.",
+      "legal_reference": "CE art. 28.2; RDL 17/1977 (régimen de huelga); LRJS (Ley 36/2011) art. 153 (conflicto colectivo) y reglas de jurisdicción del orden social.",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "30. ¿Cuál es el número máximo de horas ordinarias de trabajo efectivo al día? Marque la respuesta correcta.",
+      "answers": [
+        {
+          "text": "Nueve horas, salvo que por convenio colectivo o, en su defecto, acuerdo entre la empresa y los representantes de los trabajadores, se establezca otra distribución del tiempo de trabajo diario, respetando en todo caso el descanso entre jornadas. En el caso de menores de dieciocho años el máximo será de ocho horas.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "Diez horas, salvo que por convenio colectivo o, en su defecto, acuerdo entre la empresa y los representantes de los trabajadores, se establezca otra distribución del tiempo de trabajo diario, respetando en todo caso el descanso entre jornadas. El mismo límite se aplica a los menores de dieciocho años.",
+          "correct": false
+        },
+        {
+          "text": "Ocho horas, salvo que por convenio colectivo o, en su defecto, acuerdo entre la empresa y los representantes de los trabajadores, se establezca otra distribución del tiempo de trabajo diario respetando en todo caso el descanso entre jornadas. El mismo límite se aplica a los menores de dieciocho años.",
+          "correct": false
+        },
+        {
+          "text": "La legislación laboral no fija el máximo remitiéndose en esta cuestión a lo pactado en convenio colectivo del sector.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El ET fija el máximo general de 9 horas ordinarias de trabajo efectivo al día, con posibilidad de otra distribución por convenio o acuerdo con representantes, pero respetando el descanso entre jornadas. Para menores de 18 años, el máximo es 8 horas. Por ello la opción A es correcta; las demás alteran el máximo o niegan erróneamente su existencia.\nIT: L’ET stabilisce un massimo generale di 9 ore ordinarie di lavoro effettivo al giorno, modificabile nella distribuzione solo via CC o accordo con rappresentanti, rispettando comunque i riposi. Per i minori, massimo 8 ore. Quindi è corretta la A; le altre sono errate.",
+      "legal_reference": "ET (RDL 2/2015) art. 34.3.",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "PREGUNTAS DE RESERVA:\n1. Ana María, empleada de la mercantil Hivi S.L. en su sede de Sevilla, recibe comunicación de que su plazo de ejecución de sus deberes pasa a realizarse en el centro de trabajo que la empresa tiene en Huelva, como consecuencia de la necesidad de cubrir las vacaciones de sus compañeros durante un período de dos meses. Indique la respuesta correcta.",
+      "answers": [
+        {
+          "text": "Se considera que ha habido un traslado ya que no depende de la voluntad de la trabajadora y la empresa deberá comunicarlo con una antelación mínima de 5 días, reconociendo a la trabajadora el derecho de opción entre el traslado o la extinción del contrato.",
+          "correct": false
+        },
+        {
+          "text": "Se considera que hay una modificación sustancial de las condiciones de trabajo por lo que se deberá respetar el preaviso de 15 días que la ley establece, sin derecho de opción para la trabajadora por el despido indemnizado.",
+          "correct": false
+        },
+        {
+          "text": "Se considera un desplazamiento temporal por lo que Ana María tiene derecho a percibir gastos de viaje y dietas durante el período que dure el desplazamiento.- CORRETTA",
+          "correct": true
+        },
+        {
+          "text": "Se considera un desplazamiento temporal por el que la empresa deberá pagar a Ana María el doble de su salario.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Un cambio temporal (dos meses) de centro a otra localidad encaja en el desplazamiento (movilidad geográfica temporal). En tal caso, el trabajador tiene derecho a gastos de viaje y dietas/compensaciones durante el desplazamiento. No es traslado (que implica vocación de permanencia y abre la opción de extinguir con 20 días/año), ni MSCT del art. 41.\nIT: Uno spostamento per due mesi in altra località è un “desplazamiento” (mobilità geografica temporanea). Spettano spese di viaggio e diete/indennità per la durata. Non è “traslado” (più stabile e con opzione di risoluzione indennizzata), né una MSCT ex art. 41.",
+      "legal_reference": "ET (RDL 2/2015) art. 40.6 (desplazamientos) y art. 40.1 (traslados: opción e indemnización).",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
+    },
+    {
+      "question": "2. En la empresa Piratas del Estrecho S.A. fallece un trabajador en accidente laboral. Al día siguiente, todos los trabajadores de la empresa realizan una jornada de parón laboral absteniéndose de prestar servicios durante 5 horas. ¿Puede considerarse una huelga \"legal\"?",
+      "answers": [
+        {
+          "text": "Sí, por falta de preaviso. - CORRETTA.",
+          "correct": false
+        },
+        {
+          "text": "No, porque si no es una huelga dura menos de 24 horas no es necesario el preaviso.",
+          "correct": false
+        },
+        {
+          "text": "No, porque no es una huelga, tan solo una protesta impartida en el centro de trabajo sin manifestación.",
+          "correct": false
+        },
+        {
+          "text": "Sí, porque están prohibidas las huelgas de solidaridad o apoyo.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Con los datos del enunciado, se trata de un cese colectivo de la prestación durante 5 horas (huelga), y la regla general exige preaviso (mínimo 5 días) y comunicación formal. La duración (5 horas) no elimina el preaviso. Por tanto, tal actuación no sería “huelga legal” por falta de preaviso y requisitos formales. La opción A parece contener un error lógico (dice “Sí” precisamente por falta de preaviso), pero jurídicamente la consecuencia del defecto formal es la falta de legalidad, no lo contrario. La D también es errónea porque las huelgas de solidaridad no están “siempre prohibidas” en bloque: su licitud depende de su conexión con intereses laborales/profesionales.\nIT: Dai fatti, è un’astensione collettiva di 5 ore (sciopero) e la regola generale impone preavviso (almeno 5 giorni) e comunicazione formale. La durata non elimina il preavviso. Quindi non sarebbe uno sciopero “legale” se manca il preavviso e gli adempimenti. La A è incoerente (afferma “Sì” proprio per mancanza di preavviso), ma giuridicamente l’assenza di preavviso porta alla non conformità. Anche la D è errata: gli scioperi di solidarietà non sono automaticamente vietati; la liceità dipende dalla connessione con interessi lavorativi/professionali.",
+      "legal_reference": "RDL 17/1977 art. 3 (preaviso mínimo 5 días) y art. 4 (10 días en servicios públicos); CE art. 28.2; doctrina constitucional (STC 11/1981) sobre límites del derecho de huelga.",
+      "original_file": "Trabajo y RL 2° parziale aggiornato 01 10 25.docx"
     }
   ]
 }
