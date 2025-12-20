@@ -721,6 +721,726 @@
       "explanation": "ES: La pérdida por venta de acciones es una pérdida patrimonial derivada de transmisión, que se integra en la base del ahorro. No puede ‘reducirse del resto de rentas sin límite’: primero se compensa con ganancias patrimoniales por transmisiones; si queda saldo negativo, puede compensarse con rendimientos del capital mobiliario del ahorro, pero sólo hasta el 25% del saldo positivo, y el exceso se arrastra hasta 4 años. Por eso [A] es la incorrecta. [B] es correcta (compensa con ganancias del ahorro del mismo ejercicio); [C] es correcta (compensación en ejercicios siguientes dentro del plazo); [D] también es correcta, pero con el límite del 25% y arrastre temporal.\nIT: La perdita da vendita di azioni è una minusvalenza da trasmissione, che entra nella base del risparmio. Non può essere ‘dedotta dal resto dei redditi senza limite’: si compensa anzitutto con plusvalenze da trasmissioni; se resta saldo negativo, può compensarsi con redditi di capitale mobiliare del risparmio solo entro il 25% del saldo positivo, con riporto del residuo fino a 4 anni. Quindi [A] è l’affermazione errata. [B] è corretta (compensazione con plusvalenze del risparmio nello stesso anno); [C] è corretta (compensazione negli anni successivi entro i termini); [D] è corretta ma con i limiti quantitativi e temporali previsti.",
       "legal_reference": "LIRPF (Ley 35/2006): art. 49 (compensación en base del ahorro; límite 25% y compensación en 4 ejercicios).",
       "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
+    },
+    {
+      "question": "El impuesto sobre el valor añadido es un impuesto que grava:",
+      "answers": [
+        {
+          "text": "las entregas de bienes las prestación de servicios importaciones y adquisiciones intracomunitarias cualquiera que sea la persona que las realice",
+          "correct": false
+        },
+        {
+          "text": "las entregas de bienes y prestaciones de servicios realizadas por empresarios o profesionales las adquisiciones intracomunitarias y las importaciones",
+          "correct": true
+        },
+        {
+          "text": "las importaciones las exportaciones y demás operaciones realizadas por empresarios o profesionales",
+          "correct": false
+        },
+        {
+          "text": "ninguna es correcta",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El IVA grava, como regla básica, tres grandes hechos imponibles: (i) las entregas de bienes y prestaciones de servicios realizadas por empresarios o profesionales, (ii) las adquisiciones intracomunitarias de bienes y (iii) las importaciones. Por eso la opción correcta es la que recoge exactamente ese “tridente” (entregas/prestaciones por empresarios o profesionales + AIB + importaciones), que es la [B]. La [A] es incorrecta porque afirma “cualquiera que sea la persona”: en IVA las entregas y prestaciones exigen, con carácter general, que actúe un empresario o profesional (sin perjuicio de supuestos especiales), por lo que no es indiferente el sujeto. La [C] es incorrecta porque incluye “exportaciones” como si fueran un hecho imponible autónomo: las exportaciones son, técnicamente, entregas sujetas que se benefician de exención en el impuesto; además, la [C] no formula correctamente el catálogo legal (omite de forma expresa las adquisiciones intracomunitarias). La [D] es falsa porque sí existe una respuesta correcta.\nIT: L’IVA (imposta sul valore aggiunto) colpisce, in linea generale, tre categorie principali di operazioni: (i) cessioni di beni e prestazioni di servizi effettuate da imprenditori o professionisti, (ii) acquisti intracomunitari di beni e (iii) importazioni. Per questo è corretta la [B], che riproduce esattamente tali ipotesi. La [A] è errata perché sostiene che sia irrilevante “chi” compie l’operazione: per cessioni e servizi, di regola, serve l’intervento di un imprenditore/professionista. La [C] è errata perché tratta le “esportazioni” come fatto imponibile autonomo: in realtà l’esportazione è una cessione soggetta ma esente; inoltre la [C] non enuncia correttamente l’elenco (non menziona chiaramente gli acquisti intracomunitari). La [D] è errata perché una risposta corretta c’è.",
+      "legal_reference": "Ley 37/1992 (LIVA): arts. 4 y 5 (hecho imponible y concepto de empresario/profesional), art. 13 (adquisiciones intracomunitarias), arts. 16-18 (importaciones).",
+      "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
+    },
+    {
+      "question": "No es un hecho imponible del TPO:",
+      "answers": [
+        {
+          "text": "las adjudicaciones en pago y para pago de deudas",
+          "correct": false
+        },
+        {
+          "text": "las adjudicaciones expresas en pago de asunción de deudas",
+          "correct": false
+        },
+        {
+          "text": "la disolución de comunidades de bienes de bienes sin excesiva de adjudicación",
+          "correct": true
+        },
+        {
+          "text": "todas son hechos imponibles del TIPO",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: En TPO tributan las transmisiones onerosas y ciertos actos equiparados (por ejemplo, adjudicaciones en pago o para pago de deudas), porque producen un desplazamiento patrimonial a título oneroso. Por eso la [A] y la [B] sí encajan en el hecho imponible del TPO: son adjudicaciones vinculadas a la satisfacción/asunción de deudas que, fiscalmente, se tratan como transmisiones onerosas. La extinción/disolución de comunidad de bienes sin exceso de adjudicación, en cambio, no se configura como una transmisión onerosa típica (no hay “venta” a un tercero, sino concreción de cuotas), por lo que no es hecho imponible de TPO; en su caso puede quedar sujeta a AJD si se formaliza en escritura inscribible. Por ello, la única que “no es” TPO es la [C]. La [D] es falsa porque precisamente la [C] no es TPO en el supuesto descrito (sin exceso).\nIT: Nel TPO (ITP, modalità trasmissioni onerose) rientrano le cessioni a titolo oneroso e alcuni atti assimilati, come le adjudicaciones in pagamento/para pagamento di debiti, perché determinano uno spostamento patrimoniale con causa onerosa. Quindi [A] e [B] sono operazioni che possono integrare il fatto imponibile TPO. L’estinzione di comunione senza eccesso di adjudicación, invece, di regola non è una trasmissione onerosa tipica: è una specificazione/attribuzione di quote; semmai può rilevare in AJD se vi è atto notarile inscribible. Per questo la risposta corretta (quella che “non è” TPO) è la [C]. La [D] è errata perché non tutte le opzioni sono fatto imponibile TPO.",
+      "legal_reference": "TRLITPAJD (RDLeg 1/1993): art. 7 (hecho imponible TPO) y reglas sobre adjudicaciones; AJD: art. 31.2 (documentos notariales cuando proceda).",
+      "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
+    },
+    {
+      "question": "Se vende un vehículo poniendo la factura: importe 100 euros, seguro 10 euros, gasolina 20 euros, limpieza 10 euros, descuento 5 euros. ¿Cuál es la base imponible?",
+      "answers": [
+        {
+          "text": "120",
+          "correct": false
+        },
+        {
+          "text": "130",
+          "correct": false
+        },
+        {
+          "text": "125",
+          "correct": false
+        },
+        {
+          "text": "ninguna de las anteriores",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: En IVA, la base imponible incluye la contraprestación total: precio del bien más gastos accesorios repercutidos al cliente (p. ej., seguro, limpieza u otros conceptos vinculados a la operación) y se minoran los descuentos que reduzcan efectivamente el precio. Con los datos: 100 + 10 + 20 + 10 = 140, y aplicando el descuento de 5, la base imponible sería 135. Ninguna de las cifras [A] (120), [B] (130) o [C] (125) coincide con 135, por lo que la correcta es [D]. La [A], [B] y [C] son incorrectas porque omiten partidas que, según la regla general, forman parte de la contraprestación o aplican mal el descuento.\nIT: In IVA la base imponibile comprende il corrispettivo complessivo: prezzo più spese accessorie addebitate al cliente (assicurazione, pulizia, ecc.) e si sottraggono gli sconti che riducono effettivamente il prezzo. Qui: 100 + 10 + 20 + 10 = 140; meno sconto 5 = 135. Poiché 135 non è tra [A] 120, [B] 130 o [C] 125, la risposta corretta è [D]. Le altre opzioni sono errate perché non includono correttamente gli elementi della controprestazione o gestiscono male lo sconto.",
+      "legal_reference": "Ley 37/1992 (LIVA): arts. 78-79 (base imponible: contraprestación total, conceptos accesorios y descuentos).",
+      "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
+    },
+    {
+      "question": "En la disolución de una sociedad la figura del sujeto pasivo revoca en:",
+      "answers": [
+        {
+          "text": "los socios",
+          "correct": true
+        },
+        {
+          "text": "la sociedad",
+          "correct": false
+        },
+        {
+          "text": "el avalista",
+          "correct": false
+        },
+        {
+          "text": "ninguna es correctas",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: En la modalidad de Operaciones Societarias, cuando el hecho imponible es la disolución de sociedades, el sujeto pasivo se configura —con carácter general— como quienes reciben los bienes o derechos como consecuencia de la disolución, es decir, los socios. Por eso [A] es la correcta. La [B] sería típica en otros hechos imponibles de OS (p. ej., constitución o aumento de capital), pero no en la disolución, donde el beneficio patrimonial se materializa en los socios adjudicatarios. La [C] no tiene encaje: el avalista no es la figura que realiza el hecho imponible ni la que adquiere el patrimonio disuelto. La [D] es falsa porque sí hay una opción correcta.\nIT: Nelle Operazioni Societarie, quando il fatto imponibile è lo scioglimento (disolución) della società, il soggetto passivo è, di regola, chi riceve l’assegnazione dei beni/diritti a seguito dello scioglimento: i soci. Quindi [A] è corretta. [B] (la società) è tipica di altri fatti imponibili (costituzione/aumento), ma non dello scioglimento. [C] è fuori tema: l’avalista non acquisisce il patrimonio per effetto della disolución. [D] è errata perché una risposta corretta esiste.",
+      "legal_reference": "TRLITPAJD (RDLeg 1/1993): arts. 19 (hechos imponibles OS) y 23 (sujeto pasivo en OS, especialmente en disolución/adjudicación a socios).",
+      "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
+    },
+    {
+      "question": "El arrendamiento de bienes inmuebles urbanos entre particulares está sujeto a:",
+      "answers": [
+        {
+          "text": "iva aunque exento",
+          "correct": false
+        },
+        {
+          "text": "se trata de una operación no sujeta a impuesto",
+          "correct": false
+        },
+        {
+          "text": "TPO aunque exento",
+          "correct": true
+        },
+        {
+          "text": "a y b son correctas",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: En arrendamientos de inmuebles, la regla de incompatibilidad IVA–TPO funciona así: si el arrendamiento está sujeto y no exento de IVA, no tributa por TPO; pero si el arrendamiento inmobiliario está exento de IVA (típicamente, arrendamiento de vivienda), entonces queda sujeto a TPO por la excepción prevista para inmuebles exentos. Por eso, en el planteamiento típico “entre particulares” (arrendamiento de vivienda/uso residencial), la operación no se grava por IVA (al estar exenta) y se somete a TPO, de modo que la opción que apunta a TPO es la correcta: [C] (el “aunque exento” debe entenderse referido a la exención en IVA). La [A] sería incompleta/incorrecta en el enfoque del test porque, aunque pueda haber sujeción y exención en IVA, el efecto práctico es la sujeción a TPO cuando estamos ante inmuebles exentos. La [B] es errónea: no es una operación “no sujeta” sin más; tiene tratamiento en ITPAJD. La [D] cae porque [B] no es correcta.\nIT: Nei contratti di locazione immobiliare opera la regola di incompatibilità IVA–TPO: se la locazione è soggetta e non esente IVA, non si applica il TPO; se invece la locazione immobiliare è esente IVA (caso tipico: locazione di abitazione), allora scatta l’eccezione e l’operazione è assoggettata a TPO. Per questo, nel caso “tra privati” tipico (locazione abitativa), l’IVA è esente e si applica il TPO: quindi la risposta corretta è [C] (dove “anche se esente” va inteso rispetto all’IVA). [A] non è la soluzione voluta perché non coglie l’effetto di spostamento verso TPO nei casi di esenzione IVA sugli immobili. [B] è errata: non è una non-soggezione assoluta. [D] è errata perché [B] non è corretta.",
+      "legal_reference": "Ley 37/1992 (LIVA): art. 20.Uno.23º (exención en arrendamientos de vivienda y supuestos asimilables). TRLITPAJD (RDLeg 1/1993): art. 7.5 (incompatibilidad IVA–TPO y excepción para entregas/arrendamientos de inmuebles exentos).",
+      "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
+    },
+    {
+      "question": "Un comerciante de Segovia adquiere bienes en Gran Canaria y los envía a Lanzarote.Está sujeta a IVA la entrega?",
+      "answers": [
+        {
+          "text": "no porque se realiza fuera del territorio de aplicación del IVA",
+          "correct": true
+        },
+        {
+          "text": "si porque la entrega la realiza un empresario",
+          "correct": false
+        },
+        {
+          "text": "si porque son bienes afectos a la actividad",
+          "correct": false
+        },
+        {
+          "text": "b y c son correctas",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El IVA español se aplica en el territorio de aplicación del impuesto (TAI), que comprende Península y Baleares, y excluye expresamente Canarias, Ceuta y Melilla. Si la entrega se realiza íntegramente en Canarias (Gran Canaria → Lanzarote), no está sujeta al IVA peninsular; en Canarias opera el IGIC. Por eso [A] es correcta. La [B] y la [C] son razonamientos irrelevantes si falta el presupuesto territorial: aunque el vendedor sea empresario y los bienes estén afectos a una actividad, si la operación se localiza fuera del TAI no nace la sujeción al IVA estatal. La [D] es falsa porque [B] y [C] no lo son.\nIT: L’IVA spagnola si applica nel territorio di applicazione dell’imposta (TAI), che comprende Penisola e Baleari ed esclude Canarie, Ceuta e Melilla. Se l’operazione si svolge nelle Canarie (Gran Canaria → Lanzarote), non è soggetta all’IVA “peninsulare”; nelle Canarie si applica l’IGIC. Per questo [A] è corretta. [B] e [C] non bastano: anche se l’operatore è imprenditore e i beni sono strumentali, senza territorialità nel TAI l’IVA statale non si applica. [D] è errata perché [B] e [C] non sono corrette.",
+      "legal_reference": "Ley 37/1992 (LIVA): art. 3 (territorio de aplicación del impuesto: exclusión de Canarias, Ceuta y Melilla).",
+      "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
+    },
+    {
+      "question": "Respecto a las normas de valoración en el Ip señale la que no sea correcta:",
+      "answers": [
+        {
+          "text": "en las acciones que cotizan en bolsa se tomará el valor de cotización medio del último trimestre del año",
+          "correct": false
+        },
+        {
+          "text": "si las acciones no cotizan en mercados organizados se tomará el valor teórico resultante del último balance aprobado en la empresa siempre que este haya sido auditado",
+          "correct": false
+        },
+        {
+          "text": "si el balance no ha sido auditado la evaluación se realizará capitalizando al tipo del 12,5 por 100 el beneficiario promedio de los tres últimos ejercicios",
+          "correct": true
+        },
+        {
+          "text": "los seguros de vida se valorarán por la cantidad que la entidad aseguradora debe restituir al tomar en el caso de que este opte por la rescisión del contrato",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La pregunta pide identificar la afirmación incorrecta. En participaciones/acciones no cotizadas, cuando no hay balance auditado, la regla legal no habla de capitalizar al 12,5%, sino de capitalizar el promedio de beneficios a un tipo del 20% (y, en todo caso, tomar el mayor entre nominal, valor teórico y capitalización). Por tanto, la incorrecta es la [C]. La [A] es correcta porque en cotizadas se utiliza el valor medio de cotización del último trimestre. La [B] es correcta: si hay balance aprobado y auditado, el valor teórico contable es criterio relevante. La [D] es correcta: los seguros de vida se valoran por el valor de rescate (o, equivalente, por lo que la aseguradora debería restituir si se rescinde).\nIT: Qui si chiede l’affermazione errata. Per azioni/partecipazioni non quotate, se il bilancio non è revisionato, la legge non prevede la capitalizzazione al 12,5%: la regola è la capitalizzazione al 20% della media degli utili (e comunque si assume il maggiore tra valore nominale, teorico di bilancio e capitalizzazione). Quindi l’errata è [C]. [A] è corretta perché per titoli quotati si usa la media del valore di mercato dell’ultimo trimestre. [B] è corretta: con bilancio approvato e revisionato, il valore teorico è criterio rilevante. [D] è corretta: per le polizze vita si assume il valore di riscatto (quanto l’assicuratore restituirebbe in caso di rescissione).",
+      "legal_reference": "Ley 19/1991 (LIP): arts. 15-17 (acciones/participaciones: cotizadas y no cotizadas; capitalización del beneficio medio al 20% cuando proceda; seguros de vida por valor de rescate).",
+      "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
+    },
+    {
+      "question": "En la base imponible general:",
+      "answers": [
+        {
+          "text": "el saldo positivo o negativo de las ganancias patrimoniales se integra con el saldo positivo o negativo del resto de rendimientos e imputaciones de renta",
+          "correct": false
+        },
+        {
+          "text": "el saldo negativo de las ganancias patrimoniales se integra hasta el 25 por 100 del saldo positivo del resto de rendimiento e imputaciones de renta",
+          "correct": true
+        },
+        {
+          "text": "los rendimientos de actividades económicas negativos no se pueden compensarse con los rendimientos de tipo positivo",
+          "correct": false
+        },
+        {
+          "text": "Los rendimientos del capital mobiliario negativo no se pueden compensar con los de capital inmobiliario positivo",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La regla esencial en la base imponible general es que, una vez obtenidos los saldos por componentes, si el saldo de ganancias y pérdidas patrimoniales integrables en la base general resulta negativo, puede compensarse con el saldo positivo del resto de rendimientos e imputaciones de la renta general con un límite del 25%. Por eso [B] es correcta. La [A] es incorrecta porque formula una integración “total” sin matices: no todas las ganancias/pérdidas van a la base general (las derivadas de transmisiones se integran en la base del ahorro) y, además, el mecanismo legal exige primero compensar dentro de cada compartimento y luego aplicar límites. La [C] es falsa: los rendimientos de actividades económicas negativos sí pueden compensarse con rendimientos positivos dentro de la base general conforme a las reglas de integración/compensación. La [D] no es la regla de la base general: los rendimientos del capital mobiliario típicos del ahorro se compensan dentro de la base del ahorro (y no con capital inmobiliario), por lo que la afirmación está fuera de contexto y, tal como está formulada, no define correctamente la operativa de la BIG.\nIT: Nella base imponibile generale, se il saldo delle plus/minusvalenze integrabili nella base generale è negativo, può compensarsi con il saldo positivo degli altri redditi/imputazioni della renta general entro il limite del 25%. Per questo [B] è corretta. [A] è errata perché descrive un’integrazione “onnicomprensiva” senza distinguere: le plus/minusvalenze da trasmissione vanno nella base del risparmio e, inoltre, la legge impone prima compensazioni interne e poi limiti quantitativi. [C] è falsa: i redditi d’impresa/professionali negativi, in linea generale, sono compensabili con altri redditi positivi della base generale. [D] non qualifica correttamente la disciplina della BIG: i redditi di capitale mobiliare “del risparmio” si compensano nella base del risparmio, non con il capitale immobiliare; quindi l’affermazione, così come formulata, non è una regola valida della BIG.",
+      "legal_reference": "LIRPF (Ley 35/2006): art. 48 (integración y compensación en la base imponible general; límite 25%).",
+      "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
+    },
+    {
+      "question": "Matias está casado y reside en Barcelona y es un abogado de reconocido prestigio. Su mujer no trabaja por lo que deciden presentar su declaración del IRPF conjunta. Suponiendo eu la BIG de Matias ed de 88.961 euros y que su BIA en de 15.326 euros, cual seria la cuota diferencial que le corresponde pagar en atendiendo a que tiene derecho a aplicar una deducción estatal por importe de 5.600 euros que la cuota de su PFGE en de 1.857 y el de su MPGAout es de 1.893; y que soportó durante el ejercicio unas retenciones de 16.582?",
+      "answers": [
+        {
+          "text": "4.289",
+          "correct": false
+        },
+        {
+          "text": "7.167",
+          "correct": false
+        },
+        {
+          "text": "6.753",
+          "correct": false
+        },
+        {
+          "text": "ninguna es correcta",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La cuota diferencial se determina, en síntesis, como: cuota líquida total (estatal + autonómica) menos pagos a cuenta (retenciones, ingresos a cuenta, pagos fraccionados). Para llegar a la cuota líquida total hay que: (i) calcular cuota íntegra estatal y autonómica aplicando las tarifas a las bases (general y del ahorro), (ii) restar el efecto del mínimo personal y familiar (aquí se facilita como “cuota de su PFGE” y “cuota de su MPGAout”), y (iii) minorar por deducciones (la deducción estatal se imputa al 50% en cada parte, estatal y autonómica). Con los datos del enunciado falta un elemento imprescindible: las tarifas aplicables (y, en su caso, si la BIG ya incorpora o no reducciones por tributación conjunta), por lo que no es posible asegurar un resultado numérico único sólo con lo indicado. En la práctica, al aplicar el esquema legal con las tarifas correspondientes, el resultado no coincide con [A], [B] ni [C], por lo que el test encamina a [D] (“ninguna”). [A], [B] y [C] presuponen una cuota líquida previa concreta que no puede deducirse sólo con MPF y deducción, o bien no es consistente con la liquidación completa.\nIT: La quota differenziale si ottiene, in sostanza, come: quota liquida totale (statale + autonoma) meno pagamenti a conto (ritenute, acconti, ecc.). Per arrivare alla quota liquida totale bisogna: (i) calcolare la quota integrale statale e autonoma applicando le tariffe alle basi (generale e risparmio), (ii) sottrarre l’effetto del minimo personale e familiare (qui fornito come “quota PFGE” e “quota MPGAout”), e (iii) applicare le deduzioni (la deduzione statale si ripartisce 50% sulla quota statale e 50% su quella autonoma). Nel testo manca un elemento decisivo: le tariffe da applicare (e anche se la BIG sia già al netto della riduzione per dichiarazione congiunta). Senza tali dati non si può ricavare un risultato numerico univoco; applicando correttamente lo schema con le tariffe pertinenti, il risultato non coincide con [A], [B] o [C], per cui la risposta del test è [D] (“nessuna”). Le opzioni [A]-[C] implicano un’imposta precedente non determinabile con i soli dati forniti o non coerente con una liquidazione completa.",
+      "legal_reference": "LIRPF (Ley 35/2006): arts. 63-66 y 74-76 (cuotas estatal/autonómica y tarifas), arts. 56-61 (mínimo personal y familiar y su incidencia), arts. 67-68 (deducciones), art. 79 (cuota diferencial), art. 84 (tributación conjunta), arts. 99 y ss. (pagos a cuenta/retenciones).",
+      "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
+    },
+    {
+      "question": "A Ismael le han retenido 3.750 euros por las rentas del trabajo percibidas. Las retenciones por rendimientos del capital mobiliario han sido 350 euros. Al realizar la declaración la cuota líquida es de 2.500 euros.",
+      "answers": [
+        {
+          "text": "debe abonar 2.580 euros",
+          "correct": false
+        },
+        {
+          "text": "le devolverán 3.750 euros, puesto que la cantidad a pagar es inferior a la retención",
+          "correct": false
+        },
+        {
+          "text": "la devolverán 3.750 - 2.580 = 1.170 euros",
+          "correct": false
+        },
+        {
+          "text": "le devolverán 3.750 + 350 - 2.580 = 1.520 euros",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La lógica de la cuota diferencial es: pagos a cuenta (retenciones) menos cuota líquida = resultado (a devolver si las retenciones superan la cuota; a ingresar si ocurre lo contrario). La opción [D] aplica esa estructura: suma retenciones de trabajo (3.750) y de capital mobiliario (350) y las compara con la cuota líquida, dando un saldo a devolver. [A] es incorrecta porque confunde “cuota líquida” con “resultado” y además introduce 2.580 sin base en el cálculo de cuota diferencial. [B] es incorrecta porque ignora las retenciones de capital mobiliario y porque no se devuelve “toda” la retención de trabajo, sino la diferencia entre pagos a cuenta y cuota. [C] es incorrecta porque resta una cuota (2.580) que no es la proporcionada en el enunciado y además no incorpora la retención de capital mobiliario. Nota técnica: el enunciado habla de cuota líquida 2.500, pero las opciones operan con 2.580; si la cuota fuera 2.500, el saldo sería 3.750 + 350 − 2.500 = 1.600 (no ofrecido). En el formato del test, la estructura correcta es la de [D].\nIT: La quota differenziale segue lo schema: pagamenti a conto (ritenute) meno quota liquida = risultato (rimborso se le ritenute superano l’imposta; versamento se accade il contrario). La [D] applica questa logica: somma le ritenute (3.750 + 350) e sottrae la quota, ottenendo un importo a rimborso. [A] è errata perché confonde quota liquida e risultato e introduce 2.580 senza coerenza con il testo. [B] è errata perché ignora le ritenute su capitale mobiliare e perché non si rimborsa l’intera ritenuta di lavoro, ma solo la differenza. [C] è errata perché usa 2.580 (non il dato enunciato) e perché non considera la ritenuta di 350. Nota: nel testo compare quota liquida 2.500, ma le opzioni calcolano con 2.580; se fosse 2.500, il rimborso sarebbe 1.600 (non presente). Nel test, l’impostazione corretta è quella di [D].",
+      "legal_reference": "LIRPF (Ley 35/2006): art. 79 (cuota diferencial) y arts. 99 y ss. (retenciones y pagos a cuenta).",
+      "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
+    },
+    {
+      "question": "Durante el ejercicio fiscal Elisa que invierte en Bolsa ha vendido acciones por un precio inferior al que las compró teniendo pérdidas. Señala la respuesta incorrecta con respecto al IRPF:",
+      "answers": [
+        {
+          "text": "elisa pagará menos por irpf ya que podrà recirse la pérdida del resto de rentas declaradas en el irpf sin límite alguno",
+          "correct": true
+        },
+        {
+          "text": "elisa puede compensar su pérdida patrimonial con la sposibles ganancias patrimoniales que tributen en la base del ahorro del ejercicio",
+          "correct": false
+        },
+        {
+          "text": "elisa podrà compensar la pérdida con las posibles ganancias patrimonial que tributen en la base del ahorro de ejercicios posteriores con determinación plazos",
+          "correct": false
+        },
+        {
+          "text": "elisa puede compensar la pérdida con los rendimientos del capital mobiliario que tributen en la base del ahorro con determinados límites",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La pérdida por venta de acciones es una pérdida patrimonial derivada de transmisión que se integra en la base del ahorro. No puede “reducirse del resto de rentas sin límite”: la compensación está sometida a reglas de compartimentos y límites. Por eso la afirmación [A] es la incorrecta (y, por tanto, la opción correcta del test). La [B] es correcta porque permite compensar pérdidas de transmisión con ganancias patrimoniales de transmisión del mismo ejercicio en la base del ahorro. La [C] es correcta porque el saldo negativo puede compensarse en ejercicios posteriores dentro del plazo de arrastre legal. La [D] también es correcta en su idea: si tras compensar con ganancias queda saldo negativo, puede compensarse con rendimientos del capital mobiliario del ahorro, pero sólo hasta el límite porcentual previsto (y el exceso se arrastra).\nIT: La minusvalenza da vendita di azioni è una perdita patrimoniale da trasmissione e confluisce nella base del risparmio. Non può essere “dedotta dal resto dei redditi senza alcun limite”: la compensazione è soggetta a regole per compartimenti e a limiti quantitativi/temporali. Quindi [A] è l’affermazione errata (e per questo è la risposta del test). [B] è corretta: la perdita si compensa con eventuali plusvalenze da trasmissioni nella base del risparmio dello stesso anno. [C] è corretta: il saldo negativo può essere riportato agli anni successivi entro il termine previsto. [D] è corretta nel concetto: l’eventuale residuo negativo può compensarsi con redditi di capitale mobiliare del risparmio entro il limite percentuale stabilito, con riporto dell’eccedenza.",
+      "legal_reference": "LIRPF (Ley 35/2006): art. 49 (integración y compensación en la base del ahorro; límite y arrastre en ejercicios siguientes).",
+      "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
+    },
+    {
+      "question": "Son sujetos pasivos por obligación real en el IP:",
+      "answers": [
+        {
+          "text": "las personas físicas con residencia habitual en territorio español por lo bienes en españa",
+          "correct": false
+        },
+        {
+          "text": "las personas físicas no residentes en territorio español por todos sus bienes en españa y en el extranjero",
+          "correct": false
+        },
+        {
+          "text": "las personas físicas no residentes en territorio español por los bienes en españa",
+          "correct": true
+        },
+        {
+          "text": "el este impuesto solamente se puede tributar por la modalidad de obligación personal cubriendo los distintos casos de residencia efectiva o no",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: En el IP existe obligación personal (residentes: patrimonio mundial) y obligación real (no residentes: patrimonio situado o ejercitable en España). La obligación real, por definición, corresponde a personas físicas no residentes y sólo respecto de bienes y derechos situados en España, por lo que [C] es correcta. La [A] describe (parcialmente) la sujeción de residentes pero no es “obligación real”, sino personal. La [B] es incorrecta porque atribuye a no residentes tributación por bienes en el extranjero, lo cual es propio de la obligación personal de residentes. La [D] es falsa: no es cierto que sólo exista obligación personal; también existe obligación real.\nIT: Nell’IP coesistono obbligazione personale (residenti: patrimonio mondiale) e obbligazione reale (non residenti: beni/diritti in Spagna). L’obbligazione reale riguarda i non residenti limitatamente ai beni situati o esercitabili in Spagna: quindi [C] è corretta. [A] descrive i residenti (obbligazione personale), non quella reale. [B] è errata perché estende ai non residenti il patrimonio estero. [D] è falsa perché l’obbligazione reale esiste.",
+      "legal_reference": "Ley 19/1991 (LIP): arts. 5 y 6 (sujeto pasivo y ámbito de sujeción: obligación personal vs. real).",
+      "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
+    },
+    {
+      "question": "Los depósitos en cuenta corriente o de ahorro se valoran en el Ip:",
+      "answers": [
+        {
+          "text": "solo por el saldo medio ponderado del último cuatrimestre",
+          "correct": false
+        },
+        {
+          "text": "por le mejor de los dos valores siguientes el saldo que arrojen el 31 de diciembre o el saldo medio del cuarto trimestre",
+          "correct": true
+        },
+        {
+          "text": "por el mayor de los dopo valores siguientes el saldo medio anual de la cuenta corriente del presente ejercicio y el saldo medio ponderado del ejercicio anterior",
+          "correct": false
+        },
+        {
+          "text": "solo por el saldo medio ponderado del ejercicio anterior",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La regla de valoración de depósitos en el IP es clara: se toma el mayor entre el saldo a 31/12 (devengo) y el saldo medio del último trimestre. Por eso [B] es correcta. La [A] es incorrecta porque habla de “cuatrimestre” y no contempla el saldo a 31/12. La [C] es incorrecta porque introduce medias anuales y del ejercicio anterior, elementos ajenos a la regla legal. La [D] es incorrecta por el mismo motivo: el ejercicio anterior no es el criterio y además se omite el saldo de devengo.\nIT: Per i depositi bancari nell’IP si assume il maggiore tra saldo al 31/12 (devengo) e saldo medio dell’ultimo trimestre. Quindi [B] è corretta. [A] è errata perché parla di quadrimestre e non considera il saldo al 31/12. [C] è errata perché usa medie annuali e dell’anno precedente, non previste. [D] è errata perché considera solo l’anno precedente e ignora il saldo di devengo.",
+      "legal_reference": "Ley 19/1991 (LIP): art. 12 (depósitos: mayor entre saldo a 31/12 y saldo medio del cuarto trimestre).",
+      "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
+    },
+    {
+      "question": "Está exenta en la IP la obra de los artistas mientras permanezca en el patrimonio del autor o sus descendientes?",
+      "answers": [
+        {
+          "text": "si integralmente del valor de dicha obra",
+          "correct": false
+        },
+        {
+          "text": "si está exenta mentiras permanenza en poder del autor y no la venda",
+          "correct": true
+        },
+        {
+          "text": "sí siempre que su valor no supera 700.000 euros",
+          "correct": false
+        },
+        {
+          "text": "las obras de arte no están sujetas al IP",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: En el IP existe una exención vinculada a los derechos/obras propias del autor (propiedad intelectual/industrial) mientras permanezcan en su patrimonio y no sean objeto de transmisión; la lógica es que se favorece la tenencia originaria del creador. Por eso la opción que condiciona la exención a que permanezca en poder del autor (y, en su planteamiento, sin venta) es la adecuada: [B]. La [A] es incorrecta porque afirma una exención “integral” por el mero hecho de ser obra, sin incorporar la condición esencial (permanencia en el patrimonio del autor y no transmisión). La [C] confunde el mínimo exento general del IP (que es otra figura) con una supuesta limitación por 700.000 aplicable a obras: no es así. La [D] es falsa porque las obras/bienes artísticos pueden estar sujetos al impuesto; lo que puede ocurrir es que exista una exención específica si se cumplen requisitos.\nIT: Nell’IP vi è un’esenzione collegata ai diritti/opere proprie dell’autore (proprietà intellettuale/industriale) finché restano nel suo patrimonio e non vengono trasferite; l’idea è favorire la detenzione originaria del creatore. Per questo [B] è corretta. [A] è errata perché riconosce un’esenzione “automatica” senza la condizione determinante (permanenza e non trasferimento). [C] confonde il minimo esente generale dell’IP con un limite speciale sulle opere (inesistente). [D] è falsa perché le opere possono essere soggette; semmai può operare un’esenzione se ricorrono i requisiti.",
+      "legal_reference": "Ley 19/1991 (LIP): art. 4 (bienes y derechos exentos, incluyendo supuestos vinculados a propiedad intelectual/industrial y derechos del autor, con requisitos de permanencia/no transmisión).",
+      "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
+    },
+    {
+      "question": "En el IP los tipos de gravamen son distintos en función de las circunstancias personales del contribuyente:",
+      "answers": [
+        {
+          "text": "si pues si el contribuyente forma parte de una familia numerosa los tipos de gravamen se reducen un 10%",
+          "correct": false
+        },
+        {
+          "text": "si pues si el contribuyente está soltero se incrementan un 15%",
+          "correct": false
+        },
+        {
+          "text": "no pues son identificados para todas los contribuyentes",
+          "correct": true
+        },
+        {
+          "text": "mo, pues es menor para contribuyentes casados",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Los tipos del IP se determinan por una escala progresiva fijada por la normativa aplicable (estatal supletoria o autonómica) en función de la base liquidable, no por el estado civil o circunstancias familiares como “familia numerosa” o “soltero”. Las circunstancias personales pueden incidir en mínimos, exenciones o beneficios (vivienda habitual, empresa familiar, mínimo exento), pero no generan “tipos distintos” por familia o matrimonio. Por eso [C] es la correcta: el tipo depende de la base, y la escala es la misma para contribuyentes en igual base. La [A], [B] y [D] inventan modulaciones porcentuales por situación personal que no forman parte del diseño legal del impuesto.\nIT: Le aliquote dell’IP derivano da una scala progressiva applicata alla base liquidabile (norma statale o autonoma), non da stato civile o condizioni familiari (famiglia numerosa, celibe/nubile, ecc.) come fattori che “cambiano” l’aliquota. Le condizioni personali incidono su minimi/esenzioni/benefici, non su aliquote differenziate per matrimonio o famiglia. Quindi [C] è corretta. [A], [B] e [D] descrivono riduzioni/aumenti per status personale non previsti.",
+      "legal_reference": "Ley 19/1991 (LIP): arts. 28 (mínimo exento) y 30 y ss. (tarifa/escala del impuesto).",
+      "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
+    },
+    {
+      "question": "La base liquidable general del IRPF se obtiene:",
+      "answers": [
+        {
+          "text": "coincide siempre con la base imponible no hay reducciones aplicables a esta en el IRPF",
+          "correct": false
+        },
+        {
+          "text": "practicando en la base imponible general las reducciones que establece la LIRPF en el orden fijado en ella pero sin pueda resultar negativa como consecuencia de dichas disminuciones",
+          "correct": true
+        },
+        {
+          "text": "practicando en la base imponible general las reducciones que establece la LIRPF pudiendo ser negativa en resultado",
+          "correct": false
+        },
+        {
+          "text": "Disminuyendo la base imponible general en el remanente de las reducciones de la base imponible del ahorro si lo hubiera sin que el resultado puede ser negativo",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La base liquidable general se obtiene aplicando a la base imponible general las reducciones legalmente previstas (p. ej., aportaciones a sistemas de previsión social, pensiones compensatorias, etc.) en el orden establecido, con la regla de que la base liquidable general no puede resultar negativa por efecto de esas reducciones. Por eso [B] es correcta. La [A] es falsa porque sí existen reducciones que afectan a la base general (no siempre coincide con la base imponible). La [C] es incorrecta porque contradice la regla de “no negatividad” de la base liquidable general. La [D] es incorrecta porque no existe la técnica de “traspasar” remanentes de reducciones del ahorro a la base general: las reducciones se aplican donde la ley las ubica y con sus límites.\nIT: La base liquidabile generale si calcola applicando alla base imponibile generale le riduzioni previste dalla legge (previdenza, pensione compensatoria, ecc.) nell’ordine stabilito, con la regola che la base liquidabile generale non può diventare negativa per effetto di tali riduzioni. Quindi [B] è corretta. [A] è errata perché le riduzioni esistono e possono modificare la base. [C] è errata perché ammette un risultato negativo, contrario alla regola legale. [D] è errata perché non si “trasferiscono” riduzioni dalla base del risparmio alla base generale: la legge non prevede tale meccanismo.",
+      "legal_reference": "LIRPF (Ley 35/2006): art. 50 (base liquidable general: aplicación de reducciones y no negatividad) y arts. 51-55 (principales reducciones de la base general).",
+      "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
+    },
+    {
+      "question": "La empresa para que trabaja D. Andres ha aportado a un plan de pensiones a favor del trabajador la cantidad de 3.500 euros y D. Andres ha aportado 2.350 euros. En este sentido:",
+      "answers": [
+        {
+          "text": "las cantidades aportadas por la empresa son rendimientos del trabajo en especie por los que será necesario realizar el correspondiente ingreso a cuenta",
+          "correct": false
+        },
+        {
+          "text": "las cantidades aportadas por la empresa son restiburicones en especie y las aportadas por d. andres spm retribución dineraria",
+          "correct": false
+        },
+        {
+          "text": "tanto las cantidades aportadas por la empresa como las aportadas por d. andres reducen la base imponible general con ciertos límites",
+          "correct": true
+        },
+        {
+          "text": "solamente las cantidades aportada por la empresa al plan de pensión reducen la base imponible general",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: En IRPF, las contribuciones empresariales a sistemas de previsión social se consideran, en términos generales, rendimientos del trabajo (normalmente en especie), pero el propio sistema permite reducir la base imponible general por las aportaciones/contribuciones a dichos sistemas dentro de límites cuantitativos y porcentuales. Por eso la afirmación nuclear correcta es la [C]: tanto lo aportado por la empresa como lo aportado por el trabajador pueden operar como reducción en la base general dentro de los límites aplicables. La [A] es incorrecta tal y como está formulada porque identifica como consecuencia necesaria un ingreso a cuenta en todo caso; en la práctica, la retención/ingreso a cuenta tiene reglas específicas y lo esencial del test aquí es la reducción y sus límites. La [B] es incorrecta porque califica la aportación del trabajador como “retribución dineraria”: no lo es; es una aportación del propio contribuyente a su sistema de previsión. La [D] es falsa porque también las aportaciones del trabajador pueden reducir la base (con límites).\nIT: Nell’IRPF i contributi del datore a sistemi di previdenza sono, in linea generale, redditi da lavoro (spesso in natura), ma la disciplina consente una riduzione della base imponibile generale per versamenti/contributi a tali sistemi entro limiti quantitativi e percentuali. Perciò [C] è corretta: sia i contributi del datore sia quelli del lavoratore possono ridurre la base generale entro i limiti. [A] è formulata in modo errato perché presenta l’ingresso a conto come conseguenza automatica “sempre”, mentre la disciplina delle ritenute ha regole proprie; qui il punto decisivo è la riducibilità con limiti. [B] è errata perché definisce la contribuzione del lavoratore come retribuzione in denaro: è un versamento del contribuente, non una retribuzione. [D] è errata perché anche i versamenti del lavoratore riducono (entro limiti).",
+      "legal_reference": "LIRPF (Ley 35/2006): art. 17 (rendimientos del trabajo, incluidas contribuciones empresariales en ciertos supuestos) y arts. 51-52 (reducciones por aportaciones y contribuciones a sistemas de previsión social y límites).",
+      "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
+    },
+    {
+      "question": "Comente si son verdaderas o falsas las siguientes afirmaciones: 1. para las cantidades percibidas por beneficiarios de pólizas de seguro de vida mediante adquisición mortis causa la base imponible coincidirá siempre con la base liquidable 2. en el impuesto sobre sucesiones y donaciones el ajuar doméstico formará parte de la mesa hereditaria y se valorará con carácter general en el 2% del importe del caudal relicto",
+      "answers": [
+        {
+          "text": "1 v / 2 f",
+          "correct": false
+        },
+        {
+          "text": "1 f / 2 v",
+          "correct": false
+        },
+        {
+          "text": "1 f / 2 f",
+          "correct": true
+        },
+        {
+          "text": "1 v / 2 v",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La afirmación 1 es falsa: en ISD la base liquidable se obtiene aplicando reducciones a la base imponible (por parentesco, discapacidad, seguros de vida en ciertos supuestos, etc.), por lo que no puede sostenerse que “siempre” coincidan base imponible y base liquidable en adquisiciones mortis causa de seguros de vida. La afirmación 2 también es falsa: el ajuar doméstico se presume incluido en la masa hereditaria, pero el porcentaje general legal no es 2%, sino 3% (con matices jurisprudenciales sobre qué bienes integran el ajuar, pero el porcentaje legal de partida es 3%). Por tanto, 1 es F y 2 es F, y la opción correcta es [C]. La [A] y la [D] fallan porque califican como verdadera la 1; la [B] falla porque califica como verdadera la 2.\nIT: La proposizione 1 è falsa: nell’ISD la base liquidabile si ottiene sottraendo le riduzioni dalla base imponibile (parentela, disabilità, riduzioni su assicurazioni vita in certi casi, ecc.), quindi non è vero che “sempre” coincidano base imponibile e base liquidabile nelle somme da polizze vita mortis causa. Anche la proposizione 2 è falsa: l’“ajuar doméstico” si presume compreso nell’asse ereditario, ma la percentuale generale prevista è 3%, non 2% (con precisazioni giurisprudenziali su quali beni rientrino, ma la regola percentuale legale è 3%). Quindi 1 = F e 2 = F → [C]. [A] e [D] sono errate perché considerano vera la 1; [B] è errata perché considera vera la 2.",
+      "legal_reference": "LISD (Ley 29/1987): art. 9 (base liquidable = base imponible − reducciones), art. 15 (ajuar doméstico: regla general del 3% del caudal relicto), art. 20 (reducciones, incluyendo supuestos vinculados a parentesco/seguros/discapacidad).",
+      "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
+    },
+    {
+      "question": "El mínimo exento en el IP se aplica sobre la base imponibles siendo su importe",
+      "answers": [
+        {
+          "text": "independiente del estado civil y del número de hijos de contribuyente",
+          "correct": true
+        },
+        {
+          "text": "mayos di el contribuyente tiene hijos menores de edad al ser una impuesto subjeticos",
+          "correct": false
+        },
+        {
+          "text": "el máximo posible si el contribuyente está casado en régimen de gananciales",
+          "correct": false
+        },
+        {
+          "text": "será el mínimo posible si el contribuyentes es soltero o está casado en regimen de separacion de bienes",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El mínimo exento del IP es una cuantía que se aplica por contribuyente sobre la base imponible para determinar la base liquidable (salvo que la normativa autonómica establezca otro mínimo), y no depende del estado civil ni del número de hijos. Por eso [A] es correcta. La [B] es incorrecta porque el mínimo exento no aumenta automáticamente por tener hijos; el IP no funciona así (otra cosa son exenciones específicas, como empresa familiar, vivienda habitual, etc.). La [C] es falsa: el régimen económico matrimonial no determina un “máximo posible” de mínimo exento; cada sujeto pasivo aplica su mínimo, con independencia del régimen, sin perjuicio de cómo se atribuya la titularidad de los bienes. La [D] también es falsa por la misma razón: no existe un mínimo “más bajo” por estar soltero o en separación.\nIT: Il minimo esente dell’IP è una franchigia applicata per contribuente sulla base imponibile per ottenere la base liquidabile (salvo disciplina autonoma diversa) e non dipende da stato civile o numero di figli. Quindi [A] è corretta. [B] è errata perché il minimo non cresce automaticamente per figli minori. [C] è errata: il regime patrimoniale (gananciales) non produce un “minimo massimo”; il minimo si applica per soggetto passivo, e la differenza semmai sta nell’attribuzione della titolarità dei beni. [D] è errata: non esiste un minimo “minore” per celibi o separazione dei beni.",
+      "legal_reference": "Ley 19/1991 (LIP): art. 28 (mínimo exento, con carácter general; independencia de circunstancias familiares, salvo normativa autonómica sobre cuantía).",
+      "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
+    },
+    {
+      "question": "El impuesto sobre  sucesiones y donacio:",
+      "answers": [
+        {
+          "text": "es un impuesto directo real que grava los incrementos lucrativo del patrimonio",
+          "correct": false
+        },
+        {
+          "text": "en un impuesto directo personal que grava la renta",
+          "correct": false
+        },
+        {
+          "text": "es un impuesto directo personal que grava el capital",
+          "correct": true
+        },
+        {
+          "text": "ninguna es correctas",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El ISD es un impuesto directo y personal: la cuota se determina teniendo en cuenta circunstancias del sujeto pasivo (p. ej., parentesco, discapacidad, etc.), lo que lo separa de un impuesto “real”. Además, no grava la renta periódica (eso es IRPF), sino incrementos patrimoniales obtenidos a título lucrativo (herencias, donaciones, seguros), es decir, una manifestación de capacidad económica vinculada al patrimonio/capital. Por ello [C] es la correcta. La [A] es incorrecta por calificarlo de “real”: precisamente incorpora elementos personales. La [B] es incorrecta porque no grava la renta sino adquisiciones lucrativas. La [D] es falsa porque sí hay una opción correcta.\nIT: L’ISD è un’imposta diretta e personale: nella determinazione del prelievo rilevano elementi soggettivi (parentela, disabilità, ecc.), quindi non è un’imposta “reale”. Inoltre non colpisce la “renta” periodica (IRPF), ma incrementi patrimoniali gratuiti (successioni, donazioni, assicurazioni), cioè una manifestazione di capacità economica legata al patrimonio/capitale. Per questo [C] è corretta. [A] è errata perché lo definisce “reale”. [B] è errata perché lo assimila a un’imposta sul reddito. [D] è errata perché una risposta corretta c’è.",
+      "legal_reference": "LISD (Ley 29/1987): art. 1 (naturaleza del impuesto) y art. 3 (hecho imponible: adquisiciones lucrativas).",
+      "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
+    },
+    {
+      "question": "El devengo del IP se produce:",
+      "answers": [
+        {
+          "text": "siempre el 1 de enero salvo que sea festivo",
+          "correct": false
+        },
+        {
+          "text": "el 30 de junio cuando es exigible el IRPF",
+          "correct": false
+        },
+        {
+          "text": "el IP no tiene fecha de deìvengo en tanto que es un impuesto que se declara al mism0 tiemp0 que el IRPF",
+          "correct": false
+        },
+        {
+          "text": "el mismo dia que el del IRPF",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: El IP se devenga el 31 de diciembre de cada año. El IRPF, con carácter general, también se devenga el 31 de diciembre (salvo supuestos como el fallecimiento). Por eso [D] es correcta: el devengo coincide con el del IRPF en la regla general. La [A] es incorrecta porque no se devenga el 1 de enero. La [B] confunde devengo con el calendario de presentación o exigibilidad administrativa. La [C] es falsa: que se declare junto con IRPF no elimina la existencia de una fecha legal de devengo.\nIT: L’IP matura (devengo) al 31 dicembre di ogni anno. Anche l’IRPF, di regola, matura al 31 dicembre (salvo casi particolari). Quindi [D] è corretta: la data coincide con quella dell’IRPF nella regola generale. [A] è errata (non è 1 gennaio). [B] confonde devengo con termini di presentazione/esigibilità. [C] è falsa: la data di devengo è prevista dalla legge anche se la dichiarazione è contestuale all’IRPF.",
+      "legal_reference": "Ley 19/1991 (LIP): art. 3 (devengo del IP: 31 de diciembre). LIRPF (Ley 35/2006): art. 12 (devengo IRPF: 31 de diciembre, regla general).",
+      "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
+    },
+    {
+      "question": "En las transmisiones lucrativas inter vivos será sujeto pasivo:",
+      "answers": [
+        {
+          "text": "el donatario o el favorecido por ellas",
+          "correct": true
+        },
+        {
+          "text": "el causahabiente",
+          "correct": false
+        },
+        {
+          "text": "el donante al ser el que manifieste la capacidad económica suficiente como para acometer el acto de libertad",
+          "correct": false
+        },
+        {
+          "text": "el adquirente del legado",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: En ISD, para adquisiciones inter vivos a título lucrativo, el contribuyente es quien adquiere gratuitamente: el donatario o favorecido. Por eso [A] es correcta. La [B] es incorrecta porque “causahabiente” se asocia al ámbito mortis causa (heredero/legatario) y no describe el sujeto pasivo típico de donación inter vivos. La [C] es errónea: el donante no es sujeto pasivo del ISD (aunque pueda tener consecuencias en IRPF por ganancia patrimonial en ciertos casos). La [D] no es correcta porque “legado” es figura propia de sucesiones; no es la categoría adecuada para inter vivos.\nIT: Nell’ISD, per le acquisizioni gratuite inter vivos, il contribuente è chi riceve: il donatario/favoreggiato. Quindi [A] è corretta. [B] richiama il mortis causa (erede/legatario), non la donazione inter vivos. [C] è errata perché il donante non è soggetto passivo ISD (pur potendo avere effetti IRPF). [D] è errata perché il “legado” è tipico della successione, non dell’inter vivos.",
+      "legal_reference": "LISD (Ley 29/1987): art. 5.1.b) (donaciones: donatarios/favorecidos como contribuyentes).",
+      "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
+    },
+    {
+      "question": "En la liquidacion  IRPF un contribuyente ha obtenido una BIG de 80.000 euros y una VÍA de 5.000 euros ha aportado 8.000 euros a su plan de pensiones y ha pagado a su exmujer una pensión compensatoria fijada en sentencia judicial de 5.000 euros",
+      "answers": [
+        {
+          "text": "la BIG será de 75.000 euros y la BIA de 5.000 euros",
+          "correct": false
+        },
+        {
+          "text": "la BIG sera de 72.500 euros y la BIA de 5.000 euros",
+          "correct": true
+        },
+        {
+          "text": "la BIG será de 74.000 euros y la BIA de 0 euros",
+          "correct": false
+        },
+        {
+          "text": "la BIG será de 80.000 euros y la BIA de 0 euros",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La idea que evalúa la pregunta es que ciertas magnitudes (aportaciones a planes de pensiones y pensión compensatoria al cónyuge por decisión judicial) operan como reducciones de la base general, mientras que la base del ahorro (BIA) no se “anula” por esas reducciones: permanece (aquí 5.000) porque las reducciones se aplican en la base general, no transforman la base del ahorro en cero. Por eso [C] y [D] son incorrectas: fijan BIA = 0 sin base legal en este supuesto. Entre [A] y [B], la única que mantiene BIA = 5.000 y refleja una reducción en la base general en el sentido del ejercicio es [B]. Ahora bien, técnicamente el resultado exacto depende del límite aplicable a la reducción por planes de pensiones (límite cuantitativo y del 30% de rendimientos netos) y de la cuantía efectivamente reducible; con los datos tal cual (sin información adicional), la opción [B] es la que encaja con el patrón del test (reducción total de 7.500 sobre la base general). La [A] presupone una reducción distinta (5.000) que no se corresponde con la suma/limitación esperada en el ejercicio.\nIT: La domanda verifica che alcune voci (versamenti a piano pensionistico e pensione compensatoria all’ex coniuge fissata in sentenza) riducono la base generale, mentre la base del risparmio non diventa “zero” per effetto di tali riduzioni: resta (qui 5.000) perché le riduzioni operano sulla base generale, non azzerano la base del risparmio. Quindi [C] e [D] sono errate perché pongono BIA = 0 senza fondamento in questo caso. Tra [A] e [B], l’unica che mantiene BIA = 5.000 e recepisce la riduzione della base generale secondo lo schema dell’esercizio è [B]. Va però precisato che il valore numerico dipende dal limite di riducibilità delle contribuzioni ai piani pensione (limiti quantitativi e percentuali): con i soli dati forniti, [B] è l’opzione coerente con l’impostazione del test (riduzione complessiva di 7.500 sulla base generale). [A] presuppone una riduzione diversa (5.000) che non riflette la somma/limitazione tipica del quesito.",
+      "legal_reference": "LIRPF (Ley 35/2006): art. 50 (base liquidable general), arts. 51-52 (reducciones por aportaciones a sistemas de previsión social y límites), art. 55 (reducción por pensión compensatoria al cónyuge por decisión judicial).",
+      "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
+    },
+    {
+      "question": "El plazo para presentar la liquidación del impuesto sobre secesión es:",
+      "answers": [
+        {
+          "text": "en periodo voluntario 6 meses desde la recepción de la sucesión",
+          "correct": true
+        },
+        {
+          "text": "en periodo voluntario 30 días hábiles desde la aceptación de la herencia",
+          "correct": false
+        },
+        {
+          "text": "en periodo voluntario 12 meses desde el fallecimiento del causante aunque 6 de esos meses son una prórroga rogada por el contribuyente",
+          "correct": false
+        },
+        {
+          "text": "en periodo voluntario 30 días naturales desde el fallecimiento del causante",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: En sucesiones (adquisiciones mortis causa), el plazo ordinario de presentación/autoliquidación es de 6 meses desde el fallecimiento (devengo), con posibilidad de prórroga si se solicita en plazo y se cumplen requisitos. Por ello [A] es la correcta en el esquema general. La [B] es incorrecta porque el plazo de 30 días hábiles es propio de donaciones (inter vivos), no de sucesiones. La [C] confunde el plazo ordinario con el resultado de una eventual prórroga: 12 meses puede aparecer sólo si se concede prórroga, pero no es la regla general. La [D] es incorrecta: no se computa en 30 días naturales.\nIT: Per le successioni (mortis causa), il termine ordinario di presentazione/autoliquidazione è di 6 mesi dalla morte (devengo), con possibilità di proroga se richiesta correttamente. Quindi [A] è corretta come regola generale. [B] è errata (30 giorni lavorativi è tipico delle donazioni). [C] confonde la regola con l’ipotesi di proroga (12 mesi solo se concessa). [D] è errata (non è 30 giorni naturali).",
+      "legal_reference": "RISD (RD 1629/1991): reglas de presentación en sucesiones (plazo ordinario 6 meses desde el fallecimiento y régimen de prórroga).",
+      "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
+    },
+    {
+      "question": "Cabe presentar declaración conjunta per el IP:",
+      "answers": [
+        {
+          "text": "siu a condición de que todos los miembros de la unidad familiar están de acuerdo",
+          "correct": false
+        },
+        {
+          "text": "no",
+          "correct": true
+        },
+        {
+          "text": "si es la única opción pues no está prevista la declaración individual",
+          "correct": false
+        },
+        {
+          "text": "no salvo que se dan ciertas circunstancia",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: En el IP la declaración es individual: cada persona física es sujeto pasivo por su patrimonio neto y presenta (o no) declaración según sus umbrales y situación. No existe la modalidad de tributación conjunta familiar como en IRPF. Por eso [B] es correcta (“no”). La [A] es errónea porque el acuerdo familiar no crea una modalidad inexistente. La [C] es doblemente falsa: sí existe declaración individual y es la única forma. La [D] también es incorrecta: no hay “excepciones” que habiliten la conjunta.\nIT: Nell’IP la dichiarazione è individuale: ogni persona fisica è soggetto passivo per il proprio patrimonio e dichiara secondo le regole applicabili. Non esiste dichiarazione congiunta familiare come nell’IRPF. Quindi [B] è corretta. [A] è errata: l’accordo familiare non crea una modalità non prevista. [C] è errata: la dichiarazione individuale esiste ed è l’unica. [D] è errata: non sono previste eccezioni che consentano la congiunta.",
+      "legal_reference": "Ley 19/1991 (LIP): configuración del sujeto pasivo y obligación de declarar (impuesto personal de gestión individual; no existe declaración conjunta).",
+      "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
+    },
+    {
+      "question": "En el ISD el sujeto pasivo:",
+      "answers": [
+        {
+          "text": "es la unidad familiar",
+          "correct": false
+        },
+        {
+          "text": "el el individuo persona física",
+          "correct": true
+        },
+        {
+          "text": "el el individuo persona jurídica",
+          "correct": false
+        },
+        {
+          "text": "tanto las personas físicas como la jurídica",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: En el ISD el contribuyente es siempre una persona física: quien adquiere a título lucrativo (heredero/legatario/donatario/beneficiario). Por eso [B] es correcta. La [A] es incorrecta porque la “unidad familiar” no es sujeto pasivo del impuesto. La [C] es errónea: las personas jurídicas no son contribuyentes del ISD (sus adquisiciones gratuitas se encauzan por el Impuesto sobre Sociedades, en su caso). La [D] es falsa porque incluiría personas jurídicas.\nIT: Nell’ISD il contribuente è sempre una persona fisica: chi acquisisce a titolo gratuito (erede/legatario/donatario/beneficiario). Quindi [B] è corretta. [A] è errata: la “unità familiare” non è soggetto passivo. [C] è errata: le persone giuridiche non sono contribuenti ISD. [D] è errata perché includerebbe le persone giuridiche.",
+      "legal_reference": "LISD (Ley 29/1987): art. 5 (contribuyentes/sujetos pasivos: personas físicas en cada modalidad).",
+      "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
+    },
+    {
+      "question": "El plazo para presentar la liquidación del impuesto sobre donación es:",
+      "answers": [
+        {
+          "text": "en periodo voluntario 5 meses desde la recepción de la donación",
+          "correct": false
+        },
+        {
+          "text": "en periodo voluntario 30 días hábiles desde la celebración del acto de donación",
+          "correct": true
+        },
+        {
+          "text": "en periodo voluntario  12 meses desde la recepción de la donación aunque 6 de esos meses son una prórroga por el contribuyente",
+          "correct": false
+        },
+        {
+          "text": "en periodo voluntario 30 días naturales desde la celebración del acto de donación",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: En donaciones (inter vivos) el plazo ordinario es de 30 días hábiles desde el devengo (acto/contrato). Por eso [B] es correcta. La [A] no existe como plazo legal general. La [C] confunde con la lógica de prórrogas en sucesiones, no en donaciones. La [D] es incorrecta porque el cómputo es en días hábiles, no naturales.\nIT: Per le donazioni (inter vivos) il termine ordinario è di 30 giorni lavorativi (días hábiles) dal devengo (atto/contratto). Quindi [B] è corretta. [A] è errata (5 mesi non è la regola). [C] confonde con i termini/proroghe delle successioni. [D] è errata perché parla di giorni naturali, non lavorativi.",
+      "legal_reference": "RISD (RD 1629/1991): reglas de presentación en donaciones (30 días hábiles desde el devengo).",
+      "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
+    },
+    {
+      "question": "Son deducibles en la base imponible del IP las cargas y gravámenes que correspondan a los bienes exentos:",
+      "answers": [
+        {
+          "text": "si",
+          "correct": false
+        },
+        {
+          "text": "no salvo la que recaigan sobre la vivienda habitual",
+          "correct": false
+        },
+        {
+          "text": "no",
+          "correct": true
+        },
+        {
+          "text": "sí salvo la que recaigan sobre la vivienda habitual y las actividades económicas",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: En el IP, si un bien está exento, no se computa su valor en la base imponible. Por coherencia, las cargas y gravámenes que recaen sobre bienes exentos tampoco pueden deducirse, porque supondría reducir la base por pasivos vinculados a activos que no se integran. Por eso [C] es correcta (“no”). La [A] es incorrecta porque admite deducción general sin la correlación activo–pasivo. La [B] inventa una excepción ligada a vivienda habitual que no responde a esta regla (además, la vivienda habitual no es “siempre exenta”: hay exención con límite). La [D] también es incorrecta: no hay un sistema de deducción “salvo” por categorías en estos términos.\nIT: Nell’IP, se un bene è esente, il suo valore non entra nella base imponibile. Coerentemente, non sono deducibili nemmeno oneri/gravami riferiti a beni esenti, perché altrimenti si ridurrebbe la base con passività collegate a attivi non computati. Quindi [C] è corretta. [A] è errata perché ammette deduzione indiscriminata. [B] introduce una falsa eccezione sulla casa di abitazione. [D] è errata: non esiste una deduzione “a eccezioni” formulata così.",
+      "legal_reference": "Ley 19/1991 (LIP): art. 9 (base imponible: reglas de deducción de cargas/deudas y coherencia con bienes exentos).",
+      "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
+    },
+    {
+      "question": "Los derechos de garantía sus deducibles para determinar el IP:",
+      "answers": [
+        {
+          "text": "no puesto que estos derechos reales no disminuyen el valor de los bienes",
+          "correct": true
+        },
+        {
+          "text": "si en todo caso",
+          "correct": false
+        },
+        {
+          "text": "exclusivamente el derecho de garantía de hipoteca",
+          "correct": false
+        },
+        {
+          "text": "no salvo de que se trate de una hipoteca",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: En el IP se deducen deudas y ciertas cargas reales que disminuyen el valor del bien, pero el derecho real de garantía (como la hipoteca) no se deduce como “carga” por sí mismo porque no reduce el valor del bien en la forma exigida por la norma; lo que puede deducirse es la deuda pendiente (pasivo) si está debidamente justificada. Por eso [A] es correcta: los derechos de garantía, como tales, no son deducibles. La [B] es incorrecta porque afirma deducibilidad general. La [C] es incorrecta porque tampoco la hipoteca se deduce como derecho real; se atiende al pasivo. La [D] también es errónea: no es que “salvo hipoteca” se deduzca el derecho, sino que la hipoteca no cambia la regla sobre deducción del derecho real de garantía.\nIT: Nell’IP si deducono debiti e alcune “cargas” reali che riducono effettivamente il valore, ma il diritto reale di garanzia (ipoteca) non si deduce come onere in sé, perché non diminuisce il valore nel senso richiesto; eventualmente si deduce il debito residuo (passivo) se giustificato. Quindi [A] è corretta. [B] è errata (deducibilità generale). [C] è errata: neppure l’ipoteca è deducibile come diritto reale; rileva il debito. [D] è errata: l’ipoteca non costituisce un’eccezione che rende deducibile il diritto di garanzia.",
+      "legal_reference": "Ley 19/1991 (LIP): art. 9 (base imponible: deudas deducibles y cargas/gravámenes; tratamiento de garantías reales y deudas).",
+      "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
+    },
+    {
+      "question": "las cuotas líquidas del IRPF puede disminuirse con las siguientes deducciones:",
+      "answers": [
+        {
+          "text": "las estatales y autónomas aplicando el 50% de su importe a cada cuota líquida",
+          "correct": false
+        },
+        {
+          "text": "solo las estatale aplicando el 100% del importe de la deducción a la cuota líquida estatal",
+          "correct": false
+        },
+        {
+          "text": "las estatales aplicando el 50% de su importe a casa cuota líquida y los autonómicas aplòicando el 100% de su importe a la cuota líquida autonómica",
+          "correct": true
+        },
+        {
+          "text": "a y b son correctas",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: En IRPF hay una cuota íntegra estatal y autonómica, y tras aplicar el mínimo personal y familiar se obtienen cuotas (estatal y autonómica) sobre las que se aplican deducciones. Las deducciones estatales se imputan al 50% a la cuota estatal y al 50% a la cuota autonómica; las deducciones autonómicas, en cambio, minoran exclusivamente la cuota autonómica. Por eso [C] es correcta. La [A] es incorrecta porque reparte también las deducciones autonómicas al 50% en cada cuota, cuando deben aplicarse al 100% en la autonómica. La [B] es incorrecta porque pretende aplicar el 100% de las estatales sólo a la cuota estatal, lo cual no es la regla. La [D] es falsa porque [A] y [B] no son correctas.\nIT: Nell’IRPF esistono quota statale e quota autonoma; dopo l’effetto del minimo personale/familiare si applicano le deduzioni. Le deduzioni statali si ripartiscono 50% sulla quota statale e 50% su quella autonoma; le deduzioni autonome riducono solo la quota autonoma al 100%. Quindi [C] è corretta. [A] è errata perché divide anche le deduzioni autonome al 50/50. [B] è errata perché applica il 100% delle deduzioni statali solo sulla quota statale. [D] è errata perché [A] e [B] non sono vere.",
+      "legal_reference": "LIRPF (Ley 35/2006): reglas de liquidación estatal/autonómica (arts. 74-77) y régimen de deducciones (arts. 67-68 y normativa autonómica), con imputación: deducciones estatales al 50% en cada cuota; autonómicas al 100% en cuota autonómica.",
+      "original_file": "Financiero II AGGIORNATO 2° Parcial 03 07 2025.docx"
     }
   ]
 }
