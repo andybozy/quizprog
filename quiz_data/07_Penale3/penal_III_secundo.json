@@ -728,6 +728,318 @@
       "explanation": "ES: La prevaricación judicial (en el ámbito de la Administración de Justicia) se configura como delito especial propio: el sujeto activo típico es el juez o magistrado (arts. 446 y ss. CP: dictar resolución injusta a sabiendas; por imprudencia grave; negarse a juzgar; etc.). Un abogado o un procurador pueden incurrir en otros delitos (p. ej., deslealtad profesional u obstrucción: art. 467 y ss.), pero no son sujetos activos típicos de la prevaricación judicial. Por ello, es correcta la afirmación de que nunca puede serlo un abogado o procurador. Las opciones a) y b) son incorrectas porque atribuyen la cualidad de sujeto activo a profesiones que no encajan en la tipicidad del delito. La d) es falsa porque sí hay una respuesta correcta (la c).\nIT: La prevaricazione “giudiziaria” è un reato proprio: il soggetto attivo è il giudice/magistrato (artt. 446 ss. CP: sentenza o risoluzione ingiusta, rifiuto di giudicare, ecc.). Avvocati e procuratori possono commettere altri reati (es. deslealtad profesional/obstrucción: art. 467 ss.), ma non sono soggetti attivi tipici della prevaricación giudiziale. Quindi è corretta la c). a) e b) sono errate; d) è errata perché una risposta corretta esiste.",
       "legal_reference": "CP arts. 446–449 (prevaricación judicial); (diferenciación con CP arts. 467 y ss.)",
       "original_file": "TEST PENAL III 2° parcial 06 10 25.docx"
+    },
+    {
+      "question": "5.\tEn los incendios forestales:",
+      "answers": [
+        {
+          "text": "los jueces o tribunales podrán acordar que la calificación del suelo en las zonas afectadas  por un incendio forestal pueda modificarse en un plazo de hasta treinta años de la acción en imprudente", "correct": false},
+        {"text": "los jueces o tribunales podrán acordar que la calificación del suelo en las zonas afectadas por un  incendio forestal no pueda modificarse en un plazo de hasta treinta años - CORRETTA", "correct": true},
+        {"text": "los jueces o tribunal podrá acordar que la calificación del suelo en la zonas afectadas por un incendio forestal no pueda modificarse en un plazo de hasta cincuenta años", "correct": false},
+        {"text": "los jueces o tribunales no podrán acordar que la calificación del suelo en las zonas afectadas por un incendio forestal no pueda modificarse nunca", "correct": false}
+      ],
+      "explanation": "ES: El Código Penal faculta a jueces y tribunales, en los casos de incendios forestales, a acordar que la calificación del suelo en las zonas afectadas no pueda modificarse durante un plazo máximo de treinta años (medida de protección y de prevención de recalificaciones oportunistas). Por ello es correcta la opción que fija “no pueda modificarse … hasta treinta años”. La opción que dice “pueda modificarse” invierte el sentido de la medida (es justamente una prohibición/limitación). La opción de “cincuenta años” no coincide con el límite legal (30). Y la de “nunca” tampoco: la norma permite acordar la no modificación “hasta” 30 años, no indefinidamente.\nIT: Il CP prevede, per gli incendi forestali, la possibilità che il giudice disponga il divieto di modificare la classificazione urbanistica del suolo nelle aree colpite per un massimo di 30 anni. Quindi è corretta l’opzione che indica “non possa modificarsi … fino a trenta anni”. Dire che “possa modificarsi” capovolge la ratio della norma. “Cinquanta anni” non è il limite legale. “Mai” è errato perché il divieto è temporalmente limitato a un massimo di 30 anni.",
+      "legal_reference": "CP art. 355",
+      "original_file": "TEST PENAL III 2° parcial 06 10 25.docx"
+    },
+    {
+      "question": "6.\tComete prevaricación:",
+      "answers": [
+        {
+          "text": "la autoridad o funcionario público que en cualquier caso dictare una resolución arbitraria en un asunto administrativo", "correct": false},
+        {"text": "la autoridad o funcionario público que a sabiendas de su injusticia dictare una resolución conforme a derecho en un asunto administrativo", "correct": false},
+        {"text": "la autoridad o funcionario público que a sabiendas de su injusticia dictare una resolución arbitraria en un procedimiento judicial", "correct": false},
+        {"text": "la autoridad o funcionario público que a sabiendas de su injusticia dictare una resolución arbitraria en un asunto administración - CORRETTA", "correct": true}
+      ],
+      "explanation": "ES: La prevaricación administrativa (art. 404 CP) exige: (i) sujeto activo autoridad o funcionario público, (ii) dictar una resolución, (iii) en asunto administrativo, (iv) que sea arbitraria, y (v) a sabiendas de su injusticia. La opción correcta reproduce exactamente ese esquema. La opción “en cualquier caso” elimina el requisito subjetivo (“a sabiendas”), por lo que es incorrecta: no toda resolución arbitraria sin ese dolo integra el tipo. La opción que habla de “resolución conforme a derecho” es incompatible con la idea de injusticia/arbitrariedad. La opción que sitúa la resolución en “procedimiento judicial” desdibuja el delito (la prevaricación judicial tiene un régimen específico y sujeto típico distinto: juez/magistrado).\nIT: La prevaricazione amministrativa (art. 404 CP) richiede che un’autorità/funzionario emetta, in materia amministrativa, una risoluzione arbitraria sapendo che è ingiusta. L’opzione corretta riproduce questi elementi. L’opzione “en cualquier caso” è errata perché non basta l’arbitrarietà: serve la consapevolezza dell’ingiustizia. “Conforme a derecho” è incompatibile con la fattispecie. Il riferimento a “procedimiento judicial” sposta il tema verso la prevaricación giudiziaria (disciplina diversa).",
+      "legal_reference": "CP art. 404",
+      "original_file": "TEST PENAL III 2° parcial 06 10 25.docx"
+    },
+    {
+      "question": "7.\tAbandono de destino el art. 407 cp castiga:",
+      "answers": [
+        {
+          "text": "a la autoridad o funcionario público que abandonare su destino sólo si su propósito es el de no impedir o no perseguir los delitos comprendidos en los títulos XXI XXII XXIII XXIV", "correct": false},
+        {"text": "a la autoridad o funcionario público que abandonare su destino con el propósito de no impedir o no perseguir cualquier delito", "correct": false},
+        {"text": "a la autoridad o funcionario público que abandonare su destino con el propósito de no ejecutar las penas impuestas por la autoridad judicial competente por la comisión de un delito", "correct": false},
+        {"text": "b y c son correctas", "correct": true}
+      ],
+      "explanation": "ES: El art. 407 CP contempla dos grandes finalidades típicas del abandono de destino: (1) abandonar el destino para no impedir o no perseguir delitos (con un régimen más grave si se trata de los delitos comprendidos en los Títulos XXI a XXIV, y un régimen menos grave si se trata de cualquier otro delito), y (2) abandonar el destino para no ejecutar las penas impuestas por la autoridad judicial competente (con la misma lógica de graduación). Por eso, como formulación general, son correctas las opciones que recogen “no impedir o no perseguir cualquier delito” y “no ejecutar las penas” y, en el formato del test, la respuesta correcta es la que afirma que ambas (b y c) lo son. La opción que dice “sólo si” está mal porque el precepto no se limita a los Títulos XXI–XXIV: también contempla “cualquier otro delito” con distinta pena.\nIT: L’art. 407 CP punisce l’abbandono del servizio/destino quando è finalizzato (1) a non impedire o non perseguire reati (più grave per i reati dei Titoli XXI–XXIV e meno grave per ogni altro reato) e (2) a non eseguire le pene imposte dall’autorità giudiziaria competente, con analoga graduazione. Quindi, nel test, b) e c) colgono le due finalità tipiche e la risposta corretta è “b y c”. L’opzione “sólo si … Títulos XXI–XXIV” è errata perché esclude l’ipotesi, prevista dalla norma, di “cualquier otro delito” (con pena diversa).",
+      "legal_reference": "CP art. 407.1–2",
+      "original_file": "TEST PENAL III 2° parcial 06 10 25.docx"
+    },
+    {
+      "question": "8.\tDenegación de auxilio a los particulares el art. 421 cp castiga a:",
+      "answers": [
+        {
+          "text": "la autoridad o funcionario público que aun sin ser requerido por u  particular apesta algún auxilio a que venga obligado por razón de su cargo para evitar un delito se abstuviera de prestarlo", "correct": false},
+        {"text": "la autoridad o funcionario público que requerido por un particular a prestar algún auxilio a que venga obligado por razón de su cargo para evitar un delito se abstuviera de prestarlo tanto si se trata de delito contra la vida o la gingerdead libertad sexual salud o libertad de las persona como para evitar otro mal o delito - CORRETTA", "correct": true},
+        {"text": "la autoridad o funcionario público que requerido no estuviera obligado por razón de su cargo a evitar un delito se abstuviera de prestarlo", "correct": false},
+        {"text": "la autoridad o funcionario público que requerido por un particular a prestar algún auxilio a que venga obligado por razón de su cargo para evitar un delito se abstuviera de prestarlo sólo si se trata de delitos contra la vita e la integridad libertad sexual salud o libertad de las personas", "correct": false}
+      ],
+      "explanation": "ES: Aunque el enunciado cite “art. 421”, la conducta descrita (denegación de auxilio requerido por un particular) corresponde al art. 412.3 CP. Este precepto castiga a la autoridad o funcionario que, requerido por un particular a prestar auxilio debido por razón del cargo, se abstenga de prestarlo: con distintas penas según se trate de delito contra la vida, contra integridad/libertad sexual/salud/libertad, o “cualquier otro delito u otro mal”. Por eso es correcta la opción que incluye tanto los supuestos más graves como los demás (no se limita solo a los delitos más graves). La opción que exige “solo” determinados delitos es incorrecta porque el artículo también prevé el caso de “cualquier otro delito u otro mal” (con pena inferior). La opción que elimina el requerimiento del particular (“aun sin ser requerido”) no coincide con el tipo del 412.3. Y si el funcionario no está obligado por razón del cargo, falta un elemento estructural: el auxilio debe ser “debido”.\nIT: Nonostante l’enunciato citi “art. 421”, la fattispecie descritta è quella dell’art. 412.3 CP: autorità/funzionario che, richiesto da un privato a prestare un aiuto dovuto per ragioni d’ufficio, si astiene. La norma punisce in tutti i casi (reato contro la vita; contro integrità/libertà sessuale/salute/libertà; e anche “qualsiasi altro reato o altro male”), con pene differenti. È quindi corretta l’opzione che include sia i casi gravi sia gli altri. È errata la risposta che limita “solo” ai reati più gravi, perché il CP prevede anche la categoria residuale. È errata l’opzione senza richiesta del privato, e quella in cui l’obbligo d’ufficio mancherebbe (l’aiuto deve essere dovuto).",
+      "legal_reference": "CP art. 412.3 (el enunciado menciona “art. 421” pero la tipicidad corresponde a 412.3)",
+      "original_file": "TEST PENAL III 2° parcial 06 10 25.docx"
+    },
+    {
+      "question": "9.\tViolacion de secretos el art. 417 cp sanciona a:",
+      "answers": [
+        {
+          "text": "la autoridad o funcionario público que revelare secretos o informaciones de los que tenga conocimiento por cualquier motivo y que no deban ser divulgados", "correct": false},
+        {"text": "el particular que revelare secretos o informaciones de los que tenga conocimiento por razón de su oficio o cargo ya que no deban ser divulgadas", "correct": false},
+        {"text": "la autoridad o funcionario público que revelare secretos o informaciones de los que tenga conocimiento por razón de su oficio o cargo y que no deberán ser divulgados - CORRETTA", "correct": true},
+        {"text": "todas son falsas", "correct": false}
+      ],
+      "explanation": "ES: El art. 417 CP tipifica la revelación de secretos o informaciones por autoridad o funcionario público cuando el conocimiento proviene “por razón de su oficio o cargo” y no deben divulgarse. Por eso la opción correcta es la que recoge exactamente sujeto activo (autoridad/funcionario), fuente del conocimiento (cargo/oficio) y carácter no divulgable de la información. La opción que dice “por cualquier motivo” es demasiado amplia: la tipicidad se ancla al conocimiento debido al cargo. La opción del “particular” no encaja en el 417 (podrá encajar en otros delitos, pero no en este). Y no es cierto que “todas” sean falsas porque una coincide con el artículo.\nIT: L’art. 417 CP punisce l’autorità o il funzionario che rivela segreti o informazioni conosciuti per ragioni d’ufficio o di carica e che non devono essere divulgati. Quindi è corretta l’opzione che riproduce questi elementi. “Por cualquier motivo” è troppo ampio: la norma richiede il nesso con l’ufficio. Il “particular” non è il soggetto attivo del 417. “Todas son falsas” è errata perché la c) è conforme al precetto.",
+      "legal_reference": "CP art. 417.1",
+      "original_file": "TEST PENAL III 2° parcial 06 10 25.docx"
+    },
+    {
+      "question": "10.\t A los efectos del código penal se entiende por moneda",
+      "answers": [
+        {
+          "text": "solamente la metálica y el papel moneda de curso legal", "correct": false},
+        {"text": "la metálica y el papel moneda de curso legal uy aquella que previamente sra puesta en curso legal", "correct": false},
+        {"text": "se equiparan a la moneda nacional las de otros países de la unión europea y las extranjeras", "correct": false},
+        {"text": "b yc son correctas - CORRETTA", "correct": true}
+      ],
+      "explanation": "ES: El art. 387 CP define “moneda” a efectos penales como: (i) la metálica y el papel moneda de curso legal, (ii) también la no emitida o no puesta aún en circulación oficialmente pero destinada a circular como moneda de curso legal, y (iii) equipara a la moneda nacional la de otros países de la UE y la extranjera. Por eso son correctas las ideas de la opción b (curso legal + destinada a circular) y la de la opción c (equiparación a moneda nacional de UE/extranjera), y la respuesta correcta del test es la combinación “b y c”. La opción a es incompleta porque deja fuera la moneda destinada a circular y la equiparación de monedas extranjeras.\nIT: L’art. 387 CP include nella nozione di “moneda” sia quella metallica e cartacea a corso legale, sia quella non ancora emessa ma destinata a circolare come moneta a corso legale, e inoltre equipara alla moneta nazionale quella degli altri Paesi UE e quella straniera. Quindi sono corrette b) e c), e la risposta corretta è “b y c”. L’opzione a) è incompleta perché esclude le altre due parti della definizione legale.",
+      "legal_reference": "CP art. 387",
+      "original_file": "TEST PENAL III 2° parcial 06 10 25.docx"
+    },
+    {
+      "question": "11.\tFalsedad en documento público según el art. 390 cp será castigado la autoridad o funcionario público que en el ejercicio de sus funciones cometa falsedad:",
+      "answers": [
+        {
+          "text": "alterando un documento en alguno de sus elementos o requisitos que no fuera de carácter esencial", "correct": false},
+        {"text": "simulando un documento siempre que sea en todo él de manera que induzca a error sobre su autenticidad", "correct": true},
+        {"text": "suponiendo en un acto la intervención de personas que la hayan tenido o atribuyendo a las que han intervenido en le las mismas declaraciones o manifestaciones que hubieran hecho", "correct": true},
+        {"text": "faltando a la verdad en la narración de los hechos - CORRETTA", "correct": true}
+      ],
+      "explanation": "ES: El art. 390.1 CP enumera varias modalidades de falsedad cometida por autoridad o funcionario: alterar elementos esenciales del documento, simular un documento (en todo o en parte) induciendo a error, suponer intervenciones o atribuir declaraciones distintas, y faltar a la verdad en la narración de los hechos. Por tanto, son correctas las opciones que describen simulación (aunque el artículo no exige que sea “solo en todo”, también vale “en parte”), la suposición/atribución de intervenciones o declaraciones, y la falta de verdad en la narración. En cambio, es incorrecta la opción que afirma “que no fuera de carácter esencial”: el artículo exige precisamente que la alteración recaiga sobre elementos o requisitos de carácter esencial.\nIT: L’art. 390.1 CP prevede diverse forme di falso del pubblico ufficiale: alterazione di elementi essenziali, simulazione del documento (in tutto o in parte) idonea a indurre in errore, falsa attribuzione di interventi/dichiarazioni, e narrazione non veritiera dei fatti. Quindi b), c) e d) descrivono condotte tipizzate (pur con l’imprecisione di b, perché la norma ammette anche la simulazione “in parte”). È invece errata l’opzione a) perché nega il requisito dell’essenzialità: il CP richiede che l’alterazione riguardi elementi essenziali.",
+      "legal_reference": "CP art. 390.1",
+      "original_file": "TEST PENAL III 2° parcial 06 10 25.docx"
+    },
+    {
+      "question": "12.\tFalsificación De certificados comete este delito:",
+      "answers": [
+        {
+          "text": "el facultativo que declara certificado falso", "correct": false},
+        {"text": "la autoridad o funcionario público que declara certificación falsa", "correct": false},
+        {"text": "al particular que sin haber intervenido en la falsificación de una certificación, traficare con ella de cualquier modo", "correct": false},
+        {"text": "todas son ciertas - CORRETTA", "correct": true}
+      ],
+      "explanation": "ES: La Sección de falsificación de certificados contempla expresamente: (i) al facultativo que libre certificado falso (art. 397 CP), (ii) a la autoridad o funcionario público que libre certificación falsa (art. 398 CP), y (iii) al particular que, sin haber intervenido, trafique con la certificación falsa (art. 399.2 CP). Por tanto, todas las conductas enumeradas aparecen tipificadas y la respuesta correcta del test es “todas son ciertas”.\nIT: La disciplina sui certificati falsi include: il sanitario/facultativo che rilascia un certificato falso (art. 397 CP), l’autorità/funzionario che rilascia certificazione falsa (art. 398 CP), e anche il privato che, pur non avendo falsificato, traffica in qualsiasi modo con la certificazione (art. 399.2 CP). Quindi tutte le affermazioni sono vere e la risposta corretta è “todas son ciertas”.",
+      "legal_reference": "CP arts. 397, 398, 399.2",
+      "original_file": "TEST PENAL III 2° parcial 06 10 25.docx"
+    },
+    {
+      "question": "14.\t El art. 376 del código penal señala que los jueces o tribunales podrán imponer la pena inferior en uno o dos grados en los delitos de tráfico de drogas siempre que el sujeto cumpla determinadas condiciones cuál de las siguientes condiciones no está recogida expresamente en el mencionado precepto?",
+      "answers": [
+        {
+          "text": "que debe presentarse ante las autoridades confesando los hechos en que se hubiera intervenido - CORRETTA", "correct": true},
+        {"text": "el abono voluntario de las actividades delictivas uu òa colaboración con las autoridades para obtener pruebas decisivas para lòa identificación o captura de otro responsable", "correct": false},
+        {"text": "el abono voluntario de las actividades delictivas y la colaboración con las autoridades para impedir la actuación o el desarrollo de las organizaciones o asociación a las que haya pertenecido o con las que haya colaborado", "correct": false},
+        {"text": "que el drogodependiente en el momento de comisión de los hechos acredite suficientemente que ha finalizado", "correct": false}
+      ],
+      "explanation": "ES: El art. 376 CP prevé dos vías de rebaja: (1) para los casos de los arts. 361 a 372, exige abandono voluntario de la actividad delictiva y colaboración activa con las autoridades (para impedir el delito u obtener pruebas decisivas/identificación/captura o impedir organizaciones). (2) para los casos de los arts. 368 a 372, permite rebajar al reo drogodependiente que acredite haber finalizado con éxito un tratamiento de deshabituación (con límites por notoria importancia o extrema gravedad). En ningún caso el artículo exige, como requisito expreso, “presentarse ante las autoridades confesando los hechos”: eso no aparece en el tenor literal. Por ello, la condición no recogida expresamente es la opción de “confesión/presentación”. Las demás opciones sí se conectan (aunque con erratas) con los requisitos reales del art. 376.\nIT: L’art. 376 CP consente la riduzione di pena: (1) se il soggetto abbandona volontariamente l’attività e collabora attivamente con le autorità (impedire il reato, ottenere prove decisive, identificare/catturare altri responsabili o bloccare organizzazioni) e (2) anche per il drogodependente che dimostra di aver concluso con successo un trattamento di disassuefazione (con limiti). Non richiede invece, in modo espresso, che l’imputato “si presenti confessando”: questa condizione non è nel testo dell’articolo. Dunque l’opzione a) è la condizione non prevista; le altre richiamano i requisiti effettivi del 376.",
+      "legal_reference": "CP art. 376 (párrafos 1º y 2º)",
+      "original_file": "TEST PENAL III 2° parcial 06 10 25.docx"
+    },
+    {
+      "question": "15.\tComo delitos constitutivos de prevaricación judicial se recogen varias conductas distintas que son:",
+      "answers": [
+        {
+          "text": "dictar a sabiendas resoluciones injustas negare a juzgar o retardar maliciosamente la administración de justicia - CORRETTA", "correct": true},
+        {"text": "dictar a sabiendas resolución injustas negar a juzgar o retardar impiden la función de la justicia", "correct": false},
+        {"text": "dictar a sabiendas o por imprudencia grave o ignorancia inexcusable resoluciones injustas nece a juzgar o retardar maliciosamente la administración de justicia", "correct": false},
+        {"text": "la conducta de prevaricación está prevista con carácter general para cualquier funcionario público sin que esté implicada expresamente la prevaricación judicial", "correct": false}
+      ],
+      "explanation": "ES: La prevaricación judicial se estructura en varias conductas: dictar a sabiendas resolución o sentencia injusta (art. 446 CP), dictarla por imprudencia grave o ignorancia inexcusable (art. 447 CP), negarse a juzgar (art. 448 CP) y retardar maliciosamente la administración de justicia (art. 449 CP). La opción marcada como correcta recoge el núcleo clásico de estas conductas (resolver injustamente a sabiendas, negarse a juzgar y retardar maliciosamente), por lo que es la mejor respuesta en el formato del test. La opción b) sustituye el “retardo malicioso” por una formulación ajena (“impiden la función”), y no refleja el tipo. La opción c) mezcla de forma confusa categorías (incluye imprudencia/ignorancia, que es otra modalidad, pero la redacción no separa bien conductas y además contiene errores que la alejan de la enumeración clara del CP). La opción d) es falsa: la prevaricación judicial está expresamente prevista y no se aplica “a cualquier funcionario” sin más, sino a jueces/magistrados en el ámbito judicial.\nIT: La prevaricación giudiziaria comprende più condotte: decisione ingiusta dolosa (art. 446), decisione ingiusta per imprudenza grave o ignoranza inescusabile (art. 447), rifiuto di giudicare (art. 448) e ritardo malizioso della giustizia (art. 449). L’opzione a) riassume correttamente le condotte principali (ingiustizia dolosa, rifiuto, ritardo) ed è quella coerente con l’impostazione del quiz. b) usa una formula non tipica. c) è confusa (pur richiamando nozioni reali) e non riproduce chiaramente la tassonomia del CP. d) è errata perché la prevaricación giudiziaria è prevista espressamente e non riguarda “qualsiasi funzionario”, ma l’organo giudiziario.",
+      "legal_reference": "CP arts. 446–449",
+      "original_file": "TEST PENAL III 2° parcial 06 10 25.docx"
+    },
+    {
+      "question": "16.\tEn el encubrimiento los elementos del tipo son:",
+      "answers": [
+        {
+          "text": "la comisión previa de un delito el haber intervenido en la previa infracción como autor o cómplice y el desconocimiento de la comisión pasiva del delito encubierto", "correct": false},
+        {"text": "la comisión previa de un delito el no haber intervenido en la previa infracción como autor o cómplice y el desconocimiento de la comisión del delito descubierto", "correct": false},
+        {"text": "la comisión posterior de un delito el haber intervenido en la previa infracción como utos o comlice y el cnoscokemnto de la comison del deitio encubierto", "correct": false},
+        {"text": "la comisión previa de un delito el no haber intervenido en la previa infracción como autos o col,police y el conocimiento de la comisión del delito encubierto - CORRETTA", "correct": true}
+      ],
+      "explanation": "ES: El encubrimiento (art. 451 CP) exige: (i) un delito previo (“hecho encubierto”), (ii) que el encubridor no haya intervenido como autor o cómplice, (iii) conocimiento de la comisión del delito, y (iv) una intervención posterior típica (auxiliar a beneficiarse sin lucro propio, ocultar efectos/instrumentos, o ayudar a eludir la investigación/captura en casos cualificados). La opción correcta recoge los tres elementos estructurales básicos (delito previo, no intervención previa, conocimiento). Las opciones que incluyen haber intervenido como autor o cómplice son incompatibles: quien participa es autor/partícipe, no encubridor. Y las opciones que hablan de “desconocimiento” eliminan el requisito del conocimiento.\nIT: L’encubrimiento (art. 451 CP) richiede: reato precedente, assenza di partecipazione precedente come autore o complice, conoscenza del reato e condotta successiva tipica (agevolazione del profitto senza lucro proprio, occultamento, aiuto alla fuga/elusione in ipotesi qualificate). L’opzione corretta riproduce i requisiti portanti: delitto previo + non partecipazione + conoscenza. Le opzioni che includono una partecipazione come autore/complice sono incompatibili con l’encubrimiento; quelle che parlano di “desconocimiento” eliminano l’elemento soggettivo richiesto.",
+      "legal_reference": "CP art. 451 (elementos generales del encubrimiento)",
+      "original_file": "TEST PENAL III 2° parcial 06 10 25.docx"
+    },
+    {
+      "question": "17.\tConforme a lo previsto en el código penal cuál de las siguientes afirmaciones no es aplicable a la conducta delictiva de prevaricación administrativa referida a nombramientos ilegales?",
+      "answers": [
+        {
+          "text": "que requiere que sea a sabiendas de su ilegalidad o por ignorancia inexcusable - CORRETTA", "correct": true},
+        {"text": "que el sujeto activo es siempre autoridad o funcionario público", "correct": false},
+        {"text": "que el delito ha de cometerse en el ejercicio de una competencia", "correct": false},
+        {"text": "que debe conllevar el hecho de propone nombrar o dar posesión para el ejercicio de un determinado cargo público a cualquier persona sin que concurran los requisitos legalmente establecidos para ello", "correct": false}
+      ],
+      "explanation": "ES: La prevaricación administrativa por nombramientos ilegales (art. 405 CP) exige que la autoridad o funcionario, en el ejercicio de su competencia y a sabiendas de su ilegalidad, proponga, nombre o dé posesión para un cargo público a quien no reúne requisitos legales. No incluye la alternativa “por ignorancia inexcusable”: esa fórmula aparece en la prevaricación judicial imprudente/por ignorancia (art. 447 CP), no en el art. 405. Por eso, la afirmación NO aplicable es la que añade “ignorancia inexcusable”. Las otras opciones sí describen rasgos del 405 (sujeto activo cualificado, ejercicio de competencia, y acto de proponer/nombrar/dar posesión sin requisitos).\nIT: Il reato dell’art. 405 CP (nombramientos ilegales) richiede autorità/funzionario, esercizio della competenza e consapevolezza dell’illegalità, oltre alla condotta di proporre/nombrar/dare possesso a chi non ha i requisiti. Non prevede l’alternativa “ignorancia inexcusable”, che è tipica della prevaricación giudiziaria per imprudenza/ignoranza (art. 447). Quindi la sola affermazione non applicabile è quella che include “ignorancia inexcusable”; le altre sono coerenti con il 405.",
+      "legal_reference": "CP art. 405 (contraste con CP art. 447)",
+      "original_file": "TEST PENAL III 2° parcial 06 10 25.docx"
+    },
+    {
+      "question": "18.\tEn relación con el abandono de servicio cuál de las siguiente s accione no se contempla en nuestro código penal como modalidad delictiva’",
+      "answers": [
+        {
+          "text": "la de aquellas autoridades o funcionarios públicos que promovieren dirigen y organizan el abandono colectivo y manifiestamente ilegal de un servicio público", "correct": false},
+        {"text": "lo de aquellas autoridades o funcionarios públicos que meramente tomaren parte en el abandono colectivo o manifiestamente ilegal de un servicio público no esencial - CORRETTA", "correct": true},
+        {"text": "las de quienes siendo autoridades o funcionarios públicos meramente tomaren parte en el abandono colectivo o manifiestamente ilegal de un servicio público esencial y con grave perjuicio", "correct": false},
+        {"text": "el abandono de servicio es siempre punible con independencia de la gravedad del quebranto o del servicio de que trate", "correct": false}
+      ],
+      "explanation": "ES: El CP tipifica el abandono de servicio público en el art. 409: castiga a quienes promuevan/dirijan/organicen el abandono colectivo y manifiestamente ilegal de un servicio público; y castiga también a quienes meramente tomen parte cuando se trate de un servicio público esencial y con grave perjuicio. No contempla como modalidad delictiva la mera participación en el abandono de un servicio “no esencial”. Por eso, la opción b) es la no contemplada (y es la correcta en una pregunta de “cuál no se contempla”). La opción a) sí está prevista. La opción c) también está prevista (participación en esencial con grave perjuicio). La d) es falsa: no todo abandono es siempre punible; la punición depende del rol (promover/dirigir/organizar vs mera participación) y, en esta última, de la esencialidad y el grave perjuicio.\nIT: L’art. 409 CP punisce: (i) chi promuove/dirige/organizza l’abbandono collettivo e manifestamente illegale di un servizio pubblico, e (ii) chi vi partecipa “meramente” solo se il servizio è essenziale e con grave pregiudizio. Non punisce invece la mera partecipazione quando il servizio non è essenziale. Quindi b) è la modalità non contemplata. a) e c) sono tipiche. d) è errata perché la punibilità non è automatica: dipende da condizioni e qualificazioni previste dalla norma.",
+      "legal_reference": "CP art. 409",
+      "original_file": "TEST PENAL III 2° parcial 06 10 25.docx"
+    },
+    {
+      "question": "19.\tEl código penal señala que será castigada aquella persona que de alguna de las formas previstas en su art. 385 originare un grave riesgo para la circulación cuale de la siguiente no en una de ellas?",
+      "answers": [
+        {
+          "text": "colocar en la vía obst culacilos imprevisibles", "correct": false},
+        {"text": "realizar explosiones que provocan destrozo de calzada pública - CORRETTA", "correct": true},
+        {"text": "derramar sustancias deslizantes o inflamables", "correct": false},
+        {"text": "todas la anteriores son  falsas", "correct": false}
+      ],
+      "explanation": "ES: El art. 385 CP enumera como formas típicas de originar grave riesgo para la circulación: colocar obstáculos imprevisibles, derramar sustancias deslizantes o inflamables, mutar/sustraer/anular señalización u otros medios, o no restablecer la seguridad de la vía cuando exista obligación. No menciona “realizar explosiones” como modalidad típica expresamente formulada en el artículo (aunque una explosión podría, en la práctica, encajar por “cualquier otro medio” dependiendo del caso, el test busca la literalidad de las formas listadas). Por ello, la opción de “explosiones” es la que no aparece como una de las formas típicas enumeradas. La a) y la c) sí coinciden literalmente con el 385. Y la d) es falsa porque no son falsas todas.\nIT: L’art. 385 CP prevede, tra le modalità, collocare ostacoli imprevedibili e versare sostanze scivolose o infiammabili (oltre alla manomissione della segnaletica e al mancato ripristino della sicurezza). Non compare, come formula tipica enumerata, la voce “realizar explosiones”. Quindi b) è l’opzione che non corrisponde alla lista letterale del 385. a) e c) sono invece testuali; d) è errata perché non sono tutte false.",
+      "legal_reference": "CP art. 385",
+      "original_file": "TEST PENAL III 2° parcial 06 10 25.docx"
+    },
+    {
+      "question": "20.\tEn relación con la perpetración del delito de dopaje puede decirse que se castigara más gravemente en determinadas circunstancias cual de la siguientes no es una de ellas a los efectos de los previsto en nuestro código penal’",
+      "answers": [
+        {
+          "text": "aquella en la que por su contenido reiteración de la ingesta u otras circunstancia kubernetes se ponga en peligro la vida o la salud - CORRETTA", "correct": true},
+        {"text": "aquella en la que la víctima sea menor de edad", "correct": false},
+        {"text": "aquella en la que se haya empleado engaño o intimidación", "correct": false},
+        {"text": "aquella en la que el responsable de haya prevalido de una relación de superioridad laboral o profesional", "correct": false}
+      ],
+      "explanation": "ES: En el dopaje penal (art. 362 quinquies CP), “poner en peligro la vida o la salud” por el contenido/reiteración u otras circunstancias es requisito del tipo básico (condición de punibilidad), no una agravación autónoma. En cambio, el propio artículo agrava (mitad superior) cuando la víctima es menor, cuando se emplea engaño o intimidación, o cuando el responsable se prevale de una relación de superioridad laboral o profesional. Por eso, la opción que NO es circunstancia agravatoria es la que describe el peligro para vida/salud, porque ya forma parte del núcleo del delito.\nIT: Nel reato di dopaje (art. 362 quinquies CP) il pericolo per vita o salute (per contenuto/reiterazione ecc.) è elemento del tipo base, non un’aggravante. Le aggravanti previste (pena nella metà superiore) sono: vittima minore, inganno o intimidazione, e abuso di una relazione di superiorità lavorativa/professionale. Quindi l’opzione che non è aggravante è quella sul pericolo per vita/salute, perché è requisito del reato stesso.",
+      "legal_reference": "CP art. 362 quinquies.1–2",
+      "original_file": "TEST PENAL III 2° parcial 06 10 25.docx"
+    },
+    {
+      "question": "21.\tPara que la elaboración y producción de un medicamento o producto sanitario sea punible conforme a los previsto en el artículo 362 de nuestro código penal se requiere que concurran una serie de circunstancias. De entre las indicadas a continuación cual es una de estas?",
+      "answers": [
+        {
+          "text": "que se presente en el envase su identidad etiquetado la fecha de caducidad el nombre o composición de cualquiera de sus componentes son en su caso la dosificación de los mismos", "correct": false},
+        {"text": "que se hayan puesto en el comercio èues la mera fabricación de las mismo o un error en el etiquetado no es punible hasta su puesta a disposición del público", "correct": false},
+        {"text": "que se presente en el envase su origen incluidos el fabricante el país de fabricación el país de origen y el titular de la autorizacion de comercializacion o de los documentos de conformidades", "correct": false},
+        {"text": "que los medicamentos alterados engañosamente estuvieran destinado a consumo público o al uso por terceras personas y generan un riesgo para la vida o la salud de las personas - CORRETTA", "correct": true}
+      ],
+      "explanation": "ES: El art. 362 CP exige, para la punibilidad, que los medicamentos/productos sanitarios se presenten engañosamente en aspectos relevantes (identidad, origen, caducidad, composición, dosificación, trazabilidad, etc.) y, además, que estén destinados al consumo público o al uso por terceras personas y generen un riesgo para la vida o la salud. Esa combinación de “destino a terceros/consumo público” y “riesgo” es un requisito nuclear, que es lo que recoge la opción d). Las opciones a) y c) describen posibles ámbitos del engaño (etiquetado/origen), pero no son “la” circunstancia definitoria por sí sola; el artículo no exige que se engañe exactamente en todos esos ítems, sino en alguno de los relevantes. La opción b) es incorrecta porque el tipo no exige que efectivamente se hayan puesto en el comercio: basta con que estén destinados a consumo público/uso por terceros; y el error de etiquetado solo será penal si integra presentación engañosa y riesgo.\nIT: L’art. 362 CP richiede che vi sia presentazione ingannevole su elementi rilevanti (identità, origine, scadenza, composizione, dosaggio, tracciabilità ecc.) e, soprattutto, che il prodotto sia destinato al consumo pubblico o all’uso da parte di terzi e che generi rischio per vita o salute. Questo requisito centrale è espresso dalla d). a) e c) elencano aree possibili dell’inganno ma non costituiscono, da sole, la condizione tipica necessaria. b) è errata perché non serve l’effettiva immissione in commercio: basta la destinazione a terzi/consumo pubblico; e l’“errore” rileva penalmente solo se è ingannevole e rischioso.",
+      "legal_reference": "CP art. 362",
+      "original_file": "TEST PENAL III 2° parcial 06 10 25.docx"
+    },
+    {
+      "question": "22.\tCual de las siguientes afirmaciones es incorrecta en relación el delito de tráfico de inclinas a que hace referencia el art. 428 del código penal?",
+      "answers": [
+        {
+          "text": "que la comete el funcionario público o autoridad que influyera en pro funcionario público o autoridad", "correct": false},
+        {"text": "que debe hacerse prevaliéndose del ejercicio de las facultades des de su cargo o de cualquier otra situación derivada de su relación personal o jerárquica con éste o con otro funcionario o autoridad", "correct": false},
+        {"text": "que debe perseguir conseguir una resolución que se puedo generar directa o indirectamente un  beneficio económico para sí o para un tercero", "correct": false},
+        {"text": "que en el supuesto en que se obtuvieren el beneficio protegid la pena aplicable sería la superior en grado - CORRETTA", "correct": true}
+      ],
+      "explanation": "ES: El art. 428 CP define el tráfico de influencias del funcionario o autoridad: influir en otro funcionario/autoridad prevaliéndose del cargo o relación, para conseguir una resolución que pueda generar beneficio económico. Si se obtiene el beneficio perseguido, la consecuencia no es “pena superior en grado”, sino imponer las penas “en su mitad superior”. Por tanto, la afirmación incorrecta es la que eleva automáticamente a “superior en grado”. Las otras afirmaciones recogen, aunque con erratas, los elementos típicos del 428.\nIT: L’art. 428 CP punisce il pubblico ufficiale/autorità che influisce su un altro funzionario/autorità abusando del ruolo o della relazione per ottenere una risoluzione capace di generare un beneficio. Se il beneficio si ottiene, la norma prevede l’applicazione delle pene nella “metà superiore”, non la “pena superiore in grado”. Quindi è errata l’opzione d). Le altre opzioni riproducono gli elementi tipici del 428 (influenza, prevalimento, finalità di risoluzione con beneficio).",
+      "legal_reference": "CP art. 428",
+      "original_file": "TEST PENAL III 2° parcial 06 10 25.docx"
+    },
+    {
+      "question": "23.\tConforme a lo previsto en el código penal cuando se imprimirán penas agravadas para el caso de delito de malversación?",
+      "answers": [
+        {
+          "text": "cuando no se hubiera causado un grave daño o entorpecimiento al servicio público", "correct": false},
+        {"text": "cuando el valor del perjuicio causado o de los bienes o efectos aporreado excediere de 50.000 euros", "correct": true},
+        {"text": "cuando autoridad o funcionario público onet stase un cargo de especial relevancia", "correct": false},
+        {"text": "todas son correctas - CORRETTA", "correct": false}
+      ],
+      "explanation": "ES: La agravación en malversación (art. 432.2 CP) opera, entre otros supuestos, cuando (a) se hubiera causado un daño o entorpecimiento graves al servicio público, o (b) el valor del perjuicio o del patrimonio apropiado exceda de 50.000 euros, o (c) las cosas malversadas tengan determinado valor cualificado. Por tanto, es correcta la opción que fija el umbral de 50.000 euros. Es incorrecta la opción que dice “cuando no se hubiera causado” daño grave, porque la norma exige justamente lo contrario (“se hubiera causado”). Y no aparece como circunstancia de agravación autónoma en el 432.2 el hecho de ostentar “cargo de especial relevancia” en esos términos. En consecuencia, “todas son correctas” no puede serlo.\nIT: L’aggravamento della malversación (art. 432.2 CP) si applica, tra l’altro, se si è causato un grave danno/impedimento al servizio pubblico o se il valore del pregiudizio/patrimonio appropriato supera 50.000 euro (oltre ad altre ipotesi come valore artistico/storico ecc.). Quindi è corretta b). È errata a) perché dice “no se hubiera causado” mentre la norma richiede che il danno grave ci sia. c) non è una circostanza tipizzata in quei termini nell’art. 432.2. Di conseguenza d) (tutte corrette) è falsa, e la marcatura “CORRETTA” non è coerente con il testo del CP.",
+      "legal_reference": "CP art. 432.2",
+      "original_file": "TEST PENAL III 2° parcial 06 10 25.docx"
+    },
+    {
+      "question": "24.\t De entre las siguientes opciones según el código penal cual se configura como requerido necesario para proceder por el delito de acusación o denuncia falsa’",
+      "answers": [
+        {
+          "text": "la autorización  del juez que hubiere conocido del procedimiento", "correct": false},
+        {"text": "el acto de conciliación previa", "correct": false},
+        {"text": "la queletta de la persona ofendida", "correct": false},
+        {"text": "el auto de archivo o sobreseimiento o pericia firme del juez que haya conocido de la infracción imputada - CORRETTA", "correct": true}
+      ],
+      "explanation": "ES: Para proceder por acusación o denuncia falsa, el art. 456.2 CP exige un “hito procesal” previo: que exista sentencia firme o auto también firme de sobreseimiento o archivo del juez o tribunal que conoció de la infracción imputada. Esa es la condición de procedibilidad típica (evita procesos paralelos mientras la causa principal está viva). Por eso es correcta la opción d), aunque contenga una errata (“pericia firme” por “sentencia firme”). No se exige autorización del juez como requisito autónomo, ni conciliación previa, ni querella necesaria: el propio 456.2 establece el presupuesto y además prevé que pueda perseguirse también previa denuncia del ofendido.\nIT: L’art. 456.2 CP richiede, per perseguire la denuncia/accusa falsa, che prima vi sia una decisione definitiva nel procedimento principale: sentenza definitiva oppure auto definitivo di archiviazione/sovrassimento (sobreseimiento/archivo) del giudice che ha conosciuto dell’infrazione imputata. Questo è il requisito necessario, quindi è corretta d) (nonostante l’errore “pericia” invece di “sentencia”). Non serve un’autorizzazione speciale, né conciliazione, né necessariamente querela: il presupposto è la chiusura definitiva del procedimento principale nei termini previsti dal 456.2.",
+      "legal_reference": "CP art. 456.2",
+      "original_file": "TEST PENAL III 2° parcial 06 10 25.docx"
+    },
+    {
+      "question": "25.\tEn el ámbito de la administración de justicia cuál de las siguente conductas no está tipificada por nuestro código penal como delito de obstrucción a la justicia y deslealtad profesional’",
+      "answers": [
+        {
+          "text": "la de quien interviniendo en un proceso como abogado con abuso de su función destruyere unutlizabe u ocultar cod mcnento o actuación de los que haya recibido traslado en aquella calidad", "correct": false},
+        {"text": "la del abogado que presentare a sabiendas testigos falsos o peritos o interese mendaces - CORRETTA", "correct": true},
+        {"text": "la de aquel abogado o procurador que revelare acacias procesales declaradas secretas por la autoridad jusidicialò", "correct": false},
+        {"text": "la del abogado o pirado que por acción u omisión perjudique de forma manifiesta los intereses que le fueren encomendados", "correct": false}
+      ],
+      "explanation": "ES: En el CP, la obstrucción a la justicia y la deslealtad profesional se regulan en los arts. 463 a 467. Ahí se tipifica, entre otros: destruir/inutilizar/ocultar documentos o actuaciones por abogado/procurador con abuso de función (art. 465), revelar actuaciones declaradas secretas (art. 466) y perjudicar de forma manifiesta los intereses encomendados (art. 467.2). En cambio, “presentar a sabiendas testigos falsos o peritos o intérpretes mendaces” está tipificado en el art. 461 CP, ubicado sistemáticamente fuera del bloque 463–467. Por eso, la conducta que NO está tipificada “como delito de obstrucción a la justicia y deslealtad profesional” es la de presentar testigos/peritos mendaces: es delito, pero de otro precepto.\nIT: Il blocco “obstrucción a la Justicia y deslealtad profesional” è disciplinato dagli artt. 463–467 CP: include, tra l’altro, la distruzione/occultamento di documenti da parte dell’avvocato/procuratore (art. 465), la rivelazione di atti segreti (art. 466) e la lesione manifesta degli interessi affidati (art. 467.2). La presentazione consapevole di testimoni falsi o periti/interpreti mendaci è invece prevista dall’art. 461 CP, collocato fuori dal capitolo 463–467. Quindi è la condotta non tipizzata “come” obstrucción/deslealtad (pur essendo comunque un reato).",
+      "legal_reference": "CP arts. 463–467; CP art. 461",
+      "original_file": "TEST PENAL III 2° parcial 06 10 25.docx"
+    },
+    {
+      "question": "26.\tEl art. 438 bis del código penal como tipo constitutivo de enriquecimiento ilícito sesioa  a la autoridad que:",
+      "answers": [
+        {
+          "text": "durante la sempreno de su función o cargo y hasta tres años después de haber cesado en ellos hubiera obtenido un incremento patrimonial o una canceler de obligación o deudas por un valor superior 250.000 euros respeto a sus ingresos acreditado y requerido para ello se niegue a justificarse", "correct": false},
+        {"text": "durante la sempreno de su función o cargo y hasta cinco años después de haber cesado en ellos hubiera obtenido un incremento patrimonial o una canceler de obligación o deudas por un valor superior 250.000 euros respeto a sus ingresos acreditado y requerido para ello se niegue a justificarse - CORRETTA", "correct": true},
+        {"text": "durante la sempreno de su función o cargo y hasta tres años después de haber cesado en ellos hubiera obtenido un incremento patrimonial o una canceler de obligación o deudas por un valor superior 150.000 euros respeto a sus ingresos acreditado y requerido para ello se niegue a justificarse", "correct": false},
+        {"text": "durante la sempreno de su función o cargo y hasta tres años después de haber cesado en ellos hubiera obtenido un incremento patrimonial o una canceler de obligación o deudas por un valor superior 250.000 euros respeto a sus ingresos acreditado y requerido para ello se niegue a justificarse y del que no sol justifique sin necesidad de requerimiento previo", "correct": false}
+      ],
+      "explanation": "ES: El art. 438 bis CP castiga a la autoridad que, durante el desempeño de su cargo y hasta cinco años después de cesar, haya obtenido un incremento patrimonial o cancelación de obligaciones/deudas superior a 250.000 euros respecto a sus ingresos acreditados y se niegue abiertamente a cumplir los requerimientos de los órganos competentes destinados a comprobar su justificación. Por eso, la opción correcta es la que fija cinco años, 250.000 euros y la negativa ante requerimiento. Las opciones que reducen a tres años o a 150.000 euros no coinciden con el umbral legal. Y la opción que elimina la necesidad de requerimiento previo es incompatible con el tipo, que exige precisamente la negativa frente a “requerimientos” de comprobación.\nIT: L’art. 438 bis CP punisce l’autorità che, durante la funzione e fino a cinque anni dopo la cessazione, ottiene un incremento patrimoniale o estinzione di debiti superiore a 250.000 euro rispetto ai redditi giustificati e rifiuta apertamente di adempiere ai requerimientos degli organi competenti per verificarne la giustificazione. È quindi corretta l’opzione b). Le opzioni con 3 anni o 150.000 euro sono errate. È errata anche l’idea che basti non giustificare “senza requerimiento”, perché la norma richiede il rifiuto rispetto a specifici requerimientos.",
+      "legal_reference": "CP art. 438 bis",
+      "original_file": "TEST PENAL III 2° parcial 06 10 25.docx"
+    },
+    {
+      "question": "27.\tRespecto de los particulares que excusa absolutoria establece nuestro código penal en relación con el delito de cohecho?",
+      "answers": [
+        {
+          "text": "que quedará exento de pena por el delito de chicho el particular que sin haber accedido a la solicitud realizada por la autoridad o funcionario público denunciare el hecho autoridad que tenga el deber de proceder a su averiguación antes de la apertura del procedimiento", "correct": false},
+        {"text": "que quedará exento de pena por el delito de chicho el particular que habiendo accedido a la retribución realizada por autoridad o funcionario público denunciare el hecho a la autoridad que tenga el deber de proceder a su averiguación antes de la apertura del procedimiento siempre que no haya transcurrido más de 2 meses desde la fecha de los hechos - CORRETTA", "correct": true},
+        {"text": "que quedará exento de ena por el delito de cohecho el particular que habiendo accedido a la solicitud de defiba realizada èor autoridad o funcionario público denunciare el hecho aa la autoridad que tenga el deber de proceder a su aveitg7uacon antes de la apertura del procedimiento con independencia del tiempo transcurrido", "correct": false},
+        {"text": "que estadia exento de la pena por el delito de cohecho el particular que habiendo accedido ocasional mye a la solicitud de defiba u otra resolución denunciare el hecho a cualquier aurora siempre que no haya transcurrido más de 2 mese desde la fecha de los hechos", "correct": false}
+      ],
+      "explanation": "ES: La excusa absolutoria del particular en cohecho está en el art. 426 CP: queda exento el particular que, habiendo accedido ocasionalmente a la solicitud de dádiva/retribución realizada por autoridad o funcionario, denuncie el hecho a la autoridad con deber de averiguación antes de la apertura del procedimiento, y siempre que no hayan transcurrido más de dos meses desde los hechos. Por eso la opción correcta es la que incorpora: acceso (aunque sea ocasional), denuncia a la autoridad competente, antes de la apertura del procedimiento, y el límite temporal de dos meses. La opción sin acceso previo no responde al 426 (además, sin acceso normalmente no habría cohecho consumado por el particular). La opción que elimina el límite temporal es contraria al artículo. Y la que dice “a cualquier autoridad” no coincide con el requisito de denunciar a la autoridad que tenga el deber de proceder a la averiguación.\nIT: L’art. 426 CP prevede l’esenzione per il privato che, dopo aver aderito occasionalmente alla richiesta di utilità avanzata dal pubblico ufficiale, denuncia il fatto all’autorità che ha il dovere di indagare prima dell’apertura del procedimento e entro 2 mesi dai fatti. Quindi è corretta b). È errata l’opzione senza “accesso” (manca il presupposto del 426), è errata l’eliminazione del limite temporale e non è corretta la formula “a cualquier autoridad” perché il CP richiede l’autorità competente con dovere di averiguación.",
+      "legal_reference": "CP art. 426",
+      "original_file": "TEST PENAL III 2° parcial 06 10 25.docx"
+    },
+    {
+      "question": "28.\tQue consecuencia penal no está prevista para el  supuesto en que su hermano facilita la evasión del condenado preso o detenido bien del lugar en que está recluido bien durante su conducción?",
+      "answers": [
+        {
+          "text": "la imposición de una pena de multa - CORRETTA", "correct": false},
+        {"text": "que se castigaran en todo caso sobre lòs daños causados o las amenazas o violencias ejecutadas", "correct": false},
+        {"text": "la extensión de al responsabilidade criminal", "correct": true},
+        {"text": "todas son incorrectas", "correct": false}
+      ],
+      "explanation": "ES: Si quien facilita la evasión es hermano (persona incluida entre las citadas en el art. 454 CP), el art. 470.3 CP establece un régimen privilegiado: se castiga con pena de multa de tres a seis meses, y además el juez o tribunal puede imponer tan solo las penas correspondientes a los daños causados o a las amenazas o violencias ejercidas. Por tanto, SÍ está prevista la pena de multa (lo que hace incorrecta la opción a como respuesta a “no está prevista”). También está prevista, al menos como posibilidad, la referencia a penas por daños/amenazas/violencias (aunque el enunciado diga “en todo caso”, cuando el CP dice “pudiendo” y por eso su literalidad es imprecisa). Lo que NO aparece como consecuencia penal prevista en ese régimen es la genérica “extensión de la responsabilidad criminal” como tal. Por ello, la opción correcta a marcar como “no prevista” es la de la “extensión” (c). Nota: la marca “CORRETTA” del texto original en la opción a) no se corresponde con el art. 470.3 CP, que sí prevé multa.\nIT: Se a favorire l’evasione è un fratello (persona richiamata dall’art. 454 CP), l’art. 470.3 CP prevede una disciplina attenuata: multa da 3 a 6 mesi, e il giudice può limitarsi alle pene per i danni o per le minacce/violenze esercitate. Quindi la multa è prevista (a è falsa come risposta a “no está prevista”). Anche la menzione di danni/minacce/violenze è contemplata (sebbene non “in todo caso”, ma “pudiendo”). Ciò che non è previsto come conseguenza tipica è una generica “extensión de la responsabilidad criminal”. Pertanto, la risposta corretta è c).",
+      "legal_reference": "CP art. 470.3; CP art. 454 (personas citadas)",
+      "original_file": "TEST PENAL III 2° parcial 06 10 25.docx"
+    },
+    {
+      "question": "29.\tQué sucedería según el código penal cuando el autor del hecho incierto fuera irresponsable o estuviera exento de pena?",
+      "answers": [
+        {
+          "text": "nada en tanto que son delitos siento que no se ven afectados entre sí - CORRETTA", "correct": true},
+        {"text": "que el autor de encubrimiento quesería exento de pena", "correct": false},
+        {"text": "que el autor del encubrimiento vería su pena bajada en un  grado", "correct": false},
+        {"text": "que el auto de encuentro vería su pena rebajada en uno o grados", "correct": false}
+      ],
+      "explanation": "ES: El art. 453 CP es explícito: las disposiciones del capítulo del encubrimiento se aplican aun cuando el autor del hecho encubierto sea irresponsable o esté personalmente exento de pena. Por tanto, la consecuencia es que el encubrimiento sigue siendo perseguible y punible; no “cae” por la situación personal del autor del hecho encubierto. Por eso es correcta la opción que indica que no cambia nada en cuanto a la aplicabilidad del encubrimiento. Son incorrectas las opciones que proclaman exención automática del encubridor o rebajas automáticas de pena: el CP no establece esas consecuencias por la mera irresponsabilidad/exención del autor del hecho encubierto.\nIT: L’art. 453 CP stabilisce che le norme sull’encubrimiento si applicano anche se l’autore del fatto encubierto è irresponsabile o personalmente esente da pena. Quindi l’encubrimiento resta punibile: non c’è esenzione automatica né riduzione automatica della pena per il solo fatto che l’autore principale sia inimputabile o esente. Per questo è corretta l’opzione a), mentre b), c) e d) non trovano base nel testo del CP.",
+      "legal_reference": "CP art. 453 (encubrimiento)",
+      "original_file": "TEST PENAL III 2° parcial 06 10 25.docx"
     }
   ]
 }
