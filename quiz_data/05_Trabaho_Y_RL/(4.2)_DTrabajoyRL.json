@@ -3,6 +3,154 @@
   "file_name": "Trabajo y RL AGGIORNATO 06 06 25 .docx",
   "questions": [
     {
+  "file_number": 0,
+  "file_name": "Trabajo y RL AGGIORNATO 24 11 25.docx",
+  "questions": [
+    {
+      "question": "¿Cuál es la duración máxima del contrato de trabajo de duración determinada celebrado por circunstancias de la producción?",
+      "answers": [
+        {"text": "La duración máxima del contrato de trabajo será de 6 meses, por convenio colectivo de ámbito sectorial se podrá ampliar la duración máxima del contrato hasta un año.", "correct": true},
+        {"text": "La duración máxima del contrato de trabajo será de 3 meses, ampliable a un año por convenio colectivo.", "correct": false},
+        {"text": "El contrato de trabajo se mantendrá mientras dure el pico de producción fijado en la cláusula temporal.", "correct": false},
+        {"text": "La duración máxima del contrato de trabajo será de 12 meses, en un período de dieciocho meses.", "correct": false}
+      ],
+      "explanation": "ES: El contrato temporal por circunstancias de la producción (incremento ocasional e imprevisible u oscilaciones que generan un desajuste temporal) tiene una duración máxima supletoria de 6 meses. Un convenio colectivo de ámbito sectorial puede ampliar ese máximo hasta 12 meses. Por ello, es correcta la respuesta que fija 6 meses ampliables por convenio sectorial a 1 año. La opción de 3 meses no es el límite general; la de “mientras dure el pico” es incorrecta porque la temporalidad exige término y límites máximos; y la de 12 meses en 18 meses responde al régimen previo a la reforma de 2021, no aplicable a esta modalidad.\nIT: Il contratto a termine per “circostanze della produzione” (aumento occasionale e imprevedibile o oscillazioni che creano uno squilibrio temporaneo) ha durata massima ordinaria di 6 mesi; un CCNL di settore può estendere il limite fino a 12 mesi. È quindi corretta la risposta che indica 6 mesi prorogabili fino a un anno. Le altre opzioni sono errate: 3 mesi non è il limite generale; “finché dura il picco” non rispetta l’esigenza di un termine e dei limiti legali; e 12 mesi in 18 mesi è un criterio del vecchio regime, non pertinente qui.",
+      "legal_reference": "Estatuto de los Trabajadores (RDL 2/2015), art. 15.2 (duración del contrato por circunstancias de la producción: 6 meses ampliables por convenio sectorial hasta 12 meses); RDL 32/2021 (reforma de la temporalidad).",
+      "original_file": "Trabajo y RL AGGIORNATO 24 11 25.docx"
+    },
+    {
+      "question": "Irene es sancionada con la comisión de una falta grave conocida por la empresa y acuda al despacho de un graduado social para que le informe sobre la posibilidad de impugnar la sanción, ¿cuándo prescribe la comisión de la falta grave cometida por Irene?",
+      "answers": [
+        {"text": "La comisión de una falta grave prescribe a los 25 días desde que fue cometida.", "correct": false},
+        {"text": "La comisión de una falta grave prescribe a los 10 días a partir de la fecha en que la empresa tuvo conocimiento de su comisión.", "correct": false},
+        {"text": "La comisión de una falta grave prescribe a los 20 días a partir de la fecha en que la empresa tuvo conocimiento de su comisión.", "correct": true},
+        {"text": "La comisión de una falta grave prescribe a los 2 meses de haberse cometido, en todo caso.", "correct": false}
+      ],
+      "explanation": "ES: La prescripción de las faltas disciplinarias se regula en el art. 60.2 ET: leves 10 días, graves 20 días y muy graves 60 días, contados desde que la empresa tuvo conocimiento de su comisión, y en todo caso prescriben a los 6 meses de haberse cometido. Siendo una falta grave, prescribe a los 20 días desde el conocimiento empresarial (con el límite absoluto de 6 meses desde la comisión). Por eso es correcta la opción de 20 días. La opción de 10 días corresponde a faltas leves; 25 días y 2 meses no son plazos legales.\nIT: La prescrizione delle infrazioni disciplinari è regolata dall’art. 60.2 ET: lievi 10 giorni, gravi 20 giorni, molto gravi 60 giorni, dal momento della conoscenza da parte dell’impresa, e comunque entro 6 mesi dalla commissione. Trattandosi di “falta grave”, il termine è 20 giorni dalla conoscenza (con limite massimo di 6 mesi dal fatto). L’opzione 10 giorni vale per le lievi; 25 giorni e 2 mesi non corrispondono ai termini legali.",
+      "legal_reference": "Estatuto de los Trabajadores (RDL 2/2015), art. 60.2 (prescripción de faltas: graves 20 días desde conocimiento; en todo caso 6 meses desde comisión).",
+      "original_file": "Trabajo y RL AGGIORNATO 24 11 25.docx"
+    },
+    {
+      "question": "La autorización inicial de residencia y trabajo por cuenta ajena de un ciudadano extranjero (que no tenga nacionalidad de un país de la Unión Europea) se limita, salvo excepciones, a un determinado territorio y ocupación, determinándose reglamentariamente su duración. ¿Cuál es esa duración?",
+      "answers": [
+        {"text": "El art. 63.5 RLOE la fija en un año.", "correct": true},
+        {"text": "El art. 63.5 RLOE la fija en seis meses.", "correct": false},
+        {"text": "El art. 63.5 RLOE la fija en nueve meses.", "correct": false},
+        {"text": "El art. 63.5 RLOE establece que su duración es indefinida, salvo que se incurra en causa de suspensión o retirada de la misma.", "correct": false}
+      ],
+      "explanation": "ES: La autorización inicial de residencia temporal y trabajo por cuenta ajena tiene, con carácter general, duración de un año. Así lo establece expresamente el art. 63.5 del Reglamento de Extranjería (RD 557/2011). Las opciones de 6 o 9 meses no coinciden con el precepto; y tampoco es indefinida: la autorización inicial es temporal y se renueva conforme a la normativa.\nIT: L’autorizzazione iniziale di soggiorno e lavoro subordinato (regime generale) ha durata annuale. Lo prevede espressamente l’art. 63.5 del regolamento (RD 557/2011). Le opzioni 6 o 9 mesi non sono conformi al testo; e non è indefinita, perché l’autorizzazione iniziale è temporanea e soggetta a rinnovo.",
+      "legal_reference": "RD 557/2011 (Reglamento de Extranjería, RLOEX), art. 63.5; LO 4/2000, art. 36 (régimen general de autorizaciones de residencia y trabajo).",
+      "original_file": "Trabajo y RL AGGIORNATO 24 11 25.docx"
+    },
+    {
+      "question": "Pedro, con estudios de bachiller, ha empezado a trabajar en una empresa de diez trabajadores. En su contrato indefinido figura un período de prueba de tres meses, sin que en el convenio regulador aplicable se establezca límite a la duración del período de prueba. ¿Es legal el período de tres meses establecido?",
+      "answers": [
+        {"text": "Sí, porque al no fijarse límite de duración del período de prueba en el convenio regulador, será legal siempre que no supere los seis meses.", "correct": false},
+        {"text": "Sí porque al no fijarse límite de duración del período de prueba en el convenio regulador, será legal siempre que no supere los tres meses.", "correct": true},
+        {"text": "No, porque al no fijarse límite de duración del período de prueba en el convenio regulador, será legal siempre que no supere los dos meses.", "correct": false},
+        {"text": "No, porque al no ser un técnico titulado, el período de prueba nunca puede ser superior a un mes.", "correct": false}
+      ],
+      "explanation": "ES: Si el convenio colectivo no fija duración, el art. 14.1 ET establece límites: hasta 6 meses para técnicos titulados y hasta 2 meses para el resto; pero en empresas de menos de 25 trabajadores el período de prueba puede alcanzar 3 meses para trabajadores que no sean técnicos titulados. Al ser una empresa de 10 trabajadores y no ser Pedro técnico titulado, 3 meses es legal. Por ello es correcta la opción que fija el máximo en 3 meses en este caso. La opción de 6 meses se reserva a técnicos titulados; la de 2 meses ignora la regla especial de empresas <25; y la de 1 mes no es el tope general.\nIT: In assenza di limite nel CCNL, l’art. 14.1 ET prevede: massimo 6 mesi per tecnici titolati e 2 mesi per gli altri; tuttavia, nelle imprese con meno di 25 dipendenti il massimo è 3 mesi per i lavoratori non tecnici titolati. Qui l’impresa ha 10 dipendenti e Pedro non è tecnico titolato: 3 mesi è legittimo. Le altre opzioni sono errate: 6 mesi vale per tecnici; 2 mesi ignora l’eccezione per imprese piccole; 1 mese non è il limite generale.",
+      "legal_reference": "Estatuto de los Trabajadores (RDL 2/2015), art. 14.1 (límites del período de prueba; especialidad para empresas <25).",
+      "original_file": "Trabajo y RL AGGIORNATO 24 11 25.docx"
+    },
+    {
+      "question": "Jaume se encuentra cursando formación profesional del sistema educativo oficial y le ofrecen realizar un contrato en alternancia en una empresa con actividad formativa. ¿Cuál es la duración máxima de este tipo de contrato?",
+      "answers": [
+        {"text": "La duración máxima será de tres años.", "correct": false},
+        {"text": "La duración máxima será de dos años.", "correct": true},
+        {"text": "La duración máxima será de un año.", "correct": false},
+        {"text": "La duración máxima será únicamente la que se determine por convenio colectivo.", "correct": false}
+      ],
+      "explanation": "ES: El contrato de formación en alternancia tiene una duración máxima de dos años (y mínima, con carácter general, de tres meses), conforme al art. 11.2 ET. Por ello es correcta la opción de dos años. La referencia a tres años corresponde al régimen anterior; un año no es el máximo legal; y el convenio colectivo puede concretar aspectos, pero no fijar libremente una duración superior al máximo legal.\nIT: Il contratto di formazione in alternanza ha durata massima di 2 anni (e minima ordinaria di 3 mesi) secondo l’art. 11.2 ET. È quindi corretta l’opzione “due anni”. “Tre anni” rinvia al vecchio regime; “un anno” non è il massimo; e il CCNL non può superare il limite legale.",
+      "legal_reference": "Estatuto de los Trabajadores (RDL 2/2015), art. 11.2.g (duración del contrato de formación en alternancia: mínimo 3 meses, máximo 2 años).",
+      "original_file": "Trabajo y RL AGGIORNATO 24 11 25.docx"
+    },
+    {
+      "question": "A Juan, graduado en derecho, le han ofrecido concertar un contrato de formación en alternancia para ejercer como asesor jurídico. Le realiza la consulta acerca del periodo de prueba que la empresa le puede firmar, como técnico titulado que es, y usted comenta que ese tiempo será:",
+      "answers": [
+        {"text": "2 meses.", "correct": false},
+        {"text": "3 meses.", "correct": false},
+        {"text": "Ninguno, no se podrá establecer periodo de prueba para técnicos titulados.", "correct": false},
+        {"text": "Ninguno, ya que no se podrá realizar esta modalidad de contrato a técnicos titulados.", "correct": false}
+      ],
+      "explanation": "ES: Ninguna opción es plenamente correcta. En el contrato de formación en alternancia no puede establecerse período de prueba en ningún caso (prohibición expresa del art. 11.2.l ET), con independencia de que la persona sea o no “técnico titulado”. Por tanto, la respuesta material correcta sería “ninguno”, pero no por las razones formuladas en c) (que limita erróneamente la prohibición a técnicos) ni en d) (la alternancia no se prohíbe por ser “técnico titulado” en abstracto; su procedencia depende de que el contrato se vincule a un proceso formativo válido y se cumplan los requisitos del art. 11.2 ET). Además, si Juan ya es graduado y va a ejercer como asesor jurídico, lo típico —si se cumplen los requisitos temporales— sería el contrato para la obtención de la práctica profesional (art. 11.3 ET), no el de alternancia.\nIT: Nessuna opzione è pienamente corretta. Nel contratto di formazione in alternanza non è ammesso il periodo di prova in nessun caso (divieto espresso: art. 11.2.l ET), a prescindere dal fatto che il lavoratore sia o meno “tecnico titolato”. Quindi l’esito corretto è “nessuno”, ma non per i motivi indicati in c) (che limita il divieto ai tecnici) né in d) (l’alternanza non è vietata in astratto ai laureati; dipende dal collegamento a un percorso formativo e dai requisiti dell’art. 11.2 ET). Inoltre, se Juan è già laureato e svolge mansioni da consulente legale, di regola si valuterebbe il contratto per pratica professionale (art. 11.3 ET), non l’alternanza.",
+      "legal_reference": "Estatuto de los Trabajadores (RDL 2/2015), art. 11.2.l (prohibición de período de prueba en el contrato de formación en alternancia); art. 11.2 (requisitos de la alternancia) y art. 11.3 (contrato para la obtención de la práctica profesional).",
+      "original_file": "Trabajo y RL AGGIORNATO 24 11 25.docx"
+    },
+    {
+      "question": "Ante una situación de incremento ocasional y previsible de la actividad de la empresa, se podrá contratar trabajadores con contrato eventual:",
+      "answers": [
+        {"text": "Con una duración de 90 días sumando la duración de todos los contratos de este tipo firmados por la empresa a lo largo de un año.", "correct": false},
+        {"text": "Con una duración de 90 días al menos cada uno de los contratos firmados a lo largo de un año.", "correct": false},
+        {"text": "a lo largo de un periodo de 90 días consecutivos al año, tantos contratos como sean necesarios.", "correct": false},
+        {"text": "A lo largo de un periodo de 90 días no consecutivos al año, tantos contratos como sean necesarios.", "correct": true}
+      ],
+      "explanation": "ES: Para situaciones ocasionales pero previsibles y de duración reducida, el art. 15.2 ET permite utilizar el contrato por circunstancias de la producción (submodalidad “previsible”) un máximo de 90 días en el año natural, que no pueden ser continuados. Ese límite se refiere a los días de utilización por la empresa, pudiendo celebrarse tantos contratos como sean necesarios en esos días. Por eso es correcta la opción de 90 días no consecutivos. La opción que habla de “sumar la duración de todos los contratos” es equívoca, porque podría interpretarse como suma por trabajador/contrato (cuando el límite es por días de uso empresarial). La opción de “90 días al menos cada contrato” es contraria al sistema; y la de 90 días consecutivos contradice la prohibición de uso continuado.\nIT: Per esigenze occasionali ma prevedibili e di breve durata, l’art. 15.2 ET consente l’uso del contratto per circostanze della produzione (versione “prevedibile”) per un massimo di 90 giorni nell’anno solare, non continuativi. Il limite riguarda i giorni di utilizzo da parte dell’impresa, e in quei giorni si possono stipulare tanti contratti quanti necessari. Per questo è corretta l’opzione dei 90 giorni non consecutivi. L’opzione sulla “somma della durata di tutti i contratti” è ambigua (potrebbe intendersi come somma per lavoratore/contratto, mentre il limite è per giorni di utilizzo aziendale). Le altre opzioni sono errate: non esiste un minimo di 90 giorni per ciascun contratto e non è consentito l’uso continuativo per 90 giorni.",
+      "legal_reference": "Estatuto de los Trabajadores (RDL 2/2015), art. 15.2 (situaciones ocasionales previsibles: máximo 90 días no continuados en el año natural).",
+      "original_file": "Trabajo y RL AGGIORNATO 24 11 25.docx"
+    },
+    {
+      "question": "Una empresa se encuentra, de manera ocasional (no cíclica ni estacional) en una situación de desajuste temporal entre el empleo estable disponible y el requerido, debido a las vacaciones de los trabajadores de este año. Si contrata trabajadores para cubrir tal desajuste, ¿qué contrato les podrá realizar?",
+      "answers": [
+        {"text": "Contratos de sustitución.", "correct": false},
+        {"text": "Contratos de relevo.", "correct": false},
+        {"text": "Contratos por circunstancia de producción.", "correct": true},
+        {"text": "Contratos de obra y servicio determinado.", "correct": false}
+      ],
+      "explanation": "ES: El art. 15.2 ET incluye expresamente las oscilaciones derivadas de las vacaciones anuales como ejemplo de desajuste temporal que habilita el contrato por circunstancias de la producción. Por ello, la opción correcta es la de contrato por circunstancias de la producción. El contrato de sustitución se diseña para sustituir a una persona concreta con derecho a reserva de puesto y exige su identificación; el de relevo se vincula a la jubilación parcial; y el contrato de obra y servicio fue suprimido por la reforma de 2021.\nIT: L’art. 15.2 ET menziona espressamente le oscillazioni dovute alle ferie annuali come esempio di squilibrio temporaneo che consente il contratto per circostanze della produzione. Quindi è corretta l’opzione “circostanza di produzione”. Il contratto di sostituzione richiede la sostituzione di una persona specifica con riserva del posto (e va identificata); il “relevo” è collegato alla pensione parziale; e il contratto per opera/servizio è stato abolito con la riforma del 2021.",
+      "legal_reference": "Estatuto de los Trabajadores (RDL 2/2015), art. 15.2 (oscilaciones, incluidas las vacaciones, como causa del contrato por circunstancias de la producción); RDL 32/2021 (supresión del contrato por obra y servicio).",
+      "original_file": "Trabajo y RL AGGIORNATO 24 11 25.docx"
+    },
+    {
+      "question": "La denominada garantía de indemnidad:",
+      "answers": [
+        {"text": "Conduce a la nulidad de las represalias empresariales por el ejercicio de acciones del trabajador en defensa de sus derechos.", "correct": true},
+        {"text": "Es un derecho que tienen todos los trabajadores a desobedecer las órdenes que supongan un peligro para su salud, sin sufrir represalias.", "correct": false},
+        {"text": "Es el derecho que tienen todos los trabajadores a ver protegida su salud en el desempeño de su trabajo.", "correct": false},
+        {"text": "b y c son correctas.", "correct": false}
+      ],
+      "explanation": "ES: La garantía de indemnidad protege al trabajador frente a represalias por reclamar o ejercitar acciones en defensa de sus derechos. Si el empresario adopta una medida desfavorable (p. ej., sanción o despido) como reacción a esa reclamación, la medida vulnera el derecho a la tutela judicial efectiva y se califica como nula (tutela de derechos fundamentales). Por ello es correcta la opción que habla de nulidad de represalias. Las opciones b) y c) describen otros derechos distintos: la posibilidad de paralizar/rehusar la actividad ante riesgo grave e inminente y el derecho a la seguridad y salud laboral. No son “garantía de indemnidad”, por lo que d) también es falsa.\nIT: La “garanzia di indennità” tutela il lavoratore contro ritorsioni per aver rivendicato diritti o per aver promosso azioni a loro tutela. Se il datore adotta misure sfavorevoli come reazione (sanzione, licenziamento), la misura viola la tutela giurisdizionale effettiva ed è nulla. Per questo è corretta l’opzione sulla nullità delle ritorsioni. Le opzioni b) e c) riguardano invece diritti diversi (sicurezza e salute, rifiuto in caso di pericolo grave e imminente) e non definiscono la garanzia di indennità; quindi anche d) è falsa.",
+      "legal_reference": "Constitución Española, art. 24.1 (tutela judicial efectiva); ET art. 4.2.g (derecho a ejercitar acciones) y LRJS arts. 177 y ss. (tutela de derechos fundamentales); doctrina del TC sobre garantía de indemnidad.",
+      "original_file": "Trabajo y RL AGGIORNATO 24 11 25.docx"
+    },
+    {
+      "question": "Rafael necesita para su empresa un nuevo transportista, el actual próximamente se jubilará. Su amigo Andrés, quien tiene una furgoneta, le ha ofrecido sus servicios y han llegado a un acuerdo verbal concretando que comenzará el próximo día 1 de mes, durante un año, realizando portes tres días a la semana. ¿Qué modalidad de contrato de trabajo han celebrado?",
+      "answers": [
+        {"text": "Contrato a tiempo parcial.", "correct": false},
+        {"text": "Contrato de relevo.", "correct": false},
+        {"text": "El contrato se presumirá celebrado a tiempo completo, salvo prueba en contrario que acredite el carácter parcial de los servicios.", "correct": true},
+        {"text": "Contrato formativo y de aprendizaje.", "correct": false}
+      ],
+      "explanation": "ES: Aunque “tres días a la semana” sugiere parcialidad, el contrato a tiempo parcial exige forma escrita e indicar el número de horas ordinarias y su distribución (diaria/semanal/mensual/anual). Si no se cumple ese requisito formal, se presume que el contrato es a jornada completa, salvo prueba en contrario del carácter parcial. Por eso es correcta la opción de presunción de tiempo completo. No es un contrato de relevo (jubilación parcial) ni un contrato formativo (no hay finalidad formativa).\nIT: Anche se “tre giorni a settimana” fa pensare al part-time, il contratto a tempo parziale richiede la forma scritta e l’indicazione delle ore e della loro distribuzione. Se manca, opera la presunzione di tempo pieno salvo prova contraria. Quindi è corretta l’opzione sulla presunzione di full-time. Non è un contratto di “relevo” (pensione parziale) né un contratto formativo.",
+      "legal_reference": "Estatuto de los Trabajadores (RDL 2/2015), art. 12 (requisitos del contrato a tiempo parcial y presunción de jornada completa si no consta por escrito) y art. 8.2 (forma y presunciones).",
+      "original_file": "Trabajo y RL AGGIORNATO 24 11 25.docx"
+    },
+    {
+      "question": "Carlos acaba de firmar un contrato de formación en alternancia en una empresa y nos pregunta qué porcentaje de su jornada deberá dedicar al trabajo efectivo. Le contestaremos que:",
+      "answers": [
+        {"text": "El tiempo de trabajo efectivo no podrá ser inferior al 65% el primer año y al 85% el segundo, de la jornada máxima prevista en el convenio colectivo de aplicación en la empresa, o, en su defecto, de la jornada máxima legal.", "correct": false},
+        {"text": "El tiempo de trabajo efectivo no podrá ser superior al 65% el primer año y al 85% el segundo, de la jornada máxima prevista en el convenio colectivo de aplicación en la empresa, o, en su defecto, de la jornada máxima legal.", "correct": true},
+        {"text": "El tiempo de trabajo efectivo no podrá ser superior al 65% el primer año y al 85% el segundo y tercer año, de la jornada máxima prevista en el convenio colectivo de aplicación en la empresa, o, en su defecto, de la jornada máxima legal.", "correct": false},
+        {"text": "El tiempo de trabajo efectivo no podrá ser superior al 65% el primer año y al 85% el segundo, de la jornada máxima prevista en el convenio colectivo de aplicación en la empresa, o, en su defecto, de la jornada máxima legal, incluyendo las horas extraordinarias.", "correct": false}
+      ],
+      "explanation": "ES: En el contrato de formación en alternancia, el tiempo de trabajo efectivo está limitado como máximo: no puede superar el 65% el primer año ni el 85% el segundo, de la jornada máxima de convenio o, en su defecto, de la legal. El resto del tiempo se destina a formación. Por ello es correcta la opción que usa “no podrá ser superior”. La opción “no podrá ser inferior” invierte la regla. La referencia a un “tercer año” es incorrecta porque la duración máxima ordinaria es de dos años. Y no procede incluir horas extraordinarias (además, en estos contratos el régimen de jornada está especialmente acotado).\nIT: Nel contratto di formazione in alternanza il lavoro effettivo è un massimo: non può superare il 65% nel primo anno e l’85% nel secondo, rispetto alla giornata massima prevista dal CCNL o, in mancanza, dalla legge. Il resto è formazione. È quindi corretta l’opzione “non potrà essere superiore”. “Non potrà essere inferiore” capovolge la regola; il “terzo anno” non è previsto (massimo ordinario 2 anni); e non si includono straordinari nel calcolo (oltre al fatto che la disciplina di orario in questi contratti è particolarmente limitativa).",
+      "legal_reference": "Estatuto de los Trabajadores (RDL 2/2015), art. 11.2 (contrato de formación en alternancia: jornada y límites del trabajo efectivo: 65% primer año, 85% segundo).",
+      "original_file": "Trabajo y RL AGGIORNATO 24 11 25.docx"
+    },
+    {
+      "question": "Rafael necesita para su empresa un nuevo transportista, el actual próximamente se jubilará. Su amigo Andrés, quien tiene una furgoneta, le ha ofrecido sus servicios y han llegado a un acuerdo verbal concretando que comenzará el próximo día 1 de mes, durante un año, realizando portes tres días a la semana. ¿Qué modalidad de contrato de trabajo han celebrado?",
+      "answers": [
+        {"text": "Contrato a tiempo parcial.", "correct": false},
+        {"text": "Contrato de transporte.", "correct": false},
+        {"text": "Contrato a tiempo completo, salvo que se acredite el carácter parcial.", "correct": true},
+        {"text": "Contrato de Autónomo Dependiente.", "correct": false}
+      ],
+      "explanation": "ES: Si calificamos la relación como laboral, la parcialidad exige contrato escrito con determinación de horas y distribución; si no consta, se presume jornada completa. Por eso es correcta la opción de “tiempo completo salvo acreditación del carácter parcial”. La opción de “contrato de transporte” y la de “autónomo dependiente (TRADE)” no son modalidades de contrato de trabajo: serían alternativas civiles/mercantiles o de trabajo autónomo. Para encajar en ellas harían falta datos claros de autonomía (organización propia, asunción del riesgo, habilitación/autoridad administrativa en su caso), que el enunciado no aporta. Y, en todo caso, “tiempo parcial” (a) requiere forma escrita.\nIT: Se la relazione è di lavoro subordinato, il part-time richiede un contratto scritto con ore e distribuzione; se manca, si presume tempo pieno. Quindi è corretta l’opzione “tempo pieno salvo prova del part-time”. “Contratto di trasporto” e “autonomo dipendente (TRADE)” non sono contratti di lavoro subordinato: sono soluzioni civilistiche/mercantili o di lavoro autonomo, che richiedono indici di autonomia (organizzazione e rischio propri, eventuale autorizzazione, ecc.) non presenti nel caso. E, comunque, il “tempo parziale” (a) senza forma scritta non regge.",
+      "legal_reference": "Estatuto de los Trabajadores (RDL 2/2015), art. 12 (forma del contrato a tiempo parcial y presunción de jornada completa); art. 8.2. Alternativa autónoma: ET art. 1.3 (exclusión de ciertos transportistas) y Ley 20/2007 (TRADE).",
+      "original_file": "Trabajo y RL AGGIORNATO 24 11 25.docx"
+    },
+    {
       "question": "El principio pro operario:",
       "answers": [
         { "text": "Se aplica como criterio de interpretación de los contratos y no de las normas.", "correct": false },
