@@ -5,8 +5,7 @@
     {
       "question": "1. ¿Qué es el beneficio de inventario?",
       "answers": [
-        {
-          "text": "Es una forma de redactar el testamento para que los herederos no respondan de las deudas de la herencia sino hasta donde alcance.", "correct": false},
+        {"text": "Es una forma de redactar el testamento para que los herederos no respondan de las deudas de la herencia sino hasta donde alcance.", "correct": false},
         {"text": "Es una manera de aceptar la herencia limitando la responsabilidad a los bienes heredados que debe hacerse de forma expresa", "correct": true},
         {"text": "Es una forma de rechazar la herencia para que el heredero no tenga que pagar las deudas del causante", "correct": false},
         {"text": "Es una forma de aceptar la herencia limitando la responsabilidad a los bienes heredados que puede hacerse de forma tacita", "correct": false}
@@ -18,8 +17,7 @@
     {
       "question": "2. ¿Qué debe hacer un albacea para aceptar su cargo?",
       "answers": [
-        {
-          "text": "Deberá aceptarlo de forma expresa ante el Juez, el Notario o la Administración de Justicia.", "correct": false},
+        {"text": "Deberá aceptarlo de forma expresa ante el Juez, el Notario o la Administración de Justicia.", "correct": false},
         {"text": "No excusarse dentro de los términos de la Ley.", "correct": true},
         {"text": "Antes de aceptar, los herederos deberán prestar su conformidad.", "correct": false},
         {"text": "Ninguna de las respuestas anteriores es cierta.", "correct": false}
@@ -31,8 +29,7 @@
     {
       "question": "4. ¿Cuál es la forma de nombrar un albacea, según el Código Civil?",
       "answers": [
-        {
-          "text": "A través de un documento privado firmado por el causante y el albacea.", "correct": false},
+        {"text": "A través de un documento privado firmado por el causante y el albacea.", "correct": false},
         {"text": "Lo nombra el testador en el propio testamento.", "correct": true},
         {"text": "El albacea se nombra por acuerdo entre los herederos.", "correct": false},
         {"text": "El albacea solo puede nombrarlo el Juez.", "correct": false}
@@ -44,8 +41,7 @@
     {
       "question": "7. Tomás fallece sin descendencia, estando separado judicialmente de su esposa Manuela. Al fallecer, Tomás tiene dos hermanos, Carmen y Pedro, y dos sobrinos, hijos de su hermano Leandro, ya fallecido. Tomás no había otorgado testamento. ¿Tiene algún derecho Manuela sobre la herencia de Tomás?",
       "answers": [
-        {
-          "text": "Manuela tendrá derecho al usufructo de una cuarta parte de la herencia, repartiéndose los bienes entre sus hermanos por cabezas y sus sobrinos por estirpes.", "correct": false},
+        {"text": "Manuela tendrá derecho al usufructo de una cuarta parte de la herencia, repartiéndose los bienes entre sus hermanos por cabezas y sus sobrinos por estirpes.", "correct": false},
         {"text": "Manuela no tiene derecho alguno sobre la herencia de Tomás.", "correct": true},
         {"text": "Al no haber ascendientes ni descendientes, Manuela sucede a Tomás en la totalidad de la herencia.", "correct": false},
         {"text": "Manuela tendrá derecho al usufructo de una mitad de la herencia, repartiéndose los bienes entre sus hermanos por cabezas y sus sobrinos por estirpes.", "correct": false}
@@ -57,8 +53,7 @@
     {
       "question": "9. ¿Qué ocurre si un albacea no acepta el cargo?",
       "answers": [
-        {
-          "text": "No tiene ninguna consecuencia legal.", "correct": false},
+        {"text": "No tiene ninguna consecuencia legal.", "correct": false},
         {"text": "Perderá todo derecho a la herencia, incluida la legítima.", "correct": false},
         {"text": "Solo puede renunciar si concurre justa causa, a juicio del Notario o el Letrado de la Administración de Justicia.", "correct": false},
         {"text": "Perderá todo derecho a la herencia, salvo su derecho a legítima.", "correct": true}
@@ -70,8 +65,7 @@
     {
       "question": "15. ¿Qué orden de llamamiento se establece en la sucesión intestada o legítima?",
       "answers": [
-        {
-          "text": "Primero los descendientes, luego los ascendientes y por último el cónyuge supérstite.", "correct": false},
+        {"text": "Primero los descendientes, luego los ascendientes y por último el cónyuge supérstite.", "correct": false},
         {"text": "Primero los descendientes, luego los ascendientes, después colaterales hasta el cuarto grado, a continuación, el cónyuge viudo y por último el Estado.", "correct": false},
         {"text": "En primer lugar los descendientes, luego los ascendientes, después el cónyuge viudo, a continuación, colaterales hasta el cuarto grado, y por último el Estado.", "correct": true},
         {"text": "Primero ascendientes, a continuación, descendientes y finalmente, el cónyuge viudo.", "correct": false}
@@ -83,8 +77,7 @@
     {
       "question": "16. ¿Quién puede solicitar la partición de la herencia?",
       "answers": [
-        {
-          "text": "Los herederos no sujetos a condición.", "correct": false},
+        {"text": "Los herederos no sujetos a condición.", "correct": false},
         {"text": "El legatario de parte alícuota podrá reclamar judicialmente la división de la herencia.", "correct": false},
         {"text": "Los herederos del heredero que muera antes de hacer la partición.", "correct": false},
         {"text": "Todas las demás respuestas son ciertas.", "correct": true}
@@ -96,8 +89,7 @@
     {
       "question": "25. Donaciones colacionables y donaciones inoficiosas:",
       "answers": [
-        {
-          "text": "Las donaciones son inoficiosas cuando se exceden los límites legales establecidos para la disposición de los bienes, perjudicando los derechos de los herederos forzosos, mientras que las donaciones colacionables se consideran un adelanto de la herencia hecho a un heredero forzoso en vida del causante y deben ser sumadas al valor de la masa hereditaria.", "correct": false},
+        {"text": "Las donaciones son inoficiosas cuando se exceden los límites legales establecidos para la disposición de los bienes, perjudicando los derechos de los herederos forzosos, mientras que las donaciones colacionables se consideran un adelanto de la herencia hecho a un heredero forzoso en vida del causante y deben ser sumadas al valor de la masa hereditaria.", "correct": false},
         {"text": "Las donaciones son colacionables cuando se exceden los límites legales establecidos para la disposición de los bienes, perjudicando los derechos de los herederos forzosos, mientras que las donaciones inoficiosas se consideran un adelanto de la herencia hecho a un heredero forzoso en vida del causante y deben ser sumadas al valor de la masa hereditaria.", "correct": false},
         {"text": "Las donaciones inoficiosas se reducirán a prorrata en la cuantía que perjudiquen las legítimas de los herederos forzosos.", "correct": false},
         {"text": "Las respuestas a) y c) son correctas.", "correct": true}
@@ -109,8 +101,7 @@
     {
       "question": "28. Disposiciones testamentarias bajo condición:",
       "answers": [
-        {
-          "text": "No es válido nombrar un heredero sujeto a condición, en ningún caso.", "correct": false},
+        {"text": "No es válido nombrar un heredero sujeto a condición, en ningún caso.", "correct": false},
         {"text": "El heredero que muera antes de que la condición se cumpla, aunque sobreviva al testador, no transmite derecho alguno a sus herederos.", "correct": true},
         {"text": "Mientras no se cumpla la condición, y a falta de herederos designados pura y simplemente, el heredero condicional será el encargado de administrar la herencia sin necesidad de prestar fianza.", "correct": false},
         {"text": "Si no se cumple la condición, respecto de la porción que correspondía al heredero condicional se abrirá necesariamente la sucesión intestada.", "correct": false}
@@ -122,8 +113,7 @@
     {
       "question": "1. La aceptación de la herencia",
       "answers": [
-        {
-          "text": "Debe hacerse en documento público.", "correct": false},
+        {"text": "Debe hacerse en documento público.", "correct": false},
         {"text": "Debe ser expresa.", "correct": false},
         {"text": "El aceptante adquiere retroactivamente la cualidad de heredero.", "correct": true},
         {"text": "La aceptación pura y simple obliga al heredero a responder de todas las cargas de la herencia, pero sólo con los bienes de ésta", "correct": false}
@@ -135,8 +125,7 @@
     {
       "question": "2. La partición de la herencia. Operaciones. particionales: es frecuente distribuir la partición en las siguientes fases:",
       "answers": [
-        {
-          "text": "i) relación de bienes mediante inventario, ii) colación de bienes; iii) división y adjudicación del haber partible.", "correct": false},
+        {"text": "i) relación de bienes mediante inventario, ii) colación de bienes; iii) división y adjudicación del haber partible.", "correct": false},
         {"text": "i) relación de bienes mediante inventario y avalúo; ii) liquidación del caudal y colación de bienes: iii) división y adjudicación del haber partible.", "correct": true},
         {"text": "i) relación de bienes mediante inventario y avalúo, i) liquidación del caudal, iii) adjudicación del haber partible", "correct": false},
         {"text": "1) relación de bienes mediante inventario y avalúo ) división y adjudicación del haber partible", "correct": false}
@@ -148,8 +137,7 @@
     {
       "question": "3. Bienes colacionables. Son absolutamente colacionables:",
       "answers": [
-        {
-          "text": "Las donaciones hechas al consorte del hijo.", "correct": false},
+        {"text": "Las donaciones hechas al consorte del hijo.", "correct": false},
         {"text": "Los gastos realizados por los padres y ascendientes para cubrir las necesidades especiales de sus hijos o descendientes con discapacidad", "correct": false},
         {"text": "Los bienes recibidos por el heredero, en virtud de dote, donación u otro título lucrativo.", "correct": true},
         {"text": "Los gastos de alimentos, educación, curación de enfermedades, aunque sean extraordinarias, aprendizaje, equipo ordinario, ni los regalos de costumbre.", "correct": false}
@@ -161,8 +149,7 @@
     {
       "question": "4. El albaceazgo",
       "answers": [
-        {
-          "text": "Si el testador no ha señalado plazo, el albacea deberá cumplir su encargo dentro del plazo improrrogable un año, contado desde su aceptación.", "correct": false},
+        {"text": "Si el testador no ha señalado plazo, el albacea deberá cumplir su encargo dentro del plazo improrrogable un año, contado desde su aceptación.", "correct": false},
         {"text": "El testador solo podrá nombrar un albacea.", "correct": false},
         {"text": "El albaceazgo es un cargo voluntario.", "correct": true},
         {"text": "El albaceazgo solo termina por la muerte del albacea, o por el lapso del término legal, o serñalado por el testador.", "correct": false}
@@ -174,8 +161,7 @@
     {
       "question": "5. Ángel y Chelo está unidos en matrimonio y tienen tres hijos comunes. Angel desea otorgar testamento para distribuir su herencia. Señale la respuesta correcta:",
       "answers": [
-        {
-          "text": "Deberá respetar como legitima las dos terceras partes de la herencia, que tendrá que distribuir entre sus tres hijos una tercera parte en partes iguales y la otra tercera parte podrá aplicarla como mejora", "correct": true},
+        {"text": "Deberá respetar como legitima las dos terceras partes de la herencia, que tendrá que distribuir entre sus tres hijos una tercera parte en partes iguales y la otra tercera parte podrá aplicarla como mejora", "correct": true},
         {"text": "Deberá respetar como legitima las dos terceras partes de la herencia, que tendrá que distribuir por igual entre sus tres hijos.", "correct": false},
         {"text": "Deberá respetar como legitima las dos terceras partes de la herencia, que tendrá que distribuir por igual entre Claudia y sus tres hijos.", "correct": false},
         {"text": "Deberá respetar como legitima un tercio de la herencia para Claudia y otro tercio para sus tres hijos. El resto será de libre disposición.", "correct": false}
@@ -187,8 +173,7 @@
     {
       "question": "6. Armando y Pilar están unidos en matrimonio y no tienen hijos en común. Armando muere sin testar, y a su herencia concurren los padres de Armando y su cónyuge Pilar. Marque la opción correcta:",
       "answers": [
-        {
-          "text": "Pilar no tiene ningún derecho", "correct": false},
+        {"text": "Pilar no tiene ningún derecho", "correct": false},
         {"text": "Pilar tiene derecho al usufructo del tercio destinado a mejora.", "correct": false},
         {"text": "Pilar tiene derecho al usufructo de la mitad de la herencia", "correct": true},
         {"text": "Pilar tiene derecho al usufructo de los dos tercios de la herencia", "correct": false}
@@ -200,8 +185,7 @@
     {
       "question": "7. Nerea fallece sin dejar descendencia y habiendo premuerto todos sus ascendientes. En el momento del fallecimiento estaba casada con Ernesto y tenia un hermano, Antonio, a quien deja en testamento toda su herencia, excepto la parte que legitimamente. corresponda a Enrique. ¿Qué parte de la herencia de Nerea corresponde a Ernesto?",
       "answers": [
-        {
-          "text": "El usufructo de la mitad de la herencia.", "correct": false},
+        {"text": "El usufructo de la mitad de la herencia.", "correct": false},
         {"text": "El usufructo de un tercio de la herencia.", "correct": false},
         {"text": "El usufructo de dos tercios de la herencia.", "correct": true},
         {"text": "El usufructo de toda la herencia", "correct": false}
@@ -213,8 +197,7 @@
     {
       "question": "8. La institución de heredero",
       "answers": [
-        {
-          "text": "El testamento será válido aunque no contenga institución de heredero, o ésta no comprenda la totalidad de los bienes.", "correct": true},
+        {"text": "El testamento será válido aunque no contenga institución de heredero, o ésta no comprenda la totalidad de los bienes.", "correct": true},
         {"text": "La designación de la institución de heredero podrá hacerse con la intervención de comisario o mandatario.", "correct": false},
         {"text": "En el testamento del adoptante, la expresión genérica \"hijo o hijos\" no comprende a los adoptivos.", "correct": false},
         {"text": "Si entre personas del mismo nombre y apellidos hay igualdad de circunstancias y éstas son tales que no permiten distinguir al instituido, ambos serån herederos.", "correct": false}
@@ -226,8 +209,7 @@
     {
       "question": "9 La herencia que carece de herederos, por inexistencia o repudiación, se denomina",
       "answers": [
-        {
-          "text": "Herencia vacante", "correct": true},
+        {"text": "Herencia vacante", "correct": true},
         {"text": "Herencia yacente", "correct": false},
         {"text": "Herencia abierta.", "correct": false},
         {"text": "Herencia presunta.", "correct": false}
@@ -239,8 +221,7 @@
     {
       "question": "10. Incapacidad relativa para suceder:",
       "answers": [
-        {
-          "text": "Son relativamente incapaces para suceder las criaturas abortivas, entendiéndose tales las que no reúnan las circunstancias expresadas en el articulo 30 (nacimiento con vida)", "correct": false},
+        {"text": "Son relativamente incapaces para suceder las criaturas abortivas, entendiéndose tales las que no reúnan las circunstancias expresadas en el articulo 30 (nacimiento con vida)", "correct": false},
         {"text": "El testador no podrá disponer del todo o parte de su herencia en favor del padre del Notario que autorice su testamento.", "correct": true},
         {"text": "No surtirá efecto la disposición testamentaria en favor de quien sea tutor o curador del testador, en ningún caso", "correct": false},
         {"text": "El albacea que no acepte el cargo, o lo renuncie sin justa causa, perderá lo que le hubiese dejado el testador, incluido, en su caso, su derecho a la legitima.", "correct": false}
@@ -252,8 +233,7 @@
     {
       "question": "11. Felipe es ciego y va a otorgar testamento, Marque la opción correcta",
       "answers": [
-        {
-          "text": "Al acto de otorgamiento deberán concurrir necesariamente dos testigos idóneos.", "correct": false},
+        {"text": "Al acto de otorgamiento deberán concurrir necesariamente dos testigos idóneos.", "correct": false},
         {"text": "Podrán otorgarlo, utilizando medios mecánicos o tecnológicos que le permitan escribirlo y leerlo.", "correct": true},
         {"text": "El testamento no puede ser cerrado.", "correct": false},
         {"text": "Todas las demás respuestas son ciertas,", "correct": false}
@@ -265,8 +245,7 @@
     {
       "question": "12. Rodrigo redactó un testamento ológrafo y se lo entregó a su intimo amigo José Luis para que lo conservase e hiciera lo necesario, si a él le pasaba algo. A los dos años, Rodrigo fallece, Marque la opción correcta",
       "answers": [
-        {
-          "text": "El testamento ológrafo no puede conservarlo un tercero, sino que Rodrigo debió conservarlo por si mismo o entregario a un Notario.", "correct": false},
+        {"text": "El testamento ológrafo no puede conservarlo un tercero, sino que Rodrigo debió conservarlo por si mismo o entregario a un Notario.", "correct": false},
         {"text": "José Luis deberá presentar el testamento ante Notario competente en los diez días siguientes a aquel en que tenga conocimiento del fallecimiento del testador, o de lo contrario será responsable de los daños y perjuicios que haya causado.", "correct": true},
         {"text": "José Luis deberá presentar el testamento ante Notario competente en los cinco años siguientes a aquel en que tenga conocimiento del fallecimiento del testador, o de lo contrario será responsable de los daños y perjuicios que haya causado.", "correct": false},
         {"text": "El testamento de Rodrigo será válido, aunque lo haya escrito el propio José Luis, dictándoselo Rodrigo", "correct": false}
@@ -278,8 +257,7 @@
     {
       "question": "13. Roberto acude al notario para otorgar testamento cerrado. Marque la opción correcta:",
       "answers": [
-        {
-          "text": "Roberto debe comparecer en la notaria con el testamento necesariamente escrito de su puño y letra y ya cerrado y sellado.", "correct": false},
+        {"text": "Roberto debe comparecer en la notaria con el testamento necesariamente escrito de su puño y letra y ya cerrado y sellado.", "correct": false},
         {"text": "Sobre la cubierta del testamento extenderá el Notario la correspondiente acta de su otorgamiento, que firmarán Roberto y el Notario, que necesariamente debe encomendar su guarda a un tercero de su confianza, en todo caso", "correct": false},
         {"text": "La persona que tenga en su poder testamento cerrado deberá presentarlo ante Notario competente en los diez días siguientes a aquel en que tenga conocimiento del fallecimiento del testador.", "correct": true},
         {"text": "Si, por descuido, la persona que tenga en su poder un testamento cerrado incumpla su deber de presentación en plazo, perderá todo derecho a la herencia, si lo tuviere.", "correct": false}
@@ -291,8 +269,7 @@
     {
       "question": "14. Jaime está embarcado en un crucero por el Mediterráneo, y como lleva unos días encontrándose testamento. decide mal, otorgar",
       "answers": [
-        {
-          "text": "No es posible testar en esa embarcación, sino que es necesario que se trate de un buque de guerra.", "correct": false},
+        {"text": "No es posible testar en esa embarcación, sino que es necesario que se trate de un buque de guerra.", "correct": false},
         {"text": "El testamento solo podrá otorgarse en forma extraordinaria, si hay peligro de naufragio, y se otorgará de palabra ante el Capitán y un testigo.", "correct": false},
         {"text": "El testamento podrá otorgarse de forma ordinaria, abierta o cerrada, ante el Capitán, con la asistencia de dos testigos idóneos, que se elegirán entre los pasajeros, si los hubiere.", "correct": true},
         {"text": "El Capitán de la embarcación no podrá testar a bordo", "correct": false}
@@ -304,8 +281,7 @@
     {
       "question": "15. Alicia otorgó en su día testamento, pero está pensando que seria mejor cambiar algunas cosas y quiere revocario, aunque en el testamento otorgado indicó su firrme voluntad de no revocarlo. Marque la opción correcta.",
       "answers": [
-        {
-          "text": "Si en el testamento anterior indicó expresamente la intención de no revocario, no podrá hacerlo.", "correct": false},
+        {"text": "Si en el testamento anterior indicó expresamente la intención de no revocario, no podrá hacerlo.", "correct": false},
         {"text": "Para que sea válida, la revocación debe ser necesariamente expresa, si bien puede ser total o parcial, según se re era a todo el testamento, o a una o varias de sus disposiciones.", "correct": false},
         {"text": "Alicia puede revocar tácitamente el testamento, ya que el testamento anterior queda revocado de derecho por el posterior perfecto, si el testador no expresa en éste su voluntad de que aquél subsista en todo o en parte.", "correct": true},
         {"text": "Si Alicia revocara también este segundo testamento, el testamento anterior recobraria su fuerza automáticamente y sin necesidad de que Alicia lo indicara expresamente.", "correct": false}
@@ -317,8 +293,7 @@
     {
       "question": "16. Legado de parte alicuota",
       "answers": [
-        {
-          "text": "Caracteriza al legatario de parte alicuota el ser llamado a una cuota de la herencia liquida, es decir, una vez deducidas las cargas que pesan sobre la misma.", "correct": false},
+        {"text": "Caracteriza al legatario de parte alicuota el ser llamado a una cuota de la herencia liquida, es decir, una vez deducidas las cargas que pesan sobre la misma.", "correct": false},
         {"text": "El legatario de parte alicuota podrá reclamar judicialmente la división de la herencia.", "correct": false},
         {"text": "El Tribunal Supremo ha considerado que es nula la partición practicada sin la intervención de\n\nlos legatarios de parte alicuota.", "correct": false},
         {"text": "Todas las demás respuestas son ciertas", "correct": true}
@@ -330,8 +305,7 @@
     {
       "question": "17. Jacinto hace testamento y lega a su hermano Guillermo un vehiculo, que en realidad él conoce que pertenece a Sofia, la esposa de Jacinto. ¿Qué efectos tendrá esta atribución sobre el testamento?",
       "answers": [
-        {
-          "text": "Desaparece la carga del legado, al no encontrarse dentro del haber hereditario del causante el bien objeto del legado.", "correct": false},
+        {"text": "Desaparece la carga del legado, al no encontrarse dentro del haber hereditario del causante el bien objeto del legado.", "correct": false},
         {"text": "El legado de cosa ajena si el testador, al legaria, sabía que lo era, es válido. El heredero estará obligado a adquirir el vehiculo para entregario al legatario; y, no siéndole posible, a dar a éste su justa estimación.", "correct": true},
         {"text": "Se entenderá legado, en todo caso, el valor que tuviera el vehículo al tiempo del fallecimiento.", "correct": false},
         {"text": "En principio, será nulo el legado. Pero será válido si la adquiere después de otorgado el testamento.", "correct": false}
@@ -343,8 +317,7 @@
     {
       "question": "18. Luis no tiene ascendientes ni descendientes. Ha instituido heredera a su hermana Mar, que sera será sustituida por SU sobrina Maria, para el exclusivo caso de que Mar muera antes que el propio Luis. Marque la respuesta correcta",
       "answers": [
-        {
-          "text": "La sustitución vulgar se da para los casos de premoriencia, incapacidad o renuncia, sin que el testador pueda restringir la sustitución a uno solo de esos casos", "correct": false},
+        {"text": "La sustitución vulgar se da para los casos de premoriencia, incapacidad o renuncia, sin que el testador pueda restringir la sustitución a uno solo de esos casos", "correct": false},
         {"text": "La sustitución se extinguirá exclusivamente por la premoriencia de su sobrina Maria con anterioridad a su hermana Mar", "correct": false},
         {"text": "El efecto esencial de esta sustitución es que, si mar muere antes que Luis, Maria adquiere el derecho hereditario que le permite aceptar o repudiar a herencia (ius delationis), y si muere sin aceptar o repudiar, transmitirá a sus propios herederos tal derecho.", "correct": true},
         {"text": "Todas las demás respuestas son falsas.", "correct": false}
@@ -356,8 +329,7 @@
     {
       "question": "19. La interpretación de las disposiciones testamentarias",
       "answers": [
-        {
-          "text": "Toda disposición testamentaria deberá entenderse en el sentido literal de sus palabras, a no ser que aparezca claramente que fue otra la voluntad del testador.", "correct": true},
+        {"text": "Toda disposición testamentaria deberá entenderse en el sentido literal de sus palabras, a no ser que aparezca claramente que fue otra la voluntad del testador.", "correct": true},
         {"text": "El testador puede prohibir que se impugne el testamento, aunque haya nulidad declarada por la ley.", "correct": false},
         {"text": "Cuando el testador llame a la sucesión a una persona y a sus hijos, se entenderán instituidos sucesivamente.", "correct": false},
         {"text": "Si el testador instituye a sus hermanos, y los tiene carnales y de padre o madre solamente, heredarán todos ellos por partes iguales.", "correct": false}
@@ -369,8 +341,7 @@
     {
       "question": "20. La reserva ordinaria o vidual",
       "answers": [
-        {
-          "text": "Son personas obligadas a reservar en este caso, solo y exclusivamente, el viudo o viuda que contrae segundo o ulterior matrimonio, y son personas beneficiarias de la reserva, los hijos y descendientes del primer matrimonio.", "correct": true},
+        {"text": "Son personas obligadas a reservar en este caso, solo y exclusivamente, el viudo o viuda que contrae segundo o ulterior matrimonio, y son personas beneficiarias de la reserva, los hijos y descendientes del primer matrimonio.", "correct": true},
         {"text": "No son bienes reservables en este caso la mitad de los bienes gananciales, perteneciente al cónyuge sobreviviente, y las cosas dadas por los hijos a su padre o madre, sabiendo que estaban por segunda vez casados.", "correct": false},
         {"text": "El reservista pierde absolutamente la libre disposición de los bienes reservables, ya sean muebles o inmuebles.", "correct": false},
         {"text": "La reserva vidual se extingue únicamente cuando a la muerte del reservista queden solo hijos desheredados, sin descendientes que los representen.", "correct": false}
@@ -382,14 +353,121 @@
     {
       "question": "21. La desheredación",
       "answers": [
-        {
-          "text": "La desheredación se hará en escritura pública, sin que sea necesario que adopte forma testamentaria.", "correct": false},
+        {"text": "La desheredación se hará en escritura pública, sin que sea necesario que adopte forma testamentaria.", "correct": false},
         {"text": "Puede desheredarse a cualquier persona a la que se haya designado como heredero.", "correct": false},
         {"text": "La desheredación puede ser total o parcial.", "correct": false},
         {"text": "No se puede fundar la desheredación en causas distintas de las establecidas legalmente.", "correct": true}
       ],
       "explanation": "ES: La desheredación es una institución que priva a un heredero forzoso de su legítima y solo puede hacerse en testamento, expresando la causa legal en que se funda; por ello es correcta la opción D, que subraya el carácter tasado de las causas. La opción A es errónea porque la desheredación exige forma testamentaria (no basta una escritura pública ajena al testamento). La opción B es falsa: solo se puede desheredar a herederos forzosos, no a “cualquier heredero” designado. La opción C es incorrecta en el sentido de que la desheredación afecta a la legítima del desheredado; puede desheredarse a una persona concreta, pero no se configura como una privación “parcial” de la legítima fuera de los márgenes legales.\nIT: La diseredazione priva un legittimario della sua quota di legittima e può essere disposta solo nel testamento, con indicazione della causa prevista dalla legge; quindi è corretta la D perché le cause sono tassative. La A è errata perché serve la forma testamentaria. La B è errata: non si può diseredare chiunque, ma solo gli eredi forzosi (legittimari). La C è errata perché la diseredazione incide sulla legittima del soggetto diseredato; non è una privazione “parziale” discrezionale al di fuori dei casi previsti.",
       "legal_reference": "Código Civil (España), arts. 848-857 (desheredación: causas tasadas y forma testamentaria), especialmente art. 848 (solo por causas establecidas).",
+      "original_file": "Civil IV 2° Parziale AGGIORNADO 09 06 2025.docx"
+    },
+    {
+      "question": "22. Rogelio, durante una discusión con Raquel, que es pareja de su padre, Ernesto, agredió a la misma, causandole lesiones (fractura de dos dedos de la mano derecha y policontusiones). Raquel denunció a Rogelio, si bien aún no se ha celebrado juicio. Ernesto, después del episodio, decide desheredar a su hijo Rogelio. Marque la opción correcta:",
+      "answers": [
+        {"text": "No puede desheredario por agredir a Raquel ya que no es su cónyuge.", "correct": false},
+        {"text": "La desheredación es válida", "correct": true},
+        {"text": "No puede desheredar a Rogelio porque aún no ha recaído condena por esos hechos.", "correct": false},
+        {"text": "Puede desheredar a Rogelio, pero no podrá privarlo de la legitima estricta.", "correct": false}
+      ],
+      "explanation": "ES: La desheredación solo puede hacerse en testamento, expresando causa legal, y si el desheredado la niega, la carga de probarla recae en los herederos favorecidos. La agresión grave (maltrato de obra) es una de las causas legales de desheredación de hijos y descendientes; además, la jurisprudencia ha interpretado de forma flexible el “maltrato de obra” para incluir conductas gravemente atentatorias contra el entorno íntimo del causante cuando redundan en una lesión relevante de la relación familiar y de la dignidad del testador. Por ello, la opción correcta es que la desheredación puede ser válida, siempre que la causa se encuadre en una causa legal y pueda probarse. \nLa opción que la niega porque la víctima no es cónyuge es incorrecta: el parámetro no es la condición de la víctima como cónyuge, sino la existencia de una causa legal de desheredación aplicable al descendiente y su acreditación. \nLa opción que exige condena penal firme es errónea: la ley no impone como requisito una sentencia penal, sino la prueba de la conducta constitutiva de causa. \nLa opción que afirma que no podrá privarlo de la legítima estricta es incorrecta: si la desheredación es justa y probada, priva al desheredado de su legítima; lo que sucede es que sus hijos o descendientes ocupan su lugar respecto de la legítima.\nIT: La diseredazione deve risultare dal testamento, con indicazione di una causa prevista dalla legge; se il diseredato nega la causa, l’onere della prova grava sugli eredi beneficiati. Il “maltrato de obra” è causa legale di diseredazione dei figli/discendenti e la giurisprudenza ne ha dato una lettura non meramente formalistica quando la condotta integra un attacco grave alla dignità e al nucleo relazionale del testatore. Quindi la diseredazione può essere valida, purché la condotta rientri in una causa legale e sia provabile. \nÈ errata l’opzione che la esclude perché la vittima non è coniuge: ciò che conta è l’esistenza di una causa legale e la sua prova. \nÈ errata anche l’idea che serva una condanna: non è requisito costitutivo, ma solo un possibile mezzo di prova. \nÈ errata l’opzione sulla “legittima stretta”: una diseredazione valida priva il soggetto della legittima; subentrano eventualmente i suoi discendenti nella legittima.",
+      "legal_reference": "Código Civil (España), arts. 848-851 (requisitos, prueba y efectos si no se prueba), art. 853.2ª (maltrato de obra o injuria grave como causa para hijos/descendientes), art. 857 (subrogación de hijos/descendientes del desheredado).",
+      "original_file": "Civil IV 2° Parziale AGGIORNATO 09 06 2025.docx"
+    },
+    {
+      "question": "23. Rodolfo, viudo con tres hijos mayores de edad, se casa con Águeda, también viuda y sin hijos. Rodolfo muere sin testar, y Águeda concurre a la herencia con los tres hijos de Rodolfo, de su primer matrimonio.",
+      "answers": [
+        {"text": "Agueda deberá recibir su parte como legitimaria, y los hijos de Rodolfo necesariamente deberán hacerlo asignándole una renta vitalicia, los productos de determinados bienes, o un capital en efectivo.", "correct": false},
+        {"text": "Agueda podrà exigir que su derecho de usufructo le sea satisfecho, a elección de los hijos, asignándole un capital en dinero o un lote de bienes hereditarios.", "correct": true},
+        {"text": "En este caso, solo es posible asignarle una renta vitalicia.", "correct": false},
+        {"text": "Ninguna de las demás respuestas es cierta.", "correct": false}
+      ],
+      "explanation": "ES: Cuando el cónyuge viudo concurre con descendientes, su derecho legitimario es un usufructo (no una cuota en pleno dominio) y la ley permite su conmutación. En particular, cuando concurre con hijos solo del causante (hijos no comunes), el cónyuge viudo puede exigir que ese usufructo se satisfaga mediante una conmutación, quedando la elección (entre capital en dinero o lote de bienes hereditarios) en manos de los hijos. Esto es exactamente lo que recoge la opción correcta. \nLa opción A es incorrecta por dos motivos: (i) presenta como “necesario” un catálogo (renta vitalicia/productos/capital) que, en el régimen legal, opera en otros preceptos y en condiciones (mutuo acuerdo o decisión judicial) y (ii) no se ajusta a la especialidad del supuesto de hijos no comunes, donde la regla típica es la del art. 840. \nLa opción C es falsa porque la conmutación no se limita a la renta vitalicia. \nLa opción D es errónea porque sí hay una respuesta correcta prevista legalmente.\nIT: Quando il coniuge superstite concorre con discendenti, la sua posizione è di legittimario in usufrutto (non una quota in piena proprietà) e la legge consente la “conmutación” dell’usufrutto. Se concorre con figli solo del defunto (non comuni), il coniuge può esigere che l’usufrutto sia soddisfatto mediante attribuzione, a scelta dei figli, di un capitale in denaro o di un lotto di beni ereditari: è la regola dell’art. 840 e coincide con l’opzione corretta. \nLa A è errata perché qualifica come necessaria una modalità (renta/productos/capital) che non è l’unica e non è quella tipica del caso dell’art. 840. \nLa C è errata perché non è possibile solo la rendita vitalizia. \nLa D è errata perché una soluzione legale esiste e viene descritta in B.",
+      "legal_reference": "Código Civil (España), arts. 834 (usufructo del cónyuge con descendientes), 839 (conmutación del usufructo), 840 (exigibilidad por el cónyuge cuando concurre con hijos solo del causante; elección de los hijos entre capital o lote de bienes).",
+      "original_file": "Civil IV 2° Parziale AGGIORNATO 09 06 2025.docx"
+    },
+    {
+      "question": "24. José Luis, soltero, fallece sin testamento. No tiene descendientes ni ascendientes. Tiene tres hermanos, uno soltero sin hijos, otro con una hija y un tercero, ya fallecido, que tenía tres hijos. Marque la opción correcta.",
+      "answers": [
+        {"text": "La herencia de José Luis se distribuirá en seis partes iguales, para sus hermanos y sobrinos.", "correct": false},
+        {"text": "La herencia se distribuirá en tres partes. Una para cada una de sus dos hermanos, y la tercera se repartira, a partes iguales, entre sus tres sobrinos, hijos del hermano fallecido.", "correct": true},
+        {"text": "La herencia se repartirá entre los dos hermanos que han sobrevivido a José Luis, sin que los sobrinos tengan derecho a la herencia.", "correct": false},
+        {"text": "En este caso, a falta de personas que tengan derecho a heredar, heredará el Estado.", "correct": false}
+      ],
+      "explanation": "ES: En la sucesión intestada, a falta de descendientes, ascendientes y cónyuge, heredan los colaterales. Los hermanos heredan por cabezas y los hijos de hermanos (sobrinos) heredan por estirpes, por derecho de representación, respecto del hermano premuerto. Por tanto, la herencia se divide en tantas porciones como hermanos hubiera (tres), atribuyendo a cada hermano vivo una porción (1/3) y la porción del hermano fallecido se distribuye entre sus hijos por partes iguales (cada sobrino 1/9). Esto coincide con la opción correcta. \nLa opción A es errónea porque confunde el criterio: no se reparte “todo” por partes iguales entre hermanos y sobrinos; primero se forman estirpes. \nLa opción C es falsa porque sí opera el derecho de representación de los sobrinos respecto del hermano premuerto. \nLa opción D es errónea porque el Estado solo hereda en defecto de parientes dentro del orden legal (y aquí sí los hay).\nIT: In intestata, mancando discendenti, ascendenti e coniuge, subentrano i collaterali. I fratelli succedono per capi; i figli dei fratelli (nipoti) succedono per stirpi per rappresentazione del fratello premorto. Quindi si forma una quota per ciascun fratello (tre quote): i due fratelli vivi prendono ciascuno 1/3 e la quota del fratello defunto (1/3) si divide tra i suoi tre figli (1/9 ciascuno). È quanto descrive la risposta corretta. \nLa A è errata perché applica un’uguaglianza aritmetica tra fratelli e nipoti senza considerare le stirpi. \nLa C è errata perché esclude la rappresentazione. \nLa D è errata perché lo Stato interviene solo se mancano chiamati nel sistema legale.",
+      "legal_reference": "Código Civil (España), arts. 946-948 (sucesión de hermanos y sobrinos; por cabezas y por estirpes en caso de concurrencia).",
+      "original_file": "Civil IV 2° Parziale AGGIORNATO 09 06 2025.docx"
+    },
+    {
+      "question": "25. Quién está legitimado para pedir la partición de la herencia:",
+      "answers": [
+        {"text": "Solo aquellas personas que sean herederos, aún que estén sujetos a condición.", "correct": false},
+        {"text": "Quiénes sean herederos o legatarios.", "correct": false},
+        {"text": "El heredero sujeto a condición, si la condición se ha cumplido.", "correct": true},
+        {"text": "Ninguna de las anteriores respuestas es correcta.", "correct": false}
+      ],
+      "explanation": "ES: La regla general es que los coherederos pueden pedir la partición porque nadie está obligado a permanecer en indivisión; sin embargo, cuando el llamamiento hereditario está sujeto a condición suspensiva, el heredero condicional no puede pedir la partición hasta que la condición se cumpla. Una vez cumplida, queda plenamente legitimado para ejercitar el derecho a pedir partición. Por ello es correcta la opción C. \nLa opción A es errónea porque incluye al heredero condicional “aunque” la condición no se haya cumplido, lo que contradice la regla específica. \nLa opción B es incorrecta por su generalidad: no todo legatario está legitimado para pedir partición (típicamente se reconoce al legatario de parte alícuota, no a cualquier legatario). \nLa opción D es falsa porque sí existe una respuesta correcta.\nIT: In generale i coeredi possono chiedere la divisione perché nessuno è tenuto a restare nella comunione; ma l’erede istituito sotto condizione sospensiva non può chiedere la partizione finché la condizione non si avvera. Se la condizione si compie, l’erede è pienamente legittimato a chiedere la divisione: quindi è corretta la C. \nLa A è errata perché ammette la richiesta anche prima dell’avveramento. \nLa B è errata perché include indiscriminatamente tutti i legatari (mentre la legittimazione piena non spetta a qualunque legatario). \nLa D è errata perché la risposta corretta esiste ed è la C.",
+      "legal_reference": "Código Civil (España), arts. 1051 (derecho a pedir partición) y 1054 (herederos bajo condición: no pueden pedir partición hasta cumplirse la condición).",
+      "original_file": "Civil IV 2° Parziale AGGIORNATO 09 06 2025.docx"
+    },
+    {
+      "question": "26. Diga cuál de estos testamentos podria ser declarado nulo:",
+      "answers": [
+        {"text": "Los esposos Helena y Pablo deciden testar de forma mancomunada, incluyendo ambos sus voluntades de forma conjunta en un solo testamento", "correct": false},
+        {"text": "Guillermo ha dejado todos los bienes de los que puede disponer libremente a su vecino Tobias, ya que éste lo ha amenazado previamente con agredirle si no lo hace.", "correct": false},
+        {"text": "Roberto ha encargado a Cristóbal que le haga su testamento", "correct": false},
+        {"text": "Todas las respuestas anteriores son ciertas", "correct": true}
+      ],
+      "explanation": "ES: En Derecho común, está prohibido el testamento mancomunado o en un mismo instrumento por dos o más personas, lo que hace nulo el supuesto de la opción A. Además, el testamento es un acto personalísimo: no puede hacerse por comisario o mandatario, por lo que la opción C describe un supuesto nulo. Finalmente, el testamento otorgado con violencia, dolo o fraude es nulo: si el testador dispone por intimidación grave (amenazas), concurre un vicio invalidante y la opción B también puede ser nula. Por tanto, es correcta la respuesta que afirma que todas las anteriores son ciertas. \nLas opciones A, B y C, consideradas individualmente, describen causas legales de nulidad; por ello la opción D (que las engloba) es la correcta.\nIT: Nel diritto comune è vietato il testamento congiunto/mancomunado in un unico atto da parte di due o più persone: quindi la A può essere dichiarata nulla. Il testamento è inoltre un atto personalissimo, non delegabile a un mandatario/comisario: quindi è nullo anche il caso della C. Infine, il testamento reso sotto violenza/dolo/frode è nullo: le minacce gravi (intimidazione) integrano un vizio che può comportare nullità (B). Di conseguenza, tutte le ipotesi prospettate sono cause di nullità e la risposta corretta è la D.",
+      "legal_reference": "Código Civil (España), arts. 669 (prohibición de testamento mancomunado), 670 (acto personalísimo; prohibición de comisario/mandatario), 673 (nulidad por violencia, dolo o fraude).",
+      "original_file": "Civil IV 2° Parziale AGGIORNATO 09 06 2025.docx"
+    },
+    {
+      "question": "27. Intervención de los acreedores en la partición:",
+      "answers": [
+        {"text": "Los acreedores de los herederos podrán oponerse a que se lleve a efecto la partición de la herencia hasta que se les pague o afiance el importe de sus créditos.", "correct": false},
+        {"text": "Los acreedores del causante podrán intervenir a su costa en la partición para evitar que ésta se haga en fraude o perjuicio de sus derechos", "correct": false},
+        {"text": "Las respuestas a y b son falsas", "correct": false},
+        {"text": "Las respuestas a y b son ciertas.", "correct": true}
+      ],
+      "explanation": "ES: El sistema combina dos mecanismos de tutela de acreedores en el contexto particional: \n1) Un derecho de oposición a que se practique la partición (o, en la práctica, a que produzca entrega de bienes) hasta que se pague o afiance el crédito, previsto para acreedores “reconocidos como tales” en el ámbito hereditario. \n2) Un derecho de intervención a costa de los acreedores de uno o más coherederos para evitar particiones en fraude o perjuicio. \nLa idea examinable es que existen ambas facultades (oponerse e intervenir), por lo que el test considera correcta la opción D. \nNota técnica: la literalidad normativa atribuye la oposición del art. 1082 CC (y su paralelo procesal) a acreedores reconocidos en la herencia, y la intervención del art. 1083 CC a acreedores de coherederos; el enunciado A/B puede presentar una inversión terminológica, pero el resultado buscado es afirmar la coexistencia de ambos remedios.\nIT: Il sistema prevede due strumenti di tutela dei creditori nella divisione ereditaria: \n1) un potere di opposizione alla partizione finché il credito non sia pagato o garantito, riconosciuto ai creditori “riconosciuti come tali” nel contesto ereditario; \n2) un potere di intervento, a spese dei creditori di uno o più coeredi, per evitare una divisione in frode o pregiudizio. \nL’idea centrale è che entrambe le facoltà esistono (opposizione e intervento), quindi il test considera corretta la D. \nNota tecnica: nel Codice civile l’opposizione è ricondotta all’art. 1082 e l’intervento all’art. 1083; il testo delle opzioni può essere formulato con categorie non perfettamente allineate, ma il contenuto sostanziale è la coesistenza dei due rimedi.",
+      "legal_reference": "Código Civil (España), arts. 1082 (oposición de acreedores reconocidos) y 1083 (intervención de acreedores de coherederos); Ley de Enjuiciamiento Civil, art. 782.4 (oposición) y 782.5 (intervención).",
+      "original_file": "Civil IV 2° Parziale AGGIORNATO 09 06 2025.docx"
+    },
+    {
+      "question": "28. Disposiciones condición: testamentarias bajo",
+      "answers": [
+        {"text": "No es válido nombrar un heredero sujeto a condición, en ningún caso.", "correct": false},
+        {"text": "el heredero que muera antes de que la condición se cumpla, aunque sobreviva al testador, no transmite derecho alguno a sus herederos", "correct": true},
+        {"text": "Mientras no se cumple la condición, y a falta de herederos designados pura y simplemente, el heredero condicional será el encargado de administrar la herencia sin necesidad de prestar fianza.", "correct": false},
+        {"text": "Si no se cumple la condición, respecto de la porción que correspondía al heredero condicional se abrirá necesariamente la sucesión intestada.", "correct": false}
+      ],
+      "explanation": "ES: El Código Civil admite instituciones y legados sujetos a condición, por lo que es falsa la prohibición absoluta de la opción A. La regla específica establece que si el heredero o legatario muere antes de cumplirse la condición, aunque sobreviva al testador, no transmite derecho alguno a sus herederos; esto hace correcta la opción B. \nLa opción C es incorrecta porque la administración durante la pendencia y el régimen de garantías (fianza) no pueden afirmarse de modo categórico en los términos propuestos: depende de la estructura del llamamiento y de las previsiones legales aplicables. \nLa opción D es falsa porque la falta de cumplimiento de la condición no abre “necesariamente” intestada: pueden operar sustituciones, acrecimiento u otras previsiones antes de llegar a la sucesión legal.\nIT: Il Codice civile ammette istituzioni e legati sottoposti a condizione, quindi la A è errata. La legge stabilisce che se l’istituito muore prima dell’avveramento della condizione, pur avendo sopravvissuto al testatore, non trasmette alcun diritto ai propri eredi: è la regola recepita dalla B, che quindi è corretta. \nLa C è errata perché la gestione dell’eredità pendente e l’eventuale necessità di garanzie non possono essere negate/affermate in modo assoluto come nel testo. \nLa D è errata perché la mancata condizione non comporta automaticamente intestata: prima si valutano sostituzioni, accrescimento o altre clausole.",
+      "legal_reference": "Código Civil (España), art. 759 (muerte antes del cumplimiento de la condición), y régimen general de disposiciones condicionales (arts. 790 y ss.).",
+      "original_file": "Civil IV 2° Parziale AGGIORNATO 09 06 2025.docx"
+    },
+    {
+      "question": "29. Orden para el pago de legados, si los bienes de la herencia no alcanzaren:",
+      "answers": [
+        {"text": "En primer lugar se abonarán los legados que el testador haya declarado preferentes.", "correct": false},
+        {"text": "Los legados se abonarán todos a prorrata, sin distinciones.", "correct": false},
+        {"text": "En primer lugar se abonarán los legados remuneratorios", "correct": true},
+        {"text": "En primer lugar se abonarán los legados de alimentos.", "correct": false}
+      ],
+      "explanation": "ES: Si los bienes hereditarios no alcanzan para cubrir todos los legados, el Código Civil establece un orden legal de pago: en primer lugar los legados remuneratorios; después los de cosa cierta y determinada; luego los preferentes declarados por el testador; a continuación los de alimentos y educación; y finalmente el resto a prorrata. Por tanto, es correcta la opción C. \nLa opción A es errónea porque los preferentes no van en primer lugar en el orden legal (van después de remuneratorios y de cosa cierta y determinada). \nLa opción B es falsa porque la prorrata opera solo para los “demás” legados una vez respetado el orden. \nLa opción D es incorrecta porque los legados de alimentos no ocupan el primer lugar.\nIT: In caso di insufficienza dei beni ereditari per soddisfare tutti i legati, il Codice civile prevede un ordine di pagamento: prima i legati remuneratori; poi quelli di cosa certa e determinata; quindi quelli dichiarati preferenti dal testatore; poi alimenti ed educazione; infine gli altri pro quota. Quindi è corretta la C. \nLa A è errata perché i preferenti non sono al primo posto nell’ordine legale. \nLa B è errata perché la ripartizione proporzionale si applica solo agli ultimi legati residuali. \nLa D è errata perché gli alimenti non hanno priorità assoluta.",
+      "legal_reference": "Código Civil (España), art. 887 (orden de pago de legados en caso de insuficiencia).",
+      "original_file": "Civil IV 2° Parziale AGGIORNADO 09 06 2025.docx"
+    },
+    {
+      "question": "30. Las sustituciones fideicomisarias:",
+      "answers": [
+        {"text": "Las sustituciones fideicomisarias en ningún caso podrán gravar las legítimas.", "correct": false},
+        {"text": "Las sustituciones fideicomisarias únicamente podrán hacerse en favor de personas que vivan al tiempo del fallecimiento del testador.", "correct": false},
+        {"text": "Las sustituciones fideicomisarias podrán contener una prohibición perpetua de enajenar.", "correct": false},
+        {"text": "Las sustituciones fideicomisarias podrán gravar la legítima solo si se constituyen en beneficio de uno o varios hijos del testador que se encuentren en una situación de discapacidad.", "correct": true}
+      ],
+      "explanation": "ES: Como regla general, las sustituciones fideicomisarias no pueden gravar la legítima; sin embargo, existe una excepción legal expresa: pueden gravar la legítima en los términos del artículo 808 cuando se establezcan en beneficio de uno o varios hijos del testador en situación de discapacidad. Por ello es correcta la opción D. \nLa opción A es errónea porque ignora la excepción legal. \nLa opción B es falsa porque el propio régimen admite sustituciones válidas si no pasan del segundo grado; la exigencia de que el beneficiario viva al fallecimiento es alternativa (no única) en la norma. \nLa opción C es incorrecta porque las prohibiciones perpetuas de enajenar no surten efecto (y aun las temporales fuera del límite legal), por lo que no cabe una prohibición perpetua válida asociada a estas disposiciones.\nIT: Regola generale: le sostituzioni fidecommissarie non possono gravare la legittima; eccezione espressa: possono farlo (nei limiti e termini previsti) in favore di figli del testatore in situazione di disabilità, secondo il rinvio all’art. 808. Quindi è corretta la D. \nLa A è errata perché nega l’eccezione. \nLa B è errata perché la norma consente la validità anche con il criterio del “secondo grado”; il requisito della vita al momento della morte del testatore è alternativo, non esclusivo. \nLa C è errata perché le proibizioni perpetue di alienare non producono effetti e sono sanzionate come non efficaci oltre i limiti legali.",
+      "legal_reference": "Código Civil (España), arts. 781 (límite del segundo grado o personas vivas al fallecimiento), 782 (regla general y excepción por discapacidad en conexión con art. 808), 785.2º (ineficacia de prohibiciones perpetuas de enajenar o fuera del límite del art. 781), y art. 808 (términos del gravamen en favor de personas con discapacidad).",
       "original_file": "Civil IV 2° Parziale AGGIORNADO 09 06 2025.docx"
     }
   ]
