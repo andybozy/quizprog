@@ -721,6 +721,366 @@
       "explanation": "ES: Pueden existir especialidades cuando el sujeto expropiado sea extranjero (Estados/entes/personas): entran en juego reglas de DIPr, tratados, posibles inmunidades y cuestiones de ejecución/relaciones internacionales, además del régimen general de la LEF. También pueden existir particularidades respecto de bienes y titulares vinculados a la Iglesia Católica por razón de acuerdos internacionales del Estado español con la Santa Sede y el régimen jurídico de determinados bienes eclesiásticos, sin perjuicio de la aplicabilidad de la causa expropiandi y el justiprecio. Por ello, en clave de test, la opción correcta es la que afirma que ambas (a y b) son correctas. Negar cualquier especialidad (d) es excesivo.\nIT: Possono emergere specialità per soggetti stranieri (Stati/enti/privati) per via di DIPr, trattati, eventuali immunità e profili esecutivi. Possono inoltre esserci peculiarità per la Chiesa Cattolica legate agli accordi Stato–Santa Sede e al regime di taluni beni ecclesiastici, pur restando applicabili causa e indennizzo. Per questo, la risposta corretta è quella che somma a e b. Dire che non esistono specialità è troppo assoluto.",
       "legal_reference": "LEF art. 1.1 (aplicación general); Constitución Española arts. 13 y 96 (extranjería y tratados); Acuerdos Estado–Santa Sede (1979) como marco específico en su caso.",
       "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
+    },
+    {
+      "question": "¿Qué supuestos quedan excluidos del ámbito de la expropiación forzosa?",
+      "answers": [
+        { "text": "Las limitaciones legales del dominio (leyes mineras o de Costas)", "correct": false },
+        { "text": "Las transferencias coactivas sin beneficiario (reparcelaciones y concentraciones agrarias)", "correct": false },
+        { "text": "Los sacrificios patrimoniales producidos en el seno de relaciones singulares", "correct": false },
+        { "text": "Todos los anteriores", "correct": true }
+      ],
+      "explanation": "ES: La expropiación forzosa, en sentido propio, es una privación singular de la propiedad privada o de derechos/intereses patrimoniales legítimos por causa de utilidad pública o interés social, con justiprecio y procedimiento legal. Por eso, lo que no encaja en esa “estructura” típica queda fuera del ámbito expropiatorio.\n- Las limitaciones legales del dominio no suponen una privación singular ni una transmisión coactiva concreta, sino una delimitación general del contenido del derecho de propiedad por una norma (por ejemplo, limitaciones urbanísticas o las propias de la legislación de Costas). Son restricciones generales, no expropiación.\n- Las transferencias coactivas sin beneficiario típico (como ciertas operaciones de reparcelación o concentraciones) responden a técnicas propias de ordenación (urbanística/agraria) y no se configuran como expropiación clásica con beneficiario y justiprecio “por privación singular” en los términos de la LEF.\n- Los sacrificios patrimoniales en relaciones singulares (p. ej., cargas derivadas de ciertos vínculos jurídicos específicos) se explican por otros títulos obligacionales o regímenes especiales y no por la causa expropiandi.\nConclusión: si las tres categorías describen supuestos ajenos a la expropiación forzosa estricta, la opción correcta es “Todos los anteriores”.\nIT: L’espropriazione, in senso proprio, è una privazione singolare della proprietà o di diritti/interessi patrimoniali legittimi per utilità pubblica o interesse sociale, con indennizzo (justiprecio) e procedimento legale. Ciò che non presenta questa struttura tipica resta fuori.\n- Le limitazioni legali del dominio sono restrizioni generali del contenuto della proprietà, non una privazione singolare né un trasferimento coattivo specifico: quindi non sono esproprio.\n- Le trasferenze coattive “senza beneficiario” in senso espropriativo (es. alcune tecniche di riordino fondiario/urbanistico) sono istituti di ordinamento con disciplina propria, non sempre riconducibili alla LEF come espropriazione classica.\n- I sacrifici patrimoniali in rapporti singolari si fondano su altri titoli giuridici (obbligazioni, regimi speciali) e non sulla causa espropriativa.\nConclusione: essendo tutte e tre ipotesi esterne all’esproprio in senso stretto, è corretta “Todos los anteriores”.",
+      "legal_reference": "LEF (1954) art. 1.1 (objeto: privación singular de propiedad privada o derechos/intereses patrimoniales legítimos); CE art. 33.3 (causa y indemnización).",
+      "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
+    },
+    {
+      "question": "En defecto de notificación del derecho de reversión por este por los causahabientes en los casos y con las condiciones siguientes:",
+      "answers": [
+        { "text": "Cuando la ejecución de la obra o las actuaciones para el establecimiento del servicio estuvieran suspendidas más de dos años por causas imputables a la Administración o al beneficiario de la expropiación sin que se produjera por parte de este ningún acto expreso para su reanudación", "correct": true },
+        { "text": "Cuando la ejecución de la obra o las actuaciones para el establecimiento del servicio estuvieran suspendidas más de un año por causas imputables a la Administración o al beneficiario de la expropiación sin que se produjera por parte de este ningún acto expreso para su reanudación", "correct": false },
+        { "text": "Cuando la ejecución de la obra o las actuaciones para el establecimiento del servicio estuvieran suspendidas más de 6 meses por causas imputables a la Administración o al beneficiario de la expropiación sin que se produjera por parte de este ningún acto expreso para su reanudación", "correct": false },
+        { "text": "Cuando la ejecución de la obra o las actuaciones para el establecimiento del servicio estuvieran suspendidas más de 18 meses por causas imputables a la Administración o al beneficiario de la expropiación sin que se produjera por parte de este ningún acto expreso para su reanudación", "correct": false }
+      ],
+      "explanation": "ES: La reversión permite al expropiado/causahabientes recobrar el bien cuando la finalidad expropiatoria se frustra. Si la Administración no notifica, la LEF fija supuestos tasados para poder ejercitarla; uno de ellos es la suspensión prolongada de la obra o del servicio.\n- La opción correcta es la suspensión “más de dos años”, porque ese es el umbral legal para este supuesto cuando la suspensión es imputable a la Administración o al beneficiario y no hay acto expreso de reanudación.\n- Los plazos de “más de un año”, “más de 6 meses” o “más de 18 meses” no coinciden con el parámetro legal y, por tanto, no activan por sí solos este supuesto específico de reversión.\nIT: La retrocessione (reversión) consente al proprietario originario/eredi di riottenere il bene se la finalità dell’esproprio non viene realizzata. In mancanza di notifica, la LEF prevede casi tassativi; tra questi c’è la sospensione prolungata dell’opera o del servizio.\n- È corretta la soglia “più di due anni”, perché è quella espressamente prevista dalla LEF quando la sospensione è imputabile all’Amministrazione o al beneficiario e non vi sono atti espressi di ripresa.\n- Le soglie di 1 anno, 6 mesi o 18 mesi non corrispondono al requisito legale e quindi non integrano questo specifico presupposto.",
+      "legal_reference": "LEF (1954) art. 54.3.c (suspensión de la obra/servicio más de dos años sin reanudación).",
+      "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
+    },
+    {
+      "question": "El conjunto de espacios terrestres, aguas marítimas e instalaciones situados en la ribera de la mar o de las rías, que reúna condiciones físicas, naturales o artificiales y de organización que permitan la realización de operaciones de tráfico portuario, y sea autorizado para el desarrollo de estas actividades por la Administración competente se denomina:",
+      "answers": [
+        { "text": "Puerto marítimo", "correct": true },
+        { "text": "Puerto comercial", "correct": false },
+        { "text": "Puerto de refugio", "correct": false },
+        { "text": "Puerto de tránsito", "correct": false }
+      ],
+      "explanation": "ES: La definición transcrita coincide literalmente con el concepto legal de “puerto marítimo”: conjunto de espacios terrestres, aguas e instalaciones, en ribera del mar o rías, con condiciones para tráfico portuario y autorizado por la Administración.\n- “Puerto marítimo” es correcto porque es la categoría general definitoria.\n- “Puerto comercial” es una calificación posterior: un puerto marítimo puede ser comercial o no comercial, pero la pregunta pide el concepto base, no su clasificación.\n- “Puerto de refugio” describe un subtipo funcional (abrigo en temporal) que puede ser no comercial; no es la definición general de puerto marítimo.\n- “Puerto de tránsito” no es la denominación legal típica que corresponda a esta definición general.\nIT: La definizione corrisponde al concetto legale di “puerto marítimo”: insieme di spazi terrestri, acque e impianti situati sulla ribera del mare o delle rías, idonei al traffico portuale e autorizzati dall’amministrazione competente.\n- “Puerto marítimo” è corretto perché è la nozione generale.\n- “Puerto comercial” è una classificazione ulteriore (commerciale/non commerciale), non la definizione base.\n- “Puerto de refugio” è un sottotipo funzionale (riparo in caso di tempesta), non la nozione generale.\n- “Puerto de tránsito” non è la qualificazione normativa che coincide con questa definizione.",
+      "legal_reference": "Real Decreto Legislativo 2/2011 (TRL Puertos), art. 2.1 (concepto de puerto marítimo).",
+      "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
+    },
+    {
+      "question": "Dentro de la zona de marítimo terrestre NO se entiende incluido:",
+      "answers": [
+        { "text": "Los esteros", "correct": false },
+        { "text": "Las salinas", "correct": false },
+        { "text": "Los marjales", "correct": false },
+        { "text": "Las dunas", "correct": true }
+      ],
+      "explanation": "ES: La zona marítimo-terrestre (Ley de Costas) incluye expresamente marismas, albuferas, marjales y esteros y, en general, partes de terrenos bajos inundables por mareas, oleaje o filtración. Por eso esteros y marjales están incluidos y no pueden ser la exclusión.\n- “Los esteros” es incorrecto como exclusión porque están mencionados como incluidos.\n- “Los marjales” también es incorrecto como exclusión por la misma razón.\n- “Las dunas” se consideran integradas en las playas (otra categoría dentro de la ribera del mar), no en la zona marítimo-terrestre en sentido estricto; por eso es la opción correcta como “NO incluida”.\n- “Las salinas” no aparecen citadas nominalmente en la definición legal; podrían quedar incluidas si, por sus características, fueran terreno bajo inundable, pero no es el ejemplo típico “expreso” de inclusión. En un test, la exclusión clara frente a esteros/marjales es “dunas”.\nIT: La zona marítimo-terrestre include espressamente marjales ed esteros (oltre ad altri terreni bassi allagabili). Quindi esteros e marjales non possono essere la risposta.\n- “Esteros” e “marjales” sono inclusi per definizione.\n- Le “dunas” rientrano nelle “playas” e non nella zona marítimo-terrestre in senso stretto: perciò sono l’esclusione corretta.\n- Le “salinas” non sono nominate in modo espresso: potrebbero rientrare solo se, in concreto, presentano le caratteristiche fisiche di terreno basso allagabile; non sono però l’opzione più chiara rispetto alle inclusioni testuali di esteros/marjales.",
+      "legal_reference": "Ley 22/1988 (Costas) art. 3.1.a (zona marítimo-terrestre: incluye marjales y esteros) y art. 3.1.b (playas: incluye dunas).",
+      "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
+    },
+    {
+      "question": "Señale qué no pertenece al Dominio Público Marítimo Terrestre:",
+      "answers": [
+        { "text": "Los acantilados que estén en contacto con el mar o con espacios del DPMT", "correct": false },
+        { "text": "Los islotes en aguas interiores o en mar territorial", "correct": false },
+        { "text": "Las islas que estén formadas o se formen por cualquier causa", "correct": true },
+        { "text": "Los islotes en mar territorial", "correct": false }
+      ],
+      "explanation": "ES: El DPMT incluye expresamente los acantilados sensiblemente verticales en contacto con el mar o con espacios del DPMT y los islotes en aguas interiores y mar territorial. Por eso esas opciones pertenecen al DPMT.\n- “Acantilados…” pertenece al DPMT (hasta su coronación), luego no es la respuesta.\n- “Islotes en aguas interiores o en mar territorial” también pertenece, por lo que no es la respuesta.\n- “Islotes en mar territorial” es una reiteración parcial de lo anterior y también pertenece.\n- La opción de “islas… por cualquier causa” es la que no encaja: la Ley incluye como dominio público estatal las islas formadas por causas naturales, con salvedades para islas de propiedad privada preexistente (donde serán demaniales solo la zona marítimo-terrestre, playas y demás bienes demaniales). La fórmula “por cualquier causa” es jurídicamente incorrecta por exceso y por ignorar esas condiciones/limitaciones, por lo que, tal como está redactada, es la opción que “no pertenece”.\nIT: Il DPMT include espressamente gli acantilados verticali a contatto con il mare e gli islotes in acque interne e nel mare territoriale.\n- “Acantilados…” e “islotes…” rientrano nel DPMT, quindi non possono essere la risposta.\n- L’opzione sugli “islotes en mar territorial” è comunque inclusa.\n- L’opzione sulle “islas… por cualquier causa” è quella che non torna: la Ley considera demaniali le isole formate per cause naturali, con eccezioni (isole già private) e con una disciplina che non coincide con “qualsiasi causa”. Perciò, per come è formulata, è l’affermazione che non può dirsi appartenente al DPMT in modo corretto.",
+      "legal_reference": "Ley 22/1988 (Costas) art. 4.4 (acantilados), art. 4.6 (islotes) y art. 5 (islas por causas naturales y salvedades).",
+      "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
+    },
+    {
+      "question": "Incoado el procedimiento de deslinde, con indicación del plano del área afectada y la relación de propietarios afectados, se ha de notificar al Registro de la Propiedad, el cual deberá hacer constar:",
+      "answers": [
+        { "text": "Certificación de dominio y cargas de las fincas inscritas a nombre de los titulares que resulten la información facilitada por el Ayuntamiento", "correct": false },
+        { "text": "Certificación de dominio y cargas de cualesquiera otras fincas que resulten del plano aportado y de los sistemas de georreferenciación de fincas registrales", "correct": true },
+        { "text": "Certificación de dominio y cargas de cualesquiera fincas de titularidad estatal afectadas por el deslinde", "correct": false },
+        { "text": "Certificación de dominio y cargas de las fincas situadas en primera línea de costa hasta donde lleguen los mayores temporales conocidos", "correct": false }
+      ],
+      "explanation": "ES: La Ley de Costas refuerza la coordinación con el Registro en el deslinde: el acuerdo de incoación (con plano y relación de propietarios) se notifica al Registro interesando certificación de dominio y cargas no solo de fincas “ya identificadas”, sino también de cualesquiera otras que resulten del plano y de la georreferenciación registral, además de dejar constancia de la incoación.\n- La opción correcta es la que menciona expresamente plano aportado y sistemas de georreferenciación, porque reproduce el criterio legal de identificación registral-cartográfica.\n- La opción basada en información del Ayuntamiento es incorrecta: el parámetro es el Registro y la identificación georreferenciada, no solo datos municipales.\n- Limitarlo a fincas estatales es erróneo: precisamente se trata de identificar fincas privadas potencialmente afectadas.\n- Limitarlo a “primera línea de costa” es un recorte sin apoyo normativo: el alcance lo fija el plano del deslinde y la georreferenciación.\nIT: Nel deslinde del DPMT la legge impone una stretta coordinazione con il Registro: si richiede certificazione di dominio e gravami anche per le fincas che risultano dalla planimetria e dai sistemi di georeferenziazione registrale.\n- È corretta l’opzione che cita piano + georeferenziazione.\n- È errata l’opzione basata su informazioni comunali: non è il criterio legale.\n- È errato limitarlo a fincas statali.\n- È errato limitarlo alla “prima linea”: conta ciò che risulta dal piano e dalla georeferenziazione.",
+      "legal_reference": "Ley 22/1988 (Costas) art. 12.4 (notificación al Registro; certificación incluyendo fincas del plano y georreferenciación; constancia registral).",
+      "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
+    },
+    {
+      "question": "¿Qué efectos tiene para la servidumbre de protección del DPMT que la zona tuviera un plan parcial ya aprobado con anterioridad al día 1 de enero de 1988?",
+      "answers": [
+        { "text": "Que la servidumbre se fija en 100 metros", "correct": false },
+        { "text": "Que la servidumbre se fija en 30 metros", "correct": false },
+        { "text": "Que la servidumbre se fija en 20 metros", "correct": true },
+        { "text": "Que la servidumbre se fija en 10 metros", "correct": false }
+      ],
+      "explanation": "ES: La servidumbre de protección tiene como regla general 100 metros desde el límite interior de la ribera del mar. No obstante, el régimen transitorio de la Ley de Costas limita esa anchura a 20 metros en suelos urbanos a la entrada en vigor y, por remisión, en determinados suelos urbanizables que ya contaban con Plan parcial aprobado definitivamente antes del cambio normativo.\n- Por eso es correcta la opción de 20 metros: refleja la reducción transitoria vinculada a la existencia de planeamiento consolidado previo.\n- 100 metros sería la regla general, pero no la que corresponde al supuesto transitorio descrito.\n- 30 y 10 metros no son la medida general de la servidumbre de protección en este contexto.\nIT: La servitù di protezione è di regola 100 metri, ma la disciplina transitoria riduce l’ampiezza (20 metri) dove esistono diritti urbanistici consolidati alla data di entrata in vigore e, in particolare, dove vi era pianificazione (plan parcial) già approvata prima.\n- Quindi è corretta la risposta “20 metros”.\n- “100 metros” è la regola ordinaria, non quella transitoria del caso.\n- “30” e “10” non sono misure legali tipiche della servidumbre de protección in questo scenario.",
+      "legal_reference": "Ley 22/1988 (Costas) art. 23 (regla general 100 m) y Disposición transitoria tercera (suelo urbano/urbanizable con Plan parcial aprobado: servidumbre de protección 20 m).",
+      "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
+    },
+    {
+      "question": "El informe preceptivo y determinante del órgano ambiental con el que finaliza la evaluación ambiental estratégica ordinaria y que se pronuncia sobre la integración de los aspectos ambientales en la propuesta final del plan o programa se denomina:",
+      "answers": [
+        { "text": "Declaración de impacto ambiental", "correct": false },
+        { "text": "Estudio ambiental estratégico", "correct": false },
+        { "text": "Declaración ambiental estratégica", "correct": true },
+        { "text": "Informe ambiental estratégico", "correct": false }
+      ],
+      "explanation": "ES: En la Ley 21/2013, para planes y programas, la EAE ordinaria culmina con la “Declaración ambiental estratégica”, que es un informe del órgano ambiental, preceptivo y determinante, y se pronuncia sobre la integración ambiental en la propuesta final.\n- Es correcta “Declaración ambiental estratégica” porque es exactamente el acto final de la EAE ordinaria.\n- “Declaración de impacto ambiental” corresponde a proyectos (EIA ordinaria), no a planes/programas.\n- “Estudio ambiental estratégico” es un documento del promotor, no el pronunciamiento final del órgano ambiental.\n- “Informe ambiental estratégico” es el pronunciamiento final de la EAE simplificada, no de la ordinaria.\nIT: Nella Ley 21/2013, la VAS/EAE ordinaria (piani e programmi) si chiude con la “Declaración ambiental estratégica”, parere determinante dell’organo ambientale sull’integrazione ambientale.\n- La “Declaración de impacto ambiental” è della VIA (progetti), non della VAS.\n- Lo “Estudio ambiental estratégico” è un documento del promotore.\n- L’“Informe ambiental estratégico” chiude la VAS semplificata, non l’ordinaria.",
+      "legal_reference": "Ley 21/2013 art. 5.2.d (Declaración Ambiental Estratégica) e art. 5.2.e (Informe Ambiental Estratégico).",
+      "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
+    },
+    {
+      "question": "El informe preceptivo y determinante del órgano ambiental con el que finaliza la evaluación de impacto ambiental simplificada se denomina:",
+      "answers": [
+        { "text": "Informe de impacto ambiental", "correct": true },
+        { "text": "Declaración de impacto ambiental", "correct": false },
+        { "text": "Informe ambiental estratégico", "correct": false },
+        { "text": "Estudio de impacto ambiental", "correct": false }
+      ],
+      "explanation": "ES: Para proyectos, la evaluación de impacto ambiental (EIA) en su modalidad simplificada finaliza con el “Informe de impacto ambiental”.\n- Es correcta esa denominación porque la Ley la define como informe preceptivo y determinante que cierra la EIA simplificada.\n- La “Declaración de impacto ambiental” cierra la EIA ordinaria, no la simplificada.\n- El “Informe ambiental estratégico” corresponde a la EAE (planes/programas), no a proyectos.\n- El “Estudio de impacto ambiental” es el documento técnico del promotor, no el acto final del órgano ambiental.\nIT: Per i progetti, la VIA semplificata termina con l’“Informe de impacto ambiental”.\n- La “Declaración de impacto ambiental” è della VIA ordinaria.\n- L’“Informe ambiental estratégico” è della VAS (piani/programmi).\n- Lo “Estudio de impacto ambiental” è un elaborato del promotore, non l’atto conclusivo dell’organo ambientale.",
+      "legal_reference": "Ley 21/2013 art. 5.3.e (Informe de Impacto Ambiental: finaliza la EIA simplificada) y art. 5.3.d (DIA: finaliza la EIA ordinaria).",
+      "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
+    },
+    {
+      "question": "Los cambios en las características de los planes o programas ya adoptados o aprobados que no constituyen variaciones fundamentales de las estrategias, directrices y propuestas o de su cronología pero que producen diferencias en los efectos previstos o en la zona de influencia se denominan:",
+      "answers": [
+        { "text": "Modificación de impacto ambiental", "correct": false },
+        { "text": "Declaración ambiental simplificada", "correct": false },
+        { "text": "Modificaciones menores", "correct": true },
+        { "text": "Estudio ambiental simplificado", "correct": false }
+      ],
+      "explanation": "ES: La Ley 21/2013 denomina exactamente “Modificaciones menores” a los cambios no fundamentales en planes/programas que, aun sin alterar estrategia o cronología de forma esencial, producen diferencias en efectos o zona de influencia.\n- “Modificaciones menores” es correcto porque coincide con la definición legal.\n- “Modificación de impacto ambiental” no es la categoría terminológica legal para planes/programas.\n- “Declaración ambiental simplificada” no es un acto tipificado; la simplificación en EAE culmina en “Informe ambiental estratégico”.\n- “Estudio ambiental simplificado” tampoco es la categoría legal para esta definición.\nIT: La legge definisce come “Modificaciones menores” i cambiamenti descritti.\n- Le altre opzioni non corrispondono alla terminologia della Ley 21/2013: non esiste una “declaración ambiental simplificada” come atto; né “estudio ambiental simplificado” come categoria; e “modificación de impacto ambiental” non è la nozione corretta per piani/programmi.",
+      "legal_reference": "Ley 21/2013 art. 5.2.f (definición de Modificaciones menores).",
+      "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
+    },
+    {
+      "question": "Los planes y programas, así como sus modificaciones, que se adopten o aprueben por una Administración pública y cuya elaboración y aprobación venga exigida por una disposición legal o reglamentaria o por acuerdo del Consejo de Ministros o del Consejo de Gobierno de una comunidad autónoma, cuando requieran una evaluación por afectar a espacios Red Natura 2000 en los términos previstos en la Ley 42/2007, de 13 de diciembre, del Patrimonio Natural y de la Biodiversidad serán objeto de:",
+      "answers": [
+        { "text": "Evaluación ambiental estratégica", "correct": true },
+        { "text": "Declaración ambiental simplificada", "correct": false },
+        { "text": "Informe ambiental estratégico", "correct": false },
+        { "text": "Declaración de impacto ambiental", "correct": false }
+      ],
+      "explanation": "ES: Al tratarse de planes y programas, el procedimiento aplicable es la evaluación ambiental estratégica (EAE). La afección a Red Natura 2000 es un supuesto típico que exige evaluación ambiental del plan/programa.\n- “Evaluación ambiental estratégica” es correcto porque es el procedimiento para planes y programas.\n- “Declaración de impacto ambiental” pertenece a proyectos (EIA), no a planes.\n- “Informe ambiental estratégico” es el acto final de la EAE simplificada, pero la pregunta pide el procedimiento (“serán objeto de”), no el documento final.\n- “Declaración ambiental simplificada” no es una denominación legal del procedimiento.\nIT: Essendo piani/programmi, si applica la VAS/EAE.\n- La DIA è per progetti (VIA).\n- L’“informe ambiental estratégico” è il provvedimento finale della VAS semplificata, ma qui si chiede il tipo di valutazione.\n- “Declaración ambiental simplificada” non è una categoria tipizzata.",
+      "legal_reference": "Ley 21/2013 (ámbito y EAE para planes/programas) y conexión con Ley 42/2007 (Red Natura 2000).",
+      "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
+    },
+    {
+      "question": "Conforme a la Ley 27/2006, de 18 de Julio, sobre el derecho de acceso a la información en materia de medio ambiente, la autoridad pública competente para resolver facilitará la información ambiental solicitada lo antes posible y en todo caso en el plazo máximo de:",
+      "answers": [
+        { "text": "Un mes ampliable a 3 si el volumen y la complejidad de la información son tales que resulta imposible cumplir el plazo antes indicado", "correct": false },
+        { "text": "Dos meses ampliable a 4 si el volumen y la complejidad de la información son tales que resulta imposible cumplir el plazo antes indicado", "correct": false },
+        { "text": "Tres meses ampliable a 6 si el volumen y la complejidad de la información son tales que resulta imposible cumplir el plazo antes indicado", "correct": false },
+        { "text": "Un mes ampliable a 2 si el volumen y la complejidad de la información son tales que resulta imposible cumplir el plazo antes indicado", "correct": true }
+      ],
+      "explanation": "ES: La Ley 27/2006 fija un plazo general máximo de un mes desde la recepción en el registro, y permite ampliarlo a dos meses si el volumen y la complejidad impiden cumplir el mes, debiendo comunicarse la ampliación y sus razones.\n- Es correcta la opción “Un mes ampliable a 2…”.\n- Son incorrectas las ampliaciones a 3, 4 o 6 meses porque no están previstas en el artículo 10.\nIT: La Ley 27/2006 stabilisce 1 mese come regola e consente estensione fino a 2 mesi per volume/complessità, con obbligo di comunicazione motivata.\n- Quindi è corretta l’opzione “Un mes ampliable a 2…”.\n- Le estensioni a 3/4/6 mesi non sono previste dalla norma.",
+      "legal_reference": "Ley 27/2006 art. 10.2.c (1 mes; 2 meses si volumen y complejidad lo justifican).",
+      "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
+    },
+    {
+      "question": "Señale cuál de las siguientes NO es causa de denegación de la información ambiental solicitada:",
+      "answers": [
+        { "text": "Que la información solicitada a la autoridad pública no obre en poder de ésta o en el de otra entidad en su nombre", "correct": false },
+        { "text": "Que la solicitud sea manifiestamente irrazonable", "correct": false },
+        { "text": "Que la solicitud esté formulada de manera excesivamente general", "correct": false },
+        { "text": "Que la solicitud se refiera a material ya elaborado y terminado", "correct": true }
+      ],
+      "explanation": "ES: Las causas legales de denegación incluyen, entre otras, que la información no obre en poder de la autoridad, que la solicitud sea manifiestamente irrazonable o excesivamente general. Además, se puede denegar si la solicitud se refiere a material en curso de elaboración o a documentos/datos inconclusos.\n- Por eso “material ya elaborado y terminado” NO es causa de denegación: la excepción opera para material en elaboración, no para material finalizado.\n- Las opciones a), b) y c) sí están previstas como causas de denegación en el artículo 13.\nIT: Le cause di diniego comprendono: informazione non detenuta, richiesta manifestamente irragionevole o eccessivamente generica, e materiale in corso di elaborazione o dati/documenti inconclusi.\n- Quindi “material ya elaborado y terminado” non è causa di diniego: è l’opposto della fattispecie prevista.\n- Le opzioni a), b) e c) rientrano invece tra le eccezioni tipizzate dalla legge.",
+      "legal_reference": "Ley 27/2006 art. 13.1 (causas de denegación), especialmente art. 13.1.d (material en curso de elaboración o datos inconclusos).",
+      "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
+    },
+    {
+      "question": "El fundamento constitucional de la expropiación lo podemos encontrar en:",
+      "answers": [
+        { "text": "Artículo 23", "correct": false },
+        { "text": "Artículo 33", "correct": true },
+        { "text": "Artículo 43", "correct": false },
+        { "text": "Artículo 53", "correct": false }
+      ],
+      "explanation": "ES: La base constitucional directa de la expropiación está en el artículo 33.3 CE: privación de bienes y derechos solo por causa justificada de utilidad pública o interés social, con indemnización y conforme a la ley.\n- Artículo 33 es correcto por contener el régimen constitucional de la expropiación.\n- Artículo 23 regula derechos de participación política, no expropiación.\n- Artículo 43 se refiere al derecho a la protección de la salud.\n- Artículo 53 regula garantías de derechos y su tutela, pero no es el fundamento específico de la expropiación.\nIT: Il fondamento costituzionale dell’espropriazione è nell’art. 33.3 CE (utilità pubblica o interesse sociale, indennizzo e riserva di legge).\n- L’art. 23 riguarda diritti politici.\n- L’art. 43 riguarda la salute.\n- L’art. 53 disciplina le garanzie dei diritti, non la base specifica dell’espropriazione.",
+      "legal_reference": "Constitución Española art. 33.3 (expropiación: utilidad pública/interés social + indemnización).",
+      "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
+    },
+    {
+      "question": "En una expropiación por causa de utilidad pública pueden ser beneficiarios de la misma",
+      "answers": [
+        { "text": "Un particular", "correct": true },
+        { "text": "Una persona jurídico privada", "correct": true },
+        { "text": "Una asociación", "correct": true },
+        { "text": "Una administración pública", "correct": true }
+      ],
+      "explanation": "ES: En la LEF debe distinguirse entre el sujeto que puede acordar la expropiación (Estado, Provincia o Municipio) y el beneficiario, que es quien resulta favorecido por la expropiación. Para la causa de utilidad pública, la Ley admite como beneficiarios a entidades y concesionarios a quienes se reconozca legalmente esa condición.\n- “Una administración pública” puede ser beneficiaria cuando la obra/servicio es suyo o cuando ostenta la condición legal de beneficiaria.\n- “Una persona jurídico privada” puede ser beneficiaria si es concesionaria o entidad legalmente reconocida como tal (por ejemplo, concesiones de obras/servicios).\n- “Una asociación” es una entidad y, si una ley le reconoce condición de beneficiaria (o es concesionaria), puede serlo.\n- “Un particular” también puede ser beneficiario si, en el caso concreto, ostenta esa condición legalmente reconocida (normalmente a través de un título concesional o habilitación legal).\nLa clave es el reconocimiento legal de la condición de beneficiario: por eso todas las categorías son posibles.\nIT: Nella LEF si distingue tra chi dispone l’esproprio e il beneficiario (chi ne trae vantaggio). Per utilità pubblica possono essere beneficiari enti e concessionari riconosciuti legalmente.\n- L’amministrazione pubblica può essere beneficiaria.\n- Anche soggetti privati (società), associazioni e perfino persone fisiche possono esserlo se la legge attribuisce loro tale condizione (tipicamente tramite concessione o specifica previsione legale).\nQuindi tutte le opzioni possono essere corrette, purché ricorra l’elemento decisivo: il riconoscimento legale come beneficiario.",
+      "legal_reference": "LEF (1954) art. 2.2 (beneficiarios por utilidad pública: entidades y concesionarios con reconocimiento legal).",
+      "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
+    },
+    {
+      "question": "Señale cuál de los siguientes derechos NO puede ser objeto de expropiación",
+      "answers": [
+        { "text": "Los derechos reales", "correct": false },
+        { "text": "Los derechos personales", "correct": false },
+        { "text": "Los derechos de la personalidad", "correct": true },
+        { "text": "Los derechos de arrendamiento", "correct": false }
+      ],
+      "explanation": "ES: La LEF incluye dentro de su objeto cualquier privación singular de la propiedad privada o de derechos o intereses patrimoniales legítimos (es decir, posiciones jurídicas con contenido económico). Por ello pueden expropiarse derechos reales y también derechos personales patrimoniales, y la propia Ley menciona expresamente el arrendamiento como una de las formas que puede adoptar la privación singular.\n- “Derechos reales” son expropiables porque tienen contenido patrimonial (propiedad, usufructo, servidumbres, etc.).\n- “Derechos personales” pueden ser expropiables cuando son patrimoniales (créditos, derechos contractuales con valor económico), pues la Ley habla de derechos e intereses patrimoniales legítimos.\n- “Derechos de arrendamiento” son típicamente patrimoniales y, además, la LEF los contempla expresamente en el art. 1.1 como modalidad posible.\n- “Derechos de la personalidad” (honor, intimidad, integridad moral, etc.) son personalísimos y no constituyen, en regla, derechos patrimoniales transmisibles coactivamente; por eso son los que NO pueden ser objeto de expropiación.\nIT: La LEF comprende l’esproprio di proprietà e di diritti/interessi patrimoniali legittimi: quindi diritti reali, diritti personali patrimoniali e anche posizioni locatizie possono rientrare.\n- La LEF cita perfino l’“arrendamiento” nel perimetro dell’art. 1.1.\n- I diritti della personalità, invece, sono personalissimi e non costituiscono normalmente un bene patrimoniale trasferibile coattivamente: per questo sono quelli non espropriabili.",
+      "legal_reference": "LEF (1954) art. 1.1 (incluye privación singular de propiedad o derechos/intereses patrimoniales; menciona arrendamiento).",
+      "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
+    },
+    {
+      "question": "Señale cuál de los siguientes supuestos NO está excluido de la expropiación forzosa:",
+      "answers": [
+        { "text": "Las limitaciones legales del dominio", "correct": false },
+        { "text": "Las transferencias coactivas sin beneficiario", "correct": false },
+        { "text": "Los sacrificios patrimoniales producidos en el seno de relaciones singulares", "correct": false },
+        { "text": "Los intereses patrimoniales legítimos", "correct": true }
+      ],
+      "explanation": "ES: La propia LEF define el objeto de la expropiación incluyendo la privación singular de “derechos o intereses patrimoniales legítimos”. Por tanto, esos intereses NO están excluidos: son precisamente materia expropiable.\n- “Intereses patrimoniales legítimos” es correcto como supuesto NO excluido, porque el concepto integra el objeto expropiable.\n- “Limitaciones legales del dominio” son delimitaciones generales, no expropiación singular.\n- “Transferencias coactivas sin beneficiario” suelen corresponder a técnicas distintas (urbanismo/agrario), fuera del esquema típico de la LEF.\n- “Sacrificios patrimoniales en relaciones singulares” se explican por otros títulos jurídicos (obligaciones/regímenes especiales), no por expropiación.\nIT: La LEF include nell’oggetto dell’espropriazione anche i “diritti o interessi patrimoniali legittimi”: dunque non sono esclusi, ma rientrano nel perimetro della legge.\n- Le altre opzioni descrivono ipotesi di delimitazione generale o di istituti diversi dall’espropriazione in senso proprio.",
+      "legal_reference": "LEF (1954) art. 1.1 (derechos o intereses patrimoniales legítimos como objeto de expropiación).",
+      "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
+    },
+    {
+      "question": "La causa expropiandi se fundamenta en:",
+      "answers": [
+        { "text": "La utilidad pública", "correct": false },
+        { "text": "El interés social", "correct": false },
+        { "text": "La función social de la propiedad", "correct": false },
+        { "text": "Las respuestas a y b son correctas", "correct": true }
+      ],
+      "explanation": "ES: La Constitución exige que la privación expropiatoria responda a “causa justificada de utilidad pública o interés social”. Esa es la causa expropiandi en sentido estricto.\n- Por eso es correcta la opción que afirma que utilidad pública e interés social son ambas fundamentos (a y b).\n- La “función social de la propiedad” delimita el contenido del derecho (art. 33.2 CE) y explica dogmáticamente la intervención pública, pero no sustituye a la causa concreta exigida para expropiar (art. 33.3 CE).\nIT: La causa espropriativa richiede utilità pubblica o interesse sociale (art. 33.3 CE).\n- La funzione sociale della proprietà (art. 33.2) è un principio strutturale, ma non è di per sé la “causa” richiesta per l’esproprio.\nQuindi è corretta l’opzione che cumula a e b.",
+      "legal_reference": "Constitución Española art. 33.3 (utilidad pública o interés social).",
+      "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
+    },
+    {
+      "question": "La información pública del inicio del expediente expropiatorio tendrá una duración de:",
+      "answers": [
+        { "text": "Un mes", "correct": false },
+        { "text": "Dos meses", "correct": false },
+        { "text": "15 días", "correct": true },
+        { "text": "Tres meses", "correct": false }
+      ],
+      "explanation": "ES: La LEF establece que, recibida la relación concreta e individualizada de bienes y derechos, la autoridad abrirá información pública durante quince días. Ese trámite permite alegaciones para corregir errores y discutir la necesidad de ocupación.\n- “15 días” es correcto porque es el plazo legal.\n- Los plazos de uno, dos o tres meses no son los previstos por la LEF para este trámite general.\nIT: La LEF prevede un termine di quindici giorni per l’informazione pubblica iniziale.\n- 1/2/3 mesi non corrispondono al termine legale ordinario previsto per questo passaggio.",
+      "legal_reference": "LEF (1954) art. 18.1 (información pública durante quince días).",
+      "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
+    },
+    {
+      "question": "Contra el acuerdo de necesidad de ocupación se dará:",
+      "answers": [
+        { "text": "Recurso de revisión", "correct": false },
+        { "text": "Recurso de alzada", "correct": true },
+        { "text": "Recurso de reposición", "correct": false },
+        { "text": "Recurso contencioso administrativo", "correct": false }
+      ],
+      "explanation": "ES: La LEF prevé expresamente un recurso administrativo específico contra el acuerdo de necesidad de ocupación: el recurso de alzada ante el Ministerio correspondiente.\n- “Recurso de alzada” es correcto porque es el recurso tipificado por la LEF para este acto.\n- “Revisión” es extraordinario y requiere presupuestos tasados que no definen la vía típica aquí.\n- “Reposición” no es el recurso configurado por la LEF para el acuerdo de necesidad de ocupación.\n- El contencioso-administrativo es la vía judicial posterior contra determinados actos; pero la pregunta pide el recurso que “se dará” contra el acuerdo según la LEF (alzada).\nIT: Contro l’accordo di necessità di occupazione la LEF prevede il “recurso de alzada”.\n- La revisione è straordinaria.\n- La reposición non è la via tipica prevista dalla LEF per questo atto.\n- Il contenzioso è successivo e non è il rimedio amministrativo tipizzato dalla LEF per questo accordo.",
+      "legal_reference": "LEF (1954) art. 22.1 (recurso de alzada contra el acuerdo de necesidad de ocupación).",
+      "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
+    },
+    {
+      "question": "¿Es posible la determinación del justiprecio por mutuo acuerdo?",
+      "answers": [
+        { "text": "No, nunca", "correct": false },
+        { "text": "Sí, en los primeros 15 días", "correct": false },
+        { "text": "No, salvo autorización por Consejo de Ministros", "correct": false },
+        { "text": "Sí, en cualquier momento de la tramitación del procedimiento expropiatorio", "correct": true }
+      ],
+      "explanation": "ES: La LEF permite que Administración y expropiado convengan libremente el precio por mutuo acuerdo. Aunque la Ley contempla un intento inicial y, si no se logra en quince días, se continúa el procedimiento, deja claro que las partes pueden llegar a mutuo acuerdo en cualquier estado posterior de la tramitación.\n- Por eso es correcta la opción “en cualquier momento”.\n- Limitarlo a los primeros 15 días es incorrecto, porque la Ley admite el acuerdo también después.\n- Negarlo (“nunca”) o condicionarlo a autorización del Consejo de Ministros contradice el régimen legal del art. 24.\nIT: La LEF ammette il justiprecio per accordo amichevole e precisa che, anche se non si raggiunge subito, le parti possono accordarsi in qualunque fase successiva.\n- Quindi è corretta l’opzione “en cualquier momento”.\n- Le altre opzioni negano o restringono indebitamente una facoltà riconosciuta dalla legge.",
+      "legal_reference": "LEF (1954) art. 24 (mutuo acuerdo; posible también en cualquier estado posterior).",
+      "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
+    },
+    {
+      "question": "Señale la respuesta correcta en la tasación del justiprecio de la expropiación:",
+      "answers": [
+        { "text": "Las tasaciones se efectuarán con arreglo al valor que tengan los bienes o derechos expropiables al tiempo de iniciarse el expediente de justiprecio, sin tenerse en cuenta las plusvalías...", "correct": true },
+        { "text": "...al tiempo de valorarse...", "correct": false },
+        { "text": "...teniendo en cuenta las plusvalías...", "correct": false },
+        { "text": "...sin tenerse en cuenta las plusvalías, pero sí las previsibles...", "correct": false }
+      ],
+      "explanation": "ES: La regla del art. 36 LEF fija dos elementos: (i) momento de referencia: inicio del expediente de justiprecio; (ii) exclusión de plusvalías: no se computan las derivadas directamente del plan/proyecto que origina la expropiación ni las previsibles futuras.\n- La opción que reproduce “al tiempo de iniciarse el expediente de justiprecio” y la exclusión de plusvalías es la correcta.\n- “Al tiempo de valorarse” no coincide con el momento legalmente fijado.\n- “Teniendo en cuenta las plusvalías” contradice la exclusión expresa de la Ley.\n- Excluir solo algunas plusvalías pero incluir las previsibles para el futuro también contradice el precepto, que excluye ambas.\nIT: L’art. 36 LEF stabilisce che la stima si riferisce all’inizio dell’expediente de justiprecio e che non si considerano plusvalenze generate dal piano/progetto né quelle future prevedibili.\n- È corretta la prima opzione.\n- Le altre sono errate perché cambiano il momento di riferimento o includono plusvalenze che la norma esclude.",
+      "legal_reference": "LEF (1954) art. 36.1 (momento: inicio del expediente de justiprecio; exclusión de plusvalías directas y previsibles).",
+      "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
+    },
+    {
+      "question": "La agrupación de bienes inmuebles que forman una unidad... se denomina:",
+      "answers": [
+        { "text": "Sitio histórico", "correct": false },
+        { "text": "Lugar histórico", "correct": false },
+        { "text": "Conjunto histórico", "correct": true },
+        { "text": "Monumento histórico", "correct": false }
+      ],
+      "explanation": "ES: La Ley 16/1985 define “Conjunto Histórico” exactamente como la agrupación de bienes inmuebles que forman una unidad de asentamiento (continua o dispersa) testimonio de la evolución de una comunidad humana.\n- “Conjunto histórico” es correcto por coincidencia literal con la definición legal.\n- “Monumento” describe un inmueble singular (obra arquitectónica/ingeniería), no una agrupación.\n- “Sitio histórico” es un lugar o paraje natural vinculado a acontecimientos o tradiciones; puede no ser una agrupación de inmuebles.\n- “Lugar histórico” no es la denominación tipificada en la Ley 16/1985 (se usa “Sitio Histórico”).\nIT: La definizione coincide con “Conjunto Histórico” (Ley 16/1985).\n- “Monumento” è un bene singolo.\n- “Sitio histórico” è un luogo/paraggio legato a eventi o tradizioni, non necessariamente un insieme di immobili.\n- “Lugar histórico” non è la categoria tipizzata dalla legge (che usa “Sitio Histórico”).",
+      "legal_reference": "Ley 16/1985 art. 15.3 (definición de Conjunto Histórico) y art. 15.4 (Sitio Histórico).",
+      "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
+    },
+    {
+      "question": "Los propietarios de bienes de interés cultural están obligados a:",
+      "answers": [
+        { "text": "Permitir y facilitar su inspección por parte de los Organismos competentes", "correct": true },
+        { "text": "Facilitar su estudio a los investigadores", "correct": false },
+        { "text": "Permitir su visita pública previa al pago", "correct": false },
+        { "text": "Las respuestas a y c son correctas", "correct": false }
+      ],
+      "explanation": "ES: La Ley 16/1985 impone deberes a los propietarios/poseedores de BIC: (i) permitir inspección por organismos competentes; (ii) permitir estudio a investigadores previa solicitud razonada; (iii) permitir visita pública en condiciones de gratuidad al menos cuatro días al mes (salvo dispensa justificada).\n- La opción de inspección es correcta porque es una obligación clara e incondicionada.\n- La opción del estudio, tal como está redactada, es incompleta: la obligación existe, pero está condicionada a “previa solicitud razonada”, lo que es un elemento jurídico relevante (no es un acceso automático sin requisitos). Por eso se marca como incorrecta en un test estricto.\n- La visita “previa al pago” es incorrecta porque el mínimo legal exige condiciones de gratuidad (al menos cuatro días al mes), sin perjuicio de que existan días/horarios y otros regímenes; la formulación “previo al pago” contradice el núcleo de gratuidad mínima.\n- La opción que combina a y c es incorrecta porque c es incorrecta.\nIT: La Ley 16/1985 prevede: ispezione obbligatoria, studio per ricercatori con richiesta motivata, e visita pubblica con gratuità minima (almeno 4 giorni al mese, salvo dispensa).\n- L’ispezione è sicuramente corretta.\n- Lo studio è un obbligo, ma non è incondizionato: serve richiesta motivata; l’opzione è quindi incompleta e, in un test rigoroso, si considera errata.\n- La visita “a pagamento” è in contrasto con la gratuità minima prevista.\n- Di conseguenza è errata anche la combinazione a + c.",
+      "legal_reference": "Ley 16/1985 art. 13.2 (inspección; estudio previa solicitud razonada; visita pública con gratuidad mínima).",
+      "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
+    },
+    {
+      "question": "Señale cuál de las siguientes no es una categoría de áreas protegidas por Convenios Internacionales",
+      "answers": [
+        { "text": "Geoparques, UNESCO", "correct": false },
+        { "text": "Reservas de la Biosfera, UNESCO", "correct": false },
+        { "text": "Reservas biogenéticas del Consejo de Europa", "correct": false },
+        { "text": "Reservas de Biodiversidad Marina", "correct": true }
+      ],
+      "explanation": "ES: La Ley 42/2007 enumera como áreas protegidas por instrumentos internacionales, entre otras, los Geoparques (UNESCO), las Reservas de la Biosfera (UNESCO) y las Reservas biogenéticas del Consejo de Europa. Por tanto, esas tres opciones sí son categorías contempladas.\n- “Reservas de Biodiversidad Marina” no aparece como categoría tipificada en el listado legal del art. 50; por eso es la opción correcta como “no es una categoría”.\nIT: La Ley 42/2007 (art. 50) include Geoparques UNESCO, Riserve della Biosfera UNESCO e Riserve biogenetiche del Consiglio d’Europa come categorie di aree protette da strumenti internazionali.\n- “Reservas de Biodiversidad Marina” non è una categoria tipizzata nel catalogo legale; quindi è la risposta corretta.",
+      "legal_reference": "Ley 42/2007 art. 50.1 (categorías: ZEPIM, Geoparques UNESCO, Reservas de la Biosfera UNESCO, Reservas biogenéticas del Consejo de Europa, etc.).",
+      "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
+    },
+    {
+      "question": "Los efectos de los Planes de Ordenación de los Recursos Naturales tendrán el alcance que:",
+      "answers": [
+        { "text": "Establezcan sus propias normas", "correct": true },
+        { "text": "Establezcan los Planes Rectores de Uso y Gestión", "correct": false },
+        { "text": "Establezcan los planes de conservación", "correct": false },
+        { "text": "Establezcan los planes de recuperación", "correct": false }
+      ],
+      "explanation": "ES: La Ley 42/2007 dispone expresamente que los efectos de los PORN tendrán el alcance que establezcan sus propias normas de aprobación.\n- Por ello es correcta la opción “Establezcan sus propias normas”.\n- Los PRUG son instrumentos de gestión de ciertos espacios protegidos (p. ej., parques) y pueden prevalecer sobre planeamiento urbanístico en su ámbito, pero no determinan “el alcance” jurídico general de los PORN; son instrumentos distintos.\n- Los planes de conservación/recuperación son instrumentos sectoriales (especies/hábitats), no el parámetro general del alcance de los PORN.\nIT: La Ley 42/2007 stabilisce che l’efficacia/portata dei PORN è quella fissata dalle loro norme di approvazione.\n- I PRUG e i piani di conservazione/recupero sono strumenti diversi (gestione o misure settoriali), non la fonte che determina l’“alcance” dei PORN.",
+      "legal_reference": "Ley 42/2007 art. 19.1 (alcance de los PORN: el que establezcan sus propias normas de aprobación).",
+      "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
+    },
+    {
+      "question": "En el ejercicio del Derecho de Reversión, si el bien ha cambiado su calificación jurídica:",
+      "answers": [
+        { "text": "Quedarán a beneficio del reversionista", "correct": false },
+        { "text": "Se procederá a una nueva valoración...", "correct": true },
+        { "text": "Tendrán que ser retiradas...", "correct": false },
+        { "text": "Impedirán el derecho de reversión", "correct": false }
+      ],
+      "explanation": "ES: En reversión, la regla general es la restitución de la indemnización expropiatoria actualizada; pero la LEF prevé una excepción cuando el bien cambia su calificación jurídica o incorpora mejoras aprovechables (o sufre menoscabo): en ese caso se procede a una nueva valoración referida a la fecha de ejercicio.\n- Por eso es correcta la opción de “nueva valoración”.\n- No es correcto que los cambios/mejoras queden automáticamente a beneficio del reversionista, porque la Ley precisamente introduce un ajuste valorativo para evitar enriquecimientos injustos.\n- Tampoco se impone como regla general la retirada de mejoras.\n- Los cambios de calificación no impiden la reversión: solo afectan al cálculo económico (valoración).\nIT: Nella retrocessione, se vi sono cambi di qualificazione o migliorie rilevanti, la LEF impone una nuova stima alla data di esercizio.\n- Non è vero che tutto resti automaticamente al reversionista.\n- Non c’è una regola generale di rimozione delle migliorie.\n- E tali cambiamenti non impediscono la retrocessione: incidono sul valore.",
+      "legal_reference": "LEF (1954) art. 55.2 (nueva valoración por cambios de calificación/mejoras/menoscabo).",
+      "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
+    },
+    {
+      "question": "Cuando no consta el derecho preferente de los reversionistas en el Registro de la Propiedad:",
+      "answers": [
+        { "text": "No podrá ejercerse el derecho", "correct": false },
+        { "text": "No podrá inscribirse la finca", "correct": false },
+        { "text": "El derecho de reversión no será oponible a terceros adquirentes", "correct": true },
+        { "text": "Todas las anteriores", "correct": false }
+      ],
+      "explanation": "ES: La LEF ordena que en el Registro se haga constar el derecho preferente de los reversionistas y añade una consecuencia clara: sin esa constancia registral, el derecho de reversión no será oponible a los terceros adquirentes que hayan inscrito sus títulos conforme a la Ley Hipotecaria.\n- Por eso es correcta la opción de “no será oponible a terceros adquirentes”.\n- No significa que el derecho no pueda “ejercerse” en abstracto; significa que puede perder eficacia frente a terceros registrales protegidos.\n- Tampoco implica que no pueda inscribirse la finca a favor de la Administración.\n- En consecuencia, “todas las anteriores” es incorrecta.\nIT: La LEF prevede l’annotazione registrale del diritto preferenziale e stabilisce che, senza tale annotazione, la retrocessione non è opponibile ai terzi acquirenti che abbiano iscritto.\n- Quindi è corretta l’opzione sulla “non opponibilità”.\n- Non equivale a dire che il diritto non possa mai essere esercitato, né che non si possa iscrivere la proprietà alla PA.\n- Perciò è errata anche l’opzione “tutte le precedenti”.",
+      "legal_reference": "LEF (1954) art. 54.5 (sin constancia registral, el derecho de reversión no será oponible a terceros adquirentes inscritos).",
+      "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
+    },
+    {
+      "question": "La competencia para resolver sobre la reversión corresponderá a:",
+      "answers": [
+        { "text": "Administración titular del bien", "correct": false },
+        { "text": "Administración del beneficiario", "correct": false },
+        { "text": "Administración expropiante", "correct": false },
+        { "text": "Las respuestas a y b son correctas", "correct": true }
+      ],
+      "explanation": "ES: La LEF atribuye la competencia para resolver la reversión a la Administración que sea titular del bien o derecho cuando se solicita la reversión o a la Administración a la que esté vinculado el beneficiario de la expropiación, en su caso, titular de los bienes.\n- Por eso a y b son correctas conjuntamente y la respuesta correcta es la opción que las suma.\n- La “Administración expropiante” originaria puede no coincidir con la titular actual del bien (por adscripción, transferencias, etc.), por lo que no es la regla general.\nIT: La LEF indica come competente l’amministrazione titolare al momento della richiesta o quella cui è collegato il beneficiario (se titolare).\n- Quindi sono corrette a e b e la risposta è la loro combinazione.\n- L’amministrazione espropriante originaria può non coincidere con la titolarità attuale: non è la regola generale.",
+      "legal_reference": "LEF (1954) art. 54.4 (competencia: titular actual o administración vinculada al beneficiario, en su caso).",
+      "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
+    },
+    {
+      "question": "¿Qué especialidades pueden presentarse respecto de los sujetos expropiados?",
+      "answers": [
+        { "text": "Estados, entidades, o particulares extranjeros", "correct": false },
+        { "text": "Iglesia Católica", "correct": false },
+        { "text": "Las respuestas a y b son correctas", "correct": true },
+        { "text": "No hay especialidades", "correct": false }
+      ],
+      "explanation": "ES: En la práctica pueden existir especialidades por la condición del expropiado:\n- Si se trata de Estados, entidades o particulares extranjeros, pueden incidir tratados internacionales, normas sobre extranjeros, inmunidades (según el caso) y reglas de Derecho internacional/DIPr, sin alterar la exigencia de causa y justiprecio.\n- Respecto de la Iglesia Católica, pueden operar particularidades por el régimen de determinados bienes eclesiásticos y por el marco de acuerdos con la Santa Sede, además de normativa patrimonial específica.\nPor ello, es razonable considerar correctas ambas afirmaciones y seleccionar la opción que las acumula.\nLa opción “No hay especialidades” es excesiva, porque el ordenamiento contempla marcos específicos para ciertos sujetos/bienes.\nIT: Possono esserci specialità legate al soggetto espropriato:\n- Per stranieri (Stati/enti/privati) possono rilevare trattati, norme sugli stranieri, eventuali immunità e profili di diritto internazionale/DIPr.\n- Per la Chiesa Cattolica possono emergere peculiarità connesse al regime di taluni beni e agli accordi Stato–Santa Sede.\nQuindi è corretta la combinazione a + b. Dire che non esistono specialità è troppo assoluto.",
+      "legal_reference": "Marco general: CE arts. 13 y 96 (extranjería y tratados) y régimen específico derivado de acuerdos internacionales aplicables; LEF art. 1.1 y art. 2 (principios generales, sin perjuicio de regímenes especiales).",
+      "original_file": "D. Adminstrativo III 2° P. AGGIORNADO AL 03 07 25.docx"
     }
   ]
 }
