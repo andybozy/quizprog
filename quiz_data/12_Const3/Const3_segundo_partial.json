@@ -361,6 +361,366 @@
       "explanation": "ES: El recurso de amparo español se inspira en la experiencia alemana de justicia constitucional, particularmente en la Verfassungsbeschwerde (queja constitucional) ante el Tribunal Constitucional Federal alemán, como instrumento individual de protección de derechos fundamentales. Por eso la opción B es la correcta. El TEDH y el TJUE son tribunales supranacionales con mecanismos propios (demanda ante Estrasburgo; cuestiones prejudiciales y recursos ante el TJUE), pero no son el “modelo originario” del amparo interno español. Y el Tribunal de Garantías Constitucionales histórico no es el referente directo del diseño del amparo de 1978 en la doctrina clásica.\nIT: Il modello ispiratore dell’amparo spagnolo è soprattutto quello tedesco: la Verfassungsbeschwerde davanti al Bundesverfassungsgericht (Tribunale Costituzionale Federale). Per questo l’opzione sul Tribunale costituzionale tedesco è corretta. TEDH e TJUE hanno strumenti diversi e sovranazionali, non coincidenti con l’amparo interno. Il riferimento al Tribunale di Garanzie della Prima Repubblica non è considerato il principale modello tecnico-giuridico del meccanismo di amparo della Costituzione del 1978.",
       "legal_reference": "Derecho comparado: influencia del modelo alemán (Verfassungsbeschwerde) en el amparo español; CE art. 53.2 y 161.1.b (configuración constitucional del amparo).",
       "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNADO 17 12 25.docx"
+    },
+    {
+      "question": "Podemos definir la jurisdicción constitucional como",
+      "answers": [
+        { "text": "El conjunto de procedimientos de índole constitucional cuyo objeto es la garantía de los derechos subjetivos de los ciudadanos.", "correct": false },
+        { "text": "El conjunto de procedimientos de carácter procesal y variada índole cuyo objeto es la defensa de la Constitución y de los principios y derechos en ella regulados - correcto.", "correct": true },
+        { "text": "Es la jurisdicción jerárquicamente superior a la ordinaria conforme a lo dispuesto en el Titulo VI de la Constitución de 1978.", "correct": false },
+        { "text": "Los procedimientos que pueden afectar tanta al ámbito de la jurisdicción ordinaria, como al Tribunal Constitucional en defensa de la primacía de la Constitución.", "correct": false }
+      ],
+      "explanation": "ES: La jurisdicción constitucional se entiende como el conjunto de procesos y técnicas (recurso y cuestión de inconstitucionalidad, amparo, conflictos competenciales, etc.) orientados a garantizar la supremacía de la Constitución y la efectividad del sistema de derechos y principios constitucionales. Por eso es correcta la opción que define un conjunto de procedimientos para la defensa de la Constitución (B). La A es incompleta: reducirlo a la garantía de derechos subjetivos de ciudadanos describe solo una parte (amparo/derechos), pero la jurisdicción constitucional incluye también control objetivo de normas y conflictos. La C es errónea: el TC no es una instancia jerárquicamente superior de la jurisdicción ordinaria (no está en el Título VI, ni integra el Poder Judicial). La D es confusa: mezcla ámbitos ordinarios y constitucionales; la jurisdicción constitucional es un sistema propio con procedimientos específicos, no “cualquier procedimiento” que afecte a ambos ámbitos.\nIT: La giurisdizione costituzionale è l’insieme dei procedimenti (ricorso e questione di incostituzionalità, amparo, conflitti di competenza, ecc.) diretti a garantire la supremazia della Costituzione e la tutela dei diritti e principi costituzionali. Per questo è corretta la B. La A è parziale perché limita il concetto alla tutela di diritti soggettivi, mentre il sistema include anche controllo oggettivo delle leggi e conflitti istituzionali/territoriali. La C è sbagliata: il TC non è una ‘superiore gerarchica’ della giurisdizione ordinaria e non appartiene al Poder Judicial. La D è imprecisa: non qualunque procedimento che ‘tocchi’ l’ordinario rientra nella giurisdizione costituzionale; servono strumenti tipici e competenze tassative.",
+      "legal_reference": "CE Título IX (arts. 159–165); CE art. 161 (competencias del TC); LOTC (LO 2/1979) como desarrollo orgánico de la jurisdicción constitucional.",
+      "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNATO 17 12 25.docx"
+    },
+    {
+      "question": "La Garantía del orden constitucional",
+      "answers": [
+        { "text": "Pertenece en exclusiva al Tribunal Constitucional.", "correct": false },
+        { "text": "No pertenece en exclusiva al Tribunal Constitucional, lo comparte con la jurisdicción ordinaria.", "correct": false },
+        { "text": "No pertenece en exclusiva al Tribunal Constitucional, lo comparte con el resto de órganos del Estado.", "correct": false },
+        { "text": "No pertenece en exclusiva al Tribunal Constitucional, lo comparte con todos los operadores jurídicos.", "correct": true }
+      ],
+      "explanation": "ES: La defensa/garantía del orden constitucional no es un monopolio del TC: la Constitución vincula a ciudadanos y poderes públicos y exige respeto general al ordenamiento constitucional. El TC es el órgano especializado y último intérprete en su ámbito, pero la garantía se proyecta también en la jurisdicción ordinaria (aplicación directa de la CE, tutela preferente), en el legislador y la Administración (deber de sujeción), y en otros operadores que actúan conforme a la Constitución. Por eso la opción más completa es la D. La A es incorrecta porque desconoce la sujeción general a la CE. La B es cierta en parte (incluye a la jurisdicción ordinaria) pero es incompleta porque deja fuera legislador/Administración y otras garantías institucionales. La C también es incompleta si se entiende solo “órganos del Estado” sin abarcar el conjunto de operadores jurídicos y la vinculación general.\nIT: La garanzia dell’ordine costituzionale non appartiene in esclusiva al Tribunal Constitucional: la Costituzione vincola cittadini e poteri pubblici, e la sua osservanza permea legislazione, amministrazione e giurisdizione ordinaria. Il TC è l’organo specializzato (controllo di costituzionalità e amparo), ma la difesa del sistema costituzionale è diffusa. Per questo la D è la risposta più corretta e completa. La A è sbagliata perché attribuisce un monopolio inesistente. La B coglie solo una parte (condivisione con giurisdizione ordinaria), ma non esaurisce il quadro. La C amplia ai poteri statali, però resta meno precisa della D, che riflette la dimensione generale della vincolatività costituzionale.",
+      "legal_reference": "CE art. 9.1 (sujeción de ciudadanos y poderes públicos a la Constitución); CE arts. 53 y 161 (garantías y jurisdicción constitucional); papel de la jurisdicción ordinaria (procedimiento preferente y sumario, art. 53.2).",
+      "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNATO 17 12 25.docx"
+    },
+    {
+      "question": "El Tribunal Constitucional es",
+      "answers": [
+        { "text": "Único en su género y competente en todo el territorio nacional - correcto.", "correct": true },
+        { "text": "Es un tribunal no jurisdiccional competente en todo el territorio nacional.", "correct": false },
+        { "text": "Un órgano ante el cual es posible plantear problemas de competencia y jurisdicción.", "correct": false },
+        { "text": "Un tribunal con especial jerarquía dentro del poder judicial.", "correct": false }
+      ],
+      "explanation": "ES: El TC es un órgano constitucional único, con jurisdicción en todo el territorio nacional y funciones específicas de control constitucional. Por eso la A es correcta. La B es errónea: aunque el TC no forma parte del Poder Judicial, sí ejerce funciones jurisdiccionales en el ámbito constitucional (dicta sentencias y autos con efectos jurídicos). La C es imprecisa: el TC conoce de conflictos de competencia, pero no resuelve “problemas de competencia y jurisdicción” en el sentido procesal ordinario (cuestiones de jurisdicción/competencia entre órdenes o tribunales ordinarios). La D es falsa: el TC no es un órgano jerárquicamente superior del Poder Judicial; es externo a éste (Título IX frente a Título VI).\nIT: Il Tribunal Constitucional è un organo costituzionale “sui generis”, unico e competente su tutto il territorio nazionale: corretta la A. La B è sbagliata perché, pur non appartenendo al Poder Judicial, il TC svolge attività giurisdizionale costituzionale (pronunce vincolanti). La C confonde: il TC decide conflitti di competenza Stato-CCAA e tra organi costituzionali, ma non è un giudice delle ‘questioni di competenza e giurisdizione’ tipiche dell’ordinario. La D è errata: il TC non è gerarchicamente sopra il potere giudiziario; è un organo distinto.",
+      "legal_reference": "CE arts. 159–165 (TC: naturaleza, composición y efectos); CE art. 161 (competencias).",
+      "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNATO 17 12 25.docx"
+    },
+    {
+      "question": "El Tribunal Constitucional es competente para",
+      "answers": [
+        { "text": "Conocer únicamente del control de constitucionalidad de las normas.", "correct": false },
+        { "text": "Actuar de oficio siempre que los actos o disposiciones del Gobierno o del Parlamento pongan en entredicho la supremacía de la Constitución - correcto.", "correct": false },
+        { "text": "A instancia de parte, establecer los límites que tienen otros poderes y operadores jurídicos en aras al respeto del sistema político, jurídico y social derivado de la Constitución.", "correct": false },
+        { "text": "Realizar el control previo de constitucionalidad de los Tratados Internacionales.", "correct": true }
+      ],
+      "explanation": "ES: El TC no actúa de oficio: sólo interviene a través de los procesos constitucionales previstos (recurso/cuestion de inconstitucionalidad, amparo, conflictos, etc.). Sin embargo, sí tiene una competencia específica de control previo de tratados internacionales cuando el Gobierno o cualquiera de las Cámaras le requiere para declarar si existe contradicción con la Constitución. Por ello, la D es correcta. La A es falsa porque el TC no se limita al control de normas: también conoce del amparo y de conflictos competenciales. La B es incorrecta por atribuir actuación ex officio. La C es demasiado genérica: el TC “establece límites” como efecto de sus decisiones, pero su competencia no es una cláusula abierta “a instancia de parte” sobre cualquier límite, sino competencias tasadas en la Constitución y la LOTC.\nIT: Il TC non interviene d’ufficio: opera solo tramite i procedimenti costituzionali tipici. Invece, è corretto che possa svolgere un controllo previo sui trattati internazionali quando richiesto dagli organi legittimati, dichiarando l’eventuale contraddizione con la Costituzione; quindi è corretta la D. La A è errata perché il TC non fa solo controllo di norme, ma anche amparo e conflitti. La B è sbagliata perché presuppone iniziativa d’ufficio. La C descrive un effetto (fissare confini) ma non definisce una competenza “generale”: le competenze sono tassative e procedurali.",
+      "legal_reference": "CE art. 95.2 (declaración sobre contradicción de tratados con la CE); CE art. 161 (competencias); LOTC (procedimientos constitucionales y límites de actuación).",
+      "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNATO 17 12 25.docx"
+    },
+    {
+      "question": "Los miembros del Tribunal Constitucional se renovarán:",
+      "answers": [
+        { "text": "Por cuartas partes cada dos años.", "correct": false },
+        { "text": "Por terceras partes cada tres años.", "correct": true },
+        { "text": "Por mitades cada tres años.", "correct": false },
+        { "text": "Íntegramente cada nueve años.", "correct": false }
+      ],
+      "explanation": "ES: La Constitución fija un mandato de nueve años para los magistrados del TC y una renovación por terceras partes cada tres años. Por eso la B es correcta. La A y la C no coinciden con el sistema de renovación constitucional. La D confunde duración del mandato (9 años) con el sistema de renovación: no se renueva íntegramente cada nueve años, sino escalonadamente por tercios.\nIT: La CE prevede durata di 9 anni e rinnovo per terzi ogni 3 anni: corretta la B. A e C non corrispondono alla regola costituzionale. La D sbaglia perché trasforma la durata del mandato in un rinnovo totale, mentre il rinnovo è scaglionato per garantire continuità.",
+      "legal_reference": "CE art. 159.3 (mandato de nueve años; renovación por terceras partes cada tres).",
+      "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNATO 17 12 25.docx"
+    },
+    {
+      "question": "No está/n legitimado/s para interponer recurso de amparo:",
+      "answers": [
+        { "text": "Toda persona jurídica que invoque interés legítimo.", "correct": false },
+        { "text": "El Ministerio Fiscal.", "correct": false },
+        { "text": "El Defensor del Pueblo.", "correct": false },
+        { "text": "Las Asambleas legislativas de las Comunidades Autónomas - correcto.", "correct": true }
+      ],
+      "explanation": "ES: La legitimación del amparo corresponde a toda persona natural o jurídica con interés legítimo, y también al Defensor del Pueblo y al Ministerio Fiscal. Las Asambleas legislativas autonómicas no aparecen como legitimadas para el amparo. Por eso la D es correcta. La A es correcta como legitimación (por eso aquí es incorrecta como respuesta). La B y la C también son sujetos legitimados, así que no pueden ser la respuesta.\nIT: Per l’amparo sono legittimati persone fisiche o giuridiche con interesse legittimo, oltre a Defensor del Pueblo e Ministerio Fiscal. Le Assemblee legislative delle CCAA non sono legittimate all’amparo: quindi è corretta la D. A, B e C invece descrivono soggetti legittimati e quindi risultano errate come scelta.",
+      "legal_reference": "CE art. 162.1.b (legitimación para el recurso de amparo).",
+      "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNATO 17 12 25.docx"
+    },
+    {
+      "question": "Para que la cuestión de inconstitucionalidad pueda ser interpuesta, será preciso:",
+      "answers": [
+        { "text": "Que la norma tenga rango de Ley Orgánica.", "correct": false },
+        { "text": "Que la norma, a criterio del órgano judicial, sea o no aplicable al caso, vulnere la Constitución.", "correct": false },
+        { "text": "Todas las otras respuestas son correctas.", "correct": false },
+        { "text": "Que de la validez de tal norma dependa el fallo - correcto.", "correct": true }
+      ],
+      "explanation": "ES: La cuestión de inconstitucionalidad exige que la norma con rango de ley sea aplicable al caso y que de su validez dependa el fallo; además, el órgano judicial debe albergar una duda de constitucionalidad. Por eso la D es correcta (captura el requisito nuclear de dependencia del fallo). La A es falsa: no se limita a leyes orgánicas; se refiere a normas con rango de ley en general. La B es errónea porque afirma “sea o no aplicable”; precisamente la aplicabilidad es requisito. La C es falsa porque A y B no son correctas.\nIT: La questione di incostituzionalità richiede che la norma con forza di legge sia applicabile al caso e che la decisione dipenda dalla sua validità, oltre al dubbio di costituzionalità del giudice. Quindi è corretta la D. La A è errata perché non riguarda solo leggi organiche. La B è sbagliata perché l’applicabilità è requisito essenziale, non opzionale. La C cade perché non sono corrette tutte le altre.",
+      "legal_reference": "CE art. 163 (cuestión de inconstitucionalidad: norma aplicable y de cuya validez dependa el fallo); LOTC (tramitación de la cuestión).",
+      "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNATO 17 12 25.docx"
+    },
+    {
+      "question": "Los miembros del Tribunal Constitucional, en el desempeño de su mandato:",
+      "answers": [
+        { "text": "Serán independientes y responsables.", "correct": false },
+        { "text": "Serán independientes e inamovibles - correcto.", "correct": true },
+        { "text": "Serán inamovibles e irresponsables.", "correct": false },
+        { "text": "Serán irresponsables e independientes.", "correct": false }
+      ],
+      "explanation": "ES: La Constitución establece la independencia y la inamovilidad de los miembros del TC durante su mandato, reforzada por incompatibilidades y un estatuto específico. Por eso la B es correcta. La A introduce “responsables” como característica definitoria, que no es la fórmula constitucional típica. La C y la D usan “irresponsables”, que no describe el estatuto constitucional: pueden existir reglas sobre inviolabilidad/funcionamiento, pero el rasgo constitucional expresamente afirmado es independencia e inamovilidad.\nIT: La CE afferma indipendenza e inamovibilità dei membri del TC nel mandato: corretta la B. La A introduce “responsabili” come elemento tipico, che non è la formula costituzionale di riferimento. C e D parlano di “irresponsabili”, che non descrive correttamente lo statuto: l’asse è indipendenza e inamovibilità, con incompatibilità e regole di funzionamento.",
+      "legal_reference": "CE art. 159.5 (independencia e inamovilidad; régimen de incompatibilidades).",
+      "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNATO 17 12 25.docx"
+    },
+    {
+      "question": "Una de las siguientes afirmaciones no es cierta. Los miembros del Tribunal Constitucional serán propuestos:",
+      "answers": [
+        { "text": "Dos a propuesta del Gobierno de la Nación.", "correct": false },
+        { "text": "Cuatro por el Congreso de los Diputados por mayoría de tres quintos de sus miembros.", "correct": false },
+        { "text": "Dos por el Senado, por mayoría de tres quintos de sus miembros - correcto.", "correct": true },
+        { "text": "Dos a propuesta del Consejo General del Poder Judicial.", "correct": false }
+      ],
+      "explanation": "ES: La composición por propuestas es: 4 por el Congreso, 4 por el Senado, 2 por el Gobierno y 2 por el CGPJ. La afirmación “Dos por el Senado” es la incorrecta (deben ser cuatro), por eso la C es la opción correcta en una pregunta que pide identificar la no cierta. La A, B y D sí coinciden con el esquema constitucional (2 Gobierno, 4 Congreso, 2 CGPJ).\nIT: Le proposte sono: 4 Congresso, 4 Senato, 2 Governo, 2 CGPJ. Dire che il Senato propone solo 2 è falso (sono 4): quindi la C è la risposta corretta perché la domanda chiede l’affermazione non vera. A, B e D invece corrispondono alla ripartizione costituzionale.",
+      "legal_reference": "CE art. 159.1 (propuesta: Congreso 4, Senado 4, Gobierno 2, CGPJ 2; nombramiento por el Rey).",
+      "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNATO 17 12 25.docx"
+    },
+    {
+      "question": "10 El Defensor del Pueblo se regula en el siguiente Titulo y Capitulo de la Constitución, respectivamente:",
+      "answers": [
+        { "text": "Titulo Preliminar y Capítulo Primero.", "correct": false },
+        { "text": "Título Segundo y Capítulo Cuarto.", "correct": false },
+        { "text": "Título Primero y Capítulo Tercero.", "correct": false },
+        { "text": "Título Primero y Capítulo Cuarto - correcto.", "correct": true }
+      ],
+      "explanation": "ES: El Defensor del Pueblo está en el Título I, dentro del Capítulo IV (garantías de las libertades y derechos fundamentales), en el art. 54 CE. Por eso la D es correcta. La A es incorrecta porque el Título Preliminar regula bases del Estado (art. 1–9). La B se refiere al Título II (Corona), sin relación. La C ubica erróneamente al Defensor en el Capítulo III (principios rectores) que corresponde a arts. 39–52.\nIT: Il Defensor del Pueblo è disciplinato nel Titolo I, Capo IV (garanzie dei diritti e libertà), art. 54 CE: corretta la D. A è sbagliata (Titolo preliminare). B è errata (Titolo II: Corona). C è errata (Capo III: principi rettori, non Defensor).",
+      "legal_reference": "CE art. 54 (Defensor del Pueblo); sistemática del Título I, Capítulo IV.",
+      "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNATO 17 12 25.docx"
+    },
+    {
+      "question": "11.- El Tribunal Constitucional se compone de:",
+      "answers": [
+        { "text": "Veintiún miembros.", "correct": false },
+        { "text": "Doce miembros - correcto.", "correct": true },
+        { "text": "Veinte miembros.", "correct": false },
+        { "text": "Trece miembros.", "correct": false }
+      ],
+      "explanation": "ES: La Constitución fija expresamente que el Tribunal Constitucional se compone de doce miembros. Por ello la B es correcta. A, C y D son numéricamente incompatibles con el art. 159 CE.\nIT: La CE stabilisce che il TC è composto da 12 membri: corretta la B. Le altre opzioni indicano numeri diversi e quindi errati.",
+      "legal_reference": "CE art. 159.1 (composición: doce miembros).",
+      "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNATO 17 12 25.docx"
+    },
+    {
+      "question": "12.- La legitimación para acudir al Tribunal Constitucional se regula en el artículo del Título Noveno número:",
+      "answers": [
+        { "text": "161.", "correct": false },
+        { "text": "162 - correcto.", "correct": true },
+        { "text": "164.", "correct": false },
+        { "text": "163.", "correct": false }
+      ],
+      "explanation": "ES: La legitimación (quién puede interponer recurso de inconstitucionalidad y amparo) se recoge en el art. 162 CE. El art. 161 regula competencias; el 163 trata la cuestión de inconstitucionalidad; el 164 los efectos de las sentencias. Por eso es correcta la B.\nIT: La legittimazione è prevista dall’art. 162 CE. L’art. 161 riguarda le competenze, il 163 la questione di incostituzionalità, il 164 gli effetti delle sentenze: quindi corretta la B.",
+      "legal_reference": "CE art. 162 (legitimación).",
+      "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNATO 17 12 25.docx"
+    },
+    {
+      "question": "13.- Las sentencias dictadas por el Tribunal Constitucional:",
+      "answers": [
+        { "text": "Tienen plenos efectos frente a todos.", "correct": false },
+        { "text": "Tienen plenos efectos frente a todos las que declaren la inconstitucionalidad de una norma que no tenga fuerza de Ley.", "correct": false },
+        { "text": "Nunca tienen efectos plenos frente a todos.", "correct": false },
+        { "text": "Tienen plenos efectos frente a todos todas las que no se limiten a la estimación subjetiva de un derecho - correcto.", "correct": true }
+      ],
+      "explanation": "ES: No todas las sentencias del TC tienen plenos efectos erga omnes: los tienen (i) las que declaren la inconstitucionalidad de una ley y (ii) las que no se limiten a la estimación subjetiva de un derecho. Por eso la D es correcta. La A es excesiva (generaliza a todas). La B es errónea porque el precepto constitucional se refiere a leyes (y a sentencias que no se limiten a la estimación subjetiva), no a “normas sin fuerza de ley”. La C es falsa porque sí existen sentencias con efectos generales.\nIT: Non tutte le sentenze del TC hanno effetti erga omnes: li hanno quelle che dichiarano l’incostituzionalità di una legge e quelle che non si limitano alla stima soggettiva di un diritto. Quindi corretta la D. A generalizza troppo; B è formulata male rispetto al testo costituzionale; C nega una previsione espressa.",
+      "legal_reference": "CE art. 164.1 (efectos: plenos efectos frente a todos en los casos indicados).",
+      "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNATO 17 12 25.docx"
+    },
+    {
+      "question": "14..- No está/n legitimado/s para interponer recurso de lnconstituclonalidad:",
+      "answers": [
+        { "text": "El Ministerio Fiscal - correcto.", "correct": true },
+        { "text": "Cincuenta Senadores.", "correct": false },
+        { "text": "El Presidente del Gobierno.", "correct": false },
+        { "text": "Los órganos colegiados ejecutivos de las Comunidades Autónomas.", "correct": false }
+      ],
+      "explanation": "ES: Para el recurso de inconstitucionalidad están legitimados el Presidente del Gobierno, el Defensor del Pueblo, 50 Diputados, 50 Senadores, y los órganos colegiados ejecutivos de las CCAA (y asambleas autonómicas en ciertos casos). El Ministerio Fiscal no figura como legitimado para este recurso. Por eso la A es correcta. B, C y D sí son legitimados constitucionales.\nIT: Sono legittimati al ricorso di incostituzionalità Presidente del Governo, Defensor del Pueblo, 50 deputati, 50 senatori e organi esecutivi collegiali delle CCAA. Il Ministerio Fiscal non è legittimato: quindi corretta la A. B, C e D invece sono soggetti legittimati.",
+      "legal_reference": "CE art. 162.1.a (legitimación para recurso de inconstitucionalidad).",
+      "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNATO 17 12 25.docx"
+    },
+    {
+      "question": "15..- El Título Noveno de la Constitución comienza en el artículo:",
+      "answers": [
+        { "text": "160.", "correct": false },
+        { "text": "162.", "correct": false },
+        { "text": "161.", "correct": false },
+        { "text": "159 - correcto.", "correct": true }
+      ],
+      "explanation": "ES: El Título IX (Del Tribunal Constitucional) comienza en el art. 159 CE. Por eso la D es correcta. 160–162 son artículos posteriores dentro del mismo Título, pero no lo inician.\nIT: Il Titolo IX inizia con l’art. 159 CE: corretta la D. Gli artt. 160–162 seguono, ma non aprono il Titolo.",
+      "legal_reference": "CE Título IX: inicio en art. 159.",
+      "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNATO 17 12 25.docx"
+    },
+    {
+      "question": "16.- La interposición o planteamiento de la cuestión de inconstitucionalidad:",
+      "answers": [
+        { "text": "Nunca producirá efectos suspensivos sobre la norma afectada - correcto.", "correct": true },
+        { "text": "Siempre producirá tal efecto suspensorio.", "correct": false },
+        { "text": "Sólo producirá efectos suspensivos cuando libremente lo acuerde el Tribunal Constitucional al admitir la cuestión a trámite.", "correct": false },
+        { "text": "Sólo producirá efectos suspensivos cuando la norma cuestionada afecte a los derechos fundamentales y libertades públicas.", "correct": false }
+      ],
+      "explanation": "ES: La cuestión de inconstitucionalidad no suspende la vigencia de la norma cuestionada: el proceso sigue y la norma permanece aplicable en el ordenamiento hasta que, en su caso, el TC declare su inconstitucionalidad. La suspensión automática se prevé en otro contexto (impugnación del Gobierno contra disposiciones autonómicas, art. 161.2 CE), no en la cuestión del art. 163. Por eso la A es correcta. La B es falsa (no hay suspensión siempre). La C también es incorrecta: el TC no decide una suspensión “al admitir la cuestión” como regla. La D es errónea porque la afectación de derechos fundamentales no convierte la cuestión en suspensiva.\nIT: La questione di incostituzionalità non comporta sospensione della norma: resta vigente finché il TC non si pronunci. La sospensione automatica opera in altra ipotesi (impugnazione governativa ex art. 161.2 CE), non nella questione ex art. 163. Quindi corretta la A. B è falsa; C attribuisce un potere sospensivo non tipico; D è errata perché il contenuto in diritti fondamentali non introduce sospensione.",
+      "legal_reference": "CE art. 163 (cuestión); CE art. 161.2 (suspensión en impugnación del Gobierno, no aplicable a la cuestión).",
+      "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNATO 17 12 25.docx"
+    },
+    {
+      "question": "17. .- Uno de los siguientes cargos o condiciones es compatible de la miembro del Tribunal Constitucional:",
+      "answers": [
+        { "text": "Con la condición de Juez, Magistrado o Fiscal en excedencia - correcto.", "correct": true },
+        { "text": "Con todo mandato representativo.", "correct": false },
+        { "text": "Con cualquier actividad profesional o mercantil.", "correct": false },
+        { "text": "Con los cargos políticos o administrativos.", "correct": false }
+      ],
+      "explanation": "ES: El régimen de incompatibilidades impide a los miembros del TC ejercer mandatos representativos, cargos políticos/administrativos o actividades profesionales/mercantiles. En cambio, pueden provenir de la carrera judicial o fiscal, pero deben estar en situación que evite el ejercicio activo (excedencia/servicios especiales según corresponda) para preservar independencia. Por eso la A es la compatible. La B es incompatible por prohibición de mandato representativo. La C es incompatible porque se prohíbe el ejercicio profesional o mercantil. La D es incompatible por la prohibición de cargos políticos o administrativos.\nIT: Il regime di incompatibilità vieta mandato rappresentativo, cariche politiche/amministrative e attività professionali/mercantili. È invece compatibile provenire da magistratura o procura purché in posizione non attiva (excedencia) per garantire indipendenza: quindi corretta la A. B, C e D sono incompatibili per divieti espressi del regime costituzionale/organico.",
+      "legal_reference": "CE art. 159.4 (incompatibilidades: mandato representativo, cargos políticos/administrativos, servicio activo, actividades profesionales/mercantiles).",
+      "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNATO 17 12 25.docx"
+    },
+    {
+      "question": "18. .- Los miembros del Tribunal Constitucional deberán ser juristas de reconocida competencia con:",
+      "answers": [
+        { "text": "Más de diez años de ejercicio profesional.", "correct": false },
+        { "text": "Más de quince años de ejercicio profesional - correcto.", "correct": true },
+        { "text": "Más de cinco años de ejercicio profesional.", "correct": false },
+        { "text": "Más de veinte años de ejercicio profesional.", "correct": false }
+      ],
+      "explanation": "ES: La Constitución exige que sean juristas de reconocida competencia con más de quince años de ejercicio profesional. Por eso la B es correcta. A y C reducen indebidamente el umbral. D lo eleva sin base constitucional.\nIT: La CE richiede più di 15 anni di esercizio professionale: corretta la B. A e C indicano soglie inferiori non conformi. D indica una soglia superiore priva di fondamento costituzionale.",
+      "legal_reference": "CE art. 159.2 (juristas de reconocida competencia con más de quince años de ejercicio).",
+      "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNATO 17 12 25.docx"
+    },
+    {
+      "question": "19.- Contra las sentencias dictadas por el Tribunal Constitucional:",
+      "answers": [
+        { "text": "Cabe recurso de aclaración.", "correct": false },
+        { "text": "Cabe recurso de casación.", "correct": false },
+        { "text": "Cabe recurso de revisión.", "correct": false },
+        { "text": "No cabe recurso alguno - correcto.", "correct": true }
+      ],
+      "explanation": "ES: Las sentencias del TC tienen valor de cosa juzgada y contra ellas no cabe recurso alguno. Por eso la D es correcta. La A puede confundirse con la posibilidad técnica de aclarar extremos o corregir errores materiales en resoluciones, pero no constituye un “recurso” contra la sentencia en sentido impugnatorio. La B (casación) es propia del Poder Judicial y no existe frente a sentencias del TC. La C (revisión) tampoco procede.\nIT: Le sentenze del TC sono definitive (cosa giudicata) e non impugnabili: corretta la D. A può ricordare chiarimenti/correzioni materiali, ma non è un vero rimedio impugnatorio contro la sentenza. B (cassazione) è rimedio dell’ordinario, non contro il TC. C (revisione) non è prevista contro decisioni del TC.",
+      "legal_reference": "CE art. 164.1 (cosa juzgada; no cabe recurso).",
+      "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNATO 17 12 25.docx"
+    },
+    {
+      "question": "20. La interposición o planteamiento de la cuestión de inconstitucionalidad:",
+      "answers": [
+        { "text": "Nunca producirá efectos suspensivos sobre la norma afectada - correcto.", "correct": true },
+        { "text": "Siempre producirá tal efecto suspensorio.", "correct": false },
+        { "text": "Sólo producirá efectos suspensivos cuando libremente lo acuerde el Tribunal Constitucional al admitir la cuestión a trámite.", "correct": false },
+        { "text": "Sólo producirá efectos suspensivos cuando la norma cuestionada afecte a los derechos fundamentales y libertades públicas.", "correct": false }
+      ],
+      "explanation": "ES: Igual que en la pregunta 16, la cuestión de inconstitucionalidad no suspende la norma: ésta permanece vigente hasta la decisión del TC. Por eso la A es correcta. B es falsa; C atribuye una suspensión discrecional que no es regla del sistema; D vincula suspensión a derechos fundamentales sin base.\nIT: Come nella 16, la questione non sospende la norma: corretta la A. Le altre opzioni descrivono sospensioni non previste o condizioni non fondate.",
+      "legal_reference": "CE art. 163; CE art. 161.2 (suspensión sólo en impugnación del Gobierno, no en cuestión).",
+      "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNATO 17 12 25.docx"
+    },
+    {
+      "question": "21. .- Los votos particulares que pueda haber en las sentencias dictadas por el Tribunal Constitucional:",
+      "answers": [
+        { "text": "No deberán ser publicados junto a la sentencia.", "correct": false },
+        { "text": "Podrán ser publicados cuando así lo inste el Magistrado autor del voto.", "correct": false },
+        { "text": "Se publicarán con las sentencias - correcto.", "correct": true },
+        { "text": "No caben votos particulares en las sentencias dictadas por el Tribunal Constitucional.", "correct": false }
+      ],
+      "explanation": "ES: La Constitución prevé que las sentencias del TC se publiquen con los votos particulares, si los hubiere. Por eso la C es correcta. La A contradice esa regla. La B es errónea porque no depende de petición del autor: la publicación acompaña a la sentencia cuando exista voto particular. La D es falsa porque sí caben votos particulares.\nIT: Le sentenze del TC si pubblicano con eventuali voti particolari: corretta la C. A è contraria al testo costituzionale. B è sbagliata perché non serve istanza dell’autore. D è errata perché i voti particolari sono ammessi.",
+      "legal_reference": "CE art. 164.1 (publicación en BOE con votos particulares, si los hubiere).",
+      "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNATO 17 12 25.docx"
+    },
+    {
+      "question": "De acuerdo con el artículo 162 de la vigente Constitución Española, el Defensor del Pueblo puede interponer:",
+      "answers": [
+        { "text": "Recurso de amparo y cuestión de inconstitucionalidad.", "correct": false },
+        { "text": "Recurso de amparo y recurso de inconstitucionalidad - correcto.", "correct": true },
+        { "text": "Recurso de amparo exclusivamente.", "correct": false },
+        { "text": "Cuestión de inconstitucionalidad.", "correct": false }
+      ],
+      "explanation": "ES: El Defensor del Pueblo está legitimado tanto para el recurso de inconstitucionalidad como para el recurso de amparo. La “cuestión de inconstitucionalidad” no la interpone el Defensor, sino que la plantea un órgano judicial. Por eso la B es correcta. La A es incorrecta por mencionar cuestión. La C es incompleta porque omite el recurso de inconstitucionalidad. La D es falsa porque el Defensor no plantea la cuestión.\nIT: Il Defensor del Pueblo può proporre ricorso di incostituzionalità e ricorso di amparo. La questione di incostituzionalità è invece sollevata dal giudice. Quindi corretta la B. A è errata per la ‘questione’; C è incompleta; D è sbagliata.",
+      "legal_reference": "CE art. 162.1.a (inconstitucionalidad) y art. 162.1.b (amparo); CE art. 163 (cuestión: órgano judicial).",
+      "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNATO 17 12 25.docx"
+    },
+    {
+      "question": "De una de las siguientes cuestiones no es competente para conocer el Tribunal Constitucional:",
+      "answers": [
+        { "text": "Del recurso de amparo por violación de los derechos y libertades no referidos en el art. 53.2. de la Constitución - correcto.", "correct": true },
+        { "text": "De los conflictos de competencia entre el Estado y las Comunidades Autónomas.", "correct": false },
+        { "text": "Del recurso de inconstitucionalidad contra leyes.", "correct": false },
+        { "text": "De los conflictos de competencia entre las Comunidades Autónomas.", "correct": false }
+      ],
+      "explanation": "ES: El amparo constitucional se limita a los derechos del art. 14 y los de la Sección 1ª del Capítulo II (arts. 15–29) y a la objeción de conciencia del art. 30, según el art. 53.2 CE. Por tanto, el TC no conoce del amparo por vulneraciones de derechos “no referidos” en ese ámbito: la A es correcta como opción negativa. La B y la D sí son competencias del TC (conflictos de competencia Estado-CCAA y entre CCAA). La C también lo es (recurso de inconstitucionalidad).\nIT: L’amparo copre solo i diritti dell’art. 14 e 15–29 (più obiezione di coscienza art. 30) ex art. 53.2 CE. Quindi il TC non è competente per amparo su diritti fuori da quel catalogo: corretta la A. B e D rientrano nei conflitti di competenza; C rientra nel ricorso di incostituzionalità.",
+      "legal_reference": "CE art. 53.2 (ámbito del amparo); CE art. 161.1 (competencias: inconstitucionalidad y conflictos).",
+      "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNATO 17 12 25.docx"
+    },
+    {
+      "question": "La cuestión de inconstitucionalidad ante el Tribunal Constitucional podrá ser planteada:",
+      "answers": [
+        { "text": "Por el Ministerio Fiscal.", "correct": false },
+        { "text": "Por el Defensor del Pueblo.", "correct": false },
+        { "text": "Por la persona física o jurídica que invoque un interés legítimo.", "correct": false },
+        { "text": "Por un órgano j - correcto", "correct": true }
+      ],
+      "explanation": "ES: La cuestión de inconstitucionalidad es un mecanismo de control concreto y sólo puede ser planteada por un órgano judicial en el curso de un proceso, cuando la norma aplicable y determinante para el fallo suscita dudas de constitucionalidad. Por eso la D (aunque truncada en el enunciado) es la correcta. Ni el Ministerio Fiscal, ni el Defensor del Pueblo, ni particulares con interés legítimo plantean “cuestión”; esas figuras pueden actuar en otros planos (recurso de inconstitucionalidad/amparo, intervención procesal), pero no activar la cuestión del art. 163 CE.\nIT: La questione di incostituzionalità è sollevata esclusivamente dal giudice nel corso di un procedimento, quando la validità della norma applicabile condiziona la decisione. Quindi corretta la D (“órgano j”, ossia órgano judicial). MF, Defensor e privati non sollevano la questione: hanno altri strumenti o ruoli, ma non quello dell’art. 163 CE.",
+      "legal_reference": "CE art. 163 (cuestión de inconstitucionalidad: órgano judicial); LOTC (procedimiento de planteamiento).",
+      "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNATO 17 12 25.docx"
+    },
+    {
+      "question": "La desobediencia civil es",
+      "answers": [
+        { "text": "Una forma de garantía institucional de los derechos y libertades fundamentales", "correct": false },
+        { "text": "Una forma de garantía jurisdiccional de los derechos y libertades fundamentales", "correct": false },
+        { "text": "Una forma de garantía orgánica de los derechos y libertades fundamentales", "correct": false },
+        { "text": "Una forma de garantía excepcional de los derechos y libertades fundamentales - correcto", "correct": true }
+      ],
+      "explanation": "ES: En la clasificación doctrinal de garantías, la desobediencia civil no es una garantía institucional (no es una institución como el Defensor del Pueblo), ni jurisdiccional (no es un proceso ante tribunales), ni orgánica (no es un órgano constitucional). Se trata de un mecanismo social-político de presión que opera fuera de los cauces jurídicos ordinarios, por eso encaja como “garantía excepcional” o extra-ordinaria en sentido doctrinal. Así, la D es correcta. A, B y C son incorrectas porque atribuyen naturaleza institucional/judicial/orgánica a un fenómeno que no lo es.\nIT: Nella classificazione dottrinale, la disobbedienza civile non è una garanzia istituzionale, né giurisdizionale, né organica: non è un organo o procedimento, ma una forma extra-ordinaria di azione collettiva che mira a incidere sul sistema mediante pressione sociale. Per questo è qualificabile come garanzia eccezionale (in senso dottrinale): corretta la D. A, B e C sono errate perché descrivono categorie giuridico-istituzionali diverse.",
+      "legal_reference": "Clasificación doctrinal de garantías (institucionales, jurisdiccionales, normativas y excepcionales) en el marco del Título I y su estudio sistemático; no es un procedimiento constitucional tipificado.",
+      "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNATO 17 12 25.docx"
+    },
+    {
+      "question": "Los mecanismos que garantizan la independencia de los magistrados del Tribunal Constitucional son",
+      "answers": [
+        { "text": "El Estatuto, la inamovilidad del cargo, el sistema de incompatibilidades y el periodo de tiempo en el que desempeñan su labor - correcto.", "correct": true },
+        { "text": "El sistema de designación de su Secretario General, por cooptación, que garantiza un funcionamiento autónomo.", "correct": false },
+        { "text": "El periodo de 3 años por el que se nombran, la imposibilidad de cambio de destino, el Estatuto y el sistema de incompatibilidades, sólo pueden compatibilizar su labor de magistrados en puestos de trabajo del sector privado.", "correct": false },
+        { "text": "El Estatuto, la inamovilidad del cargo, su nombramiento por 7 años y el sistema de incompatibilidades.", "correct": false }
+      ],
+      "explanation": "ES: La independencia se asegura por un conjunto de garantías: estatuto propio, mandato largo (9 años) con renovación parcial, inamovilidad durante el mandato e incompatibilidades estrictas. Eso es exactamente lo que refleja la A, por lo que es correcta. La B no es el mecanismo constitucional central de independencia. La C es errónea porque el mandato no es de 3 años y además introduce compatibilidades con sector privado contrarias al régimen general. La D falla porque el mandato no es de 7 años.\nIT: L’indipendenza è garantita da statuto, inamovibilità, incompatibilità e durata del mandato (9 anni con rinnovo per terzi). La A è corretta perché raccoglie questi elementi. La B non è il presidio costituzionale principale. La C è errata (mandato non è 3 anni e introduce compatibilità improprie). La D è errata (non 7 anni).",
+      "legal_reference": "CE arts. 159.3–159.5 (duración, renovación, incompatibilidades, independencia e inamovilidad); LOTC (estatuto y funcionamiento).",
+      "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNATO 17 12 25.docx"
+    },
+    {
+      "question": "La modificación de la Ley Orgánica del Tribunal Constitucional aprobado en el 2007 permite",
+      "answers": [
+        { "text": "Que el Pleno asuma mayores funciones para garantizar la legalidad de la toma de decisiones.", "correct": false },
+        { "text": "Que las secciones asuman mayor carga de trabajo para permitir una mayor celeridad en la tramitación de los asuntos - correcto.", "correct": true },
+        { "text": "La designación de magistrados suplentes para aliviar la enorme carga del trabajo del Tribunal.", "correct": false },
+        { "text": "Que varíe el número de miembros de las salas (hasta 8) para que las decisiones se asemejen, en legalidad y legitimidad, a las tomadas por el Pleno.", "correct": false }
+      ],
+      "explanation": "ES: La reforma de 2007 (LO 6/2007) reordenó el amparo y, en particular, reforzó filtros de admisión y la distribución de trabajo, permitiendo que órganos internos como las secciones asuman más tareas para agilizar la tramitación (especialmente en admisión/inadmisión). Por eso la B es correcta. La A no describe la finalidad central de la reforma (no fue “dar más funciones al Pleno” como eje). La C es falsa: no se instauró un sistema de magistrados suplentes. La D es incorrecta: no se previó ampliar salas “hasta 8” miembros con esa finalidad.\nIT: La riforma del 2007 (LO 6/2007) ha inciso soprattutto sul ricorso di amparo, introducendo filtri di ammissibilità e redistribuendo il carico per velocizzare: per questo è corretta la B (più lavoro alle sezioni). A non coglie il focus. C è sbagliata (nessun sistema di supplenti). D è errata (non risulta una variazione a 8 membri delle sale con quella logica).",
+      "legal_reference": "LO 6/2007, de reforma de la LOTC (reordenación del amparo y del trámite de admisión); LOTC tras reforma (funciones de secciones/salas en admisión y tramitación).",
+      "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNATO 17 12 25.docx"
+    },
+    {
+      "question": "Las tres novedades de mayor trascendencia que incorpora la modificación a la Ley Orgánica de Tribunal Constitucional aprobada en 2007 son",
+      "answers": [
+        { "text": "La habilitación de las secciones para la resolución de los recursos de amparo, la reforma del trámite de cuestión interna de constitu-cionalidad prevista en el artículo 55.2 de la Ley Orgánica 2/1979 de 3 de octubre y la nueva configuración del trámite de admisión del recurso de amparo - correcto.", "correct": true },
+        { "text": "La habilitación de las salas para la resolución de un número mayor de asuntos, la reforma del trámite de cuestión interna de constitu-cionalidad prevista en el artículo 55.2 de la Ley Orgánica 2/1979 de 3 de octubre y la nueva configuración del trámite de admisión del recurso de amparo.", "correct": false },
+        { "text": "La habilitación de las secciones y las salas para la resolución de los recursos de amparo, la reforma del trámite de cuestión interna de constitucionalidad prevista en el articulo 55.2 de la Ley Orgánica 2/1979 de 3 de octubre y la nueva configuración del trámite de admisión del recurso de amparo.", "correct": false },
+        { "text": "La reforma del trámite de cuestión interna de constitucionalidad prevista en el artículo 240 de la Ley Orgánica del Poder Judicial 2/1979, la nueva configuración del trámite de admisión del recurso de amparo y la reorganización de los órganos de trabajo del Tribunal.", "correct": false }
+      ],
+      "explanation": "ES: La reforma de 2007 se asocia doctrinalmente a tres ejes: (1) refuerzo del papel de las secciones en materia de amparo (para descargar y agilizar), (2) reforma de la cuestión interna de inconstitucionalidad del art. 55.2 LOTC y (3) nueva configuración del trámite de admisión del amparo (incluyendo el filtro de especial trascendencia constitucional). Eso es lo que recoge la A, por lo que es correcta. La B desplaza el foco a las salas (no es el elemento distintivo central). La C mezcla secciones y salas, pero como opción cerrada no reproduce la formulación típica de “tres novedades” tal como se estudia y puede inducir a error. La D es claramente falsa: remite a un “art. 240” de la LOPJ (no es la base de la cuestión interna de constitucionalidad de la LOTC) y mezcla normas.\nIT: La riforma 2007 è tipicamente riassunta in tre innovazioni: potenziamento delle sezioni nell’amparo, modifica della questione interna ex art. 55.2 LOTC e nuovo filtro/assetto di ammissione dell’amparo (speciale rilevanza costituzionale). La A riflette questi tre elementi: quindi corretta. B sposta l’accento sulle sale; C è formulazione meno corretta come risposta unica; D è errata perché richiama un articolo della LOPJ (240) fuori contesto e confonde piani normativi.",
+      "legal_reference": "LO 6/2007 (reforma LOTC); LOTC art. 55.2 (cuestión interna de inconstitucionalidad) y art. 50 (admisión del amparo tras reforma).",
+      "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNATO 17 12 25.docx"
+    },
+    {
+      "question": "Respecto a la defensa de los derechos de los ciudadanos",
+      "answers": [
+        { "text": "Los órganos judiciales ordinarios son quienes reparan, en última instancia, las vulneraciones de los derechos fundamentales que puedan producirse, especialmente a través del proceso de la aplicación del artículo 241.1 LOPJ.", "correct": false },
+        { "text": "El único órgano competente para conocer de la defensa de los derechos y libertades de los ciudadanos contenidos en la Constitución es el Tribunal Constitucional.", "correct": false },
+        { "text": "El Tribunal Constitucional se ocupara de la protección en amparo de los derechos y libertades de los ciudadanos contenidos en la Constitución, cuando las vías ordinarias de protección hayan resultado insatisfactorias - correcto.", "correct": true },
+        { "text": "Afirmamos que existe un sistema de jurisdicción constitucional abstracta.", "correct": false }
+      ],
+      "explanation": "ES: La protección de derechos es principalmente ordinaria: primero se acude a la jurisdicción ordinaria (procedimientos y recursos), y solo de manera subsidiaria y extraordinaria cabe el amparo ante el TC cuando las vías ordinarias han resultado insuficientes y se cumplen requisitos de admisión. Por eso la C es correcta. La A es incorrecta porque presenta a la jurisdicción ordinaria como “última instancia” absoluta y focaliza en el art. 241.1 LOPJ (incidente de nulidad) como si fuera el mecanismo principal o final universal; existe la vía de amparo en supuestos constitucionales. La B es falsa porque el TC no es el único órgano de defensa: los tribunales ordinarios tutelan derechos a diario. La D es errónea: el sistema español combina control abstracto (recurso) y control concreto (cuestión) y además amparo; reducirlo a una afirmación genérica “jurisdicción abstracta” no describe correctamente la defensa de derechos.\nIT: La tutela dei diritti avviene prima davanti ai giudici ordinari; l’amparo è sussidiario e straordinario e interviene quando le vie ordinarie sono state esaurite/insoddisfacenti e ricorrono i requisiti. Quindi corretta la C. A è scorretta perché presenta l’ordinario come ultima istanza assoluta e sopravvaluta l’art. 241.1 LOPJ. B è falsa perché la tutela non è monopolio del TC. D è errata perché il sistema non è solo ‘astratto’: esistono ricorso astratto, questione concreta e amparo.",
+      "legal_reference": "CE art. 53.2 (tutela ante tribunales ordinarios y amparo); LOTC (subsidiariedad del amparo); LOPJ art. 241.1 (incidente de nulidad) como vía previa en ciertos casos.",
+      "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNATO 17 12 25.docx"
+    },
+    {
+      "question": "El requisito de especial trascendencia constitucional",
+      "answers": [
+        { "text": "Supone la inclusión como requisito de admisión de la demanda de amparo un razonamiento que justifique el interés constitucional más allá de la mera denuncia de la violación del derecho - correcto.", "correct": true },
+        { "text": "Es un requisito subsanable.", "correct": false },
+        { "text": "Supone que el demandante ha tenido que probar que se ha vulnerado un derecho fundamental reconocido como tal en la Constitución, por un poder público", "correct": false },
+        { "text": "Ninguna de las anteriores es correcta", "correct": false }
+      ],
+      "explanation": "ES: Tras la reforma de 2007, el amparo exige no solo alegar una lesión, sino justificar en la demanda por qué el caso tiene especial trascendencia constitucional (interés para la interpretación/aplicación general de la Constitución o para la doctrina del TC). Esa carga argumental de admisión es lo que describe la A, por eso es correcta. La B es incorrecta: no se trata de un simple defecto formal subsanable a voluntad; su ausencia suele conducir a inadmisión porque afecta al filtro material del amparo. La C confunde el requisito: probar la lesión es parte del fondo, pero la especial trascendencia es un plus de interés constitucional objetivo. La D es falsa porque la A sí es correcta.\nIT: Dopo la riforma 2007, l’amparo richiede che il ricorrente motivi la ‘speciale rilevanza costituzionale’ del caso, oltre alla mera denuncia della violazione: questo è esattamente quanto dice la A, quindi corretta. B è errata perché non è un vizio meramente sanabile: è un filtro sostanziale di ammissibilità. C confonde: dimostrare la lesione riguarda il merito, mentre la speciale trascendenza è un requisito aggiuntivo di interesse costituzionale oggettivo. D è falsa perché A è corretta.",
+      "legal_reference": "LOTC art. 50.1 (especial trascendencia constitucional como requisito de admisión del amparo) tras LO 6/2007; doctrina del TC (criterios de especial trascendencia).",
+      "original_file": "D.CONSTITUCIONAL III 2° PARCIAL AGGIORNATO 17 12 25.docx"
     }
   ]
 }
