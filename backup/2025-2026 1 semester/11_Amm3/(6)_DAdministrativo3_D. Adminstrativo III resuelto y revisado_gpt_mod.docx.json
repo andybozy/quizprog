@@ -1,7 +1,204 @@
 {
   "file_number": 0,
-  "file_name": "D. Adminstrativo III resuelto y revisado_gpt_mod.docx",
+  "file_name": "D. Adminstrativo III 1° Parcial AGGIORNATO16 12 25.docx",
+  "total_questions_unique": 12,
+  "total_questions_in_message_including_duplicates": 24,
   "questions": [
+    {
+      "source_number": 1,
+      "question": "El principio de reserva de Ley para regular el marco jurídico de los funcionarios públicos (su Estatuto) alcanza a:",
+      "answers": [
+        { "text": "La oferta de empleo público", "correct": false },
+        { "text": "Clasificación en cuerpos y escalas", "correct": false },
+        { "text": "Las retribuciones básicas", "correct": false },
+        { "text": "Las retribuciones básicas y complementarias", "correct": true }
+      ],
+      "explanation": "ES: La reserva de ley en materia de función pública implica que los elementos esenciales del «estatuto» funcionarial deben establecerse por norma con rango de ley (no por simple reglamento), garantizando control parlamentario y seguridad jurídica. Dentro de ese núcleo estatutario se integra el régimen retributivo, que el TREBEP articula precisamente distinguiendo retribuciones básicas y retribuciones complementarias (y remitiendo su concreción a los instrumentos legales y presupuestarios aplicables).\n- La oferta de empleo público: es una pieza de planificación y gestión de recursos humanos (se regula legalmente), pero no es la opción que mejor refleja el contenido típico de la reserva de ley del estatuto funcionarial en esta pregunta.\n- Clasificación en cuerpos y escalas: es materia estatutaria (clasificación profesional), pero la opción se queda corta frente a la pregunta, que apunta al alcance del estatuto en términos retributivos completos.\n- Las retribuciones básicas: es correcto que las básicas son estatutarias, pero la reserva de ley alcanza también a las complementarias en cuanto parte del régimen retributivo.\n- Las retribuciones básicas y complementarias: es la opción más completa y por ello la correcta.\nIT: La riserva di legge in materia di funzione pubblica comporta che gli elementi essenziali dello «statuto» dei funzionari siano disciplinati da fonte primaria (legge), non solo da regolamenti, a tutela di legalità, certezza e controllo democratico. In tale statuto rientra anche il trattamento economico: il TREBEP distingue infatti tra retribuzioni “básicas” e “complementarias”, entrambe riconducibili al regime statutario.\n- Offerta di impiego pubblico: è strumento di programmazione/gestione, ma qui non è l’indicatore tipico dell’estensione della riserva di legge sullo statuto.\n- Classificazione in corpi e scale: è materia statutaria, ma non esaurisce il punto della domanda.\n- Retribuzioni “básicas”: vero in parte, ma manca la componente complementare.\n- Retribuzioni “básicas y complementarias”: è l’opzione completa e quindi corretta.",
+      "legal_reference": "CE art. 103.3; CE art. 149.1.18; RDL 5/2015 (TREBEP) arts. 21-24 (régimen retributivo).",
+      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO16 12 25.docx"
+    },
+    {
+      "source_number": 2,
+      "question": "¿Cuál de las siguientes normas constituye el Texto Refundido del Estatuto Básico del Empleado Público actualmente vigente?",
+      "answers": [
+        { "text": "Ley 30/84, de medidas para la reforma de la Función Pública.", "correct": false },
+        { "text": "Ley 53/84, de Incompatibilidades.", "correct": false },
+        { "text": "Real Decreto Legislativo 5/2015, de 30 de octubre.", "correct": true },
+        { "text": "Real Decreto-Ley 6/2023, de 19 de diciembre.", "correct": false }
+      ],
+      "explanation": "ES: El Texto Refundido del Estatuto Básico del Empleado Público (TREBEP) vigente es el aprobado por el Real Decreto Legislativo 5/2015, de 30 de octubre, que integra y sistematiza la normativa estatutaria básica del empleo público.\n- Ley 30/84: fue una norma histórica de reforma de la función pública, pero no es el TREBEP vigente.\n- Ley 53/84: regula el régimen de incompatibilidades, no el estatuto básico completo.\n- Real Decreto Legislativo 5/2015, de 30 de octubre: es exactamente la norma que aprueba el texto refundido del EBEP, por lo que es la correcta.\n- Real Decreto-Ley 6/2023: es un RDL de reforma/medidas diversas, no el texto refundido del EBEP.\nIT: Il TREBEP vigente è quello approvato con il Real Decreto Legislativo 5/2015, che costituisce il testo refundido dell’Estatuto Básico del Empleado Público.\n- Ley 30/84: riforma storica, ma non è il testo refundido attuale.\n- Ley 53/84: disciplina le incompatibilità, non l’intero statuto.\n- RDL 5/2015: è il testo refundido vigente (corretto).\n- RDL 6/2023: decreto-legge con misure varie, non il TREBEP.",
+      "legal_reference": "Real Decreto Legislativo 5/2015, de 30 de octubre (TREBEP).",
+      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO16 12 25.docx"
+    },
+    {
+      "source_number": 3,
+      "question": "¿A quién corresponde la competencia para regular los aspectos básicos del Estatuto de los Empleados Públicos?",
+      "answers": [
+        { "text": "A las Comunidades Autónomas respecto de sus propios empleados públicos, en virtud del art. 148.1.23 de la Constitución Española", "correct": false },
+        { "text": "A los Ayuntamientos respecto de sus propios empleados públicos, en virtud del art. 140 de la Constitución Española", "correct": false },
+        { "text": "Al Estado, en virtud del artículo 149.1.18 de la Constitución Española", "correct": true },
+        { "text": "Todas las respuestas son correctas", "correct": false }
+      ],
+      "explanation": "ES: La Constitución atribuye al Estado la competencia para fijar las “bases” del régimen jurídico de las Administraciones Públicas y del régimen estatutario de sus funcionarios (art. 149.1.18 CE). Ello significa que el legislador estatal determina el núcleo básico y común, mientras que las Comunidades Autónomas pueden desarrollar y ejecutar en su ámbito, respetando esas bases.\n- Comunidades Autónomas (art. 148.1.23): las CCAA pueden asumir competencias en diversas materias, pero la fijación de los aspectos “básicos” del estatuto funcionarial se ancla en el art. 149.1.18 CE.\n- Ayuntamientos (art. 140 CE): reconoce autonomía local, pero no les atribuye potestad legislativa para regular “bases” estatutarias.\n- Estado (art. 149.1.18 CE): correcto, porque la competencia sobre bases corresponde al Estado.\n- Todas las respuestas: incorrecto, porque no todas las Administraciones tienen la competencia constitucional sobre “bases”.\nIT: La competenza a dettare gli aspetti “básicos” (di base, comuni) dello statuto del pubblico impiego spetta allo Stato ex art. 149.1.18 CE. Le CCAA possono poi sviluppare/attuare nel rispetto delle basi statali.\n- CCAA (art. 148.1.23): non è il titolo corretto per le basi del regime statutario.\n- Comuni (art. 140): autonomia locale sì, ma non potestà legislativa di base.\n- Stato (art. 149.1.18): corretto.\n- Tutte: errato.",
+      "legal_reference": "CE art. 149.1.18.",
+      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO16 12 25.docx"
+    },
+    {
+      "source_number": 4,
+      "question": "Señale la respuesta correcta respecto del personal directivo:",
+      "answers": [
+        { "text": "Estará sujeto a evaluación con arreglo a los criterios de eficacia y eficiencia", "correct": false },
+        { "text": "Estará sujeto a responsabilidad por su gestión", "correct": false },
+        { "text": "Estará sujeto a control de resultados en relación con los objetivos que les hayan sido fijados.", "correct": false },
+        { "text": "Todas las respuestas son correctas", "correct": true }
+      ],
+      "explanation": "ES: El TREBEP regula el personal directivo profesional y establece un régimen de desempeño orientado a resultados: evaluación por eficacia/eficiencia, responsabilidad por la gestión y control de resultados conforme a objetivos.\n- Evaluación por eficacia y eficiencia: es una exigencia expresamente prevista para el personal directivo.\n- Responsabilidad por su gestión: también es una consecuencia del carácter directivo y del modelo de dirección pública profesional.\n- Control de resultados respecto a objetivos fijados: forma parte del enfoque de “dirección por objetivos” que justifica la evaluación.\n- Todas las respuestas son correctas: es la opción correcta porque las tres afirmaciones anteriores son compatibles y están alineadas con el régimen del TREBEP.\nIT: Il TREBEP prevede che il personale direttivo sia sottoposto a logiche di performance: valutazione (efficacia/efficienza), responsabilità di gestione e controllo dei risultati in relazione agli obiettivi.\n- Valutazione: sì.\n- Responsabilità: sì.\n- Controllo dei risultati: sì.\n- Quindi “tutte le risposte”: corretto.",
+      "legal_reference": "RDL 5/2015 (TREBEP) art. 13 (personal directivo, evaluación/responsabilidad/resultados).",
+      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO16 12 25.docx"
+    },
+    {
+      "source_number": 5,
+      "question": "Señale la respuesta correcta:",
+      "answers": [
+        {
+          "text": "Los funcionarios tendrán derecho a un período de excedencia de duración no superior a tres años, para atender al cuidado de un familiar que se encuentre a su cargo, hasta el segundo grado inclusive de consanguinidad o afinidad que por razones de edad, accidente, enfermedad o discapacidad no pueda valerse por sí mismo y no desempeñe actividad retribuida",
+          "correct": true
+        },
+        {
+          "text": "Los funcionarios tendrán derecho a un período de excedencia de duración no superior a cinco años, para atender al cuidado de un familiar que se encuentre a su cargo, hasta el segundo grado inclusive de consanguinidad que por razones de edad, accidente, enfermedad o discapacidad no pueda valerse por sí mismo y no desempeñe actividad retribuida.",
+          "correct": false
+        },
+        {
+          "text": "Los funcionarios tendrán derecho a un período de excedencia de duración no superior a tres años, para atender al cuidado de un familiar que se encuentre a su cargo, hasta el tercer grado inclusive de consanguinidad o afinidad que por razones de edad, accidente, enfermedad o discapacidad no pueda valerse por sí mismo y no desempeñe actividad retribuida.",
+          "correct": false
+        },
+        {
+          "text": "Los funcionarios tendrán derecho a un período de excedencia de duración no superior a cinco años, para atender al cuidado de un familiar que se encuentre a su cargo, hasta el tercer grado inclusive de consanguinidad o afinidad que por razones de edad, accidente, enfermedad o discapacidad no pueda valerse por sí mismo y no desempeñe actividad retribuida.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La excedencia por cuidado de familiares en el TREBEP reconoce un derecho a un período máximo de tres años para atender al cuidado de un familiar a cargo hasta el segundo grado inclusive, tanto por consanguinidad como por afinidad, siempre que no pueda valerse por sí mismo y no desempeñe actividad retribuida.\n- Opción sobre tres años y hasta segundo grado (consanguinidad o afinidad): reproduce los requisitos esenciales (plazo, grado de parentesco y condiciones del familiar), por eso es correcta.\n- Cinco años y solo consanguinidad: incorrecta, porque el TREBEP fija el máximo en tres años y además incluye afinidad.\n- Tres años pero hasta tercer grado: incorrecta, porque el límite de parentesco es hasta segundo grado.\n- Cinco años y hasta tercer grado: doblemente incorrecta por exceder el plazo y el grado.\nIT: L’excedenza per cura di familiari nel TREBEP è limitata a un massimo di tre anni e a familiari fino al secondo grado incluso (consanguineità o affinità), con requisiti sostanziali (non autosufficienza e assenza di attività retribuita).\n- Tre anni + secondo grado (consanguinità/affinità): corretto.\n- Cinque anni: errato.\n- Terzo grado: errato.\n- Cinque anni + terzo grado: errato.",
+      "legal_reference": "RDL 5/2015 (TREBEP) art. 89 (excedencia por cuidado de familiares).",
+      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO16 12 25.docx"
+    },
+    {
+      "source_number": 7,
+      "question": "La Comisión Nacional de los Mercados y la Competencia (CNMC) tiene naturaleza jurídica de:",
+      "answers": [
+        { "text": "Organismo autónomo", "correct": false },
+        { "text": "Agencia Estatal", "correct": false },
+        { "text": "Entidad pública empresarial", "correct": false },
+        { "text": "Autoridad Administrativa independiente", "correct": true }
+      ],
+      "explanation": "ES: La CNMC es un regulador/supervisor con independencia funcional respecto del Gobierno, rasgo característico de las autoridades administrativas independientes (AAI) del sector público institucional. La Ley 3/2013 la dota de autonomía orgánica y funcional y plena independencia; la Ley 40/2015 define la categoría de AAI para entidades con funciones de regulación o supervisión externa.\n- Organismo autónomo: se caracteriza por dependencia jerárquica más intensa y por funciones típicamente administrativas ordinarias; no es el encaje propio de un regulador independiente.\n- Agencia Estatal: es una figura específica de organización administrativa con contrato de gestión y control de eficacia; no es la categoría en que se encuadra la CNMC.\n- Entidad pública empresarial: combina potestades con actividad prestacional susceptible de contraprestación; la CNMC no se configura como prestador empresarial, sino como regulador/supervisor.\n- Autoridad Administrativa independiente: correcto por su función regulatoria/supervisora y la exigencia de independencia.\nIT: La CNMC opera come regolatore/supervisore indipendente: autonomia funzionale, separazione da interessi governativi/di mercato e finalità di regolazione. Questo corrisponde alla categoria delle Autorità Amministrative Indipendenti.\n- Organismo autonomo / Agenzia statale / Ente pubblico imprenditoriale: categorie diverse (maggiore dipendenza o natura prestazionale/“impresa”).\n- Autorità amministrativa indipendente: corretto.",
+      "legal_reference": "Ley 3/2013 (CNMC) art. 2 (autonomía e independencia); Ley 40/2015 art. 109 (definición de AAI).",
+      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNADO16 12 25.docx"
+    },
+    {
+      "source_number": 8,
+      "question": "La resolución de la administración por la que se declare la inexactitud, falsedad u omisión, de carácter esencial, de cualquier dato o información que se incorpore a una declaración responsable o a una comunicación:",
+      "answers": [
+        {
+          "text": "Determinará la imposibilidad de continuar con el ejercicio del derecho o actividad afectada desde el momento en que se tenga constancia de tales hechos",
+          "correct": false
+        },
+        {
+          "text": "Impondrá una sanción económica proporcional al interés público afectado",
+          "correct": false
+        },
+        {
+          "text": "Podrá determinar la obligación del interesado de restituir la situación jurídica al momento previo al reconocimiento o al ejercicio del derecho o al inicio de la actividad",
+          "correct": false
+        },
+        {
+          "text": "Las respuestas a y c son correctas",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La Ley 39/2015 establece un régimen claro para declaraciones responsables y comunicaciones: si se aprecia inexactitud/falsedad/omisión esencial, la consecuencia es la imposibilidad de continuar con el derecho/actividad desde que se tenga constancia, y además la Administración puede imponer la restitución al estado anterior (y otras consecuencias procedimentales), sin perjuicio de responsabilidades.\n- Imposibilidad de continuar: es consecuencia legal directa (no depende de discrecionalidad), por eso la afirmación es correcta.\n- Sanción económica proporcional: puede existir si lo prevé la normativa sectorial/sancionadora, pero no es una consecuencia automática e inevitable “por el mero hecho” de la declaración; por eso la opción, tal como está formulada (“impondrá”), es incorrecta.\n- Restitución a la situación previa: la ley prevé que la resolución que declare esas circunstancias “podrá” determinar la obligación de restituir, por tanto es correcta.\n- Las respuestas a y c son correctas: es la opción correcta porque integra las dos consecuencias que sí están previstas en la Ley 39/2015.\nIT: La Ley 39/2015 (art. 69) prevede che, in caso di falsità/inesattezza/omissione essenziale, si determini l’impossibilità di proseguire l’attività o esercitare il diritto dal momento in cui l’Amministrazione ne abbia conoscenza; inoltre la decisione può imporre il ripristino della situazione giuridica precedente.\n- “Impossibilità di continuare”: corretto.\n- “Sanzione economica”: non è automatica (“impondrá”); può esserci solo se prevista dalla disciplina settoriale/sanzionatoria.\n- “Restituire la situazione”: corretto perché espressamente previsto come possibilità.\n- Quindi “a e c”: corretto.",
+      "legal_reference": "Ley 39/2015, art. 69.4 (efectos de inexactitud/falsedad/omisión esencial: imposibilidad y posible restitución).",
+      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO16 12 25.docx"
+    },
+    {
+      "source_number": 12,
+      "question": "¿A quién se puede ceder gratuitamente la propiedad de bienes públicos?",
+      "answers": [
+        { "text": "Comunidades Autónomas", "correct": true },
+        { "text": "Estados Extranjeros por cuestiones de cooperación", "correct": false },
+        { "text": "Organizaciones Internacionales en operaciones de Mantenimiento de la Paz", "correct": false },
+        { "text": "Asociaciones de interés público.", "correct": false }
+      ],
+      "explanation": "ES: La cesión gratuita de bienes y derechos patrimoniales del Estado se admite, pero con destinatarios tasados y con finalidad de utilidad pública o interés social. Entre los cesionarios posibles se encuentran expresamente las Comunidades Autónomas.\n- Comunidades Autónomas: correcto, porque la Ley 33/2003 admite la cesión gratuita a CCAA (entre otros sujetos tasados) cuando concurre finalidad de utilidad pública/interés social.\n- Estados Extranjeros: la LPAP no los incluye como cesionarios “tipo” en la cesión gratuita patrimonial del art. 145; podrían existir mecanismos distintos (convenios, derecho internacional, autorizaciones de uso), pero no es lo que pregunta.\n- Organizaciones Internacionales: la LPAP contempla supuestos de autorizaciones especiales de uso en ciertos casos, pero no configura aquí una cesión gratuita de propiedad como regla general.\n- Asociaciones de interés público: la LPAP admite “asociaciones declaradas de utilidad pública” (concepto técnico), pero la opción está formulada de manera más amplia e imprecisa (“interés público”) y no coincide con el requisito legal estricto; por eso se considera incorrecta en esta pregunta.\nIT: La cessione gratuita di beni patrimoniali pubblici è possibile solo nei casi previsti e verso soggetti determinati (elenco tassativo) e per finalità di utilità pubblica/interesse sociale. Tra i destinatari rientrano le Comunità Autonome.\n- Comunità Autonome: corretto.\n- Stati esteri / Organizzazioni internazionali: non sono destinatari tipici della “cesión gratuita” ex art. 145 LPAP (possono esistere altri strumenti, ma non qui).\n- Associazioni “di interesse pubblico”: formulazione troppo generica; la legge richiede, tecnicamente, associazioni “declaradas de utilidad pública”.",
+      "legal_reference": "Ley 33/2003 (LPAP) art. 145.1 (cesión gratuita: CCAA y otros cesionarios tasados).",
+      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO16 12 25.docx"
+    },
+    {
+      "source_number": 13,
+      "question": "El uso privativo:",
+      "answers": [
+        { "text": "Es generalmente gratuito", "correct": false },
+        { "text": "Generalmente lleva una tasa o contraprestación", "correct": true },
+        { "text": "Siempre es gratuito", "correct": false },
+        { "text": "Siempre lleva una tasa o contraprestación", "correct": false }
+      ],
+      "explanation": "ES: El uso privativo del dominio público implica ocupación exclusiva o excluyente de una porción del bien demanial. Precisamente por esa ocupación y por la utilidad económica potencial, el régimen ordinario es que exista un régimen económico (tasa/canon o contraprestación), aunque el propio derecho admite excepciones de gratuidad en supuestos justificados.\n- Generalmente gratuito: incorrecto, porque la regla práctica y la lógica jurídica del dominio público es exigir contraprestación cuando hay ocupación privativa.\n- Generalmente lleva una tasa o contraprestación: correcto. La LPAP prevé que las concesiones de uso privativo pueden estar sujetas a la tasa por utilización privativa/aprovechamiento especial o fijarse contraprestación/condiciones.\n- Siempre es gratuito: incorrecto, contradice el régimen económico típico.\n- Siempre lleva tasa o contraprestación: incorrecto porque la ley admite concesiones gratuitas en determinados casos (no es un “siempre”).\nIT: L’uso privativo del demanio comporta l’occupazione di una porzione del bene con esclusione/limitazione degli altri. Di regola ciò comporta un regime economico (tassa/canone o corrispettivo), pur essendo astrattamente possibile la gratuità in casi eccezionali.\n- Generalmente gratuito: falso.\n- Generalmente con tassa/corrispettivo: vero.\n- Sempre gratuito: falso.\n- Sempre con tassa/corrispettivo: falso perché esistono eccezioni di gratuità previste dalla normativa.",
+      "legal_reference": "Ley 33/2003 (LPAP) art. 85.3 (uso privativo); art. 93.4 (régimen económico: tasa/contraprestación o gratuidad en su caso).",
+      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO16 12 25.docx"
+    },
+    {
+      "source_number": 18,
+      "question": "Los planes y proyectos de interés general de ordenación agraria, urbana, industrial y de aprovechamientos energéticos o de ordenación del territorio en tanto afecten sustancialmente a la planificación hidrológica o a los usos del agua están sometidas a informe preceptivo de:",
+      "answers": [
+        { "text": "Consejo Nacional del Agua", "correct": true },
+        { "text": "Organismos de cuenca", "correct": false },
+        { "text": "Comunidades de usuarios", "correct": false },
+        { "text": "Comunidades autónomas", "correct": false }
+      ],
+      "explanation": "ES: En materia de aguas, el Texto Refundido de la Ley de Aguas establece materias sujetas a informe preceptivo del Consejo Nacional del Agua. Entre ellas se incluyen expresamente los planes y proyectos de interés general (agrarios, urbanísticos, industriales, energéticos u ordenación del territorio) cuando afecten sustancialmente a la planificación hidrológica o a los usos del agua.\n- Consejo Nacional del Agua: correcto, porque es el órgano consultivo superior y la ley le atribuye el informe preceptivo en este supuesto.\n- Organismos de cuenca: pueden intervenir en planificación y gestión de cuenca, pero la pregunta se refiere al informe preceptivo que la norma atribuye al Consejo Nacional.\n- Comunidades de usuarios: son entidades de usuarios para gestión/participación, pero no el órgano legalmente llamado a ese informe preceptivo.\n- Comunidades autónomas: pueden tener competencias (especialmente en cuencas intracomunitarias y ordenación territorial), pero el informe preceptivo indicado por la ley estatal es del Consejo Nacional del Agua.\nIT: La disciplina delle acque prevede un parere obbligatorio (informe preceptivo) del Consejo Nacional del Agua su determinati piani/progetti di interesse generale che incidono sulla pianificazione idrologica o sugli usi dell’acqua.\n- Consejo Nacional del Agua: corretto.\n- Organismi di bacino / comunità di utenti / CCAA: possono avere ruoli rilevanti, ma non sono il soggetto cui la norma attribuisce quel parere preceptivo in questo caso.",
+      "legal_reference": "Real Decreto Legislativo 1/2001 (TRLA) art. 20.1.d.",
+      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO16 12 25.docx"
+    },
+    {
+      "source_number": 19,
+      "question": "Señale la respuesta correcta:",
+      "answers": [
+        {
+          "text": "El modelo económico diseñado por la Constitución Española reconoce la libertad de empresa en el marco de la economía de mercado. De manera adicional impone a los poderes públicos la obligación de garantizar y proteger su ejercicio y defender la productividad, de acuerdo con las exigencias de la economía general y, en su caso, de la planificación",
+          "correct": true
+        },
+        {
+          "text": "El modelo económico diseñado por la Constitución Española reconoce y limita la libertad de empresa imponiendo a los poderes públicos la obligación de garantizar la planificación.",
+          "correct": false
+        },
+        {
+          "text": "El modelo económico diseñado por la Constitución Española condiciona la libertad de empresa al marco de la planificación económica general del Estado y en su caso de las Autonomías. De manera adicional impone a los poderes públicos la obligación de garantizar y proteger su ejercicio y defender la productividad, de acuerdo con las exigencias de la economía general y, en su caso, de la planificación.",
+          "correct": false
+        },
+        {
+          "text": "El modelo económico diseñado por la Constitución Española reconoce la libertad de empresa en el marco de la economía de mercado sin admitir la planificación pública de la actividad económica.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El artículo 38 CE define el núcleo del modelo económico constitucional: libertad de empresa en economía de mercado, con un mandato a los poderes públicos de garantía/protección y defensa de la productividad, “de acuerdo con las exigencias de la economía general y, en su caso, de la planificación”.\n- Opción que reproduce art. 38 CE: correcta, porque encaja literalmente con el precepto y su equilibrio (mercado + intervención pública condicionada).\n- “Obligación de garantizar la planificación”: incorrecto, porque la Constitución no impone planificación como regla necesaria; la admite “en su caso” y con límites.\n- “Condiciona la libertad de empresa al marco de la planificación”: incorrecto porque invierte la lógica constitucional; la libertad se reconoce como regla en economía de mercado, y la planificación aparece como eventual técnica de intervención.\n- “Sin admitir la planificación pública”: incorrecto, porque la Constitución contempla la planificación (art. 38 CE y también art. 131 CE).\nIT: L’art. 38 CE riconosce la libertà d’impresa nell’economia di mercato, ma impone ai pubblici poteri un dovere di garanzia/protezione e consente interventi secondo le esigenze dell’economia generale e, se del caso, della pianificazione.\n- Opzione che riproduce l’art. 38: corretta.\n- Obbligo di pianificazione: errato.\n- Libertà subordinata alla pianificazione: errato (capovolge il rapporto).\n- Esclusione della pianificazione: errato perché la Costituzione la ammette.",
+      "legal_reference": "CE art. 38 (libertad de empresa); CE art. 131 (planificación).",
+      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO16 12 25.docx"
+    },
+    {
+      "source_number": 20,
+      "question": "¿Puede presentarse válidamente una comunicación previa con posterioridad al inicio de la actividad?",
+      "answers": [
+        { "text": "En ningún caso. La comunicación ha de ser siempre previa como su nombre indica.", "correct": false },
+        {
+          "text": "Cabe dentro de un plazo posterior al inicio de la actividad cuando la legislación correspondiente lo prevea expresamente",
+          "correct": true
+        },
+        { "text": "Puede presentarse hasta el día inmediatamente posterior al inicio de la actividad.", "correct": false },
+        { "text": "Puede presentarse hasta 10 días hábiles posteriores a contar del inicio de la actividad.", "correct": false }
+      ],
+      "explanation": "ES: La Ley 39/2015 establece como regla general que la comunicación (y la declaración responsable) habilitan desde el día de su presentación; pero añade expresamente una excepción: la comunicación puede presentarse dentro de un plazo posterior al inicio de la actividad cuando la legislación sectorial lo prevea.\n- “En ningún caso”: incorrecto, porque la propia Ley 39/2015 admite la posibilidad de presentación posterior si una norma sectorial lo permite.\n- “Cabe dentro de un plazo posterior… si la legislación lo prevé”: correcto, porque coincide con la previsión expresa del art. 69.\n- “Hasta el día inmediatamente posterior”: incorrecto, fija un plazo concreto que no está en la regla general.\n- “Hasta 10 días hábiles”: incorrecto por la misma razón; los plazos dependen de la legislación sectorial, no de una cifra general en la Ley 39/2015.\nIT: La regola è che la comunicazione produce effetti dalla presentazione; tuttavia l’art. 69 consente espressamente che la comunicazione sia presentata dopo l’inizio se la normativa settoriale lo prevede.\n- Mai: errato.\n- Possibile se previsto espressamente: corretto.\n- 1 giorno / 10 giorni: errati perché introducono termini non generali e non previsti come regola comune.",
+      "legal_reference": "Ley 39/2015, art. 69.3 (párrafo 2) y art. 69.4.",
+      "original_file": "D. Adminstrativo III 1° Parcial AGGIORNATO16 12 25.docx"
+    },
     {
       "question": "El desarrollo de la ley de costas se realiza por",
       "answers": [
