@@ -274,14 +274,284 @@
         }
       ],
       "explanation": "ES: La regla general es la audiencia previa del demandado (art. 733 LEC). Excepcionalmente, por urgencia o riesgo para el buen fin, el tribunal puede acordar la medida sin oírlo, pero entonces el demandado podrá ser oído después mediante oposición (arts. 733 y ss.). Por eso es correcta C: siempre existe audiencia, antes o después según el caso. A es incorrecta porque invierte la regla general. B es incorrecta porque confunde rebeldía con cautelares antes de demanda. D es incorrecta porque, aunque la caución es un presupuesto cautelar, no opera como fórmula rígida de “admisión a trámite” en los términos en que se expresa.\nIT: La regola è l’audiencia previa del convenuto (art. 733 LEC). Solo eccezionalmente, per urgenza o per non compromettere la misura, può adottarsi inaudita parte, ma con successiva possibilità di opposizione e di essere sentito (artt. 733 ss.). Perciò è corretta C: l’audizione c’è, prima o dopo. A è errata perché capovolge la regola; B perché confonde la rebeldía; D perché la cauzione è presupposto, ma non nei termini assoluti indicati.",
-      "legal_reference": "LEC art. 733; LEC arts. 734–735"
-    }
-  ]
-},
-{
-  "file_number": 0,
-  "file_name": "AGGIORNATO A TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 29 10 25.docx",
-  "questions": [
+      "legal_reference": "LEC art. 733; LEC arts. 734–735",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 16 12 25.docx"
+    },
+    {
+      "question_number": 12,
+      "question": "En el trámite de las medidas cautelares:",
+      "answers": [
+        {
+          "text": "Siempre se celebra vista.",
+          "correct": false
+        },
+        {
+          "text": "Se celebra vista sólo por decisión del tribunal.",
+          "correct": false
+        },
+        {
+          "text": "Puede ocurrir que no se celebre vista.",
+          "correct": true
+        },
+        {
+          "text": "La vista es por escrito, dada la urgencia.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La vista cautelar se celebra cuando procede audiencia previa o cuando hay oposición a una medida adoptada sin audiencia. Sin embargo, puede ocurrir que no haya vista (por ejemplo, si la medida se acordó inaudita parte y no se formula oposición, o si el trámite se resuelve sin necesidad de vista conforme al cauce legal). Por ello es correcta C. A es falsa porque no siempre hay vista. B es falsa porque la celebración de vista responde al esquema legal del trámite, no a una mera decisión discrecional. D es falsa: la vista es un acto oral, no “por escrito”.\nIT: L’udienza (vista) cautelare si tiene quando vi è audizione o opposizione alla misura adottata senza audizione. Può però accadere che non si celebri (ad es. assenza di opposizione). Quindi è corretta C. A è errata perché non è sempre prevista; B è errata perché non dipende solo da scelta discrezionale; D è errata perché la vista è orale, non scritta.",
+      "legal_reference": "LEC arts. 733–735",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 16 12 25.docx"
+    },
+    {
+      "question_number": 13,
+      "question": "Los juicios en los que está limitada la cognición y las posibilidades alegatorias de las partes, careciendo la sentencia de la eficacia de cosa juzgada material:",
+      "answers": [
+        {
+          "text": "Son los llamados declarativos especiales.",
+          "correct": false
+        },
+        {
+          "text": "Son los llamados sumarísimos.",
+          "correct": false
+        },
+        {
+          "text": "Son los llamados plenarios con especialidades.",
+          "correct": false
+        },
+        {
+          "text": "Son los llamados sumarios.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La nota definitoria de los juicios sumarios es la limitación de la cognición (y, en su caso, de alegaciones/prueba) y la ausencia de cosa juzgada material plena (art. 447.2 LEC). Por ello es correcta D. B no es la categoría técnica empleada por la LEC para esta caracterización. C es incorrecta porque un plenario (aunque tenga especialidades) produce cosa juzgada material. A es imprecisa y no identifica el rasgo esencial que pregunta el enunciado.\nIT: I giudizi sommari si caratterizzano per cognizione limitata e per l’assenza di pieno giudicato materiale (art. 447.2 LEC). Quindi è corretta D. B non è la qualificazione tecnica pertinente. C è errata perché i plenari (anche con specialità) producono giudicato materiale. A è generica e non coglie il criterio richiesto.",
+      "legal_reference": "LEC art. 447.2",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 16 12 25.docx"
+    },
+    {
+      "question_number": 14,
+      "question": "En el proceso de desahucio:",
+      "answers": [
+        {
+          "text": "Pueden acumularse la acción de desahucio y la acción de reclamación de rentas o cantidades debidas por el arrendatario, pero sólo si el desahucio se basa en la falta de pago de éstas.",
+          "correct": false
+        },
+        {
+          "text": "Pueden acumularse la acción de desahucio y la acción de reclamación de rentas o cantidades debidas, pero sólo si el desahucio se basa en la expiración del plazo del arrendamiento.",
+          "correct": false
+        },
+        {
+          "text": "Pueden acumularse la acción de desahucio por falta de pago o por expiración del plazo del arrendamiento y la acción de reclamación de rentas.",
+          "correct": true
+        },
+        {
+          "text": "Pueden acumularse la acción de desahucio por falta de pago y la acción de desahucio por expiración del plazo del arrendamiento.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: En juicio verbal de desahucio se permite acumular la acción de desahucio (por impago o por expiración) con la reclamación de rentas o cantidades debidas (art. 437.4.3ª LEC, con el régimen de acumulación del art. 438). Por eso es correcta C. A y B son erróneas por restrictivas: la acumulación se admite en ambos fundamentos del desahucio. D es errónea porque no es acumulable plantear simultáneamente dos acciones de desahucio con causas distintas (impago y expiración) en el mismo procedimiento.\nIT: Nel giudizio verbale di sfratto è ammesso cumulare l’azione di desahucio (per morosità o per scadenza) con la domanda di canoni/quantità dovute (art. 437.4.3ª e art. 438 LEC). Quindi è corretta C. A e B sono errate perché troppo limitative. D è errata perché non si cumulano due azioni di sfratto per cause diverse nello stesso processo.",
+      "legal_reference": "LEC art. 437.4.3ª; LEC art. 438.3; LEC art. 250.1.1º",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 16 12 25.docx"
+    },
+    {
+      "question_number": 15,
+      "question": "La enervación del desahucio:",
+      "answers": [
+        {
+          "text": "No procede si el arrendatario apercibió fehacientemente al arrendador de la improcedencia del desahucio antes de la iniciación de éste.",
+          "correct": false
+        },
+        {
+          "text": "No procede si el arrendatario enervó en otra ocasión anterior frente al mismo arrendador, aunque lo fuera por arrendamiento de inmueble distinto al que es objeto de la enervación.",
+          "correct": false
+        },
+        {
+          "text": "No procede cuando el arrendatario no ha enervado anteriormente el desahucio, pero ha sido requerido de pago por el arrendador con treinta días de antelación a la fecha de presentación de la demanda y el pago no ha tenido lugar a la fecha de dicha presentación.",
+          "correct": true
+        },
+        {
+          "text": "Procede si el arrendador ha requerido de pago al arrendatario y éste le ha pagado antes de interpuesto el desahucio pero una vez transcurridos más de treinta días desde el requerimiento.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La enervación no es posible cuando el arrendador ha requerido de pago por medio fehaciente con al menos 30 días de antelación a la demanda y el arrendatario no ha pagado antes de su presentación (art. 22.4 LEC). Eso es exactamente lo que recoge C, por lo que es correcta. A no corresponde a ningún supuesto legal de exclusión. B no formula correctamente la regla legal (la exclusión se vincula a haber enervado antes y a la excepción prevista, no a la referencia “mismo arrendador/otro inmueble” como criterio autónomo). D es incorrecta porque si el arrendatario paga antes de interponerse la demanda, en principio desaparece el presupuesto del desahucio por impago.\nIT: L’enervación è esclusa se il locatore ha intimato il pagamento con mezzo certo almeno 30 giorni prima della domanda e il conduttore non ha pagato entro la presentazione (art. 22.4 LEC). È quindi corretta C. A non è prevista. B non riproduce correttamente il criterio legale. D è errata perché il pagamento prima della domanda elimina, di regola, il presupposto dello sfratto per morosità.",
+      "legal_reference": "LEC art. 22.4; LEC art. 440.3",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 16 12 25.docx"
+    },
+    {
+      "question_number": 16,
+      "question": "Señale la afirmación correcta:",
+      "answers": [
+        {
+          "text": "El ius possidendi es el derecho a seguir poseyendo, y se tutela mediante las acciones petitorias.",
+          "correct": false
+        },
+        {
+          "text": "El ius possessionis es el derecho a seguir poseyendo, y se tutela mediante las acciones posesorias.",
+          "correct": true
+        },
+        {
+          "text": "El ius possidendi se tutela mediante las acciones posesorias.",
+          "correct": false
+        },
+        {
+          "text": "Cabe defender la perturbación o el despojo de la posesión a través de acciones de jactancia, como por ejemplo la publiciana.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El ius possessionis es el derecho a mantener la posesión de hecho (seguir poseyendo) y se tutela por acciones posesorias o interdictos (juicio verbal posesorio). El ius possidendi es el derecho definitivo a poseer y se tutela por acciones petitorias (vía declarativa). Por ello es correcta B. A invierte los conceptos. C atribuye a acciones posesorias la tutela del derecho definitivo, lo que es incorrecto. D es errónea: la publiciana es una acción de carácter petitorio y la jactancia no es el cauce típico para la tutela sumaria posesoria.\nIT: Lo ius possessionis è il diritto a continuare a possedere di fatto ed è protetto dalle azioni possessorie/interdictos. Lo ius possidendi è il diritto definitivo a possedere ed è tutelato con azioni petitorie. Perciò è corretta B. A e C confondono/invertono i concetti. D è errata perché la “publiciana” è azione petitoria e non lo strumento tipico della tutela possessoria sommaria.",
+      "legal_reference": "LEC art. 250.1.4º; CC arts. 430 ss.",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 16 12 25.docx"
+    },
+    {
+      "question_number": 17,
+      "question": "La demanda de juicio verbal para la tutela sumaria de la posesión:",
+      "answers": [
+        {
+          "text": "Debe interponerse en el plazo máximo de 5 años contado desde el acto de perturbación o despojo.",
+          "correct": false
+        },
+        {
+          "text": "Debe interponerse en el plazo máximo de dos años contado desde el acto de perturbación o despojo.",
+          "correct": false
+        },
+        {
+          "text": "Tiende a hacer patente la llamada posesión civilísima.",
+          "correct": false
+        },
+        {
+          "text": "Debe interponerse no habiendo transcurrido más de un año desde la perturbación o despojo, plazo que es de caducidad y no susceptible de interrupción.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La tutela sumaria de la posesión (retener/recobrar) está sujeta a un plazo de caducidad de un año desde la perturbación o el despojo: transcurrido ese plazo, no se admite la demanda (art. 439.1 LEC). Por ello es correcta D. A y B fijan plazos inexistentes. C no corresponde a este tipo de demanda: la posesión civilísima se relaciona con el interdicto de adquirir por herencia (art. 250.1.3º LEC y art. 440 CC), no con retener/recobrar.\nIT: La tutela possessoria sommaria (retener/recobrar) ha un termine di decadenza di un anno dalla turbativa o dallo spoglio (art. 439.1 LEC). Quindi è corretta D. A e B indicano termini non previsti. C riguarda la “posesión civilísima” dell’interdicto de adquirir (successione), non questa azione.",
+      "legal_reference": "LEC art. 439.1; LEC art. 250.1.4º",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 16 12 25.docx"
+    },
+    {
+      "question_number": 18,
+      "question": "Fuera de los casos de indivisión, si surgiera contienda sobre el hecho de la posesión:",
+      "answers": [
+        {
+          "text": "Será preferido en primer lugar el poseedor anterior, no el actual.",
+          "correct": false
+        },
+        {
+          "text": "Será preferido en primer lugar el poseedor con título.",
+          "correct": false
+        },
+        {
+          "text": "Será preferido en primer lugar el poseedor actual, no el anterior.",
+          "correct": true
+        },
+        {
+          "text": "Se procede en primer lugar a constituir la cosa en depósito o guarda judicial, mientras se decide sobre su posesión o propiedad por los trámites correspondientes.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El art. 445 CC establece el criterio: en caso de contienda sobre el hecho de la posesión, se prefiere al poseedor actual; si resultan dos poseedores, al más antiguo; si las fechas son iguales, al que presente título; y solo si todo es igual, se constituye depósito judicial. Por ello es correcta C. A y B contradicen el orden legal (no se prefiere primero al anterior ni al que tenga título). D describe una medida subsidiaria, no la primera regla.\nIT: L’art. 445 c.c. spagnolo (CC) stabilisce che, in caso di contesa sul possesso, si preferisce il possessore attuale; poi il più antico; poi chi presenta titolo; e solo se tutto è pari si dispone il deposito giudiziale. Quindi è corretta C. A e B sono errate; D è solo eventuale e non prioritaria.",
+      "legal_reference": "CC art. 445",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 16 12 25.docx"
+    },
+    {
+      "question_number": 19,
+      "question": "En el proceso de defensa de los derechos inscritos en el Registro de la Propiedad:",
+      "answers": [
+        {
+          "text": "Las medidas solicitadas para asegurar la eficacia de la sentencia que recaiga deben ser solicitadas en la vista, no antes, para que el demandante adquiera previamente conocimiento de las alegaciones de la parte demandada y no sufra indefensión.",
+          "correct": false
+        },
+        {
+          "text": "El demandante debe prestar caución al interponer la demanda, como requisito de admisión de ésta.",
+          "correct": false
+        },
+        {
+          "text": "El tribunal sólo puede adoptar las medidas que se soliciten si el demandante presta caución tras la decisión adoptada al respecto en la vista.",
+          "correct": false
+        },
+        {
+          "text": "El demandado debe prestar caución en la cuantía que el tribunal determine, y en caso contrario se dictará sentencia acordando las actuaciones que, para la efectividad del derecho inscrito, hubiere solicitado el actor.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: En la acción sumaria de efectividad de derechos reales inscritos (art. 250.1.7º LEC y art. 41 LH), el demandado que contesta debe prestar caución en la cuantía que el tribunal determine (dentro de la solicitada) y, si no la presta, se dictará sentencia acordando lo pedido por el actor para la efectividad del derecho inscrito (art. 438.4 LEC). Por eso es correcta D. A es errónea porque las medidas para asegurar la eficacia deben hacerse constar en la demanda; su omisión puede causar inadmisión (art. 439.2 LEC). B es errónea porque la caución relevante es la del demandado para oponerse, no la del demandante. C es errónea por el mismo motivo y porque confunde el régimen de cauciones.\nIT: Nel processo sommario di tutela dei diritti reali iscritti (art. 250.1.7º LEC; art. 41 LH), se il convenuto contesta deve prestare cauzione nella misura fissata dal giudice e, se non la presta, si decide a favore dell’attore con le misure richieste per l’effettività del diritto (art. 438.4 LEC). Quindi è corretta D. A è errata perché le misure di garanzia vanno indicate già nella domanda (art. 439.2). B e C sono errate perché la cauzione è a carico del convenuto che si oppone, non dell’attore.",
+      "legal_reference": "LEC arts. 250.1.7º, 438.4, 439.2; LH art. 41",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 16 12 25.docx"
+    },
+    {
+      "question_number": 20,
+      "question": "El proceso de defensa de los derechos inscritos en el Registro de la Propiedad:",
+      "answers": [
+        {
+          "text": "Es plenario.",
+          "correct": false
+        },
+        {
+          "text": "Es sumario.",
+          "correct": true
+        },
+        {
+          "text": "Se tramita por las normas del juicio ordinario, con especialidades.",
+          "correct": false
+        },
+        {
+          "text": "Protege la propiedad, no otros derechos reales.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Se trata de un juicio verbal de naturaleza sumaria: la oposición está limitada a causas tasadas y la sentencia carece de cosa juzgada material (art. 447.3 LEC), en línea con el art. 41 LH y el art. 250.1.7º LEC. Por ello es correcta B. A es errónea porque no es plenario. C es errónea porque el cauce es el juicio verbal, no el ordinario. D es errónea porque protege derechos reales inscritos en general (dominio y otros derechos reales), no solo la propiedad.\nIT: È un procedimento sommario: opposizione tipizzata e assenza di giudicato materiale (art. 447.3 LEC), collegato all’art. 41 LH e all’art. 250.1.7º LEC. Quindi è corretta B. A è errata (non è plenario); C è errata (rito verbale, non ordinario); D è errata perché tutela anche altri diritti reali iscritti, non solo la proprietà.",
+      "legal_reference": "LH arts. 38, 41; LEC arts. 250.1.7º, 447.3",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 16 12 25.docx"
+    },
+    {
+      "question_number": 21,
+      "question": "Puede pedir la rescisión de la sentencia firme:",
+      "answers": [
+        {
+          "text": "El demandante que haya permanecido en rebeldía, en caso de imposibilidad objetiva de comparecer.",
+          "correct": false
+        },
+        {
+          "text": "El demandado que haya permanecido en rebeldía, si el demandante es condenado por falso testimonio.",
+          "correct": false
+        },
+        {
+          "text": "El demandado que haya permanecido en rebeldía por causa de fuerza mayor que le impidió comparecer, aunque haya tenido conocimiento del pleito por haber sido citado o emplazado en forma.",
+          "correct": true
+        },
+        {
+          "text": "Los litisconsortes entre sí, en el caso de interposición por alguno de ellos, y no por todos, de recurso contra la sentencia recaída.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La rescisión de sentencia firme por rebeldía solo puede pedirla el demandado rebelde y en los supuestos tasados del art. 501 LEC. Entre ellos está la fuerza mayor ininterrumpida que impidió comparecer en todo momento, incluso aunque el rebelde hubiera tenido conocimiento del pleito por citación o emplazamiento en forma (art. 501.1). Por eso es correcta C. A es errónea porque no se refiere al demandado rebelde. B confunde con motivos de revisión de sentencias firmes (art. 510 LEC). D es errónea: el litisconsorcio y la falta de recurso de alguno no habilitan esta vía.\nIT: La rescissione della sentenza definitiva per contumacia (rebeldía) è azionabile dal convenuto contumace nei casi tipizzati dell’art. 501 LEC. Tra questi vi è la forza maggiore ininterrotta che ha impedito la comparizione anche se vi è stata conoscenza del processo per regolare notificazione (art. 501.1). Quindi è corretta C. A è errata (soggetto sbagliato), B riguarda motivi di revisione (art. 510), D non è un presupposto della rescissione.",
+      "legal_reference": "LEC art. 501.1; LEC art. 501–503",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 16 12 25.docx"
+    },
+    {
+      "question_number": 22,
+      "question": "Las demandas de rescisión de sentencia firme:",
+      "answers": [
+        {
+          "text": "Producen la paralización del trámite de la fase declarativa del proceso en que recayó la sentencia firme.",
+          "correct": false
+        },
+        {
+          "text": "No pueden ser contestadas por quien ya litigó en el proceso en el que la sentencia fue dictada.",
+          "correct": false
+        },
+        {
+          "text": "No suspenden la ejecución de la sentencia firme que las motiva, salvo que lo decida el tribunal en atención a las circunstancias y previa prestación de caución.",
+          "correct": true
+        },
+        {
+          "text": "Se tramitan inaudita parte, sin perjuicio de la audiencia de las partes una vez acordada la rescisión de la sentencia.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La demanda de rescisión no suspende por sí sola la ejecución de la sentencia firme; solo cabe suspensión si el tribunal la acuerda atendiendo a las circunstancias y previa caución (art. 504.1 LEC, en relación con el art. 566 LEC). Por ello es correcta C. A es errónea porque no “paraliza” una fase declarativa ya concluida con sentencia firme. B es errónea porque el contradictor (quien litigó en el pleito originario) puede contestar la demanda en el procedimiento ordinario de rescisión. D es errónea porque la rescisión se sustancia con audiencia y contradicción; no se tramita como un procedimiento puramente inaudita parte.\nIT: La domanda di rescissione non sospende automaticamente l’esecuzione; la sospensione è possibile solo se il giudice la dispone, valutate le circostanze e con cauzione (art. 504.1 LEC e art. 566 LEC). Quindi è corretta C. A è errata (non blocca una fase dichiarativa già definita). B è errata perché la controparte può costituirsi e contestare. D è errata perché il procedimento di rescissione è contraddittorio e non meramente “inaudita parte”.",
+      "legal_reference": "LEC art. 504.1; LEC art. 566",
+      "original_file": "TEST D. PROCESAL II 1° PARCIAL AGGIORNATO 16 12 25.docx"
+    },
     {
       "question": "Contra el auto que acuerda medidas cautelares:",
       "answers": [
