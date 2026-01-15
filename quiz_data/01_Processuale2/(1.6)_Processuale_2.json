@@ -639,10 +639,10 @@
     {
       "question": "EN EL JUICIO DE DESAHUCIO ARRENDATICIO DE FINCA URBANA O RUSTICA POR FALTA DE PAGO:",
       "answers": [
-        { "text": "PUEDE ACUMULARSE A LA DE DESAHUCIO LA ACCIÓN DE RECLAMACIÓN DE RENTAS, PERO SOLO LAS DEVENGADAS HASTA LA PRESENTACIÓN DE LA DEMANDA.", "correct": false },
+        { "text": "PUEDE ACUMULARSE A LA DE DESAHUCIO LA ACCIÓN DE RECLAMACIÓN DE RENTAS, PERO SOLO LAS DEVENGADAS HASTA LA PRESENTACIÓN DE LA DEMANDA.", "correct": true },
         { "text": "PUEDE EJERCITARSE ACCIÓN DE REPARACIÓN DE LOS DESPERFECTOS DE PINTURA, PAREDES O TECHOS DE LA VIVIENDA, SOLICITANDO AL TIEMPO QUE EL LAJ DE FE DEL ESTADO DEL INMUEBLE", "correct": false },
         { "text": "NO PUEDE SOLICITARSE EL LANZAMIENTO DE UNA FINCA NO EDIFICADA SALVO QUE SE PRESTE CAUCIÓN Y SE REALICE INVENTARIO DE MEJORAS E INSTALACIONES.", "correct": false },
-        { "text": "DEBE HACERSE CONSTAR EN LA DEMANDA SI EL DEMANDADO PUEDE ENERVAR EL DESAHUCIO", "correct": true }
+        { "text": "DEBE HACERSE CONSTAR EN LA DEMANDA SI EL DEMANDADO PUEDE ENERVAR EL DESAHUCIO", "correct": false }
       ],
       "explanation": "IT: A) Errata: la pretesa può includere anche canoni futuri fino alla riconsegna (art. 220 LEC). B) Errata: le riparazioni non rientrano tipicamente nello schema speciale del desahucio per morosità. C) Errata: non vige il divieto generale descritto. D) Corretta: va avvertita l’eventuale enervación nella domanda. \nES: A) Incorrecta. B) Incorrecta. C) Incorrecta. D) Correcta: debe constar la posibilidad de enervación en la demanda.\nRiferimenti/Referencias: • File: LEC — Art.: 437.3 bis, 440.3–4, 220 — Palabras clave: “enervación”, “advertencia”, “condena de futuro”. • File: LAU — Art.: 22 — Palabras clave: “enervación”.",
       "legal_reference": "LEC art. 437.3 bis; LAU art. 22",
