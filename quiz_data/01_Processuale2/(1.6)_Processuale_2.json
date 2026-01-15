@@ -6,22 +6,10 @@
       "question_number": 1,
       "question": "En caso de ser varios los recurrentes:",
       "answers": [
-        {
-          "text": "El desistimiento de uno de ellos determina que se tenga por abandonada la pretensión por todos, para evitar la incongruencia.",
-          "correct": false
-        },
-        {
-          "text": "El desistimiento de la mayoría de ellos determina que se tenga por abandonada la pretensión de todos.",
-          "correct": false
-        },
-        {
-          "text": "El desistimiento de uno de ellos determina que se tenga por abandonada su pretensión, sin producir efectos con respecto a los demás.",
-          "correct": true
-        },
-        {
-          "text": "El desistimiento de uno de ellos no es admisible, salvo que cuente con la autorización de los demás.",
-          "correct": false
-        }
+        {"text": "El desistimiento de uno de ellos determina que se tenga por abandonada la pretensión por todos, para evitar la incongruencia.", "correct": false},
+        {"text": "El desistimiento de la mayoría de ellos determina que se tenga por abandonada la pretensión de todos.", "correct": false},
+        {"text": "El desistimiento de uno de ellos determina que se tenga por abandonada su pretensión, sin producir efectos con respecto a los demás.", "correct": true},
+        {"text": "El desistimiento de uno de ellos no es admisible, salvo que cuente con la autorización de los demás.", "correct": false}
       ],
       "explanation": "ES: El desistimiento del recurso se rige por el art. 450 LEC. Si hay varios recurrentes, el art. 450.2 establece que el desistimiento de alguno produce el abandono únicamente de su pretensión impugnatoria, continuando la tramitación respecto de los demás. Por eso es correcta la opción que limita los efectos al recurrente desistente. Son erróneas A y B porque extienden indebidamente el desistimiento a quienes no han desistido, y la D porque la LEC no exige autorización de los demás recurrentes para que uno desista.\nIT: La rinuncia (desistimiento) all’impugnazione è regolata dall’art. 450 LEC. Se i ricorrenti sono più di uno, l’art. 450.2 prevede che la rinuncia di uno incida solo sulla sua impugnazione, mentre il procedimento prosegue per gli altri. Per questo è corretta l’opzione che limita gli effetti al solo desistente. Le opzioni A e B sono errate perché estendono la rinuncia anche agli altri; la D è errata perché non è richiesta alcuna autorizzazione degli altri ricorrenti.",
       "legal_reference": "LEC art. 450.2",
@@ -31,22 +19,10 @@
       "question_number": 2,
       "question": "Es posible:",
       "answers": [
-        {
-          "text": "Interponer un recurso contra una resolución cuyo fallo es totalmente favorable al recurrente, pero que se basa en fundamentos jurídicos distintos de los invocados por él.",
-          "correct": false
-        },
-        {
-          "text": "Interponer un recurso contra una resolución cuyos fundamentos de derecho coinciden con los invocados por el recurrente, pero que interpreta esos fundamentos de otra manera y falla contra lo solicitado por él.",
-          "correct": true
-        },
-        {
-          "text": "Interponer un recurso para que se mantenga íntegramente la resolución recurrida pero se indemnice el gravamen derivado de ella.",
-          "correct": false
-        },
-        {
-          "text": "Interponer un recurso contra una resolución a reserva de acreditar el gravamen sufrido, debiendo prestar caución.",
-          "correct": false
-        }
+        {"text": "Interponer un recurso contra una resolución cuyo fallo es totalmente favorable al recurrente, pero que se basa en fundamentos jurídicos distintos de los invocados por él.", "correct": false},
+        {"text": "Interponer un recurso contra una resolución cuyos fundamentos de derecho coinciden con los invocados por el recurrente, pero que interpreta esos fundamentos de otra manera y falla contra lo solicitado por él.", "correct": true},
+        {"text": "Interponer un recurso para que se mantenga íntegramente la resolución recurrida pero se indemnice el gravamen derivado de ella.", "correct": false},
+        {"text": "Interponer un recurso contra una resolución a reserva de acreditar el gravamen sufrido, debiendo prestar caución.", "correct": false}
       ],
       "explanation": "ES: Para que un recurso sea admisible debe existir gravamen o perjuicio derivado del fallo (parte dispositiva), no de la fundamentación (art. 448 LEC). Por eso es posible recurrir cuando, aun coincidiendo los fundamentos jurídicos invocados, el tribunal los interpreta de forma distinta y falla contra lo pedido (hay perjuicio: B). No es posible recurrir si el fallo es totalmente favorable aunque la motivación sea distinta (A), porque falta gravamen. C es incorrecta porque el recurso pretende modificar el fallo, no “mantenerlo íntegro” y añadir una indemnización por vía impugnatoria. D es incorrecta porque el gravamen no puede quedar “reservado” a acreditación posterior ni condicionado a caución como requisito general.\nIT: Per proporre un’impugnazione serve un gravamen (pregiudizio) derivante dal dispositivo, non dalla motivazione (art. 448 LEC). È quindi possibile impugnare quando, pur richiamando gli stessi fondamenti, il giudice li interpreta diversamente e decide contro quanto richiesto (B). Non si può impugnare se il dispositivo è totalmente favorevole anche se la motivazione è diversa (A), perché manca il pregiudizio. C è errata perché l’impugnazione mira a modificare la decisione, non a mantenerla e aggiungere un’indennità. D è errata perché il gravamen deve sussistere al momento dell’impugnazione e non è, di regola, subordinato a cauzione.",
       "legal_reference": "LEC art. 448",
@@ -56,22 +32,10 @@
       "question_number": 3,
       "question": "El recurso de reposición:",
       "answers": [
-        {
-          "text": "Es ordinario y devolutivo.",
-          "correct": false
-        },
-        {
-          "text": "Es extraordinario y no devolutivo.",
-          "correct": false
-        },
-        {
-          "text": "Cabe, entre otras resoluciones, contra decretos no definitivos.",
-          "correct": true
-        },
-        {
-          "text": "No cabe contra resoluciones del LAJ.",
-          "correct": false
-        }
+        {"text": "Es ordinario y devolutivo.", "correct": false},
+        {"text": "Es extraordinario y no devolutivo.", "correct": false},
+        {"text": "Cabe, entre otras resoluciones, contra decretos no definitivos.", "correct": true},
+        {"text": "No cabe contra resoluciones del LAJ.", "correct": false}
       ],
       "explanation": "ES: La reposición es un recurso ordinario y no devolutivo: lo resuelve el mismo órgano que dictó la resolución. Procede, entre otras, contra diligencias de ordenación y decretos no definitivos del LAJ (art. 451.1 LEC) y contra providencias y autos no definitivos del tribunal (art. 451.2 LEC). Por eso es correcta C. A es errónea porque la reposición no es devolutiva. B es errónea porque no es extraordinaria. D es errónea porque sí cabe contra resoluciones del LAJ dentro del ámbito del art. 451.1.\nIT: La reposizione è un rimedio ordinario e non devolutivo (decide lo stesso organo). È ammessa contro diligencias de ordenación e decreti non definitivi del LAJ (art. 451.1 LEC) e contro providencias e autos non definitivi del tribunale (art. 451.2 LEC). Quindi è corretta la C. La A è errata perché non è devolutiva; la B perché non è straordinaria; la D perché la reposición può riguardare anche provvedimenti del LAJ nei casi previsti.",
       "legal_reference": "LEC art. 451.1–451.2",
@@ -81,22 +45,10 @@
       "question_number": 4,
       "question": "En el recurso de revisión:",
       "answers": [
-        {
-          "text": "Decide el Tribunal o el LAJ, dependiendo de que la resolución recurrida haya sido dictada por uno u otro.",
-          "correct": false
-        },
-        {
-          "text": "Decide siempre el LAJ.",
-          "correct": false
-        },
-        {
-          "text": "Decide el tribunal mediante decreto.",
-          "correct": false
-        },
-        {
-          "text": "Decide el tribunal mediante auto.",
-          "correct": true
-        }
+        {"text": "Decide el Tribunal o el LAJ, dependiendo de que la resolución recurrida haya sido dictada por uno u otro.", "correct": false},
+        {"text": "Decide siempre el LAJ.", "correct": false},
+        {"text": "Decide el tribunal mediante decreto.", "correct": false},
+        {"text": "Decide el tribunal mediante auto.", "correct": true}
       ],
       "explanation": "ES: El recurso de revisión (art. 454 bis LEC) se dirige contra determinados decretos del LAJ, pero lo resuelve el tribunal, y la forma de la resolución es el auto (art. 454 bis.2). Por ello es correcta D. A y B son erróneas porque el decisor no es el LAJ. C es errónea porque el tribunal no resuelve por decreto, sino por auto.\nIT: Il recurso de revisión (art. 454 bis LEC) è proposto contro taluni decreti del LAJ, ma viene deciso dal tribunale mediante auto (art. 454 bis.2). Pertanto è corretta la D. A e B sono errate perché non decide il LAJ; C è errata perché la forma non è il decreto, bensì l’auto.",
       "legal_reference": "LEC art. 454 bis.2",
@@ -106,22 +58,10 @@
       "question_number": 5,
       "question": "Son susceptibles de recurso de apelación:",
       "answers": [
-        {
-          "text": "Todas las sentencias.",
-          "correct": false
-        },
-        {
-          "text": "Los autos definitivos.",
-          "correct": true
-        },
-        {
-          "text": "Los autos y las sentencias dictadas en todos los juicios verbales de cuantía inferior a 3.000 euros.",
-          "correct": false
-        },
-        {
-          "text": "Las diligencias de ordenación que la ley señale expresamente, además de los autos y las sentencias.",
-          "correct": false
-        }
+        {"text": "Todas las sentencias.", "correct": false},
+        {"text": "Los autos definitivos.", "correct": true},
+        {"text": "Los autos y las sentencias dictadas en todos los juicios verbales de cuantía inferior a 3.000 euros.", "correct": false},
+        {"text": "Las diligencias de ordenación que la ley señale expresamente, además de los autos y las sentencias.", "correct": false}
       ],
       "explanation": "ES: La apelación procede contra autos definitivos y, en general, contra sentencias, con la excepción de las dictadas en juicios verbales por razón de la cuantía cuando ésta no supere 3.000 euros (art. 455.1 LEC). Por ello son apelables los autos definitivos (B). A es errónea por la excepción legal. C es errónea porque precisamente excluye las sentencias de verbales por cuantía ≤ 3.000 euros. D es errónea porque las diligencias de ordenación (LAJ) se impugnan mediante reposición/revisión, no mediante apelación.\nIT: L’appello è ammesso contro gli autos definitivi e, in via generale, contro le sentenze, salvo l’eccezione dei giudizi verbali per valore non superiore a 3.000 € (art. 455.1 LEC). Quindi è corretta la B. A è errata per l’eccezione; C è errata perché include proprio ciò che la legge esclude; D è errata perché le diligencias de ordenación si impugnano con reposición/revisión, non con appello.",
       "legal_reference": "LEC art. 455.1",
@@ -131,22 +71,10 @@
       "question_number": 6,
       "question": "Señale la afirmación correcta:",
       "answers": [
-        {
-          "text": "Las sentencias de condena no son susceptibles de ejecución.",
-          "correct": false
-        },
-        {
-          "text": "Las sentencias constitutivas pueden ejecutarse cuando satisfacen por sí solas el interés del ejecutante.",
-          "correct": true
-        },
-        {
-          "text": "Las sentencias meramente declarativas no son susceptibles de ejecución.",
-          "correct": false
-        },
-        {
-          "text": "Las sentencias de condena son susceptibles de ejecución previo consentimiento del ejecutado otorgado en el plazo de veinte días desde su firmeza.",
-          "correct": false
-        }
+        {"text": "Las sentencias de condena no son susceptibles de ejecución.", "correct": false},
+        {"text": "Las sentencias constitutivas pueden ejecutarse cuando satisfacen por sí solas el interés del ejecutante.", "correct": true},
+        {"text": "Las sentencias meramente declarativas no son susceptibles de ejecución.", "correct": false},
+        {"text": "Las sentencias de condena son susceptibles de ejecución previo consentimiento del ejecutado otorgado en el plazo de veinte días desde su firmeza.", "correct": false}
       ],
       "explanation": "ES: La ejecución forzosa se orienta a obtener el cumplimiento del fallo cuando contiene un pronunciamiento de condena (título típico: sentencia de condena firme, art. 517.2.1 LEC). Las sentencias constitutivas, en cambio, producen por sí mismas el cambio jurídico pretendido: la tutela se satisface con el propio pronunciamiento, sin necesidad de actos coactivos de ejecución. En ese sentido —cumplimiento por sí sola/sin necesidad de proceso ejecutivo para satisfacer el interés— la opción B es la correcta. A es errónea porque las sentencias de condena sí son ejecutables. D es errónea porque la ejecutabilidad no depende del consentimiento del ejecutado. C, aunque apunta a la idea de que lo declarativo no requiere cumplimiento coactivo, es demasiado categórica y no recoge el rasgo diferencial que el enunciado pretende resaltar respecto de las constitutivas.\nIT: L’esecuzione forzata mira a dare attuazione a un dispositivo di condanna (titolo tipico: sentenza di condanna passata in giudicato, art. 517.2.1 LEC). Le sentenze costitutive, invece, realizzano di per sé la modificazione giuridica: l’interesse dell’attore è soddisfatto dal solo pronunciamento, senza necessità di coercizione esecutiva. In questo senso è corretta la B. A è errata perché le condanne sono eseguibili; D è errata perché non serve il consenso dell’esecutato. C è formulata in modo assoluto e non coglie la specificità che l’enunciato intende evidenziare sulle costitutive.",
       "legal_reference": "LEC art. 517.2.1; LEC art. 521.1",
@@ -156,22 +84,10 @@
       "question_number": 7,
       "question": "Los acuerdos de mediación:",
       "answers": [
-        {
-          "text": "Tienen aparejada ejecución, pero sólo si han sido elevados a escritura pública de acuerdo con la Ley de Mediación.",
-          "correct": true
-        },
-        {
-          "text": "Tienen aparejada ejecución si constan por escrito firmado por todos los implicados en el conflicto resuelto.",
-          "correct": false
-        },
-        {
-          "text": "Tienen aparejada ejecución sólo en dos casos: si constan en escritura pública o en documento privado basado en la Ley de Mediación en asuntos civiles y mercantiles.",
-          "correct": false
-        },
-        {
-          "text": "Para tener aparejada ejecución deben referirse a cantidades dinerarias.",
-          "correct": false
-        }
+        {"text": "Tienen aparejada ejecución, pero sólo si han sido elevados a escritura pública de acuerdo con la Ley de Mediación.", "correct": true},
+        {"text": "Tienen aparejada ejecución si constan por escrito firmado por todos los implicados en el conflicto resuelto.", "correct": false},
+        {"text": "Tienen aparejada ejecución sólo en dos casos: si constan en escritura pública o en documento privado basado en la Ley de Mediación en asuntos civiles y mercantiles.", "correct": false},
+        {"text": "Para tener aparejada ejecución deben referirse a cantidades dinerarias.", "correct": false}
       ],
       "explanation": "ES: Los acuerdos de mediación solo tienen fuerza ejecutiva si han sido elevados a escritura pública conforme a la Ley de mediación, de modo que queden integrados como título con aparejada ejecución (art. 517.2.2 LEC). Por ello es correcta A. B es errónea: el simple documento privado firmado no basta. C es errónea porque introduce un supuesto de documento privado que no cumple la exigencia de elevación a público como título ejecutivo. D es errónea: la ejecutividad no se limita a obligaciones dinerarias, sino a lo pactado ejecutable según el título.\nIT: Gli accordi di mediazione hanno efficacia esecutiva solo se elevati a escritura pública secondo la disciplina della mediazione (art. 517.2.2 LEC). Quindi è corretta A. B è errata perché il mero documento privato firmato non è titolo esecutivo. C è errata perché il documento privato non sostituisce l’atto pubblico richiesto. D è errata perché l’esecutività non è limitata alle sole obbligazioni pecuniarie.",
       "legal_reference": "LEC art. 517.2.2; Ley 5/2012, de mediación en asuntos civiles y mercantiles",
@@ -181,22 +97,10 @@
       "question_number": 8,
       "question": "En el proceso de ejecución:",
       "answers": [
-        {
-          "text": "El tribunal no puede revisar nunca su competencia territorial, salvo que lo haya resuelto una audiencia preliminar.",
-          "correct": false
-        },
-        {
-          "text": "El tribunal puede examinar de oficio su competencia territorial en cualquier momento.",
-          "correct": false
-        },
-        {
-          "text": "El tribunal debe revisar de oficio su competencia territorial antes de despachar ejecución.",
-          "correct": true
-        },
-        {
-          "text": "El tribunal, si no despacha ejecución, se considera incompetente por ministerio de la ley.",
-          "correct": false
-        }
+        {"text": "El tribunal no puede revisar nunca su competencia territorial, salvo que lo haya resuelto una audiencia preliminar.", "correct": false},
+        {"text": "El tribunal puede examinar de oficio su competencia territorial en cualquier momento.", "correct": false},
+        {"text": "El tribunal debe revisar de oficio su competencia territorial antes de despachar ejecución.", "correct": true},
+        {"text": "El tribunal, si no despacha ejecución, se considera incompetente por ministerio de la ley.", "correct": false}
       ],
       "explanation": "ES: Antes de despachar ejecución, el tribunal debe examinar de oficio su competencia territorial y, si no es competente, abstenerse mediante auto indicando el tribunal competente (arts. 546 y 545 LEC). Por ello es correcta C. A es errónea porque el control de oficio sí existe antes del despacho. B es errónea porque, una vez despachada ejecución, el tribunal no puede revisar de oficio su competencia territorial (el control pasa a la declinatoria del ejecutado en plazo). D es errónea porque la incompetencia no opera “por ministerio de la ley” sin resolución: el tribunal debe pronunciarse formalmente.\nIT: Prima del despacho de ejecución il giudice deve verificare d’ufficio la competenza territoriale e, se manca, deve astenersi con auto indicando il giudice competente (artt. 546 e 545 LEC). Per questo è corretta C. A è errata perché il controllo d’ufficio esiste. B è errata perché dopo il despacho non può più riesaminare d’ufficio (resta la declinatoria dell’esecutato). D è errata perché l’incompetenza richiede un provvedimento formale, non scatta automaticamente.",
       "legal_reference": "LEC arts. 545–547; LEC art. 546",
@@ -206,22 +110,10 @@
       "question_number": 9,
       "question": "La demanda ejecutiva:",
       "answers": [
-        {
-          "text": "Debe expresar, sin acompañarlo en ningún caso, el título en que se funda el ejecutante.",
-          "correct": false
-        },
-        {
-          "text": "Debe referirse al título ejecutivo y a los demás documentos que en los que se base el ejecutante, que deberán aportarse con la demanda de ejecución, si ésta se acuerda.",
-          "correct": false
-        },
-        {
-          "text": "No debe expresar la tutela ejecutiva que pretende el ejecutante cuando el título ejecutivo es una sentencia que ya la recoge.",
-          "correct": false
-        },
-        {
-          "text": "En el caso de que el título ejecutivo sea una resolución dictada por el tribunal competente para despachar la ejecución, puede limitarse a la solicitud de que se despache la ejecución, identificando esa resolución.",
-          "correct": true
-        }
+        {"text": "Debe expresar, sin acompañarlo en ningún caso, el título en que se funda el ejecutante.", "correct": false},
+        {"text": "Debe referirse al título ejecutivo y a los demás documentos que en los que se base el ejecutante, que deberán aportarse con la demanda de ejecución, si ésta se acuerda.", "correct": false},
+        {"text": "No debe expresar la tutela ejecutiva que pretende el ejecutante cuando el título ejecutivo es una sentencia que ya la recoge.", "correct": false},
+        {"text": "En el caso de que el título ejecutivo sea una resolución dictada por el tribunal competente para despachar la ejecución, puede limitarse a la solicitud de que se despache la ejecución, identificando esa resolución.", "correct": true}
       ],
       "explanation": "ES: La demanda ejecutiva debe indicar título y tutela ejecutiva (art. 549.1 LEC), pero existe una regla de simplificación: cuando el título ejecutivo es una resolución dictada por el tribunal competente para despachar la ejecución, la demanda puede limitarse a solicitar el despacho identificando esa resolución (art. 549.2 LEC). Por ello es correcta D. A es errónea porque, en general, el título debe aportarse salvo que conste en autos. B es errónea porque la aportación documental no queda diferida a “si se acuerda” la ejecución: se acompaña con la demanda conforme a la ley. C es errónea porque incluso con sentencia es necesario concretar lo pedido, salvo la simplificación legal.\nIT: La domanda esecutiva deve indicare il titolo e la tutela esecutiva richiesta (art. 549.1 LEC), ma se il titolo è una decisione del tribunale competente per l’esecuzione, la domanda può ridursi alla richiesta di despacho identificando la risoluzione (art. 549.2). Quindi è corretta D. A è errata perché di regola il titolo si accompagna (salvo risulti dagli atti). B è errata perché i documenti non si producono solo “se” si accorda l’esecuzione. C è errata perché la domanda deve comunque precisare l’attuazione richiesta, salvo la specifica semplificazione.",
       "legal_reference": "LEC art. 549.2",
@@ -231,22 +123,10 @@
       "question_number": 10,
       "question": "Las medidas cautelares:",
       "answers": [
-        {
-          "text": "Al responder a la finalidad de asegurar la eficacia de la futura sentencia, pueden ser adoptadas de oficio.",
-          "correct": false
-        },
-        {
-          "text": "Responden al principio de rogación.",
-          "correct": true
-        },
-        {
-          "text": "No precisan del ofrecimiento de caución por el solicitante, si bien deberá prestarla si el tribunal lo decide atendidas las circunstancias.",
-          "correct": false
-        },
-        {
-          "text": "No permiten la formación de inventarios de bienes, que deben realizarse en el procedimiento universal que corresponda.",
-          "correct": false
-        }
+        {"text": "Al responder a la finalidad de asegurar la eficacia de la futura sentencia, pueden ser adoptadas de oficio.", "correct": false},
+        {"text": "Responden al principio de rogación.", "correct": true},
+        {"text": "No precisan del ofrecimiento de caución por el solicitante, si bien deberá prestarla si el tribunal lo decide atendidas las circunstancias.", "correct": false},
+        {"text": "No permiten la formación de inventarios de bienes, que deben realizarse en el procedimiento universal que corresponda.", "correct": false}
       ],
       "explanation": "ES: Las medidas cautelares son rogadas: responden al principio de rogación y no pueden adoptarse de oficio (arts. 721 y 728 LEC). Por eso es correcta la opción que afirma su carácter rogado. Es errónea la primera porque niega ese principio. También es errónea la tercera porque la caución es, como regla, exigible al solicitante (art. 728.3 LEC), salvo dispensa legal expresa. La cuarta es errónea porque la formación de inventarios está prevista expresamente como medida cautelar (art. 727.4 LEC).\nIT: Le misure cautelari sono a domanda di parte: valgono il principio di rogazione e non si adottano d’ufficio (artt. 721 e 728 LEC). Quindi è corretta la seconda. La prima è errata perché ammette l’adozione d’ufficio. La terza è errata perché la cauzione è regola generale (art. 728.3), salvo eccezioni legali. La quarta è errata perché l’inventario è espressamente contemplato tra le misure (art. 727.4).",
       "legal_reference": "LEC arts. 721, 727.4, 728.3",
@@ -256,22 +136,10 @@
       "question_number": 11,
       "question": "La adopción de medidas cautelares:",
       "answers": [
-        {
-          "text": "Como regla general, se lleva a cabo sin audiencia del demandado, dado el peligro por la mora procesal que exige su adopción.",
-          "correct": false
-        },
-        {
-          "text": "Se lleva a cabo sin audiencia del demandado sólo cuando el solicitante aún no ha interpuesto la demanda y está, por ello, declarado en rebeldía.",
-          "correct": false
-        },
-        {
-          "text": "En todo caso, exige la audiencia del demandado, si bien cuando existan razones de urgencia esa audiencia tiene lugar después de la adopción de la medida o medidas.",
-          "correct": true
-        },
-        {
-          "text": "Impone al solicitante la prestación de caución para que la petición sea admitida a trámite.",
-          "correct": false
-        }
+        {"text": "Como regla general, se lleva a cabo sin audiencia del demandado, dado el peligro por la mora procesal que exige su adopción.", "correct": false},
+        {"text": "Se lleva a cabo sin audiencia del demandado sólo cuando el solicitante aún no ha interpuesto la demanda y está, por ello, declarado en rebeldía.", "correct": false},
+        {"text": "En todo caso, exige la audiencia del demandado, si bien cuando existan razones de urgencia esa audiencia tiene lugar después de la adopción de la medida o medidas.", "correct": true},
+        {"text": "Impone al solicitante la prestación de caución para que la petición sea admitida a trámite.", "correct": false}
       ],
       "explanation": "ES: La regla general es la audiencia previa del demandado (art. 733 LEC). Excepcionalmente, por urgencia o riesgo para el buen fin, el tribunal puede acordar la medida sin oírlo, pero entonces el demandado podrá ser oído después mediante oposición (arts. 733 y ss.). Por eso es correcta C: siempre existe audiencia, antes o después según el caso. A es incorrecta porque invierte la regla general. B es incorrecta porque confunde rebeldía con cautelares antes de demanda. D es incorrecta porque, aunque la caución es un presupuesto cautelar, no opera como fórmula rígida de “admisión a trámite” en los términos en que se expresa.\nIT: La regola è l’audiencia previa del convenuto (art. 733 LEC). Solo eccezionalmente, per urgenza o per non compromettere la misura, può adottarsi inaudita parte, ma con successiva possibilità di opposizione e di essere sentito (artt. 733 ss.). Perciò è corretta C: l’audizione c’è, prima o dopo. A è errata perché capovolge la regola; B perché confonde la rebeldía; D perché la cauzione è presupposto, ma non nei termini assoluti indicati.",
       "legal_reference": "LEC art. 733; LEC arts. 734–735",
@@ -281,22 +149,10 @@
       "question_number": 12,
       "question": "En el trámite de las medidas cautelares:",
       "answers": [
-        {
-          "text": "Siempre se celebra vista.",
-          "correct": false
-        },
-        {
-          "text": "Se celebra vista sólo por decisión del tribunal.",
-          "correct": false
-        },
-        {
-          "text": "Puede ocurrir que no se celebre vista.",
-          "correct": true
-        },
-        {
-          "text": "La vista es por escrito, dada la urgencia.",
-          "correct": false
-        }
+        {"text": "Siempre se celebra vista.", "correct": false},
+        {"text": "Se celebra vista sólo por decisión del tribunal.", "correct": false},
+        {"text": "Puede ocurrir que no se celebre vista.", "correct": true},
+        {"text": "La vista es por escrito, dada la urgencia.", "correct": false}
       ],
       "explanation": "ES: La vista cautelar se celebra cuando procede audiencia previa o cuando hay oposición a una medida adoptada sin audiencia. Sin embargo, puede ocurrir que no haya vista (por ejemplo, si la medida se acordó inaudita parte y no se formula oposición, o si el trámite se resuelve sin necesidad de vista conforme al cauce legal). Por ello es correcta C. A es falsa porque no siempre hay vista. B es falsa porque la celebración de vista responde al esquema legal del trámite, no a una mera decisión discrecional. D es falsa: la vista es un acto oral, no “por escrito”.\nIT: L’udienza (vista) cautelare si tiene quando vi è audizione o opposizione alla misura adottata senza audizione. Può però accadere che non si celebri (ad es. assenza di opposizione). Quindi è corretta C. A è errata perché non è sempre prevista; B è errata perché non dipende solo da scelta discrezionale; D è errata perché la vista è orale, non scritta.",
       "legal_reference": "LEC arts. 733–735",
@@ -306,22 +162,10 @@
       "question_number": 13,
       "question": "Los juicios en los que está limitada la cognición y las posibilidades alegatorias de las partes, careciendo la sentencia de la eficacia de cosa juzgada material:",
       "answers": [
-        {
-          "text": "Son los llamados declarativos especiales.",
-          "correct": false
-        },
-        {
-          "text": "Son los llamados sumarísimos.",
-          "correct": false
-        },
-        {
-          "text": "Son los llamados plenarios con especialidades.",
-          "correct": false
-        },
-        {
-          "text": "Son los llamados sumarios.",
-          "correct": true
-        }
+        {"text": "Son los llamados declarativos especiales.", "correct": false},
+        {"text": "Son los llamados sumarísimos.", "correct": false},
+        {"text": "Son los llamados plenarios con especialidades.", "correct": false},
+        {"text": "Son los llamados sumarios.", "correct": true}
       ],
       "explanation": "ES: La nota definitoria de los juicios sumarios es la limitación de la cognición (y, en su caso, de alegaciones/prueba) y la ausencia de cosa juzgada material plena (art. 447.2 LEC). Por ello es correcta D. B no es la categoría técnica empleada por la LEC para esta caracterización. C es incorrecta porque un plenario (aunque tenga especialidades) produce cosa juzgada material. A es imprecisa y no identifica el rasgo esencial que pregunta el enunciado.\nIT: I giudizi sommari si caratterizzano per cognizione limitata e per l’assenza di pieno giudicato materiale (art. 447.2 LEC). Quindi è corretta D. B non è la qualificazione tecnica pertinente. C è errata perché i plenari (anche con specialità) producono giudicato materiale. A è generica e non coglie il criterio richiesto.",
       "legal_reference": "LEC art. 447.2",
@@ -331,22 +175,10 @@
       "question_number": 14,
       "question": "En el proceso de desahucio:",
       "answers": [
-        {
-          "text": "Pueden acumularse la acción de desahucio y la acción de reclamación de rentas o cantidades debidas por el arrendatario, pero sólo si el desahucio se basa en la falta de pago de éstas.",
-          "correct": false
-        },
-        {
-          "text": "Pueden acumularse la acción de desahucio y la acción de reclamación de rentas o cantidades debidas, pero sólo si el desahucio se basa en la expiración del plazo del arrendamiento.",
-          "correct": false
-        },
-        {
-          "text": "Pueden acumularse la acción de desahucio por falta de pago o por expiración del plazo del arrendamiento y la acción de reclamación de rentas.",
-          "correct": true
-        },
-        {
-          "text": "Pueden acumularse la acción de desahucio por falta de pago y la acción de desahucio por expiración del plazo del arrendamiento.",
-          "correct": false
-        }
+        {"text": "Pueden acumularse la acción de desahucio y la acción de reclamación de rentas o cantidades debidas por el arrendatario, pero sólo si el desahucio se basa en la falta de pago de éstas.", "correct": false},
+        {"text": "Pueden acumularse la acción de desahucio y la acción de reclamación de rentas o cantidades debidas, pero sólo si el desahucio se basa en la expiración del plazo del arrendamiento.", "correct": false},
+        {"text": "Pueden acumularse la acción de desahucio por falta de pago o por expiración del plazo del arrendamiento y la acción de reclamación de rentas.", "correct": true},
+        {"text": "Pueden acumularse la acción de desahucio por falta de pago y la acción de desahucio por expiración del plazo del arrendamiento.", "correct": false}
       ],
       "explanation": "ES: En juicio verbal de desahucio se permite acumular la acción de desahucio (por impago o por expiración) con la reclamación de rentas o cantidades debidas (art. 437.4.3ª LEC, con el régimen de acumulación del art. 438). Por eso es correcta C. A y B son erróneas por restrictivas: la acumulación se admite en ambos fundamentos del desahucio. D es errónea porque no es acumulable plantear simultáneamente dos acciones de desahucio con causas distintas (impago y expiración) en el mismo procedimiento.\nIT: Nel giudizio verbale di sfratto è ammesso cumulare l’azione di desahucio (per morosità o per scadenza) con la domanda di canoni/quantità dovute (art. 437.4.3ª e art. 438 LEC). Quindi è corretta C. A e B sono errate perché troppo limitative. D è errata perché non si cumulano due azioni di sfratto per cause diverse nello stesso processo.",
       "legal_reference": "LEC art. 437.4.3ª; LEC art. 438.3; LEC art. 250.1.1º",
@@ -356,22 +188,10 @@
       "question_number": 15,
       "question": "La enervación del desahucio:",
       "answers": [
-        {
-          "text": "No procede si el arrendatario apercibió fehacientemente al arrendador de la improcedencia del desahucio antes de la iniciación de éste.",
-          "correct": false
-        },
-        {
-          "text": "No procede si el arrendatario enervó en otra ocasión anterior frente al mismo arrendador, aunque lo fuera por arrendamiento de inmueble distinto al que es objeto de la enervación.",
-          "correct": false
-        },
-        {
-          "text": "No procede cuando el arrendatario no ha enervado anteriormente el desahucio, pero ha sido requerido de pago por el arrendador con treinta días de antelación a la fecha de presentación de la demanda y el pago no ha tenido lugar a la fecha de dicha presentación.",
-          "correct": true
-        },
-        {
-          "text": "Procede si el arrendador ha requerido de pago al arrendatario y éste le ha pagado antes de interpuesto el desahucio pero una vez transcurridos más de treinta días desde el requerimiento.",
-          "correct": false
-        }
+        {"text": "No procede si el arrendatario apercibió fehacientemente al arrendador de la improcedencia del desahucio antes de la iniciación de éste.", "correct": false},
+        {"text": "No procede si el arrendatario enervó en otra ocasión anterior frente al mismo arrendador, aunque lo fuera por arrendamiento de inmueble distinto al que es objeto de la enervación.", "correct": false},
+        {"text": "No procede cuando el arrendatario no ha enervado anteriormente el desahucio, pero ha sido requerido de pago por el arrendador con treinta días de antelación a la fecha de presentación de la demanda y el pago no ha tenido lugar a la fecha de dicha presentación.", "correct": true},
+        {"text": "Procede si el arrendador ha requerido de pago al arrendatario y éste le ha pagado antes de interpuesto el desahucio pero una vez transcurridos más de treinta días desde el requerimiento.", "correct": false}
       ],
       "explanation": "ES: La enervación no es posible cuando el arrendador ha requerido de pago por medio fehaciente con al menos 30 días de antelación a la demanda y el arrendatario no ha pagado antes de su presentación (art. 22.4 LEC). Eso es exactamente lo que recoge C, por lo que es correcta. A no corresponde a ningún supuesto legal de exclusión. B no formula correctamente la regla legal (la exclusión se vincula a haber enervado antes y a la excepción prevista, no a la referencia “mismo arrendador/otro inmueble” como criterio autónomo). D es incorrecta porque si el arrendatario paga antes de interponerse la demanda, en principio desaparece el presupuesto del desahucio por impago.\nIT: L’enervación è esclusa se il locatore ha intimato il pagamento con mezzo certo almeno 30 giorni prima della domanda e il conduttore non ha pagato entro la presentazione (art. 22.4 LEC). È quindi corretta C. A non è prevista. B non riproduce correttamente il criterio legale. D è errata perché il pagamento prima della domanda elimina, di regola, il presupposto dello sfratto per morosità.",
       "legal_reference": "LEC art. 22.4; LEC art. 440.3",
@@ -381,22 +201,10 @@
       "question_number": 16,
       "question": "Señale la afirmación correcta:",
       "answers": [
-        {
-          "text": "El ius possidendi es el derecho a seguir poseyendo, y se tutela mediante las acciones petitorias.",
-          "correct": false
-        },
-        {
-          "text": "El ius possessionis es el derecho a seguir poseyendo, y se tutela mediante las acciones posesorias.",
-          "correct": true
-        },
-        {
-          "text": "El ius possidendi se tutela mediante las acciones posesorias.",
-          "correct": false
-        },
-        {
-          "text": "Cabe defender la perturbación o el despojo de la posesión a través de acciones de jactancia, como por ejemplo la publiciana.",
-          "correct": false
-        }
+        {"text": "El ius possidendi es el derecho a seguir poseyendo, y se tutela mediante las acciones petitorias.", "correct": false},
+        {"text": "El ius possessionis es el derecho a seguir poseyendo, y se tutela mediante las acciones posesorias.", "correct": true},
+        {"text": "El ius possidendi se tutela mediante las acciones posesorias.", "correct": false},
+        {"text": "Cabe defender la perturbación o el despojo de la posesión a través de acciones de jactancia, como por ejemplo la publiciana.", "correct": false}
       ],
       "explanation": "ES: El ius possessionis es el derecho a mantener la posesión de hecho (seguir poseyendo) y se tutela por acciones posesorias o interdictos (juicio verbal posesorio). El ius possidendi es el derecho definitivo a poseer y se tutela por acciones petitorias (vía declarativa). Por ello es correcta B. A invierte los conceptos. C atribuye a acciones posesorias la tutela del derecho definitivo, lo que es incorrecto. D es errónea: la publiciana es una acción de carácter petitorio y la jactancia no es el cauce típico para la tutela sumaria posesoria.\nIT: Lo ius possessionis è il diritto a continuare a possedere di fatto ed è protetto dalle azioni possessorie/interdictos. Lo ius possidendi è il diritto definitivo a possedere ed è tutelato con azioni petitorie. Perciò è corretta B. A e C confondono/invertono i concetti. D è errata perché la “publiciana” è azione petitoria e non lo strumento tipico della tutela possessoria sommaria.",
       "legal_reference": "LEC art. 250.1.4º; CC arts. 430 ss.",
@@ -406,22 +214,10 @@
       "question_number": 17,
       "question": "La demanda de juicio verbal para la tutela sumaria de la posesión:",
       "answers": [
-        {
-          "text": "Debe interponerse en el plazo máximo de 5 años contado desde el acto de perturbación o despojo.",
-          "correct": false
-        },
-        {
-          "text": "Debe interponerse en el plazo máximo de dos años contado desde el acto de perturbación o despojo.",
-          "correct": false
-        },
-        {
-          "text": "Tiende a hacer patente la llamada posesión civilísima.",
-          "correct": false
-        },
-        {
-          "text": "Debe interponerse no habiendo transcurrido más de un año desde la perturbación o despojo, plazo que es de caducidad y no susceptible de interrupción.",
-          "correct": true
-        }
+        {"text": "Debe interponerse en el plazo máximo de 5 años contado desde el acto de perturbación o despojo.", "correct": false},
+        {"text": "Debe interponerse en el plazo máximo de dos años contado desde el acto de perturbación o despojo.", "correct": false},
+        {"text": "Tiende a hacer patente la llamada posesión civilísima.", "correct": false},
+        {"text": "Debe interponerse no habiendo transcurrido más de un año desde la perturbación o despojo, plazo que es de caducidad y no susceptible de interrupción.", "correct": true}
       ],
       "explanation": "ES: La tutela sumaria de la posesión (retener/recobrar) está sujeta a un plazo de caducidad de un año desde la perturbación o el despojo: transcurrido ese plazo, no se admite la demanda (art. 439.1 LEC). Por ello es correcta D. A y B fijan plazos inexistentes. C no corresponde a este tipo de demanda: la posesión civilísima se relaciona con el interdicto de adquirir por herencia (art. 250.1.3º LEC y art. 440 CC), no con retener/recobrar.\nIT: La tutela possessoria sommaria (retener/recobrar) ha un termine di decadenza di un anno dalla turbativa o dallo spoglio (art. 439.1 LEC). Quindi è corretta D. A e B indicano termini non previsti. C riguarda la “posesión civilísima” dell’interdicto de adquirir (successione), non questa azione.",
       "legal_reference": "LEC art. 439.1; LEC art. 250.1.4º",
@@ -431,22 +227,10 @@
       "question_number": 18,
       "question": "Fuera de los casos de indivisión, si surgiera contienda sobre el hecho de la posesión:",
       "answers": [
-        {
-          "text": "Será preferido en primer lugar el poseedor anterior, no el actual.",
-          "correct": false
-        },
-        {
-          "text": "Será preferido en primer lugar el poseedor con título.",
-          "correct": false
-        },
-        {
-          "text": "Será preferido en primer lugar el poseedor actual, no el anterior.",
-          "correct": true
-        },
-        {
-          "text": "Se procede en primer lugar a constituir la cosa en depósito o guarda judicial, mientras se decide sobre su posesión o propiedad por los trámites correspondientes.",
-          "correct": false
-        }
+        {"text": "Será preferido en primer lugar el poseedor anterior, no el actual.", "correct": false},
+        {"text": "Será preferido en primer lugar el poseedor con título.", "correct": false},
+        {"text": "Será preferido en primer lugar el poseedor actual, no el anterior.", "correct": true},
+        {"text": "Se procede en primer lugar a constituir la cosa en depósito o guarda judicial, mientras se decide sobre su posesión o propiedad por los trámites correspondientes.", "correct": false}
       ],
       "explanation": "ES: El art. 445 CC establece el criterio: en caso de contienda sobre el hecho de la posesión, se prefiere al poseedor actual; si resultan dos poseedores, al más antiguo; si las fechas son iguales, al que presente título; y solo si todo es igual, se constituye depósito judicial. Por ello es correcta C. A y B contradicen el orden legal (no se prefiere primero al anterior ni al que tenga título). D describe una medida subsidiaria, no la primera regla.\nIT: L’art. 445 c.c. spagnolo (CC) stabilisce che, in caso di contesa sul possesso, si preferisce il possessore attuale; poi il più antico; poi chi presenta titolo; e solo se tutto è pari si dispone il deposito giudiziale. Quindi è corretta C. A e B sono errate; D è solo eventuale e non prioritaria.",
       "legal_reference": "CC art. 445",
@@ -456,22 +240,10 @@
       "question_number": 19,
       "question": "En el proceso de defensa de los derechos inscritos en el Registro de la Propiedad:",
       "answers": [
-        {
-          "text": "Las medidas solicitadas para asegurar la eficacia de la sentencia que recaiga deben ser solicitadas en la vista, no antes, para que el demandante adquiera previamente conocimiento de las alegaciones de la parte demandada y no sufra indefensión.",
-          "correct": false
-        },
-        {
-          "text": "El demandante debe prestar caución al interponer la demanda, como requisito de admisión de ésta.",
-          "correct": false
-        },
-        {
-          "text": "El tribunal sólo puede adoptar las medidas que se soliciten si el demandante presta caución tras la decisión adoptada al respecto en la vista.",
-          "correct": false
-        },
-        {
-          "text": "El demandado debe prestar caución en la cuantía que el tribunal determine, y en caso contrario se dictará sentencia acordando las actuaciones que, para la efectividad del derecho inscrito, hubiere solicitado el actor.",
-          "correct": true
-        }
+        {"text": "Las medidas solicitadas para asegurar la eficacia de la sentencia que recaiga deben ser solicitadas en la vista, no antes, para que el demandante adquiera previamente conocimiento de las alegaciones de la parte demandada y no sufra indefensión.", "correct": false},
+        {"text": "El demandante debe prestar caución al interponer la demanda, como requisito de admisión de ésta.", "correct": false},
+        {"text": "El tribunal sólo puede adoptar las medidas que se soliciten si el demandante presta caución tras la decisión adoptada al respecto en la vista.", "correct": false},
+        {"text": "El demandado debe prestar caución en la cuantía que el tribunal determine, y en caso contrario se dictará sentencia acordando las actuaciones que, para la efectividad del derecho inscrito, hubiere solicitado el actor.", "correct": true}
       ],
       "explanation": "ES: En la acción sumaria de efectividad de derechos reales inscritos (art. 250.1.7º LEC y art. 41 LH), el demandado que contesta debe prestar caución en la cuantía que el tribunal determine (dentro de la solicitada) y, si no la presta, se dictará sentencia acordando lo pedido por el actor para la efectividad del derecho inscrito (art. 438.4 LEC). Por eso es correcta D. A es errónea porque las medidas para asegurar la eficacia deben hacerse constar en la demanda; su omisión puede causar inadmisión (art. 439.2 LEC). B es errónea porque la caución relevante es la del demandado para oponerse, no la del demandante. C es errónea por el mismo motivo y porque confunde el régimen de cauciones.\nIT: Nel processo sommario di tutela dei diritti reali iscritti (art. 250.1.7º LEC; art. 41 LH), se il convenuto contesta deve prestare cauzione nella misura fissata dal giudice e, se non la presta, si decide a favore dell’attore con le misure richieste per l’effettività del diritto (art. 438.4 LEC). Quindi è corretta D. A è errata perché le misure di garanzia vanno indicate già nella domanda (art. 439.2). B e C sono errate perché la cauzione è a carico del convenuto che si oppone, non dell’attore.",
       "legal_reference": "LEC arts. 250.1.7º, 438.4, 439.2; LH art. 41",
@@ -481,22 +253,10 @@
       "question_number": 20,
       "question": "El proceso de defensa de los derechos inscritos en el Registro de la Propiedad:",
       "answers": [
-        {
-          "text": "Es plenario.",
-          "correct": false
-        },
-        {
-          "text": "Es sumario.",
-          "correct": true
-        },
-        {
-          "text": "Se tramita por las normas del juicio ordinario, con especialidades.",
-          "correct": false
-        },
-        {
-          "text": "Protege la propiedad, no otros derechos reales.",
-          "correct": false
-        }
+        {"text": "Es plenario.", "correct": false},
+        {"text": "Es sumario.", "correct": true},
+        {"text": "Se tramita por las normas del juicio ordinario, con especialidades.", "correct": false},
+        {"text": "Protege la propiedad, no otros derechos reales.", "correct": false}
       ],
       "explanation": "ES: Se trata de un juicio verbal de naturaleza sumaria: la oposición está limitada a causas tasadas y la sentencia carece de cosa juzgada material (art. 447.3 LEC), en línea con el art. 41 LH y el art. 250.1.7º LEC. Por ello es correcta B. A es errónea porque no es plenario. C es errónea porque el cauce es el juicio verbal, no el ordinario. D es errónea porque protege derechos reales inscritos en general (dominio y otros derechos reales), no solo la propiedad.\nIT: È un procedimento sommario: opposizione tipizzata e assenza di giudicato materiale (art. 447.3 LEC), collegato all’art. 41 LH e all’art. 250.1.7º LEC. Quindi è corretta B. A è errata (non è plenario); C è errata (rito verbale, non ordinario); D è errata perché tutela anche altri diritti reali iscritti, non solo la proprietà.",
       "legal_reference": "LH arts. 38, 41; LEC arts. 250.1.7º, 447.3",
@@ -506,22 +266,10 @@
       "question_number": 21,
       "question": "Puede pedir la rescisión de la sentencia firme:",
       "answers": [
-        {
-          "text": "El demandante que haya permanecido en rebeldía, en caso de imposibilidad objetiva de comparecer.",
-          "correct": false
-        },
-        {
-          "text": "El demandado que haya permanecido en rebeldía, si el demandante es condenado por falso testimonio.",
-          "correct": false
-        },
-        {
-          "text": "El demandado que haya permanecido en rebeldía por causa de fuerza mayor que le impidió comparecer, aunque haya tenido conocimiento del pleito por haber sido citado o emplazado en forma.",
-          "correct": true
-        },
-        {
-          "text": "Los litisconsortes entre sí, en el caso de interposición por alguno de ellos, y no por todos, de recurso contra la sentencia recaída.",
-          "correct": false
-        }
+        {"text": "El demandante que haya permanecido en rebeldía, en caso de imposibilidad objetiva de comparecer.", "correct": false},
+        {"text": "El demandado que haya permanecido en rebeldía, si el demandante es condenado por falso testimonio.", "correct": false},
+        {"text": "El demandado que haya permanecido en rebeldía por causa de fuerza mayor que le impidió comparecer, aunque haya tenido conocimiento del pleito por haber sido citado o emplazado en forma.", "correct": true},
+        {"text": "Los litisconsortes entre sí, en el caso de interposición por alguno de ellos, y no por todos, de recurso contra la sentencia recaída.", "correct": false}
       ],
       "explanation": "ES: La rescisión de sentencia firme por rebeldía solo puede pedirla el demandado rebelde y en los supuestos tasados del art. 501 LEC. Entre ellos está la fuerza mayor ininterrumpida que impidió comparecer en todo momento, incluso aunque el rebelde hubiera tenido conocimiento del pleito por citación o emplazamiento en forma (art. 501.1). Por eso es correcta C. A es errónea porque no se refiere al demandado rebelde. B confunde con motivos de revisión de sentencias firmes (art. 510 LEC). D es errónea: el litisconsorcio y la falta de recurso de alguno no habilitan esta vía.\nIT: La rescissione della sentenza definitiva per contumacia (rebeldía) è azionabile dal convenuto contumace nei casi tipizzati dell’art. 501 LEC. Tra questi vi è la forza maggiore ininterrotta che ha impedito la comparizione anche se vi è stata conoscenza del processo per regolare notificazione (art. 501.1). Quindi è corretta C. A è errata (soggetto sbagliato), B riguarda motivi di revisione (art. 510), D non è un presupposto della rescissione.",
       "legal_reference": "LEC art. 501.1; LEC art. 501–503",
@@ -531,22 +279,10 @@
       "question_number": 22,
       "question": "Las demandas de rescisión de sentencia firme:",
       "answers": [
-        {
-          "text": "Producen la paralización del trámite de la fase declarativa del proceso en que recayó la sentencia firme.",
-          "correct": false
-        },
-        {
-          "text": "No pueden ser contestadas por quien ya litigó en el proceso en el que la sentencia fue dictada.",
-          "correct": false
-        },
-        {
-          "text": "No suspenden la ejecución de la sentencia firme que las motiva, salvo que lo decida el tribunal en atención a las circunstancias y previa prestación de caución.",
-          "correct": true
-        },
-        {
-          "text": "Se tramitan inaudita parte, sin perjuicio de la audiencia de las partes una vez acordada la rescisión de la sentencia.",
-          "correct": false
-        }
+        {"text": "Producen la paralización del trámite de la fase declarativa del proceso en que recayó la sentencia firme.", "correct": false},
+        {"text": "No pueden ser contestadas por quien ya litigó en el proceso en el que la sentencia fue dictada.", "correct": false},
+        {"text": "No suspenden la ejecución de la sentencia firme que las motiva, salvo que lo decida el tribunal en atención a las circunstancias y previa prestación de caución.", "correct": true},
+        {"text": "Se tramitan inaudita parte, sin perjuicio de la audiencia de las partes una vez acordada la rescisión de la sentencia.", "correct": false}
       ],
       "explanation": "ES: La demanda de rescisión no suspende por sí sola la ejecución de la sentencia firme; solo cabe suspensión si el tribunal la acuerda atendiendo a las circunstancias y previa caución (art. 504.1 LEC, en relación con el art. 566 LEC). Por ello es correcta C. A es errónea porque no “paraliza” una fase declarativa ya concluida con sentencia firme. B es errónea porque el contradictor (quien litigó en el pleito originario) puede contestar la demanda en el procedimiento ordinario de rescisión. D es errónea porque la rescisión se sustancia con audiencia y contradicción; no se tramita como un procedimiento puramente inaudita parte.\nIT: La domanda di rescissione non sospende automaticamente l’esecuzione; la sospensione è possibile solo se il giudice la dispone, valutate le circostanze e con cauzione (art. 504.1 LEC e art. 566 LEC). Quindi è corretta C. A è errata (non blocca una fase dichiarativa già definita). B è errata perché la controparte può costituirsi e contestare. D è errata perché il procedimento di rescissione è contraddittorio e non meramente “inaudita parte”.",
       "legal_reference": "LEC art. 504.1; LEC art. 566",
