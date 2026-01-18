@@ -1,7 +1,258 @@
 {
   "file_number": 0,
-  "file_name": "Civil IV 2° Parziale AGGIORNATO 09 06 2025.docx",
+  "file_name": "Civil IV 2° Parziale AGGIORNATO 14 01 2026.docx",
+  "file_format": "docx",
+  "questions_total": 16,
   "questions": [
+    {
+      "question_id": "6",
+      "question_number": 6,
+      "question": "La institución de heredero",
+      "answers": [
+        {
+          "text": "El testamento será válido aunque no contenga institución de heredero, o ésta no comprenda la totalidad de los bienes.",
+          "correct": true
+        },
+        {
+          "text": "La designación de la institución de heredero podrá hacerse con la intervención de comisario o mandatario.",
+          "correct": false
+        },
+        {
+          "text": "En el testamento del adoptante, la expresión genérica \"hijo o hijos\" no comprende a los adoptivos.",
+          "correct": false
+        },
+        {
+          "text": "Si entre personas del mismo nombre y apellidos hay igualdad de circunstancias y éstas son tales que no permiten distinguir al instituido, ambos serán herederos.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Es correcta la afirmación sobre la validez del testamento aunque no exista institución de heredero o no abarque todos los bienes, porque el Código Civil prevé expresamente que, en tal caso, se cumplen las disposiciones testamentarias válidas y el remanente pasa a los herederos legítimos. Es incorrecta la intervención de comisario o mandatario para designar heredero porque el testamento es un acto personalísimo y no puede dejarse su formación al arbitrio de un tercero. También es incorrecto excluir a los adoptivos: el Código Civil establece que, en el testamento del adoptante, la expresión genérica \"hijo o hijos\" comprende a los adoptivos. Por último, si hay homónimos con igualdad de circunstancias y no se puede distinguir al instituido, ninguno será heredero (no ambos).\nIT: È corretta la validità del testamento anche senza istituzione di erede o se non comprende tutti i beni: la legge impone l’esecuzione delle disposizioni testamentarie e devolve il residuo agli eredi legittimi. È errata la possibilità di delegare a commissario/mandatario: il testamento è atto personalissimo e non può essere rimesso al terzo. È errata anche l’esclusione degli adottivi: la dizione generica \"figlio/figli\" li comprende nel testamento dell’adottante. Infine, in caso di omonimia indistinguibile, nessuno è erede (non entrambi).",
+      "legal_reference": "Código Civil (España): arts. 764, 670, 772, 773.",
+      "original_file": "Civil IV 2° Parziale AGGIORNATO 14 01 2026.docx"
+    },
+    {
+      "question_id": "7",
+      "question_number": 7,
+      "question": "La herencia que carece de herederos, por inexistencia o repudiación, se denomina",
+      "answers": [
+        { "text": "Herencia vacante", "correct": true },
+        { "text": "Herencia yacente", "correct": false },
+        { "text": "Herencia abierta.", "correct": false },
+        { "text": "Herencia presunta.", "correct": false }
+      ],
+      "explanation": "ES: Se denomina herencia vacante cuando no hay herederos que lleguen a suceder (por inexistencia o porque se produce la repudiación sin sustituto y sin acrecimiento), lo que lleva, en última instancia, a la sucesión del Estado si no hay parientes ni cónyuge con derecho. La herencia yacente, en cambio, es la situación interina del caudal desde la muerte hasta la aceptación/repudiación por los llamados (concepto doctrinal y procesal, no el nombre técnico de “falta de herederos”). “Herencia abierta” alude al hecho de que la sucesión se abre con la muerte (transmisión desde ese momento), pero no describe la carencia de herederos. “Herencia presunta” no es la denominación propia para este supuesto en el Derecho común.\nIT: Si parla di eredità vacante quando manca un soggetto che succeda (inesistenza di chiamati efficaci o rinuncia senza sostituto/accrescimento), con eventuale devoluzione allo Stato in mancanza di altri successibili. L’eredità giacente (yacente) indica invece la fase di pendenza tra apertura e accettazione. “Aperta” riguarda il momento di apertura con la morte, non l’assenza di eredi. “Presunta” non è la denominazione tipica del caso.",
+      "legal_reference": "Código Civil (España): arts. 912.3, 913, 956–958; art. 657 (apertura/transmisión desde la muerte).",
+      "original_file": "Civil IV 2° Parziale AGGIORNATO 14 01 2026.docx"
+    },
+    {
+      "question_id": "8",
+      "question_number": 8,
+      "question": "Incapacidad relativa para suceder:",
+      "answers": [
+        {
+          "text": "Son relativamente incapaces para suceder las criaturas abortivas, entendiéndose tales las que no reúnan las circunstancias expresadas en el artículo 30 (nacimiento con vida).",
+          "correct": false
+        },
+        {
+          "text": "El testador no podrá disponer del todo o parte de su herencia en favor del padre del Notario que autorice su testamento.",
+          "correct": true
+        },
+        {
+          "text": "No surtirá efecto la disposición testamentaria en favor de quien sea tutor o curador del testador, en ningún caso.",
+          "correct": false
+        },
+        {
+          "text": "El albacea que no acepte el cargo, o lo renuncie sin justa causa, perderá lo que le hubiese dejado el testador, incluido, en su caso, su derecho a la legítima.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Es correcta la prohibición de disponer a favor del padre del Notario autorizante: las disposiciones a favor del Notario o de sus parientes/afines dentro del cuarto grado carecen de efecto, y el padre es pariente en línea recta de primer grado. Es incorrecta la referencia a las “criaturas abortivas” como incapacidad relativa: el Código Civil las configura como incapacidad para suceder (regla general de capacidad/incapacidad), no como una incapacidad relativa por razón de la persona interviniente en el otorgamiento. También es erróneo afirmar “en ningún caso” respecto del tutor/curador: la disposición es ineficaz salvo si se hace después de la extinción de la tutela/curatela. Por último, el albacea que no acepte o renuncie sin justa causa pierde lo dejado por el testador, pero se salva siempre el derecho que tuviera a la legítima; por eso es falsa la inclusión de la pérdida de la legítima.\nIT: È corretta la nullità/inefficacia della disposizione a favore del padre del Notaio rogante: il divieto riguarda il Notaio e i suoi parenti/affini entro il 4º grado. È errato qualificare le “criaturas abortivas” come incapacità relativa: si tratta di incapacità a succedere secondo la disciplina generale. È errato anche il “in nessun caso” per tutor/curatore: l’inefficacia opera salvo disposizione successiva all’estinzione della tutela/curatela. Infine, l’albacea che rifiuta o rinuncia senza giusta causa perde quanto gli è stato lasciato, ma non perde la legittima se ne ha diritto.",
+      "legal_reference": "Código Civil (España): arts. 754 (prohibición a favor del Notario y parientes), 745.1 y 30 (criaturas abortivas/persona), 753 (tutor o curador representativo), 900 (albacea: pérdida salvo legítima).",
+      "original_file": "Civil IV 2° Parziale AGGIORNATO 14 01 2026.docx"
+    },
+    {
+      "question_id": "9",
+      "question_number": 9,
+      "question": "Felipe es ciego y va a otorgar testamento, Marque la opción correcta",
+      "answers": [
+        { "text": "Al acto de otorgamiento deberán concurrir dos testigos idóneos.", "correct": false },
+        { "text": "Los testigos leerán el testamento en presencia del Notario y deberán declarar que coincide con la voluntad manifestada.", "correct": false },
+        { "text": "El testamento puede ser cerrado.", "correct": true },
+        { "text": "Todas las demás respuestas son ciertas.", "correct": false }
+      ],
+      "explanation": "ES: En el testamento abierto notarial, el Notario lee el testamento en alta voz y debe asegurarse de la comprensión del testador cuando exista dificultad o imposibilidad para leer u oír la lectura; la presencia de dos testigos instrumentales solo es obligatoria cuando el testador no sabe o no puede firmar, o cuando el testador o el Notario lo soliciten. Por tanto, la ceguera por sí sola no convierte en obligatoria la concurrencia de testigos ni desplaza la lectura al testigo en la forma indicada. En cambio, el testamento puede ser cerrado: las personas con discapacidad visual pueden otorgarlo utilizando medios mecánicos o tecnológicos que les permitan escribirlo y leerlo, cumpliendo el resto de requisitos.\nIT: Nel testamento aperto davanti al Notaio, la lettura è del Notaio e il Notaio deve assicurare che il testatore abbia compreso anche se ha difficoltà a leggere o a sentire; i due testimoni sono obbligatori solo se il testatore non sa/non può firmare o se sono richiesti dal testatore o dal Notaio. Quindi non è vero che la cecità imponga automaticamente i testimoni o che siano i testimoni a leggere e attestare la conformità. È invece vero che il testamento può essere chiuso: la normativa consente alle persone con disabilità visiva di redigerlo/leggerlo mediante mezzi meccanici o tecnologici, rispettando le altre formalità.",
+      "legal_reference": "Código Civil (España): arts. 695 (lectura por Notario y deber de aseguramiento), 697 (testigos instrumentales), 708 (testamento cerrado: discapacidad visual con medios).",
+      "original_file": "Civil IV 2° Parziale AGGIORNATO 14 01 2026.docx"
+    },
+    {
+      "question_id": "10",
+      "question_number": 10,
+      "question": "Rodrigo redactó un testamento ológrafo y se lo entregó a su íntimo amigo José Luis para que lo conservase e hiciera lo necesario, si a él le pasaba algo. A los dos años, Rodrigo fallece, Marque la opción correcta",
+      "answers": [
+        { "text": "El testamento ológrafo no puede conservarlo un tercero, sino que Rodrigo debió conservarlo por sí mismo o entregarlo a un Notario.", "correct": false },
+        { "text": "José Luis deberá presentar el testamento ante Notario competente en los diez días siguientes a aquel en que tenga conocimiento del fallecimiento del testador, o de lo contrario será responsable de los daños y perjuicios que haya causado.", "correct": true },
+        { "text": "José Luis deberá presentar el testamento ante Notario competente en los cinco años siguientes a aquel en que tenga conocimiento del fallecimiento del testador, o de lo contrario será responsable de los daños y perjuicios que haya causado.", "correct": false },
+        { "text": "El testamento de Rodrigo será válido, aunque lo haya escrito el propio José Luis, dictándoselo Rodrigo.", "correct": false }
+      ],
+      "explanation": "ES: El testamento ológrafo puede conservarlo el propio testador o un tercero; lo relevante, tras el fallecimiento, es que quien lo tenga en su poder lo presente ante Notario competente dentro de los diez días desde que conozca la muerte, respondiendo de daños y perjuicios por el incumplimiento. El plazo de cinco años corresponde a la necesidad de protocolizar/presentar para su protocolización dentro de ese tiempo, pero no sustituye el deber específico del tenedor de presentarlo en diez días. Además, el ológrafo exige que esté escrito y firmado por el testador; si lo escribiera un tercero, no sería ológrafo válido.\nIT: Il testamento olografo può restare presso il testatore o presso un terzo. Alla morte, chi lo detiene deve presentarlo al Notaio entro dieci giorni da quando viene a conoscenza del decesso, altrimenti risponde dei danni. Il termine quinquennale riguarda la protocolizzazione entro cinque anni dalla morte, ma non elimina l’obbligo “breve” di presentazione del detentore. Infine, l’olografo deve essere interamente scritto e firmato dal testatore: se lo scrive un terzo, manca il requisito essenziale.",
+      "legal_reference": "Código Civil (España): arts. 688 (requisitos del ológrafo), 689 (protocolización en 5 años), 690 (presentación por el tenedor en 10 días y responsabilidad).",
+      "original_file": "Civil IV 2° Parziale AGGIORNATO 14 01 2026.docx"
+    },
+    {
+      "question_id": "11",
+      "question_number": 11,
+      "question": "Roberto acude al notario para otorgar testamento cerrado. Marque la opción correcta:",
+      "answers": [
+        { "text": "Roberto debe comparecer en la notaría con el testamento necesariamente escrito de su puño y letra y ya cerrado y sellado.", "correct": false },
+        { "text": "Sobre la cubierta del testamento extenderá el Notario la correspondiente acta de su otorgamiento, que firmarán Roberto y el Notario, que necesariamente debe encomendar su guarda a un tercero de su confianza, en todo caso.", "correct": false },
+        { "text": "La persona que tenga en su poder un testamento cerrado deberá presentarlo ante Notario competente en los diez días siguientes a aquel en que tenga conocimiento del fallecimiento del testador.", "correct": true },
+        { "text": "Si, por descuido, la persona que tenga en su poder un testamento cerrado incumpla su deber de presentación en plazo, perderá todo derecho a la herencia, si lo tuviere.", "correct": false }
+      ],
+      "explanation": "ES: Es correcta la obligación de presentar el testamento cerrado en diez días desde que se conozca el fallecimiento del testador. No es cierto que el testamento cerrado deba estar necesariamente escrito de puño y letra: puede estar escrito por medios técnicos o por otra persona, pero debe firmarlo el testador en todas sus hojas según el caso. Tampoco es cierto que deba encomendarse forzosamente la guarda a un tercero: el testador puede conservarlo, encomendarlo a persona de confianza o depositarlo en el Notario. Y la pérdida de derechos a la herencia exige dolo (ocultación deliberada); el simple descuido genera, en su caso, responsabilidad por daños.\nIT: È corretta la regola della presentazione del testamento chiuso entro dieci giorni dalla conoscenza della morte del testatore. Non è vero che debba essere necessariamente autografo: può essere redatto con mezzi tecnici o da terzi, purché sia firmato dal testatore secondo i requisiti. Non è obbligatorio affidarne la custodia a un terzo: può restare presso il testatore, essere affidato o depositato presso il Notaio. Infine, la perdita dei diritti successori presuppone dolo; la mera negligenza comporta al più responsabilità risarcitoria.",
+      "legal_reference": "Código Civil (España): arts. 706 (forma y firma del cerrado), 711 (custodia), 712 (presentación en 10 días y responsabilidad), 713 (pérdida de derechos por dolo).",
+      "original_file": "Civil IV 2° Parziale AGGIORNATO 14 01 2026.docx"
+    },
+    {
+      "question_id": "12",
+      "question_number": 12,
+      "question": "Jaime está embarcado en un crucero por el Mediterráneo, y como lleva unos días encontrándose mal, decide otorgar testamento.",
+      "answers": [
+        { "text": "No es posible testar en esa embarcación, sino que es necesario que se trate de un buque de guerra.", "correct": false },
+        { "text": "El testamento podrá otorgarse en forma extraordinaria, si hay peligro de naufragio, y se otorgará de palabra ante el Capitán y un testigo.", "correct": false },
+        { "text": "El testamento podrá otorgarse de forma ordinaria, abierta o cerrada, ante el Capitán, con la asistencia de dos testigos idóneos, que se elegirán entre los pasajeros, si los hubiere.", "correct": true },
+        { "text": "El Capitán de la embarcación no podrá testar a bordo.", "correct": false }
+      ],
+      "explanation": "ES: Es correcto que en buque mercante (como un crucero) pueda otorgarse testamento marítimo abierto o cerrado ante el Capitán con asistencia de dos testigos idóneos, preferentemente pasajeros si los hay. La forma extraordinaria por peligro de naufragio no se otorga “ante el Capitán y un testigo”, sino que se conecta con el régimen de testamento de palabra ante dos testigos. Además, el Capitán sí puede testar a bordo, pero su testamento debe ser autorizado por quien le sustituya en el cargo.\nIT: È corretto che su nave mercantile (crociera) si possa fare testamento marittimo, aperto o chiuso, davanti al Capitano con due testimoni idonei scelti tra i passeggeri se presenti. In caso di naufragio non vale la formula “Capitano + un testimone”: la disciplina rinvia al testamento orale con due testimoni. Il Capitano può testare, ma il suo testamento deve essere autorizzato dal sostituto.",
+      "legal_reference": "Código Civil (España): arts. 722 (forma en buques mercantes), 731 y 720 (peligro de naufragio y testamento de palabra), 723 (testamento del Capitán autorizado por sustituto).",
+      "original_file": "Civil IV 2° Parziale AGGIORNATO 14 01 2026.docx"
+    },
+    {
+      "question_id": "13",
+      "question_number": 13,
+      "question": "Legado de parte alícuota",
+      "answers": [
+        { "text": "Caracteriza al legatario de parte alícuota el ser llamado a una cuota de la herencia líquida, es decir, una vez deducidas las cargas que pesan sobre la misma.", "correct": true },
+        { "text": "La sustitución se extinguirá exclusivamente por la premoriencia de su sobrina María con relación su hermana Mar.", "correct": false },
+        { "text": "El efecto esencial de la sustitución vulgar es que el sustituto adquiere el derecho hereditario que le permite aceptar o repudiar a herencia (ius delationis), y si muere sin aceptar o repudiar, transmite a sus propios herederos tal derecho.", "correct": false },
+        { "text": "Todas las demás respuestas son falsas.", "correct": false }
+      ],
+      "explanation": "ES: Es correcta la caracterización del legatario de parte alícuota: recibe una cuota ideal del activo hereditario neto (herencia líquida), tras la satisfacción del pasivo/cargas. Las otras dos afirmaciones tratan de sustitución vulgar y del derecho de transmisión (ius delationis), materias distintas del concepto definitorio del legado de parte alícuota; además, el efecto descrito (transmisión del ius delationis) corresponde al derecho de transmisión, no a la sustitución vulgar. Por tanto, no es cierto que “todas las demás” sean falsas, porque la primera es verdadera.\nIT: È corretta la definizione del legatario di parte alícuota: è chiamato a una quota ideale dell’eredità netta, dopo la detrazione dei debiti e pesi. Le altre affermazioni riguardano la sostituzione volgare e, soprattutto, il diritto di trasmissione del ius delationis (tema diverso). Quindi non è vero che “tutte le altre” siano false, perché la prima è vera.",
+      "legal_reference": "Código Civil (España): referencia del concepto en art. 655 (mención a legatarios de parte alícuota); para el ius delationis y su transmisión: art. 1006 (derecho de transmisión).",
+      "original_file": "Civil IV 2° Parziale AGGIORNATO 14 01 2026.docx"
+    },
+    {
+      "question_id": "16_1",
+      "question_number": 16,
+      "question": "La interpretación de las disposiciones testamentarias",
+      "answers": [
+        { "text": "Toda disposición testamentaria deberá entenderse en el sentido literal de sus palabras, a no ser que aparezca claramente que fue otra la voluntad del testador.", "correct": true },
+        { "text": "El testador puede prohibir que se impugne el testamento, aunque haya nulidad declarada por la ley.", "correct": false },
+        { "text": "El legatario de parte alícuota podrá reclamar judicialmente la división de la herencia.", "correct": true },
+        { "text": "El Tribunal Supremo ha considerado que es nula la partición practicada sin la intervención de los legatarios de parte alícuota.", "correct": false },
+        { "text": "Todas las demás respuestas son ciertas.", "correct": false }
+      ],
+      "explanation": "ES: Es correcta la regla interpretativa literal (salvo voluntad distinta claramente apreciable) porque está formulada expresamente en el Código Civil. Es falsa la cláusula de prohibición de impugnación cuando existe nulidad legal: el propio Código Civil lo prohíbe. Es correcta la legitimación del legatario de parte alícuota para instar judicialmente la división de la herencia, reconocida en la Ley de Enjuiciamiento Civil. En cambio, afirmar como regla general (y además atribuyéndolo de forma genérica al Tribunal Supremo) la “nulidad” de cualquier partición sin intervención de legatarios de parte alícuota es excesivo: en la práctica pueden existir matices (doctrina registral/inscribibilidad, buena o mala fe, y encaje con el régimen de la partición y sus remedios), por lo que la afirmación categórica no puede considerarse correctamente formulada en esos términos. Por ello también es falsa la opción de que todas las demás respuestas sean ciertas.\nIT: È corretta la regola interpretativa letterale salvo diversa volontà chiaramente desumibile, perché è testualmente prevista dal Codice Civile. È falsa la pretesa di vietare l’impugnazione quando la nullità è dichiarata dalla legge: il Codice lo esclude. È corretta la legittimazione del legatario di parte alícuota a chiedere la divisione giudiziale dell’eredità secondo la LEC. È invece troppo assoluta (e non correttamente attribuita in modo generalizzato al TS) l’affermazione della nullità di ogni divisione senza intervento dei legatari di parte alícuota: la qualificazione e le conseguenze dipendono dal tipo di divisione e dal relativo regime/effetti, con possibili distinzioni (anche registrali). Di conseguenza è falsa anche l’opzione che “tutte le altre” siano vere.",
+      "legal_reference": "Código Civil (España): art. 675 (interpretación y prohibición de impedir impugnación por nulidad); Ley 1/2000 (LEC): art. 782.1 (legatario de parte alícuota puede reclamar división judicial).",
+      "original_file": "Civil IV 2° Parziale AGGIORNATO 14 01 2026.docx"
+    },
+    {
+      "question_id": "14",
+      "question_number": 14,
+      "question": "Jacinto hace testamento y lega a su hermano Guillermo un vehículo, que en realidad él conoce que pertenece a Sofía, la esposa de Jacinto. ¿Qué efectos tendrá esta atribución sobre el testamento?",
+      "answers": [
+        { "text": "Desaparece la carga del legado, al no encontrarse dentro del haber hereditario del causante el bien objeto del legado.", "correct": false },
+        { "text": "El legado de cosa ajena si el testador, al legarla, sabía que lo era, es válido. El heredero estará obligado a adquirir el vehículo para entregarlo al legatario; y, no siéndole posible, a dar a éste su justa estimación.", "correct": true },
+        { "text": "Se entenderá legado, en todo caso, el valor que tuviera el vehículo al tiempo del fallecimiento.", "correct": false },
+        { "text": "En principio, será nulo el legado. Pero será válido si la adquiere después de otorgado el testamento.", "correct": false }
+      ],
+      "explanation": "ES: Es correcta la regla del legado de cosa ajena con conocimiento del testador: el legado es válido y el heredero debe procurar adquirir la cosa para entregarla o, si no es posible, pagar su justa estimación. No desaparece automáticamente la carga del legado por el hecho de ser cosa ajena; al contrario, el régimen impone esa obligación al heredero. Tampoco se convierte “en todo caso” en un legado de valor al fallecimiento: la regla es adquisición o, subsidiariamente, justa estimación. Y no es correcto afirmar la nulidad “en principio” cuando el testador sabía que era ajena: la nulidad se predica del caso en que el testador ignoraba la ajenidad, salvo adquisición posterior.\nIT: Se il testatore sapeva che la cosa era altrui, il legato è valido: l’erede deve acquistare il bene per consegnarlo al legatario o, se impossibile, corrispondere la giusta stima. Non si elimina automaticamente il legato per mancanza del bene nell’asse. Non si trasforma sempre nel valore al decesso: prima vale l’obbligo di acquisire, poi (in subordine) la giusta stima. La nullità riguarda invece l’ipotesi in cui il testatore ignorava che la cosa fosse altrui, salvo successiva acquisizione.",
+      "legal_reference": "Código Civil (España): arts. 861 (legado de cosa ajena con conocimiento), 862 (nulidad si ignoraba, salvo adquisición posterior).",
+      "original_file": "Civil IV 2° Parziale AGGIORNATO 14 01 2026.docx"
+    },
+    {
+      "question_id": "15",
+      "question_number": 15,
+      "question": "Luis no tiene ascendientes ni descendientes. Ha instituido heredera a su hermana Mar, que será sustituida por su sobrina María, para el exclusivo caso de que Mar muera antes que el propio Luis. Marque la respuesta correcta",
+      "answers": [
+        { "text": "La sustitución vulgar se da para los casos de premoriencia, incapacidad o renuncia, sin que el testador pueda restringir la sustitución a uno solo de esos casos.", "correct": false },
+        { "text": "La sustitución se extinguirá exclusivamente por la premoriencia de su sobrina María con relación su hermana Mar.", "correct": false },
+        { "text": "El efecto esencial de la sustitución vulgar es que el sustituto adquiere el derecho hereditario que le permite aceptar o repudiar a herencia (ius delationis), y si muere sin aceptar o repudiar, transmite a sus propios herederos tal derecho.", "correct": false },
+        { "text": "Todas las demás respuestas son falsas.", "correct": true }
+      ],
+      "explanation": "ES: El testador sí puede restringir la sustitución a un solo supuesto: la sustitución “simple y sin expresión de casos” comprende premoriencia, no querer o no poder aceptar, salvo que el testador disponga lo contrario. Aquí Luis la limita expresamente al caso de premoriencia de Mar, de modo que la afirmación de que no puede restringir es falsa. La opción sobre la premoriencia de la sobrina respecto de la hermana no describe el supuesto ni la regla. Y el efecto descrito (transmisión del ius delationis si el llamado muere sin aceptar/repudiar) corresponde al derecho de transmisión, no a la sustitución vulgar. Por ello, la correcta es que las demás son falsas.\nIT: Il testatore può limitare la sostituzione a un solo caso: la sostituzione semplice senza indicazione di casi copre premorienza, rinuncia o incapacità, salvo diversa volontà del testatore. Qui Luis la limita alla sola premorienza di Mar, quindi è falsa l’affermazione che non possa restringere. La premorienza della nipote rispetto alla sorella non è pertinente. L’effetto del “ius delationis che si trasmette agli eredi” è proprio del diritto di trasmissione, non della sostituzione volgare. Quindi è corretta la risposta che tutte le altre sono false.",
+      "legal_reference": "Código Civil (España): art. 774 (sustitución vulgar y posibilidad de restringir); art. 1006 (derecho de transmisión del ius delationis).",
+      "original_file": "Civil IV 2° Parziale AGGIORNATO 14 01 2026.docx"
+    },
+    {
+      "question_id": "16_2",
+      "question_number": 16,
+      "question": "La interpretación de las disposiciones testamentarias",
+      "answers": [
+        { "text": "Toda disposición testamentaria deberá entenderse en el sentido literal de sus palabras, a no ser que aparezca claramente que fue otra la voluntad del testador.", "correct": true },
+        { "text": "El testador puede prohibir que se impugne el testamento, aunque haya nulidad declarada por la ley.", "correct": false },
+        { "text": "Cuando el testador llame a la sucesión a una persona y a sus hijos, se entenderán instituidos sucesivamente.", "correct": false },
+        { "text": "Si el testador instituye a sus hermanos, y los tiene carnales y de padre o madre solamente, heredarán todos ellos por partes iguales.", "correct": false }
+      ],
+      "explanation": "ES: Es correcta la regla interpretativa literal (con prevalencia de la voluntad real claramente apreciable). Es falsa la posibilidad de prohibir la impugnación en caso de nulidad legal, porque el Código Civil lo niega expresamente. Es falsa la institución “sucesiva” de una persona y sus hijos: el Código Civil presume institución simultánea, no sucesiva. También es falsa la igualdad por partes entre hermanos de doble vínculo y medio hermanos cuando el testador instituye a sus hermanos: la ley ordena dividir como en la sucesión intestada, donde el doble vínculo toma doble porción frente al medio hermano.\nIT: È corretta la regola interpretativa letterale salvo diversa volontà chiaramente risultante. È falsa la clausola che vieti l’impugnazione in caso di nullità legale. È falsa l’idea di istituzione successiva “persona e figli”: la regola è la contemporaneità (istituzione simultanea). È falsa anche la ripartizione “a parti uguali” tra germani e unilaterali: si applica la divisione come nell’intestato, con doppia porzione ai fratelli germani rispetto ai mezzi fratelli.",
+      "legal_reference": "Código Civil (España): art. 675 (interpretación y prohibición de impedir impugnación por nulidad); art. 771 (institución simultánea de persona e hijos); art. 770 (hermanos: división como intestada); art. 949 (doble vínculo toma doble porción).",
+      "original_file": "Civil IV 2° Parziale AGGIORNATO 14 01 2026.docx"
+    },
+    {
+      "question_id": "17",
+      "question_number": 17,
+      "question": "La reserva ordinaria o vidual",
+      "answers": [
+        { "text": "Son personas obligadas a reservar en este caso, solo y exclusivamente, el viudo o viuda que contrae segundo o ulterior matrimonio, y son personas beneficiarias de la reserva, los hijos y descendientes del primer matrimonio.", "correct": false },
+        { "text": "No son bienes reservables en este caso la mitad de los bienes gananciales, perteneciente al cónyuge sobreviviente, y las cosas dadas por los hijos a su padre o madre, sabiendo que estaban por segunda vez casados.", "correct": true },
+        { "text": "El reservista pierde absolutamente la libre disposición de los bienes reservables, ya sean muebles o inmuebles.", "correct": false },
+        { "text": "La reserva vidual se extingue únicamente cuando a la muerte del reservista queden solo hijos desheredados, sin descendientes que los representen.", "correct": false }
+      ],
+      "explanation": "ES: Es incorrecto decir “solo y exclusivamente” segundo matrimonio: la obligación de reservar se impone al viudo/viuda que pase a segundo matrimonio, pero también se extiende a supuestos de tener un hijo no matrimonial o adoptar, según la regulación de la reserva vidual. Es correcta la afirmación de que no se reserva la mitad ganancial del supérstite y que cesa la obligación de reservar respecto de cosas dadas o dejadas por los hijos al progenitor sabiendo que estaba casado por segunda vez. Es falsa la pérdida absoluta de libre disposición: existen reglas que permiten enajenaciones con obligaciones de aseguramiento/indemnización y con régimen diferenciado para muebles e inmuebles. También es falsa la extinción “únicamente” al morir con hijos desheredados: hay causas expresas de cese/extinción adicionales.\nIT: È errato dire “solo ed esclusivamente” secondo matrimonio: l’obbligo di riserva nasce con le seconde nozze, ma la disciplina lo estende anche a ipotesi di figlio non matrimoniale o adozione del vedovo. È corretta invece l’esclusione della metà dei beni gananciali del coniuge superstite e il venir meno dell’obbligo per beni dati/lasciati dai figli al genitore consapevoli delle seconde nozze. È falsa la perdita totale della disponibilità: sono previste alienazioni con doveri di garanzia/indennizzo e regole diverse per mobili e immobili. È falsa anche l’estinzione “solo” al momento della morte con figli diseredati: la legge contempla ulteriori cause di cessazione.",
+      "legal_reference": "Código Civil (España): arts. 968 (bienes reservables y exclusión mitad ganancial), 970 (cese por renuncia y por cosas dadas/dejadas por hijos con conocimiento), 971 (cese si no existen reservatarios), 974–978 (enajenaciones y aseguramiento/indemnización), 980 (extensión a hijo no matrimonial o adopción).",
+      "original_file": "Civil IV 2° Parziale AGGIORNATO 14 01 2026.docx"
+    },
+    {
+      "question_id": "18",
+      "question_number": 18,
+      "question": "Rogelio, durante una discusión con Raquel, que es pareja de su padre, Ernesto, agredió a la misma, causándole lesiones (fractura de dos dedos de la mano derecha y policontusiones). Raquel denunció a Rogelio, si bien aún no se ha celebrado juicio. Ernesto, después del episodio, decide desheredar a su hijo Rogelio. Marque la opción correcta:",
+      "answers": [
+        { "text": "No puede desheredarlo por agredir a Raquel, ya que no es su cónyuge.", "correct": false },
+        { "text": "La desheredación es válida.", "correct": false },
+        { "text": "No puede desheredar a Rogelio porque aún no ha recaído condena por esos hechos.", "correct": true },
+        { "text": "Puede desheredar a Rogelio, pero no podrá privarlo de la legítima estricta.", "correct": false }
+      ],
+      "explanation": "ES: La indignidad para suceder por delitos graves contra la integridad/vida o violencia habitual en el ámbito familiar exige condena por sentencia firme; sin esa condena, la causa no se consolida. Además, la norma incluye no solo al cónyuge, sino también a la persona unida al causante por análoga relación de afectividad, por lo que no es correcto negar relevancia por no ser “cónyuge”. Sin condena firme, no puede sostenerse válidamente esa causa. Tampoco existe una “desheredación parcial” que permita mantener una legítima estricta si la desheredación es válida: si la causa no se acredita o no es legal, la desheredación se anula en lo que perjudique a la legítima.\nIT: L’indegnità a succedere per reati gravi/violenza nell’ambito familiare richiede una condanna con sentenza definitiva; senza tale condanna la causa non si perfeziona. La tutela si estende anche al partner unito da relazione affettiva analoga al matrimonio, quindi non è corretto escludere la rilevanza perché non è “coniuge”. Senza condanna definitiva non si può fondare validamente la causa. Inoltre, se la diseredazione è invalida o non provata, si annulla nella parte lesiva della legittima; non c’è una regola di “legittima stretta intangibile” nel caso di diseredazione valida.",
+      "legal_reference": "Código Civil (España): art. 756.1 (requiere condena por sentencia firme; incluye cónyuge y persona con análoga relación de afectividad); arts. 848–851 y 850 (causas, forma, carga de la prueba y efectos de desheredación no probada); art. 852 (indignidad como causa de desheredación en los términos legales).",
+      "original_file": "Civil IV 2° Parziale AGGIORNATO 14 01 2026.docx"
+    },
+    {
+      "question_id": "19",
+      "question_number": 19,
+      "question": "Rodolfo, viudo con tres hijos mayores de edad, se casa con Águeda, también viuda y sin hijos. Rodolfo muere sin testar, y Águeda concurre a la herencia con los tres hijos de Rodolfo, de su primer matrimonio.",
+      "answers": [
+        { "text": "Águeda deberá recibir su parte como legitimaria, y los hijos de Rodolfo necesariamente deberán hacerlo asignándole una renta vitalicia, los productos de determinados bienes, o un capital en efectivo.", "correct": false },
+        { "text": "Águeda podrá exigir que su derecho de usufructo le sea satisfecho, a elección de los hijos, asignándole un capital en dinero o un lote de bienes hereditarios.", "correct": true },
+        { "text": "En este caso, solo es posible asignarle una renta vitalicia.", "correct": false },
+        { "text": "Ninguna de las demás respuestas es cierta.", "correct": false }
+      ],
+      "explanation": "ES: En concurrencia con hijos solo del causante, el cónyuge viudo tiene derecho al usufructo del tercio de mejora y puede exigir que dicho usufructo sea satisfecho a elección de los hijos mediante capital en dinero o lote de bienes hereditarios. Por ello la opción que recoge esa conmutación específica es la correcta. No es cierto que necesariamente haya que acudir a renta vitalicia/productos/capital (eso es un régimen distinto y, en todo caso, no es “necesariamente”); tampoco es cierto que solo sea posible la renta vitalicia. \nIT: Quando il coniuge superstite concorre con figli solo del defunto, ha diritto all’usufrutto del terzo di miglioramento e può pretendere la soddisfazione del suo usufrutto, a scelta dei figli, mediante un capitale in denaro o un lotto di beni ereditari. Quindi è corretta l’opzione della conmutazione ex lege. Non è vero che si debba necessariamente ricorrere alla rendita vitalizia/prodotti/capitale né che la sola forma possibile sia la rendita vitalizia.",
+      "legal_reference": "Código Civil (España): arts. 834 (usufructo del tercio de mejora), 840 (conmutación a elección de los hijos: capital o lote).",
+      "original_file": "Civil IV 2° Parziale AGGIORNATO 14 01 2026.docx"
+    },
+    {
+      "question_id": "20",
+      "question_number": 20,
+      "question": "José Luis, soltero, fallece sin testamento. No tiene descendientes ni ascendientes. Tiene tres hermanos, uno soltero sin hijos, otro con una hija y un tercero, ya fallecido, que tenía tres hijos. Marque la opción correcta.",
+      "answers": [
+        { "text": "La herencia de José Luis se distribuirá en seis partes iguales, para sus hermanos y sobrinos.", "correct": false },
+        { "text": "La herencia se distribuirá en tres partes. Una para cada una de sus dos hermanos, y la tercera se repartirá, a partes iguales, entre sus tres sobrinos, hijos del hermano fallecido.", "correct": true },
+        { "text": "La herencia se repartirá entre los dos hermanos que han sobrevivido a José Luis, sin que los sobrinos tengan derecho a la herencia.", "correct": false },
+        { "text": "En este caso, a falta de personas que tengan derecho a heredar, heredará el Estado.", "correct": false }
+      ],
+      "explanation": "ES: En sucesión intestada sin descendientes ni ascendientes, heredan los hermanos e hijos de hermanos con preferencia a otros colaterales. Los hijos del hermano premuerto suceden por representación en la línea colateral (hijos de hermanos) y la división se hace por estirpes: se forma una porción para cada hermano (incluido el premuerto) y la del premuerto se reparte entre sus hijos. Por eso hay tres porciones: dos para los hermanos vivos y una (por estirpe) para los tres sobrinos, que la reparten a partes iguales. No procede repartir “en seis partes iguales” (mezclar cabezas y estirpes), ni excluir a los sobrinos cuando hay representación, ni hereda el Estado porque existen parientes con derecho.\nIT: Nell’intestato, in assenza di discendenti e ascendenti, succedono fratelli e figli di fratelli. I figli del fratello premorto succedono per rappresentazione in linea collaterale e la divisione avviene per stirpi: una quota per ciascun fratello (anche quello premorto) e la quota del premorto si divide tra i suoi figli. Quindi tre quote: due ai fratelli superstiti e una ai tre nipoti (che la dividono in parti uguali). È errato il riparto in sei parti uguali, è errata l’esclusione dei nipoti e non succede lo Stato perché vi sono successibili.",
+      "legal_reference": "Código Civil (España): arts. 946 (hermanos e hijos de hermanos), 925–927 (representación en colateral y división por estirpes), 948 (hermanos con sobrinos: cabezas/estirpes).",
+      "original_file": "Civil IV 2° Parziale AGGIORNATO 14 01 2026.docx"
+    },
     {
       "question": "1. ¿Qué es el beneficio de inventario?",
       "answers": [

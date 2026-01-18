@@ -1,7 +1,253 @@
 {
   "file_number": 0,
-  "file_name": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 06 10 25.docx",
+  "file_name": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 16 12 25.docx",
+  "meta": {
+    "batch_start": 1,
+    "batch_end": 20,
+    "total_questions": 20,
+    "source_format": "docx"
+  },
   "questions": [
+    {
+      "question": "1.\t¿Qué se considera un agravante en el caso de hurtos?",
+      "answers": [
+        { "text": "Neutralizar dispositivos de alarma. - CORRETTA", "correct": true },
+        { "text": "Sustraer bienes en horarios nocturnos.", "correct": false },
+        { "text": "Actuar con un cómplice.", "correct": false },
+        { "text": "Robar en un establecimiento comercial.", "correct": false }
+      ],
+      "explanation": "ES: En el hurto, el CP prevé una agravación específica cuando durante la comisión se neutralizan/eliminan/inutilizan los dispositivos de alarma o seguridad instalados en las cosas sustraídas: la pena se impone en su mitad superior (art. 234.3 CP). Por eso 'Neutralizar dispositivos de alarma' actúa como agravante. Sustraer en horario nocturno no es una agravante típica del hurto; actuar con un cómplice no agrava por sí solo (solo lo haría si concurren circunstancias específicas como uso de menores u organización/grupo criminal, art. 235 CP); y 'Robar en un establecimiento comercial' remite al delito de robo (arts. 237 ss.), no a una agravación del hurto.\nIT: Nel furto, il CP prevede un’aggravante specifica quando si neutralizzano/eliminano/inutilizzano dispositivi di allarme o sicurezza installati sui beni sottratti: la pena si applica nella metà superiore (art. 234.3 CP). Perciò la neutralizzazione dell’allarme è aggravante. Il fatto avvenga di notte non è aggravante tipica del furto; agire con un complice non aggrava automaticamente (salvo ipotesi tipiche come uso di minori/organizzazione: art. 235 CP); e 'robare in un esercizio commerciale' riguarda il 'robo', non un’aggravante del 'hurto'.",
+      "legal_reference": "CP art. 234.3; art. 235; arts. 237 ss.",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 16 12 25.docx"
+    },
+    {
+      "question": "2.\t¿Cuál de los siguientes elementos no es un requisito para cometer el delito de hurto del artículo 234.1 del Código Penal?",
+      "answers": [
+        { "text": "Que el objeto material sobre el que recae la acción sea una cosa mueble.", "correct": false },
+        { "text": "Ánimo de lucro.", "correct": false },
+        { "text": "Que la cuantía no supere los 400 euros. - CORRETTA", "correct": true },
+        { "text": "Que no concurra la voluntad del dueño.", "correct": false }
+      ],
+      "explanation": "ES: El hurto del art. 234.1 CP exige apoderarse de cosa mueble ajena, sin la voluntad del dueño y con ánimo de lucro; además, para el 234.1 la cuantía de lo sustraído debe exceder de 400 € (si no excede, se aplica el 234.2 como hurto leve con multa). Por eso NO es requisito 'que la cuantía no supere los 400 euros'. Las otras opciones describen elementos típicos del hurto.\nIT: Il 'hurto' dell’art. 234.1 CP richiede impossessamento di cosa mobile altrui, senza consenso del proprietario e con fine di lucro; inoltre, per il 234.1 la quantia deve superare 400 € (se non supera, vale il 234.2 come forma lieve con multa). Quindi NON è requisito che 'la quantía no supere los 400 euros'. Le altre opzioni sono elementi tipici.",
+      "legal_reference": "CP art. 234.1–2",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 16 12 25.docx"
+    },
+    {
+      "question": "3.\t¿Cuál de las siguientes no es una agravante del delito de hurto?",
+      "answers": [
+        { "text": "Sustracción de cosas de valor científico.", "correct": false },
+        { "text": "Sustracción de cosas de valor artístico.", "correct": false },
+        { "text": "Sustracción de conducciones de suministro eléctrico.", "correct": false },
+        { "text": "Utilización de menores de 18 años para la comisión del delito. - CORRETTA", "correct": true }
+      ],
+      "explanation": "ES: El art. 235.1 CP agrava el hurto, entre otros, por valor artístico/histórico/cultural/científico (n.º 1) y por conducciones/cableado/infraestructuras de suministro eléctrico, etc., con quebranto grave (n.º 3). También agrava si se utiliza a menores de dieciséis años (n.º 8). No contempla 'menores de 18 años' como agravante del hurto; por eso esa opción es la NO agravante.\nIT: L’art. 235.1 CP qualifica il furto per beni di valore artistico/storico/culturale/scientifico (n. 1) e per sottrazione di infrastrutture di fornitura con danno grave (n. 3), e prevede aggravante per uso di minori di 16 anni (n. 8). Non prevede l’uso di minori 'di 18 anni' come aggravante del hurto; quindi quella è l’opzione non aggravante.",
+      "legal_reference": "CP art. 235.1.1ª, 235.1.3ª, 235.1.8ª",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 16 12 25.docx"
+    },
+    {
+      "question": "4.\t¿Cuál de los siguientes elementos no es necesario que concurra para el delito de sustracción de cosa propia?",
+      "answers": [
+        { "text": "Ánimo de lucro. - CORRETTA", "correct": true },
+        { "text": "Que el autor sea dueño de la cosa o actúe con consentimiento de éste.", "correct": false },
+        { "text": "Que el sujeto pasivo tenga la cosa en su poder.", "correct": false },
+        { "text": "Que el sujeto pasivo posea la cosa legítimamente.", "correct": false }
+      ],
+      "explanation": "ES: La sustracción de cosa propia (art. 236 CP) castiga al propietario (o quien actúe con su consentimiento) que sustrae una cosa mueble propia a quien la tiene legítimamente en su poder, causándole perjuicio. El tipo no exige ánimo de lucro; por eso no es elemento necesario. En cambio, sí es necesario que el autor sea dueño o actúe con su consentimiento y que el sujeto pasivo tenga la cosa legítimamente en su poder.\nIT: La sottrazione di cosa propria (art. 236 CP) riguarda il proprietario (o chi agisce col suo consenso) che sottrae una cosa mobile propria a chi la detiene legittimamente, arrecando un pregiudizio. Il tipo non richiede animus lucri; quindi non è elemento necessario. Sono invece necessari proprietà/consenso e detenzione legittima del soggetto passivo.",
+      "legal_reference": "CP art. 236",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 16 12 25.docx"
+    },
+    {
+      "question": "5.\t¿Qué sucede si se neutralizan los dispositivos de seguridad durante la comisión de un hurto?",
+      "answers": [
+        { "text": "La penas se imponen en su mitad superior- CORRETTA", "correct": true },
+        { "text": "Las penas son reducidas a la mitad", "correct": false },
+        { "text": "No hay consecuencias adicionales", "correct": false },
+        { "text": "Se aplican sanciones administrativas", "correct": false }
+      ],
+      "explanation": "ES: El art. 234.3 CP dispone que las penas del hurto se impondrán en su mitad superior cuando se neutralicen/eliminan/inutilicen los dispositivos de alarma o seguridad instalados en las cosas sustraídas. Por eso la consecuencia es la imposición en mitad superior, y no una reducción, ni ausencia de efectos, ni una mera sanción administrativa.\nIT: L’art. 234.3 CP prevede l’applicazione della pena nella metà superiore quando si neutralizzano/eliminano/inutilizzano dispositivi di allarme o sicurezza dei beni sottratti. Quindi si applica la metà superiore, non una riduzione, né l’assenza di conseguenze, né sole sanzioni amministrative.",
+      "legal_reference": "CP art. 234.3",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 16 12 25.docx"
+    },
+    {
+      "question": "6.\t¿Cuál de los siguientes supuestos no se considera empleo de fuerza en las cosas en el delito de robo?",
+      "answers": [
+        { "text": "Escalamiento.", "correct": false },
+        { "text": "Neutralización de dispositivos de seguridad. - CORRETTA", "correct": true },
+        { "text": "Inutilización de sistemas específicos de alarma o guarda.", "correct": false },
+        { "text": "Rompimiento de techo.", "correct": false }
+      ],
+      "explanation": "ES: La 'fuerza en las cosas' del robo se concreta en las modalidades del art. 238 CP (p. ej., escalamiento; rompimiento de techo; inutilización de sistemas específicos de alarma o guarda). La 'neutralización de dispositivos de seguridad' referida a dispositivos instalados en los objetos sustraídos aparece expresamente en el hurto (art. 234.3) como agravación, pero no como modalidad típica del art. 238. Por eso esa opción es la que no se considera empleo de fuerza en las cosas en el robo, mientras que las demás sí encajan en el art. 238.\nIT: La forza nelle cose del 'robo' è definita dalle modalità dell’art. 238 CP (scalamento; rottura di tetto; inutilizzazione di sistemi specifici di allarme o guarda). La neutralizzazione di dispositivi di sicurezza (su beni sottratti) è prevista nel furto come aggravante (art. 234.3) e non come modalità tipica del 238; quindi è l’opzione che non integra 'fuerza' nel robo, mentre le altre sì.",
+      "legal_reference": "CP art. 238.1, 238.2, 238.5; art. 234.3",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 16 12 25.docx"
+    },
+    {
+      "question": "7.\tIndique cuál de las siguientes respuestas no es un requisito para el delito de robo o hurto de uso de vehículos a motor del artículo 244.1 del Código Penal:",
+      "answers": [
+        { "text": "Emplear fuerza en las cosas. - CORRETTA", "correct": true },
+        { "text": "Ánimo de uso.", "correct": false },
+        { "text": "Actuar sin autorización del propietario.", "correct": false },
+        { "text": "Todas las anteriores son correctas.", "correct": false }
+      ],
+      "explanation": "ES: El art. 244.1 CP configura el uso de vehículo (robo/hurto de uso) como sustracción o utilización sin autorización y sin ánimo de apropiárselo (ánimo de uso). La fuerza en las cosas no es requisito del tipo básico; si se emplea fuerza, opera como regla de agravación de la pena (art. 244.2: mitad superior). Por eso 'Emplear fuerza en las cosas' no es requisito.\nIT: L’art. 244.1 CP punisce l’uso del veicolo senza autorizzazione e senza intenzione di appropriarsene (solo uso). La forza nelle cose non è requisito del tipo base; se presente, incide solo sulla pena (art. 244.2: metà superiore). Quindi la forza non è requisito.",
+      "legal_reference": "CP art. 244.1–2",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 16 12 25.docx"
+    },
+    {
+      "question": "8.\tSeñale la respuesta incorrecta. El delito de usurpación recogido en el artículo 246 del Código Penal recae sobre los siguientes elementos:",
+      "answers": [
+        { "text": "Lindes.", "correct": false },
+        { "text": "Mojones.", "correct": false },
+        { "text": "Términos.", "correct": false },
+        { "text": "Todas las anteriores son correctas. - CORRETTA", "correct": true }
+      ],
+      "explanation": "ES: El art. 246 CP sanciona la alteración de 'términos o lindes' y de 'señales o mojones' destinados a fijar límites. Por ello, lindes, mojones y términos están comprendidos y la conclusión correcta es que todas las anteriores son correctas. Nota: aunque el enunciado pida 'respuesta incorrecta', conforme a la literalidad del art. 246 no hay una opción materialmente incorrecta entre a), b) y c); la respuesta global correcta es la d).\nIT: L’art. 246 CP punisce l’alterazione di 'términos o lindes' e delle 'señales o mojones' che fissano i confini. Quindi a), b) e c) rientrano tutte, e la conclusione corretta è 'tutte le precedenti'. Nota: sebbene l’enunciato dica 'incorrecta', secondo la lettera del 246 non c’è un’opzione realmente errata tra a), b) e c); la risposta complessiva corretta è la d).",
+      "legal_reference": "CP art. 246.1–2",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 16 12 25.docx"
+    },
+    {
+      "question": "9.\t¿Cuál de las siguientes respuestas no es un requisito del delito de estafa del artículo 248 del Código Penal?",
+      "answers": [
+        { "text": "Ánimo de lucro.", "correct": false },
+        { "text": "Engaño bastante.", "correct": false },
+        { "text": "Que la cuantía de lo defraudado exceda de 400 euros. - CORRETTA", "correct": true },
+        { "text": "Intentar producir error en otro.", "correct": false }
+      ],
+      "explanation": "ES: La estafa (art. 248 CP) exige ánimo de lucro, engaño bastante para producir error y que ese error induzca a un acto de disposición en perjuicio. No se exige que la cuantía exceda de 400 € para que exista estafa; si no excede, el CP prevé una pena de multa, pero el tipo se configura igualmente. Por eso no es requisito superar 400 €. La opción d) se integra en la idea de engaño bastante orientado a provocar error.\nIT: La truffa (art. 248 CP) richiede fine di lucro, inganno idoneo a provocare errore e atto di disposizione in danno. Non è necessario superare 400 € per integrare il reato: sotto tale soglia cambia la pena (multa), ma il fatto resta tipico. Quindi non è requisito superare 400 €. L’opzione d) è coerente con l’inganno volto a generare errore.",
+      "legal_reference": "CP art. 248",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 16 12 25.docx"
+    },
+    {
+      "question": "10.\tIndique cuál de las siguientes no es una agravante del delito de estafa:",
+      "answers": [
+        { "text": "Que recaiga sobre bienes de reconocida utilidad social.", "correct": false },
+        { "text": "Que supere la cuantía de 400 euros el valor de lo defraudado. - CORRETTA", "correct": true },
+        { "text": "Que se realice abusando de firma de otro.", "correct": false },
+        { "text": "Que recaiga sobre bienes que integren el patrimonio histórico.", "correct": false }
+      ],
+      "explanation": "ES: Las agravantes específicas de la estafa están en el art. 250 CP (p. ej., bienes de reconocida utilidad social; abuso de firma de otro; patrimonio histórico, etc.). Superar 400 € no es agravante: es un umbral relevante para la pena (cuando no excede, el CP prevé multa), pero no un supuesto cualificado del art. 250. Por eso la opción b) no es agravante.\nIT: Le aggravanti della estafa sono nell’art. 250 CP (utilità sociale, abuso della firma altrui, patrimonio storico, ecc.). Superare 400 € non è aggravante: incide sul regime sanzionatorio (sotto 400 € multa), ma non è un’ipotesi qualificata del 250. Quindi la b) non è aggravante.",
+      "legal_reference": "CP art. 250.1; art. 248 (umbral 400€)",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 16 12 25.docx"
+    },
+    {
+      "question": "11.\tSeñale cuál de los siguientes elementos no es un requisito del delito de apropiación indebida tipificado en el artículo 253 del Código Penal:",
+      "answers": [
+        { "text": "Que el sujeto activo sea el legítimo propietario de la cosa, pero no poseedor. - CORRETTA", "correct": true },
+        { "text": "Actuar en perjuicio de otro.", "correct": false },
+        { "text": "Que el objeto sobre el que recaiga sea una cosa mueble.", "correct": false },
+        { "text": "Que la apropiación sea para sí o para un tercero.", "correct": false }
+      ],
+      "explanation": "ES: La apropiación indebida (art. 253 CP) la comete quien, en perjuicio de otro, se apropia para sí o para un tercero de dinero/efectos/valores u otra cosa mueble que recibió con obligación de devolver/entregar (depósito, comisión, custodia, etc.), o niega haberla recibido. No es requisito que el autor sea el propietario; al contrario, típicamente es quien tiene la cosa en su poder por un título legítimo de tenencia y la hace suya. Las demás opciones sí son elementos del tipo.\nIT: L’appropriazione indebita (art. 253 CP) richiede che l’autore, a danno di altri, si appropri per sé o per un terzo di denaro o cosa mobile ricevuta con obbligo di restituzione/consegna, o neghi di averla ricevuta. Non serve che sia proprietario; di regola è detentore/possessore legittimo e non proprietario. Le altre opzioni sono requisiti tipici.",
+      "legal_reference": "CP art. 253",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 16 12 25.docx"
+    },
+    {
+      "question": "12.\tSeñale cuál de los siguientes elementos es un requisito del delito de administración desleal:",
+      "answers": [
+        { "text": "Que el perjuicio patrimonial supere los 400 euros.", "correct": false },
+        { "text": "Que recaiga sobre bienes ajenos que le han sido entregados con la obligación de devolverlos.", "correct": false },
+        { "text": "Que cause un perjuicio al patrimonio del administrado. - CORRETTA", "correct": true },
+        { "text": "Que recaiga sobre una cosa mueble.", "correct": false }
+      ],
+      "explanation": "ES: La administración desleal (art. 252 CP) exige que el sujeto tenga facultades para administrar un patrimonio ajeno y que, excediéndose en su ejercicio, cause un perjuicio al patrimonio administrado. No requiere como elemento que el perjuicio supere 400 € (la cuantía solo puede incidir en el régimen punitivo). Tampoco exige que los bienes hayan sido entregados con obligación de devolver (eso caracteriza la apropiación indebida del art. 253) ni que recaiga solo sobre cosa mueble. Por eso el requisito es causar perjuicio al patrimonio del administrado.\nIT: L’art. 252 CP richiede poteri di amministrazione su patrimonio altrui e abuso/oltrepassamento con danno al patrimonio amministrato. Non è requisito del tipo superare 400 € (la soglia incide solo sulla pena), né serve consegna con obbligo di restituzione (art. 253), né limitazione a cosa mobile. Quindi il requisito è il pregiudizio al patrimonio amministrato.",
+      "legal_reference": "CP art. 252",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 16 12 25.docx"
+    },
+    {
+      "question": "13.\tRespecto al delito de frustración de la ejecución tipificado en el artículo 258 del Código Penal, indique cuál de las siguientes respuestas no representa un requisito del mismo:",
+      "answers": [
+        { "text": "Que el sujeto activo sea administrador de hecho o de derecho de la sociedad. - CORRETTA", "correct": true },
+        { "text": "Que la relación de bienes presentada sea incompleta o mendaz.", "correct": false },
+        { "text": "Que se dificulte o impida la satisfacción del acreedor.", "correct": false },
+        { "text": "Que se esté en un procedimiento de ejecución judicial o administrativo.", "correct": false }
+      ],
+      "explanation": "ES: El art. 258 CP castiga a quien, en un procedimiento de ejecución judicial o administrativo, presenta una relación de bienes incompleta o mendaz y con ello dilata/dificulta/impide la satisfacción del acreedor (o, requerido, deja de facilitarla). El sujeto activo es el deudor ejecutado; no se exige ser administrador de hecho o de derecho de una sociedad (aunque podría coincidir en casos concretos). Por eso esa condición no es requisito.\nIT: L’art. 258 CP punisce chi, in un’esecuzione giudiziale o amministrativa, presenta un elenco di beni incompleto o mendace (o non lo presenta quando richiesto) e così ostacola la soddisfazione del creditore. L’autore è il debitore esecutato; non è requisito essere amministratore di società. Quindi quell’elemento non è richiesto.",
+      "legal_reference": "CP art. 258.1–2",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 16 12 25.docx"
+    },
+    {
+      "question": "14.\tSeñale la respuesta incorrecta. En los delitos contra el patrimonio y contra el orden socioeconómico, según el artículo 268 del Código Penal, están exentos de responsabilidad criminal:",
+      "answers": [
+        { "text": "Los cónyuges que no estuvieren separados.", "correct": false },
+        { "text": "Los afines en primer grado que viviesen separados. - CORRETTA", "correct": true },
+        { "text": "Los descendientes por adopción.", "correct": false },
+        { "text": "Los ascendientes.", "correct": false }
+      ],
+      "explanation": "ES: El art. 268 CP exime de responsabilidad criminal (y deja la civil) por ciertos delitos patrimoniales entre cónyuges no separados y entre ascendientes, descendientes (por naturaleza o adopción) y hermanos. Para los afines en primer grado, la exención solo opera si viviesen juntos. Por eso es incorrecto afirmar que están exentos los afines en primer grado que viviesen separados.\nIT: L’art. 268 CP prevede esenzione penale (solo responsabilità civile) per reati patrimoniali tra coniugi non separati e tra ascendenti, discendenti (anche adottivi) e fratelli; per gli affini di primo grado vale solo se convivono. Quindi è errata l’opzione sugli affini che vivono separati.",
+      "legal_reference": "CP art. 268.1",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 16 12 25.docx"
+    },
+    {
+      "question": "15.\tEs agravante del delito de daños conocido como sabotaje informático recogida en el artículo 264.2 del Código Penal:",
+      "answers": [
+        { "text": "Cuando para la ejecución se haya utilizado a menores de 16 años.", "correct": false },
+        { "text": "Cuando se hubiese cometido en el marco de una organización criminal. - CORRETTA", "correct": true },
+        { "text": "Cuando la cuantía de los daños supere los 400 euros.", "correct": false },
+        { "text": "Todas las respuestas son incorrectas.", "correct": false }
+      ],
+      "explanation": "ES: El art. 264.2 CP prevé un subtipo agravado cuando concurre alguna circunstancia, entre ellas haberse cometido en el marco de una organización criminal (264.2.1ª). El uso de menores de 16 años no aparece como agravante en ese precepto, y la agravación no se define por un umbral general de 400 €. Por ello, la opción correcta es la comisión en organización criminal.\nIT: L’art. 264.2 CP prevede aggravanti, tra cui la commissione nell’ambito di un’organizzazione criminale (264.2.1ª). Non è prevista qui come tale l’uso di minori di 16 anni, né un criterio basato semplicemente sulla soglia di 400 €. Quindi l’aggravante è l’organizzazione criminale.",
+      "legal_reference": "CP art. 264.2.1ª",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 16 12 25.docx"
+    },
+    {
+      "question": "16.\t¿Cuál de las siguientes conductas no constituye la acción del delito contra la propiedad intelectual tipificado en el artículo 270 del Código Penal?",
+      "answers": [
+        { "text": "Comunicación privada. - CORRETTA", "correct": true },
+        { "text": "Distribución.", "correct": false },
+        { "text": "Plagio.", "correct": false },
+        { "text": "Comunicación pública.", "correct": false }
+      ],
+      "explanation": "ES: El art. 270.1 CP tipifica reproducir, plagiar, distribuir y comunicar públicamente, u otras formas de explotación económica sin autorización. La 'comunicación privada' no se identifica como acción típica del 270 (y, por definición, no es comunicación pública). En cambio, distribución, plagio y comunicación pública sí figuran expresamente.\nIT: L’art. 270.1 CP punisce riproduzione, plagio, distribuzione e comunicazione pubblica (o altra sfruttamento economico) senza autorizzazione. La comunicazione privata non è indicata come condotta tipica del 270. Al contrario, distribuzione, plagio e comunicazione pubblica sono condotte tipiche.",
+      "legal_reference": "CP art. 270.1",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 16 12 25.docx"
+    },
+    {
+      "question": "17.\t¿Cuál de los siguientes no puede ser objeto del delito contra la propiedad intelectual del artículo 270 del Código Penal?",
+      "answers": [
+        { "text": "Prestación literaria.", "correct": false },
+        { "text": "Citación de una obra científica. - CORRETTA", "correct": true },
+        { "text": "Transformación de una obra literaria.", "correct": false },
+        { "text": "Ejecución artística de una obra.", "correct": false }
+      ],
+      "explanation": "ES: El art. 270 CP tiene por objeto obras o prestaciones literarias, artísticas o científicas y también su transformación, interpretación o ejecución artística. Por eso 'prestación literaria', 'transformación' y 'ejecución artística' encajan como posibles objetos. En cambio, la 'citación' es un uso (derecho de cita) regulado por la normativa de propiedad intelectual y no constituye, por sí misma, el objeto del delito en los términos del art. 270.\nIT: L’oggetto dell’art. 270 CP sono opere o prestazioni letterarie/artistiche/scientifiche e le loro trasformazioni, interpretazioni o esecuzioni artistiche. Quindi rientrano 'prestación literaria', 'transformación' ed 'ejecución artística'. La 'citación' è invece un uso (diritto di citazione) disciplinato dal diritto d’autore e non è, di per sé, l’oggetto dell’offesa nei termini del 270.",
+      "legal_reference": "CP art. 270.1; TRLPI (RDL 1/1996) art. 32 (derecho de cita)",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 16 12 25.docx"
+    },
+    {
+      "question": "18.\t¿Cuál de los siguientes elementos no constituye una agravante del delito contra la propiedad intelectual recogida en el artículo 271 del Código Penal?",
+      "answers": [
+        { "text": "Que se utilice a personas desvalidas para cometer el delito. - CORRETTA", "correct": true },
+        { "text": "Que el beneficio posea especial trascendencia económica.", "correct": false },
+        { "text": "Que los hechos revistan especial gravedad.", "correct": false },
+        { "text": "Que se utilice a menores de 18 años para cometer estos delitos.", "correct": false }
+      ],
+      "explanation": "ES: El art. 271 CP agrava el delito del art. 270 cuando el beneficio tenga especial trascendencia económica, los hechos revistan especial gravedad, el culpable pertenezca a una organización o se utilice a menores de 18 años. No contempla como agravante la utilización de 'personas desvalidas'; por eso esa opción no constituye agravante.\nIT: L’art. 271 CP prevede aggravanti (rilevanza economica del beneficio, gravità dei fatti, organizzazione, uso di minori di 18 anni). Non menziona l’impiego di persone 'desvalidas'; quindi tale elemento non è aggravante ex 271.",
+      "legal_reference": "CP art. 271",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 16 12 25.docx"
+    },
+    {
+      "question": "19.\tSeñale la respuesta incorrecta. Según el delito relativo al mercado y a los consumidores tipificado en el artículo 282 bis del CP, la conducta delictiva se lleva a cabo con el pretexto de:",
+      "answers": [
+        { "text": "Colocar cualquier tipo de activo financiero.", "correct": false },
+        { "text": "Captar inversores.", "correct": false },
+        { "text": "Emitir instrumentos financieros.", "correct": true },
+        { "text": "Obtener financiación por cualquier medio. - CORRETTA", "correct": false }
+      ],
+      "explanation": "ES: El art. 282 bis CP menciona como propósito del falseamiento 'captar inversores o depositantes', 'colocar cualquier tipo de activo financiero' u 'obtener financiación por cualquier medio'. Por tanto, a), b) y d) sí aparecen en el precepto; la que NO aparece es 'Emitir instrumentos financieros', que es la respuesta incorrecta. Nota: en el texto proporcionado, la opción d figura marcada como 'CORRETTA', pero según la literalidad del art. 282 bis la opción d es correcta (no incorrecta).\nIT: L’art. 282 bis CP indica lo scopo di captare investitori/depositanti, collocare attivi finanziari o ottenere finanziamento con qualsiasi mezzo. Quindi a), b) e d) sono previste; non lo è 'emitir instrumentos financieros', che è la risposta 'incorrecta'. Nota: nel testo fornito d) è marcata 'CORRETTA', ma alla lettera del 282 bis d) è invece corretta.",
+      "legal_reference": "CP art. 282 bis",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 16 12 25.docx"
+    },
+    {
+      "question": "20.\t¿Cuál de los siguientes elementos no es un requisito del delito tipificado en el artículo 274.4 del CP relativo a propiedad industrial en relación con títulos de obtención vegetal?",
+      "answers": [
+        { "text": "Actuar sin consentimiento del titular.", "correct": false },
+        { "text": "Actuar con conocimiento de su registro.", "correct": false },
+        { "text": "Actuar con fines agrarios o comerciales.", "correct": false },
+        { "text": "Incorporar signo distintivo idéntico o confundible. - CORRETTA", "correct": true }
+      ],
+      "explanation": "ES: El art. 274.4 CP (títulos de obtención vegetal) exige actuar sin consentimiento del titular, con conocimiento del registro y con fines agrarios o comerciales, realizando actos sobre material vegetal de reproducción (producir/reproducir, ofrecer, vender, importar/exportar, poseer, etc.). No exige 'incorporar signo distintivo idéntico o confundible': ese elemento pertenece a la protección de marcas del art. 274.1. Por eso no es requisito del 274.4.\nIT: L’art. 274.4 CP (titoli di ottenimento vegetale) richiede assenza di consenso, conoscenza della registrazione e finalità agrarie/commerciali, con atti su materiale vegetale di riproduzione. Non richiede l’inserimento di un segno distintivo identico/confondibile: ciò è tipico della disciplina dei marchi (art. 274.1). Quindi non è requisito del 274.4.",
+      "legal_reference": "CP art. 274.4; (contraste) art. 274.1",
+      "original_file": "TEST PENAL III 1° parcial CON RISPOSTE AGGIORNATO AL 16 12 25.docx"
+    },
     {
       "question": "13. ¿Cuál de los siguientes elementos no es un requisito del delito de hurto del artículo 234 del CP?",
       "answers": [
