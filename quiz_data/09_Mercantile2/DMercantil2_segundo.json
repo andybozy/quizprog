@@ -3,366 +3,6 @@
   "file_name": "D. Mercantil II 2 ° parcial AGGIORNATO 06 10 25.docx",
   "questions": [
     {
-      "question": "Entre las causas legales de exclusión del socio no se encuentra",
-      "answers": [
-        { "text": "no realizar prestaciones accesorias", "correct": false },
-        { "text": "violacion de la prohibicion de competencia", "correct": false },
-        { "text": "la condena a los administradores.", "correct": false },
-        { "text": "la que figure en los estatutos sociales", "correct": true }
-      ],
-      "explanation": "ES: En la SL, las causas legales de exclusión vienen tipificadas por la LSC (causas “legales”) y, además, la Ley permite que los estatutos añadan otras (causas “estatutarias”). La pregunta pide la que NO es una causa legal.\n- A: Sí es causa legal: el incumplimiento de prestaciones accesorias habilita la exclusión (LSC art. 350).\n- B: Sí es causa legal cuando concurre el supuesto típico del socio-administrador que infringe la prohibición de competencia (LSC art. 350).\n- C: La LSC contempla como causa legal la condena por sentencia firme del socio que sea administrador a indemnizar a la sociedad (no “cualquier condena a administradores” en abstracto). En su formulación genérica, la opción no encaja como categoría autónoma distinta, pero el instituto de la “condena” está en la LSC como causa legal cuando afecta al socio-administrador.\n- D: Lo que “figure en los estatutos” es una causa estatutaria (adicional), no una causa legal en sentido estricto; por eso es la que no se incluye entre las causas legales.\nIT: Nella SRL (SL) le cause di esclusione “legali” sono quelle tipizzate dalla LSC; a parte, la legge consente che lo statuto preveda ulteriori cause (cause “statutarie”). Qui si chiede quale NON rientra tra le cause legali.\n- A: È causa legale: l’inadempimento di prestazioni accessorie consente l’esclusione (LSC art. 350).\n- B: È causa legale nel caso tipico del socio-amministratore che viola il divieto di concorrenza (LSC art. 350).\n- C: La LSC prevede la “condanna con sentenza ferma” del socio che sia amministratore a risarcire la società come causa legale; non qualsiasi condanna di amministratori in generale. Per questo, così formulata, non è la categoria corretta per individuare l’esclusione “legale” distinta.\n- D: La causa “prevista nello statuto” è statutarIa (ammessa dalla legge) ma non è “legale” in senso stretto; quindi è la risposta corretta alla domanda.",
-      "legal_reference": "Ley de Sociedades de Capital (RDL 1/2010): arts. 350 (causas legales de exclusión en SL), 351 (causas estatutarias de exclusión, régimen general).",
-      "original_file": "D. Mercantil II 2 ° parcial AGGIORNATO 06 10 25.docx"
-    },
-    {
-      "question": "Cual de las siguientes respuestas no es cierta en relación con la acción social de responsabilidad contra los administradores sociales.",
-      "answers": [
-        { "text": "Sólo podrá entablarse por la sociedad previo acuerdo de Junta General", "correct": false },
-        { "text": "Podrá entablarse por el socio en caso de que la sociedad no la ejercite.", "correct": true },
-        { "text": "De acordarse por la Junta supondrá la destitución del administrador contra quien se ejercite", "correct": false },
-        { "text": "Es acumulable con la acción de impugnación", "correct": false }
-      ],
-      "explanation": "ES: La acción social busca resarcir a la sociedad por daños causados por administradores; la titularidad del interés protegido es social.\n- A: Regla general: la sociedad ejercita la acción previa decisión de junta (LSC art. 238). Aunque existan legitimaciones subsidiarias (minoría/acreedores), como regla estructural es correcta.\n- B: No es cierta tal como está formulada: no cualquier socio puede ejercitarla “si la sociedad no la ejercita”; la LSC exige requisitos de legitimación (p. ej., minoría cualificada) y presupuestos procedimentales (LSC art. 239) y, en su caso, legitimación de acreedores (LSC art. 240). Por eso es la opción incorrecta.\n- C: La adopción del acuerdo de ejercicio implica la destitución del administrador afectado (LSC art. 238.3), salvo matices previstos legalmente.\n- D: Es compatible procesalmente acumular pretensiones (p. ej., impugnación de acuerdos y acción de responsabilidad) si se cumplen requisitos de acumulación en la LEC; la LSC no establece una incompatibilidad general.\nIT: L’azione sociale di responsabilità mira a reintegrare il patrimonio sociale danneggiato dagli amministratori.\n- A: Regola generale: la società agisce previa delibera assembleare (LSC art. 238), pur esistendo legittimazioni sussidiarie.\n- B: Non è vera come assoluto: non “il socio” in generale, ma solo soci legittimati (minoranza qualificata) e/o creditori in casi tipici possono promuoverla se la società non agisce (LSC artt. 239–240).\n- C: La delibera di esercizio comporta la revoca dell’amministratore interessato (LSC art. 238.3).\n- D: In linea di principio è cumulabile con altre azioni (es. impugnazione) se ammissibile in rito (LEC, regole sull’accumulo) e se non vi sono incompatibilità specifiche.\n",
-      "legal_reference": "LSC arts. 238 (acción social; acuerdo de junta; efecto de destitución), 239 (legitimación de socios/minoría), 240 (legitimación de acreedores). LEC art. 71 (acumulación objetiva de acciones, criterio general).",
-      "original_file": "D. Mercantil II 2 ° parcial AGGIORNATO 06 10 25.docx"
-    },
-    {
-      "question": "Conforme al régimen de responsabilidad de las administradores sociales podrá requerirse a estos:",
-      "answers": [
-        { "text": "El pago de las deudas sociales, dado la negligencia con que desarrollan los actos de administración.", "correct": false },
-        { "text": "La reparación del daño causado a la sociedad, a los socios y los terceros como consecuencia de los actos de administración que realizan.", "correct": true },
-        { "text": "Los administradores sociales no serán responsables sino la propia sociedad.", "correct": false },
-        { "text": "El pago de las deudas de carácter tributario y de seguridad social.", "correct": false }
-      ],
-      "explanation": "ES: El régimen general de responsabilidad de administradores en la LSC es resarcitorio: responde quien causa daño por actos u omisiones contrarios a la ley/estatutos o por incumplimiento del deber de diligencia.\n- A: Incorrecta: la regla general no impone al administrador “pagar las deudas sociales” por simple negligencia. La responsabilidad por deudas sociales es un régimen específico y tasado (p. ej., por incumplimiento de deberes en causa de disolución: LSC art. 367), no la regla general.\n- B: Correcta: procede exigir reparación del daño causado a sociedad, socios y terceros en los supuestos del régimen de responsabilidad (LSC arts. 236–241).\n- C: Incorrecta: la LSC prevé responsabilidad personal (solidaria en muchos casos) de los administradores; no queda circunscrita “a la propia sociedad”.\n- D: Incorrecta en el marco LSC general: la responsabilidad tributaria y de Seguridad Social se rige por normativa específica (LGT/LGSS), aunque pueda concurrir en casos concretos; no es la formulación típica del régimen societario general.\nIT: La responsabilità degli amministratori (LSC) è, in via generale, risarcitoria.\n- A: Errata: non c’è un obbligo generale di “pagare i debiti sociali” per mera negligenza; esiste un regime speciale di responsabilità per debiti in causa di scioglimento (LSC art. 367).\n- B: Corretta: si può richiedere il risarcimento del danno a società, soci e terzi per atti/omissioni illeciti o colposi (LSC artt. 236–241).\n- C: Errata: gli amministratori rispondono personalmente (spesso in solido) nei casi previsti.\n- D: Errata come regola LSC: la responsabilità per tributi e contributi segue discipline speciali, pur potendo cumularsi in concreto.\n",
-      "legal_reference": "LSC arts. 236–241 (responsabilidad de administradores; acción social e individual). LSC art. 367 (responsabilidad por deudas, supuesto específico).",
-      "original_file": "D. Mercantil II 2 ° parcial AGGIORNATO 06 10 25.docx"
-    },
-    {
-      "question": "El nombramiento de administrador en una sociedad de capital surte efecto:",
-      "answers": [
-        { "text": "Desde la fecha en la que junta acordó su designación", "correct": false },
-        { "text": "Desde la fecha en que el administrador aceptó su cargo", "correct": true },
-        { "text": "Desde la fecha en que dicho nombramiento se inscribe en el Registro Mercantil", "correct": false },
-        { "text": "Desde el momento en que su nombramiento se elevó a escritura pública", "correct": false }
-      ],
-      "explanation": "ES: En sociedades de capital, el nombramiento se perfecciona con la aceptación del cargo por el designado; la inscripción cumple función de publicidad, no de constitución del vínculo interno.\n- A: Incorrecta: el acuerdo de junta designa, pero si no hay aceptación no nace plenamente el ejercicio del cargo (y no se activan del mismo modo deberes/funciones).\n- B: Correcta: la aceptación determina el efecto del nombramiento (LSC art. 215).\n- C: Incorrecta: la inscripción registral es exigible y relevante frente a terceros por la publicidad, pero el efecto interno no depende de ella como regla.\n- D: Incorrecta: elevar a escritura es paso habitual para inscribir, pero no es el “momento de eficacia” del cargo frente a la sociedad en términos generales.\nIT: Nelle società di capitali l’efficacia dell’incarico si collega all’accettazione.\n- A: Errata: la delibera nomina, ma senza accettazione non si consolida l’assunzione dell’ufficio.\n- B: Corretta: l’accettazione fa decorrere l’efficacia (LSC art. 215).\n- C: Errata: l’iscrizione ha funzione pubblicitaria, non necessariamente costitutiva dell’efficacia interna.\n- D: Errata: l’atto pubblico è strumentale soprattutto alla pubblicità registrale.\n",
-      "legal_reference": "LSC arts. 214–215 (nombramiento y aceptación de administradores; eficacia).",
-      "original_file": "D. Mercantil II 2 ° parcial AGGIORNATO 06 10 25.docx"
-    },
-    {
-      "question": "El número máximo de miembros del órgano de administración de una sociedad limitada no podrá ser superior a",
-      "answers": [
-        { "text": "15", "correct": false },
-        { "text": "14", "correct": false },
-        { "text": "12", "correct": true },
-        { "text": "10", "correct": false }
-      ],
-      "explanation": "ES: En la SL, cuando exista consejo de administración, la LSC limita su tamaño.\n- A/B/D: Incorrectas: exceden o no coinciden con el máximo legal.\n- C: Correcta: el máximo legal del consejo en la sociedad limitada es 12 miembros (LSC art. 242).\nIT: Nella SL (sociedad limitada) il consiglio di amministrazione, se previsto, ha un limite massimo.\n- A/B/D: Errate.\n- C: Corretta: massimo 12 componenti (LSC art. 242).\n",
-      "legal_reference": "LSC art. 242 (límite máximo del consejo de administración en la sociedad limitada).",
-      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
-    },
-    {
-      "question": "En la sociedad anónima si durante el plazo por el que fueron nombrados los administradores sociales se produjeran alguna vacante sin que existieran suplentes:",
-      "answers": [
-        { "text": "Deberá convocarse inmediatamente junta general para nombrar a 2.", "correct": false },
-        { "text": "Podrá ser designado por el Respirador Mercantil", "correct": false },
-        { "text": "Podrá ser designado por el sistema de cooptación", "correct": true },
-        { "text": "Podrá ser designado por el sistema de representación proporcional", "correct": false }
-      ],
-      "explanation": "ES: En SA, ante vacantes en el consejo sin suplentes, opera la cooptación: el propio consejo puede designar consejeros entre accionistas hasta la primera junta general.\n- A: Incorrecta como regla: no “debe” convocarse inmediatamente para cada vacante; la LSC permite cubrir provisionalmente mediante cooptación y luego la junta decide (LSC art. 244).\n- B: Incorrecta: el Registrador Mercantil puede intervenir en nombramientos de auditores u otros supuestos, pero la cobertura típica de vacantes de consejeros en SA es la cooptación por el consejo, no un “nombramiento por Registrador” en estos términos.\n- C: Correcta: cooptación para ocupar vacantes hasta la primera junta (LSC art. 244).\n- D: Incorrecta: la representación proporcional es un sistema de elección de consejeros por minorías, no un mecanismo de cobertura inmediata de vacantes.\nIT: Nella SA, in caso di vacanza nel consiglio senza supplenti, la legge ammette la cooptazione.\n- A: Errata come regola generale: non è necessario convocare “immediatamente” per ogni vacanza; prima può operare la cooptazione.\n- B: Errata: non è il caso tipico di nomina del Registro.\n- C: Corretta: cooptazione fino alla prima assemblea (LSC art. 244).\n- D: Errata: la rappresentanza proporzionale riguarda l’elezione, non la sostituzione provvisoria.\n",
-      "legal_reference": "LSC art. 244 (Cooptación en la sociedad anónima).",
-      "original_file": "D. Mercantil II 2 ° parcial AGGIORNATO 06 10 25.docx"
-    },
-    {
-      "question": "La elección de consejeros por el sistema de proporcionalidad en la 5L:",
-      "answers": [
-        { "text": "No está permitida legalmente", "correct": false },
-        { "text": "Está permitida siempre que se regule en los estatutos sociales", "correct": true },
-        { "text": "Está permitida, aunque no se regule en los estatutos sociales", "correct": false },
-        { "text": "Está permitida siempre que se nombre por el consejo de administración entre socios y hasta la siguiente junta general a celebrar.", "correct": false }
-      ],
-      "explanation": "ES: El sistema de representación proporcional está tipificado expresamente para la SA; en SL no opera como derecho legal típico, pero puede configurarse estatutariamente si no contradice normas imperativas.\n- A: Demasiado tajante: que no esté previsto como derecho legal típico en SL no equivale a una prohibición absoluta; la autonomía estatutaria permite configurar reglas de nombramiento si no vulneran la LSC.\n- B: Correcta como criterio práctico: en SL, si se quiere un sistema análogo, debe articularse en estatutos.\n- C: Incorrecta: sin previsión estatutaria, no hay un “derecho legal” automático en SL equiparable al del art. 243 para SA.\n- D: Incorrecta: describe un esquema propio de cooptación (vacantes) y además mezcla órgano y plazo; no define el sistema proporcional.\nIT: La rappresentanza proporzionale è tipica della SA; nella SL non opera automaticamente come diritto legale, ma può essere riprodotta per via statutaria nei limiti dell’autonomia.\n- A: Troppo assoluta: assenza di previsione legale tipica non significa divieto totale.\n- B: Corretta: nella SL un sistema “proporzionale” richiede previsione statutaria.\n- C: Errata: non è automatica senza statuto.\n- D: Errata: confonde con cooptazione e non descrive il meccanismo proporzionale.\n",
-      "legal_reference": "LSC art. 243 (representación proporcional en SA). LSC art. 28 (autonomía estatutaria dentro de límites legales).",
-      "original_file": "D. Mercantil II 2 ° parcial AGGIORNATO 06 10 25.docx"
-    },
-    {
-      "question": "Qué órgano de la sociedad nombra al consejero delegado:",
-      "answers": [
-        { "text": "La Junta General", "correct": false },
-        { "text": "El Consejo de Administración", "correct": true },
-        { "text": "La Comisión Ejecutiva", "correct": false },
-        { "text": "La Comisión de Control", "correct": false }
-      ],
-      "explanation": "ES: El consejero delegado es una delegación de facultades del consejo; por tanto, su nombramiento corresponde al propio consejo.\n- A: Incorrecta: la junta nombra administradores (o consejeros), pero el consejero delegado es una figura interna de delegación del consejo.\n- B: Correcta: el consejo acuerda la delegación y nombra consejero delegado (LSC art. 249).\n- C: Incorrecta: la comisión ejecutiva, si existe, deriva también del consejo y no desplaza la competencia básica de nombramiento salvo delegaciones específicas.\n- D: Incorrecta: no es un órgano típico competente para nombrar consejero delegado.\nIT: Il consigliere delegato nasce da una delega del consiglio.\n- A: Errata: l’assemblea non nomina il “delegato” come tale.\n- B: Corretta: nomina e delega competono al consiglio (LSC art. 249).\n- C/D: Errate come regola.\n",
-      "legal_reference": "LSC art. 249 (delegación de facultades del consejo; consejero delegado).",
-      "original_file": "D. Mercantil II 2 ° parcial AGGIORNATO 06 10 25.docx"
-    },
-    {
-      "question": "Para la delegación permanente de las facultades del órgano de administración se requerirá:",
-      "answers": [
-        { "text": "El voto a favor de la mayoría de los componentes del Consejo", "correct": false },
-        { "text": "El voto a favor de la mayoría absoluta de los componentes del Consejo", "correct": false },
-        { "text": "El voto a favor de la totalidad de los componentes del Consejo", "correct": false },
-        { "text": "El voto a favor de las dos terceras partes del número total de componentes del Consejo.", "correct": true }
-      ],
-      "explanation": "ES: La delegación permanente (p. ej., consejero delegado o comisión ejecutiva) exige una mayoría reforzada.\n- A/B/C: Incorrectas: la LSC exige una mayoría cualificada superior a la simple o absoluta, y no requiere unanimidad.\n- D: Correcta: se requiere el voto favorable de las dos terceras partes de los miembros del consejo (LSC art. 249.2), además de cumplir requisitos formales (inscripción, contenido del acuerdo, etc.).\nIT: La delega permanente richiede una maggioranza rafforzata.\n- A/B/C: Errate.\n- D: Corretta: voto favorevole dei due terzi dei componenti (LSC art. 249.2).\n",
-      "legal_reference": "LSC art. 249.2 (mayoría de dos tercios para delegación permanente).",
-      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
-    },
-    {
-      "question": "En las sociedades limitadas si la retribución al órgano de administración se establece en los estatutos sociales su importe máximo no excederá de:",
-      "answers": [
-        { "text": "20% de los beneficios repartibles", "correct": false },
-        { "text": "15% de los beneficios repartibles", "correct": false },
-        { "text": "10% de los beneficios repartibles", "correct": true },
-        { "text": "5% de los beneficios repartibles", "correct": false }
-      ],
-      "explanation": "ES: En SL, si la retribución consiste en participación en beneficios, la LSC fija un límite.\n- A/B/D: Incorrectas: no coinciden con el límite legal.\n- C: Correcta: la participación en beneficios no puede exceder del 10% de los beneficios repartibles (LSC art. 218), con el encaje adicional del régimen general de retribución (LSC art. 217).\nIT: Nella SL, se la remunerazione è partecipazione agli utili, c’è un tetto.\n- A/B/D: Errate.\n- C: Corretta: massimo 10% degli utili distribuibili (LSC art. 218; coordinamento con art. 217).\n",
-      "legal_reference": "LSC arts. 217–218 (régimen de retribución; participación en beneficios y límite en SL).",
-      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
-    },
-    {
-      "question": "La protección de la discrecionalidad empresarial consiste en:",
-      "answers": [
-        { "text": "Actuar como un ordenado comerciante", "correct": false },
-        { "text": "El de anteponer los intereses de la sociedad a los suyo propios", "correct": false },
-        { "text": "fijar el estandar de diligencia exigibile en la forma de declaraciones estrategicas del negocio", "correct": false },
-        { "text": "Todas son correctas", "correct": true }
-      ],
-      "explanation": "ES: La “protección de la discrecionalidad empresarial” (business judgment rule) presume la corrección de decisiones estratégicas si se adoptan con determinados requisitos.\n- A: Conecta con el deber de diligencia (LSC art. 225): actuar como ordenado empresario/representante leal.\n- B: Conecta con el deber de lealtad y la gestión de conflictos de interés (LSC arts. 227 y ss.): anteponer el interés social.\n- C: Conecta directamente con el estándar del art. 226: las decisiones de negocio/estratégicas se valoran con deferencia judicial si hay buena fe, ausencia de interés personal, información suficiente y procedimiento adecuado.\n- D: Correcta: las tres ideas forman parte del marco conceptual (diligencia, lealtad y estándar de revisión de decisiones empresariales).\nIT: La protezione della discrezionalità imprenditoriale (business judgment rule) tutela le scelte strategiche se rispettano requisiti.\n- A: È il dovere di diligenza (LSC art. 225).\n- B: È il dovere di lealtà/assenza di conflitti (LSC artt. 227 ss.).\n- C: È la regola di deferenza per decisioni di business (LSC art. 226: buona fede, assenza di interesse personale, informazione sufficiente, procedura adeguata).\n- D: Corretta: tutte le precedenti descrivono elementi del sistema.\n",
-      "legal_reference": "LSC arts. 225 (diligencia), 226 (protección de la discrecionalidad empresarial), 227–232 (deber de lealtad y conflictos de interés).",
-      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
-    },
-    {
-      "question": "Los acreedores pueden instar la accion de responsabilidad por deudas cuando;",
-      "answers": [
-        { "text": "Cuando el patrimonio neto esté por debajo dela cifra de capital social", "correct": false },
-        { "text": "Cuando la sociedad se encuentra en un proceso concursal", "correct": false },
-        { "text": "Cuando se encuentra en alguna de las causas de disolucion", "correct": true },
-        { "text": "Existencia de creditos contra la sociedad", "correct": false }
-      ],
-      "explanation": "ES: La responsabilidad por deudas (LSC art. 367) se activa por incumplimientos de los administradores cuando concurre causa de disolución y no actúan conforme a ley.\n- A: Incorrecta: “patrimonio neto por debajo del capital” no es el parámetro legal típico; la causa relevante es que las pérdidas dejen el patrimonio neto por debajo de la mitad del capital (LSC art. 363.1.e), además de otras causas.\n- B: Incorrecta: el concurso tiene su propio régimen (y puede afectar a deberes), pero la “acción por deudas” del art. 367 se vincula a causas de disolución y a la omisión de convocar/solicitar disolución.\n- C: Correcta: los acreedores pueden reclamar a administradores por deudas sociales nacidas tras la causa de disolución si éstos incumplen deberes (LSC arts. 363, 365 y 367).\n- D: Incorrecta: no basta con ser acreedor; debe concurrir el presupuesto material (causa de disolución) y el incumplimiento del administrador.\nIT: La responsabilità per debiti sociali (LSC art. 367) è collegata alla causa di scioglimento e all’inadempimento degli amministratori.\n- A: Errata: il criterio tipico è la perdita che riduce il patrimonio netto sotto la metà del capitale (LSC art. 363.1.e), non “sotto il capitale” in generale.\n- B: Errata: il concorso ha disciplina propria; l’azione ex art. 367 si collega alla causa di scioglimento.\n- C: Corretta: quando la società è in causa di scioglimento e gli amministratori non attivano i rimedi (convocazione/scioglimento), i creditori possono agire (LSC artt. 363, 365, 367).\n- D: Errata: il credito da solo non basta.\n",
-      "legal_reference": "LSC arts. 363 (causas de disolución), 365 (deber de convocar junta), 367 (responsabilidad por deudas).",
-      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
-    },
-    {
-      "question": "No es cierto que la formulación de las cuentas anuales",
-      "answers": [
-        { "text": "Deban de ser aprobadas en el plazo de tres meses desde el cierre del ejercicio social", "correct": false },
-        { "text": "Puedan ser aprobadas por delegación permanente de facultades por los consejeros delegados", "correct": true },
-        { "text": "Corresponda a los administradores sociales", "correct": false },
-        { "text": "deben de ser firmadas por todos los adiestradores sociales", "correct": false }
-      ],
-      "explanation": "ES: La formulación de cuentas anuales es un deber indelegable de los administradores; la aprobación corresponde a la junta general.\n- A: Aunque el enunciado usa “aprobadas”, la regla correcta es que deben ser formuladas en el plazo de tres meses desde el cierre (LSC art. 253). Si se lee literalmente “aprobadas”, sería impreciso; la aprobación es posterior por la junta.\n- B: Correcta como “no es cierto”: ni la formulación ni la aprobación pueden quedar en manos de una delegación permanente a consejeros delegados. La formulación es indelegable (LSC art. 249 bis) y la aprobación corresponde a la junta (LSC art. 160 y art. 272).\n- C: Verdadera: la formulación corresponde a los administradores (LSC art. 253).\n- D: Verdadera en esencia: las cuentas deben firmarse por todos los administradores; si falta firma, se indica la causa (LSC art. 253).\nIT: La redazione (formulación) dei bilanci è dovere indelegabile degli amministratori; l’approvazione è dell’assemblea.\n- A: Il testo dice “aprobadas”, ma la regola è “formulate” entro 3 mesi dalla chiusura (LSC art. 253). L’approvazione avviene dopo.\n- B: È la falsa (quindi corretta nella domanda): non si può delegare stabilmente né la formulazione né l’approvazione ai consiglieri delegati; la formulazione è indelegabile (LSC art. 249 bis) e l’approvazione è della junta (LSC art. 160; art. 272).\n- C: Vera: competenza degli amministratori (LSC art. 253).\n- D: Vera: firma di tutti gli amministratori (con indicazione del motivo se manca).\n",
-      "legal_reference": "LSC arts. 160 (competencias de la junta), 249 bis (facultades indelegables), 253 (formulación y firma de cuentas), 272 (aprobación de cuentas por la junta).",
-      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
-    },
-    {
-      "question": "Qué documento no integra las cuentas anuales abreviadas de las sociedades de capital:",
-      "answers": [
-        { "text": "el bilance", "correct": false },
-        { "text": "Las cuentas de pérdidas y ganancias", "correct": false },
-        { "text": "El estado de Pujos de efectivo", "correct": true },
-        { "text": "El informe de gestión", "correct": true }
-      ],
-      "explanation": "ES: En sentido técnico-contable, las cuentas anuales incluyen balance, PyG, estado de cambios en el patrimonio neto, estado de flujos de efectivo y memoria; el “informe de gestión” es un documento distinto que acompaña (y puede dispensarse en abreviadas).\n- A: Incorrecta: el balance sí integra las cuentas anuales (también en formato abreviado).\n- B: Incorrecta: la cuenta de pérdidas y ganancias integra las cuentas anuales (puede ser abreviada).\n- C: Correcta: en cuentas abreviadas no es exigible el estado de flujos de efectivo (reglas de formulación abreviada).\n- D: Correcta: el informe de gestión no integra las cuentas anuales como documento contable; además, en el régimen abreviado suele estar dispensado para sociedades que pueden formular abreviado.\nIT: Tecnicamente, i “conti annuali” includono vari prospetti contabili; l’“informe de gestión” è documento separato.\n- A/B: Errate: bilancio e conto economico fanno parte.\n- C: Corretta: nel formato abbreviato non si richiede il rendiconto finanziario (stato dei flussi di cassa).\n- D: Corretta: la relazione sulla gestione non è parte delle “cuentas anuales” in senso stretto e, nel regime abbreviato, può essere non dovuta.\n",
-      "legal_reference": "LSC arts. 253–254 (cuentas anuales como documento contable), 257–258 (abreviadas), 262 (informe de gestión y dispensa en supuestos). Normativa contable: estructura de cuentas anuales (PGC) y dispensa del EFE en abreviadas.",
-      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
-    },
-    {
-      "question": "Pueden formular balance y estado de cambio en el patrimonio neto abreviado las sociedades que durante dos ejercicios consecutivos reúnan, a fecha del cierre de cada uno de ellos, al menos dos de las circunstancias siguientes:",
-      "answers": [
-        { "text": "Que el total de las partidas del activo no supere los cuatro millones de euros y que el número medio de los trabajadores empleados durante el ejercicio no sea superior a cincuenta", "correct": true },
-        { "text": "Que el importe neto dela cifra de negocia no supere los diez millones de euros y que el total de las partidas del activo no supere los cuatro millones de euros", "correct": false },
-        { "text": "Que el número medio de trabajadores empleados durante el ejercicio no sea superior a cincuenta y el total de las partidas del activo no supere los ocho millones de euros", "correct": false },
-        { "text": "Que el importe neto dela cifra de negocio no supere los seis millones de euros y que el total de las partidas del activo no supere los cuatro millones de euros", "correct": false }
-      ],
-      "explanation": "ES: Para balance/ECNP abreviados, la LSC usa los umbrales clásicos (activo ≤ 4M; cifra de negocios ≤ 8M; trabajadores ≤ 50) y exige cumplir al menos dos de tres durante dos ejercicios.\n- A: Correcta: combina dos umbrales correctos (activo ≤ 4M y trabajadores ≤ 50).\n- B: Incorrecta: el umbral de cifra de negocios no es 10M (es 8M en el régimen típico).\n- C: Incorrecta: el activo no es 8M para esta modalidad (es 4M).\n- D: Incorrecta: cifra de negocios 6M no es el umbral legal típico.\nIT: Per bilancio/ECNP abbreviati, i limiti tipici sono (attivo ≤ 4M; ricavi ≤ 8M; dipendenti ≤ 50) e servono almeno due su tre per due esercizi.\n- A: Corretta.\n- B/C/D: Errate per soglie non corrispondenti.\n",
-      "legal_reference": "LSC art. 257 (balance abreviado y umbrales). Coordinación con normativa contable sobre ECNP abreviado.",
-      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
-    },
-    {
-      "question": "Cuando la sociedad està obligada a verificar sus cuentas anuales el auditor serà nombrado por:",
-      "answers": [
-        { "text": "El consejo de administración", "correct": false },
-        { "text": "La Junta General", "correct": false },
-        { "text": "El Registrador Mercantil", "correct": false },
-        { "text": "La junta general de socios y caso de que no lo hubiera nombrado el Registrador Mercantil a instancia de la Sociedad o de los socios", "correct": true }
-      ],
-      "explanation": "ES: El nombramiento del auditor corresponde a la junta; si no se nombra en plazo, interviene el Registrador Mercantil a solicitud de legitimados.\n- A: Incorrecta: no es competencia típica del consejo.\n- B: Parcial: la junta nombra, pero la opción no contempla el supuesto supletorio de nombramiento registral.\n- C: Parcial: el Registrador nombra sólo en defecto del acuerdo de junta (no como regla primaria).\n- D: Correcta: recoge la regla general (junta) y el remedio supletorio (Registrador a instancia de sociedad o socios) conforme a la LSC.\nIT: La nomina del revisore spetta all’assemblea; in mancanza, provvede il Registro su istanza.\n- A: Errata.\n- B/C: Incomplete.\n- D: Corretta: assemblea e, se omette, nomina del Registro su richiesta.\n",
-      "legal_reference": "LSC art. 264 (nombramiento de auditor por la junta y, en defecto, por el Registrador Mercantil).",
-      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
-    },
-    {
-      "question": "En la sociedad en caso de aumento de capital por compensación de créditos deberá ponerse a disposición de los susionintan",
-      "answers": [
-        { "text": "Informe de losadministradores", "correct": false },
-        { "text": "Certificado de cuentas", "correct": false },
-        { "text": "El informe de los administradores y certificado de cuentas", "correct": true },
-        { "text": "Informe Del Registrador Mercantil", "correct": false }
-      ],
-      "explanation": "ES: En el aumento por compensación de créditos (especialmente en SA), la LSC exige transparencia reforzada: se pone a disposición documentación sobre los créditos y su reflejo contable.\n- A: Incompleta: el informe de administradores es exigible, pero además se requiere verificación por auditor/certificación equivalente sobre la correspondencia contable.\n- B: Incompleta: el “certificado” (en realidad, informe/certificación del auditor) no sustituye el informe de administradores.\n- C: Correcta: deben estar disponibles el informe de administradores y el documento del auditor que verifica datos contables (LSC art. 301).\n- D: Incorrecta: el Registrador no emite el informe sustantivo de la operación; su papel puede ser nombrar auditor en ciertos casos, pero no “informar” la operación.\nIT: Nell’aumento per compensazione di crediti serve documentazione informativa rafforzata.\n- A/B: Incomplete.\n- C: Corretta: relazione degli amministratori + relazione/certificazione del revisore sui dati contabili (LSC art. 301).\n- D: Errata.\n",
-      "legal_reference": "LSC art. 301 (aumento por compensación de créditos: informe de administradores y verificación por auditor).",
-      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
-    },
-    {
-      "question": "El balance que servirá para aumentar el capital social con cargo a reservas de cuentas",
-      "answers": [
-        { "text": "El aprobado por la Junta General dentro de los seis meses anteriores al acuerdo, verificado por cuentas", "correct": true },
-        { "text": "Último de los formularios", "correct": false },
-        { "text": "Último de los aprobados en la Junta General", "correct": false },
-        { "text": "El cerrado treinta días antes de la fecha del acuerdo", "correct": false }
-      ],
-      "explanation": "ES: En el aumento con cargo a reservas, la LSC exige un balance “actual” y aprobado, con verificación cuando proceda.\n- A: Correcta en su núcleo: balance aprobado por la junta dentro de los seis meses anteriores y verificado por auditor cuando sea exigible (LSC art. 303).\n- B: Incorrecta: no basta con el “último formulado” si no está aprobado y dentro del plazo.\n- C: Incorrecta: “último aprobado” puede ser demasiado antiguo si excede los seis meses.\n- D: Incorrecta: la LSC fija el parámetro de seis meses y aprobación; no el cierre “treinta días” como regla.\nIT: Nell’aumento con riserve serve un bilancio recente e approvato.\n- A: Corretta: entro i sei mesi e con verifica del revisore quando richiesta (LSC art. 303).\n- B/C/D: Errate.\n",
-      "legal_reference": "LSC art. 303 (aumento con cargo a reservas: balance aprobado dentro de seis meses; verificación por auditor).",
-      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
-    },
-    {
-      "question": "Para aumentar el capital por compensación de créditos en ura St, les mism deberán ser:",
-      "answers": [
-        { "text": "Totalmente vencidos, líquidos y exigibles", "correct": true },
-        { "text": "Líquidos, vencidos y exigibles en al menos un 15%", "correct": false },
-        { "text": "Líquidos, vencidos y exigibles al menos un 20%% y el vencimiento de los restantes no debe de producirse en un plazo superior a 5 años", "correct": false },
-        { "text": "Líquidos, vencidos y exigibles al menos un 20%% y el vencimiento de los restantes no debe de producirse en un plazo superior a 5 años", "correct": false }
-      ],
-      "explanation": "ES: En SL, el aumento por compensación de créditos exige que los créditos estén íntegramente vencidos, líquidos y exigibles (régimen más estricto que en SA).\n- A: Correcta: refleja el estándar exigido para SL.\n- B/C/D: Incorrectas: porcentajes parciales (y plazos) se asocian al régimen de SA (donde existe un umbral parcial de vencimiento), pero no al requisito típico de SL; además, aquí aparecen porcentajes que no coinciden con el esquema legal clásico.\nIT: Nella SL la compensazione richiede crediti interamente scaduti, liquidi ed esigibili.\n- A: Corretta.\n- B/C/D: Errate (richiamano logiche percentuali tipiche della SA o comunque non corrispondenti).\n",
-      "legal_reference": "LSC art. 301 (aumento por compensación de créditos; diferencias SA/SL en exigibilidad de créditos).",
-      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
-    },
-    {
-      "question": "La reducción de capital podrá tener como finalidad:",
-      "answers": [
-        { "text": "Restablecer el equilibrio entre capital y el patrimonio neto", "correct": false },
-        { "text": "Devolución de aportaciones a los socios", "correct": false },
-        { "text": "La constitución de la reserva legal", "correct": false },
-        { "text": "Todas las anteriores son ciertas", "correct": true }
-      ],
-      "explanation": "ES: La reducción de capital es una operación de modificación estructural del capital que puede perseguir distintas finalidades admitidas por la LSC.\n- A: Es finalidad típica: reducción para compensar pérdidas y restablecer equilibrio capital/patrimonio neto.\n- B: Es finalidad típica: devolución de aportaciones (con régimen de tutela de acreedores).\n- C: Puede orientarse a constituir o incrementar reservas (incluida la legal si se encaja correctamente con el sistema de reservas), en función del diseño de la operación.\n- D: Correcta: recoge la pluralidad de finalidades legalmente admisibles.\nIT: La riduzione del capitale può avere più scopi leciti.\n- A/B: Scopi tipici (perdite/equilibrio; restituzione conferimenti).\n- C: Possibile orientamento a riserve (nel rispetto del regime).\n- D: Corretta: tutte le precedenti.\n",
-      "legal_reference": "LSC arts. 317 y ss. (reducción de capital; modalidades y finalidades), especialmente régimen de reducción por pérdidas y devolución de aportaciones.",
-      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
-    },
-    {
-      "question": "La reducción de capital no podrá llevarse a cabo media",
-      "answers": [
-        { "text": "Compensación", "correct": true },
-        { "text": "Amortización", "correct": false },
-        { "text": "Agrupación", "correct": false },
-        { "text": "Disminución de su valor nominal", "correct": false }
-      ],
-      "explanation": "ES: Las modalidades típicas de reducción pasan por amortizar participaciones/acciones, disminuir su valor nominal o, en su caso, operaciones técnicas como agrupación para ajustar unidades; “compensación” (set-off) no es un mecanismo societario de reducción.\n- A: Correcta: la reducción no se realiza “mediante compensación” como técnica propia.\n- B/D: Sí son mecanismos típicos (amortización o disminución de nominal).\n- C: Puede aparecer como operación técnica vinculada a ajustes, pero no convierte por sí misma la reducción en “compensación”.\nIT: La riduzione del capitale si attua con strumenti societari tipici.\n- A: Corretta: la compensazione non è modalità di riduzione.\n- B/D: Modalità tipiche.\n- C: Operazione tecnica possibile, ma non “compensazione”.\n",
-      "legal_reference": "LSC arts. 317 y ss. (modalidades de reducción: amortización, disminución del nominal, etc.).",
-      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
-    },
-    {
-      "question": "Qué se entiende por operación acordeón:",
-      "answers": [
-        { "text": "La disminución de los fondos propios de la sociedad", "correct": false },
-        { "text": "La reducción de capital social para equilibrar el patrimonio neto de la sociedad", "correct": false },
-        { "text": "La reducción y aumento de capital simultáneos", "correct": true },
-        { "text": "La reducción de capital social para eludir la causa de disolución", "correct": false }
-      ],
-      "explanation": "ES: La “operación acordeón” es la técnica de reducir y aumentar capital de forma coordinada/simultánea (normalmente para sanear pérdidas y restablecer patrimonio).\n- A: Incorrecta: es una consecuencia posible, pero no define la figura.\n- B: Describe una finalidad parcial (reducción por pérdidas), pero falta el elemento esencial del aumento simultáneo.\n- C: Correcta: la definición típica es reducción y aumento simultáneos (LSC art. 343).\n- D: Incorrecta: no es una operación para “eludir” la disolución de forma fraudulenta, sino un mecanismo legal de reequilibrio patrimonial con garantías.\nIT: L’operazione “a fisarmonica” consiste in riduzione e contestuale aumento del capitale.\n- A/B: Incomplete o descrittive di finalità.\n- C: Corretta (LSC art. 343).\n- D: Errata: non è elusione, ma strumento legale con presidi.\n",
-      "legal_reference": "LSC art. 343 (operación acordeón).",
-      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
-    },
-    {
-      "question": "Entre las causas de separación del socio en las sociedades de capital se encuentra",
-      "answers": [
-        { "text": "Dedicarse a la misma actividad que constituye su objeto social", "correct": false },
-        { "text": "Ampliación del objeto social", "correct": false },
-        { "text": "Prórroga de la sociedad", "correct": true },
-        { "text": "Cambio de domicilio social", "correct": false }
-      ],
-      "explanation": "ES: La separación es un derecho legal en ciertos cambios estructurales/estatutarios que alteran el “pacto social”.\n- A: Incorrecta: dedicarse a la misma actividad puede conectar con conflictos o competencia, pero no es causa legal típica de separación.\n- B: Matizable: el derecho de separación suele ligarse a sustitución o modificación sustancial del objeto, no a cualquier “ampliación” (depende de la entidad del cambio).\n- C: Correcta: la prórroga de la sociedad es causa legal de separación (LSC art. 346).\n- D: Incorrecta como regla: el cambio de domicilio social no figura como causa legal típica de separación.\nIT: Il recesso (separación) opera in caso di modifiche che incidono sul patto sociale.\n- A: Errata.\n- B: Dipende dalla qualificazione (sostituzione/modifica sostanziale dell’oggetto).\n- C: Corretta: proroga della società (LSC art. 346).\n- D: Errata come regola.\n",
-      "legal_reference": "LSC art. 346 (causas legales de separación del socio).",
-      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
-    },
-    {
-      "question": "l socio puede ejercitar su derecho de separación por falta de reparto de dividendos conforme establece el artículo 348 bis de la LSC",
-      "answers": [
-        { "text": "Cuando no hubiera repartido dividendos en los últimos cinco ejercicio.", "correct": false },
-        { "text": "Cuando se hayan obtenido beneficios durante los últimos tres ejercicios y no hubiera repartido dividendos en las últimos cinco ejercicios de al menos un 35%", "correct": false },
-        { "text": "Cuando se hayan obtenido beneficios durante los últimos tres ejercicios y no hubiera repartido dividendos en los últimos cinco ejercicios de al menos un 25%", "correct": true },
-        { "text": "cuando se hayan obtenido beneficios durante los últimos tres ejercicios y no hubiera repartido dividendos en los últimos cinco ejercicios de al menos un 15%", "correct": false }
-      ],
-      "explanation": "ES: El art. 348 bis reconoce separación por falta de dividendos bajo requisitos: transcurso de ciertos ejercicios desde inscripción, beneficios y que la junta no acuerde distribuir un mínimo (clásicamente, 25% de beneficios legalmente distribuibles) en el ejercicio anterior, con beneficios en los tres anteriores, y con determinadas excepciones.\n- A: Incorrecta: el criterio no es “cinco ejercicios sin dividendos” como regla automática.\n- B: Incorrecta: el umbral del 35% no corresponde al estándar legal típico.\n- C: Correcta: es la opción que refleja el umbral del 25% (aunque el enunciado sea imperfecto en su redacción).\n- D: Incorrecta: 15% no es el umbral legal típico.\nIT: L’art. 348 bis consente il recesso per mancata distribuzione di dividendi solo se ricorrono condizioni e soglie.\n- A: Errata: non basta “5 anni senza dividendi”.\n- B: Errata: 35% non è la soglia tipica.\n- C: Corretta: richiama la soglia del 25% (pur con formulazione non perfetta).\n- D: Errata: 15% non è la soglia.\n",
-      "legal_reference": "LSC art. 348 bis (derecho de separación por falta de distribución de dividendos: requisitos y umbral mínimo).",
-      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
-    },
-    {
-      "question": "Caso del ejercicio de derecho de separación por el socio el valor atribuido a sus acciones o participaciones sociales será el :",
-      "answers": [
-        { "text": "Razonable", "correct": true },
-        { "text": "Teórico contable", "correct": false },
-        { "text": "Los serà por los flujos de caja", "correct": false },
-        { "text": "De mercado", "correct": false }
-      ],
-      "explanation": "ES: En separación, el socio tiene derecho a recibir el “valor razonable” de sus participaciones/acciones, normalmente fijado por experto independiente.\n- A: Correcta: la LSC usa la noción de valor razonable como criterio legal.\n- B: Incorrecta: el valor teórico contable puede ser un indicador, pero no es el estándar legal obligatorio.\n- C: Incorrecta: flujos de caja (DCF) es un método posible para estimar valor razonable, pero no es “el” criterio legal único ni necesariamente el aplicable en todos los casos.\n- D: Incorrecta: “valor de mercado” puede aproximarse al razonable en sociedades cotizadas, pero en no cotizadas no siempre existe mercado y la LSC no lo formula así como regla.\nIT: In caso di recesso, si liquida il “valore ragionevole” (valor razonable), spesso determinato da esperto indipendente.\n- A: Corretta.\n- B: Errata: il contabile non è lo standard legale.\n- C: Errata: il DCF è un metodo, non il criterio normativo.\n- D: Errata: il “mercato” non è sempre disponibile e non è la formula legale generale.\n",
-      "legal_reference": "LSC arts. 353 y ss. (valor razonable y designación de experto para valoración en separación/exclusión).",
-      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
-    },
-    {
-      "question": "Entre las causas legales de la exclusión del socio no se encuentra la relativa a:",
-      "answers": [
-        { "text": "El incumplimiento de realizar prestaciones accesorias", "correct": false },
-        { "text": "la violación de competencia del administrador socia", "correct": false },
-        { "text": "La condena por sentencia firme", "correct": false },
-        { "text": "La reactivación de la sociedad", "correct": true }
-      ],
-      "explanation": "ES: La exclusión en SL tiene causas legales tipificadas (prestaciones accesorias, competencia del socio-administrador, condena firme del socio-administrador a indemnizar), y además causas estatutarias. La reactivación es una operación societaria tras disolución, no una causa de exclusión.\n- A: Sí es causa legal (LSC art. 350).\n- B: Sí es causa legal en su supuesto típico (infracción de prohibición de competencia del socio que sea administrador) (LSC art. 350).\n- C: Sí es causa legal cuando se trata de condena firme del socio-administrador a indemnizar a la sociedad (LSC art. 350).\n- D: Correcta: la reactivación pertenece al régimen de disolución/reactivación (no al de exclusión).\nIT: Le cause legali di esclusione (SL) sono tipizzate; la reattivazione è un istituto diverso (post-scioglimento).\n- A/B/C: Sono (nelle rispettive configurazioni) cause legali.\n- D: Corretta: reattivazione non è causa di esclusione.\n",
-      "legal_reference": "LSC art. 350 (causas legales de exclusión en SL). LSC art. 370 (reactivación de la sociedad).",
-      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
-    },
-    {
-      "question": "En relación al pasivo sobrevenido tras la extinción de la soledad",
-      "answers": [
-        { "text": "Los socios no responderán de las deudas sociales no satisfechas", "correct": false },
-        { "text": "Los socios responderán solidariamente de las deudas sociales no satisfechas", "correct": false },
-        { "text": "Los socios responderán solidariamente de las deudas sociales no satisfechas hasta el límite de lo recibido como cuota de liquidación", "correct": true },
-        { "text": "Serán exclusivamente respuestas por los liquidadores", "correct": false }
-      ],
-      "explanation": "ES: Tras la liquidación y extinción registral, pueden aparecer pasivos sobrevenidos; la LSC protege a acreedores permitiendo dirigirse contra socios hasta el límite de lo recibido.\n- A: Incorrecta: no hay inmunidad total.\n- B: Incorrecta: no responden ilimitadamente; hay límite.\n- C: Correcta: los antiguos socios responden hasta el límite de lo percibido como cuota de liquidación (y pueden concurrir responsabilidades de liquidadores si hubo culpa).\n- D: Incorrecta: no es exclusivo de liquidadores; depende del sujeto y del fundamento (límite para socios; culpa/negligencia para liquidadores).\nIT: Dopo l’estinzione possono emergere debiti; i creditori possono agire contro gli ex soci entro il limite di quanto riscosso.\n- A: Errata.\n- B: Errata (manca il limite).\n- C: Corretta: responsabilità fino alla quota di liquidazione percepita.\n- D: Errata: i liquidatori rispondono solo se c’è colpa/irregolarità, non in via esclusiva.\n",
-      "legal_reference": "LSC art. 399 (responsabilidad de socios y liquidadores por deudas sociales tras la liquidación/extinción; límite de lo recibido).",
-      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
-    },
-    {
-      "question": "Entre la causa de disolución de la sociedad no se encuentra la de:",
-      "answers": [
-        { "text": "Paralización del organo de administración", "correct": false },
-        { "text": "Posibilidad manifiesta de conseguir su objeto social", "correct": false },
-        { "text": "Cuando el valor nominal de las acciones o participaciones sociale excediera de la mitad del valor desembolsado", "correct": true },
-        { "text": "Por conclusion del objeto social", "correct": false }
-      ],
-      "explanation": "ES: Las causas legales de disolución están tasadas (LSC art. 363). La opción C no corresponde a ninguna causa típica.\n- A: La causa típica es paralización de los órganos sociales de modo que resulte imposible su funcionamiento (no “del órgano de administración” en concreto, pero la idea se relaciona con la causa legal).\n- B: La causa legal es la imposibilidad manifiesta de conseguir el fin social; la redacción aquí dice “posibilidad”, por lo que así escrita no describe la causa, pero el instituto existe como imposibilidad.\n- C: Correcta como “no se encuentra”: no es una causa legal de disolución.\n- D: La conclusión del objeto social (cumplimiento/fin del objeto o imposibilidad) se conecta con las causas legales.\nIT: Le cause di scioglimento sono tipizzate (LSC art. 363). La C non è una causa prevista.\n- A/D: Richiamano concetti presenti nel catalogo legale.\n- B: La legge parla di impossibilità, non di “possibilità” (qui c’è un problema di redazione), ma la causa esiste in senso opposto.\n- C: Corretta: non è causa di scioglimento.\n",
-      "legal_reference": "LSC art. 363 (causas legales de disolución).",
-      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
-    },
-    {
-      "question": "En caso de estar incursa la sociedad en causa de disolución se deberá acordar la convocatoria de la junta en el plazo de",
-      "answers": [
-        { "text": "1 mes", "correct": false },
-        { "text": "2 meses", "correct": true },
-        { "text": "3 meses", "correct": false },
-        { "text": "4 meses", "correct": false }
-      ],
-      "explanation": "ES: Detectada causa legal de disolución, los administradores deben convocar junta para que adopte acuerdo de disolución o medidas de remoción.\n- A/C/D: Incorrectas: no coinciden con el plazo legal.\n- B: Correcta: el plazo legal típico es de dos meses desde que concurre la causa (LSC art. 365).\nIT: Accertata la causa di scioglimento, gli amministratori devono convocare l’assemblea entro un termine legale.\n- B: Corretta: due mesi (LSC art. 365).\n- A/C/D: Errate.\n",
-      "legal_reference": "LSC art. 365 (deber de convocar junta en caso de causa de disolución; plazo).",
-      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
-    },
-    {
-      "question": "Con la disolución de la sociedad se abre el periodo de liquidación durante el cual",
-      "answers": [
-        { "text": "Los administradores se convierten automáticamente en liquidadores", "correct": false },
-        { "text": "El poder de representación corresponde a los liquidadores", "correct": true },
-        { "text": "No es necesaria la convocatoria de junta", "correct": false },
-        { "text": "Es nombrado por plazo determinado", "correct": false }
-      ],
-      "explanation": "ES: Disuelta la sociedad, entra en liquidación; el órgano clave pasa a ser el de liquidación, con facultades representativas.\n- A: No es universal: como regla supletoria puede ocurrir que los administradores pasen a ser liquidadores si estatutos o junta no disponen otra cosa, pero no es automático en todos los casos; por eso no es la afirmación más correcta en términos absolutos.\n- B: Correcta: durante la liquidación, la representación corresponde a los liquidadores (régimen legal de liquidación).\n- C: Incorrecta: siguen siendo necesarias juntas para decisiones relevantes (nombramientos, aprobación de balance final, etc.).\n- D: Incorrecta: el nombramiento de liquidadores no se define necesariamente por “plazo determinado” como regla.\nIT: Con lo scioglimento si apre la liquidazione: i liquidatori assumono funzioni e rappresentanza.\n- A: Non sempre automatico (può essere regola suppletiva se non si nominano altri liquidatori).\n- B: Corretta: la rappresentanza spetta ai liquidatori.\n- C: Errata: l’assemblea continua ad avere ruoli.\n- D: Errata: non c’è un “termine fisso” come regola generale.\n",
-      "legal_reference": "LSC arts. 371 y ss. (liquidación; liquidadores y representación). En particular, reglas sobre nombramiento/funciones y representación de liquidadores.",
-      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
-    },
-    {
       "question": "Cual de las siguientes afirmaciones es incierta en relación a la división del patrimonio resultante de la liquidación entre los socias",
       "answers": [
         { "text": "Deberá haber transcurrido el plazo para la impugnación del acuerdo que apruebe el balance final", "correct": false },
@@ -745,6 +385,366 @@
       "explanation": "ES: En el régimen de la sociedad de responsabilidad limitada, las causas legales (tipificadas) de exclusión están enumeradas en la LSC: (i) incumplimiento voluntario de la obligación de realizar prestaciones accesorias; (ii) infracción por el socio administrador de la prohibición de competencia; y (iii) condena por sentencia firme del socio administrador a indemnizar a la sociedad por daños causados por actos contrarios a la ley/estatutos o sin la debida diligencia. Estas son “causas legales” porque vienen directamente de la ley.\nCon ese marco:\n- no realizar prestaciones accesorias: sí encaja en una causa legal de exclusión (incumplimiento voluntario de prestaciones accesorias).\n- violacion de la prohibicion de competencia: sí encaja como causa legal cuando concurre el supuesto legal del socio que, además, es administrador y vulnera la prohibición de competencia.\n- la condena a los administradores: la formulación del test es imprecisa, pero se corresponde con la idea legal de la condena por sentencia firme del socio administrador a indemnizar a la sociedad (no es “cualquier condena”, sino la condena en los términos legales).\n- la que figure en los estatutos sociales: esto NO es una causa legal, sino una causa estatutaria. La LSC permite añadir causas en estatutos (con consentimiento de todos los socios), pero por definición dejan de ser “legales” y pasan a ser “estatutarias”.\nPor tanto, la opción correcta (la que no se encuentra entre las causas legales) es la relativa a la que figure en los estatutos sociales.\nIT: Nella SRL (sociedad limitada), le cause “legali” di esclusione sono quelle tipizzate dalla LSC: (i) inadempimento volontario delle prestazioni accessorie; (ii) violazione del divieto di concorrenza da parte del socio che sia anche amministratore; (iii) condanna con sentenza definitiva del socio-amministratore a risarcire la società per danni derivanti da atti contrari alla legge/allo statuto o compiuti senza la dovuta diligenza. Sono “legali” perché previste direttamente dalla legge.\nApplicando ciò alle opzioni:\n- no realizar prestaciones accesorias: rientra nella causa legale (prestazioni accessorie).\n- violacion de la prohibicion de competencia: rientra nella causa legale se il socio è anche amministratore e viola il divieto.\n- la condena a los administradores: il testo è generico, ma richiama la causa legale della condanna del socio-amministratore a risarcire la società (non una condanna qualsiasi).\n- la que figure en los estatutos sociales: non è causa legale, bensì causa statutaria. La LSC consente di inserire nello statuto ulteriori cause (con consenso unanime), ma proprio per questo non sono “legali”.\nQuindi la risposta corretta è: la que figure en los estatutos sociales.",
       "legal_reference": "Ley de Sociedades de Capital (RDL 1/2010): art. 350 (causas legales de exclusión en SL) y art. 351 (causas estatutarias de exclusión).",
       "original_file": "D. Mercantil II 2 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "Entre las causas legales de exclusión del socio no se encuentra",
+      "answers": [
+        { "text": "no realizar prestaciones accesorias", "correct": false },
+        { "text": "violacion de la prohibicion de competencia", "correct": false },
+        { "text": "la condena a los administradores.", "correct": false },
+        { "text": "la que figure en los estatutos sociales", "correct": true }
+      ],
+      "explanation": "ES: En la SL, las causas legales de exclusión vienen tipificadas por la LSC (causas “legales”) y, además, la Ley permite que los estatutos añadan otras (causas “estatutarias”). La pregunta pide la que NO es una causa legal.\n- A: Sí es causa legal: el incumplimiento de prestaciones accesorias habilita la exclusión (LSC art. 350).\n- B: Sí es causa legal cuando concurre el supuesto típico del socio-administrador que infringe la prohibición de competencia (LSC art. 350).\n- C: La LSC contempla como causa legal la condena por sentencia firme del socio que sea administrador a indemnizar a la sociedad (no “cualquier condena a administradores” en abstracto). En su formulación genérica, la opción no encaja como categoría autónoma distinta, pero el instituto de la “condena” está en la LSC como causa legal cuando afecta al socio-administrador.\n- D: Lo que “figure en los estatutos” es una causa estatutaria (adicional), no una causa legal en sentido estricto; por eso es la que no se incluye entre las causas legales.\nIT: Nella SRL (SL) le cause di esclusione “legali” sono quelle tipizzate dalla LSC; a parte, la legge consente che lo statuto preveda ulteriori cause (cause “statutarie”). Qui si chiede quale NON rientra tra le cause legali.\n- A: È causa legale: l’inadempimento di prestazioni accessorie consente l’esclusione (LSC art. 350).\n- B: È causa legale nel caso tipico del socio-amministratore che viola il divieto di concorrenza (LSC art. 350).\n- C: La LSC prevede la “condanna con sentenza ferma” del socio che sia amministratore a risarcire la società come causa legale; non qualsiasi condanna di amministratori in generale. Per questo, così formulata, non è la categoria corretta per individuare l’esclusione “legale” distinta.\n- D: La causa “prevista nello statuto” è statutarIa (ammessa dalla legge) ma non è “legale” in senso stretto; quindi è la risposta corretta alla domanda.",
+      "legal_reference": "Ley de Sociedades de Capital (RDL 1/2010): arts. 350 (causas legales de exclusión en SL), 351 (causas estatutarias de exclusión, régimen general).",
+      "original_file": "D. Mercantil II 2 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "Cual de las siguientes respuestas no es cierta en relación con la acción social de responsabilidad contra los administradores sociales.",
+      "answers": [
+        { "text": "Sólo podrá entablarse por la sociedad previo acuerdo de Junta General", "correct": false },
+        { "text": "Podrá entablarse por el socio en caso de que la sociedad no la ejercite.", "correct": true },
+        { "text": "De acordarse por la Junta supondrá la destitución del administrador contra quien se ejercite", "correct": false },
+        { "text": "Es acumulable con la acción de impugnación", "correct": false }
+      ],
+      "explanation": "ES: La acción social busca resarcir a la sociedad por daños causados por administradores; la titularidad del interés protegido es social.\n- A: Regla general: la sociedad ejercita la acción previa decisión de junta (LSC art. 238). Aunque existan legitimaciones subsidiarias (minoría/acreedores), como regla estructural es correcta.\n- B: No es cierta tal como está formulada: no cualquier socio puede ejercitarla “si la sociedad no la ejercita”; la LSC exige requisitos de legitimación (p. ej., minoría cualificada) y presupuestos procedimentales (LSC art. 239) y, en su caso, legitimación de acreedores (LSC art. 240). Por eso es la opción incorrecta.\n- C: La adopción del acuerdo de ejercicio implica la destitución del administrador afectado (LSC art. 238.3), salvo matices previstos legalmente.\n- D: Es compatible procesalmente acumular pretensiones (p. ej., impugnación de acuerdos y acción de responsabilidad) si se cumplen requisitos de acumulación en la LEC; la LSC no establece una incompatibilidad general.\nIT: L’azione sociale di responsabilità mira a reintegrare il patrimonio sociale danneggiato dagli amministratori.\n- A: Regola generale: la società agisce previa delibera assembleare (LSC art. 238), pur esistendo legittimazioni sussidiarie.\n- B: Non è vera come assoluto: non “il socio” in generale, ma solo soci legittimati (minoranza qualificata) e/o creditori in casi tipici possono promuoverla se la società non agisce (LSC artt. 239–240).\n- C: La delibera di esercizio comporta la revoca dell’amministratore interessato (LSC art. 238.3).\n- D: In linea di principio è cumulabile con altre azioni (es. impugnazione) se ammissibile in rito (LEC, regole sull’accumulo) e se non vi sono incompatibilità specifiche.\n",
+      "legal_reference": "LSC arts. 238 (acción social; acuerdo de junta; efecto de destitución), 239 (legitimación de socios/minoría), 240 (legitimación de acreedores). LEC art. 71 (acumulación objetiva de acciones, criterio general).",
+      "original_file": "D. Mercantil II 2 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "Conforme al régimen de responsabilidad de las administradores sociales podrá requerirse a estos:",
+      "answers": [
+        { "text": "El pago de las deudas sociales, dado la negligencia con que desarrollan los actos de administración.", "correct": false },
+        { "text": "La reparación del daño causado a la sociedad, a los socios y los terceros como consecuencia de los actos de administración que realizan.", "correct": true },
+        { "text": "Los administradores sociales no serán responsables sino la propia sociedad.", "correct": false },
+        { "text": "El pago de las deudas de carácter tributario y de seguridad social.", "correct": false }
+      ],
+      "explanation": "ES: El régimen general de responsabilidad de administradores en la LSC es resarcitorio: responde quien causa daño por actos u omisiones contrarios a la ley/estatutos o por incumplimiento del deber de diligencia.\n- A: Incorrecta: la regla general no impone al administrador “pagar las deudas sociales” por simple negligencia. La responsabilidad por deudas sociales es un régimen específico y tasado (p. ej., por incumplimiento de deberes en causa de disolución: LSC art. 367), no la regla general.\n- B: Correcta: procede exigir reparación del daño causado a sociedad, socios y terceros en los supuestos del régimen de responsabilidad (LSC arts. 236–241).\n- C: Incorrecta: la LSC prevé responsabilidad personal (solidaria en muchos casos) de los administradores; no queda circunscrita “a la propia sociedad”.\n- D: Incorrecta en el marco LSC general: la responsabilidad tributaria y de Seguridad Social se rige por normativa específica (LGT/LGSS), aunque pueda concurrir en casos concretos; no es la formulación típica del régimen societario general.\nIT: La responsabilità degli amministratori (LSC) è, in via generale, risarcitoria.\n- A: Errata: non c’è un obbligo generale di “pagare i debiti sociali” per mera negligenza; esiste un regime speciale di responsabilità per debiti in causa di scioglimento (LSC art. 367).\n- B: Corretta: si può richiedere il risarcimento del danno a società, soci e terzi per atti/omissioni illeciti o colposi (LSC artt. 236–241).\n- C: Errata: gli amministratori rispondono personalmente (spesso in solido) nei casi previsti.\n- D: Errata come regola LSC: la responsabilità per tributi e contributi segue discipline speciali, pur potendo cumularsi in concreto.\n",
+      "legal_reference": "LSC arts. 236–241 (responsabilidad de administradores; acción social e individual). LSC art. 367 (responsabilidad por deudas, supuesto específico).",
+      "original_file": "D. Mercantil II 2 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "El nombramiento de administrador en una sociedad de capital surte efecto:",
+      "answers": [
+        { "text": "Desde la fecha en la que junta acordó su designación", "correct": false },
+        { "text": "Desde la fecha en que el administrador aceptó su cargo", "correct": true },
+        { "text": "Desde la fecha en que dicho nombramiento se inscribe en el Registro Mercantil", "correct": false },
+        { "text": "Desde el momento en que su nombramiento se elevó a escritura pública", "correct": false }
+      ],
+      "explanation": "ES: En sociedades de capital, el nombramiento se perfecciona con la aceptación del cargo por el designado; la inscripción cumple función de publicidad, no de constitución del vínculo interno.\n- A: Incorrecta: el acuerdo de junta designa, pero si no hay aceptación no nace plenamente el ejercicio del cargo (y no se activan del mismo modo deberes/funciones).\n- B: Correcta: la aceptación determina el efecto del nombramiento (LSC art. 215).\n- C: Incorrecta: la inscripción registral es exigible y relevante frente a terceros por la publicidad, pero el efecto interno no depende de ella como regla.\n- D: Incorrecta: elevar a escritura es paso habitual para inscribir, pero no es el “momento de eficacia” del cargo frente a la sociedad en términos generales.\nIT: Nelle società di capitali l’efficacia dell’incarico si collega all’accettazione.\n- A: Errata: la delibera nomina, ma senza accettazione non si consolida l’assunzione dell’ufficio.\n- B: Corretta: l’accettazione fa decorrere l’efficacia (LSC art. 215).\n- C: Errata: l’iscrizione ha funzione pubblicitaria, non necessariamente costitutiva dell’efficacia interna.\n- D: Errata: l’atto pubblico è strumentale soprattutto alla pubblicità registrale.\n",
+      "legal_reference": "LSC arts. 214–215 (nombramiento y aceptación de administradores; eficacia).",
+      "original_file": "D. Mercantil II 2 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "El número máximo de miembros del órgano de administración de una sociedad limitada no podrá ser superior a",
+      "answers": [
+        { "text": "15", "correct": false },
+        { "text": "14", "correct": false },
+        { "text": "12", "correct": true },
+        { "text": "10", "correct": false }
+      ],
+      "explanation": "ES: En la SL, cuando exista consejo de administración, la LSC limita su tamaño.\n- A/B/D: Incorrectas: exceden o no coinciden con el máximo legal.\n- C: Correcta: el máximo legal del consejo en la sociedad limitada es 12 miembros (LSC art. 242).\nIT: Nella SL (sociedad limitada) il consiglio di amministrazione, se previsto, ha un limite massimo.\n- A/B/D: Errate.\n- C: Corretta: massimo 12 componenti (LSC art. 242).\n",
+      "legal_reference": "LSC art. 242 (límite máximo del consejo de administración en la sociedad limitada).",
+      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
+    },
+    {
+      "question": "En la sociedad anónima si durante el plazo por el que fueron nombrados los administradores sociales se produjeran alguna vacante sin que existieran suplentes:",
+      "answers": [
+        { "text": "Deberá convocarse inmediatamente junta general para nombrar a 2.", "correct": false },
+        { "text": "Podrá ser designado por el Respirador Mercantil", "correct": false },
+        { "text": "Podrá ser designado por el sistema de cooptación", "correct": true },
+        { "text": "Podrá ser designado por el sistema de representación proporcional", "correct": false }
+      ],
+      "explanation": "ES: En SA, ante vacantes en el consejo sin suplentes, opera la cooptación: el propio consejo puede designar consejeros entre accionistas hasta la primera junta general.\n- A: Incorrecta como regla: no “debe” convocarse inmediatamente para cada vacante; la LSC permite cubrir provisionalmente mediante cooptación y luego la junta decide (LSC art. 244).\n- B: Incorrecta: el Registrador Mercantil puede intervenir en nombramientos de auditores u otros supuestos, pero la cobertura típica de vacantes de consejeros en SA es la cooptación por el consejo, no un “nombramiento por Registrador” en estos términos.\n- C: Correcta: cooptación para ocupar vacantes hasta la primera junta (LSC art. 244).\n- D: Incorrecta: la representación proporcional es un sistema de elección de consejeros por minorías, no un mecanismo de cobertura inmediata de vacantes.\nIT: Nella SA, in caso di vacanza nel consiglio senza supplenti, la legge ammette la cooptazione.\n- A: Errata come regola generale: non è necessario convocare “immediatamente” per ogni vacanza; prima può operare la cooptazione.\n- B: Errata: non è il caso tipico di nomina del Registro.\n- C: Corretta: cooptazione fino alla prima assemblea (LSC art. 244).\n- D: Errata: la rappresentanza proporzionale riguarda l’elezione, non la sostituzione provvisoria.\n",
+      "legal_reference": "LSC art. 244 (Cooptación en la sociedad anónima).",
+      "original_file": "D. Mercantil II 2 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "La elección de consejeros por el sistema de proporcionalidad en la 5L:",
+      "answers": [
+        { "text": "No está permitida legalmente", "correct": false },
+        { "text": "Está permitida siempre que se regule en los estatutos sociales", "correct": true },
+        { "text": "Está permitida, aunque no se regule en los estatutos sociales", "correct": false },
+        { "text": "Está permitida siempre que se nombre por el consejo de administración entre socios y hasta la siguiente junta general a celebrar.", "correct": false }
+      ],
+      "explanation": "ES: El sistema de representación proporcional está tipificado expresamente para la SA; en SL no opera como derecho legal típico, pero puede configurarse estatutariamente si no contradice normas imperativas.\n- A: Demasiado tajante: que no esté previsto como derecho legal típico en SL no equivale a una prohibición absoluta; la autonomía estatutaria permite configurar reglas de nombramiento si no vulneran la LSC.\n- B: Correcta como criterio práctico: en SL, si se quiere un sistema análogo, debe articularse en estatutos.\n- C: Incorrecta: sin previsión estatutaria, no hay un “derecho legal” automático en SL equiparable al del art. 243 para SA.\n- D: Incorrecta: describe un esquema propio de cooptación (vacantes) y además mezcla órgano y plazo; no define el sistema proporcional.\nIT: La rappresentanza proporzionale è tipica della SA; nella SL non opera automaticamente come diritto legale, ma può essere riprodotta per via statutaria nei limiti dell’autonomia.\n- A: Troppo assoluta: assenza di previsione legale tipica non significa divieto totale.\n- B: Corretta: nella SL un sistema “proporzionale” richiede previsione statutaria.\n- C: Errata: non è automatica senza statuto.\n- D: Errata: confonde con cooptazione e non descrive il meccanismo proporzionale.\n",
+      "legal_reference": "LSC art. 243 (representación proporcional en SA). LSC art. 28 (autonomía estatutaria dentro de límites legales).",
+      "original_file": "D. Mercantil II 2 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "Qué órgano de la sociedad nombra al consejero delegado:",
+      "answers": [
+        { "text": "La Junta General", "correct": false },
+        { "text": "El Consejo de Administración", "correct": true },
+        { "text": "La Comisión Ejecutiva", "correct": false },
+        { "text": "La Comisión de Control", "correct": false }
+      ],
+      "explanation": "ES: El consejero delegado es una delegación de facultades del consejo; por tanto, su nombramiento corresponde al propio consejo.\n- A: Incorrecta: la junta nombra administradores (o consejeros), pero el consejero delegado es una figura interna de delegación del consejo.\n- B: Correcta: el consejo acuerda la delegación y nombra consejero delegado (LSC art. 249).\n- C: Incorrecta: la comisión ejecutiva, si existe, deriva también del consejo y no desplaza la competencia básica de nombramiento salvo delegaciones específicas.\n- D: Incorrecta: no es un órgano típico competente para nombrar consejero delegado.\nIT: Il consigliere delegato nasce da una delega del consiglio.\n- A: Errata: l’assemblea non nomina il “delegato” come tale.\n- B: Corretta: nomina e delega competono al consiglio (LSC art. 249).\n- C/D: Errate come regola.\n",
+      "legal_reference": "LSC art. 249 (delegación de facultades del consejo; consejero delegado).",
+      "original_file": "D. Mercantil II 2 ° parcial AGGIORNATO 06 10 25.docx"
+    },
+    {
+      "question": "Para la delegación permanente de las facultades del órgano de administración se requerirá:",
+      "answers": [
+        { "text": "El voto a favor de la mayoría de los componentes del Consejo", "correct": false },
+        { "text": "El voto a favor de la mayoría absoluta de los componentes del Consejo", "correct": false },
+        { "text": "El voto a favor de la totalidad de los componentes del Consejo", "correct": false },
+        { "text": "El voto a favor de las dos terceras partes del número total de componentes del Consejo.", "correct": true }
+      ],
+      "explanation": "ES: La delegación permanente (p. ej., consejero delegado o comisión ejecutiva) exige una mayoría reforzada.\n- A/B/C: Incorrectas: la LSC exige una mayoría cualificada superior a la simple o absoluta, y no requiere unanimidad.\n- D: Correcta: se requiere el voto favorable de las dos terceras partes de los miembros del consejo (LSC art. 249.2), además de cumplir requisitos formales (inscripción, contenido del acuerdo, etc.).\nIT: La delega permanente richiede una maggioranza rafforzata.\n- A/B/C: Errate.\n- D: Corretta: voto favorevole dei due terzi dei componenti (LSC art. 249.2).\n",
+      "legal_reference": "LSC art. 249.2 (mayoría de dos tercios para delegación permanente).",
+      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
+    },
+    {
+      "question": "En las sociedades limitadas si la retribución al órgano de administración se establece en los estatutos sociales su importe máximo no excederá de:",
+      "answers": [
+        { "text": "20% de los beneficios repartibles", "correct": false },
+        { "text": "15% de los beneficios repartibles", "correct": false },
+        { "text": "10% de los beneficios repartibles", "correct": true },
+        { "text": "5% de los beneficios repartibles", "correct": false }
+      ],
+      "explanation": "ES: En SL, si la retribución consiste en participación en beneficios, la LSC fija un límite.\n- A/B/D: Incorrectas: no coinciden con el límite legal.\n- C: Correcta: la participación en beneficios no puede exceder del 10% de los beneficios repartibles (LSC art. 218), con el encaje adicional del régimen general de retribución (LSC art. 217).\nIT: Nella SL, se la remunerazione è partecipazione agli utili, c’è un tetto.\n- A/B/D: Errate.\n- C: Corretta: massimo 10% degli utili distribuibili (LSC art. 218; coordinamento con art. 217).\n",
+      "legal_reference": "LSC arts. 217–218 (régimen de retribución; participación en beneficios y límite en SL).",
+      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
+    },
+    {
+      "question": "La protección de la discrecionalidad empresarial consiste en:",
+      "answers": [
+        { "text": "Actuar como un ordenado comerciante", "correct": false },
+        { "text": "El de anteponer los intereses de la sociedad a los suyo propios", "correct": false },
+        { "text": "fijar el estandar de diligencia exigibile en la forma de declaraciones estrategicas del negocio", "correct": false },
+        { "text": "Todas son correctas", "correct": true }
+      ],
+      "explanation": "ES: La “protección de la discrecionalidad empresarial” (business judgment rule) presume la corrección de decisiones estratégicas si se adoptan con determinados requisitos.\n- A: Conecta con el deber de diligencia (LSC art. 225): actuar como ordenado empresario/representante leal.\n- B: Conecta con el deber de lealtad y la gestión de conflictos de interés (LSC arts. 227 y ss.): anteponer el interés social.\n- C: Conecta directamente con el estándar del art. 226: las decisiones de negocio/estratégicas se valoran con deferencia judicial si hay buena fe, ausencia de interés personal, información suficiente y procedimiento adecuado.\n- D: Correcta: las tres ideas forman parte del marco conceptual (diligencia, lealtad y estándar de revisión de decisiones empresariales).\nIT: La protezione della discrezionalità imprenditoriale (business judgment rule) tutela le scelte strategiche se rispettano requisiti.\n- A: È il dovere di diligenza (LSC art. 225).\n- B: È il dovere di lealtà/assenza di conflitti (LSC artt. 227 ss.).\n- C: È la regola di deferenza per decisioni di business (LSC art. 226: buona fede, assenza di interesse personale, informazione sufficiente, procedura adeguata).\n- D: Corretta: tutte le precedenti descrivono elementi del sistema.\n",
+      "legal_reference": "LSC arts. 225 (diligencia), 226 (protección de la discrecionalidad empresarial), 227–232 (deber de lealtad y conflictos de interés).",
+      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
+    },
+    {
+      "question": "Los acreedores pueden instar la accion de responsabilidad por deudas cuando;",
+      "answers": [
+        { "text": "Cuando el patrimonio neto esté por debajo dela cifra de capital social", "correct": false },
+        { "text": "Cuando la sociedad se encuentra en un proceso concursal", "correct": false },
+        { "text": "Cuando se encuentra en alguna de las causas de disolucion", "correct": true },
+        { "text": "Existencia de creditos contra la sociedad", "correct": false }
+      ],
+      "explanation": "ES: La responsabilidad por deudas (LSC art. 367) se activa por incumplimientos de los administradores cuando concurre causa de disolución y no actúan conforme a ley.\n- A: Incorrecta: “patrimonio neto por debajo del capital” no es el parámetro legal típico; la causa relevante es que las pérdidas dejen el patrimonio neto por debajo de la mitad del capital (LSC art. 363.1.e), además de otras causas.\n- B: Incorrecta: el concurso tiene su propio régimen (y puede afectar a deberes), pero la “acción por deudas” del art. 367 se vincula a causas de disolución y a la omisión de convocar/solicitar disolución.\n- C: Correcta: los acreedores pueden reclamar a administradores por deudas sociales nacidas tras la causa de disolución si éstos incumplen deberes (LSC arts. 363, 365 y 367).\n- D: Incorrecta: no basta con ser acreedor; debe concurrir el presupuesto material (causa de disolución) y el incumplimiento del administrador.\nIT: La responsabilità per debiti sociali (LSC art. 367) è collegata alla causa di scioglimento e all’inadempimento degli amministratori.\n- A: Errata: il criterio tipico è la perdita che riduce il patrimonio netto sotto la metà del capitale (LSC art. 363.1.e), non “sotto il capitale” in generale.\n- B: Errata: il concorso ha disciplina propria; l’azione ex art. 367 si collega alla causa di scioglimento.\n- C: Corretta: quando la società è in causa di scioglimento e gli amministratori non attivano i rimedi (convocazione/scioglimento), i creditori possono agire (LSC artt. 363, 365, 367).\n- D: Errata: il credito da solo non basta.\n",
+      "legal_reference": "LSC arts. 363 (causas de disolución), 365 (deber de convocar junta), 367 (responsabilidad por deudas).",
+      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
+    },
+    {
+      "question": "No es cierto que la formulación de las cuentas anuales",
+      "answers": [
+        { "text": "Deban de ser aprobadas en el plazo de tres meses desde el cierre del ejercicio social", "correct": false },
+        { "text": "Puedan ser aprobadas por delegación permanente de facultades por los consejeros delegados", "correct": true },
+        { "text": "Corresponda a los administradores sociales", "correct": false },
+        { "text": "deben de ser firmadas por todos los adiestradores sociales", "correct": false }
+      ],
+      "explanation": "ES: La formulación de cuentas anuales es un deber indelegable de los administradores; la aprobación corresponde a la junta general.\n- A: Aunque el enunciado usa “aprobadas”, la regla correcta es que deben ser formuladas en el plazo de tres meses desde el cierre (LSC art. 253). Si se lee literalmente “aprobadas”, sería impreciso; la aprobación es posterior por la junta.\n- B: Correcta como “no es cierto”: ni la formulación ni la aprobación pueden quedar en manos de una delegación permanente a consejeros delegados. La formulación es indelegable (LSC art. 249 bis) y la aprobación corresponde a la junta (LSC art. 160 y art. 272).\n- C: Verdadera: la formulación corresponde a los administradores (LSC art. 253).\n- D: Verdadera en esencia: las cuentas deben firmarse por todos los administradores; si falta firma, se indica la causa (LSC art. 253).\nIT: La redazione (formulación) dei bilanci è dovere indelegabile degli amministratori; l’approvazione è dell’assemblea.\n- A: Il testo dice “aprobadas”, ma la regola è “formulate” entro 3 mesi dalla chiusura (LSC art. 253). L’approvazione avviene dopo.\n- B: È la falsa (quindi corretta nella domanda): non si può delegare stabilmente né la formulazione né l’approvazione ai consiglieri delegati; la formulazione è indelegabile (LSC art. 249 bis) e l’approvazione è della junta (LSC art. 160; art. 272).\n- C: Vera: competenza degli amministratori (LSC art. 253).\n- D: Vera: firma di tutti gli amministratori (con indicazione del motivo se manca).\n",
+      "legal_reference": "LSC arts. 160 (competencias de la junta), 249 bis (facultades indelegables), 253 (formulación y firma de cuentas), 272 (aprobación de cuentas por la junta).",
+      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
+    },
+    {
+      "question": "Qué documento no integra las cuentas anuales abreviadas de las sociedades de capital:",
+      "answers": [
+        { "text": "el bilance", "correct": false },
+        { "text": "Las cuentas de pérdidas y ganancias", "correct": false },
+        { "text": "El estado de Pujos de efectivo", "correct": true },
+        { "text": "El informe de gestión", "correct": true }
+      ],
+      "explanation": "ES: En sentido técnico-contable, las cuentas anuales incluyen balance, PyG, estado de cambios en el patrimonio neto, estado de flujos de efectivo y memoria; el “informe de gestión” es un documento distinto que acompaña (y puede dispensarse en abreviadas).\n- A: Incorrecta: el balance sí integra las cuentas anuales (también en formato abreviado).\n- B: Incorrecta: la cuenta de pérdidas y ganancias integra las cuentas anuales (puede ser abreviada).\n- C: Correcta: en cuentas abreviadas no es exigible el estado de flujos de efectivo (reglas de formulación abreviada).\n- D: Correcta: el informe de gestión no integra las cuentas anuales como documento contable; además, en el régimen abreviado suele estar dispensado para sociedades que pueden formular abreviado.\nIT: Tecnicamente, i “conti annuali” includono vari prospetti contabili; l’“informe de gestión” è documento separato.\n- A/B: Errate: bilancio e conto economico fanno parte.\n- C: Corretta: nel formato abbreviato non si richiede il rendiconto finanziario (stato dei flussi di cassa).\n- D: Corretta: la relazione sulla gestione non è parte delle “cuentas anuales” in senso stretto e, nel regime abbreviato, può essere non dovuta.\n",
+      "legal_reference": "LSC arts. 253–254 (cuentas anuales como documento contable), 257–258 (abreviadas), 262 (informe de gestión y dispensa en supuestos). Normativa contable: estructura de cuentas anuales (PGC) y dispensa del EFE en abreviadas.",
+      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
+    },
+    {
+      "question": "Pueden formular balance y estado de cambio en el patrimonio neto abreviado las sociedades que durante dos ejercicios consecutivos reúnan, a fecha del cierre de cada uno de ellos, al menos dos de las circunstancias siguientes:",
+      "answers": [
+        { "text": "Que el total de las partidas del activo no supere los cuatro millones de euros y que el número medio de los trabajadores empleados durante el ejercicio no sea superior a cincuenta", "correct": true },
+        { "text": "Que el importe neto dela cifra de negocia no supere los diez millones de euros y que el total de las partidas del activo no supere los cuatro millones de euros", "correct": false },
+        { "text": "Que el número medio de trabajadores empleados durante el ejercicio no sea superior a cincuenta y el total de las partidas del activo no supere los ocho millones de euros", "correct": false },
+        { "text": "Que el importe neto dela cifra de negocio no supere los seis millones de euros y que el total de las partidas del activo no supere los cuatro millones de euros", "correct": false }
+      ],
+      "explanation": "ES: Para balance/ECNP abreviados, la LSC usa los umbrales clásicos (activo ≤ 4M; cifra de negocios ≤ 8M; trabajadores ≤ 50) y exige cumplir al menos dos de tres durante dos ejercicios.\n- A: Correcta: combina dos umbrales correctos (activo ≤ 4M y trabajadores ≤ 50).\n- B: Incorrecta: el umbral de cifra de negocios no es 10M (es 8M en el régimen típico).\n- C: Incorrecta: el activo no es 8M para esta modalidad (es 4M).\n- D: Incorrecta: cifra de negocios 6M no es el umbral legal típico.\nIT: Per bilancio/ECNP abbreviati, i limiti tipici sono (attivo ≤ 4M; ricavi ≤ 8M; dipendenti ≤ 50) e servono almeno due su tre per due esercizi.\n- A: Corretta.\n- B/C/D: Errate per soglie non corrispondenti.\n",
+      "legal_reference": "LSC art. 257 (balance abreviado y umbrales). Coordinación con normativa contable sobre ECNP abreviado.",
+      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
+    },
+    {
+      "question": "Cuando la sociedad està obligada a verificar sus cuentas anuales el auditor serà nombrado por:",
+      "answers": [
+        { "text": "El consejo de administración", "correct": false },
+        { "text": "La Junta General", "correct": false },
+        { "text": "El Registrador Mercantil", "correct": false },
+        { "text": "La junta general de socios y caso de que no lo hubiera nombrado el Registrador Mercantil a instancia de la Sociedad o de los socios", "correct": true }
+      ],
+      "explanation": "ES: El nombramiento del auditor corresponde a la junta; si no se nombra en plazo, interviene el Registrador Mercantil a solicitud de legitimados.\n- A: Incorrecta: no es competencia típica del consejo.\n- B: Parcial: la junta nombra, pero la opción no contempla el supuesto supletorio de nombramiento registral.\n- C: Parcial: el Registrador nombra sólo en defecto del acuerdo de junta (no como regla primaria).\n- D: Correcta: recoge la regla general (junta) y el remedio supletorio (Registrador a instancia de sociedad o socios) conforme a la LSC.\nIT: La nomina del revisore spetta all’assemblea; in mancanza, provvede il Registro su istanza.\n- A: Errata.\n- B/C: Incomplete.\n- D: Corretta: assemblea e, se omette, nomina del Registro su richiesta.\n",
+      "legal_reference": "LSC art. 264 (nombramiento de auditor por la junta y, en defecto, por el Registrador Mercantil).",
+      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
+    },
+    {
+      "question": "En la sociedad en caso de aumento de capital por compensación de créditos deberá ponerse a disposición de los susionintan",
+      "answers": [
+        { "text": "Informe de losadministradores", "correct": false },
+        { "text": "Certificado de cuentas", "correct": false },
+        { "text": "El informe de los administradores y certificado de cuentas", "correct": true },
+        { "text": "Informe Del Registrador Mercantil", "correct": false }
+      ],
+      "explanation": "ES: En el aumento por compensación de créditos (especialmente en SA), la LSC exige transparencia reforzada: se pone a disposición documentación sobre los créditos y su reflejo contable.\n- A: Incompleta: el informe de administradores es exigible, pero además se requiere verificación por auditor/certificación equivalente sobre la correspondencia contable.\n- B: Incompleta: el “certificado” (en realidad, informe/certificación del auditor) no sustituye el informe de administradores.\n- C: Correcta: deben estar disponibles el informe de administradores y el documento del auditor que verifica datos contables (LSC art. 301).\n- D: Incorrecta: el Registrador no emite el informe sustantivo de la operación; su papel puede ser nombrar auditor en ciertos casos, pero no “informar” la operación.\nIT: Nell’aumento per compensazione di crediti serve documentazione informativa rafforzata.\n- A/B: Incomplete.\n- C: Corretta: relazione degli amministratori + relazione/certificazione del revisore sui dati contabili (LSC art. 301).\n- D: Errata.\n",
+      "legal_reference": "LSC art. 301 (aumento por compensación de créditos: informe de administradores y verificación por auditor).",
+      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
+    },
+    {
+      "question": "El balance que servirá para aumentar el capital social con cargo a reservas de cuentas",
+      "answers": [
+        { "text": "El aprobado por la Junta General dentro de los seis meses anteriores al acuerdo, verificado por cuentas", "correct": true },
+        { "text": "Último de los formularios", "correct": false },
+        { "text": "Último de los aprobados en la Junta General", "correct": false },
+        { "text": "El cerrado treinta días antes de la fecha del acuerdo", "correct": false }
+      ],
+      "explanation": "ES: En el aumento con cargo a reservas, la LSC exige un balance “actual” y aprobado, con verificación cuando proceda.\n- A: Correcta en su núcleo: balance aprobado por la junta dentro de los seis meses anteriores y verificado por auditor cuando sea exigible (LSC art. 303).\n- B: Incorrecta: no basta con el “último formulado” si no está aprobado y dentro del plazo.\n- C: Incorrecta: “último aprobado” puede ser demasiado antiguo si excede los seis meses.\n- D: Incorrecta: la LSC fija el parámetro de seis meses y aprobación; no el cierre “treinta días” como regla.\nIT: Nell’aumento con riserve serve un bilancio recente e approvato.\n- A: Corretta: entro i sei mesi e con verifica del revisore quando richiesta (LSC art. 303).\n- B/C/D: Errate.\n",
+      "legal_reference": "LSC art. 303 (aumento con cargo a reservas: balance aprobado dentro de seis meses; verificación por auditor).",
+      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
+    },
+    {
+      "question": "Para aumentar el capital por compensación de créditos en ura St, les mism deberán ser:",
+      "answers": [
+        { "text": "Totalmente vencidos, líquidos y exigibles", "correct": true },
+        { "text": "Líquidos, vencidos y exigibles en al menos un 15%", "correct": false },
+        { "text": "Líquidos, vencidos y exigibles al menos un 20%% y el vencimiento de los restantes no debe de producirse en un plazo superior a 5 años", "correct": false },
+        { "text": "Líquidos, vencidos y exigibles al menos un 20%% y el vencimiento de los restantes no debe de producirse en un plazo superior a 5 años", "correct": false }
+      ],
+      "explanation": "ES: En SL, el aumento por compensación de créditos exige que los créditos estén íntegramente vencidos, líquidos y exigibles (régimen más estricto que en SA).\n- A: Correcta: refleja el estándar exigido para SL.\n- B/C/D: Incorrectas: porcentajes parciales (y plazos) se asocian al régimen de SA (donde existe un umbral parcial de vencimiento), pero no al requisito típico de SL; además, aquí aparecen porcentajes que no coinciden con el esquema legal clásico.\nIT: Nella SL la compensazione richiede crediti interamente scaduti, liquidi ed esigibili.\n- A: Corretta.\n- B/C/D: Errate (richiamano logiche percentuali tipiche della SA o comunque non corrispondenti).\n",
+      "legal_reference": "LSC art. 301 (aumento por compensación de créditos; diferencias SA/SL en exigibilidad de créditos).",
+      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
+    },
+    {
+      "question": "La reducción de capital podrá tener como finalidad:",
+      "answers": [
+        { "text": "Restablecer el equilibrio entre capital y el patrimonio neto", "correct": false },
+        { "text": "Devolución de aportaciones a los socios", "correct": false },
+        { "text": "La constitución de la reserva legal", "correct": false },
+        { "text": "Todas las anteriores son ciertas", "correct": true }
+      ],
+      "explanation": "ES: La reducción de capital es una operación de modificación estructural del capital que puede perseguir distintas finalidades admitidas por la LSC.\n- A: Es finalidad típica: reducción para compensar pérdidas y restablecer equilibrio capital/patrimonio neto.\n- B: Es finalidad típica: devolución de aportaciones (con régimen de tutela de acreedores).\n- C: Puede orientarse a constituir o incrementar reservas (incluida la legal si se encaja correctamente con el sistema de reservas), en función del diseño de la operación.\n- D: Correcta: recoge la pluralidad de finalidades legalmente admisibles.\nIT: La riduzione del capitale può avere più scopi leciti.\n- A/B: Scopi tipici (perdite/equilibrio; restituzione conferimenti).\n- C: Possibile orientamento a riserve (nel rispetto del regime).\n- D: Corretta: tutte le precedenti.\n",
+      "legal_reference": "LSC arts. 317 y ss. (reducción de capital; modalidades y finalidades), especialmente régimen de reducción por pérdidas y devolución de aportaciones.",
+      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
+    },
+    {
+      "question": "La reducción de capital no podrá llevarse a cabo media",
+      "answers": [
+        { "text": "Compensación", "correct": true },
+        { "text": "Amortización", "correct": false },
+        { "text": "Agrupación", "correct": false },
+        { "text": "Disminución de su valor nominal", "correct": false }
+      ],
+      "explanation": "ES: Las modalidades típicas de reducción pasan por amortizar participaciones/acciones, disminuir su valor nominal o, en su caso, operaciones técnicas como agrupación para ajustar unidades; “compensación” (set-off) no es un mecanismo societario de reducción.\n- A: Correcta: la reducción no se realiza “mediante compensación” como técnica propia.\n- B/D: Sí son mecanismos típicos (amortización o disminución de nominal).\n- C: Puede aparecer como operación técnica vinculada a ajustes, pero no convierte por sí misma la reducción en “compensación”.\nIT: La riduzione del capitale si attua con strumenti societari tipici.\n- A: Corretta: la compensazione non è modalità di riduzione.\n- B/D: Modalità tipiche.\n- C: Operazione tecnica possibile, ma non “compensazione”.\n",
+      "legal_reference": "LSC arts. 317 y ss. (modalidades de reducción: amortización, disminución del nominal, etc.).",
+      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
+    },
+    {
+      "question": "Qué se entiende por operación acordeón:",
+      "answers": [
+        { "text": "La disminución de los fondos propios de la sociedad", "correct": false },
+        { "text": "La reducción de capital social para equilibrar el patrimonio neto de la sociedad", "correct": false },
+        { "text": "La reducción y aumento de capital simultáneos", "correct": true },
+        { "text": "La reducción de capital social para eludir la causa de disolución", "correct": false }
+      ],
+      "explanation": "ES: La “operación acordeón” es la técnica de reducir y aumentar capital de forma coordinada/simultánea (normalmente para sanear pérdidas y restablecer patrimonio).\n- A: Incorrecta: es una consecuencia posible, pero no define la figura.\n- B: Describe una finalidad parcial (reducción por pérdidas), pero falta el elemento esencial del aumento simultáneo.\n- C: Correcta: la definición típica es reducción y aumento simultáneos (LSC art. 343).\n- D: Incorrecta: no es una operación para “eludir” la disolución de forma fraudulenta, sino un mecanismo legal de reequilibrio patrimonial con garantías.\nIT: L’operazione “a fisarmonica” consiste in riduzione e contestuale aumento del capitale.\n- A/B: Incomplete o descrittive di finalità.\n- C: Corretta (LSC art. 343).\n- D: Errata: non è elusione, ma strumento legale con presidi.\n",
+      "legal_reference": "LSC art. 343 (operación acordeón).",
+      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
+    },
+    {
+      "question": "Entre las causas de separación del socio en las sociedades de capital se encuentra",
+      "answers": [
+        { "text": "Dedicarse a la misma actividad que constituye su objeto social", "correct": false },
+        { "text": "Ampliación del objeto social", "correct": false },
+        { "text": "Prórroga de la sociedad", "correct": true },
+        { "text": "Cambio de domicilio social", "correct": false }
+      ],
+      "explanation": "ES: La separación es un derecho legal en ciertos cambios estructurales/estatutarios que alteran el “pacto social”.\n- A: Incorrecta: dedicarse a la misma actividad puede conectar con conflictos o competencia, pero no es causa legal típica de separación.\n- B: Matizable: el derecho de separación suele ligarse a sustitución o modificación sustancial del objeto, no a cualquier “ampliación” (depende de la entidad del cambio).\n- C: Correcta: la prórroga de la sociedad es causa legal de separación (LSC art. 346).\n- D: Incorrecta como regla: el cambio de domicilio social no figura como causa legal típica de separación.\nIT: Il recesso (separación) opera in caso di modifiche che incidono sul patto sociale.\n- A: Errata.\n- B: Dipende dalla qualificazione (sostituzione/modifica sostanziale dell’oggetto).\n- C: Corretta: proroga della società (LSC art. 346).\n- D: Errata come regola.\n",
+      "legal_reference": "LSC art. 346 (causas legales de separación del socio).",
+      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
+    },
+    {
+      "question": "l socio puede ejercitar su derecho de separación por falta de reparto de dividendos conforme establece el artículo 348 bis de la LSC",
+      "answers": [
+        { "text": "Cuando no hubiera repartido dividendos en los últimos cinco ejercicio.", "correct": false },
+        { "text": "Cuando se hayan obtenido beneficios durante los últimos tres ejercicios y no hubiera repartido dividendos en las últimos cinco ejercicios de al menos un 35%", "correct": false },
+        { "text": "Cuando se hayan obtenido beneficios durante los últimos tres ejercicios y no hubiera repartido dividendos en los últimos cinco ejercicios de al menos un 25%", "correct": true },
+        { "text": "cuando se hayan obtenido beneficios durante los últimos tres ejercicios y no hubiera repartido dividendos en los últimos cinco ejercicios de al menos un 15%", "correct": false }
+      ],
+      "explanation": "ES: El art. 348 bis reconoce separación por falta de dividendos bajo requisitos: transcurso de ciertos ejercicios desde inscripción, beneficios y que la junta no acuerde distribuir un mínimo (clásicamente, 25% de beneficios legalmente distribuibles) en el ejercicio anterior, con beneficios en los tres anteriores, y con determinadas excepciones.\n- A: Incorrecta: el criterio no es “cinco ejercicios sin dividendos” como regla automática.\n- B: Incorrecta: el umbral del 35% no corresponde al estándar legal típico.\n- C: Correcta: es la opción que refleja el umbral del 25% (aunque el enunciado sea imperfecto en su redacción).\n- D: Incorrecta: 15% no es el umbral legal típico.\nIT: L’art. 348 bis consente il recesso per mancata distribuzione di dividendi solo se ricorrono condizioni e soglie.\n- A: Errata: non basta “5 anni senza dividendi”.\n- B: Errata: 35% non è la soglia tipica.\n- C: Corretta: richiama la soglia del 25% (pur con formulazione non perfetta).\n- D: Errata: 15% non è la soglia.\n",
+      "legal_reference": "LSC art. 348 bis (derecho de separación por falta de distribución de dividendos: requisitos y umbral mínimo).",
+      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
+    },
+    {
+      "question": "Caso del ejercicio de derecho de separación por el socio el valor atribuido a sus acciones o participaciones sociales será el :",
+      "answers": [
+        { "text": "Razonable", "correct": true },
+        { "text": "Teórico contable", "correct": false },
+        { "text": "Los serà por los flujos de caja", "correct": false },
+        { "text": "De mercado", "correct": false }
+      ],
+      "explanation": "ES: En separación, el socio tiene derecho a recibir el “valor razonable” de sus participaciones/acciones, normalmente fijado por experto independiente.\n- A: Correcta: la LSC usa la noción de valor razonable como criterio legal.\n- B: Incorrecta: el valor teórico contable puede ser un indicador, pero no es el estándar legal obligatorio.\n- C: Incorrecta: flujos de caja (DCF) es un método posible para estimar valor razonable, pero no es “el” criterio legal único ni necesariamente el aplicable en todos los casos.\n- D: Incorrecta: “valor de mercado” puede aproximarse al razonable en sociedades cotizadas, pero en no cotizadas no siempre existe mercado y la LSC no lo formula así como regla.\nIT: In caso di recesso, si liquida il “valore ragionevole” (valor razonable), spesso determinato da esperto indipendente.\n- A: Corretta.\n- B: Errata: il contabile non è lo standard legale.\n- C: Errata: il DCF è un metodo, non il criterio normativo.\n- D: Errata: il “mercato” non è sempre disponibile e non è la formula legale generale.\n",
+      "legal_reference": "LSC arts. 353 y ss. (valor razonable y designación de experto para valoración en separación/exclusión).",
+      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
+    },
+    {
+      "question": "Entre las causas legales de la exclusión del socio no se encuentra la relativa a:",
+      "answers": [
+        { "text": "El incumplimiento de realizar prestaciones accesorias", "correct": false },
+        { "text": "la violación de competencia del administrador socia", "correct": false },
+        { "text": "La condena por sentencia firme", "correct": false },
+        { "text": "La reactivación de la sociedad", "correct": true }
+      ],
+      "explanation": "ES: La exclusión en SL tiene causas legales tipificadas (prestaciones accesorias, competencia del socio-administrador, condena firme del socio-administrador a indemnizar), y además causas estatutarias. La reactivación es una operación societaria tras disolución, no una causa de exclusión.\n- A: Sí es causa legal (LSC art. 350).\n- B: Sí es causa legal en su supuesto típico (infracción de prohibición de competencia del socio que sea administrador) (LSC art. 350).\n- C: Sí es causa legal cuando se trata de condena firme del socio-administrador a indemnizar a la sociedad (LSC art. 350).\n- D: Correcta: la reactivación pertenece al régimen de disolución/reactivación (no al de exclusión).\nIT: Le cause legali di esclusione (SL) sono tipizzate; la reattivazione è un istituto diverso (post-scioglimento).\n- A/B/C: Sono (nelle rispettive configurazioni) cause legali.\n- D: Corretta: reattivazione non è causa di esclusione.\n",
+      "legal_reference": "LSC art. 350 (causas legales de exclusión en SL). LSC art. 370 (reactivación de la sociedad).",
+      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
+    },
+    {
+      "question": "En relación al pasivo sobrevenido tras la extinción de la soledad",
+      "answers": [
+        { "text": "Los socios no responderán de las deudas sociales no satisfechas", "correct": false },
+        { "text": "Los socios responderán solidariamente de las deudas sociales no satisfechas", "correct": false },
+        { "text": "Los socios responderán solidariamente de las deudas sociales no satisfechas hasta el límite de lo recibido como cuota de liquidación", "correct": true },
+        { "text": "Serán exclusivamente respuestas por los liquidadores", "correct": false }
+      ],
+      "explanation": "ES: Tras la liquidación y extinción registral, pueden aparecer pasivos sobrevenidos; la LSC protege a acreedores permitiendo dirigirse contra socios hasta el límite de lo recibido.\n- A: Incorrecta: no hay inmunidad total.\n- B: Incorrecta: no responden ilimitadamente; hay límite.\n- C: Correcta: los antiguos socios responden hasta el límite de lo percibido como cuota de liquidación (y pueden concurrir responsabilidades de liquidadores si hubo culpa).\n- D: Incorrecta: no es exclusivo de liquidadores; depende del sujeto y del fundamento (límite para socios; culpa/negligencia para liquidadores).\nIT: Dopo l’estinzione possono emergere debiti; i creditori possono agire contro gli ex soci entro il limite di quanto riscosso.\n- A: Errata.\n- B: Errata (manca il limite).\n- C: Corretta: responsabilità fino alla quota di liquidazione percepita.\n- D: Errata: i liquidatori rispondono solo se c’è colpa/irregolarità, non in via esclusiva.\n",
+      "legal_reference": "LSC art. 399 (responsabilidad de socios y liquidadores por deudas sociales tras la liquidación/extinción; límite de lo recibido).",
+      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
+    },
+    {
+      "question": "Entre la causa de disolución de la sociedad no se encuentra la de:",
+      "answers": [
+        { "text": "Paralización del organo de administración", "correct": false },
+        { "text": "Posibilidad manifiesta de conseguir su objeto social", "correct": false },
+        { "text": "Cuando el valor nominal de las acciones o participaciones sociale excediera de la mitad del valor desembolsado", "correct": true },
+        { "text": "Por conclusion del objeto social", "correct": false }
+      ],
+      "explanation": "ES: Las causas legales de disolución están tasadas (LSC art. 363). La opción C no corresponde a ninguna causa típica.\n- A: La causa típica es paralización de los órganos sociales de modo que resulte imposible su funcionamiento (no “del órgano de administración” en concreto, pero la idea se relaciona con la causa legal).\n- B: La causa legal es la imposibilidad manifiesta de conseguir el fin social; la redacción aquí dice “posibilidad”, por lo que así escrita no describe la causa, pero el instituto existe como imposibilidad.\n- C: Correcta como “no se encuentra”: no es una causa legal de disolución.\n- D: La conclusión del objeto social (cumplimiento/fin del objeto o imposibilidad) se conecta con las causas legales.\nIT: Le cause di scioglimento sono tipizzate (LSC art. 363). La C non è una causa prevista.\n- A/D: Richiamano concetti presenti nel catalogo legale.\n- B: La legge parla di impossibilità, non di “possibilità” (qui c’è un problema di redazione), ma la causa esiste in senso opposto.\n- C: Corretta: non è causa di scioglimento.\n",
+      "legal_reference": "LSC art. 363 (causas legales de disolución).",
+      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
+    },
+    {
+      "question": "En caso de estar incursa la sociedad en causa de disolución se deberá acordar la convocatoria de la junta en el plazo de",
+      "answers": [
+        { "text": "1 mes", "correct": false },
+        { "text": "2 meses", "correct": true },
+        { "text": "3 meses", "correct": false },
+        { "text": "4 meses", "correct": false }
+      ],
+      "explanation": "ES: Detectada causa legal de disolución, los administradores deben convocar junta para que adopte acuerdo de disolución o medidas de remoción.\n- A/C/D: Incorrectas: no coinciden con el plazo legal.\n- B: Correcta: el plazo legal típico es de dos meses desde que concurre la causa (LSC art. 365).\nIT: Accertata la causa di scioglimento, gli amministratori devono convocare l’assemblea entro un termine legale.\n- B: Corretta: due mesi (LSC art. 365).\n- A/C/D: Errate.\n",
+      "legal_reference": "LSC art. 365 (deber de convocar junta en caso de causa de disolución; plazo).",
+      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
+    },
+    {
+      "question": "Con la disolución de la sociedad se abre el periodo de liquidación durante el cual",
+      "answers": [
+        { "text": "Los administradores se convierten automáticamente en liquidadores", "correct": false },
+        { "text": "El poder de representación corresponde a los liquidadores", "correct": true },
+        { "text": "No es necesaria la convocatoria de junta", "correct": false },
+        { "text": "Es nombrado por plazo determinado", "correct": false }
+      ],
+      "explanation": "ES: Disuelta la sociedad, entra en liquidación; el órgano clave pasa a ser el de liquidación, con facultades representativas.\n- A: No es universal: como regla supletoria puede ocurrir que los administradores pasen a ser liquidadores si estatutos o junta no disponen otra cosa, pero no es automático en todos los casos; por eso no es la afirmación más correcta en términos absolutos.\n- B: Correcta: durante la liquidación, la representación corresponde a los liquidadores (régimen legal de liquidación).\n- C: Incorrecta: siguen siendo necesarias juntas para decisiones relevantes (nombramientos, aprobación de balance final, etc.).\n- D: Incorrecta: el nombramiento de liquidadores no se define necesariamente por “plazo determinado” como regla.\nIT: Con lo scioglimento si apre la liquidazione: i liquidatori assumono funzioni e rappresentanza.\n- A: Non sempre automatico (può essere regola suppletiva se non si nominano altri liquidatori).\n- B: Corretta: la rappresentanza spetta ai liquidatori.\n- C: Errata: l’assemblea continua ad avere ruoli.\n- D: Errata: non c’è un “termine fisso” come regola generale.\n",
+      "legal_reference": "LSC arts. 371 y ss. (liquidación; liquidadores y representación). En particular, reglas sobre nombramiento/funciones y representación de liquidadores.",
+      "original_file": "D. Mercantil II 2 ° parcial AGGIORNADO 06 10 25.docx"
     }
   ]
 }
