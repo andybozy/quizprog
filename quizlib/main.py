@@ -208,6 +208,10 @@ def comando_quiz_falladas_o_saltadas(questions, perf_data, exam_dates, **kwargs)
     play_quiz(questions, perf_data, filter_mode="wrong_unanswered", exam_dates=exam_dates, **kwargs)
 
 
+def comando_quiz_saltadas(questions, perf_data, exam_dates, **kwargs):
+    play_quiz(questions, perf_data, filter_mode="skipped", exam_dates=exam_dates, **kwargs)
+
+
 def comando_quiz_por_archivo(questions, perf_data, cursos_dict, exam_dates):
     fichero = pick_a_file_menu(cursos_dict)
     if not fichero:
@@ -219,8 +223,9 @@ def comando_quiz_por_archivo(questions, perf_data, cursos_dict, exam_dates):
         print("2) No respondidas")
         print("3) Falladas")
         print("4) Falladas o saltadas")
-        print("5) Programadas para hoy")
-        print("6) Volver")
+        print("5) Saltadas")
+        print("6) Programadas para hoy")
+        print("7) Volver")
         elec = input("Elige opción: ").strip()
         if elec == "1":
             comando_quiz_todas(questions, perf_data, exam_dates, file_filter=fichero)
@@ -231,8 +236,10 @@ def comando_quiz_por_archivo(questions, perf_data, cursos_dict, exam_dates):
         elif elec == "4":
             comando_quiz_falladas_o_saltadas(questions, perf_data, exam_dates, file_filter=fichero)
         elif elec == "5":
-            comando_quiz_programado(questions, perf_data, exam_dates, file_filter=fichero)
+            comando_quiz_saltadas(questions, perf_data, exam_dates, file_filter=fichero)
         elif elec == "6":
+            comando_quiz_programado(questions, perf_data, exam_dates, file_filter=fichero)
+        elif elec == "7":
             break
         else:
             print("Opción no válida.")
@@ -343,10 +350,11 @@ def mostrar_menu():
     print("3) No respondidas")
     print("4) Falladas")
     print("5) Falladas o saltadas")
-    print("6) Por archivo")
-    print("7) Por etiqueta")
-    print("8) Resumen de archivos")
-    print("9) Estadísticas")
+    print("6) Saltadas")
+    print("7) Por archivo")
+    print("8) Por etiqueta")
+    print("9) Resumen de archivos")
+    print("10) Estadísticas")
     print("0) Salir")
 
 
@@ -376,12 +384,14 @@ def main():
         elif choice == "5":
             comando_quiz_falladas_o_saltadas(questions, perf_data, exam_dates)
         elif choice == "6":
-            comando_quiz_por_archivo(questions, perf_data, cursos_dict, exam_dates)
+            comando_quiz_saltadas(questions, perf_data, exam_dates)
         elif choice == "7":
-            comando_quiz_por_etiqueta(questions, perf_data, exam_dates, tags)
+            comando_quiz_por_archivo(questions, perf_data, cursos_dict, exam_dates)
         elif choice == "8":
-            comando_resumen_archivos(questions, perf_data, cursos_dict, quiz_files_info)
+            comando_quiz_por_etiqueta(questions, perf_data, exam_dates, tags)
         elif choice == "9":
+            comando_resumen_archivos(questions, perf_data, cursos_dict, quiz_files_info)
+        elif choice == "10":
             comando_estadisticas(questions, perf_data, cursos_dict)
         elif choice == "0":
             clear_screen()

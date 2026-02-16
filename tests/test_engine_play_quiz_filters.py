@@ -50,6 +50,16 @@ def test_play_quiz_wrong(dummy_preguntar):
     # only Q0
     assert dummy_preguntar == [(0,1,1)]
 
+def test_play_quiz_skipped(dummy_preguntar):
+    questions = make_questions(3)
+    perf_data = {
+        "0": {"history":["skipped"], "next_review":"2025-05-05"},
+        "1": {"history":["correct"], "next_review":"2025-05-05"}
+    }
+    play_quiz(questions, perf_data, filter_mode="skipped", file_filter=None, exam_dates={})
+    # only Q0
+    assert dummy_preguntar == [(0,1,1)]
+
 def test_play_quiz_wrong_unanswered(dummy_preguntar):
     questions = make_questions(4)
     perf_data = {

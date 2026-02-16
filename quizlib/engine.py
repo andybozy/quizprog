@@ -305,6 +305,12 @@ def play_quiz(full_questions, perf_data, filter_mode="all",
             if perf_data.get(str(qid), {}).get("history", []) and
                perf_data[str(qid)]["history"][-1] == "wrong"
         ]
+    elif filter_mode == "skipped":
+        subset = [
+            (qid, q) for qid, q in pairs
+            if perf_data.get(str(qid), {}).get("history", []) and
+               perf_data[str(qid)]["history"][-1] == "skipped"
+        ]
     elif filter_mode == "wrong_unanswered":
         subset = [
             (qid, q) for qid, q in pairs

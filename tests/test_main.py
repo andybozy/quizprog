@@ -57,7 +57,7 @@ def test_main_startup_and_exit():
 @pytest.mark.skipif(os.name == "nt", reason="pexpect more complex on Windows")
 def test_file_selection_submenu_and_return():
     """
-    From main menu choose '6) Por archivo', drill into the quiz file submenu,
+    From main menu choose '7) Por archivo', drill into the quiz file submenu,
     then back out and finally exit.
     """
     with tempfile.TemporaryDirectory() as temp_quiz_folder:
@@ -94,8 +94,8 @@ def test_file_selection_submenu_and_return():
         # Main menu
         child.expect("QuizProg v", timeout=5)
         child.expect("Elige opción:", timeout=5)
-        # Choose 6) Por archivo
-        child.sendline("6")
+        # Choose 7) Por archivo
+        child.sendline("7")
 
         # Course list
         child.expect(r"=== Lista de Cursos ===", timeout=5)
@@ -116,12 +116,13 @@ def test_file_selection_submenu_and_return():
         child.expect(r"2\) No respondidas", timeout=5)
         child.expect(r"3\) Falladas", timeout=5)
         child.expect(r"4\) Falladas o saltadas", timeout=5)
-        child.expect(r"5\) Programadas para hoy", timeout=5)
-        child.expect(r"6\) Volver", timeout=5)
+        child.expect(r"5\) Saltadas", timeout=5)
+        child.expect(r"6\) Programadas para hoy", timeout=5)
+        child.expect(r"7\) Volver", timeout=5)
         child.expect("Elige opción:", timeout=5)
 
         # Go back to main menu
-        child.sendline("6")
+        child.sendline("7")
         child.expect("QuizProg v", timeout=5)
         child.expect("Elige opción:", timeout=5)
 
