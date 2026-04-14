@@ -819,6 +819,816 @@
       "legal_reference": "No existe una referencia normativa específica general; es una cuestión doctrinal/académica fundamentada en 3_TEMA 3 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1, 2.1, 2.2 y 2.3. Cuando se cita la OIT, se trata de referencia técnico-doctrinal, no de norma laboral española aplicable a la pregunta.",
       "file_number": 3,
       "original_file": "3_TEMA 3 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 31,
+      "topic": "TEMA 4",
+      "question": "¿Qué significa la “competencia metodológica”?",
+      "answers": [
+        {
+          "text": "Que los trabajadores “saben hacer”",
+          "correct": true
+        },
+        {
+          "text": "Que los trabajadores “saben”",
+          "correct": false
+        },
+        {
+          "text": "Que los trabajadores “saben ser”",
+          "correct": false
+        },
+        {
+          "text": "Que los trabajadores “saben estar”",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la primera porque el temario define la competencia profesional como la suma de cuatro componentes: competencia técnica = “saben”, competencia metodológica = “saben hacer”, competencia personal = “saben ser” y competencia participativa = “saben estar”. Por eso la segunda, tercera y cuarta son incorrectas: trasladan a la competencia metodológica significados que corresponden a otras competencias distintas.\nIT: È corretta la prima perché il materiale distingue quattro dimensioni: tecnica = “sapere”, metodologica = “saper fare”, personale = “saper essere” e partecipativa = “saper stare”. Le altre tre opzioni sono errate perché attribuiscono alla competenza metodologica significati che appartengono ad altre categorie.",
+      "legal_reference": "No existe una referencia normativa específica; es una cuestión doctrinal/académica fundamentada en 4_TEMA 4 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1.1 a 1.4.",
+      "file_number": 4,
+      "original_file": "4_TEMA 4 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 32,
+      "topic": "TEMA 4",
+      "question": "¿Qué significa la “competencia personal”?",
+      "answers": [
+        {
+          "text": "Que los trabajadores “saben hacer”",
+          "correct": false
+        },
+        {
+          "text": "Que los trabajadores “saben ser”",
+          "correct": true
+        },
+        {
+          "text": "Que los trabajadores “saben”",
+          "correct": false
+        },
+        {
+          "text": "Que los trabajadores “saben estar”",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la segunda porque la competencia personal identifica el “saben ser” del trabajador, es decir, rasgos de comportamiento y posicionamiento personal adecuados al puesto. La primera es metodológica, la tercera es técnica y la cuarta es participativa. Por tanto, las otras opciones confunden deliberadamente categorías que el tema diferencia de forma expresa.\nIT: È corretta la seconda perché la competenza personale corrisponde al “saper essere” del lavoratore. La prima riguarda il “saper fare”, la terza il “sapere” tecnico e la quarta il “saper stare” in relazione e nel contesto organizzativo.",
+      "legal_reference": "No existe una referencia normativa específica; es una cuestión doctrinal/académica fundamentada en 4_TEMA 4 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1.1 a 1.4.",
+      "file_number": 4,
+      "original_file": "4_TEMA 4 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 33,
+      "topic": "TEMA 4",
+      "question": "¿En qué consiste el sistema de valoración por incidentes críticos?",
+      "answers": [
+        {
+          "text": "En la anotación de hechos singulares que ocurren en un determinado momento y que resultan especialmente relevantes de cara a valorar el desempeño de un individuo en su puesto de trabajo",
+          "correct": true
+        },
+        {
+          "text": "En someter a prueba a los sujetos evaluados planteándoles situaciones o casos prácticos similares, en términos de competencias exigidas, a los que se viven en el puesto de trabajo, de tal manera que puedan demostrar el nivel de competencia que poseen",
+          "correct": false
+        },
+        {
+          "text": "En un repertorio de cualidades, conductas o comportamientos, a los que subyace una determinada competencia, sobre los cuales el evaluador debe constatar su presencia o ausencia en el trabajador evaluado.",
+          "correct": false
+        },
+        {
+          "text": "En una línea continua donde se hace una marca indicando la posición del sujeto en la competencia medida",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la primera porque el tema define los incidentes críticos como la anotación de hechos singulares especialmente relevantes para valorar el desempeño. La segunda describe la simulación y ejercicios prácticos. La tercera corresponde a las listas de verificación o check lists. La cuarta describe una escala gráfica. La clave aquí es distinguir entre técnicas basadas en observación de hechos concretos y otras técnicas de simulación, checklist o escalas.\nIT: È corretta la prima perché gli “incidentes críticos” consistono nel registrare fatti singoli particolarmente rilevanti per valutare la prestazione. La seconda descrive prove di simulazione, la terza le check list, la quarta una scala grafica di valutazione.",
+      "legal_reference": "No existe una referencia normativa específica; es una cuestión doctrinal/académica fundamentada en 4_TEMA 4 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1.1 a 1.4.",
+      "file_number": 4,
+      "original_file": "4_TEMA 4 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 34,
+      "topic": "TEMA 4",
+      "question": "¿Qué significa la “competencia participativa”?",
+      "answers": [
+        {
+          "text": "Que los trabajadores “saben hacer”",
+          "correct": false
+        },
+        {
+          "text": "Que los trabajadores “saben ser”",
+          "correct": false
+        },
+        {
+          "text": "Que los trabajadores “saben”",
+          "correct": false
+        },
+        {
+          "text": "Que los trabajadores “saben estar”",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es la cuarta porque la competencia participativa equivale al “saben estar”, es decir, la capacidad de integrarse, participar y desenvolverse en el marco relacional y organizativo. La primera es la competencia metodológica, la segunda la personal y la tercera la técnica.\nIT: È corretta la quarta perché la competenza partecipativa corrisponde al “saper stare”, cioè al modo in cui la persona si inserisce e opera nel contesto organizzativo e relazionale. Le altre opzioni si riferiscono rispettivamente alle competenze metodologica, personale e tecnica.",
+      "legal_reference": "No existe una referencia normativa específica; es una cuestión doctrinal/académica fundamentada en 4_TEMA 4 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1.1 a 1.4.",
+      "file_number": 4,
+      "original_file": "4_TEMA 4 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 35,
+      "topic": "TEMA 4",
+      "question": "El factor de evaluación del desempeño que evalúa la exactitud, seriedad, claridad y utilidad en las tareas encomendadas es la",
+      "answers": [
+        {
+          "text": "Conocimiento del puesto",
+          "correct": false
+        },
+        {
+          "text": "Cantidad de trabajo",
+          "correct": false
+        },
+        {
+          "text": "Calidad de trabajo",
+          "correct": true
+        },
+        {
+          "text": "Planificación",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la tercera porque el propio temario, al definir “Calidad de trabajo”, dice que evalúa la exactitud, seriedad, claridad y utilidad de las tareas encomendadas. “Conocimiento del puesto” mide comprensión del trabajo; “Cantidad de trabajo” valora volumen y cumplimiento; y “Planificación” se refiere a programar órdenes, recursos y plazos.\nIT: È corretta la terza perché il tema definisce la “calidad de trabajo” come il fattore che valuta esattezza, serietà, chiarezza e utilità del lavoro svolto. Le altre opzioni riguardano invece conoscenza del posto, quantità di lavoro e capacità di pianificazione.",
+      "legal_reference": "No existe una referencia normativa específica; es una cuestión doctrinal/académica fundamentada en 4_TEMA 4 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1.1 a 1.4.",
+      "file_number": 4,
+      "original_file": "4_TEMA 4 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 36,
+      "topic": "TEMA 4",
+      "question": "¿Qué significa la “competencia técnica”?",
+      "answers": [
+        {
+          "text": "Que los trabajadores “saben estar”",
+          "correct": false
+        },
+        {
+          "text": "Que los trabajadores “saben”",
+          "correct": true
+        },
+        {
+          "text": "Que los trabajadores “saben hacer”",
+          "correct": false
+        },
+        {
+          "text": "Que los trabajadores “saben ser”",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la segunda porque la competencia técnica representa el “saben”, esto es, el conocimiento técnico o profesional que exige el puesto. La primera remite a la competencia participativa, la tercera a la metodológica y la cuarta a la personal.\nIT: È corretta la seconda perché la competenza tecnica coincide con il “sapere”, cioè con il bagaglio di conoscenze richiesto dal ruolo. Le altre tre opzioni corrispondono rispettivamente a competenza partecipativa, metodologica e personale.",
+      "legal_reference": "No existe una referencia normativa específica; es una cuestión doctrinal/académica fundamentada en 4_TEMA 4 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1.1 a 1.4.",
+      "file_number": 4,
+      "original_file": "4_TEMA 4 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 37,
+      "topic": "TEMA 4",
+      "question": "Estos sistemas de escalas …",
+      "answers": [
+        {
+          "text": "Todas son correctas",
+          "correct": false
+        },
+        {
+          "text": "Permiten valorar en qué grado se posee un determinado rasgo o se manifiesta una conducta",
+          "correct": true
+        },
+        {
+          "text": "Son siempre de escalas numéricas",
+          "correct": false
+        },
+        {
+          "text": "No reflejan los diferentes niveles de desarrollo alcanzados en cada una de las competencias objeto de evaluación",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la segunda porque el tema explica literalmente que los sistemas de escalas permiten valorar en qué grado se posee un rasgo o se manifiesta una conducta. La primera es falsa porque no todas lo son: no siempre son numéricas y sí pueden reflejar niveles de desarrollo. La tercera es errónea porque las escalas pueden ser gráficas, numéricas o verbales. La cuarta es falsa porque precisamente sirven para reflejar distintos niveles.\nIT: È corretta la seconda perché i sistemi di scale servono a misurare in che grado è presente un tratto o un comportamento. La prima è falsa perché non tutte le affermazioni sono vere. La terza è errata perché le scale possono essere grafiche, numeriche o verbali. La quarta è falsa perché proprio queste scale consentono di distinguere diversi livelli di sviluppo.",
+      "legal_reference": "No existe una referencia normativa específica; es una cuestión doctrinal/académica fundamentada en 4_TEMA 4 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1.1 a 1.4.",
+      "file_number": 4,
+      "original_file": "4_TEMA 4 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 38,
+      "topic": "TEMA 4",
+      "question": "Los sistemas de escalas son técnicas de valoración del puesto de trabajo",
+      "answers": [
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        },
+        {
+          "text": "Basados en valoraciones",
+          "correct": false
+        },
+        {
+          "text": "Basados en características y experiencias de los sujetos",
+          "correct": false
+        },
+        {
+          "text": "Basados en el análisis de la experiencia práctica",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es la cuarta porque el tema ubica expresamente los sistemas de escalas dentro de las técnicas basadas en el análisis de la experiencia práctica, junto con listas de verificación, incidentes críticos y simulación. La segunda y la tercera identifican otros bloques metodológicos distintos. La primera es falsa porque sí existe una opción correcta.\nIT: È corretta la quarta perché il materiale colloca i sistemi di scale tra le tecniche basate sull’analisi dell’esperienza pratica. La seconda e la terza appartengono ad altri gruppi di tecniche, mentre la prima è falsa perché una risposta corretta c’è.",
+      "legal_reference": "No existe una referencia normativa específica; es una cuestión doctrinal/académica fundamentada en 4_TEMA 4 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1.1 a 1.4.",
+      "file_number": 4,
+      "original_file": "4_TEMA 4 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 39,
+      "topic": "TEMA 4",
+      "question": "¿En qué consiste, o cuando se produce, el efecto “halo”?",
+      "answers": [
+        {
+          "text": "En una inclinación a situar las valoraciones en las posiciones intermedias de la escala, huyendo de las puntuaciones extremas",
+          "correct": false
+        },
+        {
+          "text": "Cuando la valoración positiva o negativa de uno o varios elementos de la competencia del trabajador llevan a valorar en el mismo sentido al resto de los elementos que son objeto de evaluación",
+          "correct": true
+        },
+        {
+          "text": "En el caso en que las evaluaciones están condicionadas por competencias que destacan en el sujeto evaluado, pero que no forman parte del perfil de competencias propio del puesto de trabajo",
+          "correct": false
+        },
+        {
+          "text": "Cuando diferentes evaluadores poseen criterios implícitos diferentes a la hora de emitir sus valoraciones, de tal modo que tienen a ser benévolos y sobrevalorar el objeto evaluado o, por el contrario, a ser especialmente exigentes a la hora de enjuiciar las situaciones.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la segunda porque el efecto halo consiste en trasladar una impresión positiva o negativa sobre uno o varios elementos al resto de elementos evaluados. La primera describe la tendencia central. La tercera corresponde al efecto de contaminación. La cuarta describe el error de indulgencia o severidad.\nIT: È corretta la seconda perché l’effetto alone si verifica quando il giudizio su un elemento influenza nello stesso senso il giudizio su tutti gli altri elementi. La prima è la tendenza centrale, la terza è l’effetto di contaminazione e la quarta l’errore di indulgenza o severità.",
+      "legal_reference": "No existe una referencia normativa específica; es una cuestión doctrinal/académica fundamentada en 4_TEMA 4 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1.1 a 1.4.",
+      "file_number": 4,
+      "original_file": "4_TEMA 4 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 40,
+      "topic": "TEMA 4",
+      "question": "El factor “dirección y desarrollo de los subordinados” evalúa, entre otras cosas, si el trabajador…",
+      "answers": [
+        {
+          "text": "Programa las órdenes de trabajo a fin de cumplir los plazos y utiliza a los subordinados y los recursos con eficiencia",
+          "correct": false
+        },
+        {
+          "text": "Busca u ofrece asistencia y consejo a los compañeros o en proyectos de equipo",
+          "correct": false
+        },
+        {
+          "text": "Mantiene al supervisor informado del progreso en el trabajo y de los problemas que puedan plantearse",
+          "correct": false
+        },
+        {
+          "text": "Es sensible a los problemas de los empleados y trata de encontrar soluciones",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es la cuarta porque el tema, al definir “Dirección y Desarrollo de los Subordinados”, indica expresamente que el trabajador debe ser sensible a los problemas de los empleados y tratar de encontrar soluciones. La primera describe la planificación. La segunda se vincula a relaciones con compañeros. La tercera corresponde a relaciones con el supervisor.\nIT: È corretta la quarta perché il fattore “dirección y desarrollo de los subordinados” include la sensibilità verso i problemi dei dipendenti e la ricerca di soluzioni. Le altre opzioni riguardano pianificazione, rapporti con i colleghi e rapporto con il supervisore.",
+      "legal_reference": "No existe una referencia normativa específica; es una cuestión doctrinal/académica fundamentada en 4_TEMA 4 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1.1 a 1.4.",
+      "file_number": 4,
+      "original_file": "4_TEMA 4 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 41,
+      "topic": "TEMA 6",
+      "question": "¿Qué artículo de la Constitución española se refiere expresamente a la igualdad real o efectiva?:",
+      "answers": [
+        {
+          "text": "El artículo 1.1.",
+          "correct": false
+        },
+        {
+          "text": "El artículo 14",
+          "correct": false
+        },
+        {
+          "text": "El artículo 9.2",
+          "correct": true
+        },
+        {
+          "text": "La constitución española no hace referencia expresa a la igualdad efectiva",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la tercera porque el artículo 9.2 CE obliga a los poderes públicos a promover las condiciones para que la libertad y la igualdad del individuo sean reales y efectivas. El artículo 1.1 CE proclama la igualdad como valor superior del ordenamiento, pero no formula esa cláusula de efectividad. El artículo 14 CE consagra la igualdad ante la ley y la prohibición de discriminación. La cuarta es falsa porque sí existe una referencia expresa.\nIT: È corretta la terza perché l’articolo 9.2 della Costituzione spagnola impone ai poteri pubblici di rendere libertà e uguaglianza reali ed effettive. L’articolo 1.1 proclama l’uguaglianza come valore superiore, l’articolo 14 sancisce uguaglianza e non discriminazione, ma il riferimento espresso all’uguaglianza reale o effettiva è nel 9.2.",
+      "legal_reference": "Constitución Española, arts. 1.1, 9.2 y 14; además, 6_TEMA 6 DRH 22-23.pdf (PDF), epígrafe 1.",
+      "file_number": 6,
+      "original_file": "6_TEMA 6 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 42,
+      "topic": "TEMA 6",
+      "question": "La discriminación directa es",
+      "answers": [
+        {
+          "text": "la generada por situaciones en las que una persona en atención a su sexo es, ha sido o pudiera ser tratada de manera menos favorable que otra en situación comparable., así como las relacionadas con maternidad y embarazo",
+          "correct": true
+        },
+        {
+          "text": "aquella situación en la que una disposición, criterio o práctica, pone a una persona de un sexo en desventaja particular respecto de personas de otro sexo.",
+          "correct": false
+        },
+        {
+          "text": "cualquier trato desfavorable a las mujeres relacionado con el embarazo o la maternidad.",
+          "correct": false
+        },
+        {
+          "text": "la generada por situaciones en las que una persona en atención a su sexo es, ha sido o pudiera ser tratada de manera menos favorable que otra en situación comparable.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la primera porque recoge la definición general de discriminación directa por razón de sexo y añade, correctamente, que el trato desfavorable vinculado al embarazo o la maternidad también se considera discriminación directa. La segunda define la discriminación indirecta. La tercera es verdadera solo para un supuesto específico, pero es incompleta como definición general. La cuarta contiene la definición básica, pero omite ese añadido legal que el propio tema subraya.\nIT: È corretta la prima perché unisce la definizione generale di discriminazione diretta con la precisazione legale secondo cui anche il trattamento sfavorevole connesso a gravidanza o maternità costituisce discriminazione diretta. La seconda definisce la discriminazione indiretta. La terza è solo un caso particolare. La quarta è incompleta rispetto alla formulazione più completa del tema.",
+      "legal_reference": "Ley Orgánica 3/2007, art. 6.1; 6_TEMA 6 DRH 22-23.pdf (PDF), epígrafe 2.1.",
+      "file_number": 6,
+      "original_file": "6_TEMA 6 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 43,
+      "topic": "TEMA 6",
+      "question": "Con el objetivo de incentivar a sus trabajadores, una empresa contempla, en la retribución de los trabajadores, un plus de productividad que consiste en un euro por cada 1000 lechugas recogidas. Si consideramos que este incentivo favorece a aquellos trabajadores con mayor fuerza física, la medida podría suponer:",
+      "answers": [
+        {
+          "text": "Una discriminación indirecta",
+          "correct": true
+        },
+        {
+          "text": "Una discriminación premeditada",
+          "correct": false
+        },
+        {
+          "text": "Una discriminación flagrante",
+          "correct": false
+        },
+        {
+          "text": "Una discriminación directa",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la primera porque se trata de una medida aparentemente neutra que puede colocar en desventaja particular a un sexo respecto del otro al premiar un rendimiento ligado a una mayor fuerza física. Eso encaja en la discriminación indirecta. No sería directa porque la norma no diferencia expresamente por sexo. Las opciones segunda y tercera no corresponden a categorías jurídicas típicas del tema ni de la LOI.\nIT: È corretta la prima perché il criterio appare neutro ma può svantaggiare in concreto un sesso rispetto all’altro, favorendo chi dispone di maggiore forza fisica. Questo è il tipico schema della discriminazione indiretta. Non è diretta perché la misura non distingue espressamente tra uomini e donne.",
+      "legal_reference": "Ley Orgánica 3/2007, art. 6.2; 6_TEMA 6 DRH 22-23.pdf (PDF), epígrafe 2.1.",
+      "file_number": 6,
+      "original_file": "6_TEMA 6 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 44,
+      "topic": "TEMA 6",
+      "question": "De acuerdo con la Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres, deberán tomar medidas que favorezcan la igualdad de los trabajadores:",
+      "answers": [
+        {
+          "text": "Todas las empresas",
+          "correct": true
+        },
+        {
+          "text": "aquellas empresas con más de 100 trabajadores",
+          "correct": false
+        },
+        {
+          "text": "aquellas empresas con más de 50 trabajadores",
+          "correct": false
+        },
+        {
+          "text": "aquellas empresas con más de 150 trabajadores",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la primera porque el artículo 45.1 LO 3/2007 obliga a todas las empresas a respetar la igualdad de trato y oportunidades y a adoptar medidas para evitar la discriminación laboral. Otra cosa distinta es la obligación específica de contar con plan de igualdad, que se activa para empresas de determinado tamaño o en otros supuestos legales o convencionales. Por eso las otras opciones restringen indebidamente una obligación general.\nIT: È corretta la prima perché tutte le imprese devono adottare misure volte a evitare discriminazioni e a rispettare l’uguaglianza di trattamento e opportunità. Solo l’obbligo specifico di predisporre un piano di uguaglianza scatta per determinate imprese, ma l’obbligo generale di adottare misure riguarda tutte.",
+      "legal_reference": "Ley Orgánica 3/2007, art. 45.1 y 45.2; 6_TEMA 6 DRH 22-23.pdf (PDF), epígrafe 2.2.",
+      "file_number": 6,
+      "original_file": "6_TEMA 6 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 45,
+      "topic": "TEMA 6",
+      "question": "La desigualdad ¿sólo afecta a las mujeres?",
+      "answers": [
+        {
+          "text": "Sí, ya que es el género más desprotegido",
+          "correct": false
+        },
+        {
+          "text": "No, también los hombres son víctimas de los estereotipos machistas, algo que se refleja en la escasez de hombres que acceden a puestos como por ejemplo los de enfermería, auxiliar de enfermería, profesoras de infantil, etc.",
+          "correct": true
+        },
+        {
+          "text": "No, también los hombres son víctimas de los estereotipos machistas, algo que se refleja en la escasez de hombres que acceden a puestos directivos.",
+          "correct": false
+        },
+        {
+          "text": "Sí, siempre y en todo caso",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la segunda porque el tema explica la desigualdad y los estereotipos de género como un fenómeno que afecta de modo diferente a mujeres y hombres; en el caso masculino, por ejemplo, en profesiones feminizadas o socialmente asociadas al cuidado. La tercera es errónea porque los puestos directivos no ilustran la principal desventaja masculina derivada de estereotipos tradicionales; al contrario, suelen reflejar infrarrepresentación femenina. La primera y la cuarta son absolutas e incorrectas.\nIT: È corretta la seconda perché gli stereotipi di genere non danneggiano solo le donne: possono incidere anche sugli uomini, per esempio scoraggiandoli o penalizzandoli in professioni femminilizzate di cura. La terza è sbagliata perché i posti direttivi sono semmai un esempio classico di svantaggio femminile. La prima e la quarta sono formulate in modo assoluto e non corretto.",
+      "legal_reference": "6_TEMA 6 DRH 22-23.pdf (PDF), desarrollo doctrinal sobre igualdad, estereotipos y segregación ocupacional; no existe un único precepto legal específico con esa formulación literal.",
+      "file_number": 6,
+      "original_file": "6_TEMA 6 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 46,
+      "topic": "TEMA 6",
+      "question": "El registro salarial o retributivo obligatorio tiene un periodo de referencia",
+      "answers": [
+        {
+          "text": "Mensual",
+          "correct": false
+        },
+        {
+          "text": "Trimestral",
+          "correct": false
+        },
+        {
+          "text": "Cuatrimestral",
+          "correct": false
+        },
+        {
+          "text": "Anual",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es la cuarta porque el periodo de referencia del registro retributivo es el año natural. Las otras tres opciones son erróneas porque reducen indebidamente el marco temporal exigido por la normativa y por la guía del curso.\nIT: È corretta la quarta perché il registro retributivo ha come periodo di riferimento l’anno naturale. Le altre opzioni sono sbagliate perché indicano periodi più brevi non previsti dalla disciplina applicabile.",
+      "legal_reference": "Estatuto de los Trabajadores, art. 28.2; Real Decreto 902/2020, art. 5.4; 6_TEMA 6 DRH 22-23.pdf (PDF), epígrafe 2.3.",
+      "file_number": 6,
+      "original_file": "6_TEMA 6 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 47,
+      "topic": "TEMA 6",
+      "question": "La vigencia de un plan de igualdad no podrá ser superior a",
+      "answers": [
+        {
+          "text": "Dos años",
+          "correct": false
+        },
+        {
+          "text": "Cuatro años",
+          "correct": true
+        },
+        {
+          "text": "Tres años",
+          "correct": false
+        },
+        {
+          "text": "Un año",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la segunda porque la duración máxima del plan de igualdad no puede superar cuatro años. Las demás opciones son incorrectas porque establecen límites temporales distintos del previsto legalmente.\nIT: È corretta la seconda perché la durata massima del piano di uguaglianza non può superare i quattro anni. Le altre opzioni indicano limiti temporali diversi da quello fissato dalla normativa.",
+      "legal_reference": "Real Decreto 901/2020, art. 9.1; 6_TEMA 6 DRH 22-23.pdf (PDF), epígrafe 2.2 y guía complementaria 6_Guia_pdi-1.pdf.",
+      "file_number": 6,
+      "original_file": "6_TEMA 6 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 48,
+      "topic": "TEMA 6",
+      "question": "Las auditorías salariales",
+      "answers": [
+        {
+          "text": "Son obligatorias para todas las empresas, y su vigencia es anual",
+          "correct": false
+        },
+        {
+          "text": "Son obligatorias para las empresas que tienen que realizar el plan de igualdad, y su vigencia es la del plan.",
+          "correct": false
+        },
+        {
+          "text": "Son obligatorias para las empresas que tienen que realizar el plan de igualdad, y su vigencia es la del plan, salvo que se acuerde una inferior.",
+          "correct": true
+        },
+        {
+          "text": "Son obligatorias para las empresas que tienen que realizar el plan de igualdad, y su vigencia es la del plan, salvo que se acuerde una distinta, inferior o superior.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la tercera porque la auditoría retributiva es obligatoria para las empresas obligadas a plan de igualdad y su vigencia máxima coincide con la del plan, salvo que se pacte una inferior. La primera es falsa porque no alcanza a todas las empresas ni tiene vigencia anual general. La segunda es incompleta porque omite la posibilidad de acordar una vigencia inferior. La cuarta es incorrecta porque no cabe pactar una vigencia superior a la del plan.\nIT: È corretta la terza perché l’audit retributivo è obbligatorio per le imprese tenute ad avere un piano di uguaglianza e la sua durata coincide con quella del piano, salvo che si concordi una durata inferiore. La prima è falsa, la seconda è incompleta e la quarta è errata perché non si può prevedere una durata superiore a quella del piano.",
+      "legal_reference": "Real Decreto 902/2020, en relación con la auditoría retributiva; 6_TEMA 6 DRH 22-23.pdf (PDF), epígrafe 2.4.",
+      "file_number": 6,
+      "original_file": "6_TEMA 6 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 49,
+      "topic": "TEMA 6",
+      "question": "En la evaluación de las condiciones para ver si un trabajo tiene igual valor que otro, el criterio de adecuación significa que",
+      "answers": [
+        {
+          "text": "Han de existir mecanismos claros que identifiquen los factores que se han tenido en cuenta en la fijación de una determinada retribución.",
+          "correct": false
+        },
+        {
+          "text": "deben tenerse en cuenta todas las condiciones que singularizan el puesto del trabajo",
+          "correct": false
+        },
+        {
+          "text": "Ninguna es cierta",
+          "correct": false
+        },
+        {
+          "text": "los factores relevantes en la valoración deben ser aquellos relacionados con la actividad y que efectivamente concurran en la misma, incluyendo la formación necesaria",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es la cuarta porque el criterio de adecuación exige que los factores valorados sean los realmente vinculados a la actividad y que concurran efectivamente en ella, incluyendo la formación necesaria. La primera define la objetividad. La segunda se refiere a la totalidad. La tercera es falsa porque sí existe una respuesta correcta.\nIT: È corretta la quarta perché il criterio di adeguatezza richiede che si considerino solo i fattori realmente connessi all’attività e presenti in concreto, inclusa la formazione necessaria. La prima descrive l’oggettività, la seconda la totalità, mentre la terza è falsa.",
+      "legal_reference": "Real Decreto 902/2020, art. 4.4; 6_TEMA 6 DRH 22-23.pdf (PDF), epígrafe 2.5 y materiales complementarios sobre valoración de puestos.",
+      "file_number": 6,
+      "original_file": "6_TEMA 6 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 50,
+      "topic": "TEMA 6",
+      "question": "En la evaluación de las condiciones para ver si un trabajo tiene igual valor que otro, el criterio de objetividad significa que",
+      "answers": [
+        {
+          "text": "Ninguna es cierta",
+          "correct": false
+        },
+        {
+          "text": "Han de existir mecanismos claros que identifiquen los factores que se han tenido en cuenta en la fijación de una determinada retribución.",
+          "correct": true
+        },
+        {
+          "text": "los factores relevantes en la valoración deben ser aquellos relacionados con la actividad y que efectivamente concurran en la misma, incluyendo la formación necesaria",
+          "correct": false
+        },
+        {
+          "text": "deben tenerse en cuenta todas las condiciones que singularizan el puesto del trabajo",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la segunda porque la objetividad requiere mecanismos claros que permitan identificar qué factores se han tenido en cuenta para fijar la retribución. La tercera corresponde a la adecuación. La cuarta expresa la totalidad. La primera es falsa porque sí hay una opción correcta.\nIT: È corretta la seconda perché l’oggettività richiede criteri chiari e verificabili che identifichino i fattori considerati nella determinazione della retribuzione. La terza rinvia all’adeguatezza, la quarta alla totalità e la prima è falsa.",
+      "legal_reference": "Real Decreto 902/2020, art. 4.4; 6_TEMA 6 DRH 22-23.pdf (PDF), epígrafe 2.5 y materiales complementarios sobre valoración de puestos.",
+      "file_number": 6,
+      "original_file": "6_TEMA 6 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 51,
+      "topic": "TEMA 7",
+      "question": "La retribución no dineraria y destinada a retribuir conceptos como la necesidad personal de reconocimiento y de respeto, o a la necesidad de mantener sus condiciones familiares se denomina",
+      "answers": [
+        {
+          "text": "Salario emocional",
+          "correct": true
+        },
+        {
+          "text": "Salario flexible",
+          "correct": false
+        },
+        {
+          "text": "Compensación",
+          "correct": false
+        },
+        {
+          "text": "Equidad salarial",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la primera porque el tema define el salario emocional como un concepto retributivo de carácter no estrictamente económico vinculado al reconocimiento, la conciliación, el desarrollo y otras necesidades personales y familiares. La segunda se refiere a la retribución flexible, que es otra figura distinta. La tercera es demasiado genérica y la cuarta no designa ese tipo de retribución.\nIT: È corretta la prima perché il “salario emocional” indica la componente non monetaria della retribuzione legata a riconoscimento, conciliazione e qualità della vita. La seconda riguarda la retribuzione flessibile, la terza è troppo generica e la quarta non identifica questo istituto.",
+      "legal_reference": "No existe una referencia normativa específica única; es una cuestión doctrinal/académica fundamentada en 7_TEMA 7 DRH 22-23.pdf (PDF), especialmente en el epígrafe 1.2.",
+      "file_number": 7,
+      "original_file": "7_TEMA 7 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 52,
+      "topic": "TEMA 7",
+      "question": "La redistribución de la compensación total del trabajador para proporcionarle un mayor valor, sin que exista un incremento de costes para la compañía, a través de un acuerdo entre la empresa y el empleado, cuya principal ventaja es que el empleado elige su «paquete retributivo» en función de sus propias necesidades y preferencias individuales, se conoce como",
+      "answers": [
+        {
+          "text": "Retribución flexible o “a la carta",
+          "correct": true
+        },
+        {
+          "text": "Equidad externa",
+          "correct": false
+        },
+        {
+          "text": "Salario emocional",
+          "correct": false
+        },
+        {
+          "text": "Equidad Salarial",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la primera porque el tema describe exactamente así la retribución flexible o “a la carta”: una redistribución de la compensación total sin aumentar el coste empresarial y con elección por parte del trabajador. La equidad externa y la equidad salarial son criterios o principios de justicia retributiva, no una técnica de redistribución del paquete salarial. El salario emocional tampoco coincide con esa definición.\nIT: È corretta la prima perché la retribuzione flessibile o “a la carta” consiste proprio nella redistribuzione del pacchetto retributivo secondo le preferenze del lavoratore, senza aumentare il costo per l’impresa. Le altre opzioni descrivono concetti diversi.",
+      "legal_reference": "7_TEMA 7 DRH 22-23.pdf (PDF), epígrafe 6.2; en relación con ET art. 26 para el marco general del salario.",
+      "file_number": 7,
+      "original_file": "7_TEMA 7 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 53,
+      "topic": "TEMA 7",
+      "question": "Cada empresa establecerá sus criterios y principios que orienten sus decisiones en materia salarial, a través de lo que se conoce como",
+      "answers": [
+        {
+          "text": "Equidad salarial",
+          "correct": false
+        },
+        {
+          "text": "Equidad retributiva",
+          "correct": false
+        },
+        {
+          "text": "Política retributiva",
+          "correct": true
+        },
+        {
+          "text": "Flexibilidad retributiva",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la tercera porque el conjunto de criterios y principios que orientan las decisiones salariales de la empresa recibe el nombre de política retributiva. La equidad salarial o retributiva son principios o resultados que esa política puede perseguir, pero no el nombre del instrumento de dirección. La flexibilidad retributiva alude a una característica posible del sistema, no a su denominación general.\nIT: È corretta la terza perché l’insieme dei criteri che guidano le decisioni salariali si chiama “política retributiva”. Le altre opzioni esprimono principi o caratteristiche del sistema, non il nome della politica aziendale nel suo complesso.",
+      "legal_reference": "No existe una referencia normativa específica única; es una cuestión doctrinal/académica fundamentada en 7_TEMA 7 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1 y 4.",
+      "file_number": 7,
+      "original_file": "7_TEMA 7 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 54,
+      "topic": "TEMA 7",
+      "question": "Hace referencia a lo que se considera una remuneración justa con respecto al salario que pagan otras empresas por el mismo tipo de trabajo.",
+      "answers": [
+        {
+          "text": "Equidad retributiva",
+          "correct": false
+        },
+        {
+          "text": "Equidad externa",
+          "correct": true
+        },
+        {
+          "text": "Equidad interna",
+          "correct": false
+        },
+        {
+          "text": "Justicia retributiva",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la segunda porque la equidad externa compara la remuneración de la empresa con la pagada por otras empresas por trabajos equivalentes. La equidad interna, en cambio, se refiere a la justicia dentro de la propia estructura salarial de la empresa. La equidad retributiva y la justicia retributiva son expresiones más amplias o genéricas.\nIT: È corretta la seconda perché l’equità esterna misura la giustizia della retribuzione rispetto al mercato e ad altre imprese per lo stesso tipo di lavoro. L’equità interna riguarda invece il confronto all’interno della stessa impresa.",
+      "legal_reference": "No existe una referencia normativa específica única; es una cuestión doctrinal/académica fundamentada en 7_TEMA 7 DRH 22-23.pdf (PDF), epígrafe 1.1 y 1.2.",
+      "file_number": 7,
+      "original_file": "7_TEMA 7 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 55,
+      "topic": "TEMA 7",
+      "question": "Qué modelo de análisis de la equidad salarial considera que los empleados están continuamente comparando lo que dan a la empresa con lo que reciben a cambio y comparando su relación contribuciones-resultados, con la de otros empleados de la empresa",
+      "answers": [
+        {
+          "text": "Modelo de justicia retributiva o consistencia interna",
+          "correct": true
+        },
+        {
+          "text": "Modelo de envidia de las diferencias salariales",
+          "correct": false
+        },
+        {
+          "text": "Modelo de reconocimiento de las diferencias individuales",
+          "correct": false
+        },
+        {
+          "text": "Modelo de mercado laboral o competitividad externa",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la primera porque el tema describe ese razonamiento comparativo como el modelo de justicia distributiva de la equidad salarial, que en las opciones aparece formulado como “modelo de justicia retributiva o consistencia interna”, la alternativa más próxima al contenido del temario. La cuarta corresponde al modelo de mercado laboral, centrado en la equidad externa. Las opciones segunda y tercera no se corresponden con los modelos explicados en el tema.\nIT: È corretta la prima perché il tema spiega che i lavoratori confrontano contributi e risultati propri con quelli degli altri: questo corrisponde al modello di giustizia distributiva/equità interna, che qui è espresso come “justicia retributiva o consistencia interna”. La quarta riguarda invece il mercato del lavoro e l’equità esterna.",
+      "legal_reference": "No existe una referencia normativa específica única; es una cuestión doctrinal/académica fundamentada en 7_TEMA 7 DRH 22-23.pdf (PDF), epígrafe 1.1.",
+      "file_number": 7,
+      "original_file": "7_TEMA 7 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 56,
+      "topic": "TEMA 7",
+      "question": "Indique cuál de estas afirmaciones es falsa",
+      "answers": [
+        {
+          "text": "Así como la equidad interna afecta sobre todo al atraer y al retener, la externa se manifiesta en el no agraviar y motivar.",
+          "correct": true
+        },
+        {
+          "text": "Cuantos menos niveles salariales tenga una empresa, habrá menos posibilidades de promoción vertical que en otra con más niveles.",
+          "correct": false
+        },
+        {
+          "text": "Así como la equidad externa afecta sobre todo al atraer y al retener, la interna se manifiesta en el no agraviar y motivar.",
+          "correct": false
+        },
+        {
+          "text": "El número de niveles salariales determina también el número de niveles jerárquicos de la organización, pues es evidente que el salario jerarquiza",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la primera porque la pregunta pide señalar la afirmación falsa, y esa opción invierte los términos: en realidad, la equidad externa es la que afecta sobre todo a atraer y retener, mientras que la equidad interna se manifiesta en no agraviar y motivar. La tercera expresa justamente la relación correcta. La segunda y la cuarta son coherentes con la lógica del sistema salarial y jerárquico que expone el tema.\nIT: È corretta la prima perché la domanda chiede l’affermazione falsa: questa opzione capovolge il rapporto corretto tra equità esterna ed equità interna. L’equità esterna serve soprattutto ad attrarre e trattenere, mentre quella interna incide su motivazione e percezione di giustizia. La terza è quella formulata correttamente.",
+      "legal_reference": "No existe una referencia normativa específica única; es una cuestión doctrinal/académica fundamentada en 7_TEMA 7 DRH 22-23.pdf (PDF), epígrafes 1.1 y 4.3.",
+      "file_number": 7,
+      "original_file": "7_TEMA 7 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 57,
+      "topic": "TEMA 7",
+      "question": "La retribución variable a corto plazo",
+      "answers": [
+        {
+          "text": "No está garantizada por la empresa, sino que depende de los resultados obtenidos en el cumplimiento de las funciones del puesto de trabajo",
+          "correct": true
+        },
+        {
+          "text": "Está garantizada por la empresa, dado que no depende de los resultados obtenidos en el cumplimiento de las funciones del puesto de trabajo",
+          "correct": false
+        },
+        {
+          "text": "Su finalidad es reconocer un desempeño sostenido y adecuado del profesional, equipo, unidad de negocio u organización",
+          "correct": false
+        },
+        {
+          "text": "Dentro de este tipo de retribución variable, podemos señalar como más comunes: el bono de retención, el bono por consecución de proyecto y el bono por incorporación, entre otros",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la primera porque la retribución variable a corto plazo depende del cumplimiento de resultados u objetivos y no está garantizada. La segunda afirma lo contrario. La tercera describe la finalidad de la retribución variable a largo plazo. La cuarta enumera ejemplos propios de bonos o incentivos específicos, no la definición general correcta del corto plazo.\nIT: È corretta la prima perché la retribuzione variabile a breve termine non è garantita e dipende dai risultati ottenuti. La seconda dice l’opposto. La terza si riferisce alla logica del lungo periodo. La quarta non esprime la definizione generale del concetto.",
+      "legal_reference": "No existe una referencia normativa específica única; es una cuestión doctrinal/académica fundamentada en 7_TEMA 7 DRH 22-23.pdf (PDF), epígrafe 4.4.1 y 5.",
+      "file_number": 7,
+      "original_file": "7_TEMA 7 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 58,
+      "topic": "TEMA 7",
+      "question": "Dentro de la retribución variable de participación basada en el desempeño, aquel tipo de retribución que, en función del nivel organizativo de cada puesto, define un número de objetivos en concreto, determina una distribución de objetivos específica y los «pesos» de cada uno de ellos, es la",
+      "answers": [
+        {
+          "text": "Retribución por productividad",
+          "correct": false
+        },
+        {
+          "text": "Participación en beneficios",
+          "correct": false
+        },
+        {
+          "text": "Retribución por ventas o resultados",
+          "correct": false
+        },
+        {
+          "text": "Retribución por objetivos",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es la cuarta porque el tema explica que, según el nivel organizativo del puesto, se define un número concreto de objetivos y se asignan pesos específicos a cada uno; eso es precisamente la retribución por objetivos. La productividad, la participación en beneficios y la retribución por ventas o resultados son otras modalidades de variable, pero no la descrita en el enunciado.\nIT: È corretta la quarta perché la descrizione coincide con la retribuzione per obiettivi: si fissano obiettivi specifici e pesi diversi secondo il livello organizzativo. Le altre opzioni rinviano a forme diverse di retribuzione variabile.",
+      "legal_reference": "No existe una referencia normativa específica única; es una cuestión doctrinal/académica fundamentada en 7_TEMA 7 DRH 22-23.pdf (PDF), epígrafes 5.5.2 y 5.6.",
+      "file_number": 7,
+      "original_file": "7_TEMA 7 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 59,
+      "topic": "TEMA 7",
+      "question": "La compañía otorga al empleado, de manera gratuita, un determinado número de opciones de compra de acciones. El profesional tendrá el derecho a la compra de un número predeterminado de acciones de la empresa dentro de un período de tiempo estipulado, a un precio predeterminado, si el precio de las acciones ha subido. Este sistema se conoce como:",
+      "answers": [
+        {
+          "text": "Phantom Keys",
+          "correct": false
+        },
+        {
+          "text": "Phantom Shares",
+          "correct": false
+        },
+        {
+          "text": "Stock Options",
+          "correct": true
+        },
+        {
+          "text": "Golden State Warriors",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la tercera porque la descripción coincide exactamente con las stock options: derecho a adquirir acciones en el futuro a un precio prefijado si la cotización sube. “Phantom shares” es otra figura retributiva basada en valor teórico o simulado de acciones. “Phantom Keys” no es la denominación técnica usada en el tema. La cuarta es una opción humorística sin contenido jurídico-laboral.\nIT: È corretta la terza perché le stock options attribuiscono al lavoratore il diritto di acquistare azioni a un prezzo predeterminato in un momento successivo. Le phantom shares sono uno strumento diverso, la prima opzione non è la nozione utilizzata nel tema e l’ultima è palesemente estranea alla materia.",
+      "legal_reference": "7_TEMA 7 DRH 22-23.pdf (PDF), epígrafe 4.4.2; en relación general con ET art. 26 sobre percepciones económicas.",
+      "file_number": 7,
+      "original_file": "7_TEMA 7 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 60,
+      "topic": "TEMA 7",
+      "question": "Aquellos objetivos de cuyo cumplimiento dependerá la activación o no del sistema de remuneración variable son los que se conocen como",
+      "answers": [
+        {
+          "text": "Objetivos llave o interruptores",
+          "correct": true
+        },
+        {
+          "text": "Objetivos imprescindibles o activadores",
+          "correct": false
+        },
+        {
+          "text": "Objetivos primarios o principales",
+          "correct": false
+        },
+        {
+          "text": "No puede existir este tipo de objetivos en un sistema de remuneración variable",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la primera porque el tema denomina “objetivos llave o interruptores” a aquellos de cuyo cumplimiento depende la activación o no del propio sistema de retribución variable. Las otras opciones no son las expresiones técnicas utilizadas por el material y la cuarta es directamente falsa.\nIT: È corretta la prima perché il tema chiama “objetivos llave o interruptores” quegli obiettivi il cui raggiungimento attiva o meno l’intero sistema di remunerazione variabile. Le altre formule non sono quelle usate nel materiale e la quarta è falsa.",
+      "legal_reference": "No existe una referencia normativa específica única; es una cuestión doctrinal/académica fundamentada en 7_TEMA 7 DRH 22-23.pdf (PDF), epígrafe 5.5.3.",
+      "file_number": 7,
+      "original_file": "7_TEMA 7 DRH 22-23.pdf (PDF)"
     }
   ]
 }
