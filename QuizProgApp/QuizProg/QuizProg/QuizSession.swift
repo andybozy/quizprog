@@ -179,6 +179,8 @@ struct QuizCourseSummaryItem: Identifiable, Hashable {
 }
 
 private enum QuizBundleLoader {
+    private static let displayOverridesFileName = "display_overrides.json"
+
     private struct QuizFile: Decodable {
         let disabled: Bool?
         let fileName: String?
@@ -203,19 +205,22 @@ private enum QuizBundleLoader {
         let correct: Bool
     }
 
+    private struct QuizDisplayOverrides: Decodable {
+        let files: [String: String]?
+    }
+
     static func loadCourses() -> [QuizCourse] {
         guard let rootURL = Bundle.main.resourceURL else {
             return []
         }
 
         let quizDataURL = rootURL.appendingPathComponent("quiz_data", isDirectory: true)
-        let usesNestedLayout = FileManager.default.fileExists(atPath: quizDataURL.path)
-        let sortedURLs: [URL]
-        if usesNestedLayout {
-            sortedURLs = jsonFilesRecursively(in: quizDataURL)
-        } else {
-            sortedURLs = Bundle.main.urls(forResourcesWithExtension: "json", subdirectory: nil) ?? []
+        guard FileManager.default.fileExists(atPath: quizDataURL.path) else {
+            return []
         }
+
+        let displayFileNamesByRelativePath = loadDisplayFileNames(from: quizDataURL)
+        let sortedURLs = jsonFilesRecursively(in: quizDataURL)
 
         guard !sortedURLs.isEmpty else { return [] }
 
@@ -226,7 +231,7 @@ private enum QuizBundleLoader {
 
         for url in orderedURLs {
             let filename = url.lastPathComponent
-            if filename.hasPrefix(".") || filename == "exam_dates.json" {
+            if filename.hasPrefix(".") || filename == "exam_dates.json" || filename == displayOverridesFileName {
                 continue
             }
 
@@ -238,20 +243,20 @@ private enum QuizBundleLoader {
                 continue
             }
 
-            let relativePath: String
-            if usesNestedLayout {
-                relativePath = url.path.replacingOccurrences(of: quizDataURL.path + "/", with: "")
-            } else {
-                relativePath = url.lastPathComponent
-            }
+            let relativePath = url.path.replacingOccurrences(of: quizDataURL.path + "/", with: "")
 
             let parts = relativePath.split(separator: "/").map(String.init)
             let fallbackTitle = url.deletingPathExtension().lastPathComponent
             let fileTitle = file.fileName?.trimmingCharacters(in: .whitespacesAndNewlines)
-            let sourceFileName = (fileTitle?.isEmpty == false) ? fileTitle! : filename
+            let sourceFileName = displayFileName(
+                using: displayFileNamesByRelativePath,
+                for: relativePath,
+                declaredFileName: fileTitle,
+                fallbackFileName: filename
+            )
 
             let rawCourseName: String
-            if usesNestedLayout, let first = parts.first, parts.count > 1 {
+            if let first = parts.first, parts.count > 1 {
                 rawCourseName = first
             } else if let fileTitle, !fileTitle.isEmpty {
                 rawCourseName = fileTitle
@@ -260,7 +265,7 @@ private enum QuizBundleLoader {
             }
 
             let sectionName: String
-            if usesNestedLayout, parts.count > 2 {
+            if parts.count > 2 {
                 sectionName = normalizedSectionTitle(parts[1])
             } else {
                 sectionName = "(No subfolder)"
@@ -334,6 +339,32 @@ private enum QuizBundleLoader {
         return digest.map { String(format: "%02x", $0) }.joined()
     }
 
+    private static func loadDisplayFileNames(from quizDataURL: URL) -> [String: String] {
+        let overridesURL = quizDataURL.appendingPathComponent(displayOverridesFileName)
+        guard
+            let data = try? Data(contentsOf: overridesURL),
+            let overrides = try? JSONDecoder().decode(QuizDisplayOverrides.self, from: data)
+        else {
+            return [:]
+        }
+        return overrides.files ?? [:]
+    }
+
+    private static func displayFileName(
+        using overrides: [String: String],
+        for relativePath: String,
+        declaredFileName: String?,
+        fallbackFileName: String
+    ) -> String {
+        if let overridden = overrides[relativePath] {
+            return overridden
+        }
+        if let declaredFileName, !declaredFileName.isEmpty {
+            return declaredFileName
+        }
+        return fallbackFileName
+    }
+
     private static func prettyTitle(from rawFolderName: String) -> String {
         let withoutPrefix = rawFolderName.replacingOccurrences(
             of: #"^\d+[_\-\s]*"#,
@@ -346,10 +377,7 @@ private enum QuizBundleLoader {
     }
 
     private static func normalizedCourseTitle(_ rawName: String) -> String {
-        let trimmed = rawName.trimmingCharacters(in: .whitespacesAndNewlines)
-        let withoutExtension = URL(fileURLWithPath: trimmed).deletingPathExtension().lastPathComponent
-        let titleSource = withoutExtension.isEmpty ? trimmed : withoutExtension
-        return prettyTitle(from: titleSource)
+        rawName.trimmingCharacters(in: .whitespacesAndNewlines)
     }
 
     private static func normalizedSectionTitle(_ rawName: String) -> String {
@@ -498,15 +526,44 @@ final class QuizSession: ObservableObject {
         }
     }
 
+    private static var isRunningInPreview: Bool {
+        ProcessInfo.processInfo.environment["XCODE_RUNNING_FOR_PREVIEWS"] == "1"
+    }
+
     init(courses: [QuizCourse]? = nil) {
         let inputCourses = courses ?? QuizBundleLoader.loadCourses()
         let loadedCourses: [QuizCourse]
-        if inputCourses.isEmpty {
+        if inputCourses.isEmpty && Self.isRunningInPreview {
             loadedCourses = [
                 QuizCourse(id: "sample-course", title: "Sample Course", questions: QuizQuestion.sampleDeck)
             ]
         } else {
             loadedCourses = inputCourses
+        }
+
+        guard !loadedCourses.isEmpty else {
+            coursesByID = [:]
+            courseIDByCourseKey = [:]
+            allQuestions = []
+            questionsByID = [:]
+            orderedFileInfos = []
+            examDatesByCourseKey = QuizBundleLoader.loadExamDates()
+            self.courses = []
+            bestScoresByCourse = Self.loadValue(forKey: bestScoresKey) ?? [:]
+            statsByCourse = Self.loadValue(forKey: courseStatsKey) ?? [:]
+            let wrongArrays: [String: [String]] = Self.loadValue(forKey: wrongIDsKey) ?? [:]
+            wrongQuestionIDsByCourse = wrongArrays.mapValues { Set($0) }
+            performanceByQuestionID = Self.loadValue(forKey: performanceKey) ?? [:]
+            selectedCourseID = ""
+            shuffleQuestions = true
+            wrongAnswersOnly = false
+            questionLimit = 0
+            activeFilterMode = .all
+            activeScope = .repository
+            activeScopeLabel = QuizFilterMode.all.title
+            progressSnapshot = nil
+            hasResumableSession = false
+            return
         }
 
         coursesByID = Dictionary(uniqueKeysWithValues: loadedCourses.map { ($0.id, $0) })
@@ -929,6 +986,10 @@ final class QuizSession: ObservableObject {
     }
 
     private func isDue(_ question: QuizQuestion) -> Bool {
+        guard !isCourseExpired(courseKey: question.courseKey) else {
+            return false
+        }
+
         let entry = performance(for: question)
         guard
             let nextReview = entry.nextReview,
@@ -955,6 +1016,20 @@ final class QuizSession: ObservableObject {
         return dayStart
     }
 
+    private func isCourseExpired(courseKey: String) -> Bool {
+        guard let examDate = examDate(for: courseKey) else {
+            return false
+        }
+        return Calendar.current.compare(examDate, to: effectiveToday(), toGranularity: .day) == .orderedAscending
+    }
+
+    private func examDate(for courseKey: String) -> Date? {
+        guard let examDateString = examDatesByCourseKey[courseKey] else {
+            return nil
+        }
+        return Self.isoDateFormatter.date(from: examDateString)
+    }
+
     private func updateQuestionPerformance(for question: QuizQuestion, result: QuizQuestionResult) {
         var entry = performance(for: question)
         let quality = result == .correct ? 5 : 0
@@ -978,8 +1053,7 @@ final class QuizSession: ObservableObject {
         let penalty = Double(5 - quality)
         entry.ease = max(1.3, entry.ease + (0.1 - penalty * (0.08 + penalty * 0.02)))
 
-        if let examDateString = examDatesByCourseKey[question.courseKey],
-           let examDate = Self.isoDateFormatter.date(from: examDateString) {
+        if let examDate = examDate(for: question.courseKey) {
             let daysLeft = max(
                 Calendar.current.dateComponents([.day], from: today, to: examDate).day ?? 1,
                 1

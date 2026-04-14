@@ -151,7 +151,17 @@ private struct StartScreen: View {
                     .font(.body.weight(.medium))
                     .foregroundStyle(theme.secondaryText)
 
-                if session.hasResumableSession {
+                if session.totalRepositoryQuestionCount == 0 {
+                    VStack(alignment: .leading, spacing: 8) {
+                        Text("Nessun quiz caricato")
+                            .font(.headline.weight(.semibold))
+                        Text("Il bundle iOS non contiene `quiz_data` valido. Verifica il build phase che copia `./quiz_data` dentro l'app.")
+                            .font(.subheadline)
+                            .foregroundStyle(theme.secondaryText)
+                    }
+                    .padding(16)
+                    .quizCard(theme)
+                } else if session.hasResumableSession {
                     Button {
                         session.resumeSavedSession()
                     } label: {
@@ -165,106 +175,112 @@ private struct StartScreen: View {
                     }
                 }
 
-                VStack(alignment: .leading, spacing: 14) {
-                    Text("Menu Principale")
-                        .font(.subheadline.weight(.semibold))
+                if session.totalRepositoryQuestionCount > 0 {
+                    VStack(alignment: .leading, spacing: 14) {
+                        Text("Menu Principale")
+                            .font(.subheadline.weight(.semibold))
 
-                    LegacyMenuButton(
-                        index: "1",
-                        title: "Programmate per oggi",
-                        subtitle: "Filtro due su tutto il repository",
-                        theme: theme
-                    ) {
-                        startQuiz(mode: .due, scope: .repository)
-                    }
+                        LegacyMenuButton(
+                            index: "1",
+                            title: "Programmate per oggi",
+                            subtitle: "Filtro due su tutto il repository",
+                            theme: theme
+                        ) {
+                            startQuiz(mode: .due, scope: .repository)
+                        }
 
-                    LegacyMenuButton(
-                        index: "2",
-                        title: "Tutte le domande",
-                        subtitle: "Nessun filtro",
-                        theme: theme
-                    ) {
-                        startQuiz(mode: .all, scope: .repository)
-                    }
+                        LegacyMenuButton(
+                            index: "2",
+                            title: "Tutte le domande",
+                            subtitle: "Nessun filtro",
+                            theme: theme
+                        ) {
+                            startQuiz(mode: .all, scope: .repository)
+                        }
 
-                    LegacyMenuButton(
-                        index: "3",
-                        title: "Non risposte",
-                        subtitle: "Solo domande mai tentate",
-                        theme: theme
-                    ) {
-                        startQuiz(mode: .unanswered, scope: .repository)
-                    }
+                        LegacyMenuButton(
+                            index: "3",
+                            title: "Non risposte",
+                            subtitle: "Solo domande mai tentate",
+                            theme: theme
+                        ) {
+                            startQuiz(mode: .unanswered, scope: .repository)
+                        }
 
-                    LegacyMenuButton(
-                        index: "4",
-                        title: "Fallite",
-                        subtitle: "Ultimo tentativo errato",
-                        theme: theme
-                    ) {
-                        startQuiz(mode: .wrong, scope: .repository)
-                    }
+                        LegacyMenuButton(
+                            index: "4",
+                            title: "Fallite",
+                            subtitle: "Ultimo tentativo errato",
+                            theme: theme
+                        ) {
+                            startQuiz(mode: .wrong, scope: .repository)
+                        }
 
-                    LegacyMenuButton(
-                        index: "5",
-                        title: "Fallite o saltate",
-                        subtitle: "Ultimo tentativo wrong/skipped",
-                        theme: theme
-                    ) {
-                        startQuiz(mode: .wrongOrSkipped, scope: .repository)
-                    }
+                        LegacyMenuButton(
+                            index: "5",
+                            title: "Fallite o saltate",
+                            subtitle: "Ultimo tentativo wrong/skipped",
+                            theme: theme
+                        ) {
+                            startQuiz(mode: .wrongOrSkipped, scope: .repository)
+                        }
 
-                    LegacyMenuButton(
-                        index: "5b",
-                        title: "Saltate",
-                        subtitle: "Ultimo tentativo skipped",
-                        theme: theme
-                    ) {
-                        startQuiz(mode: .skipped, scope: .repository)
-                    }
+                        LegacyMenuButton(
+                            index: "5b",
+                            title: "Saltate",
+                            subtitle: "Ultimo tentativo skipped",
+                            theme: theme
+                        ) {
+                            startQuiz(mode: .skipped, scope: .repository)
+                        }
 
-                    LegacyMenuButton(
-                        index: "6",
-                        title: "Per file",
-                        subtitle: "Corso -> sezione -> file -> filtro",
-                        theme: theme
-                    ) {
-                        showingFileMenu = true
-                    }
+                        LegacyMenuButton(
+                            index: "6",
+                            title: "Per file",
+                            subtitle: "Corso -> sezione -> file -> filtro",
+                            theme: theme
+                        ) {
+                            showingFileMenu = true
+                        }
 
-                    LegacyMenuButton(
-                        index: "7",
-                        title: "Per tag",
-                        subtitle: "Come CLI: usa il filtro 'Programmate per oggi'",
-                        theme: theme
-                    ) {
-                        showingTagMenu = true
-                    }
+                        if !session.tagNames.isEmpty {
+                            LegacyMenuButton(
+                                index: "7",
+                                title: "Per tag",
+                                subtitle: "Come CLI: usa il filtro 'Programmate per oggi'",
+                                theme: theme
+                            ) {
+                                showingTagMenu = true
+                            }
+                        }
 
-                    LegacyMenuButton(
-                        index: "8",
-                        title: "Riepilogo file",
-                        subtitle: "Statistiche aggregate per file e corso",
-                        theme: theme
-                    ) {
-                        showingSummaryMenu = true
-                    }
+                        LegacyMenuButton(
+                            index: "8",
+                            title: "Riepilogo file",
+                            subtitle: "Statistiche aggregate per file e corso",
+                            theme: theme
+                        ) {
+                            showingSummaryMenu = true
+                        }
 
-                    LegacyMenuButton(
-                        index: "9",
-                        title: "Statistiche",
-                        subtitle: "Repository, corso o file",
-                        theme: theme
-                    ) {
-                        showingStatsMenu = true
+                        LegacyMenuButton(
+                            index: "9",
+                            title: "Statistiche",
+                            subtitle: "Repository, corso o file",
+                            theme: theme
+                        ) {
+                            showingStatsMenu = true
+                        }
                     }
+                    .padding(16)
+                    .quizCard(theme)
                 }
-                .padding(16)
-                .quizCard(theme)
 
                 HStack(spacing: 12) {
                     StatPill(label: "Domande repo", value: "\(session.totalRepositoryQuestionCount)", theme: theme)
-                    StatPill(label: "Tag", value: "\(session.tagNames.count)", theme: theme)
+                    if !session.tagNames.isEmpty {
+                        StatPill(label: "Tag", value: "\(session.tagNames.count)", theme: theme)
+                    }
                     StatPill(label: "File", value: "\(session.allFileInfos.count)", theme: theme)
                 }
             }

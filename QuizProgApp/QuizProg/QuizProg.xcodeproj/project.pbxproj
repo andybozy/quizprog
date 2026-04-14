@@ -55,6 +55,7 @@
 				0655FBC72F437DA60050859A /* Sources */,
 				0655FBC82F437DA60050859A /* Frameworks */,
 				0655FBC92F437DA60050859A /* Resources */,
+				0655FBD92F437DA80050859A /* Bundle Quiz Data */,
 			);
 			buildRules = (
 			);
@@ -113,6 +114,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0655FBD92F437DA80050859A /* Bundle Quiz Data */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(PROJECT_DIR)/../../quiz_data",
+				"$(PROJECT_DIR)/../../scripts/bundle_ios_quiz_data.sh",
+			);
+			name = "Bundle Quiz Data";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/quiz_data",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PROJECT_DIR/../../scripts/bundle_ios_quiz_data.sh\" \"$PROJECT_DIR/../..\" \"$PROJECT_DIR\" \"$TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0655FBC72F437DA60050859A /* Sources */ = {
