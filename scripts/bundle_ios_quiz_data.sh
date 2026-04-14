@@ -22,9 +22,13 @@ mkdir -p "$resources_dir"
 rm -rf "$target_dir"
 mkdir -p "$target_dir"
 
-rsync -a --delete --delete-excluded \
-  --exclude '.DS_Store' \
-  --exclude '.quiz_index.json' \
-  "$source_dir"/ "$target_dir"/
+tmp_dir="$(mktemp -d "${TMPDIR:-/tmp}/quizprog-quiz-data.XXXXXX")"
+trap 'rm -rf "$tmp_dir"' EXIT
+
+ditto "$source_dir" "$tmp_dir/quiz_data"
+find "$tmp_dir/quiz_data" -name '.DS_Store' -delete
+find "$tmp_dir/quiz_data" -name '.quiz_index.json' -delete
+
+ditto "$tmp_dir/quiz_data" "$target_dir"
 
 echo "Bundled quiz data from $source_dir into $target_dir"

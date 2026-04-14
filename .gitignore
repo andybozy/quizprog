@@ -3,3 +3,8 @@
 /repomix-output.xml
 /quiz_performance.json.bak
 /quiz_data/.quiz_index.json
+/.build/
+/dist/
+__pycache__/
+*.pyc
+*.pyo
