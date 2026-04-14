@@ -1,0 +1,824 @@
+{
+  "batch_number": 1,
+  "start_question": 1,
+  "end_question": 30,
+  "total_questions_available": 77,
+  "progress": "30 de 77",
+  "source_files": [
+    {
+      "file_number": 1,
+      "file_name": "1_TEMA 1 DRH 22-23.pdf",
+      "format": "PDF"
+    },
+    {
+      "file_number": 2,
+      "file_name": "2_TEMA 2 DRH 22-23.pdf",
+      "format": "PDF"
+    },
+    {
+      "file_number": 3,
+      "file_name": "3_TEMA 3 DRH 22-23.pdf",
+      "format": "PDF"
+    }
+  ],
+  "questions": [
+    {
+      "question_number": 1,
+      "topic": "TEMA 1",
+      "question": "La Organización Científica del Trabajo:",
+      "answers": [
+        {
+          "text": "Está fundamentada en las relaciones sociales de los trabajadores",
+          "correct": false
+        },
+        {
+          "text": "Se basa en el estudio detallado de los procesos, con el fin de dividirlos en operaciones simples",
+          "correct": true
+        },
+        {
+          "text": "Se basa en el cronometraje de tareas por grupos de trabajadores.",
+          "correct": false
+        },
+        {
+          "text": "No tiene en cuenta el estudio de las aptitudes fisiológicas de la persona.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la segunda porque el taylorismo parte del estudio detallado de los procesos industriales para descomponer el trabajo en operaciones simples, sincronizables y medibles. La primera es propia de la Escuela de Relaciones Humanas, no de Taylor. La tercera es errónea porque el cronometraje existe, pero se aplica a movimientos y operaciones individuales del trabajo, no como simple cronometraje de grupos. La cuarta es falsa porque el temario dice expresamente que Taylor combina el estudio de las aptitudes fisiológicas con los aspectos económicos.\nIT: È corretta la seconda perché il taylorismo analizza in dettaglio i processi industriali e scompone il lavoro in operazioni semplici. La prima appartiene alla scuola delle relazioni umane. La terza è sbagliata perché il cronometro è uno strumento, ma non definisce da solo il sistema né riguarda genericamente gruppi di lavoratori. La quarta è falsa perché Taylor considera anche le attitudini fisiologiche della persona.",
+      "legal_reference": "No existe una referencia normativa específica; es una cuestión doctrinal/académica fundamentada en 1_TEMA 1 DRH 22-23.pdf (PDF), especialmente en los epígrafes 2.1.1 a 2.1.8.",
+      "file_number": 1,
+      "original_file": "1_TEMA 1 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 2,
+      "topic": "TEMA 1",
+      "question": "Según la Escuela de Relaciones Humanas:",
+      "answers": [
+        {
+          "text": "La productividad es el único elemento a tener en cuenta en el funcionamiento del modelo de organización",
+          "correct": false
+        },
+        {
+          "text": "Una visión parcial del proceso de fabricación favorece el desarrollo integral del trabajador porque lo especializa",
+          "correct": false
+        },
+        {
+          "text": "El individuo es un mero engranaje de la producción, una parte de la máquina.",
+          "correct": false
+        },
+        {
+          "text": "El rendimiento productivo guarda una estrecha relación con las relaciones sociales establecidas en la empresa",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es la cuarta porque Elton Mayo y la Escuela de Relaciones Humanas sostienen que el rendimiento depende en gran medida de la integración del trabajador en grupos, redes de comunicación y relaciones sociales. La primera es falsa porque esa visión reductiva es propia de enfoques mecanicistas. La segunda es falsa porque la especialización extrema no se presenta como desarrollo integral del trabajador. La tercera también es falsa porque precisamente esta escuela corrige la visión del trabajador como mero engranaje.\nIT: È corretta la quarta perché la scuola delle relazioni umane lega la produttività alle relazioni sociali nell’impresa. La prima è falsa perché riduce tutto alla produttività. La seconda è falsa perché la visione parziale del processo non favorisce lo sviluppo integrale. La terza è falsa perché questa scuola nasce proprio per superare l’idea del lavoratore come semplice pezzo della macchina.",
+      "legal_reference": "No existe una referencia normativa específica; es una cuestión doctrinal/académica fundamentada en 1_TEMA 1 DRH 22-23.pdf (PDF), especialmente en los epígrafes 2.1.1 a 2.1.8.",
+      "file_number": 1,
+      "original_file": "1_TEMA 1 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 3,
+      "topic": "TEMA 1",
+      "question": "¿En qué consiste el “efecto Hawthorne”?",
+      "answers": [
+        {
+          "text": "En que, cuanto más le pagas a un trabajador, mayor es su rendimiento.",
+          "correct": false
+        },
+        {
+          "text": "En que la motivación del trabajador depende exclusivamente de los premios y los castigos",
+          "correct": false
+        },
+        {
+          "text": "En que el comportamiento de un individuo o de un grupo varía por el simple hecho de ser observado",
+          "correct": true
+        },
+        {
+          "text": "En que el individuo es vago por naturaleza",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la tercera. El efecto Hawthorne describe la variación del comportamiento o del rendimiento por la atención especial o la observación a la que se somete a las personas. La primera es falsa porque no se reduce a pagar más. La segunda es falsa porque no afirma una dependencia exclusiva de castigos y premios. La cuarta es falsa y remite más bien a presupuestos de la teoría X o del taylorismo más duro, no al hallazgo de Hawthorne.\nIT: È corretta la terza: l’effetto Hawthorne indica che persone o gruppi modificano il comportamento semplicemente perché sanno di essere osservati o di ricevere attenzione speciale. La prima è falsa perché non riguarda solo il salario. La seconda è falsa perché non riduce la motivazione a premi e punizioni. La quarta è falsa e richiama piuttosto concezioni meccanicistiche o autoritarie dell’uomo.",
+      "legal_reference": "No existe una referencia normativa específica; es una cuestión doctrinal/académica fundamentada en 1_TEMA 1 DRH 22-23.pdf (PDF), especialmente en los epígrafes 2.1.1 a 2.1.8.",
+      "file_number": 1,
+      "original_file": "1_TEMA 1 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 4,
+      "topic": "TEMA 1",
+      "question": "De acuerdo con las teorías de Taylor, el instrumento básico para racionalizar el trabajo de los obreros es:",
+      "answers": [
+        {
+          "text": "El estudio de tiempos y de movimientos",
+          "correct": true
+        },
+        {
+          "text": "Los castigos y premios",
+          "correct": false
+        },
+        {
+          "text": "La comunicación informal",
+          "correct": false
+        },
+        {
+          "text": "La división del trabajo",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la primera porque el propio temario dice que el instrumento básico para racionalizar el trabajo de los obreros era el estudio de tiempos y movimientos. La segunda es errónea: premios y sanciones pueden existir, pero no constituyen el instrumento básico del método. La tercera es falsa porque la comunicación informal es ajena al enfoque taylorista. La cuarta es insuficiente: la división del trabajo forma parte del sistema, pero el instrumento técnico central es el estudio de tiempos y movimientos.\nIT: È corretta la prima perché Taylor individua nello studio dei tempi e dei movimenti lo strumento tecnico fondamentale per razionalizzare il lavoro. Premi e punizioni non sono il nucleo del metodo. La comunicazione informale non appartiene all’impostazione taylorista. La divisione del lavoro è importante, ma non è lo strumento tecnico principale indicato dal temario.",
+      "legal_reference": "No existe una referencia normativa específica; es una cuestión doctrinal/académica fundamentada en 1_TEMA 1 DRH 22-23.pdf (PDF), especialmente en los epígrafes 2.1.1 a 2.1.8.",
+      "file_number": 1,
+      "original_file": "1_TEMA 1 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 5,
+      "topic": "TEMA 1",
+      "question": "Prever, dirigir, coordinar, organizar y controlar la organización son los cinco componentes de lo que Henry Fayol conoce como",
+      "answers": [
+        {
+          "text": "Dirección de Recursos Humanos",
+          "correct": false
+        },
+        {
+          "text": "Dirección de personal",
+          "correct": false
+        },
+        {
+          "text": "Administración de personal",
+          "correct": false
+        },
+        {
+          "text": "Proceso administrativo",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La opción más correcta es «Proceso administrativo». El temario explica que para Fayol administrar es prever, dirigir, coordinar, organizar y controlar, y añade que esos cinco componentes integran lo que actualmente conocemos como proceso administrativo. Las otras tres opciones no se corresponden con la formulación doctrinal de Fayol: ni DRH, ni dirección de personal, ni administración de personal son el concepto técnico usado aquí. Esta es una de las preguntas cuyo marcado previo suele aparecer confundido en apuntes o tests.\nIT: La risposta più corretta è «Proceso administrativo». Il materiale spiega che, per Fayol, amministrare significa prevedere, dirigere, coordinare, organizzare e controllare, e che questi cinque elementi integrano ciò che oggi chiamiamo processo amministrativo. Le altre opzioni non corrispondono alla nozione teorica di Fayol. È una domanda che talvolta compare con chiavi errate o imprecise nei test riassuntivi.",
+      "legal_reference": "No existe una referencia normativa específica; es una cuestión doctrinal/académica fundamentada en 1_TEMA 1 DRH 22-23.pdf (PDF), especialmente en los epígrafes 2.1.1 a 2.1.8.",
+      "file_number": 1,
+      "original_file": "1_TEMA 1 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 6,
+      "topic": "TEMA 1",
+      "question": "De las siguientes afirmaciones, señale la única verdadera",
+      "answers": [
+        {
+          "text": "En el sistema de producción en masa de Henry Ford desaparece el trabajador especializado, que es sustituido por un trabajador al que se adiestra en una operación determinada",
+          "correct": true
+        },
+        {
+          "text": "La ventaja del sistema de Ford es que da a los trabajadores enormes oportunidades de promoción",
+          "correct": false
+        },
+        {
+          "text": "Todas son falsas",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la primera porque el fordismo elimina al trabajador artesanal o altamente especializado y lo sustituye por un trabajador entrenado para una operación concreta dentro de la cadena. La segunda es falsa porque el propio temario afirma que el trabajador no tiene la menor expectativa de promoción. La tercera también es falsa porque sí hay una afirmación verdadera, que es la primera.\nIT: È corretta la prima perché il fordismo sostituisce il lavoratore specializzato con un lavoratore addestrato a una sola operazione specifica. La seconda è falsa perché il sistema fordista non offriva grandi possibilità di promozione; al contrario, il lavoratore aveva pochissime prospettive. La terza è quindi falsa, perché una delle affermazioni è effettivamente vera.",
+      "legal_reference": "No existe una referencia normativa específica; es una cuestión doctrinal/académica fundamentada en 1_TEMA 1 DRH 22-23.pdf (PDF), especialmente en los epígrafes 2.1.1 a 2.1.8.",
+      "file_number": 1,
+      "original_file": "1_TEMA 1 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 7,
+      "topic": "TEMA 1",
+      "question": "Las afirmaciones “El hombre, por naturaleza, no desea trabajar y, cuando puede, lo evita.” Y “La empresa tiene que someter a los trabajadores a un control estricto y recurrir a castigos y recompensas” pertenecen a la llamada …",
+      "answers": [
+        {
+          "text": "Teoría de los dos factores, de Herzberg",
+          "correct": false
+        },
+        {
+          "text": "Teoría Y, de McGregor",
+          "correct": false
+        },
+        {
+          "text": "Teoria X, de McGregor",
+          "correct": true
+        },
+        {
+          "text": "Teoría Z, de Ouichi",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la tercera porque esas dos afirmaciones reproducen literalmente la lógica de la teoría X de McGregor: visión pesimista del ser humano, control externo estricto y recurso a castigos y recompensas. La teoría Y sostiene lo contrario: implicación, autonomía y responsabilidad. La teoría de Herzberg distingue factores de motivación e higiene, no formula esa antropología del trabajador. La teoría Z se basa en confianza y relaciones humanas estrechas.\nIT: È corretta la terza perché le due frasi riflettono perfettamente la teoria X di McGregor: il lavoratore eviterebbe il lavoro e dovrebbe essere controllato rigidamente con premi e punizioni. La teoria Y propone invece autonomia e responsabilità. Herzberg distingue fattori motivanti e igienici. La teoria Z di Ouchi si fonda su fiducia e relazioni umane strette, non su controllo severo.",
+      "legal_reference": "No existe una referencia normativa específica; es una cuestión doctrinal/académica fundamentada en 1_TEMA 1 DRH 22-23.pdf (PDF), especialmente en los epígrafes 2.1.1 a 2.1.8.",
+      "file_number": 1,
+      "original_file": "1_TEMA 1 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 8,
+      "topic": "TEMA 1",
+      "question": "¿Qué teoría de recursos humanos descansa sobre estos tres principios básicos: Confianza, atención a relaciones humanas y mantenimiento de relaciones sociales estrechas?",
+      "answers": [
+        {
+          "text": "La teoría de los dos factores de Herzberg",
+          "correct": false
+        },
+        {
+          "text": "La teoría de motivación de McGregor",
+          "correct": false
+        },
+        {
+          "text": "La teoría Z, de Ouichi",
+          "correct": true
+        },
+        {
+          "text": "El modelo de motivación de Maslow",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la tercera porque el temario señala expresamente que la teoría Z descansa sobre tres principios básicos: confianza, atención a las relaciones humanas y relaciones sociales estrechas. Herzberg no construye su teoría sobre esos tres principios, sino sobre factores de motivación e higiene. McGregor distingue teoría X e Y. Maslow formula una jerarquía de necesidades. Por tanto, solo la teoría Z coincide de forma literal con el enunciado.\nIT: È corretta la terza perché il tema dedica alla teoria Z proprio questi tre principi: fiducia, attenzione alle relazioni umane e relazioni sociali strette. Herzberg parla di fattori motivanti e igienici. McGregor distingue teoria X e Y. Maslow costruisce una gerarchia dei bisogni. Solo la teoria Z coincide esattamente con la formulazione della domanda.",
+      "legal_reference": "No existe una referencia normativa específica; es una cuestión doctrinal/académica fundamentada en 1_TEMA 1 DRH 22-23.pdf (PDF), especialmente en los epígrafes 2.1.1 a 2.1.8.",
+      "file_number": 1,
+      "original_file": "1_TEMA 1 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 9,
+      "topic": "TEMA 1",
+      "question": "En la teoría de Herzberg, el salario y el reconocimiento de los compañeros son factores ...",
+      "answers": [
+        {
+          "text": "De higiene",
+          "correct": true
+        },
+        {
+          "text": "De motivación",
+          "correct": false
+        },
+        {
+          "text": "De alegría",
+          "correct": false
+        },
+        {
+          "text": "De seguridad",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La clave más aceptada en este test es «De higiene», porque el salario pertenece claramente a los factores extrínsecos o de contexto. Ahora bien, la pregunta es técnicamente imperfecta: en el temario, «el reconocimiento» aparece como factor de motivación, mientras que «las relaciones con los compañeros» aparecen como factor de higiene. Por eso, la respuesta correcta del test solo se sostiene si se interpreta «reconocimiento de los compañeros» como dimensión contextual-social del entorno laboral y no como reconocimiento en sentido herzbergiano estricto.\nIT: La chiave più plausibile nel test è «De higiene», perché il salario è senza dubbio un fattore igienico o estrinseco. Però la domanda è formulata male: nel tema il «riconoscimento» compare tra i fattori motivanti, mentre i rapporti con i colleghi rientrano tra quelli igienici. Quindi la risposta del test regge solo se si legge «riconoscimento dei compagni» come elemento sociale di contesto, non come riconoscimento intrinseco in senso rigoroso.",
+      "legal_reference": "No existe una referencia normativa específica; es una cuestión doctrinal/académica fundamentada en 1_TEMA 1 DRH 22-23.pdf (PDF), especialmente en los epígrafes 2.1.1 a 2.1.8.",
+      "file_number": 1,
+      "original_file": "1_TEMA 1 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 10,
+      "topic": "TEMA 1",
+      "question": "Según el esquema de organización funcional, …",
+      "answers": [
+        {
+          "text": "los trabajadores quedan agrupados en unidades y departamentos",
+          "correct": true
+        },
+        {
+          "text": "Se crean áreas de negocio para cada producto o servicio",
+          "correct": false
+        },
+        {
+          "text": "No está bien definida la autoridad",
+          "correct": false
+        },
+        {
+          "text": "Todas son falsas",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la primera porque la organización funcional agrupa a los trabajadores por funciones, unidades o departamentos. La segunda describe la organización por divisiones o, en ciertos casos, la lógica matricial orientada a productos o servicios. La tercera no define la organización funcional; la falta de definición clara de autoridad se vincula más bien a problemas típicos de la estructura matricial. La cuarta es falsa porque sí existe una opción verdadera, la primera.\nIT: È corretta la prima perché la struttura funzionale raggruppa i lavoratori in unità e dipartimenti in base alla funzione svolta. La seconda descrive la struttura divisionale o per prodotto. La terza richiama piuttosto uno dei problemi tipici dell’organizzazione matriciale. La quarta è falsa perché una risposta corretta esiste, ed è la prima.",
+      "legal_reference": "No existe una referencia normativa específica; es una cuestión doctrinal/académica fundamentada en 1_TEMA 1 DRH 22-23.pdf (PDF), especialmente en los epígrafes 2.1.1 a 2.1.8.",
+      "file_number": 1,
+      "original_file": "1_TEMA 1 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 11,
+      "topic": "TEMA 2",
+      "question": "La capacidad de resolución de problemas es una condición del puesto de trabajo",
+      "answers": [
+        {
+          "text": "Física",
+          "correct": false
+        },
+        {
+          "text": "Intelectual",
+          "correct": true
+        },
+        {
+          "text": "Social",
+          "correct": false
+        },
+        {
+          "text": "Psicológica",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «Intelectual» porque la capacidad de resolución de problemas pertenece al plano cognitivo o mental del puesto. Las condiciones físicas hacen referencia a elementos como fuerza, resistencia o agudeza visual. Las sociales remiten a interacción o relación con otras personas. Las psicológicas pueden aludir a rasgos de personalidad o equilibrio emocional, pero «resolver problemas» se encuadra en el área intelectual según la clasificación del temario.\nIT: È corretta «Intelectual» perché la capacità di risolvere problemi è una condizione cognitiva del posto di lavoro. Le condizioni fisiche riguardano forza, resistenza o vista. Quelle sociali riguardano i rapporti con altri soggetti. Quelle psicologiche riguardano aspetti della personalità o dell’equilibrio emotivo. Nel temario la problem solving capacity rientra chiaramente nelle condizioni intellettuali.",
+      "legal_reference": "No existe una referencia normativa específica; es una cuestión doctrinal/académica fundamentada en 2_TEMA 2 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1, 2, 2.1, 2.2 y 4.",
+      "file_number": 2,
+      "original_file": "2_TEMA 2 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 12,
+      "topic": "TEMA 2",
+      "question": "La agudeza visual es una condición del puesto de trabajo",
+      "answers": [
+        {
+          "text": "Física",
+          "correct": true
+        },
+        {
+          "text": "Psicológica",
+          "correct": false
+        },
+        {
+          "text": "Intelectual",
+          "correct": false
+        },
+        {
+          "text": "Social",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «Física» porque la agudeza visual es una exigencia corporal o sensorial del puesto. No es una condición psicológica, porque no depende del estado emocional o de la personalidad. Tampoco es intelectual, porque no se refiere al razonamiento o a la comprensión. Y no es social, porque no guarda relación con la interacción con otras personas. En la descripción del puesto, el temario incluye condiciones físicas entre los requerimientos.\nIT: È corretta «Física» perché l’acutezza visiva è una condizione corporea o sensoriale richiesta dal posto. Non è psicologica, perché non riguarda la sfera emotiva o caratteriale. Non è intellettuale, perché non attiene al ragionamento. Non è sociale, perché non riguarda i rapporti interpersonali. Nella logica del tema, rientra nelle condizioni fisiche del posto di lavoro.",
+      "legal_reference": "No existe una referencia normativa específica; es una cuestión doctrinal/académica fundamentada en 2_TEMA 2 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1, 2, 2.1, 2.2 y 4.",
+      "file_number": 2,
+      "original_file": "2_TEMA 2 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 13,
+      "topic": "TEMA 2",
+      "question": "La técnica de análisis de puesto de trabajo en la que el individuo contesta, para cada tarea, si se lleva a cabo o no en el puesto que ocupa y, en caso afirmativo, la importancia que tiene se conoce como:",
+      "answers": [
+        {
+          "text": "Entrevista estructurada",
+          "correct": false
+        },
+        {
+          "text": "Elaboración de un diario o bitácora",
+          "correct": false
+        },
+        {
+          "text": "Cuestionario",
+          "correct": false
+        },
+        {
+          "text": "Lista de chequeo",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es «Lista de chequeo». El temario la define como una lista de tareas respecto de las cuales el sujeto indica si se realizan o no en su puesto y, si se realizan, qué importancia tienen. La entrevista estructurada no se basa en un repertorio cerrado de tareas a marcar. El diario o bitácora registra actividades diarias a lo largo del tiempo. El cuestionario es una categoría más amplia, pero aquí la descripción coincide específicamente con la lista de chequeo.\nIT: È corretta «Lista de chequeo». Il tema la descrive proprio come un elenco di compiti in cui il lavoratore indica se li svolge o meno e quale importanza hanno. L’intervista strutturata non funziona così. Il diario o bitacora consiste nell’annotare attività quotidiane nel tempo. Il questionario è una categoria più generale, mentre qui la definizione corrisponde in modo preciso alla checklist.",
+      "legal_reference": "No existe una referencia normativa específica; es una cuestión doctrinal/académica fundamentada en 2_TEMA 2 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1, 2, 2.1, 2.2 y 4.",
+      "file_number": 2,
+      "original_file": "2_TEMA 2 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 14,
+      "topic": "TEMA 2",
+      "question": "La elaboración de criterios de remuneración directa para los participantes que tengan en cuenta la valoración del puesto y los salarios en el mercado de trabajo es una política:",
+      "answers": [
+        {
+          "text": "De retención de Recursos Humanos",
+          "correct": true
+        },
+        {
+          "text": "De Evaluación de Recursos Humanos",
+          "correct": false
+        },
+        {
+          "text": "De integración de Recursos Humanos",
+          "correct": false
+        },
+        {
+          "text": "De organización de Recursos Humanos",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «De retención de Recursos Humanos» porque el temario sitúa expresamente los criterios de remuneración directa dentro de las políticas de retención, junto con remuneración indirecta, motivación, clima y condiciones de trabajo. No es una política de evaluación, porque no busca medir resultados o desempeño. No es de integración, que se refiere a reclutamiento, selección e incorporación. Tampoco es de organización, que se refiere a requisitos del personal, planeación interna y evaluación del desempeño.\nIT: È corretta «De retención de Recursos Humanos» perché il tema colloca i criteri di retribuzione diretta tra le politiche di mantenimento o retention. Non è una politica di valutazione, perché non misura performance. Non è di integrazione, che riguarda reclutamento e inserimento. Non è di organizzazione, che riguarda requisiti del personale, collocazione interna ed evaluation del rendimento.",
+      "legal_reference": "No existe una referencia normativa específica; es una cuestión doctrinal/académica fundamentada en 2_TEMA 2 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1, 2, 2.1, 2.2 y 4.",
+      "file_number": 2,
+      "original_file": "2_TEMA 2 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 15,
+      "topic": "TEMA 2",
+      "question": "el estudio y mantenimiento de las necesidades de Recursos Humanos, tanto fijos como eventuales o subcontratados, mínimos y suficientes para la consecución de los objetivos de los distintos departamentos y unidades de la empresa se conoce como...",
+      "answers": [
+        {
+          "text": "Análisis de puestos",
+          "correct": false
+        },
+        {
+          "text": "Profesiograma",
+          "correct": false
+        },
+        {
+          "text": "Planificación de Plantillas",
+          "correct": true
+        },
+        {
+          "text": "Gestión estratégica de Recursos humanos",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «Planificación de Plantillas» porque esa expresión del enunciado reproduce la definición del temario para esta materia: estudiar y mantener las necesidades de recursos humanos mínimos y suficientes para cumplir los objetivos de la empresa. El análisis de puestos se centra en contenido, funciones y exigencias de cada puesto. El profesiograma perfila las condiciones del candidato o del puesto. La gestión estratégica de RRHH es más amplia y no coincide con esta definición concreta.\nIT: È corretta «Planificación de Plantillas» perché il tema la definisce come lo studio e il mantenimento delle necessità di personale minime e sufficienti per raggiungere gli obiettivi aziendali. L’analisi dei posti riguarda il contenuto del posto. Il profesiograma descrive il profilo richiesto. La gestione strategica delle risorse umane è un concetto più ampio e non coincide con questa nozione specifica.",
+      "legal_reference": "No existe una referencia normativa específica; es una cuestión doctrinal/académica fundamentada en 2_TEMA 2 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1, 2, 2.1, 2.2 y 4.",
+      "file_number": 2,
+      "original_file": "2_TEMA 2 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 16,
+      "topic": "TEMA 2",
+      "question": "El proceso sistemático mediante el cual se obtiene toda la información referida a un puesto de trabajo es lo que se conoce como",
+      "answers": [
+        {
+          "text": "Diseño del puesto de trabajo",
+          "correct": false
+        },
+        {
+          "text": "Integración de Recursos Humanos",
+          "correct": false
+        },
+        {
+          "text": "Análisis del puesto de trabajo",
+          "correct": true
+        },
+        {
+          "text": "Organigrama",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «Análisis del puesto de trabajo» porque el temario presenta el análisis del puesto como el proceso sistemático de obtención de información sobre qué se hace, cómo, por qué, con qué, dónde y en qué condiciones. El diseño del puesto es la posterior especificación o configuración de su contenido y relaciones. La integración de RRHH es otra política distinta, vinculada a reclutamiento y selección. El organigrama es solo una representación gráfica de la estructura, no el proceso de obtención de información del puesto.\nIT: È corretta «Análisis del puesto de trabajo» perché il tema lo definisce come il processo sistematico per raccogliere tutte le informazioni relative al posto. Il design del posto viene dopo e serve a configurarlo. L’integrazione delle risorse umane riguarda reclutamento e inserimento. L’organigramma è soltanto la rappresentazione grafica della struttura, non il processo analitico sul contenuto del posto.",
+      "legal_reference": "No existe una referencia normativa específica; es una cuestión doctrinal/académica fundamentada en 2_TEMA 2 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1, 2, 2.1, 2.2 y 4.",
+      "file_number": 2,
+      "original_file": "2_TEMA 2 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 17,
+      "topic": "TEMA 2",
+      "question": "¿Qué procesos se conocen como “procesos básicos de la gestión de los recursos humanos”?",
+      "answers": [
+        {
+          "text": "La formación y el desarrollo de Recursos Humanos",
+          "correct": false
+        },
+        {
+          "text": "La selección de personal y la formación",
+          "correct": false
+        },
+        {
+          "text": "El análisis del puesto de trabajo y la planificación de Recursos Humanos",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es la tercera porque el temario afirma literalmente que el análisis de puestos de trabajo y la planificación de recursos humanos conforman los procesos básicos de la gestión de los recursos humanos. La formación y desarrollo son procesos importantes, pero no son los denominados «básicos» en este tema. La selección y la formación tampoco reciben esa etiqueta específica. La pregunta es de reproducción directa del apartado introductorio del Tema 2.\nIT: È corretta la terza perché il tema afferma espressamente che l’analisi dei posti di lavoro e la pianificazione delle risorse umane costituiscono i processi di base della gestione delle risorse umane. Formazione e sviluppo sono importanti, ma non sono chiamati così in questo punto. Anche selezione e formazione non sono qualificati come processi base nel testo introduttivo del Tema 2.",
+      "legal_reference": "No existe una referencia normativa específica; es una cuestión doctrinal/académica fundamentada en 2_TEMA 2 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1, 2, 2.1, 2.2 y 4.",
+      "file_number": 2,
+      "original_file": "2_TEMA 2 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 18,
+      "topic": "TEMA 2",
+      "question": "La elaboración de criterios de selección de recursos humanos y estándares de calidad para la admisión es una política:",
+      "answers": [
+        {
+          "text": "De retención de Recursos Humanos",
+          "correct": false
+        },
+        {
+          "text": "De integración de Recursos Humanos",
+          "correct": true
+        },
+        {
+          "text": "De organización de Recursos Humanos",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «De integración de Recursos Humanos» porque el temario incluye dentro de estas políticas los criterios de selección y estándares de calidad para la admisión. No es una política de retención, que se refiere a remuneración, clima o condiciones de trabajo. Tampoco es de organización, que versa sobre requisitos del personal, planeación, movimiento interno y evaluación del desempeño. Aquí se trata claramente de incorporar personas a la organización.\nIT: È corretta «De integración de Recursos Humanos» perché nel tema i criteri di selezione e gli standard di qualità per l’ammissione rientrano nelle politiche di integrazione. Non è una politica di retention, che riguarda salario, clima e condizioni di lavoro. Non è nemmeno di organizzazione, che riguarda requisiti del personale, collocazione e valutazione. Qui si parla chiaramente di ingresso e inserimento delle persone nell’organizzazione.",
+      "legal_reference": "No existe una referencia normativa específica; es una cuestión doctrinal/académica fundamentada en 2_TEMA 2 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1, 2, 2.1, 2.2 y 4.",
+      "file_number": 2,
+      "original_file": "2_TEMA 2 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 19,
+      "topic": "TEMA 2",
+      "question": "La entrevista individual o de grupo",
+      "answers": [
+        {
+          "text": "Son técnicas indirectas de análisis de puestos",
+          "correct": false
+        },
+        {
+          "text": "La entrevista individual es una técnica directa y la de grupo es una técnica indirecta",
+          "correct": false
+        },
+        {
+          "text": "La entrevista individual es una técnica indirecta y la de grupo es una técnica directa",
+          "correct": false
+        },
+        {
+          "text": "Son técnicas directas de análisis de puestos",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es la cuarta porque el temario sitúa tanto la entrevista individual como la entrevista de grupo dentro de las técnicas directas de análisis de puestos. La primera es falsa porque no son técnicas indirectas. La segunda y la tercera también son falsas porque no existe esa división mixta: ambas formas de entrevista son directas, aunque aportan distinta calidad y precisión de información.\nIT: È corretta la quarta perché il tema colloca sia l’intervista individuale sia quella di gruppo tra le tecniche dirette di analisi del posto. La prima è falsa perché non sono tecniche indirette. Anche la seconda e la terza sono sbagliate: non c’è una delle due che sia indiretta e l’altra diretta; entrambe appartengono alle tecniche dirette, pur con vantaggi e limiti diversi.",
+      "legal_reference": "No existe una referencia normativa específica; es una cuestión doctrinal/académica fundamentada en 2_TEMA 2 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1, 2, 2.1, 2.2 y 4.",
+      "file_number": 2,
+      "original_file": "2_TEMA 2 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 20,
+      "topic": "TEMA 2",
+      "question": "De las siguientes, cual es una técnica indirecta de análisis de puesto de trabajo",
+      "answers": [
+        {
+          "text": "La entrevista individual",
+          "correct": false
+        },
+        {
+          "text": "El cuestionario",
+          "correct": false
+        },
+        {
+          "text": "El análisis de los manuales de uso de las máquinas",
+          "correct": true
+        },
+        {
+          "text": "La entrevista de grupo",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «El análisis de los manuales de uso de las máquinas» porque el temario lo incluye expresamente entre las técnicas indirectas: documentación cuyo estudio permite inferir tareas del puesto. La entrevista individual y la entrevista de grupo son técnicas directas. El cuestionario también aparece en el bloque de técnicas directas. Por tanto, solo el análisis documental de manuales encaja en la categoría indirecta.\nIT: È corretta «El análisis de los manuales de uso de las máquinas» perché il tema la inserisce tra le tecniche indirette: dallo studio dei manuali si deducono le attività del posto. L’intervista individuale e quella di gruppo sono tecniche dirette. Anche il questionario è collocato tra le tecniche dirette. Quindi solo l’analisi documentale dei manuali rientra correttamente tra le tecniche indirette.",
+      "legal_reference": "No existe una referencia normativa específica; es una cuestión doctrinal/académica fundamentada en 2_TEMA 2 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1, 2, 2.1, 2.2 y 4.",
+      "file_number": 2,
+      "original_file": "2_TEMA 2 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 21,
+      "topic": "TEMA 3",
+      "question": "Cuando la oferta de trabajo excede a la demanda la empresa puede hacer",
+      "answers": [
+        {
+          "text": "Reducciones salariales",
+          "correct": true
+        },
+        {
+          "text": "Planes de promoción",
+          "correct": false
+        },
+        {
+          "text": "Formación y reciclaje",
+          "correct": false
+        },
+        {
+          "text": "Transferencias y reajustes internos",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «Reducciones salariales» porque el temario incluye esta medida entre las respuestas posibles cuando la oferta de trabajo es superior a la demanda y la empresa tiene más personas de las que necesita. «Formación y reciclaje» y «planes de promoción» se vinculan al caso contrario, cuando la demanda excede a la oferta. «Transferencias y reajustes internos» corresponde al supuesto de equilibrio entre oferta y demanda. Cada opción remite a uno de los tres escenarios clásicos de la planificación de RRHH.\nIT: È corretta «Reducciones salariales» perché il tema la inserisce tra le misure adottabili quando l’offerta di lavoro supera la domanda. «Formación y reciclaje» e i piani di promozione si usano invece quando la domanda supera l’offerta. «Transferencias y reajustes internos» appartiene al caso di equilibrio tra offerta e domanda. Le opzioni, quindi, corrispondono ai tre scenari della pianificazione delle risorse umane.",
+      "legal_reference": "No existe una referencia normativa específica general; es una cuestión doctrinal/académica fundamentada en 3_TEMA 3 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1, 2.1, 2.2 y 2.3. Cuando se cita la OIT, se trata de referencia técnico-doctrinal, no de norma laboral española aplicable a la pregunta.",
+      "file_number": 3,
+      "original_file": "3_TEMA 3 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 22,
+      "topic": "TEMA 3",
+      "question": "Respecto de la selección de personal, indique la afirmación falsa",
+      "answers": [
+        {
+          "text": "Los profesiogramas son documentos que, como dependen de los objetivos de cada empresa, no tienen una estructura única y rígida",
+          "correct": false
+        },
+        {
+          "text": "En el profesiograma por factores se trata de determinar si el aspirante posee las competencias necesarias para ocupar el puesto",
+          "correct": true
+        },
+        {
+          "text": "El análisis de puesto de trabajo consiste en el estudio de las características relevantes del puesto para configurar su perfil y el de la persona que debe desempeñarlo, teniendo en cuenta las características de la empresa.",
+          "correct": false
+        },
+        {
+          "text": "Las competencias están integradas por elementos determinados que se pueden resumir en los siguientes: saber, saber hacer, saber ser y saber estar",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La afirmación falsa es la segunda. El temario distingue entre profesiograma por factores y profesiograma por competencias. El primero describe características buscadas en el candidato; el segundo es el que trata de determinar si el aspirante posee las competencias necesarias para el puesto. La primera es verdadera porque el profesiograma no tiene estructura rígida. La tercera reproduce la definición de análisis del puesto. La cuarta también es verdadera porque resume correctamente los elementos de la competencia.\nIT: L’affermazione falsa è la seconda. Il tema distingue tra profesiograma per fattori e per competenze: è il secondo che valuta se il candidato possiede le competenze necessarie. La prima è vera perché il profesiograma non ha struttura unica e rigida. La terza è vera perché riproduce la definizione di analisi del posto. Anche la quarta è vera: sapere, saper fare, saper essere e saper stare sono gli elementi della competenza.",
+      "legal_reference": "No existe una referencia normativa específica general; es una cuestión doctrinal/académica fundamentada en 3_TEMA 3 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1, 2.1, 2.2 y 2.3. Cuando se cita la OIT, se trata de referencia técnico-doctrinal, no de norma laboral española aplicable a la pregunta.",
+      "file_number": 3,
+      "original_file": "3_TEMA 3 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 23,
+      "topic": "TEMA 3",
+      "question": "La administración basada en competencias …",
+      "answers": [
+        {
+          "text": "Aumenta la rotación de personal",
+          "correct": false
+        },
+        {
+          "text": "Permite la definición de planes de carrera",
+          "correct": true
+        },
+        {
+          "text": "No identifica las capacidades del personal",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «Permite la definición de planes de carrera». El temario enumera entre las ventajas de la administración basada en competencias la identificación de capacidades y habilidades, el apoyo al desarrollo individual y organizacional, la definición de planes de vida y carrera y la disminución de la rotación. Por eso la primera es falsa, porque no aumenta la rotación sino que contribuye a disminuirla. La tercera también es falsa, porque precisamente sí identifica capacidades. La cuarta es falsa porque sí existe una afirmación verdadera.\nIT: È corretta «Permite la definición de planes de carrera». Il tema indica tra i vantaggi della gestione per competenze l’identificazione delle capacità del personale, il supporto allo sviluppo e la definizione di piani di carriera, oltre alla riduzione della rotazione. Per questo la prima è falsa: la rotazione non aumenta. Anche la terza è falsa, perché il sistema identifica proprio le capacità. La quarta è falsa perché una risposta corretta esiste.",
+      "legal_reference": "No existe una referencia normativa específica general; es una cuestión doctrinal/académica fundamentada en 3_TEMA 3 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1, 2.1, 2.2 y 2.3. Cuando se cita la OIT, se trata de referencia técnico-doctrinal, no de norma laboral española aplicable a la pregunta.",
+      "file_number": 3,
+      "original_file": "3_TEMA 3 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 24,
+      "topic": "TEMA 3",
+      "question": "El profesiograma será adecuado si permite",
+      "answers": [
+        {
+          "text": "Reconocer las necesidades de la organización en ese momento",
+          "correct": false
+        },
+        {
+          "text": "Evaluar cuáles son las características y aptitudes de la plantilla actual y así como sus carencias internas",
+          "correct": false
+        },
+        {
+          "text": "Utilizar criterios unificados en el proceso de reclutamiento y selección de personal",
+          "correct": false
+        },
+        {
+          "text": "Todas las anteriores",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es «Todas las anteriores» porque el temario afirma expresamente que un profesiograma adecuado debe permitir reconocer necesidades organizativas, evaluar características y carencias internas de la plantilla y utilizar criterios unificados en reclutamiento y selección. Ninguna de las tres primeras es incorrecta: todas reflejan utilidades reales del profesiograma. Por eso la respuesta global es la cuarta.\nIT: È corretta «Todas las anteriores» perché il tema indica che un profesiograma adeguato deve permettere di riconoscere i bisogni dell’organizzazione, valutare caratteristiche e carenze interne della plantilla e usare criteri unificati nel reclutamento e nella selezione. Le prime tre frasi sono tutte vere. Di conseguenza, la risposta complessiva corretta è la quarta.",
+      "legal_reference": "No existe una referencia normativa específica general; es una cuestión doctrinal/académica fundamentada en 3_TEMA 3 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1, 2.1, 2.2 y 2.3. Cuando se cita la OIT, se trata de referencia técnico-doctrinal, no de norma laboral española aplicable a la pregunta.",
+      "file_number": 3,
+      "original_file": "3_TEMA 3 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 25,
+      "topic": "TEMA 3",
+      "question": "El conjunto de procedimientos tendentes a atraer candidatos capaces de ocupar puestos de trabajo en la organización se conoce como",
+      "answers": [
+        {
+          "text": "Selección de personal",
+          "correct": false
+        },
+        {
+          "text": "Profesiograma",
+          "correct": false
+        },
+        {
+          "text": "Reclutamiento",
+          "correct": true
+        },
+        {
+          "text": "Oferta de empleo",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «Reclutamiento». El temario define el reclutamiento precisamente como el conjunto de procedimientos tendentes a atraer candidatos capaces de ocupar puestos en la organización. La selección de personal es la fase posterior, donde se elige entre los candidatos reclutados. El profesiograma es el documento de perfil del puesto/candidato. La oferta de empleo es solo uno de los instrumentos o mensajes utilizados dentro del reclutamiento.\nIT: È corretta «Reclutamiento». Il tema lo definisce esattamente come l’insieme di procedure dirette ad attirare candidati capaci di occupare i posti di lavoro dell’organizzazione. La selezione è la fase successiva, in cui si sceglie tra i candidati già reclutati. Il profesiograma è il profilo del posto o del candidato. L’offerta di lavoro è solo uno strumento del reclutamento, non il concetto generale.",
+      "legal_reference": "No existe una referencia normativa específica general; es una cuestión doctrinal/académica fundamentada en 3_TEMA 3 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1, 2.1, 2.2 y 2.3. Cuando se cita la OIT, se trata de referencia técnico-doctrinal, no de norma laboral española aplicable a la pregunta.",
+      "file_number": 3,
+      "original_file": "3_TEMA 3 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 26,
+      "topic": "TEMA 3",
+      "question": "Respecto de la selección de personal …",
+      "answers": [
+        {
+          "text": "En general las personas encargadas de evaluar el curriculum no disponen de ninguna regla para ello. Lo hacen basándose en la propia experiencia",
+          "correct": false
+        },
+        {
+          "text": "El análisis del CV sirve para realizar predicciones sobre el rendimiento futuro en el puesto de trabajo que se va a ocupar.",
+          "correct": true
+        },
+        {
+          "text": "El análisis del CV se utiliza poco porque el Cv es un documento difícil de conseguir y de interpretar.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las respuestas anteriores es correcta",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la segunda porque el análisis del CV, aunque a menudo actúe como técnica preselectiva, se utiliza para formular predicciones sobre el rendimiento futuro en el puesto. La primera no es la opción correcta porque el temario la presenta como una práctica común pero problemática, no como criterio válido a defender en la pregunta. La tercera es falsa: el CV es precisamente fácil de conseguir y, en principio, fácil de interpretar. La cuarta es falsa porque sí hay una afirmación correcta.\nIT: È corretta la seconda perché l’analisi del CV serve, almeno in parte, a formulare previsioni sul rendimento futuro nel posto da coprire. La prima descrive una prassi frequente ma poco rigorosa, non l’affermazione da ritenere corretta nel senso tecnico della domanda. La terza è falsa: il CV è di solito facile da ottenere e, in linea di principio, facile da interpretare. La quarta è quindi falsa.",
+      "legal_reference": "No existe una referencia normativa específica general; es una cuestión doctrinal/académica fundamentada en 3_TEMA 3 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1, 2.1, 2.2 y 2.3. Cuando se cita la OIT, se trata de referencia técnico-doctrinal, no de norma laboral española aplicable a la pregunta.",
+      "file_number": 3,
+      "original_file": "3_TEMA 3 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 27,
+      "topic": "TEMA 3",
+      "question": "La entrevista de selección",
+      "answers": [
+        {
+          "text": "Elemento muy utilizado pero que suele tener poco peso a la hora de tomar decisiones sobre la selección",
+          "correct": false
+        },
+        {
+          "text": "Su objetivo fundamental es recoger datos que permitan elaborar un juicio acerca del candidato y tomar una decisión sobre su adecuación al puesto de la organización que deseamos cubrir",
+          "correct": true
+        },
+        {
+          "text": "Deberá utilizarse siempre como único elemento de evaluación, sin otros elementos que puedan confundir al observador.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las respuestas anteriores es correcta",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la segunda porque el temario define ese como el objetivo fundamental de la entrevista de selección. La primera es falsa porque, aunque la entrevista es muy utilizada, suele tener mucho peso en la decisión final, no poco. La tercera también es falsa: el temario dice que normalmente no debe utilizarse como único elemento de evaluación, sino junto con otros métodos. La cuarta es falsa porque sí existe una afirmación correcta, la segunda.\nIT: È corretta la seconda perché il tema definisce proprio così la finalità centrale dell’intervista di selezione: raccogliere dati per formulare un giudizio sul candidato e sulla sua adeguatezza al posto. La prima è falsa perché l’intervista, pur essendo molto usata, ha spesso un peso elevato nella decisione. La terza è falsa: non va usata sempre da sola. La quarta è quindi falsa.",
+      "legal_reference": "No existe una referencia normativa específica general; es una cuestión doctrinal/académica fundamentada en 3_TEMA 3 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1, 2.1, 2.2 y 2.3. Cuando se cita la OIT, se trata de referencia técnico-doctrinal, no de norma laboral española aplicable a la pregunta.",
+      "file_number": 3,
+      "original_file": "3_TEMA 3 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 28,
+      "topic": "TEMA 3",
+      "question": "La aptitud que supone la capacidad para hablar y escribir con facilidad es la",
+      "answers": [
+        {
+          "text": "Aptitud verbal",
+          "correct": false
+        },
+        {
+          "text": "Aptitud espacial",
+          "correct": false
+        },
+        {
+          "text": "Amabilidad",
+          "correct": false
+        },
+        {
+          "text": "Fluidez verbal",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es «Fluidez verbal» porque el temario la define literalmente como la capacidad para hablar y escribir con facilidad. «Aptitud verbal» es más amplia y se refiere al manejo de palabras o frases en general. «Aptitud espacial» se vincula a percepción de objetos en el espacio. «Amabilidad» es un rasgo de trato o personalidad, no una aptitud técnica de selección.\nIT: È corretta «Fluidez verbal» perché il tema la definisce letteralmente come la capacità di parlare e scrivere con facilità. «Aptitud verbal» è più ampia e riguarda in generale l’uso di parole e frasi. «Aptitud espacial» riguarda la percezione dello spazio. «Amabilidad» è un tratto personale, non un’aptitudine tecnica valutata in questo senso.",
+      "legal_reference": "No existe una referencia normativa específica general; es una cuestión doctrinal/académica fundamentada en 3_TEMA 3 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1, 2.1, 2.2 y 2.3. Cuando se cita la OIT, se trata de referencia técnico-doctrinal, no de norma laboral española aplicable a la pregunta.",
+      "file_number": 3,
+      "original_file": "3_TEMA 3 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 29,
+      "topic": "TEMA 3",
+      "question": "Los cuestionarios que consisten en una lista de preguntas y afirmaciones referentes al comportamiento, actitudes, opiniones, gustos, y sentimientos del individuo frente a circunstancias determinadas se conocen como",
+      "answers": [
+        {
+          "text": "Test de situación",
+          "correct": false
+        },
+        {
+          "text": "Entrevistas abiertas",
+          "correct": false
+        },
+        {
+          "text": "Inventarios de personalidad",
+          "correct": true
+        },
+        {
+          "text": "Test de capacidad mecánica",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «Inventarios de personalidad». El temario describe exactamente así estos cuestionarios: lista de preguntas y afirmaciones sobre comportamiento, actitudes, opiniones, gustos y sentimientos del individuo frente a determinadas circunstancias. Los test de situación reproducen tareas o contextos de trabajo. Las entrevistas abiertas son otra técnica distinta, basada en interacción oral. Los test de capacidad mecánica miden aptitud mecánica, no personalidad.\nIT: È corretta «Inventarios de personalidad». Il tema li descrive proprio come questionari con domande e affermazioni sul comportamento, gli atteggiamenti, le opinioni, i gusti e i sentimenti dell’individuo. I test di situazione simulano contesti o compiti di lavoro. Le interviste aperte sono una tecnica diversa. I test di capacità meccanica misurano attitudini tecniche, non tratti di personalità.",
+      "legal_reference": "No existe una referencia normativa específica general; es una cuestión doctrinal/académica fundamentada en 3_TEMA 3 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1, 2.1, 2.2 y 2.3. Cuando se cita la OIT, se trata de referencia técnico-doctrinal, no de norma laboral española aplicable a la pregunta.",
+      "file_number": 3,
+      "original_file": "3_TEMA 3 DRH 22-23.pdf (PDF)"
+    },
+    {
+      "question_number": 30,
+      "topic": "TEMA 3",
+      "question": "Aquellas pruebas en las que se enseña a los candidatos una tarea de la misma naturaleza que las que habrán de realizar en el puesto a cubrir; a continuación, se juzgará su capacidad para efectuar la tarea que se les ha enseñado son las",
+      "answers": [
+        {
+          "text": "Pruebas de formación",
+          "correct": true
+        },
+        {
+          "text": "Tomas de decisión en grupo",
+          "correct": false
+        },
+        {
+          "text": "Seminarios de evaluación",
+          "correct": false
+        },
+        {
+          "text": "Juegos de simulación",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «Pruebas de formación». El temario las define exactamente de ese modo: primero se enseña una tarea semejante a la del puesto, y después se valora la capacidad del candidato para ejecutarla. Las tomas de decisión en grupo se basan en resolución colectiva de problemas. Los seminarios de evaluación son programas más amplios, usados sobre todo en puestos ejecutivos. Los juegos de simulación recrean situaciones, pero no responden literalmente a la estructura didáctica descrita en el enunciado.\nIT: È corretta «Pruebas de formación». Il tema le definisce proprio così: si insegna al candidato un compito simile a quello del posto e poi si valuta la sua capacità di svolgerlo. Le decisioni di gruppo riguardano la risoluzione collettiva di problemi. I seminari di valutazione sono dispositivi più complessi e ampi. I giochi di simulazione ricreano situazioni, ma non coincidono esattamente con la formula indicata nella domanda.",
+      "legal_reference": "No existe una referencia normativa específica general; es una cuestión doctrinal/académica fundamentada en 3_TEMA 3 DRH 22-23.pdf (PDF), especialmente en los epígrafes 1, 2.1, 2.2 y 2.3. Cuando se cita la OIT, se trata de referencia técnico-doctrinal, no de norma laboral española aplicable a la pregunta.",
+      "file_number": 3,
+      "original_file": "3_TEMA 3 DRH 22-23.pdf (PDF)"
+    }
+  ]
+}
