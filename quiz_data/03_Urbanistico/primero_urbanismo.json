@@ -1515,6 +1515,58 @@
       "legal_reference": "Referencia principal: LOTURM, arts. 115.3, 119.1.a, 119.2.b y 123.1.",
       "original_file": "chat_input_urbanismo_questions.txt",
       "source_note": "La risposta sostanziale corretta sarebbe il PGOU/PGMO, ma non figura tra le opzioni."
+    },
+    {
+      "question_number": 61,
+      "question": "La “autonomía” de las unidades de actuación requiere:",
+      "answers": [
+        {
+          "text": "Que sean económicamente viables",
+          "correct": false
+        },
+        {
+          "text": "Que sean independientes en accesos y servicios",
+          "correct": true
+        },
+        {
+          "text": "Que sean equilibradas en aprovechamiento",
+          "correct": false
+        },
+        {
+          "text": "Ninguna o todas las anteriores",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La opción correcta es \"Que sean independientes en accesos y servicios\". En sentido técnico-urbanístico, la autonomía de una unidad de actuación se refiere a su independencia funcional: debe poder disponer de accesos y de conexión o entronque a los servicios necesarios. La viabilidad económica y el equilibrio en aprovechamiento son criterios importantes de delimitación, pero no son lo mismo que la autonomía en sentido estricto. Por eso la opción sobre accesos y servicios es la correcta. La respuesta sobre viabilidad económica es errónea porque describe otro requisito general de la unidad, no la autonomía; la opción sobre equilibrio de aprovechamiento también es errónea porque se refiere a la justicia distributiva o al equilibrio entre unidades, no a la independencia funcional de la unidad misma; y la opción \"Ninguna o todas las anteriores\" es incorrecta porque no son correctas todas las respuestas previas.\nIT: La risposta corretta è \"Che siano indipendenti quanto ad accessi e servizi\". In senso tecnico-urbanistico, l’autonomia di un’unità di attuazione riguarda la sua indipendenza funzionale: deve poter contare su accessi e su connessioni ai servizi necessari. La sostenibilità economica e l’equilibrio dell’indice edificatorio sono criteri importanti per delimitare l’unità, ma non coincidono con l’autonomia in senso proprio. Per questo è corretta solo la risposta relativa ad accessi e servizi. La risposta sulla viabilità economica è errata perché descrive un altro requisito generale dell’unità, non l’autonomia; quella sull’equilibrio dell’approfittamento è errata perché riguarda l’equilibrio distributivo tra unità, non l’indipendenza funzionale dell’unità stessa; ed è errata anche \"Nessuna o tutte le precedenti\" perché non sono corrette tutte le opzioni anteriori.",
+      "legal_reference": "Referencia principal: Ley 13/2015, de Ordenación Territorial y Urbanística de la Región de Murcia, art. 196.1, que exige que las unidades de actuación aseguren su viabilidad y autonomía; art. 196.3, sobre delimitación apta para cumplir conjuntamente urbanización, cesión y equidistribución. Referencia interpretativa directa: Real Decreto 3288/1978, Reglamento de Gestión Urbanística, art. 180.2, sobre \"unidad funcional directamente utilizable\"; y apoyo doctrinal en Cesáreo Gil de Pareja Otón, Urbanismo para el Grado Técnico y Jurídico, cap. VIII, apartado \"Autonomía funcional de las UUA\".",
+      "original_file": "chat_input_urbanismo_questions.txt",
+      "source_note": "La ley murciana formula viabilidad y autonomía como requisitos acumulativos de la unidad; la pregunta, sin embargo, pide específicamente el contenido de la autonomía en sentido técnico."
+    },
+    {
+      "question_number": 62,
+      "question": "El aprovechamiento de un sector de suelo urbanizable:",
+      "answers": [
+        {
+          "text": "Es la edificabilidad establecida en la ficha del PGMO para ese sector",
+          "correct": true
+        },
+        {
+          "text": "Es la edificabilidad de las parcelas en el suelo urbano de la ciudad existente",
+          "correct": false
+        },
+        {
+          "text": "Es el aprovechamiento agrícola, pecuario o forestal de las fincas rústicas que lo componen",
+          "correct": false
+        },
+        {
+          "text": "Ninguna o todas las anteriores",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La opción correcta es \"Es la edificabilidad establecida en la ficha del PGMO para ese sector\". En la lógica docente del tema, el aprovechamiento del sector se identifica con la edificabilidad o intensidad urbanística que el planeamiento general asigna al sector a través de su ficha, y que luego el planeamiento de desarrollo concreta. No tiene nada que ver con la edificabilidad del suelo urbano ya existente, porque aquí se está hablando de un sector de suelo urbanizable; tampoco se refiere al aprovechamiento agrícola, pecuario o forestal de las fincas rústicas originales, porque ese es el uso rural previo del suelo, no su aprovechamiento urbanístico. Por ello, la única respuesta correcta es la que remite a la ficha del PGMO.\nIT: La risposta corretta è \"È l’edificabilità stabilita nella scheda del PGMO per quel settore\". Nella logica didattica del tema, l’approfittamento del settore coincide con l’edificabilità o intensità urbanistica che il piano generale assegna al settore tramite la sua scheda, poi concretizzata dal piano attuativo. Non ha nulla a che vedere con l’edificabilità delle parcelle del suolo urbano già esistente, perché qui si parla di un settore di suolo urbanizzabile; né riguarda l’utilizzazione agricola, zootecnica o forestale delle originarie particelle rustiche, perché quello è l’uso rurale precedente del suolo, non il suo approfittamento urbanistico. Per questo l’unica risposta corretta è quella che rinvia alla scheda del PGMO.",
+      "legal_reference": "Referencia principal: Ley 13/2015, de Ordenación Territorial y Urbanística de la Región de Murcia, art. 124.b y d), que atribuye al Plan Parcial la ordenación pormenorizada del sector y la determinación del aprovechamiento resultante del sector aplicando el aprovechamiento de referencia fijado por el Plan General; art. 98.d), que presupone la existencia de un aprovechamiento del sector. Referencia doctrinal directa: Cesáreo Gil de Pareja Otón, Urbanismo para el Grado Técnico y Jurídico, cap. III, pasajes sobre la ficha del sector y el aprovechamiento/edificabilidad del sector urbanizable.",
+      "original_file": "chat_input_urbanismo_questions.txt",
+      "source_note": "La formulación de la respuesta es didáctica y simplificada: técnicamente, el Plan General fija el marco y el aprovechamiento de referencia del sector, y el Plan Parcial determina el aprovechamiento resultante del sector conforme a ese marco."
     }
   ]
 }
