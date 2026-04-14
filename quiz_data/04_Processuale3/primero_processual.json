@@ -1684,6 +1684,691 @@
         "LECrim, art. 324.2"
       ],
       "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 61,
+      "question": "Se ha abierto juicio oral contra Rodrigo en un procedimiento abreviado por un delito de robo con fuerza, por el que el Ministerio Fiscal pide 20 meses de prisión. El día del juicio, Rodrigo pregunta a su abogado si sería posible llegar a algún tipo de acuerdo con el Ministerio Fiscal y conformarse sin celebrar el juicio. Marque la opción correcta:",
+      "answers": [
+        {
+          "text": "No cabe en ningún caso la conformidad en el procedimiento abreviado.",
+          "correct": false
+        },
+        {
+          "text": "La conformidad en el procedimiento abreviado solo puede tener lugar en la fase de instrucción (diligencias previas).",
+          "correct": false
+        },
+        {
+          "text": "Sí cabe conformidad del acusado en el acto del juicio oral, antes de iniciarse la práctica de la prueba, con el escrito de acusación que contenga pena de mayor gravedad, sin que pueda modificarse dicho escrito en ese acto.",
+          "correct": true
+        },
+        {
+          "text": "Sí cabe conformidad del acusado en el acto del juicio oral, antes de iniciarse la práctica de la prueba, pudiendo presentarse en ese acto un nuevo escrito de acusación, que no podrá contener calificación más grave que la del escrito de acusación anterior.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la tercera opción, porque en el procedimiento abreviado cabe la conformidad en el acto del juicio oral antes de comenzar la prueba, y esa conformidad puede prestarse con el escrito de acusación más grave. La primera es falsa porque la conformidad sí existe en el abreviado; la segunda también es falsa porque no se limita a la fase instructora; y la cuarta no es correcta porque la ley no configura ese trámite como un momento para presentar libremente un nuevo escrito de acusación en los términos indicados por la opción.\nIT: La risposta corretta è la terza, perché nel procedimiento abreviado è possibile la conformità nel momento del giudizio orale prima dell’inizio dell’assunzione della prova, e tale conformità può essere prestata rispetto all’atto di accusa più grave. La prima è errata perché la conformità esiste nel rito abbreviato; la seconda è errata perché non è limitata alla fase istruttoria; anche la quarta non è corretta perché la legge non configura quel momento come sede per presentare liberamente un nuovo atto di accusa nei termini descritti.",
+      "legal_reference": [
+        "LECrim, arts. 655 y 787"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 62,
+      "question": "En la comisión de un delito de robo con fuerza en una segunda residencia, al no haber testigos presenciales, casi todas las diligencias de investigación son las contenidas en el atestado (toma de huellas, inspección ocular y reportaje fotográfico). Marque la opción correcta en cuanto a la eficacia probatoria de las mismas:",
+      "answers": [
+        {
+          "text": "Dichas diligencias, al haberse practicado sin intervención judicial, carecen de valor probatorio y no podrán hacerse valer como prueba en el acto del juicio en ningún caso.",
+          "correct": false
+        },
+        {
+          "text": "Dichas diligencias, para que tengan valor probatorio, deben incorporarse al juicio oral a través de un medio probatorio aceptable en derecho, como la declaración testifical de los agentes que hubieran intervenido.",
+          "correct": true
+        },
+        {
+          "text": "Dichas diligencias, al ser practicadas por agentes de las Fuerzas y Cuerpos de Seguridad del Estado, tienen plena eficacia probatoria, sin necesidad de que los agentes actuantes ratifiquen el atestado en el acto del juicio.",
+          "correct": false
+        },
+        {
+          "text": "El atestado no forma parte del expediente judicial, ni se incorpora a la instrucción del delito.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la segunda opción. El atestado policial no vale por sí solo como prueba de cargo plena en juicio, pero sus diligencias pueden adquirir eficacia probatoria si se introducen correctamente en el juicio oral mediante un medio de prueba válido, por ejemplo la declaración de los agentes actuantes. La primera es excesiva porque sí pueden aprovecharse si se incorporan válidamente; la tercera es errónea porque el atestado no goza de fuerza probatoria automática sin ratificación o incorporación adecuada; y la cuarta es falsa porque el atestado sí se incorpora a la instrucción.\nIT: La risposta corretta è la seconda. Il verbale di polizia non costituisce da solo piena prova di accusa nel dibattimento, ma gli atti in esso contenuti possono acquisire efficacia probatoria se vengono introdotti correttamente nel giudizio orale mediante un mezzo di prova valido, ad esempio la testimonianza degli agenti intervenuti. La prima è troppo radicale perché tali atti possono essere utilizzati se introdotti regolarmente; la terza è errata perché il verbale non ha efficacia probatoria automatica senza ratifica o adeguata introduzione; la quarta è falsa perché il verbale entra comunque nell’istruzione.",
+      "legal_reference": [
+        "LECrim, arts. 297 y 741",
+        "Jurisprudencia sobre valor del atestado policial y su ratificación en juicio oral"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 63,
+      "question": "Carolina está acusada de la comisión de un delito de daños, y el Ministerio Fiscal solicita para ella la imposición de una pena de 14 meses de prisión. El día del juicio, Carolina no comparece, pese a constar debidamente citada en el domicilio facilitado por ella a tal efecto. Marque la opción correcta:",
+      "answers": [
+        {
+          "text": "El juicio se celebrará en todo caso, aún en ausencia de Carolina, ya que está correctamente citada.",
+          "correct": false
+        },
+        {
+          "text": "El juicio podrá celebrarse, si el Juez o Tribunal estima que existen elementos suficientes para el enjuiciamiento, al estar Carolina correctamente citada.",
+          "correct": true
+        },
+        {
+          "text": "El juicio no podrá celebrarse, ya que la pena solicitada excede de un año de privación de libertad.",
+          "correct": false
+        },
+        {
+          "text": "En ningún caso podrá celebrarse el juicio en ausencia del acusado, ya que se vulneraría el derecho de defensa.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la segunda opción. En el procedimiento abreviado puede celebrarse el juicio en ausencia del acusado si ha sido debidamente citado, la acusación lo interesa, el tribunal aprecia que existen elementos suficientes para el enjuiciamiento y la pena solicitada no supera los límites legales. Aquí la pena pedida es de 14 meses de prisión, inferior al máximo legal para el juicio en ausencia. La primera es incorrecta porque no procede «en todo caso», sino solo si concurren los requisitos legales; la tercera es falsa porque el límite legal no es de un año; y la cuarta es demasiado absoluta.\nIT: La risposta corretta è la seconda. Nel procedimiento abreviado il giudizio può celebrarsi in assenza dell’imputato se egli è stato regolarmente citato, l’accusa lo richiede, il giudice ritiene sufficienti gli elementi per il giudizio e la pena richiesta non supera i limiti legali. Qui la pena domandata è di 14 mesi di reclusione, quindi inferiore al limite massimo consentito per il giudizio in assenza. La prima è errata perché non si procede automaticamente in ogni caso; la terza è falsa perché il limite legale non è di un anno; la quarta è troppo assoluta.",
+      "legal_reference": [
+        "LECrim, art. 786.1",
+        "LECrim, art. 258 bis.2"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 64,
+      "question": "En un delito de terrorismo, tramitado por el procedimiento ordinario o sumario, la defensa quiere alegar prescripción del delito, pero ya se ha dictado auto de apertura de juicio oral. Marque la opción correcta:",
+      "answers": [
+        {
+          "text": "Podrá alegarlo como artículo de previo pronunciamiento, por escrito en el plazo de tres días, desde que se le dé traslado para la calificación de los hechos.",
+          "correct": true
+        },
+        {
+          "text": "No podrá alegarlo en ningún caso, ya que tendría que haberlo alegado en fase de instrucción necesariamente.",
+          "correct": false
+        },
+        {
+          "text": "Esta cuestión únicamente podrá plantearla en el acto de la vista, antes de la práctica de la prueba.",
+          "correct": false
+        },
+        {
+          "text": "Si se desestimara la alegación de prescripción, podrá recurrirse la resolución en apelación, con suspensión del juicio.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La opción jurídicamente más correcta entre las ofrecidas es la primera, porque la prescripción figura entre los artículos de previo pronunciamiento en el procedimiento ordinario. No obstante, la pregunta está mal construida, ya que si ya se hubiera dictado auto de apertura de juicio oral el momento ordinario para promover ese artículo de previo pronunciamiento ya habría quedado superado. La segunda es demasiado tajante; la tercera no refleja el cauce legal ordinario; y la cuarta es incorrecta porque la desestimación no genera el recurso devolutivo con suspensión que describe la respuesta.\nIT: La risposta giuridicamente meno errata tra quelle offerte è la prima, perché la prescrizione rientra negli articoli di previo pronunciamiento nel procedimento ordinario. Tuttavia la domanda è costruita male, poiché se fosse già stato emanato l’auto di apertura del juicio oral il momento ordinario per sollevare tale questione sarebbe normalmente già decorso. La seconda è troppo assoluta; la terza non riflette il canale legale ordinario; la quarta è errata perché il rigetto non produce quel ricorso devolutivo con sospensione descritto dall’opzione.",
+      "legal_reference": [
+        "LECrim, arts. 666.3, 667, 675 y 676"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf",
+      "source_note": "La clave que suele circular en algunos apuntes para esta pregunta es jurídicamente discutible; la formulación del enunciado mezcla fases procesales incompatibles."
+    },
+    {
+      "question_number": 65,
+      "question": "Durante la instrucción de un delito de homicidio, pese a las numerosas diligencias practicadas, no ha podido identificarse al autor del crimen. Marque la respuesta correcta:",
+      "answers": [
+        {
+          "text": "El Juez instructor podrá dictar auto de sobreseimiento provisional.",
+          "correct": true
+        },
+        {
+          "text": "La instrucción necesariamente debe continuar y el procedimiento permanecer activo hasta que se identifique a un responsable.",
+          "correct": false
+        },
+        {
+          "text": "El juez instructor podrá dictar un auto de sobreseimiento libre.",
+          "correct": false
+        },
+        {
+          "text": "El juez instructor sólo podrá dictar auto de sobreseimiento si lo pide alguna de las partes personadas o el Ministerio Fiscal.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la primera opción. Cuando no resulta debidamente justificada la perpetración del delito por persona determinada, o no se logra identificar al autor, procede el sobreseimiento provisional, no el libre. La segunda es falsa porque el proceso no tiene que permanecer abierto indefinidamente; la tercera no es correcta porque el sobreseimiento libre exige supuestos tasados más intensos; y la cuarta también es falsa porque la falta de base para continuar puede apreciarse de oficio.\nIT: La risposta corretta è la prima. Quando non risulta sufficientemente giustificata la commissione del reato da parte di una persona determinata, o non si riesce a identificare l’autore, procede il proscioglimento provvisorio e non quello libero/definitivo. La seconda è errata perché il procedimento non deve restare indefinitamente aperto; la terza è sbagliata perché il proscioglimento libero richiede presupposti più intensi e tassativi; anche la quarta è falsa perché il giudice può rilevare d’ufficio la mancanza di base per proseguire.",
+      "legal_reference": [
+        "LECrim, arts. 641.2 y 779.1.1ª"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 66,
+      "question": "Antonia ha denunciado en comisaría a su hijo Alfonso mayor de edad por un episodio de maltrato familiar. Cuando va a declarar ante el juez de instrucción ha transcurrido algo de tiempo y quiere declarar en contra de su hijo. Indique la respuesta correcta:",
+      "answers": [
+        {
+          "text": "Está exenta de la obligación de declarar por razón de parentesco.",
+          "correct": false
+        },
+        {
+          "text": "Puede declarar y mentir para no perjudicar a su hijo ya que la LECrim se lo permite por ser su madre.",
+          "correct": false
+        },
+        {
+          "text": "Debe declarar porque ya lo hizo en comisaría.",
+          "correct": true
+        },
+        {
+          "text": "Tiene obligación de declarar en todo caso.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La opción que mejor encaja con la lógica del test es la tercera, en el sentido de que, habiendo denunciado previamente y existiendo determinadas excepciones al derecho de dispensa en delitos de violencia doméstica o de género, no opera automáticamente la exención por parentesco. La primera es demasiado absoluta; la segunda es claramente falsa porque ningún testigo está autorizado a mentir; y la cuarta también es excesiva porque la dispensa del artículo 416 LECrim no desaparece en todos los casos. La pregunta es técnicamente delicada y depende de matices del régimen vigente del artículo 416.\nIT: L’opzione che meglio si adatta alla logica del test è la terza, nel senso che, avendo precedentemente denunciato e operando determinate eccezioni al diritto di astensione nei reati di violenza domestica o di genere, non funziona automaticamente l’esenzione per parentela. La prima è troppo assoluta; la seconda è chiaramente falsa perché nessun testimone è autorizzato a mentire; anche la quarta è eccessiva perché la dispensa dell’articolo 416 LECrim non scompare in tutti i casi. La domanda è tecnicamente delicata e dipende dai dettagli della disciplina vigente dell’articolo 416.",
+      "legal_reference": [
+        "LECrim, art. 416.1",
+        "LECrim, art. 433"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf",
+      "source_note": "Pregunta sensible a la redacción vigente del art. 416 LECrim y a sus excepciones; la solución de examen suele simplificar una materia hoy más compleja."
+    },
+    {
+      "question_number": 67,
+      "question": "La Policía Nacional ha dirigido un oficio al juzgado de instrucción número 5 de Murcia solicitando autorización para poder llevar a cabo la detención y apertura de la correspondencia por Mercedes. ¿En qué caso puede el instructor conceder autorización para la práctica de dicha medida?",
+      "answers": [
+        {
+          "text": "Cuando la investigación tenga por objeto cualquier delito sobre el que existan indicios bastantes de criminalidad y de la participación en el mismo del investigado.",
+          "correct": false
+        },
+        {
+          "text": "Cuando la investigación tenga por objeto cualquier delito sobre el que existan indicios serios de criminalidad y concurra una situación objetiva de riesgo para terceros.",
+          "correct": false
+        },
+        {
+          "text": "Cuando la investigación tenga por objeto cualquier delito doloso siempre y cuando esté castigado con pena con límite máximo de al menos tres años de prisión.",
+          "correct": true
+        },
+        {
+          "text": "Cuando la investigación tenga por objeto cualquier delito relacionado con la violencia de género y doméstica.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la tercera opción. La detención y apertura de la correspondencia postal y telegráfica requiere resolución judicial motivada y, como regla general, se prevé para investigaciones sobre delitos dolosos castigados con pena cuyo límite máximo sea, al menos, de tres años de prisión, además de cumplir las exigencias de proporcionalidad y necesidad. Las otras opciones no recogen correctamente el umbral legal específico.\nIT: La risposta corretta è la terza. L’intercettazione e l’apertura della corrispondenza postale e telegrafica richiedono un provvedimento motivato del giudice e, come regola generale, sono previste per indagini relative a delitti dolosi puniti con pena il cui limite massimo sia almeno di tre anni di reclusione, oltre al rispetto dei principi di proporzionalità e necessità. Le altre opzioni non esprimono correttamente la soglia legale specifica.",
+      "legal_reference": [
+        "CE, art. 18.3",
+        "LECrim, art. 579.1"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 68,
+      "question": "Tras una discusión Pedro y Pablo se agredieron mutuamente; como consecuencia Pedro sufrió lesiones que precisaron de tratamiento médico para su curación, constituyendo delito menos grave, mientras que las lesiones de Pablo solo requirieron de una mera asistencia facultativa, constituyendo delito leve. Indique la respuesta correcta:",
+      "answers": [
+        {
+          "text": "El Juzgado de lo Penal será competente para el enjuiciamiento y fallo de ambos delitos al estar relacionados entre sí.",
+          "correct": true
+        },
+        {
+          "text": "El Juzgado de lo Penal conocerá del delito menos grave de lesiones imputable a Pablo y el Juzgado de Instrucción del delito leve de lesiones imputable a Pedro.",
+          "correct": false
+        },
+        {
+          "text": "El conocimiento y fallo de ambos delitos corresponde al Juzgado de Instrucción.",
+          "correct": false
+        },
+        {
+          "text": "El Juzgado de Instrucción acordará en todo caso el sobreseimiento libre de las actuaciones al tratarse de una agresión mutua.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La opción más ajustada al régimen competencial vigente es la primera: cuando existe conexión entre un delito menos grave y un delito leve, la competencia puede quedar atraída por el órgano de enjuiciamiento del delito menos grave, evitando resoluciones separadas sobre hechos íntimamente conectados. La segunda invierte además las imputaciones materiales del caso; la tercera desconoce el criterio de atracción por conexión; y la cuarta es abiertamente errónea.\nIT: L’opzione più corretta alla luce del regime di competenza vigente è la prima: quando esiste connessione tra un delitto meno grave e un reato lieve, la competenza può essere attratta dall’organo competente a giudicare il delitto meno grave, evitando decisioni separate su fatti strettamente connessi. La seconda inverte inoltre le imputazioni materiali del caso; la terza ignora il criterio di attrazione per connessione; la quarta è manifestamente errata.",
+      "legal_reference": [
+        "LECrim, art. 14",
+        "LECrim, arts. 962 y ss.",
+        "Reglas de conexión y atracción competencial"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf",
+      "source_note": "Algunos materiales docentes antiguos marcan otra opción, pero la respuesta ofrecida aquí sigue mejor la lógica de la competencia por conexión en la normativa vigente."
+    },
+    {
+      "question_number": 69,
+      "question": "Vanesa, empleada del concesionario de Audi de Albacete Pepito Pérez SLU, a fin de probar con un cliente un turismo a la venta, lo conduce por el polígono industrial sufriendo un accidente al no frenar a tiempo en un semáforo y atropella a un peatón que sufre lesiones. Al llegar la Guardia Civil, los agentes detectan síntomas de embriaguez por lo que la someten a test de alcoholemia con resultado positivo y le abren atestado por delito de conducción bajo los efectos del alcohol y lesiones imprudentes. ¿La mercantil Pepito Pérez SLU tiene algún tipo de responsabilidad civil por las lesiones causadas en el accidente?",
+      "answers": [
+        {
+          "text": "No, ya que la responsabilidad única es de la empleada conductora al haber conducido bajo los efectos del alcohol y ser las lesiones consecuencia de delito.",
+          "correct": false
+        },
+        {
+          "text": "No, ya que la responsabilidad civil será exclusivamente de la conductora y de la compañía aseguradora del vehículo.",
+          "correct": false
+        },
+        {
+          "text": "Sí, solidariamente junto con la empleada, ya que la responsabilidad civil siempre es solidaria.",
+          "correct": false
+        },
+        {
+          "text": "Sí, con carácter subsidiario respecto de la empleada y sin perjuicio de la responsabilidad directa de la compañía aseguradora.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es la cuarta opción. El empresario puede responder civilmente con carácter subsidiario por los delitos o faltas cometidos por sus empleados en el desempeño de sus obligaciones o servicios, sin perjuicio de la responsabilidad civil directa del asegurador dentro de los límites legales o contractuales. La primera y la segunda desconocen esa posible responsabilidad subsidiaria del empresario; y la tercera es incorrecta porque no se trata de una solidaridad automática general.\nIT: La risposta corretta è la quarta. L’imprenditore può rispondere civilmente in via sussidiaria per i reati commessi dai propri dipendenti nell’esercizio delle loro funzioni o servizi, senza pregiudizio della responsabilità civile diretta dell’assicuratore entro i limiti legali o contrattuali. La prima e la seconda ignorano questa possibile responsabilità sussidiaria del datore; la terza è errata perché non si tratta di una solidarietà automatica generale.",
+      "legal_reference": [
+        "CP, arts. 117 y 120.4"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 70,
+      "question": "Al inicio de un juicio ante el Juzgado de lo Penal comparece el acusado pero no su abogado defensor. Indique la respuesta correcta:",
+      "answers": [
+        {
+          "text": "La celebración del juicio ha de suspenderse en todo caso; no cabe la continuación sin la presentación del abogado defensor del acusado.",
+          "correct": true
+        },
+        {
+          "text": "El juicio podrá celebrarse sin abogado defensor si éste ha sido citado legalmente y en forma y no comparece a juicio sin justificación alguna.",
+          "correct": false
+        },
+        {
+          "text": "El juicio podrá celebrarse sin abogado defensor si el tribunal, oído el Ministerio Fiscal y las demás partes personadas, entiende que existen elementos suficientes para celebrar el juicio en su ausencia.",
+          "correct": false
+        },
+        {
+          "text": "El juicio podrá celebrarse sin abogado defensor si la pena solicitada no excede de dos años de privación de libertad.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la primera opción. La defensa técnica del acusado en el juicio penal es una garantía esencial y, si no comparece el abogado defensor, el juicio debe suspenderse para evitar indefensión. Las otras opciones pretenden relativizar indebidamente una exigencia estructural del proceso penal.\nIT: La risposta corretta è la prima. La difesa tecnica dell’imputato nel giudizio penale è una garanzia essenziale e, se il difensore non compare, il processo deve essere rinviato per evitare un pregiudizio difensivo. Le altre opzioni relativizzano indebitamente un requisito strutturale del processo penale.",
+      "legal_reference": [
+        "CE, art. 24.2",
+        "LECrim, arts. 768 y 786"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 71,
+      "question": "Respecto a Rogelio, investigado por un delito de lesiones, el juzgado de instrucción acordó la medida de prisión provisional, que fue recurrida y confirmada en varias ocasiones. Tras 9 meses en prisión provisional Rogelio fue puesto en libertad provisional con obligación de comparecer ante el juzgado los días 1 y 15 de cada mes. ¿En qué pieza del expediente se incluirán todas las resoluciones recaídas al respecto?",
+      "answers": [
+        {
+          "text": "En la pieza principal junto a las demás diligencias de investigación.",
+          "correct": false
+        },
+        {
+          "text": "En la pieza de situación personal.",
+          "correct": true
+        },
+        {
+          "text": "En la pieza de responsabilidad civil.",
+          "correct": false
+        },
+        {
+          "text": "Este tipo de medidas no pueden adoptarse por el juzgado de instrucción sino solo por el órgano de enjuiciamiento.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la segunda opción. Las resoluciones relativas a detención, prisión provisional, libertad provisional y demás medidas de naturaleza personal se documentan en la pieza separada de situación personal. La primera y la tercera confunden piezas distintas; la cuarta es falsa porque estas medidas sí pueden ser adoptadas en instrucción.\nIT: La risposta corretta è la seconda. I provvedimenti relativi alla detenzione, alla custodia cautelare, alla libertà provvisoria e alle altre misure personali vengono raccolti nella pieza separada de situación personal. La prima e la terza confondono fascicoli distinti; la quarta è falsa perché queste misure possono certamente essere adottate nella fase istruttoria.",
+      "legal_reference": [
+        "LECrim, arts. 505, 507, 530 y concordantes"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 72,
+      "question": "Ricardo ha visto que su hermano Miguel cometía un delito de daños. Señale la respuesta correcta:",
+      "answers": [
+        {
+          "text": "Ricardo no está obligado a denunciar a su hermano.",
+          "correct": true
+        },
+        {
+          "text": "Ricardo tiene obligación de denunciar a su hermano pero podrá hacerlo sin necesidad de personarse en la causa mediante abogado y procurador.",
+          "correct": false
+        },
+        {
+          "text": "Ricardo tiene obligación de denunciar a su hermano, si bien estará dispensado de la obligación de declarar contra él.",
+          "correct": false
+        },
+        {
+          "text": "Ricardo está obligado a denunciar a su hermano.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la primera opción. La Ley de Enjuiciamiento Criminal dispensa del deber de denunciar a determinados parientes del presunto autor, entre ellos los hermanos. Por eso no existe una obligación de denunciar en ese supuesto. Las demás opciones desconocen esa dispensa legal o la formulan de manera incompatible con ella.\nIT: La risposta corretta è la prima. La Ley de Enjuiciamiento Criminal esonera dal dovere di denuncia determinati parenti del presunto autore, tra cui i fratelli. In questo caso, quindi, non esiste un obbligo di denunciare. Le altre opzioni ignorano tale dispensa legale o la formulano in modo incompatibile con essa.",
+      "legal_reference": [
+        "LECrim, art. 261.2"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 73,
+      "question": "Lidia ha sido detenida por un presunto delito de robo con violencia e intimidación y, en la propia sede policial en la que está detenida, solicita que se avise a Juan, que es un abogado de su confianza, para que le asista. Indique la respuesta correcta:",
+      "answers": [
+        {
+          "text": "En la dependencia policial le asistirá el abogado que corresponda del turno de oficio y sólo tendrá derecho a designar abogado de su confianza en sede judicial.",
+          "correct": false
+        },
+        {
+          "text": "Mientras esté detenida tanto en sede policial como judicial le asistirá el abogado que corresponda del turno de oficio; después podrá designar un letrado de confianza.",
+          "correct": false
+        },
+        {
+          "text": "Lidia tiene derecho a la designación de un abogado de confianza desde el mismo momento de la detención.",
+          "correct": true
+        },
+        {
+          "text": "Lidia sólo tendrá derecho a designar abogado de confianza en el momento de apertura de juicio oral.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la tercera opción. La persona detenida tiene derecho a designar abogado de su confianza desde el mismo momento de la detención, sin esperar a comparecer judicialmente. El turno de oficio opera solo de forma subsidiaria si no designa abogado o este no puede asumir la asistencia en tiempo. Las otras opciones restringen indebidamente el alcance temporal del derecho.\nIT: La risposta corretta è la terza. La persona arrestata ha diritto a designare un avvocato di fiducia fin dal momento stesso della detenzione, senza dover attendere la comparizione davanti al giudice. Il difensore d’ufficio interviene solo in via sussidiaria se il detenuto non nomina un legale oppure se quello prescelto non può prestare assistenza in tempo utile. Le altre opzioni restringono indebitamente la portata temporale del diritto.",
+      "legal_reference": [
+        "CE, art. 17.3",
+        "LECrim, arts. 520.2.c y 520.5"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 74,
+      "question": "Antonio ha sido detenido por conducir su vehículo bajo la influencia de bebidas alcohólicas y es citado en diligencias urgentes ante el juzgado de instrucción de guardia. Ante el juez de instrucción Antonio reconoce lo sucedido y se conforma con la acusación presentada por el Ministerio Fiscal. Indique la respuesta correcta:",
+      "answers": [
+        {
+          "text": "El juzgado de instrucción de guardia dictará auto declarando la apertura del juicio oral y remitirá las actuaciones al juzgado de lo penal para que dicte la sentencia de conformidad que procede.",
+          "correct": false
+        },
+        {
+          "text": "El juzgado de instrucción de guardia realizará el control de la conformidad y dictará sentencia de conformidad imponiendo la pena solicitada en el escrito de acusación reducida en un tercio.",
+          "correct": true
+        },
+        {
+          "text": "El juzgado de instrucción de guardia decretará el sobreseimiento del proceso y en el plazo de cinco días dictará por escrito la sentencia de conformidad que se notificará a las partes.",
+          "correct": false
+        },
+        {
+          "text": "El juzgado de instrucción de guardia dictará auto de transformación del procedimiento en diligencias previas para sustanciar la conformidad por el procedimiento abreviado.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la segunda opción. En el procedimiento para el enjuiciamiento rápido, si concurren los requisitos legales y el acusado se conforma ante el juzgado de guardia, este puede dictar sentencia de conformidad y aplicar la reducción de un tercio de la pena solicitada. La primera desplaza indebidamente la decisión al juzgado de lo penal; la tercera inventa un sobreseimiento inexistente; la cuarta desconoce la lógica propia de las diligencias urgentes.\nIT: La risposta corretta è la seconda. Nel procedimento per il giudizio rapido, se sussistono i requisiti di legge e l’imputato presta conformità davanti al giudice di guardia, quest’ultimo può emettere sentenza di conformità applicando la riduzione di un terzo della pena richiesta. La prima trasferisce indebitamente la decisione al giudice del penale; la terza immagina un proscioglimento che qui non esiste; la quarta ignora la logica propria delle diligencias urgentes.",
+      "legal_reference": [
+        "LECrim, art. 801"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 75,
+      "question": "En unas diligencias previas el juez de instrucción deniega la práctica de diligencias que había solicitado el abogado de la defensa. Indique cómo podrá recurrirse esta resolución judicial:",
+      "answers": [
+        {
+          "text": "Podrá interponerse recurso de queja y contra el auto denegatorio de la queja podrá interponerse recurso de súplica.",
+          "correct": false
+        },
+        {
+          "text": "Solo podrá interponerse recurso de reforma; contra el denegatorio de la reforma no se podrá utilizar recurso de apelación ni ningún otro recurso, sin perjuicio de reproducir la petición ante el órgano de enjuiciamiento.",
+          "correct": false
+        },
+        {
+          "text": "Solo podrá interponerse recurso de apelación subsidiariamente con el de reforma, con efecto suspensivo del curso del procedimiento.",
+          "correct": false
+        },
+        {
+          "text": "Podrá interponer recurso de reforma y de apelación, y el recurso de apelación podrá interponerse subsidiariamente con el de reforma o por separado sin que sea necesario interponer previamente el de reforma para presentar la apelación.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es la cuarta opción. En las diligencias previas, contra los autos del juez de instrucción cabe recurso de reforma y, en su caso, de apelación, que puede formularse subsidiariamente o de manera autónoma según el régimen legal aplicable. La primera no describe el cauce ordinario; la segunda es demasiado restrictiva; la tercera añade un efecto suspensivo que no responde a la regla general.\nIT: La risposta corretta è la quarta. Nelle diligencias previas contro i provvedimenti del giudice istruttore è ammesso il ricorso di reforma e, quando previsto, anche quello di apelación, che può essere proposto in via subordinata o autonomamente secondo il regime legale. La prima non descrive il canale ordinario; la seconda è troppo restrittiva; la terza aggiunge un effetto sospensivo che non corrisponde alla regola generale.",
+      "legal_reference": [
+        "LECrim, art. 766"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 76,
+      "question": "En el procedimiento de delito leve:",
+      "answers": [
+        {
+          "text": "La fase de instrucción será competencia del juez instructor y la de enjuiciamiento del juzgado de lo penal.",
+          "correct": false
+        },
+        {
+          "text": "No existe propiamente fase de investigación instructoria ni fase intermedia.",
+          "correct": true
+        },
+        {
+          "text": "La sentencia que se dicte no será recurrible en ningún caso.",
+          "correct": false
+        },
+        {
+          "text": "En los juicios por delitos leves nunca interviene el Ministerio Fiscal.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la segunda opción. El juicio por delito leve se caracteriza por su simplicidad y por la ausencia de una verdadera fase instructora formal y de una fase intermedia autónoma como en otros procedimientos. La primera es falsa porque el enjuiciamiento no corresponde al juzgado de lo penal; la tercera también es errónea porque sí cabe recurso; y la cuarta es demasiado absoluta, ya que la intervención del Ministerio Fiscal depende del tipo de delito leve y de la materia.\nIT: La risposta corretta è la seconda. Il giudizio per reato lieve si caratterizza per la sua semplicità e per l’assenza di una vera fase istruttoria formale e di una fase intermedia autonoma come in altri procedimenti. La prima è errata perché il giudizio non spetta al juzgado de lo penal; la terza è sbagliata perché è previsto un mezzo di impugnazione; la quarta è troppo assoluta, poiché l’intervento del Ministerio Fiscal dipende dal tipo di reato lieve e dalla materia.",
+      "legal_reference": [
+        "LECrim, arts. 962 a 977",
+        "LECrim, arts. 976 y 977"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 77,
+      "question": "Miriam, de 13 años de edad, ha sido detenida cuando intentaba sustraer unas prendas de un establecimiento comercial. Indique la opción correcta:",
+      "answers": [
+        {
+          "text": "A Miriam se le podrá exigir la responsabilidad penal que derive del Código Penal.",
+          "correct": false
+        },
+        {
+          "text": "Miriam podrá ser juzgada conforme a la Ley Orgánica reguladora de la responsabilidad penal de los menores en todo caso.",
+          "correct": false
+        },
+        {
+          "text": "Miriam solo podrá ser juzgada conforme a la responsabilidad penal del menor de edad cuando la entidad pública de protección de menores emita un informe favorable sobre su imputabilidad.",
+          "correct": false
+        },
+        {
+          "text": "A Miriam no se le exigirá responsabilidad penal sino que se le aplicará lo dispuesto en las normas sobre protección de menores previstas en el Código Civil y demás disposiciones vigentes.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es la cuarta opción. La Ley Orgánica reguladora de la responsabilidad penal de los menores solo se aplica a mayores de 14 años y menores de 18. Al tener 13 años, Miriam es inimputable penalmente y, en su caso, proceden medidas de protección de menores, no responsabilidad penal. Por eso las otras tres opciones son incorrectas.\nIT: La risposta corretta è la quarta. La legge organica sulla responsabilità penale dei minori si applica solo ai soggetti che hanno compiuto 14 anni e non hanno ancora compiuto 18 anni. Avendo Miriam 13 anni, non è imputabile penalmente; possono eventualmente adottarsi misure di protezione dei minori, ma non una responsabilità penale. Per questo le altre tre opzioni sono errate.",
+      "legal_reference": [
+        "LO 5/2000, art. 1.1",
+        "CC y normativa de protección de menores"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 78,
+      "question": "En un caso de malversación de caudales públicos presuntamente cometido por un presidente de Comunidad Autónoma, ¿en el ámbito de qué tribunal tendrá lugar la celebración del juicio con jurado?",
+      "answers": [
+        {
+          "text": "En el de la Audiencia Provincial, que tiene la competencia funcional exclusiva de los juicios con jurado.",
+          "correct": false
+        },
+        {
+          "text": "En el del Tribunal Superior de Justicia de la Comunidad Autónoma, al ser el investigado un sujeto aforado.",
+          "correct": true
+        },
+        {
+          "text": "En el del Juzgado de lo Penal por la pena correspondiente al delito en cuestión.",
+          "correct": false
+        },
+        {
+          "text": "El delito de malversación de caudales públicos no es de la competencia del tribunal de jurado.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la segunda opción. La malversación está incluida entre los delitos atribuidos al Tribunal del Jurado, pero cuando el investigado es una persona aforada, como el presidente de una Comunidad Autónoma, el enjuiciamiento corresponde al Tribunal Superior de Justicia competente. La primera sería válida solo sin aforamiento; la tercera es errónea por órgano y materia; la cuarta es falsa porque la malversación sí integra el catálogo del jurado.\nIT: La risposta corretta è la seconda. La malversazione rientra tra i delitti attribuiti al Tribunal del Jurado, ma quando l’indagato è un soggetto aforado, come il presidente di una Comunità Autonoma, il giudizio spetta al Tribunal Superior de Justicia competente. La prima sarebbe corretta solo in assenza di aforamiento; la terza è errata quanto a organo e materia; la quarta è falsa perché la malversazione rientra nel catalogo del giurì.",
+      "legal_reference": [
+        "LO 5/1995, arts. 1.2.h y 2",
+        "Normas estatutarias y LOPJ sobre aforamiento autonómico"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 79,
+      "question": "Gerardo, con residencia de Cartagena, está siendo investigado por el homicidio de un vecino suyo en la vivienda de este y va a ser enjuiciado por un Tribunal de Jurado. ¿Qué juzgado estará tramitando la instrucción?",
+      "answers": [
+        {
+          "text": "El Juzgado de Instrucción de Cartagena, que es el competente por el lugar de comisión del delito.",
+          "correct": true
+        },
+        {
+          "text": "El Juzgado de Instrucción de Murcia, por ser el lugar donde tiene su sede la Audiencia Provincial.",
+          "correct": false
+        },
+        {
+          "text": "Un magistrado de la Audiencia Provincial según un turno preestablecido.",
+          "correct": false
+        },
+        {
+          "text": "El Juez de lo Penal de Murcia.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la primera opción. La competencia territorial para la instrucción viene determinada, como regla general, por el lugar de comisión del delito. Que el enjuiciamiento corresponda después al Tribunal del Jurado no altera que la investigación la tramite el Juzgado de Instrucción competente por territorio. Las otras respuestas confunden órgano instructor y órgano enjuiciador.\nIT: La risposta corretta è la prima. La competenza territoriale per l’istruzione è determinata, come regola generale, dal luogo di commissione del reato. Il fatto che il giudizio spetti poi al Tribunal del Jurado non modifica il fatto che l’indagine venga svolta dal Juzgado de Instrucción territorialmente competente. Le altre opzioni confondono organo istruttore e organo giudicante.",
+      "legal_reference": [
+        "LECrim, art. 14",
+        "LO 5/1995, art. 24"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 80,
+      "question": "Fran, de 17 años, ha cometido un hurto en un centro comercial; no ha habido violencia o intimidación y la cuantía es escasa, pero Fran es un delincuente recurrente y ha cometido hechos similares en numerosas ocasiones:",
+      "answers": [
+        {
+          "text": "El Ministerio Fiscal desistirá en todo caso del expediente cuando los hechos denunciados constituyan delitos menos graves sin violencia ni intimidación en las personas.",
+          "correct": false
+        },
+        {
+          "text": "El Ministerio Fiscal no desistirá del expediente, ya que cuando conste que el menor ha cometido con anterioridad otros hechos de la misma naturaleza el Ministerio Fiscal deberá incoar el expediente.",
+          "correct": true
+        },
+        {
+          "text": "El Ministerio Fiscal dará traslado al juez de menores para que decida sobre la incoación del expediente.",
+          "correct": false
+        },
+        {
+          "text": "Todas son falsas.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la segunda opción. En la jurisdicción de menores puede existir desistimiento por corrección educativa en supuestos leves, pero no cuando conste que el menor ha cometido con anterioridad otros hechos de la misma naturaleza. La reincidencia o reiteración excluye, por regla general, la procedencia de ese desistimiento. Por eso las demás opciones no son correctas.\nIT: La risposta corretta è la seconda. Nella giustizia minorile può esserci rinuncia all’apertura del procedimento per finalità educative in casi lievi, ma non quando risulti che il minore ha già commesso in precedenza altri fatti della stessa natura. La reiterazione o recidiva esclude normalmente questa possibilità di desistimiento. Perciò le altre opzioni non sono corrette.",
+      "legal_reference": [
+        "LO 5/2000, art. 18"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 81,
+      "question": "A juicio por Jurado se va a proceder a la constitución del mismo. Genaro es el letrado del acusado. Marque la opción correcta:",
+      "answers": [
+        {
+          "text": "No puede tener lugar la selección ya que solo han concurrido al acto 30 de los 36 jurados convocados al efecto.",
+          "correct": false
+        },
+        {
+          "text": "Genaro elegirá a 4 jurados y otros 4 debe elegirlos el Ministerio Fiscal, quedando el noveno y los dos suplentes a elección del magistrado que presidirá el tribunal.",
+          "correct": false
+        },
+        {
+          "text": "Genaro podrá recusar de forma motivada hasta 4 jurados; lo mismo podrá hacerse por la acusación.",
+          "correct": false
+        },
+        {
+          "text": "Los 9 jurados y los suplentes se elegirán por sorteo sucesivo; Genaro puede recusar la defensa hasta 4 sin alegación de causa alguna.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es la cuarta opción. En la constitución del jurado se procede al sorteo y las partes disponen de recusaciones sin causa en el número legalmente previsto; la defensa puede usar hasta cuatro. La primera es falsa porque la cifra mencionada no impide por sí sola la continuación si se cubre el mínimo legal; la segunda describe mal el mecanismo de designación; y la tercera yerra al exigir motivación en las recusaciones sin causa.\nIT: La risposta corretta è la quarta. Nella costituzione del giurì si procede al sorteggio e le parti dispongono di recusazioni senza causa nel numero previsto dalla legge; la difesa può esercitarne fino a quattro. La prima è errata perché il numero indicato non impedisce di per sé la prosecuzione se è raggiunto il minimo legale; la seconda descrive male il meccanismo di designazione; la terza sbaglia perché richiede una motivazione là dove la legge ammette recusazioni senza causa.",
+      "legal_reference": [
+        "LO 5/1995, art. 40"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 82,
+      "question": "En el orden penal, con carácter general, ¿el conocimiento de qué causas por delito corresponderá a la jurisdicción española?",
+      "answers": [],
+      "model_answer": "ES: Con carácter general, corresponderá a la jurisdicción española el conocimiento de los delitos cometidos en territorio español, así como de los cometidos a bordo de buques o aeronaves españoles, sin perjuicio de lo dispuesto en los tratados internacionales y de los supuestos de extraterritorialidad legalmente previstos.\nIT: In linea generale, la giurisdizione spagnola conosce dei reati commessi nel territorio spagnolo, nonché di quelli commessi a bordo di navi o aeromobili spagnoli, fatti salvi i trattati internazionali e i casi di extraterritorialità previsti dalla legge.",
+      "explanation": "ES: La respuesta modelo resume la contestación breve esperable en examen conforme a la legislación procesal penal vigente.\nIT: La risposta modello riassume la soluzione breve normalmente attesa in sede d’esame secondo la disciplina processuale penale vigente.",
+      "legal_reference": [
+        "LOPJ, art. 23.1"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 83,
+      "question": "¿Qué órgano judicial conocerá de los recursos de apelación contra las resoluciones dictadas en primera instancia por las Audiencias Provinciales?",
+      "answers": [],
+      "model_answer": "ES: La Sala de lo Civil y Penal del Tribunal Superior de Justicia de la Comunidad Autónoma correspondiente.\nIT: L’organo competente è la Sala de lo Civil y Penal del Tribunal Superior de Justicia della Comunità Autonoma competente.",
+      "explanation": "ES: La respuesta modelo resume la contestación breve esperable en examen conforme a la legislación procesal penal vigente.\nIT: La risposta modello riassume la soluzione breve normalmente attesa in sede d’esame secondo la disciplina processuale penale vigente.",
+      "legal_reference": [
+        "LOPJ, art. 73.3.c",
+        "LECrim, art. 846 ter"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 84,
+      "question": "Si un órgano judicial que está conociendo de un asunto penal es requerido por otro, que estima ser el competente, para que se abstenga de seguir conociendo y se lo remita, ¿qué sucede si quien lo solicita es superior jerárquico?",
+      "answers": [],
+      "model_answer": "ES: Si el requerimiento procede de un órgano superior jerárquico, el inferior debe abstenerse y remitirle las actuaciones, sin promover conflicto entre iguales.\nIT: Se il requerimiento proviene da un organo gerarchicamente superiore, l’organo inferiore deve astenersi e trasmettere gli atti, senza dar luogo a un conflitto tra organi pariordinati.",
+      "explanation": "ES: La respuesta modelo resume la contestación breve esperable en examen conforme a la legislación procesal penal vigente.\nIT: La risposta modello riassume la soluzione breve normalmente attesa in sede d’esame secondo la disciplina processuale penale vigente.",
+      "legal_reference": [
+        "LECrim, arts. 22 y 23"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf",
+      "source_note": "La respuesta se refiere al supuesto especial en que el requerimiento proviene de órgano superior jerárquico, no al régimen ordinario de inhibitoria entre órganos del mismo rango."
+    },
+    {
+      "question_number": 85,
+      "question": "En la primera comparecencia del perjudicado ante el Juzgado de Instrucción se lleva a cabo el “ofrecimiento de acciones”. ¿De qué se le informa en ese momento?",
+      "answers": [],
+      "model_answer": "ES: Se le informa de su derecho a mostrarse parte en la causa, a ejercitar la acción penal y la civil, a renunciar o reservar la acción civil y, en general, de los derechos que como víctima y perjudicado le reconoce la ley.\nIT: In quel momento si informa la persona offesa del suo diritto a costituirsi parte nel procedimento, a esercitare l’azione penale e quella civile, a rinunciare o riservare l’azione civile e, più in generale, dei diritti che la legge le riconosce come vittima e danneggiato.",
+      "explanation": "ES: La respuesta modelo resume la contestación breve esperable en examen conforme a la legislación procesal penal vigente.\nIT: La risposta modello riassume la soluzione breve normalmente attesa in sede d’esame secondo la disciplina processuale penale vigente.",
+      "legal_reference": [
+        "LECrim, arts. 109, 109 bis y 110",
+        "Ley 4/2015, arts. 5 y 11"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 86,
+      "question": "¿Cómo se denomina la orden proveniente de la Autoridad judicial por la cual se indica -principalmente a los cuerpos policiales- la búsqueda y localización de una persona en concepto de sospechoso para la práctica de alguna diligencia de investigación?",
+      "answers": [],
+      "model_answer": "ES: Se denomina requisitoria.\nIT: Si chiama requisitoria.",
+      "explanation": "ES: La respuesta modelo resume la contestación breve esperable en examen conforme a la legislación procesal penal vigente.\nIT: La risposta modello riassume la soluzione breve normalmente attesa in sede d’esame secondo la disciplina processuale penale vigente.",
+      "legal_reference": [
+        "LECrim, arts. 512 a 517 y 834 y ss."
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 87,
+      "question": "¿Para la persecución de qué delitos podrá ejercitarse la acción popular?",
+      "answers": [],
+      "model_answer": "ES: La acción popular podrá ejercitarse, como regla general, para la persecución de los delitos públicos.\nIT: L’azione popolare può essere esercitata, come regola generale, per la persecuzione dei delitti pubblici.",
+      "explanation": "ES: La respuesta modelo resume la contestación breve esperable en examen conforme a la legislación procesal penal vigente.\nIT: La risposta modello riassume la soluzione breve normalmente attesa in sede d’esame secondo la disciplina processuale penale vigente.",
+      "legal_reference": [
+        "CE, art. 125",
+        "LECrim, art. 101"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 88,
+      "question": "El procedimiento sumario tiene por objeto el conocimiento ¿de qué delitos?",
+      "answers": [],
+      "model_answer": "ES: El sumario ordinario se reserva, con carácter general, para los delitos castigados con pena privativa de libertad superior a nueve años o para aquellos otros respecto de los cuales no proceda el procedimiento abreviado.\nIT: Il sumario ordinario è riservato, in via generale, ai delitti puniti con pena detentiva superiore a nove anni o, comunque, a quelli per cui non proceda il procedimiento abreviado.",
+      "explanation": "ES: La respuesta modelo resume la contestación breve esperable en examen conforme a la legislación procesal penal vigente.\nIT: La risposta modello riassume la soluzione breve normalmente attesa in sede d’esame secondo la disciplina processuale penale vigente.",
+      "legal_reference": [
+        "LECrim, art. 757"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 89,
+      "question": "Los perjudicados por un delito que no hubieren renunciado a su derecho podrán mostrarse parte en la causa, siempre que lo hagan, ¿en qué momento?",
+      "answers": [],
+      "model_answer": "ES: Podrán mostrarse parte antes del trámite de calificación del delito y, si comparecen después, podrán ejercitar las acciones civiles y, en determinados términos, adherirse a la acusación antes de la apertura del juicio oral según la fase procesal de que se trate.\nIT: Possono costituirsi parte prima del termine di qualificazione del reato e, se intervengono successivamente, possono esercitare l’azione civile e, in determinati limiti, aderire all’accusa prima dell’apertura del giudizio orale secondo la fase processuale in cui si trovi il procedimento.",
+      "explanation": "ES: La respuesta modelo resume la contestación breve esperable en examen conforme a la legislación procesal penal vigente.\nIT: La risposta modello riassume la soluzione breve normalmente attesa in sede d’esame secondo la disciplina processuale penale vigente.",
+      "legal_reference": [
+        "LECrim, art. 110"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 90,
+      "question": "¿Qué personas están exentas de la obligación de declarar como testigos por razón de parentesco con el investigado? ¿Están exentas en todo caso?",
+      "answers": [],
+      "model_answer": "ES: Están dispensados, en los términos del art. 416 LECrim, los parientes más próximos del investigado: cónyuge o persona unida por relación análoga, ascendientes, descendientes, hermanos y otros parientes en los supuestos legalmente previstos. No están exentos en todo caso, porque la propia ley establece excepciones, especialmente en determinados delitos y situaciones de conflicto o de previa personación o denuncia.\nIT: Nei termini dell’art. 416 LECrim, sono dispensati dall’obbligo di testimoniare i parenti più prossimi dell’indagato: coniuge o persona legata da relazione analoga, ascendenti, discendenti, fratelli e altri parenti nei casi previsti dalla legge. L’esenzione non opera sempre, perché la stessa legge prevede eccezioni, specialmente in determinati reati e in situazioni di conflitto o di previa denuncia/costituzione di parte.",
+      "explanation": "ES: La respuesta modelo resume la contestación breve esperable en examen conforme a la legislación procesal penal vigente.\nIT: La risposta modello riassume la soluzione breve normalmente attesa in sede d’esame secondo la disciplina processuale penale vigente.",
+      "legal_reference": [
+        "LECrim, art. 416.1"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
     }
   ]
 }
