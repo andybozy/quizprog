@@ -599,7 +599,7 @@ private enum QuizLogStoreError: Error {
     case database(message: String)
 }
 
-private let sqliteTransient = unsafeBitCast(-1, to: sqlite3_destructor_type.self)
+private nonisolated(unsafe) let sqliteTransient = unsafeBitCast(-1, to: sqlite3_destructor_type.self)
 
 @MainActor
 final class QuizLogController: ObservableObject {

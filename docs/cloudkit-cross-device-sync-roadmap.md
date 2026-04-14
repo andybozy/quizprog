@@ -11,6 +11,55 @@ The target behavior is:
 - a single Apple-native sync path inside the apps
 - optional coexistence with the existing remote log backend
 
+## Current status
+
+### Already implemented on this branch
+
+- shared CloudKit sync controller exists
+- shared state model exists for:
+  - question performance
+  - course stats
+  - best scores
+- iOS and macOS app UI expose an `iCloud Sync` panel
+- local SQLite event log remains source-of-capture
+- optional CloudKit mirroring path exists for device-scoped logs
+- HTTP remote backend still exists and still works
+- iOS simulator build passes
+- Mac Catalyst Release build passes
+
+### Important limitation right now
+
+The code path is implemented, but the project is not yet fully “done” from a product/runtime perspective.
+
+The remaining work is mostly:
+
+- Apple capability wiring and signing validation on the real developer environment
+- actor-isolation cleanup in `QuizLogController.swift`
+- real-world iCloud account testing across iPhone and Mac
+- conflict and offline recovery testing
+
+## Is the project already complete?
+
+No, not completely.
+
+The current branch is at a strong **developer-complete MVP** stage, but not yet at **production-complete** stage.
+
+### Developer-complete means
+
+- architecture exists
+- code compiles
+- sync UI exists
+- local and remote persistence paths coexist
+- CloudKit integration points are implemented
+
+### Production-complete means
+
+- iCloud capability is fully enabled and verified in the actual signed app configuration
+- the app is tested with the same real iCloud account on both iOS and macOS
+- conflict/offline behavior is validated
+- no unresolved actor-isolation warnings remain in the logging layer
+- sync behavior is documented and repeatable for release
+
 ## Guiding model
 
 Use three data classes:
@@ -412,6 +461,108 @@ Cross-device sync is reproducible and testable.
 7. Add conflict handling and retry polish
 8. Expand tests
 
+## Final phases still required to reach the end
+
+These are the final phases needed to actually close the project.
+
+### Phase 12: Apple capability wiring
+
+#### Objective
+
+Turn the current CloudKit code path into a real working Apple-signed runtime feature.
+
+#### Tasks
+
+1. Enable the iCloud capability in Xcode for the app target
+2. Enable CloudKit service for the app target
+3. Ensure the correct container exists in the Apple developer account
+4. Verify signing/provisioning for:
+   - iOS run/install
+   - macOS Catalyst run/install
+5. Confirm the container name and bundle identifiers match the signed app
+
+#### Deliverable
+
+A signed app that can actually talk to CloudKit at runtime on both iPhone and Mac.
+
+### Phase 13: Real-device validation
+
+#### Objective
+
+Verify the sync path using the same iCloud account on actual devices.
+
+#### Manual matrix
+
+1. iPhone answers a question, then Mac syncs and sees the new performance state
+2. Mac answers a question, then iPhone syncs and sees the new performance state
+3. Shared best score changes propagate both ways
+4. Course stats propagate both ways
+5. Device log records remain distinguishable by `device_id` and `platform`
+6. One device offline, then reconnect
+7. Both devices edit the same question state at different times
+8. User signed out of iCloud, then signed back in
+
+#### Deliverable
+
+Confirmed correct sync behavior on real hardware and real iCloud account state.
+
+### Phase 14: Conflict and recovery hardening
+
+#### Objective
+
+Move from simple timestamp merge to reliable long-lived sync behavior.
+
+#### Tasks
+
+1. Audit every merge decision in `QuizCloudSyncController`
+2. Verify no stale local state overwrites newer cloud state
+3. Ensure local writes are never lost if CloudKit is unavailable
+4. Add user-visible error state for CloudKit failures
+5. Optionally add throttling/debounce for repeated sync triggers
+
+#### Deliverable
+
+Predictable sync under offline, delayed, and conflicting updates.
+
+### Phase 15: Concurrency cleanup
+
+#### Objective
+
+Remove the remaining actor-isolation warnings and leave the codebase in a future-safe state.
+
+#### Tasks
+
+1. Refactor `QuizLogController.swift` so the SQLite actor internals do not rely on main-actor isolated constants or synthesized Codable behavior in actor context
+2. Separate actor-internal DTO encoding/decoding cleanly if needed
+3. Rebuild both iOS and macOS targets with zero new warnings from the logging layer
+
+#### Deliverable
+
+A clean build with the logging and sync stack aligned with the project’s concurrency settings.
+
+### Phase 16: Release-readiness and docs
+
+#### Objective
+
+Make the feature maintainable after handoff.
+
+#### Tasks
+
+1. Update docs with:
+   - how to enable CloudKit in Xcode
+   - how to verify same-account cross-device sync
+   - what is shared vs device-scoped
+2. Add a short troubleshooting section for:
+   - no iCloud account
+   - account mismatch
+   - capability misconfiguration
+   - stale local cache
+3. Add a small smoke-test checklist for every release
+
+#### Deliverable
+
+A feature that another developer can run, validate, and maintain.
+
 ## MVP definition
 
 The smallest good version is:
@@ -432,6 +583,171 @@ At the end, the app should have:
 - local-first persistence
 - CloudKit sync for Apple-native continuity
 - optional remote backend for analytics and external access
+- verified real-device behavior on the same iCloud account
+- working Apple capability/signing setup
+- clean concurrency/build state in the logging stack
+
+## Integrated end-to-end plan
+
+This is the consolidated route from the current branch state to actual completion.
+
+### Stage A: Foundation
+
+Status:
+- `done`
+
+Scope:
+- CloudKit shared sync controller exists
+- app UI exposes iCloud sync state/actions
+- local SQLite event log remains source-of-capture
+- HTTP backend still works
+- iOS build passes
+- Mac Catalyst build passes
+
+Exit criteria:
+- branch builds on both iOS and macOS
+- no regression in quiz flow
+- remote backend path still functional
+
+### Stage B: Shared state sync correctness
+
+Status:
+- `in_progress`
+
+Remaining work:
+1. Validate that `QuestionPerformance`, `CourseStats`, and `BestScores` serialize and deserialize exactly as intended
+2. Verify merge behavior on repeated sync cycles
+3. Verify `last-write-wins` timestamps are consistently set everywhere
+4. Add or extend tests for merge correctness
+
+Exit criteria:
+- repeated sync cycles are idempotent
+- no shared-state drift between local and cloud representations
+- merge logic is covered by tests
+
+### Stage C: Device-scoped CloudKit log mirroring
+
+Status:
+- `in_progress`
+
+Remaining work:
+1. Verify CloudKit-mirrored device log records are queryable and remain separable by:
+   - `device_id`
+   - `platform`
+2. Ensure Cloud log mirror never blocks local event capture
+3. Ensure Cloud mirror failures do not affect HTTP backend sync
+
+Exit criteria:
+- device log mirroring is additive only
+- local log remains authoritative
+- iPhone and Mac logs remain separable even on same iCloud account
+
+### Stage D: Apple runtime enablement
+
+Status:
+- `todo`
+
+Remaining work:
+1. Enable iCloud capability in the actual Xcode signing environment
+2. Enable CloudKit service for the target
+3. Ensure the proper iCloud container exists
+4. Verify that the signed app can read/write CloudKit on:
+   - iPhone
+   - Mac Catalyst app
+
+Important note:
+- this cannot be considered fully done from code alone
+- it requires actual Apple account / provisioning state verification
+
+Exit criteria:
+- both apps run signed with CloudKit enabled
+- no runtime entitlement/container errors
+
+### Stage E: Real-device cross-device validation
+
+Status:
+- `todo`
+
+Remaining work:
+1. iPhone answer -> Mac sees updated question performance after sync
+2. Mac answer -> iPhone sees updated question performance after sync
+3. Best scores sync both ways
+4. Course stats sync both ways
+5. Device logs remain separated both ways
+6. Manual sync and auto sync both behave correctly
+
+Exit criteria:
+- real same-account iPhone/Mac behavior confirmed end to end
+
+### Stage F: Offline/conflict hardening
+
+Status:
+- `todo`
+
+Remaining work:
+1. Test one device offline for a long time
+2. Test conflicting edits on same question from both devices
+3. Verify no stale local state overwrites newer cloud state
+4. Verify recovery after temporary iCloud errors
+
+Exit criteria:
+- conflict and recovery behavior is predictable
+- no silent data loss
+
+### Stage G: Concurrency cleanup
+
+Status:
+- `todo`
+
+Remaining work:
+1. Remove remaining actor-isolation warnings from `QuizLogController.swift`
+2. Refactor SQLite actor boundaries if needed
+3. Make builds clean enough for long-term maintenance
+
+Exit criteria:
+- logging/sync layer builds without unresolved concurrency warnings
+
+### Stage H: Release closure
+
+Status:
+- `todo`
+
+Remaining work:
+1. Final docs for:
+   - capability enablement
+   - iCloud troubleshooting
+   - same-account test procedure
+2. Smoke-test checklist for every release
+3. Confirm macOS install flow still works after CloudKit enablement
+
+Exit criteria:
+- another developer can enable, test, and ship the feature
+
+## Final execution order from now
+
+This is the actual remaining order to reach the end:
+
+1. Finish shared-state correctness checks and tests
+2. Finish device-log mirroring verification
+3. Enable iCloud capability and CloudKit in the real signed Xcode environment
+4. Validate same-account iPhone/Mac sync on real devices
+5. Validate offline/conflict behavior
+6. Remove remaining concurrency warnings in `QuizLogController.swift`
+7. Finalize docs and smoke tests
+
+## Definition of done
+
+The CloudKit part of the project is only truly done when all of the following are true:
+
+- iOS app builds and runs
+- macOS app builds and runs
+- signed app configuration has working iCloud/CloudKit capability
+- same-account iPhone/Mac sync is verified on real devices
+- shared progress actually converges across devices
+- device-scoped logs remain separated
+- local logging and remote backend still work
+- no unresolved concurrency warnings remain in the logging/sync layer
+- docs are sufficient for maintenance and release
 
 ## Concrete file map for this repo
 
@@ -488,3 +804,17 @@ The first real implementation batch should do exactly this:
 - Do not mix per-device logs into the shared progress record set
 - Do not bind CloudKit calls directly inside SwiftUI views
 - Do not remove the remote backend before CloudKit shared progress is stable
+
+## Short answer
+
+The three steps below are necessary, but they are not by themselves enough to say the whole project is finished:
+
+1. add iCloud capability wiring in Xcode/project
+2. verify on the signed local Apple environment
+3. clean remaining `QuizLogController` actor-isolation warnings
+
+To truly reach the end, you also need:
+
+4. real-device cross-sync validation
+5. conflict/offline recovery verification
+6. release-ready documentation and troubleshooting guidance
