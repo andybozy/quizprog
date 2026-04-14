@@ -437,7 +437,7 @@ private struct QuizQuestionPerformance: Codable {
     var nextReview: String?
 }
 
-private enum QuizQuestionResult: String {
+enum QuizQuestionResult: String {
     case correct
     case wrong
     case skipped
@@ -449,6 +449,7 @@ private struct QuizOutcomeSnapshot: Codable {
 }
 
 private struct QuizProgressSnapshot: Codable {
+    let sessionID: String?
     let courseID: String
     let questionIDs: [String]
     let currentIndex: Int
@@ -481,6 +482,7 @@ final class QuizSession: ObservableObject {
     private var performanceByQuestionID: [String: QuizQuestionPerformance]
     private var progressSnapshot: QuizProgressSnapshot?
     private var activeScope: QuizScope = .repository
+    private var activeSessionID: String?
 
     @Published private(set) var courses: [QuizCourse]
     @Published private(set) var questions: [QuizQuestion] = []
@@ -703,8 +705,10 @@ final class QuizSession: ObservableObject {
         clearProgressSnapshot()
         prepareRound(shuffle: shuffleQuestions)
         guard !questions.isEmpty else { return false }
+        activeSessionID = UUID().uuidString
         hasStarted = true
         saveProgressSnapshot()
+        logQuizStarted()
         return true
     }
 
@@ -756,8 +760,10 @@ final class QuizSession: ObservableObject {
         clearProgressSnapshot()
         prepareRound(shuffle: shuffleQuestions)
         guard !questions.isEmpty else { return }
+        activeSessionID = UUID().uuidString
         hasStarted = true
         saveProgressSnapshot()
+        logQuizStarted()
     }
 
     func resumeSavedSession() {
@@ -766,6 +772,7 @@ final class QuizSession: ObservableObject {
             return
         }
 
+        activeSessionID = snapshot.sessionID ?? UUID().uuidString
         selectedCourseID = snapshot.settings.selectedCourseID
         wrongAnswersOnly = false
         shuffleQuestions = snapshot.settings.shuffleQuestions
@@ -801,10 +808,12 @@ final class QuizSession: ObservableObject {
         hasResumableSession = true
         refreshCourseMetrics()
         saveProgressSnapshot()
+        logQuizResumed()
     }
 
     func exitAndSave() {
         guard hasStarted, !isFinished else { return }
+        logQuizExited()
         saveProgressSnapshot()
         hasStarted = false
     }
@@ -827,6 +836,16 @@ final class QuizSession: ObservableObject {
 
         updateWrongQuestionSet(with: outcome)
         updateQuestionPerformance(for: currentQuestion, result: outcome.isCorrect ? .correct : .wrong)
+        if let sessionID = activeSessionID {
+            QuizLogController.shared.recordQuestionAnswered(
+                sessionID: sessionID,
+                question: currentQuestion,
+                selectedIndex: selectedIndex,
+                result: outcome.isCorrect ? .correct : .wrong,
+                mode: activeFilterMode,
+                scope: activeScope
+            )
+        }
         saveProgressSnapshot()
     }
 
@@ -835,6 +854,14 @@ final class QuizSession: ObservableObject {
         didSubmit = true
         selectedIndex = nil
         updateQuestionPerformance(for: currentQuestion, result: .skipped)
+        if let sessionID = activeSessionID {
+            QuizLogController.shared.recordQuestionSkipped(
+                sessionID: sessionID,
+                question: currentQuestion,
+                mode: activeFilterMode,
+                scope: activeScope
+            )
+        }
         saveProgressSnapshot()
     }
 
@@ -856,14 +883,17 @@ final class QuizSession: ObservableObject {
         clearProgressSnapshot()
         prepareRound(shuffle: shuffleQuestions)
         guard !questions.isEmpty else { return }
+        activeSessionID = UUID().uuidString
         hasStarted = true
         saveProgressSnapshot()
+        logQuizStarted()
     }
 
     func backToHome() {
         clearProgressSnapshot()
         prepareRound(shuffle: shuffleQuestions)
         hasStarted = false
+        activeSessionID = nil
     }
 
     func resetWrongAnswersForSelectedCourse() {
@@ -1079,6 +1109,7 @@ final class QuizSession: ObservableObject {
     }
 
     private func finishQuiz() {
+        logQuizFinished()
         isFinished = true
         hasStarted = true
 
@@ -1097,6 +1128,7 @@ final class QuizSession: ObservableObject {
 
         refreshCourseMetrics()
         clearProgressSnapshot()
+        activeSessionID = nil
     }
 
     private func updateWrongQuestionSet(with outcome: QuizOutcome) {
@@ -1140,6 +1172,7 @@ final class QuizSession: ObservableObject {
         guard hasStarted, !isFinished, !questions.isEmpty else { return }
 
         let snapshot = QuizProgressSnapshot(
+            sessionID: activeSessionID,
             courseID: selectedCourseID,
             questionIDs: questions.map(\.id),
             currentIndex: currentIndex,
@@ -1164,6 +1197,50 @@ final class QuizSession: ObservableObject {
         progressSnapshot = nil
         hasResumableSession = false
         UserDefaults.standard.removeObject(forKey: progressKey)
+    }
+
+    private func logQuizStarted() {
+        guard let sessionID = activeSessionID else { return }
+        QuizLogController.shared.recordQuizStarted(
+            sessionID: sessionID,
+            mode: activeFilterMode,
+            scope: activeScope,
+            totalQuestions: totalQuestions
+        )
+    }
+
+    private func logQuizResumed() {
+        guard let sessionID = activeSessionID else { return }
+        QuizLogController.shared.recordQuizResumed(
+            sessionID: sessionID,
+            mode: activeFilterMode,
+            scope: activeScope,
+            currentIndex: currentIndex,
+            totalQuestions: totalQuestions
+        )
+    }
+
+    private func logQuizExited() {
+        guard let sessionID = activeSessionID else { return }
+        QuizLogController.shared.recordQuizExited(
+            sessionID: sessionID,
+            mode: activeFilterMode,
+            scope: activeScope,
+            currentIndex: currentIndex,
+            score: score,
+            totalQuestions: totalQuestions
+        )
+    }
+
+    private func logQuizFinished() {
+        guard let sessionID = activeSessionID else { return }
+        QuizLogController.shared.recordQuizFinished(
+            sessionID: sessionID,
+            mode: activeFilterMode,
+            scope: activeScope,
+            score: score,
+            totalQuestions: totalQuestions
+        )
     }
 
     private func saveBestScores() {

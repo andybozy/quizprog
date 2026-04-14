@@ -101,7 +101,9 @@ private extension View {
 
 struct ContentView: View {
     @StateObject private var session = QuizSession()
+    @StateObject private var logController = QuizLogController.shared
     @Environment(\.colorScheme) private var colorScheme
+    @Environment(\.scenePhase) private var scenePhase
 
     private var theme: QuizTheme {
         QuizTheme(colorScheme: colorScheme)
@@ -115,7 +117,7 @@ struct ContentView: View {
 
                 Group {
                     if !session.hasStarted {
-                        StartScreen(session: session, theme: theme)
+                        StartScreen(session: session, logController: logController, theme: theme)
                     } else if session.isFinished {
                         ResultsScreen(session: session, theme: theme)
                     } else {
@@ -128,16 +130,31 @@ struct ContentView: View {
             .navigationBarTitleDisplayMode(.inline)
         }
         .tint(theme.accent)
+        .task {
+            await logController.refresh()
+        }
+        .onChange(of: scenePhase) { _, newValue in
+            switch newValue {
+            case .active:
+                logController.handleSceneBecameActive()
+            case .background:
+                logController.handleSceneMovedToBackground()
+            default:
+                break
+            }
+        }
     }
 }
 
 private struct StartScreen: View {
     @ObservedObject var session: QuizSession
+    @ObservedObject var logController: QuizLogController
     let theme: QuizTheme
     @State private var showingFileMenu = false
     @State private var showingTagMenu = false
     @State private var showingSummaryMenu = false
     @State private var showingStatsMenu = false
+    @State private var showingLogSheet = false
     @State private var menuErrorMessage: String?
 
     var body: some View {
@@ -283,6 +300,65 @@ private struct StartScreen: View {
                     }
                     StatPill(label: "File", value: "\(session.allFileInfos.count)", theme: theme)
                 }
+
+                VStack(alignment: .leading, spacing: 12) {
+                    HStack {
+                        Text("Event Log")
+                            .font(.subheadline.weight(.semibold))
+                        Spacer()
+                        Button("Configura") {
+                            showingLogSheet = true
+                        }
+                        .font(.caption.weight(.semibold))
+                    }
+
+                    HStack(spacing: 12) {
+                        StatPill(label: "Pending", value: "\(logController.snapshot.pendingCount)", theme: theme)
+                        StatPill(label: "Synced", value: "\(logController.snapshot.syncedCount)", theme: theme)
+                        StatPill(label: "Failed", value: "\(logController.snapshot.failedCount)", theme: theme)
+                    }
+
+                    Text(logSummaryText)
+                        .font(.caption.weight(.medium))
+                        .foregroundStyle(theme.secondaryText)
+
+                    HStack(spacing: 12) {
+                        Button {
+                            Task {
+                                await logController.syncNow()
+                            }
+                        } label: {
+                            Text(logController.isSyncInProgress ? "Sync in corso" : "Sync adesso")
+                                .font(.subheadline.weight(.semibold))
+                                .frame(maxWidth: .infinity)
+                                .padding(.vertical, 12)
+                                .background(theme.accent)
+                                .foregroundStyle(.white)
+                                .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
+                        }
+                        .disabled(logController.isSyncInProgress)
+
+                        Button {
+                            Task {
+                                await logController.exportEvents()
+                            }
+                        } label: {
+                            Text("Esporta log")
+                                .font(.subheadline.weight(.semibold))
+                                .frame(maxWidth: .infinity)
+                                .padding(.vertical, 12)
+                                .background(theme.cardBackground)
+                                .foregroundStyle(theme.accent)
+                                .overlay {
+                                    RoundedRectangle(cornerRadius: 12, style: .continuous)
+                                        .stroke(theme.cardBorder, lineWidth: 1)
+                                }
+                                .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
+                        }
+                    }
+                }
+                .padding(16)
+                .quizCard(theme)
             }
             .padding(.vertical, 6)
         }
@@ -298,6 +374,9 @@ private struct StartScreen: View {
         }
         .sheet(isPresented: $showingStatsMenu) {
             StatsMenuSheet(session: session, theme: theme)
+        }
+        .sheet(isPresented: $showingLogSheet) {
+            LogManagementSheet(logController: logController, theme: theme)
         }
         .alert("Filtro senza domande", isPresented: menuErrorBinding) {
             Button("OK", role: .cancel) {}
@@ -321,6 +400,22 @@ private struct StartScreen: View {
         if !session.startMenuQuiz(mode: mode, scope: scope) {
             menuErrorMessage = "Nessuna domanda disponibile in '\(mode.title)'."
         }
+    }
+
+    private var logSummaryText: String {
+        if logController.serverURLString.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+            return "Endpoint remoto non configurato. Il log locale continua a essere registrato in outbox."
+        }
+
+        if let lastSync = logController.snapshot.lastSyncedAt {
+            return "Endpoint: \(logController.serverURLString)\nUltimo sync: \(lastSync)"
+        }
+
+        if let lastError = logController.snapshot.lastError, !lastError.isEmpty {
+            return "Endpoint: \(logController.serverURLString)\nUltimo errore: \(lastError)"
+        }
+
+        return "Endpoint: \(logController.serverURLString)"
     }
 }
 
@@ -1070,6 +1165,117 @@ private struct StatPill: View {
         .padding(.horizontal, 12)
         .frame(maxWidth: .infinity, alignment: .leading)
         .quizCard(theme, cornerRadius: 12)
+    }
+}
+
+private struct LogManagementSheet: View {
+    @ObservedObject var logController: QuizLogController
+    let theme: QuizTheme
+    @Environment(\.dismiss) private var dismiss
+
+    @State private var serverURLString: String = ""
+    @State private var apiKey: String = ""
+    @State private var autoSyncEnabled = false
+    @State private var batchSize = 50
+
+    var body: some View {
+        NavigationStack {
+            Form {
+                Section("Configurazione") {
+                    TextField("https://your-server.example.com", text: $serverURLString)
+                        .textInputAutocapitalization(.never)
+                        .keyboardType(.URL)
+                        .autocorrectionDisabled()
+
+                    SecureField("API key opzionale", text: $apiKey)
+                        .textInputAutocapitalization(.never)
+                        .autocorrectionDisabled()
+
+                    Toggle("Auto sync", isOn: $autoSyncEnabled)
+
+                    Stepper("Batch size: \(batchSize)", value: $batchSize, in: 1...250)
+                }
+
+                Section("Stato") {
+                    LabeledContent("Device ID", value: logController.deviceID)
+                    LabeledContent("Pending", value: "\(logController.snapshot.pendingCount)")
+                    LabeledContent("Synced", value: "\(logController.snapshot.syncedCount)")
+                    LabeledContent("Failed", value: "\(logController.snapshot.failedCount)")
+                    if let dashboard = logController.dashboardURLString {
+                        Text("Dashboard: \(dashboard)")
+                            .font(.caption)
+                            .foregroundStyle(theme.secondaryText)
+                    }
+                    if let lastError = logController.snapshot.lastError, !lastError.isEmpty {
+                        Text(lastError)
+                            .font(.caption)
+                            .foregroundStyle(theme.danger)
+                    }
+                }
+
+                Section("Azioni") {
+                    Button("Salva configurazione") {
+                        persistConfiguration()
+                    }
+
+                    Button(logController.isSyncInProgress ? "Sync in corso..." : "Sync adesso") {
+                        persistConfiguration()
+                        Task {
+                            await logController.syncNow()
+                        }
+                    }
+                    .disabled(logController.isSyncInProgress)
+
+                    Button("Esporta log JSONL") {
+                        Task {
+                            await logController.exportEvents()
+                        }
+                    }
+
+                    if let exportURL = logController.lastExportURL {
+                        ShareLink("Condividi export", item: exportURL)
+                    }
+                }
+
+                if !logController.recentEvents.isEmpty {
+                    Section("Eventi recenti") {
+                        ForEach(logController.recentEvents.prefix(8)) { event in
+                            VStack(alignment: .leading, spacing: 4) {
+                                Text(event.eventType.rawValue)
+                                    .font(.subheadline.weight(.semibold))
+                                Text(event.occurredAt)
+                                    .font(.caption)
+                                    .foregroundStyle(theme.secondaryText)
+                                if let courseKey = event.courseKey {
+                                    Text(courseKey)
+                                        .font(.caption)
+                                        .foregroundStyle(theme.secondaryText)
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .navigationTitle("Log remoto")
+            .toolbar {
+                ToolbarItem(placement: .cancellationAction) {
+                    Button("Chiudi") { dismiss() }
+                }
+            }
+        }
+        .onAppear {
+            serverURLString = logController.serverURLString
+            apiKey = logController.apiKey
+            autoSyncEnabled = logController.autoSyncEnabled
+            batchSize = logController.batchSize
+        }
+    }
+
+    private func persistConfiguration() {
+        logController.serverURLString = serverURLString
+        logController.apiKey = apiKey
+        logController.autoSyncEnabled = autoSyncEnabled
+        logController.batchSize = batchSize
     }
 }
 
