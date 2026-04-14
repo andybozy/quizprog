@@ -110,6 +110,7 @@ struct QuizCourseStats: Codable, Hashable {
     var plays: Int = 0
     var answered: Int = 0
     var correct: Int = 0
+    var updatedAt: String?
 
     var accuracyPercent: Int {
         guard answered > 0 else { return 0 }
@@ -429,12 +430,13 @@ private struct QuizPersistedSettings: Codable {
     let wrongAnswersOnly: Bool
 }
 
-private struct QuizQuestionPerformance: Codable {
+struct QuizQuestionPerformance: Codable, Hashable {
     var history: [String] = []
     var ease: Double = 2.5
     var interval: Int = 0
     var repetition: Int = 0
     var nextReview: String?
+    var updatedAt: String?
 }
 
 enum QuizQuestionResult: String {
@@ -460,6 +462,17 @@ private struct QuizProgressSnapshot: Codable {
     let settings: QuizPersistedSettings
 }
 
+struct QuizBestScoreEntry: Codable, Hashable {
+    var score: Int = 0
+    var updatedAt: String?
+}
+
+struct QuizCloudSharedStateSnapshot: Hashable {
+    var questionPerformances: [String: QuizQuestionPerformance]
+    var courseStats: [String: QuizCourseStats]
+    var bestScores: [String: QuizBestScoreEntry]
+}
+
 @MainActor
 final class QuizSession: ObservableObject {
     private let settingsKey = "quizprog.settings.v1"
@@ -468,6 +481,7 @@ final class QuizSession: ObservableObject {
     private let wrongIDsKey = "quizprog.wrongQuestionIDs.v1"
     private let progressKey = "quizprog.progress.v1"
     private let performanceKey = "quizprog.performanceByQuestion.v1"
+    private let bestScoreEntriesKey = "quizprog.bestScoreEntries.v1"
 
     private let coursesByID: [String: QuizCourse]
     private let courseIDByCourseKey: [String: String]
@@ -477,6 +491,7 @@ final class QuizSession: ObservableObject {
     private let examDatesByCourseKey: [String: String]
 
     private var bestScoresByCourse: [String: Int]
+    private var bestScoreEntriesByCourse: [String: QuizBestScoreEntry]
     private var statsByCourse: [String: QuizCourseStats]
     private var wrongQuestionIDsByCourse: [String: Set<String>]
     private var performanceByQuestionID: [String: QuizQuestionPerformance]
@@ -552,6 +567,8 @@ final class QuizSession: ObservableObject {
             examDatesByCourseKey = QuizBundleLoader.loadExamDates()
             self.courses = []
             bestScoresByCourse = Self.loadValue(forKey: bestScoresKey) ?? [:]
+            bestScoreEntriesByCourse = Self.loadValue(forKey: bestScoreEntriesKey)
+                ?? bestScoresByCourse.mapValues { QuizBestScoreEntry(score: $0, updatedAt: nil) }
             statsByCourse = Self.loadValue(forKey: courseStatsKey) ?? [:]
             let wrongArrays: [String: [String]] = Self.loadValue(forKey: wrongIDsKey) ?? [:]
             wrongQuestionIDsByCourse = wrongArrays.mapValues { Set($0) }
@@ -582,6 +599,8 @@ final class QuizSession: ObservableObject {
         self.courses = loadedCourses
 
         bestScoresByCourse = Self.loadValue(forKey: bestScoresKey) ?? [:]
+        bestScoreEntriesByCourse = Self.loadValue(forKey: bestScoreEntriesKey)
+            ?? bestScoresByCourse.mapValues { QuizBestScoreEntry(score: $0, updatedAt: nil) }
         statsByCourse = Self.loadValue(forKey: courseStatsKey) ?? [:]
         let wrongArrays: [String: [String]] = Self.loadValue(forKey: wrongIDsKey) ?? [:]
         wrongQuestionIDsByCourse = wrongArrays.mapValues { Set($0) }
@@ -676,6 +695,10 @@ final class QuizSession: ObservableObject {
     var tagNames: [String] {
         Set(allQuestions.flatMap(\.tags))
             .sorted { $0.localizedCaseInsensitiveCompare($1) == .orderedAscending }
+    }
+
+    var hasLoadedCourses: Bool {
+        !courses.isEmpty
     }
 
     func courseTitle(forCourseKey key: String) -> String {
@@ -846,6 +869,7 @@ final class QuizSession: ObservableObject {
                 scope: activeScope
             )
         }
+        QuizCloudSyncController.shared.scheduleAutoSync(session: self)
         saveProgressSnapshot()
     }
 
@@ -862,6 +886,7 @@ final class QuizSession: ObservableObject {
                 scope: activeScope
             )
         }
+        QuizCloudSyncController.shared.scheduleAutoSync(session: self)
         saveProgressSnapshot()
     }
 
@@ -900,6 +925,51 @@ final class QuizSession: ObservableObject {
         wrongQuestionIDsByCourse[selectedCourseID] = []
         saveWrongQuestionIDs()
         prepareRound(shuffle: shuffleQuestions)
+    }
+
+    func cloudSharedStateSnapshot() -> QuizCloudSharedStateSnapshot {
+        let timestamp = Self.isoTimestampFormatter.string(from: Date())
+        let normalizedPerformances = performanceByQuestionID.mapValues { entry in
+            var normalized = entry
+            if normalized.updatedAt == nil {
+                normalized.updatedAt = timestamp
+            }
+            return normalized
+        }
+        let normalizedCourseStats = statsByCourse.mapValues { entry in
+            var normalized = entry
+            if normalized.updatedAt == nil {
+                normalized.updatedAt = timestamp
+            }
+            return normalized
+        }
+        let normalizedBestScores = bestScoreEntriesByCourse.mapValues { entry in
+            var normalized = entry
+            if normalized.updatedAt == nil {
+                normalized.updatedAt = timestamp
+            }
+            return normalized
+        }
+
+        return QuizCloudSharedStateSnapshot(
+            questionPerformances: normalizedPerformances,
+            courseStats: normalizedCourseStats,
+            bestScores: normalizedBestScores
+        )
+    }
+
+    func applyCloudSharedState(_ snapshot: QuizCloudSharedStateSnapshot) {
+        performanceByQuestionID = snapshot.questionPerformances
+        statsByCourse = snapshot.courseStats
+        bestScoreEntriesByCourse = snapshot.bestScores
+        bestScoresByCourse = snapshot.bestScores.mapValues(\.score)
+        savePerformanceByQuestion()
+        saveStatsByCourse()
+        saveBestScores()
+        refreshCourseMetrics()
+        if !hasStarted {
+            prepareRound(shuffle: shuffleQuestions)
+        }
     }
 
     private var selectedCourse: QuizCourse? {
@@ -1093,6 +1163,7 @@ final class QuizSession: ObservableObject {
 
         let nextReview = Calendar.current.date(byAdding: .day, value: entry.interval, to: today) ?? today
         entry.nextReview = Self.isoDateFormatter.string(from: nextReview)
+        entry.updatedAt = Self.isoTimestampFormatter.string(from: Date())
         performanceByQuestionID[question.id] = entry
         savePerformanceByQuestion()
     }
@@ -1117,18 +1188,24 @@ final class QuizSession: ObservableObject {
         stats.plays += 1
         stats.answered += totalQuestions
         stats.correct += score
+        stats.updatedAt = Self.isoTimestampFormatter.string(from: Date())
         statsByCourse[selectedCourseID] = stats
         saveStatsByCourse()
 
         let oldBest = bestScoresByCourse[selectedCourseID] ?? 0
         if score > oldBest {
             bestScoresByCourse[selectedCourseID] = score
+            bestScoreEntriesByCourse[selectedCourseID] = QuizBestScoreEntry(
+                score: score,
+                updatedAt: Self.isoTimestampFormatter.string(from: Date())
+            )
             saveBestScores()
         }
 
         refreshCourseMetrics()
         clearProgressSnapshot()
         activeSessionID = nil
+        QuizCloudSyncController.shared.scheduleAutoSync(session: self)
     }
 
     private func updateWrongQuestionSet(with outcome: QuizOutcome) {
@@ -1245,6 +1322,7 @@ final class QuizSession: ObservableObject {
 
     private func saveBestScores() {
         Self.saveValue(bestScoresByCourse, forKey: bestScoresKey)
+        Self.saveValue(bestScoreEntriesByCourse, forKey: bestScoreEntriesKey)
     }
 
     private func saveStatsByCourse() {
@@ -1303,6 +1381,12 @@ final class QuizSession: ObservableObject {
         formatter.locale = Locale(identifier: "en_US_POSIX")
         formatter.timeZone = TimeZone.current
         formatter.dateFormat = "yyyy-MM-dd"
+        return formatter
+    }()
+
+    private static let isoTimestampFormatter: ISO8601DateFormatter = {
+        let formatter = ISO8601DateFormatter()
+        formatter.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
         return formatter
     }()
 

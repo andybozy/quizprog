@@ -70,6 +70,11 @@ struct QuizLogSnapshot: Hashable {
     var syncedCount: Int = 0
     var failedCount: Int = 0
     var lastSyncedAt: String?
+    var cloudPendingCount: Int = 0
+    var cloudSyncingCount: Int = 0
+    var cloudSyncedCount: Int = 0
+    var cloudFailedCount: Int = 0
+    var lastCloudSyncedAt: String?
     var lastError: String?
 
     static let empty = QuizLogSnapshot()
@@ -82,8 +87,8 @@ struct QuizLogSyncResult: Decodable {
 
 private actor QuizLogStore {
     private let schemaSQL = """
-    CREATE TABLE IF NOT EXISTS events (
-        event_id TEXT PRIMARY KEY,
+        CREATE TABLE IF NOT EXISTS events (
+            event_id TEXT PRIMARY KEY,
         occurred_at TEXT NOT NULL,
         session_id TEXT NOT NULL,
         device_id TEXT NOT NULL,
@@ -100,14 +105,18 @@ private actor QuizLogStore {
         build_number TEXT NOT NULL,
         metadata_json TEXT NOT NULL,
         payload_json TEXT NOT NULL,
-        sync_status TEXT NOT NULL,
-        retry_count INTEGER NOT NULL DEFAULT 0,
-        last_error TEXT,
-        created_at TEXT NOT NULL,
-        updated_at TEXT NOT NULL,
-        synced_at TEXT,
-        received_at TEXT
-    );
+            sync_status TEXT NOT NULL,
+            retry_count INTEGER NOT NULL DEFAULT 0,
+            last_error TEXT,
+            cloud_sync_status TEXT NOT NULL DEFAULT 'pending',
+            cloud_retry_count INTEGER NOT NULL DEFAULT 0,
+            cloud_last_error TEXT,
+            created_at TEXT NOT NULL,
+            updated_at TEXT NOT NULL,
+            synced_at TEXT,
+            received_at TEXT,
+            cloud_synced_at TEXT
+        );
     CREATE INDEX IF NOT EXISTS idx_events_occurred_at ON events (occurred_at);
     CREATE INDEX IF NOT EXISTS idx_events_sync_status ON events (sync_status);
     CREATE INDEX IF NOT EXISTS idx_events_course_key ON events (course_key);
@@ -137,6 +146,10 @@ private actor QuizLogStore {
             nil
         )
         sqlite3_exec(db, schemaSQL, nil, nil, nil)
+        sqlite3_exec(db, "ALTER TABLE events ADD COLUMN cloud_sync_status TEXT NOT NULL DEFAULT 'pending';", nil, nil, nil)
+        sqlite3_exec(db, "ALTER TABLE events ADD COLUMN cloud_retry_count INTEGER NOT NULL DEFAULT 0;", nil, nil, nil)
+        sqlite3_exec(db, "ALTER TABLE events ADD COLUMN cloud_last_error TEXT;", nil, nil, nil)
+        sqlite3_exec(db, "ALTER TABLE events ADD COLUMN cloud_synced_at TEXT;", nil, nil, nil)
 
         let sql = """
         UPDATE events
@@ -172,8 +185,9 @@ private actor QuizLogStore {
             event_id, occurred_at, session_id, device_id, question_id, course_key, source_path,
             filter_mode, scope, event_type, selected_index, correct_index, result, app_version,
             build_number, metadata_json, payload_json, sync_status, retry_count, last_error,
-            created_at, updated_at, synced_at, received_at
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            cloud_sync_status, cloud_retry_count, cloud_last_error, created_at, updated_at,
+            synced_at, received_at, cloud_synced_at
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """
 
         var statement: OpaquePointer?
@@ -204,10 +218,14 @@ private actor QuizLogStore {
         bindText(statement, index: 18, value: QuizLogSyncStatus.pending.rawValue)
         sqlite3_bind_int(statement, 19, 0)
         sqlite3_bind_null(statement, 20)
-        bindText(statement, index: 21, value: timestamp)
-        bindText(statement, index: 22, value: timestamp)
+        bindText(statement, index: 21, value: QuizLogSyncStatus.pending.rawValue)
+        sqlite3_bind_int(statement, 22, 0)
         sqlite3_bind_null(statement, 23)
-        sqlite3_bind_null(statement, 24)
+        bindText(statement, index: 24, value: timestamp)
+        bindText(statement, index: 25, value: timestamp)
+        sqlite3_bind_null(statement, 26)
+        sqlite3_bind_null(statement, 27)
+        sqlite3_bind_null(statement, 28)
 
         guard sqlite3_step(statement) == SQLITE_DONE else {
             throw QuizLogStoreError.database(message: lastErrorMessage())
@@ -284,6 +302,11 @@ private actor QuizLogStore {
             syncedCount: try count(where: QuizLogSyncStatus.synced.rawValue),
             failedCount: try count(where: QuizLogSyncStatus.failed.rawValue),
             lastSyncedAt: try scalarText("SELECT MAX(synced_at) FROM events WHERE synced_at IS NOT NULL"),
+            cloudPendingCount: try count(where: QuizLogSyncStatus.pending.rawValue, field: "cloud_sync_status"),
+            cloudSyncingCount: try count(where: QuizLogSyncStatus.syncing.rawValue, field: "cloud_sync_status"),
+            cloudSyncedCount: try count(where: QuizLogSyncStatus.synced.rawValue, field: "cloud_sync_status"),
+            cloudFailedCount: try count(where: QuizLogSyncStatus.failed.rawValue, field: "cloud_sync_status"),
+            lastCloudSyncedAt: try scalarText("SELECT MAX(cloud_synced_at) FROM events WHERE cloud_synced_at IS NOT NULL"),
             lastError: try scalarText("SELECT last_error FROM events WHERE last_error IS NOT NULL ORDER BY updated_at DESC LIMIT 1")
         )
     }
@@ -355,6 +378,68 @@ private actor QuizLogStore {
         return events
     }
 
+    func cloudSyncableEvents(limit: Int) throws -> [QuizLogEvent] {
+        let sql = """
+        SELECT payload_json
+        FROM events
+        WHERE cloud_sync_status IN (?, ?)
+        ORDER BY occurred_at ASC
+        LIMIT ?
+        """
+        var statement: OpaquePointer?
+        guard sqlite3_prepare_v2(db, sql, -1, &statement, nil) == SQLITE_OK else {
+            throw QuizLogStoreError.database(message: lastErrorMessage())
+        }
+        defer { sqlite3_finalize(statement) }
+
+        bindText(statement, index: 1, value: QuizLogSyncStatus.pending.rawValue)
+        bindText(statement, index: 2, value: QuizLogSyncStatus.failed.rawValue)
+        sqlite3_bind_int(statement, 3, Int32(limit))
+
+        var events: [QuizLogEvent] = []
+        while sqlite3_step(statement) == SQLITE_ROW {
+            guard let payloadCString = sqlite3_column_text(statement, 0) else { continue }
+            let payload = String(cString: payloadCString)
+            let event = try decoder.decode(QuizLogEvent.self, from: Data(payload.utf8))
+            events.append(event)
+        }
+        return events
+    }
+
+    func cloudPendingCount() throws -> Int {
+        try count(where: QuizLogSyncStatus.pending.rawValue, field: "cloud_sync_status")
+    }
+
+    func markCloudSyncing(eventIDs: [String]) throws {
+        try updateCloudStatus(
+            eventIDs: eventIDs,
+            status: .syncing,
+            lastError: nil,
+            syncedAt: nil,
+            incrementRetryCount: false
+        )
+    }
+
+    func markCloudSynced(eventIDs: [String], syncedAt: String) throws {
+        try updateCloudStatus(
+            eventIDs: eventIDs,
+            status: .synced,
+            lastError: nil,
+            syncedAt: syncedAt,
+            incrementRetryCount: false
+        )
+    }
+
+    func markCloudFailed(eventIDs: [String], error: String) throws {
+        try updateCloudStatus(
+            eventIDs: eventIDs,
+            status: .failed,
+            lastError: error,
+            syncedAt: nil,
+            incrementRetryCount: true
+        )
+    }
+
     private func updateStatus(
         eventIDs: [String],
         status: QuizLogSyncStatus,
@@ -402,12 +487,56 @@ private actor QuizLogStore {
         }
     }
 
-    private func count(where status: String?) throws -> Int {
+    private func updateCloudStatus(
+        eventIDs: [String],
+        status: QuizLogSyncStatus,
+        lastError: String?,
+        syncedAt: String?,
+        incrementRetryCount: Bool
+    ) throws {
+        guard !eventIDs.isEmpty else { return }
+        let placeholders = Array(repeating: "?", count: eventIDs.count).joined(separator: ",")
+        let sql = """
+        UPDATE events
+        SET cloud_sync_status = ?, cloud_last_error = ?, cloud_synced_at = ?, updated_at = ?,
+            cloud_retry_count = cloud_retry_count + ?
+        WHERE event_id IN (\(placeholders))
+        """
+
+        var statement: OpaquePointer?
+        guard sqlite3_prepare_v2(db, sql, -1, &statement, nil) == SQLITE_OK else {
+            throw QuizLogStoreError.database(message: lastErrorMessage())
+        }
+        defer { sqlite3_finalize(statement) }
+
+        var bindIndex: Int32 = 1
+        bindText(statement, index: bindIndex, value: status.rawValue)
+        bindIndex += 1
+        bindOptionalText(statement, index: bindIndex, value: lastError)
+        bindIndex += 1
+        bindOptionalText(statement, index: bindIndex, value: syncedAt)
+        bindIndex += 1
+        bindText(statement, index: bindIndex, value: isoFormatter.string(from: Date()))
+        bindIndex += 1
+        sqlite3_bind_int(statement, bindIndex, incrementRetryCount ? 1 : 0)
+        bindIndex += 1
+
+        for eventID in eventIDs {
+            bindText(statement, index: bindIndex, value: eventID)
+            bindIndex += 1
+        }
+
+        guard sqlite3_step(statement) == SQLITE_DONE else {
+            throw QuizLogStoreError.database(message: lastErrorMessage())
+        }
+    }
+
+    private func count(where status: String?, field: String = "sync_status") throws -> Int {
         let sql: String
         if status == nil {
             sql = "SELECT COUNT(*) FROM events"
         } else {
-            sql = "SELECT COUNT(*) FROM events WHERE sync_status = ?"
+            sql = "SELECT COUNT(*) FROM events WHERE \(field) = ?"
         }
         var statement: OpaquePointer?
         guard sqlite3_prepare_v2(db, sql, -1, &statement, nil) == SQLITE_OK else {
@@ -624,6 +753,29 @@ final class QuizLogController: ObservableObject {
             } catch {}
             await refresh()
         }
+    }
+
+    func cloudPendingCount() async throws -> Int {
+        try await store.cloudPendingCount()
+    }
+
+    func cloudSyncableEvents(limit: Int) async throws -> [QuizLogEvent] {
+        try await store.cloudSyncableEvents(limit: limit)
+    }
+
+    func markCloudSyncing(eventIDs: [String]) async throws {
+        try await store.markCloudSyncing(eventIDs: eventIDs)
+        await refresh()
+    }
+
+    func markCloudSynced(eventIDs: [String], at timestamp: String) async throws {
+        try await store.markCloudSynced(eventIDs: eventIDs, syncedAt: timestamp)
+        await refresh()
+    }
+
+    func markCloudFailed(eventIDs: [String], error: String) async throws {
+        try await store.markCloudFailed(eventIDs: eventIDs, error: error)
+        await refresh()
     }
 
     func recordQuizStarted(

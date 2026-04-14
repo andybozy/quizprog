@@ -102,6 +102,7 @@ private extension View {
 struct ContentView: View {
     @StateObject private var session = QuizSession()
     @StateObject private var logController = QuizLogController.shared
+    @StateObject private var cloudSyncController = QuizCloudSyncController.shared
     @Environment(\.colorScheme) private var colorScheme
     @Environment(\.scenePhase) private var scenePhase
 
@@ -117,7 +118,12 @@ struct ContentView: View {
 
                 Group {
                     if !session.hasStarted {
-                        StartScreen(session: session, logController: logController, theme: theme)
+                        StartScreen(
+                            session: session,
+                            logController: logController,
+                            cloudSyncController: cloudSyncController,
+                            theme: theme
+                        )
                     } else if session.isFinished {
                         ResultsScreen(session: session, theme: theme)
                     } else {
@@ -137,8 +143,10 @@ struct ContentView: View {
             switch newValue {
             case .active:
                 logController.handleSceneBecameActive()
+                cloudSyncController.handleSceneBecameActive(session: session)
             case .background:
                 logController.handleSceneMovedToBackground()
+                cloudSyncController.handleSceneMovedToBackground(session: session)
             default:
                 break
             }
@@ -149,12 +157,14 @@ struct ContentView: View {
 private struct StartScreen: View {
     @ObservedObject var session: QuizSession
     @ObservedObject var logController: QuizLogController
+    @ObservedObject var cloudSyncController: QuizCloudSyncController
     let theme: QuizTheme
     @State private var showingFileMenu = false
     @State private var showingTagMenu = false
     @State private var showingSummaryMenu = false
     @State private var showingStatsMenu = false
     @State private var showingLogSheet = false
+    @State private var showingCloudSyncSheet = false
     @State private var menuErrorMessage: String?
 
     var body: some View {
@@ -303,6 +313,45 @@ private struct StartScreen: View {
 
                 VStack(alignment: .leading, spacing: 12) {
                     HStack {
+                        Text("iCloud Sync")
+                            .font(.subheadline.weight(.semibold))
+                        Spacer()
+                        Button("Configura") {
+                            showingCloudSyncSheet = true
+                        }
+                        .font(.caption.weight(.semibold))
+                    }
+
+                    HStack(spacing: 12) {
+                        StatPill(label: "Account", value: cloudSyncController.snapshot.accountState.title, theme: theme)
+                        StatPill(label: "Pending", value: "\(cloudSyncController.snapshot.pendingSharedChanges)", theme: theme)
+                        StatPill(label: "Log", value: "\(cloudSyncController.snapshot.pendingLogMirroringChanges)", theme: theme)
+                    }
+
+                    Text(cloudSyncSummaryText)
+                        .font(.caption.weight(.medium))
+                        .foregroundStyle(theme.secondaryText)
+
+                    Button {
+                        Task {
+                            await cloudSyncController.syncNow(session: session)
+                        }
+                    } label: {
+                        Text(cloudSyncController.isSyncInProgress ? "Sync iCloud in corso" : "Sync iCloud adesso")
+                            .font(.subheadline.weight(.semibold))
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 12)
+                            .background(theme.accent)
+                            .foregroundStyle(.white)
+                            .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
+                    }
+                    .disabled(cloudSyncController.isSyncInProgress || !session.hasLoadedCourses)
+                }
+                .padding(16)
+                .quizCard(theme)
+
+                VStack(alignment: .leading, spacing: 12) {
+                    HStack {
                         Text("Event Log")
                             .font(.subheadline.weight(.semibold))
                         Spacer()
@@ -375,6 +424,13 @@ private struct StartScreen: View {
         .sheet(isPresented: $showingStatsMenu) {
             StatsMenuSheet(session: session, theme: theme)
         }
+        .sheet(isPresented: $showingCloudSyncSheet) {
+            CloudSyncManagementSheet(
+                cloudSyncController: cloudSyncController,
+                session: session,
+                theme: theme
+            )
+        }
         .sheet(isPresented: $showingLogSheet) {
             LogManagementSheet(logController: logController, theme: theme)
         }
@@ -416,6 +472,23 @@ private struct StartScreen: View {
         }
 
         return "Endpoint: \(logController.serverURLString)"
+    }
+
+    private var cloudSyncSummaryText: String {
+        if let lastError = cloudSyncController.snapshot.lastError, !lastError.isEmpty {
+            return "Errore iCloud: \(lastError)"
+        }
+        var lines: [String] = []
+        if let lastSharedSyncAt = cloudSyncController.snapshot.lastSharedSyncAt {
+            lines.append("Ultimo sync shared: \(lastSharedSyncAt)")
+        }
+        if let lastLogMirrorAt = cloudSyncController.snapshot.lastLogMirrorAt {
+            lines.append("Ultimo mirror log: \(lastLogMirrorAt)")
+        }
+        if lines.isEmpty {
+            lines.append("Nessun sync iCloud eseguito in questa sessione.")
+        }
+        return lines.joined(separator: "\n")
     }
 }
 
@@ -1276,6 +1349,82 @@ private struct LogManagementSheet: View {
         logController.apiKey = apiKey
         logController.autoSyncEnabled = autoSyncEnabled
         logController.batchSize = batchSize
+    }
+}
+
+private struct CloudSyncManagementSheet: View {
+    @ObservedObject var cloudSyncController: QuizCloudSyncController
+    @ObservedObject var session: QuizSession
+    let theme: QuizTheme
+    @Environment(\.dismiss) private var dismiss
+
+    @State private var autoSyncEnabled = false
+    @State private var sharedProgressSyncEnabled = true
+    @State private var cloudLogMirroringEnabled = false
+
+    var body: some View {
+        NavigationStack {
+            Form {
+                Section("Stato account") {
+                    LabeledContent("iCloud", value: cloudSyncController.snapshot.accountState.title)
+                    LabeledContent("Shared pending", value: "\(cloudSyncController.snapshot.pendingSharedChanges)")
+                    LabeledContent("Log pending", value: "\(cloudSyncController.snapshot.pendingLogMirroringChanges)")
+                    if let lastSharedSyncAt = cloudSyncController.snapshot.lastSharedSyncAt {
+                        LabeledContent("Ultimo sync shared", value: lastSharedSyncAt)
+                    }
+                    if let lastLogMirrorAt = cloudSyncController.snapshot.lastLogMirrorAt {
+                        LabeledContent("Ultimo mirror log", value: lastLogMirrorAt)
+                    }
+                    if let lastError = cloudSyncController.snapshot.lastError, !lastError.isEmpty {
+                        Text(lastError)
+                            .font(.caption)
+                            .foregroundStyle(theme.danger)
+                    }
+                }
+
+                Section("Configurazione") {
+                    Toggle("Auto sync", isOn: $autoSyncEnabled)
+                    Toggle("Sync progress shared", isOn: $sharedProgressSyncEnabled)
+                    Toggle("Mirror device logs su iCloud", isOn: $cloudLogMirroringEnabled)
+                }
+
+                Section("Azioni") {
+                    Button("Aggiorna stato iCloud") {
+                        Task {
+                            await cloudSyncController.refreshAccountStatus()
+                            await cloudSyncController.refreshPendingCounts(session: session)
+                        }
+                    }
+                    Button(cloudSyncController.isSyncInProgress ? "Sync in corso..." : "Sync iCloud adesso") {
+                        persistConfiguration()
+                        Task {
+                            await cloudSyncController.syncNow(session: session)
+                        }
+                    }
+                    .disabled(cloudSyncController.isSyncInProgress || !session.hasLoadedCourses)
+                }
+            }
+            .navigationTitle("iCloud Sync")
+            .toolbar {
+                ToolbarItem(placement: .confirmationAction) {
+                    Button("Done") {
+                        persistConfiguration()
+                        dismiss()
+                    }
+                }
+            }
+        }
+        .onAppear {
+            autoSyncEnabled = cloudSyncController.autoSyncEnabled
+            sharedProgressSyncEnabled = cloudSyncController.sharedProgressSyncEnabled
+            cloudLogMirroringEnabled = cloudSyncController.cloudLogMirroringEnabled
+        }
+    }
+
+    private func persistConfiguration() {
+        cloudSyncController.autoSyncEnabled = autoSyncEnabled
+        cloudSyncController.sharedProgressSyncEnabled = sharedProgressSyncEnabled
+        cloudSyncController.cloudLogMirroringEnabled = cloudLogMirroringEnabled
     }
 }
 
