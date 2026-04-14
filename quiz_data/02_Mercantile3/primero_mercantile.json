@@ -1684,6 +1684,846 @@
         "file_name": "11_TEMA 11 (1).PDF",
         "file_format": "PDF"
       }
+    },
+    {
+      "sequence_number": 61,
+      "question": "Características de la acción directa del transportista efectivo:",
+      "answers": [
+        {
+          "text": "Se da en los supuestos de intermediación en la contratación de transportes terrestres.",
+          "correct": true
+        },
+        {
+          "text": "Solo se puede dirigir contra el cargador principal.",
+          "correct": false
+        },
+        {
+          "text": "Solo opera en los casos de impago total del transporte.",
+          "correct": false
+        },
+        {
+          "text": "Todas son correctas.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la primera. La acción directa del transportista efectivo aparece precisamente en los supuestos de intermediación en la contratación de transportes terrestres. La segunda es falsa porque la acción puede dirigirse no solo contra el cargador principal, sino también contra quienes le hubieran precedido en la cadena de subcontratación. La tercera también es falsa porque opera respecto de la parte impagada del precio, no únicamente en caso de impago total. Por ello, la cuarta no puede ser correcta.\nIT: La risposta corretta è la prima. L’azione diretta del vettore effettivo nasce proprio nei casi di intermediazione nella contrattazione di trasporti terrestri. La seconda è falsa perché l’azione può essere esercitata non solo contro il caricatore principale, ma anche contro i soggetti che lo hanno preceduto nella catena di subappalto. Anche la terza è falsa, perché opera per la parte non pagata del prezzo e non solo in caso di mancato pagamento totale. Di conseguenza, la quarta è errata.",
+      "legal_reference": "Ley 15/2009, régimen de la acción directa del transportista efectivo; 11_TEMA 11 (1).PDF.",
+      "original_file": {
+        "file_name": "11_TEMA 11 (1).PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 62,
+      "question": "En relación con el contrato de préstamo ¿cuál de las siguientes afirmaciones es incorrecta:",
+      "answers": [
+        {
+          "text": "La obligación de pago de intereses es un elemento esencial del contrato.",
+          "correct": true
+        },
+        {
+          "text": "El préstamo sindicado es el concedido por un grupo de prestamistas.",
+          "correct": false
+        },
+        {
+          "text": "En defecto de pacto expreso en cuanto al vencimiento el préstamo será exigible a los treinta días.",
+          "correct": true
+        },
+        {
+          "text": "Para que el prestatario quede obligado al pago de intereses debe haberse pactado por escrito.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La primera es incorrecta porque el pago de intereses no es un elemento esencial del préstamo mercantil, sino una obligación típica que solo existe si se pacta por escrito. La segunda es correcta, ya que el préstamo sindicado es el concedido por una pluralidad de prestamistas. La tercera también es incorrecta si se toma con rigor, porque el Código de Comercio no dice simplemente que el préstamo sea exigible “a los treinta días”, sino que no podrá exigirse hasta pasados treinta días desde el requerimiento notarial al deudor cuando no exista pacto sobre vencimiento. La cuarta es correcta. La pregunta, por tanto, admite dos afirmaciones incorrectas.\nIT: La prima è errata perché il pagamento degli interessi non è un elemento essenziale del prestito mercantile, ma un’obbligazione tipica che esiste solo se pattuita per iscritto. La seconda è corretta, dato che il prestito sindacato è quello concesso da una pluralità di finanziatori. Anche la terza è errata, se letta con rigore, perché il Codice di commercio non dice semplicemente che il prestito è esigibile “dopo trenta giorni”, ma che non può essere richiesto prima che siano trascorsi trenta giorni dalla diffida notarile al debitore in mancanza di patto sulla scadenza. La quarta è corretta. La domanda, quindi, contiene due affermazioni errate.",
+      "legal_reference": "Código de Comercio, arts. 313 y 314; 12_TEMA 12.PDF.",
+      "original_file": {
+        "file_name": "12_TEMA 12.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 63,
+      "question": "La Publicidad comparativa",
+      "answers": [
+        {
+          "text": "Es lícita siempre.",
+          "correct": false
+        },
+        {
+          "text": "Es lícita si cumple determinados requisitos.",
+          "correct": true
+        },
+        {
+          "text": "No es lícita.",
+          "correct": false
+        },
+        {
+          "text": "No es lícita si compara productos iguales.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es la segunda. La publicidad comparativa no es lícita siempre ni está prohibida sin más: se admite cuando respeta los requisitos legales de objetividad, comparabilidad y ausencia de confusión o denigración. La cuarta también es falsa, porque precisamente la comparación debe recaer sobre bienes o servicios que tengan la misma finalidad o satisfagan las mismas necesidades.\nIT: La risposta corretta è la seconda. La pubblicità comparativa non è sempre lecita né è vietata in assoluto: è ammessa quando rispetta i requisiti legali di oggettività, comparabilità e assenza di confusione o denigrazione. Anche la quarta è falsa, perché proprio la comparazione deve riguardare beni o servizi con la stessa finalità o che soddisfino le medesime esigenze.",
+      "legal_reference": "Ley 3/1991, art. 10; Ley 34/1988, art. 3; 9_TEMA 9_1.PDF.",
+      "original_file": {
+        "file_name": "9_TEMA 9_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 64,
+      "question": "El depósito efectuado en una cuenta bancaria",
+      "answers": [
+        {
+          "text": "Es un depósito a la vista",
+          "correct": false
+        },
+        {
+          "text": "Es un depósito a plazo",
+          "correct": false
+        },
+        {
+          "text": "Es un depósito de custodia",
+          "correct": false
+        },
+        {
+          "text": "Es un depósito irregular",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es la cuarta. El depósito bancario de dinero en cuenta tiene naturaleza de depósito irregular, porque el banco adquiere la disponibilidad del numerario y queda obligado a restituir otro tanto de la misma especie y calidad, no las mismas monedas o billetes entregados. Las otras respuestas describen modalidades funcionales o bancarias, pero no la calificación jurídica básica del depósito de numerario en cuenta.\nIT: La risposta corretta è la quarta. Il deposito bancario di denaro in conto ha natura di deposito irregolare, perché la banca acquista la disponibilità del denaro e resta obbligata a restituire un equivalente della stessa specie e qualità, non le stesse monete o banconote consegnate. Le altre risposte descrivono modalità funzionali o bancarie, ma non la qualificazione giuridica di base del deposito di denaro su conto.",
+      "legal_reference": "10_TEMA 10_1.PDF, apartado IV.1; Material complementario_ Der. Mercantil III-Grado Derecho - Mu - ADist - Cast-Edición-0.pdf.",
+      "original_file": {
+        "file_name": "10_TEMA 10_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 65,
+      "question": "Los contratos electrónicos su lugar de perfeccionamiento es:",
+      "answers": [
+        {
+          "text": "La residencia habitual del consumidor",
+          "correct": true
+        },
+        {
+          "text": "la residencia habitual del prestador del servicio",
+          "correct": false
+        },
+        {
+          "text": "Tanto la residencia habitual del consumidor como la del prestador del servicio",
+          "correct": false
+        },
+        {
+          "text": "En el lugar en el que se hizo la oferta",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la primera cuando en el contrato electrónico interviene un consumidor. La Ley de servicios de la sociedad de la información establece que esos contratos se presumen celebrados en el lugar de residencia habitual del consumidor. La segunda respondería al régimen entre profesionales, no al supuesto preguntado. La tercera y la cuarta no reflejan la regla especial vigente para contratos electrónicos con consumidores.\nIT: La risposta corretta è la prima quando nel contratto elettronico interviene un consumatore. La legge sui servizi della società dell’informazione stabilisce che tali contratti si presumono conclusi nel luogo di residenza abituale del consumatore. La seconda corrisponde invece al regime tra professionisti, non al caso qui richiesto. La terza e la quarta non riflettono la regola speciale vigente per i contratti elettronici con consumatori.",
+      "legal_reference": "Ley 34/2002, art. 29; 1_TEMA 1  (1).PDF.",
+      "original_file": {
+        "file_name": "1_TEMA 1  (1).PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 66,
+      "question": "En la interpretación de los contratos de adhesión una de sus peculiaridades:",
+      "answers": [
+        {
+          "text": "Que prevalecerán las cláusulas especiales",
+          "correct": false
+        },
+        {
+          "text": "Que prevalecerán las cláusulas generales",
+          "correct": false
+        },
+        {
+          "text": "Que prevalecerán las cláusulas particulares",
+          "correct": false
+        },
+        {
+          "text": "Que prevalecerán las cláusulas especiales sobre las generales, salvo que estas resulten más beneficiosas para el adherente",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es la cuarta. En los contratos de adhesión o con condiciones generales, si existe contradicción entre las condiciones particulares o especiales y las generales, prevalecen las particulares, salvo que las generales sean más beneficiosas para el adherente. La primera y la tercera, formuladas de forma aislada, son incompletas porque omiten la excepción favorable al adherente. La segunda es claramente falsa.\nIT: La risposta corretta è la quarta. Nei contratti per adesione o con condizioni generali, se vi è contraddizione tra condizioni particolari o speciali e condizioni generali, prevalgono le prime, salvo che le seconde siano più favorevoli per l’aderente. La prima e la terza, considerate da sole, sono incomplete perché omettono l’eccezione favorevole all’aderente. La seconda è chiaramente falsa.",
+      "legal_reference": "Ley 7/1998, art. 6; 1_TEMA 1  (1).PDF.",
+      "original_file": {
+        "file_name": "1_TEMA 1  (1).PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 67,
+      "question": "Salvo pacto en contrario, el lugar de entrega de la cosa vendida en la compraventa mercantil será:",
+      "answers": [
+        {
+          "text": "En el establecimiento del comprador",
+          "correct": false
+        },
+        {
+          "text": "En el establecimiento del vendedor.",
+          "correct": true
+        },
+        {
+          "text": "Indistintamente en el establecimiento del vendedor o del comprador.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores es cierta",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la segunda. En la compraventa mercantil, si las partes no pactan otra cosa, la entrega se realiza en el establecimiento del vendedor. La primera y la tercera contradicen esa regla supletoria, y la cuarta cae porque sí existe una opción correcta.\nIT: La risposta corretta è la seconda. Nella compravendita mercantile, se le parti non pattuiscono diversamente, la consegna avviene presso lo stabilimento del venditore. La prima e la terza contraddicono questa regola suppletiva, mentre la quarta è errata perché esiste una risposta corretta.",
+      "legal_reference": "Código de Comercio, régimen de entrega de la cosa vendida; 2_TEMA 2_1.PDF, apartado IV.1.",
+      "original_file": {
+        "file_name": "2_TEMA 2_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 68,
+      "question": "En la resolución por incumplimiento del contrato de suministro:",
+      "answers": [
+        {
+          "text": "Afecta a las obligaciones futuras.",
+          "correct": false
+        },
+        {
+          "text": "Afecta a las obligaciones pretéritas.",
+          "correct": false
+        },
+        {
+          "text": "Afecta a las obligaciones futuras y alcanza las pretéritas",
+          "correct": false
+        },
+        {
+          "text": "Afecta a las obligaciones futuras, pero no alcanza a las pretéritas.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es la cuarta. En el contrato de suministro, la resolución por incumplimiento despliega sus efectos hacia el futuro y no borra, por regla general, las prestaciones ya devengadas o ejecutadas con anterioridad. La primera es incompleta porque omite esa precisión esencial; la segunda y la tercera son contrarias al régimen resolutorio aplicable.\nIT: La risposta corretta è la quarta. Nel contratto di somministrazione, la risoluzione per inadempimento produce effetti per il futuro e non elimina, in via generale, le prestazioni già maturate o eseguite in precedenza. La prima è incompleta perché omette questa precisazione essenziale; la seconda e la terza sono contrarie al regime risolutorio applicabile.",
+      "legal_reference": "3_TEMA 3_1.PDF, apartado VI; art. 1124 del Código Civil.",
+      "original_file": {
+        "file_name": "3_TEMA 3_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 69,
+      "question": "Entendemos por privilegio del comisionista sin límite alguno respecto al importe de tales efectos:",
+      "answers": [
+        {
+          "text": "Percibir el importe de su crédito de modo preferente al resto de acreedores",
+          "correct": false
+        },
+        {
+          "text": "Retener e impedir ser desposeído de las mercancías recibidas por el comitente.",
+          "correct": false
+        },
+        {
+          "text": "Adquirir la propiedad de los bienes poseídos.",
+          "correct": false
+        },
+        {
+          "text": "Percibir el importe de su crédito de modo preferente a los restantes acreedores del comitente con cargo al importe de tales efectos.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es la cuarta porque reproduce la dimensión de preferencia crediticia del privilegio del comisionista: cobrar con preferencia frente a otros acreedores del comitente sobre el importe de los efectos consignados. La primera es demasiado genérica e incompleta. La segunda describe el otro aspecto del privilegio, el derecho de retención, pero no la preferencia de cobro pedida en la pregunta. La tercera es falsa porque el comisionista no adquiere por ello la propiedad de los bienes.\nIT: La risposta corretta è la quarta perché riproduce la dimensione di prelazione creditizia del privilegio del commissionario: riscuotere il proprio credito con preferenza rispetto agli altri creditori del committente sul ricavato degli effetti ricevuti in commissione. La prima è troppo generica e incompleta. La seconda descrive l’altro profilo del privilegio, cioè il diritto di ritenzione, ma non la prelazione richiesta dalla domanda. La terza è falsa perché il commissionario non acquista per questo la proprietà dei beni.",
+      "legal_reference": "Código de Comercio, art. 276; 4_TEMA 4_1.PDF.",
+      "original_file": {
+        "file_name": "4_TEMA 4_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 70,
+      "question": "Son causa de extinción del contrato de agencia:",
+      "answers": [
+        {
+          "text": "El ejercicio del derecho de desistimiento unilateral mediante preaviso de la parte que lo denuncia.",
+          "correct": true
+        },
+        {
+          "text": "La muerte o declaración de fallecimiento del agente.",
+          "correct": true
+        },
+        {
+          "text": "El cumplimiento en el término final de duración determinada.",
+          "correct": true
+        },
+        {
+          "text": "Todas las anteriores son ciertas.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: Las tres primeras respuestas son correctas. El contrato de agencia puede extinguirse por desistimiento unilateral con preaviso, por muerte o declaración de fallecimiento del agente y por cumplimiento del término final en los contratos de duración determinada. Por tanto, también es correcta la opción final. La pregunta está planteada como si hubiera una sola respuesta válida, pero en realidad contiene varias afirmaciones verdaderas.\nIT: Le prime tre risposte sono corrette. Il contratto di agenzia può estinguersi per recesso unilaterale con preavviso, per morte o dichiarazione di morte dell’agente e per scadenza del termine finale nei contratti a durata determinata. Perciò è corretta anche l’opzione finale. La domanda è formulata come se vi fosse una sola risposta valida, ma in realtà contiene più affermazioni vere.",
+      "legal_reference": "Ley 12/1992, arts. 24, 25 y 27; 6_TEMA 6_1.PDF.",
+      "original_file": {
+        "file_name": "6_TEMA 6_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 71,
+      "question": "Cuál de las siguientes afirmaciones en referencia al derecho de competencia en el contrato de distribución no es cierta:",
+      "answers": [
+        {
+          "text": "La política de precios recomendados por el principal",
+          "correct": true
+        },
+        {
+          "text": "La fijación, de forma directa o indirecta, de precios o de otras condiciones comerciales o de servicio.",
+          "correct": false
+        },
+        {
+          "text": "El reparto de mercado.",
+          "correct": false
+        },
+        {
+          "text": "El reparto de las fuentes de aprovisionamiento.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta, porque la pregunta pide la que no es cierta como restricción prohibida, es la primera. El principal puede recomendar precios, siempre que no imponga directa o indirectamente los precios de reventa. En cambio, la fijación de precios, el reparto de mercado y el reparto de fuentes de aprovisionamiento son ejemplos clásicos de restricciones de la competencia prohibidas.\nIT: La risposta corretta, perché la domanda chiede quale non sia vera come restrizione vietata, è la prima. Il preponente può raccomandare prezzi, purché non imponga direttamente o indirettamente i prezzi di rivendita. Al contrario, la fissazione dei prezzi, la ripartizione del mercato e la ripartizione delle fonti di approvvigionamento sono esempi classici di restrizioni della concorrenza vietate.",
+      "legal_reference": "Ley 15/2007, art. 1; 7_TEMA 7_1.PDF, apartado IV.",
+      "original_file": {
+        "file_name": "7_TEMA 7_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 72,
+      "question": "En el contrato de franquicia el franquiciador debe garantizar al franquiciado una duración mínima contractual de:",
+      "answers": [
+        {
+          "text": "Un año.",
+          "correct": false
+        },
+        {
+          "text": "Dos años.",
+          "correct": false
+        },
+        {
+          "text": "Tres años.",
+          "correct": false
+        },
+        {
+          "text": "Cuatro años",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La pregunta está defectuosamente planteada si se interpreta con rigor jurídico actual, porque la normativa vigente no fija un plazo mínimo legal cerrado de uno, dos, tres o cuatro años. El temario habla de una duración mínima “generalmente 3 años” que permita amortizar la inversión, pero esa idea responde a una pauta doctrinal o práctica contractual, no a un mínimo legal expreso e invariable. Por eso, ninguna de las opciones es plenamente correcta en sentido estricto.\nIT: La domanda è formulata in modo difettoso se la si interpreta con rigore giuridico attuale, perché la normativa vigente non stabilisce un termine minimo legale fisso di uno, due, tre o quattro anni. Il materiale del corso parla di una durata minima “generalmente di 3 anni” che consenta di ammortizzare l’investimento, ma questa idea è una regola dottrinale o pratica contrattuale, non un minimo legale espresso e immutabile. Per questo, nessuna delle opzioni è pienamente corretta in senso stretto.",
+      "legal_reference": "Ley 7/1996, art. 62; Real Decreto 201/2010, arts. 1 a 4; 8_TEMA 8_1.PDF.",
+      "original_file": {
+        "file_name": "8_TEMA 8_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 73,
+      "question": "Son transportes regulares:",
+      "answers": [
+        {
+          "text": "Los que se llevan a cabo sin sujeción a itinerario.",
+          "correct": false
+        },
+        {
+          "text": "Los que se efectúan dentro de itinerario preestablecido.",
+          "correct": true
+        },
+        {
+          "text": "Los que se llevan a cabo sin calendario ni horario preestablecido.",
+          "correct": false
+        },
+        {
+          "text": "Los que tienen su origen y destino dentro del territorio del estado español",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la segunda. Son transportes regulares los que se efectúan dentro de un itinerario preestablecido y con sujeción a calendario y horario prefijados. La primera y la tercera describen el transporte discrecional, no el regular. La cuarta alude al transporte interior, que es una categoría distinta.\nIT: La risposta corretta è la seconda. Sono trasporti regolari quelli effettuati secondo un itinerario prestabilito e con calendario e orario prefissati. La prima e la terza descrivono invece il trasporto discrezionale, non quello regolare. La quarta si riferisce al trasporto interno, che è una categoria diversa.",
+      "legal_reference": "LOTT, art. 64; 11_TEMA 11 (1).PDF, apartado II.",
+      "original_file": {
+        "file_name": "11_TEMA 11 (1).PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 74,
+      "question": "Respecto al contrato de renting cuál de estas manifestaciones es incierta:",
+      "answers": [
+        {
+          "text": "Es un contrato a medio o largo plazo",
+          "correct": false
+        },
+        {
+          "text": "Puede ser rescindido unilateralmente antes del fin del plazo previsto.",
+          "correct": true
+        },
+        {
+          "text": "La opción de compra no es necesaria que figure en el contrato aunque puede establecerse en el mismo",
+          "correct": false
+        },
+        {
+          "text": "Su duración oscila entre dos y cuatro años",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La más incierta es la segunda. En el renting no existe, como rasgo general y automático, un derecho legal del arrendatario a resolver unilateralmente antes del vencimiento; esa posibilidad depende del clausulado contractual y normalmente va asociada a penalizaciones o a pactos específicos. Las demás respuestas reflejan rasgos habituales del renting descritos en el temario: duración media, posible aunque no necesaria opción de compra y práctica usual de contratos de varios años.\nIT: La più incerta è la seconda. Nel renting non esiste, come tratto generale e automatico, un diritto legale del conduttore a sciogliere unilateralmente il contratto prima della scadenza; tale possibilità dipende dalle clausole contrattuali ed è normalmente collegata a penali o patti specifici. Le altre risposte riflettono caratteristiche abituali del renting descritte nel materiale del corso: durata media, possibile ma non necessaria opzione di acquisto e prassi di contratti pluriennali.",
+      "legal_reference": "13_TEMA 13 (2).PDF, apartado II.1 y II.3; Código Civil, arts. 1255 y 1556.",
+      "original_file": {
+        "file_name": "13_TEMA 13 (2).PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 75,
+      "question": "Se considera la compraventa mercantil cuanto",
+      "answers": [
+        {
+          "text": "La compra de materia prima para autoconsumo",
+          "correct": false
+        },
+        {
+          "text": "La compraventa de cosas muebles o inmuebles siempre que medie un empresario",
+          "correct": false
+        },
+        {
+          "text": "La compraventa de cosas muebles para revenderlas con ánimo de lucrarse",
+          "correct": true
+        },
+        {
+          "text": "La compraventa realizada entre empresarios con o sin ánimo de lucro",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la tercera porque reproduce la definición clásica del artículo 325 del Código de Comercio: compraventa de cosas muebles para revenderlas con ánimo de lucrarse. La primera no encaja porque falta el elemento de reventa; la segunda es demasiado amplia y la cuarta también, ya que no basta la mera intervención de empresarios ni la ausencia de ánimo de lucro.\nIT: La risposta corretta è la terza perché riproduce la definizione classica dell’articolo 325 del Codice di commercio: compravendita di cose mobili per rivenderle con intento di lucro. La prima non rientra nella nozione perché manca l’elemento della rivendita; la seconda è troppo ampia e la quarta pure, poiché non basta il semplice intervento di imprenditori né l’assenza di intento lucrativo.",
+      "legal_reference": "Código de Comercio, art. 325; 2_TEMA 2_1.PDF.",
+      "original_file": {
+        "file_name": "2_TEMA 2_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 76,
+      "question": "Existirá un vicio por evicción si",
+      "answers": [
+        {
+          "text": "El comprador ve alterada la posesión legal y pacifica de la cosa adquirida en virtud de un derecho anterior a la compra",
+          "correct": true
+        },
+        {
+          "text": "La cosa comprada carece de vicios en su calidad que imposibilitan su uso",
+          "correct": false
+        },
+        {
+          "text": "Se pacta un plazo de entrega determinado y se incumple por el vendedor",
+          "correct": false
+        },
+        {
+          "text": "Todas las anteriores son correctas",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la primera. La evicción se produce cuando el comprador es privado de la posesión legal y pacífica, total o parcialmente, por sentencia y en virtud de un derecho anterior a la compra. La segunda se refiere a vicios o defectos de la cosa, no a evicción. La tercera describe un incumplimiento de entrega, también distinto. Por ello, la cuarta es falsa.\nIT: La risposta corretta è la prima. L’evizione si verifica quando il compratore viene privato, in tutto o in parte, del possesso legale e pacifico in forza di un diritto anteriore all’acquisto accertato giudizialmente. La seconda riguarda vizi o difetti della cosa, non l’evizione. La terza descrive un inadempimento della consegna, anch’esso diverso. Di conseguenza, la quarta è falsa.",
+      "legal_reference": "Código Civil, arts. 1474 y ss.; 2_TEMA 2_1.PDF.",
+      "original_file": {
+        "file_name": "2_TEMA 2_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 77,
+      "question": "Si en un contrato de compraventa el comprador recibe las mercancías embaladas, ¿qué plazo dispone para el ejercicio de la acción por vicios ocultos?",
+      "answers": [
+        {
+          "text": "Siete días",
+          "correct": false
+        },
+        {
+          "text": "Cuatro días.",
+          "correct": true
+        },
+        {
+          "text": "Un mes.",
+          "correct": true
+        },
+        {
+          "text": "Tres días desde que se de cuenta de la existencia de los desperfecto",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La pregunta mezcla dos regímenes distintos y por eso está defectuosamente formulada. Si se atiende al dato de que las mercancías se reciben enfardadas o embaladas y se está pensando en defectos de cantidad o calidad apreciables tras su apertura, el plazo típico es de cuatro días. Pero si se toma literalmente la expresión “vicios ocultos” o “internos”, el régimen mercantil remite al plazo de treinta días, expresado aquí como “un mes”. Por eso, las opciones segunda y tercera pueden defenderse según la interpretación que se adopte.\nIT: La domanda mescola due regimi diversi ed è quindi formulata in modo difettoso. Se si valorizza il fatto che le merci sono ricevute imballate e si pensa a difetti di quantità o qualità apprezzabili dopo l’apertura, il termine tipico è di quattro giorni. Se invece si prende alla lettera l’espressione “vizi occulti” o “interni”, il regime mercantile rinvia al termine di trenta giorni, qui espresso come “un mese”. Per questo, la seconda e la terza opzione sono entrambe difendibili a seconda dell’interpretazione adottata.",
+      "legal_reference": "Código de Comercio, arts. 336 y 342; 2_TEMA 2_1.PDF.",
+      "original_file": {
+        "file_name": "2_TEMA 2_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 78,
+      "question": "El contrato de comisión se caracteriza en que",
+      "answers": [
+        {
+          "text": "El comisionista siempre en nombre propio pero interés y por cuenta del comitente.",
+          "correct": false
+        },
+        {
+          "text": "El comisionista en nombre del comitente pero asumiendo el riesgo de la operación en caso de que se vea frustrada.",
+          "correct": false
+        },
+        {
+          "text": "El comisionista actúa siempre en un área geográfica determinada por el comitente",
+          "correct": false
+        },
+        {
+          "text": "El comisionista actua frente a un tercero, bien en nombre propio a bien en el del comitente, pero siempre en interés y por cuenta de este",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es la cuarta. El comisionista puede actuar frente a terceros en nombre propio o en nombre del comitente, pero siempre por cuenta e interés de éste. La primera es falsa porque no siempre actúa en nombre propio; la segunda porque la asunción del riesgo no forma parte de la estructura normal del contrato; y la tercera porque esa delimitación territorial es propia de otras figuras, no de la comisión mercantil.\nIT: La risposta corretta è la quarta. Il commissionario può agire verso i terzi in nome proprio oppure in nome del committente, ma sempre per conto e nell’interesse di quest’ultimo. La prima è falsa perché non agisce sempre in nome proprio; la seconda perché l’assunzione del rischio non fa parte della struttura normale del contratto; e la terza perché la delimitazione territoriale è tipica di altre figure, non della commissione mercantile.",
+      "legal_reference": "Código de Comercio, arts. 244 a 247; 4_TEMA 4_1.PDF.",
+      "original_file": {
+        "file_name": "4_TEMA 4_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 79,
+      "question": "El corredor de comercio es quien",
+      "answers": [
+        {
+          "text": "Sólo promueve actos u operaciones de comercio, pero si tiene la facultad de concluirlos deberá hacerlo necesariamente en nombre del empresario por cuya cuenta actúa",
+          "correct": false
+        },
+        {
+          "text": "Busca clientes o acerca posiciones, pero nunca contrata con ellos por cuenta de su mandante.",
+          "correct": true
+        },
+        {
+          "text": "Contrata o estipula negocios jurídicos por cuenta",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores en comecta",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la segunda. El corredor o mediador se limita a aproximar a las partes o a buscar clientes, pero no contrata por cuenta de su mandante ni tiene poder de representación. La primera describe mejor al agente; la tercera corresponde a la comisión; y la cuarta no procede porque sí hay una opción válida.\nIT: La risposta corretta è la seconda. Il mediatore si limita ad avvicinare le parti o a cercare clienti, ma non conclude contratti per conto del mandante né dispone di potere di rappresentanza. La prima descrive meglio l’agente; la terza corrisponde alla commissione; e la quarta non può essere accolta perché esiste una risposta valida.",
+      "legal_reference": "5_TEMA 5_1.PDF, apartados II y III.",
+      "original_file": {
+        "file_name": "5_TEMA 5_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 80,
+      "question": "El contrato de agencia es",
+      "answers": [
+        {
+          "text": "De tracto único y duración determinada.",
+          "correct": false
+        },
+        {
+          "text": "Tendrá una duración máxima de 10 años.",
+          "correct": false
+        },
+        {
+          "text": "De tracto sucesivo y duración determinada o indefinida.",
+          "correct": true
+        },
+        {
+          "text": "De tracto sucesivo y duración determinada.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la tercera. El contrato de agencia es un contrato de tracto sucesivo y puede pactarse por tiempo determinado o indefinido. La primera es falsa porque niega su estabilidad. La segunda carece de base legal. La cuarta es incompleta porque excluye indebidamente la duración indefinida.\nIT: La risposta corretta è la terza. Il contratto di agenzia è un contratto di durata e a esecuzione continuata, che può essere pattuito a tempo determinato o indeterminato. La prima è falsa perché nega la sua stabilità. La seconda non ha base legale. La quarta è incompleta perché esclude indebitamente la durata indeterminata.",
+      "legal_reference": "Ley 12/1992, arts. 1, 23 y 24; 6_TEMA 6_1.PDF.",
+      "original_file": {
+        "file_name": "6_TEMA 6_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 81,
+      "question": "Para que proceda la indemnización por clientela en el contrato de agencia es necesario que:",
+      "answers": [
+        {
+          "text": "Que el agente haya aportado nuevos clientes al empresario o incrementado sensiblemente las operaciones con la clientela preexistente.",
+          "correct": true
+        },
+        {
+          "text": "Que la actividad anterior del agente pueda continuar produciendo ventajas sustanciales al empresario.",
+          "correct": true
+        },
+        {
+          "text": "Que tal indemnización resulte equitativamente procedente por la existencia de pactos de limitación de competencia, por las comisiones que pierda el agente o por las demás circunstancias que concurran.",
+          "correct": true
+        },
+        {
+          "text": "Todas las anteriores son ciertas.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: Las tres primeras afirmaciones reproducen los requisitos del artículo 28 de la Ley del Contrato de Agencia. Por ello, también es correcta la opción final “todas las anteriores son ciertas”. De nuevo, la pregunta está construida como si hubiera una sola respuesta, cuando en realidad todas las opciones materiales son verdaderas.\nIT: Le prime tre affermazioni riproducono i requisiti dell’articolo 28 della legge sul contratto di agenzia. Per questo è corretta anche l’opzione finale “tutte le precedenti sono vere”. Ancora una volta, la domanda è costruita come se vi fosse una sola risposta, quando in realtà tutte le opzioni sostanziali sono vere.",
+      "legal_reference": "Ley 12/1992, art. 28; 6_TEMA 6_1.PDF.",
+      "original_file": {
+        "file_name": "6_TEMA 6_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 82,
+      "question": "¿Cuál es la obligación fundamental del depositario?",
+      "answers": [
+        {
+          "text": "Conservar la cosa según la reciba.",
+          "correct": true
+        },
+        {
+          "text": "Pagar las reparaciones de la cosa depositada.",
+          "correct": false
+        },
+        {
+          "text": "Usar la cosa depositada.",
+          "correct": false
+        },
+        {
+          "text": "Pagar el alquiler del lugar en que se realiza el depósito.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la primera. La obligación esencial del depositario es la custodia o conservación diligente de la cosa recibida y su restitución cuando proceda. Las otras opciones no expresan la obligación fundamental del depositario y, en algunos casos, incluso contradicen la naturaleza del depósito, pues el depositario no puede usar libremente la cosa depositada.\nIT: La risposta corretta è la prima. L’obbligazione essenziale del depositario è la custodia diligente della cosa ricevuta e la sua restituzione quando dovuta. Le altre opzioni non esprimono l’obbligazione fondamentale del depositario e, in alcuni casi, contraddicono addirittura la natura del deposito, poiché il depositario non può usare liberamente la cosa depositata.",
+      "legal_reference": "Código de Comercio, art. 306; Código Civil, arts. 1765 y ss.; 10_TEMA 10_1.PDF.",
+      "original_file": {
+        "file_name": "10_TEMA 10_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 83,
+      "question": "¿Entre quiénes se celebra el contrato de transporte de mercancías por carretera?",
+      "answers": [
+        {
+          "text": "Entre el cargador y el destinatario.",
+          "correct": false
+        },
+        {
+          "text": "Entre el cargador y el porteador.",
+          "correct": true
+        },
+        {
+          "text": "Entre el remitente y el cargador",
+          "correct": false
+        },
+        {
+          "text": "Entre el porteador y el transportista",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la segunda. El contrato se celebra entre el cargador, que encarga el transporte, y el porteador, que asume la obligación de realizarlo. El destinatario es quien recibe las mercancías en destino, pero no es necesariamente parte contratante. Las restantes opciones no responden a la estructura legal del contrato.\nIT: La risposta corretta è la seconda. Il contratto si conclude tra il caricatore, che incarica il trasporto, e il vettore, che assume l’obbligo di eseguirlo. Il destinatario è colui che riceve le merci a destinazione, ma non è necessariamente parte contrattuale. Le restanti opzioni non riflettono la struttura legale del contratto.",
+      "legal_reference": "Ley 15/2009, arts. 2 y 4; 11_TEMA 11 (1).PDF.",
+      "original_file": {
+        "file_name": "11_TEMA 11 (1).PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 84,
+      "question": "El contrato de arrendamiento financiero también se denomina",
+      "answers": [
+        {
+          "text": "Renting.",
+          "correct": false
+        },
+        {
+          "text": "Factoring.",
+          "correct": false
+        },
+        {
+          "text": "Leasing",
+          "correct": true
+        },
+        {
+          "text": "Arrending.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la tercera. El arrendamiento financiero es la denominación jurídica del leasing. El renting es una figura distinta, centrada en el alquiler con servicios asociados; el factoring corresponde a otra técnica contractual; y “arrending” no es una categoría jurídica reconocida.\nIT: La risposta corretta è la terza. L’arrendamento finanziario è la denominazione giuridica del leasing. Il renting è una figura diversa, incentrata sulla locazione con servizi associati; il factoring corrisponde a un’altra tecnica contrattuale; e “arrending” non è una categoria giuridica riconosciuta.",
+      "legal_reference": "Ley 10/2014, disposición adicional tercera; Ley 28/1998, disposición adicional primera; 13_TEMA 13 (2).PDF.",
+      "original_file": {
+        "file_name": "13_TEMA 13 (2).PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 85,
+      "question": "Señale la respuesta cierta:",
+      "answers": [
+        {
+          "text": "El consumidor no puede ejercer el desistimiento en las ventas en establecimientos mercantiles, salvo que se establezca en el contrato",
+          "correct": true
+        },
+        {
+          "text": "El consumidor puede ejercer el desistimiento ex lege únicamente en las ventas realizadas fuera del establecimiento mercantil y a distancia",
+          "correct": true
+        },
+        {
+          "text": "El control de incorporación es un mecanismo de protección establecido en la Ley de condiciones generales de la contratación",
+          "correct": true
+        },
+        {
+          "text": "Todas las anteriores son ciertas",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: Las tres primeras afirmaciones son correctas en términos generales. En las ventas presenciales ordinarias no existe, como regla general, un derecho legal de desistimiento salvo previsión contractual o supuesto especial; el desistimiento ex lege aparece, con carácter típico, en la contratación a distancia y fuera de establecimiento; y el control de incorporación forma parte del sistema protector de la Ley sobre condiciones generales de la contratación. Por eso, también es correcta la opción final. La pregunta vuelve a estar formulada como si hubiera una sola respuesta válida.\nIT: Le prime tre affermazioni sono corrette in termini generali. Nelle vendite in negozio non esiste, di regola, un diritto legale di recesso salvo previsione contrattuale o ipotesi speciale; il recesso ex lege compare tipicamente nei contratti a distanza e fuori dai locali commerciali; e il controllo di incorporazione fa parte del sistema di tutela previsto dalla legge sulle condizioni generali di contratto. Per questo è corretta anche l’opzione finale. La domanda è di nuovo formulata come se vi fosse una sola risposta valida.",
+      "legal_reference": "Real Decreto Legislativo 1/2007, arts. 68 y ss.; Ley 7/1998, arts. 5 a 7; 1_TEMA 1  (1).PDF.",
+      "original_file": {
+        "file_name": "1_TEMA 1  (1).PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 86,
+      "question": "Cual de estas afirmaciones es cierta en relación del contrato de suministro:",
+      "answers": [
+        {
+          "text": "Es un contrato de colaboración.",
+          "correct": true
+        },
+        {
+          "text": "Es un contrato de duración determinada o indefinida.",
+          "correct": true
+        },
+        {
+          "text": "Es un contrato de tracto sucesivo.",
+          "correct": true
+        },
+        {
+          "text": "Todas las anteriores son ciertas.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: Las tres primeras afirmaciones son correctas. El suministro es un contrato de colaboración, de tracto sucesivo y puede pactarse por tiempo determinado o indefinido. Por ello, también es correcta la opción final. Otra vez estamos ante una pregunta que, si se pretendía de respuesta única, está mal construida.\nIT: Le prime tre affermazioni sono corrette. La somministrazione è un contratto di collaborazione, a esecuzione continuata e può essere pattuita a tempo determinato o indeterminato. Perciò è corretta anche l’opzione finale. Anche qui siamo di fronte a una domanda che, se pensata a risposta unica, è costruita male.",
+      "legal_reference": "3_TEMA 3_1.PDF, apartados II y V.",
+      "original_file": {
+        "file_name": "3_TEMA 3_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 87,
+      "question": "En los contratos de suministro cual de estas respuestas no es correcta",
+      "answers": [
+        {
+          "text": "Es habitual que se pacten cláusulas de actualización de precios.",
+          "correct": false
+        },
+        {
+          "text": "El precio queda prefijado en el propio contrato en función de la cantidad y calidad de lo que es objeto del suministro.",
+          "correct": true
+        },
+        {
+          "text": "El precio del suministro se abona a en el momento del suministro, pero puede acordarse la liquidación periódica",
+          "correct": false
+        },
+        {
+          "text": "Solo podrá resolverse el contrato de duración determinada de forma anticipada sólo si opera justa causa.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La incorrecta es la segunda. En el suministro no necesariamente queda el precio rígidamente prefijado desde el inicio; es frecuente la previsión de cláusulas de actualización precisamente por tratarse de un contrato de duración. La primera, la tercera y la cuarta se ajustan a los rasgos recogidos en el temario.\nIT: L’affermazione non corretta è la seconda. Nella somministrazione il prezzo non è necessariamente prefissato in modo rigido fin dall’inizio; sono frequenti clausole di aggiornamento proprio perché si tratta di un contratto di durata. La prima, la terza e la quarta corrispondono invece ai tratti indicati nel materiale del corso.",
+      "legal_reference": "3_TEMA 3_1.PDF, apartados III a V.",
+      "original_file": {
+        "file_name": "3_TEMA 3_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 88,
+      "question": "De las siguientes notas cual considera que debe figurar necesariamente en el contrato de distribución:",
+      "answers": [
+        {
+          "text": "Su duración indefinida o determinada.",
+          "correct": true
+        },
+        {
+          "text": "La exclusividad o no.",
+          "correct": false
+        },
+        {
+          "text": "La fijación de su remuneración.",
+          "correct": false
+        },
+        {
+          "text": "Un mínimo de compras anuales",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la primera. El contrato de distribución es un contrato de duración, y la determinación de su carácter temporal o indefinido es un dato estructural que debe quedar fijado. La exclusividad puede existir o no; la remuneración se articula normalmente a través del margen de reventa y no exige una cláusula autónoma de fijación como en otros contratos; y el mínimo de compras es frecuente, pero no necesario.\nIT: La risposta corretta è la prima. Il contratto di distribuzione è un contratto di durata, e la determinazione del suo carattere a tempo determinato o indeterminato è un elemento strutturale che deve risultare dal regolamento contrattuale. L’esclusiva può esserci oppure no; la remunerazione si realizza normalmente mediante il margine di rivendita e non richiede una clausola autonoma come in altri contratti; e il minimo di acquisti è frequente, ma non necessario.",
+      "legal_reference": "7_TEMA 7_1.PDF, apartado I.",
+      "original_file": {
+        "file_name": "7_TEMA 7_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 89,
+      "question": "Cual es de estas respuestas no es cierta en relación con la resolución de un contrario de distribución por tiempo indefinido:",
+      "answers": [
+        {
+          "text": "Es necesario alegar y probar la justa causa de resolución.",
+          "correct": true
+        },
+        {
+          "text": "Puede ponerse fin al contrato medie o no justa causa, con independencia de las indemnizaciones que puedan dar lugar",
+          "correct": false
+        },
+        {
+          "text": "Estarán legitimados tanto el concedente como el distribuidor",
+          "correct": false
+        },
+        {
+          "text": "Debe de preavisarse, en cualquier caso.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La afirmación no cierta es la primera. En los contratos de distribución por tiempo indefinido cabe la denuncia unilateral con el oportuno preaviso, sin necesidad de alegar y probar en todo caso una justa causa. La segunda recoge la lógica general del desistimiento en contratos indefinidos. La tercera es correcta porque ambas partes pueden poner fin a la relación. La cuarta se corresponde con la exigencia general de preaviso razonable en este tipo de terminaciones ordinarias.\nIT: L’affermazione non vera è la prima. Nei contratti di distribuzione a tempo indeterminato è ammessa la denuncia unilaterale con il dovuto preavviso, senza necessità di allegare e provare sempre una giusta causa. La seconda riflette la logica generale del recesso nei contratti di durata indeterminata. La terza è corretta perché entrambe le parti possono porre fine al rapporto. La quarta corrisponde all’esigenza generale di un preavviso ragionevole in questo tipo di cessazioni ordinarie.",
+      "legal_reference": "7_TEMA 7_1.PDF, apartado III; STS 15 de marzo de 2011.",
+      "original_file": {
+        "file_name": "7_TEMA 7_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 90,
+      "question": "En el contrato de franquicia el plazo de duración deberá ser:",
+      "answers": [
+        {
+          "text": "Determinado",
+          "correct": false
+        },
+        {
+          "text": "indefinido",
+          "correct": false
+        },
+        {
+          "text": "Determinado, con una duración mínima que permita la amortización de su Inversión.",
+          "correct": false
+        },
+        {
+          "text": "Todas son ciertas",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La pregunta está defectuosamente formulada si se exige una sola respuesta estrictamente correcta. El contrato de franquicia puede pactarse por tiempo determinado o indefinido; y sólo en el primer caso el temario añade la idea de una duración suficiente para amortizar la inversión. Por ello, ni la primera ni la segunda son universalmente verdaderas por sí solas, la tercera solo sería válida para una de las modalidades posibles y la cuarta tampoco puede aceptarse como solución exacta. Ninguna respuesta es plenamente correcta en sentido literal.\nIT: La domanda è formulata in modo difettoso se si pretende una sola risposta rigorosamente corretta. Il contratto di franchising può essere pattuito a tempo determinato o indeterminato; e solo nel primo caso il materiale del corso aggiunge l’idea di una durata sufficiente a consentire l’ammortamento dell’investimento. Per questo, né la prima né la seconda sono universalmente vere da sole, la terza vale solo per una delle possibili modalità e la quarta non può essere accolta come soluzione esatta. Nessuna risposta è pienamente corretta in senso letterale.",
+      "legal_reference": "8_TEMA 8_1.PDF, apartado VI; Ley 7/1996, art. 62; Real Decreto 201/2010.",
+      "original_file": {
+        "file_name": "8_TEMA 8_1.PDF",
+        "file_format": "PDF"
+      }
     }
   ]
 }

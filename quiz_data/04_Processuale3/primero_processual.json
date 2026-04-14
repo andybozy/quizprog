@@ -1,0 +1,855 @@
+{
+  "batch_start": 1,
+  "batch_end": 30,
+  "total_questions": 100,
+  "progress": "30 di 100 totali",
+  "file_number": 0,
+  "file_name": "source_not_identified_in_uploaded_files__user_message_block_1",
+  "questions": [
+    {
+      "question_number": 1,
+      "question": "Las medidas cautelares que pretenden garantizar la presencia del investigado durante la tramitación del procedimiento son:",
+      "answers": [
+        {
+          "text": "Medidas reales.",
+          "correct": false
+        },
+        {
+          "text": "Medidas personales.",
+          "correct": true
+        },
+        {
+          "text": "Medidas asegurativas.",
+          "correct": false
+        },
+        {
+          "text": "Medidas mixtas.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «Medidas personales» porque son las que inciden sobre la libertad o disponibilidad personal del investigado para asegurar su sometimiento al proceso, evitar la fuga y garantizar su presencia cuando sea necesaria. «Medidas reales» se refieren al patrimonio y sirven para asegurar responsabilidades pecuniarias; «asegurativas» no es la categoría técnica general usada en esta clasificación; y «mixtas» no es la tipología ordinaria de la LECrim para esta finalidad.\nIT: La risposta corretta è «Medidas personales», perché sono le misure che incidono sulla libertà o sulla disponibilità personale dell’indagato per assicurarne la presenza nel procedimento ed evitare il rischio di fuga. Le «medidas reales» riguardano invece i beni patrimoniali e servono a garantire responsabilità economiche; «asegurativas» non è la categoria tecnica generale di questa classificazione; «mixtas» non è la tipologia ordinaria prevista per questo scopo.",
+      "legal_reference": [
+        "LECrim, arts. 502 y ss. (prisión provisional y demás medidas personales)",
+        "LECrim, arts. 589 y ss. (embargo y fianzas de contenido patrimonial)"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 2,
+      "question": "Las medidas cautelares de fianza y embargo son:",
+      "answers": [
+        {
+          "text": "Medidas cautelares asegurativas.",
+          "correct": false
+        },
+        {
+          "text": "Medidas cautelares punitivas.",
+          "correct": false
+        },
+        {
+          "text": "Medidas cautelares reales.",
+          "correct": true
+        },
+        {
+          "text": "Medidas cautelares personales.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «Medidas cautelares reales» porque fianza y embargo recaen sobre bienes o patrimonios y buscan asegurar las responsabilidades civiles, pecuniarias o procesales derivadas del proceso penal. No son «punitivas» porque no anticipan la pena; tampoco son «personales» porque no restringen directamente la libertad personal; y «asegurativas» puede usarse doctrinalmente en sentido amplio, pero la clasificación técnica frente a las personales es la de medidas reales.\nIT: La risposta corretta è «Medidas cautelares reales», perché cauzione e sequestro colpiscono beni o patrimonio e servono a garantire le responsabilità civili o economiche derivanti dal processo penale. Non sono «punitivas» perché non anticipano la pena; non sono «personales» perché non limitano direttamente la libertà personale; e «asegurativas», pur potendo comparire in senso descrittivo, non è qui la categoria tecnica contrapposta alle misure personali.",
+      "legal_reference": [
+        "LECrim, arts. 589 a 614 bis",
+        "CP, arts. 109 a 122"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 3,
+      "question": "La orden de alejamiento dictada en fase de instrucción es:",
+      "answers": [
+        {
+          "text": "Una pena.",
+          "correct": false
+        },
+        {
+          "text": "Una medida cautelar.",
+          "correct": true
+        },
+        {
+          "text": "Tanto la a como la b son correctas.",
+          "correct": false
+        },
+        {
+          "text": "Ni la a ni la b son correctas.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «Una medida cautelar» cuando se adopta en fase de instrucción, porque en ese momento todavía no existe sentencia condenatoria firme y la finalidad es preventiva y asegurativa, no sancionadora. «Una pena» sería incorrecto porque la pena solo puede imponerse en sentencia; por eso tampoco puede ser correcta la opción que acumula ambas ni la que niega las dos.\nIT: La risposta corretta è «Una medida cautelar» quando viene adottata nella fase istruttoria, perché in quel momento non esiste ancora una sentenza di condanna definitiva e la sua funzione è preventiva e cautelare, non punitiva. «Una pena» è errata perché la pena può essere inflitta solo con sentenza; di conseguenza sono errate anche l’opzione che somma entrambe e quella che le nega tutte e due.",
+      "legal_reference": [
+        "LECrim, arts. 544 bis y 544 ter",
+        "CP, arts. 48 y 57 (cuando opera como pena o medida de alejamiento en sentencia)"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 4,
+      "question": "El proceso penal soluciona un conflicto de doble dimensión: entre el agresor y el agredido, y:",
+      "answers": [
+        {
+          "text": "Entre el agresor y todos los afectados por el delito.",
+          "correct": false
+        },
+        {
+          "text": "Entre la conducta delictiva y la ley.",
+          "correct": false
+        },
+        {
+          "text": "Entre la conducta delictiva y la comunidad.",
+          "correct": true
+        },
+        {
+          "text": "Entre el delincuente y la sociedad.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La opción más correcta es «Entre la conducta delictiva y la comunidad», porque el delito no solo lesiona a la víctima individual, sino también al orden jurídico y a la convivencia social, de ahí la dimensión pública del proceso penal. La opción sobre «todos los afectados» es imprecisa y desplaza el eje al daño plural, no a la dimensión pública; «conducta delictiva y la ley» formula mal el conflicto; y «delincuente y la sociedad» es demasiado genérica y no recoge con la misma precisión la idea técnico-procesal.\nIT: L’opzione più corretta è «Entre la conducta delictiva y la comunidad», perché il reato non offende solo la vittima individuale, ma anche l’ordine giuridico e la convivenza sociale, da cui deriva la dimensione pubblica del processo penale. L’opzione relativa a «todos los afectados» è imprecisa; quella su «la ley» formula male il conflitto; «delincuente y la sociedad» è troppo generica e non esprime con la stessa precisione l’idea processuale.",
+      "legal_reference": [
+        "CE, art. 124",
+        "LECrim, art. 101",
+        "CP, función de tutela de bienes jurídicos"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 5,
+      "question": "El proceso penal es el último instrumento de:",
+      "answers": [
+        {
+          "text": "Nuestro ordenamiento jurídico.",
+          "correct": true
+        },
+        {
+          "text": "Del control del Estado.",
+          "correct": false
+        },
+        {
+          "text": "De la política pública de seguridad.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores es correcta.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «Nuestro ordenamiento jurídico» porque el proceso penal es el cauce extremo y más intenso del ius puniendi, coherente con la idea de ultima ratio del Derecho penal. «Control del Estado» es una formulación demasiado política y reductiva; «política pública de seguridad» no agota ni define la función jurídico-constitucional del proceso penal; y por ello tampoco es correcta la negativa global.\nIT: La risposta corretta è «Nuestro ordenamiento jurídico», perché il processo penale rappresenta il mezzo estremo e più incisivo attraverso cui si esercita lo ius puniendi, in coerenza con l’idea di extrema ratio del diritto penale. «Control del Estado» è una formula troppo politica e riduttiva; «política pública de seguridad» non esaurisce né definisce la funzione giuridico-costituzionale del processo penale; perciò è errata anche la negazione complessiva.",
+      "legal_reference": [
+        "CE, arts. 24 y 25",
+        "CP, principio de legalidad y carácter de ultima ratio del Derecho penal"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 6,
+      "question": "El principio de intervención mínima característico del proceso penal determina que solo resulta legítima la respuesta penal cuando resulte afectado:",
+      "answers": [
+        {
+          "text": "Un bien jurídico esencial para el común de la sociedad.",
+          "correct": true
+        },
+        {
+          "text": "Un derecho fundamental de la ciudadanía.",
+          "correct": false
+        },
+        {
+          "text": "Un bien potestativo de la convivencia pacífica en comunidad.",
+          "correct": false
+        },
+        {
+          "text": "Tanto la a como la b son correctas.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «Un bien jurídico esencial para el común de la sociedad», porque la intervención penal solo se justifica cuando la lesión afecta bienes jurídicos de especial relevancia y no bastan otros mecanismos menos intensos. La opción b es demasiado amplia: no toda afectación de un derecho fundamental exige necesariamente respuesta penal. La c usa una formulación no técnica. Y la d es incorrecta porque la b no lo es en sentido estricto.\nIT: La risposta corretta è «Un bien jurídico esencial para el común de la sociedad», perché l’intervento penale si giustifica solo quando la lesione colpisce beni giuridici di particolare rilievo e non bastano altri strumenti meno invasivi. L’opzione b è troppo ampia: non ogni lesione di un diritto fondamentale richiede necessariamente una risposta penale. La c usa una formulazione non tecnica. Anche la d è quindi errata, perché la b non è corretta in senso proprio.",
+      "legal_reference": [
+        "CP, principio de intervención mínima y tutela de bienes jurídicos",
+        "CE, arts. 1.1, 10 y 25"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 7,
+      "question": "El principio de proporcionalidad establece que las penas deben guardar la oportuna proporción con:",
+      "answers": [
+        {
+          "text": "La entidad del bien que se protege.",
+          "correct": false
+        },
+        {
+          "text": "La lesión producida.",
+          "correct": false
+        },
+        {
+          "text": "El modo en que la infracción se ha cometido.",
+          "correct": false
+        },
+        {
+          "text": "Todas las anteriores son correctas.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: En formato de test, la correcta es «Todas las anteriores son correctas», porque la proporcionalidad penal atiende al bien jurídico protegido, a la entidad efectiva de la lesión y a las circunstancias de ejecución del hecho. Las tres respuestas anteriores enuncian factores relevantes; por eso la opción recapitulativa es la que debe marcarse.\nIT: Nel formato del test la risposta corretta è «Todas las anteriores son correctas», perché la proporzionalità della pena tiene conto del bene giuridico protetto, dell’entità della lesione e delle modalità di commissione del fatto. Le tre risposte precedenti indicano tutte fattori rilevanti; per questo va selezionata l’opzione riassuntiva.",
+      "legal_reference": [
+        "CE, art. 25.1",
+        "CP, criterios de individualización judicial de la pena"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 8,
+      "question": "Señale la respuesta incorrecta. Las penas privativas de libertad y las medidas de seguridad, según el artículo 25.2 de la CE, deben servir para:",
+      "answers": [
+        {
+          "text": "La reeducación.",
+          "correct": false
+        },
+        {
+          "text": "La reinserción social.",
+          "correct": false
+        },
+        {
+          "text": "Tanto la a como la b son correctas.",
+          "correct": false
+        },
+        {
+          "text": "La retribución.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La incorrecta es «La retribución», porque el art. 25.2 CE proclama que las penas privativas de libertad y las medidas de seguridad estarán orientadas hacia la reeducación y la reinserción social. Por eso a y b expresan finalidades constitucionalmente reconocidas y c también es correcta como síntesis de ambas. La retribución puede ser una categoría dogmática penal, pero no es la finalidad que el precepto constitucional consagra en esos términos.\nIT: L’opzione errata è «La retribución», perché l’art. 25.2 CE afferma che le pene privative della libertà e le misure di sicurezza devono essere orientate alla rieducazione e al reinserimento sociale. Di conseguenza a e b esprimono finalità costituzionalmente riconosciute, e anche c è corretta come sintesi. La retribuzione può essere una categoria teorica del diritto penale, ma non è la finalità consacrata da quel precetto costituzionale.",
+      "legal_reference": [
+        "CE, art. 25.2"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 9,
+      "question": "Señale la respuesta incorrecta. La protección asistencial integral de la víctima por la ley debe ser:",
+      "answers": [
+        {
+          "text": "Asistencial.",
+          "correct": false
+        },
+        {
+          "text": "Tutelar.",
+          "correct": true
+        },
+        {
+          "text": "Procesal.",
+          "correct": false
+        },
+        {
+          "text": "De reparación del daño.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La incorrecta es «Tutelar» porque, en la formulación legal del Estatuto de la Víctima, la protección se articula en clave de asistencia, información, participación procesal, apoyo y reparación, no como categoría autónoma llamada «tutelar». Las opciones asistencial, procesal y de reparación del daño sí encajan con la lógica del estatuto y de la protección integral de la víctima.\nIT: L’opzione errata è «Tutelar» perché, nella formulazione legale dello Statuto della vittima, la protezione si articola come assistenza, informazione, partecipazione processuale, sostegno e riparazione, non come categoria autonoma definita «tutelar». Le opzioni assistenziale, processuale e di riparazione del danno sono invece coerenti con la protezione integrale della vittima.",
+      "legal_reference": [
+        "Ley 4/2015, arts. 3 a 18 y 19 a 26",
+        "Directiva 2012/29/UE"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 10,
+      "question": "Señale la respuesta incorrecta. En España, el Ministerio Fiscal:",
+      "answers": [
+        {
+          "text": "Comparte el monopolio de la acusación.",
+          "correct": false
+        },
+        {
+          "text": "Tiene el monopolio de la acusación con la acción popular.",
+          "correct": true
+        },
+        {
+          "text": "Comparte el monopolio de la acusación con la acusación particular.",
+          "correct": false
+        },
+        {
+          "text": "No tiene el monopolio de la acusación.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La incorrecta es «Tiene el monopolio de la acusación con la acción popular», porque si existe acción popular y acusación particular, precisamente ya no hay monopolio del Ministerio Fiscal. En España el MF es el acusador público, pero la acción penal puede ejercerse también por acusación particular y, en los delitos públicos, por acción popular. Por eso la idea correcta es que no tiene monopolio exclusivo.\nIT: L’opzione errata è «Tiene el monopolio de la acusación con la acción popular», perché se esistono azione popolare e accusa particolare, il Ministerio Fiscal non ha affatto un monopolio esclusivo. In Spagna il PM è l’accusatore pubblico, ma l’azione penale può essere esercitata anche dall’accusa particolare e, nei delitti pubblici, dall’azione popolare. Perciò l’idea giusta è che non gode di monopolio esclusivo dell’accusa.",
+      "legal_reference": [
+        "CE, arts. 124 y 125",
+        "LECrim, arts. 101, 105, 109 bis y concordantes",
+        "EOMF, arts. 1 y 3"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 11,
+      "question": "El acusador particular es necesario como querellante en los delitos:",
+      "answers": [
+        {
+          "text": "Privados.",
+          "correct": true
+        },
+        {
+          "text": "Públicos.",
+          "correct": false
+        },
+        {
+          "text": "Semipúblicos.",
+          "correct": false
+        },
+        {
+          "text": "Todas las respuestas anteriores son correctas.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta de examen es «Privados», porque en los delitos privados la persecución exige querella del ofendido. Ahora bien, hay una precisión técnica importante: en rigor, en los delitos privados se habla de «acusador privado», no de «acusador particular». En los delitos públicos no es necesaria la querella del ofendido para la persecución de oficio, y en los semipúblicos suele exigirse denuncia previa del ofendido, no necesariamente querella en ese sentido estricto.\nIT: La risposta da test è «Privados», perché nei delitti privati la persecuzione richiede la querela della persona offesa. C’è però una precisazione tecnica importante: propriamente, nei delitti privati si parla di «acusador privado», non di «acusador particular». Nei delitti pubblici non è necessaria la querela dell’offeso per l’avvio d’ufficio, e nei semipubblici di regola è richiesta una denuncia previa dell’offeso, non necessariamente una querela in senso stretto.",
+      "legal_reference": [
+        "CP, art. 215",
+        "LECrim, arts. 104, 105, 270 y concordantes"
+      ],
+      "source_note": "La formulación usa «acusador particular», pero técnicamente el término más preciso en delitos privados es «acusador privado».",
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 12,
+      "question": "Entre las funciones que tiene encomendadas el Ministerio Fiscal en el proceso penal se encuentra:",
+      "answers": [
+        {
+          "text": "Promover la acción de la justicia.",
+          "correct": false
+        },
+        {
+          "text": "Velar por la independencia de los tribunales.",
+          "correct": false
+        },
+        {
+          "text": "Procurar la satisfacción del interés social ante los tribunales.",
+          "correct": false
+        },
+        {
+          "text": "Todas las anteriores son correctas.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta en formato test es «Todas las anteriores son correctas», porque el Ministerio Fiscal promueve la acción de la justicia, actúa en defensa de la legalidad y del interés público y tiene entre sus funciones velar por la independencia de los tribunales. Las tres respuestas anteriores reflejan funciones compatibles con el art. 124 CE y con el EOMF, por lo que la opción recapitulativa es la adecuada.\nIT: Nel formato del test la risposta corretta è «Todas las anteriores son correctas», perché il Ministerio Fiscal promuove l’azione della giustizia, agisce in difesa della legalità e dell’interesse pubblico e ha anche la funzione di vigilare sull’indipendenza dei tribunali. Le tre risposte precedenti riflettono funzioni coerenti con l’art. 124 CE e con lo Statuto organico del PM; per questo va scelta l’opzione riassuntiva.",
+      "legal_reference": [
+        "EOMF, art. 3",
+        "CE, art. 124.1"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 13,
+      "question": "El Ministerio Fiscal puede participar como acusación en los delitos privados:",
+      "answers": [
+        {
+          "text": "Si previamente interpone denuncia la víctima.",
+          "correct": false
+        },
+        {
+          "text": "Si previamente interpone querella la parte.",
+          "correct": false
+        },
+        {
+          "text": "Tanto la a como la b son correctas.",
+          "correct": false
+        },
+        {
+          "text": "Nunca puede participar.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «Nunca puede participar» si se toma la categoría clásica de delitos privados en sentido estricto: su persecución corresponde exclusivamente al ofendido mediante querella. La denuncia de la víctima no basta, y tampoco transforma al Ministerio Fiscal en acusador privado. Como matiz técnico, fuera de esa lógica estricta pueden existir supuestos especiales de protección de menores o personas necesitadas de especial protección, pero no alteran la regla general del delito privado clásico.\nIT: La risposta corretta è «Nunca puede participar» se si considera la categoria classica dei delitti privati in senso stretto: la loro persecuzione spetta esclusivamente alla persona offesa mediante querela. La sola denuncia non basta e non trasforma il Ministerio Fiscal in accusatore privato. Come precisazione tecnica, possono esistere ipotesi speciali di protezione di minori o persone particolarmente vulnerabili, ma non modificano la regola generale del delitto privato classico.",
+      "legal_reference": [
+        "CP, art. 215",
+        "LECrim, arts. 104 y 105"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 14,
+      "question": "El Ministerio Fiscal habrá de cuidar que en el proceso se consignen:",
+      "answers": [
+        {
+          "text": "Las circunstancias adversas al imputado.",
+          "correct": false
+        },
+        {
+          "text": "Las circunstancias favorables al imputado.",
+          "correct": false
+        },
+        {
+          "text": "Tanto la a como la b son correctas.",
+          "correct": true
+        },
+        {
+          "text": "Ni la a ni la b son correctas.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «Tanto la a como la b son correctas», porque el Ministerio Fiscal actúa con objetividad e imparcialidad institucional: no solo ha de sostener la acusación cuando proceda, sino también velar porque consten tanto los elementos adversos como los favorables al investigado. Por eso no puede reducirse su función a una perspectiva exclusivamente incriminatoria.\nIT: La risposta corretta è «Tanto la a como la b son correctas», perché il Ministerio Fiscal agisce con obiettività e imparzialità istituzionale: non deve solo sostenere l’accusa quando è dovuta, ma anche assicurarsi che risultino nel processo sia gli elementi sfavorevoli sia quelli favorevoli all’indagato. La sua funzione, quindi, non può essere ridotta a una prospettiva soltanto accusatoria.",
+      "legal_reference": [
+        "CE, art. 124",
+        "EOMF, arts. 2 y 7"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 15,
+      "question": "Sobre el ejercicio de la acción popular en el proceso penal podemos decir:",
+      "answers": [
+        {
+          "text": "Puede ir acompañada del ejercicio de la acción civil.",
+          "correct": false
+        },
+        {
+          "text": "Debe comparecer en la causa interponiendo denuncia.",
+          "correct": false
+        },
+        {
+          "text": "Debe prestarse fianza con carácter general.",
+          "correct": true
+        },
+        {
+          "text": "Todas las anteriores son correctas.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Jurídicamente, la única correcta es «Debe prestarse fianza con carácter general», porque el acusador popular suele estar sujeto a la prestación de fianza conforme al art. 280 LECrim. La acción popular no se articula mediante simple denuncia, sino mediante querella y personación formal; además, la doctrina dominante niega que el acusador popular pueda ejercitar por sí la acción civil derivada del delito. Por eso «Todas las anteriores» no es correcta. Si en la fuente de estudio se marcó otra respuesta, esa clave resulta jurídicamente discutible.\nIT: Giuridicamente, l’unica risposta corretta è «Debe prestarse fianza con carácter general», perché l’accusatore popolare è normalmente soggetto alla prestazione di una cauzione ai sensi dell’art. 280 LECrim. L’azione popolare non si esercita con una semplice denuncia, ma con querela e costituzione formale nel processo; inoltre, la dottrina prevalente esclude che l’accusatore popolare possa esercitare autonomamente l’azione civile derivante dal reato. Per questo «Todas las anteriores» non è corretta. Se nella fonte di studio era indicata un’altra chiave, essa è giuridicamente discutibile.",
+      "legal_reference": [
+        "CE, art. 125",
+        "LECrim, arts. 101, 270, 277 y 280",
+        "LOPJ, art. 20.3"
+      ],
+      "source_note": "La clave marcada en el material aportado parece discutible; se corrige conforme a la LECrim y a la doctrina mayoritaria.",
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 16,
+      "question": "Con respecto a la postulación procesal de los acusadores en el procedimiento penal podemos decir que:",
+      "answers": [
+        {
+          "text": "El Ministerio Fiscal no precisa de postulación.",
+          "correct": true
+        },
+        {
+          "text": "Siempre se requiere postulación independientemente del tipo de procedimiento.",
+          "correct": false
+        },
+        {
+          "text": "La postulación solo se requiere para el caso de los delitos leves.",
+          "correct": false
+        },
+        {
+          "text": "El Ministerio Fiscal no puede comparecer por sí mismo.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «El Ministerio Fiscal no precisa de postulación», porque actúa por ministerio de la ley y no necesita procurador para comparecer en el proceso penal. La opción b es falsa porque la necesidad de postulación varía según sujeto y procedimiento; la c es incorrecta por simplista y porque los delitos leves tienen precisamente un régimen más flexible; y la d contradice la propia naturaleza institucional del MF.\nIT: La risposta corretta è «El Ministerio Fiscal no precisa de postulación», perché il PM agisce per ministero della legge e non ha bisogno di procuratore per comparire nel processo penale. L’opzione b è falsa perché la necessità di postulazione varia secondo il soggetto e il procedimento; la c è errata perché riduttiva e perché nei reati lievi il regime è anzi più flessibile; la d contraddice la stessa natura istituzionale del Ministerio Fiscal.",
+      "legal_reference": [
+        "EOMF, arts. 1 y 3",
+        "LECrim, régimen general de representación y comparecencia del MF"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 17,
+      "question": "Con respecto a la presentación de la denuncia podemos decir que:",
+      "answers": [
+        {
+          "text": "Puede presentarse sin indicación del denunciado.",
+          "correct": true
+        },
+        {
+          "text": "Debe dejar constancia del presunto autor.",
+          "correct": false
+        },
+        {
+          "text": "Puede desarrollarse toda la instrucción y hasta celebrarse juicio oral sin tener autor conocido.",
+          "correct": false
+        },
+        {
+          "text": "Si se presenta sin indicación del denunciado se decreta el sobreseimiento y no se procede a la instrucción.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «Puede presentarse sin indicación del denunciado», porque la denuncia puede formularse aunque no se conozca al autor; precisamente la instrucción sirve, entre otras cosas, para averiguar su identidad. No es cierto que deba necesariamente identificarse al presunto autor en la denuncia. Tampoco puede celebrarse juicio oral sin un sujeto pasivo determinado, y mucho menos procede el sobreseimiento automático por no haber identificado al denunciado desde el inicio. Si la clave del material marcaba otra opción, esa clave debe corregirse.\nIT: La risposta corretta è «Puede presentarse sin indicación del denunciado», perché la denuncia può essere presentata anche senza conoscere l’autore; proprio l’istruzione serve anche a identificarlo. Non è quindi vero che il presunto autore debba essere necessariamente indicato nella denuncia. Nemmeno si può celebrare un giudizio orale senza un imputato determinato, e non esiste un automatico proscioglimento solo perché il denunciato non è identificato sin dall’inizio. Se nel materiale di studio era segnata un’altra risposta, quella chiave va corretta.",
+      "legal_reference": [
+        "LECrim, arts. 259 y ss.",
+        "LECrim, arts. 299, 641.2 y 779.1.1ª"
+      ],
+      "source_note": "La clave marcada en el material aportado parece errónea; se corrige conforme a la regulación de la denuncia y del sobreseimiento provisional.",
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 18,
+      "question": "¿Quiénes tienen capacidad para ser parte en el proceso penal?",
+      "answers": [
+        {
+          "text": "Las personas físicas vivas.",
+          "correct": false
+        },
+        {
+          "text": "Todos los que pueden participar conscientemente en el proceso.",
+          "correct": true
+        },
+        {
+          "text": "El mero hecho de que se realice la imputación le otorga la capacidad para ser parte.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores es correcta.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta clásica de examen es «Todos los que pueden participar conscientemente en el proceso», porque la capacidad procesal penal tradicional se conectaba con la aptitud para intervenir de forma consciente y ejercer defensa. Sin embargo, conviene advertir que la pregunta es técnicamente imperfecta a la luz del Derecho vigente, porque hoy también pueden ser parte acusada determinadas personas jurídicas. La opción a es demasiado restrictiva; la c confunde imputación con capacidad; y la d no es la esperada en el esquema doctrinal clásico.\nIT: La risposta classica d’esame è «Todos los que pueden participar conscientemente en el proceso», perché la capacità processuale penale, nella costruzione tradizionale, si collega all’idoneità a partecipare consapevolmente e a esercitare la difesa. Occorre però precisare che la domanda è tecnicamente imperfetta alla luce del diritto vigente, perché oggi possono essere parte accusata anche determinate persone giuridiche. L’opzione a è troppo restrittiva; la c confonde imputazione e capacità; la d non è quella attesa nello schema dottrinale classico.",
+      "legal_reference": [
+        "LECrim, arts. 118 y 119",
+        "CP, art. 31 bis"
+      ],
+      "source_note": "Pregunta doctrinalmente discutible en Derecho vigente por la admisión de responsabilidad penal de personas jurídicas.",
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 19,
+      "question": "El derecho de defensa puede articularse:",
+      "answers": [
+        {
+          "text": "Por el investigado o encausado.",
+          "correct": false
+        },
+        {
+          "text": "Por el abogado del investigado.",
+          "correct": false
+        },
+        {
+          "text": "Tanto la a como la b son correctas.",
+          "correct": true
+        },
+        {
+          "text": "Ni la a ni la b son correctas.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «Tanto la a como la b son correctas», porque el derecho de defensa comprende tanto la autodefensa en aquello que el ordenamiento permite como la defensa técnica ejercida por abogado. La defensa del investigado no excluye la intervención del letrado, sino que se complementan. Por eso no son correctas las opciones excluyentes.\nIT: La risposta corretta è «Tanto la a como la b son correctas», perché il diritto di difesa comprende sia l’autodifesa nei limiti consentiti dall’ordinamento, sia la difesa tecnica esercitata dall’avvocato. La difesa dell’indagato non esclude l’intervento del difensore, ma si integra con esso. Per questo le opzioni che ne escludono una sono errate.",
+      "legal_reference": [
+        "CE, art. 24.2",
+        "LECrim, arts. 118 y 520"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 20,
+      "question": "Con respecto al derecho de defensa del investigado podemos decir que:",
+      "answers": [
+        {
+          "text": "Nace con la apertura de la investigación.",
+          "correct": true
+        },
+        {
+          "text": "Finaliza con la instrucción.",
+          "correct": false
+        },
+        {
+          "text": "Nace con la fase de instrucción judicial.",
+          "correct": false
+        },
+        {
+          "text": "Finaliza con resolución recurrible del proceso.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «Nace con la apertura de la investigación», o más precisamente desde que a una persona se le atribuye un hecho punible y puede verse afectada por la investigación. No finaliza con la instrucción porque se proyecta también sobre el juicio, los recursos y la ejecución en cuanto corresponda. La opción c es demasiado estrecha porque hoy el derecho de defensa nace incluso antes de la pura fase judicial en sentido clásico; y la d tampoco define correctamente su extensión temporal.\nIT: La risposta corretta è «Nace con la apertura de la investigación», o più precisamente dal momento in cui a una persona viene attribuito un fatto penalmente rilevante e la sua posizione può essere incisa dall’indagine. Non termina con l’istruzione, perché si proietta anche sul giudizio, sui ricorsi e, nei limiti pertinenti, sull’esecuzione. L’opzione c è troppo stretta, perché oggi il diritto di difesa nasce anche prima della fase giudiziale in senso classico; la d non descrive correttamente il suo ambito temporale.",
+      "legal_reference": [
+        "LECrim, art. 118",
+        "CE, art. 24.2"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 21,
+      "question": "El Tribunal Constitucional ha establecido que el derecho a la asistencia de abogado debe garantizarse también:",
+      "answers": [
+        {
+          "text": "En los delitos privados.",
+          "correct": false
+        },
+        {
+          "text": "En los procedimientos en que no es preceptiva siempre que el interesado lo solicite.",
+          "correct": true
+        },
+        {
+          "text": "Solo en los procedimientos en los que su intervención es preceptiva.",
+          "correct": false
+        },
+        {
+          "text": "Solo en los procedimientos en los que su intervención es preceptiva si el interesado lo solicita.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «En los procedimientos en que no es preceptiva siempre que el interesado lo solicite», porque el derecho de defensa y asistencia letrada no puede vaciarse por el simple hecho de que una determinada intervención no sea legalmente obligatoria. La opción c es demasiado restrictiva; la d reproduce ese mismo error añadiendo una condición innecesaria; y la a no responde al verdadero criterio constitucional, que no se formula por clases de delito sino por garantía efectiva de defensa.\nIT: La risposta corretta è «En los procedimientos en que no es preceptiva siempre que el interesado lo solicite», perché il diritto di difesa e all’assistenza di un avvocato non può essere svuotato solo perché in un certo procedimento l’assistenza non è formalmente obbligatoria. L’opzione c è troppo restrittiva; la d ripete lo stesso errore aggiungendo una condizione inutile; la a non individua il criterio costituzionale, che non dipende dalla categoria di reato ma dall’effettività della difesa.",
+      "legal_reference": [
+        "CE, art. 24.2",
+        "Jurisprudencia constitucional sobre asistencia letrada y defensa efectiva"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 22,
+      "question": "El objeto del proceso penal se caracteriza por:",
+      "answers": [
+        {
+          "text": "Su relación con el derecho de acción.",
+          "correct": false
+        },
+        {
+          "text": "Su inmutabilidad.",
+          "correct": false
+        },
+        {
+          "text": "Su indisponibilidad.",
+          "correct": false
+        },
+        {
+          "text": "Todas las anteriores son correctas.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta en formato test es «Todas las anteriores son correctas», porque el objeto del proceso penal se relaciona con el ejercicio de la acción penal, no queda libremente disponible para las partes en la lógica general del sistema y presenta una relevante estabilidad o inmutabilidad respecto del hecho punible que se enjuicia. Como las tres afirmaciones previas expresan rasgos doctrinalmente asociados al objeto del proceso penal, la respuesta de síntesis es la adecuada.\nIT: Nel formato del test la risposta corretta è «Todas las anteriores son correctas», perché l’oggetto del processo penale si collega all’esercizio dell’azione penale, non è liberamente disponibile alle parti nella logica generale del sistema e presenta una rilevante stabilità o immutabilità rispetto al fatto da giudicare. Poiché le tre affermazioni precedenti esprimono caratteristiche dottrinalmente associate all’oggetto del processo penale, l’opzione di sintesi è quella corretta.",
+      "legal_reference": [
+        "LECrim, régimen de la acción penal y congruencia",
+        "Doctrina procesal penal sobre objeto del proceso"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 23,
+      "question": "Con respecto a la vinculación que el órgano judicial tiene con la calificación que hagan las partes podemos decir que:",
+      "answers": [
+        {
+          "text": "No está vinculado por la misma.",
+          "correct": true
+        },
+        {
+          "text": "Sólo está vinculado por la pena.",
+          "correct": false
+        },
+        {
+          "text": "Es igual para el procedimiento sumario que para el procedimiento abreviado.",
+          "correct": false
+        },
+        {
+          "text": "Todas las anteriores son correctas.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «No está vinculado por la misma», porque el tribunal no queda sujeto en términos absolutos a la calificación jurídica de las partes; lo decisivo es respetar los hechos objeto de acusación, el principio acusatorio y la contradicción. No es verdad que solo quede vinculado por la pena. Tampoco es exacto decir que el régimen sea igual en sumario y abreviado, porque existen matices procedimentales relevantes. Por ello la opción global también es falsa.\nIT: La risposta corretta è «No está vinculado por la misma», perché il tribunale non è vincolato in modo assoluto alla qualificazione giuridica proposta dalle parti; ciò che conta è rispettare i fatti oggetto dell’accusa, il principio accusatorio e il contraddittorio. Non è vero che sia vincolato soltanto dalla pena. Non è neppure esatto dire che il regime sia identico nel sumario e nel procedimiento abreviado, perché esistono differenze procedimentali rilevanti. Perciò è falsa anche l’opzione riassuntiva.",
+      "legal_reference": [
+        "LECrim, arts. 733 y concordantes",
+        "Principio acusatorio y congruencia"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 24,
+      "question": "¿Quién puede proponer las cuestiones prejudiciales en el proceso penal?",
+      "answers": [
+        {
+          "text": "Las partes.",
+          "correct": false
+        },
+        {
+          "text": "El Ministerio Fiscal.",
+          "correct": false
+        },
+        {
+          "text": "El órgano judicial de oficio.",
+          "correct": false
+        },
+        {
+          "text": "Todas las anteriores son correctas.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es «Todas las anteriores son correctas», porque las cuestiones prejudiciales pueden ser planteadas por las partes, por el Ministerio Fiscal y apreciadas también por el órgano judicial de oficio cuando resulten relevantes para resolver el proceso penal. Dado que las tres opciones anteriores son compatibles con el sistema, la respuesta de síntesis es la adecuada.\nIT: La risposta corretta è «Todas las anteriores son correctas», perché le questioni pregiudiziali possono essere sollevate dalle parti, dal Ministerio Fiscal e anche rilevate d’ufficio dal giudice quando siano rilevanti per la decisione penale. Poiché tutte e tre le opzioni precedenti sono compatibili con il sistema, l’opzione riassuntiva è quella corretta.",
+      "legal_reference": [
+        "LOPJ, art. 10",
+        "LECrim, reglas generales sobre cuestiones prejudiciales"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 25,
+      "question": "¿Cuál de las siguientes no es una característica de las medidas cautelares penales?",
+      "answers": [
+        {
+          "text": "Inmutabilidad.",
+          "correct": true
+        },
+        {
+          "text": "Provisionalidad.",
+          "correct": false
+        },
+        {
+          "text": "Instrumentalidad.",
+          "correct": false
+        },
+        {
+          "text": "Legalidad.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «Inmutabilidad», porque las medidas cautelares penales se caracterizan precisamente por ser revisables, modificables y alzables si cambian las circunstancias. La provisionalidad es una nota típica; la instrumentalidad también, porque sirven al proceso y no son un fin en sí mismas; y la legalidad es presupuesto imprescindible para su adopción.\nIT: La risposta corretta è «Inmutabilidad», perché le misure cautelari penali si caratterizzano proprio per essere modificabili, revocabili e riesaminabili se cambiano le circostanze. La provvisorietà è una nota tipica; anche la strumentalità lo è, perché servono al processo e non costituiscono un fine autonomo; la legalità è poi un presupposto indispensabile per la loro adozione.",
+      "legal_reference": [
+        "LECrim, arts. 502 y ss.",
+        "Doctrina de las medidas cautelares: provisionalidad e instrumentalidad"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 26,
+      "question": "Con respecto al fumus boni iuris podemos decir que:",
+      "answers": [
+        {
+          "text": "Es un presupuesto de las medidas cautelares en el proceso penal.",
+          "correct": true
+        },
+        {
+          "text": "Significa que resultará justificado adoptar las medidas cautelares si existe un riesgo para los bienes o las personas a causa de la duración del proceso penal.",
+          "correct": false
+        },
+        {
+          "text": "Es lo mismo que el peligro de mora procesal.",
+          "correct": false
+        },
+        {
+          "text": "Todas las anteriores son correctas.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «Es un presupuesto de las medidas cautelares en el proceso penal», porque el fumus boni iuris alude, en términos simplificados, a la apariencia de buen derecho o a la existencia de indicios racionales que justifican cautelarmente la intervención. La opción b describe en realidad el periculum in mora, es decir, el riesgo derivado de la demora procesal. La c también es falsa por confundir ambos presupuestos, y la d cae con ellas.\nIT: La risposta corretta è «Es un presupuesto de las medidas cautelares en el proceso penal», perché il fumus boni iuris indica, in termini semplificati, l’apparenza di buon diritto o l’esistenza di indizi razionali che giustificano l’intervento cautelare. L’opzione b descrive invece il periculum in mora, cioè il rischio derivante dalla durata del processo. Anche la c è errata perché confonde i due presupposti, e con esse cade pure la d.",
+      "legal_reference": [
+        "LECrim, arts. 503 y ss.",
+        "Doctrina general de medidas cautelares: fumus boni iuris y periculum in mora"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 27,
+      "question": "En relación con el embargo de bienes podemos decir que:",
+      "answers": [
+        {
+          "text": "Está previsto en el artículo 589 de la Ley de Enjuiciamiento Criminal.",
+          "correct": false
+        },
+        {
+          "text": "Supone la retención de los bienes del procesado para evitar que se deshaga de ellos.",
+          "correct": false
+        },
+        {
+          "text": "Va dirigido a poder garantizar así el pago de la responsabilidad civil que se pueda derivar del proceso.",
+          "correct": false
+        },
+        {
+          "text": "Todas las anteriores son correctas.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: En formato test, la correcta es «Todas las anteriores son correctas». El embargo se regula en la LECrim, con referencia nuclear al art. 589; implica la afección de bienes del investigado o procesado para impedir su desaparición o disposición fraudulenta; y su finalidad es asegurar el pago de responsabilidades civiles y demás consecuencias patrimoniales del proceso. Por ello la respuesta recapitulativa es la adecuada.\nIT: Nel formato del test la risposta corretta è «Todas las anteriores son correctas». Il sequestro/embargo è disciplinato dalla LECrim, con riferimento centrale all’art. 589; comporta il vincolo sui beni dell’indagato o imputato per impedirne la dispersione o la sottrazione; e la sua finalità è garantire il pagamento delle responsabilità civili e delle conseguenze patrimoniali del processo. Per questo l’opzione riassuntiva è quella corretta.",
+      "legal_reference": [
+        "LECrim, arts. 589 y ss.",
+        "CP, arts. 109 y ss."
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 28,
+      "question": "La medida cautelar de prisión provisional:",
+      "answers": [
+        {
+          "text": "Consiste en la pena de ingreso del investigado en un centro penitenciario.",
+          "correct": false
+        },
+        {
+          "text": "Tiene como fin asegurar el desarrollo posterior del proceso penal.",
+          "correct": true
+        },
+        {
+          "text": "Tiene como fin garantizar la segura imposición de una condena.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores es correcta.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «Tiene como fin asegurar el desarrollo posterior del proceso penal», porque la prisión provisional es una medida cautelar instrumental orientada a fines constitucionalmente legítimos como evitar la fuga, impedir la destrucción de pruebas o prevenir ciertos riesgos concretos. No es una pena anticipada. Tampoco puede justificarse para garantizar una condena segura, ya que ello vulneraría la presunción de inocencia.\nIT: La risposta corretta è «Tiene como fin asegurar el desarrollo posterior del proceso penal», perché la custodia cautelare in carcere è una misura strumentale orientata a fini costituzionalmente legittimi, come evitare la fuga, impedire la dispersione delle prove o prevenire determinati rischi concreti. Non è una pena anticipata. Non può nemmeno essere giustificata come mezzo per garantire una condanna certa, perché ciò violerebbe la presunzione di innocenza.",
+      "legal_reference": [
+        "LECrim, arts. 502 a 504",
+        "CE, arts. 17 y 24.2"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 29,
+      "question": "Con respecto a la medida cautelar de libertad provisional cabe decir que:",
+      "answers": [
+        {
+          "text": "Consiste en la medida de ingreso del investigado en un centro penitenciario salvo que se pague una fianza.",
+          "correct": false
+        },
+        {
+          "text": "Es una medida a medio camino entre la prisión provisional y la libertad condicional.",
+          "correct": false
+        },
+        {
+          "text": "Puede ser con fianza o sin ella.",
+          "correct": true
+        },
+        {
+          "text": "Está prevista en relación con los delitos de violencia doméstica y violencia de género.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «Puede ser con fianza o sin ella», porque la libertad provisional admite ambas modalidades según el riesgo procesal y el principio de proporcionalidad. La opción a describe de forma confusa la prisión eludible mediante fianza, no el concepto general de libertad provisional. La b mezcla instituciones distintas, pues la libertad condicional pertenece al ámbito de ejecución de la pena. La d es falsa porque la libertad provisional no es una medida exclusiva de esos delitos.\nIT: La risposta corretta è «Puede ser con fianza o sin ella», perché la libertà provvisoria può essere concessa con o senza cauzione, a seconda del rischio processuale e del principio di proporzionalità. L’opzione a descrive in modo confuso la custodia evitabile mediante cauzione, non il concetto generale di libertà provvisoria. La b confonde istituti diversi, poiché la libertà condizionale appartiene alla fase esecutiva della pena. La d è errata perché la libertà provvisoria non è prevista solo per quei reati.",
+      "legal_reference": [
+        "LECrim, arts. 528 a 544 quinquies",
+        "STC 85/1985"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 30,
+      "question": "La fase intermedia del procedimiento Sumario ordinario comienza:",
+      "answers": [
+        {
+          "text": "A partir del auto de apertura de juicio oral.",
+          "correct": false
+        },
+        {
+          "text": "A partir del auto de transformación de diligencias previas.",
+          "correct": false
+        },
+        {
+          "text": "A partir del auto de conclusión sumarial.",
+          "correct": true
+        },
+        {
+          "text": "Tras la recepción de los escritos de calificación de las partes.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «A partir del auto de conclusión sumarial», porque en el sumario ordinario la fase intermedia se abre cuando el juez instructor declara concluida la investigación y eleva la causa al órgano competente para decidir sobre la apertura del juicio oral o el sobreseimiento. La apertura de juicio oral es ya una consecuencia posterior dentro de esa fase. La transformación de diligencias previas pertenece al procedimiento abreviado, no al sumario ordinario. Y los escritos de calificación vienen después, no antes del inicio de la fase intermedia.\nIT: La risposta corretta è «A partir del auto de conclusión sumarial», perché nel sumario ordinario la fase intermedia si apre quando il giudice istruttore dichiara conclusa l’indagine e rimette la causa all’organo competente per decidere sull’apertura del dibattimento o sul proscioglimento. L’apertura del giudizio orale è quindi un momento successivo. La trasformazione delle diligencias previas appartiene al procedimiento abreviado, non al sumario ordinario. Gli scritti di qualificazione arrivano dopo, non prima dell’inizio di questa fase.",
+      "legal_reference": [
+        "LECrim, arts. 622 y ss."
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    }
+  ]
+}
