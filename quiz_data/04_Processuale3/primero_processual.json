@@ -850,6 +850,840 @@
         "LECrim, arts. 622 y ss."
       ],
       "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 31,
+      "question": "En la fase intermedia del procedimiento sumario:",
+      "answers": [
+        {
+          "text": "Las acusaciones que no efectúen personación en tiempo serán tenidas por apartadas del procedimiento.",
+          "correct": false
+        },
+        {
+          "text": "Aunque las acusaciones no efectúen personación en tiempo podrán personarse nuevamente antes de que se hubiera evacuado el trámite de calificación provisional por las otras acusaciones.",
+          "correct": false
+        },
+        {
+          "text": "Los trámites que resulten evacuados hasta que se produzca la nueva personación no les serán contrarios a las partes que no se personaron al inicio de la fase intermedia.",
+          "correct": false
+        },
+        {
+          "text": "Todas las anteriores son correctas.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es «Todas las anteriores son correctas», porque en la fase intermedia del sumario ordinario la falta inicial de personación puede determinar que la acusación quede apartada, pero cabe una personación ulterior antes de que se haya evacuado el trámite de calificación provisional por las demás acusaciones, sin que los trámites ya practicados le resulten perjudiciales en los términos previstos por la ley. Las tres afirmaciones previas describen, por tanto, reglas compatibles entre sí dentro de esta fase.\nIT: La risposta corretta è «Todas las anteriores son correctas», perché nella fase intermedia del sumario ordinario la mancata costituzione iniziale può comportare che l’accusa sia considerata ritirata, ma è ammessa una successiva comparizione prima che le altre accuse abbiano esaurito il termine per la qualificazione provvisoria; inoltre, gli atti già compiuti non le sono pregiudizievoli nei limiti previsti dalla legge. Perciò le tre affermazioni precedenti sono tra loro compatibili e l’opzione riassuntiva è corretta.",
+      "legal_reference": [
+        "LECrim, arts. 627 a 630"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 32,
+      "question": "En la fase intermedia del procedimiento ordinario:",
+      "answers": [
+        {
+          "text": "Debe personarse al inicio el Ministerio Fiscal.",
+          "correct": true
+        },
+        {
+          "text": "Debe personarse al inicio el acusado.",
+          "correct": false
+        },
+        {
+          "text": "No es preciso que se personen ni el Ministerio Fiscal ni el acusado.",
+          "correct": false
+        },
+        {
+          "text": "Es preciso que se personen tanto el Ministerio Fiscal como el acusado.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «Debe personarse al inicio el Ministerio Fiscal», porque en la fase intermedia del sumario ordinario el traslado inicial se articula ante todo respecto del Ministerio Fiscal y de las acusaciones para que interesen la apertura del juicio oral, el sobreseimiento o formulen sus conclusiones. El acusado no se configura en ese mismo momento como sujeto que deba personarse al inicio en el mismo sentido técnico de esta fase. Por eso las opciones que exigen también la personación inicial del acusado no son las adecuadas.\nIT: La risposta corretta è «Debe personarse al inicio el Ministerio Fiscal», perché nella fase intermedia del sumario ordinario il primo impulso è rivolto soprattutto al Ministerio Fiscal e alle accuse, affinché chiedano l’apertura del giudizio orale, il proscioglimento o formulino le loro conclusioni. L’imputato non è configurato, in questo identico momento, come soggetto che debba costituirsi inizialmente nello stesso senso tecnico della fase. Per questo le opzioni che richiedono anche la sua personazione iniziale non sono corrette.",
+      "legal_reference": [
+        "LECrim, arts. 627 y ss.",
+        "EOMF, art. 3"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 33,
+      "question": "Según el principio de proporcionalidad las penas deben guardar proporción con:",
+      "answers": [
+        {
+          "text": "La entidad del bien.",
+          "correct": false
+        },
+        {
+          "text": "La lesión producida.",
+          "correct": false
+        },
+        {
+          "text": "Las circunstancias del responsable.",
+          "correct": false
+        },
+        {
+          "text": "Todas las anteriores son correctas.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: En el formato del test, la correcta es «Todas las anteriores son correctas», porque la proporcionalidad de la respuesta penal se conecta con la entidad del bien jurídico, con la gravedad de la lesión causada y con las circunstancias del responsable a efectos de individualización. Las tres variables influyen en la respuesta penal justa, de modo que la opción de síntesis es la que debe marcarse.\nIT: Nel formato del test la risposta corretta è «Todas las anteriores son correctas», perché la proporzionalità della risposta penale si collega all’importanza del bene giuridico, alla gravità della lesione provocata e alle circostanze del responsabile ai fini della personalizzazione della pena. Tutti e tre questi fattori incidono sulla risposta penale giusta, quindi va selezionata l’opzione riassuntiva.",
+      "legal_reference": [
+        "CE, art. 25.1",
+        "CP, reglas de individualización de la pena"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 34,
+      "question": "¿En el Juzgado de Instrucción quien debe informar de sus derechos al ofendido o perjudicado?",
+      "answers": [
+        {
+          "text": "La Policía.",
+          "correct": false
+        },
+        {
+          "text": "El Juez o Magistrado.",
+          "correct": false
+        },
+        {
+          "text": "El Ministerio Fiscal.",
+          "correct": false
+        },
+        {
+          "text": "El Letrado de la Administración de Justicia.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es «El Letrado de la Administración de Justicia», porque en la primera comparecencia del perjudicado en sede judicial corresponde practicar el ofrecimiento de acciones e informar de los derechos que le asisten, conforme al régimen legal vigente. La policía puede informar en fases previas, pero la pregunta se refiere específicamente al Juzgado de Instrucción.\nIT: La risposta corretta è «El Letrado de la Administración de Justicia», perché nella prima comparizione della persona offesa davanti al giudice spetta a lui praticare l’offerta di azioni e informare sui diritti spettanti, secondo il regime legale vigente. La polizia può informare nelle fasi precedenti, ma qui la domanda riguarda specificamente il Juzgado de Instrucción.",
+      "legal_reference": [
+        "LECrim, arts. 109 y 109 bis",
+        "Ley 4/2015, arts. 5 y 7"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 35,
+      "question": "Señale la respuesta incorrecta. Con respecto al Ministerio Fiscal podemos decir que:",
+      "answers": [
+        {
+          "text": "Tiene el monopolio de la acusación.",
+          "correct": true
+        },
+        {
+          "text": "Ejerce la acción penal.",
+          "correct": false
+        },
+        {
+          "text": "Es el acusador público.",
+          "correct": false
+        },
+        {
+          "text": "Su actuación se rige por el principio de imparcialidad.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La incorrecta es «Tiene el monopolio de la acusación», porque en España el Ministerio Fiscal no ostenta un monopolio exclusivo de la acción penal: junto a él pueden actuar la acusación particular y, en los delitos públicos, la acción popular. Sí es correcto afirmar que ejerce la acción penal, que es el acusador público y que su actuación se rige por legalidad e imparcialidad.\nIT: L’affermazione errata è «Tiene el monopolio de la acusación», perché in Spagna il Ministerio Fiscal non possiede un monopolio esclusivo dell’azione penale: accanto a lui possono intervenire l’accusa particolare e, nei delitti pubblici, l’azione popolare. È invece corretto dire che esercita l’azione penale, che è l’accusatore pubblico e che la sua attività è retta dai principi di legalità e imparzialità.",
+      "legal_reference": [
+        "CE, arts. 124 y 125",
+        "LECrim, arts. 101 y 105",
+        "EOMF, arts. 1 y 7"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 36,
+      "question": "El juicio oral y público:",
+      "answers": [
+        {
+          "text": "Es garantía del principio de contradicción.",
+          "correct": false
+        },
+        {
+          "text": "Es garantía del principio de igualdad de partes.",
+          "correct": false
+        },
+        {
+          "text": "Permite el control social de la actividad de los jueces.",
+          "correct": false
+        },
+        {
+          "text": "Todas las anteriores son correctas.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es «Todas las anteriores son correctas», porque la oralidad y la publicidad favorecen el contradictorio, colocan a las partes en un espacio común de debate y permiten el control público sobre la actividad jurisdiccional. Las tres afirmaciones expresan funciones propias del juicio oral público en el proceso penal democrático.\nIT: La risposta corretta è «Todas las anteriores son correctas», perché oralità e pubblicità favoriscono il contraddittorio, collocano le parti in uno spazio comune di confronto e consentono il controllo pubblico sull’attività giurisdizionale. Le tre affermazioni descrivono tutte funzioni tipiche del giudizio orale pubblico nel processo penale democratico.",
+      "legal_reference": [
+        "CE, art. 24.2",
+        "CE, art. 120.1",
+        "CEDH, art. 6.1"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 37,
+      "question": "Señale la respuesta incorrecta. Con respecto al acusador popular podemos decir que:",
+      "answers": [
+        {
+          "text": "Se constituye en parte acusadora sin ser el ofendido por el delito.",
+          "correct": false
+        },
+        {
+          "text": "Puede ejercerlo cualquier ciudadano.",
+          "correct": true
+        },
+        {
+          "text": "Sirve para defender el interés general de la sociedad.",
+          "correct": false
+        },
+        {
+          "text": "Se trata de un derecho constitucional.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La incorrecta es «Puede ejercerlo cualquier ciudadano», porque esa formulación es demasiado amplia. La acción popular tiene base constitucional, pero su ejercicio está sujeto a los requisitos y límites previstos legalmente: no corresponde literalmente a «cualquier» ciudadano sin más, sino a quienes reúnan las condiciones legales y no estén incursos en prohibiciones o incompatibilidades. Sí son correctas las demás afirmaciones, ya que el acusador popular no necesita ser ofendido, actúa en defensa del interés general y su fundamento se encuentra en el art. 125 CE.\nIT: L’affermazione errata è «Puede ejercerlo cualquier ciudadano», perché tale formula è eccessivamente ampia. L’azione popolare ha fondamento costituzionale, ma il suo esercizio è soggetto ai requisiti e ai limiti previsti dalla legge: non spetta letteralmente a «qualsiasi» cittadino senza altre condizioni, bensì a chi possiede i requisiti legali e non si trovi in situazioni di incompatibilità o divieto. Le altre affermazioni sono invece corrette, perché l’accusatore popolare non deve essere necessariamente la persona offesa, agisce in difesa dell’interesse generale e trova fondamento nell’art. 125 CE.",
+      "legal_reference": [
+        "CE, art. 125",
+        "LECrim, arts. 101, 270 y 280",
+        "LOPJ, art. 19.1"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 38,
+      "question": "Señale la respuesta incorrecta. Con respecto a los delitos privados podemos decir que:",
+      "answers": [
+        {
+          "text": "La legitimación la ostenta únicamente el ofendido.",
+          "correct": false
+        },
+        {
+          "text": "Solo aplica para los delitos de injuria y calumnia.",
+          "correct": false
+        },
+        {
+          "text": "La condición de acusador privado se pierde por renuncia de la acción penal.",
+          "correct": false
+        },
+        {
+          "text": "Para iniciar el procedimiento es necesaria la presentación de denuncia o querella.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La incorrecta es «Para iniciar el procedimiento es necesaria la presentación de denuncia o querella», porque en los delitos privados no basta la denuncia: se requiere querella del ofendido o de su representante legal. También es correcto que la legitimación corresponde al ofendido, que el ámbito de los delitos privados es hoy muy reducido y que la renuncia del titular extingue la acción penal en este ámbito.\nIT: L’affermazione errata è «Para iniciar el procedimiento es necesaria la presentación de denuncia o querella», perché nei delitti privati la semplice denuncia non basta: è necessaria la querela della persona offesa o del suo rappresentante legale. È invece corretto che la legittimazione spetti all’offeso, che l’ambito dei delitti privati sia oggi molto ristretto e che la rinuncia del titolare estingua l’azione penale in questo settore.",
+      "legal_reference": [
+        "CP, art. 215",
+        "LECrim, arts. 104, 105 y 277"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 39,
+      "question": "El investigado se denomina en el seno del procedimiento sumario:",
+      "answers": [
+        {
+          "text": "Acusado",
+          "correct": false
+        },
+        {
+          "text": "Encausado",
+          "correct": false
+        },
+        {
+          "text": "Procesado",
+          "correct": true
+        },
+        {
+          "text": "Ninguna es correcta",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «Procesado», porque en el procedimiento ordinario o sumario la denominación técnica clásica del sujeto pasivo una vez dictado el auto correspondiente es la de procesado. «Acusado» se utiliza de modo más propio en la fase de enjuiciamiento, y «encausado» es una terminología general de uso más moderno, pero no la voz típica del sumario clásico.\nIT: La risposta corretta è «Procesado», perché nel procedimento ordinario o sumario la denominazione tecnica classica del soggetto passivo, una volta emesso l’apposito auto, è quella di procesado. «Acusado» si usa più propriamente nella fase di giudizio, mentre «encausado» è un termine più moderno e generale, ma non la formula tipica del sumario classico.",
+      "legal_reference": [
+        "LECrim, arts. 384 y ss."
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 40,
+      "question": "Con respecto al procedimiento ordinario podemos decir que:",
+      "answers": [
+        {
+          "text": "El imputado no está obligado a declarar.",
+          "correct": false
+        },
+        {
+          "text": "El imputado está obligado a comparecer.",
+          "correct": false
+        },
+        {
+          "text": "Si el citado no comparece se puede dictar una orden de detención.",
+          "correct": false
+        },
+        {
+          "text": "Todas las anteriores son correctas.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es «Todas las anteriores son correctas». En el procedimiento ordinario el investigado no tiene obligación de declarar contra sí mismo, pero sí debe comparecer cuando es citado. Si no comparece injustificadamente, la citación puede convertirse en orden de detención. Las tres afirmaciones anteriores, por tanto, son compatibles con el régimen legal.\nIT: La risposta corretta è «Todas las anteriores son correctas». Nel procedimento ordinario l’indagato non ha l’obbligo di dichiarare contro se stesso, ma deve comparire quando viene regolarmente citato. Se non compare senza giustificazione, la citazione può trasformarsi in ordine di arresto o accompagnamento coattivo. Perciò tutte e tre le affermazioni precedenti sono compatibili con il regime legale.",
+      "legal_reference": [
+        "CE, art. 24.2",
+        "LECrim, arts. 486 a 488",
+        "LECrim, arts. 118 y 385 y ss."
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 41,
+      "question": "Señale la respuesta incorrecta. El artículo 118 de la LECrim establece que:",
+      "answers": [
+        {
+          "text": "Toda persona a quien se atribuya un hecho punible podrá ejercitar el derecho de defensa.",
+          "correct": false
+        },
+        {
+          "text": "Toda persona a quien se atribuya un hecho punible podrá intervenir en las actuaciones desde que se le comunique su existencia.",
+          "correct": false
+        },
+        {
+          "text": "Debe comparecer asistido de abogado pero no de procurador.",
+          "correct": true
+        },
+        {
+          "text": "Se le instruirá sin demora injustificada de sus derechos.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La incorrecta es «Debe comparecer asistido de abogado pero no de procurador», porque el art. 118 LECrim no contiene esa afirmación como regla general absoluta. El precepto reconoce el derecho de defensa desde que se atribuye un hecho punible y prevé, con carácter general, defensa por abogado y representación por procurador, salvo los supuestos en que la ley disponga otra cosa. Las demás respuestas reproducen correctamente el contenido esencial del art. 118.\nIT: L’affermazione errata è «Debe comparecer asistido de abogado pero no de procurador», perché l’art. 118 LECrim non contiene questa regola in termini assoluti e generali. La norma riconosce il diritto di difesa dal momento in cui viene attribuito un fatto punibile e prevede, in via generale, difesa tecnica dell’avvocato e rappresentanza del procuratore, salvo i casi in cui la legge disponga diversamente. Le altre risposte riproducono invece correttamente il contenuto essenziale dell’art. 118.",
+      "legal_reference": [
+        "LECrim, art. 118"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario."
+    },
+    {
+      "question_number": 42,
+      "question": "El objeto del proceso penal no es posible cambiarlo ni eliminarlo, ni las partes pueden pretenderlo. Este principio se denomina:",
+      "answers": [
+        {
+          "text": "Indisponibilidad",
+          "correct": false
+        },
+        {
+          "text": "Acción",
+          "correct": false
+        },
+        {
+          "text": "Inmutabilidad",
+          "correct": true
+        },
+        {
+          "text": "Neutralidad",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta de examen es «Inmutabilidad», porque la formulación pone el acento en que el objeto del proceso penal no puede alterarse libremente una vez delimitado. Ahora bien, la pregunta es técnicamente imperfecta, ya que al añadir que «ni las partes pueden pretenderlo» roza también la idea de indisponibilidad. En clave de test, sin embargo, la noción central que se quiere identificar es la inmutabilidad del objeto.\nIT: La risposta d’esame è «Inmutabilidad», perché la formulazione mette l’accento sul fatto che l’oggetto del processo penale non può essere modificato liberamente una volta delimitato. La domanda, però, è tecnicamente imperfetta, perché aggiungendo che «ni las partes pueden pretenderlo» sfiora anche l’idea di indisponibilità. In chiave di quiz, tuttavia, il concetto centrale che si vuole individuare è l’immutabilità dell’oggetto processuale.",
+      "legal_reference": [
+        "Doctrina procesal penal sobre objeto del proceso",
+        "Principio acusatorio y congruencia en la LECrim"
+      ],
+      "original_file": "Fuente exacta no identificada entre los archivos cargados; pregunta presente en el mensaje del usuario.",
+      "source_note": "Pregunta doctrinalmente imprecisa: mezcla rasgos de inmutabilidad e indisponibilidad, pero la respuesta esperada en el test es «Inmutabilidad»."
+    },
+    {
+      "question_number": 43,
+      "question": "La rebaja de la pena en ciertos delitos cuando se trate de personas implicadas que colaboren con la Administración de Justicia en la evitación de nuevos delitos es una manifestación ¿de qué principio?",
+      "answers": [
+        {
+          "text": "Principio acusatorio",
+          "correct": false
+        },
+        {
+          "text": "Principio de contradicción.",
+          "correct": false
+        },
+        {
+          "text": "Principio de legalidad",
+          "correct": false
+        },
+        {
+          "text": "Principio de oportunidad",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es «Principio de oportunidad», más exactamente oportunidad reglada, porque la ley permite modular la respuesta penal mediante incentivos de colaboración cuando concurren presupuestos tasados. No se trata de un problema del principio acusatorio ni del de contradicción, y tampoco de legalidad en sentido estricto, aunque la oportunidad siempre opera dentro de márgenes legales.\nIT: La risposta corretta è «Principio de oportunidad», più precisamente opportunità regolata, perché la legge consente di modulare la risposta penale attraverso incentivi alla collaborazione quando ricorrono presupposti tassativamente previsti. Non si tratta di una questione di principio accusatorio né di contraddittorio, e nemmeno di legalità in senso stretto, anche se l’opportunità opera sempre entro limiti fissati dalla legge.",
+      "legal_reference": [
+        "CP, arts. 376 y 579 bis.3",
+        "LECrim, manifestaciones de oportunidad reglada"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 44,
+      "question": "Mario ha sido detenido por agredir, presuntamente, a su novia Carmen, causándole lesiones de  diversa consideración. Señale el Juzgado competente para la instrucción del procedimiento:",
+      "answers": [
+        {
+          "text": "El Juzgado Central de Instrucción.",
+          "correct": false
+        },
+        {
+          "text": "El Juzgado de Violencia sobre la Mujer.",
+          "correct": true
+        },
+        {
+          "text": "El Juzgado de lo Penal con competencia en materia sobre violencia de género.",
+          "correct": false
+        },
+        {
+          "text": "El Tribunal del Jurado.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «El Juzgado de Violencia sobre la Mujer», porque cuando se trata de un hecho presuntamente constitutivo de delito de lesiones cometido por quien sea o haya sido cónyuge o ligado por análoga relación de afectividad con una mujer, la competencia para la instrucción corresponde a ese órgano especializado. No corresponde al Juzgado de lo Penal, que es órgano de enjuiciamiento, ni al Tribunal del Jurado, ni al Juzgado Central de Instrucción, reservado a materias específicas de la Audiencia Nacional.\nIT: La risposta corretta è «El Juzgado de Violencia sobre la Mujer», perché quando si tratta di un fatto che integra presumibilmente un reato di lesioni commesso da chi sia o sia stato coniuge o partner affettivo della donna, la competenza per l’istruzione spetta a questo organo specializzato. Non appartiene al Juzgado de lo Penal, che è organo di giudizio, né al Tribunal del Jurado, né al Juzgado Central de Instrucción, riservato a materie specifiche della Audiencia Nacional.",
+      "legal_reference": [
+        "LOPJ, art. 87 ter",
+        "LO 1/2004, arts. 44 y ss."
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 45,
+      "question": "Agustín ha cometido un delito leve de hurto, al sustraer productos de un supermercado por valor inferior a 400 euros. Señale el Juzgado competente para conocer los hechos:",
+      "answers": [
+        {
+          "text": "El conocimiento y fallo corresponderá al Juzgado de Instrucción.",
+          "correct": true
+        },
+        {
+          "text": "De la instrucción del asunto conocerá el Juzgado de instrucción, y de su conocimiento y fallo el Juzgado de lo Penal, en todo caso.",
+          "correct": false
+        },
+        {
+          "text": "De la instrucción del asunto conocerá el Juzgado de Instrucción, y de su conocimiento y fallo el Juzgado de lo Penal si la pena no excede de cinco años.",
+          "correct": false
+        },
+        {
+          "text": "El Juzgado de Paz.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «El conocimiento y fallo corresponderá al Juzgado de Instrucción», porque los delitos leves se enjuician, con carácter general, por el Juzgado de Instrucción mediante el procedimiento específico de juicio por delito leve. No se produce aquí la clásica separación entre instrucción y enjuiciamiento propia de otros procedimientos. Tampoco corresponde al Juzgado de Paz en este supuesto.\nIT: La risposta corretta è «El conocimiento y fallo corresponderá al Juzgado de Instrucción», perché i reati lievi vengono giudicati, in via generale, dal Juzgado de Instrucción mediante il procedimento specifico per delito leve. Non opera qui la tipica separazione tra istruzione e giudizio propria di altri procedimenti. Nemmeno la competenza appartiene al Juzgado de Paz in questo caso.",
+      "legal_reference": [
+        "LECrim, arts. 14.1 y 962 a 971",
+        "CP, art. 234.2"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 46,
+      "question": "Araceli ha sido víctima de un homicidio. La última vez que se supo de ella, se encontraba en su vivienda, sita en Alicante, si bien su cuerpo ha aparecido en un descampado cerca de Cuenca, y el presunto autor del delito, su sobrino y único heredero, ha sido detenido en Madrid. ¿Qué juzgado deberá conocer del asunto?",
+      "answers": [
+        {
+          "text": "El Juzgado de Instrucción de Alicante, por ser el lugar de residencia de la víctima, en tanto no se conozca el lugar de comisión del delito.",
+          "correct": false
+        },
+        {
+          "text": "El Juzgado de Instrucción de Cuenca, que es el lugar donde aparece el cuerpo, en tanto no se conozca el lugar donde se ha cometido el delito.",
+          "correct": true
+        },
+        {
+          "text": "El Juzgado de Instrucción de Madrid, que es donde ha sido detenido el presunto autor.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las demás respuestas es correcta.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «El Juzgado de Instrucción de Cuenca, que es el lugar donde aparece el cuerpo, en tanto no se conozca el lugar donde se ha cometido el delito», porque cuando no conste con certeza el lugar de comisión del delito rigen los fueros subsidiarios del art. 15 LECrim, y tiene preferencia el lugar en que se hayan descubierto pruebas materiales del delito. La aparición del cadáver activa ese fuero subsidiario antes que el lugar de detención del sospechoso o la residencia de la víctima.\nIT: La risposta corretta è «El Juzgado de Instrucción de Cuenca, que es el lugar donde aparece el cuerpo, en tanto no se conozca el lugar donde se ha cometido el delito», perché quando non sia certo il luogo di commissione del reato operano i criteri territoriali sussidiari dell’art. 15 LECrim, e ha preferenza il luogo in cui sono state rinvenute le prove materiali del reato. Il ritrovamento del cadavere fa scattare questo criterio prima del luogo di arresto del sospettato o della residenza della vittima.",
+      "legal_reference": [
+        "LECrim, art. 15"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 47,
+      "question": "Elena ha sido víctima de un delito de agresión sexual, y quiere denunciar el hecho y ejercer la acusación debidamente personada. Indique la opción correcta que puede utilizar:",
+      "answers": [
+        {
+          "text": "Puede interponer querella por sí sola, sin necesidad de abogado y procurador.",
+          "correct": false
+        },
+        {
+          "text": "Puede interponer querella por medio de procurador con poder bastante, sin necesidad de letrado.",
+          "correct": false
+        },
+        {
+          "text": "Puede interponer querella suscrita por un letrado, sin necesidad de procurador.",
+          "correct": false
+        },
+        {
+          "text": "Puede interponer querella por medio de procurador con poder bastante y suscrita por letrado.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es «Puede interponer querella por medio de procurador con poder bastante y suscrita por letrado», porque la querella exige, como regla general, representación por procurador y firma de abogado. Las otras opciones omiten alguno de esos requisitos formales esenciales.\nIT: La risposta corretta è «Puede interponer querella por medio de procurador con poder bastante y suscrita por letrado», perché la querela richiede, come regola generale, la rappresentanza del procuratore e la firma dell’avvocato. Le altre opzioni omettono uno di questi requisiti formali essenziali.",
+      "legal_reference": [
+        "LECrim, arts. 270, 277 y 281"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 48,
+      "question": "Ignacio ha presenciado en la calle la agresión de un hombre a otro, y decide denunciar la comisión de un posible delito de lesiones. Señale la respuesta correcta:",
+      "answers": [
+        {
+          "text": "Ignacio no puede denunciar los hechos, ya que no es perjudicado directo, sin perjuicio de poder declarar como testigo si denuncia el agredido.",
+          "correct": false
+        },
+        {
+          "text": "Ignacio sólo podrá denunciar si se persona en las actuaciones, mediante querella presentada por medio de procurador con poder bastante y suscrita por letrado.",
+          "correct": false
+        },
+        {
+          "text": "Ignacio sólo podrá denunciar a través del ejercicio de la acción popular.",
+          "correct": false
+        },
+        {
+          "text": "Ignacio podrá denunciar los hechos en la Fiscalía, en el Juzgado de guardia o ante cualquier funcionario de Policía.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es «Ignacio podrá denunciar los hechos en la Fiscalía, en el Juzgado de guardia o ante cualquier funcionario de Policía», porque la denuncia puede formularla cualquier persona que tenga noticia de un hecho presuntamente delictivo, sin necesidad de ser perjudicado directo. No se exige personación como acusación ni querella para el mero acto de denunciar.\nIT: La risposta corretta è «Ignacio podrá denunciar los hechos en la Fiscalía, en el Juzgado de guardia o ante cualquier funcionario de Policía», perché la denuncia può essere presentata da chiunque abbia notizia di un fatto presumibilmente delittuoso, senza bisogno di essere la vittima diretta. Non è richiesta la costituzione in giudizio né la querela per il semplice atto di denunciare.",
+      "legal_reference": [
+        "LECrim, arts. 259 a 265"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 49,
+      "question": "A Federico lo han citado para declarar como investigado en unas Diligencias Previas que se tramitan ante un Juzgado de Instrucción, por un presunto delito de estafa. Federico acude sin abogado al Juzgado el día de su declaración.",
+      "answers": [
+        {
+          "text": "No pasa nada, ya que para declarar como investigado no necesita estar asistido de Letrado.",
+          "correct": false
+        },
+        {
+          "text": "Debe designar un abogado particular, en todo caso.",
+          "correct": false
+        },
+        {
+          "text": "Si Federico no designa un abogado particular, se le designará uno del turno de oficio.",
+          "correct": true
+        },
+        {
+          "text": "Actuará en su defensa el Ministerio Fiscal.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «Si Federico no designa un abogado particular, se le designará uno del turno de oficio», porque la declaración del investigado exige asistencia letrada efectiva. No es válida la comparecencia sin abogado, y tampoco puede suplirse esa defensa con la intervención del Ministerio Fiscal. La ley permite designar un abogado de confianza, pero si no se hace, se nombra uno de oficio.\nIT: La risposta corretta è «Si Federico no designa un abogado particular, se le designará uno del turno de oficio», perché la dichiarazione dell’indagato richiede un’effettiva assistenza legale. La comparizione senza avvocato non è valida, né tale difesa può essere sostituita dall’intervento del Ministerio Fiscal. La legge consente di designare un difensore di fiducia, ma in mancanza ne viene nominato uno d’ufficio.",
+      "legal_reference": [
+        "CE, art. 24.2",
+        "LECrim, arts. 118, 767 y 775"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 50,
+      "question": "En un procedimiento que se sigue en fase de diligencias previas por estafa a una pluralidad de personas, Carlos y Lucía pretenden personarse como acusación particular, ya que se les ha hecho el ofrecimiento de acciones como perjudicados. ¿Qué requisitos formales requiere su personación?:",
+      "answers": [
+        {
+          "text": "Han de formular querella, con Letrado y Procurador, y ofrecer fianza.",
+          "correct": false
+        },
+        {
+          "text": "Han de formular querella, con Letrado y Procurador, sin necesidad de ofrecer fianza.",
+          "correct": false
+        },
+        {
+          "text": "Han de comparecer asistidos por Letrado y representados por Procurador, en calidad de acusación, sin necesidad de querella ni de prestar u ofrecer fianza.",
+          "correct": true
+        },
+        {
+          "text": "Han de comparecer únicamente asistidos por Letrado, ya que el Procurador solo se precisa a partir de la apertura de juicio oral, y sin necesidad de formular querella ni prestar fianza.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «Han de comparecer asistidos por Letrado y representados por Procurador, en calidad de acusación, sin necesidad de querella ni de prestar u ofrecer fianza», porque el ofendido o perjudicado puede personarse como acusación particular sin necesidad de querella formal cuando ya existe procedimiento abierto, pero sí con asistencia letrada y representación procesal. Tampoco debe prestar fianza, a diferencia de la acción popular.\nIT: La risposta corretta è «Han de comparecer asistidos por Letrado y representados por Procurador, en calidad de acusación, sin necesidad de querella ni de prestar u ofrecer fianza», perché la persona offesa o danneggiata può costituirsi come accusa particolare senza necessità di querela formale quando il procedimento è già aperto, ma con assistenza dell’avvocato e rappresentanza del procuratore. Inoltre non deve prestare cauzione, diversamente dall’azione popolare.",
+      "legal_reference": [
+        "LECrim, arts. 109 bis, 110 y 281"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 51,
+      "question": "Alberto está siendo investigado como presunto autor de un robo con violencia, y Bartolomé, perjudicado del mismo, estaba personado como acusación particular, si bien decide renunciar a la acción penal que tenía contra Alberto.",
+      "answers": [
+        {
+          "text": "Al renunciar Bartolomé se extinguirá la acción penal, y el juez instructor dictará auto de sobreseimiento del proceso.",
+          "correct": false
+        },
+        {
+          "text": "El hecho de que renuncie Bartolomé no impide la continuación del procedimiento, ya que el Ministerio Fiscal puede seguir instando la acusación.",
+          "correct": true
+        },
+        {
+          "text": "Una vez personado, Bartolomé ya no puede renunciar a la acción penal.",
+          "correct": false
+        },
+        {
+          "text": "Bartolomé no puede ejercitar la acción penal, sino únicamente la acción civil.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «El hecho de que renuncie Bartolomé no impide la continuación del procedimiento, ya que el Ministerio Fiscal puede seguir instando la acusación», porque el robo con violencia es un delito público y la acción penal no depende de la voluntad del perjudicado. Su renuncia no extingue la persecución penal, que puede continuar de oficio a través del Ministerio Fiscal.\nIT: La risposta corretta è «El hecho de que renuncie Bartolomé no impide la continuación del procedimiento, ya que el Ministerio Fiscal puede seguir instando la acusación», perché il furto/rapina con violenza è un delitto pubblico e l’azione penale non dipende dalla volontà della persona danneggiata. La sua rinuncia non estingue la persecuzione penale, che può proseguire d’ufficio tramite il Ministerio Fiscal.",
+      "legal_reference": [
+        "LECrim, arts. 100, 105 y 106",
+        "CP, art. 130"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 52,
+      "question": "Un Juez de instrucción de Toledo acordó incoar diligencias previas para la investigación de unos hechos que podían ser constitutivos de abuso sexual. Sin embargo, durante la instrucción de la causa los hechos presentan caracteres de un delito de violación, y debido a su gravedad deben instruirse por el procedimiento de sumario. Indique lo que procederá:",
+      "answers": [
+        {
+          "text": "Todo lo practicado será nulo, y deberá iniciarse de nuevo la investigación conforme al procedimiento de sumario.",
+          "correct": false
+        },
+        {
+          "text": "El procedimiento continuará sustanciándose conforme al procedimiento abreviado, ya que una vez incoado no es posible su transformación.",
+          "correct": false
+        },
+        {
+          "text": "Se transformará el procedimiento y continuará conforme a la tramitación del sumario, sin retroceder en el procedimiento más que en el caso de que resulte necesario practicar diligencias o realizar actuaciones con arreglo a dichos preceptos legales.",
+          "correct": true
+        },
+        {
+          "text": "Se transformará el procedimiento en sumario, que deberá sustanciarse ante un Juez de instrucción distinto al que tramitó las diligencias previas.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «Se transformará el procedimiento y continuará conforme a la tramitación del sumario, sin retroceder en el procedimiento más que en el caso de que resulte necesario practicar diligencias o realizar actuaciones con arreglo a dichos preceptos legales», porque si durante las diligencias previas se advierte que los hechos exceden del ámbito del procedimiento abreviado, procede su adecuación al cauce procedimental correcto, conservando lo ya actuado en lo válido. No hay nulidad automática ni necesidad de comenzar desde cero.\nIT: La risposta corretta è «Se transformará el procedimiento y continuará conforme a la tramitación del sumario, sin retroceder en el procedimiento más que en el caso de que resulte necesario practicar diligencias o realizar actuaciones con arreglo a dichos preceptos legales», perché se durante le diligencias previas emerge che i fatti superano l’ambito del procedimiento abreviado, occorre adattare il procedimento al rito corretto, conservando gli atti già validamente compiuti. Non vi è nullità automatica né obbligo di ricominciare da zero.",
+      "legal_reference": [
+        "LECrim, art. 757",
+        "LECrim, art. 779.1.4ª"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 53,
+      "question": "Isabel es detenida por un presunto delito de terrorismo, que puede llevar aparejadas penas de más de 9 años de prisión. Señale el procedimiento que, conforme a la Ley, procede incoar para la instrucción de tales hechos:",
+      "answers": [
+        {
+          "text": "Juicio por delito leve.",
+          "correct": false
+        },
+        {
+          "text": "Procedimiento abreviado.",
+          "correct": false
+        },
+        {
+          "text": "Sumario.",
+          "correct": true
+        },
+        {
+          "text": "Procedimiento ante el Tribunal del Jurado.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «Sumario», porque el procedimiento abreviado queda reservado, con carácter general, a delitos castigados con pena privativa de libertad no superior a nueve años; cuando la pena posible excede de ese límite, procede el sumario ordinario, sin perjuicio de la competencia objetiva de los órganos centrales en materia de terrorismo.\nIT: La risposta corretta è «Sumario», perché il procedimiento abreviado è riservato, in via generale, ai reati puniti con pena detentiva non superiore a nove anni; quando la pena possibile supera tale limite, si applica il sumario ordinario, fermo restando che in materia di terrorismo possono intervenire gli organi centrali competenti.",
+      "legal_reference": [
+        "LECrim, art. 757",
+        "LOPJ, arts. 65 y 88"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 54,
+      "question": "Antonio es detenido por la presunta comisión de un delito de robo con fuerza. En la Comisaría se niega a declarar ante la Policía, y manifiesta que sólo declarará ante el Juez de Instrucción. Señale la respuesta correcta:",
+      "answers": [
+        {
+          "text": "La Policía podrá imputarle un delito de desobediencia.",
+          "correct": false
+        },
+        {
+          "text": "Antonio no puede acogerse a su derecho a guardar silencio ante la Policía, debe declarar en todo caso.",
+          "correct": false
+        },
+        {
+          "text": "Antonio puede acogerse a su derecho a guardar silencio ante la Policía, pero si lo hace tampoco podrá declarar en sede judicial.",
+          "correct": false
+        },
+        {
+          "text": "Antonio puede acogerse a su derecho a guardar silencio ante la Policía, y después podrá, si quiere, declarar ante el Juez de Instrucción.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es «Antonio puede acogerse a su derecho a guardar silencio ante la Policía, y después podrá, si quiere, declarar ante el Juez de Instrucción», porque el detenido no está obligado a declarar en sede policial y puede reservar su declaración para el momento judicial. El ejercicio del derecho al silencio no constituye desobediencia ni le priva después de declarar ante el juez.\nIT: La risposta corretta è «Antonio puede acogerse a su derecho a guardar silencio ante la Policía, y después podrá, si quiere, declarar ante el Juez de Instrucción», perché il detenuto non è obbligato a rendere dichiarazioni davanti alla polizia e può riservarle alla sede giudiziaria. L’esercizio del diritto al silenzio non integra disobbedienza e non gli impedisce successivamente di dichiarare davanti al giudice.",
+      "legal_reference": [
+        "CE, art. 24.2",
+        "LECrim, art. 520.2"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 55,
+      "question": "Lucas ha sido testigo presencial de un accidente de tráfico. Posteriormente es citado en diligencias previas para declarar como testigo. Señale la respuesta correcta:",
+      "answers": [
+        {
+          "text": "Lucas tiene obligación de ser veraz y contestar todas las preguntas que se le formulen.",
+          "correct": false
+        },
+        {
+          "text": "Después de declarar en fase de instrucción, Lucas está obligado a acudir a declarar el día del juicio oral, cuando sea citado para ello.",
+          "correct": false
+        },
+        {
+          "text": "Lucas ha de declarar personalmente, por si mismo, sin que pueda designar un tercero que declare en su lugar.",
+          "correct": false
+        },
+        {
+          "text": "Todas las demás respuestas son ciertas.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es «Todas las demás respuestas son ciertas», porque el testigo está obligado a comparecer, declarar personalmente y decir verdad, salvo los supuestos legales de dispensa. También debe acudir al juicio oral si es citado nuevamente. Las tres afirmaciones anteriores describen, por tanto, deberes propios de la condición de testigo.\nIT: La risposta corretta è «Todas las demás respuestas son ciertas», perché il testimone è obbligato a comparire, a dichiarare personalmente e a dire la verità, salvo i casi legali di dispensa. Deve inoltre presentarsi al giudizio orale se viene nuovamente citato. Le tre affermazioni precedenti descrivono dunque obblighi tipici della posizione di testimone.",
+      "legal_reference": [
+        "LECrim, arts. 410, 433, 702 y concordantes"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 56,
+      "question": "Arturo está siendo investigado por el Juzgado de Instrucción número 3 de Cáceres, por un delito cometido en dicha ciudad. Posteriormente, se incoa un nuevo procedimiento contra Arturo, por un delito que tiene señalada una pena mayor al anterior, tramitado por el Juzgado de Instrucción número 2 de Segovia. Tras la práctica de algunas diligencias, ambos delitos son considerados conexos. ¿A qué juzgado se atribuirá la competencia para conocer de la causa?:",
+      "answers": [
+        {
+          "text": "Al Juzgado de Instrucción Número 2 de Segovia, por ser el del territorio en que se ha cometido el delito a que esté señalada pena mayor.",
+          "correct": true
+        },
+        {
+          "text": "Al Juzgado de Instrucción de Cáceres que por turno de reparto corresponda.",
+          "correct": false
+        },
+        {
+          "text": "Al Juzgado de Instrucción Número 3 de Cáceres, por ser el primero que comenzó la causa.",
+          "correct": false
+        },
+        {
+          "text": "Al Juzgado de Instrucción de Segovia que por turno de reparto corresponda.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «Al Juzgado de Instrucción Número 2 de Segovia, por ser el del territorio en que se ha cometido el delito a que esté señalada pena mayor», porque en casos de conexidad la regla de atracción favorece al órgano competente para el delito más grave. No prevalece aquí el juzgado que empezó primero ni un nuevo reparto abstracto.\nIT: La risposta corretta è «Al Juzgado de Instrucción Número 2 de Segovia, por ser el del territorio en que se ha cometido el delito a que esté señalada pena mayor», perché nei casi di connessione la regola di attrazione favorisce l’organo competente per il reato più grave. Non prevale qui il giudice che ha iniziato per primo né si procede a un nuovo riparto astratto.",
+      "legal_reference": [
+        "LECrim, arts. 17 y 18"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 57,
+      "question": "Tras la correspondiente instrucción mediante diligencias previas, Guillermo ha sido juzgado en un Juzgado de lo Penal por los trámites del procedimiento abreviado por un delito de apropiación indebida. Indique cómo podrá dictarse la sentencia:",
+      "answers": [
+        {
+          "text": "Podrá dictarse oralmente en el acto del juicio, sin perjuicio de ulterior redacción.",
+          "correct": true
+        },
+        {
+          "text": "Podrá dictarse oralmente en el acto del juicio, pero sólo cuando las partes expresasen su decisión de no recurrir.",
+          "correct": false
+        },
+        {
+          "text": "Podrá dictarse oralmente, pero sólo en caso de que Guillermo haya manifestado su conformidad con la acusación más grave.",
+          "correct": false
+        },
+        {
+          "text": "Debe ser en forma escrita, en todo caso.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta, conforme al Derecho vigente, es «Podrá dictarse oralmente en el acto del juicio, sin perjuicio de ulterior redacción», porque el art. 789.2 LECrim permite al Juez de lo Penal dictar sentencia oralmente en el acto del juicio en el procedimiento abreviado, documentando el fallo y una motivación sucinta, sin perjuicio de su ulterior redacción. La decisión de no recurrir sólo afecta a la posibilidad de declarar la firmeza en el mismo acto, no a la posibilidad de dictarla oralmente. Tampoco queda limitada a los supuestos de conformidad.\nIT: La risposta corretta, secondo il diritto vigente, è «Podrá dictarse oralmente en el acto del juicio, sin perjuicio de ulterior redacción», perché l’art. 789.2 LECrim consente al Juez de lo Penal di pronunciare oralmente la sentenza nel procedimento abreviado, documentando il dispositivo e una motivazione sintetica, fermo restando che potrà poi redigerla integralmente. La decisione delle parti di non impugnare incide solo sulla possibilità di dichiararne subito la definitività, non sulla facoltà di pronunciarla oralmente. Né tale possibilità è limitata ai soli casi di conformità.",
+      "legal_reference": [
+        "LECrim, art. 789.2"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf",
+      "source_note": "La clave marcada en el material aportado parece desactualizada o errónea; se corrige conforme al texto vigente del art. 789.2 LECrim."
+    },
+    {
+      "question_number": 58,
+      "question": "En un procedimiento abreviado, abierto el juicio oral, se emplaza a Gustavo, como encausado por un presunto delito de estafa, a la presentación del escrito de defensa. En dicho escrito, su abogado solicita pruebas para su práctica en juicio ante el Juzgado de lo Penal. Señale la opción correcta:",
+      "answers": [
+        {
+          "text": "Sobre la admisión de las mismas resuelve el Juzgado de Instrucción, mediante Auto recurrible en apelación.",
+          "correct": false
+        },
+        {
+          "text": "Se resolverán por el Juzgado de lo Penal al inicio de las sesiones del juicio oral. Frente a la decisión adoptada no cabrá recurso alguno.",
+          "correct": false
+        },
+        {
+          "text": "Se resolverán por el Juzgado de lo Penal al inicio de las sesiones del juicio oral, y cabrá recurso de apelación ante la Audiencia Provincial.",
+          "correct": false
+        },
+        {
+          "text": "Se resolverán por el Juzgado de lo Penal en cuanto tenga a su disposición las actuaciones, y no cabrá recurso alguno, sin perjuicio de reproducir su petición al inicio de las sesiones del juicio oral.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es «Se resolverán por el Juzgado de lo Penal en cuanto tenga a su disposición las actuaciones, y no cabrá recurso alguno, sin perjuicio de reproducir su petición al inicio de las sesiones del juicio oral», porque esa es la regla del procedimiento abreviado para la admisión o inadmisión de la prueba propuesta por la defensa tras la apertura del juicio oral. La ley niega recurso autónomo contra esa decisión, aunque permite reproducir la petición al inicio del juicio.\nIT: La risposta corretta è «Se resolverán por el Juzgado de lo Penal en cuanto tenga a su disposición las actuaciones, y no cabrá recurso alguno, sin perjuicio de reproducir su petición al inicio de las sesiones del juicio oral», perché questa è la regola del procedimiento abreviado per l’ammissione o l’inammissibilità della prova proposta dalla difesa dopo l’apertura del giudizio orale. La legge esclude un ricorso autonomo contro tale decisione, pur consentendo di riproporre la richiesta all’inizio del dibattimento.",
+      "legal_reference": [
+        "LECrim, art. 785.1"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 59,
+      "question": "La Policía Judicial de Alicante está efectuando un seguimiento a Ramón, sospechoso de la comisión de varios delitos de tráfico de drogas, y consideran necesario entrar en su domicilio, a efectos de obtener evidencias de la comisión de los mismos. Marque la respuesta adecuada:",
+      "answers": [
+        {
+          "text": "La entrada en domicilio por la policía, en caso de sospecha de que en el mismo existan evidencias de la comisión de un delito, es una diligencia que puede practicar la Policía sin necesidad de autorización judicial.",
+          "correct": false
+        },
+        {
+          "text": "El derecho a la inviolabilidad del domicilio es un derecho fundamental, y no está permitido el acceso al mismo de agentes de policía en ningún caso.",
+          "correct": false
+        },
+        {
+          "text": "Sólo podrán acceder los agentes al domicilio de Ramón en el único caso de que éste preste voluntariamente su consentimiento.",
+          "correct": false
+        },
+        {
+          "text": "Los agentes podrán solicitar al Juez de Instrucción la entrada al domicilio de Ramón, y podrán proceder a ello si el juez lo autoriza mediante Auto motivado.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es «Los agentes podrán solicitar al Juez de Instrucción la entrada al domicilio de Ramón, y podrán proceder a ello si el juez lo autoriza mediante Auto motivado», porque la inviolabilidad domiciliaria exige, como regla general, consentimiento del titular o resolución judicial motivada, salvo flagrante delito. La a es falsa porque la mera sospecha policial no basta; la b es falsa porque sí existen supuestos legales de entrada; y la c es incorrecta porque no es el único supuesto, ya que también cabe autorización judicial.\nIT: La risposta corretta è «Los agentes podrán solicitar al Juez de Instrucción la entrada al domicilio de Ramón, y podrán proceder a ello si el juez lo autoriza mediante Auto motivado», perché l’inviolabilità del domicilio richiede, come regola generale, il consenso del titolare o un provvedimento giudiziario motivato, salvo il caso di flagranza di reato. La a è falsa perché il semplice sospetto della polizia non basta; la b è falsa perché esistono ipotesi legali di ingresso; la c è errata perché il consenso non è l’unico titolo, essendo possibile anche l’autorizzazione del giudice.",
+      "legal_reference": [
+        "CE, art. 18.2",
+        "LECrim, arts. 545 y ss."
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
+    },
+    {
+      "question_number": 60,
+      "question": "Andrés está siendo investigado por un delito de homicidio. En un primer momento, se encontraron restos de piel en las uñas de la víctima, y se acordó inmediatamente su análisis, por si era posible identificar el ADN del agresor. Han pasado más de 12 meses, y entonces llegan los resultados de laboratorio, corroborando que el ADN encontrado en las uñas de la víctima se corresponde con el de Andrés, si bien por descuido, no se había acordado la prórroga de la causa. Marque la opción correcta:",
+      "answers": [
+        {
+          "text": "No puede tomarse en consideración el resultado del análisis, y el Juez Instructor deberá proceder según el resultado de las diligencias que se hubieran practicado durante los doce meses siguientes a la incoación.",
+          "correct": false
+        },
+        {
+          "text": "La causa en caso de homicidio es, por sí misma, compleja, y no requiere declaración del Juzgado al respecto.",
+          "correct": false
+        },
+        {
+          "text": "Sí puede tomarse en consideración el resultado del análisis, ya que esa diligencia de investigación fue acordada antes del transcurso de los 12 meses y, por tanto, es válida, aunque se haya recibido tras la expiración del plazo.",
+          "correct": true
+        },
+        {
+          "text": "Sí puede tomarse en consideración el análisis, ya que el plazo de 12 meses se interrumpe mientras se practican diligencias de investigación.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es «Sí puede tomarse en consideración el resultado del análisis, ya que esa diligencia de investigación fue acordada antes del transcurso de los 12 meses y, por tanto, es válida, aunque se haya recibido tras la expiración del plazo», porque el art. 324 LECrim establece expresamente la validez de las diligencias de investigación acordadas antes del vencimiento del plazo, aunque sus resultados se reciban después. No existe una complejidad automática por la sola clase de delito, ni el plazo se interrumpe por el mero hecho de que la diligencia esté en curso.\nIT: La risposta corretta è «Sí puede tomarse en consideración el resultado del análisis, ya que esa diligencia de investigación fue acordada antes del transcurso de los 12 meses y, por tanto, es válida, aunque se haya recibido tras la expiración del plazo», perché l’art. 324 LECrim stabilisce espressamente la validità delle indagini disposte prima della scadenza del termine, anche se i loro risultati arrivano successivamente. Non esiste una complessità automatica solo per il tipo di reato, né il termine si interrompe semplicemente perché l’atto istruttorio è ancora in corso.",
+      "legal_reference": [
+        "LECrim, art. 324.2"
+      ],
+      "original_file": "1_ocr_Prueba Parcial D. Procesal III-1° Parcial.pdf"
     }
   ]
 }
