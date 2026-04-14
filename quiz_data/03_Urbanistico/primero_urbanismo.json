@@ -1,0 +1,764 @@
+{
+  "file_number": 0,
+  "file_name": "chat_input_urbanismo_questions.txt",
+  "file_format": "txt",
+  "batch": {
+    "from_question": 1,
+    "to_question": 30,
+    "total_questions_available": 62
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question": "El criterio de difusión dominical para delimitar unidades de actuación significa:",
+      "answers": [
+        {
+          "text": "Que se delimitan siempre por donde van los linderos de las fincas particulares",
+          "correct": false
+        },
+        {
+          "text": "Que se delimitan siempre dándole la mayor difusión posible en los medios informativos",
+          "correct": false
+        },
+        {
+          "text": "Que no se deben delimitar unidades que contengan una diseminación excesiva de pequeñas fincas",
+          "correct": true
+        },
+        {
+          "text": "Ninguna de todas las respuestas",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La opción correcta es \"Que no se deben delimitar unidades que contengan una diseminación excesiva de pequeñas fincas\". Ese criterio no es un deslinde por linderos privados ni una regla de publicidad; es un criterio práctico de gestión: si se agrupan demasiadas microparcelas y demasiados propietarios, la ejecución integrada se vuelve más compleja y menos viable. Por eso la opción sobre la excesiva diseminación es la que mejor encaja. Las otras respuestas son erróneas porque confunden la delimitación urbanística con el catastro o con la difusión informativa.\nIT: La risposta corretta è quella sulla eccessiva frammentazione in piccole proprietà. Non si tratta né di seguire automaticamente i confini delle particelle né di fare “massima diffusione” nei media: è un criterio pratico di gestibilità dell’unità di attuazione. Se ci sono troppe microproprietà, l’attuazione integrata diventa più difficile e meno sostenibile.",
+      "legal_reference": "Referencia principal: Ley 13/2015, de la Región de Murcia (LOTURM), art. 196.1 y 196.3, que exigen viabilidad, autonomía y una delimitación apta para ejecutar conjuntamente urbanización, cesiones y equidistribución; el término \"difusión dominical\" es doctrinal/docente, no una fórmula literal del articulado.",
+      "original_file": "chat_input_urbanismo_questions.txt"
+    },
+    {
+      "question_number": 2,
+      "question": "La fase de planeamiento comprende:",
+      "answers": [
+        {
+          "text": "El plan general y proyecto de reparcelación",
+          "correct": false
+        },
+        {
+          "text": "El plan general y proyecto de reparcelación",
+          "correct": false
+        },
+        {
+          "text": "El plan general y reparcelación y proyecto de urbanización",
+          "correct": false
+        },
+        {
+          "text": "Proyecto y plan parcial",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La pregunta está defectuosamente redactada. Jurídicamente, la fase de planeamiento comprende el planeamiento general y, en su caso, el planeamiento de desarrollo, es decir, Plan General y Plan Parcial. La reparcelación y el proyecto de urbanización pertenecen a la fase de gestión/ejecución, no a la de planeamiento. La opción D solo sería salvable si \"Proyecto\" fuera una errata por \"Plan General\", pero literalmente no es correcta. Por eso, en validación estricta, ninguna opción es plenamente correcta.\nIT: La domanda è formulata male. In termini giuridici, la fase di pianificazione comprende il piano generale e, se necessario, il piano attuativo/sviluppo, cioè Plan General e Plan Parcial. Reparcelación e proyecto de urbanización appartengono alla fase di gestione/esecuzione. La D sarebbe accettabile solo se \"Proyecto\" fosse un errore materiale per \"Plan General\"; letta alla lettera, però, non è corretta.",
+      "legal_reference": "Referencia principal: LOTURM, arts. 114-124 (planeamiento general y de desarrollo), arts. 183 y 201 (proyecto de urbanización y proyecto de reparcelación como instrumentos de ejecución/gestión).",
+      "original_file": "chat_input_urbanismo_questions.txt",
+      "source_note": "En el texto original aparece marcada como CORRETTA la opción \"Proyecto y plan parcial\", pero la formulación parece contener un error material."
+    },
+    {
+      "question_number": 3,
+      "question": "Disposiciones generales de la administración o reglamentos:",
+      "answers": [
+        {
+          "text": "Actos administrativos",
+          "correct": false
+        },
+        {
+          "text": "Normas con rango de Ley",
+          "correct": false
+        },
+        {
+          "text": "Resoluciones de los tribunales de justicia",
+          "correct": false
+        },
+        {
+          "text": "Disposiciones generales de la administración o reglamentos",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La opción correcta es la literal: los reglamentos son disposiciones generales de la Administración. No son actos administrativos singulares, porque estos agotan su eficacia en un caso concreto; tampoco son normas con rango de ley, porque su rango es infralegal; y no son resoluciones judiciales. La D es correcta aunque la pregunta esté mal construida por ser prácticamente tautológica.\nIT: La risposta corretta è quella letterale: i regolamenti sono disposizioni generali dell’amministrazione. Non sono atti amministrativi individuali, non hanno rango di legge e non sono decisioni dei tribunali. La D è giusta anche se la domanda è costruita male perché quasi tautologica.",
+      "legal_reference": "Referencia principal: Constitución Española, art. 97; Ley 39/2015, arts. 127-133; Ley 50/1997, art. 23.",
+      "original_file": "chat_input_urbanismo_questions.txt"
+    },
+    {
+      "question_number": 4,
+      "question": "Los sistemas generales:",
+      "answers": [
+        {
+          "text": "No son compatibles con los locales, de modo que, o hay de unos o hay de otros",
+          "correct": false
+        },
+        {
+          "text": "Los fijan los proyectos de reparcelación",
+          "correct": false
+        },
+        {
+          "text": "Los fijan los planes parciales",
+          "correct": false
+        },
+        {
+          "text": "Los fijan los planes generales",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es \"Los fijan los planes generales\". Los sistemas generales forman parte de la estructura general y orgánica del territorio municipal, por lo que corresponden al Plan General. No son incompatibles con los sistemas locales: ambos conviven, pero cumplen funciones distintas. Tampoco los fija la reparcelación, que solo redistribuye fincas y cargas, ni el Plan Parcial, que desarrolla el sector y concreta dotaciones locales.\nIT: La risposta corretta è che i sistemi generali sono fissati dal piano generale. Essi appartengono alla struttura primaria del territorio comunale. Non sono incompatibili con i sistemi locali, e non vengono fissati né dalla reparcelación né dal plan parcial, che hanno funzioni diverse e subordinate.",
+      "legal_reference": "Referencia principal: LOTURM, arts. 114, 115.4, 116.1.a y 120.",
+      "original_file": "chat_input_urbanismo_questions.txt"
+    },
+    {
+      "question_number": 5,
+      "question": "Los propietarios asumen:",
+      "answers": [
+        {
+          "text": "Las indemnizaciones por extinción de elementos o derechos",
+          "correct": true
+        },
+        {
+          "text": "El coste de la obra de urbanización",
+          "correct": true
+        },
+        {
+          "text": "Todas las anteriores",
+          "correct": true
+        },
+        {
+          "text": "El coste de los proyectos de transformación del suelo",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: Materialmente son verdaderas las tres premisas parciales y, por eso, también lo es \"Todas las anteriores\". Los propietarios deben soportar los gastos de urbanización, los honorarios y costes de redacción y tramitación de planes y proyectos ligados a la transformación, así como las indemnizaciones por extinción de arrendamientos, servidumbres, construcciones o derechos incompatibles con el planeamiento. La opción C resume correctamente ese conjunto.\nIT: Sono sostanzialmente vere tutte le premesse parziali, e per questo è vera anche \"Todas las anteriores\". I proprietari sopportano i costi di urbanizzazione, i costi dei progetti e le indennità per l’estinzione di diritti o situazioni incompatibili con il piano.",
+      "legal_reference": "Referencia principal: LOTURM, arts. 98.a y 98.e, y art. 184.1.e-f y 184.2.",
+      "original_file": "chat_input_urbanismo_questions.txt"
+    },
+    {
+      "question_number": 6,
+      "question": "La entrega del 10% de edificabilidad lucrativa privada al Ayuntamiento es:",
+      "answers": [
+        {
+          "text": "En concepto de bien de dominio público de servicio público",
+          "correct": false
+        },
+        {
+          "text": "En concepto de bien de dominio público de uso público",
+          "correct": false
+        },
+        {
+          "text": "En concepto de bien patrimonial",
+          "correct": true
+        },
+        {
+          "text": "Ninguna de las respuestas",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es \"En concepto de bien patrimonial\". La cesión del aprovechamiento urbanístico a favor del ayuntamiento se integra en el patrimonio público de suelo, que tiene naturaleza patrimonial separada y no demanial por regla general. Por eso no encaja en dominio público de uso público ni de servicio público. La finalidad pública existe, pero el régimen jurídico es patrimonial.\nIT: La risposta corretta è \"bene patrimoniale\". La cessione del 10% confluisce nel patrimonio pubblico del suolo, che ha natura patrimoniale e non, di regola, demaniale. Quindi non rientra nel dominio pubblico di uso o di servizio pubblico.",
+      "legal_reference": "Referencia principal: LOTURM, arts. 78.1, 228.1.b, 229 y 231.",
+      "original_file": "chat_input_urbanismo_questions.txt"
+    },
+    {
+      "question_number": 7,
+      "question": "Las fincas de las parcelas de adjudicación:",
+      "answers": [
+        {
+          "text": "Contienen la equivalencia que se adjudica en reparcelación al propietario de la finca rústica originaria",
+          "correct": true
+        },
+        {
+          "text": "Se trata de las parcelas adjudicadas al Ayuntamiento",
+          "correct": false
+        },
+        {
+          "text": "Son fincas rústicas originarias que tiene cada propietario",
+          "correct": false
+        },
+        {
+          "text": "Son todas las fincas que están dentro del sector de suelo urbanizable",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la opción que vincula la parcela de adjudicación con la equivalencia que recibe el propietario tras la reparcelación. La reparcelación sustituye las fincas originarias por fincas resultantes o de adjudicación, en proporción a los derechos urbanísticos de cada titular. No se limita a parcelas municipales, no coincide con las fincas originarias y no son todas las fincas del sector, sino las fincas resultantes adjudicadas.\nIT: La risposta corretta è quella che collega la parcela de adjudicación all’equivalente spettante al proprietario dopo la reparcelación. Le finche originarie vengono sostituite da lotti risultanti attribuiti secondo i diritti urbanistici. Non sono solo le parcelle del Comune, né coincidono con le finche originarie, né con tutto il settore.",
+      "legal_reference": "Referencia principal: LOTURM, art. 201.1-3, especialmente art. 201.3.c.",
+      "original_file": "chat_input_urbanismo_questions.txt"
+    },
+    {
+      "question_number": 8,
+      "question": "El proyecto de urbanización es:",
+      "answers": [
+        {
+          "text": "El proyecto que reparcela",
+          "correct": false
+        },
+        {
+          "text": "El proyecto de plan parcial",
+          "correct": false
+        },
+        {
+          "text": "El proyecto de los edificios que en su día se erijan una vez urbanizado el sector",
+          "correct": false
+        },
+        {
+          "text": "El proyecto que describe mide y presupuesta la obra de urbanización de la unidad de actuación",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La opción correcta es la D. El proyecto de urbanización tiene por objeto ejecutar las obras de urbanización previstas por el planeamiento y debe contener memoria, planos, mediciones, cuadros de precios, presupuesto y pliego de condiciones. No reparcela, no sustituye al Plan Parcial y no es el proyecto de edificación. Es un instrumento técnico de ejecución de la urbanización.\nIT: La risposta corretta è la D. Il progetto di urbanizzazione serve a eseguire le opere di urbanizzazione previste dal piano e contiene memoria, elaborati grafici, misurazioni e preventivo. Non fa la reparcelación, non è il plan parcial e non è il progetto degli edifici futuri.",
+      "legal_reference": "Referencia principal: LOTURM, art. 183.1-4.",
+      "original_file": "chat_input_urbanismo_questions.txt"
+    },
+    {
+      "question_number": 9,
+      "question": "La ficha del sector:",
+      "answers": [
+        {
+          "text": "La elabora el plan general y contiene el modelo de crecimiento en ese ámbito",
+          "correct": true
+        },
+        {
+          "text": "La elabora el proyecto de reparcelación",
+          "correct": false
+        },
+        {
+          "text": "Es el documento donde se fichan los datos de los propietarios del sector y de sus fincas",
+          "correct": false
+        },
+        {
+          "text": "Ninguna o todas las anteriores",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la A, entendida en sentido funcional: la ficha del sector es un documento del planeamiento general que sintetiza para cada sector sus usos globales, aprovechamiento, estándares, sistemas generales vinculados y condiciones de desarrollo. No pertenece al proyecto de reparcelación ni es una simple ficha catastral de propietarios. La ley no la regula como documento autónomo con ese nombre, pero sí exige que el PGMO fije esas determinaciones sectoriales.\nIT: La risposta corretta è la A, intesa in senso funzionale. La ficha del sector è un documento del piano generale che riassume usi, indici, standard, sistemi generali collegati e condizioni di sviluppo del settore. Non appartiene alla reparcelación né è una scheda dei proprietari. La legge non la definisce sempre come documento autonomo, ma il contenuto deriva comunque dal PGMO.",
+      "legal_reference": "Referencia principal: LOTURM, arts. 114-120; en particular art. 115.3 y art. 119.",
+      "original_file": "chat_input_urbanismo_questions.txt"
+    },
+    {
+      "question_number": 10,
+      "question": "Las fases del urbanismo son:",
+      "answers": [
+        {
+          "text": "Planeamiento y Edificación",
+          "correct": false
+        },
+        {
+          "text": "Planeamiento y Urbanización",
+          "correct": false
+        },
+        {
+          "text": "Planeamiento y Gestión",
+          "correct": true
+        },
+        {
+          "text": "Planeamiento y Reparcelación",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta doctrinalmente correcta es \"Planeamiento y Gestión\". Primero se ordena el territorio mediante instrumentos de planeamiento; después se ejecuta y gestiona esa ordenación mediante programas, reparcelación, urbanización y sistemas de actuación. La edificación es una consecuencia posterior, y la reparcelación y la urbanización son subinstrumentos o contenidos de la gestión, no fases autónomas equivalentes al planeamiento.\nIT: La risposta corretta, in senso dottrinale, è \"pianificazione e gestione\". Prima si pianifica, poi si attua tramite programmi, reparcelación, urbanizzazione e sistemi di attuazione. L’edificazione viene dopo; reparcelación e urbanizzazione non sono fasi autonome ma strumenti della gestione.",
+      "legal_reference": "Referencia principal: LOTURM, bloque de planeamiento (arts. 114-151) y bloque de gestión/ejecución (arts. 194-226).",
+      "original_file": "chat_input_urbanismo_questions.txt"
+    },
+    {
+      "question_number": 11,
+      "question": "Los sectores los delimita:",
+      "answers": [
+        {
+          "text": "El PGMO",
+          "correct": true
+        },
+        {
+          "text": "El plan parcial",
+          "correct": false
+        },
+        {
+          "text": "El proyecto de reparcelación",
+          "correct": false
+        },
+        {
+          "text": "El proyecto de urbanización",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es \"El PGMO\". El Plan General delimita el suelo urbanizable sectorizado y fija criterios para delimitar sectores en el suelo sin sectorizar. El Plan Parcial desarrolla un sector ya previsto o justifica su ámbito conforme a los criterios del PGMO, pero no sustituye la función estructural del plan general. La reparcelación y el proyecto de urbanización operan después, en ejecución.\nIT: La risposta corretta è il PGMO. Il piano generale delimita i settori urbanizzabili o almeno stabilisce i criteri per delimitarli. Il plan parcial li sviluppa; reparcelación e progetto di urbanizzazione intervengono dopo, in fase esecutiva.",
+      "legal_reference": "Referencia principal: LOTURM, arts. 115.3, 119.1.a y 119.2.b, y art. 123.1.",
+      "original_file": "chat_input_urbanismo_questions.txt"
+    },
+    {
+      "question_number": 12,
+      "question": "La “autonomía” de las unidades de actuación requiere:",
+      "answers": [
+        {
+          "text": "Que sean económicamente viables",
+          "correct": true
+        },
+        {
+          "text": "Que no requieran adscripción de aprovechamiento",
+          "correct": false
+        },
+        {
+          "text": "Que sean independientes en accesos y servicios",
+          "correct": true
+        },
+        {
+          "text": "Ninguna o todas las demás",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La pregunta admite más de una respuesta materialmente correcta. La LOTURM exige que las unidades aseguren su viabilidad y autonomía; de ahí que la viabilidad económica sea correcta y que también lo sea, en clave doctrinal, la independencia en accesos y servicios. En cambio, la inexistencia de adscripción de aprovechamiento no es un requisito legal de autonomía. Por eso la D no puede aceptarse como \"todas\".\nIT: La domanda ammette più di una risposta sostanzialmente corretta. La legge richiede che l’unità assicuri viabilità e autonomia; quindi sono corrette sia la sostenibilità economica sia, in senso tecnico, l’indipendenza di accessi e servizi. Non è invece requisito di autonomia l’assenza di adscripción de aprovechamiento.",
+      "legal_reference": "Referencia principal: LOTURM, art. 196.1 y 196.3.",
+      "original_file": "chat_input_urbanismo_questions.txt"
+    },
+    {
+      "question_number": 13,
+      "question": "El aprovechamiento de un sector de suelo urbanizable:",
+      "answers": [
+        {
+          "text": "Es el aprovechamiento agrícola, pecuario o forestal de las fincas rústicas que lo componen",
+          "correct": false
+        },
+        {
+          "text": "Es la edificabilidad  parcelas en el suelo urbano de la ciudad existente",
+          "correct": false
+        },
+        {
+          "text": "Es la edificabilidad establecida en la ficha para el sector",
+          "correct": true
+        },
+        {
+          "text": "Ninguna o todas las anteriores",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la C. En urbanismo, el aprovechamiento del sector es la edificabilidad o intensidad urbanística atribuida por el planeamiento al sector, no el aprovechamiento rural originario de las fincas ni la edificabilidad del suelo urbano consolidado ya existente. La \"ficha\" sectorial del PGMO o el planeamiento de desarrollo expresa precisamente ese aprovechamiento.\nIT: La risposta corretta è la C. In urbanistica, l’aprovechamiento del settore coincide con l’edificabilità/intensità urbanistica assegnata dal piano al settore. Non riguarda né l’uso agricolo originario né l’edificabilità della città già consolidata.",
+      "legal_reference": "Referencia principal: LOTURM, arts. 115.3, 119.1.b y 124.d.",
+      "original_file": "chat_input_urbanismo_questions.txt"
+    },
+    {
+      "question_number": 14,
+      "question": "La Ficha del sector en el PGMO identifica:",
+      "answers": [
+        {
+          "text": "Usos y aprovechamiento",
+          "correct": true
+        },
+        {
+          "text": "Las parcelas de adjudicación",
+          "correct": false
+        },
+        {
+          "text": "El nombre de los titulares de suelo de las fincas de aportación",
+          "correct": false
+        },
+        {
+          "text": "Ninguna o todas las anteriores",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La opción correcta es \"Usos y aprovechamiento\". La ficha sectorial del PGMO sirve para identificar el uso global, los parámetros urbanísticos, el aprovechamiento y las condiciones de desarrollo del sector. No contiene las parcelas de adjudicación, que son propias de la reparcelación, ni se centra en los titulares de las fincas de aportación, que pertenecen al ámbito registral/catastral y de gestión.\nIT: La risposta corretta è \"usi e aprovechamiento\". La scheda di settore del PGMO individua destinazioni, parametri e indice edificatorio del settore. Non contiene invece le parcelle di adjudicación, proprie della reparcelación, né è una lista dei titolari delle finche di apporto.",
+      "legal_reference": "Referencia principal: LOTURM, arts. 115.3, 119 y 124.d.",
+      "original_file": "chat_input_urbanismo_questions.txt"
+    },
+    {
+      "question_number": 15,
+      "question": "La plusvalía es identificable con:",
+      "answers": [
+        {
+          "text": "La edificabilidad añadida al suelo con aprovechamiento, que aumenta su valor",
+          "correct": true
+        },
+        {
+          "text": "El aumento del valor del suelo por la subida de precios del mercado del entorno",
+          "correct": false
+        },
+        {
+          "text": "El aumento del Índice de precios al consumo (IPC)",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la A. La plusvalía urbanística se identifica con el incremento de valor derivado de la acción urbanística pública y de la atribución de edificabilidad/aprovechamiento por el planeamiento, no con la simple subida general del mercado ni con la inflación medida por el IPC. Las otras respuestas confunden plusvalía urbanística con revalorización económica general.\nIT: La risposta corretta è la A. La plusvalía urbanistica è l’aumento di valore derivante dall’azione urbanistica pubblica e dall’attribuzione di edificabilità/aprovechamiento, non il semplice aumento dei prezzi di mercato né l’inflazione IPC.",
+      "legal_reference": "Referencia principal: LOTURM, arts. 77 y 78; TRLSRU (RDL 7/2015), arts. 4 y 18.",
+      "original_file": "chat_input_urbanismo_questions.txt"
+    },
+    {
+      "question_number": 16,
+      "question": "El plan parcial:",
+      "answers": [
+        {
+          "text": "Ordena pormenorizadamente",
+          "correct": true
+        },
+        {
+          "text": "Delimita unidades de actuación",
+          "correct": true
+        },
+        {
+          "text": "Delimita los sistemas locales",
+          "correct": true
+        },
+        {
+          "text": "Todas las anteriores",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: Las tres afirmaciones parciales son correctas y, por ello, también lo es \"Todas las anteriores\". El Plan Parcial tiene por objeto la ordenación detallada del sector; puede incluir la delimitación de unidades de actuación; y fija las reservas y localización de dotaciones y sistemas locales de espacios libres y equipamientos. Jurídicamente, la respuesta integradora D es la más completa, pero A, B y C también son materialmente verdaderas.\nIT: Tutte e tre le affermazioni parziali sono corrette; per questo è corretta anche \"Todas las anteriores\". Il plan parcial ordina in dettaglio il settore, può delimitare le unità di attuazione e stabilisce le dotazioni/sistemi locali. In logica giuridica la D è la sintesi completa, ma anche A, B e C sono vere.",
+      "legal_reference": "Referencia principal: LOTURM, arts. 123 y 124, en especial art. 124.b, 124.e y 124.f.",
+      "original_file": "chat_input_urbanismo_questions.txt"
+    },
+    {
+      "question_number": 17,
+      "question": "Una fase de gestión urbanística comienza:",
+      "answers": [
+        {
+          "text": "Cuando está aprobado el sector en el PGMO",
+          "correct": false
+        },
+        {
+          "text": "Cuando está aprobado el proyecto de reparcelación de la unidad de actuación",
+          "correct": false
+        },
+        {
+          "text": "Cuando está aprobado el plan parcial que delimita la unidad de actuación",
+          "correct": true
+        },
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta más correcta es la C. La gestión urbanística requiere que exista ya ordenación detallada y delimitación de la unidad de actuación; por eso el hito relevante es la aprobación del plan que ordena pormenorizadamente y delimita la unidad. La mera previsión del sector en el PGMO no basta, y la aprobación de la reparcelación es ya un momento avanzado de la propia gestión, no su inicio.\nIT: La risposta più corretta è la C. La gestione urbanistica presuppone che esista già l’ordinazione di dettaglio e la delimitazione dell’unità di attuazione; quindi il momento chiave è l’approvazione del piano che la delimita. La sola previsione nel PGMO non basta, mentre la reparcelación è già una fase avanzata della gestione.",
+      "legal_reference": "Referencia principal: LOTURM, arts. 196.2, 199 y 201.",
+      "original_file": "chat_input_urbanismo_questions.txt"
+    },
+    {
+      "question_number": 18,
+      "question": "El criterio de mercado en la delimitación de las unidades de actuación significa que:",
+      "answers": [
+        {
+          "text": "Los suelos de la unidad de actuación salen al mercado para su venta",
+          "correct": false
+        },
+        {
+          "text": "La situación del mercado influye en el tamaño de las UUA ya que en crisi deben ser de tamaño reducido para que la iniciativa privada esté dispuesta a asumir riesgos",
+          "correct": true
+        },
+        {
+          "text": "Que el mercado fija los precios del suelo en función de la ley de la oferta y la demanda",
+          "correct": false
+        },
+        {
+          "text": "Ninguna o todas las anteriores",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la B. El llamado criterio de mercado no describe una compraventa ni la teoría general de precios, sino un criterio de diseño de la actuación: en contextos de crisis o menor apetito inversor, unidades demasiado grandes pueden hacer inviable la iniciativa privada. Por eso el mercado influye en el tamaño razonable de la unidad. Las otras respuestas no se refieren realmente a la delimitación urbanística.\nIT: La risposta corretta è la B. Il criterio di mercato non riguarda né la mera vendita dei terreni né la teoria astratta dei prezzi; riguarda piuttosto la dimensione economicamente assumibile dell’unità di attuazione. In fasi di crisi, unità troppo grandi possono diventare non sostenibili per l’iniziativa privata.",
+      "legal_reference": "Referencia principal: criterio doctrinal conectado con LOTURM, arts. 196.1 (viabilidad) y 197-199 (sistemas y programas de actuación).",
+      "original_file": "chat_input_urbanismo_questions.txt"
+    },
+    {
+      "question_number": 19,
+      "question": "El documento que integra territorialmente un ámbito de suelo urbanizable no sectorizado para su sectorización es:",
+      "answers": [
+        {
+          "text": "El plan parcial",
+          "correct": false
+        },
+        {
+          "text": "El plan general",
+          "correct": false
+        },
+        {
+          "text": "La Cédula de Urbanización",
+          "correct": true
+        },
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La mejor respuesta es \"La Cédula de Urbanización\". En suelo urbanizable sin sectorizar, la cédula es el documento que acredita las condiciones para la correcta implantación territorial de la actuación y vincula la tramitación posterior. No sustituye por sí sola al planeamiento de desarrollo, pero es el documento previo que integra territorialmente y condiciona la sectorización. El Plan Parcial y el Plan General cumplen otras funciones.\nIT: La risposta migliore è \"la Cédula de Urbanización\". Nel suolo urbanizzabile non settorizzato, la cédula fissa le condizioni per la corretta integrazione territoriale dell’intervento e vincola la successiva tramitação. Non sostituisce da sola il piano attuativo, ma è il documento preliminare che condiziona e orienta la settorizzazione.",
+      "legal_reference": "Referencia principal: LOTURM, arts. 97.3 y 151.",
+      "original_file": "chat_input_urbanismo_questions.txt"
+    },
+    {
+      "question_number": 20,
+      "question": "Los propietarios de suelo urbanizable tienen:",
+      "answers": [
+        {
+          "text": "El deber de hacer cesiones de espacios libres y equipamiento, y del 10% del aprovechamiento",
+          "correct": true
+        },
+        {
+          "text": "El deber de cultivar el suelo",
+          "correct": false
+        },
+        {
+          "text": "El deber de obtener licencia de obras mayores para edificar",
+          "correct": false
+        },
+        {
+          "text": "Todas o ninguna de las anteriores",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la A. Los propietarios de suelo urbanizable están sujetos a deberes de cesión de dotaciones locales, sistemas generales vinculados o adscritos y de la participación pública en las plusvalías mediante la cesión del porcentaje de aprovechamiento correspondiente. No existe un deber urbanístico general de cultivar el suelo, y la licencia de obras es una carga para edificar cuando proceda, no la nota definitoria aquí buscada.\nIT: La risposta corretta è la A. I proprietari del suolo urbanizzabile devono cedere dotazioni, spazi liberi, equipamientos e la quota pubblica di aprovechamiento. Non esiste un dovere urbanistico generale di coltivare il fondo, e la licenza edilizia non è qui il contenuto tipico della posizione soggettiva richiesta.",
+      "legal_reference": "Referencia principal: LOTURM, arts. 78, 98.b-c-e y, en el marco estatal, TRLSRU art. 18.",
+      "original_file": "chat_input_urbanismo_questions.txt"
+    },
+    {
+      "question_number": 21,
+      "question": "El coste de las obras de urbanización lo asume siempre:",
+      "answers": [
+        {
+          "text": "La Comunidad Autónoma",
+          "correct": false
+        },
+        {
+          "text": "El Ayuntamiento",
+          "correct": false
+        },
+        {
+          "text": "El Estado",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La correcta es \"Ninguna de las anteriores\". La regla general es que los gastos de urbanización corresponden a los propietarios o titulares de derechos patrimoniales, y en algunos extremos a empresas concesionarias o suministradoras; por tanto, no los asume siempre ninguna de las Administraciones mencionadas. La pregunta solo sería distinta si incluyera a los propietarios como opción.\nIT: La risposta corretta è \"nessuna delle precedenti\". Di regola i costi di urbanizzazione gravano sui proprietari o titolari di diritti patrimoniali e, per alcune reti, sui concessionari/gestori dei servizi. Non li sostiene sempre né la Regione, né il Comune, né lo Stato.",
+      "legal_reference": "Referencia principal: LOTURM, art. 184.2.",
+      "original_file": "chat_input_urbanismo_questions.txt"
+    },
+    {
+      "question_number": 22,
+      "question": "El resultado urbanístico final del proceso de transformación de suelo es:",
+      "answers": [
+        {
+          "text": "El suelo urbano",
+          "correct": true
+        },
+        {
+          "text": "El suelo urbanizable",
+          "correct": false
+        },
+        {
+          "text": "El suelo no urbanizable",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es \"El suelo urbano\". El suelo urbanizable es una categoría de partida para su transformación; una vez ejecutada la urbanización y recibidas las obras conforme a la ley, el resultado final es suelo urbano. El suelo no urbanizable, por definición, queda fuera de ese proceso transformador ordinario.\nIT: La risposta corretta è \"suelo urbano\". Il suolo urbanizzabile è la categoria di partenza destinata alla trasformazione; una volta realizzate e ricevute le opere di urbanizzazione, il risultato finale è suolo urbano. Il suolo non urbanizzabile, per definizione, resta fuori da questo processo.",
+      "legal_reference": "Referencia principal: LOTURM, art. 79 y régimen de adquisición de la condición urbana tras la urbanización; también art. 1101 del texto consolidado abierto.",
+      "original_file": "chat_input_urbanismo_questions.txt"
+    },
+    {
+      "question_number": 23,
+      "question": "El primer documento que debe manejarse en cualquier cuestión urbanística es:",
+      "answers": [
+        {
+          "text": "El plan parcial",
+          "correct": false
+        },
+        {
+          "text": "El proyecto de reparcelación",
+          "correct": false
+        },
+        {
+          "text": "El plan general municipal de ordenación (PGMO)",
+          "correct": true
+        },
+        {
+          "text": "El proyecto de urbanización",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es el PGMO. En cualquier análisis urbanístico, el primer documento es el plan general porque fija clasificación del suelo, estructura general, sistemas generales, sectores, usos globales y condiciones de desarrollo. Los demás instrumentos dependen jerárquicamente de él o lo desarrollan/ejecutan. Empezar por un plan parcial o por un proyecto de gestión sin revisar antes el PGMO conduce a errores.\nIT: La risposta corretta è il PGMO. In ogni questione urbanistica si parte dal piano generale, perché stabilisce classificazione del suolo, struttura generale, sistemi generali, settori, usi e condizioni di sviluppo. Gli altri strumenti dipendono da esso o lo attuano.",
+      "legal_reference": "Referencia principal: LOTURM, arts. 114-120.",
+      "original_file": "chat_input_urbanismo_questions.txt"
+    },
+    {
+      "question_number": 24,
+      "question": "El plan general:",
+      "answers": [
+        {
+          "text": "Clasifica el suelo en urbano, urbanizable y no urbanizable, y fija los sistemas generales",
+          "correct": true
+        },
+        {
+          "text": "Fija los sistemas locales del suelo urbanizable",
+          "correct": false
+        },
+        {
+          "text": "Repara el suelo no urbanizable",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la A. El Plan General clasifica el suelo y establece la estructura general del territorio, incluidos los sistemas generales. Los sistemas locales se concretan típicamente en el planeamiento de desarrollo, especialmente en el Plan Parcial. El plan general tampoco \"repara\" el suelo no urbanizable: la reparcelación es un instrumento de gestión y el suelo no urbanizable se preserva, no se urbaniza ordinariamente.\nIT: La risposta corretta è la A. Il piano generale classifica il suolo e fissa i sistemi generali. I sistemi locali vengono di regola definiti nel piano di sviluppo, soprattutto nel plan parcial. Inoltre il piano generale non “repara” il suolo non urbanizzabile: lo preserva.",
+      "legal_reference": "Referencia principal: LOTURM, arts. 79, 114, 115 y 116.",
+      "original_file": "chat_input_urbanismo_questions.txt"
+    },
+    {
+      "question_number": 25,
+      "question": "Las Unidades de Actuación delimitadas por un Plan Parcial deben ser:",
+      "answers": [
+        {
+          "text": "Equilibradas en el más menos 15% del aprovechamiento del sector",
+          "correct": false
+        },
+        {
+          "text": "Del mismo tamaño",
+          "correct": false
+        },
+        {
+          "text": "Las dos anteriores",
+          "correct": false
+        },
+        {
+          "text": "Dependientes las unas de las otras",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: En validación jurídica estricta, ninguna opción es correcta. En suelo urbanizable, la ley murciana no exige que las unidades estén equilibradas en ±15% del aprovechamiento del sector; esa regla se refiere al suelo urbano no consolidado. En suelo urbanizable, el aprovechamiento de la unidad es el del sector al que se vincula. Tampoco deben ser del mismo tamaño ni dependientes entre sí. Por tanto, la pregunta está mal planteada.\nIT: In una validazione giuridica rigorosa, nessuna risposta è corretta. Nel suolo urbanizzabile la legge murciana non impone un equilibrio del ±15% dell’aprovechamiento del settore; quella regola riguarda il suolo urbano non consolidato. Nel suolo urbanizzabile l’unità assume l’aprovechamiento del settore cui è collegata. Non devono nemmeno avere la stessa dimensione né essere dipendenti tra loro.",
+      "legal_reference": "Referencia principal: LOTURM, art. 196.3.b-c; y, en el texto refundido anterior de Murcia, DL 1/2005, art. 170.3.b-c.",
+      "original_file": "chat_input_urbanismo_questions.txt",
+      "source_note": "En el texto original aparece marcada como CORRETTA la opción del ±15%, pero esa solución no coincide con la regulación murciana de las unidades en suelo urbanizable."
+    },
+    {
+      "question_number": 26,
+      "question": "El plan parcial:",
+      "answers": [
+        {
+          "text": "Establece los sistemas generales",
+          "correct": false
+        },
+        {
+          "text": "Establece el aprovechamiento de los sectores",
+          "correct": false
+        },
+        {
+          "text": "Establece los sistemas locales de equipamiento y de espacios libres conforme a la proporción fijada en la ley autonómica",
+          "correct": true
+        },
+        {
+          "text": "Ninguna o todas las anteriores",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la C. El Plan Parcial fija reservas de espacios libres y equipamientos locales conforme a los estándares legales del sector. No establece los sistemas generales, que corresponden al Plan General, ni \"crea\" autónomamente el aprovechamiento de referencia del sector, que viene determinado por el PGMO y se aplica en el planeamiento parcial para obtener el aprovechamiento resultante.\nIT: La risposta corretta è la C. Il plan parcial stabilisce gli spazi liberi e gli equipamientos locali secondo gli standard fissati dalla legge. Non fissa i sistemi generali, che spettano al piano generale, né determina autonomamente l’aprovechamiento di riferimento del settore.",
+      "legal_reference": "Referencia principal: LOTURM, arts. 119, 120 y 124.e-f.",
+      "original_file": "chat_input_urbanismo_questions.txt"
+    },
+    {
+      "question_number": 27,
+      "question": "El aprovechamiento:",
+      "answers": [
+        {
+          "text": "Es para los titulares de suelo",
+          "correct": true
+        },
+        {
+          "text": "Es en parte para la Administración",
+          "correct": true
+        },
+        {
+          "text": "Es una plusvalía",
+          "correct": false
+        },
+        {
+          "text": "Todas las anteriores",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Son correctas A y B. El aprovechamiento urbanístico corresponde en principio a los titulares de suelo, pero una parte debe cederse a la Administración como participación de la comunidad en las plusvalías. La C es imprecisa: el aprovechamiento no es exactamente la plusvalía, sino el parámetro urbanístico a través del cual se cuantifica y reparte el contenido lucrativo y la participación pública en esa plusvalía. Por eso D tampoco puede considerarse correcta.\nIT: Sono corrette A e B. L’aprovechamiento spetta in linea di principio ai titolari del suolo, ma una quota va ceduta all’amministrazione quale partecipazione pubblica alla plusvalía. La C è tecnicamente imprecisa: l’aprovechamiento non coincide con la plusvalía, ma è il parametro urbanistico con cui la si quantifica e si ripartisce. Per questo la D non è corretta.",
+      "legal_reference": "Referencia principal: LOTURM, arts. 77, 78, 119 y 124.",
+      "original_file": "chat_input_urbanismo_questions.txt"
+    },
+    {
+      "question_number": 28,
+      "question": "La alineación es:",
+      "answers": [
+        {
+          "text": "La línea que separa el suelo privado del público en la ordenación pormenorizada",
+          "correct": true
+        },
+        {
+          "text": "La línea que separa los sectores",
+          "correct": false
+        },
+        {
+          "text": "La línea perimetral de las unidades de actuación",
+          "correct": false
+        },
+        {
+          "text": "La línea que separa el suelo urbano del suelo no urbanizable en los planes generales",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la A. En urbanismo, la alineación es la línea que delimita el espacio edificable privado respecto del dominio público viario o dotacional dentro de la ordenación detallada. No delimita sectores, no equivale al perímetro de una unidad de actuación y tampoco coincide con la frontera entre clases de suelo en el Plan General.\nIT: La risposta corretta è la A. L’allineamento urbanistico è la linea che separa lo spazio privato edificabile dal suolo pubblico nell’ordinazione di dettaglio. Non delimita i settori, non coincide con il perimetro dell’unità di attuazione e non separa le classi di suolo nel piano generale.",
+      "legal_reference": "Referencia principal: LOTURM, arts. 111.1, 117.1.i, 124.h y 139.2.a.",
+      "original_file": "chat_input_urbanismo_questions.txt"
+    },
+    {
+      "question_number": 29,
+      "question": "En la gestión urbanística se comprende:",
+      "answers": [
+        {
+          "text": "Proyecto de plan parcial y de reparcelación",
+          "correct": false
+        },
+        {
+          "text": "Proyecto de plan general y de plan parcial",
+          "correct": false
+        },
+        {
+          "text": "Proyecto de reparcelación y de urbanización, así como posterior ejecución de la obra proyectada",
+          "correct": true
+        },
+        {
+          "text": "Ninguna o todas las anteriores",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la C. La gestión urbanística comprende los instrumentos y actos de ejecución de la ordenación: programa de actuación, reparcelación, urbanización y ejecución material de las obras. El plan general y el plan parcial pertenecen al planeamiento, no a la gestión. Por eso las opciones A y B mezclan indebidamente fases distintas.\nIT: La risposta corretta è la C. La gestione urbanistica comprende gli strumenti e gli atti di esecuzione della pianificazione: programma, reparcelación, urbanizzazione ed esecuzione materiale delle opere. Il piano generale e il plan parcial appartengono invece alla fase di pianificazione.",
+      "legal_reference": "Referencia principal: LOTURM, arts. 195, 198, 201 y 183.",
+      "original_file": "chat_input_urbanismo_questions.txt"
+    },
+    {
+      "question_number": 30,
+      "question": "El suelo urbanizable no sectorizado o sin sectorizar:",
+      "answers": [
+        {
+          "text": "Necesita actualizar el estándar de sistema local, ya que al hacerse el plan general este estándar se refirió al suelo urbano y al urbanizable sectorizado, y lo hace mediante la cédula de urbanización",
+          "correct": true
+        },
+        {
+          "text": "Es un suelo que se sectoriza mediante modificación del plan general",
+          "correct": false
+        },
+        {
+          "text": "Es un suelo que se queda siempre fuera de cualquier sector de suelo urbanizable",
+          "correct": false
+        },
+        {
+          "text": "Ninguna o todas las anteriores",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La opción más defendible es la A. En el suelo urbanizable sin sectorizar, la Cédula de Urbanización concreta las condiciones de desarrollo, implantación territorial y conexiones, y sirve de base previa para el instrumento de desarrollo. No es necesario, por regla general, modificar el Plan General para sectorizar si el propio PGMO ya fijó criterios y condiciones; y, desde luego, no se trata de un suelo condenado a quedar siempre fuera de sector.\nIT: L’opzione più difendibile è la A. Nel suolo urbanizzabile non settorizzato, la Cédula de Urbanización precisa condizioni, collegamenti e requisiti dello sviluppo e funge da passaggio preliminare al piano attuativo. Non serve, di regola, modificare il piano generale se il PGMO ha già fissato criteri e condizioni; e non è certo un suolo destinato a restare sempre fuori da ogni settore.",
+      "legal_reference": "Referencia principal: LOTURM, arts. 97.3, 119.2 y 151.",
+      "original_file": "chat_input_urbanismo_questions.txt"
+    }
+  ]
+}

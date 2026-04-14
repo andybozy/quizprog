@@ -1,0 +1,849 @@
+{
+  "file_number": 1,
+  "file_name": "mercantil_iii_questions_batch_01.json",
+  "batch_start": 1,
+  "batch_end": 30,
+  "total_questions": 144,
+  "questions": [
+    {
+      "sequence_number": 1,
+      "question": "En el transporte multimodal",
+      "answers": [
+        {
+          "text": "Intervinieren exclusivamente dos partes cargador y porteador.",
+          "correct": true
+        },
+        {
+          "text": "Uno de los medios a emplear deberá ser obligatoriamente terrestre.",
+          "correct": true
+        },
+        {
+          "text": "Se regirá por la normativa propia de cada medio de transporte utilizada.",
+          "correct": true
+        },
+        {
+          "text": "Todas las anteriores son ciertas.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La pregunta, tal como está redactada, es defectuosa porque las tres primeras afirmaciones describen correctamente el transporte multimodal y, por eso mismo, también es correcta la opción de cierre. El contrato multimodal se celebra entre cargador y porteador; pueden intervenir otros sujetos en la ejecución, pero las partes contractuales básicas siguen siendo esas dos. Además, la Ley exige que uno de los modos de transporte sea terrestre y remite, para cada tramo, a la normativa propia del modo utilizado.\nIT: La domanda, così formulata, è difettosa perché le prime tre affermazioni descrivono correttamente il trasporto multimodale e, proprio per questo, è corretta anche l’opzione finale. Il contratto si conclude tra mittente/caricatore e vettore; altri soggetti possono intervenire nell’esecuzione, ma le parti contrattuali di base restano queste due. Inoltre, la legge richiede che uno dei mezzi impiegati sia terrestre e rinvia, per ciascuna tratta, alla disciplina del mezzo utilizzato.",
+      "legal_reference": "Ley 15/2009, de 11 de noviembre, arts. 2, 3 y 67; 11_TEMA 11 (1).PDF.",
+      "original_file": {
+        "file_name": "11_TEMA 11 (1).PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 2,
+      "question": "En el contrato de distribución el concesionario revenderá los productos del concedente",
+      "answers": [
+        {
+          "text": "Dentro de la zona geográfica asignada.",
+          "correct": true
+        },
+        {
+          "text": "Con el margen que le fije el concedente.",
+          "correct": false
+        },
+        {
+          "text": "Con carácter de exclusividad se hubiera o no pactado.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores respuestas es cierta.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: En el contrato de distribución el distribuidor o concesionario revende por cuenta propia en el territorio o zona contractual. No revende con un margen impuesto por el concedente, porque el margen comercial es suyo y los precios de reventa no pueden ser fijados por el principal como regla general. Tampoco existe siempre exclusividad: la exclusiva puede pactarse, pero no es elemento necesario en todos los contratos de distribución.\nIT: Nel contratto di distribuzione il distributore o concessionario rivende per conto proprio nel territorio contrattualmente assegnato. Non rivende con un margine imposto dal concedente, perché il margine commerciale è proprio del distributore e, in via generale, il principale non può fissare i prezzi di rivendita. Inoltre, l’esclusiva non esiste sempre: può essere pattuita, ma non è elemento necessario di ogni contratto di distribuzione.",
+      "legal_reference": "Ley 15/2007, art. 1; 7_TEMA 7_1.PDF, apartados I y IV.",
+      "original_file": {
+        "file_name": "7_TEMA 7_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 3,
+      "question": "Una de las notas características del contrato de comisión mercantil es que:",
+      "answers": [
+        {
+          "text": "Que actúa en nombre de un tercero.",
+          "correct": false
+        },
+        {
+          "text": "Que actúa en su propio interés.",
+          "correct": false
+        },
+        {
+          "text": "Que actúa en nombre del tercero y en interés del comitente.",
+          "correct": false
+        },
+        {
+          "text": "Que actúa en nombre propio o en el del comitente.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La nota característica correcta es que el comisionista puede actuar frente a terceros en nombre propio o en nombre del comitente, pero siempre en interés y por cuenta de este último. Por eso la opción correcta es la cuarta. La primera y la tercera están mal formuladas porque hablan del “tercero” en lugar del comitente; la segunda es errónea porque el comisionista no actúa en su propio interés, sino en interés del comitente.\nIT: La caratteristica corretta è che il commissionario può agire verso i terzi in nome proprio oppure in nome del committente, ma sempre nell’interesse e per conto di quest’ultimo. Per questo la risposta corretta è la quarta. La prima e la terza sono formulate male perché parlano del “terzo” invece che del committente; la seconda è errata perché il commissionario non agisce nel proprio interesse, bensì nell’interesse del committente.",
+      "legal_reference": "Código de Comercio, arts. 244 a 247; 4_TEMA 4_1.PDF.",
+      "original_file": {
+        "file_name": "4_TEMA 4_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 4,
+      "question": "La duración mínima legal del contrato de franquicia es de:",
+      "answers": [
+        {
+          "text": "Un año.",
+          "correct": false
+        },
+        {
+          "text": "Dos años.",
+          "correct": false
+        },
+        {
+          "text": "Tres años.",
+          "correct": false
+        },
+        {
+          "text": "Cuatro años.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Con arreglo a la legalidad vigente, la pregunta está defectuosamente planteada porque no existe hoy un plazo mínimo legal cerrado de uno, dos, tres o cuatro años en el art. 62 de la Ley 7/1996 ni en los arts. 1 a 4 del Real Decreto 201/2010. El material docente habla de una duración mínima “generalmente 3 años” para permitir la amortización de la inversión, pero eso responde a una pauta doctrinal o práctica contractual, no a un mínimo legal expreso e invariable. Por eso, tomada la pregunta en sentido estricto, ninguna de las respuestas es plenamente correcta.\nIT: Alla luce della normativa vigente, la domanda è formulata in modo difettoso perché oggi non esiste un termine minimo legale fisso di uno, due, tre o quattro anni nell’art. 62 della Legge 7/1996 né negli artt. 1-4 del Regio Decreto 201/2010. Il materiale didattico parla di una durata minima “generalmente di 3 anni” per consentire l’ammortamento dell’investimento, ma si tratta di una regola pratica o dottrinale, non di un minimo legale espresso e immutabile. Perciò, intesa in senso rigoroso, nessuna risposta è pienamente corretta.",
+      "legal_reference": "Ley 7/1996, art. 62; Real Decreto 201/2010, arts. 1 a 4; Real Decreto 553/2019; 8_TEMA 8_1.PDF.",
+      "original_file": {
+        "file_name": "8_TEMA 8_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 5,
+      "question": "La compraventa mercantil viene recogida y conceptuada legalmente en el artículo:",
+      "answers": [
+        {
+          "text": "1445 del Código Civil.",
+          "correct": false
+        },
+        {
+          "text": "325 del Código de Comercio.",
+          "correct": true
+        },
+        {
+          "text": "326 del Código de Comercio.",
+          "correct": false
+        },
+        {
+          "text": "7 de la Ley de Ordenación del Comercio Minorista.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La opción correcta es el artículo 325 del Código de Comercio, porque es el precepto que califica la compraventa como mercantil cuando concurren sus requisitos. El artículo 1445 del Código Civil contiene el concepto general de compraventa, pero no la mercantilidad. El artículo 326 CCom enumera supuestos excluidos de mercantilidad y el artículo 7 LOCM no es el precepto conceptual de la compraventa mercantil.\nIT: La risposta corretta è l’articolo 325 del Codice di commercio, perché è la norma che qualifica la vendita come mercantile quando ricorrono i relativi requisiti. L’articolo 1445 del Codice civile contiene il concetto generale di compravendita, ma non la sua mercantilità. L’articolo 326 CCom elenca invece i casi esclusi, e l’articolo 7 della LOCM non è la disposizione definitoria della compravendita mercantile.",
+      "legal_reference": "Código de Comercio, arts. 325 y 326; Código Civil, art. 1445; 2_TEMA 2_1.PDF.",
+      "original_file": {
+        "file_name": "2_TEMA 2_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 6,
+      "question": "Una de las características del contrato de difusión publicitaria es que se trata de un contrato:",
+      "answers": [
+        {
+          "text": "De resultado.",
+          "correct": true
+        },
+        {
+          "text": "En los que los derechos de propiedad intelectual al anunciante.",
+          "correct": false
+        },
+        {
+          "text": "De ejecución.",
+          "correct": false
+        },
+        {
+          "text": "De exoneración de responsabilidad por parte anunciante.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El contrato de difusión publicitaria es un contrato de resultado, porque el medio se obliga a difundir la publicidad pactada y a lograr el resultado publicitario comprometido. La cuestión de los derechos de propiedad intelectual pertenece al contrato de creación publicitaria, no al de difusión. Tampoco se trata de un contrato de exoneración de responsabilidad: la Ley General de Publicidad prohíbe precisamente las cláusulas de exoneración, imputación o limitación de responsabilidad frente a terceros.\nIT: Il contratto di diffusione pubblicitaria è un contratto di risultato, perché il mezzo si obbliga a diffondere la pubblicità pattuita e a conseguire il risultato pubblicitario promesso. La questione dei diritti di proprietà intellettuale appartiene al contratto di creazione pubblicitaria, non a quello di diffusione. Inoltre non si tratta di un contratto di esonero da responsabilità: la Legge generale sulla pubblicità vieta proprio le clausole di esonero, imputazione o limitazione della responsabilità verso i terzi.",
+      "legal_reference": "Ley 34/1988, arts. 13, 14, 19, 22 y 23; 9_TEMA 9_1.PDF.",
+      "original_file": {
+        "file_name": "9_TEMA 9_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 7,
+      "question": "El porteador en el contrato de transporte:",
+      "answers": [
+        {
+          "text": "Es el que hace la entrega de las mercancías al transportista.",
+          "correct": false
+        },
+        {
+          "text": "Es a quien se le hace la entrega de las mercancías en el lugar del destino.",
+          "correct": false
+        },
+        {
+          "text": "Es quien contrata en nombre propio la realización del transporte.",
+          "correct": false
+        },
+        {
+          "text": "Es quien asume la obligación de realizar el transporte.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: El porteador es quien asume la obligación de realizar el transporte en nombre propio, con independencia de que lo ejecute por sus propios medios o lo subcontrate. La primera opción describe al expedidor; la segunda, al destinatario; y la tercera, al cargador. Por eso sólo la cuarta se ajusta a la definición legal.\nIT: Il vettore è colui che assume l’obbligo di eseguire il trasporto in nome proprio, indipendentemente dal fatto che lo esegua con mezzi propri o lo subappalti. La prima opzione descrive lo spedente; la seconda il destinatario; la terza il caricatore/committente. Per questo soltanto la quarta coincide con la definizione legale.",
+      "legal_reference": "Ley 15/2009, art. 4; 11_TEMA 11 (1).PDF.",
+      "original_file": {
+        "file_name": "11_TEMA 11 (1).PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 8,
+      "question": "En relación con el contrato de arrendamiento financiero de bienes muebles no es cierto que:",
+      "answers": [
+        {
+          "text": "Se inscriba en el Registro de venta a plazos de bienes muebles.",
+          "correct": true
+        },
+        {
+          "text": "Que se ceda el uso y propiedad al arrendatario financiero.",
+          "correct": true
+        },
+        {
+          "text": "Que pueda instar al juzgado en caso de impago la recuperación de los bienes cedidos en arrendamiento financiero.",
+          "correct": false
+        },
+        {
+          "text": "Que pueda adquirir la propiedad del bien una vez concluido el contrato.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La pregunta es técnicamente defectuosa si se interpreta con rigor. La cesión al arrendatario financiero es de uso y disfrute, no de propiedad, de modo que la segunda opción es claramente incorrecta y por eso debe marcarse. Además, la primera, tal como está redactada, también es inexacta: el contrato es inscribible en el Registro de Venta a Plazos de Bienes Muebles, pero no todo arrendamiento financiero está necesariamente inscrito. En cambio, sí es cierto que, si concurren los requisitos legales de inscripción y forma, el arrendador puede pedir la recuperación judicial del bien en caso de impago, y también es cierto que el usuario puede adquirir la propiedad al final del contrato mediante la opción de compra.\nIT: La domanda è tecnicamente difettosa se interpretata in modo rigoroso. La cessione al conduttore finanziario riguarda l’uso e il godimento, non la proprietà, per cui la seconda opzione è chiaramente errata e va segnata. Inoltre anche la prima, così formulata, è imprecisa: il contratto è iscrivibile nel Registro della vendita a rate di beni mobili, ma non ogni leasing risulta necessariamente iscritto. Invece è vero che, se ricorrono i requisiti legali di iscrizione e forma, il concedente può chiedere giudizialmente la restituzione del bene in caso di inadempimento, ed è vero anche che l’utilizzatore può acquistare la proprietà alla fine del rapporto mediante opzione di acquisto.",
+      "legal_reference": "Ley 10/2014, disposición adicional tercera; Ley 28/1998, disposición adicional primera; 13_TEMA 13 (2).PDF.",
+      "original_file": {
+        "file_name": "13_TEMA 13 (2).PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 9,
+      "question": "Una de las características del contrato de leasing es:",
+      "answers": [
+        {
+          "text": "Bilateral o sinalagmático.",
+          "correct": true
+        },
+        {
+          "text": "De mantenimiento.",
+          "correct": false
+        },
+        {
+          "text": "Unilateral.",
+          "correct": false
+        },
+        {
+          "text": "Aseguraticio.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El leasing genera obligaciones recíprocas para ambas partes, por lo que es bilateral o sinalagmático. No es un contrato “de mantenimiento”; ese rasgo se asocia más bien al renting, que suele incluir mantenimiento integral. Tampoco es unilateral ni un contrato aseguraticio.\nIT: Il leasing genera obbligazioni reciproche per entrambe le parti e quindi è un contratto bilaterale o sinallagmatico. Non è un contratto “di manutenzione”; questo tratto è più proprio del renting, che di solito comprende la manutenzione integrale. Non è neppure un contratto unilaterale né un contratto assicurativo.",
+      "legal_reference": "Ley 10/2014, disposición adicional tercera; 13_TEMA 13 (2).PDF.",
+      "original_file": {
+        "file_name": "13_TEMA 13 (2).PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 10,
+      "question": "El contrato de agencia se encuentra regulado",
+      "answers": [
+        {
+          "text": "En el Código de Comercio",
+          "correct": false
+        },
+        {
+          "text": "En la Ley 22/2019",
+          "correct": false
+        },
+        {
+          "text": "En la Ley 3/2021",
+          "correct": false
+        },
+        {
+          "text": "En la Ley 12/1992",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La regulación específica del contrato de agencia se contiene en la Ley 12/1992, de 27 de mayo, sobre Contrato de Agencia. No está regulado de forma sustantiva en el Código de Comercio ni en las otras leyes citadas. Conviene advertir, además, que algunos apuntes docentes contienen la errata “Ley 12/1997”, pero la referencia legal correcta y vigente es la Ley 12/1992.\nIT: La disciplina specifica del contratto di agenzia è contenuta nella Legge 12/1992, del 27 maggio, sul contratto di agenzia. Non è regolato in modo sostanziale nel Codice di commercio né nelle altre leggi indicate. Va aggiunto che alcuni appunti didattici riportano per errore “Legge 12/1997”, ma il riferimento normativo corretto e vigente è la Legge 12/1992.",
+      "legal_reference": "Ley 12/1992, de 27 de mayo, sobre Contrato de Agencia; 6_TEMA 6_1.PDF.",
+      "original_file": {
+        "file_name": "6_TEMA 6_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 11,
+      "question": "Cuál es el plazo para el ejercicio de denuncia por partes del comprador en caso de vicios internos de la cosa vendida:",
+      "answers": [
+        {
+          "text": "Cuatro días.",
+          "correct": false
+        },
+        {
+          "text": "Diez días.",
+          "correct": false
+        },
+        {
+          "text": "Veinte días.",
+          "correct": false
+        },
+        {
+          "text": "Treinta días.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: En la compraventa mercantil los vicios o defectos internos u ocultos deben denunciarse dentro del plazo de treinta días; transcurrido ese tiempo sin reclamación, el comprador pierde la acción. Los cuatro días corresponden a defectos aparentes o a mercancías recibidas enfardadas o embaladas, no a los vicios internos. Por eso sólo la opción de treinta días es correcta.\nIT: Nella compravendita mercantile i vizi interni o occulti devono essere denunciati entro trenta giorni; decorso tale termine senza contestazione, il compratore perde l’azione. I quattro giorni riguardano invece i difetti apparenti o le merci ricevute imballate, non i vizi interni. Per questo l’unica risposta corretta è quella dei trenta giorni.",
+      "legal_reference": "Código de Comercio, arts. 336 y 342; 2_TEMA 2_1.PDF.",
+      "original_file": {
+        "file_name": "2_TEMA 2_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 12,
+      "question": "En el caso de los contratos de suministro en caso de que se haya pactado una renovación y no una prórroga:",
+      "answers": [
+        {
+          "text": "Surge un nuevo contrato.",
+          "correct": true
+        },
+        {
+          "text": "Queda vigente el contrato anterior.",
+          "correct": false
+        },
+        {
+          "text": "Hay una modificación.",
+          "correct": false
+        },
+        {
+          "text": "Todas son inciertas.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Si las partes han pactado una renovación, y no una simple prórroga, nace un nuevo contrato a partir de una nueva manifestación de voluntad. En cambio, cuando lo que opera es una prórroga, sigue vigente el contrato anterior con mera modificación temporal. Por eso la primera respuesta es la correcta y las otras no.\nIT: Se le parti hanno pattuito un rinnovo, e non una semplice proroga, nasce un nuovo contratto a partire da una nuova manifestazione di volontà. Al contrario, quando opera una proroga, resta in vita il contratto precedente con una mera modifica temporale. Per questo la prima risposta è corretta e le altre no.",
+      "legal_reference": "3_TEMA 3_1.PDF, apartado V.",
+      "original_file": {
+        "file_name": "3_TEMA 3_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 13,
+      "question": "En el contrato de comisión mercantil.",
+      "answers": [
+        {
+          "text": "Puede ser delegado en otra persona en todos los casos.",
+          "correct": false
+        },
+        {
+          "text": "Debe de desempeñarse personalmente por el comitente.",
+          "correct": false
+        },
+        {
+          "text": "Puede ser sustituido del mandatario, salvo pacto en contrario.",
+          "correct": false
+        },
+        {
+          "text": "todas son ciertas.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La pregunta está mal construida: ninguna de las respuestas es correcta tal como está escrita. El encargo debe desempeñarlo personalmente el comisionista, no el comitente, y la delegación sólo es posible si el comitente la ha autorizado de antemano. La regla de que el mandatario puede sustituirse salvo pacto en contrario pertenece al mandato civil, no a la comisión mercantil.\nIT: La domanda è costruita male: nessuna delle risposte è corretta così come è formulata. L’incarico deve essere svolto personalmente dal commissionario, non dal committente, e la delega è possibile solo se autorizzata preventivamente dal committente. La regola secondo cui il mandatario può farsi sostituire salvo patto contrario appartiene al mandato civile, non alla commissione mercantile.",
+      "legal_reference": "Código de Comercio, arts. 261 y 262; Código Civil, art. 1721; 4_TEMA 4_1.PDF.",
+      "original_file": {
+        "file_name": "4_TEMA 4_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 14,
+      "question": "En el contrato de distribución cuál de las señaladas no constituye una nota esencia de este tipo contractual:",
+      "answers": [
+        {
+          "text": "Duración.",
+          "correct": false
+        },
+        {
+          "text": "Existirá siempre una exclusiva recíproca.",
+          "correct": true
+        },
+        {
+          "text": "Su objeto es promover la reventa de los productos.",
+          "correct": false
+        },
+        {
+          "text": "El distribuidor actúa en nombre y por cuenta propia.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La exclusiva recíproca no constituye una nota esencial necesaria del contrato de distribución: puede existir o no existir según lo pactado. En cambio, sí son rasgos esenciales la duración, la actuación del distribuidor en nombre y por cuenta propia y el objeto consistente en promover la reventa de los productos del concedente. Por eso la opción correcta es la relativa a la exclusiva “siempre” recíproca.\nIT: L’esclusiva reciproca non costituisce una caratteristica essenziale necessaria del contratto di distribuzione: può esistere oppure no, secondo quanto pattuito. Al contrario, sono essenziali la durata, l’attività del distributore in nome e per conto proprio e l’oggetto consistente nel promuovere la rivendita dei prodotti del concedente. Per questo la risposta corretta è quella che afferma l’esistenza “sempre” di un’esclusiva reciproca.",
+      "legal_reference": "7_TEMA 7_1.PDF, apartado I.",
+      "original_file": {
+        "file_name": "7_TEMA 7_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 15,
+      "question": "En el contrato de franquicia cuál de las siguientes respuestas no es cierta.",
+      "answers": [
+        {
+          "text": "Debe de redactarse siempre por escrito.",
+          "correct": true
+        },
+        {
+          "text": "Supone el uso de los signos distintivos del franquiciado",
+          "correct": true
+        },
+        {
+          "text": "Debe pactarse siempre por un plazo determinado",
+          "correct": true
+        },
+        {
+          "text": "Debe de inscribirse necesariamente en el registro de franquicias.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: Tomada con rigor jurídico actual, la pregunta es claramente defectuosa y las cuatro respuestas pueden considerarse no ciertas. La franquicia implica el uso de los signos distintivos del franquiciador, no del franquiciado. Tampoco existe hoy una exigencia legal general de que siempre se pacte por plazo determinado, ni subsiste una obligación de inscripción necesaria en un registro de franquiciadores como requisito general tras la reforma de 2018 y la depuración reglamentaria de 2019. Además, aunque el material docente afirma que el contrato ha de redactarse por escrito, la normativa estatal vigente se centra con claridad en la información precontractual escrita y ya no formula con la misma rotundidad una exigencia general de forma escrita del contrato en los arts. 1 a 4 del RD 201/2010.\nIT: Se interpretata con rigore giuridico attuale, la domanda è chiaramente difettosa e tutte e quattro le risposte possono considerarsi non vere. La franchigia implica l’uso dei segni distintivi del franchisor, non del franchisee. Inoltre non esiste oggi un obbligo legale generale di pattuire sempre un termine determinato, né sopravvive un obbligo necessario di iscrizione in un registro dei franchisor come requisito generale dopo la riforma del 2018 e il riassetto regolamentare del 2019. In più, sebbene il materiale didattico affermi che il contratto debba essere redatto per iscritto, la normativa statale vigente si concentra con chiarezza sull’informazione precontrattuale scritta e non formula più con la stessa nettezza un obbligo generale di forma scritta del contratto negli artt. 1-4 del RD 201/2010.",
+      "legal_reference": "Ley 7/1996, art. 62; Real Decreto 201/2010, arts. 1 a 4; Real Decreto-ley 20/2018; Real Decreto 553/2019; 8_TEMA 8_1.PDF.",
+      "original_file": {
+        "file_name": "8_TEMA 8_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 16,
+      "question": "En los contratos de creación publicitaria los derechos de propiedad intelectual.",
+      "answers": [
+        {
+          "text": "Serán siempre del creativo publicitario.",
+          "correct": false
+        },
+        {
+          "text": "Serán siempre del anunciante.",
+          "correct": false
+        },
+        {
+          "text": "Serán siempre de la agencia de publicidad.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las anteriores es cierta.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: En el contrato de creación publicitaria la ley no dice que los derechos sean “siempre” del creativo, del anunciante o de la agencia. Lo que establece es una presunción de cesión exclusiva de los derechos de explotación al anunciante o a la agencia, salvo pacto en contrario. Por eso ninguna de las tres primeras afirmaciones es exacta tal como está formulada y la correcta es la cuarta.\nIT: Nel contratto di creazione pubblicitaria la legge non dice che i diritti siano “sempre” del creativo, dell’inserzionista o dell’agenzia. Essa stabilisce invece una presunzione di cessione esclusiva dei diritti di sfruttamento all’inserzionista o all’agenzia, salvo patto contrario. Perciò nessuna delle prime tre affermazioni è esatta così come formulata e la risposta corretta è la quarta.",
+      "legal_reference": "Ley 34/1988, arts. 22 y 23; 9_TEMA 9_1.PDF.",
+      "original_file": {
+        "file_name": "9_TEMA 9_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 17,
+      "question": "El depósito colectivo genera la expedición de los siguientes documentos.",
+      "answers": [
+        {
+          "text": "Resguardo y de garantía.",
+          "correct": true
+        },
+        {
+          "text": "De resguardo y consignación.",
+          "correct": false
+        },
+        {
+          "text": "De garantía y consignación.",
+          "correct": false
+        },
+        {
+          "text": "Ninguna de las preguntas es cierta.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El depósito colectivo da lugar a dos documentos: el resguardo de depósito, que acredita la titularidad de una cuota determinada, y el resguardo de garantía o warrant, que permite constituir prenda sobre esa cuota. La “consignación” no es el documento que describe el régimen del depósito colectivo en el material ni en la regulación mercantil aplicable. Por eso la primera respuesta es la correcta.\nIT: Il deposito collettivo dà luogo a due documenti: la ricevuta di deposito, che attesta la titolarità di una determinata quota, e la ricevuta di garanzia o warrant, che consente di costituire pegno su tale quota. La “consignación” non è il documento che descrive il regime del deposito collettivo né nel materiale né nella disciplina mercantile applicabile. Per questo la prima risposta è quella corretta.",
+      "legal_reference": "Código de Comercio, arts. 193 a 198 y 310; RDL de 22 de septiembre de 1917; 10_TEMA 10_1.PDF.",
+      "original_file": {
+        "file_name": "10_TEMA 10_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 18,
+      "question": "En el contrato de transportes la indemnización por averías o por pérdidas en el supuesto que afecte a las mercancías transportadas:",
+      "answers": [
+        {
+          "text": "Debe de indemnizarse por el valor total.",
+          "correct": false
+        },
+        {
+          "text": "Solo por las afectadas.",
+          "correct": true
+        },
+        {
+          "text": "No podrá exceder del indicador Público de renta de Efectos Múltiples/por día por Kilogramo de peso.",
+          "correct": false
+        },
+        {
+          "text": "Todas son inciertas.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La indemnización no tiene por qué coincidir siempre con el valor total de toda la expedición: cuando la avería o la pérdida afecta sólo a parte de las mercancías, la reparación se limita a la parte afectada. La tercera opción, tal como está escrita, no es exacta, porque la ley fija el límite en un tercio del IPREM/día por kilogramo de peso bruto, no en el IPREM íntegro. Por eso la respuesta correcta, con la redacción dada, es la segunda.\nIT: L’indennizzo non coincide necessariamente con il valore totale dell’intera spedizione: quando l’avaria o la perdita colpisce soltanto una parte delle merci, il risarcimento si limita alla parte interessata. La terza opzione, così come è scritta, non è esatta, perché la legge fissa il limite in un terzo dell’IPREM/giorno per chilogrammo di peso lordo, non nell’IPREM intero. Per questo, con la formulazione data, la risposta corretta è la seconda.",
+      "legal_reference": "Ley 15/2009, arts. 61 a 63; 11_TEMA 11 (1).PDF.",
+      "original_file": {
+        "file_name": "11_TEMA 11 (1).PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 19,
+      "question": "Son causas de extinción del contrato de agencia",
+      "answers": [
+        {
+          "text": "La muerte del agente.",
+          "correct": true
+        },
+        {
+          "text": "El desistimiento unilateral.",
+          "correct": true
+        },
+        {
+          "text": "El incumplimiento de las obligaciones por una de las partes.",
+          "correct": true
+        },
+        {
+          "text": "Todas son ciertas.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: Las tres primeras respuestas son correctas: la muerte del agente extingue el contrato; también lo extingue el desistimiento unilateral con preaviso en los contratos por tiempo indefinido; y asimismo el incumplimiento de una de las partes puede determinar la extinción. Por esa razón, la opción final “todas son ciertas” también es correcta. La pregunta, por tanto, está construida como una cuestión de respuesta múltiple o, si se pretendía respuesta única, está defectuosamente formulada.\nIT: Le prime tre risposte sono corrette: la morte dell’agente estingue il contratto; lo estingue anche il recesso unilaterale con preavviso nei contratti a tempo indeterminato; e pure l’inadempimento di una delle parti può determinarne l’estinzione. Per questo anche l’opzione finale “tutte sono vere” è corretta. La domanda, quindi, è costruita come quesito a risposta multipla oppure, se si voleva una risposta unica, è formulata in modo difettoso.",
+      "legal_reference": "Ley 12/1992, arts. 25, 26 y 27; 6_TEMA 6_1.PDF.",
+      "original_file": {
+        "file_name": "6_TEMA 6_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 20,
+      "question": "La compraventa mercantil",
+      "answers": [
+        {
+          "text": "El cumplimiento de la obligación de entrega, en defecto de pacto será el del establecido del vendedor",
+          "correct": true
+        },
+        {
+          "text": "El cumplimiento de la obligación de entrega, en defecto de pacto sea en el establecimiento del comprador",
+          "correct": false
+        },
+        {
+          "text": "El vendedor no tiene la obligación de conserva la cosa con la diligencia normal",
+          "correct": false
+        },
+        {
+          "text": "Puede recaer sobre bienes inmuebles.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: Es correcta la regla de que, en defecto de pacto, la entrega ha de hacerse en el establecimiento del vendedor. También puede sostenerse, conforme al propio material docente, que la compraventa mercantil puede recaer excepcionalmente sobre inmuebles cuando se trate de compras especulativas para revender con ánimo de lucro, por aplicación analógica del art. 2 CCom. Por eso la pregunta está mal cerrada si pretendía una sola respuesta: la primera es claramente correcta y la cuarta es defendible doctrinalmente en el propio temario. La segunda es errónea y la tercera también, porque el vendedor debe conservar la cosa con la diligencia debida hasta la entrega.\nIT: È corretta la regola secondo cui, in mancanza di patto, la consegna deve avvenire presso lo stabilimento del venditore. Si può inoltre sostenere, secondo lo stesso materiale didattico, che la compravendita mercantile possa riguardare eccezionalmente anche beni immobili quando si tratti di acquisti speculativi destinati alla rivendita con fine di lucro, per applicazione analogica dell’art. 2 CCom. Per questo la domanda è chiusa male se pretendeva una sola risposta: la prima è certamente corretta e la quarta è difendibile in chiave dottrinale nello stesso corso. La seconda è errata e anche la terza lo è, perché il venditore deve conservare la cosa con la dovuta diligenza fino alla consegna.",
+      "legal_reference": "Código de Comercio, arts. 2, 325, 331, 337 y concordantes; 2_TEMA 2_1.PDF.",
+      "original_file": {
+        "file_name": "2_TEMA 2_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 21,
+      "question": "El contrato de compraventa mercantil:",
+      "answers": [
+        {
+          "text": "Es un contrato real",
+          "correct": false
+        },
+        {
+          "text": "Es un contrato complejo y atípico",
+          "correct": false
+        },
+        {
+          "text": "No incluye la opción de compra a favor del usuario",
+          "correct": true
+        },
+        {
+          "text": "Por dicho contrato se obliga al arrendador a gestionar los posibles créditos del empresario.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La pregunta mezcla categorías de otros contratos, sobre todo del leasing y del factoring. La compraventa mercantil no es un contrato real ni uno complejo y atípico: es un contrato típico, consensual y obligacional. La única afirmación que puede darse por correcta, aunque no sea una nota definitoria especialmente afortunada, es que la compraventa mercantil no incorpora una opción de compra a favor del usuario, porque eso pertenece al leasing; la última opción alude más bien a figuras de financiación o gestión de créditos.\nIT: La domanda mescola categorie proprie di altri contratti, soprattutto del leasing e del factoring. La compravendita mercantile non è un contratto reale né un contratto complesso e atipico: è un contratto tipico, consensuale e obbligatorio. L’unica affermazione che può essere considerata corretta, sebbene non sia una caratteristica definitoria particolarmente felice, è che la compravendita mercantile non incorpora un’opzione di acquisto a favore dell’utilizzatore, perché ciò appartiene al leasing; l’ultima opzione rinvia piuttosto a figure di finanziamento o gestione dei crediti.",
+      "legal_reference": "Código de Comercio, arts. 325 a 345; Código Civil, art. 1445; 2_TEMA 2_1.PDF.",
+      "original_file": {
+        "file_name": "2_TEMA 2_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 22,
+      "question": "Afirmamos respecto al contrato de compraventa mercantil:",
+      "answers": [
+        {
+          "text": "Si el comprador rehusare sin justa causa el recibo de los efectos comprados, podrá el vendedor optar por el cumplimiento o rescisión del contrato, depositando judicialmente las mercancías.",
+          "correct": true
+        },
+        {
+          "text": "Si el comprador rehusare sin justa causa el recibo de los efectos comprados, el vendedor no podrá pedir el cumplimiento o rescisión del contrato, aunque deposite judicialmente las mercancías.",
+          "correct": false
+        },
+        {
+          "text": "El comprador no incurrirá en el pago del precio de la cosa comprada, no será exigido a pagar el interés legal de la cantidad que adeude al vendedor.",
+          "correct": false
+        },
+        {
+          "text": "Dicho contrato no producirá efecto de lucro.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Si el comprador rehúsa injustificadamente la recepción, el vendedor puede exigir el cumplimiento o la resolución y proceder al depósito judicial de las mercancías; por eso la primera respuesta es correcta. La tercera es falsa porque la mora en el pago del precio genera el deber de pagar el interés legal. La cuarta también es errónea porque el ánimo de lucro en la reventa es precisamente uno de los elementos típicos de la compraventa mercantil.\nIT: Se il compratore rifiuta senza giusta causa di ricevere la merce, il venditore può chiedere l’adempimento oppure la risoluzione e procedere al deposito giudiziale delle merci; perciò la prima risposta è corretta. La terza è falsa perché il ritardo nel pagamento del prezzo comporta l’obbligo di corrispondere l’interesse legale. Anche la quarta è errata, poiché l’intento di lucro nella rivendita è proprio uno degli elementi tipici della compravendita mercantile.",
+      "legal_reference": "Código de Comercio, arts. 325, 332 y 341; 2_TEMA 2_1.PDF.",
+      "original_file": {
+        "file_name": "2_TEMA 2_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 23,
+      "question": "En los contratos de suministro:",
+      "answers": [
+        {
+          "text": "Es habitual que se pacten cláusulas exclusividad.",
+          "correct": true
+        },
+        {
+          "text": "El precio del suministro se abona en el momento del suministro, pero puede acordarse la liquidación periódica.",
+          "correct": true
+        },
+        {
+          "text": "Solo podrá resolverse el contrato de duración determinada de forma anticipada si opera justa causa.",
+          "correct": true
+        },
+        {
+          "text": "Todas las anteriores son ciertas.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: Las tres primeras proposiciones son conformes con la regulación doctrinal del contrato de suministro en el temario: son frecuentes las cláusulas de exclusiva, el precio nace en el momento del suministro aunque puede liquidarse periódicamente, y el contrato de duración determinada sólo se resuelve anticipadamente por justa causa. Por ello, también es correcta la cláusula de cierre. La pregunta está formulada como respuesta múltiple o, si se quería una sola, de forma deficiente.\nIT: Le prime tre proposizioni sono conformi alla ricostruzione dottrinale del contratto di somministrazione nel materiale del corso: sono frequenti le clausole di esclusiva, il prezzo sorge al momento della fornitura anche se può essere liquidato periodicamente, e il contratto a durata determinata può sciogliersi anticipatamente solo per giusta causa. Per questo è corretta anche l’opzione finale. La domanda è quindi a risposta multipla oppure, se si voleva una sola risposta, formulata male.",
+      "legal_reference": "3_TEMA 3_1.PDF, apartados III, IV y V.",
+      "original_file": {
+        "file_name": "3_TEMA 3_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 24,
+      "question": "Cual es de estas respuestas no es cierta en relación con la resolución de un contrario de distribución por tiempo indefinido:",
+      "answers": [
+        {
+          "text": "Es necesario alegar y probar la justa causa de resolución.",
+          "correct": true
+        },
+        {
+          "text": "Puede ponerse fin al contrato medie o no justa causa, con independencia de las indemnizaciones que puedan dar lugar.",
+          "correct": false
+        },
+        {
+          "text": "Se rige legalmente tanto el concedente como el distribuidor.",
+          "correct": true
+        },
+        {
+          "text": "Debe de preavisarse, en cualquier caso.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La afirmación de que en todo caso es necesario alegar y probar justa causa no es cierta en los contratos de distribución por tiempo indefinido, porque cabe la denuncia unilateral con el oportuno preaviso. La opción tercera también debe marcarse como incorrecta tal como está redactada, porque la frase carece de sentido jurídico completo y no enuncia una regla válida; parece una respuesta mal copiada o truncada. En cambio, la segunda responde a la lógica del desistimiento en contratos indefinidos y la cuarta se ajusta a la exigencia general de preaviso razonable. La pregunta, por tanto, está defectuosamente formulada.\nIT: L’affermazione secondo cui sarebbe sempre necessario allegare e provare una giusta causa non è vera nei contratti di distribuzione a tempo indeterminato, perché è ammessa la denuncia unilaterale con il dovuto preavviso. Anche la terza opzione va segnata come non vera così come è scritta, poiché la frase non ha un significato giuridico compiuto e non enuncia una regola valida; sembra una risposta copiata male o tronca. Invece la seconda riflette la logica del recesso nei contratti a tempo indeterminato e la quarta corrisponde all’esigenza generale di un preavviso ragionevole. La domanda è quindi formulata in modo difettoso.",
+      "legal_reference": "7_TEMA 7_1.PDF, apartado III; STS 15 de marzo de 2011.",
+      "original_file": {
+        "file_name": "7_TEMA 7_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 25,
+      "question": "El contrato de comisión:",
+      "answers": [
+        {
+          "text": "El comisionista ha de rendir cuentas ante el comitente.",
+          "correct": true
+        },
+        {
+          "text": "El comisionista no podrá auto entrar en la operación.",
+          "correct": true
+        },
+        {
+          "text": "El comitente deberá entregar fondos al comisionista.",
+          "correct": false
+        },
+        {
+          "text": "Todas las anteriores son verdaderas.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El comisionista debe rendir cuentas al comitente y, como regla general, no puede autoentrar en la operación sin la autorización o licencia correspondiente, de modo que las dos primeras respuestas son correctas. La tercera no lo es, porque la provisión de fondos sólo es exigible cuando la naturaleza del encargo la haga necesaria y no se haya pactado otra cosa; no es una obligación incondicionada en todos los casos. Por eso la cláusula “todas las anteriores” resulta falsa.\nIT: Il commissionario deve rendere conto al committente e, come regola generale, non può intervenire come controparte nell’operazione senza la necessaria autorizzazione o licenza; per questo le prime due risposte sono corrette. La terza non lo è, perché la provvista di fondi è esigibile solo quando la natura dell’incarico la renda necessaria e non sia stato pattuito diversamente; non si tratta di un obbligo incondizionato in ogni caso. Perciò la formula “tutte le precedenti” è falsa.",
+      "legal_reference": "Código de Comercio, arts. 250, 263 y 267; 4_TEMA 4_1.PDF.",
+      "original_file": {
+        "file_name": "4_TEMA 4_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 26,
+      "question": "Respecto al contrato de depósito mercantil podemos afirmar:",
+      "answers": [
+        {
+          "text": "Al menos el depositario debe ser comerciante",
+          "correct": false
+        },
+        {
+          "text": "Las cosas objeto del contrato deben ser bienes inmuebles",
+          "correct": false
+        },
+        {
+          "text": "Es un contrato consensual según toda la doctrina",
+          "correct": false
+        },
+        {
+          "text": "Todas las anteriores son falsas.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es la cuarta. La primera es falsa porque, según el propio material, existe también un depósito mercantil “por sí mismo” como acto de comercio tipificado, de manera que la condición de comerciante del depositario no opera como requisito universal y absoluto para todo supuesto. La segunda es errónea porque el depósito mercantil recae sobre cosas muebles. La tercera tampoco es exacta, porque la doctrina tradicional lo califica como contrato real, aunque parte de la doctrina moderna admita la perfección consensual por pacto.\nIT: La risposta corretta è la quarta. La prima è falsa perché, secondo lo stesso materiale, esiste anche un deposito mercantile “di per sé” come atto di commercio tipizzato, sicché la qualità di commerciante del depositario non opera come requisito universale e assoluto in ogni caso. La seconda è errata perché il deposito mercantile ha ad oggetto beni mobili. Anche la terza non è esatta, poiché la dottrina tradizionale lo qualifica come contratto reale, pur ammettendo una parte della dottrina moderna la perfezione consensuale per patto.",
+      "legal_reference": "Código de Comercio, arts. 303 a 305; Código Civil, art. 1758; 10_TEMA 10_1.PDF.",
+      "original_file": {
+        "file_name": "10_TEMA 10_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 27,
+      "question": "El contrato de depósito mercantil:",
+      "answers": [
+        {
+          "text": "El depósito quedará constituido mediante la entrega al depositario, de la cosa que sustituya al objeto.",
+          "correct": false
+        },
+        {
+          "text": "El depositario no tendrá derecho a exigir retribución por el depósito, a no mediar pacto expreso en contrario.",
+          "correct": false
+        },
+        {
+          "text": "Para que el depósito mercantil, el depositario no precisa que sea comerciante.",
+          "correct": false
+        },
+        {
+          "text": "Todas las anteriores son falsas.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La cuarta respuesta es la correcta porque las tres anteriores son falsas. La primera carece de sentido jurídico y no describe la constitución del depósito mercantil. La segunda invierte la regla mercantil, ya que en este ámbito existe presunción de retribución, a diferencia del depósito civil. La tercera también es incorrecta en la construcción clásica del depósito mercantil accesorio, donde el depositario ha de ser comerciante.\nIT: La quarta risposta è corretta perché le tre precedenti sono false. La prima non ha senso giuridico e non descrive la costituzione del deposito mercantile. La seconda capovolge la regola mercantile, poiché in questo ambito vige una presunzione di onerosità, a differenza del deposito civile. Anche la terza è errata nella costruzione classica del deposito mercantile accessorio, nella quale il depositario deve essere commerciante.",
+      "legal_reference": "Código de Comercio, arts. 303 a 305; Código Civil, art. 1760; 10_TEMA 10_1.PDF.",
+      "original_file": {
+        "file_name": "10_TEMA 10_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 28,
+      "question": "Respecto al contrato de Agencia:",
+      "answers": [
+        {
+          "text": "Una persona natural o jurídica denominada agente se obliga frente a otra de manera continuada o estable a cambio de una remuneración.",
+          "correct": true
+        },
+        {
+          "text": "Una persona natural o jurídica denominada agente se obliga.",
+          "correct": false
+        },
+        {
+          "text": "Salvo pacto en contrario el riesgo y ventura de tales operaciones es asumido por el agente.",
+          "correct": false
+        },
+        {
+          "text": "No podrá exigirse la formalización por escrito de dicho contrato en ningún caso.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La primera opción recoge correctamente el núcleo de la definición legal del contrato de agencia: una persona natural o jurídica se obliga de manera continuada o estable y a cambio de remuneración. La tercera es falsa porque, salvo pacto en contrario, el agente no asume el riesgo y ventura de las operaciones. La cuarta también es errónea, ya que cualquiera de las partes puede exigir la forma escrita del contrato.\nIT: La prima opzione riproduce correttamente il nucleo della definizione legale del contratto di agenzia: una persona fisica o giuridica si obbliga in modo continuativo o stabile e dietro remunerazione. La terza è falsa perché, salvo patto contrario, l’agente non assume il rischio dell’operazione. Anche la quarta è errata, poiché ciascuna delle parti può esigere la forma scritta del contratto.",
+      "legal_reference": "Ley 12/1992, arts. 1 y 22; 6_TEMA 6_1.PDF.",
+      "original_file": {
+        "file_name": "6_TEMA 6_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 29,
+      "question": "En el contrato de agencia caso de fallecimiento del agente persona física:",
+      "answers": [
+        {
+          "text": "Siendo el agente una figura personalísima no se transmite a sus herederos.",
+          "correct": true
+        },
+        {
+          "text": "No se extinguirá el contrato por la muerte o declaración del fallecimiento del agente.",
+          "correct": false
+        },
+        {
+          "text": "Los herederos no podrán reclamar las comisiones devengadas tras la muerte del agente.",
+          "correct": false
+        },
+        {
+          "text": "La viuda del agente podrá subrogarse con el consentimiento expreso del empresario en el contrato.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El contrato de agencia se extingue por muerte o declaración de fallecimiento del agente, porque se trata de una relación personalísima; por eso la primera respuesta es correcta y la segunda falsa. La tercera también es errónea: aunque el contrato se extinga, pueden existir comisiones nacidas de actos concluidos tras la extinción por aplicación del art. 13 LCA, y esos créditos entran en la herencia. La cuarta es falsa porque la ley no reconoce una subrogación legal automática o típica de la viuda; otra cosa distinta sería la celebración de un nuevo contrato.\nIT: Il contratto di agenzia si estingue per morte o dichiarazione di morte dell’agente, perché si tratta di un rapporto personalissimo; perciò la prima risposta è corretta e la seconda falsa. Anche la terza è errata: benché il contratto si estingua, possono esistere provvigioni derivanti da operazioni concluse dopo l’estinzione ai sensi dell’art. 13 LCA, e tali crediti entrano nell’asse ereditario. La quarta è falsa perché la legge non riconosce una surrogazione legale automatica o tipica della vedova; altra cosa sarebbe la stipulazione di un nuovo contratto.",
+      "legal_reference": "Ley 12/1992, arts. 13, 27 y 28.2; 6_TEMA 6_1.PDF.",
+      "original_file": {
+        "file_name": "6_TEMA 6_1.PDF",
+        "file_format": "PDF"
+      }
+    },
+    {
+      "sequence_number": 30,
+      "question": "Respecto al contrato de transporte:",
+      "answers": [
+        {
+          "text": "Tiene por objeto las mercaderías o cualesquiera objetos de comercio.",
+          "correct": true
+        },
+        {
+          "text": "Es un contrato bilateral.",
+          "correct": true
+        },
+        {
+          "text": "Es un contrato oneroso.",
+          "correct": true
+        },
+        {
+          "text": "Todas las anteriores son ciertas.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: Las tres primeras afirmaciones son correctas dentro de la caracterización mercantil del transporte: puede recaer sobre mercaderías u otros efectos de comercio, es bilateral porque genera obligaciones para ambas partes y es oneroso porque se realiza a cambio de un precio. Por ello, la opción de cierre también es correcta. Estamos otra vez ante una pregunta de respuesta múltiple o, si se pretendía respuesta única, mal construida.\nIT: Le prime tre affermazioni sono corrette nella qualificazione mercantile del trasporto: può avere ad oggetto merci o altri effetti di commercio, è bilaterale perché genera obbligazioni per entrambe le parti ed è oneroso perché si esegue dietro pagamento di un corrispettivo. Perciò è corretta anche l’opzione finale. Siamo di nuovo di fronte a una domanda a risposta multipla oppure, se si voleva una sola risposta, formulata male.",
+      "legal_reference": "Ley 15/2009, art. 2; 11_TEMA 11 (1).PDF.",
+      "original_file": {
+        "file_name": "11_TEMA 11 (1).PDF",
+        "file_format": "PDF"
+      }
+    }
+  ]
+}

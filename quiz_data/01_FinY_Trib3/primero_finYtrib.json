@@ -1,0 +1,925 @@
+{
+  "file_number": 3,
+  "file_name": "preguntas_completo_q1_q35.json",
+  "total_questions_available": 35,
+  "batch_start": 1,
+  "batch_end": 35,
+  "progress": "35 de 35",
+  "questions": [
+    {
+      "sequence_in_user_message": 1,
+      "source_label_in_text": "29",
+      "question": "D. Fernando adquiere una vivienda por un valor real de 300.000 euros (adquisición financiada, inicialmente, mediante un préstamo hipotecario) y, en el momento de la venta, queda un capital pendiente de pago de dicho préstamo de 100.000 euros. ¿A cuánto asciende la base imponible en el TPO por esta transmisión?",
+      "answers": [
+        {
+          "text": "A 300.000, pues no se podrá restar la deuda del préstamo al no ser deducible.",
+          "correct": true
+        },
+        {
+          "text": "A 100.000, pues la deuda del préstamo es un gasto deducible.",
+          "correct": false
+        },
+        {
+          "text": "A 200.000, pues la deuda del préstamo es un gasto deducible.",
+          "correct": false
+        },
+        {
+          "text": "La base imponible del TPO se determina por el valor de las cargas que tengan vigentes los bienes.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es la primera porque, en TPO, la base imponible se forma con el valor real del bien transmitido y solo son deducibles las cargas que disminuyen su valor real, pero no las deudas, aunque estén garantizadas con hipoteca. Por eso los 100.000 euros pendientes del préstamo hipotecario no se restan. La segunda y la tercera son erróneas porque tratan la deuda hipotecaria como si fuera deducible. La cuarta es incorrecta porque confunde el criterio legal: no se toma solo el valor de las cargas vigentes, sino el valor real del bien menos las cargas deducibles.\nIT: La risposta corretta è la prima perché, nel TPO, la base imponibile coincide con il valore reale del bene trasferito e sono deducibili solo gli oneri reali che ne riducono il valore, non i debiti, anche se garantiti da ipoteca. Quindi i 100.000 euro residui del mutuo non si sottraggono. La seconda e la terza sono sbagliate perché considerano deducibile il debito ipotecario. La quarta è errata perché confonde la regola: non conta soltanto il valore delle cargas, ma il valore reale del bene, eventualmente ridotto solo dalle cargas deducibili.",
+      "legal_reference": "TRLITPAJD, art. 10.1; material de la Unidad 2 sobre TPO y base imponible.",
+      "original_file": "2_UNIDAD 2 _ ITP-AJD.pdf"
+    },
+    {
+      "sequence_in_user_message": 2,
+      "source_label_in_text": "30",
+      "question": "Los tres socios de Martínez S.L. deciden disolver y liquidar dicha sociedad, correspondiendo al primero 5.000 € en metálico; al segundo un elemento de transporte con un valor real de 5.000 €; y al tercero una maquinaria, que también tiene un valor real de 5.000 €. La disolución de la sociedad se formaliza en escritura pública, la cual deberá inscribirse en el Registro Mercantil. ¿Qué obligaciones en sede del correspondiente ITPAJD son exigibles?",
+      "answers": [
+        {
+          "text": "La disolución tributa en la modalidad de OS, debiendo cada socio realizar su propia autoliquidación por la parte que le corresponda en la liquidación. Solo tributará la escritura pública de disolución, que está exenta de AJD (DN).",
+          "correct": false
+        },
+        {
+          "text": "La disolución en la modalidad OS. Además, tributará la escritura pública de disolución en la cuota fija de AJD, ya que OS es incompatible con la cuota variable de DN.",
+          "correct": false
+        },
+        {
+          "text": "La disolución solo tributa en la modalidad de OS y en la cuota fija de AJD, pues es incompatible con la cuota variable de DN.",
+          "correct": true
+        },
+        {
+          "text": "La disolución de una sociedad está no sujeta al ITPAJD.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta esperada es la tercera. La disolución de sociedad está sujeta a OS y, al formalizarse en escritura pública, también soporta la cuota fija de AJD-DN; la cuota variable no procede por incompatibilidad con OS. La primera es incorrecta porque afirma que la escritura está exenta de AJD-DN, cuando la cuota fija sí se exige. La cuarta es falsa porque la disolución sí es hecho imponible de OS. La segunda recoge una idea muy cercana, pero la formulación estándar del material docente se expresa como 'OS y cuota fija de AJD', que es la que reproduce la tercera.\nIT: La risposta attesa è la terza. Lo scioglimento della società è soggetto a OS e, poiché è formalizzato in atto pubblico, sconta anche la quota fissa dell’AJD-DN; la quota variabile non si applica per incompatibilità con OS. La prima è sbagliata perché afferma che l’atto è esente da AJD-DN, mentre la quota fissa è dovuta. La quarta è falsa perché lo scioglimento è un fatto imponibile di OS. La seconda è molto vicina nel contenuto, ma la formulazione standard del materiale coincide con la terza.",
+      "legal_reference": "TRLITPAJD, arts. 19.1, 23, 25 y 31; incompatibilidad entre OS y AJD-DN cuota variable.",
+      "original_file": "2_UNIDAD 2 _ ITP-AJD.pdf",
+      "note_on_ambiguity": "La opción b es materialmente muy similar; se marca la c como respuesta esperada porque coincide con la formulación del material del curso."
+    },
+    {
+      "sequence_in_user_message": 3,
+      "source_label_in_text": "1",
+      "question": "¿Qué determina la variabilidad de los tipos impositivos del ITPAJD entre diferentes actos o transmisiones?",
+      "answers": [
+        {
+          "text": "La política fiscal de la Unión Europea.",
+          "correct": false
+        },
+        {
+          "text": "Las decisiones del Banco Central Europeo.",
+          "correct": false
+        },
+        {
+          "text": "Las regulaciones específicas de cada Comunidad Autónoma en España.",
+          "correct": true
+        },
+        {
+          "text": "La tasa de inflación en España.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la tercera porque el ITPAJD es un tributo cedido y las Comunidades Autónomas tienen competencia normativa para fijar determinados tipos de gravamen y beneficios fiscales dentro de los límites legales. La política fiscal de la Unión Europea y las decisiones del BCE no determinan directamente esos tipos autonómicos. La inflación tampoco es el criterio normativo que explica la diferencia entre tipos.\nIT: È corretta la terza perché l’ITPAJD è un tributo ceduto e le Comunità Autonome possono fissare determinati tipi d’imposta e agevolazioni entro i limiti di legge. Né la politica fiscale dell’Unione europea né le decisioni della BCE determinano direttamente tali aliquote regionali. Anche l’inflazione non è il criterio giuridico che spiega la variabilità tra i tipi.",
+      "legal_reference": "TRLITPAJD; Ley 22/2009 sobre cesión de tributos a las CCAA; material de la Unidad 2.",
+      "original_file": "2_UNIDAD 2 _ ITP-AJD.pdf"
+    },
+    {
+      "sequence_in_user_message": 4,
+      "source_label_in_text": "2",
+      "question": "¿Qué situación está sujeta al IVA en lugar de al ITPAJD?",
+      "answers": [
+        {
+          "text": "En la compra de una vivienda de segunda mano entre particulares.",
+          "correct": false
+        },
+        {
+          "text": "En la venta de un local comercial por una empresa a otra empresa.",
+          "correct": true
+        },
+        {
+          "text": "En la transferencia de un inmueble por herencia.",
+          "correct": false
+        },
+        {
+          "text": "En la constitución de una hipoteca sobre una vivienda habitual.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la segunda porque una entrega onerosa realizada por una empresa en el ejercicio de su actividad empresarial queda, en principio, sujeta al IVA. La primera tributa por TPO, al tratarse de una transmisión entre particulares. La tercera no cae en IVA ni en ITPAJD, sino en el ámbito del Impuesto sobre Sucesiones y Donaciones. La cuarta remite al régimen de AJD y no a una operación gravada por IVA como entrega de bienes o prestación de servicios ordinaria.\nIT: È corretta la seconda perché una cessione onerosa effettuata da un’impresa nell’esercizio della propria attività è, in linea di principio, soggetta a IVA. La prima ricade nel TPO, essendo una compravendita tra privati. La terza non rientra né nell’IVA né nell’ITPAJD, ma nell’Imposta sulle Successioni e Donazioni. La quarta riguarda il regime dell’AJD e non un’operazione ordinaria imponibile IVA.",
+      "legal_reference": "LIVA, arts. 4 y 5; TRLITPAJD, arts. 7 y 31; incompatibilidad IVA/TPO.",
+      "original_file": "1_UNIDAD 1 _ IVA _ ONLINE.pdf; 2_UNIDAD 2 _ ITP-AJD.pdf"
+    },
+    {
+      "sequence_in_user_message": 5,
+      "source_label_in_text": "1",
+      "question": "¿Cuál es el ámbito de aplicación del IVA?",
+      "answers": [
+        {
+          "text": "solo operaciones internacionales",
+          "correct": false
+        },
+        {
+          "text": "solo en la ue",
+          "correct": false
+        },
+        {
+          "text": "operaciones territoriales, intracomunitarias, internacionales",
+          "correct": true
+        },
+        {
+          "text": "solo operaciones dentro el territorio espanol",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la tercera porque el IVA español se proyecta sobre operaciones interiores, adquisiciones intracomunitarias e importaciones/exportaciones con las reglas de territorialidad que correspondan. La primera es demasiado restrictiva porque excluye las operaciones interiores. La segunda también es errónea porque el IVA no se reduce solo a operaciones dentro de la UE. La cuarta es incorrecta porque el sistema del IVA también regula el tráfico intracomunitario e internacional.\nIT: È corretta la terza perché l’IVA spagnola opera su operazioni interne, acquisti intracomunitari e importazioni/esportazioni secondo le rispettive regole territoriali. La prima è troppo limitata perché esclude le operazioni interne. La seconda è errata perché l’IVA non riguarda solo operazioni all’interno dell’UE. La quarta è sbagliata perché il sistema IVA disciplina anche il traffico intracomunitario e internazionale.",
+      "legal_reference": "LIVA, arts. 1, 3, 4, 13, 15, 17 y 21; material de la Unidad 1.",
+      "original_file": "1_UNIDAD 1 _ IVA _ ONLINE.pdf"
+    },
+    {
+      "sequence_in_user_message": 6,
+      "source_label_in_text": "2",
+      "question": "¿Qué documento es fundamental para la deducción del IVA?",
+      "answers": [
+        {
+          "text": "contrato de compra",
+          "correct": false
+        },
+        {
+          "text": "factura",
+          "correct": true
+        },
+        {
+          "text": "recibo de pago",
+          "correct": false
+        },
+        {
+          "text": "nota de entrega",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es la segunda porque el derecho a deducir el IVA soportado exige estar en posesión del documento justificativo, y la regla general es la factura original. El contrato de compra no sustituye la exigencia formal de la factura. El recibo de pago acredita pago, pero no cumple por sí solo la función documental requerida para la deducción. La nota de entrega tampoco es el documento ordinario que habilita la deducción.\nIT: La risposta corretta è la seconda perché il diritto alla detrazione dell’IVA assolta richiede il possesso del documento giustificativo, che ordinariamente è la fattura originale. Il contratto di acquisto non sostituisce tale requisito formale. La ricevuta di pagamento prova il pagamento, ma non basta da sola per la detrazione. Anche la nota di consegna non è il documento ordinario che abilita la detrazione.",
+      "legal_reference": "LIVA, art. 97; también arts. 92 y ss. sobre deducciones.",
+      "original_file": "1_UNIDAD 1 _ IVA _ ONLINE.pdf"
+    },
+    {
+      "sequence_in_user_message": 7,
+      "source_label_in_text": "3",
+      "question": "Quedan fuera del territorio de aplicación del IVA en españa:",
+      "answers": [
+        {
+          "text": "canarias ceuta y melilla",
+          "correct": true
+        },
+        {
+          "text": "canarias, baleares",
+          "correct": false
+        },
+        {
+          "text": "país vasco y navarra",
+          "correct": false
+        },
+        {
+          "text": "solo ceuta y melilla",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La opción correcta es la primera. En el IVA español, Canarias, Ceuta y Melilla quedan fuera del territorio de aplicación del impuesto. Baleares sí forma parte del TAI, por lo que la segunda es incorrecta. País Vasco y Navarra forman parte del territorio de aplicación del IVA estatal, aunque tengan particularidades forales en otros tributos, por lo que la tercera es errónea. La cuarta también es falsa porque omite Canarias.\nIT: È corretta la prima opzione. Nell’IVA spagnola, Canarie, Ceuta e Melilla restano fuori dal territorio di applicazione dell’imposta. Le Baleari invece ne fanno parte, quindi la seconda è sbagliata. Paesi Baschi e Navarra rientrano nel territorio di applicazione dell’IVA statale, pur avendo particolarità forali in altri tributi, quindi la terza è errata. La quarta è falsa perché omette le Canarie.",
+      "legal_reference": "LIVA, arts. 3 y concordantes sobre ámbito espacial.",
+      "original_file": "1_UNIDAD 1 _ IVA _ ONLINE.pdf"
+    },
+    {
+      "sequence_in_user_message": 8,
+      "source_label_in_text": "4",
+      "question": "En el siguiente caso el contribuyente debe pagar iva o tpo?\nEl sr. teodorico le compra a Cortina de constructora un local comercial recien terminado por 250.000 euros en el que tiene la intención de montar en él su inmobiliaria",
+      "answers": [
+        {
+          "text": "debo pagar iva porque se trata de un local comercial",
+          "correct": false
+        },
+        {
+          "text": "el transmitente debe repercutir iva al comprador quien también deberá pagar tpo por actuar  como particular en la operación",
+          "correct": false
+        },
+        {
+          "text": "la operación tributaria en iva porque el transmitente es un empresario y además no estará exenta por tratarse de una primera transmisión",
+          "correct": true
+        },
+        {
+          "text": "la operación tributaria en tpo porque el comprador es un particular",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta jurídicamente correcta es la tercera. El transmitente es una constructora, es decir, un empresario que actúa como tal, y además se trata de un local recién terminado, por lo que estamos ante una primera entrega de edificación no exenta de IVA. La primera es incompleta: no basta con que sea un local comercial; lo decisivo es quién transmite y que sea primera entrega no exenta. La segunda es falsa porque no se pagan simultáneamente IVA y TPO por la misma transmisión. La cuarta es errónea porque la condición de particular del comprador no desplaza el IVA cuando el vendedor es empresario y la operación está sujeta y no exenta.\nIT: La risposta giuridicamente corretta è la terza. Il venditore è una società costruttrice, quindi un imprenditore che agisce nell’ambito della propria attività, e il locale è appena terminato: si tratta quindi di una prima cessione di edificio non esente da IVA. La prima è incompleta: non basta che sia un locale commerciale; contano soprattutto il soggetto venditore e il fatto che sia una prima cessione non esente. La seconda è falsa perché non si pagano insieme IVA e TPO sulla stessa cessione. La quarta è sbagliata perché il fatto che l’acquirente sia un privato non elimina l’IVA quando il venditore è un imprenditore e l’operazione è imponibile.",
+      "legal_reference": "LIVA, arts. 4, 5 y 20.Uno.22º; TRLITPAJD, art. 7.5.",
+      "original_file": "1_UNIDAD 1 _ IVA _ ONLINE.pdf; 2_UNIDAD 2 _ ITP-AJD.pdf"
+    },
+    {
+      "sequence_in_user_message": 9,
+      "source_label_in_text": "5",
+      "question": "En la disolución de una sociedad la figura del sujeto pasivo recae en:",
+      "answers": [
+        {
+          "text": "los socios",
+          "correct": true
+        },
+        {
+          "text": "la sociedad",
+          "correct": false
+        },
+        {
+          "text": "el avalista",
+          "correct": false
+        },
+        {
+          "text": "ninguna es correcta",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la primera. En la modalidad de operaciones societarias, cuando se produce la disolución de la sociedad con adjudicación de bienes o derechos, los contribuyentes son los socios por lo que reciben. La segunda es incorrecta porque la sociedad es contribuyente en constitución, aumento de capital, traslado de sede o aportaciones para reponer pérdidas, pero no en la disolución con devolución. La tercera no tiene base legal en este hecho imponible. La cuarta es falsa porque sí existe una opción correcta.\nIT: È corretta la prima. Nella modalità di operazioni societarie, quando si verifica lo scioglimento della società con assegnazione di beni o diritti, i contribuenti sono i soci per quanto ricevono. La seconda è sbagliata perché la società è contribuente nella costituzione, nell’aumento di capitale, nel trasferimento di sede o negli apporti per ripianare perdite, ma non nello scioglimento con restituzione. La terza non ha alcun fondamento giuridico in questo fatto imponibile. La quarta è falsa perché una risposta corretta esiste.",
+      "legal_reference": "TRLITPAJD, art. 23; material de la Unidad 2 sobre OS.",
+      "original_file": "2_UNIDAD 2 _ ITP-AJD.pdf"
+    },
+    {
+      "sequence_in_user_message": 10,
+      "source_label_in_text": "6",
+      "question": "En el actual sistema del iva intracomunitaria las operaciones transfronterizas de entrega de bienes realizados entre empresas situadas en diferentes países de la ue:",
+      "answers": [
+        {
+          "text": "tributan en destino como regia general",
+          "correct": true
+        },
+        {
+          "text": "tributan en origen como regla general",
+          "correct": false
+        },
+        {
+          "text": "tributan en origen hasta un cierto nivel y a partir de ese nivel en destino",
+          "correct": false
+        },
+        {
+          "text": "tributan en destino hasta un cierto nivel y a partir de ese nivel en origen",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la primera porque el régimen transitorio del IVA intracomunitario para operaciones entre empresarios descansa en la tributación en destino: la entrega intracomunitaria queda exenta en origen y la adquisición tributa en destino mediante autorrepercusión. La segunda es incorrecta porque el criterio general entre empresarios no es el origen. La tercera y la cuarta mezclan umbrales propios de otros regímenes, como las ventas a distancia a consumidores, no de las entregas B2B intracomunitarias ordinarias.\nIT: È corretta la prima perché il regime transitorio dell’IVA intracomunitaria tra imprese si basa sulla tassazione nel paese di destinazione: la cessione intracomunitaria è esente all’origine e l’acquisto è imponibile a destinazione mediante autofatturazione/autorepercusión. La seconda è errata perché tra operatori economici il criterio generale non è l’origine. La terza e la quarta confondono soglie proprie di altri regimi, come le vendite a distanza ai consumatori, con le ordinarie operazioni B2B intracomunitarie.",
+      "legal_reference": "LIVA, arts. 15, 25, 71, 84 y concordantes; material de la Unidad 1.",
+      "original_file": "1_UNIDAD 1 _ IVA _ ONLINE.pdf"
+    },
+    {
+      "sequence_in_user_message": 11,
+      "source_label_in_text": "7",
+      "question": "No es un hecho imponible del TPO:",
+      "answers": [
+        {
+          "text": "las adjudicaciones en pago y para pago de deudas",
+          "correct": false
+        },
+        {
+          "text": "las adjudicaciones expresas en pago de asunción de deudas",
+          "correct": false
+        },
+        {
+          "text": "la disolución de comunidades de bienes sin exceda de adjudicación",
+          "correct": true
+        },
+        {
+          "text": "todas son hechos imponible del ITP",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es la tercera. Las adjudicaciones en pago o para pago de deudas y las adjudicaciones expresas en pago de asunción de deudas sí aparecen como hechos imponibles de TPO. En cambio, la disolución de comunidad de bienes sin exceso de adjudicación no supone, en términos generales, una verdadera transmisión patrimonial onerosa, sino una especificación o concreción de derechos preexistentes. Por eso la primera y la segunda son incorrectas como respuesta, y la cuarta también lo es porque no todas las situaciones enumeradas son hecho imponible de TPO.\nIT: La risposta corretta è la terza. Le adjudicaciones en pago o para pago de deudas e le adjudicaciones expresas en pago de asunción de deudas sono effettivamente fatti imponibili del TPO. Al contrario, lo scioglimento di una comunione di beni senza eccedenza di assegnazione, in via generale, non comporta una vera trasmissione patrimoniale onerosa, ma solo la specificazione di diritti già esistenti. Per questo la prima e la seconda non sono risposte corrette, e anche la quarta è sbagliata perché non tutte le ipotesi elencate costituiscono fatto imponibile TPO.",
+      "legal_reference": "TRLITPAJD, art. 7.1 y doctrina sobre división de la cosa común sin exceso de adjudicación.",
+      "original_file": "2_UNIDAD 2 _ ITP-AJD.pdf"
+    },
+    {
+      "sequence_in_user_message": 12,
+      "source_label_in_text": "8",
+      "question": "Una empresa alimentaria en un trimestre dado compra materias primas por importe de 5.000 euros y vende productos terminados por importe de 12.000 euros di todas sus compras y ventas están sujetas al iva al 10% cuál será el resultado de su declaración de iva?",
+      "answers": [
+        {
+          "text": "1.200 euros a ingresar",
+          "correct": false
+        },
+        {
+          "text": "500 euros a ingresar",
+          "correct": false
+        },
+        {
+          "text": "700 euros a ingresar",
+          "correct": true
+        },
+        {
+          "text": "700 euros a obtener como devolución",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la tercera. El IVA repercutido por las ventas es 12.000 × 10% = 1.200 euros y el IVA soportado por las compras es 5.000 × 10% = 500 euros; por tanto, la cuota diferencial es 700 euros a ingresar. La primera ignora el IVA soportado deducible. La segunda confunde el importe del IVA soportado con la cuota final. La cuarta sería correcta solo si el IVA soportado superara al repercutido, lo que aquí no sucede.\nIT: È corretta la terza. L’IVA a debito sulle vendite è 12.000 × 10% = 1.200 euro e l’IVA detraibile sugli acquisti è 5.000 × 10% = 500 euro; quindi il saldo è 700 euro da versare. La prima ignora l’IVA sugli acquisti detraibile. La seconda confonde l’IVA assolta con il risultato finale della liquidazione. La quarta sarebbe corretta solo se l’IVA detraibile fosse superiore a quella a debito, cosa che qui non accade.",
+      "legal_reference": "LIVA, arts. 88, 92 y ss.; mecánica general de liquidación del IVA.",
+      "original_file": "1_UNIDAD 1 _ IVA _ ONLINE.pdf"
+    },
+    {
+      "sequence_in_user_message": 13,
+      "source_label_in_text": "9",
+      "question": "Como regla general la transmisión de un bien no está sujeta al iva sino al impuesto sobre transmisiones patrimoniales onerosas itp cuando:",
+      "answers": [
+        {
+          "text": "el bien es transmitido por una empresa o profesional",
+          "correct": false
+        },
+        {
+          "text": "el bien es adquirido por una empresa o profesional",
+          "correct": false
+        },
+        {
+          "text": "el bien es transmitido de forma onerosa por un particular",
+          "correct": true
+        },
+        {
+          "text": "el bien es transmitido de forma gratuita por un particular",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La tercera es la correcta porque, como regla general, el TPO grava transmisiones onerosas realizadas en el tráfico civil, especialmente entre particulares. La primera es incorrecta porque cuando el transmitente es empresario o profesional actuando como tal, la operación normalmente cae en el IVA, salvo excepciones concretas. La segunda es errónea porque lo decisivo no es quién adquiere, sino quién transmite y en qué ámbito actúa. La cuarta no encaja porque las transmisiones gratuitas no tributan por TPO, sino que remiten al ISD.\nIT: La terza è corretta perché, in via generale, il TPO colpisce trasferimenti onerosi realizzati nel traffico civile, soprattutto tra privati. La prima è sbagliata perché quando il cedente è un imprenditore o professionista che agisce come tale, l’operazione rientra normalmente nell’IVA, salvo eccezioni specifiche. La seconda è errata perché non conta principalmente chi acquista, ma chi cede e in quale ambito opera. La quarta non va bene perché i trasferimenti gratuiti non ricadono nel TPO, bensì nell’imposta sulle successioni e donazioni.",
+      "legal_reference": "TRLITPAJD, art. 7; LIVA, arts. 4 y 5.",
+      "original_file": "2_UNIDAD 2 _ ITP-AJD.pdf; 1_UNIDAD 1 _ IVA _ ONLINE.pdf"
+    },
+    {
+      "sequence_in_user_message": 14,
+      "source_label_in_text": "10",
+      "question": "Los arrendadores de bienes:",
+      "answers": [
+        {
+          "text": "tiene en todo caso la consideración de empresarios o profesionales a efectos del iva",
+          "correct": true
+        },
+        {
+          "text": "no se consideran empresarios o profesionales  a efectos del iva",
+          "correct": false
+        },
+        {
+          "text": "tienen la consideración de empresarios o profesionales a efectos del iva solo si se trata de sociedades",
+          "correct": false
+        },
+        {
+          "text": "solo de consideran empresarios o profesionales si alquiran los bienes  a empresas no a particulares",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La primera es la correcta porque la explotación de un bien con ánimo de obtener ingresos continuados en el tiempo, y en particular el arrendamiento, atribuye la condición de empresario o profesional a efectos del IVA. La segunda contradice directamente la definición legal. La tercera es falsa porque no se exige ser sociedad; también puede ser persona física. La cuarta añade un requisito inexistente en la ley.\nIT: La prima è corretta perché lo sfruttamento di un bene per ottenere entrate continuative nel tempo, e in particolare la locazione, attribuisce la qualifica di imprenditore o professionista ai fini IVA. La seconda contraddice direttamente la definizione legale. La terza è falsa perché non occorre essere una società; può trattarsi anche di una persona fisica. La quarta introduce un requisito che la legge non prevede.",
+      "legal_reference": "LIVA, art. 5.Uno.c) y concepto general de empresario o profesional.",
+      "original_file": "1_UNIDAD 1 _ IVA _ ONLINE.pdf"
+    },
+    {
+      "sequence_in_user_message": 15,
+      "source_label_in_text": "11",
+      "question": "Si un consumidor adquiere un vehículo usado en un concesionario:",
+      "answers": [
+        {
+          "text": "pagará iva aunque se trate de un vehículo de seguridad mano ya que el vendedor es una empresa",
+          "correct": true
+        },
+        {
+          "text": "pagará tpo por tratarse de una segunda o ulterior transmisión",
+          "correct": false
+        },
+        {
+          "text": "no se exigirá ni el iva ni el tipo al ser un vehículo de segunda mano vendido por una empresa",
+          "correct": false
+        },
+        {
+          "text": "se cobrarán simultáneamente el iva y el itpo",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la primera porque la venta la realiza un empresario en el ejercicio de su actividad, de modo que la operación se encuadra en el IVA. La segunda sería propia de transmisiones entre particulares o de ciertos supuestos inmobiliarios exentos, no de la venta ordinaria por un concesionario. La tercera es manifiestamente falsa porque alguna imposición indirecta sí procede. La cuarta también es incorrecta porque no cabe exigir simultáneamente IVA y TPO por la misma transmisión en este supuesto.\nIT: È corretta la prima perché la vendita è effettuata da un’impresa nell’ambito della propria attività, quindi l’operazione rientra nell’IVA. La seconda sarebbe propria di trasferimenti tra privati o di talune ipotesi immobiliari esenti, non della normale vendita effettuata da un concessionario. La terza è chiaramente falsa perché un’imposizione indiretta si applica. Anche la quarta è errata perché, in questo caso, IVA e TPO non si esigono insieme sulla stessa cessione.",
+      "legal_reference": "LIVA, arts. 4 y 5; incompatibilidad IVA/TPO.",
+      "original_file": "1_UNIDAD 1 _ IVA _ ONLINE.pdf"
+    },
+    {
+      "sequence_in_user_message": 16,
+      "source_label_in_text": "12",
+      "question": "Si un empresario de un concesionario de madrid vende y transporta un vehículo nuevo a un particular que reside en oporto:",
+      "answers": [
+        {
+          "text": "es una entrega intracomunitaria de bienes que trinyta en destino",
+          "correct": true
+        },
+        {
+          "text": "en una entrega intracomunitaria de bien que tributan en origen",
+          "correct": false
+        },
+        {
+          "text": "se considera una venta intracomunitaria a distancia",
+          "correct": false
+        },
+        {
+          "text": "se considera una venta a distancia de bienes importados",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta jurídicamente correcta es la primera. La venta de un medio de transporte nuevo con destino a otro Estado miembro tiene un régimen específico: la entrega intracomunitaria tributa en destino, aunque el adquirente sea un particular. La segunda es incorrecta porque no rige la tributación en origen. La tercera no es la correcta porque los medios de transporte nuevos quedan fuera del régimen ordinario de ventas a distancia. La cuarta es falsa porque no se trata de bienes importados desde un tercer país, sino de una operación intracomunitaria.\nIT: La risposta giuridicamente corretta è la prima. La vendita di un mezzo di trasporto nuovo destinato a un altro Stato membro segue un regime specifico: la cessione intracomunitaria è tassata a destinazione, anche se l’acquirente è un privato. La seconda è errata perché non vale il criterio dell’origine. La terza non è corretta perché i mezzi di trasporto nuovi restano fuori dal regime ordinario delle vendite a distanza. La quarta è falsa perché non si tratta di beni importati da un paese terzo, ma di un’operazione intracomunitaria.",
+      "legal_reference": "LIVA, arts. 5.Uno.e), 13, 15 y régimen especial de medios de transporte nuevos.",
+      "original_file": "1_UNIDAD 1 _ IVA _ ONLINE.pdf",
+      "note_on_ambiguity": "La transcripción marcaba otra opción, pero el régimen de medios de transporte nuevos desplaza la lógica ordinaria de las ventas a distancia."
+    },
+    {
+      "sequence_in_user_message": 17,
+      "source_label_in_text": "13",
+      "question": "Una multinacional alemana con varias sucursales en territorio peninsular presta desde una de esas sucursales un servicio de asesoría financiera a un ciudadano francés residente en Italia.\nDonde se entiende realizado este servicio a efectos de la aplicación del iva?",
+      "answers": [
+        {
+          "text": "en alemania por estar en alemán la sede central de la empresa prestadora",
+          "correct": false
+        },
+        {
+          "text": "en españa por prestarse desde una sucursal española el servicio de asesoría a un particular residente en la ue",
+          "correct": true
+        },
+        {
+          "text": "en francia por ser un ciudadano de nacionalidad francesa la persona que realiza el consumo final del servicio",
+          "correct": false
+        },
+        {
+          "text": "en italia por ser el lugar de residencia habitual de la persona que realiza",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La segunda es la correcta. Al prestarse el servicio a un particular, opera la regla general B2C: el servicio se localiza donde esté establecido el prestador que realiza la prestación, aquí la sucursal española. La primera es errónea porque no decide la sede central si la prestación se realiza desde el establecimiento español. La tercera y la cuarta son falsas porque ni la nacionalidad del cliente ni su residencia en otro Estado miembro desplazan, en este caso, la regla general de localización B2C dentro de la UE.\nIT: La seconda è corretta. Poiché il servizio è reso a un privato, si applica la regola generale B2C: il servizio si localizza dove è stabilito il prestatore che esegue la prestazione, qui la succursale spagnola. La prima è errata perché non decide la sede centrale se il servizio è reso dallo stabilimento spagnolo. La terza e la quarta sono false perché né la nazionalità del cliente né la sua residenza in un altro Stato membro spostano, in questo caso, la regola generale di localizzazione B2C nell’UE.",
+      "legal_reference": "LIVA, arts. 69 y 70; reglas de localización de prestaciones de servicios.",
+      "original_file": "1_UNIDAD 1 _ IVA _ ONLINE.pdf"
+    },
+    {
+      "sequence_in_user_message": 18,
+      "source_label_in_text": "14",
+      "question": "Señale la respuesta correcta:",
+      "answers": [
+        {
+          "text": "el iva es un impuesto indirecto monofásico sobre el consumo",
+          "correct": false
+        },
+        {
+          "text": "el iva es un impuesto indirecto general multifásico sobre el consumo",
+          "correct": true
+        },
+        {
+          "text": "el iva es un impuesto progresivo sobre las ventas de la empresa",
+          "correct": false
+        },
+        {
+          "text": "el iva es un impuesto personal directo sobre el consumo",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La segunda es la correcta porque el IVA grava el consumo como impuesto indirecto, general y plurifásico o multifásico. La primera falla porque no es monofásico. La tercera es incorrecta porque el IVA no es un impuesto progresivo, sino proporcional. La cuarta es falsa porque el IVA no es directo ni personal.\nIT: La seconda è corretta perché l’IVA colpisce il consumo come imposta indiretta, generale e plurifase o multifase. La prima è sbagliata perché non è monofase. La terza è errata perché l’IVA non è progressiva, ma proporzionale. La quarta è falsa perché l’IVA non è un’imposta diretta né personale.",
+      "legal_reference": "LIVA, arts. 1 y ss.; caracterización doctrinal del IVA en la Unidad 1.",
+      "original_file": "1_UNIDAD 1 _ IVA _ ONLINE.pdf"
+    },
+    {
+      "sequence_in_user_message": 19,
+      "source_label_in_text": "15",
+      "question": "Respecto del TPO en los transmisiones de bienes y derechos es sujeto pasivo:",
+      "answers": [
+        {
+          "text": "el que los adquieren",
+          "correct": true
+        },
+        {
+          "text": "el que los transmite",
+          "correct": false
+        },
+        {
+          "text": "ambos",
+          "correct": false
+        },
+        {
+          "text": "ambos  salvo que el transmitente sea un empresario o profesionales actuando como tal",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La primera es la correcta. En TPO, en las transmisiones de bienes y derechos, el sujeto pasivo es quien adquiere. La segunda es falsa porque el transmitente no es el contribuyente en esta modalidad. La tercera y la cuarta también son erróneas porque la ley no establece una tributación conjunta de adquirente y transmitente como regla general.\nIT: La prima è corretta. Nel TPO, nei trasferimenti di beni e diritti, il soggetto passivo è chi acquista. La seconda è falsa perché il cedente non è il contribuente in questa modalità. Anche la terza e la quarta sono errate, perché la legge non prevede in via generale una soggettività passiva congiunta di acquirente e cedente.",
+      "legal_reference": "TRLITPAJD, art. 8.a); material de la Unidad 2.",
+      "original_file": "2_UNIDAD 2 _ ITP-AJD.pdf"
+    },
+    {
+      "sequence_in_user_message": 20,
+      "source_label_in_text": "16",
+      "question": "No es un hecho imponible TPO:",
+      "answers": [
+        {
+          "text": "Las adjudicaciones en pago y para pago de deudas",
+          "correct": false
+        },
+        {
+          "text": "las adjudicaciones expresas en pago de asuncion de deudas",
+          "correct": false
+        },
+        {
+          "text": "la disolucion de comunidades de nienes sin excesos de adjudicacion",
+          "correct": true
+        },
+        {
+          "text": "Todos mno hechos imponibles del TPO",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La tercera es la correcta por la misma razón que en la pregunta anterior análoga: la disolución de comunidad sin exceso de adjudicación no implica, en principio, una transmisión patrimonial onerosa sujeta a TPO. La primera y la segunda sí aparecen legalmente como hechos imponibles de TPO. La cuarta es incorrecta porque no todas las opciones previas son hechos imponibles.\nIT: La terza è corretta per la stessa ragione della domanda analoga precedente: lo scioglimento della comunione senza eccedenza di assegnazione non comporta, in linea di principio, una trasmissione patrimoniale onerosa soggetta a TPO. La prima e la seconda sono invece espressamente fatti imponibili di TPO. La quarta è errata perché non tutte le opzioni precedenti costituiscono fatto imponibile.",
+      "legal_reference": "TRLITPAJD, art. 7; doctrina sobre división de la cosa común sin exceso de adjudicación.",
+      "original_file": "2_UNIDAD 2 _ ITP-AJD.pdf"
+    },
+    {
+      "sequence_in_user_message": 21,
+      "source_label_in_text": "17",
+      "question": "Una empresa con sede en Panamá y dedicada a la organización de eventos culturales organiza un concierto en madrid para el que pone a la venta 6.000 entradas donde se entiende realizado el servicio?",
+      "answers": [
+        {
+          "text": "en panamá por ser el país desde el que se organiza el concierto",
+          "correct": false
+        },
+        {
+          "text": "en panamá por ser el país en el que radica la sede central de la empresa",
+          "correct": false
+        },
+        {
+          "text": "en españa por ser de nacionalidad española la mayoría de los asistentes al concierto",
+          "correct": false
+        },
+        {
+          "text": "en españa por prestarse materialmente el servicio dentro del territorio de aplicación del impuesto",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La cuarta es la correcta. Los servicios culturales, artísticos y similares se localizan donde se prestan materialmente, y el concierto tiene lugar en Madrid. La primera y la segunda son erróneas porque en esta categoría de servicios no manda la sede del prestador. La tercera también es falsa porque la nacionalidad del público no es el criterio de localización.\nIT: La quarta è corretta. I servizi culturali, artistici e simili si localizzano nel luogo in cui sono materialmente prestati, e il concerto si svolge a Madrid. La prima e la seconda sono errate perché, per questa categoria di servizi, non conta la sede del prestatore. Anche la terza è falsa, perché la nazionalità del pubblico non è il criterio di localizzazione.",
+      "legal_reference": "LIVA, art. 70.Uno; reglas especiales de localización de servicios culturales.",
+      "original_file": "1_UNIDAD 1 _ IVA _ ONLINE.pdf"
+    },
+    {
+      "sequence_in_user_message": 22,
+      "source_label_in_text": "18",
+      "question": "Es sujeto pasivo del iva por el concepto de importación de bienes:",
+      "answers": [
+        {
+          "text": "una empresa aragonesa fabricante de componentes eléctricos que vende a empresas establecidas en canarias, marruecos y francia",
+          "correct": false
+        },
+        {
+          "text": "u abogado establecido en lugo que presta un servicio a una empresa alemana",
+          "correct": false
+        },
+        {
+          "text": "una empresa de cadiz que vende un lote de pinturas a una empresa sueca",
+          "correct": false
+        },
+        {
+          "text": "un particular residente en almería que adquiere en argelia varias alfombras para traerse a españa por un importe total de 6.000 euros",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La cuarta es la correcta porque describe una verdadera importación de bienes en España: entrada de bienes procedentes de un tercer país, sin que importe que el importador sea un particular. La primera describe ventas hacia distintos territorios, no una importación por ese empresario. La segunda es una prestación de servicios, no una importación de bienes. La tercera se refiere a una entrega intracomunitaria o exportación según el caso, tampoco a una importación.\nIT: La quarta è corretta perché descrive una vera importazione di beni in Spagna: ingresso di beni provenienti da un paese terzo, senza che rilevi il fatto che l’importatore sia un privato. La prima descrive vendite verso diversi territori, non un’importazione effettuata da quell’impresa. La seconda riguarda una prestazione di servizi, non un’importazione di beni. La terza si riferisce a una cessione intracomunitaria o esportazione, ma non a un’importazione.",
+      "legal_reference": "LIVA, arts. 17 y 86; régimen de importaciones.",
+      "original_file": "1_UNIDAD 1 _ IVA _ ONLINE.pdf"
+    },
+    {
+      "sequence_in_user_message": 23,
+      "source_label_in_text": "19",
+      "question": "Ante una importación es sujeto pasivo del iva:",
+      "answers": [
+        {
+          "text": "la empresa que exporta el bien",
+          "correct": false
+        },
+        {
+          "text": "el importador del bien sea empresa o particular",
+          "correct": true
+        },
+        {
+          "text": "el importadores si es empresa y el exportador si el cliente es un",
+          "correct": false
+        },
+        {
+          "text": "depende de lo que establezca el convenio de doble imposición firmado con ese país",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La segunda es la correcta porque en la importación el sujeto pasivo es quien figura como importador o destinatario de los bienes, sea empresario o particular. La primera es errónea porque el exportador extranjero no es el sujeto pasivo del IVA de importación en España. La tercera no responde a la regla legal. La cuarta es falsa porque los convenios de doble imposición no determinan el sujeto pasivo del IVA de importación.\nIT: La seconda è corretta perché, nell’importazione, il soggetto passivo è chi figura come importatore o destinatario dei beni, sia esso impresa o privato. La prima è errata perché l’esportatore estero non è il soggetto passivo dell’IVA all’importazione in Spagna. La terza non corrisponde alla regola legale. La quarta è falsa perché le convenzioni contro la doppia imposizione non determinano il soggetto passivo dell’IVA all’importazione.",
+      "legal_reference": "LIVA, arts. 17 y 86; material de la Unidad 1.",
+      "original_file": "1_UNIDAD 1 _ IVA _ ONLINE.pdf"
+    },
+    {
+      "sequence_in_user_message": 24,
+      "source_label_in_text": "20",
+      "question": "No es un hecho imponible del Operaciones Societarisas OS:",
+      "answers": [
+        {
+          "text": "La ampliacion del objeto social de una sociedad anonima",
+          "correct": true
+        },
+        {
+          "text": "la elevación a público de una ampliación de capital social",
+          "correct": false
+        },
+        {
+          "text": "la disolución de una sociedad limitada",
+          "correct": false
+        },
+        {
+          "text": "tanto la a) como la b) sono las respuestas correctas",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es la primera porque la modificación del objeto social no está sujeta a OS. La tercera es falsa como respuesta porque la disolución sí constituye hecho imponible de OS. La segunda, en la lógica del test, se conecta con una ampliación de capital, operación que sí entra en OS aunque hoy esté exenta en determinados casos; la formalización notarial añade además AJD fijo. Por eso la cuarta también es incorrecta.\nIT: La risposta corretta è la prima perché la modifica dell’oggetto sociale non è soggetta a OS. La terza è falsa come risposta perché lo scioglimento della società costituisce invece fatto imponibile OS. La seconda, nella logica del test, è collegata a un aumento di capitale, operazione che rientra in OS anche se in certi casi oggi è esente; la formalizzazione notarile può inoltre generare AJD fissa. Per questo anche la quarta è errata.",
+      "legal_reference": "TRLITPAJD, art. 19.1 y 19.2.c); material de la Unidad 2.",
+      "original_file": "2_UNIDAD 2 _ ITP-AJD.pdf"
+    },
+    {
+      "sequence_in_user_message": 25,
+      "source_label_in_text": "21",
+      "question": "Cual de las siguientes operaciones se considera una operación no sujeta a iva?",
+      "answers": [
+        {
+          "text": "un promotor inmobiliario vende una vivienda nueva a un particular",
+          "correct": false
+        },
+        {
+          "text": "una empresa de software establecida en oviedo vende programas  informáticos a una ONG con sede en barcelona",
+          "correct": false
+        },
+        {
+          "text": "una empresa toledana vende muebles a una empresa establecida en portugal por valor de 63.000 euros transporte incluido enviando  el pedido por carretera",
+          "correct": false
+        },
+        {
+          "text": "una empresa de cosméticos regla a sus clientes muestras gratuitas de un nuevo perfume",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La cuarta es la correcta porque la entrega gratuita de muestras con finalidad promocional es un supuesto de no sujeción al IVA. La primera es una entrega de bienes sujeta al IVA. La segunda también es una operación sujeta, salvo que concurriera alguna exención específica que aquí no se indica. La tercera describe una operación intracomunitaria, no una operación no sujeta por el mero hecho de ser transfronteriza.\nIT: La quarta è corretta perché la consegna gratuita di campioni con finalità promozionale costituisce un’ipotesi di non soggezione a IVA. La prima è una cessione di beni soggetta a IVA. Anche la seconda è, in linea di principio, un’operazione imponibile, salvo specifica esenzione non indicata. La terza descrive un’operazione intracomunitaria, non un caso di non soggezione per il solo fatto di essere transfrontaliera.",
+      "legal_reference": "LIVA, art. 7; especialmente muestras y objetos publicitarios.",
+      "original_file": "1_UNIDAD 1 _ IVA _ ONLINE.pdf"
+    },
+    {
+      "sequence_in_user_message": 26,
+      "source_label_in_text": "22",
+      "question": "Una empresa de software establecida en madrid correctamente identificada a través de su nif-iva  adquiere un lote de ordenadores a una empresa establecida en lyon la cual envia a la española los ordenadores acompañados de la correspondiente factura señale la afirmación correcta:",
+      "answers": [
+        {
+          "text": "la factura enviada a madrid debe llevar el iva frases",
+          "correct": false
+        },
+        {
+          "text": "la factura enviada a madrid debe llevar el iva español",
+          "correct": false
+        },
+        {
+          "text": "la factura enviada a madrid no lleva iva ya que se trata de una adquisición intracomunitaria exenta de iva",
+          "correct": false
+        },
+        {
+          "text": "la factura enviada a madrid no lleva iva quedando la empresa española obligada a liquidar el impuesto por autorepercusión a los tipos aplicables en españa",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La cuarta es la correcta. En una adquisición intracomunitaria entre empresarios identificados a efectos de IVA, el proveedor emite la factura sin IVA y el adquirente español se autorepercute el impuesto en España, pudiendo deducirlo si cumple los requisitos. La primera y la segunda son erróneas porque el proveedor francés no debe repercutir ni IVA francés ni IVA español en la factura de una EIB exenta. La tercera es incorrecta porque quien está exenta es la entrega intracomunitaria del proveedor; la adquisición del destinatario no queda exenta, sino sujeta con autorrepercusión.\nIT: La quarta è corretta. In un acquisto intracomunitario tra soggetti passivi identificati ai fini IVA, il fornitore emette fattura senza IVA e l’acquirente spagnolo si autoassoggetta all’imposta in Spagna, potendola poi detrarre se ricorrono i requisiti. La prima e la seconda sono errate perché il fornitore francese non deve addebitare né IVA francese né IVA spagnola nella fattura di una cessione intracomunitaria esente. La terza è sbagliata perché è esente la cessione intracomunitaria del fornitore; l’acquisto del destinatario non è esente, ma imponibile con autorepercusión.",
+      "legal_reference": "LIVA, arts. 15, 25, 84 y 92 y ss.; régimen de AIB/EIB.",
+      "original_file": "1_UNIDAD 1 _ IVA _ ONLINE.pdf"
+    },
+    {
+      "sequence_in_user_message": 27,
+      "source_label_in_text": "23",
+      "question": "En el siguiente caso se debe pagar ajd variable?\nla sra orquidea adquirió una vivienda por importe de 200.00 euros que le compró al sr. girasol perfeccionando dicha compra ante notario.",
+      "answers": [
+        {
+          "text": "si porque se trata de una operación variable",
+          "correct": false
+        },
+        {
+          "text": "no porque no complendose los requisitos de coste valuable y registrable",
+          "correct": false
+        },
+        {
+          "text": "si porque cumpleindose los requisidtos de coste valuable y registrable",
+          "correct": false
+        },
+        {
+          "text": "no, porque se trate de una operación sujeta a tpo en tanto que se adquiere a un empresario o profesional",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: Interpretando la pregunta conforme al régimen jurídico, la respuesta pretendida es la cuarta: si la compraventa está sujeta a TPO, la cuota variable de AJD-DN no procede por incompatibilidad. La primera y la tercera son incorrectas porque pasan por alto ese requisito negativo esencial de AJD variable: que el acto no esté sujeto a TPO, OS o ISD. La segunda también es errónea porque la operación sí es valuable y registrable. La literalidad de la cuarta contiene una incongruencia al mencionar 'empresario o profesional', pero la clave correcta es la incompatibilidad con TPO.\nIT: Interpretando la domanda secondo il regime giuridico, la risposta voluta è la quarta: se la compravendita è soggetta a TPO, la quota variabile dell’AJD-DN non si applica per incompatibilità. La prima e la terza sono sbagliate perché ignorano il requisito negativo essenziale dell’AJD variabile: che l’atto non sia soggetto a TPO, OS o ISD. Anche la seconda è errata perché l’operazione è certamente economicamente valutabile e iscrivibile. La formulazione letterale della quarta contiene però un’incongruenza quando cita 'empresario o profesional'; il punto giusto resta l’incompatibilità con il TPO.",
+      "legal_reference": "TRLITPAJD, arts. 28, 29 y 31.2; incompatibilidad AJD-DN cuota variable con TPO.",
+      "original_file": "2_UNIDAD 2 _ ITP-AJD.pdf",
+      "note_on_ambiguity": "Ninguna opción está redactada de forma impecable; se marca la d como la respuesta jurídicamente pretendida por la incompatibilidad con TPO."
+    },
+    {
+      "sequence_in_user_message": 28,
+      "source_label_in_text": "24",
+      "question": "Diga cuál de las siguientes operaciones debe facturarse con iva por no considerarse una operación exenta:",
+      "answers": [
+        {
+          "text": "alquiler de un apartamento por parte de un estudiante para utilizar como vivienda habitual",
+          "correct": false
+        },
+        {
+          "text": "alquiler de un apartamento vacacional por un precio que incluye estancia y servicios complementarios",
+          "correct": true
+        },
+        {
+          "text": "venta de una partida de textiles a argentina",
+          "correct": false
+        },
+        {
+          "text": "todas las  anteriores son operaciones que obliga a repercutir el iva",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la segunda porque el alquiler vacacional con servicios complementarios no encaja en la exención del arrendamiento de vivienda para uso estable y permanente. La primera sí está exenta por tratarse de vivienda habitual. La tercera corresponde a una exportación, exenta de IVA. La cuarta es falsa porque no todas las anteriores obligan a repercutir IVA.\nIT: È corretta la seconda perché la locazione turistica con servizi complementari non rientra nell’esenzione prevista per la locazione di abitazione a uso stabile e permanente. La prima è invece esente perché riguarda abitazione abituale. La terza corrisponde a un’esportazione, esente da IVA. La quarta è falsa perché non tutte le operazioni precedenti comportano addebito dell’IVA.",
+      "legal_reference": "LIVA, art. 20.Uno.23º y art. 21; exenciones inmobiliarias y exportaciones.",
+      "original_file": "1_UNIDAD 1 _ IVA _ ONLINE.pdf"
+    },
+    {
+      "sequence_in_user_message": 29,
+      "source_label_in_text": "25",
+      "question": "¿En qué impuestos indirectos tributaría el siguiente caso?\nel inmueble comprado por d. Granizado está destinado a vivienda habitual y se lo vende a la Entidad Sol y Mar sl formalizando la compra en documento privado primero y 2 semanas después en documento público",
+      "answers": [
+        {
+          "text": "TPO AJD fijo y AJD variable",
+          "correct": false
+        },
+        {
+          "text": "solo IVA",
+          "correct": false
+        },
+        {
+          "text": "TPO y AJD fijo",
+          "correct": false
+        },
+        {
+          "text": "IVA, AJD fijo y AJD variable",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La opción jurídicamente más coherente es la cuarta. Si la transmitente es una sociedad que vende en el ejercicio de su actividad, la operación cae en el IVA; y al otorgarse escritura pública, se devenga AJD-DN en cuota fija y, si concurren los requisitos, también en cuota variable por no tratarse de un acto gravado por TPO u OS. La primera es incorrecta porque TPO y AJD variable son incompatibles. La segunda es incompleta porque omite AJD. La tercera solo sería posible en una compraventa sujeta a TPO, lo que no encaja con la estructura de opciones planteada.\nIT: L’opzione giuridicamente più coerente è la quarta. Se il venditore è una società che cede nell’esercizio della propria attività, l’operazione rientra nell’IVA; e poiché si stipula un atto pubblico, si applica anche l’AJD-DN in quota fissa e, se ricorrono i requisiti, pure in quota variabile, non trattandosi di un atto gravato da TPO o OS. La prima è errata perché TPO e AJD variabile sono incompatibili. La seconda è incompleta perché omette l’AJD. La terza sarebbe possibile solo in una compravendita soggetta a TPO, cosa che non si adatta bene alla struttura delle opzioni proposte.",
+      "legal_reference": "LIVA, arts. 4 y 20; TRLITPAJD, arts. 7.5, 28 y 31.2.",
+      "original_file": "1_UNIDAD 1 _ IVA _ ONLINE.pdf; 2_UNIDAD 2 _ ITP-AJD.pdf",
+      "note_on_ambiguity": "La pregunta no aclara expresamente si se trata de primera o segunda entrega. Por coherencia interna de las opciones, la respuesta pretendida parece ser la d."
+    },
+    {
+      "sequence_in_user_message": 30,
+      "source_label_in_text": "26",
+      "question": "Si una empresa inmobiliaria establecida en malaga vende un edificio nuevo ubicado en Ceuta a una empresa establecida en madrid:",
+      "answers": [
+        {
+          "text": "la operación no tributa por iva por entenderse realizada fuera del territorio de aplicación del impuesto",
+          "correct": true
+        },
+        {
+          "text": "la operación tributaria por iva al sr inmueble vendido por una empresa establecida dentro del territorio de aplicación del impuesto",
+          "correct": false
+        },
+        {
+          "text": "la operación tributaria por iva al ser el inmueble vendido a una empresa establecida dentro del territorio de aplicación del impuesto",
+          "correct": false
+        },
+        {
+          "text": "la operación no tributaria por iva sino por tpo",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la primera. En las entregas de inmuebles, la localización viene determinada por el lugar donde radica el inmueble, y Ceuta está fuera del territorio de aplicación del IVA español. La segunda y la tercera son erróneas porque atienden a la sede del vendedor o del comprador, cuando aquí lo decisivo es la localización del inmueble. La cuarta no es correcta en la lógica del curso, porque el hecho de quedar fuera del ámbito espacial del IVA no transforma automáticamente la operación en TPO si la realiza un empresario en el ejercicio de su actividad.\nIT: È corretta la prima. Nelle cessioni di immobili, la localizzazione dipende dal luogo in cui si trova l’immobile, e Ceuta è fuori dal territorio di applicazione dell’IVA spagnola. La seconda e la terza sono errate perché guardano alla sede del venditore o dell’acquirente, mentre qui conta il luogo dell’immobile. La quarta non è corretta secondo la logica del corso, perché il fatto che l’operazione sia fuori dal campo territoriale dell’IVA non la trasforma automaticamente in TPO se è compiuta da un imprenditore nell’esercizio della sua attività.",
+      "legal_reference": "LIVA, art. 68; ámbito espacial del IVA; Ceuta fuera del TAI.",
+      "original_file": "1_UNIDAD 1 _ IVA _ ONLINE.pdf"
+    },
+    {
+      "sequence_in_user_message": 31,
+      "source_label_in_text": "27",
+      "question": "Si una empresa vende a un particular un piso de segunda mano que venía utilizando desde hace años como oficina, Como tributa?:",
+      "answers": [
+        {
+          "text": "la operación tributa por iva al tipo general",
+          "correct": false
+        },
+        {
+          "text": "la operación está exenta del itp y del iva solo tributa por irpf la ganancia patrimonial",
+          "correct": false
+        },
+        {
+          "text": "la operación está exenta de iva siendo aplicable en cambio del tpo",
+          "correct": true
+        },
+        {
+          "text": "la e,operación no tributa por iva y tampoco por tpo al realizar la venta una empresa y no un particular",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la tercera. Cuando una empresa transmite un piso de segunda mano que ya venía utilizando, estamos ante una segunda o ulterior entrega de edificación, operación que queda sujeta pero exenta de IVA. Precisamente por esa exención, entra en juego la excepción a la incompatibilidad IVA/TPO y la transmisión tributa por TPO. La primera es errónea porque no se trata de una primera entrega gravada con IVA al tipo general. La segunda es incorrecta porque no queda fuera simultáneamente de IVA y TPO: la exención en IVA desplaza la tributación a TPO. La cuarta también es falsa porque el hecho de que venda una empresa no elimina ni el IVA exento ni el TPO aplicable en este caso.\nIT: È corretta la terza. Quando un’impresa vende un appartamento usato che stava già utilizzando, si tratta di una seconda o ulteriore cessione di edificio, operazione soggetta ma esente da IVA. Proprio per questa esenzione opera l’eccezione alla regola di incompatibilità IVA/TPO e quindi la cessione sconta il TPO. La prima è errata perché non si tratta di una prima cessione imponibile IVA al tipo ordinario. La seconda è sbagliata perché l’operazione non resta contemporaneamente fuori sia dall’IVA sia dal TPO: l’esenzione IVA apre la strada al TPO. Anche la quarta è falsa perché il fatto che il venditore sia un’impresa non elimina né l’IVA esente né il TPO applicabile in questo caso.",
+      "legal_reference": "LIVA, art. 20.Uno.22; TRLITPAJD, art. 7.5; material de las Unidades 1 y 2.",
+      "original_file": "1_UNIDAD 1 _ IVA _ ONLINE.pdf; 2_UNIDAD 2 _ ITP-AJD.pdf"
+    },
+    {
+      "sequence_in_user_message": 32,
+      "source_label_in_text": "28",
+      "question": "Un mismo acto podrà ser gravado simultamenteme por:",
+      "answers": [
+        {
+          "text": "el impuesto sobre transmisiones patrimoniales onerosas y el impuesto sobre operaciones secundarias",
+          "correct": false
+        },
+        {
+          "text": "el impuesto sobre transmisiones patrimoniales onerosas y la cuota fija del concepto actos jurídicos documentados",
+          "correct": true
+        },
+        {
+          "text": "el impuesto sobre transmisiones patrimoniales onerosas y la cuota variable del concepto actos jurídicos documentados",
+          "correct": false
+        },
+        {
+          "text": "ningún acto puede ser gravado por más de una modalidad del itpajd",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la segunda. La regla general es la incompatibilidad entre TPO, OS y AJD en su cuota variable, pero la cuota fija de AJD-DN sí puede exigirse además cuando el acto se formaliza en documento notarial. Por eso un mismo acto puede quedar sujeto a TPO y, al mismo tiempo, a la cuota fija de AJD. La primera es incorrecta porque ‘operaciones secundarias’ no es una modalidad del impuesto. La tercera es errónea porque la cuota variable de AJD es incompatible con TPO. La cuarta también es falsa porque sí existe esa compatibilidad parcial con la cuota fija.\nIT: È corretta la seconda. La regola generale è l’incompatibilità tra TPO, OS e AJD nella sua quota variabile, ma la quota fissa dell’AJD-DN può comunque essere dovuta in aggiunta quando l’atto viene formalizzato per atto notarile. Per questo uno stesso atto può essere soggetto a TPO e, insieme, alla quota fissa dell’AJD. La prima è sbagliata perché ‘operaciones secundarias’ non è una modalità dell’imposta. La terza è errata perché la quota variabile dell’AJD è incompatibile con il TPO. Anche la quarta è falsa perché questa compatibilità parziale con la quota fissa esiste davvero.",
+      "legal_reference": "TRLITPAJD, arts. 28 y 31; regla de incompatibilidad entre TPO, OS y AJD-DN cuota variable, con exigibilidad de la cuota fija.",
+      "original_file": "2_UNIDAD 2 _ ITP-AJD.pdf"
+    },
+    {
+      "sequence_in_user_message": 33,
+      "source_label_in_text": "29",
+      "question": "En qué circunstancia se aplica el componente de actos jurídicos documentados del itpajd?",
+      "answers": [
+        {
+          "text": "al comprar acciones de una empresa",
+          "correct": false
+        },
+        {
+          "text": "al recibir una herencia",
+          "correct": false
+        },
+        {
+          "text": "al firmar hipotecas préstamos o aumentos de capital",
+          "correct": true
+        },
+        {
+          "text": "al pagar por servicios profesionales",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La opción más adecuada es la tercera, entendida en sentido amplio. El componente de AJD grava documentos notariales, mercantiles o administrativos y, en la práctica del curso, aparece ligado a escrituras públicas relativas a préstamos hipotecarios, préstamos formalizados documentalmente y operaciones societarias documentadas. La primera es errónea porque la compra de acciones no es el supuesto típico de AJD planteado aquí. La segunda es incorrecta porque la herencia se sitúa en el ámbito del ISD. La cuarta también es falsa porque el mero pago de servicios profesionales no constituye por sí mismo hecho imponible de AJD. Ahora bien, la redacción de la tercera es amplia: en aumentos de capital la cuota variable de AJD no procede por incompatibilidad con OS, aunque sí puede exigirse la cuota fija si hay escritura pública.\nIT: L’opzione più adeguata è la terza, intesa in senso ampio. Il componente AJD colpisce documenti notarili, mercantili o amministrativi e, nella logica del corso, compare soprattutto con atti pubblici relativi a mutui ipotecari, prestiti formalizzati documentalmente e operazioni societarie documentate. La prima è errata perché l’acquisto di azioni non è il caso tipico di AJD evocato qui. La seconda è sbagliata perché l’eredità rientra nell’ISD. Anche la quarta è falsa perché il semplice pagamento di servizi professionali non integra di per sé il presupposto dell’AJD. Va però precisato che la formulazione della terza è ampia: negli aumenti di capitale la quota variabile dell’AJD non si applica per incompatibilità con l’OS, anche se la quota fissa può essere dovuta se c’è atto pubblico.",
+      "legal_reference": "TRLITPAJD, arts. 19, 28, 31 y concordantes.",
+      "original_file": "2_UNIDAD 2 _ ITP-AJD.pdf",
+      "note_on_ambiguity": "La opción marcada como correcta debe entenderse de forma amplia y didáctica; jurídicamente no todos los supuestos citados generan AJD variable en el mismo modo."
+    },
+    {
+      "sequence_in_user_message": 34,
+      "source_label_in_text": "30",
+      "question": "¿Qué determina la variabilidad de los tipos impositivos del ITPAJD entre diferentes actos o transmisiones?",
+      "answers": [
+        {
+          "text": "la política fiscal de la ue",
+          "correct": false
+        },
+        {
+          "text": "las decisiones del banco central europeo",
+          "correct": false
+        },
+        {
+          "text": "las regulaciones específicas de cada comunidad autónoma en españa",
+          "correct": true
+        },
+        {
+          "text": "la tasa de inflación en españa",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la tercera porque el ITPAJD es un tributo cedido y las Comunidades Autónomas tienen competencia normativa para fijar determinados tipos de gravamen y beneficios fiscales dentro de los límites legales. La política fiscal de la Unión Europea y las decisiones del BCE no determinan directamente esos tipos autonómicos. La inflación tampoco es el criterio normativo que explica la diferencia entre tipos.\nIT: È corretta la terza perché l’ITPAJD è un tributo ceduto e le Comunità Autonome possono fissare determinati tipi d’imposta e agevolazioni entro i limiti di legge. Né la politica fiscale dell’Unione europea né le decisioni della BCE determinano direttamente tali aliquote regionali. Anche l’inflazione non è il criterio giuridico che spiega la variabilità tra i tipi.",
+      "legal_reference": "TRLITPAJD; Ley 22/2009 sobre cesión de tributos a las CCAA; material de la Unidad 2.",
+      "original_file": "2_UNIDAD 2 _ ITP-AJD.pdf"
+    },
+    {
+      "sequence_in_user_message": 35,
+      "source_label_in_text": "31",
+      "question": "¿Qué situación está sujeta al iva en lugar de al itpajd?",
+      "answers": [
+        {
+          "text": "en la compra de una vivienda de segunda mano entre particulares",
+          "correct": false
+        },
+        {
+          "text": "en la venta de un local comercial por una empresa a otra empresa",
+          "correct": true
+        },
+        {
+          "text": "en la transferencia de un inmueble por herencia",
+          "correct": false
+        },
+        {
+          "text": "en la constitución de una hipoteca sobre una vivienda habitual",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la segunda porque una entrega onerosa realizada por una empresa en el ejercicio de su actividad empresarial queda, en principio, sujeta al IVA. La primera tributa por TPO, al tratarse de una transmisión entre particulares. La tercera no cae en IVA ni en ITPAJD, sino en el ámbito del Impuesto sobre Sucesiones y Donaciones. La cuarta remite al régimen de AJD y no a una operación gravada por IVA como entrega de bienes o prestación de servicios ordinaria.\nIT: È corretta la seconda perché una cessione onerosa effettuata da un’impresa nell’esercizio della propria attività è, in linea di principio, soggetta a IVA. La prima ricade nel TPO, essendo una compravendita tra privati. La terza non rientra né nell’IVA né nell’ITPAJD, ma nell’Imposta sulle Successioni e Donazioni. La quarta riguarda il regime dell’AJD e non un’operazione ordinaria imponibile IVA.",
+      "legal_reference": "LIVA, arts. 4 y 5; TRLITPAJD, arts. 7 y 31; incompatibilidad IVA/TPO.",
+      "original_file": "1_UNIDAD 1 _ IVA _ ONLINE.pdf; 2_UNIDAD 2 _ ITP-AJD.pdf"
+    }
+  ]
+}
