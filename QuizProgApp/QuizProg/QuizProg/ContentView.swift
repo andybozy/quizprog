@@ -328,6 +328,16 @@ private struct StartScreen: View {
                         StatPill(label: "Log", value: "\(cloudSyncController.snapshot.pendingLogMirroringChanges)", theme: theme)
                     }
 
+                    Text(session.readWriteModeDescription)
+                        .font(.caption.weight(.semibold))
+                        .foregroundStyle(theme.secondaryText)
+
+                    if session.isReadingDifferentFamily {
+                        Text("Stai leggendo un dataset diverso dal device corrente. Le nuove risposte saranno salvate solo nel dataset \(session.writeFamilyTitle).")
+                            .font(.caption)
+                            .foregroundStyle(theme.danger)
+                    }
+
                     Text(cloudSyncSummaryText)
                         .font(.caption.weight(.medium))
                         .foregroundStyle(theme.secondaryText)
@@ -1361,12 +1371,15 @@ private struct CloudSyncManagementSheet: View {
     @State private var autoSyncEnabled = false
     @State private var sharedProgressSyncEnabled = true
     @State private var cloudLogMirroringEnabled = false
+    @State private var selectedReadMode: QuizDatasetReadMode = .mixed
 
     var body: some View {
         NavigationStack {
             Form {
                 Section("Stato account") {
                     LabeledContent("iCloud", value: cloudSyncController.snapshot.accountState.title)
+                    LabeledContent("Reading", value: session.readModeTitle)
+                    LabeledContent("Writing", value: session.writeFamilyTitle)
                     LabeledContent("Shared pending", value: "\(cloudSyncController.snapshot.pendingSharedChanges)")
                     LabeledContent("Log pending", value: "\(cloudSyncController.snapshot.pendingLogMirroringChanges)")
                     if let lastSharedSyncAt = cloudSyncController.snapshot.lastSharedSyncAt {
@@ -1383,9 +1396,23 @@ private struct CloudSyncManagementSheet: View {
                 }
 
                 Section("Configurazione") {
+                    Picker("Read mode", selection: $selectedReadMode) {
+                        ForEach(QuizDatasetReadMode.allCases) { mode in
+                            Text(mode.title).tag(mode)
+                        }
+                    }
+
                     Toggle("Auto sync", isOn: $autoSyncEnabled)
                     Toggle("Sync progress shared", isOn: $sharedProgressSyncEnabled)
                     Toggle("Mirror device logs su iCloud", isOn: $cloudLogMirroringEnabled)
+                }
+
+                if isReadingDifferentFamily {
+                    Section("Comportamento") {
+                        Text("Le nuove risposte vengono sempre salvate nel dataset \(session.writeFamilyTitle), anche se stai leggendo \(selectedReadMode.title).")
+                            .font(.caption)
+                            .foregroundStyle(theme.secondaryText)
+                    }
                 }
 
                 Section("Azioni") {
@@ -1418,6 +1445,7 @@ private struct CloudSyncManagementSheet: View {
             autoSyncEnabled = cloudSyncController.autoSyncEnabled
             sharedProgressSyncEnabled = cloudSyncController.sharedProgressSyncEnabled
             cloudLogMirroringEnabled = cloudSyncController.cloudLogMirroringEnabled
+            selectedReadMode = session.selectedReadMode
         }
     }
 
@@ -1425,9 +1453,10 @@ private struct CloudSyncManagementSheet: View {
         cloudSyncController.autoSyncEnabled = autoSyncEnabled
         cloudSyncController.sharedProgressSyncEnabled = sharedProgressSyncEnabled
         cloudSyncController.cloudLogMirroringEnabled = cloudLogMirroringEnabled
+        session.selectedReadMode = selectedReadMode
     }
-}
 
-#Preview {
-    ContentView()
+    private var isReadingDifferentFamily: Bool {
+        selectedReadMode.preferredFamily != nil && selectedReadMode.preferredFamily != session.writeFamily
+    }
 }

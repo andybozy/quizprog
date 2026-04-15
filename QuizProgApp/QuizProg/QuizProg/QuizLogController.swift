@@ -23,6 +23,7 @@ struct QuizLogEvent: Identifiable, Codable, Hashable {
     let occurredAt: String
     let sessionID: String
     let deviceID: String
+    let datasetFamily: String
     let questionID: String?
     let courseKey: String?
     let sourcePath: String?
@@ -41,6 +42,7 @@ struct QuizLogEvent: Identifiable, Codable, Hashable {
         case occurredAt = "occurred_at"
         case sessionID = "session_id"
         case deviceID = "device_id"
+        case datasetFamily = "dataset_family"
         case questionID = "question_id"
         case courseKey = "course_key"
         case sourcePath = "source_path"
@@ -906,6 +908,7 @@ final class QuizLogController: ObservableObject {
             occurredAt: isoFormatter.string(from: Date()),
             sessionID: sessionID,
             deviceID: deviceID,
+            datasetFamily: currentDatasetFamily.rawValue,
             questionID: question?.id,
             courseKey: question?.courseKey,
             sourcePath: question?.sourcePath,
@@ -939,6 +942,16 @@ final class QuizLogController: ObservableObject {
 
     private var buildNumber: String {
         Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? "1"
+    }
+
+    private var currentDatasetFamily: QuizDatasetFamily {
+        #if targetEnvironment(macCatalyst)
+        return .macos
+        #elseif os(macOS)
+        return .macos
+        #else
+        return .ios
+        #endif
     }
 
     private func endpointURL() -> URL? {

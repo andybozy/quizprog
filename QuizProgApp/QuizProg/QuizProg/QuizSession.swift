@@ -140,6 +140,44 @@ enum QuizFilterMode: String, Codable, CaseIterable, Identifiable {
     }
 }
 
+enum QuizDatasetFamily: String, Codable, CaseIterable, Identifiable, Hashable {
+    case ios
+    case macos
+
+    var id: String { rawValue }
+
+    var title: String {
+        switch self {
+        case .ios: return "iOS"
+        case .macos: return "macOS"
+        }
+    }
+}
+
+enum QuizDatasetReadMode: String, Codable, CaseIterable, Identifiable, Hashable {
+    case iosOnly
+    case macosOnly
+    case mixed
+
+    var id: String { rawValue }
+
+    var title: String {
+        switch self {
+        case .iosOnly: return "Record iOS"
+        case .macosOnly: return "Record macOS"
+        case .mixed: return "Mixed"
+        }
+    }
+
+    var preferredFamily: QuizDatasetFamily? {
+        switch self {
+        case .iosOnly: return .ios
+        case .macosOnly: return .macos
+        case .mixed: return nil
+        }
+    }
+}
+
 enum QuizScope: Codable, Hashable {
     case repository
     case file(String)
@@ -428,6 +466,7 @@ private struct QuizPersistedSettings: Codable {
     let questionLimit: Int
     let shuffleQuestions: Bool
     let wrongAnswersOnly: Bool
+    let selectedReadMode: QuizDatasetReadMode
 }
 
 struct QuizQuestionPerformance: Codable, Hashable {
@@ -467,10 +506,16 @@ struct QuizBestScoreEntry: Codable, Hashable {
     var updatedAt: String?
 }
 
-struct QuizCloudSharedStateSnapshot: Hashable {
+struct QuizCloudSharedStateSnapshot: Codable, Hashable {
     var questionPerformances: [String: QuizQuestionPerformance]
     var courseStats: [String: QuizCourseStats]
     var bestScores: [String: QuizBestScoreEntry]
+
+    static let empty = QuizCloudSharedStateSnapshot(
+        questionPerformances: [:],
+        courseStats: [:],
+        bestScores: [:]
+    )
 }
 
 @MainActor
@@ -482,6 +527,8 @@ final class QuizSession: ObservableObject {
     private let progressKey = "quizprog.progress.v1"
     private let performanceKey = "quizprog.performanceByQuestion.v1"
     private let bestScoreEntriesKey = "quizprog.bestScoreEntries.v1"
+    private let cloudCacheIOSKey = "quizprog.cloudCache.ios.v1"
+    private let cloudCacheMacKey = "quizprog.cloudCache.macos.v1"
 
     private let coursesByID: [String: QuizCourse]
     private let courseIDByCourseKey: [String: String]
@@ -498,6 +545,7 @@ final class QuizSession: ObservableObject {
     private var progressSnapshot: QuizProgressSnapshot?
     private var activeScope: QuizScope = .repository
     private var activeSessionID: String?
+    private var remoteSharedStateByFamily: [QuizDatasetFamily: QuizCloudSharedStateSnapshot]
 
     @Published private(set) var courses: [QuizCourse]
     @Published private(set) var questions: [QuizQuestion] = []
@@ -514,6 +562,12 @@ final class QuizSession: ObservableObject {
     @Published private(set) var availableQuestionCount = 0
     @Published private(set) var activeFilterMode: QuizFilterMode = .all
     @Published private(set) var activeScopeLabel = "Tutte le domande"
+    @Published var selectedReadMode: QuizDatasetReadMode {
+        didSet {
+            guard oldValue != selectedReadMode else { return }
+            handleSetupChange()
+        }
+    }
 
     @Published var selectedCourseID: String {
         didSet {
@@ -573,6 +627,10 @@ final class QuizSession: ObservableObject {
             let wrongArrays: [String: [String]] = Self.loadValue(forKey: wrongIDsKey) ?? [:]
             wrongQuestionIDsByCourse = wrongArrays.mapValues { Set($0) }
             performanceByQuestionID = Self.loadValue(forKey: performanceKey) ?? [:]
+            remoteSharedStateByFamily = Self.loadRemoteCloudCaches(
+                iosKey: cloudCacheIOSKey,
+                macKey: cloudCacheMacKey
+            )
             selectedCourseID = ""
             shuffleQuestions = true
             wrongAnswersOnly = false
@@ -580,6 +638,7 @@ final class QuizSession: ObservableObject {
             activeFilterMode = .all
             activeScope = .repository
             activeScopeLabel = QuizFilterMode.all.title
+            selectedReadMode = Self.defaultReadMode(for: Self.currentWriteFamily)
             progressSnapshot = nil
             hasResumableSession = false
             return
@@ -606,6 +665,10 @@ final class QuizSession: ObservableObject {
         wrongQuestionIDsByCourse = wrongArrays.mapValues { Set($0) }
         let loadedPerformance: [String: QuizQuestionPerformance] = Self.loadValue(forKey: performanceKey) ?? [:]
         performanceByQuestionID = loadedPerformance
+        remoteSharedStateByFamily = Self.loadRemoteCloudCaches(
+            iosKey: cloudCacheIOSKey,
+            macKey: cloudCacheMacKey
+        )
 
         let persistedSettings: QuizPersistedSettings? = Self.loadValue(forKey: settingsKey)
         let initialCourseID: String
@@ -619,6 +682,7 @@ final class QuizSession: ObservableObject {
         shuffleQuestions = persistedSettings?.shuffleQuestions ?? true
         wrongAnswersOnly = false
         questionLimit = max(0, persistedSettings?.questionLimit ?? 0)
+        selectedReadMode = persistedSettings?.selectedReadMode ?? Self.defaultReadMode(for: Self.currentWriteFamily)
         activeFilterMode = .all
         activeScope = .repository
         activeScopeLabel = QuizFilterMode.all.title
@@ -699,6 +763,29 @@ final class QuizSession: ObservableObject {
 
     var hasLoadedCourses: Bool {
         !courses.isEmpty
+    }
+
+    var writeFamily: QuizDatasetFamily {
+        Self.currentWriteFamily
+    }
+
+    var readModeTitle: String {
+        selectedReadMode.title
+    }
+
+    var writeFamilyTitle: String {
+        writeFamily.title
+    }
+
+    var isReadingDifferentFamily: Bool {
+        selectedReadMode.preferredFamily != nil && selectedReadMode.preferredFamily != writeFamily
+    }
+
+    var readWriteModeDescription: String {
+        if let family = selectedReadMode.preferredFamily {
+            return "Reading: \(family.title) • Writing: \(writeFamily.title)"
+        }
+        return "Reading: Mixed • Writing: \(writeFamily.title)"
     }
 
     func courseTitle(forCourseKey key: String) -> String {
@@ -800,6 +887,7 @@ final class QuizSession: ObservableObject {
         wrongAnswersOnly = false
         shuffleQuestions = snapshot.settings.shuffleQuestions
         questionLimit = max(0, snapshot.settings.questionLimit)
+        selectedReadMode = snapshot.settings.selectedReadMode
         clampQuestionLimit()
         persistSettings()
         let restoredQuestions = snapshot.questionIDs.compactMap { questionsByID[$0] }
@@ -972,6 +1060,21 @@ final class QuizSession: ObservableObject {
         }
     }
 
+    func applyCloudFamilySnapshots(
+        localFamilySnapshot: QuizCloudSharedStateSnapshot,
+        remoteFamilySnapshots: [QuizDatasetFamily: QuizCloudSharedStateSnapshot]
+    ) {
+        applyCloudSharedState(localFamilySnapshot)
+        var updatedCaches = remoteFamilySnapshots
+        updatedCaches[writeFamily] = localFamilySnapshot
+        remoteSharedStateByFamily = updatedCaches
+        saveRemoteCloudCaches()
+        refreshCourseMetrics()
+        if !hasStarted {
+            prepareRound(shuffle: shuffleQuestions)
+        }
+    }
+
     private var selectedCourse: QuizCourse? {
         coursesByID[selectedCourseID]
     }
@@ -983,8 +1086,9 @@ final class QuizSession: ObservableObject {
     }
 
     private func refreshCourseMetrics() {
-        bestScore = bestScoresByCourse[selectedCourseID] ?? 0
-        selectedCourseStats = statsByCourse[selectedCourseID] ?? QuizCourseStats()
+        let effectiveSnapshot = effectiveSharedStateSnapshot()
+        bestScore = effectiveSnapshot.bestScores[selectedCourseID]?.score ?? 0
+        selectedCourseStats = effectiveSnapshot.courseStats[selectedCourseID] ?? QuizCourseStats()
     }
 
     private func scopeLabel(for scope: QuizScope) -> String {
@@ -1082,7 +1186,7 @@ final class QuizSession: ObservableObject {
     }
 
     private func performance(for question: QuizQuestion) -> QuizQuestionPerformance {
-        performanceByQuestionID[question.id] ?? QuizQuestionPerformance()
+        effectiveSharedStateSnapshot().questionPerformances[question.id] ?? QuizQuestionPerformance()
     }
 
     private func isDue(_ question: QuizQuestion) -> Bool {
@@ -1261,7 +1365,8 @@ final class QuizSession: ObservableObject {
                 selectedCourseID: selectedCourseID,
                 questionLimit: questionLimit,
                 shuffleQuestions: shuffleQuestions,
-                wrongAnswersOnly: wrongAnswersOnly
+                wrongAnswersOnly: wrongAnswersOnly,
+                selectedReadMode: selectedReadMode
             )
         )
 
@@ -1343,9 +1448,108 @@ final class QuizSession: ObservableObject {
             selectedCourseID: selectedCourseID,
             questionLimit: questionLimit,
             shuffleQuestions: shuffleQuestions,
-            wrongAnswersOnly: wrongAnswersOnly
+            wrongAnswersOnly: wrongAnswersOnly,
+            selectedReadMode: selectedReadMode
         )
         Self.saveValue(settings, forKey: settingsKey)
+    }
+
+    private func localSharedStateSnapshot() -> QuizCloudSharedStateSnapshot {
+        cloudSharedStateSnapshot()
+    }
+
+    private func sharedStateSnapshot(for family: QuizDatasetFamily) -> QuizCloudSharedStateSnapshot {
+        if family == writeFamily {
+            return localSharedStateSnapshot()
+        }
+        return remoteSharedStateByFamily[family] ?? .empty
+    }
+
+    private func effectiveSharedStateSnapshot() -> QuizCloudSharedStateSnapshot {
+        switch selectedReadMode {
+        case .iosOnly:
+            if writeFamily == .ios {
+                return localSharedStateSnapshot()
+            }
+            return mergeSharedStateSnapshots(
+                primary: sharedStateSnapshot(for: .ios),
+                secondary: localSharedStateSnapshot(),
+                preferSecondaryOnTie: true
+            )
+        case .macosOnly:
+            if writeFamily == .macos {
+                return localSharedStateSnapshot()
+            }
+            return mergeSharedStateSnapshots(
+                primary: sharedStateSnapshot(for: .macos),
+                secondary: localSharedStateSnapshot(),
+                preferSecondaryOnTie: true
+            )
+        case .mixed:
+            return mergeSharedStateSnapshots(
+                primary: sharedStateSnapshot(for: .ios),
+                secondary: sharedStateSnapshot(for: .macos),
+                preferSecondaryOnTie: writeFamily == .macos
+            )
+        }
+    }
+
+    private func mergeSharedStateSnapshots(
+        primary: QuizCloudSharedStateSnapshot,
+        secondary: QuizCloudSharedStateSnapshot,
+        preferSecondaryOnTie: Bool
+    ) -> QuizCloudSharedStateSnapshot {
+        var mergedPerformances = primary.questionPerformances
+        for (questionID, secondaryPerformance) in secondary.questionPerformances {
+            guard let primaryPerformance = mergedPerformances[questionID] else {
+                mergedPerformances[questionID] = secondaryPerformance
+                continue
+            }
+            let comparison = Self.compareTimestamps(
+                lhs: primaryPerformance.updatedAt,
+                rhs: secondaryPerformance.updatedAt
+            )
+            if comparison == .orderedAscending || (comparison == .orderedSame && preferSecondaryOnTie) {
+                mergedPerformances[questionID] = secondaryPerformance
+            }
+        }
+
+        var mergedStats = primary.courseStats
+        for (courseID, secondaryStats) in secondary.courseStats {
+            var combined = mergedStats[courseID] ?? QuizCourseStats()
+            combined.plays += secondaryStats.plays
+            combined.answered += secondaryStats.answered
+            combined.correct += secondaryStats.correct
+            combined.updatedAt = Self.maxTimestamp(combined.updatedAt, secondaryStats.updatedAt)
+            mergedStats[courseID] = combined
+        }
+
+        var mergedBestScores = primary.bestScores
+        for (courseID, secondaryScore) in secondary.bestScores {
+            guard let primaryScore = mergedBestScores[courseID] else {
+                mergedBestScores[courseID] = secondaryScore
+                continue
+            }
+            if secondaryScore.score > primaryScore.score {
+                mergedBestScores[courseID] = secondaryScore
+            } else if secondaryScore.score == primaryScore.score {
+                mergedBestScores[courseID] = QuizBestScoreEntry(
+                    score: primaryScore.score,
+                    updatedAt: Self.maxTimestamp(primaryScore.updatedAt, secondaryScore.updatedAt)
+                )
+            }
+        }
+
+        return QuizCloudSharedStateSnapshot(
+            questionPerformances: mergedPerformances,
+            courseStats: mergedStats,
+            bestScores: mergedBestScores
+        )
+    }
+
+    private func saveRemoteCloudCaches() {
+        Self.saveValue(remoteSharedStateByFamily[.ios] ?? .empty, forKey: cloudCacheIOSKey)
+        Self.saveValue(remoteSharedStateByFamily[.macos] ?? .empty, forKey: cloudCacheMacKey)
     }
 
     private static func buildFileInfos(from questions: [QuizQuestion]) -> [QuizFileInfo] {
@@ -1398,5 +1602,50 @@ final class QuizSession: ObservableObject {
     private static func loadValue<T: Decodable>(forKey key: String) -> T? {
         guard let data = UserDefaults.standard.data(forKey: key) else { return nil }
         return try? JSONDecoder().decode(T.self, from: data)
+    }
+
+    private static var currentWriteFamily: QuizDatasetFamily {
+        #if targetEnvironment(macCatalyst)
+        return .macos
+        #elseif os(macOS)
+        return .macos
+        #else
+        return .ios
+        #endif
+    }
+
+    private static func defaultReadMode(for family: QuizDatasetFamily) -> QuizDatasetReadMode {
+        switch family {
+        case .ios: return .iosOnly
+        case .macos: return .macosOnly
+        }
+    }
+
+    private static func loadRemoteCloudCaches(
+        iosKey: String,
+        macKey: String
+    ) -> [QuizDatasetFamily: QuizCloudSharedStateSnapshot] {
+        [
+            .ios: Self.loadValue(forKey: iosKey) ?? .empty,
+            .macos: Self.loadValue(forKey: macKey) ?? .empty,
+        ]
+    }
+
+    static func compareTimestamps(lhs: String?, rhs: String?) -> ComparisonResult {
+        let lhsDate = lhs.flatMap { isoTimestampFormatter.date(from: $0) } ?? .distantPast
+        let rhsDate = rhs.flatMap { isoTimestampFormatter.date(from: $0) } ?? .distantPast
+        if lhsDate == rhsDate { return .orderedSame }
+        return lhsDate < rhsDate ? .orderedAscending : .orderedDescending
+    }
+
+    static func maxTimestamp(_ lhs: String?, _ rhs: String?) -> String? {
+        switch compareTimestamps(lhs: lhs, rhs: rhs) {
+        case .orderedAscending:
+            return rhs
+        case .orderedDescending:
+            return lhs
+        case .orderedSame:
+            return lhs ?? rhs
+        }
     }
 }

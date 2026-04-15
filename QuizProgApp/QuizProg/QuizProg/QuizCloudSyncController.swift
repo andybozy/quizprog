@@ -48,6 +48,7 @@ private enum QuizCloudRecordType {
 }
 
 private enum QuizCloudRecordKey {
+    static let datasetFamily = "datasetFamily"
     static let questionID = "questionID"
     static let historyJSON = "historyJSON"
     static let ease = "ease"
@@ -178,24 +179,20 @@ final class QuizCloudSyncController: ObservableObject {
     }
 
     private func syncSharedProgress(session: QuizSession) async throws {
+        let writeFamily = session.writeFamily
         let localSnapshot = session.cloudSharedStateSnapshot()
-
-        async let remotePerformancesTask = fetchAllRecords(ofType: QuizCloudRecordType.questionPerformance)
-        async let remoteCourseStatsTask = fetchAllRecords(ofType: QuizCloudRecordType.courseStats)
-        async let remoteBestScoresTask = fetchAllRecords(ofType: QuizCloudRecordType.bestScore)
-
-        let remotePerformances = try await remotePerformancesTask
-        let remoteCourseStats = try await remoteCourseStatsTask
-        let remoteBestScores = try await remoteBestScoresTask
+        var remoteSnapshots = try await fetchRemoteFamilySnapshots()
 
         let mergeResult = mergeSharedState(
             local: localSnapshot,
-            remoteQuestionPerformances: remotePerformances,
-            remoteCourseStats: remoteCourseStats,
-            remoteBestScores: remoteBestScores
+            remote: remoteSnapshots[writeFamily] ?? .empty
         )
 
-        session.applyCloudSharedState(mergeResult.mergedSnapshot)
+        remoteSnapshots[writeFamily] = mergeResult.mergedSnapshot
+        session.applyCloudFamilySnapshots(
+            localFamilySnapshot: mergeResult.mergedSnapshot,
+            remoteFamilySnapshots: remoteSnapshots
+        )
         if !mergeResult.recordsToSave.isEmpty {
             try await saveRecords(mergeResult.recordsToSave)
         }
@@ -226,91 +223,47 @@ final class QuizCloudSyncController: ObservableObject {
 
     private func mergeSharedState(
         local: QuizCloudSharedStateSnapshot,
-        remoteQuestionPerformances: [CKRecord],
-        remoteCourseStats: [CKRecord],
-        remoteBestScores: [CKRecord]
+        remote: QuizCloudSharedStateSnapshot
     ) -> (mergedSnapshot: QuizCloudSharedStateSnapshot, recordsToSave: [CKRecord]) {
-        var merged = local
+        let merged = sessionLikeMerge(local: local, remote: remote)
         var recordsToSave: [CKRecord] = []
 
-        let remotePerformancesByID: [String: QuizQuestionPerformance] = Dictionary(
-            uniqueKeysWithValues: remoteQuestionPerformances.compactMap { record in
-                guard
-                    let questionID = record[QuizCloudRecordKey.questionID] as? String,
-                    let performance = questionPerformance(from: record)
-                else { return nil }
-                return (questionID, performance)
-            }
-        )
-
-        for (questionID, remotePerformance) in remotePerformancesByID {
-            guard let localPerformance = merged.questionPerformances[questionID] else {
-                merged.questionPerformances[questionID] = remotePerformance
-                continue
-            }
-            if compareTimestamps(lhs: remotePerformance.updatedAt, rhs: localPerformance.updatedAt) == .orderedDescending {
-                merged.questionPerformances[questionID] = remotePerformance
-            }
-        }
-
         for (questionID, localPerformance) in merged.questionPerformances {
-            let remotePerformance = remotePerformancesByID[questionID]
+            let remotePerformance = remote.questionPerformances[questionID]
             if remotePerformance == nil || compareTimestamps(lhs: localPerformance.updatedAt, rhs: remotePerformance?.updatedAt) != .orderedAscending {
-                recordsToSave.append(makeQuestionPerformanceRecord(questionID: questionID, performance: localPerformance))
-            }
-        }
-
-        let remoteStatsByID: [String: QuizCourseStats] = Dictionary(
-            uniqueKeysWithValues: remoteCourseStats.compactMap { record in
-                guard
-                    let courseID = record[QuizCloudRecordKey.courseID] as? String,
-                    let stats = courseStats(from: record)
-                else { return nil }
-                return (courseID, stats)
-            }
-        )
-
-        for (courseID, remoteStats) in remoteStatsByID {
-            guard let localStats = merged.courseStats[courseID] else {
-                merged.courseStats[courseID] = remoteStats
-                continue
-            }
-            if compareTimestamps(lhs: remoteStats.updatedAt, rhs: localStats.updatedAt) == .orderedDescending {
-                merged.courseStats[courseID] = remoteStats
+                recordsToSave.append(
+                    makeQuestionPerformanceRecord(
+                        family: currentWriteFamily,
+                        questionID: questionID,
+                        performance: localPerformance
+                    )
+                )
             }
         }
 
         for (courseID, stats) in merged.courseStats {
-            let remoteStats = remoteStatsByID[courseID]
+            let remoteStats = remote.courseStats[courseID]
             if remoteStats == nil || compareTimestamps(lhs: stats.updatedAt, rhs: remoteStats?.updatedAt) != .orderedAscending {
-                recordsToSave.append(makeCourseStatsRecord(courseID: courseID, stats: stats))
-            }
-        }
-
-        let remoteBestScoresByID: [String: QuizBestScoreEntry] = Dictionary(
-            uniqueKeysWithValues: remoteBestScores.compactMap { record in
-                guard
-                    let courseID = record[QuizCloudRecordKey.courseID] as? String,
-                    let scoreEntry = bestScoreEntry(from: record)
-                else { return nil }
-                return (courseID, scoreEntry)
-            }
-        )
-
-        for (courseID, remoteBestScore) in remoteBestScoresByID {
-            guard let localBestScore = merged.bestScores[courseID] else {
-                merged.bestScores[courseID] = remoteBestScore
-                continue
-            }
-            if compareTimestamps(lhs: remoteBestScore.updatedAt, rhs: localBestScore.updatedAt) == .orderedDescending {
-                merged.bestScores[courseID] = remoteBestScore
+                recordsToSave.append(
+                    makeCourseStatsRecord(
+                        family: currentWriteFamily,
+                        courseID: courseID,
+                        stats: stats
+                    )
+                )
             }
         }
 
         for (courseID, scoreEntry) in merged.bestScores {
-            let remoteBestScore = remoteBestScoresByID[courseID]
+            let remoteBestScore = remote.bestScores[courseID]
             if remoteBestScore == nil || compareTimestamps(lhs: scoreEntry.updatedAt, rhs: remoteBestScore?.updatedAt) != .orderedAscending {
-                recordsToSave.append(makeBestScoreRecord(courseID: courseID, bestScore: scoreEntry))
+                recordsToSave.append(
+                    makeBestScoreRecord(
+                        family: currentWriteFamily,
+                        courseID: courseID,
+                        bestScore: scoreEntry
+                    )
+                )
             }
         }
 
@@ -348,7 +301,11 @@ final class QuizCloudSyncController: ObservableObject {
                             continuation.resume(returning: collected)
                         }
                     case .failure(let error):
-                        continuation.resume(throwing: error)
+                        if self.isMissingRecordTypeError(error) {
+                            continuation.resume(returning: [])
+                        } else {
+                            continuation.resume(throwing: error)
+                        }
                     }
                 }
                 self.container.privateCloudDatabase.add(operation)
@@ -356,6 +313,50 @@ final class QuizCloudSyncController: ObservableObject {
 
             run(cursor: nil)
         }
+    }
+
+    private func fetchRemoteFamilySnapshots() async throws -> [QuizDatasetFamily: QuizCloudSharedStateSnapshot] {
+        async let remotePerformancesTask = fetchAllRecords(ofType: QuizCloudRecordType.questionPerformance)
+        async let remoteCourseStatsTask = fetchAllRecords(ofType: QuizCloudRecordType.courseStats)
+        async let remoteBestScoresTask = fetchAllRecords(ofType: QuizCloudRecordType.bestScore)
+
+        let remotePerformances = try await remotePerformancesTask
+        let remoteCourseStats = try await remoteCourseStatsTask
+        let remoteBestScores = try await remoteBestScoresTask
+
+        var snapshots: [QuizDatasetFamily: QuizCloudSharedStateSnapshot] = [
+            .ios: .empty,
+            .macos: .empty,
+        ]
+
+        for record in remotePerformances {
+            guard
+                let family = datasetFamily(from: record),
+                let questionID = record[QuizCloudRecordKey.questionID] as? String,
+                let performance = questionPerformance(from: record)
+            else { continue }
+            snapshots[family, default: .empty].questionPerformances[questionID] = performance
+        }
+
+        for record in remoteCourseStats {
+            guard
+                let family = datasetFamily(from: record),
+                let courseID = record[QuizCloudRecordKey.courseID] as? String,
+                let stats = courseStats(from: record)
+            else { continue }
+            snapshots[family, default: .empty].courseStats[courseID] = stats
+        }
+
+        for record in remoteBestScores {
+            guard
+                let family = datasetFamily(from: record),
+                let courseID = record[QuizCloudRecordKey.courseID] as? String,
+                let bestScore = bestScoreEntry(from: record)
+            else { continue }
+            snapshots[family, default: .empty].bestScores[courseID] = bestScore
+        }
+
+        return snapshots
     }
 
     private func saveRecords(_ records: [CKRecord]) async throws {
@@ -375,9 +376,10 @@ final class QuizCloudSyncController: ObservableObject {
         }
     }
 
-    private func makeQuestionPerformanceRecord(questionID: String, performance: QuizQuestionPerformance) -> CKRecord {
-        let recordID = CKRecord.ID(recordName: "question-performance-\(questionID)")
+    private func makeQuestionPerformanceRecord(family: QuizDatasetFamily, questionID: String, performance: QuizQuestionPerformance) -> CKRecord {
+        let recordID = CKRecord.ID(recordName: "question-performance|\(family.rawValue)|\(questionID)")
         let record = CKRecord(recordType: QuizCloudRecordType.questionPerformance, recordID: recordID)
+        record[QuizCloudRecordKey.datasetFamily] = family.rawValue as CKRecordValue
         record[QuizCloudRecordKey.questionID] = questionID as CKRecordValue
         record[QuizCloudRecordKey.historyJSON] = String(decoding: (try? JSONEncoder().encode(performance.history)) ?? Data("[]".utf8), as: UTF8.self) as CKRecordValue
         record[QuizCloudRecordKey.ease] = performance.ease as CKRecordValue
@@ -405,9 +407,10 @@ final class QuizCloudSyncController: ObservableObject {
         )
     }
 
-    private func makeCourseStatsRecord(courseID: String, stats: QuizCourseStats) -> CKRecord {
-        let recordID = CKRecord.ID(recordName: "course-stats-\(courseID)")
+    private func makeCourseStatsRecord(family: QuizDatasetFamily, courseID: String, stats: QuizCourseStats) -> CKRecord {
+        let recordID = CKRecord.ID(recordName: "course-stats|\(family.rawValue)|\(courseID)")
         let record = CKRecord(recordType: QuizCloudRecordType.courseStats, recordID: recordID)
+        record[QuizCloudRecordKey.datasetFamily] = family.rawValue as CKRecordValue
         record[QuizCloudRecordKey.courseID] = courseID as CKRecordValue
         record[QuizCloudRecordKey.plays] = stats.plays as CKRecordValue
         record[QuizCloudRecordKey.answered] = stats.answered as CKRecordValue
@@ -427,9 +430,10 @@ final class QuizCloudSyncController: ObservableObject {
         )
     }
 
-    private func makeBestScoreRecord(courseID: String, bestScore: QuizBestScoreEntry) -> CKRecord {
-        let recordID = CKRecord.ID(recordName: "best-score-\(courseID)")
+    private func makeBestScoreRecord(family: QuizDatasetFamily, courseID: String, bestScore: QuizBestScoreEntry) -> CKRecord {
+        let recordID = CKRecord.ID(recordName: "best-score|\(family.rawValue)|\(courseID)")
         let record = CKRecord(recordType: QuizCloudRecordType.bestScore, recordID: recordID)
+        record[QuizCloudRecordKey.datasetFamily] = family.rawValue as CKRecordValue
         record[QuizCloudRecordKey.courseID] = courseID as CKRecordValue
         record[QuizCloudRecordKey.score] = bestScore.score as CKRecordValue
         if let updatedAt = bestScore.updatedAt {
@@ -446,9 +450,11 @@ final class QuizCloudSyncController: ObservableObject {
     }
 
     private func makeDeviceLogRecord(from event: QuizLogEvent) -> CKRecord {
-        let recordID = CKRecord.ID(recordName: "device-log-\(event.deviceID)-\(event.id)")
+        let family = QuizDatasetFamily(rawValue: event.datasetFamily) ?? currentWriteFamily
+        let recordID = CKRecord.ID(recordName: "device-log|\(family.rawValue)|\(event.deviceID)|\(event.id)")
         let record = CKRecord(recordType: QuizCloudRecordType.deviceLogEvent, recordID: recordID)
         let payload = (try? JSONEncoder().encode(event)).flatMap { String(data: $0, encoding: .utf8) } ?? "{}"
+        record[QuizCloudRecordKey.datasetFamily] = family.rawValue as CKRecordValue
         record[QuizCloudRecordKey.eventID] = event.id as CKRecordValue
         record[QuizCloudRecordKey.deviceID] = event.deviceID as CKRecordValue
         record[QuizCloudRecordKey.platform] = currentPlatform as CKRecordValue
@@ -480,6 +486,11 @@ final class QuizCloudSyncController: ObservableObject {
         default:
             return .couldNotDetermine
         }
+    }
+
+    private func datasetFamily(from record: CKRecord) -> QuizDatasetFamily? {
+        guard let rawValue = record[QuizCloudRecordKey.datasetFamily] as? String else { return nil }
+        return QuizDatasetFamily(rawValue: rawValue)
     }
 
     private func countPendingSharedChanges(snapshot sharedState: QuizCloudSharedStateSnapshot) -> Int {
@@ -515,11 +526,79 @@ final class QuizCloudSyncController: ObservableObject {
     }
 
     private var currentPlatform: String {
-        #if os(macOS)
+        #if targetEnvironment(macCatalyst)
+        return "macos"
+        #elseif os(macOS)
         return "macos"
         #else
         return "ios"
         #endif
+    }
+
+    private var currentWriteFamily: QuizDatasetFamily {
+        #if targetEnvironment(macCatalyst)
+        return .macos
+        #elseif os(macOS)
+        return .macos
+        #else
+        return .ios
+        #endif
+    }
+
+    private func sessionLikeMerge(
+        local: QuizCloudSharedStateSnapshot,
+        remote: QuizCloudSharedStateSnapshot
+    ) -> QuizCloudSharedStateSnapshot {
+        var mergedPerformances = remote.questionPerformances
+        for (questionID, localPerformance) in local.questionPerformances {
+            guard let remotePerformance = mergedPerformances[questionID] else {
+                mergedPerformances[questionID] = localPerformance
+                continue
+            }
+            if compareTimestamps(lhs: remotePerformance.updatedAt, rhs: localPerformance.updatedAt) != .orderedDescending {
+                mergedPerformances[questionID] = localPerformance
+            }
+        }
+
+        var mergedStats = remote.courseStats
+        for (courseID, localStats) in local.courseStats {
+            guard let remoteStats = mergedStats[courseID] else {
+                mergedStats[courseID] = localStats
+                continue
+            }
+            if compareTimestamps(lhs: remoteStats.updatedAt, rhs: localStats.updatedAt) != .orderedDescending {
+                mergedStats[courseID] = localStats
+            }
+        }
+
+        var mergedBestScores = remote.bestScores
+        for (courseID, localBestScore) in local.bestScores {
+            guard let remoteBestScore = mergedBestScores[courseID] else {
+                mergedBestScores[courseID] = localBestScore
+                continue
+            }
+            if compareTimestamps(lhs: remoteBestScore.updatedAt, rhs: localBestScore.updatedAt) != .orderedDescending {
+                mergedBestScores[courseID] = localBestScore
+            }
+        }
+
+        return QuizCloudSharedStateSnapshot(
+            questionPerformances: mergedPerformances,
+            courseStats: mergedStats,
+            bestScores: mergedBestScores
+        )
+    }
+
+    private func isMissingRecordTypeError(_ error: Error) -> Bool {
+        let nsError = error as NSError
+        if nsError.localizedDescription.localizedCaseInsensitiveContains("did not find record type") {
+            return true
+        }
+        if let serverMessage = nsError.userInfo[CKErrorServerDescriptionKey] as? String,
+           serverMessage.localizedCaseInsensitiveContains("did not find record type") {
+            return true
+        }
+        return false
     }
 
     private func persistConfiguration() {

@@ -48,6 +48,48 @@ You can:
   - CloudKit log mirroring
 - trigger manual sync
 
+## Reading vs writing
+
+The app now distinguishes between:
+
+- `Reading`
+- `Writing`
+
+### Writing
+
+The write target is fixed by device family:
+
+- iPhone/iPad writes to `iOS`
+- Mac writes to `macOS`
+
+### Reading
+
+The app can read in three modes:
+
+- `Record iOS`
+- `Record macOS`
+- `Mixed`
+
+### Important behavior
+
+If you are reading a different family from the current device:
+
+- the app still writes new answers only to the current device family
+
+Examples:
+
+- Mac reading `Record iOS`
+  - reads iOS data
+  - writes new answers to macOS data
+
+- iPhone reading `Record macOS`
+  - reads macOS data
+  - writes new answers to iOS data
+
+- `Mixed`
+  - reads a merged view
+  - still writes only to the current device family
+
 ## Expected behavior
 
 If iPhone and macOS use the same iCloud account:
