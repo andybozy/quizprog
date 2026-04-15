@@ -301,7 +301,7 @@ final class QuizCloudSyncController: ObservableObject {
                             continuation.resume(returning: collected)
                         }
                     case .failure(let error):
-                        if self.isMissingRecordTypeError(error) {
+                        if QuizCloudSyncController.isMissingRecordTypeError(error) {
                             continuation.resume(returning: [])
                         } else {
                             continuation.resume(throwing: error)
@@ -589,12 +589,12 @@ final class QuizCloudSyncController: ObservableObject {
         )
     }
 
-    private func isMissingRecordTypeError(_ error: Error) -> Bool {
+    private nonisolated static func isMissingRecordTypeError(_ error: Error) -> Bool {
         let nsError = error as NSError
         if nsError.localizedDescription.localizedCaseInsensitiveContains("did not find record type") {
             return true
         }
-        if let serverMessage = nsError.userInfo[CKErrorServerDescriptionKey] as? String,
+        if let serverMessage = nsError.userInfo[NSLocalizedDescriptionKey] as? String,
            serverMessage.localizedCaseInsensitiveContains("did not find record type") {
             return true
         }
