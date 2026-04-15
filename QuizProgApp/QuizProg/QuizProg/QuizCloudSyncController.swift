@@ -181,7 +181,10 @@ final class QuizCloudSyncController: ObservableObject {
     private func syncSharedProgress(session: QuizSession) async throws {
         let writeFamily = session.writeFamily
         let localSnapshot = session.cloudSharedStateSnapshot()
-        var remoteSnapshots = try await fetchRemoteFamilySnapshots()
+        var remoteSnapshots = try await fetchRemoteFamilySnapshots(
+            questionIDs: session.allQuestionIDs,
+            courseIDs: session.allCourseIDs
+        )
 
         let mergeResult = mergeSharedState(
             local: localSnapshot,
@@ -270,55 +273,69 @@ final class QuizCloudSyncController: ObservableObject {
         return (merged, recordsToSave)
     }
 
-    private func fetchAllRecords(ofType recordType: String) async throws -> [CKRecord] {
-        try await withCheckedThrowingContinuation { continuation in
-            var collected: [CKRecord] = []
+    private func fetchRecords(recordIDs: [CKRecord.ID]) async throws -> [CKRecord] {
+        guard !recordIDs.isEmpty else { return [] }
 
-            func run(cursor: CKQueryOperation.Cursor?) {
-                let operation: CKQueryOperation
-                if let cursor {
-                    operation = CKQueryOperation(cursor: cursor)
-                } else {
-                    let query = CKQuery(recordType: recordType, predicate: NSPredicate(value: true))
-                    operation = CKQueryOperation(query: query)
+        return try await withCheckedThrowingContinuation { (continuation: CheckedContinuation<[CKRecord], Error>) in
+            var collected: [CKRecord] = []
+            var remainingBatches = Array(recordIDs.chunked(into: 400))
+
+            func runNextBatch() {
+                guard !remainingBatches.isEmpty else {
+                    continuation.resume(returning: collected)
+                    return
                 }
 
-                operation.resultsLimit = 500
-                operation.recordMatchedBlock = { _, result in
+                let batch = remainingBatches.removeFirst()
+                let operation = CKFetchRecordsOperation(recordIDs: batch)
+                operation.perRecordResultBlock = { _, result in
                     switch result {
                     case .success(let record):
                         collected.append(record)
-                    case .failure:
-                        break
+                    case .failure(let error):
+                        if QuizCloudSyncController.isMissingRecordError(error) {
+                            break
+                        }
                     }
                 }
-                operation.queryResultBlock = { result in
+                operation.fetchRecordsResultBlock = { result in
                     switch result {
-                    case .success(let cursor):
-                        if let cursor {
-                            run(cursor: cursor)
-                        } else {
-                            continuation.resume(returning: collected)
-                        }
+                    case .success:
+                        runNextBatch()
                     case .failure(let error):
-                        if QuizCloudSyncController.isMissingRecordTypeError(error) {
-                            continuation.resume(returning: [])
-                        } else {
-                            continuation.resume(throwing: error)
-                        }
+                        continuation.resume(throwing: error)
                     }
                 }
                 self.container.privateCloudDatabase.add(operation)
             }
 
-            run(cursor: nil)
+            runNextBatch()
         }
     }
 
-    private func fetchRemoteFamilySnapshots() async throws -> [QuizDatasetFamily: QuizCloudSharedStateSnapshot] {
-        async let remotePerformancesTask = fetchAllRecords(ofType: QuizCloudRecordType.questionPerformance)
-        async let remoteCourseStatsTask = fetchAllRecords(ofType: QuizCloudRecordType.courseStats)
-        async let remoteBestScoresTask = fetchAllRecords(ofType: QuizCloudRecordType.bestScore)
+    private func fetchRemoteFamilySnapshots(
+        questionIDs: [String],
+        courseIDs: [String]
+    ) async throws -> [QuizDatasetFamily: QuizCloudSharedStateSnapshot] {
+        let performanceRecordIDs = QuizDatasetFamily.allCases.flatMap { family in
+            questionIDs.map { questionID in
+                CKRecord.ID(recordName: "question-performance|\(family.rawValue)|\(questionID)")
+            }
+        }
+        let courseStatsRecordIDs = QuizDatasetFamily.allCases.flatMap { family in
+            courseIDs.map { courseID in
+                CKRecord.ID(recordName: "course-stats|\(family.rawValue)|\(courseID)")
+            }
+        }
+        let bestScoreRecordIDs = QuizDatasetFamily.allCases.flatMap { family in
+            courseIDs.map { courseID in
+                CKRecord.ID(recordName: "best-score|\(family.rawValue)|\(courseID)")
+            }
+        }
+
+        async let remotePerformancesTask = fetchRecords(recordIDs: performanceRecordIDs)
+        async let remoteCourseStatsTask = fetchRecords(recordIDs: courseStatsRecordIDs)
+        async let remoteBestScoresTask = fetchRecords(recordIDs: bestScoreRecordIDs)
 
         let remotePerformances = try await remotePerformancesTask
         let remoteCourseStats = try await remoteCourseStatsTask
@@ -589,13 +606,17 @@ final class QuizCloudSyncController: ObservableObject {
         )
     }
 
-    private nonisolated static func isMissingRecordTypeError(_ error: Error) -> Bool {
+    private nonisolated static func isMissingRecordError(_ error: Error) -> Bool {
         let nsError = error as NSError
         if nsError.localizedDescription.localizedCaseInsensitiveContains("did not find record type") {
             return true
         }
+        if nsError.localizedDescription.localizedCaseInsensitiveContains("unknown item") {
+            return true
+        }
         if let serverMessage = nsError.userInfo[NSLocalizedDescriptionKey] as? String,
-           serverMessage.localizedCaseInsensitiveContains("did not find record type") {
+           (serverMessage.localizedCaseInsensitiveContains("did not find record type")
+            || serverMessage.localizedCaseInsensitiveContains("unknown item")) {
             return true
         }
         return false
@@ -618,5 +639,14 @@ final class QuizCloudSyncController: ObservableObject {
     private static func loadConfiguration(forKey key: String) -> QuizCloudSyncConfiguration? {
         guard let data = UserDefaults.standard.data(forKey: key) else { return nil }
         return try? JSONDecoder().decode(QuizCloudSyncConfiguration.self, from: data)
+    }
+}
+
+private extension Array {
+    func chunked(into size: Int) -> [[Element]] {
+        guard size > 0, !isEmpty else { return isEmpty ? [] : [self] }
+        return stride(from: 0, to: count, by: size).map { start in
+            Array(self[start..<Swift.min(start + size, count)])
+        }
     }
 }
