@@ -1,0 +1,364 @@
+{
+  "file_number": 0,
+  "file_name": "Test Financiero III - 2° parcial AGGIORNATO 19 05 2025.docx",
+  "total_questions_detected": 36,
+  "batch_start": 31,
+  "batch_end": 36,
+  "progress": "31-36/36",
+  "questions": [
+    {
+      "question_number": 31,
+      "question": "La empresa ALPARGATAS SL fue constituida en 2015 sin embargo no obtuvo beneficios hasta el ejercicio 2021 cuando obtuvo por primera vez un resultado positivo. ¿Qué tipo de gravamen del IS debe aplicar en su autoliquidación?",
+      "answers": [
+        {
+          "text": "debe tributar al 25% por ser una empresa de nueva creación",
+          "correct": false,
+          "source_marked_correct": true
+        },
+        {
+          "text": "al ser el primer año en que ha obtenido un resultado positivo se puede aplicar al tipo de gravamen especial del 15% previsto para las empresas de nueva creación",
+          "correct": true,
+          "source_marked_correct": false
+        },
+        {
+          "text": "al llevar constituida más de 5 años debe aplicar el tipo de gravamen general del 30%",
+          "correct": false,
+          "source_marked_correct": false
+        },
+        {
+          "text": "al ser el primer año en que ha obtenido un resultado negativo se puede aplicar aò tipo de gravamen especial del 21% previsto para òlas empresas de nueva creación",
+          "correct": false,
+          "source_marked_correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es la segunda. El art. 29.1 LIS establece que las entidades de nueva creación que realicen actividades económicas tributan al 15 % en el primer período impositivo en que la base imponible resulte positiva y en el siguiente. Por ello, si ALPARGATAS SL se constituyó en 2015 pero no obtuvo una base imponible positiva hasta 2021, en 2021 puede aplicar el 15 %. La primera es incorrecta porque el 25 % es el tipo general; la tercera es errónea porque el transcurso de más de cinco años desde la constitución no elimina por sí solo el derecho si 2021 es el primer período con base positiva; la cuarta es falsa por referirse a resultado negativo y a un 21 % inexistente en este régimen.\nIT: La risposta corretta è la seconda. L’art. 29.1 LIS prevede che le entità di nuova costituzione che svolgono attività economiche paghino il 15 % nel primo periodo d’imposta in cui la base imponibile è positiva e nel periodo successivo. Quindi, se ALPARGATAS SL è stata costituita nel 2015 ma ha avuto una base imponibile positiva solo nel 2021, nel 2021 può applicare il 15 %. La prima è errata perché il 25 % è l’aliquota generale; la terza è sbagliata perché il fatto che siano passati più di cinque anni dalla costituzione non fa perdere automaticamente il beneficio se il 2021 è il primo periodo con base positiva; la quarta è falsa perché parla di risultato negativo e di un 21 % che non esiste in questo regime.",
+      "legal_reference": "LIS, art. 29.1.",
+      "original_file": "Test Financiero III - 2° parcial AGGIORNATO 19 05 2025.docx",
+      "source_issues": "La opción marcada como correcta en el original no coincide con el art. 29.1 LIS; la correcta es la segunda."
+    },
+    {
+      "question_number": 32,
+      "question": "Polo es propietario de una vivienda con un valor catastral de 72.000  euros.  Como consecuencia de una división colectiva de valores con efectos en 2024 el valor catastral de su vivienda ha aumentado a 82.000  euros.  siendo el 2024  dos el primer año en que aplica dicho aumento la base liquidable será",
+      "answers": [
+        {
+          "text": "BL= 82.000 - (10.000*0.9) = 73.200",
+          "correct": true,
+          "source_marked_correct": true
+        },
+        {
+          "text": "BL= 82.000 - (60.000*0.9) = 18.00",
+          "correct": false,
+          "source_marked_correct": false
+        },
+        {
+          "text": "BL= 82.000 - (12.000*0.9) = 49.200",
+          "correct": false,
+          "source_marked_correct": false
+        },
+        {
+          "text": "BL= 82.000 - 60.000 = 12.000",
+          "correct": false,
+          "source_marked_correct": false
+        }
+      ],
+      "explanation": "ES: La opción correcta es la primera en cuanto al método, porque en el primer año de aplicación del nuevo valor catastral la reducción se calcula sobre el incremento producido: 82.000 - 72.000 = 10.000; y la reducción del primer año es el 90 % de esa diferencia. Sin embargo, el resultado aritmético transcrito en la opción contiene un error: 82.000 - 9.000 = 73.000, no 73.200. La segunda, la tercera y la cuarta son incorrectas porque utilizan una base de reducción equivocada o una operación que no responde al sistema legal.\nIT: La prima opzione è corretta quanto al metodo, perché nel primo anno di applicazione del nuovo valore catastale la riduzione si calcola sull’incremento prodotto: 82.000 - 72.000 = 10.000; e la riduzione del primo anno è il 90 % di tale differenza. Tuttavia, il risultato aritmetico trascritto nell’opzione contiene un errore: 82.000 - 9.000 = 73.000, non 73.200. La seconda, la terza e la quarta sono errate perché usano una base di riduzione sbagliata o un’operazione che non corrisponde al sistema legale.",
+      "legal_reference": "TRLRHL, arts. 66, 67 y 68.",
+      "original_file": "Test Financiero III - 2° parcial AGGIORNATO 19 05 2025.docx",
+      "source_issues": "La opción a reproduce la fórmula correcta pero el resultado numérico está mal transcrito: debería ser 73.000 y no 73.200."
+    },
+    {
+      "question_number": 33,
+      "question": "Las inversiones inmobiliarias son amortizables en el IS  en la medida en que",
+      "answers": [
+        {
+          "text": "son bienes que la empresa no ofrece a terceros como sí ocurre con  el inmovilizado material",
+          "correct": false,
+          "source_marked_correct": false
+        },
+        {
+          "text": "forman parte del activo no corriente tangible",
+          "correct": true,
+          "source_marked_correct": true
+        },
+        {
+          "text": "formar parte del activo corriente tangible",
+          "correct": false,
+          "source_marked_correct": false
+        },
+        {
+          "text": "todas las respuestas son correctas",
+          "correct": false,
+          "source_marked_correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la segunda. Las inversiones inmobiliarias son elementos del activo no corriente tangible y pueden amortizarse fiscalmente en la medida en que sufran depreciación efectiva. La primera es incorrecta porque las inversiones inmobiliarias suelen mantenerse para obtener rentas o plusvalías frente a terceros, y además la comparación con el inmovilizado material está mal formulada; la tercera es falsa porque no integran el activo corriente; la cuarta también es errónea porque no todas las respuestas son válidas.\nIT: La risposta corretta è la seconda. Gli investimenti immobiliari sono elementi dell’attivo immobilizzato materiale e possono essere ammortizzati fiscalmente nella misura in cui subiscono un deprezzamento effettivo. La prima è errata perché gli investimenti immobiliari sono spesso detenuti per ottenere rendite o plusvalenze verso terzi, e inoltre il confronto con l’immobilizzato materiale è formulato male; la terza è falsa perché non fanno parte dell’attivo corrente; anche la quarta è errata perché non tutte le risposte sono valide.",
+      "legal_reference": "LIS, art. 12.1; material del curso Tema 3, apartado 6.4.2.",
+      "original_file": "Test Financiero III - 2° parcial AGGIORNATO 19 05 2025.docx"
+    },
+    {
+      "question_number": 34,
+      "question": "En el impuestos sobre Sociedades es posible que una empresa aplique el triple del coeficiente máximo de amortización previsto en la tabla oficial?",
+      "answers": [
+        {
+          "text": "no no existe esa posibilidad",
+          "correct": true,
+          "source_marked_correct": true
+        },
+        {
+          "text": "si pero solo quería entidad que no sean de reducida dimensión",
+          "correct": false,
+          "source_marked_correct": false
+        },
+        {
+          "text": "no salvo contadas excepciones",
+          "correct": false,
+          "source_marked_correct": false
+        },
+        {
+          "text": "si pero solo las consideradas grandes empresas",
+          "correct": false,
+          "source_marked_correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es la primera. En el régimen ordinario del IS no existe la posibilidad de aplicar el triple del coeficiente máximo de amortización de la tabla oficial. Para las entidades de reducida dimensión, la LIS permite la amortización acelerada por el doble del coeficiente máximo, no por el triple. La segunda y la cuarta son erróneas porque atribuyen el beneficio a sujetos incorrectos; la tercera es imprecisa porque la norma no contempla, como regla de tablas, un triple coeficiente. Otra cosa distinta es la libertad de amortización en supuestos específicos, que no equivale a aplicar un triple coeficiente.\nIT: La risposta corretta è la prima. Nel regime ordinario dell’IS non esiste la possibilità di applicare il triplo del coefficiente massimo di ammortamento della tabella ufficiale. Per le entità di ridotte dimensioni, la LIS consente l’ammortamento accelerato per il doppio del coefficiente massimo, non per il triplo. La seconda e la quarta sono errate perché attribuiscono il beneficio a soggetti sbagliati; la terza è imprecisa perché la norma non prevede, come regola tabellare, un coefficiente triplo. Diverso è il caso della libertà di ammortamento in ipotesi specifiche, che non equivale ad applicare un coefficiente triplo.",
+      "legal_reference": "LIS, arts. 12 y 103.1.",
+      "original_file": "Test Financiero III - 2° parcial AGGIORNATO 19 05 2025.docx"
+    },
+    {
+      "question_number": 35,
+      "question": "Para determinar la base imponible IS:",
+      "answers": [
+        {
+          "text": "se ajusta el resultado contable a través de los denominadores extracontables positivos en cuyo caso  no cabrían ajustarse negativo y viceversa",
+          "correct": false,
+          "source_marked_correct": false
+        },
+        {
+          "text": "se ajusta el resultado contable a través de los denominadores extracontables positivos o negativos indistintamente",
+          "correct": true,
+          "source_marked_correct": true
+        },
+        {
+          "text": "todas son correctas",
+          "correct": false,
+          "source_marked_correct": false
+        },
+        {
+          "text": "ninguna es correcta",
+          "correct": false,
+          "source_marked_correct": false
+        }
+      ],
+      "explanation": "ES: La opción correcta es la segunda. La base imponible del IS se obtiene corrigiendo el resultado contable mediante ajustes extracontables positivos o negativos, según proceda conforme a la LIS. La primera es errónea porque excluye impropiamente la posibilidad del signo contrario; la tercera no puede ser correcta porque la primera es falsa; la cuarta tampoco, ya que la segunda sí es válida.\nIT: La seconda opzione è corretta. La base imponibile dell’IS si ottiene correggendo il risultato contabile mediante variazioni extracontabili positive o negative, a seconda di quanto prevede la LIS. La prima è errata perché esclude impropriamente la possibilità del segno opposto; la terza non può essere corretta perché la prima è falsa; neppure la quarta lo è, dato che la seconda è valida.",
+      "legal_reference": "LIS, art. 10.3.",
+      "original_file": "Test Financiero III - 2° parcial AGGIORNATO 19 05 2025.docx"
+    },
+    {
+      "question_number": 36,
+      "question": "El IS se presenta la autoliquidación",
+      "answers": [
+        {
+          "text": "el 30 de junio",
+          "correct": false,
+          "source_marked_correct": true
+        },
+        {
+          "text": "seis meses después de la fecha de cierre",
+          "correct": false,
+          "source_marked_correct": false
+        },
+        {
+          "text": "dentro de los 25 días siguientes desde la aprobación de cuentas anuales",
+          "correct": false,
+          "source_marked_correct": false
+        },
+        {
+          "text": "dentro de los 25 días siguiente a los seis meses posteriores a la conclusión del periodo impositivo",
+          "correct": true,
+          "source_marked_correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es la cuarta. La LIS dispone que la declaración del IS se presenta dentro de los 25 días naturales siguientes a los 6 meses posteriores a la conclusión del período impositivo. Por tanto, si el período coincide con el año natural, el plazo ordinario es del 1 al 25 de julio, no el 30 de junio. La segunda es incompleta porque el plazo no vence exactamente a los seis meses, sino 25 días naturales después; la tercera es incorrecta porque no depende de la aprobación de cuentas anuales.\nIT: La risposta corretta è la quarta. La LIS stabilisce che la dichiarazione dell’IS si presenta entro i 25 giorni naturali successivi ai 6 mesi posteriori alla conclusione del periodo d’imposta. Quindi, se il periodo coincide con l’anno solare, il termine ordinario va dal 1° al 25 luglio, non al 30 giugno. La seconda è incompleta perché il termine non scade esattamente dopo sei mesi, ma 25 giorni naturali dopo; la terza è errata perché non dipende dall’approvazione del bilancio.",
+      "legal_reference": "LIS, art. 124.1.",
+      "original_file": "Test Financiero III - 2° parcial AGGIORNATO 19 05 2025.docx",
+      "source_issues": "La opción marcada como correcta en el original es incompatible con el plazo legal del art. 124.1 LIS."
+    },
+    {
+      "question_number": 31,
+      "question": "La empresa ALPARGATAS SL fue constituida en 2015 sin embargo no obtuvo beneficios hasta el ejercicio 2021 cuando obtuvo por primera vez un resultado positivo. ¿Qué tipo de gravamen del IS debe aplicar en su autoliquidación?",
+      "answers": [
+        {
+          "text": "debe tributar al 25% por ser una empresa de nueva creación",
+          "correct": false,
+          "source_marked_correct": true
+        },
+        {
+          "text": "al ser el primer año en que ha obtenido un resultado positivo se puede aplicar al tipo de gravamen especial del 15% previsto para las empresas de nueva creación",
+          "correct": true,
+          "source_marked_correct": false
+        },
+        {
+          "text": "al llevar constituida más de 5 años debe aplicar el tipo de gravamen general del 30%",
+          "correct": false,
+          "source_marked_correct": false
+        },
+        {
+          "text": "al ser el primer año en que ha obtenido un resultado negativo se puede aplicar aò tipo de gravamen especial del 21% previsto para òlas empresas de nueva creación",
+          "correct": false,
+          "source_marked_correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es la segunda. El art. 29.1 LIS establece que las entidades de nueva creación que realicen actividades económicas tributan al 15 % en el primer período impositivo en que la base imponible resulte positiva y en el siguiente. Por ello, si ALPARGATAS SL se constituyó en 2015 pero no obtuvo una base imponible positiva hasta 2021, en 2021 puede aplicar el 15 %. La primera es incorrecta porque el 25 % es el tipo general; la tercera es errónea porque el transcurso de más de cinco años desde la constitución no elimina por sí solo el derecho si 2021 es el primer período con base positiva; la cuarta es falsa por referirse a resultado negativo y a un 21 % inexistente en este régimen.\nIT: La risposta corretta è la seconda. L’art. 29.1 LIS prevede che le entità di nuova costituzione che svolgono attività economiche paghino il 15 % nel primo periodo d’imposta in cui la base imponibile è positiva e nel periodo successivo. Quindi, se ALPARGATAS SL è stata costituita nel 2015 ma ha avuto una base imponibile positiva solo nel 2021, nel 2021 può applicare il 15 %. La prima è errata perché il 25 % è l’aliquota generale; la terza è sbagliata perché il fatto che siano passati più di cinque anni dalla costituzione non fa perdere automaticamente il beneficio se il 2021 è il primo periodo con base positiva; la quarta è falsa perché parla di risultato negativo e di un 21 % che non esiste in questo regime.",
+      "legal_reference": "LIS, art. 29.1.",
+      "original_file": "Test Financiero III - 2° parcial AGGIORNATO 19 05 2025.docx",
+      "source_issues": "La opción marcada como correcta en el original no coincide con el art. 29.1 LIS; la correcta es la segunda."
+    },
+    {
+      "question_number": 32,
+      "question": "Polo es propietario de una vivienda con un valor catastral de 72.000  euros.  Como consecuencia de una división colectiva de valores con efectos en 2024 el valor catastral de su vivienda ha aumentado a 82.000  euros.  siendo el 2024  dos el primer año en que aplica dicho aumento la base liquidable será",
+      "answers": [
+        {
+          "text": "BL= 82.000 - (10.000*0.9) = 73.200",
+          "correct": true,
+          "source_marked_correct": true
+        },
+        {
+          "text": "BL= 82.000 - (60.000*0.9) = 18.00",
+          "correct": false,
+          "source_marked_correct": false
+        },
+        {
+          "text": "BL= 82.000 - (12.000*0.9) = 49.200",
+          "correct": false,
+          "source_marked_correct": false
+        },
+        {
+          "text": "BL= 82.000 - 60.000 = 12.000",
+          "correct": false,
+          "source_marked_correct": false
+        }
+      ],
+      "explanation": "ES: La opción correcta es la primera en cuanto al método, porque en el primer año de aplicación del nuevo valor catastral la reducción se calcula sobre el incremento producido: 82.000 - 72.000 = 10.000; y la reducción del primer año es el 90 % de esa diferencia. Sin embargo, el resultado aritmético transcrito en la opción contiene un error: 82.000 - 9.000 = 73.000, no 73.200. La segunda, la tercera y la cuarta son incorrectas porque utilizan una base de reducción equivocada o una operación que no responde al sistema legal.\nIT: La prima opzione è corretta quanto al metodo, perché nel primo anno di applicazione del nuovo valore catastale la riduzione si calcola sull’incremento prodotto: 82.000 - 72.000 = 10.000; e la riduzione del primo anno è il 90 % di tale differenza. Tuttavia, il risultato aritmetico trascritto nell’opzione contiene un errore: 82.000 - 9.000 = 73.000, non 73.200. La seconda, la terza e la quarta sono errate perché usano una base di riduzione sbagliata o un’operazione che non corrisponde al sistema legale.",
+      "legal_reference": "TRLRHL, arts. 66, 67 y 68.",
+      "original_file": "Test Financiero III - 2° parcial AGGIORNATO 19 05 2025.docx",
+      "source_issues": "La opción a reproduce la fórmula correcta pero el resultado numérico está mal transcrito: debería ser 73.000 y no 73.200."
+    },
+    {
+      "question_number": 33,
+      "question": "Las inversiones inmobiliarias son amortizables en el IS  en la medida en que",
+      "answers": [
+        {
+          "text": "son bienes que la empresa no ofrece a terceros como sí ocurre con  el inmovilizado material",
+          "correct": false,
+          "source_marked_correct": false
+        },
+        {
+          "text": "forman parte del activo no corriente tangible",
+          "correct": true,
+          "source_marked_correct": true
+        },
+        {
+          "text": "formar parte del activo corriente tangible",
+          "correct": false,
+          "source_marked_correct": false
+        },
+        {
+          "text": "todas las respuestas son correctas",
+          "correct": false,
+          "source_marked_correct": false
+        }
+      ],
+      "explanation": "ES: La correcta es la segunda. Las inversiones inmobiliarias son elementos del activo no corriente tangible y pueden amortizarse fiscalmente en la medida en que sufran depreciación efectiva. La primera es incorrecta porque las inversiones inmobiliarias suelen mantenerse para obtener rentas o plusvalías frente a terceros, y además la comparación con el inmovilizado material está mal formulada; la tercera es falsa porque no integran el activo corriente; la cuarta también es errónea porque no todas las respuestas son válidas.\nIT: La risposta corretta è la seconda. Gli investimenti immobiliari sono elementi dell’attivo immobilizzato materiale e possono essere ammortizzati fiscalmente nella misura in cui subiscono un deprezzamento effettivo. La prima è errata perché gli investimenti immobiliari sono spesso detenuti per ottenere rendite o plusvalenze verso terzi, e inoltre il confronto con l’immobilizzato materiale è formulato male; la terza è falsa perché non fanno parte dell’attivo corrente; anche la quarta è errata perché non tutte le risposte sono valide.",
+      "legal_reference": "LIS, art. 12.1; material del curso Tema 3, apartado 6.4.2.",
+      "original_file": "Test Financiero III - 2° parcial AGGIORNATO 19 05 2025.docx"
+    },
+    {
+      "question_number": 34,
+      "question": "En el impuestos sobre Sociedades es posible que una empresa aplique el triple del coeficiente máximo de amortización previsto en la tabla oficial?",
+      "answers": [
+        {
+          "text": "no no existe esa posibilidad",
+          "correct": true,
+          "source_marked_correct": true
+        },
+        {
+          "text": "si pero solo quería entidad que no sean de reducida dimensión",
+          "correct": false,
+          "source_marked_correct": false
+        },
+        {
+          "text": "no salvo contadas excepciones",
+          "correct": false,
+          "source_marked_correct": false
+        },
+        {
+          "text": "si pero solo las consideradas grandes empresas",
+          "correct": false,
+          "source_marked_correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es la primera. En el régimen ordinario del IS no existe la posibilidad de aplicar el triple del coeficiente máximo de amortización de la tabla oficial. Para las entidades de reducida dimensión, la LIS permite la amortización acelerada por el doble del coeficiente máximo, no por el triple. La segunda y la cuarta son erróneas porque atribuyen el beneficio a sujetos incorrectos; la tercera es imprecisa porque la norma no contempla, como regla de tablas, un triple coeficiente. Otra cosa distinta es la libertad de amortización en supuestos específicos, que no equivale a aplicar un triple coeficiente.\nIT: La risposta corretta è la prima. Nel regime ordinario dell’IS non esiste la possibilità di applicare il triplo del coefficiente massimo di ammortamento della tabella ufficiale. Per le entità di ridotte dimensioni, la LIS consente l’ammortamento accelerato per il doppio del coefficiente massimo, non per il triplo. La seconda e la quarta sono errate perché attribuiscono il beneficio a soggetti sbagliati; la terza è imprecisa perché la norma non prevede, come regola tabellare, un coefficiente triplo. Diverso è il caso della libertà di ammortamento in ipotesi specifiche, che non equivale ad applicare un coefficiente triplo.",
+      "legal_reference": "LIS, arts. 12 y 103.1.",
+      "original_file": "Test Financiero III - 2° parcial AGGIORNATO 19 05 2025.docx"
+    },
+    {
+      "question_number": 35,
+      "question": "Para determinar la base imponible IS:",
+      "answers": [
+        {
+          "text": "se ajusta el resultado contable a través de los denominadores extracontables positivos en cuyo caso  no cabrían ajustarse negativo y viceversa",
+          "correct": false,
+          "source_marked_correct": false
+        },
+        {
+          "text": "se ajusta el resultado contable a través de los denominadores extracontables positivos o negativos indistintamente",
+          "correct": true,
+          "source_marked_correct": true
+        },
+        {
+          "text": "todas son correctas",
+          "correct": false,
+          "source_marked_correct": false
+        },
+        {
+          "text": "ninguna es correcta",
+          "correct": false,
+          "source_marked_correct": false
+        }
+      ],
+      "explanation": "ES: La opción correcta es la segunda. La base imponible del IS se obtiene corrigiendo el resultado contable mediante ajustes extracontables positivos o negativos, según proceda conforme a la LIS. La primera es errónea porque excluye impropiamente la posibilidad del signo contrario; la tercera no puede ser correcta porque la primera es falsa; la cuarta tampoco, ya que la segunda sí es válida.\nIT: La seconda opzione è corretta. La base imponibile dell’IS si ottiene correggendo il risultato contabile mediante variazioni extracontabili positive o negative, a seconda di quanto prevede la LIS. La prima è errata perché esclude impropriamente la possibilità del segno opposto; la terza non può essere corretta perché la prima è falsa; neppure la quarta lo è, dato che la seconda è valida.",
+      "legal_reference": "LIS, art. 10.3.",
+      "original_file": "Test Financiero III - 2° parcial AGGIORNATO 19 05 2025.docx"
+    },
+    {
+      "question_number": 36,
+      "question": "El IS se presenta la autoliquidación",
+      "answers": [
+        {
+          "text": "el 30 de junio",
+          "correct": false,
+          "source_marked_correct": true
+        },
+        {
+          "text": "seis meses después de la fecha de cierre",
+          "correct": false,
+          "source_marked_correct": false
+        },
+        {
+          "text": "dentro de los 25 días siguientes desde la aprobación de cuentas anuales",
+          "correct": false,
+          "source_marked_correct": false
+        },
+        {
+          "text": "dentro de los 25 días siguiente a los seis meses posteriores a la conclusión del periodo impositivo",
+          "correct": true,
+          "source_marked_correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es la cuarta. La LIS dispone que la declaración del IS se presenta dentro de los 25 días naturales siguientes a los 6 meses posteriores a la conclusión del período impositivo. Por tanto, si el período coincide con el año natural, el plazo ordinario es del 1 al 25 de julio, no el 30 de junio. La segunda es incompleta porque el plazo no vence exactamente a los seis meses, sino 25 días naturales después; la tercera es incorrecta porque no depende de la aprobación de cuentas anuales.\nIT: La risposta corretta è la quarta. La LIS stabilisce che la dichiarazione dell’IS si presenta entro i 25 giorni naturali successivi ai 6 mesi posteriori alla conclusione del periodo d’imposta. Quindi, se il periodo coincide con l’anno solare, il termine ordinario va dal 1° al 25 luglio, non al 30 giugno. La seconda è incompleta perché il termine non scade esattamente dopo sei mesi, ma 25 giorni naturali dopo; la terza è errata perché non dipende dall’approvazione del bilancio.",
+      "legal_reference": "LIS, art. 124.1.",
+      "original_file": "Test Financiero III - 2° parcial AGGIORNATO 19 05 2025.docx",
+      "source_issues": "La opción marcada como correcta en el original es incompatible con el plazo legal del art. 124.1 LIS."
+    }
+  ]
+}

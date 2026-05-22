@@ -1,11 +1,203 @@
 {
-  "file_number": 3,
-  "file_name": "preguntas_completo_q1_q35.json",
-  "total_questions_available": 35,
-  "batch_start": 1,
-  "batch_end": 35,
-  "progress": "35 de 35",
+  "file_number": 0,
+  "file_name": "Test Financiero III - 1° parcial AGGIORNATO 04 05 26",
+  "file_format": "No verificable en esta sesión",
+  "total_questions": 8,
+  "progress": "8 di 8 totali",
+  "source_note": "Nombre del archivo indicado por el usuario. El texto de las preguntas y respuestas se ha tomado literalmente del mensaje del usuario; el formato del archivo no ha podido verificarse en los archivos accesibles de esta sesión.",
   "questions": [
+    {
+      "question": "La venta de latas de Coca-Cola a los pasajeros de un vuelo Berlín-Madrid se gravan con el IVA:",
+      "answers": [
+        {
+          "text": "Del país al que llega el vuelo intracomunitario, en este caso España.",
+          "correct": false
+        },
+        {
+          "text": "Del país donde se inicia el vuelo intracomunitario, en este caso Alemania.",
+          "correct": true
+        },
+        {
+          "text": "Se aplica la media aritmética de los tipos de IVA aplicables en los dos países.",
+          "correct": false
+        },
+        {
+          "text": "No se aplica ninguna tributación por IVA, ya que el espacio aéreo no pertenece a ningún territorio de aplicación del impuesto.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es \"Del país donde se inicia el vuelo intracomunitario, en este caso Alemania.\" En las ventas de bienes efectuadas a pasajeros a bordo de un avión, buque o tren durante la parte de un transporte realizada en el interior de la Comunidad, la tributación se localiza en el lugar de inicio del transporte. Como el vuelo sale de Berlín y llega a Madrid, el inicio está en Alemania, por lo que corresponde el IVA alemán. La opción \"Del país al que llega el vuelo intracomunitario, en este caso España.\" es incorrecta porque la regla no atiende al lugar de llegada sino al de inicio. La opción \"Se aplica la media aritmética de los tipos de IVA aplicables en los dos países.\" es incorrecta porque la normativa no prevé ninguna media entre tipos de IVA. La opción \"No se aplica ninguna tributación por IVA, ya que el espacio aéreo no pertenece a ningún territorio de aplicación del impuesto.\" también es incorrecta, porque existe una regla específica de localización para estas ventas a bordo.\nIT: La risposta corretta è \"Del país donde se inicia el vuelo intracomunitario, en este caso Alemania.\" Nelle vendite di beni ai passeggeri a bordo di un aereo, nave o treno durante la parte di trasporto effettuata all’interno dell’Unione, la tassazione si localizza nel luogo di inizio del trasporto. Poiché il volo parte da Berlino e arriva a Madrid, il luogo iniziale è la Germania e quindi si applica l’IVA tedesca. L’opzione \"Del país al que llega el vuelo intracomunitario, en este caso España.\" è errata perché la regola non guarda al luogo di arrivo ma a quello di partenza. L’opzione \"Se aplica la media aritmética de los tipos de IVA aplicables en los dos países.\" è errata perché la normativa non prevede alcuna media tra aliquote IVA. Anche l’opzione \"No se aplica ninguna tributación por IVA, ya que el espacio aéreo no pertenece a ningún territorio de aplicación del impuesto.\" è errata, perché esiste una regola specifica di localizzazione per queste vendite a bordo.",
+      "legal_reference": "Ley 37/1992 (LIVA), art. 68.Dos.4.º.",
+      "original_file": "Test Financiero III - 1° parcial AGGIORNATO 04 05 26 (formato no verificable en esta sesión)"
+    },
+    {
+      "question": "La prorrata general:",
+      "answers": [
+        {
+          "text": "Es un régimen de deducción del IVA soportado que se calcula solo en función del volumen de operaciones “con” derecho a deducir.",
+          "correct": false
+        },
+        {
+          "text": "Es un régimen de deducción del IVA soportado que se calcula en función del volumen de operaciones en cada uno de los dos sectores, “con” y “sin” derecho a deducir.",
+          "correct": true
+        },
+        {
+          "text": "Es un régimen de deducción del IVA soportado que se calcula solo en función del volumen de operaciones “sin” derecho a deducir.",
+          "correct": false
+        },
+        {
+          "text": "Es un régimen de deducción del IVA soportado que se calcula atendiendo al destino diferenciado de las compras en cada uno de los dos sectores.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es \"Es un régimen de deducción del IVA soportado que se calcula en función del volumen de operaciones en cada uno de los dos sectores, “con” y “sin” derecho a deducir.\" La prorrata general permite deducir el IVA soportado según el porcentaje que representan las operaciones con derecho a deducción sobre el total de operaciones realizadas, incluidas las que no dan derecho a deducir. La opción \"Es un régimen de deducción del IVA soportado que se calcula solo en función del volumen de operaciones “con” derecho a deducir.\" es incorrecta porque el cálculo no depende solo del numerador, sino también del denominador total. La opción \"Es un régimen de deducción del IVA soportado que se calcula solo en función del volumen de operaciones “sin” derecho a deducir.\" es incorrecta porque tampoco se calcula únicamente con esas operaciones. La opción \"Es un régimen de deducción del IVA soportado que se calcula atendiendo al destino diferenciado de las compras en cada uno de los dos sectores.\" es incorrecta porque esa lógica corresponde a la prorrata especial, no a la general.\nIT: La risposta corretta è \"Es un régimen de deducción del IVA soportado que se calcula en función del volumen de operaciones en cada uno de los dos sectores, “con” y “sin” derecho a deducir.\" La pro-rata generale consente di detrarre l’IVA assolta in base alla percentuale rappresentata dalle operazioni con diritto a detrazione rispetto al totale delle operazioni effettuate, comprese quelle che non danno diritto alla detrazione. L’opzione \"Es un régimen de deducción del IVA soportado que se calcula solo en función del volumen de operaciones “con” derecho a deducir.\" è errata perché il calcolo non dipende solo dal numeratore, ma anche dal denominatore totale. L’opzione \"Es un régimen de deducción del IVA soportado que se calcula solo en función del volumen de operaciones “sin” derecho a deducir.\" è errata perché non si calcola solo su tali operazioni. L’opzione \"Es un régimen de deducción del IVA soportado que se calcula atendiendo al destino diferenciado de las compras en cada uno de los dos sectores.\" è errata perché tale criterio appartiene alla pro-rata speciale, non a quella generale.",
+      "legal_reference": "Ley 37/1992 (LIVA), arts. 102, 103 y 104.",
+      "original_file": "Test Financiero III - 1° parcial AGGIORNATO 04 05 26 (formato no verificable en esta sesión)"
+    },
+    {
+      "question": "¿Cuál de los siguientes servicios de abogacía prestados por una empresa establecida en Madrid no se entiende realizado en el territorio de aplicación del impuesto, no aplicándose por tanto el IVA español?",
+      "answers": [
+        {
+          "text": "Servicio de abogacía prestado a una empresa establecida en Marbella.",
+          "correct": false
+        },
+        {
+          "text": "Servicio de abogacía prestado a un particular residente en Francia.",
+          "correct": false
+        },
+        {
+          "text": "Servicio de abogacía prestado a una empresa establecida en Polonia.",
+          "correct": true
+        },
+        {
+          "text": "Servicio de abogacía prestado a un particular residente en Canarias.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es \"Servicio de abogacía prestado a una empresa establecida en Polonia.\" Cuando el destinatario del servicio es un empresario o profesional que actúa como tal, la regla general localiza el servicio donde radica el destinatario. Por ello, si la empresa cliente está establecida en Polonia, el servicio no se entiende realizado en España y no se aplica el IVA español. La opción \"Servicio de abogacía prestado a una empresa establecida en Marbella.\" es incorrecta porque Marbella está en el territorio de aplicación del impuesto español y, al ser un servicio B2B con destinatario en España, se localiza en España. La opción \"Servicio de abogacía prestado a un particular residente en Francia.\" es incorrecta porque, al tratarse de un particular, rige la regla general B2C: el servicio se localiza donde está establecido el prestador, es decir, Madrid, por lo que sí se aplica IVA español. La opción \"Servicio de abogacía prestado a un particular residente en Canarias.\" también es incorrecta porque la excepción aplicable a determinados servicios prestados a particulares fuera de la Comunidad no opera cuando el destinatario está en Canarias, Ceuta o Melilla; por tanto, sigue aplicándose la regla general y el servicio se localiza en España.\nIT: La risposta corretta è \"Servicio de abogacía prestado a una empresa establecida en Polonia.\" Quando il destinatario del servizio è un imprenditore o professionista che agisce come tale, la regola generale localizza il servizio dove si trova il destinatario. Pertanto, se la società cliente è stabilita in Polonia, il servizio non si considera effettuato in Spagna e non si applica l’IVA spagnola. L’opzione \"Servicio de abogacía prestado a una empresa establecida en Marbella.\" è errata perché Marbella rientra nel territorio di applicazione dell’imposta spagnola e, trattandosi di un servizio B2B con destinatario in Spagna, si localizza in Spagna. L’opzione \"Servicio de abogacía prestado a un particular residente en Francia.\" è errata perché, essendo il destinatario un privato, si applica la regola generale B2C: il servizio si localizza dove è stabilito il prestatore, cioè Madrid, e quindi si applica l’IVA spagnola. L’opzione \"Servicio de abogacía prestado a un particular residente en Canarias.\" è anch’essa errata perché l’eccezione prevista per certi servizi resi a privati fuori dall’Unione non opera quando il destinatario si trova nelle Canarie, a Ceuta o a Melilla; quindi continua ad applicarsi la regola generale e il servizio si localizza in Spagna.",
+      "legal_reference": "Ley 37/1992 (LIVA), art. 69.Uno.1.º, art. 69.Uno.2.º y art. 69.Dos.d).",
+      "original_file": "Test Financiero III - 1° parcial AGGIORNATO 04 05 26 (formato no verificable en esta sesión)"
+    },
+    {
+      "question": "Una empresa con sede en Costa Rica y dedicada a la organización de eventos culturales organiza un show en Murcia, para el que pone a la venta 3.000 entradas. ¿Dónde se entiende realizado el servicio?",
+      "answers": [
+        {
+          "text": "En Costa Rica, por ser el país desde el que se organiza el evento.",
+          "correct": false
+        },
+        {
+          "text": "En Costa Rica, por ser el país en el que radica la sede central de la empresa.",
+          "correct": false
+        },
+        {
+          "text": "En España, por ser de nacionalidad española la mayoría de los asistentes al evento.",
+          "correct": false
+        },
+        {
+          "text": "En España, por prestarse materialmente el servicio dentro del territorio de aplicación del impuesto.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es \"En España, por prestarse materialmente el servicio dentro del territorio de aplicación del impuesto.\" Los servicios relacionados con manifestaciones culturales, artísticas, recreativas o similares, incluidos los de organización y los accesorios, se localizan donde se prestan materialmente o donde el evento tiene lugar. Como el show se realiza en Murcia, el servicio se entiende realizado en España. La opción \"En Costa Rica, por ser el país desde el que se organiza el evento.\" es incorrecta porque no prevalece el país de organización cuando existe una regla especial basada en el lugar de prestación material. La opción \"En Costa Rica, por ser el país en el que radica la sede central de la empresa.\" también es incorrecta porque la sede del prestador no desplaza esta regla especial. La opción \"En España, por ser de nacionalidad española la mayoría de los asistentes al evento.\" es incorrecta porque la nacionalidad del público no es criterio de localización del IVA.\nIT: La risposta corretta è \"En España, por prestarse materialmente el servicio dentro del territorio de aplicación del impuesto.\" I servizi collegati a manifestazioni culturali, artistiche, ricreative o simili, compresi quelli di organizzazione e quelli accessori, si localizzano dove sono materialmente prestati o dove l’evento ha luogo. Poiché lo show si svolge a Murcia, il servizio si considera effettuato in Spagna. L’opzione \"En Costa Rica, por ser el país desde el que se organiza el evento.\" è errata perché non prevale il paese di organizzazione quando esiste una regola speciale fondata sul luogo della prestazione materiale. L’opzione \"En Costa Rica, por ser el país en el que radica la sede central de la empresa.\" è anch’essa errata perché la sede del prestatore non prevale su tale regola speciale. L’opzione \"En España, por ser de nacionalidad española la mayoría de los asistentes al evento.\" è errata perché la nazionalità del pubblico non è un criterio di localizzazione dell’IVA.",
+      "legal_reference": "Ley 37/1992 (LIVA), art. 70.Uno.3.º y art. 70.Uno.7.º.c).",
+      "original_file": "Test Financiero III - 1° parcial AGGIORNATO 04 05 26 (formato no verificable en esta sesión)"
+    },
+    {
+      "question": "Jorge Sánchez ha importado un lote de mercancías de un país africano. El precio total pagado por la importación es de 10.000 euros (la mercancía propiamente dicha), más 800 euros en concepto de transporte y seguro hasta la aduana del aeropuerto de Cádiz, y otros 1.000 euros en concepto de arancel de importación. ¿Cuál es la base imponible sobre la que se aplica el IVA en esta importación?",
+      "answers": [
+        {
+          "text": "10.000 euros.",
+          "correct": false
+        },
+        {
+          "text": "10.800 euros.",
+          "correct": false
+        },
+        {
+          "text": "11.000 euros.",
+          "correct": false
+        },
+        {
+          "text": "11.800 euros.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es \"11.800 euros.\" En la importación, la base imponible se obtiene sumando al valor en aduana los impuestos o derechos devengados con motivo de la importación, salvo el propio IVA, y los gastos accesorios, como transporte y seguro, hasta el primer lugar de destino. Por ello, se suman 10.000 euros de valor de la mercancía, 800 euros de transporte y seguro y 1.000 euros de arancel, dando un total de 11.800 euros. La opción \"10.000 euros.\" es incorrecta porque omite transporte, seguro y arancel. La opción \"10.800 euros.\" es incorrecta porque incluye transporte y seguro, pero omite el arancel. La opción \"11.000 euros.\" es incorrecta porque incluye mercancía y arancel, pero omite los gastos accesorios.\nIT: La risposta corretta è \"11.800 euros.\" Nell’importazione, la base imponibile si ottiene sommando al valore in dogana i tributi o diritti dovuti in occasione dell’importazione, esclusa la stessa IVA, e le spese accessorie, come trasporto e assicurazione, fino al primo luogo di destinazione. Per questo si sommano 10.000 euro di valore della merce, 800 euro di trasporto e assicurazione e 1.000 euro di dazio, per un totale di 11.800 euro. L’opzione \"10.000 euros.\" è errata perché omette trasporto, assicurazione e dazio. L’opzione \"10.800 euros.\" è errata perché include trasporto e assicurazione ma omette il dazio. L’opzione \"11.000 euros.\" è errata perché include merce e dazio ma omette le spese accessorie.",
+      "legal_reference": "Ley 37/1992 (LIVA), art. 83.Uno.a) y b).",
+      "original_file": "Test Financiero III - 1° parcial AGGIORNATO 04 05 26 (formato no verificable en esta sesión)"
+    },
+    {
+      "question": "Una empresa mallorquina dedicada a la exportación de calzado:",
+      "answers": [
+        {
+          "text": "Puede deducir una parte del IVA soportado en las compras relacionadas con la actividad.",
+          "correct": false
+        },
+        {
+          "text": "No puede deducir el IVA soportado en las compras relacionadas con la actividad.",
+          "correct": false
+        },
+        {
+          "text": "Se trata de una operación con exención limitada y por tanto sin derecho a deducir.",
+          "correct": false
+        },
+        {
+          "text": "Puede deducir todo el IVA soportado en las compras relacionadas con la actividad.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es \"Puede deducir todo el IVA soportado en las compras relacionadas con la actividad.\" Las exportaciones son operaciones exentas, pero con derecho a deducción, es decir, exenciones plenas. Por eso la empresa exportadora puede deducir el IVA soportado en las adquisiciones vinculadas a esa actividad. La opción \"Puede deducir una parte del IVA soportado en las compras relacionadas con la actividad.\" es incorrecta porque, si la actividad es exclusivamente exportadora, no hay razón para limitar la deducción a una parte por esta causa. La opción \"No puede deducir el IVA soportado en las compras relacionadas con la actividad.\" es incorrecta porque confunde las exportaciones con exenciones limitadas. La opción \"Se trata de una operación con exención limitada y por tanto sin derecho a deducir.\" también es incorrecta por la misma razón: la exportación es una exención plena y sí da derecho a deducción.\nIT: La risposta corretta è \"Puede deducir todo el IVA soportado en las compras relacionadas con la actividad.\" Le esportazioni sono operazioni esenti ma con diritto a detrazione, cioè esenzioni piene. Per questo l’impresa esportatrice può detrarre l’IVA assolta sugli acquisti collegati a tale attività. L’opzione \"Puede deducir una parte del IVA soportado en las compras relacionadas con la actividad.\" è errata perché, se l’attività è esclusivamente esportatrice, non vi è motivo di limitare la detrazione a una parte per questa sola ragione. L’opzione \"No puede deducir el IVA soportado en las compras relacionadas con la actividad.\" è errata perché confonde le esportazioni con le esenzioni limitate. Anche l’opzione \"Se trata de una operación con exención limitada y por tanto sin derecho a deducir.\" è errata per la stessa ragione: l’esportazione è un’esenzione piena e dà diritto alla detrazione.",
+      "legal_reference": "Ley 37/1992 (LIVA), art. 21 y art. 94.Uno.1.º.c).",
+      "original_file": "Test Financiero III - 1° parcial AGGIORNATO 04 05 26 (formato no verificable en esta sesión)"
+    },
+    {
+      "question": "Señala cuál de las siguientes circunstancias se considera un requisito básico para deducir el IVA soportado:",
+      "answers": [
+        {
+          "text": "Que la operación se haya gravado a tipo general.",
+          "correct": false
+        },
+        {
+          "text": "Que las compras correspondan a bienes y servicios adquiridos por un consumidor final.",
+          "correct": false
+        },
+        {
+          "text": "Que se trate de cuotas soportadas dentro del territorio de aplicación del impuesto.",
+          "correct": true
+        },
+        {
+          "text": "Que se haya producido el devengo anticipado del IVA.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es \"Que se trate de cuotas soportadas dentro del territorio de aplicación del impuesto.\" Entre los requisitos básicos del derecho a deducción está que se trate de cuotas deducibles soportadas o satisfechas en el territorio de aplicación del impuesto y que, además, los bienes o servicios se utilicen en operaciones que generen derecho a deducción, estén afectos a la actividad y se disponga de la documentación justificativa correspondiente. La opción \"Que la operación se haya gravado a tipo general.\" es incorrecta porque el derecho a deducir no depende de que el tipo sea el general; también puede haber deducción respecto de cuotas soportadas a tipo reducido o superreducido. La opción \"Que las compras correspondan a bienes y servicios adquiridos por un consumidor final.\" es incorrecta porque el consumidor final soporta el IVA pero no lo deduce. La opción \"Que se haya producido el devengo anticipado del IVA.\" es incorrecta porque el devengo anticipado no es un requisito básico y general de deducibilidad.\nIT: La risposta corretta è \"Que se trate de cuotas soportadas dentro del territorio de aplicación del impuesto.\" Tra i requisiti di base del diritto alla detrazione vi è il fatto che si tratti di quote IVA detraibili sostenute o versate nel territorio di applicazione dell’imposta e che, inoltre, i beni o servizi siano utilizzati in operazioni che danno diritto alla detrazione, siano inerenti all’attività e vi sia la documentazione giustificativa necessaria. L’opzione \"Que la operación se haya gravado a tipo general.\" è errata perché il diritto alla detrazione non dipende dall’aliquota ordinaria; può esistere anche per quote assoggettate ad aliquota ridotta o superridotta. L’opzione \"Que las compras correspondan a bienes y servicios adquiridos por un consumidor final.\" è errata perché il consumatore finale sopporta l’IVA ma non la detrae. L’opzione \"Que se haya producido el devengo anticipado del IVA.\" è errata perché il devengo anticipato non costituisce un requisito generale e basilare di detraibilità.",
+      "legal_reference": "Ley 37/1992 (LIVA), arts. 92, 94, 95 y 97.",
+      "original_file": "Test Financiero III - 1° parcial AGGIORNATO 04 05 26 (formato no verificable en esta sesión)"
+    },
+    {
+      "question": "Señale la respuesta correcta sobre el régimen de prorrata:",
+      "answers": [
+        {
+          "text": "Si una empresa realiza únicamente operaciones sin derecho a deducción, deberá aplicar un sistema de prorrata.",
+          "correct": false
+        },
+        {
+          "text": "Si una empresa realiza únicamente operaciones con derecho a deducción, deberá aplicar un sistema de prorrata.",
+          "correct": false
+        },
+        {
+          "text": "Si una empresa realiza simultáneamente operaciones “con” y “sin” derecho a deducción, deberá aplicar un sistema de prorrata.",
+          "correct": true
+        },
+        {
+          "text": "Si una empresa realiza simultáneamente exportaciones o importaciones, deberá aplicar un sistema de prorrata.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es \"Si una empresa realiza simultáneamente operaciones “con” y “sin” derecho a deducción, deberá aplicar un sistema de prorrata.\" La regla de prorrata se aplica precisamente cuando el sujeto pasivo realiza conjuntamente operaciones que originan derecho a deducir y otras que no lo originan. La opción \"Si una empresa realiza únicamente operaciones sin derecho a deducción, deberá aplicar un sistema de prorrata.\" es incorrecta porque, si todas las operaciones son sin derecho a deducción, no hay coexistencia de dos tipos de operaciones que obligue a calcular una proporción: simplemente no habrá derecho a deducir en esa medida. La opción \"Si una empresa realiza únicamente operaciones con derecho a deducción, deberá aplicar un sistema de prorrata.\" es incorrecta porque, si todas las operaciones dan derecho a deducir, no hay necesidad de prorrata. La opción \"Si una empresa realiza simultáneamente exportaciones o importaciones, deberá aplicar un sistema de prorrata.\" es incorrecta porque la mera existencia de exportaciones o importaciones no activa por sí sola la prorrata; lo decisivo es la coexistencia de operaciones con y sin derecho a deducción.\nIT: La risposta corretta è \"Si una empresa realiza simultáneamente operaciones “con” y “sin” derecho a deducción, deberá aplicar un sistema de prorrata.\" La regola della pro-rata si applica proprio quando il soggetto passivo effettua congiuntamente operazioni che danno diritto alla detrazione e altre che non lo danno. L’opzione \"Si una empresa realiza únicamente operaciones sin derecho a deducción, deberá aplicar un sistema de prorrata.\" è errata perché, se tutte le operazioni sono senza diritto a detrazione, non vi è coesistenza di due tipi di operazioni che imponga di calcolare una proporzione: semplicemente non vi sarà diritto alla detrazione in quella misura. L’opzione \"Si una empresa realiza únicamente operaciones con derecho a deducción, deberá aplicar un sistema de prorrata.\" è errata perché, se tutte le operazioni danno diritto alla detrazione, non serve la pro-rata. L’opzione \"Si una empresa realiza simultáneamente exportaciones o importaciones, deberá aplicar un sistema de prorrata.\" è errata perché la sola presenza di esportazioni o importazioni non attiva automaticamente la pro-rata; ciò che conta è la coesistenza di operazioni con e senza diritto alla detrazione.",
+      "legal_reference": "Ley 37/1992 (LIVA), arts. 102, 103 y 104.",
+      "original_file": "Test Financiero III - 1° parcial AGGIORNATO 04 05 26 (formato no verificable en esta sesión)"
+    },
     {
       "sequence_in_user_message": 1,
       "source_label_in_text": "29",
