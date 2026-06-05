@@ -1,0 +1,2403 @@
+{
+  "file_number": 0,
+  "file_name": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx",
+  "source_container": "Pasted text.txt",
+  "total_questions_in_source": 91,
+  "batch_start": 1,
+  "batch_end": 30,
+  "progress": "Arrivato a 30 di 91 totali.",
+  "questions": [
+    {
+      "extracted_index": 1,
+      "source_question_number": "51",
+      "question": "No permite la solicitud de concurso necesario:",
+      "answers": [
+        {
+          "text": "Un título por el cual se haya despachado ejecución o apremio sin que del embargo hayan resultado bienes suficientes para el pago.",
+          "correct": false
+        },
+        {
+          "text": "El sobreseimiento general en el pago corriente de las obligaciones del deudor.",
+          "correct": false
+        },
+        {
+          "text": "La existencia de embargos por ejecuciones pendientes que afecten de manera general al patrimonio deudor.",
+          "correct": false
+        },
+        {
+          "text": "La falta de depósito de cuentas en el Registro Mercantil.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «La falta de depósito de cuentas en el Registro Mercantil.» porque los hechos reveladores que permiten al acreedor pedir el concurso necesario son tasados y comprenden, entre otros, la existencia de una ejecución infructuosa, el sobreseimiento general en el pago corriente y los embargos generalizados. La falta de depósito de cuentas no figura en ese catálogo legal. Por eso son erróneas las otras tres opciones, que sí encajan en los hechos reveladores de insolvencia.\nIT: La risposta corretta è «La falta de depósito de cuentas en el Registro Mercantil.» perché i fatti rivelatori che consentono al creditore di chiedere il concorso necessario sono tassativi e comprendono, tra gli altri, un’esecuzione infruttuosa, la cessazione generale dei pagamenti correnti e i pignoramenti generalizzati. Il mancato deposito dei conti non rientra in tale elenco. Per questo le altre tre opzioni sono errate, perché corrispondono invece a fatti rivelatori legali dell’insolvenza.",
+      "legal_reference": "Arts. 2.4 y 14 TRLC (hechos reveladores de la insolvencia y solicitud de concurso necesario).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 2,
+      "source_question_number": "52",
+      "question": "A quien corresponde la calificación del concurso como culpable o fortuito:",
+      "answers": [
+        {
+          "text": "A juez del concurso",
+          "correct": true
+        },
+        {
+          "text": "Al ministerio fiscal",
+          "correct": false
+        },
+        {
+          "text": "Al administrador concursal",
+          "correct": false
+        },
+        {
+          "text": "A los acreedores que representen por sí o conjuntamente créditos por importe de 100.000 €.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «A juez del concurso». La calificación como fortuito o culpable se decide judicialmente en la sección de calificación; ni el Ministerio Fiscal, ni la administración concursal, ni los acreedores deciden la calificación, aunque intervengan emitiendo informe, dictamen u observaciones. Por eso las restantes opciones son erróneas: participan en el procedimiento, pero no resuelven.\nIT: La risposta corretta è «A juez del concurso». La qualificazione del concorso come fortuito o culpable è decisa dal giudice nella sezione di qualificazione; né il Pubblico Ministero, né l’amministrazione concorsuale, né i creditori decidono la qualificazione, anche se intervengono con pareri o osservazioni. Perciò le altre opzioni sono errate: partecipano al procedimento, ma non decidono.",
+      "legal_reference": "Arts. 446 a 455 TRLC (sección de calificación; la calificación se decide judicialmente en sentencia).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 3,
+      "source_question_number": "53",
+      "question": "Respecto del presupuesto subjetivo del concurso, solo una de las siguientes afirmaciones es correcta:",
+      "answers": [
+        {
+          "text": "Podrán ser declaradas en concurso las entidades que integran la organización territorial del Estado, los organismos públicos y demás entes de Derecho público.",
+          "correct": false
+        },
+        {
+          "text": "El concurso de la herencia podrá declararse si tanto no hubiera sido aceptada pura y simplemente.",
+          "correct": true
+        },
+        {
+          "text": "La declaración de concurso sólo procederá respecto del deudor empresario.",
+          "correct": false
+        },
+        {
+          "text": "No podrá ser declarado en concurso ningún sujeto sin personalidad jurídica.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «El concurso de la herencia podrá declararse si tanto no hubiera sido aceptada pura y simplemente.». El presupuesto subjetivo permite el concurso de cualquier deudor, persona natural o jurídica, y además admite la herencia no aceptada pura y simplemente. Es errónea la opción sobre entes públicos porque éstos están excluidos; también es falsa la que limita el concurso al empresario; y también la que excluye a todo sujeto sin personalidad, porque la herencia es precisamente la excepción legal.\nIT: La risposta corretta è «El concurso de la herencia podrá declararse si tanto no hubiera sido aceptada pura y simplemente.». Il presupposto soggettivo consente il concorso di qualunque debitore, persona fisica o giuridica, e ammette anche l’eredità non accettata puramente e semplicemente. È errata l’opzione sugli enti pubblici perché sono esclusi; è falsa anche quella che limita il concorso al solo imprenditore; ed è falsa pure quella che esclude ogni soggetto privo di personalità, perché l’eredità è proprio l’eccezione legale.",
+      "legal_reference": "Art. 1 TRLC (presupuesto subjetivo del concurso).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 4,
+      "source_question_number": "54",
+      "question": "Respecto de la resolución de un contrato por incumplimiento posterior a la declaración de concurso, cuál es la respuesta correcta:",
+      "answers": [
+        {
+          "text": "Acordada la resolución del contrato, quedarán extinguidas las obligaciones pendientes de vencimiento.",
+          "correct": true
+        },
+        {
+          "text": "La acción resolutoria no se ejercitará ante el Juez del concurso y se sustanciará por los trámites del incidente concursal.",
+          "correct": false
+        },
+        {
+          "text": "Cuando exista causa de resolución, el juez no podrá acordar el cumplimiento del contrato.",
+          "correct": false
+        },
+        {
+          "text": "La declaración de concurso afectará a la facultad de resolución de los contratos por incumplimiento posterior de cualquiera de las partes.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «Acordada la resolución del contrato, quedarán extinguidas las obligaciones pendientes de vencimiento.». En los contratos con obligaciones recíprocas, el incumplimiento posterior a la declaración de concurso puede dar lugar a resolución, y si ésta se acuerda, se extinguen las obligaciones pendientes. Es errónea la opción que niega la competencia del juez del concurso, porque la acción resolutoria se ejercita ante él por incidente concursal; también es errónea la que afirma que el juez no puede imponer el cumplimiento, porque sí puede hacerlo en interés del concurso; y es falsa la que dice que la declaración afecta a la facultad resolutoria por incumplimiento posterior, porque no la elimina.\nIT: La risposta corretta è «Acordada la resolución del contrato, quedarán extinguidas las obligaciones pendientes de vencimiento.». Nei contratti con obbligazioni reciproche, l’inadempimento successivo alla dichiarazione di concorso può portare alla risoluzione, e se questa viene disposta si estinguono le obbligazioni ancora pendenti. È errata l’opzione che nega la competenza del giudice del concorso, perché l’azione di risoluzione si esercita davanti a lui tramite incidente concorsuale; è errata anche quella che afferma che il giudice non può imporre l’adempimento, perché può farlo nell’interesse del concorso; ed è falsa quella che dice che la dichiarazione elimina la facoltà di risoluzione per inadempimento successivo.",
+      "legal_reference": "Arts. 156 y ss. TRLC sobre contratos con obligaciones recíprocas y resolución por incumplimiento posterior a la declaración de concurso.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 5,
+      "source_question_number": "56",
+      "question": "Respecto a la comunicación de la apertura de negociaciones con los acreedores cuál de los siguientes meses no es falso:",
+      "answers": [
+        {
+          "text": "Dispone de tres meses más uno para presentar el concurso",
+          "correct": true
+        },
+        {
+          "text": "No podrá presentarse nueva comunicación hasta transcurrido un año",
+          "correct": true
+        },
+        {
+          "text": "Produce el vencimiento anticipado de las obligaciones que penden sobre el deudor",
+          "correct": false
+        },
+        {
+          "text": "Será recibida por el Letrado de la Administración de Justicia",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: Esta pregunta está defectuosa, porque en su redacción literal hay varias respuestas verdaderas. Son correctas «Dispone de tres meses más uno para presentar el concurso», «No podrá presentarse nueva comunicación hasta transcurrido un año» y «Será recibida por el Letrado de la Administración de Justicia». Son errónea «Produce el vencimiento anticipado de las obligaciones que penden sobre el deudor», porque la comunicación no provoca por sí sola ese vencimiento anticipado. Por tanto, el ítem no permite una única respuesta correcta.\nIT: Questa domanda è difettosa, perché nella sua formulazione letterale ci sono più risposte vere. Sono corrette «Dispone de tres meses más uno para presentar el concurso», «No podrá presentarse nueva comunicación hasta transcurrido un año» e «Será recibida por el Letrado de la Administración de Justicia». È errata «Produce el vencimiento anticipado de las obligaciones que penden sobre el deudor», perché la comunicazione non provoca di per sé la scadenza anticipata delle obbligazioni. Quindi il quesito non consente una sola risposta corretta.",
+      "legal_reference": "Arts. 583 y ss. TRLC; en particular, arts. 594 y ss. TRLC (comunicación de apertura de negociaciones y sus efectos).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 6,
+      "source_question_number": "57",
+      "question": "No son créditos subordinados:",
+      "answers": [
+        {
+          "text": "Los créditos que, habiendo sido comunicados tardíamente, sean incluidos por el juez en la lista de acreedores, así como los que, no habiendo sido comunicados, no hayan sido incluidos por la administración concursal y sean modificados en posteriores o por el juez al resolver sobre la impugnación de ésta.",
+          "correct": true
+        },
+        {
+          "text": "Los créditos por recargos e intereses de cualquier clase, incluidos los moratorios, salvo los correspondientes a créditos con garantía real hasta donde alcance la respectiva garantía.",
+          "correct": false
+        },
+        {
+          "text": "Los créditos por multas y demás sanciones pecuniarias.",
+          "correct": false
+        },
+        {
+          "text": "Los créditos de que fuera titular el acreedor a instancia del cual se hubiere declarado el concurso.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: Esta pregunta también está defectuosa en su formulación, porque hay más de una respuesta no subordinada. Es correcta «Los créditos que, habiendo sido comunicados tardíamente, sean incluidos por el juez...», ya que la ley exceptúa ciertos créditos tardíos cuando su inclusión deriva de decisión judicial o de supuestos expresamente previstos. También es correcta «Los créditos de que fuera titular el acreedor a instancia del cual se hubiere declarado el concurso», porque no son subordinados por ese solo hecho: una parte de ellos puede gozar de privilegio general. Son erróneas las otras dos opciones, pues los recargos e intereses y las multas y sanciones pecuniarias sí son créditos subordinados.\nIT: Anche questa domanda è difettosa nella formulazione, perché c’è più di una risposta non subordinata. È corretta «Los créditos que, habiendo sido comunicados tardíamente, sean incluidos por el juez...», poiché la legge esclude dalla subordinazione alcuni crediti tardivi quando l’inclusione deriva da decisione del giudice o da ipotesi espressamente previste. È corretta anche «Los créditos de que fuera titular el acreedor a instancia del cual se hubiere declarado el concurso», perché non diventano subordinati per questo solo fatto: una parte può godere di privilegio generale. Sono errate le altre due opzioni, perché interessi/recargos e multe/sanzioni pecuniarie sono invece crediti subordinati.",
+      "legal_reference": "Arts. 268, 280 y 281 TRLC (créditos comunicados tardíamente, privilegio general del acreedor instante y créditos subordinados).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 7,
+      "source_question_number": "58",
+      "question": "La empresa Z entra en concurso de acreedores el día 01 de enero de 2022. Con anterioridad a esa fecha otra empresa había declarado su concurso y en el desarrollo de este procedimiento reclamaba una cantidad de dinero. En dicho procedimiento ordinario ya ha sido declarada la situación, con una sentencia firme de 29 de enero de ese mismo mes de enero. ¿Qué efectos produce la entrada en concurso en el citado proceso de reclamación ordinaria?",
+      "answers": [
+        {
+          "text": "El Juez que conoce el procedimiento declarativo debe suspender el procedimiento remitiendo las actuaciones al juez del concurso para que siga el procedimiento allí",
+          "correct": false
+        },
+        {
+          "text": "El juez que conoce el procedimiento declarativo ordenará el archivo de todo lo actuado, careciendo de validez las actuaciones que se hayan practicado",
+          "correct": false
+        },
+        {
+          "text": "El juez que conoce el procedimiento declarativo acordará de oficio la prueba de interrogatorio de ambas partes, dictando sentencia sin trámites",
+          "correct": false
+        },
+        {
+          "text": "El procedimiento ordinario continuará suspendiéndose ante el mismo tribunal que estuviera conociendo del mismo, hasta la firmeza de la Sentencia.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «El procedimiento ordinario continuará suspendiéndose ante el mismo tribunal que estuviera conociendo del mismo, hasta la firmeza de la Sentencia.». Los procesos declarativos pendientes al tiempo de la declaración del concurso, cuando no deben acumularse por razón de competencia exclusiva, continúan ante el mismo órgano hasta sentencia firme. Son erróneas las demás opciones porque no procede remitir automáticamente el pleito al juez del concurso, ni archivar sin más lo actuado, ni dictar sentencia sin trámites con una prueba de oficio inventada por la opción.\nIT: La risposta corretta è «El procedimiento ordinario continuará suspendiéndose ante el mismo tribunal que estuviera conociendo del mismo, hasta la firmeza de la Sentencia.». I processi dichiarativi pendenti al momento della dichiarazione del concorso, quando non devono essere attratti per competenza esclusiva, proseguono davanti allo stesso giudice fino a sentenza definitiva. Le altre opzioni sono errate perché non si rimettono automaticamente gli atti al giudice concorsuale, non si archivia senz’altro il procedimento e non si pronuncia sentenza senza il normale iter processuale.",
+      "legal_reference": "Arts. 119 y ss. y 136 y ss. TRLC sobre capacidad procesal y efectos del concurso sobre procesos declarativos pendientes.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 8,
+      "source_question_number": "59",
+      "question": "Planteada ante el Juzgado de lo Mercantil una demanda de reclamación de cantidad entre la empresa Viajes Atocha contra la empresa Suministros Eléctricos Castellana, S.L., con carácter principal, se solicita la declaración de la disolución de la sociedad Suministros Eléctricos Castellana, S.L. y con carácter subsidiario la declaración de concurso de acreedores de la sociedad Suministros Eléctricos Castellana, S.L. ¿Qué incidencia tiene en la tramitación del procedimiento la declaración del concurso de acreedores de la sociedad Suministros Eléctricos Castellana, S.L.?",
+      "answers": [
+        {
+          "text": "Se suspende su tramitación hasta que concluya el procedimiento concursal.",
+          "correct": false
+        },
+        {
+          "text": "Se acumula al concurso de acreedores, continuando allí su tramitación. Se archiva el procedimiento careciendo de validez todo lo actuado.",
+          "correct": true
+        },
+        {
+          "text": "Continúa hasta que se dicta sentencia firme en primera instancia.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «Se acumula al concurso de acreedores, continuando allí su tramitación. Se archiva el procedimiento careciendo de validez todo lo actuado.». La razón es la competencia exclusiva y excluyente del juez del concurso sobre determinadas materias conectadas con la insolvencia y la imposibilidad de mantener una tramitación autónoma incompatible con el procedimiento concursal. Por eso no procede simplemente suspender hasta el final del concurso ni continuar hasta sentencia firme en primera instancia.\nIT: La risposta corretta è «Se acumula al concurso de acreedores, continuando allí su tramitación. Se archiva el procedimiento careciendo de validez todo lo actuado.». La ragione è la competenza esclusiva ed escludente del giudice del concorso su determinate materie collegate all’insolvenza e l’impossibilità di mantenere un procedimento autonomo incompatibile con quello concorsuale. Per questo non basta sospendere fino alla fine del concorso né proseguire fino a sentenza definitiva di primo grado.",
+      "legal_reference": "Arts. 52 y ss. TRLC (jurisdicción exclusiva y excluyente del juez del concurso).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 9,
+      "source_question_number": "60",
+      "question": "¿Cuál de estas causas no da lugar a la conclusión del concurso de acreedores?",
+      "answers": [
+        {
+          "text": "Por insuficiencia de la masa activa.",
+          "correct": false
+        },
+        {
+          "text": "Por aprobación del convenio.",
+          "correct": true
+        },
+        {
+          "text": "Cuando lo soliciten la totalidad de acreedores.",
+          "correct": false
+        },
+        {
+          "text": "Cuando se comprueba el pago o consignación de la totalidad de los créditos.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «Por aprobación del convenio.». La aprobación del convenio no concluye por sí sola el concurso; lo que impone es el inicio de su cumplimiento. Sí son causas de conclusión la insuficiencia de masa activa en los términos legales, el pago o consignación íntegra de los créditos y el desistimiento o renuncia total de los acreedores reconocidos en los supuestos legalmente previstos. Por eso las otras opciones son erróneas como respuesta a la pregunta.\nIT: La risposta corretta è «Por aprobación del convenio.». L’approvazione del concordato non conclude da sola il concorso; comporta soltanto l’inizio del suo adempimento. Sono invece cause di conclusione l’insufficienza della massa attiva nei casi previsti dalla legge, il pagamento o la consignazione integrale dei crediti e la rinuncia/desistenza totale dei creditori riconosciuti nei casi previsti. Perciò le altre opzioni sono errate come risposta alla domanda.",
+      "legal_reference": "Art. 465 TRLC (causas de conclusión del concurso).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 10,
+      "source_question_number": "61",
+      "question": "La sociedad X SA se encuentra declarada en concurso voluntario de acreedores. El administrador concursal descubre que uno de los socios de la sociedad de concurso vendió unos bienes de alto valor a su administrador social, quien es también titular de la mayoría del accionariado y bien, a un precio que lesiona gravemente los intereses de la masa del concursado, a efectos de poder reintegrar las compraventas. ¿Cuál de las siguientes afirmaciones es correcta?",
+      "answers": [
+        {
+          "text": "El administrador concursal se encuentra legitimado para la compraventa si prueba el perjuicio fraudulento del administrador social.",
+          "correct": false
+        },
+        {
+          "text": "El administrador concursal solamente podrá reintegrar la compraventa si prueba el perjuicio patrimonial que ha soportado la sociedad en la masa activa.",
+          "correct": false
+        },
+        {
+          "text": "Se presume, sin admitir prueba en contrario, que ha existido perjuicio por la masa, por lo que la compraventa es reintegrable por realizarse con persona especialmente relacionada con el deudor.",
+          "correct": false
+        },
+        {
+          "text": "Se presume, salvo prueba en contrario, que ha habido perjuicio patrimonial por la masa activa del concurso.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «Se presume, salvo prueba en contrario, que ha habido perjuicio patrimonial por la masa activa del concurso.». Los actos a título oneroso realizados a favor de personas especialmente relacionadas con el deudor quedan sometidos a una presunción iuris tantum de perjuicio; no es una presunción absoluta. Por eso es errónea la opción que exige siempre prueba plena del perjuicio, y también la que habla de presunción sin admitir prueba en contrario. La otra opción es incompleta y no reproduce correctamente el régimen legal.\nIT: La risposta corretta è «Se presume, salvo prueba en contrario, que ha habido perjuicio patrimonial por la masa activa del concurso.». Gli atti a titolo oneroso compiuti a favore di persone particolarmente collegate al debitore sono soggetti a una presunzione iuris tantum di pregiudizio; non si tratta di una presunzione assoluta. Perciò è errata l’opzione che richiede sempre la prova piena del pregiudizio, ed è errata anche quella che parla di presunzione senza prova contraria. L’altra opzione è incompleta e non riproduce correttamente il regime legale.",
+      "legal_reference": "Arts. 226 y 227 TRLC (acción de reintegración y presunciones de perjuicio).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 11,
+      "source_question_number": "63",
+      "question": "La acción de reintegración se ejercita:",
+      "answers": [
+        {
+          "text": "Contra los actos de disposición patrimonial realizados por el deudor de la solicitud de concurso.",
+          "correct": false
+        },
+        {
+          "text": "Contra los actos perjudiciales contra la masa activa realizados por el deudor sin intención fraudulenta",
+          "correct": false
+        },
+        {
+          "text": "Contra los actos perjudiciales contra la masa activa realizados por el deudor con intención fraudulenta",
+          "correct": false
+        },
+        {
+          "text": "Contra los actos perjudiciales contra la masa activa realizados por el deudor con o sin intención fraudulenta",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «Contra los actos perjudiciales contra la masa activa realizados por el deudor con o sin intención fraudulenta». La acción de reintegración no exige fraude: basta el perjuicio para la masa activa dentro del período legal. Por eso son erróneas las opciones que exigen necesariamente intención fraudulenta o que la excluyen como elemento definidor exclusivo, y también la que formula de manera incompleta el objeto de la acción.\nIT: La risposta corretta è «Contra los actos perjudiciales contra la masa activa realizados por el deudor con o sin intención fraudulenta». L’azione di reintegrazione non richiede frode: basta il pregiudizio per la massa attiva nel periodo legale. Per questo sono errate le opzioni che richiedono necessariamente l’intenzione fraudolenta o che la escludono come elemento esclusivo, ed è errata anche quella che formula in modo incompleto l’oggetto dell’azione.",
+      "legal_reference": "Art. 226 TRLC (rescisión de actos perjudiciales para la masa activa aunque no exista intención fraudulenta).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 12,
+      "source_question_number": "1",
+      "question": "El concurso de acreedores es un procedimiento de:",
+      "answers": [
+        {
+          "text": "Ejecución singular",
+          "correct": false
+        },
+        {
+          "text": "Ejecución universal",
+          "correct": true
+        },
+        {
+          "text": "Ejecución real",
+          "correct": false
+        },
+        {
+          "text": "Ejecución forzosa",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «Ejecución universal». El concurso de acreedores afecta al patrimonio del deudor con vocación global y reúne a todos los acreedores, por lo que no es una ejecución singular ni una mera ejecución real o forzosa en sentido fragmentario. Las demás opciones son erróneas porque describen mecanismos parciales o genéricos, no la naturaleza propia del concurso.\nIT: La risposta corretta è «Ejecución universal». Il concorso dei creditori investe globalmente il patrimonio del debitore e riunisce tutti i creditori, quindi non è un’esecuzione singolare né una semplice esecuzione reale o forzosa in senso frammentario. Le altre opzioni sono errate perché descrivono meccanismi parziali o generici, non la natura propria del concorso.",
+      "legal_reference": "Art. 1 TRLC y principio de universalidad del concurso.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 13,
+      "source_question_number": "2",
+      "question": "El principio de la \"par conditio creditorum\" consiste en:",
+      "answers": [
+        {
+          "text": "El tratamiento en igualdad de condiciones para todos los acreedores",
+          "correct": true
+        },
+        {
+          "text": "Que los acreedores puedan percibir su crédito",
+          "correct": false
+        },
+        {
+          "text": "El establecimiento de la prelación de créditos según su calificación",
+          "correct": false
+        },
+        {
+          "text": "La compensación de créditos entre el acreedor y el deudor instado en el concurso",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «El tratamiento en igualdad de condiciones para todos los acreedores». El principio de par conditio creditorum significa precisamente el trato paritario de los acreedores, sin perjuicio de las preferencias que la ley reconoce expresamente. No significa simplemente que cobren, ni equivale a la prelación legal de créditos, ni a una compensación entre acreedor y deudor.\nIT: La risposta corretta è «El tratamiento en igualdad de condiciones para todos los acreedores». Il principio della par condicio creditorum significa proprio il trattamento paritario dei creditori, salvo le preferenze espressamente riconosciute dalla legge. Non significa semplicemente che essi possano essere pagati, né coincide con l’ordine legale dei crediti, né con la compensazione tra creditore e debitore.",
+      "legal_reference": "Principio de par conditio creditorum; arts. 269 y ss. TRLC sobre clasificación y tratamiento paritario salvo preferencias legales.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 14,
+      "source_question_number": "3",
+      "question": "Qué plazo fija el artículo 585 LC (comunicación al Juzgado de la apertura de negociaciones) para presentar el concurso caso de continuar con su situación de insolvencia:",
+      "answers": [
+        {
+          "text": "1 mes",
+          "correct": false
+        },
+        {
+          "text": "2 meses",
+          "correct": false
+        },
+        {
+          "text": "3 meses",
+          "correct": false
+        },
+        {
+          "text": "4 meses",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «4 meses». La comunicación de apertura de negociaciones otorga al deudor tres meses de protección y, si persiste la insolvencia, un mes adicional para solicitar el concurso. Por eso las opciones de uno, dos o tres meses son erróneas.\nIT: La risposta corretta è «4 meses». La comunicazione di apertura delle trattative concede al debitore tre mesi di protezione e, se l’insolvenza persiste, un ulteriore mese per chiedere il concorso. Per questo le opzioni di uno, due o tre mesi sono errate.",
+      "legal_reference": "Arts. 583 y ss. TRLC; en particular, art. 594 TRLC (tres meses de negociación más un mes para solicitar concurso si persiste la insolvencia).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 15,
+      "source_question_number": "4",
+      "question": "Cuando nos referimos al presupuesto subjetivo del concurso lo hacemos de:",
+      "answers": [
+        {
+          "text": "Quienes pueden ser declarados en concurso",
+          "correct": true
+        },
+        {
+          "text": "Los legitimados para su solicitud",
+          "correct": false
+        },
+        {
+          "text": "Su representación procesal",
+          "correct": false
+        },
+        {
+          "text": "De la insolvencia del deudor",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «Quienes pueden ser declarados en concurso». El presupuesto subjetivo se refiere a la aptitud para ser deudor concursable. No alude a la legitimación activa para solicitar el concurso, ni a la representación procesal, ni al estado de insolvencia, que pertenece al presupuesto objetivo.\nIT: La risposta corretta è «Quienes pueden ser declarados en concurso». Il presupposto soggettivo riguarda l’idoneità a essere dichiarati in concorso. Non riguarda la legittimazione a chiederlo, né la rappresentanza processuale, né lo stato d’insolvenza, che appartiene al presupposto oggettivo.",
+      "legal_reference": "Art. 1 TRLC (presupuesto subjetivo).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 16,
+      "source_question_number": "5",
+      "question": "Podrá declararse el concurso de la herencia:",
+      "answers": [
+        {
+          "text": "En tanto haya sido aceptada pura y simplemente",
+          "correct": false
+        },
+        {
+          "text": "De las yacantes",
+          "correct": true
+        },
+        {
+          "text": "De las aceptadas a beneficio de inventario",
+          "correct": true
+        },
+        {
+          "text": "Todas son ciertas",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: Esta pregunta está textualmente defectuosa. Leída literalmente, son correctas «De las yacantes» y «De las aceptadas a beneficio de inventario», porque ambas pueden ser declaradas en concurso. La opción «En tanto haya sido aceptada pura y simplemente» es errónea tal como está escrita; por ello «Todas son ciertas» también resulta errónea en su literalidad. Probablemente el texto original omitió un «no» en la primera opción, en cuyo caso la respuesta pretendida habría sido la última.\nIT: Questa domanda è testualmente difettosa. Letta alla lettera, sono corrette «De las yacantes» e «De las aceptadas a beneficio de inventario», perché entrambe possono essere dichiarate in concorso. L’opzione «En tanto haya sido aceptada pura y simplemente» è errata così come è scritta; di conseguenza anche «Todas son ciertas» è errata nella sua letteralità. Probabilmente nel testo originario manca un «no» nella prima opzione, e in quel caso la risposta voluta sarebbe stata l’ultima.",
+      "legal_reference": "Arts. 1.2 y 567 TRLC (concurso de la herencia y legitimación en caso de herencia no aceptada pura y simplemente).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 17,
+      "source_question_number": "6",
+      "question": "En el concurso necesario las facultades de administración y disposición son ejercitadas por:",
+      "answers": [
+        {
+          "text": "Los administradores sociales",
+          "correct": false
+        },
+        {
+          "text": "Los administradores concursales",
+          "correct": true
+        },
+        {
+          "text": "Los administradores sociales con la intervención de los administradores concursales",
+          "correct": false
+        },
+        {
+          "text": "Los administradores sociales o la administración concursal de forma solidaria",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «Los administradores concursales». En el concurso necesario rige, como regla general, la suspensión de las facultades de administración y disposición del deudor, que son asumidas por la administración concursal. Son erróneas las demás opciones porque describen el régimen del concurso voluntario o fórmulas no previstas como regla general.\nIT: La risposta corretta è «Los administradores concursales». Nel concorso necessario vige, come regola generale, la sospensione delle facoltà di amministrazione e disposizione del debitore, che vengono assunte dall’amministrazione concorsuale. Le altre opzioni sono errate perché descrivono il regime del concorso volontario o formule non previste come regola generale.",
+      "legal_reference": "Art. 106 TRLC (intervención o suspensión de facultades patrimoniales del deudor).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 18,
+      "source_question_number": "7",
+      "question": "Qué acreedores están excluidos de presentar concurso necesario:",
+      "answers": [
+        {
+          "text": "Los que se encuentren en situación concursal",
+          "correct": false
+        },
+        {
+          "text": "Los que se encuentren en fase de liquidación",
+          "correct": false
+        },
+        {
+          "text": "Los que hubieren adquirido el crédito por actos intervivos a título singular después de su vencimiento y dentro de los seis meses anteriores a su vencimiento",
+          "correct": true
+        },
+        {
+          "text": "Los titulares de crédito con garantía real",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «Los que hubieren adquirido el crédito por actos intervivos a título singular después de su vencimiento y dentro de los seis meses anteriores a su vencimiento». El sentido legal del precepto es excluir a quienes adquieren créditos vencidos por cesión singular poco antes de pedir el concurso necesario, para evitar usos espurios de la legitimación. Las otras opciones no figuran como exclusión legal. La redacción de la opción parece contener una errata temporal en el texto suministrado.\nIT: La risposta corretta è «Los que hubieren adquirido el crédito por actos intervivos a título singular después de su vencimiento y dentro de los seis meses anteriores a su vencimiento». Il senso della norma è escludere chi acquista crediti già scaduti per cessione singolare poco prima di chiedere il concorso necessario, per evitare usi distorti della legittimazione. Le altre opzioni non costituiscono esclusioni legali. La formulazione dell’opzione sembra contenere un errore materiale nel testo fornito.",
+      "legal_reference": "Arts. 13 y 14 TRLC (legitimación del acreedor para solicitar concurso necesario y exclusión del cesionario tardío del crédito).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 19,
+      "source_question_number": "8",
+      "question": "En la memoria que se acompaña a la solicitud del concurso deberá Incluirse:",
+      "answers": [
+        {
+          "text": "La relación de todos los bienes y derechos del deudor",
+          "correct": false
+        },
+        {
+          "text": "La historia económica y jurídica del deudor",
+          "correct": true
+        },
+        {
+          "text": "La relación de acreedores",
+          "correct": false
+        },
+        {
+          "text": "La relación de procedimientos judiciales iniciados contra el deudor",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «La historia económica y jurídica del deudor». La memoria que acompaña a la solicitud de concurso voluntario debe incluir esa historia; en cambio, la relación de bienes, la relación de acreedores y la de procedimientos judiciales se aportan en documentos distintos, no como contenido específico de la memoria. Por eso las demás opciones son erróneas.\nIT: La risposta corretta è «La historia económica y jurídica del deudor». La memoria che accompagna la domanda di concorso volontario deve includere tale storia; invece l’elenco dei beni, dei creditori e dei procedimenti giudiziari si presenta in documenti distinti, non come contenuto specifico della memoria. Per questo le altre opzioni sono errate.",
+      "legal_reference": "Arts. 6.3, 7 y 8 TRLC (documentos que acompañan a la solicitud de concurso voluntario).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 20,
+      "source_question_number": "9",
+      "question": "En los procesos concursales estarán legitimados para plantear declinatoria de incompetencia de jurisdicción:",
+      "answers": [
+        {
+          "text": "Quienes la tuvieran para su presentación",
+          "correct": true
+        },
+        {
+          "text": "El acreedor",
+          "correct": false
+        },
+        {
+          "text": "Los demás legitimados",
+          "correct": false
+        },
+        {
+          "text": "El deudor",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «Quienes la tuvieran para su presentación». La declinatoria por incompetencia en el proceso concursal sólo puede ser planteada por quienes están legitimados en los términos legales. Las demás opciones son incorrectas porque individualizan sujetos que no coinciden con el criterio legal general de legitimación.\nIT: La risposta corretta è «Quienes la tuvieran para su presentación». L’eccezione di incompetenza nel processo concorsuale può essere sollevata solo da chi è legittimato secondo la legge. Le altre opzioni sono errate perché individuano soggetti che non coincidono con il criterio generale di legittimazione previsto dalla norma.",
+      "legal_reference": "Arts. 44 y 45 TRLC (competencia y declinatoria en el proceso concursal).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 21,
+      "source_question_number": "10",
+      "question": "El nombramiento de administrador concursal se hará por el juez del concurso:",
+      "answers": [
+        {
+          "text": "A su libre elección",
+          "correct": false
+        },
+        {
+          "text": "De forma motivada en todas las casas",
+          "correct": false
+        },
+        {
+          "text": "Entre los propuestos en el listado que le serà anualmente por los Colegios profesionales",
+          "correct": false
+        },
+        {
+          "text": "Al que por turno Correlativo le corresponda según el listado de la Sección Cuarta del Registro Público Concursal",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «Al que por turno Correlativo le corresponda según el listado de la Sección Cuarta del Registro Público Concursal». La designación del administrador concursal no es libre ni depende de colegios profesionales, sino del sistema legal de turno correlativo a partir de la sección cuarta del Registro Público Concursal. Las demás opciones contradicen ese sistema.\nIT: La risposta corretta è «Al que por turno Correlativo le corresponda según el listado de la Sección Cuarta del Registro Público Concursal». La nomina dell’amministratore concorsuale non è libera né dipende dagli ordini professionali, ma dal sistema legale di turno correlativo basato sulla sezione quarta del Registro Público Concursal. Le altre opzioni contrastano con tale sistema.",
+      "legal_reference": "Art. 57 TRLC (designación del administrador concursal) y sección cuarta del Registro Público Concursal.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 22,
+      "source_question_number": "11",
+      "question": "Cuál de las siguientes respuestas sobre revocación de administradores concursales no es correcta:",
+      "answers": [
+        {
+          "text": "Tendrá efectos suspensivos",
+          "correct": true
+        },
+        {
+          "text": "Se sustanciará por el cauce del incidente",
+          "correct": false
+        },
+        {
+          "text": "No afectará a la validez de sus actuaciones",
+          "correct": false
+        },
+        {
+          "text": "Podrá ser promovida por cualquier persona legitimada para solicitar la declaración del concurso",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «Tendrá efectos suspensivos», porque es la afirmación incorrecta. La recusación del administrador concursal se tramita por incidente concursal, puede ser promovida por los legitimados para solicitar el concurso y no afecta a la validez de las actuaciones realizadas. Por ello las otras opciones son correctas y ésta es la única no correcta. Además, el enunciado parece decir “revocación”, pero el contenido corresponde realmente a la recusación.\nIT: La risposta corretta è «Tendrá efectos suspensivos», perché è l’affermazione non corretta. La ricusazione dell’amministratore concorsuale si tramita mediante incidente concorsuale, può essere promossa dai soggetti legittimati a chiedere il concorso e non incide sulla validità degli atti già compiuti. Perciò le altre opzioni sono corrette e questa è l’unica non corretta. Inoltre, il testo usa “revocación”, ma il contenuto corrisponde in realtà alla ricusazione.",
+      "legal_reference": "Régimen de recusación del administrador concursal en el TRLC; tramitación por incidente concursal y ausencia de efecto suspensivo.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 23,
+      "source_question_number": "12",
+      "question": "En el supuesto de intervención de facultades conservará el concursado capacidad para actuar en los procesos declarativos pendientes o en los nuevos que se insten:",
+      "answers": [
+        {
+          "text": "Sin necesidad de autorización de administración concursal.",
+          "correct": false
+        },
+        {
+          "text": "Con la autorización o conformidad del administrador concursal para todos los actos procesales",
+          "correct": false
+        },
+        {
+          "text": "Con la autorización o conformidad del administrador concursal para determinados actos procesales que puedan afectar a su patrimonio.",
+          "correct": true
+        },
+        {
+          "text": "Carece de capacidad procesal para actuar.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «Con la autorización o conformidad del administrador concursal para determinados actos procesales que puedan afectar a su patrimonio.». En situación de intervención, el concursado conserva capacidad procesal, pero necesita autorización o conformidad para actos concretos con incidencia patrimonial. Es erróneo afirmar que puede actuar siempre sin autorización, que necesita autorización para todos los actos procesales, o que carece totalmente de capacidad procesal.\nIT: La risposta corretta è «Con la autorización o conformidad del administrador concursal para determinados actos procesales que puedan afectar a su patrimonio.». In caso di intervento, il debitore conserva la capacità processuale, ma necessita dell’autorizzazione o del consenso per gli atti concreti che incidono sul patrimonio. È errato affermare che possa agire sempre senza autorizzazione, che abbia bisogno di autorizzazione per tutti gli atti processuali o che sia del tutto privo di capacità processuale.",
+      "legal_reference": "Arts. 106 y 119 y ss. TRLC (intervención de facultades y capacidad de actuación procesal del concursado).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 24,
+      "source_question_number": "13",
+      "question": "Qué procedimiento declarativo quedará en suspenso por el auto de declaración de concurso:",
+      "answers": [
+        {
+          "text": "Arbitrales",
+          "correct": false
+        },
+        {
+          "text": "Desahucios",
+          "correct": false
+        },
+        {
+          "text": "Resolución contractual por incumplimiento",
+          "correct": false
+        },
+        {
+          "text": "Los de ejercicio de responsabilidad contra los administradores sociales",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «Los de ejercicio de responsabilidad contra los administradores sociales». Declarado el concurso, la legitimación para determinadas acciones patrimoniales vinculadas a la sociedad concursada se desplaza a la administración concursal y el régimen procesal produce la suspensión de estas acciones. Las otras opciones no responden a ese supuesto específico de suspensión legal.\nIT: La risposta corretta è «Los de ejercicio de responsabilidad contra los administradores sociales». Dichiarato il concorso, la legittimazione per determinate azioni patrimoniali collegate alla società concorsuale si sposta all’amministrazione concorsuale e il regime processuale comporta la sospensione di tali azioni. Le altre opzioni non corrispondono a questo specifico caso di sospensione legale.",
+      "legal_reference": "Art. 132 TRLC (acciones de responsabilidad de la persona jurídica concursada contra administradores, auditores o liquidadores).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 25,
+      "source_question_number": "14",
+      "question": "Los acreedores con garantía real no podrán ejercitar ejecución forzosa sobre los bienes del concursado:",
+      "answers": [
+        {
+          "text": "Afectos a la actividad",
+          "correct": false
+        },
+        {
+          "text": "Hasta la aprobación del convenio a liquidación",
+          "correct": false
+        },
+        {
+          "text": "Hasta que transcurra un año desde la declaración del concurso sin que se hubiera producido la apertura de liquidación",
+          "correct": false
+        },
+        {
+          "text": "Todas son ciertas",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «Todas son ciertas». Los acreedores con garantía real no pueden iniciar o continuar ejecución sobre bienes necesarios para la actividad; la limitación se mantiene, con la formulación legal correspondiente, hasta que se apruebe un convenio que no impida el ejercicio separado o hasta la apertura de la liquidación, y en todo caso cesa si transcurre un año desde la declaración sin apertura de liquidación. Por ello el conjunto de afirmaciones apunta a la respuesta global. La opción b está redactada de forma defectuosa en el texto suministrado, pero su sentido es el habitual en la materia.\nIT: La risposta corretta è «Todas son ciertas». I creditori con garanzia reale non possono iniziare o proseguire l’esecuzione sui beni necessari all’attività; la limitazione si mantiene, nei termini di legge, fino all’approvazione di un concordato che non impedisca l’esercizio separato o fino all’apertura della liquidazione, e comunque cessa se trascorre un anno dalla dichiarazione senza apertura della liquidazione. Per questo l’insieme delle affermazioni conduce alla risposta globale. L’opzione b è formulata in modo difettoso nel testo fornito, ma il suo senso è quello usuale.",
+      "legal_reference": "Arts. 145 y ss. TRLC (ejecuciones de garantías reales sobre bienes necesarios para la continuidad de la actividad).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 26,
+      "source_question_number": "15",
+      "question": "Quien aprueba el Expediente de regulación de Empleo (ERE) de una sociedad en concurso:",
+      "answers": [
+        {
+          "text": "El Juzgado de lo Social",
+          "correct": false
+        },
+        {
+          "text": "La autoridad laboral",
+          "correct": false
+        },
+        {
+          "text": "El Juzgado de lo Mercantil",
+          "correct": true
+        },
+        {
+          "text": "El Juzgado de lo Social siempre que hubiera un informe favorable de la autoridad laboral.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «El Juzgado de lo Mercantil». En los apuntes del curso el tratamiento colectivo laboral en sede concursal se conecta con la competencia del juez del concurso. Por ello son erróneas las opciones que remiten al juzgado social o a la autoridad laboral. Dado que este punto ha tenido reformas legislativas, conviene estudiar siempre el régimen que siga específicamente el profesor o el material del curso.\nIT: La risposta corretta è «El Juzgado de lo Mercantil». Negli appunti del corso il trattamento collettivo dei rapporti di lavoro in sede concorsuale è collegato alla competenza del giudice del concorso. Per questo sono errate le opzioni che rinviano al giudice del lavoro o all’autorità amministrativa del lavoro. Poiché questo punto ha subito riforme legislative, conviene comunque studiare sempre il regime seguito specificamente dal docente o dal materiale del corso.",
+      "legal_reference": "Régimen laboral concursal reflejado en los apuntes del curso; remisión a los arts. 169 y ss. TRLC.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 27,
+      "source_question_number": "16",
+      "question": "Sobre los efectos de la rescisión no es cierto que:",
+      "answers": [
+        {
+          "text": "Declarar la ineficacia del acto impugnado.",
+          "correct": false
+        },
+        {
+          "text": "Condene a su restitución",
+          "correct": false
+        },
+        {
+          "text": "De apreciarse mala fe de quien contrató con el concursado le condenará a indemnizar la totalidad de los daños y perjuicios causados a la masa activa.",
+          "correct": false
+        },
+        {
+          "text": "La prestación a favor del demandado tendrá la consideración en todos los casos de crédito subordinado.",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «La prestación a favor del demandado tendrá la consideración en todos los casos de crédito subordinado.», porque esa afirmación es falsa. Tras la rescisión concursal, la ineficacia del acto lleva a la restitución; y si hay mala fe del demandado, además procede la indemnización. La contraprestación a favor del demandado no es subordinada en todos los casos: sólo lo será si concurre mala fe; si no, tendrá el tratamiento que corresponda. Por eso las otras opciones son verdaderas y ésta es la no cierta.\nIT: La risposta corretta è «La prestación a favor del demandado tendrá la consideración en todos los casos de crédito subordinado.», perché questa affermazione è falsa. Dopo la rescissione concorsuale, l’inefficacia dell’atto comporta la restituzione; e se vi è mala fede del convenuto, si aggiunge anche il risarcimento. La controprestazione a favore del convenuto non è subordinata in tutti i casi: lo è solo in presenza di mala fede; altrimenti avrà il trattamento che le spetta. Perciò le altre opzioni sono vere e questa è la non corretta.",
+      "legal_reference": "Régimen de efectos de la rescisión concursal y art. 242.11 TRLC (devolución de contraprestaciones; subordinación solo si hay mala fe).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 28,
+      "source_question_number": "17",
+      "question": "De qué plazo disponen los acreedores una vez dictado el Auto de declaración del concurso y publicado en el BOE para comunicar a los administradores concursales su crédito:",
+      "answers": [
+        {
+          "text": "Un mes",
+          "correct": true
+        },
+        {
+          "text": "Quince días",
+          "correct": false
+        },
+        {
+          "text": "Veinte días",
+          "correct": false
+        },
+        {
+          "text": "Dos meses",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «Un mes». Tras la publicación del auto de declaración en el BOE, los acreedores disponen de un mes para comunicar sus créditos a la administración concursal. Los plazos de quince días, veinte días o dos meses no son los previstos por la ley para esta comunicación ordinaria.\nIT: La risposta corretta è «Un mes». Dopo la pubblicazione dell’auto di dichiarazione nel BOE, i creditori dispongono di un mese per comunicare i loro crediti all’amministrazione concorsuale. I termini di quindici giorni, venti giorni o due mesi non sono quelli previsti dalla legge per questa comunicazione ordinaria.",
+      "legal_reference": "Art. 255 TRLC (comunicación de créditos).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 29,
+      "source_question_number": "18",
+      "question": "Cuando un acreedor comunica tardíamente su crédito el administrador concursal lo calificará de:",
+      "answers": [
+        {
+          "text": "Contingente",
+          "correct": false
+        },
+        {
+          "text": "Condicionado",
+          "correct": false
+        },
+        {
+          "text": "Subordinado",
+          "correct": true
+        },
+        {
+          "text": "Ordinario",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «Subordinado». La comunicación tardía del crédito determina, como regla general, su clasificación como subordinado, salvo las excepciones legales expresas. Por ello no pasa a ser contingente, condicionado ni ordinario por el mero retraso en la comunicación.\nIT: La risposta corretta è «Subordinado». La comunicazione tardiva del credito determina, come regola generale, la sua classificazione come subordinato, salvo le eccezioni espressamente previste dalla legge. Perciò non diventa contingente, condizionato o ordinario per il solo ritardo nella comunicazione.",
+      "legal_reference": "Art. 268 TRLC (comunicación extemporánea de créditos).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 30,
+      "source_question_number": "19",
+      "question": "Gozará de la consideración de crédito con privilegio especial:",
+      "answers": [
+        {
+          "text": "Las cantidades correspondientes a retenciones tributarias y de seguridad social debida por el concursado.",
+          "correct": false
+        },
+        {
+          "text": "El 50% del crédito del acreedor instante del concurso necesario",
+          "correct": false
+        },
+        {
+          "text": "Los créditos garantizados con prenda constituida en documento público",
+          "correct": true
+        },
+        {
+          "text": "Los créditos de responsabilidad civil extracontractual.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «Los créditos garantizados con prenda constituida en documento público». Esa garantía confiere privilegio especial sobre los bienes o derechos pignorados. Son erróneas las demás opciones porque las retenciones tributarias y de Seguridad Social son privilegio general, el 50 % del crédito del acreedor instante del concurso necesario también es privilegio general, y la responsabilidad civil extracontractual no encaja aquí como privilegio especial.\nIT: La risposta corretta è «Los créditos garantizados con prenda constituida en documento público». Tale garanzia attribuisce privilegio speciale sui beni o diritti pignorati. Le altre opzioni sono errate perché le ritenute tributarie e previdenziali sono privilegio generale, il 50% del credito del creditore istante del concorso necessario è anch’esso privilegio generale e la responsabilità civile extracontrattuale non rientra qui come privilegio speciale.",
+      "legal_reference": "Arts. 269 y 270 TRLC (clasificación y privilegio especial; prenda en documento público).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 31,
+      "source_block": 1,
+      "source_question_number": "20",
+      "question": "No es crédito subordinado",
+      "answers": [
+        {
+          "text": "La multas y demás sanciones pecuniarias",
+          "correct": false
+        },
+        {
+          "text": "Los de rescisión contractual en caso de mala fe",
+          "correct": false
+        },
+        {
+          "text": "Los comunicados tardíamente",
+          "correct": false
+        },
+        {
+          "text": "Los créditos por salarios devengados a favor del hijo del administrador social",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: El enunciado marca como correcta la opción «Los créditos por salarios devengados a favor del hijo del administrador social». La idea subyacente es que no todo crédito de persona especialmente relacionada queda necesariamente subordinado si concurre la excepción propia del crédito laboral; en cambio, las multas y sanciones pecuniarias, los créditos nacidos de rescisión con mala fe y los comunicados tardíamente se califican, en principio, como subordinados. IT: Il testo segna come corretta l’opzione «Los créditos por salarios devengados a favor del hijo del administrador social». L’idea è che non ogni credito di persona particolarmente collegata diventa necessariamente subordinato se opera l’eccezione propria del credito di lavoro; al contrario, multe e sanzioni pecuniarie, crediti derivanti da rescissione con mala fede e crediti comunicati tardivamente sono, in linea di principio, subordinati.",
+      "legal_reference": "Arts. 268, 281 y 283 TRLC.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 32,
+      "source_block": 1,
+      "source_question_number": "21",
+      "question": "Los créditos por salarios devengados en los treinta días anteriores al auto de declaración de concurso y que no superen el doble del salario mínimo profesional:",
+      "answers": [
+        {
+          "text": "Contra la masa",
+          "correct": true
+        },
+        {
+          "text": "Ordinario",
+          "correct": false
+        },
+        {
+          "text": "Privilegio especial",
+          "correct": false
+        },
+        {
+          "text": "Subordinado",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta marcada como correcta es «Contra la masa». Se trata del supuesto típico de tutela reforzada del salario más inmediato a la declaración de concurso, que la ley sitúa fuera de la masa pasiva concursal ordinaria. Las restantes opciones son erróneas porque degradan indebidamente un crédito que la ley protege con preferencia reforzada. IT: La risposta segnata come corretta è «Contra la masa». Si tratta del caso tipico di tutela rafforzata del salario maturato immediatamente prima della dichiarazione di concorso, che la legge colloca fuori dalla massa passiva concorsuale ordinaria. Le altre opzioni sono errate perché degradano indebitamente un credito cui la legge attribuisce una protezione preferenziale rafforzata.",
+      "legal_reference": "Art. 242.1 TRLC.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 33,
+      "source_block": 1,
+      "source_question_number": "22",
+      "question": "Quien está legitimado para solicitar la declaración de incumplimiento de convenia:",
+      "answers": [
+        {
+          "text": "La administración concursal",
+          "correct": false
+        },
+        {
+          "text": "El juez del concurso",
+          "correct": false
+        },
+        {
+          "text": "El acreedor afectado",
+          "correct": true
+        },
+        {
+          "text": "Cualquier acreedor de la concursada",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta marcada como correcta es «El acreedor afectado». La declaración de incumplimiento del convenio puede ser instada por quien resulte efectivamente afectado por ese incumplimiento, no por el juez de oficio ni por cualquier acreedor sin más. Las otras respuestas son erróneas porque no reflejan esa legitimación específica. IT: La risposta segnata come corretta è «El acreedor afectado». La dichiarazione di inadempimento del concordato può essere chiesta da chi risulta effettivamente inciso da tale inadempimento, non dal giudice d’ufficio né da qualsiasi creditore indistintamente. Le altre risposte sono errate perché non riflettono questa legittimazione specifica.",
+      "legal_reference": "Arts. 399 y ss. TRLC (incumplimiento del convenio).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 34,
+      "source_block": 1,
+      "source_question_number": "23",
+      "question": "La apertura de la fase de liquidación no producirá",
+      "answers": [
+        {
+          "text": "El cese de la administración concursal",
+          "correct": true
+        },
+        {
+          "text": "El vencimiento anticipado de los créditos aplazados",
+          "correct": false
+        },
+        {
+          "text": "La conversión en dinero de los créditos no dinerarios",
+          "correct": false
+        },
+        {
+          "text": "La inclusión de activos",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta marcada como correcta es «El cese de la administración concursal», precisamente porque eso es lo que la apertura de la liquidación no produce. La apertura sí provoca, en cambio, el vencimiento anticipado de créditos aplazados y la conversión en dinero de los créditos no dinerarios. IT: La risposta segnata come corretta è «El cese de la administración concursal», proprio perché è ciò che l’apertura della liquidazione non produce. L’apertura comporta invece la scadenza anticipata dei crediti dilazionati e la conversione in denaro dei crediti non pecuniari.",
+      "legal_reference": "Arts. 413 y 414 TRLC.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 35,
+      "source_block": 1,
+      "source_question_number": "24",
+      "question": "En el plan de liquidación para la enajenación de los bienes integrantes de la masa activa podrà proponerse:",
+      "answers": [
+        {
+          "text": "La venta de la unidad productiva.",
+          "correct": false
+        },
+        {
+          "text": "La venta directa",
+          "correct": false
+        },
+        {
+          "text": "La dación en pago de deuda",
+          "correct": false
+        },
+        {
+          "text": "Todas son ciertas",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta marcada como correcta es «Todas son ciertas». En el esquema concursal pueden preverse distintas formas de realización de la masa activa, incluida la venta de unidad productiva, la venta directa y, con los límites legales correspondientes, la dación en pago o para pago. IT: La risposta segnata come corretta è «Todas son ciertas». Nel sistema concorsuale possono essere previste diverse modalità di realizzo della massa attiva, inclusa la vendita dell’unità produttiva, la vendita diretta e, nei limiti legali, la datio in solutum o per pagamento.",
+      "legal_reference": "Arts. 209, 210 y 415 y ss. TRLC.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 36,
+      "source_block": 1,
+      "source_question_number": "25",
+      "question": "Constituye presunción juris e de iure para la calificación del concurso como culpable:",
+      "answers": [
+        {
+          "text": "Incumplimiento del deber de formular, auditar y depositar las cuentas anuales",
+          "correct": false
+        },
+        {
+          "text": "Incumplimiento del deber de colaboración con la administración concursal",
+          "correct": false
+        },
+        {
+          "text": "Incumplimiento sustancial de la llevanza de contabilidad",
+          "correct": false
+        },
+        {
+          "text": "Incumplimiento del deber de solicitar la declaración de concurso",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: El texto marca como correcta la opción «Incumplimiento del deber de solicitar la declaración de concurso», pero aquí el enunciado parece técnicamente defectuoso. En el régimen concursal, la falta de solicitud tempestiva del concurso encaja normalmente en las presunciones iuris tantum, no en las iuris et de iure; por eso conviene estudiar esta pregunta con cautela y contrastarla con los artículos legales. IT: Il testo segna come corretta l’opzione «Incumplimiento del deber de solicitar la declaración de concurso», ma qui il quesito appare tecnicamente difettoso. Nel regime concorsuale, la mancata richiesta tempestiva del concorso rientra di regola tra le presunzioni iuris tantum, non tra quelle iuris et de iure; perciò questa domanda va studiata con prudenza e confrontata con gli articoli di legge.",
+      "legal_reference": "Arts. 443 y 444 TRLC.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 37,
+      "source_block": 1,
+      "source_question_number": "26",
+      "question": "Cuál de las inexactitudes que se citan no revisten gravedad a efectos de calificación del concurso:",
+      "answers": [
+        {
+          "text": "Inclusión de activas inexistentes",
+          "correct": false
+        },
+        {
+          "text": "Omisión de activos significativas",
+          "correct": false
+        },
+        {
+          "text": "Omisión de créditos",
+          "correct": true
+        },
+        {
+          "text": "Aportación documentos falsos",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta marcada como correcta es «Omisión de créditos». La lógica del test es distinguir entre irregularidades gravemente distorsionadoras del activo o de la documentación y otras omisiones que, en esa formulación docente, no alcanzan la gravedad típica de la calificación culpable. Las demás opciones apuntan a supuestos de falsedad o ocultación grave. IT: La risposta segnata come corretta è «Omisión de créditos». La logica del test distingue tra irregolarità gravemente distorsive dell’attivo o della documentazione e altre omissioni che, in questa formulazione didattica, non raggiungono la gravità tipica della qualificazione colpevole. Le altre opzioni rinviano invece a ipotesi di falsità o occultamento grave.",
+      "legal_reference": "Arts. 442 y 443 TRLC.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 38,
+      "source_block": 1,
+      "source_question_number": "27",
+      "question": "La calificación como culpable del concurso inhabilitó a la persona afectada para administrar bienes ajenos durante un periodo de:",
+      "answers": [
+        {
+          "text": "De 1 a 10 años",
+          "correct": false
+        },
+        {
+          "text": "De 3 a 12 años",
+          "correct": false
+        },
+        {
+          "text": "De 4 a 10 años",
+          "correct": false
+        },
+        {
+          "text": "De 2 a 15 años",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta marcada como correcta es «De 2 a 15 años». La sentencia de calificación culpable puede imponer una inhabilitación amplia para administrar bienes ajenos y representar a cualquier persona dentro de esa horquilla temporal. Las demás opciones no coinciden con el marco temporal recogido en la normativa utilizada en el curso. IT: La risposta segnata come corretta è «De 2 a 15 años». La sentenza di qualificazione colpevole può imporre un’ampia inabilitazione ad amministrare beni altrui e a rappresentare qualsiasi persona entro tale forbice temporale. Le altre opzioni non coincidono con il quadro temporale accolto nella normativa utilizzata nel corso.",
+      "legal_reference": "Art. 455 TRLC.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 39,
+      "source_block": 1,
+      "source_question_number": "28",
+      "question": "Es causa para la conclusión del concurso:",
+      "answers": [
+        {
+          "text": "El auto firme de la audiencia provincial que revoque la declaración del concurso",
+          "correct": false
+        },
+        {
+          "text": "El incumplimiento del convenio",
+          "correct": false
+        },
+        {
+          "text": "La terminación de la fase de calificación",
+          "correct": false
+        },
+        {
+          "text": "Todas las anteriores son ciertas",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: El texto marca como correcta «Todas las anteriores son ciertas». La pregunta está formulada de manera muy esquemática y mezcla supuestos directos con otros que normalmente exigen una resolución judicial ulterior; aun así, la respuesta señalada en el material es la global. IT: Il testo segna come corretta «Todas las anteriores son ciertas». La domanda è formulata in modo molto sintetico e mescola ipotesi dirette con altre che normalmente richiedono un’ulteriore decisione giudiziale; nondimeno, la risposta indicata nel materiale è quella complessiva.",
+      "legal_reference": "Art. 465 TRLC.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 40,
+      "source_block": 1,
+      "source_question_number": "29",
+      "question": "No procederá la conclusión del concurso por insuficiencia de la masa activa cuando",
+      "answers": [
+        {
+          "text": "El juez considere que los créditos están garantizados suficientemente por un tercero",
+          "correct": false
+        },
+        {
+          "text": "Sea previsible el ejercicio de las acciones de reintegración",
+          "correct": true
+        },
+        {
+          "text": "Se esté tramitando la sección de calificación",
+          "correct": false
+        },
+        {
+          "text": "Esté pendiente de resolución demandas de exigencia de responsabilidad de terceros.",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta marcada como correcta es «Sea previsible el ejercicio de las acciones de reintegración». La idea es que no debe cerrarse el concurso por insuficiencia si todavía existen vías plausibles de recomposición patrimonial en beneficio de la masa. Técnicamente, el régimen legal también contempla otros obstáculos a esa conclusión, por lo que el enunciado simplifica un supuesto más amplio. IT: La risposta segnata come corretta è «Sea previsible el ejercicio de las acciones de reintegración». L’idea è che il concorso non debba chiudersi per insufficienza se esistono ancora strumenti plausibili di ricostituzione patrimoniale a beneficio della massa. Tecnicamente, il regime legale contempla anche altri ostacoli a tale conclusione, sicché il quesito semplifica una disciplina più ampia.",
+      "legal_reference": "Arts. 465 y 473 TRLC.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 41,
+      "source_block": 1,
+      "source_question_number": "30",
+      "question": "Se podrá solicitar la reapertura del concurso tras su conclusión por insuficiencia de la masa activa en",
+      "answers": [
+        {
+          "text": "El año siguiente",
+          "correct": true
+        },
+        {
+          "text": "a los dos años siguientes",
+          "correct": false
+        },
+        {
+          "text": "A los tres años siguientes",
+          "correct": false
+        },
+        {
+          "text": "No cabe la reapertura",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta marcada como correcta es «El año siguiente». El material docente toma como referencia la posibilidad de reapertura dentro del año siguiente a la conclusión por insuficiencia de masa activa. Las demás opciones no coinciden con ese marco temporal. IT: La risposta segnata come corretta è «El año siguiente». Il materiale didattico assume come riferimento la possibilità di riapertura entro l’anno successivo alla conclusione per insufficienza della massa attiva. Le altre opzioni non coincidono con questo termine.",
+      "legal_reference": "Arts. 501 y ss. TRLC (reapertura del concurso).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 42,
+      "source_block": 2,
+      "source_question_number": "1",
+      "question": "Ganaderías sl acumula deudas por importe de 7 millones euros posee 56 acreditadores y su activo ronda los 6,4 millones de euros y se encuentra en situación de insolvencia quiere alcanzar un acuerdo extrajudicial de pagos con sus acreedores dadas la circunstancia que le diría?",
+      "answers": [
+        {
+          "text": "qué no pueden acudir al acuerdo extrajudicial de pago ya que solo pueden presentarlo el deudor persona física natural o empresario",
+          "correct": true
+        },
+        {
+          "text": "que no puede acudir al concurso dado que reviste especial complejidad",
+          "correct": false
+        },
+        {
+          "text": "que no pueden acudir al acuerdo extrajudicial de pagos pese a disponer de activos suficientes para saficer los gastos del acuerdo",
+          "correct": false
+        },
+        {
+          "text": "que debe solicitar al notario de su domicilio social el nombramiento de un mediator",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El texto marca como correcta la primera opción, pero esta pregunta parece arrastrar una redacción confusa y un régimen hoy superado. En el sistema previo del acuerdo extrajudicial de pagos existían límites objetivos relevantes —entre ellos número de acreedores y pasivo—, por lo que conviene leer esta respuesta como una extracción fiel del archivo y no como una formulación técnicamente limpia. IT: Il testo segna come corretta la prima opzione, ma questa domanda sembra trascinare una redazione confusa e un regime oggi superato. Nel sistema previgente dell’accordo extragiudiziale di pagamenti esistevano limiti oggettivi rilevanti —tra cui numero dei creditori e passivo—, perciò questa risposta va letta come estrazione fedele del file e non come formulazione tecnicamente pulita.",
+      "legal_reference": "Régimen histórico del acuerdo extrajudicial de pagos (antiguo art. 231 LC; posteriormente TRLC antes de la reforma de la Ley 16/2022).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 43,
+      "source_block": 2,
+      "source_question_number": "2",
+      "question": "Cuando se solicitara el concurso consecutivo?",
+      "answers": [
+        {
+          "text": "cuando sea rechazado por la junta de acreedores la aprobación del convenio",
+          "correct": false
+        },
+        {
+          "text": "cuando la concursada no hubiera podido cuplir el convenio por causas ajenas a su voluntad",
+          "correct": false
+        },
+        {
+          "text": "cuando no fuera aceptado el acuerdo extrajudicial de pagos",
+          "correct": true
+        },
+        {
+          "text": "en caso de reapertura del concurso",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta marcada como correcta es «cuando no fuera aceptado el acuerdo extrajudicial de pagos». En el régimen histórico del acuerdo extrajudicial de pagos, el fracaso de ese mecanismo abría la vía del concurso consecutivo. Las demás opciones describen situaciones distintas del presupuesto típico de ese procedimiento. IT: La risposta segnata come corretta è «cuando no fuera aceptado el acuerdo extrajudicial de pagos». Nel regime storico dell’accordo extragiudiziale di pagamenti, il fallimento di tale meccanismo apriva la via al concorso consecutivo. Le altre opzioni descrivono situazioni diverse dal presupposto tipico di quel procedimento.",
+      "legal_reference": "Régimen histórico del concurso consecutivo vinculado al acuerdo extrajudicial de pagos.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 44,
+      "source_block": 2,
+      "source_question_number": "3",
+      "question": "Ferrandez sl ha conseguido que acreedores que representan 2 ⁄ 5 del pasivo apoyen el acuerdo de refinanciación que ha propuesto ¿cuales son los pasos a seguir?",
+      "answers": [
+        {
+          "text": "elevar a público el acuerdo de refinación y recabar certificación expedida por un autor de cuentas que acredite la concurrencia de las mayorías",
+          "correct": false
+        },
+        {
+          "text": "seguir negociando con sus acreedores ya que no alcanzan las mayorías exigidas para su aprobación",
+          "correct": true
+        },
+        {
+          "text": "solicitar al registrador mercantil del domicilio social el nombramiento de un experto independiente que informe del carácter razonable y realizable del plan de viabilidad",
+          "correct": false
+        },
+        {
+          "text": "procederé a solicitar la homologación judicial del acuerdo de refinancia ante el juez competente para conocer el concurso",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta marcada como correcta es «seguir negociando con sus acreedores ya que no alcanzan las mayorías exigidas para su aprobación». La lógica es que el apoyo de 2/5 del pasivo no bastaría, en ese esquema, para dar por perfeccionado el acuerdo con los efectos pretendidos. Por eso no procedería todavía elevarlo a público ni pedir homologación judicial. IT: La risposta segnata come corretta è «seguir negociando con sus acreedores ya que no alcanzan las mayorías exigidas para su aprobación». La logica è che il sostegno di 2/5 del passivo non basterebbe, in quel sistema, per considerare perfezionato l’accordo con gli effetti voluti. Per questo non procederebbe ancora né l’elevazione a pubblico né la domanda di omologazione giudiziale.",
+      "legal_reference": "Régimen histórico de los acuerdos de refinanciación; mayoría insuficiente para su aprobación u homologación.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 45,
+      "source_block": 2,
+      "source_question_number": "4",
+      "question": "Dolores y su hermano Antonio acuden a su despacho porque han aceptado la herencia de su padre fallecido y se ha encontrado con posterioridad con múltiples deudas del causante pueden presentar concurso de la herencia?",
+      "answers": [
+        {
+          "text": "no ya que la han aceptada pura y simplemente",
+          "correct": true
+        },
+        {
+          "text": "si ya que la han aceptada a beneficio del inventario",
+          "correct": false
+        },
+        {
+          "text": "su siempre que esté previsto expresamente en el testamento",
+          "correct": false
+        },
+        {
+          "text": "no salvo previa autorización judicial",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta marcada como correcta es «no ya que la han aceptada pura y simplemente». El concurso de la herencia sólo procede mientras no haya sido aceptada pura y simplemente; una vez producida esa aceptación, la herencia deja de presentarse como patrimonio separado concursable en esos términos. Las otras opciones no responden al supuesto descrito. IT: La risposta segnata come corretta è «no ya que la han aceptada pura y simplemente». Il concorso dell’eredità è possibile solo finché non sia stata accettata puramente e semplicemente; una volta avvenuta tale accettazione, l’eredità non si presenta più come patrimonio separato assoggettabile a concorso in quei termini. Le altre opzioni non corrispondono al caso descritto.",
+      "legal_reference": "Arts. 1.2 y 567 TRLC.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 46,
+      "source_block": 2,
+      "source_question_number": "5",
+      "question": "Industrias sl incurrir en impagos y en el último mes ha recibido notificaciones de varios procedimientos de ejecución quieren saber si puede paralizar dichos procedimientos acudiendo a la ley concursal",
+      "answers": [
+        {
+          "text": "solo pueden paralizarse con al presentación de la solicitud de declaración en concurso de acreedores",
+          "correct": false
+        },
+        {
+          "text": "desgraciadamente deben informarle que las ejecuciones singulares dirigidas contra el patrimonio del deudor no pueden paralizarse",
+          "correct": false
+        },
+        {
+          "text": "por la presentación de la comunicación prevista en el art. 5 bis siempre que los procedimientos de ejecución afectan a bien que se consideren necesarios para la continuidad de la actividad empresarial de la sociedad",
+          "correct": true
+        },
+        {
+          "text": "presentando la solicitud de declaración en concurso de acreedores ya que desde la interposición de la demanda se suspenden las ejecuciones",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta marcada como correcta es la relativa a la comunicación del art. 5 bis, hoy reconducida a la comunicación de apertura de negociaciones. Esa comunicación puede suspender o impedir ejecuciones sobre bienes necesarios para la continuidad de la actividad, lo que explica la corrección de la opción. Las demás respuestas desconocen ese efecto preconcursal específico o lo sitúan en un momento equivocado. IT: La risposta segnata come corretta è quella relativa alla comunicazione dell’art. 5 bis, oggi ricondotta alla comunicazione di apertura delle trattative. Tale comunicazione può sospendere o impedire esecuzioni sui beni necessari alla continuità dell’attività, il che spiega la correttezza dell’opzione. Le altre risposte ignorano questo specifico effetto preconcorsuale o lo collocano in un momento errato.",
+      "legal_reference": "Antiguo art. 5 bis LC; actualmente arts. 583, 588 y 589 TRLC.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 47,
+      "source_block": 2,
+      "source_question_number": "6",
+      "question": "El propietario de un concesionario de coches está teniendo serios problemas para cumplir con sus obligación de pago como regularmente acostumbraba y uno de sus acreedores le ha amenazado con presentar un concurso necesario podrá evitarlo con la presentación de la comunicación del art. 5 bis?",
+      "answers": [
+        {
+          "text": "efectivamente pero para su presentación deberá de disponer de activos líquidos suficientes para satisfacer los gastos propios del procedimiento",
+          "correct": false
+        },
+        {
+          "text": "efectivamente necesaria aportar y justificar documentalmente haber iniciado negociaciones con su acreedor",
+          "correct": true
+        },
+        {
+          "text": "efectivamente siempre que su pasivo no supera los 5 millones de euros",
+          "correct": false
+        },
+        {
+          "text": "afectivamente bastará la mera solicitud ante al juzgado sin más requisitos",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta marcada como correcta es «efectivamente necesaria aportar y justificar documentalmente haber iniciado negociaciones con su acreedor». La clave del régimen preconcursal no es la mera solicitud desnuda, sino la existencia de negociaciones cuya apertura se comunica al juzgado. Las demás opciones añaden requisitos no propios o eliminan indebidamente los que sí son relevantes. IT: La risposta segnata come corretta è «efectivamente necesaria aportar y justificar documentalmente haber iniciado negociaciones con su acreedor». Il punto chiave del regime preconcorsuale non è la mera istanza nuda, ma l’esistenza di trattative di cui si comunica l’apertura al giudice. Le altre opzioni aggiungono requisiti non propri o eliminano indebitamente quelli invece rilevanti.",
+      "legal_reference": "Antiguo art. 5 bis LC; actualmente arts. 583 y ss. TRLC.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 48,
+      "source_block": 2,
+      "source_question_number": "7",
+      "question": "A Felipe le debe una empresa 10.000 euros por un crédito que adquirió vencido hace más de ocho meses por cesión de un tercero. Se ha informado que su acreedora atraviesa una mala situación económica, no paga a ninguno de sus acreedores, ha despedido a sus trabajadores y está liquidando apresuradamente toda la maquinaria y existencias. ¿Podría instalar Felipe el concurso necesario?",
+      "answers": [
+        {
+          "text": "si ya que el deudor ha incuplido ha sobreseido en el pago corriente de sus obligaciones de pago con sus acreedores",
+          "correct": false
+        },
+        {
+          "text": "si porque está procediendo a la liquidación apresurada o ruinosa de sus bienes.",
+          "correct": false
+        },
+        {
+          "text": "no ya que felipe no cumple los requisitos para poder presentar tal solicitud al haber adquirido el crédito después de su vencimiento",
+          "correct": true
+        },
+        {
+          "text": "no porque felipe no ha procedido a ejecutar su crédito por consiguiente no se ha procedido a un embargo infructuoso",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: El texto marca como correcta la opción «no ya que felipe no cumple los requisitos...», pero aquí la formulación parece discutible. La exclusión legal del cesionario del crédito exige además el dato temporal de los seis meses anteriores a la solicitud; como el enunciado habla de una adquisición vencida hace más de ocho meses, la respuesta señalada por el material resulta problemática. IT: Il testo segna come corretta l’opzione «no ya que felipe no cumple los requisitos...», ma qui la formulazione appare discutibile. L’esclusione legale del cessionario del credito richiede infatti anche il dato temporale dei sei mesi anteriori alla domanda; poiché il quesito parla di un acquisto scaduto da più di otto mesi, la risposta indicata nel materiale risulta problematica.",
+      "legal_reference": "Art. 13.1 TRLC.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 49,
+      "source_block": 2,
+      "source_question_number": "8",
+      "question": "Un juez sustituto rechaza la toma de posesión en su cargo de un administrador concursal en cuál de los siguientes supuestos podría haber rechazado pese a que hubiera sido nombrado previamente por auto judicial?",
+      "answers": [
+        {
+          "text": "en el caso de que no aportase vigente un seguro de responsabilidad civil profesional",
+          "correct": true
+        },
+        {
+          "text": "en el caso de que a juicio del juez no es persona de su confianza pese a cumplir los requisitos de idoneidad y está inscrito en la sección cuarta del registro público concursal",
+          "correct": false
+        },
+        {
+          "text": "en el caso de que hubiera aceptado señalando el despacho de la localidad del asunto de competencia del juzgado pese a tener otros despachos en distintas poblaciones",
+          "correct": false
+        },
+        {
+          "text": "en el caso de que juez del juzgado se hubiera saltado la lista de la sección 4 del RP Concursal",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta marcada como correcta es «en el caso de que no aportase vigente un seguro de responsabilidad civil profesional». La aceptación del cargo exige acreditar seguro o garantía equivalente suficiente, de modo que su falta impide la efectiva toma de posesión. Las otras opciones no responden al presupuesto legal específico de aceptación. IT: La risposta segnata come corretta è «en el caso de que no aportase vigente un seguro de responsabilidad civil profesional». L’accettazione dell’incarico richiede la prova di un’assicurazione o garanzia equivalente sufficiente, sicché la sua mancanza impedisce l’effettiva assunzione dell’ufficio. Le altre opzioni non corrispondono al presupposto legale specifico di accettazione.",
+      "legal_reference": "Arts. 70 y ss. TRLC (aceptación del cargo y seguro de responsabilidad civil o garantía equivalente).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 50,
+      "source_block": 2,
+      "source_question_number": "9",
+      "question": "En cuanto a las facultades patrimoniales del deudor en un concurso voluntario?",
+      "answers": [
+        {
+          "text": "el juez en todos los casos acordara a la mera intervención",
+          "correct": false
+        },
+        {
+          "text": "el juez acordará en todos los casos la suspensión",
+          "correct": false
+        },
+        {
+          "text": "el juez podrà con carácter general acordado la mera inversión y excepcionalmente siempre que lo motive",
+          "correct": true
+        },
+        {
+          "text": "el juez no puede intervenir ni suspender las facultades patrimoniales del deudor",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta marcada como correcta es la tercera opción, pese al evidente error material «mera inversión» por «mera intervención». En el concurso voluntario la regla general es la intervención, pero el juez puede acordar excepcionalmente la suspensión si lo motiva. Las demás respuestas presentan esa regla como absoluta o niegan facultades que la ley sí reconoce al juez. IT: La risposta segnata come corretta è la terza opzione, nonostante l’evidente errore materiale «mera inversión» invece di «mera intervención». Nel concorso volontario la regola generale è l’intervento, ma il giudice può eccezionalmente disporre la sospensione se la motiva. Le altre risposte presentano tale regola come assoluta o negano poteri che la legge invece riconosce al giudice.",
+      "legal_reference": "Art. 106 TRLC.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 51,
+      "source_block": 2,
+      "source_question_number": "10",
+      "question": "Al confeccionar la masa activa y pasiva el concurso el administrador concursal se da cuenta que la concursada debe a un proveedor la suma de 8.000 euros y esté aquella la suma de 8.650 euros. ¿Qué debería hacer el administrador concursal?",
+      "answers": [
+        {
+          "text": "incluir en el inventario de la masa activa el crédito contra el proveedor y en la masa pasiva el del crédito a favor del proveedor con la calificación que corresponde",
+          "correct": true
+        },
+        {
+          "text": "compensar arribos créditos y la diferencia de 650 euro a favor del proveedor como crédito ordinario",
+          "correct": false
+        },
+        {
+          "text": "compensar ambros créditos y la diferencia de 650 euros a favor del proveedor como crédito masa",
+          "correct": false
+        },
+        {
+          "text": "incluir el crédito del proveedor en lòa masa activa y la deuda de esta no incluirá en el inventario y proceder únicamente a su reclamación",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta marcada como correcta es la primera. La lógica del test es que, salvo que concurran estrictamente los presupuestos de compensación legal ya antes de la declaración, deben reflejarse separadamente el crédito activo y el pasivo correspondiente con su calificación. Las otras opciones presuponen una compensación automática que el régimen concursal no admite sin más. IT: La risposta segnata come corretta è la prima. La logica del test è che, salvo il rigoroso concorso dei presupposti della compensazione legale già prima della dichiarazione, occorre iscrivere separatamente il credito attivo e il passivo corrispondente con la sua classificazione. Le altre opzioni presuppongono una compensazione automatica che il regime concorsuale non ammette senz’altro.",
+      "legal_reference": "Arts. 153 y 154 TRLC.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 52,
+      "source_block": 2,
+      "source_question_number": "11",
+      "question": "Un administrador concursal quiere solicitar el nombramiento de un auxiliar delegado y qué requisitos deben darse para tal nombre?",
+      "answers": [
+        {
+          "text": "que la concursada sea de mediano tamaño o grande dimension",
+          "correct": false
+        },
+        {
+          "text": "que estarnos ante varios concursos conexos en los que se haya nombrado a varios administradores concursales",
+          "correct": false
+        },
+        {
+          "text": "ci que òa concursada tena estrabelcifimientos dispersos por el territorio",
+          "correct": false
+        },
+        {
+          "text": "todas son correctas",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta marcada como correcta es «todas son correctas». El régimen de auxiliares delegados atiende precisamente a criterios de complejidad, dimensión, dispersión territorial o pluralidad de concursos conectados, que justifican el refuerzo funcional de la administración concursal. IT: La risposta segnata come corretta è «todas son correctas». Il regime degli ausiliari delegati guarda proprio a criteri di complessità, dimensione, dispersione territoriale o pluralità di concorsi connessi, che giustificano il rafforzamento funzionale dell’amministrazione concorsuale.",
+      "legal_reference": "Régimen de auxiliares delegados en el TRLC.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 53,
+      "source_block": 2,
+      "source_question_number": "12",
+      "question": "A Talleres SL le ha llegado un mail comunicando que uno de sus principales clientes ha sido declarado en concurso tras su lectura le extraña que quien se lo remite como administrador concursal fue abogado de la concursada en un procedimiento entablado contra él hace un año podrán recurrir al administrador concursal?",
+      "answers": [
+        {
+          "text": "sí siempre que su crédito representa una quinta parte del pasivo del dueros",
+          "correct": false
+        },
+        {
+          "text": "no puesto que sólo podrá plantear òa recusación cuando tuviera un crédito que representa más del 10%",
+          "correct": false
+        },
+        {
+          "text": "no puesto que los acreedores carecen de legitimación activa para plantear la solicitud de recusación",
+          "correct": false
+        },
+        {
+          "text": "sí puesto que concurre justa causa",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta marcada como correcta es «sí puesto que concurre justa causa». Haber prestado servicios profesionales al deudor dentro del período legal de incompatibilidad constituye, en principio, una causa apta para promover recusación o cuestionar el nombramiento. Las demás opciones añaden porcentajes o restricciones que no responden al sistema legal. IT: La risposta segnata come corretta è «sí puesto que concurre justa causa». Aver prestato servizi professionali al debitore entro il periodo legale di incompatibilità costituisce, in linea di principio, una causa idonea per proporre ricusazione o contestare la nomina. Le altre opzioni aggiungono percentuali o limitazioni che non corrispondono al sistema legale.",
+      "legal_reference": "Arts. 64 y 65 TRLC.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 54,
+      "source_block": 2,
+      "source_question_number": "13",
+      "question": "SV sl presenta un convenio para su  aprobación en junta de acreedo s en que propone una quinta del 48% del importe de los créditos y una espera de 7 naos que mayoría necesitará para su aprobación",
+      "answers": [
+        {
+          "text": "simple",
+          "correct": false
+        },
+        {
+          "text": "50%",
+          "correct": false
+        },
+        {
+          "text": "65%",
+          "correct": true
+        },
+        {
+          "text": "75%",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta marcada como correcta es «65%». Una propuesta con espera superior a cinco años exige una mayoría reforzada del pasivo ordinario. Por eso no basta la mayoría simple ni el 50%, y el 75% no es la cifra legal aplicable en este supuesto. IT: La risposta segnata come corretta è «65%». Una proposta con attesa superiore a cinque anni richiede una maggioranza rafforzata del passivo ordinario. Per questo non basta la maggioranza semplice né il 50%, mentre il 75% non è la soglia legale applicabile in questo caso.",
+      "legal_reference": "Arts. 376 y 377 TRLC.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 55,
+      "source_block": 2,
+      "source_question_number": "14",
+      "question": "Una empresa en concurso tiene contraída con su cliente una deuda garantizada con un préstamo hipotecario por importe de 100.000 euros la declaración del concurso suspende el devengo de intereses del préstamo hipotecario?",
+      "answers": [
+        {
+          "text": "no ya que solo lo hará una vez finalice la fase común",
+          "correct": false
+        },
+        {
+          "text": "no ya que el concurso no suspende el devengo de intereses de los créditos con garantía real",
+          "correct": true
+        },
+        {
+          "text": "si ya que desde la declaración de concurso quedará suspendido el devengo de interés tanto legales como convencionales",
+          "correct": false
+        },
+        {
+          "text": "si ya que desde la presentación demanda de solicitud de la declaración en concurso de acreedores quedará suspendido el devengo de intereses",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta marcada como correcta es «no ya que el concurso no suspende el devengo de intereses de los créditos con garantía real». La suspensión del devengo de intereses no opera en la misma medida respecto de créditos con garantía real, al menos hasta el límite de la garantía. Las otras opciones desconocen esa especialidad o sitúan el efecto en un momento inexacto. IT: La risposta segnata come corretta è «no ya que el concurso no suspende el devengo de intereses de los créditos con garantía real». La sospensione della maturazione degli interessi non opera allo stesso modo per i crediti assistiti da garanzia reale, almeno nei limiti della garanzia. Le altre opzioni ignorano questa specialità o collocano l’effetto in un momento inesatto.",
+      "legal_reference": "Art. 152 TRLC.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 56,
+      "source_block": 2,
+      "source_question_number": "15",
+      "question": "Como administrador concursal del TROPEZON SA el juzgado le ha requerido para presentar los textos definitivos cual de los que se reseñan deberá contener su informe?",
+      "answers": [
+        {
+          "text": "el análisis de la demanda de solicitud de declaración de concurso presentada por el deudor",
+          "correct": false
+        },
+        {
+          "text": "las comunicaciones posteriori de crédito presentadas",
+          "correct": false
+        },
+        {
+          "text": "memoria de las principales decisione y actuacione s de la administración concursal",
+          "correct": true
+        },
+        {
+          "text": "un plan de pagos y otro de viabilidad",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta marcada como correcta es «memoria de las principales decisione y actuacione s de la administración concursal». El informe de la administración concursal debe recoger el contenido legalmente exigido sobre inventario, lista de acreedores y actuaciones relevantes, no un análisis de la demanda inicial ni un plan de pagos o viabilidad. IT: La risposta segnata come corretta è «memoria de las principales decisione y actuacione s de la administración concursal». Il rapporto dell’amministrazione concorsuale deve contenere quanto richiesto dalla legge su inventario, elenco dei creditori e attività rilevanti, non un’analisi della domanda iniziale né un piano di pagamenti o di fattibilità.",
+      "legal_reference": "Arts. 292 y ss. TRLC.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 57,
+      "source_block": 2,
+      "source_question_number": "16",
+      "question": "En la reunión para la intervención de la empresa en la que acaban de nombrar administrador concursal el administrador social les comenta que hace ocho meses para conseguir financiación suscribieron con el banco una garantía hipotecaria sobre la nave para cubrir pólizas de crédito impagadas podría ejercitar la acción de reintegración?",
+      "answers": [
+        {
+          "text": "no porque son actos ordinarios de la actividades profesional o empresarial del deudor",
+          "correct": false
+        },
+        {
+          "text": "no porque no están dentro del periodo de rescindibilidad",
+          "correct": false
+        },
+        {
+          "text": "si porque se trata de constitucion de garantias reales a favor de obligaciones preexistentes",
+          "correct": true
+        },
+        {
+          "text": "no porque son acuerdos de refinanciación alcanzados por el deudor",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta marcada como correcta es «si porque se trata de constitucion de garantias reales a favor de obligaciones preexistentes». La constitución de garantías reales para asegurar deudas preexistentes se incluye entre los supuestos sospechosos y puede ser rescindible dentro del período legal. Las demás opciones excluyen la acción sobre bases que no se corresponden con la presunción legal de perjuicio. IT: La risposta segnata come corretta è «si porque se trata de constitucion de garantias reales a favor de obligaciones preexistentes». La costituzione di garanzie reali per assicurare debiti preesistenti rientra tra le ipotesi sospette e può essere rescindibile entro il periodo legale. Le altre opzioni escludono l’azione su basi che non corrispondono alla presunzione legale di pregiudizio.",
+      "legal_reference": "Arts. 226 y 227 TRLC.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 58,
+      "source_block": 2,
+      "source_question_number": "17",
+      "question": "FOCOS sl participa en 9% en el capital social de ENCHUFES sl declarada en concurso de acreedores. Las sociedades manejan un volumen considerable de operaciones de créditos cruzados anteriores a la declaración de concurso. ¿Cómo califica los créditos que ostente FOCOS sl frente a la concursada?",
+      "answers": [
+        {
+          "text": "como subordinados",
+          "correct": false
+        },
+        {
+          "text": "como ordinarios",
+          "correct": true
+        },
+        {
+          "text": "como créditos contra la masa",
+          "correct": false
+        },
+        {
+          "text": "como créditos contingentes",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta marcada como correcta es «como ordinarios». Al no alcanzar el umbral legal para ser considerada persona especialmente relacionada con la concursada, FOCOS sl no ve degradados automáticamente sus créditos a subordinados por esa sola razón. Las otras opciones no encajan con los datos del caso. IT: La risposta segnata come corretta è «como ordinarios». Non raggiungendo la soglia legale per essere considerata persona particolarmente collegata alla debitrice, FOCOS sl non vede automaticamente degradati i propri crediti a subordinati per questa sola ragione. Le altre opzioni non si adattano ai dati del caso.",
+      "legal_reference": "Art. 283.1.1.º TRLC.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 59,
+      "source_block": 2,
+      "source_question_number": "18",
+      "question": "Una empresa en concurso quiere presentar un convenio con dos propuestas alternativas una con una quita del 80% y una espera de 6 años y la otra con una quita del 60% y una espera de 10 años cumpliría estas propuestas de convenio con los requisitos legales?",
+      "answers": [
+        {
+          "text": "no ya que las quitas no pueden ser superior al 70%",
+          "correct": false
+        },
+        {
+          "text": "no ya que no pueden presentarse propuestas alternativas de convenio",
+          "correct": false
+        },
+        {
+          "text": "si ya que cumple con los requisitos legales",
+          "correct": true
+        },
+        {
+          "text": "sí siempre que se especifique bajo qué condiciones se da cada alternativa",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta marcada como correcta es «si ya que cumple con los requisitos legales». En el régimen actual del TRLC pueden existir propuestas alternativas y no rige ya el antiguo límite rígido de quitas; además, la espera puede alcanzar hasta diez años. Por eso las otras respuestas no reflejan el marco hoy utilizado en los materiales del curso. IT: La risposta segnata come corretta è «si ya que cumple con los requisitos legales». Nel regime attuale del TRLC possono esistere proposte alternative e non vige più l’antico limite rigido delle falcidie; inoltre, l’attesa può arrivare fino a dieci anni. Per questo le altre risposte non riflettono il quadro oggi utilizzato nei materiali del corso.",
+      "legal_reference": "Art. 317 TRLC y régimen de propuestas alternativas de convenio.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 60,
+      "source_block": 2,
+      "source_question_number": "19",
+      "question": "Puede la concursada presentar en fase comun convenio anticipado:",
+      "answers": [
+        {
+          "text": "si hasta la expiración del plazo de comunicación de créditos",
+          "correct": false
+        },
+        {
+          "text": "si desde el nombramiento de la administración concursal hasta la expedición del plazo de comunicación de créditos",
+          "correct": false
+        },
+        {
+          "text": "si desde la presentación del informe del art. 75 de la LC por parte de la administración concursal hasta la conclusión del curso",
+          "correct": false
+        },
+        {
+          "text": "si desde la solicitud del concurso voluntario o declaración del concurso necesario hasta la conclusión del concurso",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: El texto marca como correcta la opción más amplia, pero aquí también hay una evidente tensión con el régimen clásico de la propuesta anticipada de convenio, que no se extendía hasta la conclusión del concurso sin límite temporal. La extracción reproduce fielmente la marca del archivo, pero conviene estudiar esta pregunta contrastándola con la regulación específica de la propuesta anticipada. IT: Il testo segna come corretta l’opzione più ampia, ma anche qui c’è un’evidente tensione con il regime classico della proposta anticipata di concordato, che non si estendeva fino alla conclusione del concorso senza limiti temporali. L’estrazione riproduce fedelmente il segno del file, ma conviene studiare questa domanda confrontandola con la disciplina specifica della proposta anticipata.",
+      "legal_reference": "Régimen histórico de la propuesta anticipada de convenio (antigua LC; hoy TRLC con distinta sistemática).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 61,
+      "source_question_number": "20",
+      "question": "¿Qué podría incluirse en la propuesta de convenio?",
+      "answers": [
+        {
+          "text": "la enajenación de la unidad productiva siempre que se garantice el pago de todos créditos y se cuente con la autorización de los créditos con privilegio especial",
+          "correct": false
+        },
+        {
+          "text": "incluso la cesión en pago de créditos de bienes necesarios para la continuidad de la actividad",
+          "correct": false
+        },
+        {
+          "text": "proposiciones de quita o espera que estime necesarias siempre que sea viable su cumplimiento",
+          "correct": true
+        },
+        {
+          "text": "la conversión de créditos en préstamo participativos",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La pregunta está defectuosa porque, conforme al régimen concursal, la propuesta de convenio puede incluir quitas y esperas, y también fórmulas de modificación o conversión de créditos, entre ellas su transformación en préstamos participativos. Por eso son correctas tanto la opción relativa a «proposiciones de quita o espera» como la «conversión de créditos en préstamo participativos». Son erróneas las otras dos: la cesión en pago de bienes necesarios vaciaría indebidamente el convenio y la enajenación de la unidad productiva no puede formularse en los términos absolutos y condicionados que expresa la opción. \nIT: La domanda è difettosa perché, secondo il regime concorsuale, la proposta di concordato può includere riduzioni e dilazioni, ma anche formule di modifica o conversione dei crediti, compresa la trasformazione in prestiti partecipativi. Per questo sono corrette sia l’opzione sulle «proposiciones de quita o espera» sia quella sulla «conversión de créditos en préstamo participativos». Le altre due sono errate: la datio in solutum di beni necessari svuoterebbe impropriamente il concordato e la cessione dell’unità produttiva non può essere formulata nei termini assoluti e condizionati espressi dall’opzione.",
+      "legal_reference": "Arts. 317 y ss. TRLC (contenido de la propuesta de convenio).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 62,
+      "source_question_number": "21",
+      "question": "MARTINEZ SL mediante venta directa ha adquirido una unidad productiva de una empresa en liquidación concursal ¿qué efectos conlleva?",
+      "answers": [
+        {
+          "text": "que si entre los bienes de la concursada figuran afectos a privilegio especial deberá recabar previamente el consentimiento del acreedor privilegiado",
+          "correct": false
+        },
+        {
+          "text": "que con la enajenación se quedaran todas las autorizaciones administrativas",
+          "correct": false
+        },
+        {
+          "text": "que se subrogará automáticamente en la posición contractual de la concursada",
+          "correct": true
+        },
+        {
+          "text": "que deberá pagar los créditos contra la masa no satisfechos",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «que se subrogará automáticamente en la posición contractual de la concursada». En la transmisión de unidad productiva, la ley facilita la continuidad empresarial y permite la subrogación del adquirente en contratos y relaciones vinculadas a la unidad, sin necesidad de reconstruir una a una todas las posiciones jurídicas. No es correcta la necesidad general de consentimiento previo del acreedor privilegiado en los términos absolutos del enunciado; tampoco es cierto que se transmitan sin más todas las autorizaciones administrativas, ni que el adquirente deba pagar por regla general todos los créditos contra la masa insatisfechos. \nIT: La risposta corretta è «que se subrogará automáticamente en la posición contractual de la concursada». Nel trasferimento dell’unità produttiva, la legge favorisce la continuità aziendale e consente la surrogazione dell’acquirente nei contratti e nei rapporti legati all’unità, senza dover ricostruire singolarmente tutte le posizioni giuridiche. Non è corretta la necessità generale del previo consenso del creditore privilegiato nei termini assoluti dell’enunciato; non è nemmeno vero che si trasferiscano automaticamente tutte le autorizzazioni amministrative, né che l’acquirente debba pagare in via generale tutti i crediti di massa rimasti insoddisfatti.",
+      "legal_reference": "Arts. 221 a 224 TRLC (transmisión de unidad productiva y subrogación contractual).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 63,
+      "source_question_number": "22",
+      "question": "Una empresa cliente de un banco ha entrado en concurso de acreedores. El banco no quiere perderle como cliente y ha accedido a adherirse al convenio propuesto en su condición de acreedor privilegiado especial Como se determinara en este caso el cómputo de las mayorías para aprobar el convenio?",
+      "answers": [
+        {
+          "text": "en función de la proporción que representa sobre el total del pasivo los créditos con privilegio especial",
+          "correct": false
+        },
+        {
+          "text": "en función del pasivo aceptante sobre el total del pasivo con privilegio especial dentro de cada clase",
+          "correct": true
+        },
+        {
+          "text": "en función de la proporción de las garantías aceptantes sobre el valor total de las garantías otorgadas dentro de cada clase",
+          "correct": false
+        },
+        {
+          "text": "en función de la proporción que represente sobre el total del pasivo excluidos los créditos subordinados los créditos con privilegio especial",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «en función del pasivo aceptante sobre el total del pasivo con privilegio especial dentro de cada clase». Para los acreedores privilegiados, el arrastre del convenio se calcula por clases, y la mayoría se mide sobre el pasivo de la clase correspondiente, no sobre el total del pasivo del concurso ni sobre el mero valor abstracto de las garantías. Por eso las otras opciones son erróneas. \nIT: La risposta corretta è «en función del pasivo aceptante sobre el total del pasivo con privilegio especial dentro de cada clase». Per i creditori privilegiati, l’estensione vincolante del concordato si calcola per classi, e la maggioranza si misura sul passivo della classe corrispondente, non sul passivo totale del concorso né sul mero valore astratto delle garanzie. Per questo le altre opzioni sono errate.",
+      "legal_reference": "Art. 377 TRLC (cómputo de mayorías por clases para acreedores privilegiados).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 64,
+      "source_question_number": "23",
+      "question": "Rodolfo se adhirió al convenio de PEPITO sl pero no ha percibido los pagos comprometidos y acordado en el convenio que puede hacer al respecto?",
+      "answers": [
+        {
+          "text": "instar un incidente concursal reclamado las cantidades debidas",
+          "correct": true
+        },
+        {
+          "text": "instar la apertura de la fase de liquidación puesto que ha incluplido el convenio",
+          "correct": false
+        },
+        {
+          "text": "instar la apertura de la fase de calificación puesto que los administradores sociales de la concursada han actuado negligencia",
+          "correct": false
+        },
+        {
+          "text": "instar a la administración concursal para que actúe ya que acreedor no está legitimado para ejercer ninguna acción",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La opción más correcta es «instar un incidente concursal reclamado las cantidades debidas», aunque técnicamente el acreedor afectado lo que ejercita es la acción de declaración de incumplimiento del convenio por los cauces del incidente concursal. No puede pedir directamente la apertura de la liquidación como efecto automático sin pasar por esa declaración, ni la apertura de la fase de calificación por su sola apreciación de negligencia, ni depende exclusivamente de la iniciativa de la administración concursal. \nIT: L’opzione più corretta è «instar un incidente concursal reclamado las cantidades debidas», anche se tecnicamente il creditore interessato esercita l’azione di dichiarazione dell’inadempimento del concordato attraverso l’incidente concorsuale. Non può chiedere direttamente l’apertura della liquidazione come effetto automatico senza questa previa dichiarazione, né l’apertura della fase di qualificazione per una sua mera valutazione di negligenza, né dipende esclusivamente dall’iniziativa dell’amministrazione concorsuale.",
+      "legal_reference": "Arts. 403 y 404 TRLC (declaración de incumplimiento del convenio por incidente concursal).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 65,
+      "source_question_number": "24",
+      "question": "La comunidad autónoma de la región de murcia y la concursada llegaron al acuerdo por el que aquella votará a favor de la proèuesta de convenio como acreedor con privilegio general ya que ostenta el 75% de los créditos que consecuencias se derivarían en el concurso",
+      "answers": [
+        {
+          "text": "el convenio vincula exclusivamente a la comunidad autónoma de la región de murcia ya que solo vincula a los acreedores privilegiados que expresamente se adhiera a él",
+          "correct": false
+        },
+        {
+          "text": "el convenio vincula al resto de créditos públicos con privilegio general hayan votado a favor o no",
+          "correct": true
+        },
+        {
+          "text": "los acreedo privilegiados no pueden votar a favor del convenio ya que solo vincula a los acreedores ordinarios",
+          "correct": false
+        },
+        {
+          "text": "el convenio vincula al resto de créditos con privilegio general hayan votado a favor o no",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «el convenio vincula al resto de créditos públicos con privilegio general hayan votado a favor o no». La clave está en que el arrastre de acreedores privilegiados se produce por clases; tratándose de crédito público con privilegio general, la vinculación se extiende al resto de esa clase cuando se alcanza la mayoría exigida. La opción d es demasiado amplia porque se refiere a todos los créditos con privilegio general, no solo a la clase correspondiente. \nIT: La risposta corretta è «el convenio vincula al resto de créditos públicos con privilegio general hayan votado a favor o no». Il punto decisivo è che l’estensione vincolante ai creditori privilegiati opera per classi; trattandosi di credito pubblico con privilegio generale, il vincolo si estende al resto di quella classe quando si raggiunge la maggioranza richiesta. L’opzione d è troppo ampia perché si riferisce a tutti i crediti con privilegio generale, non solo alla classe corrispondente.",
+      "legal_reference": "Arts. 397 y 398 TRLC (efectos del convenio respecto de acreedores privilegiados por clases).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 66,
+      "source_question_number": "25",
+      "question": "Al juez de los mercantil le ha llegado a su mesa un plan de liquidación en el que se contempla una primera fase de venta directa de la nave libre de cargas y dación en pago de deuda de las plazas de garajes gravadas con hipoteca con vencimiento a siete meses a favor de la tesorería general de la seguridad social y subsidiariamente subasta pública de los activos. ¿Aprobará el juez el plan de liquidación planteado?",
+      "answers": [
+        {
+          "text": "sí siempre que no se hayan presentado observaciones al plan de liquidación",
+          "correct": false
+        },
+        {
+          "text": "si ya que se cumplen los requisitos establecidos en la ley concursal para la realización de las operaciones de liquidación",
+          "correct": false
+        },
+        {
+          "text": "no ya que no se pueden plantear planes de liquidación de duración superior a 6 meses",
+          "correct": false
+        },
+        {
+          "text": "no ya que no se pueden plantear cesión de bienes en pago de deuda para acreedores públicos",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «no ya que no se pueden plantear cesión de bienes en pago de deuda para acreedores públicos». La normativa concursal permite, con límites, daciones o cesiones en pago o para pago, pero excluye a los acreedores públicos. Por eso un plan que contemple dación en pago a favor de la Tesorería General de la Seguridad Social no resulta aprobable en esos términos. Las otras opciones no captan el verdadero obstáculo legal. \nIT: La risposta corretta è «no ya que no se pueden plantear cesión de bienes en pago de deuda para acreedores públicos». La normativa concorsuale consente, con limiti, la datio o cessione in pagamento o per pagamento, ma esclude i creditori pubblici. Per questo un piano che preveda una datio in pagamento a favore della Tesorería General de la Seguridad Social non è approvabile in questi termini. Le altre opzioni non individuano il vero ostacolo legale.",
+      "legal_reference": "Arts. 209 y 210 TRLC, en relación con las reglas de liquidación del TRLC.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 67,
+      "source_question_number": "26",
+      "question": "SURESTE sl en situación de insolvencia ha realizado operaciones societarias que podría dar lugar a que el concurso se calificará como culpable. ¿Cómo podría evitar la apertura de la sección sexta de calificación?",
+      "answers": [
+        {
+          "text": "solicitando la apertura de liquidación con la demanda de solicitud de declaración del concurso",
+          "correct": false
+        },
+        {
+          "text": "no podrà evitarlo ya que la sección sexta de calificación se apertura siempre que se declare el concurso de acreedores",
+          "correct": false
+        },
+        {
+          "text": "mediante la aprobación de una propuesta de convenio con una quinta inferior a un tercio del importe de los créditos o una espera inferior a tres años",
+          "correct": true
+        },
+        {
+          "text": "habiendo presentado previamente la comunicación a que se refiere al art. 5 bis de la ley",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es la opción del convenio con quita inferior a un tercio o espera inferior a tres años, porque este enunciado responde al régimen histórico de la Ley Concursal anterior, en el que la sección de calificación se abría con la liquidación o con convenios especialmente gravosos. Solicitar la liquidación produce justamente la apertura de la calificación, y ni la mera declaración del concurso ni la comunicación del art. 5 bis determinaban por sí solas la apertura automática. \nIT: La risposta corretta è l’opzione del concordato con falcidia inferiore a un terzo o dilazione inferiore a tre anni, perché questo quesito risponde al regime storico della Ley Concursal anteriore, in cui la sezione di qualificazione si apriva con la liquidazione o con concordati particolarmente gravosi. Chiedere la liquidazione provoca proprio l’apertura della qualificazione, e né la mera dichiarazione del concorso né la comunicazione dell’art. 5 bis ne determinavano da sole l’apertura automatica.",
+      "legal_reference": "Art. 167 LC (régimen anterior a la reforma; hoy superado por el TRLC).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 68,
+      "source_question_number": "27",
+      "question": "Un administrador concursal tras revisar la documentación de la concursada consta como sus administradores sociales habían procedido hacía tres años a vender fraudulentamente determinados activos de la sociedad ¿Podría el administrador concursal calificar el concurso como culpable y solicitar al juez la condena de sus administradores sociales?",
+      "answers": [
+        {
+          "text": "si porque es una de las presunciones iuris et de iure del art. 164 LC",
+          "correct": true
+        },
+        {
+          "text": "no porque no hay nexo causal entre la conducta de los administradores y la venta fraudulenta",
+          "correct": false
+        },
+        {
+          "text": "sí porque se trata de una de las presunciones iuris tantum del art. 165 LC sin perjuicio que admitirá prueba en contrario",
+          "correct": false
+        },
+        {
+          "text": "no porque el acto se realizó tres años antes de la declaración del concurso",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «si porque es una de las presunciones iuris et de iure del art. 164 LC». La salida fraudulenta de bienes integraba en la ley anterior una presunción absoluta de culpabilidad, no una mera presunción iuris tantum. La opción d solo sería atendible si además se precisara que los administradores dejaron de serlo fuera del período subjetivo legal, extremo que el enunciado no establece. \nIT: La risposta corretta è «si porque es una de las presunciones iuris et de iure del art. 164 LC». La sottrazione fraudolenta di beni integrava, nella legge anteriore, una presunzione assoluta di colpevolezza, non una mera presunzione iuris tantum. L’opzione d sarebbe rilevante solo se fosse anche precisato che gli amministratori avevano cessato la carica fuori dal periodo soggettivo previsto dalla legge, circostanza che il quesito non indica.",
+      "legal_reference": "Art. 164 LC (régimen anterior) y arts. 442-443 TRLC (equivalentes actuales sobre concurso culpable).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 69,
+      "source_question_number": "28",
+      "question": "¿Cuál de las siguientes causas no daría lugar a que el juez dictará resolución de conclusión del concurso de acreedores?",
+      "answers": [
+        {
+          "text": "cumplimiento del convenio",
+          "correct": false
+        },
+        {
+          "text": "conclusión de la fase de liquidación",
+          "correct": false
+        },
+        {
+          "text": "por desistimiento de todos los acreedores",
+          "correct": false
+        },
+        {
+          "text": "insuficiencia de la masa activa para satisfacer los créditos concursales",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «insuficiencia de la masa activa para satisfacer los créditos concursales». La ley no toma como presupuesto la insuficiencia para pagar créditos concursales, sino la insuficiencia de masa activa para satisfacer los créditos contra la masa. Las otras opciones sí pueden conducir a la conclusión del concurso en los términos legales, aunque algunas exigen matices o requisitos adicionales. \nIT: La risposta corretta è «insuficiencia de la masa activa para satisfacer los créditos concursales». La legge non prende come presupposto l’insufficienza per pagare i crediti concorsuali, ma l’insufficienza della massa attiva per soddisfare i crediti contro la massa. Le altre opzioni possono invece condurre alla chiusura del concorso nei termini di legge, anche se alcune richiedono ulteriori presupposti o precisazioni.",
+      "legal_reference": "Art. 465 TRLC (causas de conclusión del concurso).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 70,
+      "source_question_number": "29",
+      "question": "El 1/12/19 se dictó auto declarando el concurso de la mercantil el TROPEZÓN a nombrados administradores concursales. Dentro del period de comunicación de credito Francisco Sanchez les comunica que la cocnurcursas le despidio en noviembre dejandole a deber el sueldo correspondiente al mes de octubre por importe 1.000 euros que calificación tendrá este crédito?",
+      "answers": [
+        {
+          "text": "crédito contra la masa",
+          "correct": false
+        },
+        {
+          "text": "crédito ordinario",
+          "correct": false
+        },
+        {
+          "text": "crédito subordinado",
+          "correct": false
+        },
+        {
+          "text": "crédito con privilegio general",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «crédito con privilegio general». Los salarios anteriores a la declaración del concurso gozan de privilegio general, salvo el tramo muy específico de los devengados en los treinta días anteriores y con el límite legal, que son crédito contra la masa. El sueldo de octubre, en un concurso declarado el 1 de diciembre, no encaja en esa categoría reforzada del último mes. \nIT: La risposta corretta è «crédito con privilegio general». I salari anteriori alla dichiarazione di concorso godono di privilegio generale, salvo la fascia molto specifica di quelli maturati nei trenta giorni precedenti e nei limiti legali, che costituiscono credito contro la massa. Lo stipendio di ottobre, in un concorso dichiarato il 1º dicembre, non rientra in questa categoria rafforzata dell’ultimo mese.",
+      "legal_reference": "Arts. 242.1 y 280 TRLC (créditos contra la masa y privilegio general de créditos laborales).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 71,
+      "source_question_number": "30",
+      "question": "El 1/12/19 se dictó auto declarando el concurso de la mercantil el TROPEZÓN a nombrados administradores concursales. Dentro del periodo de comunicación de crédito y Ayuntamiento de Murcia les comunica que la concursa adeuda una multa por mal estacionamiento de vehículos del mes de septiembre de 2019 por importe de 90 euros. ¿Qué calificación tendrá este crédito?",
+      "answers": [
+        {
+          "text": "crédito ordinario",
+          "correct": false
+        },
+        {
+          "text": "crédito contra la masa",
+          "correct": false
+        },
+        {
+          "text": "crédito subordinado",
+          "correct": true
+        },
+        {
+          "text": "crédito con privilegio general",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «crédito subordinado». Las multas y demás sanciones pecuniarias se clasifican legalmente como créditos subordinados. No pasan a ser ordinarios, contra la masa ni privilegiados por el solo hecho de ser comunicados por una Administración pública. \nIT: La risposta corretta è «crédito subordinado». Le multe e le altre sanzioni pecuniarie sono classificate dalla legge come crediti subordinati. Non diventano ordinari, contro la massa o privilegiati per il solo fatto di essere comunicati da un’amministrazione pubblica.",
+      "legal_reference": "Art. 281 TRLC (créditos subordinados por multas y sanciones pecuniarias).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 72,
+      "source_question_number": "31",
+      "question": "Que acreedores pueden presentar concurso necesario",
+      "answers": [
+        {
+          "text": "los que se encuentran en situación concursal",
+          "correct": false
+        },
+        {
+          "text": "los que se encuentran en fase de liquidación",
+          "correct": false
+        },
+        {
+          "text": "los que hubiesen adquirido el crédito por actos inter vivos a títulos singular después de su vencimiento y dentro de los seis meses anteriores para declaración de concurso",
+          "correct": false
+        },
+        {
+          "text": "los titulares de crédito con garantía real",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «los titulares de crédito con garantía real». La legitimación para solicitar el concurso necesario corresponde en general a los acreedores, incluidos los garantizados, salvo exclusión específica del cesionario singular del crédito vencido dentro del plazo legal. Por eso la opción c es precisamente la excluida. \nIT: La risposta corretta è «los titulares de crédito con garantía real». La legittimazione a chiedere il concorso necessario spetta in generale ai creditori, compresi quelli garantiti, salvo l’esclusione specifica del cessionario singolare di un credito già scaduto entro il termine legale. Per questo l’opzione c è proprio quella esclusa.",
+      "legal_reference": "Arts. 13 y 14 TRLC (legitimación para solicitar concurso necesario).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 73,
+      "source_question_number": "32",
+      "question": "La declaración de concurso produce este efecto específico sobre los créditos",
+      "answers": [
+        {
+          "text": "se permite la compensación de créditos",
+          "correct": false
+        },
+        {
+          "text": "se siguen devengando intereses",
+          "correct": false
+        },
+        {
+          "text": "se suspende él ejercicio de derecho de retención sobre bienes y derechos integrados en la masa activa",
+          "correct": true
+        },
+        {
+          "text": "siguen corriendo los plazos de preinscripción de las acciones",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «se suspende él ejercicio de derecho de retención sobre bienes y derechos integrados en la masa activa». La declaración de concurso somete el patrimonio del deudor a un régimen colectivo y restringe facultades individuales incompatibles con esa universalidad. No se permite sin más la compensación, se suspende con carácter general el devengo de intereses salvo excepciones y no puede afirmarse sin matices que los plazos sigan corriendo como si nada hubiera sucedido. \nIT: La risposta corretta è «se suspende él ejercicio de derecho de retención sobre bienes y derechos integrados en la masa activa». La dichiarazione di concorso sottopone il patrimonio del debitore a un regime collettivo e limita le facoltà individuali incompatibili con tale universalità. Non è ammessa senz’altro la compensazione, il decorso degli interessi è in via generale sospeso salvo eccezioni e non si può dire senza precisazioni che i termini continuino a decorrere come se nulla fosse.",
+      "legal_reference": "TRLC, régimen de efectos de la declaración de concurso sobre los créditos y derechos de retención.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 74,
+      "source_question_number": "33",
+      "question": "la acción de reintegración se ejercita",
+      "answers": [
+        {
+          "text": "contra los actos de disposición patrimonial realizados por el deudor de la solicitud de concurso",
+          "correct": false
+        },
+        {
+          "text": "Contra los actos perjudiciales contra la más activa realizados por el deudor sin intención fraudulenta",
+          "correct": false
+        },
+        {
+          "text": "contra los actos perjudiciales contra la más activa realizada por el deudor con intención fraudulenta",
+          "correct": false
+        },
+        {
+          "text": "contra los actos perjudiciales contra más activa realizados por el deudor con o sin intención  fraudulenta",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es la última, porque la acción de reintegración alcanza los actos perjudiciales para la masa activa con independencia de que exista o no intención fraudulenta. El fraude no es requisito constitutivo de la rescisión concursal; lo decisivo es el perjuicio patrimonial dentro del período legal. \nIT: La risposta corretta è l’ultima, perché l’azione di reintegrazione riguarda gli atti pregiudizievoli per la massa attiva indipendentemente dall’esistenza o meno di un’intenzione fraudolenta. La frode non è requisito costitutivo della rescissione concorsuale; ciò che conta è il pregiudizio patrimoniale entro il periodo legale.",
+      "legal_reference": "Art. 226 TRLC (rescisión de actos perjudiciales para la masa activa, aunque no exista intención fraudulenta).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 75,
+      "source_question_number": "34",
+      "question": "cuál de estas circunstancias no es una presunción en la que siempre se presume perjuicio patrimonial",
+      "answers": [
+        {
+          "text": "todos los actos de disposición a título oneroso realizados a favor de alguna de las personas especialmente relacionadas con el concursado",
+          "correct": false
+        },
+        {
+          "text": "los actos de constitución de garantías reales a favor de obligaciones preexistentes o de las nuevas contraídas en sustitución de aquellas",
+          "correct": false
+        },
+        {
+          "text": "los pagos u otros actos de distinción de obligaciones en las que el acreedor tenga una garantía real y cuyo vencimiento fue en el posterior a la declaración del concurso",
+          "correct": false
+        },
+        {
+          "text": "los actos ordinarios de la actividad profesional o empresarial del deudor realizados en condiciones normales",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «los actos ordinarios de la actividad profesional o empresarial del deudor realizados en condiciones normales». Estos actos están precisamente exceptuados de la rescisión concursal. Las otras opciones sí se integran en el sistema de presunciones legales de perjuicio, absoluto o relativo según el caso. \nIT: La risposta corretta è «los actos ordinarios de la actividad profesional o empresarial del deudor realizados en condiciones normales». Tali atti sono infatti esclusi dalla rescissione concorsuale. Le altre opzioni rientrano invece nel sistema delle presunzioni legali di pregiudizio, assolute o relative a seconda dei casi.",
+      "legal_reference": "Arts. 227 a 230 TRLC (presunciones de perjuicio y actos excluidos de rescisión).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 76,
+      "source_question_number": "35",
+      "question": "Para la aprobación de la propuesta de convenio que mayorías son necesarias",
+      "answers": [
+        {
+          "text": "adhesiones que representan más del 50% del pasivo ordinario cuando la propuesta consista en quitas iguales o inferiores a la mitad del nominal del crédito o de esperas no superior a cinco años",
+          "correct": true
+        },
+        {
+          "text": "adhesiones Que representan más del 60% del pasivo ordinario  cuando la propuesta consista en quitas  iguales o inferiores a la mitad del nominal del crédito o de esperas no superior a cinco años",
+          "correct": false
+        },
+        {
+          "text": "adhesiones  que representan más  del 51% Del pasivo ordinario cuando la propuesta consista en quitas iguales o inferiores a la mitad del nominal del crédito o de esferas no superior a diez años",
+          "correct": false
+        },
+        {
+          "text": "ninguna de las anteriores es cierta",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es la opción del «más del 50% del pasivo ordinario» para quitas no superiores a la mitad o esperas no superiores a cinco años. Esa es la mayoría ordinaria prevista legalmente para el convenio concursal. Las demás cifras o combinaciones temporales del enunciado no se corresponden con el régimen legal. \nIT: La risposta corretta è l’opzione del «más del 50% del pasivo ordinario» per falcidie non superiori alla metà o dilazioni non superiori a cinque anni. Questa è la maggioranza ordinaria prevista dalla legge per il concordato concorsuale. Le altre percentuali o combinazioni temporali dell’enunciato non corrispondono al regime legale.",
+      "legal_reference": "Arts. 376 y 377 TRLC (mayorías necesarias para la aprobación del convenio).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 77,
+      "source_question_number": "36",
+      "question": "La formación de la sección sexta de calificación del concurso sólo procede",
+      "answers": [
+        {
+          "text": "en todos los supuestos de apertura de la fase de liquidación",
+          "correct": true
+        },
+        {
+          "text": "en todos los supuestos de concurso voluntario",
+          "correct": false
+        },
+        {
+          "text": "en todos los supuestos de concurso necesario",
+          "correct": false
+        },
+        {
+          "text": "en cualquier supuesto",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «en todos los supuestos de apertura de la fase de liquidación». La sección de calificación no se abre por el mero hecho de que el concurso sea voluntario o necesario, ni en cualquier caso, sino en los supuestos legalmente previstos, siendo uno de ellos la apertura de la liquidación. \nIT: La risposta corretta è «en todos los supuestos de apertura de la fase de liquidación». La sezione di qualificazione non si apre per il solo fatto che il concorso sia volontario o necessario, né in qualsiasi caso, ma solo nelle ipotesi previste dalla legge, tra cui l’apertura della liquidazione.",
+      "legal_reference": "Arts. 446 y ss. TRLC (apertura de la sección de calificación).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 78,
+      "source_question_number": "37",
+      "question": "No podrán ser administradores concursales",
+      "answers": [
+        {
+          "text": "los que hubieran prestado cualquier tipo de servicio profesional esa a la concursada o personas relacionadas con este en los últimos cinco años",
+          "correct": false
+        },
+        {
+          "text": "los que hubieran prestado cualquier tipo de servicio profesional esa a la  concursada o personas relacionadas con este en los últimos cuatro años",
+          "correct": false
+        },
+        {
+          "text": "los que hubieran prestado cualquier tipo de servicios profesionales a la  concursada o personas relacionadas con este en los últimos tres años",
+          "correct": true
+        },
+        {
+          "text": "los que hubieran prestado cualquier tipo de servicios profesionales  a la  concursada o personas relacionadas con este en los últimos dos años",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es la de «los últimos tres años». La ley impone incompatibilidad para quienes hayan prestado servicios profesionales al deudor o a personas especialmente relacionadas con él en ese plazo. Los demás horizontes temporales que ofrece el test no son los legales. \nIT: La risposta corretta è quella dei «los últimos tres años». La legge prevede l’incompatibilità per chi abbia prestato servizi professionali al debitore o a persone a lui particolarmente collegate in tale arco temporale. Gli altri limiti temporali indicati nel test non sono quelli legali.",
+      "legal_reference": "Arts. 64 y 65 TRLC (prohibiciones e incompatibilidades del administrador concursal).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 79,
+      "source_question_number": "38",
+      "question": "una vez declarado el concursos se producen estos efectos salvo uno sobre las acciones individuales",
+      "answers": [
+        {
+          "text": "el juez de lo Mercantil será ante quien se conozcan las acciones civiles",
+          "correct": false
+        },
+        {
+          "text": "si suspenden los juicios declarativos pendientes",
+          "correct": true
+        },
+        {
+          "text": "no podrán iniciarse ejecuciones y singulares",
+          "correct": false
+        },
+        {
+          "text": "no se interrumpe la prescripción",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «si suspenden los juicios declarativos pendientes», porque es la afirmación incorrecta. Con carácter general, los juicios declarativos pendientes continúan hasta sentencia firme ante el mismo tribunal, salvo supuestos específicos. En cambio, sí existe una fuerte limitación respecto de ejecuciones singulares y reglas especiales en materia de acciones individuales. \nIT: La risposta corretta è «si suspenden los juicios declarativos pendientes», perché si tratta dell’affermazione errata. In via generale, i giudizi dichiarativi pendenti proseguono fino a sentenza definitiva davanti allo stesso giudice, salvo ipotesi specifiche. Esiste invece una forte limitazione riguardo alle esecuzioni individuali e regole speciali sulle azioni individuali.",
+      "legal_reference": "TRLC, efectos de la declaración de concurso sobre acciones individuales y procesos declarativos pendientes.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 80,
+      "source_question_number": "39",
+      "question": "No es un efecto de apertura de la fase de liquidación sobre el deudor concursado",
+      "answers": [
+        {
+          "text": "el vencimiento anticipado de los créditos concursales aplazados y la conversión en dinero de aquellos que consistían en otras prestaciones",
+          "correct": false
+        },
+        {
+          "text": "si el concursado fuera persona natural se producirá la extinción del derecho de alimentos con cargo a la masa activa salvo en determinados supuestos en que fuera imprescindible",
+          "correct": false
+        },
+        {
+          "text": "si el concursado fuese persona jurídica a la resolución judicial que abre la faz de liquidación contendrá la declaración de disolución si no estuvieses acordada",
+          "correct": false
+        },
+        {
+          "text": "se mantiene el ejercicio de las facultades de administración y disposición del concursado sobre su patrimonio",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «se mantiene el ejercicio de las facultades de administración y disposición del concursado sobre su patrimonio», porque eso es precisamente lo que no ocurre. La apertura de la liquidación intensifica el desapoderamiento del deudor, produce efectos sobre alimentos en persona física y sobre la disolución en persona jurídica, además del vencimiento anticipado y la conversión en dinero de determinadas prestaciones. \nIT: La risposta corretta è «se mantiene el ejercicio de las facultades de administración y disposición del concursado sobre su patrimonio», perché è proprio ciò che non avviene. L’apertura della liquidazione intensifica lo spossessamento del debitore, produce effetti sugli alimenti della persona fisica e sulla dissoluzione della persona giuridica, oltre alla scadenza anticipata e alla conversione in denaro di determinate prestazioni.",
+      "legal_reference": "Arts. 413, 414 y 436 TRLC (efectos de la apertura de la liquidación).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 81,
+      "source_question_number": "40",
+      "question": "cual de esta respuesta no es cierta respecto a la retribución de los administradores concursales",
+      "answers": [
+        {
+          "text": "su cuantía es fijada por arancel y bebe de ser aprobada por los acreedores y ratifica por el juez de concurso",
+          "correct": true
+        },
+        {
+          "text": "Dependerá del número de acreedores y se devengará conforme se vayan cumpliendo las fases del proceso concursal",
+          "correct": false
+        },
+        {
+          "text": "podrá ser bajada su cuantía cuando se resuelva a favor del demandante impugnaciones sobre el inventario o lista de acreedores",
+          "correct": false
+        },
+        {
+          "text": "todas las anteriores son falsas y a qué se aplica directamente el  Arancel",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es la opción a, porque es la afirmación no cierta. La retribución de la administración concursal se fija con arreglo al sistema legal y al arancel, bajo control judicial, no por aprobación de los acreedores. Las otras respuestas, con sus imperfecciones de redacción, se ajustan mucho mejor al funcionamiento legal del sistema retributivo. \nIT: La risposta corretta è l’opzione a, perché è l’affermazione non vera. Il compenso dell’amministrazione concorsuale si determina secondo il sistema legale e il tariffario, sotto controllo giudiziale, non tramite approvazione dei creditori. Le altre risposte, pur con formulazioni imperfette, si avvicinano molto di più al funzionamento legale del sistema retributivo.",
+      "legal_reference": "Arts. 84 y ss. TRLC y Real Decreto 1860/2004, arancel de derechos de los administradores concursales.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 82,
+      "source_question_number": "41",
+      "question": "de acuerdo con la LC  los efectos sobre la facultades patrimoniales del deudor determinan que",
+      "answers": [
+        {
+          "text": "en caso de concurso voluntario el deudor siempre conservará las facultades de administración y disposición sobre su patrimonio",
+          "correct": false
+        },
+        {
+          "text": "la solicitud de la administración concursal y oído concursado el juez podrá acordar en cualquier momento el cambio de la situaciones de intervención o de suspensión de las facultades del deudor sobre su patrimonio",
+          "correct": true
+        },
+        {
+          "text": "el juez no podrá acordar la suspensión en caso de concurso voluntario o la mera intervención cuando se trate de concurso necesario",
+          "correct": false
+        },
+        {
+          "text": "en caso de concurso necesario siempre se suspenderá el ejercicio por el deudor de las facultades de administración y disposición sobre su patrimonio",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es la opción b. La ley permite al juez, a solicitud de la administración concursal y oyendo al concursado, modificar en cualquier momento el régimen de intervención o suspensión. Por eso no es cierto que en voluntario el deudor conserve siempre esas facultades, ni que el juez carezca de margen para modular el sistema, ni que en necesario la suspensión sea absolutamente invariable sin excepción. \nIT: La risposta corretta è l’opzione b. La legge consente al giudice, su richiesta dell’amministrazione concorsuale e sentito il debitore, di modificare in qualsiasi momento il regime di intervento o sospensione. Per questo non è vero che nel concorso volontario il debitore conservi sempre tali facoltà, né che il giudice non abbia margine per modulare il sistema, né che nel concorso necessario la sospensione sia assolutamente immutabile senza eccezioni.",
+      "legal_reference": "Art. 106 TRLC (intervención, suspensión y modificación del régimen de facultades patrimoniales).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 83,
+      "source_question_number": "42",
+      "question": "Respecto de la vigencia de los contratos con obligaciones recíprocas que respuestas no es correcta",
+      "answers": [
+        {
+          "text": "en los contratos celebrados por el deudor cuando al momento de la declaración del concurso una de las partes hubiera cumplido íntegramente sus obligaciones y la otra tuviese pendiente el cumplimiento total o parcial de las recíprocas a su cargo el crédito o la deuda que corresponde al deudor se incluirá según proceda en la más activa o pasiva de concurso",
+          "correct": false
+        },
+        {
+          "text": "la declaración de concurso por sí sola no afectará a la vigencia de los contratos con obligaciones recíprocas pendientes de cumplimiento tanto a cargo del concursado como de la otra parte",
+          "correct": false
+        },
+        {
+          "text": "las prestaciones  a las esté obligado el concursado se harán cargo a la masa pasiva",
+          "correct": true
+        },
+        {
+          "text": "se tienen por no opuestas las palabras que establezcan la facultad de resolución o la extinción del contrato por la sola  causa de declaración de concurso de cualquiera de las partes",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es la opción c, porque es la incorrecta. En los contratos con obligaciones recíprocas pendientes de cumplimiento por ambas partes, las prestaciones a cargo del concursado se satisfacen con cargo a la masa, no a la masa pasiva concursal ordinaria. Las otras afirmaciones reflejan correctamente la vigencia del contrato y la ineficacia de las cláusulas resolutorias basadas solo en la declaración de concurso. \nIT: La risposta corretta è l’opzione c, perché è quella errata. Nei contratti con obbligazioni reciproche ancora da eseguire da entrambe le parti, le prestazioni a carico del debitore si soddisfano a carico della massa, non della massa passiva concorsuale ordinaria. Le altre affermazioni riflettono correttamente la permanenza del contratto e l’inefficacia delle clausole risolutive fondate sulla sola dichiarazione di concorso.",
+      "legal_reference": "Arts. 156 y ss. TRLC (contratos con obligaciones recíprocas pendientes de cumplimiento).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 84,
+      "source_question_number": "43",
+      "question": "Declarado el concurso serán rescindibles los actos perjudiciales para la más activa realizados por el deudor dentro de dos años anteriores a la fecha de  declaración. Sin embargo no hay perjuicio patrimonial y por tanto no es rescindible uno de los siguientes actos",
+      "answers": [
+        {
+          "text": "los dispositivos a título numerosos realizados a favor de alguna de las personas especialmente relacionadas con el concursado",
+          "correct": false
+        },
+        {
+          "text": "los actos ordinarios de la actividad profesional o empresarial del deudor realizados en condiciones normales",
+          "correct": true
+        },
+        {
+          "text": "los pagos u otros actos de extinción de obligaciones que contasen con garantía leal y cuyo vencimiento fue posterior a las declaraciones de concurso",
+          "correct": false
+        },
+        {
+          "text": "la constitución de garantías reales a favor de las obligaciones preexistentes o de las nuevas contraídas en sustitución de aquellas",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «los actos ordinarios de la actividad profesional o empresarial del deudor realizados en condiciones normales». La ley los excluye de la rescisión porque no se consideran, por sí solos, perjudiciales para la masa activa. Las demás opciones están incluidas, con distinto grado de presunción, en el ámbito de los actos rescindibles. \nIT: La risposta corretta è «los actos ordinarios de la actividad profesional o empresarial del deudor realizados en condiciones normales». La legge li esclude dalla rescissione perché non sono considerati, di per sé, pregiudizievoli per la massa attiva. Le altre opzioni rientrano invece, con diverso grado di presunzione, nell’ambito degli atti rescindibili.",
+      "legal_reference": "Arts. 226 a 230 TRLC (actos rescindibles y actos excluidos).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 85,
+      "source_question_number": "44",
+      "question": "en caso de que una sociedad de concurso tuviera un activo hipotecado con cuotas de amortización impagadas la entidad hipotecante y acreedora podrá",
+      "answers": [
+        {
+          "text": "ejecutar la hipoteca en cualquier momento",
+          "correct": false
+        },
+        {
+          "text": "no podrá ejecutarla en ningún caso si se trata de bienes afectos a la actividad profesional o empresarial",
+          "correct": false
+        },
+        {
+          "text": "ejecutarla desde que hubiera transcurrido un año a contar desde la fecha de concurso sin que hubiera tenido lugar la apertura de la fase de liquidación",
+          "correct": true
+        },
+        {
+          "text": "seguir la ejecución si ya estaba iniciada antes de la declaración del concurso",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es la opción c. Sobre bienes afectos a la actividad, el acreedor con garantía real no puede ejecutar de inmediato; recupera esa posibilidad cuando transcurre un año desde la declaración de concurso sin apertura de liquidación, o antes si se abre la liquidación. Por eso no puede hacerlo «en cualquier momento» ni continuar sin más una ejecución ya iniciada. \nIT: La risposta corretta è l’opzione c. Sui beni necessari all’attività, il creditore con garanzia reale non può eseguire immediatamente; riacquista questa facoltà quando trascorre un anno dalla dichiarazione di concorso senza apertura della liquidazione, oppure prima se la liquidazione viene aperta. Per questo non può farlo «in qualsiasi momento» né proseguire automaticamente un’esecuzione già iniziata.",
+      "legal_reference": "Arts. 145 y ss. TRLC (ejecuciones de garantías reales sobre bienes afectos a la actividad).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 86,
+      "source_question_number": "45",
+      "question": "Cual de estas afirmaciones es falsa en cuanto a la presunción iuris tantum  de la calificación del concurso como culpable",
+      "answers": [
+        {
+          "text": "cuando es tanto la situación de insolvencia actual o inminente no hubiera procedido a la presentación del concurso en el plazo de dos meses desde que conoció tal situación",
+          "correct": false
+        },
+        {
+          "text": "cuando tratamos de una sociedad mercantil no hubiera sometido sus cuentas anuales a auditoría  están obligados a ello Durante en alguno de los tres últimos ejercicios sociales anteriores a la declaración del concurso",
+          "correct": false
+        },
+        {
+          "text": "cuando por declaración judicial se hubiera adicta resolución de incumplimiento de convenio tras el trámite incidental correspondiente",
+          "correct": true
+        },
+        {
+          "text": "por falta de colaboración por la administración concursal y el juez del concurso",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es la opción c, porque el incumplimiento del convenio imputable al concursado no integra una mera presunción iuris tantum, sino un supuesto más intenso en la calificación. Las demás opciones sí se insertan en el ámbito de las presunciones iuris tantum vinculadas a la culpabilidad concursal. \nIT: La risposta corretta è l’opzione c, perché l’inadempimento del concordato imputabile al debitore non integra una semplice presunzione iuris tantum, ma un’ipotesi più intensa nella qualificazione concorsuale. Le altre opzioni rientrano invece nell’ambito delle presunzioni iuris tantum legate alla colpevolezza concorsuale.",
+      "legal_reference": "Art. 444 TRLC y, en el régimen anterior, art. 165 LC; para el incumplimiento del convenio, arts. 443 y ss. TRLC.",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 87,
+      "source_question_number": "46",
+      "question": "son créditos con privilegio especial",
+      "answers": [
+        {
+          "text": "los créditos garantizados con hipoteca voluntaria o legal inmobiliaria o mobiliaria o con prenda sin desplazamiento sobre los bienes o derechos hipotecados o pignorados",
+          "correct": false
+        },
+        {
+          "text": "Los créditos garantizados con anticresis  sobre los frutos del inmueble gravado",
+          "correct": false
+        },
+        {
+          "text": "Los  créditos refaccionarios  sobre los bienes refaccionados Incluidos los de los trabajadores de sobre los objetos por ellos elaborados mientras sean propiedad o estén en posesión del concursado",
+          "correct": false
+        },
+        {
+          "text": "todas las anteriores",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es «todas las anteriores». Todas las garantías descritas son supuestos clásicos de crédito con privilegio especial, porque recaen sobre bienes o derechos concretos del patrimonio del concursado. \nIT: La risposta corretta è «todas las anteriores». Tutte le garanzie descritte sono casi classici di credito con privilegio speciale, perché gravano su beni o diritti specifici del patrimonio del debitore concorsuale.",
+      "legal_reference": "Art. 270 TRLC (créditos con privilegio especial).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 88,
+      "source_question_number": "47",
+      "question": "es créditos con privilegio general",
+      "answers": [
+        {
+          "text": "la cantidades correspondiente a retenciones tributaria y de seguridad social debidas en cumplimiento de una obligación legal",
+          "correct": true
+        },
+        {
+          "text": "los créditos garantizados con hipoteca voluntaria o legal inmobiliaria o mobiliaria o con prenda sin desplazamiento sobre los bienes hipotecados o pignorados",
+          "correct": false
+        },
+        {
+          "text": "los créditos garantizados con anticresis sobre los frutos del inmueble gravado",
+          "correct": false
+        },
+        {
+          "text": "Los créditos refaccionarios cuyo privilegio recaer sobre los bienes refaccionados",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es la opción de «las cantidades correspondiente a retenciones tributaria y de seguridad social debidas en cumplimiento de una obligación legal». Esas cantidades integran un crédito con privilegio general. Las otras tres opciones son ejemplos de privilegio especial por recaer sobre bienes concretos gravados o refaccionados. \nIT: La risposta corretta è l’opzione delle «cantidades correspondiente a retenciones tributaria y de seguridad social debidas en cumplimiento de una obligación legal». Tali somme integrano un credito con privilegio generale. Le altre tre opzioni sono invece esempi di privilegio speciale perché gravano su beni specifici ipotecati, pignorati o refazionati.",
+      "legal_reference": "Art. 280 TRLC (créditos con privilegio general).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 89,
+      "source_question_number": "48",
+      "question": "No es un crédito subordinado",
+      "answers": [
+        {
+          "text": "los créditos por recargos e intereses de cualquier clase incluidos los moratorios salvo los correspondientes a crédito con garantía real hasta donde alcance la perspectiva garantía",
+          "correct": false
+        },
+        {
+          "text": "los créditos por multas y demás sanciones pecuniarias",
+          "correct": false
+        },
+        {
+          "text": "los créditos que como consecuencia de rescisión concursal resulten a favor de quien en la sentencia haya sido declarado para de mala fe en el acto impugnado",
+          "correct": false
+        },
+        {
+          "text": "las cantidades correspondientes a retenciones tributarias y de seguridad social debidas por el concursado en cumplimiento de una obligación legal",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es la última. Las cantidades por retenciones tributarias y de Seguridad Social debidas legalmente no son subordinadas, sino privilegiadas con carácter general. En cambio, recargos e intereses, multas y créditos a favor del contratante de mala fe tras rescisión concursal sí se clasifican como subordinados. \nIT: La risposta corretta è l’ultima. Le somme dovute per ritenute tributarie e previdenziali non sono subordinate, ma privilegiate in via generale. Al contrario, sovrattasse e interessi, multe e crediti a favore del contraente in mala fede dopo rescissione concorsuale si classificano come subordinati.",
+      "legal_reference": "Arts. 280 y 281 TRLC (privilegio general y créditos subordinados).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 90,
+      "source_question_number": "49",
+      "question": "Cuál la de los créditos que se relacionan quedan exceptuado de exoneración del pasivo insatisfecho",
+      "answers": [
+        {
+          "text": "los créditos bancarios y litigiosos",
+          "correct": false
+        },
+        {
+          "text": "las deudas con garantía real a un buen ascendente dentro del límite del privilegio especial",
+          "correct": false
+        },
+        {
+          "text": "las deudas por alimentos",
+          "correct": true
+        },
+        {
+          "text": "las deudas de derecho público sea cual fuera su cuantía",
+          "correct": false
+        }
+      ],
+      "explanation": "ES: La respuesta claramente correcta es «las deudas por alimentos». Es una de las categorías expresamente exceptuadas de la exoneración del pasivo insatisfecho. La opción b aparece afectada por una redacción u OCR defectuoso; si pretendiera referirse a otra categoría legal exceptuada, el enunciado no la reproduce con claridad suficiente. La opción d es demasiado absoluta en su formulación. \nIT: La risposta chiaramente corretta è «las deudas por alimentos». Si tratta di una delle categorie espressamente escluse dall’esdebitazione. L’opzione b appare viziata da una formulazione o da un OCR difettoso; se volesse riferirsi a un’altra categoria legale esclusa, l’enunciato non la riproduce con sufficiente chiarezza. L’opzione d è troppo assoluta nella sua formulazione.",
+      "legal_reference": "Art. 489 TRLC (créditos exceptuados de la exoneración del pasivo insatisfecho).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    },
+    {
+      "extracted_index": 91,
+      "source_question_number": "50",
+      "question": "en caso de un concurso con insuficiencia de masa activa el juez procederá",
+      "answers": [
+        {
+          "text": "al nombramiento de la administrador concursal",
+          "correct": false
+        },
+        {
+          "text": "a exigir la presentación de un convenio con un plan de pagos",
+          "correct": false
+        },
+        {
+          "text": "a exigir el pago de los créditos devengados en el concurso",
+          "correct": false
+        },
+        {
+          "text": "archivos y conclusión pero tratándose de personas físicas seguirá respondiendo del pago de sus créditos",
+          "correct": true
+        }
+      ],
+      "explanation": "ES: La respuesta correcta es la última. En caso de insuficiencia de masa activa, el concurso puede concluir por esa causa; si el deudor es persona física, la conclusión no extingue automáticamente su responsabilidad por las deudas no satisfechas, salvo que proceda la exoneración legal. Por eso las otras opciones no describen el efecto legal propio de esta situación. \nIT: La risposta corretta è l’ultima. In caso di insufficienza della massa attiva, il concorso può concludersi per tale causa; se il debitore è una persona fisica, la chiusura non estingue automaticamente la sua responsabilità per i debiti non soddisfatti, salvo che operi l’esdebitazione prevista dalla legge. Per questo le altre opzioni non descrivono l’effetto legale proprio di questa situazione.",
+      "legal_reference": "Arts. 465, 473 y 485 TRLC (conclusión por insuficiencia de masa activa y efectos sobre persona física y jurídica).",
+      "original_file": "Test Mercantil III - 2 parcial AGGIORNATO 30 10 25.docx"
+    }
+  ]
+}
